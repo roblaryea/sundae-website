@@ -1,5 +1,8 @@
 'use client';
 
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
+
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
@@ -228,7 +231,7 @@ export default function ProductPage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={ui.heroBadge} title={positioning.productHeroTitle} description={ui.heroDescription}>
+      <PageHero badge={ui.heroBadge} title={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productTitle} description={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productDescription}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta("/pricing", "see_pricing_product_hero", { page: "/product" })}>{ui.heroPrimary}</Button>
           <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_product_hero", { page: "/product" })}>{ui.heroSecondary}</Button>
@@ -400,6 +403,7 @@ export default function ProductPage() {
         </div>
       </section>
 
+      <OperatorWorkflowLinks />
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Link href="/demo"><Button variant="primary" size="lg">{ui.heroSecondary}</Button></Link>
         <Link href="/product"><Button variant="outline-ink" size="lg">{ui.heroPrimary}</Button></Link>

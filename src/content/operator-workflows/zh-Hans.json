@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | 酒店与餐饮运营管理",
+    "description": "管理多门店酒店与餐饮运营的班次、人员、任务与绩效。将日常工作与决策及可度量的利润恢复挂钩。",
+    "eyebrow": "酒店与餐饮运营管理",
+    "sub": "管理每个地点的每个班次。Sundae 将排班、出勤、任务与交接与运营数据连接——让团队知道下一步该做什么，并能衡量变化。",
+    "productTitle": "一个平台。将日常工作转为可衡量决策。",
+    "productDescription": "把人员、班次执行与关联的运营数据整合为单一运营视图。Crew 帮助团队执行工作；Core 帮助他们理解绩效、决定下一步并衡量结果。",
+    "coreDescription": "面向多门店酒店与餐饮团队的决策工作空间。连接运营数据、审查证据、分配后续行动并衡量结果。",
+    "crewDescription": "面向酒店与餐饮集团的人员与日常运营。连接每个门店的排班、出勤、任务、交接、人员记录与工资准备。",
+    "productMetaTitle": "Sundae 平台 | 运营与决策智能",
+    "coreMetaTitle": "Sundae Core | 面向酒店与餐饮的决策工作空间",
+    "crewMetaTitle": "Sundae Crew | 人员与日常运营",
+    "illustrationDisclosure": "示意示例，非客户实际成果。"
+  },
+  "shared": {
+    "primaryCta": "预约演示",
+    "secondaryCta": "查看 Sundae Crew",
+    "rhythmEyebrow": "运营节奏",
+    "steps": [
+      "记录工作",
+      "传递上下文",
+      "分配下一步行动",
+      "衡量变化"
+    ],
+    "creamEyebrow": "运营层",
+    "creamStatement": "工作被记录。上下文被传递。*行动被衡量。*",
+    "creamLede": "Sundae Crew 将日常运营工作与更广平台中的决策连接起来。",
+    "problemEyebrow": "运营者面临的问题",
+    "problemTitle": "当责任不明确时，日常工作会消失。",
+    "helpEyebrow": "SundaE 如何帮助",
+    "helpTitle": "工作流与运营保持连接。",
+    "outcomesEyebrow": "变化是什么",
+    "outcomesTitle": "从工作记录到可复制的运营节奏。",
+    "faqEyebrow": "运营者常见问题",
+    "faqTitle": "在变更工作流之前的解答。",
+    "connectedEyebrow": "已连接的运营",
+    "connectedTitle": "工作流是 Sundae 运营闭环的一部分。",
+    "connectedDescription": "Crew 记录工作。Pulse 发现异常。Insights、Foresight 与 Profit Recovery 帮助团队决定下一步并衡量变化。",
+    "ctaTitle": "在你的运营中查看此工作流。",
+    "ctaDescription": "带来一个真实的运营问题。查看工作、证据与下一步行动如何保持连接。"
+  },
+  "links": {
+    "eyebrow": "日常运营",
+    "title": "从团队需要完成的工作开始。",
+    "description": "探索这些工作流，然后查看它们如何连接到更广的 Sundae 平台。",
+    "platform": "运营管理",
+    "tasks": "任务与检查表",
+    "logbook": "数字日志与班次交接",
+    "tips": "小费工作流",
+    "scheduling": "人员排班",
+    "attendance": "出勤与打卡",
+    "payroll": "工资准备",
+    "comparison": "平台评估指南"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · 酒店与餐饮运营平台",
+      "title": "覆盖每个班次与每个门店的餐厅管理软件。",
+      "description": "Sundae 将排班、出勤、任务、交接与关联运营数据整合到一个面向多门店酒店与餐饮集团的平台。以明确的责任运行日常工作，利用智能支持决策并衡量变化。",
+      "challenges": [
+        "排班、出勤、任务、交接、工资与绩效分散在不同系统，缺乏共享的运营记录。",
+        "区域负责人看到的是孤立报告，而非异常背后的上下文与负责后续行动的人员。",
+        "当团队无法比较发生了什么、发生了什么变化以及哪些措施有效时，运营改进难以复制。"
+      ],
+      "capabilities": [
+        "人员、排班与出勤工作流",
+        "任务、审批与班次交接",
+        "跨运营与绩效的关联智能",
+        "可衡量的行动与可避免利润损失的挽回"
+      ],
+      "outcomes": [
+        "运营者在品牌、门店与团队间获得统一的运营节奏。",
+        "经理可在实时上下文中采取行动，领导层可看到全集团的模式。",
+        "餐饮工作流融入整套酒店与餐饮运营使用的相同决策与恢复闭环。"
+      ],
+      "questions": [
+        {
+          "question": "什么是餐厅管理软件？",
+          "answer": "它连接用于运行餐厅门店的日常系统与工作流，包括人员、排班、任务、交接、出勤、工资准备、运营数据与绩效审查。"
+        },
+        {
+          "question": "Sundae 仅适用于餐厅吗？",
+          "answer": "Sundae 支持多门店的酒店与餐饮集团，包括餐厅、咖啡厅、云厨房与餐饮承办商。相同的运营模型将人员、日常工作流与可衡量的决策连接到整个集团。"
+        },
+        {
+          "question": "AI 在平台中扮演什么角色？",
+          "answer": "AI 嵌入于运营工作流中，帮助团队理解上下文、回答运营问题、推荐下一步行动并回顾发生了哪些变化。"
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "面向多门店运营者的餐厅管理平台 | Sundae",
+      "metaDescription": "Sundae 将排班、出勤、任务、交接与关联运营数据整合到一个面向多门店酒店与餐饮集团的平台。以明确的责任运行日常工作，利用智能支持决策并衡量变化。"
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · 餐厅任务管理",
+      "title": "能在高峰期依然可靠的餐厅任务管理。",
+      "description": "将开店、关店、定期与异常工作分配给合适人员，跟踪跨门店的完成情况，并将证据带入下一次运营决策。",
+      "challenges": [
+        "开店与关店检查表记录在纸张、聊天记录或表格中，无法事后审计。",
+        "区域经理看到任务被遗漏，却看不到谁负责、是什么阻碍了完成或问题是否重复出现。",
+        "任务完成了，但运营信号未传达至排班、经理或绩效审查。"
+      ],
+      "capabilities": [
+        "开店、关店与定期检查表",
+        "按角色、门店、品牌或区域分配",
+        "经理审批与完成证据",
+        "异常升级与跟进"
+      ],
+      "outcomes": [
+        "每项任务都有负责人、状态与可见的下一步。",
+        "经理可以比较不同班次与门店的执行模式。",
+        "完成的工作成为辅导、优先级判定与可衡量恢复的上下文。"
+      ],
+      "questions": [
+        {
+          "question": "什么是餐厅任务管理软件？",
+          "answer": "它为餐厅团队提供共享方式来分配、完成、审批与审查日常运营工作，如开店、关店、安全、维护与服务检查表。"
+        },
+        {
+          "question": "任务管理可以跨多门店工作吗？",
+          "answer": "Sundae Crew 针对角色、门店、品牌与区域的所有权进行设计，使运营者能在标准化工作同时保持本地问责可见。"
+        },
+        {
+          "question": "任务管理如何与餐厅绩效连接？",
+          "answer": "任务状态与证据可以成为经理跟进、异常审查与通过 Sundae 运营闭环测量决策的运营上下文。"
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · 运营管理",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "餐厅任务管理软件 | Sundae",
+      "metaDescription": "将开店、关店、定期与异常工作分配给合适人员，跟踪跨门店的完成情况，并将证据带入下一次运营决策。"
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · 日志与班次交接",
+      "title": "适用于每个班次的数字餐厅日志。",
+      "description": "将经理备注、班次交接、问题与跟进保存在一个可搜索的运营记录中，让下一班团队带着上下文而非猜测开始工作。",
+      "challenges": [
+        "重要的交接细节消失在纸质日志、群聊或个别经理记忆中。",
+        "相同的维护、服务或人员问题重复发生，因为没人能找到此前的上下文。",
+        "记录了备注，但没有负责人、任务或可衡量的结果将其延续。"
+      ],
+      "capabilities": [
+        "班次备注与经理交接",
+        "问题、警报与跟进记录",
+        "跨门店的可搜索历史",
+        "将备注关联到任务、负责人与运营上下文"
+      ],
+      "outcomes": [
+        "每个班次都从经理所需的上下文开始。",
+        "区域团队能发现重复问题，而不是把每个班次当作新事件。",
+        "沟通成为支持行动、辅导与可衡量改进的记录。"
+      ],
+      "questions": [
+        {
+          "question": "什么是数字餐厅日志？",
+          "answer": "它是一个共享的运营记录，用于记录班次备注、交接、问题、经理更新与跨一个或多个餐厅门店的后续跟进。"
+        },
+        {
+          "question": "餐厅班次交接应包含哪些内容？",
+          "answer": "有用的交接记录发生了什么、需要关注的事项、谁负责下一步行动以及到岗团队在服务前应知道的事项。"
+        },
+        {
+          "question": "日志可以与餐厅任务管理连接吗？",
+          "answer": "可以。Sundae 的运营模型将沟通与跟进连接，使备注能衍生为已分配的任务、审批或结果审查。"
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "任务与检查表",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · 运营管理",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "数字餐厅日志与班次交接 | Sundae",
+      "metaDescription": "将经理备注、班次交接、问题与跟进保存在一个可搜索的运营记录中，让下一班团队带着上下文而非猜测开始工作。"
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · 小费工作流",
+      "title": "可供审查的餐厅小费工作流。",
+      "description": "将小费规则、员工上下文、审查步骤与工资准备整合到一个经理与工资团队都能解释的工作流中。",
+      "challenges": [
+        "小费计算依赖规则、角色、门店与数据来源，常需手动对账。",
+        "经理与工资团队需要在不丢失底层证据的情况下审查异常。",
+        "团队可能在工资周期结束后仍不清楚哪些排班、出勤或服务模式改变了结果。"
+      ],
+      "capabilities": [
+        "可配置的小费池与分配工作流",
+        "按角色、门店与工资期的审查上下文",
+        "异常审批与证据采集",
+        "工资准备交接与人员情报"
+      ],
+      "outcomes": [
+        "小费工作流在交接前可被审查并解释。",
+        "经理与工资团队共享同一异常运营记录。",
+        "人员与出勤信号能为工资周期后的决策提供依据。"
+      ],
+      "questions": [
+        {
+          "question": "什么是餐厅小费管理软件？",
+          "answer": "它支持管理跨餐厅角色、门店与工资期的小费所需的规则、计算、审查步骤与交接。"
+        },
+        {
+          "question": "小费管理需要与工资连接吗？",
+          "answer": "当小费的审查与证据能直接进入工资准备或交接给合作方而无需在另一个表格中重做工作时，小费工作流最有价值。"
+        },
+        {
+          "question": "Sundae 如何将小费工作流与运营连接？",
+          "answer": "Crew 将小费与人员工作流连接到排班、出勤、工资准备及更广的决策智能层，使团队能审查发生了什么变化及原因。"
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · 工资准备",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "出勤与打卡",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "劳动力智能",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "餐厅小费管理软件 | Sundae Crew",
+      "metaDescription": "将小费规则、员工上下文、审查步骤与工资准备整合到一个经理与工资团队都能解释的工作流中。"
+    }
+  },
+  "comparison": {
+    "eyebrow": "平台评估指南",
+    "title": "在评估 Restaurant365 替代方案时？从运营模型开始。",
+    "description": "Restaurant365 是一款餐厅管理平台。Sundae 将运营管理与决策智能带给多门店的酒店与餐饮集团。比较团队所需的工作流、保留的系统以及如何衡量结果。",
+    "primaryCta": "比较你的运营模型",
+    "secondaryCta": "探索 Sundae 的运营平台",
+    "criteriaEyebrow": "向每个平台提出相同问题",
+    "criteriaTitle": "比较对你的运营重要的工作流。",
+    "columns": [
+      "评估领域",
+      "需回答的问题",
+      "Sundae 能力"
+    ],
+    "criteria": [
+      [
+        "日常运营",
+        "经理能否分配工作、管理交接、审查异常并将上下文带入下一班次？",
+        "Sundae Crew、任务管理、数字日志与 Pulse"
+      ],
+      [
+        "人员运营",
+        "排班、出勤、人事、工资准备与小费工作流如何连接到运营全景？",
+        "Sundae Crew · 劳动力智能"
+      ],
+      [
+        "决策支持",
+        "平台能否帮助团队理解发生了什么变化、为何重要及下一步该做什么？",
+        "Ask Sundae、Insights、Foresight 与 Watchtower"
+      ],
+      [
+        "可衡量的结果",
+        "运营者能否记录行动、分配责任并将结果与基线进行比较？",
+        "Core 与 Profit Recovery"
+      ],
+      [
+        "区域适配性",
+        "运营模型能否支持范围内的国家、合作伙伴、法定工作流与本地流程？",
+        "根据实际部署计划审查 Crew 的区域包、导出与合作方交接"
+      ],
+      [
+        "平台边界",
+        "哪些系统仍为会计、POS、工资、库存及其他记录的权威？",
+        "在选择平台前记录集成与主记录系统模型"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "什么是 Restaurant365？",
+        "body": "Restaurant365 将其平台描述为面向餐厅的一体化产品，涵盖会计、运营、人员与 AI。在对比适配性前，请直接阅读其当前的产品信息。"
+      },
+      {
+        "title": "评估 Restaurant365 替代方案应看哪些方面？",
+        "body": "比较日常运营工作流、主记录系统边界、人员功能深度、区域需求、集成、决策支持以及行动执行后如何被衡量。"
+      },
+      {
+        "title": "Sundae 的定位是什么？",
+        "body": "Sundae 在多门店酒店与餐饮集团中连接人员、日常工作流、运营数据与可衡量的决策。Crew 管理人员与日常执行；Core 将证据、决策与结果带入统一的运营视图。"
+      }
+    ],
+    "sourcesEyebrow": "主要来源",
+    "sourcesTitle": "阅读产品定义，然后根据你的运营进行测试。",
+    "sourcesDescription": "将 Restaurant365 的当前产品信息与 Sundae 的描述并列使用。与实际使用平台的人员一起验证工作流深度、区域要求与集成边界。",
+    "sourceLabels": [
+      "Restaurant365 AI 信息",
+      "Restaurant365 人员",
+      "Restaurant365 日志"
+    ],
+    "ctaTitle": "带上你的运营模型。",
+    "ctaDescription": "在每个门店映射你的团队所需的工作流、系统与结果衡量方式。",
+    "ctaLabel": "预约工作会议",
+    "metaTitle": "面向多门店运营者的 Restaurant365 替代方案 | Sundae",
+    "metaDescription": "按日常工作流、人员运营、区域要求、集成与决策支持比较 Restaurant365 替代方案。"
+  }
+}

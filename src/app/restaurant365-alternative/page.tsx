@@ -1,31 +1,14 @@
-import Link from 'next/link'
 import { Button } from '@/components/ui/Button'
 
-const questions = [
-  {
-    title: 'What is Restaurant365?',
-    body: 'Restaurant365 describes its platform as restaurant-specific and all-in-one, spanning accounting, operations, workforce and AI. Read its current product information directly before comparing fit.',
-  },
-  {
-    title: 'What should a Restaurant365 alternative be evaluated on?',
-    body: 'Compare the daily operating workflows, system-of-record boundaries, workforce depth, regional requirements, integrations, decision support and the way an action is measured after it is taken.',
-  },
-  {
-    title: 'Where does Sundae fit?',
-    body: 'Sundae is an operating platform with decision intelligence for multi-location hospitality and food-service operators. Restaurant management pages are search entry points into a broader platform that connects workflows, evidence, action and measured recovery.',
-  },
-]
+import { cookies } from 'next/headers'
+import { getLocalizedPathname, resolveWebsiteLocale } from '@/lib/i18n'
+import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
 
-const criteria = [
-  ['Daily operations', 'Can managers assign work, manage handovers, review exceptions and carry context into the next shift?', 'Sundae Crew, task management, digital logbook and Pulse'],
-  ['Workforce operations', 'How do scheduling, attendance, HR, payroll readiness and tip workflows connect to the operating picture?', 'Sundae Crew and Workforce Intelligence'],
-  ['Decision support', 'Does the platform help the team understand what changed, why it matters and what to do next?', 'Ask Sundae, Insights, Foresight and Watchtower'],
-  ['Measured outcomes', 'Can the operator record an action, assign ownership and compare the outcome with a baseline?', 'Core and Profit Recovery'],
-  ['Regional fit', 'Can the operating model support the countries, partners, statutory workflows and local processes in scope?', 'Review Crew’s region packs, exports and partner handoffs against the actual rollout plan'],
-  ['Platform boundary', 'Which systems remain authoritative for accounting, POS, payroll, inventory and other records?', 'Document the integration and system-of-record model before choosing a platform'],
-]
-
-export default function Restaurant365AlternativePage() {
+export default async function Restaurant365AlternativePage() {
+  const locale = resolveWebsiteLocale(await cookies())
+  const copy = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].comparison
+  const { questions, criteria } = copy
+  const href = (path: string) => getLocalizedPathname(path, locale)
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -37,34 +20,45 @@ export default function Restaurant365AlternativePage() {
   }
 
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)]">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <div className="min-h-screen overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)]">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
       <section className="relative overflow-hidden px-4 pb-20 pt-32 sm:px-6 lg:px-8">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1C47FF]/20 via-transparent to-[#FF5C4D]/10" aria-hidden />
         <div className="relative z-10 mx-auto max-w-5xl">
-          <p className="eyebrow mb-5">PLATFORM EVALUATION GUIDE</p>
-          <h1 className="hero-h1 max-w-4xl text-balance">Evaluating a Restaurant365 alternative? Start with the operating model.</h1>
+          <p className="eyebrow mb-5">{copy.eyebrow}</p>
+          <h1 className="hero-h1 max-w-4xl text-balance">{copy.title}</h1>
           <p className="body-xl mt-7 max-w-3xl text-[var(--text-supporting)]">
-            Restaurant365 is a well-known restaurant management platform. Sundae is an operating platform with decision intelligence for multi-location hospitality and food-service operators. The right comparison depends on what your team needs to run every shift and measure what changed afterwards.
+            {copy.description}
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <Link href="/demo"><Button variant="primary" size="lg">Compare your operating model</Button></Link>
-            <Link href="/restaurant-management-platform"><Button variant="outline-light" size="lg">See Sundae’s platform entry point</Button></Link>
+            <Button href={href('/demo')} variant="primary" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="platform_comparison_hero" trackingMetadata={{ destination: href('/demo') }}>{copy.primaryCta}</Button>
+            <Button href={href('/restaurant-management-platform')} variant="outline-light" size="lg" className="max-w-full whitespace-normal! text-center break-words">{copy.secondaryCta}</Button>
           </div>
         </div>
       </section>
 
       <section className="border-y border-[var(--border-default)] bg-white/[0.02] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
-          <p className="eyebrow mb-4">USE THE SAME QUESTIONS FOR EVERY PLATFORM</p>
-          <h2 className="section-h2 mb-8 max-w-3xl">A useful comparison is about operating fit, not feature-count theatre.</h2>
-          <div className="overflow-x-auto rounded-2xl border border-[var(--border-default)]">
-            <table className="min-w-[760px] w-full border-collapse text-left">
+          <p className="eyebrow mb-4">{copy.criteriaEyebrow}</p>
+          <h2 className="section-h2 mb-8 max-w-3xl">{copy.criteriaTitle}</h2>
+          <dl className="divide-y divide-[var(--border-default)] border-y border-[var(--border-default)] md:hidden">
+            {criteria.map(([area, question, surface]) => (
+              <div key={area} className="py-6">
+                <dt className="mb-3 text-lg font-semibold">{area}</dt>
+                <dd className="space-y-4 text-[var(--text-supporting)]">
+                  <p>{question}</p>
+                  <p><span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-[var(--text-primary)]">{copy.columns[2]}</span>{surface}</p>
+                </dd>
+              </div>
+            ))}
+          </dl>
+          <div className="hidden overflow-x-auto rounded-2xl border border-[var(--border-default)] md:block">
+            <table className="min-w-[760px] w-full border-collapse text-start">
               <thead className="bg-white/[0.04]">
                 <tr>
-                  <th className="p-5 text-sm font-semibold">Evaluation area</th>
-                  <th className="p-5 text-sm font-semibold">Question to answer</th>
-                  <th className="p-5 text-sm font-semibold">Sundae surface</th>
+                  <th className="p-5 text-sm font-semibold">{copy.columns[0]}</th>
+                  <th className="p-5 text-sm font-semibold">{copy.columns[1]}</th>
+                  <th className="p-5 text-sm font-semibold">{copy.columns[2]}</th>
                 </tr>
               </thead>
               <tbody>
@@ -94,24 +88,24 @@ export default function Restaurant365AlternativePage() {
 
       <section className="bg-[var(--surface-faint)] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <p className="eyebrow mb-4">PRIMARY SOURCES</p>
-          <h2 className="section-h2 mb-6">Read the product definitions, then test them against your operation.</h2>
+          <p className="eyebrow mb-4">{copy.sourcesEyebrow}</p>
+          <h2 className="section-h2 mb-6">{copy.sourcesTitle}</h2>
           <p className="body-lg mb-8 text-[var(--text-supporting)]">
-            Restaurant365’s own materials describe its product scope and operating surfaces. Sundae’s pages describe its own operating model and evidence loop. A responsible evaluation should use both sets of primary information and then validate the workflows with your operators.
+            {copy.sourcesDescription}
           </p>
           <div className="flex flex-wrap gap-3">
-            <a href="https://www.restaurant365.com/ai-info/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">Restaurant365 AI information →</a>
-            <a href="https://www.restaurant365.com/workforce/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">Restaurant365 workforce →</a>
-            <a href="https://www.restaurant365.com/workforce/logbook/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">Restaurant365 logbook →</a>
+            <a href="https://www.restaurant365.com/ai-info/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">{copy.sourceLabels[0]} →</a>
+            <a href="https://www.restaurant365.com/workforce/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">{copy.sourceLabels[1]} →</a>
+            <a href="https://www.restaurant365.com/workforce/logbook/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">{copy.sourceLabels[2]} →</a>
           </div>
         </div>
       </section>
 
       <section className="bg-[var(--cream)] px-4 py-20 text-center text-[var(--ink)] sm:px-6 lg:px-8">
-        <h2 className="section-h2 mx-auto mb-5 max-w-3xl">Bring your operating model, not a spreadsheet of features.</h2>
-        <p className="body-lg mx-auto mb-8 max-w-2xl text-black/65">We will map the workflows, systems and outcome measures your group needs across every location.</p>
-        <Link href="/demo"><Button variant="cta" size="lg">Book a working session</Button></Link>
+        <h2 className="section-h2 mx-auto mb-5 max-w-3xl">{copy.ctaTitle}</h2>
+        <p className="body-lg mx-auto mb-8 max-w-2xl text-black/65">{copy.ctaDescription}</p>
+        <Button href={href('/demo')} variant="cta" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="platform_comparison_closing" trackingMetadata={{ destination: href('/demo') }}>{copy.ctaLabel}</Button>
       </section>
-    </main>
+    </div>
   )
 }

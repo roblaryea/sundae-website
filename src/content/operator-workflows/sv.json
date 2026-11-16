@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Verksamhetsstyrning för hotell- och matservice",
+    "description": "Hantera scheman, personal, uppgifter och resultat över flerlokala hotell- och matserviceverksamheter. Knyt dagligt arbete till beslut och mätbar återvunnen vinst.",
+    "eyebrow": "Verksamhetsstyrning för hotell- och matservice",
+    "sub": "Driv varje skift på varje plats. Sundae kopplar schemaläggning, närvaro, uppgifter och överlämningar till driftdata - så teamen vet vad de ska göra härnäst och kan mäta vad som förändrades.",
+    "productTitle": "En plattform. Dagligt arbete till mätbara beslut.",
+    "productDescription": "Samla personal, skiftsgenomförande och kopplade driftdata i en gemensam driftbild. Crew hjälper teamen att utföra arbetet; Core hjälper dem att förstå prestationen, besluta vad som ska göras härnäst och mäta resultatet.",
+    "coreDescription": "Beslutsarbetsytan för flerlokala hotell- och matserviceteam. Koppla driftdata, granska bevisen, tilldela nästa åtgärd och mäta utfallet.",
+    "crewDescription": "Personal och daglig drift för hotell- och matservicegrupper. Knyt schemaläggning, närvaro, uppgifter, överlämningar, personalregister och löparberedskap över alla platser.",
+    "productMetaTitle": "Sundae-plattformen | Verksamhets- och beslutskraft",
+    "coreMetaTitle": "Sundae Core | Beslutsarbetsyta för hotell- och matservice",
+    "crewMetaTitle": "Sundae Crew | Personal och daglig drift",
+    "illustrationDisclosure": "Illustrativt exempel, inte ett kundresultat."
+  },
+  "shared": {
+    "primaryCta": "Boka en genomgång",
+    "secondaryCta": "Se Sundae Crew",
+    "rhythmEyebrow": "DRIFTSRHYTMEN",
+    "steps": [
+      "Fånga arbetet",
+      "Följ med kontexten",
+      "Tilldela nästa åtgärd",
+      "Mät vad som förändrades"
+    ],
+    "creamEyebrow": "DRIFTSLAGRET",
+    "creamStatement": "Arbetet fångas. Kontexten följs med. *Åtgärd mäts.*",
+    "creamLede": "Sundae Crew kopplar dagligt driftarbete till beslut i hela plattformen.",
+    "problemEyebrow": "OPERATÖRSPROBLEMET",
+    "problemTitle": "Dagligt arbete försvinner när ansvar är otydligt.",
+    "helpEyebrow": "HUR SUNDAE HJÄLPER",
+    "helpTitle": "Arbetsflödet förblir kopplat till driften.",
+    "outcomesEyebrow": "VAD SOM FÖRÄNDRAS",
+    "outcomesTitle": "Från en arbetslogg till en upprepad driftsrytm.",
+    "faqEyebrow": "OPERATÖRSFRÅGOR",
+    "faqTitle": "Svaren innan du ändrar arbetsflödet.",
+    "connectedEyebrow": "KOPPLADE DRIFTER",
+    "connectedTitle": "Arbetsflödet är en del av Sundaes driftsloop.",
+    "connectedDescription": "Crew fångar arbetet. Pulse lyfter fram undantaget. Insights, Foresight och Profit Recovery hjälper teamet att besluta vad som ska göras härnäst och mäta vad som förändrades.",
+    "ctaTitle": "Se arbetsflödet i din drift.",
+    "ctaDescription": "Ta med ett verkligt driftproblem. Se hur arbetet, bevisen och nästa åtgärd förblir kopplade."
+  },
+  "links": {
+    "eyebrow": "DAGLIG DRIFT",
+    "title": "Börja med det arbete ditt team behöver utföra.",
+    "description": "Utforska arbetsflödena, och se sedan hur de kopplas över hela Sundae-plattformen.",
+    "platform": "Verksamhetsstyrning",
+    "tasks": "Uppgifter och checklistor",
+    "logbook": "Digital loggbok och skiftsöverlämning",
+    "tips": "Driftflöden för dricks",
+    "scheduling": "Personalplanering",
+    "attendance": "Tid och närvaro",
+    "payroll": "Löparberedskap",
+    "comparison": "Guide för plattformsutvärdering"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · DRIFTSPLATTFORM FÖR HOTELL OCH MATSERVICE",
+      "title": "Programvara för drift av restauranger för varje skift och varje plats.",
+      "description": "Sundae samlar schemaläggning, närvaro, uppgifter, överlämningar och kopplade driftdata i en plattform för flerlokala hotell- och matservicegrupper. Driv dagligt arbete med tydligt ägandeskap, använd intelligens för att vägleda beslut och mät vad som förändrades.",
+      "challenges": [
+        "Schemaläggning, närvaro, uppgifter, överlämningar, lön och prestation finns i separata system utan gemensam driftlogg.",
+        "Regionchefer ser isolerade rapporter istället för kontexten bakom ett undantag och den person som ansvarar för nästa åtgärd.",
+        "En förbättring i driften är svår att upprepa när team inte kan jämföra vad som hände, vad som förändrades och vad som fungerade."
+      ],
+      "capabilities": [
+        "Personal, schemaläggning och närvaroflöden",
+        "Uppgifter, godkännanden och skiftsöverlämningar",
+        "Kopplad intelligens över drift och prestation",
+        "Mätbara åtgärder och återvinning av vinstförluster som kan förebyggas"
+      ],
+      "outcomes": [
+        "Operatörer får en gemensam driftsrytm över varumärken, platser och team.",
+        "Chefer kan agera utifrån aktuell kontext medan ledningen ser mönstret i koncernen.",
+        "Restaurangarbetsflöden leder in i samma besluts- och återhämtningsloop som används i hela hotell- och matserviceverksamheten."
+      ],
+      "questions": [
+        {
+          "question": "Vad är programvara för restauranghantering?",
+          "answer": "Det kopplar samman de dagliga systemen och arbetsflödena som används för att driva restaurangställen, inklusive personal, scheman, uppgifter, överlämningar, närvaro, löparberedskap, driftdata och prestationsgranskning."
+        },
+        {
+          "question": "Är Sundae bara för restauranger?",
+          "answer": "Sundae stöder flerlokala hotell- och matservicegrupper, inklusive restauranger, kaféer, molnkök och cateringoperatörer. Samma driftsmodell kopplar människor, dagliga arbetsflöden och mätbara beslut i hela koncernen."
+        },
+        {
+          "question": "Var passar AI in i plattformen?",
+          "answer": "AI är inbyggt i driftarbetsflödet för att hjälpa teamen förstå kontext, svara på driftfrågor, rekommendera nästa åtgärder och granska vad som förändrades."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Plattform för restauranghantering för flerlokala operatörer | Sundae",
+      "metaDescription": "Sundae samlar schemaläggning, närvaro, uppgifter, överlämningar och kopplade driftdata i en plattform för flerlokala hotell- och matservicegrupper. Driv dagligt arbete med tydligt ägandeskap, använd intelligens för att vägleda beslut och mät vad som förändrades."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · UPPGIFTSHANTERING FÖR RESTAURANGER",
+      "title": "Uppgiftshantering som håller under rusning.",
+      "description": "Tilldela öppnings-, stängnings-, återkommande och undantagsarbete till rätt person, spåra genomförande över platser och för över bevisen till nästa driftsbeslut.",
+      "challenges": [
+        "Öppnings- och stängningschecklistor finns på papper, i chattrådar eller kalkylblad som ingen senare kan granska.",
+        "Regionchefer ser att en uppgift missades utan att se vem som ägde den, vad som blockerade den eller om problemet upprepades.",
+        "En uppgift blir genomförd, men driftssignalen når aldrig schemat, chefen eller prestationsgranskningen."
+      ],
+      "capabilities": [
+        "Öppnings-, stängnings- och återkommande checklistor",
+        "Tilldelningar efter roll, plats, varumärke eller region",
+        "Chefsgodkännanden och bevis på genomförande",
+        "Upptrappning av undantag och uppföljning"
+      ],
+      "outcomes": [
+        "Varje uppgift har en ägare, en status och en synlig nästa åtgärd.",
+        "Chefer kan jämföra genomförandemönster över skift och platser.",
+        "Genomfört arbete blir kontext för coaching, prioritering och mätbar återhämtning."
+      ],
+      "questions": [
+        {
+          "question": "Vad är programvara för uppgiftshantering i restaurang?",
+          "answer": "Den ger restaurangteam ett gemensamt sätt att tilldela, slutföra, godkänna och granska dagligt driftarbete såsom öppning, stängning, säkerhet, underhåll och servicechecklistor."
+        },
+        {
+          "question": "Kan uppgiftshantering fungera över flera platser?",
+          "answer": "Sundae Crew är utformat för ägarskap efter roll, plats, varumärke och region så att operatörer kan standardisera arbete samtidigt som lokal ansvarighet förblir synlig."
+        },
+        {
+          "question": "Hur kopplar uppgiftshantering till restaurangprestation?",
+          "answer": "Uppgiftsstatus och bevis kan bli driftkontext för chefens uppföljning, undantagsgranskning och de beslut som mäts genom Sundaes driftsloop."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Verksamhetsstyrning",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Programvara för uppgiftshantering i restaurang | Sundae",
+      "metaDescription": "Tilldela öppnings-, stängnings-, återkommande och undantagsarbete till rätt person, spåra genomförande över platser och för över bevisen till nästa driftsbeslut."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · LOGGBOK OCH SKIFTSÖVERLÄMNING",
+      "title": "En digital loggbok för varje skift.",
+      "description": "Behåll chefens anteckningar, skiftsöverlämningar, problem och uppföljning i en sökbar driftlogg, så nästa team börjar med kontext istället för gissningar.",
+      "challenges": [
+        "Viktiga överlämningsdetaljer försvinner i pappersböcker, gruppchattar eller chefers minne.",
+        "Samma underhålls-, service- eller bemanningsproblem upprepas eftersom ingen hittar tidigare kontext.",
+        "En anteckning registreras, men ingen ägare, uppgift eller mätt utkomst för den vidare."
+      ],
+      "capabilities": [
+        "Skiftsanteckningar och chefers överlämningar",
+        "Problem, aviseringar och uppföljningsregister",
+        "Sökbar historik över platser",
+        "Koppla anteckningar till uppgifter, ägare och driftkontext"
+      ],
+      "outcomes": [
+        "Varje skift börjar med den kontext chefen behöver.",
+        "Regionteam kan upptäcka återkommande problem istället för att behandla varje skift som ett nytt fall.",
+        "Kommunikation blir en logg som stödjer åtgärd, coaching och mätbar förbättring."
+      ],
+      "questions": [
+        {
+          "question": "Vad är en digital loggbok för restaurang?",
+          "answer": "Det är en gemensam driftlogg för skiftsanteckningar, överlämningar, problem, chefuppdateringar och uppföljning över en eller flera restaurangplatser."
+        },
+        {
+          "question": "Vad bör en skiftsöverlämning för restaurang innehålla?",
+          "answer": "En användbar överlämning fångar vad som hände, vad som behöver uppmärksammas, vem som äger nästa åtgärd och vad det inkommande teamet bör veta före service."
+        },
+        {
+          "question": "Kan en loggbok kopplas till uppgiftshantering i restaurang?",
+          "answer": "Ja. Sundaes driftsmodell kopplar kommunikation och uppföljning så att en anteckning kan leda till en tilldelad uppgift, ett godkännande eller en granskning av utfallet."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Uppgifter och checklistor",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Verksamhetsstyrning",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Digital loggbok och skiftsöverlämning för restaurang | Sundae",
+      "metaDescription": "Behåll chefens anteckningar, skiftsöverlämningar, problem och uppföljning i en sökbar driftlogg, så nästa team börjar med kontext istället för gissningar."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · DRIFTSFLÖDEN FÖR DRICKS",
+      "title": "Dricksflöden redo för granskning.",
+      "description": "Samla dricksregler, personalkontext, granskningssteg och löparberedskap i ett arbetsflöde som chefer och löneadministration kan förklara.",
+      "challenges": [
+        "Beräkning av dricks beror på regler, roller, platser och källdata som ofta hanteras manuellt.",
+        "Chefer och löneadministration behöver granska undantag utan att förlora underliggande bevis.",
+        "Teamet kan avsluta en lönecykel utan att lära sig vilka bemannings-, närvaro- eller servicemönster som förändrade resultatet."
+      ],
+      "capabilities": [
+        "Konfigurerbara pooledricks- och fördelningsflöden",
+        "Roll-, plats- och löneperiodkontext för granskning",
+        "Godkännande av undantag och bevisinsamling",
+        "Löparberedd överlämning och personalintelligens"
+      ],
+      "outcomes": [
+        "Dricksflöden blir granskbara och förklarliga före överlämning.",
+        "Chefer och löneadministration delar en gemensam driftlogg för undantag.",
+        "Signalering från personal och närvaro kan informera beslut efter löneperioden."
+      ],
+      "questions": [
+        {
+          "question": "Vad är programvara för drickshantering i restaurang?",
+          "answer": "Den stöder regler, beräkningar, granskningssteg och överlämning som krävs för att hantera dricks över restaurangroller, platser och löneperioder."
+        },
+        {
+          "question": "Behöver drickshantering kopplas till lön?",
+          "answer": "Dricksflöden är mest användbara när deras granskning och bevis kan gå vidare till löparberedskap eller en partneröverlämning utan att arbetet måste återskapas i ett annat kalkylblad."
+        },
+        {
+          "question": "Hur kopplar Sundae dricksflöden till driften?",
+          "answer": "Crew kopplar dricks- och personalflöden till schemaläggning, närvaro, löparberedskap och det bredare beslutstintelagret så team kan granska vad som förändrades och varför."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Löparberedskap",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Tid och närvaro",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Personalintelligens",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Programvara för hantering av dricks i restaurang | Sundae Crew",
+      "metaDescription": "Samla dricksregler, personalkontext, granskningssteg och löparberedskap i ett arbetsflöde som chefer och löneadministration kan förklara."
+    }
+  },
+  "comparison": {
+    "eyebrow": "GUIDE FÖR PLATTFORMSUTVÄRDERING",
+    "title": "Utvärderar du ett alternativ till Restaurant365? Börja med driftsmodellen.",
+    "description": "Restaurant365 är en plattform för restauranger. Sundae för in verksamhetsstyrning och beslutskraft i flerlokala hotell- och matservicegrupper. Jämför de arbetsflöden ditt team behöver, systemen ni behåller och hur ni mäter resultatet.",
+    "primaryCta": "Jämför din driftsmodell",
+    "secondaryCta": "Utforska Sundaes driftplattform",
+    "criteriaEyebrow": "STÄLL SAMMA FRÅGOR TILL VARJE PLATTFORM",
+    "criteriaTitle": "Jämför de arbetsflöden som är viktiga för din drift.",
+    "columns": [
+      "Utvärderingsområde",
+      "Fråga att besvara",
+      "Sundae-funktion"
+    ],
+    "criteria": [
+      [
+        "Daglig drift",
+        "Kan chefer tilldela arbete, hantera överlämningar, granska undantag och föra med sig kontext till nästa skift?",
+        "Sundae Crew, uppgiftshantering, digital loggbok och Pulse"
+      ],
+      [
+        "Personalhantering",
+        "Hur kopplas schemaläggning, närvaro, HR, löparberedskap och dricksflöden till driftbilden?",
+        "Sundae Crew · Personalintelligens"
+      ],
+      [
+        "Beslutsstöd",
+        "Hjälper plattformen teamet att förstå vad som förändrades, varför det är viktigt och vad som ska göras härnäst?",
+        "Ask Sundae, Insights, Foresight och Watchtower"
+      ],
+      [
+        "Mätbara utfall",
+        "Kan operatören registrera en åtgärd, tilldela ägarskap och jämföra utfallet med en baslinje?",
+        "Core och Profit Recovery"
+      ],
+      [
+        "Regional anpassning",
+        "Kan driftsmodellen stödja de länder, partner, lagstadgade arbetsflöden och lokala processer som ingår?",
+        "Granska Crews regionspaket, exportfunktioner och partneröverföringar mot den faktiska rulloutplanen"
+      ],
+      [
+        "Plattformsgräns",
+        "Vilka system förblir auktoritativa för bokföring, POS, lön, lager och andra register?",
+        "Dokumentera integrations- och system-av-register-modellen innan du väljer plattform"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Vad är Restaurant365?",
+        "body": "Restaurant365 beskriver sin plattform som restaurangspecifik och allt-i-ett, med bokföring, drift, personalhantering och AI. Läs dess aktuella produktinformation direkt före jämförelse."
+      },
+      {
+        "title": "Vad bör ett alternativ till Restaurant365 utvärderas på?",
+        "body": "Jämför de dagliga driftarbetsflödena, gränserna för system-av-registrering, personaldjup, regionala krav, integrationer, beslutsstöd och hur en åtgärd mäts efter att den utförts."
+      },
+      {
+        "title": "Var passar Sundae in?",
+        "body": "Sundae kopplar människor, dagliga arbetsflöden, driftdata och mätbara beslut i flerlokala hotell- och matservicegrupper. Crew hanterar personal och dagligt genomförande; Core sammanför bevis, beslut och utfall i en gemensam driftbild."
+      }
+    ],
+    "sourcesEyebrow": "PRIMÄRA KÄLLOR",
+    "sourcesTitle": "Läs produktdefinitionerna och testa dem mot din drift.",
+    "sourcesDescription": "Använd Restaurant365:s aktuella produktinformation tillsammans med Sundaes egna beskrivningar. Validera arbetsflödets djup, regionala krav och integrationsgränser med de personer som kommer att använda plattformen.",
+    "sourceLabels": [
+      "Restaurant365 AI-information",
+      "Restaurant365 personal",
+      "Restaurant365 loggbok"
+    ],
+    "ctaTitle": "Ta med din driftsmodell.",
+    "ctaDescription": "Kartlägg arbetsflödena, systemen och utfallsmåtten din grupp behöver över varje plats.",
+    "ctaLabel": "Boka en arbetsession",
+    "metaTitle": "Alternativ till Restaurant365 för flerlokala operatörer | Sundae",
+    "metaDescription": "Jämför alternativ till Restaurant365 efter dagliga arbetsflöden, personalhantering, regionala krav, integrationer och beslutsstöd."
+  }
+}

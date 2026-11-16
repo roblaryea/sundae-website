@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Quản lý vận hành cho nhà hàng và dịch vụ ăn uống",
+    "description": "Quản lý ca, nhân sự, công việc và hiệu suất trên các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Kết nối công việc hàng ngày với quyết định và việc đo lường thu hồi lợi nhuận.",
+    "eyebrow": "Quản lý vận hành cho nhà hàng và dịch vụ ăn uống",
+    "sub": "Vận hành mọi ca tại mọi địa điểm. Sundae kết nối lập lịch, chấm công, công việc và bàn giao với dữ liệu vận hành — để đội ngũ biết việc tiếp theo cần làm và có thể đo lường những gì đã thay đổi.",
+    "productTitle": "Một nền tảng. Từ công việc hàng ngày tới quyết định được đo lường.",
+    "productDescription": "Kết hợp nhân sự, thực thi ca và dữ liệu vận hành được nối kết vào một bức tranh vận hành duy nhất. Crew giúp đội thực hiện công việc; Core giúp họ hiểu hiệu suất, quyết định việc tiếp theo và đo lường kết quả.",
+    "coreDescription": "Không gian ra quyết định cho các đội đa địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Kết nối dữ liệu vận hành, kiểm tra bằng chứng, phân công hành động tiếp theo và đo lường kết quả.",
+    "crewDescription": "Nhân sự và vận hành hàng ngày cho các chuỗi nhà hàng và dịch vụ ăn uống. Kết nối lập lịch, chấm công, công việc, bàn giao ca, hồ sơ nhân sự và sẵn sàng trả lương trên mọi địa điểm.",
+    "productMetaTitle": "Nền tảng Sundae | Quản lý vận hành và trí tuệ quyết định",
+    "coreMetaTitle": "Sundae Core | Không gian ra quyết định cho nhà hàng và dịch vụ ăn uống",
+    "crewMetaTitle": "Sundae Crew | Nhân sự và vận hành hàng ngày",
+    "illustrationDisclosure": "Ví dụ minh họa, không phải kết quả thực tế của khách hàng."
+  },
+  "shared": {
+    "primaryCta": "Đặt lịch hướng dẫn",
+    "secondaryCta": "Xem Sundae Crew",
+    "rhythmEyebrow": "NHỊP ĐỘ VẬN HÀNH",
+    "steps": [
+      "Ghi nhận công việc",
+      "Mang theo ngữ cảnh",
+      "Phân công hành động tiếp theo",
+      "Đo lường những gì đã thay đổi"
+    ],
+    "creamEyebrow": "LỚP VẬN HÀNH",
+    "creamStatement": "Công việc được ghi nhận. Ngữ cảnh được mang theo. *Hành động được đo lường.*",
+    "creamLede": "Sundae Crew kết nối công việc vận hành hàng ngày với quyết định trên toàn nền tảng.",
+    "problemEyebrow": "VẤN ĐỀ CỦA NGƯỜI VẬN HÀNH",
+    "problemTitle": "Công việc hàng ngày biến mất khi trách nhiệm không rõ ràng.",
+    "helpEyebrow": "SUNDAE GIÚP NHƯ THẾ NÀO",
+    "helpTitle": "Quy trình công việc giữ liên kết với hoạt động.",
+    "outcomesEyebrow": "NHỮNG GÌ THAY ĐỔI",
+    "outcomesTitle": "Từ ghi chép công việc tới một nhịp vận hành có thể lặp lại.",
+    "faqEyebrow": "CÂU HỎI CỦA NGƯỜI VẬN HÀNH",
+    "faqTitle": "Câu trả lời trước khi bạn thay đổi quy trình công việc.",
+    "connectedEyebrow": "VẬN HÀNH ĐƯỢC KẾT NỐI",
+    "connectedTitle": "Quy trình công việc là một phần của vòng vận hành Sundae.",
+    "connectedDescription": "Crew ghi nhận công việc. Pulse nổi bật ngoại lệ. Insights, Foresight và Profit Recovery giúp đội quyết định việc tiếp theo và đo lường những gì đã thay đổi.",
+    "ctaTitle": "Xem quy trình công việc trong hoạt động của bạn.",
+    "ctaDescription": "Mang một vấn đề vận hành thực tế. Xem cách công việc, bằng chứng và hành động tiếp theo được giữ liên kết."
+  },
+  "links": {
+    "eyebrow": "VẬN HÀNH HÀNG NGÀY",
+    "title": "Bắt đầu từ công việc đội bạn cần thực hiện.",
+    "description": "Khám phá các quy trình công việc, sau đó xem cách chúng kết nối trên toàn nền tảng Sundae.",
+    "platform": "Quản lý vận hành",
+    "tasks": "Công việc và danh sách kiểm tra",
+    "logbook": "Sổ trực kỹ thuật số và bàn giao ca",
+    "tips": "Quy trình tiền tip",
+    "scheduling": "Lập lịch nhân sự",
+    "attendance": "Chấm công và điểm danh",
+    "payroll": "Sẵn sàng trả lương",
+    "comparison": "Hướng dẫn đánh giá nền tảng"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · NỀN TẢNG VẬN HÀNH NHÀ HÀNG VÀ DỊCH VỤ ĂN UỐNG",
+      "title": "Phần mềm quản lý nhà hàng cho mọi ca và mọi địa điểm.",
+      "description": "Sundae kết hợp lập lịch, chấm công, công việc, bàn giao ca và dữ liệu vận hành được nối kết vào một nền tảng cho các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Vận hành công việc hàng ngày với trách nhiệm rõ ràng, dùng trí tuệ để hướng dẫn quyết định và đo lường những gì đã thay đổi.",
+      "challenges": [
+        "Lập lịch, chấm công, công việc, bàn giao ca, trả lương và hiệu suất nằm rải rác trong các hệ thống riêng biệt mà không có bản ghi vận hành chung.",
+        "Các lãnh đạo khu vực thấy báo cáo riêng lẻ thay vì bối cảnh đằng sau một ngoại lệ và người chịu trách nhiệm cho hành động tiếp theo.",
+        "Một cải tiến vận hành khó lặp lại khi đội không thể so sánh những gì đã xảy ra, những gì thay đổi và điều gì hiệu quả."
+      ],
+      "capabilities": [
+        "Quy trình nhân sự, lập lịch và chấm công",
+        "Công việc, phê duyệt và bàn giao ca",
+        "Trí tuệ nối kết trên vận hành và hiệu suất",
+        "Hành động có thể đo lường và thu hồi phần lợi nhuận thất thoát có thể ngăn ngừa"
+      ],
+      "outcomes": [
+        "Người vận hành có một nhịp vận hành thống nhất trên thương hiệu, địa điểm và đội nhóm.",
+        "Quản lý có thể hành động dựa trên bối cảnh trực tiếp trong khi lãnh đạo thấy mô hình trên toàn chuỗi.",
+        "Quy trình nhà hàng dẫn vào cùng một vòng quyết định và thu hồi được dùng trên toàn ngành nhà hàng và dịch vụ ăn uống."
+      ],
+      "questions": [
+        {
+          "question": "Phần mềm quản lý nhà hàng là gì?",
+          "answer": "Nó kết nối các hệ thống và quy trình công việc hàng ngày dùng để vận hành cơ sở nhà hàng, bao gồm con người, lịch, công việc, bàn giao ca, chấm công, sẵn sàng trả lương, dữ liệu vận hành và đánh giá hiệu suất."
+        },
+        {
+          "question": "Sundae chỉ dành cho nhà hàng thôi chứ?",
+          "answer": "Sundae hỗ trợ các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống, bao gồm nhà hàng, quán cà phê, bếp đám mây và dịch vụ ăn uống sự kiện. Cùng một mô hình vận hành kết nối con người, quy trình công việc hàng ngày và quyết định được đo lường trên toàn chuỗi."
+        },
+        {
+          "question": "AI nằm ở đâu trong nền tảng?",
+          "answer": "AI được nhúng vào quy trình vận hành để giúp đội hiểu bối cảnh, trả lời câu hỏi vận hành, đề xuất hành động tiếp theo và xem lại những gì đã thay đổi."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Nền tảng quản lý nhà hàng cho các chuỗi nhiều địa điểm | Sundae",
+      "metaDescription": "Sundae kết hợp lập lịch, chấm công, công việc, bàn giao ca và dữ liệu vận hành được nối kết vào một nền tảng cho các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Vận hành công việc hàng ngày với trách nhiệm rõ ràng, dùng trí tuệ để hướng dẫn quyết định và đo lường những gì đã thay đổi."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · QUẢN LÝ CÔNG VIỆC NHÀ HÀNG",
+      "title": "Quản lý công việc nhà hàng bền vững qua cao điểm.",
+      "description": "Phân công công việc mở cửa, đóng cửa, định kỳ và ngoại lệ cho người phù hợp, theo dõi hoàn thành trên các địa điểm và mang bằng chứng vào quyết định vận hành tiếp theo.",
+      "challenges": [
+        "Danh sách kiểm tra mở cửa và đóng cửa nằm trên giấy, chat nhóm hoặc bảng tính mà không ai có thể kiểm toán sau này.",
+        "Quản lý khu vực biết một công việc bị bỏ sót nhưng không thấy ai chịu trách nhiệm, điều gì cản trở hay liệu vấn đề có tái diễn hay không.",
+        "Một công việc được hoàn thành, nhưng tín hiệu vận hành không bao giờ đến lịch, quản lý hoặc đánh giá hiệu suất."
+      ],
+      "capabilities": [
+        "Danh sách kiểm tra mở cửa, đóng cửa và định kỳ",
+        "Phân công theo vai trò, địa điểm, thương hiệu hoặc khu vực",
+        "Phê duyệt của quản lý và bằng chứng hoàn thành",
+        "Tăng cấp ngoại lệ và theo dõi thực thi"
+      ],
+      "outcomes": [
+        "Mỗi công việc có chủ sở hữu, trạng thái và bước tiếp theo rõ ràng.",
+        "Quản lý có thể so sánh mô hình thực thi giữa các ca và địa điểm.",
+        "Công việc đã hoàn thành trở thành bối cảnh cho huấn luyện, ưu tiên và thu hồi có đo lường."
+      ],
+      "questions": [
+        {
+          "question": "Phần mềm quản lý công việc nhà hàng là gì?",
+          "answer": "Nó cung cấp cho đội nhà hàng một cách chung để phân công, hoàn thành, phê duyệt và xem xét công việc vận hành hàng ngày như danh sách kiểm tra mở cửa, đóng cửa, an toàn, bảo trì và dịch vụ."
+        },
+        {
+          "question": "Quản lý công việc có thể hoạt động trên nhiều địa điểm không?",
+          "answer": "Sundae Crew được thiết kế cho quyền sở hữu theo vai trò, địa điểm, thương hiệu và khu vực để người vận hành có thể chuẩn hóa công việc trong khi giữ được trách nhiệm địa phương hiển thị."
+        },
+        {
+          "question": "Quản lý công việc kết nối thế nào với hiệu suất nhà hàng?",
+          "answer": "Trạng thái công việc và bằng chứng có thể trở thành bối cảnh vận hành để quản lý theo dõi, xem xét ngoại lệ và các quyết định được đo lường thông qua vòng vận hành của Sundae."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Quản lý vận hành",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Phần mềm quản lý công việc nhà hàng | Sundae",
+      "metaDescription": "Phân công công việc mở cửa, đóng cửa, định kỳ và ngoại lệ cho người phù hợp, theo dõi hoàn thành trên các địa điểm và mang bằng chứng vào quyết định vận hành tiếp theo."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · SỔ TRỰC VÀ BÀN GIAO CA",
+      "title": "Sổ trực nhà hàng kỹ thuật số cho mọi ca.",
+      "description": "Giữ ghi chú của quản lý, bàn giao ca, sự cố và theo dõi trong một hồ sơ vận hành có thể tìm kiếm, để đội tiếp theo bắt đầu với bối cảnh thay vì đoán mò.",
+      "challenges": [
+        "Chi tiết bàn giao quan trọng biến mất vào sổ giấy, chat nhóm hoặc trí nhớ cá nhân của quản lý.",
+        "Cùng một sự cố bảo trì, dịch vụ hoặc nhân sự lặp lại vì không ai tìm được bối cảnh trước đó.",
+        "Một ghi chú được lưu nhưng không có chủ sở hữu, nhiệm vụ hoặc kết quả được đo lường để tiếp tục."
+      ],
+      "capabilities": [
+        "Ghi chú ca và bàn giao của quản lý",
+        "Hồ sơ sự cố, cảnh báo và theo dõi",
+        "Lịch sử có thể tìm kiếm trên các địa điểm",
+        "Liên kết ghi chú với công việc, chủ sở hữu và bối cảnh vận hành"
+      ],
+      "outcomes": [
+        "Mỗi ca bắt đầu với bối cảnh mà quản lý cần.",
+        "Đội khu vực có thể phát hiện vấn đề lặp lại thay vì xem mỗi ca như một sự kiện mới.",
+        "Giao tiếp trở thành hồ sơ hỗ trợ hành động, huấn luyện và cải tiến có đo lường."
+      ],
+      "questions": [
+        {
+          "question": "Sổ trực nhà hàng kỹ thuật số là gì?",
+          "answer": "Đó là một hồ sơ vận hành chia sẻ cho ghi chú ca, bàn giao, sự cố, cập nhật quản lý và theo dõi trên một hoặc nhiều địa điểm nhà hàng."
+        },
+        {
+          "question": "Một bàn giao ca nhà hàng nên bao gồm gì?",
+          "answer": "Một bàn giao hữu ích ghi lại những gì đã xảy ra, những gì cần chú ý, ai là người chịu trách nhiệm hành động tiếp theo và điều gì đội đến ca nên biết trước khi phục vụ."
+        },
+        {
+          "question": "Sổ trực có thể kết nối với quản lý công việc nhà hàng không?",
+          "answer": "Có. Mô hình vận hành của Sundae kết nối giao tiếp và theo dõi để một ghi chú có thể dẫn tới một công việc được phân công, một phê duyệt hoặc xem xét kết quả."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Công việc và danh sách kiểm tra",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Quản lý vận hành",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Sổ trực nhà hàng kỹ thuật số và bàn giao ca | Sundae",
+      "metaDescription": "Giữ ghi chú của quản lý, bàn giao ca, sự cố và theo dõi trong một hồ sơ vận hành có thể tìm kiếm, để đội tiếp theo bắt đầu với bối cảnh thay vì đoán mò."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · QUY TRÌNH TIỀN TIP",
+      "title": "Quy trình tip nhà hàng sẵn sàng để xem xét.",
+      "description": "Đưa quy tắc tip, bối cảnh nhân sự, bước xem xét và sẵn sàng trả lương vào một quy trình mà quản lý và nhóm trả lương có thể giải thích.",
+      "challenges": [
+        "Tính toán tip phụ thuộc vào quy tắc, vai trò, địa điểm và dữ liệu nguồn thường được đối chiếu thủ công.",
+        "Quản lý và nhóm trả lương cần xem xét ngoại lệ mà không làm mất bằng chứng cơ sở.",
+        "Đội có thể hoàn tất chu kỳ trả lương mà không biết mô hình nhân sự, chấm công hoặc dịch vụ nào đã thay đổi kết quả."
+      ],
+      "capabilities": [
+        "Quy trình cấu hình quỹ tip và phân phối",
+        "Bối cảnh xem xét theo vai trò, địa điểm và kỳ trả lương",
+        "Phê duyệt ngoại lệ và ghi lại bằng chứng",
+        "Bàn giao sẵn sàng trả lương và trí tuệ nhân sự"
+      ],
+      "outcomes": [
+        "Quy trình tip trở nên có thể xem xét và giải thích trước khi bàn giao.",
+        "Quản lý và nhóm trả lương chia sẻ một hồ sơ vận hành cho ngoại lệ.",
+        "Tín hiệu nhân sự và chấm công có thể thông tin cho quyết định sau chu kỳ trả lương."
+      ],
+      "questions": [
+        {
+          "question": "Phần mềm quản lý tip nhà hàng là gì?",
+          "answer": "Nó hỗ trợ quy tắc, tính toán, bước xem xét và bàn giao cần thiết để quản lý tip giữa các vai trò, địa điểm và kỳ trả lương trong nhà hàng."
+        },
+        {
+          "question": "Quy trình tip có cần kết nối với trả lương không?",
+          "answer": "Quy trình tip hữu ích nhất khi việc xem xét và bằng chứng có thể chuyển vào trạng thái sẵn sàng trả lương hoặc bàn giao cho đối tác mà không phải tái tạo công việc trên bảng tính khác."
+        },
+        {
+          "question": "Sundae kết nối quy trình tip với vận hành thế nào?",
+          "answer": "Crew kết nối quy trình tip và nhân sự với lập lịch, chấm công, sẵn sàng trả lương và lớp trí tuệ quyết định rộng hơn để đội có thể xem xét những gì đã thay đổi và vì sao."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Sẵn sàng trả lương",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Chấm công và điểm danh",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Trí tuệ nhân lực",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Phần mềm quản lý tip nhà hàng | Sundae Crew",
+      "metaDescription": "Đưa quy tắc tip, bối cảnh nhân sự, bước xem xét và sẵn sàng trả lương vào một quy trình mà quản lý và nhóm trả lương có thể giải thích."
+    }
+  },
+  "comparison": {
+    "eyebrow": "HƯỚNG DẪN ĐÁNH GIÁ NỀN TẢNG",
+    "title": "Đang đánh giá thay thế Restaurant365? Bắt đầu từ mô hình vận hành.",
+    "description": "Restaurant365 là một nền tảng quản lý nhà hàng. Sundae mang quản lý vận hành và trí tuệ quyết định đến các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. So sánh các quy trình công việc đội bạn cần, hệ thống bạn giữ và cách bạn đo lường kết quả.",
+    "primaryCta": "So sánh mô hình vận hành của bạn",
+    "secondaryCta": "Khám phá nền tảng vận hành của Sundae",
+    "criteriaEyebrow": "HỎI MỖI NỀN TẢNG NHỮNG CÂU HỎI GIỐNG NHAU",
+    "criteriaTitle": "So sánh các quy trình công việc quan trọng với hoạt động của bạn.",
+    "columns": [
+      "Lĩnh vực đánh giá",
+      "Câu hỏi cần trả lời",
+      "Khả năng của Sundae"
+    ],
+    "criteria": [
+      [
+        "Vận hành hàng ngày",
+        "Quản lý có thể phân công công việc, quản lý bàn giao, xem xét ngoại lệ và mang bối cảnh sang ca tiếp theo không?",
+        "Sundae Crew, quản lý công việc, sổ trực kỹ thuật số và Pulse"
+      ],
+      [
+        "Vận hành nhân sự",
+        "Lập lịch, chấm công, HR, sẵn sàng trả lương và quy trình tip kết nối với bức tranh vận hành như thế nào?",
+        "Sundae Crew · Trí tuệ nhân lực"
+      ],
+      [
+        "Hỗ trợ ra quyết định",
+        "Nền tảng có giúp đội hiểu điều gì đã thay đổi, tại sao quan trọng và cần làm gì tiếp theo không?",
+        "Ask Sundae, Insights, Foresight và Watchtower"
+      ],
+      [
+        "Kết quả được đo lường",
+        "Người vận hành có thể ghi lại một hành động, phân công trách nhiệm và so sánh kết quả với chuẩn hay không?",
+        "Core và Profit Recovery"
+      ],
+      [
+        "Phù hợp vùng",
+        "Mô hình vận hành có hỗ trợ các quốc gia, đối tác, quy trình bắt buộc và thủ tục địa phương trong phạm vi không?",
+        "Đối chiếu các bộ vùng của Crew, xuất dữ liệu và bàn giao cho đối tác với kế hoạch triển khai thực tế"
+      ],
+      [
+        "Ranh giới nền tảng",
+        "Hệ thống nào vẫn là nguồn chính cho kế toán, POS, trả lương, tồn kho và các hồ sơ khác?",
+        "Ghi nhận tích hợp và mô hình hệ thống nguồn trước khi chọn nền tảng"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Restaurant365 là gì?",
+        "body": "Restaurant365 mô tả nền tảng của họ là chuyên cho nhà hàng và toàn diện, bao gồm kế toán, vận hành, nhân sự và AI. Đọc thông tin sản phẩm hiện tại của họ trực tiếp trước khi so sánh sự phù hợp."
+      },
+      {
+        "title": "Một lựa chọn thay thế cho Restaurant365 nên được đánh giá dựa trên gì?",
+        "body": "So sánh quy trình vận hành hàng ngày, ranh giới hệ thống nguồn, độ sâu nhân sự, yêu cầu vùng, tích hợp, hỗ trợ quyết định và cách một hành động được đo lường sau khi thực hiện."
+      },
+      {
+        "title": "Sundae phù hợp ở đâu?",
+        "body": "Sundae kết nối con người, quy trình công việc hàng ngày, dữ liệu vận hành và quyết định được đo lường trên các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Crew quản lý nhân sự và thực thi hàng ngày; Core đưa bằng chứng, quyết định và kết quả vào một bức tranh vận hành duy nhất."
+      }
+    ],
+    "sourcesEyebrow": "NGUỒN CHÍNH",
+    "sourcesTitle": "Đọc định nghĩa sản phẩm, sau đó kiểm tra chúng với hoạt động của bạn.",
+    "sourcesDescription": "Sử dụng thông tin sản phẩm hiện tại của Restaurant365 cùng với mô tả của Sundae. Xác thực độ sâu quy trình công việc, yêu cầu vùng và ranh giới tích hợp với những người sẽ sử dụng nền tảng.",
+    "sourceLabels": [
+      "Thông tin AI của Restaurant365",
+      "Nhân sự của Restaurant365",
+      "Sổ trực của Restaurant365"
+    ],
+    "ctaTitle": "Mang mô hình vận hành của bạn.",
+    "ctaDescription": "Lập bản đồ các quy trình công việc, hệ thống và các biện pháp kết quả mà chuỗi bạn cần trên mọi địa điểm.",
+    "ctaLabel": "Đặt lịch buổi làm việc",
+    "metaTitle": "Lựa chọn thay thế Restaurant365 cho các chuỗi nhiều địa điểm | Sundae",
+    "metaDescription": "So sánh các lựa chọn thay thế Restaurant365 theo quy trình hàng ngày, vận hành nhân sự, yêu cầu vùng, tích hợp và hỗ trợ quyết định."
+  }
+}

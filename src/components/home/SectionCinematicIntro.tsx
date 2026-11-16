@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
 import { RecoveryLoop } from "./RecoveryLoop";
 import type { RecoveryFigure } from "@/lib/recovery-figure";
@@ -69,7 +70,8 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
   const rm = mounted && reduceMotion;
-  const copy = cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy] ?? cinematicIntroCopy.en;
+  const brand = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand;
+  const copy = { ...cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy], eyebrow: brand.eyebrow, sub: brand.sub };
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLSpanElement>(null);
 

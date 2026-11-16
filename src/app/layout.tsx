@@ -282,7 +282,7 @@ export default async function RootLayout({
         url: new URL("/", baseUrl).toString(),
         logo: new URL("/logos/sundae-app-icon.png", baseUrl).toString(),
         description:
-          "Sundae provides decision intelligence for closed-loop profit recovery in multi-location food-service operations.",
+          "Sundae provides operations management and decision intelligence for multi-location hospitality and food-service groups.",
         sameAs: [
           "https://www.linkedin.com/company/sundae-io",
           "https://x.com/sundae_io",
@@ -301,11 +301,11 @@ export default async function RootLayout({
         "@id": softwareId,
         name: "Sundae",
         applicationCategory: "BusinessApplication",
-        applicationSubCategory: "Restaurant decision intelligence",
+        applicationSubCategory: "Hospitality and food-service operations management and decision intelligence",
         operatingSystem: "Web",
         url: new URL("/product", baseUrl).toString(),
         description:
-          "Sundae finds where profit is slipping, helps the right person act, and measures what changed across multi-location food-service operations.",
+          "Sundae connects workforce, daily operating workflows and operating data to accountable action, decision support and measured outcomes across hospitality and food-service locations.",
         provider: { "@id": organizationId },
         hasPart: productEntities.map((product) => ({ "@id": product["@id"] })),
         audience: {

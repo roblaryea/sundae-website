@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Konaklama ve Gıda-Servis için Operasyon Yönetimi",
+    "description": "Çok lokasyonlu konaklama ve gıda-servis operasyonlarında vardiyeleri, işgücünü, görevleri ve performansı yönetin. Günlük işleri kararlara ve ölçülen kazanç kurtarımına bağlayın.",
+    "eyebrow": "Konaklama ve gıda-servis için operasyon yönetimi",
+    "sub": "Her lokasyonda her vardiyayı yönetin. Sundae, planlama, devam, görevler ve devir teslimleri işletme verileriyle bağlar — böylece ekipler sırada ne yapacaklarını bilir ve ne değiştiğini ölçebilir.",
+    "productTitle": "Tek platform. Günlük işten ölçülen kararlara.",
+    "productDescription": "İşgücünü, vardiya yürütmeyi ve bağlanmış işletme verilerini tek bir işletme görünümüne getirin. Crew ekiplerin işi yürütmesine yardımcı olur; Core performansı anlamalarına, sonraki adımı belirlemelerine ve sonucu ölçmelerine yardımcı olur.",
+    "coreDescription": "Çok lokasyonlu konaklama ve gıda-servis ekipleri için karar çalışma alanı. İşletme verilerini bağlayın, kanıtı inceleyin, sonraki eylemi atayın ve sonucu ölçün.",
+    "crewDescription": "Konaklama ve gıda-servis grupları için işgücü ve günlük operasyonlar. Her lokasyonda planlama, devam, görevler, devir teslimleri, kişi kayıtları ve bordro hazırlığını bağlayın.",
+    "productMetaTitle": "Sundae Platformu | Operasyon ve Karar İstihbaratı",
+    "coreMetaTitle": "Sundae Core | Konaklama ve Gıda-Servis için Karar Çalışma Alanı",
+    "crewMetaTitle": "Sundae Crew | İşgücü ve Günlük Operasyonlar",
+    "illustrationDisclosure": "Temsili örnektir, bir müşteri sonucu değildir."
+  },
+  "shared": {
+    "primaryCta": "Tanıtım talep et",
+    "secondaryCta": "Sundae Crew'i gör",
+    "rhythmEyebrow": "İŞLETME RİTMİ",
+    "steps": [
+      "İşi kaydet",
+      "Bağlamı taşı",
+      "Sonraki eylemi ata",
+      "Ne değiştiğini ölç"
+    ],
+    "creamEyebrow": "İŞLETME KATMANI",
+    "creamStatement": "İş kaydedilir. Bağlam taşınır. *Eylem ölçülür.*",
+    "creamLede": "Sundae Crew günlük işletme işlerini daha geniş platformdaki kararlara bağlar.",
+    "problemEyebrow": "OPERATÖR SORUNU",
+    "problemTitle": "Sahiplik belirsizse günlük işler kaybolur.",
+    "helpEyebrow": "SUNDAE NASIL YARDIM EDER",
+    "helpTitle": "İş akışı işletmeye bağlı kalır.",
+    "outcomesEyebrow": "NE DEĞİŞİR",
+    "outcomesTitle": "İş kaydından tekrarlanabilir bir işletme ritmine.",
+    "faqEyebrow": "OPERATÖR SORULARI",
+    "faqTitle": "İş akışını değiştirmeden önce yanıtlar.",
+    "connectedEyebrow": "BAĞLI OPERASYONLAR",
+    "connectedTitle": "İş akışı Sundae’nin işletme döngüsünün parçasıdır.",
+    "connectedDescription": "Crew işi kaydeder. Pulse istisnayı görünür kılar. Insights, Foresight ve Profit Recovery ekiplerin sonraki adımı belirlemesine ve ne değiştiğini ölçmesine yardımcı olur.",
+    "ctaTitle": "İş akışını operasyonunuzda görün.",
+    "ctaDescription": "Gerçek bir işletme sorununu getirin. İşin, kanıtın ve sonraki eylemin nasıl bağlı kaldığını görün."
+  },
+  "links": {
+    "eyebrow": "GÜNLÜK OPERASYONLAR",
+    "title": "Ekiplerinizin yürütmesi gereken işten başlayın.",
+    "description": "İş akışlarını keşfedin, sonra bunların daha geniş Sundae platformu içinde nasıl bağlandığını görün.",
+    "platform": "Operasyon yönetimi",
+    "tasks": "Görevler ve kontrol listeleri",
+    "logbook": "Dijital kayıt defteri ve vardiya devir teslimi",
+    "tips": "Bahşiş iş akışları",
+    "scheduling": "Personel planlama",
+    "attendance": "Zaman ve devam",
+    "payroll": "Bordro hazırlığı",
+    "comparison": "Platform değerlendirme rehberi"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · KONAKLAMA VE GIDA-SERVİS İŞLETME PLATFORMU",
+      "title": "Her vardiya ve her lokasyon için restoran yönetim yazılımı.",
+      "description": "Sundae, çok lokasyonlu konaklama ve gıda-servis grupları için planlama, devam, görevler, devir teslimleri ve bağlanmış işletme verilerini tek bir platforma getirir. Günlük işleri net sahiplikle yönetin, kararlar için istihbaratı kullanın ve ne değiştiğini ölçün.",
+      "challenges": [
+        "Planlama, devam, görevler, devir teslimler, bordro ve performans ayrı sistemlerde tutulur; ortak bir işletme kaydı yoktur.",
+        "Bölge liderleri bir istisnanın arkasındaki bağlamı ve sonraki eylemden sorumlu kişiyi görmek yerine izole raporlar görür.",
+        "Takımlar ne olduğunu, ne değiştiğini ve neyin işe yaradığını karşılaştıramadığında işletme iyileştirmesini tekrarlamak zordur."
+      ],
+      "capabilities": [
+        "İşgücü, planlama ve devam iş akışları",
+        "Görevler, onaylar ve vardiya devir teslimleri",
+        "Operasyonlar ve performans genelinde bağlı istihbarat",
+        "Ölçülebilir aksiyonlar ve önlenebilir kâr kayıplarının geri kazanılması"
+      ],
+      "outcomes": [
+        "Operatörler markalar, lokasyonlar ve ekipler arasında tek bir işletme ritmi elde eder.",
+        "Yöneticiler canlı bağlam üzerinde hareket edebilirken liderler grup genelindeki deseni görür.",
+        "Restoran iş akışları konaklama ve gıda-servis operasyonlarında kullanılan aynı karar ve kurtarma döngüsüne girer."
+      ],
+      "questions": [
+        {
+          "question": "Restoran yönetim yazılımı nedir?",
+          "answer": "Restoran lokasyonlarını işletmek için kullanılan günlük sistemleri ve iş akışlarını birbirine bağlar; kişiler, çizelgeler, görevler, devir teslimler, devam, bordro hazırlığı, işletme verileri ve performans incelemesini içerir."
+        },
+        {
+          "question": "Sundae sadece restoranlar için mi?",
+          "answer": "Sundae, restoranlar, kafeler, bulut mutfaklar ve catering operatörleri dahil olmak üzere çok lokasyonlu konaklama ve gıda-servis gruplarını destekler. Aynı işletme modeli grup genelinde kişileri, günlük iş akışlarını ve ölçülen kararları birbirine bağlar."
+        },
+        {
+          "question": "AI platformda nerede yer alıyor?",
+          "answer": "AI, ekiplerin bağlamı anlamasına, işletme sorularını yanıtlamasına, sonraki eylemleri önermesine ve ne değiştiğini gözden geçirmesine yardımcı olmak için işletme iş akışına gömülüdür."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Çok Lokasyonlu Operatörler için Restoran Yönetim Platformu | Sundae",
+      "metaDescription": "Sundae, çok lokasyonlu konaklama ve gıda-servis grupları için planlama, devam, görevler, devir teslimleri ve bağlanmış işletme verilerini tek bir platforma getirir. Günlük işleri net sahiplikle yönetin, kararlar için istihbaratı kullanın ve ne değiştiğini ölçün."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · RESTORAN GÖREV YÖNETİMİ",
+      "title": "Yoğunluğun üstesinden gelen restoran görev yönetimi.",
+      "description": "Açılış, kapanış, tekrarlayan ve istisna işlerini doğru kişiye atayın, lokasyonlar arasında tamamlamayı takip edin ve kanıtı bir sonraki işletme kararına taşıyın.",
+      "challenges": [
+        "Açılış ve kapanış kontrol listeleri kağıtta, sohbet dizilerinde veya denetlenemeyen tablolarla tutulur.",
+        "Bölge yöneticileri bir görevin kaçırıldığını görür fakat kimin sahip olduğunu, neyin engellediğini veya sorunun tekrarlanıp tekrarlanmadığını göremez.",
+        "Bir görev tamamlanır ama işletme sinyali planlamaya, yöneticiye veya performans incelemesine asla ulaşmaz."
+      ],
+      "capabilities": [
+        "Açılış, kapanış ve tekrarlayan kontrol listeleri",
+        "Rol, site, marka veya bölge bazlı atamalar",
+        "Yönetici onayları ve tamamlama kanıtı",
+        "İstisna yükseltme ve takibi"
+      ],
+      "outcomes": [
+        "Her görevin bir sahibi, bir durumu ve görünür bir sonraki adımı vardır.",
+        "Yöneticiler vardiyalar ve lokasyonlar arasında yürütme desenlerini karşılaştırabilir.",
+        "Tamamlanan iş koçluk, önceliklendirme ve ölçülen kurtarma için bağlam olur."
+      ],
+      "questions": [
+        {
+          "question": "Restoran görev yönetimi yazılımı nedir?",
+          "answer": "Restoran ekiplerine açılış, kapanış, güvenlik, bakım ve servis kontrol listeleri gibi günlük işletme işlerini atamak, tamamlamak, onaylamak ve gözden geçirmek için paylaşılan bir yol sağlar."
+        },
+        {
+          "question": "Görev yönetimi birden fazla lokasyonda çalışır mı?",
+          "answer": "Sundae Crew rol, site, marka ve bölge sahipliği için tasarlanmıştır; böylece operatörler işi standartlaştırırken yerel hesap verebilirliği görünür tutabilir."
+        },
+        {
+          "question": "Görev yönetimi restoran performansına nasıl bağlanır?",
+          "answer": "Görev durumu ve kanıtı, yönetici takibi, istisna incelemesi ve Sundae’nin işletme döngüsü aracılığıyla ölçülen kararlar için işletme bağlamı haline gelebilir."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Operasyon yönetimi",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Restoran Görev Yönetimi Yazılımı | Sundae",
+      "metaDescription": "Açılış, kapanış, tekrarlayan ve istisna işlerini doğru kişiye atayın, lokasyonlar arasında tamamlamayı takip edin ve kanıtı bir sonraki işletme kararına taşıyın."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · KAYIT DEFTERİ VE VARDİYA DEVİR TESLİMİ",
+      "title": "Her vardiya için dijital restoran kayıt defteri.",
+      "description": "Yönetici notlarını, vardiya devir teslimlerini, sorunları ve takipleri tek bir aranabilir işletme kaydında tutun; böylece bir sonraki ekip tahmin yerine bağlamla başlar.",
+      "challenges": [
+        "Önemli devir teslim ayrıntıları kağıt defterlere, grup sohbetlerine veya bireysel yöneticinin hafızasına kaybolur.",
+        "Aynı bakım, servis veya personel sorunu tekrarlanır çünkü önceki bağlam bulunamaz.",
+        "Bir not kaydedilir ama hiçbir sahibi, görevi veya ölçülen sonucu onu ileri taşımıyor."
+      ],
+      "capabilities": [
+        "Vardiya notları ve yönetici devir teslimleri",
+        "Sorunlar, uyarılar ve takip kayıtları",
+        "Lokasyonlar arasında aranabilir geçmiş",
+        "Notları görevlere, sahiplerine ve işletme bağlamına bağlama"
+      ],
+      "outcomes": [
+        "Her vardiya yöneticiye ihtiyaç duyduğu bağlamla başlar.",
+        "Bölge ekipleri her vardiyayı yeni bir olay gibi değil, tekrarlayan sorunları görür.",
+        "İletişim eylemi, koçluğu ve ölçülen iyileşmeyi destekleyen bir kayıt haline gelir."
+      ],
+      "questions": [
+        {
+          "question": "Dijital restoran kayıt defteri nedir?",
+          "answer": "Vardiya notları, devir teslimleri, sorunlar, yönetici güncellemeleri ve takip için bir veya daha fazla restoran lokasyonu arasında paylaşılan işletme kaydıdır."
+        },
+        {
+          "question": "Bir restoran vardiya devir teslimi neleri içermelidir?",
+          "answer": "Yararlı bir devir teslimi ne olduğunu, hangi konuların dikkat gerektirdiğini, sonraki eylemin kimde olduğunu ve gelen ekibin servis öncesi bilmesi gerekenleri kaydeder."
+        },
+        {
+          "question": "Bir kayıt defteri restoran görev yönetimine bağlanabilir mi?",
+          "answer": "Evet. Sundae’nin işletme modeli iletişimi ve takibi bağlar; böylece bir not atanmış bir göreve, onaya veya sonucun gözden geçirilmesine dönüşebilir."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Görevler ve kontrol listeleri",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Operasyon yönetimi",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Dijital Restoran Kayıt Defteri ve Vardiya Devir Teslimi | Sundae",
+      "metaDescription": "Yönetici notlarını, vardiya devir teslimlerini, sorunları ve takipleri tek bir aranabilir işletme kaydında tutun; böylece bir sonraki ekip tahmin yerine bağlamla başlar."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · BAHŞİŞ İŞ AKIŞLARI",
+      "title": "İnceleme için hazır restoran bahşiş iş akışları.",
+      "description": "Bahşiş kurallarını, personel bağlamını, inceleme adımlarını ve bordro hazırlığını yöneticiler ve bordro ekiplerinin açıklayabileceği tek bir iş akışında birleştirin.",
+      "challenges": [
+        "Bahşiş hesaplamaları genellikle elle uzlaştırılan kurallar, roller, lokasyonlar ve kaynak veriye bağlıdır.",
+        "Yöneticiler ve bordro ekipleri istisnaları temel kanıtı kaybetmeden incelemek ister.",
+        "Ekip bir bordro döngüsünü tamamlayabilir ama hangi personel, devam veya servis desenlerinin sonucu değiştirdiğini öğrenmeyebilir."
+      ],
+      "capabilities": [
+        "Yapılandırılabilir bahşiş havuzu ve dağıtım iş akışları",
+        "Rol, lokasyon ve ödeme dönemi inceleme bağlamı",
+        "İstisna onayı ve kanıt yakalama",
+        "Bordroya hazır devretme ve işgücü istihbaratı"
+      ],
+      "outcomes": [
+        "Bahşiş iş akışları devreden önce incelenebilir ve açıklanabilir hale gelir.",
+        "Yöneticiler ve bordro ekipleri istisnalar için tek bir işletme kaydını paylaşır.",
+        "İşgücü ve devam sinyalleri ödeme döngüsünü takip eden kararları bilgilendirebilir."
+      ],
+      "questions": [
+        {
+          "question": "Restoran bahşiş yönetimi yazılımı nedir?",
+          "answer": "Restoran rolleri, lokasyonları ve ödeme dönemleri genelinde bahşişleri yönetmek için gereken kuralları, hesaplamaları, inceleme adımlarını ve devri destekler."
+        },
+        {
+          "question": "Bahşiş yönetiminin bordroya bağlanması gerekiyor mu?",
+          "answer": "Bahşiş iş akışları, inceleme ve kanıt bordro hazırlığına veya bir partner devrine başka bir tabloda işi yeniden oluşturmak zorunda kalmadan taşınabildiğinde en faydalıdır."
+        },
+        {
+          "question": "Sundae bahşiş iş akışlarını operasyonlara nasıl bağlar?",
+          "answer": "Crew bahşiş ve işgücü iş akışlarını planlama, devam, bordro hazırlığı ve daha geniş karar-istihbaratı katmanına bağlar; böylece ekipler ne değiştiğini ve nedenini inceleyebilir."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Bordro hazırlığı",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Zaman ve devam",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "İşgücü İstihbaratı",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Restoran Bahşiş Yönetimi Yazılımı | Sundae Crew",
+      "metaDescription": "Bahşiş kurallarını, personel bağlamını, inceleme adımlarını ve bordro hazırlığını yöneticiler ve bordro ekiplerinin açıklayabileceği tek bir iş akışında birleştirin."
+    }
+  },
+  "comparison": {
+    "eyebrow": "PLATFORM DEĞERLENDİRME REHBERİ",
+    "title": "Restaurant365 alternatifi mi değerlendiriyorsunuz? İşletme modelinden başlayın.",
+    "description": "Restaurant365 bir restoran yönetim platformudur. Sundae, çok lokasyonlu konaklama ve gıda-servis gruplarına operasyon yönetimi ve karar istihbaratı getirir. Ekiplerinize gerekli iş akışlarını, kullandığınız sistemleri ve sonucu nasıl ölçtüğünüzü karşılaştırın.",
+    "primaryCta": "İşletme modelinizi karşılaştırın",
+    "secondaryCta": "Sundae’in işletme platformunu keşfedin",
+    "criteriaEyebrow": "HER PLATFORMDAN AYNI SORULARI SORUN",
+    "criteriaTitle": "Operasyonunuz için önemli iş akışlarını karşılaştırın.",
+    "columns": [
+      "Değerlendirme alanı",
+      "Cevaplanacak soru",
+      "Sundae yeteneği"
+    ],
+    "criteria": [
+      [
+        "Günlük operasyonlar",
+        "Yöneticiler işi atayabilir, devir teslimleri yönetebilir, istisnaları inceleyebilir ve bağlamı sonraki vardiyaya taşıyabilir mi?",
+        "Sundae Crew, görev yönetimi, dijital kayıt defteri ve Pulse"
+      ],
+      [
+        "İşgücü operasyonları",
+        "Planlama, devam, İK, bordro hazırlığı ve bahşiş iş akışları işletme resmine nasıl bağlanır?",
+        "Sundae Crew · İşgücü İstihbaratı"
+      ],
+      [
+        "Karar desteği",
+        "Platform ekiplerin ne değiştiğini, neden önemli olduğunu ve sonraki adımın ne olması gerektiğini anlamasına yardım ediyor mu?",
+        "Ask Sundae, Insights, Foresight ve Watchtower"
+      ],
+      [
+        "Ölçülen sonuçlar",
+        "Operatör bir eylemi kaydedebilir, sahip atayabilir ve sonucu bir temel ile karşılaştırabilir mi?",
+        "Core ve Profit Recovery"
+      ],
+      [
+        "Bölgesel uygunluk",
+        "İşletme modeli kapsam dahilindeki ülkeleri, ortakları, yasal iş akışlarını ve yerel süreçleri destekleyebilir mi?",
+        "Gerçek uygulama planına karşı Crew’un bölge paketlerini, dışa aktarmalarını ve ortak devrilerini gözden geçirin"
+      ],
+      [
+        "Platform sınırı",
+        "Hangi sistemler muhasebe, POS, bordro, envanter ve diğer kayıtlar için yetkili kalır?",
+        "Bir platform seçmeden önce entegrasyon ve kayıt-sistemi modelini belgeleyin"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Restaurant365 nedir?",
+        "body": "Restaurant365 platformunu restoran-spesifik ve hepsi bir arada olarak tanımlar; muhasebe, operasyonlar, işgücü ve AI’yi kapsadığını belirtir. Uygunluğu karşılaştırmadan önce güncel ürün bilgilerini doğrudan okuyun."
+      },
+      {
+        "title": "Restaurant365 alternatifleri neye göre değerlendirilmelidir?",
+        "body": "Günlük işletme iş akışlarını, kayıt-sistemi sınırlarını, işgücü derinliğini, bölgesel gereksinimleri, entegrasyonları, karar desteğini ve bir eylem alındıktan sonra nasıl ölçüldüğünü karşılaştırın."
+      },
+      {
+        "title": "Sundae nerede yer alıyor?",
+        "body": "Sundae çok lokasyonlu konaklama ve gıda-servis gruplarında kişileri, günlük iş akışlarını, işletme verilerini ve ölçülen kararları birbirine bağlar. Crew işgücünü ve günlük yürütmeyi yönetir; Core kanıtı, kararları ve sonuçları tek bir işletme görünümüne getirir."
+      }
+    ],
+    "sourcesEyebrow": "BİRİNCİL KAYNAKLAR",
+    "sourcesTitle": "Ürün tanımlarını okuyun, sonra operasyonunuza karşı test edin.",
+    "sourcesDescription": "Restaurant365’in güncel ürün bilgilerini Sundae’in kendi açıklamalarıyla kullanın. İş akışı derinliğini, bölgesel gereksinimleri ve entegrasyon sınırlarını platformu kullanacak kişilerle doğrulayın.",
+    "sourceLabels": [
+      "Restaurant365 AI bilgisi",
+      "Restaurant365 işgücü",
+      "Restaurant365 kayıt defteri"
+    ],
+    "ctaTitle": "İşletme modelinizi getirin.",
+    "ctaDescription": "Grubunuzun ihtiyaç duyduğu iş akışlarını, sistemleri ve sonuç ölçülerini her lokasyon için haritalayın.",
+    "ctaLabel": "Çalışma oturumu ayarla",
+    "metaTitle": "Çok Lokasyonlu Operatörler için Restaurant365 Alternatifi | Sundae",
+    "metaDescription": "Günlük iş akışları, işgücü operasyonları, bölgesel gereksinimler, entegrasyonlar ve karar desteğine göre Restaurant365 alternatiflerini karşılaştırın."
+  }
+}

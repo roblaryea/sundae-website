@@ -109,11 +109,15 @@ export const Button: React.FC<ButtonProps> = (props) => {
   }
 
   const { onClick, type = 'button' } = props as ButtonAsButton;
+  const handleClick = () => {
+    if (trackingLabel) trackCta(trackingLabel, trackingMetadata);
+    onClick?.();
+  };
   return (
     <button
       type={type}
       className={combinedClassName}
-      onClick={onClick}
+      onClick={handleClick}
       disabled={disabled}
     >
       {children}

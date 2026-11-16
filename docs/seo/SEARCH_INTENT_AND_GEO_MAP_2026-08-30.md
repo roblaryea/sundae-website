@@ -2,16 +2,18 @@
 
 Created: 30 August 2026
 
-Last updated: 6 November 2026
+Last updated: 16 November 2026
 
 Owner: Website / SEO / GEO session
 
 ## Canonical message
 
 - Promise: Run every shift and recover preventable profit across every location.
-- Explanation: Sundae connects daily restaurant management workflows to accountable action, decision support, and measured outcomes.
+- Explanation: Sundae connects workforce, daily operating workflows and operating data to accountable action, decision support and measured outcomes across hospitality and food-service groups.
 - Loop: Detect -> decide -> execute -> measure -> learn.
-- Category: Operating platform and decision intelligence for multi-location hospitality and food-service.
+- Category: Operations management and decision intelligence for multi-location hospitality and food-service.
+- Search entry: restaurant-specific workflow pages match operator search language without narrowing the platform category.
+- Product roles: Crew runs workforce and daily execution; Core connects operating data, evidence, decisions and measured outcomes. AI remains an embedded capability.
 
 This language is the source of truth for website metadata, answer copy, structured data, `llms.txt`, and future search content.
 
@@ -133,3 +135,11 @@ These are the next durable website assets, subject to evidence and product revie
 10. Franchise performance: portfolio visibility, brand consistency, and local accountability.
 11. Hotel F&B operating intelligence across outlets, venues, labor, and guest demand.
 
+
+## Localization and design acceptance — 16 November 2026
+
+The four workflow pages and the Restaurant365 evaluation page now share complete page, metadata, FAQ, CTA and related-link dictionaries across all 22 website locales. Body language must match the route language; translated metadata over an English body is not accepted. FAQ schema is generated from the same localized questions and answers shown on the page. Keep brand words intact while translating functional descriptors.
+
+Use the existing Sundae editorial system: warm serif headlines, dark operating sections, cream relief, divider-led lists, readable line lengths and restrained motion. Use logical start/end spacing for right-to-left languages. Long translated actions must wrap within mobile containers. Comparison criteria use stacked editorial rows on phones and a table on larger screens.
+
+Homepage, platform, Core and Crew link directly to the workflow pages. Footer links maintain discovery from other pages. Keep localized links in the visitor's language. Track hero and closing actions through the shared consent-gated CTA tracker; do not infer a conversion from a pageview.

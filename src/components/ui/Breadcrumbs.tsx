@@ -8,6 +8,7 @@ import { getLocalizedPathname, parseWebsiteLocaleFromPathname } from '@/lib/i18n
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_ui_Breadcrumbs'
 import { generatedUiLabels } from '@/lib/generatedUiLabels'
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 
 const LABEL_MAP: Record<string, Record<string, string>> = {
   en: {
@@ -140,7 +141,15 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
   const pathname = usePathname();
   const { locale, messages } = useWebsiteI18n();
   const { pathname: unlocalizedPathname } = parseWebsiteLocaleFromPathname(pathname);
-  const labels = LABEL_MAP[locale] ?? getGeneratedLocalCopy(LABEL_MAP, generatedLocalCopy.LABEL_MAP, locale) ?? LABEL_MAP.en;
+  const workflow = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links;
+  const labels = {
+    ...(LABEL_MAP[locale] ?? getGeneratedLocalCopy(LABEL_MAP, generatedLocalCopy.LABEL_MAP, locale) ?? LABEL_MAP.en),
+    'restaurant-management-platform': workflow.platform,
+    'restaurant-task-management': workflow.tasks,
+    'restaurant-logbook': workflow.logbook,
+    'restaurant-tip-management': workflow.tips,
+    'restaurant365-alternative': workflow.comparison,
+  };
   const uiLabels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
   const homeLabel =
     locale === 'ar' ? 'الرئيسية' :

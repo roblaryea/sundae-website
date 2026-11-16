@@ -1,3 +1,4 @@
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import type { WebsiteLocale } from '@/lib/i18n';
 import { generatedLocalCopy } from '@/generated-locales/lib_page_titles';
 import { resolveLocalizedPageDescription } from '@/lib/localizedPageDescriptions';
@@ -112,6 +113,9 @@ type PageTitleOverrides = Record<string, Partial<Record<string, string>>>;
  * route has no central entry (caller then keeps the generic default).
  */
 export function resolvePageTitle(path: string, locale: WebsiteLocale): string | null {
+  const brand = operatorNavigationCopy[locale].brand;
+  if (path === '/product') return brand.productMetaTitle;
+  if (path === '/core') return brand.coreMetaTitle;
   const en = pageTitlesEn[path];
   if (!en) return null;
   if (locale === 'en') return en;
@@ -120,6 +124,9 @@ export function resolvePageTitle(path: string, locale: WebsiteLocale): string | 
 }
 
 export function resolvePageDescription(path: string, locale: WebsiteLocale): string | null {
+  const brand = operatorNavigationCopy[locale].brand;
+  if (path === '/product') return brand.productDescription;
+  if (path === '/core') return brand.coreDescription;
   const englishDescription = pageDescriptionsEn[path] ?? null;
   if (locale === 'en') return englishDescription;
   return resolveLocalizedPageDescription(path, locale) ?? englishDescription;

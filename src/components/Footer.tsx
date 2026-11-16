@@ -1,5 +1,6 @@
 'use client';
 
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -83,6 +84,9 @@ const Footer = () => {
   const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
   const crewLinks = [
     ...cn.crewList.map((item) => ({ name: item.name, href: item.href })),
+    { name: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links.tasks, href: '/restaurant-task-management' },
+    { name: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links.logbook, href: '/restaurant-logbook' },
+    { name: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links.tips, href: '/restaurant-tip-management' },
   ];
 
   const solutionsBySegment: ReadonlyArray<FooterLink> = nav.solutionsSegments;
@@ -145,7 +149,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-[var(--text-muted)] mb-5 max-w-xs text-sm leading-relaxed">
-              {footer.brandDescription}
+              {operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.description}
             </p>
             <div className="flex items-center gap-3 text-[var(--text-muted)] text-xs mb-5">
               <span>{footer.global}</span>

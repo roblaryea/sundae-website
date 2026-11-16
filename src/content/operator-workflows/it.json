@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Gestione operativa per l'ospitalità e la ristorazione",
+    "description": "Gestisci turni, personale, attività e performance su operazioni multi-sede nel settore dell'ospitalità e della ristorazione. Collega il lavoro quotidiano alle decisioni e al recupero di profitto misurato.",
+    "eyebrow": "Gestione operativa per l'ospitalità e la ristorazione",
+    "sub": "Gestisci ogni turno in ogni sede. Sundae collega programmazione, presenze, attività e trasferimenti turno con i dati operativi — così i team sanno cosa fare dopo e possono misurare cosa è cambiato.",
+    "productTitle": "Una piattaforma. Dal lavoro quotidiano alle decisioni misurate.",
+    "productDescription": "Riunisci forza lavoro, esecuzione dei turni e dati operativi connessi in un'unica visione operativa. Crew aiuta i team a svolgere il lavoro; Core li aiuta a capire le performance, decidere la prossima azione e misurarne il risultato.",
+    "coreDescription": "Lo spazio decisionale per team multi-sede dell'ospitalità e della ristorazione. Collega i dati operativi, ispeziona le evidenze, assegna la prossima azione e misura l'esito.",
+    "crewDescription": "Forza lavoro e operazioni quotidiane per gruppi dell'ospitalità e della ristorazione. Collega programmazione, presenze, attività, trasferimenti turno, anagrafica personale e prontezza payroll in ogni sede.",
+    "productMetaTitle": "Piattaforma Sundae | Gestione operativa e decision intelligence",
+    "coreMetaTitle": "Sundae Core | Spazio decisionale per l'ospitalità e la ristorazione",
+    "crewMetaTitle": "Sundae Crew | Forza lavoro e operazioni quotidiane",
+    "illustrationDisclosure": "Esempio illustrativo, non un risultato di un cliente."
+  },
+  "shared": {
+    "primaryCta": "Prenota una dimostrazione",
+    "secondaryCta": "Vedi Sundae Crew",
+    "rhythmEyebrow": "IL RITMO OPERATIVO",
+    "steps": [
+      "Catturare il lavoro",
+      "Portare il contesto",
+      "Assegnare la prossima azione",
+      "Misurare cosa è cambiato"
+    ],
+    "creamEyebrow": "LO STRATO OPERATIVO",
+    "creamStatement": "Il lavoro è catturato. Il contesto è trasmesso. *L'azione è misurata.*",
+    "creamLede": "Sundae Crew collega il lavoro operativo quotidiano alle decisioni nella piattaforma più ampia.",
+    "problemEyebrow": "IL PROBLEMA DELL'OPERATORE",
+    "problemTitle": "Il lavoro quotidiano scompare quando la responsabilità non è chiara.",
+    "helpEyebrow": "COME AIUTA SUNDAE",
+    "helpTitle": "Il flusso di lavoro resta connesso all'operazione.",
+    "outcomesEyebrow": "COSA CAMBIA",
+    "outcomesTitle": "Da un registro del lavoro a un ritmo operativo ripetibile.",
+    "faqEyebrow": "DOMANDE DEGLI OPERATORI",
+    "faqTitle": "Risposte prima di cambiare il flusso di lavoro.",
+    "connectedEyebrow": "OPERAZIONI CONNESSE",
+    "connectedTitle": "Il flusso di lavoro fa parte del ciclo operativo di Sundae.",
+    "connectedDescription": "Crew cattura il lavoro. Pulse evidenzia l'eccezione. Insights, Foresight e Profit Recovery aiutano il team a decidere cosa fare dopo e a misurare cosa è cambiato.",
+    "ctaTitle": "Vedi il flusso di lavoro nella tua operazione.",
+    "ctaDescription": "Porta un problema operativo reale. Guarda come lavoro, evidenze e prossima azione restano connessi."
+  },
+  "links": {
+    "eyebrow": "OPERAZIONI QUOTIDIANE",
+    "title": "Inizia dal lavoro che il tuo team deve svolgere.",
+    "description": "Esplora i flussi di lavoro, poi vedi come si connettono nella piattaforma Sundae più ampia.",
+    "platform": "Gestione operativa",
+    "tasks": "Attività e checklist",
+    "logbook": "Registro digitale e trasferimento turno",
+    "tips": "Flussi di lavoro per le mance",
+    "scheduling": "Programmazione del personale",
+    "attendance": "Presenze e timbrature",
+    "payroll": "Prontezza payroll",
+    "comparison": "Guida di valutazione della piattaforma"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · PIATTAFORMA OPERATIVA PER L'OSPITALITÀ E LA RISTORAZIONE",
+      "title": "Software di gestione per ogni turno e ogni sede.",
+      "description": "Sundae riunisce programmazione, presenze, attività, trasferimenti turno e dati operativi connessi in un'unica piattaforma per gruppi multi-sede dell'ospitalità e della ristorazione. Gestisci il lavoro quotidiano con responsabilità chiare, usa l'intelligenza per guidare le decisioni e misura cosa è cambiato.",
+      "challenges": [
+        "Programmazione, presenze, attività, trasferimenti turno, payroll e performance vivono in sistemi separati senza un registro operativo condiviso.",
+        "I responsabili regionali vedono report isolati invece del contesto dietro un'eccezione e della persona responsabile della prossima azione.",
+        "Un miglioramento operativo è difficilmente ripetibile quando i team non possono confrontare ciò che è accaduto, cosa è cambiato e cosa ha funzionato."
+      ],
+      "capabilities": [
+        "Flussi di lavoro per forza lavoro, programmazione e presenze",
+        "Attività, approvazioni e trasferimenti turno",
+        "Intelligenza connessa tra operazioni e performance",
+        "Azioni misurabili e recupero delle perdite di profitto evitabili"
+      ],
+      "outcomes": [
+        "Gli operatori ottengono un unico ritmo operativo tra brand, sedi e team.",
+        "I manager possono agire sul contesto live mentre i leader vedono il pattern a livello di gruppo.",
+        "I flussi di lavoro dei ristoranti confluiscono nello stesso ciclo di decisione e recupero usato in tutto il settore dell'ospitalità e della ristorazione."
+      ],
+      "questions": [
+        {
+          "question": "Che cos'è il software di gestione per ristoranti?",
+          "answer": "Collega i sistemi e i flussi di lavoro quotidiani usati per gestire le sedi ristorative, incluse persone, programmazioni, attività, trasferimenti turno, presenze, prontezza payroll, dati operativi e revisione delle performance."
+        },
+        {
+          "question": "Sundae è solo per ristoranti?",
+          "answer": "Sundae supporta gruppi multi-sede dell'ospitalità e della ristorazione, inclusi ristoranti, caffè, cloud kitchen e operatori di catering. Lo stesso modello operativo connette persone, flussi di lavoro quotidiani e decisioni misurate in tutto il gruppo."
+        },
+        {
+          "question": "Dove si inserisce l'AI nella piattaforma?",
+          "answer": "L'AI è integrata nel flusso operativo per aiutare i team a comprendere il contesto, rispondere a domande operative, raccomandare azioni successive e rivedere cosa è cambiato."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Piattaforma di gestione per ristoranti per operatori multi-sede | Sundae",
+      "metaDescription": "Sundae riunisce programmazione, presenze, attività, trasferimenti turno e dati operativi connessi in un'unica piattaforma per gruppi multi-sede dell'ospitalità e della ristorazione. Gestisci il lavoro quotidiano con responsabilità chiare, usa l'intelligenza per guidare le decisioni e misura cosa è cambiato."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · GESTIONE DELLE ATTIVITÀ PER RISTORANTI",
+      "title": "Gestione delle attività che resiste all'ora di punta.",
+      "description": "Assegna attività di apertura, chiusura, ricorrenti ed eccezionali alla persona giusta, traccia il completamento tra le sedi e porta l'evidenza nella prossima decisione operativa.",
+      "challenges": [
+        "Le checklist di apertura e chiusura vivono su carta, chat di gruppo o fogli di calcolo che nessuno può verificare dopo.",
+        "I manager regionali vedono che un'attività è stata mancata senza vedere chi ne era responsabile, cosa l'ha bloccata o se il problema si è ripetuto.",
+        "Un'attività viene completata, ma il segnale operativo non raggiunge il piano, il manager o la revisione delle performance."
+      ],
+      "capabilities": [
+        "Checklist di apertura, chiusura e ricorrenti",
+        "Assegnazioni per ruolo, sede, brand o regione",
+        "Approvazioni manager e evidenza di completamento",
+        "Escalation delle eccezioni e follow-through"
+      ],
+      "outcomes": [
+        "Ogni attività ha un responsabile, uno stato e un passo successivo visibile.",
+        "I manager possono confrontare i pattern di esecuzione tra turni e sedi.",
+        "Il lavoro completato diventa contesto per coaching, prioritarizzazione e recupero misurato."
+      ],
+      "questions": [
+        {
+          "question": "Che cos'è un software di gestione delle attività per ristoranti?",
+          "answer": "Fornisce ai team di ristorante un modo condiviso per assegnare, completare, approvare e rivedere il lavoro operativo quotidiano come checklist di apertura, chiusura, sicurezza, manutenzione e servizio."
+        },
+        {
+          "question": "La gestione delle attività può funzionare su più sedi?",
+          "answer": "Sundae Crew è progettato per proprietà per ruolo, sede, brand e regione così gli operatori possono standardizzare il lavoro mantenendo visibile la responsabilità locale."
+        },
+        {
+          "question": "Come si collega la gestione delle attività alle performance del ristorante?",
+          "answer": "Lo stato delle attività e le evidenze possono diventare contesto operativo per il follow-up del manager, la revisione delle eccezioni e le decisioni misurate attraverso il ciclo operativo di Sundae."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Gestione operativa",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Software di gestione delle attività per ristoranti | Sundae",
+      "metaDescription": "Assegna attività di apertura, chiusura, ricorrenti ed eccezionali alla persona giusta, traccia il completamento tra le sedi e porta l'evidenza nella prossima decisione operativa."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · REGISTRO E TRASFERIMENTO TURNO",
+      "title": "Un registro digitale per ogni turno.",
+      "description": "Mantieni note dei manager, trasferimenti turno, problemi e follow-up in un unico registro operativo ricercabile, così il team successivo parte con il contesto e non con supposizioni.",
+      "challenges": [
+        "Dettagli importanti del trasferimento vanno persi in libri cartacei, chat di gruppo o nella memoria dei singoli manager.",
+        "Lo stesso problema di manutenzione, servizio o personale si ripete perché nessuno trova il contesto precedente.",
+        "Una nota viene registrata, ma nessun responsabile, attività o risultato misurato la porta avanti."
+      ],
+      "capabilities": [
+        "Note di turno e trasferimenti manageriali",
+        "Problemi, avvisi e record di follow-up",
+        "Cronologia ricercabile tra le sedi",
+        "Collegamento delle note ad attività, responsabili e contesto operativo"
+      ],
+      "outcomes": [
+        "Ogni turno inizia con il contesto di cui il manager ha bisogno.",
+        "I team regionali possono individuare problemi ricorrenti invece di trattare ogni turno come un evento nuovo.",
+        "La comunicazione diventa un registro che supporta azione, coaching e miglioramento misurato."
+      ],
+      "questions": [
+        {
+          "question": "Che cos'è un registro digitale per ristoranti?",
+          "answer": "È un registro operativo condiviso per note di turno, trasferimenti, problemi, aggiornamenti dei manager e follow-up su una o più sedi ristorative."
+        },
+        {
+          "question": "Cosa dovrebbe includere un trasferimento turno del ristorante?",
+          "answer": "Un trasferimento utile cattura cosa è successo, cosa richiede attenzione, chi è responsabile della prossima azione e cosa il team in entrata deve sapere prima del servizio."
+        },
+        {
+          "question": "Un registro può collegarsi alla gestione delle attività del ristorante?",
+          "answer": "Sì. Il modello operativo di Sundae collega comunicazione e follow-up così una nota può portare a un'attività assegnata, a un'approvazione o a una revisione del risultato."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Attività e checklist",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Gestione operativa",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Registro digitale e trasferimento turno per ristoranti | Sundae",
+      "metaDescription": "Mantieni note dei manager, trasferimenti turno, problemi e follow-up in un unico registro operativo ricercabile, così il team successivo parte con il contesto e non con supposizioni."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · FLUSSI DI LAVORO PER LE MANCE",
+      "title": "Flussi di lavoro per le mance pronti per la revisione.",
+      "description": "Riunisci regole sulle mance, contesto del personale, passaggi di revisione e prontezza payroll in un unico flusso che manager e team payroll possano spiegare.",
+      "challenges": [
+        "I calcoli delle mance dipendono da regole, ruoli, sedi e dati sorgente spesso riconciliati manualmente.",
+        "Manager e team payroll devono rivedere le eccezioni senza perdere le evidenze sottostanti.",
+        "Il team può chiudere un ciclo payroll senza imparare quali pattern di staffing, presenze o servizio hanno cambiato il risultato."
+      ],
+      "capabilities": [
+        "Flussi configurabili di pooling e distribuzione delle mance",
+        "Contesto di revisione per ruolo, sede e periodo di paga",
+        "Approvazione delle eccezioni e acquisizione di evidenze",
+        "Handoff pronto per payroll e intelligence sulla forza lavoro"
+      ],
+      "outcomes": [
+        "I flussi per le mance diventano revisionabili e spiegabili prima del passaggio al payroll.",
+        "Manager e team payroll condividono un unico registro operativo per le eccezioni.",
+        "Segnali da forza lavoro e presenze possono informare le decisioni successive al ciclo di paga."
+      ],
+      "questions": [
+        {
+          "question": "Che cos'è un software per la gestione delle mance nei ristoranti?",
+          "answer": "Supporta regole, calcoli, passaggi di revisione e handoff necessari a gestire le mance tra ruoli, sedi e periodi di paga dei ristoranti."
+        },
+        {
+          "question": "La gestione delle mance deve collegarsi al payroll?",
+          "answer": "I flussi per le mance sono più utili quando la loro revisione e le evidenze possono transitare nella prontezza payroll o in un handoff a partner senza ricreare il lavoro in un altro foglio di calcolo."
+        },
+        {
+          "question": "Come collega Sundae i flussi delle mance alle operazioni?",
+          "answer": "Crew collega i flussi di mance e della forza lavoro a programmazione, presenze, prontezza payroll e allo strato decisionale più ampio così i team possono rivedere cosa è cambiato e perché."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Prontezza payroll",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Presenze e timbrature",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Kacerdasan Tenaga Kerja",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Software per la gestione delle mance nei ristoranti | Sundae Crew",
+      "metaDescription": "Riunisci regole sulle mance, contesto del personale, passaggi di revisione e prontezza payroll in un unico flusso che manager e team payroll possano spiegare."
+    }
+  },
+  "comparison": {
+    "eyebrow": "GUIDA DI VALUTAZIONE DELLA PIATTAFORMA",
+    "title": "Valutando un'alternativa a Restaurant365? Inizia dal modello operativo.",
+    "description": "Restaurant365 è una piattaforma per ristoranti. Sundae porta gestione operativa e decision intelligence ai gruppi multi-sede dell'ospitalità e della ristorazione. Confronta i flussi di lavoro di cui il tuo team ha bisogno, i sistemi che mantieni e come misuri il risultato.",
+    "primaryCta": "Confronta il tuo modello operativo",
+    "secondaryCta": "Esplora la piattaforma operativa di Sundae",
+    "criteriaEyebrow": "FATE A OGNI PIATTAFORMA LE STESSE DOMANDE",
+    "criteriaTitle": "Confronta i flussi di lavoro che contano per la tua operazione.",
+    "columns": [
+      "Area di valutazione",
+      "Domanda da rispondere",
+      "Capacità di Sundae"
+    ],
+    "criteria": [
+      [
+        "Operazioni quotidiane",
+        "I manager possono assegnare lavoro, gestire trasferimenti turno, rivedere eccezioni e portare il contesto nel turno successivo?",
+        "Sundae Crew, gestione attività, registro digitale e Pulse"
+      ],
+      [
+        "Operazioni forza lavoro",
+        "Come si collegano programmazione, presenze, HR, prontezza payroll e flussi per le mance all'immagine operativa?",
+        "Sundae Crew · Kacerdasan Tenaga Kerja"
+      ],
+      [
+        "Supporto decisionale",
+        "La piattaforma aiuta il team a capire cosa è cambiato, perché è importante e cosa fare dopo?",
+        "Ask Sundae, Insights, Foresight e Watchtower"
+      ],
+      [
+        "Risultati misurati",
+        "L'operatore può registrare un'azione, assegnare responsabilità e confrontare l'esito con un baseline?",
+        "Core e Profit Recovery"
+      ],
+      [
+        "Adattamento regionale",
+        "Il modello operativo può supportare paesi, partner, flussi normativi e processi locali in portata?",
+        "Verifica i region pack di Crew, le esportazioni e gli handoff ai partner rispetto al piano di rollout effettivo"
+      ],
+      [
+        "Confini della piattaforma",
+        "Quali sistemi restano autorevoli per contabilità, POS, payroll, inventario e altri record?",
+        "Documenta il modello di integrazione e il sistema di record prima di scegliere una piattaforma"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Che cos'è Restaurant365?",
+        "body": "Restaurant365 descrive la sua piattaforma come specifica per ristoranti e all-in-one, coprendo contabilità, operazioni, forza lavoro e AI. Leggi le informazioni prodotto aggiornate direttamente prima di confrontare l'idoneità."
+      },
+      {
+        "title": "Su cosa dovrebbe essere valutata un'alternativa a Restaurant365?",
+        "body": "Confronta i flussi operativi quotidiani, i confini del sistema di record, la profondità della gestione della forza lavoro, i requisiti regionali, le integrazioni, il supporto decisionale e il modo in cui un'azione viene misurata dopo essere stata intrapresa."
+      },
+      {
+        "title": "Dove si colloca Sundae?",
+        "body": "Sundae collega persone, flussi di lavoro quotidiani, dati operativi e decisioni misurate per gruppi multi-sede dell'ospitalità e della ristorazione. Crew gestisce forza lavoro ed esecuzione quotidiana; Core porta evidenze, decisioni e risultati in un'unica immagine operativa."
+      }
+    ],
+    "sourcesEyebrow": "FONTI PRINCIPALI",
+    "sourcesTitle": "Leggi le definizioni prodotto, poi testale rispetto alla tua operazione.",
+    "sourcesDescription": "Usa le informazioni prodotto aggiornate di Restaurant365 insieme alle descrizioni fornite da Sundae. Verifica la profondità dei flussi di lavoro, i requisiti regionali e i confini delle integrazioni con le persone che utilizzeranno la piattaforma.",
+    "sourceLabels": [
+      "Informazioni AI di Restaurant365",
+      "Forza lavoro Restaurant365",
+      "Registro Restaurant365"
+    ],
+    "ctaTitle": "Porta il tuo modello operativo.",
+    "ctaDescription": "Mappa i flussi di lavoro, i sistemi e le misure di risultato di cui il tuo gruppo ha bisogno in ogni sede.",
+    "ctaLabel": "Prenota una sessione operativa",
+    "metaTitle": "Alternativa a Restaurant365 per operatori multi-sede | Sundae",
+    "metaDescription": "Confronta le alternative a Restaurant365 per flussi di lavoro quotidiani, operazioni della forza lavoro, requisiti regionali, integrazioni e supporto decisionale."
+  }
+}
