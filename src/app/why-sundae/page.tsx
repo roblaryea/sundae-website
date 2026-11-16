@@ -42,7 +42,7 @@ export default function WhySundaePage() {
               <p className="body-lg text-[var(--text-supporting)]">{reason.description}</p>
               <div className="mt-5 flex flex-wrap gap-x-6 gap-y-3">
                 {reason.paths.map(path => <Link key={path} href={href(path)} className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--text-primary)] underline underline-offset-4 transition-colors hover:text-[var(--warm-coral)]">
-                  {messages.navbar.pillars.find(item => item.href === path)?.name ?? (path === '/core' ? 'Sundae Core' : 'Sundae Crew')}<ArrowUpRight aria-hidden className="h-4 w-4 rtl:-scale-x-100" />
+                  {messages.navbar.pillars.find(item => item.href === path)?.name ?? (path === '/product/recovery' ? 'Profit Recovery' : path === '/core' ? 'Sundae Core' : 'Sundae Crew')}<ArrowUpRight aria-hidden className="h-4 w-4 rtl:-scale-x-100" />
                 </Link>)}
               </div>
             </div>

@@ -22,7 +22,7 @@ try {
     assert.equal(await products.locator('[data-offering="core"] a[href$="/crew/payroll"]').count(),0)
    }
    if(path==='/'){const graph=JSON.parse(await page.locator('#sundae-global-structured-data').textContent())['@graph'];const platform=graph.find(item=>item.name==='Sundae'&&item['@type']==='SoftwareApplication');assert.equal(platform.hasPart.length,2);assert.ok(platform.hasPart.some(item=>item['@id'].endsWith('/core#software')));assert.ok(platform.hasPart.some(item=>item['@id'].endsWith('/crew#software')))}
-   if(path==='/why-sundae') {assert.equal(await page.locator('[data-choice-reason]').count(),3);assert.ok((await page.locator('[data-choice-reasons]').innerText()).includes(stories[locale].measureReason))}
+   if(path==='/why-sundae') {assert.equal(await page.locator('[data-choice-reason]').count(),3);assert.ok((await page.locator('[data-choice-reasons]').innerText()).includes(stories[locale].measureReason));assert.notEqual(await page.locator('[data-choice-reasons] a[href$="/product/recovery"]').innerText(),'Sundae Crew')}
    if(path==='/product/watchtower') assert.equal(await page.getByRole('heading',{name:stories[locale].watchtowerTitle,exact:true}).count(),1)
    const body=await page.locator('main').innerText();assert.ok(!/Two substrates|DECISION SUBSTRATE|WORKFORCE SUBSTRATE|Only Platform That Sees Both Sides|Every rival|Only Sundae measures|Crew Pay · 36\+ ISO/.test(body),route)
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),route)
