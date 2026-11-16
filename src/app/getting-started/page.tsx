@@ -1,5 +1,6 @@
 "use client";
 
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -303,7 +304,9 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
 export default function GettingStartedPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const copy = localizedGettingStartedCopy[locale as keyof typeof localizedGettingStartedCopy] ?? getGeneratedLocalCopy(localizedGettingStartedCopy, generatedLocalCopy.localizedGettingStartedCopy, locale) ?? localizedGettingStartedCopy.en;
+  const originalCopy = localizedGettingStartedCopy[locale as keyof typeof localizedGettingStartedCopy] ?? getGeneratedLocalCopy(localizedGettingStartedCopy, generatedLocalCopy.localizedGettingStartedCopy, locale) ?? localizedGettingStartedCopy.en;
+  const commercial = getCommercialCopy(locale);
+  const copy = { ...originalCopy, steps: originalCopy.steps.map((step, index) => index === 1 ? { ...step, description: commercial.packageScope } : step) };
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
 
   const handleFinalCardClick = (href?: string) => {

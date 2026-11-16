@@ -1,3 +1,4 @@
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 // AI-powered Diagnostic API
 //
 // POST /api/diagnostic
@@ -119,7 +120,7 @@ async function generateWithModel(
     abortSignal,
   });
 
-  return groundGeneratedDiagnostic(result.object, referenceReport);
+  return groundGeneratedDiagnostic(result.object, referenceReport, locale, getCommercialCopy(locale).stackBasis);
 }
 
 export async function POST(req: Request) {

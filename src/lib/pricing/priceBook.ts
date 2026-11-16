@@ -1,37 +1,13 @@
 /**
- * Sundae canonical price book — v1.7.
- *
- * SINGLE SOURCE OF TRUTH for every price this marketing site renders,
- * computes, or hands to a model. Nothing on the public site may quote a
- * number that is not derived from this file.
- *
- * ── The two rules that keep us honest ──────────────────────────────────
- *
- * 1. BANDS ARE MARGINAL. A Core package (and Foresight & Action) is priced
- *    as a FIRST-UNIT anchor plus a marginal rate for each additional unit,
- *    where the marginal rate steps down as you cross a band boundary.
- *    Reaching a band does NOT reprice the units below it.
- *
- *      5 Core Foundation locations = 1195 + 4 x 175 = $1,895 / mo total.
- *
- *    Therefore: never render or compute a flat "$X per location" rate for a
- *    banded SKU, and never write "includes N locations" / "base covers 3,
- *    then $X/loc beyond 3". That is the RETIRED v1.6 mechanic and it is
- *    factually wrong under v1.7. A blended average (total ÷ units) may be
- *    shown ONLY when explicitly labelled as an average of the total.
- *
- * 2. THE ELEVEN CORE DOMAIN MODULES ARE PACKAGE COMPONENTS, never
- *    a-la-carte offers. They describe what a Core package INCLUDES. There
- *    is no per-module price on this site.
- *
- * ── Retired in v1.7 (must not be offered or advertised anywhere) ───────
- *    report_lite, report_plus, report_pro, core_lite, core_pro
- *    ("Report Lite / Plus / Pro", "Core Lite", "Core Pro").
- *    Those ids may survive ONLY as internal compatibility aliases when
- *    reading an existing subscription — never as something we sell.
+ * Public list-price snapshot verified against the authoritative active database
+ * catalogue. The live pricing calculator remains the authority for an estimate.
+ * Run `npm run pricing:check` to detect changed rates, scopes or entitlements.
+ * Rates are marginal; a package includes only its listed module IDs.
  */
+import catalog from './catalogSnapshot.json';
 
-export const PRICE_BOOK_VERSION = 'v1.7'
+export const PRICE_BOOK_VERSION = catalog.versionName
+export const PRICE_BOOK_VERIFIED_ON = catalog.verifiedOn
 
 /** Every price in this file is monthly USD unless the field says otherwise. */
 export const PRICE_BOOK_CURRENCY = 'USD'
@@ -63,23 +39,15 @@ export interface MarginalBand {
   monthlyPerUnit: number
 }
 
-/** Band boundaries are identical across every banded SKU in v1.7. */
-export const MARGINAL_BAND_RANGES = [
-  { fromUnit: 2, toUnit: 10 },
-  { fromUnit: 11, toUnit: 25 },
-  { fromUnit: 26, toUnit: 50 },
-  { fromUnit: 51, toUnit: 100 },
-] as const
-
 /** Highest unit index the published bands cover. Above this: talk to us. */
-export const BANDED_UNIT_CEILING = 100
+export const BANDED_UNIT_CEILING = 249
 
-function bands(rates: [number, number, number, number]): MarginalBand[] {
-  return MARGINAL_BAND_RANGES.map((range, index) => ({
-    fromUnit: range.fromUnit,
-    toUnit: range.toUnit,
-    monthlyPerUnit: rates[index],
-  }))
+function bands(raw: number[][]): MarginalBand[] {
+  return raw.slice(1).map(([toUnit, monthlyPerUnit], index) => ({
+    fromUnit: raw[index][0] + 1,
+    toUnit: Math.min(toUnit, BANDED_UNIT_CEILING),
+    monthlyPerUnit,
+  })).filter(band => band.fromUnit <= BANDED_UNIT_CEILING);
 }
 
 export interface BandedSku {
@@ -101,38 +69,17 @@ export interface CorePackage extends BandedSku {
   id: CorePackageId
   /** Monthly AI credit wallet included with the package. */
   aiCreditWallet: number
+  includedModuleIds: readonly string[]
 }
 
-export const CORE_PACKAGES: CorePackage[] = [
-  {
-    id: 'core_foundation',
-    name: 'Core Foundation',
-    firstUnitMonthly: 1195,
-    bands: bands([175, 150, 125, 105]),
-    aiCreditWallet: 14_000,
-  },
-  {
-    id: 'core_margin',
-    name: 'Core Margin',
-    firstUnitMonthly: 1650,
-    bands: bands([245, 210, 175, 145]),
-    aiCreditWallet: 16_000,
-  },
-  {
-    id: 'core_growth',
-    name: 'Core Growth',
-    firstUnitMonthly: 1925,
-    bands: bands([260, 225, 190, 155]),
-    aiCreditWallet: 18_000,
-  },
-  {
-    id: 'core_performance',
-    name: 'Core Performance',
-    firstUnitMonthly: 2980,
-    bands: bands([409, 348, 290, 236]),
-    aiCreditWallet: 24_000,
-  },
-]
+export const CORE_PACKAGES: CorePackage[] = catalog.tiers.map(tier => ({
+  id: `core_${tier.id}` as CorePackageId,
+  name: tier.name,
+  firstUnitMonthly: tier.basePrice,
+  bands: bands(tier.locationBands),
+  aiCreditWallet: tier.aiCreditsBase,
+  includedModuleIds: tier.includedModuleIds,
+}));
 
 export const CORE_PACKAGES_BY_ID: Record<CorePackageId, CorePackage> =
   Object.fromEntries(CORE_PACKAGES.map((pkg) => [pkg.id, pkg])) as Record<
@@ -141,49 +88,52 @@ export const CORE_PACKAGES_BY_ID: Record<CorePackageId, CorePackage> =
   >
 
 /** Foresight & Action is banded on the same boundaries as the Core packages. */
-export const FORESIGHT_AND_ACTION: BandedSku = {
-  id: 'foresight_action',
-  name: 'Foresight & Action',
-  firstUnitMonthly: 495,
-  bands: bands([65, 55, 45, 35]),
+function moduleSku(id: string, name: string): BandedSku {
+  const item = catalog.modules.find(item => item.id === id);
+  if (!item?.locationBands?.length) throw new Error(`Missing published location bands: ${id}`);
+  return { id, name, firstUnitMonthly: item.locationBands[0][1], bands: bands(item.locationBands) };
 }
+export const FORESIGHT_AND_ACTION = moduleSku('foresight', 'Foresight & Action');
 
 /* ────────────────────────────────────────────────────────────────────────
- * Flat monthly SKUs
+ * Location-priced SKUs
  * ──────────────────────────────────────────────────────────────────────── */
 
-export interface FlatSku {
+export interface LocationSku extends BandedSku {
   id: string
   name: string
   monthly: number
-  /** Optional dependency note, e.g. a Crew SKU that requires Schedule. */
+  /** Monthly is the first-location anchor, retained for existing teaser consumers. */
   note?: string
 }
 
-export const CREW_SKUS: FlatSku[] = [
-  { id: 'crew_starter', name: 'Crew Starter', monthly: 99 },
-  { id: 'crew_schedule', name: 'Crew Schedule', monthly: 179 },
-  { id: 'crew_manage', name: 'Crew Manage', monthly: 399 },
-  { id: 'crew_time', name: 'Crew Time', monthly: 99 },
-  { id: 'crew_pay', name: 'Crew Pay', monthly: 129 },
-  { id: 'crew_people', name: 'Crew People', monthly: 249 },
-]
-
-export const CREW_BUNDLES: FlatSku[] = [
-  { id: 'crew_schedule_time', name: 'Schedule & Time', monthly: 249 },
-  { id: 'crew_operating', name: 'Crew Operating', monthly: 499 },
-  { id: 'crew_complete', name: 'Crew Complete', monthly: 699 },
-]
-
-/** Concept SKUs — the operating models an F&B group can switch on. */
-export const CONCEPT_SKUS: FlatSku[] = [
-  { id: 'concept_franchise', name: 'Franchise', monthly: 595 },
-  { id: 'concept_hotel_fb', name: 'Hotel F&B', monthly: 395 },
-  { id: 'concept_cloud_kitchen', name: 'Cloud Kitchen', monthly: 395 },
-  { id: 'concept_catering', name: 'Catering', monthly: 349 },
-  { id: 'concept_production', name: 'Production', monthly: 595 },
-  { id: 'concept_rental_commissary', name: 'Rental Commissary', monthly: 395 },
-]
+const crewSku = (id: string, sourceId: string, name: string): LocationSku => {
+  const item = moduleSku(sourceId, name);
+  return { ...item, id, monthly: item.firstUnitMonthly };
+};
+export const CREW_SKUS: LocationSku[] = [
+  crewSku('crew_starter', 'crew_lite', 'Crew Starter'),
+  crewSku('crew_schedule', 'crew_scheduling', 'Crew Schedule'),
+  crewSku('crew_manage', 'crew_operations', 'Crew Manage'),
+  crewSku('crew_time', 'crew_tna', 'Crew Time'),
+  crewSku('crew_pay', 'crew_payroll', 'Crew Pay'),
+  crewSku('crew_people', 'crew_people_intelligence', 'Crew People'),
+];
+export const CREW_BUNDLES: LocationSku[] = catalog.bundles.map(item => ({
+  id: item.id === 'crew_suite_bundle' ? 'crew_operating' : item.id.replace(/_bundle$/, ''),
+  name: item.name,
+  monthly: item.basePrice,
+  firstUnitMonthly: item.basePrice,
+  bands: bands(item.locationBands),
+}));
+export const CONCEPT_SKUS: LocationSku[] = [
+  crewSku('concept_franchise', 'franchise_intelligence', 'Franchise'),
+  crewSku('concept_hotel_fb', 'hotel_fb_analytics', 'Hotel F&B'),
+  crewSku('concept_cloud_kitchen', 'cloud_kitchen', 'Cloud Kitchen'),
+  crewSku('concept_catering', 'crew_catering', 'Catering'),
+  crewSku('concept_production', 'crew_production', 'Production'),
+  crewSku('concept_rental_commissary', 'rental_commissary', 'Rental Commissary'),
+];
 
 /* ────────────────────────────────────────────────────────────────────────
  * Implementation — charged ONCE, at the highest class in the selection.
@@ -213,12 +163,12 @@ export type BillingCycle = 'monthly' | 'annual' | 'two_year'
 
 export const BILLING_CYCLE_DISCOUNTS: Record<BillingCycle, number> = {
   monthly: 0,
-  annual: 0.1,
-  two_year: 0.15,
+  annual: 0.12,
+  two_year: 0.20,
 }
 
 /** Volume + billing-cycle discounts stack, but never past this ceiling. */
-export const COMBINED_DISCOUNT_CAP = 0.15
+export const COMBINED_DISCOUNT_CAP = catalog.maxCombinedDiscountPercent / 100
 
 export interface VolumeBand {
   fromUnits: number
@@ -238,7 +188,7 @@ export const VOLUME_LADDER: VolumeBand[] = [
 ]
 
 /* ────────────────────────────────────────────────────────────────────────
- * The eleven Core domain modules — PACKAGE COMPONENTS, never offers.
+ * The Core module catalogue — PACKAGE COMPONENTS, never offers.
  * ──────────────────────────────────────────────────────────────────────── */
 
 export interface CoreDomainModule {
@@ -248,6 +198,7 @@ export interface CoreDomainModule {
 }
 
 export const CORE_DOMAIN_MODULES: CoreDomainModule[] = [
+  { id: 'foresight', name: 'Foresight Intelligence', summary: 'Forecasts and scenario planning, subject to selected package and data readiness.' },
   { id: 'labor', name: 'Labor Intelligence', summary: 'Schedule vs. actual, overtime leakage, productivity per labor hour.' },
   { id: 'inventory', name: 'Inventory Intelligence', summary: 'Theoretical vs. actual usage, waste, shrinkage, par levels.' },
   { id: 'purchasing', name: 'Purchasing Intelligence', summary: 'Vendor price movement, contract adherence, order consolidation.' },
@@ -272,7 +223,7 @@ export interface BandedQuote {
   pricedUnits: number
   /**
    * True when `units` exceeds the published band ceiling. The bands stop at
-   * unit 100; above that the marginal rate is not published, so a caller MUST
+   * the applicable product ceiling; above it the marginal rate is not published, so a caller MUST
    * present "talk to us" rather than extrapolate.
    */
   beyondBandedRange: boolean
@@ -291,7 +242,8 @@ export interface BandedQuote {
  */
 export function bandedMonthlyTotal(sku: BandedSku, units: number): BandedQuote {
   const requested = Math.max(1, Math.floor(units))
-  const pricedUnits = Math.min(requested, BANDED_UNIT_CEILING)
+  const ceiling = Math.min(BANDED_UNIT_CEILING, sku.bands.at(-1)?.toUnit ?? 1)
+  const pricedUnits = Math.min(requested, ceiling)
 
   let monthlyTotal = sku.firstUnitMonthly
   for (const band of sku.bands) {
@@ -303,7 +255,7 @@ export function bandedMonthlyTotal(sku: BandedSku, units: number): BandedQuote {
   return {
     monthlyTotal,
     pricedUnits,
-    beyondBandedRange: requested > BANDED_UNIT_CEILING,
+    beyondBandedRange: requested > ceiling,
     blendedAveragePerUnit: Math.round(monthlyTotal / pricedUnits),
   }
 }
@@ -369,11 +321,11 @@ export function describeBands(sku: BandedSku): string {
 export function priceBookForPrompt(): string {
   const core = CORE_PACKAGES.map(
     (pkg) =>
-      `- ${pkg.name}: ${usd(pkg.firstUnitMonthly)} first location, then ${describeBands(pkg)} per ADDITIONAL location/mo. AI credit wallet ${pkg.aiCreditWallet.toLocaleString('en-US')}/mo.`,
+      `- ${pkg.name}: ${usd(pkg.firstUnitMonthly)} first location, then ${describeBands(pkg)} per ADDITIONAL location/mo. AI base credits ${pkg.aiCreditWallet.toLocaleString('en-US')}/mo. Included module IDs: ${pkg.includedModuleIds.join(', ')}.`,
   ).join('\n')
 
-  const crew = CREW_SKUS.map((sku) => `${sku.name} ${usd(sku.monthly)}`).join(' · ')
-  const crewBundles = CREW_BUNDLES.map((sku) => `${sku.name} ${usd(sku.monthly)}`).join(' · ')
+  const crew = CREW_SKUS.map((sku) => `${sku.name}: ${usd(sku.monthly)} first location, then ${describeBands(sku)} per additional location/mo`).join(' · ')
+  const crewBundles = CREW_BUNDLES.map((sku) => `${sku.name}: ${usd(sku.monthly)} first location, then ${describeBands(sku)} per additional location/mo`).join(' · ')
   const concepts = CONCEPT_SKUS.map((sku) => `${sku.name} ${usd(sku.monthly)}`).join(' · ')
   const implementation = IMPLEMENTATION_CLASSES.map(
     (cls) => `${cls.name} ${cls.from ? 'from ' : ''}${usd(cls.oneOff)}`,
@@ -383,7 +335,7 @@ export function priceBookForPrompt(): string {
   ).join(' · ')
 
   return [
-    `Sundae price book ${PRICE_BOOK_VERSION} (monthly ${PRICE_BOOK_CURRENCY}).`,
+    `Verified Sundae catalogue snapshot ${PRICE_BOOK_VERSION} (${PRICE_BOOK_VERIFIED_ON}) (monthly ${PRICE_BOOK_CURRENCY}).`,
     '',
     'CORE PACKAGES - priced as a FIRST-LOCATION anchor plus MARGINAL bands.',
     'Bands are marginal: crossing a band does NOT reprice earlier locations.',
@@ -398,13 +350,13 @@ export function priceBookForPrompt(): string {
     `CONCEPTS: ${concepts}`,
     '',
     `IMPLEMENTATION (one-off, charged ONCE at the highest class in the selection): ${implementation}`,
-    `BILLING CYCLE: annual 10% · 2-year 15%. Volume + cycle discounts combined are capped at ${COMBINED_DISCOUNT_CAP * 100}%.`,
+    `BILLING CYCLE: annual upfront 12% · 2-year upfront 20%; annual paid quarterly 5%. Volume + cycle discounts combined are capped at ${COMBINED_DISCOUNT_CAP * 100}%.`,
     `VOLUME LADDER: ${volume}`,
     '',
-    'The eleven Core domain modules (Labor, Inventory, Purchasing, Marketing,',
+    'The Core module catalogue (Labor, Inventory, Purchasing, Marketing,',
     'Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Pulse,',
-    'Guest CRM) are PACKAGE COMPONENTS. They are never sold a-la-carte and have',
-    'no standalone price. Describe them as what a Core package includes.',
+    'Guest CRM) are not all included in every package. Only list the included',
+    'module IDs for the selected package. Extensions depend on eligibility.',
     '',
     'RETIRED - never quote, name, or recommend: Report Lite, Report Plus,',
     'Report Pro, Core Lite, Core Pro. There is no free tier.',

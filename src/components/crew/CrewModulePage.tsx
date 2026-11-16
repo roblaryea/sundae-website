@@ -11,6 +11,7 @@ import { PRICING_URL, REPORT_APP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { crewPricingLocales } from '@/lib/crewPricingLocales';
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { usd } from '@/lib/pricing/priceBook';
 import { CREW_MODULES, crewModule, type CrewModuleSlug } from './crewModules';
 
@@ -123,7 +124,7 @@ export function CrewModulePage({
             <motion.p {...fade} transition={{ duration: 0.8, ease, delay: 0.4 }} className="mt-5 text-sm text-[var(--text-muted)]">
               {pl.from}{' '}
               <span className="font-semibold text-[var(--text-primary)]">{usd(mod.monthly)}</span>
-              {pl.perMonth}
+              {' '}{getCommercialCopy(locale).firstLocation} · {getCommercialCopy(locale).extraLocations}
               <span className="mx-2 text-[var(--text-faint)]">·</span>
               <a href={PRICING_URL} className="font-semibold text-[var(--warm-coral)] underline-offset-4 hover:underline">
                 {pl.cta} →

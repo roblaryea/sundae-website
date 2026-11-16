@@ -11,6 +11,7 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_modules_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { modulesCreamCopy } from "./modulesCreamCopy";
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { bandedMonthlyTotal, CORE_PACKAGES, usd } from "@/lib/pricing/priceBook";
 
 type LocalizedModuleCopy = {
@@ -526,8 +527,20 @@ export default function ModulesPage() {
   const cta = useCta();
   const { locale, messages } = useWebsiteI18n();
   const copy = messages.pages.modules;
-  const page = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;
-  const ui = localizedModulesUi[locale as keyof typeof localizedModulesUi] ?? getGeneratedLocalCopy(localizedModulesUi, generatedLocalCopy.localizedModulesUi, locale) ?? localizedModulesUi.en;
+  const originalPage = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;
+  const originalUi = localizedModulesUi[locale as keyof typeof localizedModulesUi] ?? getGeneratedLocalCopy(localizedModulesUi, generatedLocalCopy.localizedModulesUi, locale) ?? localizedModulesUi.en;
+  const commercial = getCommercialCopy(locale);
+  const page = { ...originalPage,
+    description: commercial.productOverview,
+    mixAndMatch: "",
+    whatAreModulesDescription: commercial.packageScope,
+    pillars: originalPage.pillars.map((item, index) => index === 1 ? { ...item, title: originalPage.howItWorks[0].title, description: commercial.packageScope } : item),
+    howItWorks: originalPage.howItWorks.map((item, index) => index === 0 ? { ...item, description: commercial.packageScope } : item),
+    faqs: originalPage.faqs.map((item, index) => index < 2 ? { ...item, a: commercial.packageScope } : index === 3 ? { ...item, a: commercial.setup } : item),
+  };
+  const ui = { ...originalUi, overviewNote: commercial.packageScope,
+    packageDepthLabels: CORE_PACKAGES.map(pkg => pkg.includedModuleIds.map(id => id.replaceAll('_', ' ')).join(' · ')),
+  };
   const cream = modulesCreamCopy[locale as keyof typeof modulesCreamCopy] ?? modulesCreamCopy.en;
 
   // Marginal-band worked example, computed from the v1.7 price book so the
@@ -677,10 +690,6 @@ export default function ModulesPage() {
                         </ul>
                       </div>
                       <div>
-                        <div className="bg-green-500/10 rounded-lg p-4 mb-4">
-                          <h4 className="font-semibold text-[var(--text-primary)] mb-2">{copy.roi}</h4>
-                          <p className="text-sm text-[var(--text-secondary)]">{module.roi}</p>
-                        </div>
                         <div className="bg-[var(--surface-faint)] rounded-lg p-4 mb-4">
                           <h4 className="font-semibold text-[var(--text-primary)] mb-2">{copy.bestFor}</h4>
                           <p className="text-sm text-[var(--text-secondary)]">{module.bestFor}</p>

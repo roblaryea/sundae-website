@@ -80,7 +80,12 @@ test("model output cannot add ineligible products or override canonical economic
   assert.equal(grounded.recommendedStack[0].label, reference.recommendedStack[0].detail);
   assert.equal(grounded.recommendedStack[1].label, "Pulse (real-time ops)");
   assert.equal(grounded.recommendedStack[2].label, reference.recommendedStack.find((item) => item.layer === "crew").label);
+  assert.equal(grounded.recommendedStack[0].why, reference.recommendedStack[0].why);
+  assert.equal(grounded.recommendedStack[2].detail, 'Crew Schedule');
+  assert.doesNotMatch(JSON.stringify(grounded.recommendedStack), /Tailored|Useful|Wrong Core/);
   assert.equal(grounded.quickWins[2].title, reference.quickWins[2].title);
+  const localized = groundGeneratedDiagnostic(generated, reference, 'fr', 'Périmètre à confirmer pendant la démonstration.');
+  assert.equal(localized.recommendedStack[0].why, 'Périmètre à confirmer pendant la démonstration.');
 });
 
 test("sparse but valid answers still produce two evidence-safe findings", () => {

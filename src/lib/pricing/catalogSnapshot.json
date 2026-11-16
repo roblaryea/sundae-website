@@ -1,0 +1,740 @@
+{
+  "versionName": "v1.8.2-policy-20261009",
+  "publishedAt": "2026-10-09T14:18:32.997+00:00",
+  "isAuthoritative": true,
+  "verifiedOn": "2026-11-16",
+  "tiers": [
+    {
+      "id": "foundation",
+      "name": "Core Foundation",
+      "basePrice": 1195,
+      "locationBands": [
+        [
+          1,
+          1195
+        ],
+        [
+          10,
+          175
+        ],
+        [
+          25,
+          150
+        ],
+        [
+          50,
+          125
+        ],
+        [
+          100,
+          115
+        ],
+        [
+          150,
+          110
+        ],
+        [
+          250,
+          105
+        ],
+        [
+          251,
+          100
+        ]
+      ],
+      "includedModuleIds": [
+        "labor",
+        "profit",
+        "revenue_assurance",
+        "pulse"
+      ],
+      "aiCreditsBase": 14000
+    },
+    {
+      "id": "margin",
+      "name": "Core Margin",
+      "basePrice": 1650,
+      "locationBands": [
+        [
+          1,
+          1650
+        ],
+        [
+          10,
+          245
+        ],
+        [
+          25,
+          210
+        ],
+        [
+          50,
+          175
+        ],
+        [
+          100,
+          165
+        ],
+        [
+          150,
+          155
+        ],
+        [
+          250,
+          145
+        ],
+        [
+          251,
+          140
+        ]
+      ],
+      "includedModuleIds": [
+        "labor",
+        "inventory",
+        "profit",
+        "revenue_assurance",
+        "pulse",
+        "purchasing",
+        "delivery"
+      ],
+      "aiCreditsBase": 16000
+    },
+    {
+      "id": "growth",
+      "name": "Core Growth",
+      "basePrice": 1925,
+      "locationBands": [
+        [
+          1,
+          1925
+        ],
+        [
+          10,
+          260
+        ],
+        [
+          25,
+          225
+        ],
+        [
+          50,
+          190
+        ],
+        [
+          100,
+          180
+        ],
+        [
+          150,
+          170
+        ],
+        [
+          250,
+          160
+        ],
+        [
+          251,
+          150
+        ]
+      ],
+      "includedModuleIds": [
+        "labor",
+        "profit",
+        "revenue_assurance",
+        "pulse",
+        "marketing",
+        "reservations",
+        "guest_experience",
+        "guest_crm",
+        "delivery"
+      ],
+      "aiCreditsBase": 18000
+    },
+    {
+      "id": "performance",
+      "name": "Core Performance",
+      "basePrice": 2980,
+      "locationBands": [
+        [
+          1,
+          2980
+        ],
+        [
+          10,
+          409
+        ],
+        [
+          25,
+          348
+        ],
+        [
+          50,
+          290
+        ],
+        [
+          100,
+          275
+        ],
+        [
+          150,
+          255
+        ],
+        [
+          250,
+          245
+        ],
+        [
+          251,
+          230
+        ]
+      ],
+      "includedModuleIds": [
+        "labor",
+        "inventory",
+        "profit",
+        "revenue_assurance",
+        "pulse",
+        "purchasing",
+        "marketing",
+        "reservations",
+        "guest_experience",
+        "guest_crm",
+        "delivery",
+        "foresight"
+      ],
+      "aiCreditsBase": 24000
+    }
+  ],
+  "modules": [
+    {
+      "id": "foresight",
+      "name": "Foresight Intelligence",
+      "locationBands": [
+        [
+          1,
+          495
+        ],
+        [
+          10,
+          65
+        ],
+        [
+          25,
+          55
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          100,
+          35
+        ]
+      ]
+    },
+    {
+      "id": "crew_lite",
+      "name": "Crew — Lite",
+      "locationBands": [
+        [
+          1,
+          99
+        ],
+        [
+          5,
+          19
+        ]
+      ]
+    },
+    {
+      "id": "crew_scheduling",
+      "name": "Crew — Scheduling",
+      "locationBands": [
+        [
+          1,
+          179
+        ],
+        [
+          10,
+          39
+        ],
+        [
+          25,
+          35
+        ],
+        [
+          50,
+          31
+        ],
+        [
+          100,
+          29
+        ],
+        [
+          150,
+          27
+        ],
+        [
+          250,
+          26
+        ],
+        [
+          251,
+          25
+        ]
+      ]
+    },
+    {
+      "id": "crew_operations",
+      "name": "Crew — Operations",
+      "locationBands": [
+        [
+          1,
+          399
+        ],
+        [
+          10,
+          79
+        ],
+        [
+          25,
+          71
+        ],
+        [
+          50,
+          63
+        ],
+        [
+          100,
+          59
+        ],
+        [
+          150,
+          56
+        ],
+        [
+          250,
+          53
+        ],
+        [
+          251,
+          50
+        ]
+      ]
+    },
+    {
+      "id": "crew_tna",
+      "name": "Crew — Time & Attendance",
+      "locationBands": [
+        [
+          1,
+          99
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          25,
+          17
+        ],
+        [
+          50,
+          15
+        ],
+        [
+          100,
+          14
+        ],
+        [
+          250,
+          13
+        ],
+        [
+          251,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "crew_payroll",
+      "name": "Crew — Payroll",
+      "locationBands": [
+        [
+          1,
+          129
+        ],
+        [
+          10,
+          29
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          50,
+          23
+        ],
+        [
+          100,
+          22
+        ],
+        [
+          150,
+          20
+        ],
+        [
+          250,
+          19
+        ],
+        [
+          251,
+          18
+        ]
+      ]
+    },
+    {
+      "id": "crew_people_intelligence",
+      "name": "Crew — People Intelligence",
+      "locationBands": [
+        [
+          1,
+          249
+        ],
+        [
+          10,
+          39
+        ],
+        [
+          25,
+          35
+        ],
+        [
+          50,
+          31
+        ],
+        [
+          100,
+          29
+        ],
+        [
+          150,
+          27
+        ],
+        [
+          250,
+          26
+        ],
+        [
+          251,
+          25
+        ]
+      ]
+    },
+    {
+      "id": "crew_catering",
+      "name": "Crew — Catering & Events",
+      "locationBands": [
+        [
+          1,
+          349
+        ],
+        [
+          10,
+          69
+        ],
+        [
+          50,
+          59
+        ],
+        [
+          100,
+          49
+        ]
+      ]
+    },
+    {
+      "id": "crew_production",
+      "name": "Crew — Production",
+      "locationBands": [
+        [
+          1,
+          595
+        ],
+        [
+          10,
+          95
+        ],
+        [
+          25,
+          80
+        ],
+        [
+          50,
+          65
+        ],
+        [
+          100,
+          50
+        ]
+      ]
+    },
+    {
+      "id": "hotel_fb_analytics",
+      "name": "Hotel F&B Analytics",
+      "locationBands": [
+        [
+          1,
+          395
+        ],
+        [
+          10,
+          85
+        ],
+        [
+          25,
+          72
+        ],
+        [
+          50,
+          60
+        ],
+        [
+          100,
+          48
+        ]
+      ]
+    },
+    {
+      "id": "franchise_intelligence",
+      "name": "Franchise Intelligence",
+      "locationBands": [
+        [
+          1,
+          595
+        ],
+        [
+          10,
+          75
+        ],
+        [
+          25,
+          65
+        ],
+        [
+          50,
+          55
+        ],
+        [
+          100,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "cloud_kitchen",
+      "name": "Cloud Kitchen Economics",
+      "locationBands": [
+        [
+          1,
+          395
+        ],
+        [
+          10,
+          69
+        ],
+        [
+          25,
+          59
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          100,
+          39
+        ]
+      ]
+    },
+    {
+      "id": "rental_commissary",
+      "name": "Rental Commissary",
+      "locationBands": [
+        [
+          1,
+          395
+        ],
+        [
+          10,
+          75
+        ],
+        [
+          25,
+          65
+        ],
+        [
+          50,
+          55
+        ],
+        [
+          100,
+          45
+        ]
+      ]
+    }
+  ],
+  "bundles": [
+    {
+      "id": "crew_schedule_time_bundle",
+      "name": "Schedule & Time",
+      "basePrice": 249,
+      "locationBands": [
+        [
+          1,
+          249
+        ],
+        [
+          10,
+          49
+        ],
+        [
+          25,
+          45
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          100,
+          39
+        ],
+        [
+          150,
+          36
+        ],
+        [
+          250,
+          34
+        ],
+        [
+          251,
+          33
+        ]
+      ],
+      "moduleIds": [
+        "crew_scheduling",
+        "crew_tna"
+      ]
+    },
+    {
+      "id": "crew_complete_bundle",
+      "name": "Crew Complete",
+      "basePrice": 699,
+      "locationBands": [
+        [
+          1,
+          699
+        ],
+        [
+          10,
+          129
+        ],
+        [
+          25,
+          115
+        ],
+        [
+          50,
+          102
+        ],
+        [
+          100,
+          96
+        ],
+        [
+          150,
+          90
+        ],
+        [
+          250,
+          86
+        ],
+        [
+          251,
+          82
+        ]
+      ],
+      "moduleIds": [
+        "crew_operations",
+        "crew_tna",
+        "crew_payroll",
+        "crew_people_intelligence"
+      ]
+    },
+    {
+      "id": "crew_suite_bundle",
+      "name": "Crew Operating",
+      "basePrice": 499,
+      "locationBands": [
+        [
+          1,
+          499
+        ],
+        [
+          10,
+          99
+        ],
+        [
+          25,
+          89
+        ],
+        [
+          50,
+          79
+        ],
+        [
+          100,
+          74
+        ],
+        [
+          150,
+          70
+        ],
+        [
+          250,
+          66
+        ],
+        [
+          251,
+          63
+        ]
+      ],
+      "moduleIds": [
+        "crew_operations",
+        "crew_tna",
+        "crew_payroll"
+      ]
+    }
+  ],
+  "discounts": [
+    {
+      "billingCycle": "annual",
+      "discountPercent": "5.00",
+      "paymentSchedule": "quarterly"
+    },
+    {
+      "billingCycle": "annual",
+      "discountPercent": "12.00",
+      "paymentSchedule": "upfront"
+    },
+    {
+      "billingCycle": "2year",
+      "discountPercent": "20.00",
+      "paymentSchedule": "upfront"
+    }
+  ],
+  "maxCombinedDiscountPercent": 20
+}
