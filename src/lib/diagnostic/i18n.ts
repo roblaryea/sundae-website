@@ -4,6 +4,7 @@ import {
   websiteLocaleProfiles,
   type WebsiteLocale,
 } from "@/lib/i18n";
+import evidenceCopy from '@/content/diagnostic/evidence-copy.json';
 
 export type DiagnosticCopy = {
   locale: WebsiteLocale;
@@ -2963,7 +2964,18 @@ function mergeCopy(locale: WebsiteLocale): DiagnosticCopy {
 }
 
 export function getDiagnosticCopy(locale?: string | null): DiagnosticCopy {
-  return mergeCopy(normalizeWebsiteLocale(locale));
+  const normalized = normalizeWebsiteLocale(locale);
+  const copy = mergeCopy(normalized);
+  const evidence = evidenceCopy[normalized as keyof typeof evidenceCopy];
+  return {
+    ...copy,
+    features: copy.features.map((feature, index) => ({
+      ...feature,
+      detail: index === 1 ? evidence.intro.introReportBody : index === 2 ? evidence.intro.honestOutput : feature.detail,
+    })),
+    report: { ...copy.report, ...evidence.report },
+    share: { ...copy.share, ...evidence.share, footer: () => evidence.footer },
+  };
 }
 
 export function getDiagnosticPromptInstruction(locale?: string | null): string {

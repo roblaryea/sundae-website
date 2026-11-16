@@ -138,34 +138,6 @@ const regionLabel = (vals: string[]): string => {
 
 // ─── Engine ─────────────────────────────────────────────────────────
 // ─── Economics helpers (directional list-pricing math) ──────────────
-const AUV_MID: Record<string, number> = {
-  under_500k: 400_000, "500k_1m": 750_000, "1m_2m": 1_500_000,
-  "2m_4m": 3_000_000, "4m_7m": 5_500_000, "7m_plus": 9_000_000,
-};
-const BUDGET_MID: Record<string, number> = {
-  under_10k: 7_000, "10_25k": 17_000, "25_50k": 37_000, "50_100k": 75_000,
-  "100_250k": 175_000, "250_500k": 375_000, "500k_1m": 750_000, "1m_plus": 1_300_000,
-};
-// In-house reporting/BI time Sundae offloads, expressed as FTE-equivalents.
-// Deliberately conservative — we only count the slice of these people whose
-// work (pulling reports, maintaining dashboards) Sundae absorbs, not their
-// whole role. Used only to make the "what you spend today" comparison fair.
-const HEADCOUNT_FTE: Record<string, number> = {
-  none: 0, fractional: 0.25, one: 0.5, two_three: 1.0,
-  four_eight: 1.75, nine_twenty: 3.0, twenty_plus: 5.0,
-};
-// Conservative blended loaded monthly cost of a reporting/BI analyst (salary +
-// overhead), globally averaged across our markets. Directional, never a quote.
-const ANALYST_LOADED_MONTHLY = 5_200;
-// Share of a group's ops-tech SaaS spend that Sundae actually consolidates —
-// the BI / analytics / scheduling / reporting / payroll-readiness slice. POS
-// processing and hardware are explicitly excluded (Sundae sits on top of POS).
-const CONSOLIDATABLE_SOFTWARE_FRACTION = 0.45;
-const money = (n: number): string =>
-  n >= 1_000_000 ? `$${(n / 1_000_000).toFixed(n >= 10_000_000 ? 0 : 1)}M`
-  : n >= 10_000 ? `$${Math.round(n / 1000)}K`
-  : n >= 1_000 ? `$${(n / 1000).toFixed(1)}K`   // sub-$10K: one decimal so ranges don't collapse
-  : `$${Math.round(n / 10) * 10}`;
 
 /**
  * Which Core PACKAGE fits this operator.
@@ -263,42 +235,18 @@ function computeEconomics(
   ].filter(Boolean).join(" + ");
 
   // ── Like-for-like: what you spend on this today (loaded) ────────────
-  const budgetAnnual = BUDGET_MID[String(responses.budget_band ?? "")];
-  const budgetMonthly = budgetAnnual ? budgetAnnual / 12 : 0;
-  const softwareMonthly = budgetAnnual
-    ? budgetMonthly * CONSOLIDATABLE_SOFTWARE_FRACTION
-    : 110 * outlets; // fallback: consolidatable software ≈ $110/outlet/mo
-  const fte = HEADCOUNT_FTE[String(responses.tech_headcount ?? "")] ?? 0;
-  const peopleMonthly = fte * ANALYST_LOADED_MONTHLY;
-  const currentLow = softwareMonthly;
-  const currentHigh = peopleMonthly > 0 ? softwareMonthly + peopleMonthly : softwareMonthly * 1.25;
-
-  const spendBasis = budgetAnnual
-    ? `≈ ${money(softwareMonthly)}/mo of consolidatable software (the BI, scheduling, reporting & payroll-readiness slice of your ~${money(budgetMonthly)}/mo ops-tech spend)${peopleMonthly > 0 ? ` plus ~${fte} FTE of in-house reporting time Sundae frees (≈ ${money(peopleMonthly)}/mo loaded)` : ` (you flagged no dedicated reporting headcount)`}. Loaded and directional - never a quote.`
-    : `≈ ${money(softwareMonthly)}/mo of consolidatable software across ~${outlets} outlet${outlets === 1 ? "" : "s"} (BI, scheduling, reporting)${peopleMonthly > 0 ? ` plus ~${fte} FTE of in-house reporting time (≈ ${money(peopleMonthly)}/mo loaded)` : ""}. Add your SaaS spend for a tighter figure.`;
-
-  // Honest net comparison: investment point-estimate vs. loaded current spend.
-  const net = monthly <= currentLow
-    ? `Net lower than today's loaded spend by ~${money(currentLow - monthly)}/mo - before any margin gain.`
-    : monthly <= currentHigh
-      ? `Roughly comparable to today's loaded spend - for one consolidated platform with materially more capability.`
-      : `≈ +${money(monthly - currentHigh)}/mo over today's loaded spend - for a single platform that replaces your tooling and frees analyst time, before the EBITDA return below.`;
-
+  // The intake does not establish an audited software/time-cost baseline or
+  // a causal margin improvement. Do not turn assumed fractions into savings.
   const currentSpend = {
-    range: `${money(currentLow)}-${money(currentHigh)} / mo`,
-    basis: spendBasis,
-    net,
+    range: "Needs your current cost baseline",
+    basis: "Reconcile current software contracts and reporting time before making a like-for-like comparison.",
+    net: "No saving is established by this assessment.",
   };
-
-  const auv = AUV_MID[String(responses.avg_unit_volume ?? "")];
-  const annualRev = auv ? auv * outlets : 0;
-  const ebitdaUplift = auv
-    ? { pctRange: "+1-3 margin points",
-        amountRange: `${money(annualRev * 0.01)}-${money(annualRev * 0.03)} / yr`,
-        basis: `≈ the +1-3 margin-point range on est. ${money(annualRev)} revenue (${money(auv)} AUV × ${outlets} outlets). Illustrative ceiling assuming full realisation over ~12 months - not a quote.` }
-    : { pctRange: "+1-3 margin points",
-        amountRange: "Add your AUV to size this",
-        basis: "Share average revenue per outlet to convert the margin-point range into an annual figure." };
+  const ebitdaUplift = {
+    pctRange: "Not estimated",
+    amountRange: "Validate the opportunity first",
+    basis: "Use reconciled revenue and cost data, an agreed baseline and measured actions before estimating financial benefit.",
+  };
 
   const softUplifts: SoftUplift[] = [];
   if (has(responses.labor_pain, "turnover")) {
@@ -318,7 +266,7 @@ function computeEconomics(
         basis: `${costBasis}. Above 100 locations the marginal bands give way to an Enterprise agreement, so we scope the figure with you rather than publish one.${expansionNote}`,
       }
     : {
-        range: `${money(monthly * 0.85)}-${money(monthly * 1.2)} / mo`,
+        range: `${usd(monthly)} / mo at list`,
         basis: `${costBasis}, across ~${outlets} outlet${outlets === 1 ? "" : "s"} - ${usd(monthly)}/mo at list, a ${usd(coreQuote.blendedAveragePerUnit)} blended average per location on the Core line (an average of the total, not a per-location rate). Indicative list pricing, a starting footprint, not a quote.${expansionNote}`,
       };
 
@@ -350,11 +298,9 @@ export function runDiagnostic(
     topLeaks.push({
       id: "daypart_overstaffing",
       title: "Daypart overstaffing leak",
-      detail: "Slow windows are running with peak-hour FTE counts. Sundae Pulse identifies these in real time and surfaces the shift to cut before payroll is locked.",
+      detail: "Your overstaffing answer flags a possible mismatch between demand and scheduled hours. Compare staffing, sales and service coverage by daypart before changing a shift.",
       impactBand: "high",
-      impactCopy: outlets >= 6
-        ? `Operators with similar profiles typically recover 5-14% of weekly labor cost - at ${outlets} outlets this compounds significantly.`
-        : "Operators with similar profiles typically recover 5-14% of weekly labor cost.",
+      impactCopy: "Measure labor cost and service coverage against the agreed baseline; no recovery percentage is established yet.",
     });
   }
 
@@ -365,7 +311,7 @@ export function runDiagnostic(
       title: "Overtime leakage",
       detail: "OT often compounds because schedule + actual hours aren't visible until payroll close. Sundae T&A + Pulse expose this live, before the threshold is crossed.",
       impactBand: "high",
-      impactCopy: "Operators with similar profiles report 18-32% reduction in OT spend in the first quarter.",
+      impactCopy: "Reconcile scheduled and actual hours, then measure overtime changes without weakening service coverage.",
     });
   }
 
@@ -376,7 +322,7 @@ export function runDiagnostic(
       title: "Real-time margin blindness",
       detail: "You decide on yesterday's numbers. Sundae Pulse + Core surface live margin per shift - the leak gets caught while it can still be fixed.",
       impactBand: "medium",
-      impactCopy: "Sub-week visibility consistently shaves 1-3 margin points across pilots.",
+      impactCopy: "Validate the cost inputs and decision timing before attributing any margin change to faster visibility.",
     });
   }
 
@@ -386,7 +332,7 @@ export function runDiagnostic(
       title: "Item-level profitability gap",
       detail: "Without true item-level profit data, menu engineering decisions are made on gut. Sundae Insights → Item Profitability quantifies the gap per dish.",
       impactBand: "medium",
-      impactCopy: "Typical 2-6 menu items account for 30%+ of margin drag and are usually invisible without this lens.",
+      impactCopy: "Reconcile ingredient costs, portions, discounts and channel fees before ranking item contribution.",
     });
   }
 
@@ -397,7 +343,7 @@ export function runDiagnostic(
       title: "Guest retention blind spot",
       detail: "Guest CRM Intelligence surfaces churn-at-risk cohorts before they go silent. The cost of losing a 12-month guest is consistently underestimated.",
       impactBand: "medium",
-      impactCopy: "Recovered guest cohorts typically lift repeat-revenue 4-11% in the first 6 months.",
+      impactCopy: "Define comparable guest cohorts and a baseline period before measuring repeat-visit or revenue changes.",
     });
   }
 
@@ -406,9 +352,9 @@ export function runDiagnostic(
     topLeaks.push({
       id: "void_audit",
       title: "Void + comp audit signal",
-      detail: "Operators who track voids almost always under-detect override abuse. Sundae Revenue Assurance flags the patterns automatically.",
+      detail: "Review void and comp patterns with their shift context and approvals. An exception is a review signal, not evidence of abuse.",
       impactBand: "low",
-      impactCopy: "Typical recovery: $0.20-$0.80 per cover.",
+      impactCopy: "Validate each exception and measure any confirmed change in voids or comps against a comparable baseline.",
     });
   }
 
@@ -419,7 +365,7 @@ export function runDiagnostic(
       title: "No formal forecasting",
       detail: "Without forecasts you're firefighting variance instead of preventing it. Sundae Foresight projects 14-90 days out with confidence bands.",
       impactBand: "medium",
-      impactCopy: "Forecast-driven operators consistently outperform peer cohorts on labor % and food cost % by 2-4 points.",
+      impactCopy: "Back-test forecasts against your current planning method before claiming better accuracy or operating results.",
     });
   }
 
@@ -541,19 +487,19 @@ export function runDiagnostic(
   // ─── Expected impact ─────────────────────────────────────────────
   const expectedImpact: { metric: string; range: string }[] = [];
   if (ranked.some((l) => l.id === "daypart_overstaffing" || l.id === "ot_leakage")) {
-    expectedImpact.push({ metric: "Labor cost reduction", range: "5-14% in first quarter" });
+    expectedImpact.push({ metric: "Labor cost and coverage", range: "Compare scheduled and actual labor against demand and the agreed baseline" });
   }
   if (ranked.some((l) => l.id === "real_time_margin")) {
-    expectedImpact.push({ metric: "Margin point lift", range: "1-3 points across 6 months" });
+    expectedImpact.push({ metric: "Margin and decision timing", range: "Validate cost inputs, then measure the effect of a specific operating action" });
   }
   if (has(responses.kpis_wished, "forecast_per_outlet") || responses.forecasting === "lyear_gut") {
-    expectedImpact.push({ metric: "Forecast accuracy", range: "+18-32% week-over-week" });
+    expectedImpact.push({ metric: "Forecast accuracy", range: "Back-test against actual demand and your current planning method" });
   }
   if (ranked.some((l) => l.id === "guest_retention")) {
-    expectedImpact.push({ metric: "Repeat-guest revenue", range: "+4-11% in 6 months" });
+    expectedImpact.push({ metric: "Repeat-guest revenue", range: "Use comparable cohorts and account for campaign and seasonal effects" });
   }
   // Default if empty
-  if (expectedImpact.length === 0) {
+  if (expectedImpact.length < 2) {
     expectedImpact.push({ metric: "Baseline readiness", range: "Source coverage and starting measure agreed in the first 30 days" });
     expectedImpact.push({ metric: "Integration confidence", range: "POS, workforce, and cost totals reconciled before any return claim" });
   }

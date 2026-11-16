@@ -98,6 +98,24 @@ test("backs off exponentially up to a bounded delay", () => {
   assert.equal(getDiagnosticLeadRetryDelay(20), 60_000);
 });
 
+test("delivery measurement only acknowledges an accepted request, once after a retry", async () => {
+  let status = 503;
+  let delivered = 0;
+  window.fetch = async () => new Response(null, { status });
+  setOnline(false);
+  queueDiagnosticLead({ email: 'qa@example.com' }, 'diagnostic:delivery-qa');
+  stopRunner = startDiagnosticLeadOutbox(() => { delivered += 1; });
+  setOnline(true);
+  await flushPendingDiagnosticLeads(true);
+  assert.equal(delivered, 0);
+  assert.equal(getPendingDiagnosticLeads().length, 1);
+  status = 201;
+  await flushPendingDiagnosticLeads(true);
+  await flushPendingDiagnosticLeads(true);
+  assert.equal(delivered, 1);
+  assert.equal(getPendingDiagnosticLeads().length, 0);
+});
+
 test("resumes a pending submission when the browser comes back online", async () => {
   let requests = 0;
   window.fetch = async () => {

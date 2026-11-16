@@ -16,6 +16,7 @@ let activeRunners = 0;
 let retryTimer: ReturnType<typeof setTimeout> | null = null;
 let flushPromise: Promise<void> | null = null;
 let forceRetryRequested = false;
+const deliveryListeners = new Set<() => void>();
 
 function isPendingDiagnosticLead(value: unknown): value is PendingDiagnosticLead {
   if (!value || typeof value !== "object") return false;
@@ -183,6 +184,11 @@ export async function flushPendingDiagnosticLeads(force = false): Promise<void> 
 
       if (response.ok) {
         acknowledge(item.idempotencyKey);
+        // Delivery is distinct from completing the intake or seeing a report.
+        // Notify without passing contact details or report content to analytics.
+        for (const listener of deliveryListeners) {
+          try { listener(); } catch { /* Measurement must not break delivery. */ }
+        }
       } else {
         updateAfterFailure(item.idempotencyKey);
       }
@@ -208,16 +214,18 @@ function handleOnline(): void {
 }
 
 /** Starts the outbox runner and returns a React-effect-friendly cleanup. */
-export function startDiagnosticLeadOutbox(): () => void {
+export function startDiagnosticLeadOutbox(onDelivered?: () => void): () => void {
   if (typeof window === "undefined") return () => {};
 
   activeRunners += 1;
+  if (onDelivered) deliveryListeners.add(onDelivered);
   if (activeRunners === 1) {
     window.addEventListener("online", handleOnline);
   }
   requestFlush(true);
 
   return () => {
+    if (onDelivered) deliveryListeners.delete(onDelivered);
     activeRunners = Math.max(0, activeRunners - 1);
     if (activeRunners === 0) {
       window.removeEventListener("online", handleOnline);
