@@ -3,9 +3,23 @@ import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
 import path from 'node:path'
 import test from 'node:test'
+import { getLegacyMarketingDestination } from '../src/lib/legacyMarketingRedirects.ts'
 
 const root = process.cwd()
 const indexNowKey = '408c48955561055aa412e31d996a7526'
+
+test('retired marketing aliases resolve to explicit successors without swallowing unknown URLs', () => {
+  assert.equal(getLegacyMarketingDestination('/report'), '/product/benchmarking')
+  assert.equal(getLegacyMarketingDestination('/report/'), '/product/benchmarking')
+  assert.equal(getLegacyMarketingDestination('/insights'), '/product/insights')
+  assert.equal(getLegacyMarketingDestination('/intelligence'), '/product/intelligence')
+  assert.equal(getLegacyMarketingDestination('/benchmarking'), '/product/benchmarking')
+  assert.equal(getLegacyMarketingDestination('/report-vs-core'), '/product')
+  assert.equal(getLegacyMarketingDestination('/product/sundae-report'), '/product/benchmarking')
+  for (const path of ['/platform', '/report/missing', '/product/insights', '/$', '/&', '/book/manage']) {
+    assert.equal(getLegacyMarketingDestination(path), null, path)
+  }
+})
 
 test('IndexNow key is publicly verifiable and priority submission stays on the canonical host', () => {
   const keyFile = fs.readFileSync(path.join(root, `public/${indexNowKey}.txt`), 'utf8').trim()

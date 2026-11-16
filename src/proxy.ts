@@ -11,6 +11,7 @@ import {
 } from '@/lib/i18n'
 import { isProfileCardPath, isProfileHandle, isProfileHandleCandidate } from '@/lib/profileHandles'
 import { CARD_LOCALE_COOKIE, resolveCardLocale } from '@/lib/profileCardLocale'
+import { getLegacyMarketingDestination } from '@/lib/legacyMarketingRedirects'
 import {
   getBlogEvidenceReviewRedirect,
 } from '@/lib/blogEvidence'
@@ -46,6 +47,16 @@ export async function proxy(request: NextRequest) {
 
   const { pathname, search } = request.nextUrl
   const { locale: localeFromPath, pathname: internalPathname } = parseWebsiteLocaleFromPathname(pathname)
+
+  // next.config handles the English aliases before the proxy. Apply the same
+  // explicit successor mapping after stripping a locale, preserving language
+  // and query parameters instead of rewriting an obsolete route to a 404.
+  const legacyDestination = getLegacyMarketingDestination(internalPathname)
+  if (legacyDestination) {
+    const redirectUrl = request.nextUrl.clone()
+    redirectUrl.pathname = getLocalizedPathname(legacyDestination, localeFromPath ?? defaultWebsiteLocale)
+    return NextResponse.redirect(redirectUrl, 308)
+  }
 
   const blogSlug = internalPathname.match(/^\/blog\/([^/]+)\/?$/)?.[1]
   const evidenceRedirect = blogSlug ? getBlogEvidenceReviewRedirect(blogSlug) : null
