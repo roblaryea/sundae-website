@@ -2,6 +2,8 @@
 
 This extends the earlier completion matrix. Technical availability is not messaging signoff or evidence of qualified demand.
 
+Further owner review found a product hierarchy problem in the preceding Home band and remaining legacy buyer copy. The focused correction and current Restaurant365 benchmark are recorded in [HIERARCHY_AND_BENCHMARK_REVIEW_2026-11-16.md](HIERARCHY_AND_BENCHMARK_REVIEW_2026-11-16.md). Core and Crew are the two peer offerings; payroll remains a Crew capability. Portfolio-wide consistency is an ongoing acceptance standard, not a claim that every specialist page has been rewritten.
+
 ## Verified and corrected
 
 - Full production sitemap: all 1,539 URLs returned 200. Every page had a title, description, canonical, correct supported language and parseable JSON-LD; none exposed a detected noindex directive. Root slash/empty-path equivalents were normalized. Arabic direction was checked. This is an HTTP/rendered-HTML audit, not a browser interaction test of every page.

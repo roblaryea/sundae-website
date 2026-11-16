@@ -1,12 +1,11 @@
 'use client';
 
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
-import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
+import { getLocalizedPathname } from '@/lib/i18n';
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 
-import Link from "next/link";
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
-import { Card, CardContent } from "@/components/ui/Card";
+import { PlatformOfferings } from "@/components/product/PlatformOfferings";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
@@ -23,7 +22,6 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_page'
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { productCreamCopy, productCreamMidCopy } from './productCreamCopy';
-import { getPositioningCopy } from '@/lib/positioningCopy';
 
 type Pillar = {
   name: string;
@@ -222,12 +220,11 @@ const localizedPillars: Record<'en' | 'ar' | 'fr' | 'es', Pillar[]> = {
 
 export default function ProductPage() {
   const cta = useCta();
-  const { locale } = useWebsiteI18n();
+  const { locale, messages } = useWebsiteI18n();
   const ui = copyMap[locale as keyof typeof copyMap] ?? getGeneratedLocalCopy(copyMap, generatedLocalCopy.copyMap, locale) ?? copyMap.en;
   const pillars = localizedPillars[locale as keyof typeof localizedPillars] ?? getGeneratedLocalCopy(localizedPillars, generatedLocalCopy.localizedPillars, locale) ?? localizedPillars.en;
   const cream = productCreamCopy[locale as keyof typeof productCreamCopy] ?? productCreamCopy.en;
   const creamMid = productCreamMidCopy[locale as keyof typeof productCreamMidCopy] ?? productCreamMidCopy.en;
-  const positioning = getPositioningCopy(locale).critical;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -238,62 +235,7 @@ export default function ProductPage() {
         </div>
       </PageHero>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-5xl mx-auto">
-          <FadeUp><div className="text-center mb-12">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.ctaTitle}</h2>
-            <p className="body-lg text-[var(--text-supporting)]">{ui.ctaDescription}</p>
-          </div></FadeUp>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
-              <Card variant="elevated" className="h-full overflow-hidden border-2 border-[#FF5C4D]/30">
-                <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)] p-3">
-                  <BenchmarkDashboardMockup />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface-hover)] via-transparent to-transparent pointer-events-none" />
-                  <span className="absolute top-3 right-3 badge badge--free text-[10px] z-10">{ui.freeLabel}</span>
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-[var(--text-display)] mb-2">{ui.freeTitle}</h3>
-                  <p className="text-sm text-[#FF8473] font-semibold mb-3">{ui.freeSubtitle}</p>
-                  <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{positioning.productCoreDescription}</p>
-                  <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.freeIncludes}</p>
-                  <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
-                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Pulse (intraday operations)' : locale === 'ar' ? 'Pulse (العمليات داخل اليوم)' : locale === 'fr' ? 'Pulse (opérations intraday)' : 'Pulse (operaciones intradía)'}</li>
-                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Ask Sundae' : locale === 'ar' ? 'Ask Sundae' : locale === 'fr' ? 'Ask Sundae' : 'Ask Sundae'}</li>
-                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Anonymous peer benchmarking' : locale === 'ar' ? 'مقارنة مرجعية مجهولة مع الأقران' : locale === 'fr' ? 'Benchmarking anonyme entre pairs' : 'Benchmarking anónimo entre pares'}</li>
-                  </ul>
-                  <Button variant="primary" className="w-full" onClick={() => cta("/core", "view_core_product_card", { page: "/product" })}>{ui.freeCta}</Button>
-                </CardContent>
-              </Card>
-            </motion.div>
-            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }}>
-              <Card variant="elevated" className="h-full overflow-hidden border-2 border-purple-500/30">
-                <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)] p-3">
-                  <PulseDashboardMockup />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface-hover)] via-transparent to-transparent pointer-events-none" />
-                  <span className="absolute top-3 right-3 badge badge--popular text-[10px] z-10">{ui.coreLabel}</span>
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-[var(--text-display)] mb-2">{ui.coreTitle}</h3>
-                  <p className="text-sm text-purple-400 font-semibold mb-3">{ui.coreSubtitle}</p>
-                  <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{ui.coreDescription}</p>
-                  <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.coreIncludes}</p>
-                  <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'Demand-aware scheduling' : locale === 'ar' ? 'جدولة واعية بالطلب' : locale === 'fr' ? 'Plannings pilotés par la demande' : 'Horarios guiados por demanda'}</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'Time & attendance' : locale === 'ar' ? 'الحضور والانصراف' : locale === 'fr' ? 'Temps et présence' : 'Control horario'}</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'Payroll readiness & statutory exports' : locale === 'ar' ? 'جاهزية الرواتب والتصدير النظامي' : locale === 'fr' ? 'Préparation de la paie et exports statutaires' : 'Preparación de nóminas y exportes estatutarios'}</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'People & HR records' : locale === 'ar' ? 'سجلات الأفراد والموارد البشرية' : locale === 'fr' ? 'Dossiers RH' : 'Registros de personas y RR. HH.'}</li>
-                  </ul>
-                  <Button variant="primary" className="w-full" onClick={() => cta("/crew", "view_crew_product", { page: "/product" })}>{ui.coreCta}</Button>
-                </CardContent>
-              </Card>
-            </motion.div>
-          </div>
-          <div className="text-center mt-8">
-            <Button variant="outline" size="sm" onClick={() => cta("/pricing", "see_pricing_product", { page: "/product" })}>{ui.compareCta}</Button>
-          </div>
-        </div>
-      </section>
+      <PlatformOfferings showIntro={false} />
 
       {/* Cream relief - warm break before the long dark Six Intelligence Layers pillar run (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
@@ -311,7 +253,7 @@ export default function ProductPage() {
               return (
                 <FadeUp key={pillar.name} delay={index * 0.05}>
                   <div className={`grid md:grid-cols-2 gap-10 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
-                    <div className={index % 2 === 1 ? 'md:col-start-2' : ''}><Mockup /></div>
+                    <div className={index % 2 === 1 ? 'md:col-start-2' : ''}><Mockup /><p className="mt-4 text-center text-xs leading-relaxed text-[var(--text-muted)]">{operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.illustrationDisclosure}</p></div>
                     <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
                       <div className="flex items-center gap-3 mb-4">
                         <div className={`w-12 h-12 bg-gradient-to-br ${index === 0 ? 'from-red-500 to-rose-600' : index === 1 ? 'from-[#FF7E6F] to-[#FF5C4D]' : index === 2 ? 'from-amber-500 to-orange-600' : index === 3 ? 'from-[#F2B45C] to-[#C2410C]' : index === 4 ? 'from-green-500 to-emerald-600' : 'from-[#E9A24A] to-[#FF5C4D]'} rounded-xl flex items-center justify-center`}>
@@ -331,11 +273,6 @@ export default function ProductPage() {
                           </div>
                         ))}
                       </div>
-                      {index !== 0 && (
-                        <div className="text-sm text-[var(--text-muted)]">
-                          <span className="font-semibold text-[var(--text-primary)]">{pillar.stat}</span> {pillar.statLabel}
-                        </div>
-                      )}
                     </div>
                   </div>
                 </FadeUp>
@@ -356,7 +293,7 @@ export default function ProductPage() {
               return (
                 <FadeUp key={pillar.name} delay={i * 0.05}>
                   <div className={`grid md:grid-cols-2 gap-10 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
-                    <div className={index % 2 === 1 ? 'md:col-start-2' : ''}><Mockup /></div>
+                    <div className={index % 2 === 1 ? 'md:col-start-2' : ''}><Mockup /><p className="mt-4 text-center text-xs leading-relaxed text-[var(--text-muted)]">{operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.illustrationDisclosure}</p></div>
                     <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
                       <div className="flex items-center gap-3 mb-4">
                         <div className={`w-12 h-12 bg-gradient-to-br ${index === 3 ? 'from-[#F2B45C] to-[#C2410C]' : index === 4 ? 'from-green-500 to-emerald-600' : 'from-[#E9A24A] to-[#FF5C4D]'} rounded-xl flex items-center justify-center`}>
@@ -376,11 +313,6 @@ export default function ProductPage() {
                           </div>
                         ))}
                       </div>
-                      {index !== 3 && (
-                        <div className="text-sm text-[var(--text-muted)]">
-                          <span className="font-semibold text-[var(--text-primary)]">{pillar.stat}</span> {pillar.statLabel}
-                        </div>
-                      )}
                     </div>
                   </div>
                 </FadeUp>
@@ -390,23 +322,20 @@ export default function ProductPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-y border-white/10">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-y border-[var(--border-default)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
             <p className="eyebrow mb-4">{ui.loopEyebrow}</p>
-            <h2 className="section-h2 text-white mb-5 text-balance">{ui.loopTitle}</h2>
-            <p className="body-lg text-white/70 mb-8">{ui.loopDescription}</p>
-            <Link href="/product/recovery">
-              <Button variant="outline-light" size="lg">{ui.loopCta}</Button>
-            </Link>
+            <h2 className="section-h2 text-[var(--text-display)] mb-5 text-balance">{ui.loopTitle}</h2>
+            <p className="body-lg text-[var(--text-supporting)] mb-8">{ui.loopDescription}</p>
+            <Button href={getLocalizedPathname('/product/recovery', locale)} variant="outline-light" size="lg">{ui.loopCta}</Button>
           </FadeUp>
         </div>
       </section>
 
-      <OperatorWorkflowLinks />
-      <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Link href="/demo"><Button variant="primary" size="lg">{ui.heroSecondary}</Button></Link>
-        <Link href="/product"><Button variant="outline-ink" size="lg">{ui.heroPrimary}</Button></Link>
+      <PageCTA title={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productTitle} description={getCommercialCopy(locale).sampleWalkthrough}>
+        <Button href={getLocalizedPathname('/demo', locale)} variant="cta" size="lg" trackingLabel="product_closing_walkthrough" trackingMetadata={{ destination: getLocalizedPathname('/demo', locale) }}>{messages.navbar.bookDemo}</Button>
+        <Button variant="outline-ink" size="lg" onClick={() => cta('/pricing', 'see_pricing_product_closing', { page: '/product' })}>{ui.heroPrimary}</Button>
       </PageCTA>
     </div>
   );

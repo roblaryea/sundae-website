@@ -1,0 +1,200 @@
+{
+  "en": {
+    "coreRole": "Performance and decision intelligence",
+    "crewRole": "Workforce and daily operations",
+    "watchtowerTitle": "Market context. Operating performance. One view.",
+    "watchtowerDescription": "Connect competitor, event, weather and market signals with your operating data. Watchtower adds context to Core so teams can investigate changes and plan their next action.",
+    "workReason": "Run the work in Crew, then use Core to understand the effect across locations.",
+    "contextReason": "Put operating performance beside peer benchmarks and market signals before deciding what to change.",
+    "measureReason": "Give the next action an owner and compare its outcome with a recorded baseline."
+  },
+  "ar": {
+    "coreRole": "الأداء وذكاء القرار",
+    "crewRole": "إدارة الكوادر والعمليات اليومية",
+    "watchtowerTitle": "سياق السوق والأداء التشغيلي في رؤية واحدة.",
+    "watchtowerDescription": "اربط إشارات المنافسين والفعاليات والطقس والسوق ببيانات عملياتك. يضيف Watchtower السياق إلى Core ليساعد الفرق على فهم التغيرات وتخطيط الإجراء التالي.",
+    "workReason": "نفّذ العمل في Crew، ثم استخدم Core لفهم أثره عبر المواقع.",
+    "contextReason": "ضع الأداء التشغيلي إلى جانب مقارنات النظراء وإشارات السوق قبل تحديد ما ينبغي تغييره.",
+    "measureReason": "عيّن مسؤولاً للإجراء التالي وقارن نتيجته بخط أساس مسجّل."
+  },
+  "fr": {
+    "coreRole": "Performance et intelligence décisionnelle",
+    "crewRole": "Gestion des équipes et opérations quotidiennes",
+    "watchtowerTitle": "Contexte du marché et performance, dans une même vue.",
+    "watchtowerDescription": "Reliez les signaux des concurrents, des événements, de la météo et du marché à vos données opérationnelles. Watchtower apporte du contexte à Core pour analyser les évolutions et préparer la prochaine action.",
+    "workReason": "Exécutez le travail dans Crew, puis utilisez Core pour comprendre son effet sur vos établissements.",
+    "contextReason": "Comparez la performance aux références de vos pairs et aux signaux du marché avant de décider quoi changer.",
+    "measureReason": "Attribuez la prochaine action à un responsable et comparez son résultat à une référence enregistrée."
+  },
+  "es": {
+    "coreRole": "Rendimiento e inteligencia para decidir",
+    "crewRole": "Gestión de equipos y operaciones diarias",
+    "watchtowerTitle": "Contexto del mercado y rendimiento en una sola vista.",
+    "watchtowerDescription": "Conecta las señales de competidores, eventos, clima y mercado con tus datos operativos. Watchtower aporta contexto a Core para investigar los cambios y planificar la siguiente acción.",
+    "workReason": "Gestiona el trabajo en Crew y usa Core para entender su efecto en todos tus locales.",
+    "contextReason": "Contrasta el rendimiento con referencias de otros operadores y señales del mercado antes de decidir qué cambiar.",
+    "measureReason": "Asigna un responsable a la siguiente acción y compara su resultado con una referencia registrada."
+  },
+  "de": {
+    "coreRole": "Betriebsleistung und Entscheidungsintelligenz",
+    "crewRole": "Personal und täglicher Betrieb",
+    "watchtowerTitle": "Marktumfeld und Betriebsleistung in einer Ansicht.",
+    "watchtowerDescription": "Verknüpfen Sie Wettbewerber-, Veranstaltungs-, Wetter- und Marktsignale mit Ihren Betriebsdaten. Watchtower ergänzt Core um Kontext, damit Teams Veränderungen untersuchen und den nächsten Schritt planen können.",
+    "workReason": "Organisieren Sie die Arbeit in Crew und verstehen Sie mit Core die Wirkung an allen Standorten.",
+    "contextReason": "Betrachten Sie Betriebsleistung, Vergleichswerte anderer Betriebe und Marktsignale zusammen, bevor Sie Änderungen beschließen.",
+    "measureReason": "Weisen Sie der nächsten Maßnahme einen Verantwortlichen zu und vergleichen Sie das Ergebnis mit einer dokumentierten Ausgangsbasis."
+  },
+  "nl": {
+    "coreRole": "Prestaties en beslisinzicht",
+    "crewRole": "Personeel en dagelijkse bedrijfsvoering",
+    "watchtowerTitle": "Marktcontext en bedrijfsprestaties in één overzicht.",
+    "watchtowerDescription": "Verbind signalen over concurrenten, evenementen, weer en markt met je bedrijfsgegevens. Watchtower geeft Core context om veranderingen te onderzoeken en de volgende actie te plannen.",
+    "workReason": "Voer het werk uit in Crew en gebruik Core om het effect op alle locaties te begrijpen.",
+    "contextReason": "Bekijk prestaties naast benchmarks van vergelijkbare bedrijven en marktsignalen voordat je besluit wat er moet veranderen.",
+    "measureReason": "Wijs de volgende actie toe aan een verantwoordelijke en vergelijk het resultaat met een vastgelegde nulmeting."
+  },
+  "pt": {
+    "coreRole": "Desempenho e inteligência para decisões",
+    "crewRole": "Gestão de equipes e operações diárias",
+    "watchtowerTitle": "Contexto de mercado e desempenho em uma só visão.",
+    "watchtowerDescription": "Conecte sinais de concorrentes, eventos, clima e mercado aos seus dados operacionais. Watchtower adiciona contexto ao Core para investigar mudanças e planejar a próxima ação.",
+    "workReason": "Execute o trabalho no Crew e use o Core para entender o efeito em todas as unidades.",
+    "contextReason": "Compare o desempenho com referências de outros operadores e sinais do mercado antes de decidir o que mudar.",
+    "measureReason": "Defina um responsável pela próxima ação e compare o resultado com uma referência registrada."
+  },
+  "hi": {
+    "coreRole": "प्रदर्शन और निर्णय के लिए अंतर्दृष्टि",
+    "crewRole": "कर्मचारी प्रबंधन और रोज़मर्रा के संचालन",
+    "watchtowerTitle": "बाज़ार का संदर्भ और संचालन का प्रदर्शन, एक जगह।",
+    "watchtowerDescription": "प्रतिस्पर्धियों, आयोजनों, मौसम और बाज़ार के संकेतों को अपने संचालन के डेटा से जोड़ें। Watchtower, Core को संदर्भ देता है ताकि टीमें बदलावों की जाँच करके अगला कदम तय कर सकें।",
+    "workReason": "Crew में काम चलाएँ, फिर सभी लोकेशन पर उसका असर समझने के लिए Core इस्तेमाल करें।",
+    "contextReason": "क्या बदलना है यह तय करने से पहले संचालन के प्रदर्शन को समान व्यवसायों के बेंचमार्क और बाज़ार के संकेतों के साथ देखें।",
+    "measureReason": "अगले कदम के लिए ज़िम्मेदार व्यक्ति तय करें और परिणाम को दर्ज शुरुआती स्थिति से तुलना करें।"
+  },
+  "ur": {
+    "coreRole": "کارکردگی اور فیصلہ سازی کی بصیرت",
+    "crewRole": "عملے کا انتظام اور روزمرہ کے کام",
+    "watchtowerTitle": "مارکیٹ کا سیاق اور عملی کارکردگی، ایک منظر میں۔",
+    "watchtowerDescription": "حریفوں، تقریبات، موسم اور مارکیٹ کے اشارے اپنے کاروباری ڈیٹا سے جوڑیں۔ Watchtower، Core کو سیاق فراہم کرتا ہے تاکہ ٹیمیں تبدیلیوں کا جائزہ لے کر اگلا قدم طے کر سکیں۔",
+    "workReason": "Crew میں کام چلائیں، پھر تمام مقامات پر اس کا اثر سمجھنے کے لیے Core استعمال کریں۔",
+    "contextReason": "تبدیلی کا فیصلہ کرنے سے پہلے عملی کارکردگی کو ہم پلہ کاروباروں کے معیارات اور مارکیٹ کے اشاروں کے ساتھ دیکھیں۔",
+    "measureReason": "اگلے اقدام کے لیے ذمہ دار شخص مقرر کریں اور نتیجے کا موازنہ درج شدہ ابتدائی حالت سے کریں۔"
+  },
+  "it": {
+    "coreRole": "Performance e supporto alle decisioni",
+    "crewRole": "Gestione del personale e operazioni quotidiane",
+    "watchtowerTitle": "Contesto di mercato e performance in un’unica vista.",
+    "watchtowerDescription": "Collega i segnali di concorrenti, eventi, meteo e mercato ai dati operativi. Watchtower aggiunge contesto a Core per analizzare i cambiamenti e pianificare la prossima azione.",
+    "workReason": "Gestisci il lavoro in Crew, poi usa Core per comprenderne l’effetto su tutte le sedi.",
+    "contextReason": "Confronta la performance con i benchmark di altri operatori e i segnali del mercato prima di decidere cosa cambiare.",
+    "measureReason": "Assegna un responsabile alla prossima azione e confronta il risultato con una base di riferimento registrata."
+  },
+  "pl": {
+    "coreRole": "Wyniki i wsparcie decyzji",
+    "crewRole": "Zarządzanie personelem i codzienną pracą",
+    "watchtowerTitle": "Kontekst rynkowy i wyniki operacyjne w jednym widoku.",
+    "watchtowerDescription": "Połącz sygnały o konkurencji, wydarzeniach, pogodzie i rynku z danymi operacyjnymi. Watchtower dostarcza Core kontekst, aby zespoły mogły analizować zmiany i planować kolejne działania.",
+    "workReason": "Organizuj pracę w Crew, a następnie wykorzystaj Core, by zrozumieć jej wpływ we wszystkich lokalach.",
+    "contextReason": "Zestaw wyniki z benchmarkami podobnych firm i sygnałami rynkowymi, zanim zdecydujesz, co zmienić.",
+    "measureReason": "Przypisz kolejne działanie do odpowiedzialnej osoby i porównaj wynik z zapisanym punktem odniesienia."
+  },
+  "tr": {
+    "coreRole": "Performans ve karar zekâsı",
+    "crewRole": "İş gücü ve günlük operasyonlar",
+    "watchtowerTitle": "Pazar bağlamı ve operasyon performansı tek görünümde.",
+    "watchtowerDescription": "Rakip, etkinlik, hava durumu ve pazar sinyallerini operasyon verilerinizle birleştirin. Watchtower, ekiplerin değişimleri inceleyip sonraki adımı planlaması için Core’a bağlam kazandırır.",
+    "workReason": "İşi Crew’de yürütün, ardından lokasyonlar üzerindeki etkisini Core ile anlayın.",
+    "contextReason": "Neyi değiştireceğinize karar vermeden önce operasyon performansını benzer işletmelerin ölçütleri ve pazar sinyalleriyle birlikte değerlendirin.",
+    "measureReason": "Sonraki eylem için bir sorumlu atayın ve sonucu kaydedilmiş başlangıç değeriyle karşılaştırın."
+  },
+  "zh-Hans": {
+    "coreRole": "经营表现与决策智能",
+    "crewRole": "员工管理与日常运营",
+    "watchtowerTitle": "市场背景与经营表现，一览全局。",
+    "watchtowerDescription": "将竞争对手、活动、天气和市场信号与运营数据相连。Watchtower 为 Core 提供背景，帮助团队分析变化并规划下一步行动。",
+    "workReason": "用 Crew 执行日常工作，再用 Core 了解各门店的变化与成效。",
+    "contextReason": "决定调整方向前，将经营表现与同行基准、市场信号放在一起评估。",
+    "measureReason": "为下一步行动指定负责人，并将结果与已记录的基线比较。"
+  },
+  "ja": {
+    "coreRole": "業績分析と意思決定支援",
+    "crewRole": "人員管理と日々の業務運営",
+    "watchtowerTitle": "市場の動きと運営実績を、ひとつの視点で。",
+    "watchtowerDescription": "競合、イベント、天候、市場の情報を運営データと結び付けます。Watchtower が Core に背景情報を加え、チームによる変化の分析と次の行動の計画を支援します。",
+    "workReason": "Crew で業務を実行し、Core で各店舗への影響を把握します。",
+    "contextReason": "変更を決める前に、運営実績を同業他社のベンチマークや市場情報と照らし合わせます。",
+    "measureReason": "次の行動に担当者を割り当て、記録した基準値と結果を比較します。"
+  },
+  "ko": {
+    "coreRole": "성과 분석과 의사결정 지원",
+    "crewRole": "인력 관리와 일상 운영",
+    "watchtowerTitle": "시장 상황과 운영 성과를 한눈에.",
+    "watchtowerDescription": "경쟁사, 행사, 날씨와 시장 신호를 운영 데이터에 연결하세요. Watchtower가 Core에 맥락을 더해 팀이 변화를 분석하고 다음 행동을 계획하도록 돕습니다.",
+    "workReason": "Crew에서 업무를 실행하고 Core로 여러 매장에 미친 영향을 파악하세요.",
+    "contextReason": "무엇을 바꿀지 결정하기 전에 운영 성과를 동종업계 벤치마크와 시장 신호에 비춰 보세요.",
+    "measureReason": "다음 행동에 담당자를 지정하고 기록된 기준값과 결과를 비교하세요."
+  },
+  "id": {
+    "coreRole": "Kinerja dan kecerdasan keputusan",
+    "crewRole": "Tenaga kerja dan operasional harian",
+    "watchtowerTitle": "Konteks pasar dan kinerja operasional dalam satu tampilan.",
+    "watchtowerDescription": "Hubungkan sinyal pesaing, acara, cuaca dan pasar dengan data operasional Anda. Watchtower menambahkan konteks ke Core agar tim dapat menelaah perubahan dan merencanakan tindakan berikutnya.",
+    "workReason": "Jalankan pekerjaan di Crew, lalu gunakan Core untuk memahami dampaknya di seluruh lokasi.",
+    "contextReason": "Bandingkan kinerja dengan tolok ukur pelaku usaha sejenis dan sinyal pasar sebelum memutuskan perubahan.",
+    "measureReason": "Tetapkan penanggung jawab tindakan berikutnya dan bandingkan hasilnya dengan acuan awal yang tercatat."
+  },
+  "vi": {
+    "coreRole": "Hiệu quả hoạt động và hỗ trợ quyết định",
+    "crewRole": "Quản lý nhân sự và vận hành hằng ngày",
+    "watchtowerTitle": "Bối cảnh thị trường và hiệu quả vận hành trong một góc nhìn.",
+    "watchtowerDescription": "Kết nối tín hiệu từ đối thủ, sự kiện, thời tiết và thị trường với dữ liệu vận hành. Watchtower bổ sung bối cảnh cho Core để đội ngũ phân tích thay đổi và lên kế hoạch hành động tiếp theo.",
+    "workReason": "Thực hiện công việc trong Crew, rồi dùng Core để hiểu tác động trên các địa điểm.",
+    "contextReason": "Đối chiếu hiệu quả vận hành với chuẩn của các đơn vị tương đồng và tín hiệu thị trường trước khi quyết định thay đổi.",
+    "measureReason": "Giao người phụ trách cho hành động tiếp theo và so sánh kết quả với mức cơ sở đã ghi nhận."
+  },
+  "ro": {
+    "coreRole": "Performanță și sprijin pentru decizii",
+    "crewRole": "Personal și operațiuni zilnice",
+    "watchtowerTitle": "Contextul pieței și performanța operațională, într-o singură vedere.",
+    "watchtowerDescription": "Conectează semnalele despre concurenți, evenimente, vreme și piață cu datele operaționale. Watchtower adaugă context în Core pentru ca echipele să analizeze schimbările și să planifice următoarea acțiune.",
+    "workReason": "Organizează activitatea în Crew, apoi folosește Core pentru a înțelege efectul în toate locațiile.",
+    "contextReason": "Compară performanța cu reperele operatorilor similari și semnalele pieței înainte de a decide ce schimbi.",
+    "measureReason": "Atribuie următoarea acțiune unui responsabil și compară rezultatul cu o bază de referință înregistrată."
+  },
+  "sv": {
+    "coreRole": "Resultat och beslutsstöd",
+    "crewRole": "Personal och daglig drift",
+    "watchtowerTitle": "Marknadsläge och driftresultat i en vy.",
+    "watchtowerDescription": "Koppla signaler om konkurrenter, evenemang, väder och marknad till driftdata. Watchtower ger Core sammanhang så att teamet kan undersöka förändringar och planera nästa åtgärd.",
+    "workReason": "Utför arbetet i Crew och använd sedan Core för att förstå effekten på alla enheter.",
+    "contextReason": "Se driftresultat tillsammans med jämförelsetal från liknande verksamheter och marknadssignaler innan du väljer vad som ska ändras.",
+    "measureReason": "Utse en ansvarig för nästa åtgärd och jämför resultatet med ett dokumenterat utgångsläge."
+  },
+  "bn": {
+    "coreRole": "কার্যদক্ষতা ও সিদ্ধান্তের অন্তর্দৃষ্টি",
+    "crewRole": "কর্মী ব্যবস্থাপনা ও দৈনন্দিন পরিচালনা",
+    "watchtowerTitle": "বাজারের প্রেক্ষাপট ও পরিচালনার ফলাফল, এক নজরে।",
+    "watchtowerDescription": "প্রতিযোগী, অনুষ্ঠান, আবহাওয়া ও বাজারের সংকেতকে পরিচালনার ডেটার সঙ্গে যুক্ত করুন। Watchtower, Core-এ প্রেক্ষাপট যোগ করে যাতে দল পরিবর্তন বিশ্লেষণ করে পরবর্তী পদক্ষেপ পরিকল্পনা করতে পারে।",
+    "workReason": "Crew-এ কাজ পরিচালনা করুন, তারপর সব লোকেশনে তার প্রভাব বুঝতে Core ব্যবহার করুন।",
+    "contextReason": "কী পরিবর্তন করবেন তা ঠিক করার আগে পরিচালনার ফলাফলকে সমজাতীয় ব্যবসার মানদণ্ড ও বাজারের সংকেতের সঙ্গে মিলিয়ে দেখুন।",
+    "measureReason": "পরবর্তী পদক্ষেপের জন্য দায়িত্বপ্রাপ্ত ব্যক্তি নির্ধারণ করুন এবং ফলাফলকে নথিভুক্ত প্রাথমিক অবস্থার সঙ্গে তুলনা করুন।"
+  },
+  "th": {
+    "coreRole": "ผลการดำเนินงานและข้อมูลช่วยตัดสินใจ",
+    "crewRole": "การจัดการพนักงานและการดำเนินงานประจำวัน",
+    "watchtowerTitle": "บริบทตลาดและผลการดำเนินงานในมุมมองเดียว",
+    "watchtowerDescription": "เชื่อมสัญญาณคู่แข่ง กิจกรรม สภาพอากาศและตลาดเข้ากับข้อมูลการดำเนินงาน Watchtower เพิ่มบริบทให้ Core เพื่อให้ทีมวิเคราะห์ความเปลี่ยนแปลงและวางแผนขั้นตอนถัดไป",
+    "workReason": "ดำเนินงานใน Crew แล้วใช้ Core เพื่อทำความเข้าใจผลกระทบในทุกสาขา",
+    "contextReason": "พิจารณาผลการดำเนินงานเทียบกับเกณฑ์ของธุรกิจใกล้เคียงและสัญญาณตลาดก่อนตัดสินใจเปลี่ยนแปลง",
+    "measureReason": "กำหนดผู้รับผิดชอบให้ขั้นตอนถัดไป และเปรียบเทียบผลกับค่าฐานที่บันทึกไว้"
+  },
+  "ms": {
+    "coreRole": "Prestasi dan maklumat untuk keputusan",
+    "crewRole": "Tenaga kerja dan operasi harian",
+    "watchtowerTitle": "Konteks pasaran dan prestasi operasi dalam satu paparan.",
+    "watchtowerDescription": "Hubungkan isyarat pesaing, acara, cuaca dan pasaran dengan data operasi anda. Watchtower menambah konteks pada Core supaya pasukan dapat meneliti perubahan dan merancang tindakan seterusnya.",
+    "workReason": "Jalankan kerja dalam Crew, kemudian gunakan Core untuk memahami kesannya merentas lokasi.",
+    "contextReason": "Bandingkan prestasi operasi dengan penanda aras pengendali setara dan isyarat pasaran sebelum menentukan perubahan.",
+    "measureReason": "Tetapkan pemilik tindakan seterusnya dan bandingkan hasilnya dengan garis dasar yang direkodkan."
+  }
+}

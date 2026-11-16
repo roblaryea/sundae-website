@@ -16,6 +16,9 @@ import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
 import { crewNavLocales } from '@/lib/crewNavLocales';
+import storyCopy from '@/content/platform-story.json';
+import proofCopy from '@/content/workflow-proof.json';
+import { getCoreNavigation } from '@/lib/coreNavigation';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 
 type NavbarLink = {
@@ -84,6 +87,7 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
           gridTemplateRows: isExpanded ? '1fr' : '0fr',
         }}
         aria-hidden={!isExpanded}
+        inert={!isExpanded}
       >
         <div className="overflow-hidden">
           <div className="pb-2">{children}</div>
@@ -124,6 +128,7 @@ const Navbar = () => {
   // blocks predate these fields), so every locale gets them translated.
   const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
   const workflow = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links;
+  const story = storyCopy[locale as keyof typeof storyCopy];
   const cta = useCta();
   // Wordmark is CSS theme-swapped in the markup below (driven by the .light class,
   // which is set before hydration) - no JS state, so no flash and no stale-src caching.
@@ -132,13 +137,15 @@ const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isLogoHovered, setIsLogoHovered] = useState(false);
   
-  // Mobile accordion state - Product and Solutions expanded by default
+  // Product overview starts open; capability and other groups are deliberate choices.
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     product: true,
-    solutions: true,
+    solutions: false,
     pricing: false,
     resources: false,
     company: false,
+    core: false,
+    crew: false,
   });
 
   useEffect(() => {
@@ -213,14 +220,14 @@ const Navbar = () => {
   }, []);
 
   // Six Intelligence Layers
-  const pillars: ReadonlyArray<NavbarLink> = nav.pillars;
+  const pillars: ReadonlyArray<NavbarLink> = getCoreNavigation(nav.pillars, locale);
 
   // Product Tiers (now surfaced under the Pricing dropdown)
-  const plans: ReadonlyArray<NavbarLink> = nav.plansList;
+  const plans: ReadonlyArray<NavbarLink> = nav.plansList.map(plan => plan.href === '/core' ? { ...plan, description: story.coreRole } : plan.href === '/crew' ? { ...plan, description: story.crewRole } : plan).sort((a, b) => (a.href === '/core' ? 0 : a.href === '/crew' ? 1 : 2) - (b.href === '/core' ? 0 : b.href === '/crew' ? 1 : 2));
 
   // Sundae Crew operational modules (Product → Sundae Crew group)
   const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList.map(link =>
-    link.href === '/crew/payroll' ? { ...link, name: workflow.payroll, description: undefined } : link,
+    link.href === '/crew/payroll' ? { ...link, description: undefined } : link,
   );
   const workflowLinks = [
     { name: workflow.tasks, href: '/restaurant-task-management' },
@@ -233,7 +240,7 @@ const Navbar = () => {
 
   const solutionsRoles: ReadonlyArray<NavbarLink> = nav.solutionsRoles;
 
-  const resources: ReadonlyArray<NavbarLink> = nav.resourcesList;
+  const resources: ReadonlyArray<NavbarLink> = [{ name: nav.about, href: '/about' }, ...nav.resourcesList.filter(item => item.href !== '/about')];
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
 
   return (
@@ -304,75 +311,32 @@ const Navbar = () => {
 
               {activeDropdown === 'product' && (
                 <div
-                  className="absolute top-full left-0 z-50 w-[min(56rem,calc(100vw-2rem))] pt-2"
+                  className="absolute top-full start-0 z-50 w-[min(56rem,calc(100vw-2rem))] pt-2"
                   onMouseEnter={() => setActiveDropdown('product')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                <div className="max-h-[calc(100dvh-6rem)] overflow-y-auto bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
+                <div className="max-h-[calc(100dvh-6rem)] overflow-y-auto whitespace-normal bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
                   <Link href={localizeHref('/product')} onClick={() => setActiveDropdown(null)} className="mb-4 block border-b border-[var(--border-default)] px-3 pb-4 text-sm font-semibold text-[var(--text-primary)]">
                     {workflow.platform} →
                   </Link>
-                  {/* Core - the decision-intelligence modules */}
-                  <div className="mb-4">
-                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {cn.core}
-                    </h3>
-                    <div className="grid grid-cols-2 gap-1">
-                      {pillars.map((pillar) => (
-                        <Link
-                          key={pillar.name}
-                          href={localizeHref(pillar.href)}
-                          className={dropdownLinkClass}
-                          onClick={() => setActiveDropdown(null)}
-                        >
-                          <div className={dropdownTitleClass}>
-                            {pillar.name}
-                          </div>
-                          <div className={dropdownDescriptionClass}>
-                            {pillar.description}
-                          </div>
+                  <div className="grid grid-cols-2 divide-x divide-[var(--border-default)] rtl:divide-x-reverse" data-desktop-product-groups>
+                    {[
+                      { id: 'core', name: 'Sundae Core', role: story.coreRole, links: pillars },
+                      { id: 'crew', name: 'Sundae Crew', role: story.crewRole, links: [...crewLinks, ...workflowLinks] },
+                    ].map((group, index) => (
+                      <div key={group.id} className={index === 0 ? 'pe-5' : 'ps-5'} data-nav-offering={group.id}>
+                        <Link href={localizeHref(`/${group.id}`)} onClick={() => setActiveDropdown(null)} className="mb-4 block rounded-lg px-3 py-2 transition-colors hover:bg-[var(--surface-hover)]">
+                          <h3 className="text-base font-semibold text-[var(--text-primary)]">{group.name} →</h3>
+                          <p className="mt-1 text-xs leading-relaxed text-[var(--text-muted)]">{group.role}</p>
                         </Link>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Separator */}
-                  <div className="border-t border-[var(--border-default)] my-4"></div>
-
-                  {/* Sundae Crew - the operational modules */}
-                  <div>
-                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {cn.crew}
-                    </h3>
-                    <div className="grid grid-cols-2 gap-1 mb-2">
-                      {crewLinks.map((m) => (
-                        <Link
-                          key={m.name}
-                          href={localizeHref(m.href)}
-                          className={dropdownLinkClass}
-                          onClick={() => setActiveDropdown(null)}
-                        >
-                          <div className={dropdownTitleClass}>{m.name}</div>
-                          <div className={dropdownDescriptionClass}>{m.description}</div>
-                        </Link>
-                      ))}
-                    </div>
-                    <div className="mb-4 grid grid-cols-2 gap-x-5 gap-y-3 border-t border-[var(--border-default)] px-3 pt-4">
-                      {workflowLinks.map(link => (
-                        <Link key={link.href} href={localizeHref(link.href)} onClick={() => setActiveDropdown(null)} className="text-sm leading-snug text-[var(--text-supporting)] transition-colors hover:text-[var(--warm-coral)]">
-                          {link.name}
-                        </Link>
-                      ))}
-                    </div>
-                    <div className="px-3">
-                      <Link
-                        href={localizeHref('/crew')}
-                        className="min-w-0 text-sm font-semibold text-[var(--warm-coral)] transition-colors hover:text-[var(--text-primary)] break-words"
-                        onClick={() => setActiveDropdown(null)}
-                      >
-                        {cn.crewAll}
-                      </Link>
-                    </div>
+                        <div className="grid grid-cols-2 gap-1">
+                          {group.links.map(link => <Link key={link.href} href={localizeHref(link.href)} className={dropdownLinkClass} onClick={() => setActiveDropdown(null)}>
+                            <div className={dropdownTitleClass}>{link.name}</div>
+                            {group.id === 'core' && 'description' in link && link.description && <div className={dropdownDescriptionClass}>{link.description}</div>}
+                          </Link>)}
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
                 </div>
@@ -505,8 +469,8 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link href={localizeHref('/about')} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
-              {nav.about}
+            <Link href={localizeHref('/why-sundae')} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
+              {proofCopy[locale as keyof typeof proofCopy].whySundae}
             </Link>
             
             {/* Resources Dropdown */}
@@ -627,6 +591,8 @@ const Navbar = () => {
         aria-modal="true"
         role="dialog"
         aria-label={nav.mobileNavigation}
+        aria-hidden={!isMenuOpen}
+        inert={!isMenuOpen}
       >
         {/* Backdrop Overlay */}
         <button
@@ -684,42 +650,27 @@ const Navbar = () => {
               <MobileNavLink href={localizeHref('/product')} onClick={handleMobileNavClick} isHighlighted>
                 {workflow.platform}
               </MobileNavLink>
-              <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{cn.core}</span>
-              </div>
-              {pillars.map((pillar) => (
-                <MobileNavLink
-                  key={pillar.name}
-                  href={localizeHref(pillar.href)}
-                  onClick={handleMobileNavClick}
-                >
-                  {pillar.name}
-                </MobileNavLink>
+              {[
+                { id: 'core', name: 'Sundae Core', role: story.coreRole, links: pillars },
+                { id: 'crew', name: 'Sundae Crew', role: story.crewRole, links: [...crewLinks, ...workflowLinks] },
+              ].map(group => (
+                <div key={group.id} className="border-b border-[var(--border-default)]" data-mobile-nav-offering={group.id}>
+                  <div className="flex items-center gap-2 pe-3">
+                    <Link href={localizeHref(`/${group.id}`)} onClick={handleMobileNavClick} className="min-w-0 flex-1 px-4 py-4 text-sm font-semibold text-[var(--text-primary)]">
+                      <span className="block">{group.name} →</span>
+                      <span className="mt-1 block text-xs font-normal leading-relaxed text-[var(--text-muted)]">{group.role}</span>
+                    </Link>
+                    <button type="button" id={`accordion-header-${group.id}`} aria-label={group.name} aria-expanded={expandedSections[group.id]} aria-controls={`accordion-content-${group.id}`} onClick={() => toggleSection(group.id)} className="rounded-lg p-3 text-[var(--text-primary)] transition-colors hover:bg-[var(--surface-hover)] focus-visible:outline-2 focus-visible:outline-[var(--warm-coral)]">
+                      <ChevronIcon isOpen={expandedSections[group.id]} />
+                    </button>
+                  </div>
+                  <div id={`accordion-content-${group.id}`} hidden={!expandedSections[group.id]} inert={!expandedSections[group.id]}>
+                    {group.links.map(link => <MobileNavLink key={link.href} href={localizeHref(link.href)} onClick={handleMobileNavClick}>{link.name}</MobileNavLink>)}
+                  </div>
+                </div>
               ))}
-              <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
-              <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{cn.crew}</span>
-              </div>
-              {crewLinks.map((m) => (
-                <MobileNavLink
-                  key={m.name}
-                  href={localizeHref(m.href)}
-                  onClick={handleMobileNavClick}
-                >
-                  {m.name}
-                </MobileNavLink>
-              ))}
-              {workflowLinks.map(link => (
-                <MobileNavLink key={link.href} href={localizeHref(link.href)} onClick={handleMobileNavClick}>
-                  {link.name}
-                </MobileNavLink>
-              ))}
-              <MobileNavLink
-                href={localizeHref('/crew')}
-                onClick={handleMobileNavClick}
-                isHighlighted
-              >
-                {cn.crewAll}
+              <MobileNavLink href={localizeHref('/why-sundae')} onClick={handleMobileNavClick}>
+                {proofCopy[locale as keyof typeof proofCopy].whySundae}
               </MobileNavLink>
             </AccordionSection>
 

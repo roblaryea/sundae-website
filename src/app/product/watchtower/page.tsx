@@ -1,5 +1,6 @@
 'use client';
 
+import storyCopy from '@/content/platform-story.json';
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -494,7 +495,9 @@ const localizedWatchtowerCopy = {
 export default function WatchtowerPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? getGeneratedLocalCopy(localizedWatchtowerCopy, generatedLocalCopy.localizedWatchtowerCopy, locale) ?? localizedWatchtowerCopy.en;
+  const sourceCopy = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? getGeneratedLocalCopy(localizedWatchtowerCopy, generatedLocalCopy.localizedWatchtowerCopy, locale) ?? localizedWatchtowerCopy.en;
+  const story = storyCopy[locale as keyof typeof storyCopy];
+  const ui = { ...sourceCopy, internalHeading: story.watchtowerTitle, internalDescription: story.watchtowerDescription, introCards: sourceCopy.introCards.map((item, index) => index === 0 ? { ...item, text: story.watchtowerDescription } : item) };
   const cream = watchtowerCreamCopy[locale as keyof typeof watchtowerCreamCopy] ?? watchtowerCreamCopy.en;
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
   const pricingCards = [...(ui.pricingCards as readonly { name: string; price: string; perLoc: string; highlight?: boolean }[])];
@@ -561,7 +564,7 @@ export default function WatchtowerPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <FadeUp>
-              <p className="eyebrow text-red-500 mb-4">{ui.internalEyebrow}</p>
+              <p className="eyebrow mb-4">{ui.internalEyebrow}</p>
               <h2 className="section-h2 text-[var(--text-primary)] mb-6">{ui.internalHeading}</h2>
               <p className="body-lg text-[var(--text-supporting)]">{ui.internalDescription}</p>
             </FadeUp>

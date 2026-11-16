@@ -183,7 +183,17 @@ export default async function RootLayout({
   const organizationId = new URL("/#organization", baseUrl).toString();
   const websiteId = new URL("/#website", baseUrl).toString();
   const softwareId = new URL("/product#software", baseUrl).toString();
+  const coreSoftwareId = new URL("/core#software", baseUrl).toString();
+  const coreCapabilityPaths = ['/product/pulse', '/product/foresight', '/product/benchmarking', '/product/watchtower', '/product/insights', '/product/cross-intelligence', '/product/recovery', '/product/intelligence'];
   const productEntities = [
+    {
+      id: "/core#software",
+      name: "Sundae Core",
+      subcategory: "Hospitality performance and decision intelligence",
+      path: "/core",
+      description:
+        "Connected operating performance, evidence, decisions, accountable actions and measured outcomes across hospitality and food-service locations. Capabilities depend on the selected package and eligible extensions.",
+    },
     {
       id: "/product/pulse#software",
       name: "Sundae Pulse",
@@ -254,7 +264,7 @@ export default async function RootLayout({
       subcategory: "Hospitality workforce operations",
       path: "/crew",
       description:
-        "Workforce operations for restaurant and hospitality scheduling, time and attendance, HR records, payroll readiness, self-service, and workforce intelligence.",
+        "Workforce and daily operations for restaurant and hospitality scheduling, attendance, tasks, handovers, HR records, payroll calculation and review, tip workflows, self-service and workforce intelligence.",
     },
   ].map((product) => ({
     "@type": "SoftwareApplication",
@@ -266,7 +276,8 @@ export default async function RootLayout({
     url: new URL(product.path, baseUrl).toString(),
     description: product.description,
     provider: { "@id": organizationId },
-    isPartOf: { "@id": softwareId },
+    isPartOf: { "@id": product.path === '/core' || product.path === '/crew' ? softwareId : coreSoftwareId },
+    ...(product.path === '/core' ? { hasPart: coreCapabilityPaths.map(path => ({ '@id': new URL(`${path}#software`, baseUrl).toString() })) } : {}),
     audience: {
       "@type": "BusinessAudience",
       audienceType: "Food-service and hospitality operators",
@@ -307,7 +318,7 @@ export default async function RootLayout({
         description:
           "Sundae connects workforce, daily operating workflows and operating data to accountable action, decision support and measured outcomes across hospitality and food-service locations.",
         provider: { "@id": organizationId },
-        hasPart: productEntities.map((product) => ({ "@id": product["@id"] })),
+        hasPart: productEntities.filter(product => product.name === 'Sundae Core' || product.name === 'Sundae Crew').map((product) => ({ "@id": product["@id"] })),
         audience: {
           "@type": "BusinessAudience",
           audienceType: "Multi-location food-service operators",
