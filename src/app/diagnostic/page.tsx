@@ -39,8 +39,10 @@ export default function DiagnosticPage() {
 
   useEffect(() => {
     setSavedProgress(loadProgress());
-    return startDiagnosticLeadOutbox();
-  }, []);
+    return startDiagnosticLeadOutbox(() => {
+      trackEvent("diagnostic_lead_delivered", { locale });
+    });
+  }, [locale]);
 
   const handleStart = () => {
     setResumeFrom(null);
@@ -168,6 +170,9 @@ export default function DiagnosticPage() {
           primaryPOS,
           ctaLabel: "Operations Diagnostic",
           sourcePage: "/diagnostic",
+          utmSource: new URLSearchParams(window.location.search).get('utm_source') || undefined,
+          utmMedium: new URLSearchParams(window.location.search).get('utm_medium') || undefined,
+          utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign') || undefined,
           message: `Diagnostic submitted. Profile: ${result.profileLine}. Tier fit: ${result.tierFit}.`,
           locale,
           // report → branded email + admin AI Assessment drawer.

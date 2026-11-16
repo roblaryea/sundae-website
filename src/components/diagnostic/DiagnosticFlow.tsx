@@ -18,7 +18,7 @@ import type { DiagnosticResponses } from "@/lib/diagnostic/engine";
 import { getWebsiteIntlLocale, type WebsiteLocale } from "@/lib/i18n";
 import { getDiagnosticCatalogCopy, getDiagnosticQuestionCopy } from "@/lib/diagnostic/questionTranslations";
 import { saveProgress, type DiagnosticProgress } from "@/lib/diagnostic/progress";
-import { companyFromEmail, emailDomain, isFreeMail } from "@/lib/diagnostic/enrich";
+import { companyFromEmail, isFreeMail } from "@/lib/diagnostic/enrich";
 import { trackEvent } from "@/lib/posthog";
 import {
   canAdvanceDiagnosticQuestion,
@@ -289,11 +289,9 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
       emailValid && phoneValid && name.trim() && role.trim() &&
       country.trim() && company.trim()
     ) {
-      // Capture B2B-vs-consumer + domain as lead-scoring signal (no PII beyond
-      // what the prospect already submits).
+      // Keep analytics categorical; contact details stay in the lead payload.
       trackEvent("diagnostic_lead_captured", {
         locale, role, country,
-        emailDomain: emailDomain(email),
         corporateEmail: !isFreeMail(email),
       });
       onComplete({ responses, email: email.trim(), name, company, phone, role, country });

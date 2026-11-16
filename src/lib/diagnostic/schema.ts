@@ -9,7 +9,7 @@ export const LeakHypothesisSchema = z.object({
   title: z.string().describe('Short title - 4-8 words'),
   detail: z.string().describe('2-3 sentence explanation tied to the operator\'s specific responses'),
   impactBand: z.enum(['high', 'medium', 'low']),
-  impactCopy: z.string().describe('Directional impact range - explicitly not a customer-specific projection'),
+  impactCopy: z.string().describe('What must be validated before any impact claim; no invented benchmarks or results'),
 });
 
 export const StackRecommendationSchema = z.object({
@@ -26,8 +26,8 @@ export const QuickWinSchema = z.object({
 });
 
 export const ExpectedImpactSchema = z.object({
-  metric: z.string().describe('e.g. "Labor cost reduction"'),
-  range: z.string().describe('Directional range e.g. "5-14% in first quarter"'),
+  metric: z.string().describe('e.g. "Labor cost and coverage"'),
+  range: z.string().describe('How to establish this measure against a validated baseline; do not invent an outcome range'),
 });
 
 export const SoftUpliftSchema = z.object({
@@ -51,7 +51,7 @@ export const EconomicsSchema = z.object({
     basis: z.string().describe('Transparent ladder: pctRange × est. annual revenue (AUV × outlets). State it is an illustrative ceiling assuming full realisation over ~12 months, not a quote'),
   }),
   softUplifts: z.array(SoftUpliftSchema).min(2).max(5).describe('Non-financial uplifts: happier/better-trained staff, happier guests, faster decisions'),
-}).describe('Directional economics - ranges derived from comparable operators and list pricing, never a customer-specific quote');
+}).describe('Published software pricing and unverified financial-baseline requirements; never a customer-specific quote');
 
 export const DiagnosticReportSchema = z.object({
   profileLine: z.string().describe('One-line summary: "QSR + casual operator · 16 outlets · UAE + KSA"'),

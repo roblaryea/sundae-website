@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import type { WebsiteLocale } from "@/lib/i18n";
+import evidenceCopy from '@/content/diagnostic/evidence-copy.json';
 
 // Localized "want substance before the call" promo on /demo, pointing to the
 // Operations Diagnostic. Native transcreation per locale.
@@ -167,7 +168,8 @@ const promoCopy: Record<WebsiteLocale, Promo> = {
 
 export function DemoDiagnosticPromo() {
   const { locale } = useWebsiteI18n();
-  const c = promoCopy[locale as keyof typeof promoCopy] ?? promoCopy.en;
+  const evidence = evidenceCopy[locale as keyof typeof evidenceCopy].intro;
+  const c = { ...(promoCopy[locale as keyof typeof promoCopy] ?? promoCopy.en), badge: evidence.promoBadge, description: evidence.promoDescription };
   return (
     <section className="px-4 sm:px-6 lg:px-8 pb-16">
       <div className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[var(--warm-coral)]/15 via-[var(--warm-coral)]/8 to-emerald-500/8 border border-[var(--warm-coral)]/30 p-6 md:p-10 text-center">

@@ -10,7 +10,7 @@
     "lint": "eslint",
     "linkcheck": "node scripts/linkcheck.mjs",
     "lead:preflight": "node scripts/check-lead-capture-env.mjs",
-    "test:diagnostic-lead": "node --test tests/diagnostic-lead-outbox.test.mjs tests/diagnostic-flow-contract.test.mjs tests/diagnostic-report-grounding.test.mjs",
+    "test:diagnostic-lead": "node --test tests/diagnostic-lead-outbox.test.mjs tests/diagnostic-flow-contract.test.mjs tests/diagnostic-report-grounding.test.mjs tests/diagnostic-evidence.test.mjs",
     "test:observability": "node --test tests/sentry-runtime-policy.test.mjs",
     "smoke:profile-card": "node --no-warnings scripts/smoke-profile-card.mjs",
     "test:profile-card": "node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs tests/public-profiles.test.mjs",

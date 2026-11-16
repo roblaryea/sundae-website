@@ -396,6 +396,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
           phone: normalizePhoneForStorage(fullPhone),
           ctaLabel,
           sourcePage,
+          locale,
           utmSource: searchParams.get('utm_source') || undefined,
           utmMedium: searchParams.get('utm_medium') || undefined,
           utmCampaign: searchParams.get('utm_campaign') || undefined,
