@@ -9,15 +9,15 @@ import ts from 'typescript';
 // boundary. A rich intake must never turn a concern into a claimed pilot result.
 const require = createRequire(import.meta.url);
 function loadTypeScript(file, aliases = {}) {
-  const module = { exports: {} };
+  const fixtureModule = { exports: {} };
   const source = fs.readFileSync(new URL(file, import.meta.url), 'utf8');
   const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
   vm.runInNewContext(compiled, {
-    module, exports: module.exports,
+    module: fixtureModule, exports: fixtureModule.exports,
     require: name => name in aliases ? aliases[name] : require(name),
     console,
   }, { filename: file });
-  return module.exports;
+  return fixtureModule.exports;
 }
 const priceBook = loadTypeScript('../src/lib/pricing/priceBook.ts');
 const questions = loadTypeScript('../src/lib/diagnostic/questions.ts');
