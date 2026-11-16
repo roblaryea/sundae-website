@@ -11,7 +11,13 @@
     "productMetaTitle": "Sundae 플랫폼 | 운영 및 의사결정 인텔리전스",
     "coreMetaTitle": "Sundae Core | 호스피탈리티 및 푸드서비스용 의사결정 작업공간",
     "crewMetaTitle": "Sundae Crew | 인력 및 일상 운영",
-    "illustrationDisclosure": "설명을 위한 예시이며 고객의 실제 성과가 아닙니다."
+    "illustrationDisclosure": "설명을 위한 예시이며 고객의 실제 성과가 아닙니다.",
+    "homeHeadline": "모든 교대 근무를 운영하세요.",
+    "homeTagline": "모든 지점을 개선하세요.",
+    "coreHeadline": "더 나은 판단. 측정된 성과.",
+    "crewHeadline": "직원을 관리하세요.",
+    "crewTagline": "교대를 운영하세요.",
+    "editorialHeadline": "일상 업무를 측정 가능한 진전과 연결하세요."
   },
   "shared": {
     "primaryCta": "데모 예약",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "다지점 운영자를 위한 레스토랑 관리 플랫폼 | Sundae",
-      "metaDescription": "Sundae는 다지점 호스피탈리티 및 푸드서비스 그룹을 위해 스케줄링, 출결, 업무, 인수인계 및 연결된 운영 데이터를 하나의 플랫폼으로 통합합니다. 명확한 소유권으로 일상 업무를 운영하고, 인텔리전스로 의사결정을 안내하며 변화한 결과를 측정하세요."
+      "metaDescription": "Sundae는 다지점 호스피탈리티 및 푸드서비스 그룹을 위해 스케줄링, 출결, 업무, 인수인계 및 연결된 운영 데이터를 하나의 플랫폼으로 통합합니다. 명확한 소유권으로 일상 업무를 운영하고, 인텔리전스로 의사결정을 안내하며 변화한 결과를 측정하세요.",
+      "problemTitle": "분리된 시스템이 운영을 나눕니다.",
+      "helpTitle": "일상 업무와 결정이 하나의 운영 그림을 공유합니다.",
+      "outcomesTitle": "모든 지점이 동일한 운영 리듬을 가집니다."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · 레스토랑 업무 관리",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "레스토랑 업무 관리 소프트웨어 | Sundae",
-      "metaDescription": "오프닝, 클로징, 반복 업무 및 예외 업무를 적합한 담당자에게 할당하고 지점별 완료를 추적하며 근거를 다음 운영 결정으로 전달하세요."
+      "metaDescription": "오프닝, 클로징, 반복 업무 및 예외 업무를 적합한 담당자에게 할당하고 지점별 완료를 추적하며 근거를 다음 운영 결정으로 전달하세요.",
+      "problemTitle": "책임이 불분명하면 업무가 누락됩니다.",
+      "helpTitle": "업무를 지정하세요. 이행을 추적하세요.",
+      "outcomesTitle": "오픈부터 마감까지 명확한 책임."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · 로그북 및 근무 인수인계",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "디지털 레스토랑 로그북 및 근무 인수인계 | Sundae",
-      "metaDescription": "매니저 노트, 근무 인수인계, 문제 및 후속조치를 하나의 검색 가능한 운영 기록에 보관해 다음 팀이 추측 대신 맥락으로 시작하도록 하세요."
+      "metaDescription": "매니저 노트, 근무 인수인계, 문제 및 후속조치를 하나의 검색 가능한 운영 기록에 보관해 다음 팀이 추측 대신 맥락으로 시작하도록 하세요.",
+      "problemTitle": "다음 교대가 전말을 모른 채 시작됩니다.",
+      "helpTitle": "인수인계, 문제, 다음 조치를 함께 기록하세요.",
+      "outcomesTitle": "교대를 넘어 전달되는 검색 가능한 기록."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · 팁 워크플로우",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "레스토랑 팁 관리 소프트웨어 | Sundae Crew",
-      "metaDescription": "팁 규칙, 직원 맥락, 검토 단계 및 급여 준비 상태를 매니저와 급여팀이 설명할 수 있는 하나의 워크플로우로 통합하세요."
+      "metaDescription": "팁 규칙, 직원 맥락, 검토 단계 및 급여 준비 상태를 매니저와 급여팀이 설명할 수 있는 하나의 워크플로우로 통합하세요.",
+      "problemTitle": "규칙과 기록이 흩어지면 팁 심사가 지연됩니다.",
+      "helpTitle": "팁 규칙, 심사, 급여 준비를 한곳에 모으세요.",
+      "outcomesTitle": "명확한 심사와 급여로 이어지는 추적 가능한 인계."
     }
   },
   "comparison": {

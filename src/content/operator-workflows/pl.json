@@ -11,7 +11,13 @@
     "productMetaTitle": "Platforma Sundae | Zarządzanie operacjami i inteligencja decyzyjna",
     "coreMetaTitle": "Sundae Core | Przestrzeń decyzyjna dla gastronomii i usług żywieniowych",
     "crewMetaTitle": "Sundae Crew | Zarządzanie personelem i codzienne operacje",
-    "illustrationDisclosure": "Przykład ilustracyjny, nie wynik klienta."
+    "illustrationDisclosure": "Przykład ilustracyjny, nie wynik klienta.",
+    "homeHeadline": "Prowadź każdą zmianę.",
+    "homeTagline": "Usprawniaj każdą salę.",
+    "coreHeadline": "Lepsze decyzje. Namierzalne efekty.",
+    "crewHeadline": "Zarządzaj zespołem.",
+    "crewTagline": "Prowadź zmianę.",
+    "editorialHeadline": "Powiąż codzienną pracę z mierzalnym postępem."
   },
   "shared": {
     "primaryCta": "Umów prezentację",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Platforma zarządzania restauracją dla operatorów wielolokalnych | Sundae",
-      "metaDescription": "Sundae łączy harmonogramowanie, obecność, zadania, przekazania zmian i powiązane dane operacyjne w jednej platformie dla wielolokalnych grup gastronomicznych i żywieniowych. Prowadź codzienną pracę z jasną odpowiedzialnością, używaj inteligencji do kierowania decyzjami i mierz, co się zmieniło."
+      "metaDescription": "Sundae łączy harmonogramowanie, obecność, zadania, przekazania zmian i powiązane dane operacyjne w jednej platformie dla wielolokalnych grup gastronomicznych i żywieniowych. Prowadź codzienną pracę z jasną odpowiedzialnością, używaj inteligencji do kierowania decyzjami i mierz, co się zmieniło.",
+      "problemTitle": "Rozproszone systemy rozrywają operacje.",
+      "helpTitle": "Codzienna praca i decyzje mają jeden obraz operacyjny.",
+      "outcomesTitle": "Jeden rytm operacyjny we wszystkich lokalizacjach."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · ZARZĄDZANIE ZADANIAMI W RESTAURACJI",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Oprogramowanie do zarządzania zadaniami w restauracji | Sundae",
-      "metaDescription": "Przypisz pracę otwarcia, zamknięcia, cykliczną i wyjątkową właściwej osobie, śledź wykonanie w lokalizacjach i przenoś dowody do następnej decyzji operacyjnej."
+      "metaDescription": "Przypisz pracę otwarcia, zamknięcia, cykliczną i wyjątkową właściwej osobie, śledź wykonanie w lokalizacjach i przenoś dowody do następnej decyzji operacyjnej.",
+      "problemTitle": "Zadania giną, gdy brak jasnego właścicielstwa.",
+      "helpTitle": "Nadaj zadanie. Kontroluj wykonanie.",
+      "outcomesTitle": "Jasne przypisanie od otwarcia do zamknięcia."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · DZIENNIK I PRZEKAZANIE ZMIANY",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Cyfrowy dziennik i przekazanie zmiany w restauracji | Sundae",
-      "metaDescription": "Utrzymuj notatki menedżera, przekazania zmian, problemy i działania następcze w jednym przeszukiwalnym zapisie operacyjnym, tak aby kolejny zespół zaczynał z kontekstem zamiast zgadywania."
+      "metaDescription": "Utrzymuj notatki menedżera, przekazania zmian, problemy i działania następcze w jednym przeszukiwalnym zapisie operacyjnym, tak aby kolejny zespół zaczynał z kontekstem zamiast zgadywania.",
+      "problemTitle": "Następna zmiana zaczyna bez pełnego kontekstu.",
+      "helpTitle": "Trzymaj przekaz, problem i kolejne działanie razem.",
+      "outcomesTitle": "Przeszukiwalny zapis przenoszony między zmianami."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · PRZEPŁYWY NAPIWKÓW",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Oprogramowanie do zarządzania napiwkami w restauracji | Sundae Crew",
-      "metaDescription": "Zintegruj zasady napiwków, kontekst personelu, kroki przeglądu i przygotowanie do płac w jeden przepływ pracy, który menedżerowie i zespoły płac mogą wyjaśnić."
+      "metaDescription": "Zintegruj zasady napiwków, kontekst personelu, kroki przeglądu i przygotowanie do płac w jeden przepływ pracy, który menedżerowie i zespoły płac mogą wyjaśnić.",
+      "problemTitle": "Przeglądy napiwków utkną, gdy zasady i zapisy są porozrzucane.",
+      "helpTitle": "Zbierz zasady napiwków, przegląd i przygotowanie do listy płac.",
+      "outcomesTitle": "Czytelniejsze przeglądy i śledzalne przekazanie do płac."
     }
   },
   "comparison": {

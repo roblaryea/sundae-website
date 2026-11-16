@@ -598,6 +598,8 @@ export default function CrewPage() {
   const positioning = getPositioningCopy(locale).critical;
   const copy = {
     ...sourceCopy,
+    heroLine1: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
+    heroLine2: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewTagline,
     description: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
     loopEyebrow: positioning.crewExecutionEyebrow,
     loopTitle: positioning.crewExecutionTitle,

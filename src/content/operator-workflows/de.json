@@ -11,7 +11,13 @@
     "productMetaTitle": "Sundae Plattform | Echtzeitbetrieb und Entscheidungsintelligenz",
     "coreMetaTitle": "Sundae Core | Entscheidungsarbeitsbereich für Gastronomie und Lebensmittelservice",
     "crewMetaTitle": "Sundae Crew | Personal und täglicher Betrieb",
-    "illustrationDisclosure": "Illustratives Beispiel, kein Kundenergebnis."
+    "illustrationDisclosure": "Illustratives Beispiel, kein Kundenergebnis.",
+    "homeHeadline": "Leite jede Schicht.",
+    "homeTagline": "Verbessere jeden Standort.",
+    "coreHeadline": "Bessere Entscheidungen. Messbare Ergebnisse.",
+    "crewHeadline": "Führe dein Team.",
+    "crewTagline": "Die Schicht managen.",
+    "editorialHeadline": "Verknüpfe tägliche Arbeit mit messbarem Fortschritt."
   },
   "shared": {
     "primaryCta": "Demo buchen",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Restaurant-Management-Plattform für Betreiber mit mehreren Standorten | Sundae",
-      "metaDescription": "Sundae bringt Dienstplanung, Anwesenheit, Aufgaben, Übergaben und verknüpfte Betriebsdaten in eine Plattform für Multi‑Location‑Gastronomie‑ und Food‑Service‑Gruppen. Tägliche Arbeit mit klarer Zuständigkeit ausführen, Intelligenz für Entscheidungen nutzen und messen, was sich geändert hat."
+      "metaDescription": "Sundae bringt Dienstplanung, Anwesenheit, Aufgaben, Übergaben und verknüpfte Betriebsdaten in eine Plattform für Multi‑Location‑Gastronomie‑ und Food‑Service‑Gruppen. Tägliche Arbeit mit klarer Zuständigkeit ausführen, Intelligenz für Entscheidungen nutzen und messen, was sich geändert hat.",
+      "problemTitle": "Getrennte Systeme zerschneiden den Betrieb.",
+      "helpTitle": "Tägliche Arbeit und Entscheidungen teilen ein einheitliches Lagebild.",
+      "outcomesTitle": "Ein einheitlicher Betriebsrhythmus an jedem Standort."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · AUFGABENMANAGEMENT FÜR RESTAURANTS",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Aufgabenmanagement-Software für Restaurants | Sundae",
-      "metaDescription": "Eröffnungs‑, Abschluss‑, wiederkehrende und Ausnahmeaufgaben der richtigen Person zuweisen, die Erledigung standortübergreifend verfolgen und die Beweise in die nächste operative Entscheidung tragen."
+      "metaDescription": "Eröffnungs‑, Abschluss‑, wiederkehrende und Ausnahmeaufgaben der richtigen Person zuweisen, die Erledigung standortübergreifend verfolgen und die Beweise in die nächste operative Entscheidung tragen.",
+      "problemTitle": "Aufgaben gehen verloren, wenn die Zuständigkeit unklar ist.",
+      "helpTitle": "Aufgabe zuweisen. Nachverfolgung sichern.",
+      "outcomesTitle": "Klare Zuständigkeiten vom Öffnen bis zum Schließen."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · LOGBUCH UND SCHICHTÜBERGABE",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Digitales Logbuch und Schichtübergabe für Restaurants | Sundae",
-      "metaDescription": "Manager‑Notizen, Schichtübergaben, Probleme und Nachverfolgung in einem durchsuchbaren Betriebsprotokoll aufbewahren, damit das nächste Team mit Kontext statt mit Schätzungen startet."
+      "metaDescription": "Manager‑Notizen, Schichtübergaben, Probleme und Nachverfolgung in einem durchsuchbaren Betriebsprotokoll aufbewahren, damit das nächste Team mit Kontext statt mit Schätzungen startet.",
+      "problemTitle": "Die nächste Schicht beginnt ohne vollständige Informationen.",
+      "helpTitle": "Übergabe, Probleme und nächste Schritte zusammenhalten.",
+      "outcomesTitle": "Durchsuchbare Aufzeichnungen, die über Schichten hinweg tragen."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · TIP‑WORKFLOWS",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Trinkgeldverwaltung für Restaurants | Sundae Crew",
-      "metaDescription": "Tip‑Regeln, Personal‑Kontext, Prüfschritte und Payroll‑Bereitschaft in einen Workflow bringen, den Manager und Payroll‑Teams nachvollziehen können."
+      "metaDescription": "Tip‑Regeln, Personal‑Kontext, Prüfschritte und Payroll‑Bereitschaft in einen Workflow bringen, den Manager und Payroll‑Teams nachvollziehen können.",
+      "problemTitle": "Trinkgeldprüfungen stocken, wenn Regeln und Aufzeichnungen verstreut sind.",
+      "helpTitle": "Trinkgeldregeln, Prüfung und Gehaltsvorbereitungs‑bereitschaft zusammenführen.",
+      "outcomesTitle": "Klare Prüfungen und eine nachvollziehbare Übergabe an die Lohnbuchhaltung."
     }
   },
   "comparison": {

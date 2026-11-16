@@ -71,7 +71,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
   useEffect(() => setMounted(true), []);
   const rm = mounted && reduceMotion;
   const brand = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand;
-  const copy = { ...cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy], eyebrow: brand.eyebrow, sub: brand.sub };
+  const copy = { ...cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy], headline: brand.homeHeadline, tagline: brand.homeTagline, eyebrow: brand.eyebrow, sub: brand.sub };
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLSpanElement>(null);
 

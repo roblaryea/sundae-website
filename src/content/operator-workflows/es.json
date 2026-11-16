@@ -11,7 +11,13 @@
     "productMetaTitle": "Plataforma Sundae | Gestión de operaciones e inteligencia de decisiones",
     "coreMetaTitle": "Sundae Core | Espacio de decisiones para hostelería y servicios de alimentación",
     "crewMetaTitle": "Sundae Crew | Personal y operaciones diarias",
-    "illustrationDisclosure": "Ejemplo ilustrativo. No es un resultado de cliente."
+    "illustrationDisclosure": "Ejemplo ilustrativo. No es un resultado de cliente.",
+    "homeHeadline": "Dirige cada turno.",
+    "homeTagline": "Mejora cada local.",
+    "coreHeadline": "Mejores decisiones. Resultados medibles.",
+    "crewHeadline": "Gestiona a tu equipo.",
+    "crewTagline": "Lleva el turno.",
+    "editorialHeadline": "Conecta el trabajo diario con el progreso medible."
   },
   "shared": {
     "primaryCta": "Solicitar una demostración",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Plataforma de gestión para operadores multi‑localización | Sundae",
-      "metaDescription": "Sundae reúne programación, asistencia, tareas, traspasos y datos operativos conectados en una plataforma para grupos multi‑localización de hostelería y servicios de alimentación. Ejecute el trabajo diario con responsabilidad clara, use inteligencia para guiar decisiones y mida lo que cambió."
+      "metaDescription": "Sundae reúne programación, asistencia, tareas, traspasos y datos operativos conectados en una plataforma para grupos multi‑localización de hostelería y servicios de alimentación. Ejecute el trabajo diario con responsabilidad clara, use inteligencia para guiar decisiones y mida lo que cambió.",
+      "problemTitle": "Sistemas desconectados fragmentan la operación.",
+      "helpTitle": "Trabajo y decisiones diarias con una sola visión operativa.",
+      "outcomesTitle": "Un ritmo operativo uniforme en todos los locales."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · GESTIÓN DE TAREAS EN RESTAURANTES",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Software de gestión de tareas para restaurantes | Sundae",
-      "metaDescription": "Asigne tareas de apertura, cierre, recurrentes y excepcionales a la persona adecuada, haga seguimiento del cumplimiento en locales y lleve la evidencia a la siguiente decisión operativa."
+      "metaDescription": "Asigne tareas de apertura, cierre, recurrentes y excepcionales a la persona adecuada, haga seguimiento del cumplimiento en locales y lleve la evidencia a la siguiente decisión operativa.",
+      "problemTitle": "Las tareas se pierden cuando no queda claro quién responde.",
+      "helpTitle": "Asigna la tarea. Haz seguimiento del cumplimiento.",
+      "outcomesTitle": "Responsabilidad clara desde apertura hasta cierre."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · LIBRO DE REGISTRO Y TRASPASO DE TURNO",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Libro de registro digital y traspaso de turno para restaurantes | Sundae",
-      "metaDescription": "Mantenga notas de gerentes, traspasos de turno, incidencias y seguimientos en un único registro operativo buscable, para que el equipo siguiente empiece con contexto y no con suposiciones."
+      "metaDescription": "Mantenga notas de gerentes, traspasos de turno, incidencias y seguimientos en un único registro operativo buscable, para que el equipo siguiente empiece con contexto y no con suposiciones.",
+      "problemTitle": "El siguiente turno empieza sin toda la información.",
+      "helpTitle": "Mantén la entrega, los problemas y la acción siguiente juntos.",
+      "outcomesTitle": "Registro buscable que acompaña los turnos."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · FLUJOS DE TRABAJO DE PROPINAS",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Software de gestión de propinas para restaurantes | Sundae Crew",
-      "metaDescription": "Integre reglas de propinas, contexto del personal, pasos de revisión y preparación de nómina en un flujo que gerentes y equipos de nómina puedan explicar."
+      "metaDescription": "Integre reglas de propinas, contexto del personal, pasos de revisión y preparación de nómina en un flujo que gerentes y equipos de nómina puedan explicar.",
+      "problemTitle": "Las revisiones de propinas se estancan cuando reglas y registros están dispersos.",
+      "helpTitle": "Reúne reglas de propinas, revisión y preparación para nómina.",
+      "outcomesTitle": "Revisiones más claras y una entrega trazable a nómina."
     }
   },
   "comparison": {

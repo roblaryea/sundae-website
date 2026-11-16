@@ -11,7 +11,13 @@
     "productMetaTitle": "Nền tảng Sundae | Quản lý vận hành và trí tuệ quyết định",
     "coreMetaTitle": "Sundae Core | Không gian ra quyết định cho nhà hàng và dịch vụ ăn uống",
     "crewMetaTitle": "Sundae Crew | Nhân sự và vận hành hàng ngày",
-    "illustrationDisclosure": "Ví dụ minh họa, không phải kết quả thực tế của khách hàng."
+    "illustrationDisclosure": "Ví dụ minh họa, không phải kết quả thực tế của khách hàng.",
+    "homeHeadline": "Vận hành mọi ca.",
+    "homeTagline": "Cải thiện mọi cơ sở.",
+    "coreHeadline": "Quyết định thông minh. Kết quả rõ ràng.",
+    "crewHeadline": "Quản lý đội ngũ.",
+    "crewTagline": "Điều hành ca.",
+    "editorialHeadline": "Kết công việc hàng ngày với tiến triển đo được."
   },
   "shared": {
     "primaryCta": "Đặt lịch hướng dẫn",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Nền tảng quản lý nhà hàng cho các chuỗi nhiều địa điểm | Sundae",
-      "metaDescription": "Sundae kết hợp lập lịch, chấm công, công việc, bàn giao ca và dữ liệu vận hành được nối kết vào một nền tảng cho các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Vận hành công việc hàng ngày với trách nhiệm rõ ràng, dùng trí tuệ để hướng dẫn quyết định và đo lường những gì đã thay đổi."
+      "metaDescription": "Sundae kết hợp lập lịch, chấm công, công việc, bàn giao ca và dữ liệu vận hành được nối kết vào một nền tảng cho các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Vận hành công việc hàng ngày với trách nhiệm rõ ràng, dùng trí tuệ để hướng dẫn quyết định và đo lường những gì đã thay đổi.",
+      "problemTitle": "Hệ thống rời rạc phân mảnh hoạt động.",
+      "helpTitle": "Công việc và quyết định hàng ngày dùng một bức tranh vận hành.",
+      "outcomesTitle": "Nhịp vận hành đồng nhất cho mọi cơ sở."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · QUẢN LÝ CÔNG VIỆC NHÀ HÀNG",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Phần mềm quản lý công việc nhà hàng | Sundae",
-      "metaDescription": "Phân công công việc mở cửa, đóng cửa, định kỳ và ngoại lệ cho người phù hợp, theo dõi hoàn thành trên các địa điểm và mang bằng chứng vào quyết định vận hành tiếp theo."
+      "metaDescription": "Phân công công việc mở cửa, đóng cửa, định kỳ và ngoại lệ cho người phù hợp, theo dõi hoàn thành trên các địa điểm và mang bằng chứng vào quyết định vận hành tiếp theo.",
+      "problemTitle": "Nhiệm vụ bị bỏ sót khi ai chịu trách nhiệm không rõ.",
+      "helpTitle": "Giao nhiệm vụ. Theo dõi hoàn thành.",
+      "outcomesTitle": "Trách nhiệm rõ ràng từ mở cửa đến đóng cửa."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · SỔ TRỰC VÀ BÀN GIAO CA",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Sổ trực nhà hàng kỹ thuật số và bàn giao ca | Sundae",
-      "metaDescription": "Giữ ghi chú của quản lý, bàn giao ca, sự cố và theo dõi trong một hồ sơ vận hành có thể tìm kiếm, để đội tiếp theo bắt đầu với bối cảnh thay vì đoán mò."
+      "metaDescription": "Giữ ghi chú của quản lý, bàn giao ca, sự cố và theo dõi trong một hồ sơ vận hành có thể tìm kiếm, để đội tiếp theo bắt đầu với bối cảnh thay vì đoán mò.",
+      "problemTitle": "Ca sau bắt đầu mà chưa có đủ thông tin.",
+      "helpTitle": "Giữ phần bàn giao, vấn đề và hành động tiếp theo cùng nhau.",
+      "outcomesTitle": "Ghi chép có thể tìm kiếm và theo suốt các ca."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · QUY TRÌNH TIỀN TIP",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Phần mềm quản lý tip nhà hàng | Sundae Crew",
-      "metaDescription": "Đưa quy tắc tip, bối cảnh nhân sự, bước xem xét và sẵn sàng trả lương vào một quy trình mà quản lý và nhóm trả lương có thể giải thích."
+      "metaDescription": "Đưa quy tắc tip, bối cảnh nhân sự, bước xem xét và sẵn sàng trả lương vào một quy trình mà quản lý và nhóm trả lương có thể giải thích.",
+      "problemTitle": "Việc duyệt tiền típ trì trệ khi quy tắc và hồ sơ rời rạc.",
+      "helpTitle": "Tập hợp quy tắc típ, duyệt và chuẩn bị cho payroll.",
+      "outcomesTitle": "Duyệt rõ ràng và chuyển giao có thể truy vết sang payroll."
     }
   },
   "comparison": {

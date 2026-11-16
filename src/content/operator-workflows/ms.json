@@ -11,7 +11,13 @@
     "productMetaTitle": "Platform Sundae | Pengurusan Operasi dan Kecerdasan Keputusan",
     "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitaliti dan Perkhidmatan Makanan",
     "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
-    "illustrationDisclosure": "Contoh ilustrasi, bukan hasil sebenar pelanggan."
+    "illustrationDisclosure": "Contoh ilustrasi, bukan hasil sebenar pelanggan.",
+    "homeHeadline": "Urus setiap syif.",
+    "homeTagline": "Tingkatkan setiap lokasi.",
+    "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
+    "crewHeadline": "Urus pasukan anda.",
+    "crewTagline": "Jalankan syif.",
+    "editorialHeadline": "Hubungkan kerja harian kepada kemajuan yang boleh diukur."
   },
   "shared": {
     "primaryCta": "Tempah sesi tunjuk cara",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Platform Pengurusan Restoran untuk Pengendali Berbilang Lokasi | Sundae",
-      "metaDescription": "Sundae menyatukan penjadualan, kehadiran, tugas, serah-tangan dan data operasi yang bersambung ke dalam satu platform untuk kumpulan hospitaliti dan perkhidmatan makanan berbilang lokasi. Jalankan kerja harian dengan pemilikan yang jelas, gunakan kecerdasan untuk membimbing keputusan dan ukur apa yang berubah."
+      "metaDescription": "Sundae menyatukan penjadualan, kehadiran, tugas, serah-tangan dan data operasi yang bersambung ke dalam satu platform untuk kumpulan hospitaliti dan perkhidmatan makanan berbilang lokasi. Jalankan kerja harian dengan pemilikan yang jelas, gunakan kecerdasan untuk membimbing keputusan dan ukur apa yang berubah.",
+      "problemTitle": "Sistem terasing memecah operasi.",
+      "helpTitle": "Kerja dan keputusan harian berkongsi gambaran operasi yang sama.",
+      "outcomesTitle": "Rentak operasi seragam di setiap lokasi."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · PENGURUSAN TUGAS RESTORAN",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Perisian Pengurusan Tugas Restoran | Sundae",
-      "metaDescription": "Tugaskan kerja pembukaan, penutupan, berulang dan pengecualian kepada orang yang betul, jejak penyelesaian merentasi lokasi dan bawa bukti ke dalam keputusan operasi seterusnya."
+      "metaDescription": "Tugaskan kerja pembukaan, penutupan, berulang dan pengecualian kepada orang yang betul, jejak penyelesaian merentasi lokasi dan bawa bukti ke dalam keputusan operasi seterusnya.",
+      "problemTitle": "Tugas terlepas bila pemilikan tidak jelas.",
+      "helpTitle": "Tetapkan tugas. Jejak tindakan susulan.",
+      "outcomesTitle": "Pemilikan jelas dari buka hingga tutup."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · BUKU LOG DAN SERAH-TANGAN SYIF",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Buku Log Restoran Digital dan Serah-Tangan Syif | Sundae",
-      "metaDescription": "Simpan nota pengurus, serah-tangan syif, isu dan susulan dalam satu rekod operasi yang boleh dicari, supaya pasukan seterusnya bermula dengan konteks dan bukannya meneka."
+      "metaDescription": "Simpan nota pengurus, serah-tangan syif, isu dan susulan dalam satu rekod operasi yang boleh dicari, supaya pasukan seterusnya bermula dengan konteks dan bukannya meneka.",
+      "problemTitle": "Syif seterusnya bermula tanpa cerita penuh.",
+      "helpTitle": "Simpan serah-tugas, isu dan tindakan seterusnya bersama.",
+      "outcomesTitle": "Rekod boleh carian yang dibawa merentasi syif."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · ALIRAN KERJA TIP",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Perisian Pengurusan Tip Restoran | Sundae Crew",
-      "metaDescription": "Bawa peraturan tip, konteks kakitangan, langkah semakan dan kesiapan gaji ke dalam satu aliran kerja yang pengurus dan pasukan gaji boleh jelaskan."
+      "metaDescription": "Bawa peraturan tip, konteks kakitangan, langkah semakan dan kesiapan gaji ke dalam satu aliran kerja yang pengurus dan pasukan gaji boleh jelaskan.",
+      "problemTitle": "Semakan tip terbantut bila peraturan dan rekod berselerak.",
+      "helpTitle": "Satukan peraturan tip, semakan dan kesiapan gaji.",
+      "outcomesTitle": "Semakan lebih jelas dan serah tugas yang boleh dijejak kepada gaji."
     }
   },
   "comparison": {

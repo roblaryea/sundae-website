@@ -11,7 +11,13 @@
     "productMetaTitle": "Sundae Platform | Operations en Decision Intelligence",
     "coreMetaTitle": "Sundae Core | Decision Workspace voor hospitality en foodservice",
     "crewMetaTitle": "Sundae Crew | Personeel en dagelijkse operaties",
-    "illustrationDisclosure": "Illustratief voorbeeld, geen klantresultaat."
+    "illustrationDisclosure": "Illustratief voorbeeld, geen klantresultaat.",
+    "homeHeadline": "Draai elke shift.",
+    "homeTagline": "Verbeter elke locatie.",
+    "coreHeadline": "Betere keuzes. Meetbare resultaten.",
+    "crewHeadline": "Regel je team.",
+    "crewTagline": "Draai de shift.",
+    "editorialHeadline": "Verbind dagelijks werk met meetbare vooruitgang."
   },
   "shared": {
     "primaryCta": "Plan een walkthrough",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Restaurant Management Platform voor multi-locatie operators | Sundae",
-      "metaDescription": "Sundae brengt roostering, aanwezigheid, taken, overdrachten en verbonden operationele data samen in één platform voor multi-locatie hospitality- en foodservice-groepen. Voer dagelijks werk uit met duidelijk eigenaarschap, gebruik intelligence om beslissingen te sturen en meet wat veranderde."
+      "metaDescription": "Sundae brengt roostering, aanwezigheid, taken, overdrachten en verbonden operationele data samen in één platform voor multi-locatie hospitality- en foodservice-groepen. Voer dagelijks werk uit met duidelijk eigenaarschap, gebruik intelligence om beslissingen te sturen en meet wat veranderde.",
+      "problemTitle": "Losse systemen fragmenteren de operatie.",
+      "helpTitle": "Dagelijks werk en beslissingen delen één beeld van de operatie.",
+      "outcomesTitle": "Eén ritme van operatie op elke locatie."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · RESTAURANT TAKENBEHEER",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Taakbeheer voor restaurants | Sundae",
-      "metaDescription": "Ken openings-, sluitings-, terugkerende en uitzonderingswerk toe aan de juiste persoon, volg voltooiing over locaties en draag het bewijs over naar de volgende operationele beslissing."
+      "metaDescription": "Ken openings-, sluitings-, terugkerende en uitzonderingswerk toe aan de juiste persoon, volg voltooiing over locaties en draag het bewijs over naar de volgende operationele beslissing.",
+      "problemTitle": "Taken blijven liggen als eigenaarschap onduidelijk is.",
+      "helpTitle": "Ken de taak toe. Volg de uitvoering.",
+      "outcomesTitle": "Duidelijk eigenaarschap van opening tot sluit."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · LOGBOOK EN SHIFTOVERDRACHT",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Digitaal logboek en shiftoverdracht voor restaurants | Sundae",
-      "metaDescription": "Houd managernotities, shiftoverdrachten, problemen en opvolging bij in één doorzoekbaar operationeel record, zodat het volgende team met context kan starten in plaats van giswerk."
+      "metaDescription": "Houd managernotities, shiftoverdrachten, problemen en opvolging bij in één doorzoekbaar operationeel record, zodat het volgende team met context kan starten in plaats van giswerk.",
+      "problemTitle": "De volgende shift begint zonder het hele verhaal.",
+      "helpTitle": "Houd overdracht, issues en volgende acties bij elkaar.",
+      "outcomesTitle": "Een doorzoekbaar verslag dat meegaat tussen shifts."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · TIP-WORKFLOWS",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Tipmanagementsoftware voor restaurants | Sundae Crew",
-      "metaDescription": "Breng tipregels, personeelscontext, beoordelingsstappen en payroll-klaarheid samen in één workflow die managers en payroll-teams kunnen verklaren."
+      "metaDescription": "Breng tipregels, personeelscontext, beoordelingsstappen en payroll-klaarheid samen in één workflow die managers en payroll-teams kunnen verklaren.",
+      "problemTitle": "Tipcontroles stagneren als regels en administratie verspreid zijn.",
+      "helpTitle": "Breng tipregels, beoordeling en payroll-klaar maken samen.",
+      "outcomesTitle": "Heldere controles en een traceerbare overdracht naar payroll."
     }
   },
   "comparison": {

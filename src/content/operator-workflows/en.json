@@ -11,7 +11,13 @@
     "productMetaTitle": "Sundae Platform | Operations and Decision Intelligence",
     "coreMetaTitle": "Sundae Core | Decision Workspace for Hospitality and Food-Service",
     "crewMetaTitle": "Sundae Crew | Workforce and Daily Operations",
-    "illustrationDisclosure": "Illustrative example. Not a customer result."
+    "illustrationDisclosure": "Illustrative example. Not a customer result.",
+    "homeHeadline": "Run every shift.",
+    "homeTagline": "Improve every location.",
+    "coreHeadline": "Better decisions. Measured outcomes.",
+    "crewHeadline": "Manage your people.",
+    "crewTagline": "Run the shift.",
+    "editorialHeadline": "Connect daily work to measurable progress."
   },
   "shared": {
     "primaryCta": "Book a walkthrough",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Restaurant Management Platform for Multi-Location Operators | Sundae",
-      "metaDescription": "Sundae brings scheduling, attendance, tasks, handovers and connected operating data into one platform for multi-location hospitality and food-service groups. Run daily work with clear ownership, use intelligence to guide decisions and measure what changed."
+      "metaDescription": "Sundae brings scheduling, attendance, tasks, handovers and connected operating data into one platform for multi-location hospitality and food-service groups. Run daily work with clear ownership, use intelligence to guide decisions and measure what changed.",
+      "problemTitle": "Disconnected systems fragment the operation.",
+      "helpTitle": "Daily work and decisions share one operating picture.",
+      "outcomesTitle": "One operating rhythm across every location."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · RESTAURANT TASK MANAGEMENT",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Restaurant Task Management Software | Sundae",
-      "metaDescription": "Assign opening, closing, recurring and exception work to the right person, track completion across locations and carry the evidence into the next operating decision."
+      "metaDescription": "Assign opening, closing, recurring and exception work to the right person, track completion across locations and carry the evidence into the next operating decision.",
+      "problemTitle": "Tasks get missed when ownership is unclear.",
+      "helpTitle": "Assign the task. Track the follow-through.",
+      "outcomesTitle": "Clear ownership from opening to close."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · LOGBOOK AND SHIFT HANDOVER",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Digital Restaurant Logbook and Shift Handover | Sundae",
-      "metaDescription": "Keep manager notes, shift handovers, issues and follow-up in one searchable operating record, so the next team starts with context instead of guesswork."
+      "metaDescription": "Keep manager notes, shift handovers, issues and follow-up in one searchable operating record, so the next team starts with context instead of guesswork.",
+      "problemTitle": "The next shift starts without the full story.",
+      "helpTitle": "Keep the handover, issue and next action together.",
+      "outcomesTitle": "A searchable record that carries across shifts."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · TIP WORKFLOWS",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Restaurant Tip Management Software | Sundae Crew",
-      "metaDescription": "Bring tip rules, staff context, review steps and payroll readiness into one workflow that managers and payroll teams can explain."
+      "metaDescription": "Bring tip rules, staff context, review steps and payroll readiness into one workflow that managers and payroll teams can explain.",
+      "problemTitle": "Tip reviews stall when rules and records are scattered.",
+      "helpTitle": "Bring tip rules, review and payroll readiness together.",
+      "outcomesTitle": "Clearer reviews and a traceable handoff to payroll."
     }
   },
   "comparison": {

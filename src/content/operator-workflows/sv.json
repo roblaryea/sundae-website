@@ -11,7 +11,13 @@
     "productMetaTitle": "Sundae-plattformen | Verksamhets- och beslutskraft",
     "coreMetaTitle": "Sundae Core | Beslutsarbetsyta för hotell- och matservice",
     "crewMetaTitle": "Sundae Crew | Personal och daglig drift",
-    "illustrationDisclosure": "Illustrativt exempel, inte ett kundresultat."
+    "illustrationDisclosure": "Illustrativt exempel, inte ett kundresultat.",
+    "homeHeadline": "Driv varje pass.",
+    "homeTagline": "Förbättra varje enhet.",
+    "coreHeadline": "Bättre beslut. Mätbara resultat.",
+    "crewHeadline": "Hantera ditt team.",
+    "crewTagline": "Kör passet.",
+    "editorialHeadline": "Koppla dagligt arbete till mätbar framgång."
   },
   "shared": {
     "primaryCta": "Boka en genomgång",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Plattform för restauranghantering för flerlokala operatörer | Sundae",
-      "metaDescription": "Sundae samlar schemaläggning, närvaro, uppgifter, överlämningar och kopplade driftdata i en plattform för flerlokala hotell- och matservicegrupper. Driv dagligt arbete med tydligt ägandeskap, använd intelligens för att vägleda beslut och mät vad som förändrades."
+      "metaDescription": "Sundae samlar schemaläggning, närvaro, uppgifter, överlämningar och kopplade driftdata i en plattform för flerlokala hotell- och matservicegrupper. Driv dagligt arbete med tydligt ägandeskap, använd intelligens för att vägleda beslut och mät vad som förändrades.",
+      "problemTitle": "Isolerade system splittrar driften.",
+      "helpTitle": "Dagligt arbete och beslut delar en gemensam bild.",
+      "outcomesTitle": "Ett driftsrytme över alla enheter."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · UPPGIFTSHANTERING FÖR RESTAURANGER",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Programvara för uppgiftshantering i restaurang | Sundae",
-      "metaDescription": "Tilldela öppnings-, stängnings-, återkommande och undantagsarbete till rätt person, spåra genomförande över platser och för över bevisen till nästa driftsbeslut."
+      "metaDescription": "Tilldela öppnings-, stängnings-, återkommande och undantagsarbete till rätt person, spåra genomförande över platser och för över bevisen till nästa driftsbeslut.",
+      "problemTitle": "Uppgifter missas när ägarskapet är oklart.",
+      "helpTitle": "Tilldela arbetsuppgiften. Följ upp utförandet.",
+      "outcomesTitle": "Tydligt ansvar från öppning till stängning."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · LOGGBOK OCH SKIFTSÖVERLÄMNING",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Digital loggbok och skiftsöverlämning för restaurang | Sundae",
-      "metaDescription": "Behåll chefens anteckningar, skiftsöverlämningar, problem och uppföljning i en sökbar driftlogg, så nästa team börjar med kontext istället för gissningar."
+      "metaDescription": "Behåll chefens anteckningar, skiftsöverlämningar, problem och uppföljning i en sökbar driftlogg, så nästa team börjar med kontext istället för gissningar.",
+      "problemTitle": "Nästa pass startar utan hela bilden.",
+      "helpTitle": "Behåll överlämning, problem och nästa åtgärd tillsammans.",
+      "outcomesTitle": "Ett sökbart register som följer med mellan pass."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · DRIFTSFLÖDEN FÖR DRICKS",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Programvara för hantering av dricks i restaurang | Sundae Crew",
-      "metaDescription": "Samla dricksregler, personalkontext, granskningssteg och löparberedskap i ett arbetsflöde som chefer och löneadministration kan förklara."
+      "metaDescription": "Samla dricksregler, personalkontext, granskningssteg och löparberedskap i ett arbetsflöde som chefer och löneadministration kan förklara.",
+      "problemTitle": "Dröjsmål i dricksgranskning när regler och journaler är utspridda.",
+      "helpTitle": "Samla dricksregler, granskning och löparberedskap.",
+      "outcomesTitle": "Bättre granskningar och en spårbar överlämning till lönen."
     }
   },
   "comparison": {
