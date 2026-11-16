@@ -44,5 +44,10 @@ export function buildOperatorWorkflowMetadata(locale: WebsiteLocale, pathname: s
   const routeCopy = metadata[pathname]
   const copy = routeCopy?.[locale] ?? routeCopy?.en
   if (!copy) return {}
-  return buildResolvedPageMetadata({ locale, pathname, ...copy })
+  return {
+    ...buildResolvedPageMetadata({ locale, pathname, ...copy }),
+    // These editorial titles already include the brand. Avoid adding it again
+    // through the root layout's title template.
+    title: { absolute: copy.title },
+  }
 }
