@@ -61,7 +61,7 @@ ${priceBookForPrompt()}
 7. **Top leaks ranked by impact band** - high → medium → low, max 3 hypotheses.
 8. **Recommended stack - RIGHT-SIZED to their scale and budget (CRITICAL)** - 1-6 layers. Always include Core. Recommend the stack a group of THEIR size and budget would realistically land on, not a maximal end-state bundle:
    - Crew: only if labor pain or manual scheduling. Pick the RIGHT Crew packaging - Crew Operating (Manage + Time + Pay) ONLY for multi-region payroll (2+ payroll countries) or 16+ outlets; otherwise Crew Schedule, or Schedule & Time if buddy-punching/no-shows. Do NOT default everyone to the priciest Crew bundle.
-   - Watchtower: only at SCALE (≥6 outlets) AND a genuine competitor concern. It has NO published list price - describe it as scoped and quoted separately, and keep it OUT of the monthly figure. Never invent a number for it.
+   - Watchtower: only at SCALE (≥6 outlets) AND a genuine competitor concern. It is scoped separately in this assessment. Keep it OUT of the headline monthly figure and direct the buyer to the current pricing calculator; never invent a figure or claim that no public price exists.
    - Intelligence (Ask Sundae / NL-to-SQL) is part of Core - include it as a layer for the narrative but it does NOT add a separate cost line.
    - Core packages include different module sets. Only describe modules listed for the selected package in the verified catalogue snapshot as included. A catalogue capability is not automatically an entitlement. Extensions require eligibility and a current estimate; never invent an inclusion or a per-module price.
    - Foresight & Action: if a forecasting gap or 2+ what-if scenarios.

@@ -29,3 +29,16 @@ The independent positioning review confirmed that the current first-screen categ
 ## Monitoring and external dependencies
 
 Keep the existing Monday checkpoint (23 November) and complete post-release fortnight comparison at/after 30 November. Include pricing parity in every website audit. Search indexing, third-party profile consistency, approved operator proof and authentic enquiries are continuing outcomes, not implementation checkboxes. Existing content/LinkedIn and Prospect Intelligence ownership remains separate.
+
+## Communication follow-through implemented in this branch
+
+- Home: retained the approved hero. The existing premium Core/Crew section and practical workflow links now follow the live product introduction, ahead of recovery exposition. Removed the redundant manifesto/timeline and the unsubstantiated speed/cost tradeoff section from Home; retained deeper intelligence and decision evidence afterward. Replaced the universal-integration/statistical teaser with product-role labels.
+- Walkthrough: `/demo` now leads with the localized walkthrough offer and an explicit sample-data option. The request form comes before the optional self-guided diagnostic. Workflow CTAs preserve a bounded workflow identifier so the default request refers to the relevant operating problem; arbitrary query text is not copied into a lead. The existing pricing intent remains supported.
+- Restaurant365: added a positive shortlist rationale for operations/workforce plus connected performance while retaining suitable POS/accounting systems. The guide states Restaurant365's native accounting/GL/AP scope and Sundae's ledger boundary. It links practical Sundae workflows, both providers' current pricing paths, and a like-for-like cost checklist. Primary sources reviewed 16 November: https://www.restaurant365.com/pricing/ and https://www.restaurant365.com/accounting/ . No price-superiority or regional-exclusivity claim was inferred.
+- Crew: payroll wording restores approved gross-to-net capability and country/provider boundaries. Main product headings use operator language; internal protocol acronyms are removed from the key capability descriptions. Architecture pages may retain necessary technical detail.
+- Internal discovery: current navigation/resource links now point directly to canonical product pages; permanent legacy redirects remain for existing external links.
+- Process: August recovery-first guidance is explicitly historical. Current commercial authority is recorded in the claims bank. The existing Search Discovery workflow checks catalogue parity each Monday and after main deployments; no duplicate cadence was created.
+
+### Product proof boundary
+
+The existing screenshot manifest was checked. `crew-scheduling.png` is a June capture showing an empty outlet selector and read-only state; it is unsuitable as proof of a working scheduling flow and must not be reused as task/logbook proof. A fresh, populated, permission-safe native capture for tasks/logbook/tips remains an evidence dependency. Existing illustrative product views remain illustrations. This does not block the corrected website journeys, but it prevents signing off a claim that every practical workflow now has native screenshot proof.

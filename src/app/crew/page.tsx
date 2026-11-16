@@ -10,6 +10,8 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { REPORT_APP_URL } from "@/lib/urls";
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
+import { crewNavLocales } from '@/lib/crewNavLocales';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
@@ -596,14 +598,28 @@ export default function CrewPage() {
   const { locale } = useWebsiteI18n();
   const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const positioning = getPositioningCopy(locale).critical;
+  const commercial = getCommercialCopy(locale);
+  const payrollTitle = crewNavLocales[locale as keyof typeof crewNavLocales].crewList.find(item => item.href === '/crew/payroll')?.name ?? 'Crew Pay';
+  const operatorText = (value: string) => value.replace(/\b(?:WebAuthn|PWA)\b\s*/g, '').replace(/\bSKUs?\b/g, 'Crew').trim();
   const copy = {
     ...sourceCopy,
+    pillarsTitle: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
+    pillarsDescription: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
+    pillars: sourceCopy.pillars.map((item, index) => index === 2 ? { ...item, title: payrollTitle, body: commercial.payroll } : { ...item, body: operatorText(item.body), chips: item.chips.map(operatorText) }),
+    payrollTitle: 'Crew Pay · 36+ ISO',
+    payrollDescription: commercial.payroll,
+    modulesTitle: 'Sundae Crew',
+    modulesDescription: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
+    bundleDescription: commercial.extraLocations,
+    retiresItems: sourceCopy.retiresItems.map(item => ({ ...item, body: operatorText(item.body) })),
+    personas: sourceCopy.personas.map(item => ({ ...item, outcome: operatorText(item.outcome) })),
+    modules: sourceCopy.modules.map(item => ({ ...item, included: item.included.map(operatorText) })),
     heroLine1: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
     heroLine2: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewTagline,
     description: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
     loopEyebrow: positioning.crewExecutionEyebrow,
-    loopTitle: positioning.crewExecutionTitle,
-    loopDescription: positioning.crewExecutionDescription,
+    loopTitle: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productTitle,
+    loopDescription: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productDescription,
   };
   const cream = crewCreamCopy[locale as keyof typeof crewCreamCopy] ?? crewCreamCopy.en;
 

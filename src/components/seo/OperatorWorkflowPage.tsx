@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { motion, MotionConfig } from 'framer-motion'
 import { getLocalizedPathname, type WebsiteLocale } from '@/lib/i18n'
 import type { OperatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
@@ -47,6 +48,8 @@ export function OperatorWorkflowPage({
   locale,
 }: OperatorWorkflowPageProps) {
   const href = (path: string) => getLocalizedPathname(path, locale)
+  const currentPath = usePathname()
+  const demoHref = `${href('/demo')}?workflow=${encodeURIComponent(currentPath.split('/').filter(Boolean).at(-1) ?? '')}`
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -69,7 +72,7 @@ export function OperatorWorkflowPage({
             <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.08 }} className="hero-h1 max-w-4xl text-balance">{title}</motion.h1>
             <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.16 }} className="body-xl mt-7 max-w-2xl text-[var(--text-supporting)]">{description}</motion.p>
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.24 }} className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Button href={href('/demo')} variant="primary" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_hero_primary" trackingMetadata={{ destination: href('/demo') }}>{shared.primaryCta}</Button>
+              <Button href={demoHref} variant="primary" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_hero_primary" trackingMetadata={{ destination: demoHref }}>{shared.primaryCta}</Button>
               <Button href={href('/crew')} variant="outline-light" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_hero_crew" trackingMetadata={{ destination: href('/crew') }}>{shared.secondaryCta}</Button>
             </motion.div>
           </div>
@@ -167,7 +170,7 @@ export function OperatorWorkflowPage({
       <section className="bg-[var(--cream)] px-4 py-20 text-center text-[var(--ink)] sm:px-6 lg:px-8">
         <h2 className="section-h2 mx-auto mb-5 max-w-3xl">{shared.ctaTitle}</h2>
         <p className="body-lg mx-auto mb-8 max-w-2xl text-black/65">{shared.ctaDescription}</p>
-        <Button href={href('/demo')} variant="cta" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_closing_primary" trackingMetadata={{ destination: href('/demo') }}>{shared.primaryCta}</Button>
+        <Button href={demoHref} variant="cta" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_closing_primary" trackingMetadata={{ destination: demoHref }}>{shared.primaryCta}</Button>
       </section>
     </div>
     </MotionConfig>

@@ -50,7 +50,7 @@ const localizedResourcesUi = {
     productLinks: [
       { name: 'Foresight & Action', href: '/product/foresight' },
       { name: 'Sundae Core', href: '/product' },
-      { name: 'Ask Sundae', href: '/intelligence' },
+      { name: 'Ask Sundae', href: '/product/intelligence' },
       { name: 'Pulse', href: '/product/pulse' },
     ],
     newsletterPlaceholder: 'Enter your email',
@@ -59,7 +59,7 @@ const localizedResourcesUi = {
     productLinks: [
       { name: 'Foresight & Action', href: '/product/foresight' },
       { name: 'Sundae Core', href: '/product' },
-      { name: 'Ask Sundae', href: '/intelligence' },
+      { name: 'Ask Sundae', href: '/product/intelligence' },
       { name: 'Pulse', href: '/product/pulse' },
     ],
     newsletterPlaceholder: 'البريد الإلكتروني',
@@ -68,7 +68,7 @@ const localizedResourcesUi = {
     productLinks: [
       { name: 'Foresight & Action', href: '/product/foresight' },
       { name: 'Sundae Core', href: '/product' },
-      { name: 'Ask Sundae', href: '/intelligence' },
+      { name: 'Ask Sundae', href: '/product/intelligence' },
       { name: 'Pulse', href: '/product/pulse' },
     ],
     newsletterPlaceholder: 'Votre email',
@@ -77,7 +77,7 @@ const localizedResourcesUi = {
     productLinks: [
       { name: 'Foresight & Action', href: '/product/foresight' },
       { name: 'Sundae Core', href: '/product' },
-      { name: 'Ask Sundae', href: '/intelligence' },
+      { name: 'Ask Sundae', href: '/product/intelligence' },
       { name: 'Pulse', href: '/product/pulse' },
     ],
     newsletterPlaceholder: 'Tu correo electrónico',

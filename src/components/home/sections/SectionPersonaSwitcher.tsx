@@ -148,9 +148,9 @@ export function SectionPersonaSwitcher() {
             id="persona-headline"
             className="section-h2 text-balance flex flex-wrap items-center justify-center gap-x-2.5 sm:gap-x-3.5 gap-y-1.5"
           >
-            <span>{copy.headlineSee}</span>
-            <span>Sundae</span>
-            <span>{copy.headlineFor}</span>
+            <span>{copy.headlineSee}</span>{" "}
+            <span>Sundae</span>{" "}
+            <span>{copy.headlineFor}</span>{" "}
             <span className="text-[var(--warm-coral)]">
               {active.pluralLabel}.
             </span>

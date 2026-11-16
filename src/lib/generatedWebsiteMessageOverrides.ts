@@ -40,7 +40,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Wettbewerbsintelligenz",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -50,12 +50,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Spezialisierte Analyse-Module",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "KI-gestützte konversationelle Analytik",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -67,7 +67,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Kostenlose, historische Analyse",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -299,7 +299,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Wettbewerbsintelligenz",
             "description": "Anonyme Peer-Benchmarks über 30+ Metriken. Wissen, wo Sie stehen.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -311,13 +311,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 Analyse-Module",
             "description": "Umsatz, Personal, Inventar, Marketing, Lieferung - jedes mit KI-Empfehlungen.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "Konversationelle KI",
             "description": "Fragen Sie Ihre Daten alles - quellenbelegte Antworten in Sekunden auf Web, WhatsApp, Telegram, Slack oder Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -811,7 +811,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Concurrentie-intelligentie",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -821,12 +821,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Gespecialiseerde analysemodule",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "AI-gestuurde conversatie-analyse",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -838,7 +838,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Gratis, historische analyse",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -1070,7 +1070,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Concurrentie-informatie",
             "description": "Anonieme peer benchmarks over 30+ metrics. Weet waar je staat.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -1082,13 +1082,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 analysemodules",
             "description": "Omzet, arbeid, voorraad, marketing, levering - elk met AI-aanbevelingen.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "Conversationele AI",
             "description": "Vraag uw data alles - bronvermelde antwoorden in seconden via web, WhatsApp, Telegram, Slack of Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -1582,7 +1582,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Inteligência competitiva",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -1592,12 +1592,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Módulos de análise especializados",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "Análise conversacional impulsionada por IA",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -1609,7 +1609,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Análise histórica gratuita",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -1841,7 +1841,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Inteligência competitiva",
             "description": "Benchmarks anônimos entre pares em mais de 30 métricas. Saiba onde você está.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -1853,13 +1853,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 módulos de análise",
             "description": "Receita, mão de obra, inventário, marketing, entrega - cada um com recomendações de IA.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "IA Conversacional",
             "description": "Pergunte qualquer coisa aos seus dados - respostas com fonte em segundos na web, WhatsApp, Telegram, Slack ou Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -2353,7 +2353,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "प्रतिस्पर्धात्मक बुद्धिमत्ता",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -2363,12 +2363,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "विशेषीकृत विश्लेषणात्मक मॉड्यूल",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "AI-संचालित संवादात्मक विश्लेषण",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -2380,7 +2380,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "मुफ्त, ऐतिहासिक विश्लेषण",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -2612,7 +2612,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "प्रतिस्पर्धात्मक बुद्धिमत्ता",
             "description": "30+ मैट्रिक्स में गुमनाम समकक्ष बेंचमार्क। जानें कि आप कहां खड़े हैं।",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -2624,13 +2624,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 विश्लेषणात्मक मॉड्यूल्स",
             "description": "राजस्व, श्रम, इन्वेंटरी, मार्केटिंग, डिलीवरी - प्रत्येक में AI सिफारिशें।",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "संवादी AI",
             "description": "अपने डेटा से कुछ भी पूछें - वेब, WhatsApp, Telegram, Slack या Teams पर सेकंडों में स्रोत-सहित जवाब।",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -3124,7 +3124,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "مقابلتی ذہانت",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -3134,12 +3134,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "خصوصی تجزیاتی ماڈیولز",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "AI سے چلنے والا بات چیت کا تجزیہ",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -3151,7 +3151,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "مفت، تاریخی تجزیہ",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -3383,7 +3383,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "مقابلتی ذہانت",
             "description": "30+ میٹرکس میں نامعلوم ہم منصبوں کے بینچ مارکس۔ جانیں آپ کہاں کھڑے ہیں۔",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -3395,13 +3395,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 تجزیاتی ماڈیولز",
             "description": "آمدنی، عملہ، انوینٹری، مارکیٹنگ، ترسیل - ہر ایک کے ساتھ AI کی سفارشات۔",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "مکالماتی AI",
             "description": "اپنے ڈیٹا سے کچھ بھی پوچھیں - ویب، WhatsApp، Telegram، Slack یا Teams پر سیکنڈوں میں باحوالہ جوابات۔",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -3895,7 +3895,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Intelligenza competitiva",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -3905,12 +3905,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Moduli di analisi specializzati",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "Analisi conversazionali basate su AI",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -3922,7 +3922,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Analisi storica gratuita",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -4154,7 +4154,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Intelligenza competitiva",
             "description": "Benchmark anonimi tra pari su oltre 30 metriche. Scopri la tua posizione.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -4166,13 +4166,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 moduli analitici",
             "description": "Entrate, lavoro, inventario, marketing, consegna - ognuno con raccomandazioni AI.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "AI conversazionale",
             "description": "Chiedi qualsiasi cosa ai tuoi dati - risposte con fonte in secondi su web, WhatsApp, Telegram, Slack o Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -4666,7 +4666,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Inteligencja konkurencyjna",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -4676,12 +4676,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Specjalistyczne moduły analityczne",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "Analiza konwersacyjna wspierana przez AI",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -4693,7 +4693,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Darmowa analiza historyczna",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -4925,7 +4925,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Inteligencja konkurencyjna",
             "description": "Anonimowe benchmarki rówieśników w ponad 30 metrykach. Dowiedz się, gdzie stoisz.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -4937,13 +4937,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 modułów analitycznych",
             "description": "Przychody, praca, zapasy, marketing, dostawy - każdy z rekomendacjami AI.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "Konwersacyjna AI",
             "description": "Zapytaj dane o cokolwiek - odpowiedzi ze źródłem w sekundy w sieci, WhatsApp, Telegram, Slack lub Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -5437,7 +5437,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Rekabetçi zeka",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -5447,12 +5447,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Özel analiz modülleri",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "AI destekli konuşma analitiği",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -5464,7 +5464,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Ücretsiz, tarihsel analiz",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -5696,7 +5696,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Rekabetçi zeka",
             "description": "30'dan fazla metriğe göre anonim eşitler arası karşılaştırmalar. Nerede durduğunuzu bilin.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -5708,13 +5708,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 analiz modülü",
             "description": "Gelir, iş gücü, envanter, pazarlama, teslimat - her biri AI önerileri ile.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "Konuşma AI",
             "description": "Verilerinize her şeyi sorun - web, WhatsApp, Telegram, Slack veya Teams'te saniyeler içinde kaynak gösterilen yanıtlar.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -6208,7 +6208,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "竞争情报",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -6218,12 +6218,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "专业分析模块",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "基于AI的对话分析",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -6235,7 +6235,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "免费历史分析",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -6467,7 +6467,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "竞争情报",
             "description": "超过 30 项指标的匿名同行基准。了解你的位置。",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -6479,13 +6479,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 分析模块",
             "description": "收入、劳动力、库存、营销、配送 - 每个模块都有 AI 推荐。",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "对话式 AI",
             "description": "向你的数据问任何问题 - 在网页、WhatsApp、Telegram、Slack 或 Teams 上数秒内给出带来源的答案。",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -6979,7 +6979,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "競争インテリジェンス",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -6989,12 +6989,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "専門的な分析モジュール",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "AI駆動の会話型分析",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -7006,7 +7006,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "無料の歴史的分析",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -7238,7 +7238,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "競争情報",
             "description": "30以上の指標にわたる匿名のピアベンチマーク。自分の立ち位置を把握。",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -7250,13 +7250,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12の分析モジュール",
             "description": "収益、労働、在庫、マーケティング、配送 - それぞれにAIの推奨が付随。",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "会話型AI",
             "description": "データに何でも質問 - Web、WhatsApp、Telegram、Slack、Teams で数秒、出典付きの回答。",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -7750,7 +7750,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "경쟁 인텔리전스",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -7760,12 +7760,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "전문 분석 모듈",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "AI 기반 대화형 분석",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -7777,7 +7777,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "무료, 역사적 분석",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -8009,7 +8009,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "경쟁 정보",
             "description": "30개 이상의 지표에 대한 익명 동료 벤치마크. 당신의 위치를 파악하세요.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -8021,13 +8021,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12개 분석 모듈",
             "description": "수익, 인력, 재고, 마케팅, 배달 - 각각 AI 추천 포함.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "대화형 AI",
             "description": "데이터에 무엇이든 물어보세요 - 웹, WhatsApp, Telegram, Slack, Teams에서 몇 초 만에 출처 있는 답변.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -8521,7 +8521,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Intelijen kompetitif",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -8531,12 +8531,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Modul analitik khusus",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "Analitik percakapan berbasis AI",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -8548,7 +8548,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Analisis historis gratis",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -8780,7 +8780,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Intelijen kompetitif",
             "description": "Benchmark anonim dari rekan di lebih dari 30 metrik. Ketahui posisi Anda.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -8792,13 +8792,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 modul analitik",
             "description": "Pendapatan, tenaga kerja, inventaris, pemasaran, pengiriman - masing-masing dengan rekomendasi AI.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "AI percakapan",
             "description": "Tanyakan apa saja ke data Anda - jawaban bersumber dalam hitungan detik di web, WhatsApp, Telegram, Slack, atau Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -9292,7 +9292,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Trí tuệ cạnh tranh",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -9302,12 +9302,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Các mô-đun phân tích chuyên biệt",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "Phân tích hội thoại dựa trên AI",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -9319,7 +9319,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Phân tích lịch sử miễn phí",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -9551,7 +9551,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Thông tin cạnh tranh",
             "description": "Các chỉ số đồng nghiệp ẩn danh trên 30+ chỉ số. Biết vị trí của bạn.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -9563,13 +9563,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 mô-đun phân tích",
             "description": "Doanh thu, lao động, tồn kho, tiếp thị, giao hàng - mỗi mô-đun đều có khuyến nghị AI.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "AI hội thoại",
             "description": "Hỏi dữ liệu của bạn bất cứ điều gì - câu trả lời có nguồn trong vài giây trên web, WhatsApp, Telegram, Slack hoặc Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -10063,7 +10063,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Inteligență competitivă",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -10073,12 +10073,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Module analitice specializate",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "Analiză conversațională bazată pe AI",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -10090,7 +10090,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Analiză gratuită, istorică",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -10322,7 +10322,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Inteligență competitivă",
             "description": "Benchmark-uri anonime între colegi pe peste 30 de metrici. Știi unde te situezi.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -10334,13 +10334,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 module de analiză",
             "description": "Venituri, muncă, inventar, marketing, livrare - fiecare cu recomandări AI.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "AI conversațional",
             "description": "Întreabă-ți datele orice - răspunsuri cu sursă în secunde pe web, WhatsApp, Telegram, Slack sau Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -10834,7 +10834,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Konkurrensanalys",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -10844,12 +10844,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Specialiserade analysmoduler",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "AI-driven konversationsanalys",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -10861,7 +10861,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Gratis, historisk analys",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -11093,7 +11093,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Konkurrensanalys",
             "description": "Anonyma jämförelser med kollegor över 30+ mätvärden. Vet var du står.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -11105,13 +11105,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 analysmoduler",
             "description": "Intäkter, arbetskraft, lager, marknadsföring, leverans - var och en med AI-rekommendationer.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "Konverserande AI",
             "description": "Fråga dina data vad som helst - källhänvisade svar på sekunder via webb, WhatsApp, Telegram, Slack eller Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -11605,7 +11605,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -11615,12 +11615,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "বিশেষায়িত বিশ্লেষণ মডিউল",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "এআই-চালিত কথোপকথন বিশ্লেষণ",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -11632,7 +11632,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "ফ্রি, ঐতিহাসিক বিশ্লেষণ",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -11864,7 +11864,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
             "description": "৩০+ মেট্রিক্স জুড়ে অজ্ঞাত সহকর্মী বেঞ্চমার্ক। আপনি কোথায় দাঁড়িয়ে আছেন তা জানুন।",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -11876,13 +11876,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "১২টি বিশ্লেষণাত্মক মডিউল",
             "description": "রাজস্ব, শ্রম, ইনভেন্টরি, মার্কেটিং, ডেলিভারি - প্রতিটি AI সুপারিশ সহ।",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "কনভারসেশনাল AI",
             "description": "আপনার ডেটাকে যা খুশি জিজ্ঞাসা করুন - ওয়েব, WhatsApp, Telegram, Slack বা Teams-এ সেকেন্ডে সূত্রসহ উত্তর।",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -12376,7 +12376,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "ข้อมูลเชิงเปรียบเทียบ",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -12386,12 +12386,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "โมดูลการวิเคราะห์เฉพาะทาง",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "การวิเคราะห์เชิงสนทนาด้วย AI",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -12403,7 +12403,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "การวิเคราะห์ประวัติศาสตร์ฟรี",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -12635,7 +12635,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "ข้อมูลเชิงเปรียบเทียบ",
             "description": "ข้อมูลเชิงเปรียบเทียบจากเพื่อนที่ไม่ระบุชื่อในกว่า 30 เมตริก รู้ว่าคุณอยู่ที่ไหน",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -12647,13 +12647,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 โมดูลการวิเคราะห์",
             "description": "รายได้ แรงงาน สินค้าคงคลัง การตลาด การจัดส่ง - แต่ละรายการมีคำแนะนำจาก AI",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "AI เชิงสนทนา",
             "description": "ถามข้อมูลของคุณได้ทุกเรื่อง - คำตอบที่อ้างอิงแหล่งที่มาในไม่กี่วินาทีบนเว็บ WhatsApp, Telegram, Slack หรือ Teams",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",
@@ -13147,7 +13147,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Benchmarks",
           "description": "Inteligens kompetitif",
-          "href": "/benchmarking"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Watchtower",
@@ -13157,12 +13157,12 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Insights",
           "description": "Modul analitik khusus",
-          "href": "/insights"
+          "href": "/product/insights"
         },
         {
           "name": "Ask Sundae",
           "description": "Analitik perbualan berkuasa AI",
-          "href": "/intelligence"
+          "href": "/product/intelligence"
         },
         {
           "name": "Foresight",
@@ -13174,7 +13174,7 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Sundae Report",
           "description": "Analisis sejarah percuma",
-          "href": "/report"
+          "href": "/product/benchmarking"
         },
         {
           "name": "Sundae Core",
@@ -13406,7 +13406,7 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Benchmarks",
             "subtitle": "Inteligens kompetitif",
             "description": "Penanda aras rakan sebaya tanpa nama merentasi 30+ metrik. Ketahui di mana anda berada.",
-            "href": "/benchmarking"
+            "href": "/product/benchmarking"
           },
           {
             "name": "Watchtower",
@@ -13418,13 +13418,13 @@ export const generatedWebsiteMessageOverrides = {
             "name": "Insights",
             "subtitle": "12 modul analitik",
             "description": "Pendapatan, tenaga kerja, inventori, pemasaran, penghantaran - setiap satu dengan cadangan AI.",
-            "href": "/insights"
+            "href": "/product/insights"
           },
           {
             "name": "Ask Sundae",
             "subtitle": "AI perbualan",
             "description": "Tanya data anda apa-apa sahaja - jawapan bersumber dalam beberapa saat di web, WhatsApp, Telegram, Slack atau Teams.",
-            "href": "/intelligence"
+            "href": "/product/intelligence"
           },
           {
             "name": "Foresight",

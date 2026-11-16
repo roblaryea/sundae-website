@@ -534,8 +534,8 @@ export default function ModulesPage() {
     description: commercial.productOverview,
     mixAndMatch: "",
     whatAreModulesDescription: commercial.packageScope,
-    pillars: originalPage.pillars.map((item, index) => index === 1 ? { ...item, title: originalPage.howItWorks[0].title, description: commercial.packageScope } : item),
-    howItWorks: originalPage.howItWorks.map((item, index) => index === 0 ? { ...item, description: commercial.packageScope } : item),
+    pillars: originalPage.pillars.map((item, index) => index === 1 ? { ...item, title: commercial.packageTitle, description: commercial.packageScope } : item),
+    howItWorks: originalPage.howItWorks.map((item, index) => index === 0 ? { ...item, title: commercial.packageTitle, description: commercial.packageScope } : item),
     faqs: originalPage.faqs.map((item, index) => index < 2 ? { ...item, a: commercial.packageScope } : index === 3 ? { ...item, a: commercial.setup } : item),
   };
   const ui = { ...originalUi, overviewNote: commercial.packageScope,

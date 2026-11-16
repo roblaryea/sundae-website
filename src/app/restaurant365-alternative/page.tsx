@@ -1,3 +1,6 @@
+import Link from 'next/link'
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
+import { PRICING_URL } from '@/lib/urls'
 import { Button } from '@/components/ui/Button'
 
 import { cookies } from 'next/headers'
@@ -7,7 +10,9 @@ import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
 export default async function Restaurant365AlternativePage() {
   const locale = resolveWebsiteLocale(await cookies())
   const copy = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].comparison
-  const { questions, criteria } = copy
+  const commercial = getCommercialCopy(locale)
+  const questions = copy.questions.map((item, index) => ({ ...item, body: index === 0 ? commercial.accountingBoundary : index === 2 ? commercial.shortlist : item.body }))
+  const { criteria } = copy
   const href = (path: string) => getLocalizedPathname(path, locale)
   const schema = {
     '@context': 'https://schema.org',
@@ -34,6 +39,24 @@ export default async function Restaurant365AlternativePage() {
             <Button href={href('/demo')} variant="primary" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="platform_comparison_hero" trackingMetadata={{ destination: href('/demo') }}>{copy.primaryCta}</Button>
             <Button href={href('/restaurant-management-platform')} variant="outline-light" size="lg" className="max-w-full whitespace-normal! text-center break-words">{copy.secondaryCta}</Button>
           </div>
+        </div>
+      </section>
+
+      <section className="px-4 pb-20 sm:px-6 lg:px-8">
+        <div className="mx-auto grid max-w-5xl gap-10 border-t border-[var(--border-default)] pt-10 lg:grid-cols-[1.2fr_1fr]">
+          <div>
+            <h2 className="section-h2 mb-5">{copy.questions[2].title}</h2>
+            <p className="body-lg text-[var(--text-supporting)]">{commercial.shortlist}</p>
+            <div className="mt-7 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold">
+              {['restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'].map(slug => <Link key={slug} className="underline underline-offset-4 hover:text-[var(--warm-coral)]" href={href(`/${slug}`)}>{operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].pages[slug as keyof typeof operatorWorkflowCopy[typeof locale]['pages']].title} →</Link>)}
+            </div>
+          </div>
+          <aside className="border-s border-[var(--border-default)] ps-7">
+            <h2 className="text-xl font-semibold mb-4">Core · Crew · Core + Crew</h2>
+            <p className="text-[var(--text-supporting)] leading-relaxed">{commercial.costComparison}</p>
+            <a className="mt-6 inline-flex font-semibold underline underline-offset-4" href={PRICING_URL}>pricing.sundae.io →</a>
+            <a className="mt-4 block text-sm underline underline-offset-4 text-[var(--text-supporting)]" href="https://www.restaurant365.com/pricing/">Restaurant365 · restaurant365.com/pricing →</a>
+          </aside>
         </div>
       </section>
 
@@ -76,8 +99,8 @@ export default async function Restaurant365AlternativePage() {
       </section>
 
       <section className="px-4 py-20 sm:px-6 lg:px-8">
-        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-3">
-          {questions.map((item) => (
+        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2">
+          {questions.slice(0, 2).map((item) => (
             <article key={item.title} className="border-t-2 border-[#FF5C4D] pt-5">
               <h2 className="mb-3 text-lg font-semibold">{item.title}</h2>
               <p className="body-base text-[var(--text-supporting)]">{item.body}</p>
@@ -94,6 +117,7 @@ export default async function Restaurant365AlternativePage() {
             {copy.sourcesDescription}
           </p>
           <div className="flex flex-wrap gap-3">
+            <a href="https://www.restaurant365.com/accounting/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">Restaurant365 Accounting →</a>
             <a href="https://www.restaurant365.com/ai-info/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">{copy.sourceLabels[0]} →</a>
             <a href="https://www.restaurant365.com/workforce/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">{copy.sourceLabels[1]} →</a>
             <a href="https://www.restaurant365.com/workforce/logbook/" className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium hover:border-[#FF5C4D]/50">{copy.sourceLabels[2]} →</a>

@@ -5,6 +5,9 @@ import { ArrowUpRight } from "lucide-react";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
+import { crewNavLocales } from '@/lib/crewNavLocales';
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { crewBandCopy } from "./crewBandCopy";
 
 /**
@@ -16,6 +19,13 @@ import { crewBandCopy } from "./crewBandCopy";
 export function SectionCrewSubstrate() {
   const { locale } = useWebsiteI18n();
   const copy = crewBandCopy[locale as keyof typeof crewBandCopy] ?? crewBandCopy.en;
+  const brand = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand;
+  const payrollTitle = crewNavLocales[locale as keyof typeof crewNavLocales].crewList.find(item => item.href === '/crew/payroll')?.name ?? 'Crew Pay';
+  const pillars = [
+    { title: 'Sundae Crew', desc: brand.crewDescription },
+    { title: 'Sundae Core', desc: brand.coreDescription },
+    { title: payrollTitle, desc: getCommercialCopy(locale).payroll },
+  ];
 
   return (
     <>
@@ -28,21 +38,20 @@ export function SectionCrewSubstrate() {
     >
       <div className="mx-auto max-w-6xl">
         <FadeUp className="max-w-3xl">
-          <p className="eyebrow mb-4">{copy.eyebrow}</p>
+          <p className="eyebrow mb-4">Sundae Core · Sundae Crew</p>
           <h2
             className="text-3xl font-bold tracking-tight text-[var(--text-display)] sm:text-4xl lg:text-[2.6rem] lg:leading-[1.1]"
-            aria-label={`${copy.headline} ${copy.accent}`}
+            aria-label={brand.productTitle}
           >
-            <span>{copy.headline}</span>{" "}
-            <span className="italic text-[var(--warm-coral)]">{copy.accent}</span>
+            {brand.productTitle}
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-[var(--text-supporting)] sm:text-lg">
-            {copy.sub}
+            {brand.productDescription}
           </p>
         </FadeUp>
 
-        <div className="mt-12 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-[var(--border-default)] bg-[var(--border-default)] sm:grid-cols-2 lg:grid-cols-4">
-          {copy.pillars.map((pillar, i) => (
+        <div className="mt-12 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-[var(--border-default)] bg-[var(--border-default)] sm:grid-cols-2 lg:grid-cols-3">
+          {pillars.map((pillar, i) => (
             <FadeUp
               key={i}
               delay={i * 0.08}
@@ -59,6 +68,7 @@ export function SectionCrewSubstrate() {
 
         <FadeUp delay={0.1} className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:justify-between">
           <p className="max-w-xl text-sm text-[var(--text-muted)]">{copy.optionalNote}</p>
+          <Link href="/core" className="group inline-flex shrink-0 items-center gap-2 rounded-full border border-[var(--border-emphasis)] px-6 py-3 text-sm font-semibold text-[var(--text-primary)] transition-colors hover:bg-[var(--surface-hover)]">Sundae Core <ArrowUpRight className="h-4 w-4" /></Link>
           <Link
             href="/crew"
             className="group inline-flex shrink-0 items-center gap-2 rounded-full border border-[var(--border-emphasis)] px-6 py-3 text-sm font-semibold text-[var(--text-primary)] transition-colors hover:border-[var(--warm-coral)]/50 hover:bg-[var(--surface-hover)]"

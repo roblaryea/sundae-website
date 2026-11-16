@@ -1577,7 +1577,7 @@ export function getLocalizedFaqSections(
     title: categoryTitles[index] ?? localizedFaqSections.en[index]?.id ?? section.id,
     faqs: section.faqs.map((faq, faqIndex) => ({
       ...faq,
-      content: corrections[section.id]?.[faqIndex] ?? applyFaqTokens(faq.content, locale),
-    })),
+      content: section.id === "modules" && faqIndex === 0 ? commercial.packageScope + "\n\n" + DOMAIN_MODULE_LINES : corrections[section.id]?.[faqIndex] ?? applyFaqTokens(faq.content, locale),
+    })).filter((_, faqIndex) => section.id !== "modules" || ![1, 2, 3].includes(faqIndex)),
   }));
 }

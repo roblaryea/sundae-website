@@ -1,3 +1,5 @@
+import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy';
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { decodePricingIntent } from "@/lib/pricingIntent";
 import type { Metadata } from "next";
 import React from 'react';
@@ -13,19 +15,34 @@ import { getPositioningCopy } from '@/lib/positioningCopy';
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  const positioning = getPositioningCopy(locale).critical;
   return {
-    title: positioning.demoMetaTitle,
-    description: positioning.demoMetaDescription,
+    title: operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].shared.primaryCta,
+    description: operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].brand.productDescription,
   };
 }
 
-export default async function DemoPage({ searchParams }: { searchParams: Promise<{ cfg?: string | string[] }> }) {
+export default async function DemoPage({ searchParams }: { searchParams: Promise<{ cfg?: string | string[]; workflow?: string | string[] }> }) {
   const params = await searchParams;
   const pricingIntent = typeof params.cfg === "string" ? decodePricingIntent(params.cfg) : null;
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getWebsiteMessages(locale).pages.demo;
-  const positioning = getPositioningCopy(locale).critical;
+  const workflowCopy = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy];
+  const commercial = getCommercialCopy(locale);
+  const workflowKey = typeof params.workflow === 'string' && Object.hasOwn(workflowCopy.pages, params.workflow) ? params.workflow as keyof typeof workflowCopy.pages : null;
+  const requestMessage = workflowKey ? `${workflowCopy.pages[workflowKey].title} — ${workflowCopy.shared.primaryCta}` : workflowCopy.shared.primaryCta;
+  const positioning = {
+    ...getPositioningCopy(locale).critical,
+    demoTitle: workflowCopy.shared.primaryCta,
+    demoDescription: `${workflowCopy.brand.productDescription} ${commercial.sampleWalkthrough}`,
+    demoRequestDescription: commercial.sampleWalkthrough,
+    demoWhatTitle: workflowCopy.brand.productTitle,
+    demoWhatDescription: workflowCopy.brand.productDescription,
+  };
+  const benefits = [
+    { title: 'Sundae Crew', description: workflowCopy.brand.crewDescription, details: workflowCopy.shared.steps.slice(0, 2) },
+    { title: 'Sundae Core', description: workflowCopy.brand.coreDescription, details: workflowCopy.shared.steps.slice(2) },
+    { title: workflowCopy.shared.connectedEyebrow, description: commercial.packageScope, details: [commercial.sampleWalkthrough] },
+  ];
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -55,9 +72,6 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
         </div>
       </section>
 
-      {/* AI Operations Diagnostic - primary path (localized client component) */}
-      <DemoDiagnosticPromo />
-
       {/* Demo Form */}
       <section id="demo-form" className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
         <div className="max-w-4xl mx-auto">
@@ -72,7 +86,7 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
 
           <LeadCaptureForm
             ctaLabel={copy.ctaLabel}
-            defaultMessage={copy.defaultMessage}
+            defaultMessage={requestMessage}
             pricingIntent={pricingIntent ?? undefined}
           />
         </div>
@@ -91,7 +105,7 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {copy.benefits.map((benefit, index: number) => (
+            {benefits.map((benefit, index: number) => (
               <div key={index} className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
                 <div className="w-12 h-12 mb-5 bg-gradient-to-br from-[#FF5C4D] to-[#C2410C] rounded-xl flex items-center justify-center">
                   <SundaeIcon name={(index === 0 ? 'canvas' : index === 1 ? 'insights' : 'support') as SundaeIconName} size="lg" className="text-white" />
@@ -112,33 +126,17 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
         </div>
       </section>
 
-      {/* Why Operators Take the Call */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              {copy.whyOperatorsTitle}
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {copy.stats.map((item, i: number) => (
-              <div key={i} className="flex items-start gap-4 p-5 rounded-xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                <span className="text-lg font-bold text-[var(--text-primary)] whitespace-nowrap">{item.stat}</span>
-                <span className="text-sm text-[var(--text-supporting)]">{item.label}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* The self-guided diagnostic is optional, after the direct walkthrough request. */}
+      <DemoDiagnosticPromo />
 
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            {copy.ctaTitle}
+            {workflowCopy.shared.ctaTitle}
           </h2>
           <p className="body-xl mb-8 text-[var(--text-muted)]">
-            {copy.ctaDescription}
+            {commercial.sampleWalkthrough}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="#demo-form" className="w-full sm:w-auto">

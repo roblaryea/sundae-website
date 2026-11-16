@@ -62,6 +62,10 @@ Footnotes that must appear on any page where the linked claim renders:
 
 ---
 
+## Current commercial authority — verified 16 November 2026
+
+Commercial rates, location scope and package inclusions must follow the active database catalogue exposed through `/api/pricing/catalog`. The verified active version is `v1.8.2-policy-20261009`; backend `pricing_master.ts` is fallback configuration and is not current price authority. The website retains a minimal reviewed snapshot and a read-only `npm run pricing:check` drift check. Foundation includes 4 module IDs; Margin 7 including Delivery; Growth 9 including Delivery; Performance 12 including Foresight. Crew products are location-priced, not flat across an estate. Historical v1.7 universal-module or flat-Crew assertions are superseded. CLM-018 remains revoked; CLM-019's functional-area distinctions stand, while exact inclusions follow the live catalogue.
+
 ## A. Statistical Claims (Highest Scrutiny)
 
 | ID | Claim | Surface | Status | Source | Owner | Footnote? | Notes |

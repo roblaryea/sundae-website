@@ -4,6 +4,7 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { EditorialImage } from "@/components/ui/EditorialImage";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionProof'
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { balanceSentences } from '@/lib/balanceSentences';
 
 type LocalizedProof = {
@@ -111,7 +112,13 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
 
 export function SectionProof() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const originalCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+
+  const brand = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand;
+  const copy = { ...originalCopy, industryClaims: originalCopy.industryClaims.slice(1), stats: [
+    { value: 'Crew', label: brand.crewHeadline, footnoteMarker: undefined },
+    { value: 'Core', label: brand.coreHeadline, footnoteMarker: undefined },
+  ] };
 
   return (
     <section aria-labelledby="proof-headline" className="relative">
@@ -122,7 +129,7 @@ export function SectionProof() {
           <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </div>
 
-        <div className="mt-10 sm:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5 max-w-4xl mx-auto">
+        <div className="mt-10 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 max-w-4xl mx-auto">
           {copy.stats.map((s) => (
             <div key={s.label} className="text-center p-5 sm:p-7 rounded-2xl bg-[var(--surface-subtle)] border border-[var(--border-default)]">
               <div className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-[var(--text-primary)] tabular-nums">

@@ -4,6 +4,7 @@ import { chromium } from '@playwright/test'
 
 const base = process.env.SMOKE_BASE_URL || 'http://localhost:3149'
 const locales = ['en', 'ar', 'fr', 'es', 'de', 'nl', 'pt', 'hi', 'ur', 'it', 'pl', 'tr', 'zh-Hans', 'ja', 'ko', 'id', 'vi', 'ro', 'sv', 'bn', 'th', 'ms']
+const commercial = JSON.parse(await fs.readFile('src/content/commercial-copy.json', 'utf8'))
 const browser = await chromium.launch()
 const results = []
 const jobs = []
@@ -33,9 +34,10 @@ try {
       assert.equal(new URL(await page.locator('link[rel="canonical"]').getAttribute('href')).pathname, path)
       const faq = await page.locator('script[type="application/ld+json"]').evaluateAll(nodes => nodes.map(n => JSON.parse(n.textContent)).find(s => s['@type'] === 'FAQPage'))
       assert.equal(faq.mainEntity[0].name, copy.questions[0].question || copy.questions[0].title)
-      assert.equal(faq.mainEntity[0].acceptedAnswer.text, copy.questions[0].answer || copy.questions[0].body)
-      const demo = page.locator(`a[href="${locale === 'en' ? '' : `/${locale}`}/demo"]`).filter({ hasText: slug === 'restaurant365-alternative' ? copy.primaryCta : shared.primaryCta }).first()
+      assert.equal(faq.mainEntity[0].acceptedAnswer.text, slug === 'restaurant365-alternative' ? commercial[locale].accountingBoundary : copy.questions[0].answer || copy.questions[0].body)
+      const demo = page.locator(`a[href^="${locale === 'en' ? '' : `/${locale}`}/demo"]`).filter({ hasText: slug === 'restaurant365-alternative' ? copy.primaryCta : shared.primaryCta }).first()
       assert.equal(await demo.locator('button').count(), 0, 'CTA is one semantic anchor')
+      if (slug !== 'restaurant365-alternative') assert.equal(new URL(await demo.getAttribute('href'), base).searchParams.get('workflow'), slug)
       const box = await demo.boundingBox()
       assert.ok(box && box.x >= -1 && box.x + box.width <= 391, `${path}: CTA clips`)
       const clippedActions = await page.locator('a').evaluateAll(nodes => nodes.filter(n => n.className.includes('rounded-xl') && n.getBoundingClientRect().width && n.scrollWidth > n.clientWidth + 1).map(n => n.textContent))
