@@ -185,3 +185,11 @@ Quarterly:
 - priority pages have distinct titles, descriptions, H1s, and one clear conversion path;
 - Search Console property is verified and the production sitemap is submitted;
 - the first Search Console and PostHog baselines are recorded.
+
+## Corrected marketing baseline — 16 November 2026
+
+The authenticated PostHog review found that the SEO dashboard included application/development traffic and public digital-card actions. Its six insights and dashboard filters now use production marketing paths only. This supersedes earlier mixed-project headline counts for future marketing comparisons; raw event history remains intact.
+
+For 19 October–15 November 2026 (complete UTC days), the marketing site recorded 52 pageviews, 29 consented unique visitors, three CTA users and no accepted lead forms. The preceding 28 days recorded 74 pageviews, 29 visitors, two CTA users and no accepted lead forms. The most recent complete week recorded six visitors and no marketing CTA users. The first consistently scoped 14-day comparison is also recorded.
+
+Full dates, 7/14/28-day comparisons, scope definitions, source limitations, dashboard corrections and follow-up work are in [PostHog marketing baseline — 16 November](POSTHOG_MARKETING_BASELINE_2026-11-16.md). Treat this as the current marketing baseline. The November 16 native-button tracking correction affects later CTA comparisons. Accepted forms and diagnostic contact steps are event proxies, not automatically qualified leads. Fresh Search Console verification remains separate and pending.
