@@ -8,6 +8,7 @@ import type { OperatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
 import { Button } from '@/components/ui/Button'
 import { CreamBreak } from '@/components/ui/CreamBreak'
 import { StaggerContainer, StaggerItem } from '@/components/ui/PageAnimations'
+import { NativeWorkflowProof } from './NativeWorkflowProof'
 
 export type OperatorWorkflowQuestion = {
   question: string
@@ -17,6 +18,7 @@ export type OperatorWorkflowQuestion = {
 export type OperatorWorkflowPageProps = {
   shared: OperatorWorkflowCopy['shared']
   locale: WebsiteLocale
+  proof: 'tasks' | 'logbook' | 'tips'
   eyebrow: string
   title: string
   accent: string
@@ -46,6 +48,7 @@ export function OperatorWorkflowPage({
   related,
   shared,
   locale,
+  proof,
 }: OperatorWorkflowPageProps) {
   const href = (path: string) => getLocalizedPathname(path, locale)
   const currentPath = usePathname()
@@ -91,6 +94,8 @@ export function OperatorWorkflowPage({
       </section>
 
       <CreamBreak eyebrow={shared.creamEyebrow} statement={shared.creamStatement} lede={shared.creamLede} />
+
+      <NativeWorkflowProof locale={locale} view={proof} />
 
       <section className="relative px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-2">

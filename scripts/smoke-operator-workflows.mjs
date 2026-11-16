@@ -5,6 +5,7 @@ import { chromium } from '@playwright/test'
 const base = process.env.SMOKE_BASE_URL || 'http://localhost:3149'
 const locales = ['en', 'ar', 'fr', 'es', 'de', 'nl', 'pt', 'hi', 'ur', 'it', 'pl', 'tr', 'zh-Hans', 'ja', 'ko', 'id', 'vi', 'ro', 'sv', 'bn', 'th', 'ms']
 const commercial = JSON.parse(await fs.readFile('src/content/commercial-copy.json', 'utf8'))
+const proofCopy = JSON.parse(await fs.readFile('src/content/workflow-proof.json', 'utf8'))
 const browser = await chromium.launch()
 const results = []
 const jobs = []
@@ -35,6 +36,14 @@ try {
       const faq = await page.locator('script[type="application/ld+json"]').evaluateAll(nodes => nodes.map(n => JSON.parse(n.textContent)).find(s => s['@type'] === 'FAQPage'))
       assert.equal(faq.mainEntity[0].name, copy.questions[0].question || copy.questions[0].title)
       assert.equal(faq.mainEntity[0].acceptedAnswer.text, slug === 'restaurant365-alternative' ? commercial[locale].accountingBoundary : copy.questions[0].answer || copy.questions[0].body)
+      const proofView = slug === 'restaurant-logbook' ? 'logbook' : slug === 'restaurant-tip-management' ? 'tips' : 'tasks'
+      const proof = page.locator(`[data-native-proof="${proofView}"]`)
+      await proof.scrollIntoViewIfNeeded()
+      assert.equal(await proof.locator('h2').innerText(), proofCopy[locale][proofView])
+      assert.ok((await proof.locator('figcaption').innerText()).includes(proofCopy[locale].disclosure))
+      assert.equal(await proof.locator('a').getAttribute('href'), `/images/product/native-2026-11-16/${proofView}.png`)
+      const image = await proof.locator('img').evaluate(async img => { await img.decode(); return { width: img.naturalWidth, height: img.naturalHeight } })
+      assert.ok(image.width >= (proofView === 'tips' ? 390 : 900) && image.height > 100, `${path}: proof image failed to load`)
       const demo = page.locator(`a[href^="${locale === 'en' ? '' : `/${locale}`}/demo"]`).filter({ hasText: slug === 'restaurant365-alternative' ? copy.primaryCta : shared.primaryCta }).first()
       assert.equal(await demo.locator('button').count(), 0, 'CTA is one semantic anchor')
       if (slug !== 'restaurant365-alternative') assert.equal(new URL(await demo.getAttribute('href'), base).searchParams.get('workflow'), slug)

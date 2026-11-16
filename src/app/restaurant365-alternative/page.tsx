@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
 import { PRICING_URL } from '@/lib/urls'
 import { Button } from '@/components/ui/Button'
+import { NativeWorkflowProof } from '@/components/seo/NativeWorkflowProof'
 
 import { cookies } from 'next/headers'
 import { getLocalizedPathname, resolveWebsiteLocale } from '@/lib/i18n'
@@ -59,6 +60,8 @@ export default async function Restaurant365AlternativePage() {
           </aside>
         </div>
       </section>
+
+      <NativeWorkflowProof locale={locale} view="tasks" />
 
       <section className="border-y border-[var(--border-default)] bg-white/[0.02] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">

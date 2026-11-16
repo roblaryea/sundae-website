@@ -26,8 +26,10 @@ import { Section4DScene } from "./sections/Section4DScene";
 import { SectionCrewSubstrate } from "./sections/SectionCrewSubstrate";
 import { HomeScrollSpine, type HomeChapter } from "./HomeScrollSpine";
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import proofCopy from '@/content/workflow-proof.json';
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 
-// The homepage's seven chapters, mirroring the hero glass's seven strata. As the
+// The homepage's six chapters, using the hero glass's warm palette. As the
 // reader descends, the spine fills with this warm palette - the page becomes the
 // glass filling up - and each node jumps to its chapter.
 const HOME_CHAPTERS: Omit<HomeChapter, "label">[] = [
@@ -122,7 +124,7 @@ export default function HomeContent() {
         <HomeScrollSpine
           chapters={HOME_CHAPTERS.map((c, i) => ({
             ...c,
-            label: ["Sundae", "Core + Crew", "Core", (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[3], (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[5], (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[6]][i],
+            label: ["Sundae", "Core + Crew", "Core", proofCopy[locale as keyof typeof proofCopy].whySundae, (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[5], (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[6]][i],
           }))}
         />
         {/* ════════════════════════════════════════════════
@@ -279,6 +281,9 @@ export default function HomeContent() {
               <MockupFrame label={heroDash.frameLabel} glow>
                 <HeroLiveDashboard />
               </MockupFrame>
+              <p className="mt-4 text-center text-xs leading-relaxed text-[var(--text-supporting)]">
+                {operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.illustrationDisclosure}
+              </p>
             </motion.div>
           </motion.div>
 
@@ -531,7 +536,7 @@ export default function HomeContent() {
                 <span className="mt-1 block" style={{ color: 'var(--warm-cherry)' }}>{closerLine}</span>
               </h2>
               <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>
-                {home.closingDescription}
+                {getCommercialCopy(locale).sampleWalkthrough}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
