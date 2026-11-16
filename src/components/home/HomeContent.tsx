@@ -28,6 +28,7 @@ import { SectionThreeMoats } from "./sections/SectionThreeMoats";
 import { Section4DScene } from "./sections/Section4DScene";
 import { SectionCrewSubstrate } from "./sections/SectionCrewSubstrate";
 import { HomeScrollSpine, type HomeChapter } from "./HomeScrollSpine";
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 
 // The homepage's seven chapters, mirroring the hero glass's seven strata. As the
 // reader descends, the spine fills with this warm palette - the page becomes the
@@ -81,8 +82,11 @@ import { SectionTrustStrip } from "./sections/SectionTrustStrip";
 export default function HomeContent() {
   const { messages, locale } = useWebsiteI18n();
   const home = messages.home;
-  const editorial: EditorialCopy =
-    editorialCopy[locale as keyof typeof editorialCopy] ?? editorialCopy.en;
+  const sourceEditorial = editorialCopy[locale as keyof typeof editorialCopy] ?? editorialCopy.en;
+  const editorial: EditorialCopy = {
+    ...sourceEditorial,
+    band1: { ...sourceEditorial.band1, headline: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.editorialHeadline },
+  };
   const platform = home.platform;
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const closerLine = closerLineCopy[locale as keyof typeof closerLineCopy] ?? closerLineCopy.en;

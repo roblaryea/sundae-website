@@ -11,7 +11,13 @@
     "productMetaTitle": "Plataforma Sundae | Gestão de Operações e Inteligência de Decisão",
     "coreMetaTitle": "Sundae Core | Espaço de Decisão para Hospitalidade e Food-Service",
     "crewMetaTitle": "Sundae Crew | Equipe e Operações Diárias",
-    "illustrationDisclosure": "Exemplo ilustrativo, não um resultado de cliente."
+    "illustrationDisclosure": "Exemplo ilustrativo, não um resultado de cliente.",
+    "homeHeadline": "Gerencie cada turno.",
+    "homeTagline": "Melhore cada unidade.",
+    "coreHeadline": "Decisões melhores. Resultados mensuráveis.",
+    "crewHeadline": "Cuide da sua equipe.",
+    "crewTagline": "Execute o turno.",
+    "editorialHeadline": "Conecte o trabalho diário ao progresso mensurável."
   },
   "shared": {
     "primaryCta": "Agendar demonstração",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Plataforma de Gestão de Restaurantes para Operadores Multilocal | Sundae",
-      "metaDescription": "Sundae reúne escalas, ponto, tarefas, passagens de turno e dados operacionais conectados em uma única plataforma para grupos de hospitalidade e food-service com várias unidades. Execute o trabalho diário com responsabilidade clara, use inteligência para orientar decisões e meça o que mudou."
+      "metaDescription": "Sundae reúne escalas, ponto, tarefas, passagens de turno e dados operacionais conectados em uma única plataforma para grupos de hospitalidade e food-service com várias unidades. Execute o trabalho diário com responsabilidade clara, use inteligência para orientar decisões e meça o que mudou.",
+      "problemTitle": "Sistemas desconectados fragmentam a operação.",
+      "helpTitle": "Trabalho diário e decisões em uma única visão operacional.",
+      "outcomesTitle": "Um ritmo operacional único em todas as unidades."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · GESTÃO DE TAREFAS PARA RESTAURANTES",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Software de Gestão de Tarefas para Restaurantes | Sundae",
-      "metaDescription": "Atribua tarefas de abertura, fechamento, recorrentes e de exceção à pessoa certa, acompanhe a conclusão entre unidades e leve a evidência para a próxima decisão operacional."
+      "metaDescription": "Atribua tarefas de abertura, fechamento, recorrentes e de exceção à pessoa certa, acompanhe a conclusão entre unidades e leve a evidência para a próxima decisão operacional.",
+      "problemTitle": "Tarefas são perdidas quando a responsabilidade não fica clara.",
+      "helpTitle": "Atribua a tarefa. Acompanhe a execução.",
+      "outcomesTitle": "Responsabilidade clara da abertura ao fechamento."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · DIÁRIO E PASSAGEM DE TURNO",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Diário Digital e Passagem de Turno para Restaurantes | Sundae",
-      "metaDescription": "Mantenha notas de gerência, passagens de turno, problemas e acompanhamentos em um registro operacional pesquisável, para que a próxima equipe comece com contexto em vez de dedução."
+      "metaDescription": "Mantenha notas de gerência, passagens de turno, problemas e acompanhamentos em um registro operacional pesquisável, para que a próxima equipe comece com contexto em vez de dedução.",
+      "problemTitle": "O próximo turno começa sem o histórico completo.",
+      "helpTitle": "Mantenha passagem, problemas e próximas ações juntos.",
+      "outcomesTitle": "Registro pesquisável que segue entre turnos."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · FLUXOS DE TRABALHO DE GORJETAS",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Software de Gestão de Gorjetas para Restaurantes | Sundae Crew",
-      "metaDescription": "Reúna regras de gorjeta, contexto da equipe, etapas de revisão e prontidão para folha em um fluxo que gerentes e times de folha possam explicar."
+      "metaDescription": "Reúna regras de gorjeta, contexto da equipe, etapas de revisão e prontidão para folha em um fluxo que gerentes e times de folha possam explicar.",
+      "problemTitle": "Revisões de gorjeta travam quando regras e registros estão espalhados.",
+      "helpTitle": "Reúna regras de gorjeta, revisão e prontidão para folha.",
+      "outcomesTitle": "Revisões mais claras e repasse rastreável para a folha."
     }
   },
   "comparison": {

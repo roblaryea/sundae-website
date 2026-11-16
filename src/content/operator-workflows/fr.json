@@ -11,7 +11,13 @@
     "productMetaTitle": "Sundae Platform | Gestion des opérations et intelligence décisionnelle",
     "coreMetaTitle": "Sundae Core | Espace décisionnel pour l'hôtellerie et la restauration",
     "crewMetaTitle": "Sundae Crew | Effectifs et opérations quotidiennes",
-    "illustrationDisclosure": "Exemple illustratif, pas un résultat client."
+    "illustrationDisclosure": "Exemple illustratif, pas un résultat client.",
+    "homeHeadline": "Gérez chaque service.",
+    "homeTagline": "Améliorez chaque établissement.",
+    "coreHeadline": "Meilleures décisions. Résultats mesurables.",
+    "crewHeadline": "Gérez vos équipes.",
+    "crewTagline": "Conduisez le service.",
+    "editorialHeadline": "Reliez le travail quotidien aux progrès mesurables."
   },
   "shared": {
     "primaryCta": "Réserver une démonstration",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Plateforme de gestion de restaurant pour opérateurs multi-sites | Sundae",
-      "metaDescription": "Sundae rassemble planification, présence, tâches, transmissions et données opérationnelles connectées dans une seule plateforme pour les groupes hôteliers et de restauration multi-sites. Exécutez le travail quotidien avec une responsabilité claire, utilisez l’intelligence pour guider les décisions et mesurez ce qui a changé."
+      "metaDescription": "Sundae rassemble planification, présence, tâches, transmissions et données opérationnelles connectées dans une seule plateforme pour les groupes hôteliers et de restauration multi-sites. Exécutez le travail quotidien avec une responsabilité claire, utilisez l’intelligence pour guider les décisions et mesurez ce qui a changé.",
+      "problemTitle": "Des systèmes déconnectés fragmentent l’exploitation.",
+      "helpTitle": "Travail et décisions quotidiens partagent une même vision opérationnelle.",
+      "outcomesTitle": "Un rythme opérationnel unique pour chaque établissement."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · GESTION DES TÂCHES EN RESTAURATION",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Logiciel de gestion des tâches en restauration | Sundae",
-      "metaDescription": "Attribuez les tâches d’ouverture, de fermeture, récurrentes et d’exception à la bonne personne, suivez l’achèvement sur les sites et portez les preuves dans la décision opérationnelle suivante."
+      "metaDescription": "Attribuez les tâches d’ouverture, de fermeture, récurrentes et d’exception à la bonne personne, suivez l’achèvement sur les sites et portez les preuves dans la décision opérationnelle suivante.",
+      "problemTitle": "Les tâches sont oubliées quand l’ownership n’est pas clair.",
+      "helpTitle": "Attribuez la tâche. Suivez son exécution.",
+      "outcomesTitle": "Responsabilités claires de l’ouverture à la fermeture."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · CARNET DE SERVICE ET TRANSMISSION",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Carnet de service numérique et transmission de service | Sundae",
-      "metaDescription": "Conservez les notes des managers, les transmissions, les incidents et les suivis dans un seul dossier opérationnel consultable, pour que l’équipe suivante dispose du contexte plutôt que de deviner."
+      "metaDescription": "Conservez les notes des managers, les transmissions, les incidents et les suivis dans un seul dossier opérationnel consultable, pour que l’équipe suivante dispose du contexte plutôt que de deviner.",
+      "problemTitle": "Le service suivant commence sans toute l’histoire.",
+      "helpTitle": "Conservez transmission, incidents et actions à suivre ensemble.",
+      "outcomesTitle": "Un historique consultable qui accompagne les services."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · FLUX DE POURBOIRES",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Logiciel de gestion des pourboires pour restaurant | Sundae Crew",
-      "metaDescription": "Intégrez règles de pourboires, contexte du personnel, étapes de revue et préparation de la paie dans un même flux que managers et équipes paie peuvent expliquer."
+      "metaDescription": "Intégrez règles de pourboires, contexte du personnel, étapes de revue et préparation de la paie dans un même flux que managers et équipes paie peuvent expliquer.",
+      "problemTitle": "Les révisions de pourboires stagnent quand règles et enregistrements sont dispersés.",
+      "helpTitle": "Rassemblez règles de pourboires, révision et préparation pour la paie.",
+      "outcomesTitle": "Révisions plus claires et transmission traçable à la paie."
     }
   },
   "comparison": {

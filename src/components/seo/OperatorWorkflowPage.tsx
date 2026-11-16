@@ -20,6 +20,9 @@ export type OperatorWorkflowPageProps = {
   title: string
   accent: string
   description: string
+  problemTitle: string
+  helpTitle: string
+  outcomesTitle: string
   challenges: string[]
   capabilities: string[]
   outcomes: string[]
@@ -32,6 +35,9 @@ export function OperatorWorkflowPage({
   title,
   accent,
   description,
+  problemTitle,
+  helpTitle,
+  outcomesTitle,
   challenges,
   capabilities,
   outcomes,
@@ -87,7 +93,7 @@ export function OperatorWorkflowPage({
         <div className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-2">
           <div>
             <p className="eyebrow mb-4">{shared.problemEyebrow}</p>
-            <h2 className="section-h2 mb-8">{shared.problemTitle}</h2>
+            <h2 className="section-h2 mb-8">{problemTitle}</h2>
             <StaggerContainer className="divide-y divide-[var(--border-default)] border-y border-[var(--border-default)]">
               {challenges.map((challenge, index) => (
                 <StaggerItem key={challenge} className="flex gap-5 py-5">
@@ -99,7 +105,7 @@ export function OperatorWorkflowPage({
           </div>
           <div>
             <p className="eyebrow mb-4">{shared.helpEyebrow}</p>
-            <h2 className="section-h2 mb-8">{shared.helpTitle}</h2>
+            <h2 className="section-h2 mb-8">{helpTitle}</h2>
             <div className="divide-y divide-[var(--border-default)] border-y border-[var(--border-default)]">
               {capabilities.map((capability) => (
                 <div key={capability} className="py-5 text-lg font-medium text-[var(--text-primary)]">
@@ -114,7 +120,7 @@ export function OperatorWorkflowPage({
       <section className="bg-[var(--surface-faint)] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <p className="eyebrow mb-4 text-center">{shared.outcomesEyebrow}</p>
-          <h2 className="section-h2 mx-auto mb-10 max-w-3xl text-center">{shared.outcomesTitle}</h2>
+          <h2 className="section-h2 mx-auto mb-10 max-w-3xl text-center">{outcomesTitle}</h2>
           <div className="grid gap-8 md:grid-cols-3">
             {outcomes.map((outcome, index) => (
               <div key={outcome} className="border-t-2 border-[#FF5C4D] pt-5">

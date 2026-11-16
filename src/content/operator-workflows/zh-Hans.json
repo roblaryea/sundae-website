@@ -11,7 +11,13 @@
     "productMetaTitle": "Sundae 平台 | 运营与决策智能",
     "coreMetaTitle": "Sundae Core | 面向酒店与餐饮的决策工作空间",
     "crewMetaTitle": "Sundae Crew | 人员与日常运营",
-    "illustrationDisclosure": "示意示例，非客户实际成果。"
+    "illustrationDisclosure": "示意示例，非客户实际成果。",
+    "homeHeadline": "让每个班次顺利进行。",
+    "homeTagline": "提升每一家门店。",
+    "coreHeadline": "更好决策，可量化成效。",
+    "crewHeadline": "管理你的团队。",
+    "crewTagline": "掌控班次运作。",
+    "editorialHeadline": "把日常工作与可衡量进展连接起来。"
   },
   "shared": {
     "primaryCta": "预约演示",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "面向多门店运营者的餐厅管理平台 | Sundae",
-      "metaDescription": "Sundae 将排班、出勤、任务、交接与关联运营数据整合到一个面向多门店酒店与餐饮集团的平台。以明确的责任运行日常工作，利用智能支持决策并衡量变化。"
+      "metaDescription": "Sundae 将排班、出勤、任务、交接与关联运营数据整合到一个面向多门店酒店与餐饮集团的平台。以明确的责任运行日常工作，利用智能支持决策并衡量变化。",
+      "problemTitle": "割裂系统让运营支离破碎。",
+      "helpTitle": "日常工作与决策共享同一运营视图。",
+      "outcomesTitle": "在每家门店建立统一运营节奏。"
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · 餐厅任务管理",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "餐厅任务管理软件 | Sundae",
-      "metaDescription": "将开店、关店、定期与异常工作分配给合适人员，跟踪跨门店的完成情况，并将证据带入下一次运营决策。"
+      "metaDescription": "将开店、关店、定期与异常工作分配给合适人员，跟踪跨门店的完成情况，并将证据带入下一次运营决策。",
+      "problemTitle": "责任不明导致任务被遗漏。",
+      "helpTitle": "指定任务，追踪执行情况。",
+      "outcomesTitle": "从开店到关店责任清晰。"
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · 日志与班次交接",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "数字餐厅日志与班次交接 | Sundae",
-      "metaDescription": "将经理备注、班次交接、问题与跟进保存在一个可搜索的运营记录中，让下一班团队带着上下文而非猜测开始工作。"
+      "metaDescription": "将经理备注、班次交接、问题与跟进保存在一个可搜索的运营记录中，让下一班团队带着上下文而非猜测开始工作。",
+      "problemTitle": "下一班次接手时信息不完整。",
+      "helpTitle": "把交接、问题和后续行动保存在一起。",
+      "outcomesTitle": "可检索的记录，贯通各班次。"
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · 小费工作流",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "餐厅小费管理软件 | Sundae Crew",
-      "metaDescription": "将小费规则、员工上下文、审查步骤与工资准备整合到一个经理与工资团队都能解释的工作流中。"
+      "metaDescription": "将小费规则、员工上下文、审查步骤与工资准备整合到一个经理与工资团队都能解释的工作流中。",
+      "problemTitle": "小费审查因规则和记录分散而滞后。",
+      "helpTitle": "将小费规则、审查与工资准备汇聚在一起。",
+      "outcomesTitle": "更清晰的审查与可追溯的移交至工资处。"
     }
   },
   "comparison": {

@@ -11,7 +11,13 @@
     "productMetaTitle": "Piattaforma Sundae | Gestione operativa e decision intelligence",
     "coreMetaTitle": "Sundae Core | Spazio decisionale per l'ospitalità e la ristorazione",
     "crewMetaTitle": "Sundae Crew | Forza lavoro e operazioni quotidiane",
-    "illustrationDisclosure": "Esempio illustrativo, non un risultato di un cliente."
+    "illustrationDisclosure": "Esempio illustrativo, non un risultato di un cliente.",
+    "homeHeadline": "Gestisci ogni turno.",
+    "homeTagline": "Migliora ogni sede.",
+    "coreHeadline": "Decisioni migliori. Risultati misurabili.",
+    "crewHeadline": "Gestisci il personale.",
+    "crewTagline": "Dirigi il turno.",
+    "editorialHeadline": "Collega il lavoro quotidiano a progressi misurabili."
   },
   "shared": {
     "primaryCta": "Prenota una dimostrazione",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Piattaforma di gestione per ristoranti per operatori multi-sede | Sundae",
-      "metaDescription": "Sundae riunisce programmazione, presenze, attività, trasferimenti turno e dati operativi connessi in un'unica piattaforma per gruppi multi-sede dell'ospitalità e della ristorazione. Gestisci il lavoro quotidiano con responsabilità chiare, usa l'intelligenza per guidare le decisioni e misura cosa è cambiato."
+      "metaDescription": "Sundae riunisce programmazione, presenze, attività, trasferimenti turno e dati operativi connessi in un'unica piattaforma per gruppi multi-sede dell'ospitalità e della ristorazione. Gestisci il lavoro quotidiano con responsabilità chiare, usa l'intelligenza per guidare le decisioni e misura cosa è cambiato.",
+      "problemTitle": "Sistemi scollegati frammentano l’operatività.",
+      "helpTitle": "Lavoro e decisioni quotidiane condividono una vista operativa.",
+      "outcomesTitle": "Un ritmo operativo unico per ogni sede."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · GESTIONE DELLE ATTIVITÀ PER RISTORANTI",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Software di gestione delle attività per ristoranti | Sundae",
-      "metaDescription": "Assegna attività di apertura, chiusura, ricorrenti ed eccezionali alla persona giusta, traccia il completamento tra le sedi e porta l'evidenza nella prossima decisione operativa."
+      "metaDescription": "Assegna attività di apertura, chiusura, ricorrenti ed eccezionali alla persona giusta, traccia il completamento tra le sedi e porta l'evidenza nella prossima decisione operativa.",
+      "problemTitle": "I compiti vengono persi quando la responsabilità non è chiara.",
+      "helpTitle": "Assegna il compito. Monitora l’esecuzione.",
+      "outcomesTitle": "Responsabilità nette dall’apertura alla chiusura."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · REGISTRO E TRASFERIMENTO TURNO",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Registro digitale e trasferimento turno per ristoranti | Sundae",
-      "metaDescription": "Mantieni note dei manager, trasferimenti turno, problemi e follow-up in un unico registro operativo ricercabile, così il team successivo parte con il contesto e non con supposizioni."
+      "metaDescription": "Mantieni note dei manager, trasferimenti turno, problemi e follow-up in un unico registro operativo ricercabile, così il team successivo parte con il contesto e non con supposizioni.",
+      "problemTitle": "Il turno successivo inizia senza il quadro completo.",
+      "helpTitle": "Mantieni insieme consegna, problemi e azione successiva.",
+      "outcomesTitle": "Un registro ricercabile che accompagna i turni."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · FLUSSI DI LAVORO PER LE MANCE",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Software per la gestione delle mance nei ristoranti | Sundae Crew",
-      "metaDescription": "Riunisci regole sulle mance, contesto del personale, passaggi di revisione e prontezza payroll in un unico flusso che manager e team payroll possano spiegare."
+      "metaDescription": "Riunisci regole sulle mance, contesto del personale, passaggi di revisione e prontezza payroll in un unico flusso che manager e team payroll possano spiegare.",
+      "problemTitle": "Le revisioni delle mance rallentano quando regole e registri sono dispersi.",
+      "helpTitle": "Riunisci regole delle mance, revisione e preparazione alla busta paga.",
+      "outcomesTitle": "Revisioni più chiare e un trasferimento rintracciabile alla busta paga."
     }
   },
   "comparison": {

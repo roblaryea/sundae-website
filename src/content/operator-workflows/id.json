@@ -11,7 +11,13 @@
     "productMetaTitle": "Platform Sundae | Manajemen Operasi dan Kecerdasan Keputusan",
     "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitality dan Layanan Makanan",
     "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
-    "illustrationDisclosure": "Contoh ilustratif, bukan hasil pelanggan."
+    "illustrationDisclosure": "Contoh ilustratif, bukan hasil pelanggan.",
+    "homeHeadline": "Jalankan setiap shift.",
+    "homeTagline": "Perbaiki setiap lokasi.",
+    "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
+    "crewHeadline": "Kelola tim Anda.",
+    "crewTagline": "Jalankan shift.",
+    "editorialHeadline": "Hubungkan kerja harian ke kemajuan yang terukur."
   },
   "shared": {
     "primaryCta": "Jadwalkan demo",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Platform Manajemen Restoran untuk Operator Multi-Lokasi | Sundae",
-      "metaDescription": "Sundae menggabungkan penjadwalan, kehadiran, tugas, serah terima dan data operasi yang terhubung ke dalam satu platform untuk grup hospitality dan layanan makanan multi-lokasi. Jalankan pekerjaan harian dengan kepemilikan yang jelas, gunakan kecerdasan untuk membimbing keputusan dan ukur apa yang berubah."
+      "metaDescription": "Sundae menggabungkan penjadwalan, kehadiran, tugas, serah terima dan data operasi yang terhubung ke dalam satu platform untuk grup hospitality dan layanan makanan multi-lokasi. Jalankan pekerjaan harian dengan kepemilikan yang jelas, gunakan kecerdasan untuk membimbing keputusan dan ukur apa yang berubah.",
+      "problemTitle": "Sistem terpisah memecah operasi.",
+      "helpTitle": "Kerja dan keputusan harian berbagi satu gambaran operasi.",
+      "outcomesTitle": "Irama operasi yang sama di setiap lokasi."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · MANAJEMEN TUGAS RESTORAN",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Perangkat Lunak Manajemen Tugas Restoran | Sundae",
-      "metaDescription": "Tugaskan pekerjaan pembukaan, penutupan, berulang dan pengecualian ke orang yang tepat, lacak penyelesaian di seluruh lokasi dan bawa buktinya ke keputusan operasi berikutnya."
+      "metaDescription": "Tugaskan pekerjaan pembukaan, penutupan, berulang dan pengecualian ke orang yang tepat, lacak penyelesaian di seluruh lokasi dan bawa buktinya ke keputusan operasi berikutnya.",
+      "problemTitle": "Tugas terlewat saat kepemilikan tidak jelas.",
+      "helpTitle": "Tugaskan tugas. Lacak tindak lanjut.",
+      "outcomesTitle": "Kepemilikan jelas dari buka sampai tutup."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · BUKU CATATAN DIGITAL DAN SERAH TERIMA SHIFT",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Buku Catatan Restoran Digital dan Serah Terima Shift | Sundae",
-      "metaDescription": "Simpan catatan manajer, serah terima shift, masalah dan tindak lanjut dalam satu catatan operasi yang dapat dicari, sehingga tim berikutnya memulai dengan konteks bukan tebakan."
+      "metaDescription": "Simpan catatan manajer, serah terima shift, masalah dan tindak lanjut dalam satu catatan operasi yang dapat dicari, sehingga tim berikutnya memulai dengan konteks bukan tebakan.",
+      "problemTitle": "Shift berikutnya dimulai tanpa cerita lengkap.",
+      "helpTitle": "Simpan serah terima, masalah, dan tindakan selanjutnya bersama.",
+      "outcomesTitle": "Catatan yang dapat dicari dan terbawa lintas shift."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · ALUR KERJA TIP",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Perangkat Lunak Manajemen Tip Restoran | Sundae Crew",
-      "metaDescription": "Satukan aturan tip, konteks staf, langkah tinjauan dan kesiapan penggajian ke dalam satu alur kerja yang dapat dijelaskan oleh manajer dan tim penggajian."
+      "metaDescription": "Satukan aturan tip, konteks staf, langkah tinjauan dan kesiapan penggajian ke dalam satu alur kerja yang dapat dijelaskan oleh manajer dan tim penggajian.",
+      "problemTitle": "Review tip terhambat ketika aturan dan catatan tersebar.",
+      "helpTitle": "Satukan aturan tip, review, dan kesiapan payroll.",
+      "outcomesTitle": "Review lebih jelas dan serah terima yang dapat dilacak ke payroll."
     }
   },
   "comparison": {

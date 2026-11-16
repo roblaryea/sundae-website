@@ -13,7 +13,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platform | Operations and Decision Intelligence",
       "coreMetaTitle": "Sundae Core | Decision Workspace for Hospitality and Food-Service",
       "crewMetaTitle": "Sundae Crew | Workforce and Daily Operations",
-      "illustrationDisclosure": "Illustrative example. Not a customer result."
+      "illustrationDisclosure": "Illustrative example. Not a customer result.",
+      "homeHeadline": "Run every shift.",
+      "homeTagline": "Improve every location.",
+      "coreHeadline": "Better decisions. Measured outcomes.",
+      "crewHeadline": "Manage your people.",
+      "crewTagline": "Run the shift.",
+      "editorialHeadline": "Connect daily work to measurable progress."
     },
     "links": {
       "eyebrow": "DAILY OPERATIONS",
@@ -42,7 +48,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "منصة Sundae | إدارة العمليات واستخبارات القرار",
       "coreMetaTitle": "Sundae Core | مساحة القرار للضيافة وخدمات الطعام",
       "crewMetaTitle": "Sundae Crew | الكوادر والعمليات اليومية",
-      "illustrationDisclosure": "مثال توضيحي، وليس نتيجة فعلية لعميل."
+      "illustrationDisclosure": "مثال توضيحي، وليس نتيجة فعلية لعميل.",
+      "homeHeadline": "شغّل كل شيفت.",
+      "homeTagline": "حسّن كل موقع.",
+      "coreHeadline": "قرارات أفضل. نتائج قابلة للقياس.",
+      "crewHeadline": "نظّم طاقمك.",
+      "crewTagline": "أدِر الشيفت.",
+      "editorialHeadline": "اربط العمل اليومي بالتقدّم الملموس."
     },
     "links": {
       "eyebrow": "العمليات اليومية",
@@ -71,7 +83,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platform | Gestion des opérations et intelligence décisionnelle",
       "coreMetaTitle": "Sundae Core | Espace décisionnel pour l'hôtellerie et la restauration",
       "crewMetaTitle": "Sundae Crew | Effectifs et opérations quotidiennes",
-      "illustrationDisclosure": "Exemple illustratif, pas un résultat client."
+      "illustrationDisclosure": "Exemple illustratif, pas un résultat client.",
+      "homeHeadline": "Gérez chaque service.",
+      "homeTagline": "Améliorez chaque établissement.",
+      "coreHeadline": "Meilleures décisions. Résultats mesurables.",
+      "crewHeadline": "Gérez vos équipes.",
+      "crewTagline": "Conduisez le service.",
+      "editorialHeadline": "Reliez le travail quotidien aux progrès mesurables."
     },
     "links": {
       "eyebrow": "OPÉRATIONS QUOTIDIENNES",
@@ -100,7 +118,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Plataforma Sundae | Gestión de operaciones e inteligencia de decisiones",
       "coreMetaTitle": "Sundae Core | Espacio de decisiones para hostelería y servicios de alimentación",
       "crewMetaTitle": "Sundae Crew | Personal y operaciones diarias",
-      "illustrationDisclosure": "Ejemplo ilustrativo. No es un resultado de cliente."
+      "illustrationDisclosure": "Ejemplo ilustrativo. No es un resultado de cliente.",
+      "homeHeadline": "Dirige cada turno.",
+      "homeTagline": "Mejora cada local.",
+      "coreHeadline": "Mejores decisiones. Resultados medibles.",
+      "crewHeadline": "Gestiona a tu equipo.",
+      "crewTagline": "Lleva el turno.",
+      "editorialHeadline": "Conecta el trabajo diario con el progreso medible."
     },
     "links": {
       "eyebrow": "OPERACIONES DIARIAS",
@@ -129,7 +153,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Plattform | Echtzeitbetrieb und Entscheidungsintelligenz",
       "coreMetaTitle": "Sundae Core | Entscheidungsarbeitsbereich für Gastronomie und Lebensmittelservice",
       "crewMetaTitle": "Sundae Crew | Personal und täglicher Betrieb",
-      "illustrationDisclosure": "Illustratives Beispiel, kein Kundenergebnis."
+      "illustrationDisclosure": "Illustratives Beispiel, kein Kundenergebnis.",
+      "homeHeadline": "Leite jede Schicht.",
+      "homeTagline": "Verbessere jeden Standort.",
+      "coreHeadline": "Bessere Entscheidungen. Messbare Ergebnisse.",
+      "crewHeadline": "Führe dein Team.",
+      "crewTagline": "Die Schicht managen.",
+      "editorialHeadline": "Verknüpfe tägliche Arbeit mit messbarem Fortschritt."
     },
     "links": {
       "eyebrow": "TÄGLICHE BETRIEBE",
@@ -158,7 +188,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platform | Operations en Decision Intelligence",
       "coreMetaTitle": "Sundae Core | Decision Workspace voor hospitality en foodservice",
       "crewMetaTitle": "Sundae Crew | Personeel en dagelijkse operaties",
-      "illustrationDisclosure": "Illustratief voorbeeld, geen klantresultaat."
+      "illustrationDisclosure": "Illustratief voorbeeld, geen klantresultaat.",
+      "homeHeadline": "Draai elke shift.",
+      "homeTagline": "Verbeter elke locatie.",
+      "coreHeadline": "Betere keuzes. Meetbare resultaten.",
+      "crewHeadline": "Regel je team.",
+      "crewTagline": "Draai de shift.",
+      "editorialHeadline": "Verbind dagelijks werk met meetbare vooruitgang."
     },
     "links": {
       "eyebrow": "DAGELIJKSE OPERATIES",
@@ -187,7 +223,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Plataforma Sundae | Gestão de Operações e Inteligência de Decisão",
       "coreMetaTitle": "Sundae Core | Espaço de Decisão para Hospitalidade e Food-Service",
       "crewMetaTitle": "Sundae Crew | Equipe e Operações Diárias",
-      "illustrationDisclosure": "Exemplo ilustrativo, não um resultado de cliente."
+      "illustrationDisclosure": "Exemplo ilustrativo, não um resultado de cliente.",
+      "homeHeadline": "Gerencie cada turno.",
+      "homeTagline": "Melhore cada unidade.",
+      "coreHeadline": "Decisões melhores. Resultados mensuráveis.",
+      "crewHeadline": "Cuide da sua equipe.",
+      "crewTagline": "Execute o turno.",
+      "editorialHeadline": "Conecte o trabalho diário ao progresso mensurável."
     },
     "links": {
       "eyebrow": "OPERAÇÕES DIÁRIAS",
@@ -216,7 +258,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platform | संचालन और निर्णय इंटेलिजेंस",
       "coreMetaTitle": "Sundae Core | हॉस्पिटैलिटी और फूड-सर्विस के लिए निर्णय कार्यस्थान",
       "crewMetaTitle": "Sundae Crew | वर्कफोर्स और दैनिक संचालन",
-      "illustrationDisclosure": "उदाहरण मात्र। किसी ग्राहक का वास्तविक परिणाम नहीं।"
+      "illustrationDisclosure": "उदाहरण मात्र। किसी ग्राहक का वास्तविक परिणाम नहीं।",
+      "homeHeadline": "हर शिफ्ट चलाएं।",
+      "homeTagline": "हर लोकेशन बेहतर बनाएं।",
+      "coreHeadline": "बेहतर फैसले। परखा गया नतीजा।",
+      "crewHeadline": "अपनी टीम संभालें।",
+      "crewTagline": "शिफ्ट चलाएं।",
+      "editorialHeadline": "दैनिक काम को नापे जाने वाली प्रगति से जोड़ें।"
     },
     "links": {
       "eyebrow": "दैनिक संचालन",
@@ -245,7 +293,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platform | آپریشنز اور فیصلہ سازی کی انٹیلیجنس",
       "coreMetaTitle": "Sundae Core | ہاسپیٹالٹی اور خوراکی خدمات کے لیے فیصلہ ورک اسپیس",
       "crewMetaTitle": "Sundae Crew | ورک فورس اور روزمرہ آپریشنز",
-      "illustrationDisclosure": "صرف وضاحتی مثال، کسی گاہک کا حقیقی نتیجہ نہیں۔"
+      "illustrationDisclosure": "صرف وضاحتی مثال، کسی گاہک کا حقیقی نتیجہ نہیں۔",
+      "homeHeadline": "ہر شفٹ کو چلائیں۔",
+      "homeTagline": "ہر مقام کو بہتر کریں۔",
+      "coreHeadline": "بہتر فیصلے۔ واضح نتائج۔",
+      "crewHeadline": "اپنی ٹیم سنبھالیں۔",
+      "crewTagline": "شفٹ چلائیں۔",
+      "editorialHeadline": "روزمرہ کام کو قابلِ پیمائش ترقی سے جوڑیں۔"
     },
     "links": {
       "eyebrow": "روزمرہ آپریشنز",
@@ -274,7 +328,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Piattaforma Sundae | Gestione operativa e decision intelligence",
       "coreMetaTitle": "Sundae Core | Spazio decisionale per l'ospitalità e la ristorazione",
       "crewMetaTitle": "Sundae Crew | Forza lavoro e operazioni quotidiane",
-      "illustrationDisclosure": "Esempio illustrativo, non un risultato di un cliente."
+      "illustrationDisclosure": "Esempio illustrativo, non un risultato di un cliente.",
+      "homeHeadline": "Gestisci ogni turno.",
+      "homeTagline": "Migliora ogni sede.",
+      "coreHeadline": "Decisioni migliori. Risultati misurabili.",
+      "crewHeadline": "Gestisci il personale.",
+      "crewTagline": "Dirigi il turno.",
+      "editorialHeadline": "Collega il lavoro quotidiano a progressi misurabili."
     },
     "links": {
       "eyebrow": "OPERAZIONI QUOTIDIANE",
@@ -303,7 +363,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Platforma Sundae | Zarządzanie operacjami i inteligencja decyzyjna",
       "coreMetaTitle": "Sundae Core | Przestrzeń decyzyjna dla gastronomii i usług żywieniowych",
       "crewMetaTitle": "Sundae Crew | Zarządzanie personelem i codzienne operacje",
-      "illustrationDisclosure": "Przykład ilustracyjny, nie wynik klienta."
+      "illustrationDisclosure": "Przykład ilustracyjny, nie wynik klienta.",
+      "homeHeadline": "Prowadź każdą zmianę.",
+      "homeTagline": "Usprawniaj każdą salę.",
+      "coreHeadline": "Lepsze decyzje. Namierzalne efekty.",
+      "crewHeadline": "Zarządzaj zespołem.",
+      "crewTagline": "Prowadź zmianę.",
+      "editorialHeadline": "Powiąż codzienną pracę z mierzalnym postępem."
     },
     "links": {
       "eyebrow": "CODZIENNE OPERACJE",
@@ -332,7 +398,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platformu | Operasyon ve Karar İstihbaratı",
       "coreMetaTitle": "Sundae Core | Konaklama ve Gıda-Servis için Karar Çalışma Alanı",
       "crewMetaTitle": "Sundae Crew | İşgücü ve Günlük Operasyonlar",
-      "illustrationDisclosure": "Temsili örnektir, bir müşteri sonucu değildir."
+      "illustrationDisclosure": "Temsili örnektir, bir müşteri sonucu değildir.",
+      "homeHeadline": "Her vardiyayı çalıştır.",
+      "homeTagline": "Her konumu iyileştir.",
+      "coreHeadline": "Daha iyi kararlar. Ölçülebilir sonuçlar.",
+      "crewHeadline": "Ekibini yönet.",
+      "crewTagline": "Vardiyayı yürüt.",
+      "editorialHeadline": "Günlük işi ölçülebilir ilerlemeyle bağla."
     },
     "links": {
       "eyebrow": "GÜNLÜK OPERASYONLAR",
@@ -361,7 +433,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae 平台 | 运营与决策智能",
       "coreMetaTitle": "Sundae Core | 面向酒店与餐饮的决策工作空间",
       "crewMetaTitle": "Sundae Crew | 人员与日常运营",
-      "illustrationDisclosure": "示意示例，非客户实际成果。"
+      "illustrationDisclosure": "示意示例，非客户实际成果。",
+      "homeHeadline": "让每个班次顺利进行。",
+      "homeTagline": "提升每一家门店。",
+      "coreHeadline": "更好决策，可量化成效。",
+      "crewHeadline": "管理你的团队。",
+      "crewTagline": "掌控班次运作。",
+      "editorialHeadline": "把日常工作与可衡量进展连接起来。"
     },
     "links": {
       "eyebrow": "日常运营",
@@ -390,7 +468,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platform | オペレーションと意思決定インテリジェンス",
       "coreMetaTitle": "Sundae Core | ホスピタリティとフードサービスの意思決定ワークスペース",
       "crewMetaTitle": "Sundae Crew | 労働力と日々のオペレーション",
-      "illustrationDisclosure": "説明用の例であり、顧客の実績ではありません。"
+      "illustrationDisclosure": "説明用の例であり、顧客の実績ではありません。",
+      "homeHeadline": "すべてのシフトを回す。",
+      "homeTagline": "すべての店舗を改善する。",
+      "coreHeadline": "判断を改善し、結果を可視化する。",
+      "crewHeadline": "スタッフを管理する。",
+      "crewTagline": "シフトを運営する。",
+      "editorialHeadline": "日々の作業を測定できる進捗につなげる。"
     },
     "links": {
       "eyebrow": "日次オペレーション",
@@ -419,7 +503,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae 플랫폼 | 운영 및 의사결정 인텔리전스",
       "coreMetaTitle": "Sundae Core | 호스피탈리티 및 푸드서비스용 의사결정 작업공간",
       "crewMetaTitle": "Sundae Crew | 인력 및 일상 운영",
-      "illustrationDisclosure": "설명을 위한 예시이며 고객의 실제 성과가 아닙니다."
+      "illustrationDisclosure": "설명을 위한 예시이며 고객의 실제 성과가 아닙니다.",
+      "homeHeadline": "모든 교대 근무를 운영하세요.",
+      "homeTagline": "모든 지점을 개선하세요.",
+      "coreHeadline": "더 나은 판단. 측정된 성과.",
+      "crewHeadline": "직원을 관리하세요.",
+      "crewTagline": "교대를 운영하세요.",
+      "editorialHeadline": "일상 업무를 측정 가능한 진전과 연결하세요."
     },
     "links": {
       "eyebrow": "일상 운영",
@@ -448,7 +538,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Platform Sundae | Manajemen Operasi dan Kecerdasan Keputusan",
       "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitality dan Layanan Makanan",
       "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
-      "illustrationDisclosure": "Contoh ilustratif, bukan hasil pelanggan."
+      "illustrationDisclosure": "Contoh ilustratif, bukan hasil pelanggan.",
+      "homeHeadline": "Jalankan setiap shift.",
+      "homeTagline": "Perbaiki setiap lokasi.",
+      "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
+      "crewHeadline": "Kelola tim Anda.",
+      "crewTagline": "Jalankan shift.",
+      "editorialHeadline": "Hubungkan kerja harian ke kemajuan yang terukur."
     },
     "links": {
       "eyebrow": "OPERASI HARIAN",
@@ -477,7 +573,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Nền tảng Sundae | Quản lý vận hành và trí tuệ quyết định",
       "coreMetaTitle": "Sundae Core | Không gian ra quyết định cho nhà hàng và dịch vụ ăn uống",
       "crewMetaTitle": "Sundae Crew | Nhân sự và vận hành hàng ngày",
-      "illustrationDisclosure": "Ví dụ minh họa, không phải kết quả thực tế của khách hàng."
+      "illustrationDisclosure": "Ví dụ minh họa, không phải kết quả thực tế của khách hàng.",
+      "homeHeadline": "Vận hành mọi ca.",
+      "homeTagline": "Cải thiện mọi cơ sở.",
+      "coreHeadline": "Quyết định thông minh. Kết quả rõ ràng.",
+      "crewHeadline": "Quản lý đội ngũ.",
+      "crewTagline": "Điều hành ca.",
+      "editorialHeadline": "Kết công việc hàng ngày với tiến triển đo được."
     },
     "links": {
       "eyebrow": "VẬN HÀNH HÀNG NGÀY",
@@ -506,7 +608,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Platforma Sundae | Management operațional și Inteligență pentru decizii",
       "coreMetaTitle": "Sundae Core | Spațiu decizional pentru ospitalitate și servicii alimentare",
       "crewMetaTitle": "Sundae Crew | Forța de muncă și operațiuni zilnice",
-      "illustrationDisclosure": "Exemplu ilustrativ, nu un rezultat al unui client."
+      "illustrationDisclosure": "Exemplu ilustrativ, nu un rezultat al unui client.",
+      "homeHeadline": "Conduce fiecare tură.",
+      "homeTagline": "Îmbunătățește fiecare locație.",
+      "coreHeadline": "Decizii mai bune. Rezultate măsurabile.",
+      "crewHeadline": "Gestionează-ți echipa.",
+      "crewTagline": "Conduceți tura.",
+      "editorialHeadline": "Leagă munca zilnică de progres măsurabil."
     },
     "links": {
       "eyebrow": "OPERAȚIUNI ZILNICE",
@@ -535,7 +643,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae-plattformen | Verksamhets- och beslutskraft",
       "coreMetaTitle": "Sundae Core | Beslutsarbetsyta för hotell- och matservice",
       "crewMetaTitle": "Sundae Crew | Personal och daglig drift",
-      "illustrationDisclosure": "Illustrativt exempel, inte ett kundresultat."
+      "illustrationDisclosure": "Illustrativt exempel, inte ett kundresultat.",
+      "homeHeadline": "Driv varje pass.",
+      "homeTagline": "Förbättra varje enhet.",
+      "coreHeadline": "Bättre beslut. Mätbara resultat.",
+      "crewHeadline": "Hantera ditt team.",
+      "crewTagline": "Kör passet.",
+      "editorialHeadline": "Koppla dagligt arbete till mätbar framgång."
     },
     "links": {
       "eyebrow": "DAGLIG DRIFT",
@@ -564,7 +678,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platform | অপারেশন ও সিদ্ধান্ত-বুদ্ধিমত্তা",
       "coreMetaTitle": "Sundae Core | আতিথ্য ও খাদ্য-পরিবেশনার জন্য সিদ্ধান্ত কর্মস্থল",
       "crewMetaTitle": "Sundae Crew | কর্মশক্তি এবং দৈনন্দিন অপারেশন",
-      "illustrationDisclosure": "শুধু উদাহরণ, কোনো গ্রাহকের প্রকৃত ফলাফল নয়।"
+      "illustrationDisclosure": "শুধু উদাহরণ, কোনো গ্রাহকের প্রকৃত ফলাফল নয়।",
+      "homeHeadline": "প্রতিটি শিফট চালান।",
+      "homeTagline": "প্রতিটি ঠিকানাকে উন্নত করুন।",
+      "coreHeadline": "ভাল সিদ্ধান্ত। পরিমাপযোগ্য ফলাফল।",
+      "crewHeadline": "আপনার কর্মী পরিচালনা করুন।",
+      "crewTagline": "শিফট চালান।",
+      "editorialHeadline": "দৈনন্দিন কাজকে পরিমাপযোগ্য অগ্রগতির সঙ্গে যোগ করুন।"
     },
     "links": {
       "eyebrow": "দৈনন্দিন অপারেশন",
@@ -593,7 +713,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Sundae Platform | การจัดการปฏิบัติการและข้อมูลเชิงตัดสินใจ",
       "coreMetaTitle": "Sundae Core | พื้นที่ทำงานเพื่อตัดสินใจสำหรับธุรกิจบริการอาหารและการบริการ",
       "crewMetaTitle": "Sundae Crew | กำลังคนและการปฏิบัติงานประจำ",
-      "illustrationDisclosure": "ตัวอย่างประกอบ ไม่ใช่ผลลัพธ์จริงของลูกค้า"
+      "illustrationDisclosure": "ตัวอย่างประกอบ ไม่ใช่ผลลัพธ์จริงของลูกค้า",
+      "homeHeadline": "บริหารทุกกะงาน",
+      "homeTagline": "พัฒนาทุกสาขา",
+      "coreHeadline": "ตัดสินใจดีกว่า ผลลัพธ์ชัดเจน",
+      "crewHeadline": "จัดการทีมงาน",
+      "crewTagline": "บริหารกะงาน",
+      "editorialHeadline": "เชื่อมงานประจำกับความก้าวหน้าที่วัดได้"
     },
     "links": {
       "eyebrow": "การปฏิบัติงานประจำ",
@@ -622,7 +748,13 @@ export const operatorNavigationCopy = {
       "productMetaTitle": "Platform Sundae | Pengurusan Operasi dan Kecerdasan Keputusan",
       "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitaliti dan Perkhidmatan Makanan",
       "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
-      "illustrationDisclosure": "Contoh ilustrasi, bukan hasil sebenar pelanggan."
+      "illustrationDisclosure": "Contoh ilustrasi, bukan hasil sebenar pelanggan.",
+      "homeHeadline": "Urus setiap syif.",
+      "homeTagline": "Tingkatkan setiap lokasi.",
+      "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
+      "crewHeadline": "Urus pasukan anda.",
+      "crewTagline": "Jalankan syif.",
+      "editorialHeadline": "Hubungkan kerja harian kepada kemajuan yang boleh diukur."
     },
     "links": {
       "eyebrow": "OPERASI HARIAN",

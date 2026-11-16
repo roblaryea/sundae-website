@@ -667,7 +667,7 @@ export default function CoreProductPage() {
       {/* Hero */}
       <PageHero
         badge={ui.hero.badge}
-        title={ui.hero.title}
+        title={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.coreHeadline}
         description={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.coreDescription}
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

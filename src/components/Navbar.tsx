@@ -16,6 +16,7 @@ import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
 import { crewNavLocales } from '@/lib/crewNavLocales';
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 
 type NavbarLink = {
   name: string;
@@ -122,6 +123,7 @@ const Navbar = () => {
   // Crew + Core nav labels come from a per-locale source (the i18n.ts navbar
   // blocks predate these fields), so every locale gets them translated.
   const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
+  const workflow = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links;
   const cta = useCta();
   // Wordmark is CSS theme-swapped in the markup below (driven by the .light class,
   // which is set before hydration) - no JS state, so no flash and no stale-src caching.
@@ -217,7 +219,14 @@ const Navbar = () => {
   const plans: ReadonlyArray<NavbarLink> = nav.plansList;
 
   // Sundae Crew operational modules (Product → Sundae Crew group)
-  const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList;
+  const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList.map(link =>
+    link.href === '/crew/payroll' ? { ...link, name: workflow.payroll, description: undefined } : link,
+  );
+  const workflowLinks = [
+    { name: workflow.tasks, href: '/restaurant-task-management' },
+    { name: workflow.logbook, href: '/restaurant-logbook' },
+    { name: workflow.tips, href: '/restaurant-tip-management' },
+  ];
 
   // Solutions organized by category
   const solutionsSegments: ReadonlyArray<NavbarLink> = nav.solutionsSegments;
@@ -249,7 +258,7 @@ const Navbar = () => {
           {/* Inner flex span: `nav a { display:inline-block }` (accessibility.css,
               unlayered) overrides Tailwind's flex on the anchor itself, so the
               mark + wordmark lockup must flex on a child element. */}
-          <Link href={localizeHref('/')} className="group" aria-label="Sundae - Decision Intelligence for Food-Service">
+          <Link href={localizeHref('/')} className="group" aria-label={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.title}>
             <span
               className="flex items-center gap-2.5"
               onMouseEnter={() => setIsLogoHovered(true)}
@@ -299,7 +308,10 @@ const Navbar = () => {
                   onMouseEnter={() => setActiveDropdown('product')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
+                <div className="max-h-[calc(100dvh-6rem)] overflow-y-auto bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
+                  <Link href={localizeHref('/product')} onClick={() => setActiveDropdown(null)} className="mb-4 block border-b border-[var(--border-default)] px-3 pb-4 text-sm font-semibold text-[var(--text-primary)]">
+                    {workflow.platform} →
+                  </Link>
                   {/* Core - the decision-intelligence modules */}
                   <div className="mb-4">
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
@@ -342,6 +354,13 @@ const Navbar = () => {
                         >
                           <div className={dropdownTitleClass}>{m.name}</div>
                           <div className={dropdownDescriptionClass}>{m.description}</div>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="mb-4 grid grid-cols-2 gap-x-5 gap-y-3 border-t border-[var(--border-default)] px-3 pt-4">
+                      {workflowLinks.map(link => (
+                        <Link key={link.href} href={localizeHref(link.href)} onClick={() => setActiveDropdown(null)} className="text-sm leading-snug text-[var(--text-supporting)] transition-colors hover:text-[var(--warm-coral)]">
+                          {link.name}
                         </Link>
                       ))}
                     </div>
@@ -662,6 +681,9 @@ const Navbar = () => {
               isExpanded={expandedSections.product}
               onToggle={() => toggleSection('product')}
             >
+              <MobileNavLink href={localizeHref('/product')} onClick={handleMobileNavClick} isHighlighted>
+                {workflow.platform}
+              </MobileNavLink>
               <div className="px-4 pt-1 pb-1">
                 <span className="eyebrow text-[var(--text-muted)]">{cn.core}</span>
               </div>
@@ -685,6 +707,11 @@ const Navbar = () => {
                   onClick={handleMobileNavClick}
                 >
                   {m.name}
+                </MobileNavLink>
+              ))}
+              {workflowLinks.map(link => (
+                <MobileNavLink key={link.href} href={localizeHref(link.href)} onClick={handleMobileNavClick}>
+                  {link.name}
                 </MobileNavLink>
               ))}
               <MobileNavLink

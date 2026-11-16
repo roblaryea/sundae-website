@@ -11,7 +11,13 @@
     "productMetaTitle": "Sundae Platformu | Operasyon ve Karar İstihbaratı",
     "coreMetaTitle": "Sundae Core | Konaklama ve Gıda-Servis için Karar Çalışma Alanı",
     "crewMetaTitle": "Sundae Crew | İşgücü ve Günlük Operasyonlar",
-    "illustrationDisclosure": "Temsili örnektir, bir müşteri sonucu değildir."
+    "illustrationDisclosure": "Temsili örnektir, bir müşteri sonucu değildir.",
+    "homeHeadline": "Her vardiyayı çalıştır.",
+    "homeTagline": "Her konumu iyileştir.",
+    "coreHeadline": "Daha iyi kararlar. Ölçülebilir sonuçlar.",
+    "crewHeadline": "Ekibini yönet.",
+    "crewTagline": "Vardiyayı yürüt.",
+    "editorialHeadline": "Günlük işi ölçülebilir ilerlemeyle bağla."
   },
   "shared": {
     "primaryCta": "Tanıtım talep et",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Çok Lokasyonlu Operatörler için Restoran Yönetim Platformu | Sundae",
-      "metaDescription": "Sundae, çok lokasyonlu konaklama ve gıda-servis grupları için planlama, devam, görevler, devir teslimleri ve bağlanmış işletme verilerini tek bir platforma getirir. Günlük işleri net sahiplikle yönetin, kararlar için istihbaratı kullanın ve ne değiştiğini ölçün."
+      "metaDescription": "Sundae, çok lokasyonlu konaklama ve gıda-servis grupları için planlama, devam, görevler, devir teslimleri ve bağlanmış işletme verilerini tek bir platforma getirir. Günlük işleri net sahiplikle yönetin, kararlar için istihbaratı kullanın ve ne değiştiğini ölçün.",
+      "problemTitle": "Bağlantısız sistemler operasyonu parçalıyor.",
+      "helpTitle": "Günlük işler ve kararlar tek bir işletim görünümünde birleşir.",
+      "outcomesTitle": "Her konumda tek bir işletim ritmi."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · RESTORAN GÖREV YÖNETİMİ",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Restoran Görev Yönetimi Yazılımı | Sundae",
-      "metaDescription": "Açılış, kapanış, tekrarlayan ve istisna işlerini doğru kişiye atayın, lokasyonlar arasında tamamlamayı takip edin ve kanıtı bir sonraki işletme kararına taşıyın."
+      "metaDescription": "Açılış, kapanış, tekrarlayan ve istisna işlerini doğru kişiye atayın, lokasyonlar arasında tamamlamayı takip edin ve kanıtı bir sonraki işletme kararına taşıyın.",
+      "problemTitle": "Sahiplik belirsizse görevler atlanır.",
+      "helpTitle": "Görevi ata. Takibi izle.",
+      "outcomesTitle": "Açılıştan kapanışa net sorumluluk."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · KAYIT DEFTERİ VE VARDİYA DEVİR TESLİMİ",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Dijital Restoran Kayıt Defteri ve Vardiya Devir Teslimi | Sundae",
-      "metaDescription": "Yönetici notlarını, vardiya devir teslimlerini, sorunları ve takipleri tek bir aranabilir işletme kaydında tutun; böylece bir sonraki ekip tahmin yerine bağlamla başlar."
+      "metaDescription": "Yönetici notlarını, vardiya devir teslimlerini, sorunları ve takipleri tek bir aranabilir işletme kaydında tutun; böylece bir sonraki ekip tahmin yerine bağlamla başlar.",
+      "problemTitle": "Bir sonraki vardiya hikâyenin tamamı olmadan başlar.",
+      "helpTitle": "Teslim, sorun ve sonraki aksiyonu birlikte tut.",
+      "outcomesTitle": "Vardiyalar arasında taşınan aranabilir kayıt."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · BAHŞİŞ İŞ AKIŞLARI",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Restoran Bahşiş Yönetimi Yazılımı | Sundae Crew",
-      "metaDescription": "Bahşiş kurallarını, personel bağlamını, inceleme adımlarını ve bordro hazırlığını yöneticiler ve bordro ekiplerinin açıklayabileceği tek bir iş akışında birleştirin."
+      "metaDescription": "Bahşiş kurallarını, personel bağlamını, inceleme adımlarını ve bordro hazırlığını yöneticiler ve bordro ekiplerinin açıklayabileceği tek bir iş akışında birleştirin.",
+      "problemTitle": "Kural ve kayıtlar dağınıksa bahşiş incelemeleri tıkanır.",
+      "helpTitle": "Bahşiş kurallarını, incelemeyi ve bordro hazırlığını bir araya getir.",
+      "outcomesTitle": "Daha net incelemeler ve bordroya izlenebilir devretme."
     }
   },
   "comparison": {

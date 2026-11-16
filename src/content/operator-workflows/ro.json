@@ -11,7 +11,13 @@
     "productMetaTitle": "Platforma Sundae | Management operațional și Inteligență pentru decizii",
     "coreMetaTitle": "Sundae Core | Spațiu decizional pentru ospitalitate și servicii alimentare",
     "crewMetaTitle": "Sundae Crew | Forța de muncă și operațiuni zilnice",
-    "illustrationDisclosure": "Exemplu ilustrativ, nu un rezultat al unui client."
+    "illustrationDisclosure": "Exemplu ilustrativ, nu un rezultat al unui client.",
+    "homeHeadline": "Conduce fiecare tură.",
+    "homeTagline": "Îmbunătățește fiecare locație.",
+    "coreHeadline": "Decizii mai bune. Rezultate măsurabile.",
+    "crewHeadline": "Gestionează-ți echipa.",
+    "crewTagline": "Conduceți tura.",
+    "editorialHeadline": "Leagă munca zilnică de progres măsurabil."
   },
   "shared": {
     "primaryCta": "Programează o demonstrație",
@@ -107,7 +113,10 @@
         }
       ],
       "metaTitle": "Platformă de management pentru restaurante pentru operatori multi-locație | Sundae",
-      "metaDescription": "Sundae aduce programarea, prezența, sarcinile, predările și datele operaționale conectate într-o singură platformă pentru grupuri multi-locație din ospitalitate și servicii alimentare. Rulează munca zilnică cu responsabilitate clară, folosește inteligența pentru a ghida deciziile și măsoară ce s-a schimbat."
+      "metaDescription": "Sundae aduce programarea, prezența, sarcinile, predările și datele operaționale conectate într-o singură platformă pentru grupuri multi-locație din ospitalitate și servicii alimentare. Rulează munca zilnică cu responsabilitate clară, folosește inteligența pentru a ghida deciziile și măsoară ce s-a schimbat.",
+      "problemTitle": "Sisteme separate fragmentează operațiunea.",
+      "helpTitle": "Munca și deciziile zilnice împart aceeași imagine operațională.",
+      "outcomesTitle": "Un ritm de operare comun în toate locațiile."
     },
     "restaurant-task-management": {
       "eyebrow": "SUNDAE CREW · GESTIONAREA SARCINILOR PENTRU RESTAURANTE",
@@ -158,7 +167,10 @@
         }
       ],
       "metaTitle": "Software de gestionare a sarcinilor pentru restaurante | Sundae",
-      "metaDescription": "Atribuie munca de deschidere, închidere, recurentă și de excepție persoanei potrivite, urmărește finalizarea la nivelul locațiilor și păstrează dovezile în următoarea decizie operațională."
+      "metaDescription": "Atribuie munca de deschidere, închidere, recurentă și de excepție persoanei potrivite, urmărește finalizarea la nivelul locațiilor și păstrează dovezile în următoarea decizie operațională.",
+      "problemTitle": "Sarcinile sunt trecute cu vederea când responsabilitatea nu e clară.",
+      "helpTitle": "Atribuie sarcina. Urmărește finalizarea.",
+      "outcomesTitle": "Responsabilitate clară de la deschidere până la închidere."
     },
     "restaurant-logbook": {
       "eyebrow": "SUNDAE CREW · JURNAL ȘI PREDARE DE SCHIMB",
@@ -209,7 +221,10 @@
         }
       ],
       "metaTitle": "Jurnal digital pentru restaurante și predare de schimb | Sundae",
-      "metaDescription": "Păstrează notele managerilor, predările de schimb, problemele și urmările într-un singur registru operațional căutabil, ca să echipa următoare înceapă cu context, nu cu presupuneri."
+      "metaDescription": "Păstrează notele managerilor, predările de schimb, problemele și urmările într-un singur registru operațional căutabil, ca să echipa următoare înceapă cu context, nu cu presupuneri.",
+      "problemTitle": "Tura următoare începe fără toată povestea.",
+      "helpTitle": "Păstrează predarea, problema și acțiunea următoare împreună.",
+      "outcomesTitle": "Un registru căutabil care se transmite între ture."
     },
     "restaurant-tip-management": {
       "eyebrow": "SUNDAE CREW · FLUXURI PENTRU BACȘISURI",
@@ -260,7 +275,10 @@
         }
       ],
       "metaTitle": "Software pentru gestionarea bacșișurilor în restaurante | Sundae Crew",
-      "metaDescription": "Adună regulile pentru bacșisuri, contextul personalului, pașii de revizuire și pregătirea pentru salarizare într-un singur flux pe care managerii și echipele de salarizare îl pot explica."
+      "metaDescription": "Adună regulile pentru bacșisuri, contextul personalului, pașii de revizuire și pregătirea pentru salarizare într-un singur flux pe care managerii și echipele de salarizare îl pot explica.",
+      "problemTitle": "Revizuirea bacșișurilor stagnează când regulile și evidențele sunt împrăștiate.",
+      "helpTitle": "Reunește regulile pentru bacșișuri, revizuirea și pregătirea pentru payroll.",
+      "outcomesTitle": "Revizuiri mai clare și o predare trasabilă către payroll."
     }
   },
   "comparison": {
