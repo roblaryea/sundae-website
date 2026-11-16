@@ -1,5 +1,7 @@
 "use client";
 
+import { getCampaignParams } from "@/lib/campaign";
+
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -170,9 +172,9 @@ export default function DiagnosticPage() {
           primaryPOS,
           ctaLabel: "Operations Diagnostic",
           sourcePage: "/diagnostic",
-          utmSource: new URLSearchParams(window.location.search).get('utm_source') || undefined,
-          utmMedium: new URLSearchParams(window.location.search).get('utm_medium') || undefined,
-          utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign') || undefined,
+          utmSource: getCampaignParams().utm_source,
+          utmMedium: getCampaignParams().utm_medium,
+          utmCampaign: getCampaignParams().utm_campaign,
           message: `Diagnostic submitted. Profile: ${result.profileLine}. Tier fit: ${result.tierFit}.`,
           locale,
           // report → branded email + admin AI Assessment drawer.

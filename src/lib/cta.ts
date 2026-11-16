@@ -8,6 +8,7 @@
  */
 
 import { trackEvent } from "@/lib/posthog";
+import { appendCampaign, getCampaignParams } from "@/lib/campaign";
 
 type GtagValue = string | number | boolean | null | undefined;
 export type CtaMetadata = Record<string, GtagValue>;
@@ -38,57 +39,10 @@ export const trackCta = (label: string, metadata: CtaMetadata = {}) => {
  * @param url - The target URL to append UTMs to
  * @returns The URL with UTM parameters appended
  */
-export const appendUtm = (url: string): string => {
-  if (typeof window === "undefined") return url;
+export const appendUtm = appendCampaign;
 
-  const params = new URLSearchParams(window.location.search);
-  
-  // If no UTM parameters exist, return original URL
-  if ([...params].length === 0) return url;
-
-  try {
-    // Handle both absolute and relative URLs
-    const baseUrl = url.startsWith("http") ? url : `${window.location.origin}${url}`;
-    const u = new URL(baseUrl);
-    
-    // Append all UTM parameters
-    params.forEach((val, key) => {
-      if (key.startsWith("utm_")) {
-        u.searchParams.set(key, val);
-      }
-    });
-    
-    // Return relative URL if input was relative
-    if (!url.startsWith("http")) {
-      return u.pathname + u.search + u.hash;
-    }
-    
-    return u.toString();
-  } catch (error) {
-    console.error("Error appending UTM parameters:", error);
-    return url;
-  }
-};
-
-/**
- * Get all current UTM parameters as an object
- * 
- * @returns Object containing all UTM parameters
- */
-export const getUtmParams = (): Record<string, string> => {
-  if (typeof window === "undefined") return {};
-  
-  const params = new URLSearchParams(window.location.search);
-  const utmParams: Record<string, string> = {};
-  
-  params.forEach((val, key) => {
-    if (key.startsWith("utm_")) {
-      utmParams[key] = val;
-    }
-  });
-  
-  return utmParams;
-};
+/** The current campaign, retained for this consented browser tab. */
+export const getUtmParams = getCampaignParams;
 
 /**
  * Custom hook for CTA navigation with tracking

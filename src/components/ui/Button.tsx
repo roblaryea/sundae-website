@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { trackCta, type CtaMetadata } from '@/lib/cta';
+import { appendCampaign } from '@/lib/campaign';
 
 interface ButtonBaseProps {
   children: React.ReactNode;
@@ -90,6 +91,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
 
   if ('href' in props && props.href) {
     const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+      event.currentTarget.href = appendCampaign(props.href);
       if (trackingLabel) trackCta(trackingLabel, trackingMetadata);
       props.onClick?.(event);
     };
