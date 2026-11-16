@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Gestão de Operações para Hospitalidade e Food-Service",
+    "description": "Gerencie turnos, equipe, tarefas e desempenho em operações de hospitalidade e food-service com várias unidades. Conecte o trabalho diário às decisões e à recuperação de lucro mensurável.",
+    "eyebrow": "Gestão de operações para hospitalidade e food-service",
+    "sub": "Gerencie cada turno em todas as unidades. Sundae conecta escalas, ponto, tarefas e passagens de turno aos dados operacionais — para que as equipes saibam o próximo passo e possam medir o que mudou.",
+    "productTitle": "Uma plataforma. Do trabalho diário às decisões mensuráveis.",
+    "productDescription": "Reúna equipe, execução de turno e dados operacionais conectados em uma única visão operacional. Crew ajuda as equipes a executar o trabalho; Core ajuda a entender o desempenho, decidir o próximo passo e medir o resultado.",
+    "coreDescription": "O espaço de decisão para equipes de hospitalidade e food-service com várias unidades. Conecte dados operacionais, inspecione as evidências, atribua a próxima ação e meça o resultado.",
+    "crewDescription": "Gestão de equipe e operações diárias para grupos de hospitalidade e food-service. Conecte escalas, ponto, tarefas, passagens de turno, registros de pessoas e prontidão para folha em todas as unidades.",
+    "productMetaTitle": "Plataforma Sundae | Gestão de Operações e Inteligência de Decisão",
+    "coreMetaTitle": "Sundae Core | Espaço de Decisão para Hospitalidade e Food-Service",
+    "crewMetaTitle": "Sundae Crew | Equipe e Operações Diárias",
+    "illustrationDisclosure": "Exemplo ilustrativo, não um resultado de cliente."
+  },
+  "shared": {
+    "primaryCta": "Agendar demonstração",
+    "secondaryCta": "Ver Sundae Crew",
+    "rhythmEyebrow": "O RITMO OPERACIONAL",
+    "steps": [
+      "Registrar o trabalho",
+      "Levar o contexto",
+      "Atribuir a próxima ação",
+      "Medir o que mudou"
+    ],
+    "creamEyebrow": "A CAMADA OPERACIONAL",
+    "creamStatement": "O trabalho é registrado. O contexto é levado. *A ação é medida.*",
+    "creamLede": "Sundae Crew conecta o trabalho operacional diário às decisões em toda a plataforma.",
+    "problemEyebrow": "O PROBLEMA DO OPERADOR",
+    "problemTitle": "O trabalho diário desaparece quando a responsabilidade não está clara.",
+    "helpEyebrow": "COMO A SUNDAE AJUDA",
+    "helpTitle": "O fluxo de trabalho permanece conectado à operação.",
+    "outcomesEyebrow": "O QUE MUDA",
+    "outcomesTitle": "De um registro de trabalho para um ritmo operacional repetível.",
+    "faqEyebrow": "PERGUNTAS DOS OPERADORES",
+    "faqTitle": "Respostas antes de você mudar o fluxo de trabalho.",
+    "connectedEyebrow": "OPERAÇÕES CONECTADAS",
+    "connectedTitle": "O fluxo de trabalho faz parte do ciclo operacional da Sundae.",
+    "connectedDescription": "Crew registra o trabalho. Pulse evidencia a exceção. Insights, Foresight e Profit Recovery ajudam a equipe a decidir o próximo passo e medir o que mudou.",
+    "ctaTitle": "Veja o fluxo de trabalho na sua operação.",
+    "ctaDescription": "Traga um problema operacional real. Veja como o trabalho, a evidência e a próxima ação permanecem conectados."
+  },
+  "links": {
+    "eyebrow": "OPERAÇÕES DIÁRIAS",
+    "title": "Comece pelo trabalho que sua equipe precisa executar.",
+    "description": "Explore os fluxos de trabalho e veja como eles se conectam à plataforma Sundae.",
+    "platform": "Gestão de operações",
+    "tasks": "Tarefas e checklists",
+    "logbook": "Diário digital e passagem de turno",
+    "tips": "Fluxos de trabalho de gorjetas",
+    "scheduling": "Escalas de equipe",
+    "attendance": "Ponto e presença",
+    "payroll": "Prontidão para folha",
+    "comparison": "Guia de avaliação de plataforma"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · PLATAFORMA OPERACIONAL PARA HOSPITALIDADE E FOOD-SERVICE",
+      "title": "Software de gestão para cada turno e cada unidade.",
+      "description": "Sundae reúne escalas, ponto, tarefas, passagens de turno e dados operacionais conectados em uma única plataforma para grupos de hospitalidade e food-service com várias unidades. Execute o trabalho diário com responsabilidade clara, use inteligência para orientar decisões e meça o que mudou.",
+      "challenges": [
+        "Escalas, ponto, tarefas, passagens de turno, folha e desempenho vivem em sistemas separados sem um registro operacional compartilhado.",
+        "Líderes regionais veem relatórios isolados em vez do contexto por trás de uma exceção e de quem é responsável pela próxima ação.",
+        "Uma melhoria operacional é difícil de repetir quando as equipes não conseguem comparar o que aconteceu, o que mudou e o que funcionou."
+      ],
+      "capabilities": [
+        "Fluxos de trabalho de equipe, escalas e ponto",
+        "Tarefas, aprovações e passagens de turno",
+        "Inteligência conectada entre operações e desempenho",
+        "Ações mensuráveis e recuperação de perdas de lucro evitáveis"
+      ],
+      "outcomes": [
+        "Operadores têm um único ritmo operacional entre marcas, unidades e equipes.",
+        "Gerentes podem agir com base no contexto em tempo real enquanto líderes veem o padrão em todo o grupo.",
+        "Fluxos de trabalho de restaurante conduzem ao mesmo ciclo de decisão e recuperação usado em operações de hospitalidade e food-service."
+      ],
+      "questions": [
+        {
+          "question": "O que é software de gestão de restaurantes?",
+          "answer": "Conecta os sistemas e fluxos de trabalho diários usados para operar unidades de restaurante, incluindo pessoas, escalas, tarefas, passagens de turno, ponto, prontidão para folha, dados operacionais e revisão de desempenho."
+        },
+        {
+          "question": "Sundae é só para restaurantes?",
+          "answer": "Sundae atende grupos de hospitalidade e food-service com várias unidades, incluindo restaurantes, cafés, cozinhas virtuais e serviços de catering. O mesmo modelo operacional conecta pessoas, fluxos de trabalho diários e decisões mensuráveis em todo o grupo."
+        },
+        {
+          "question": "Onde a IA se encaixa na plataforma?",
+          "answer": "A IA está incorporada ao fluxo operacional para ajudar as equipes a entender o contexto, responder perguntas operacionais, recomendar próximas ações e revisar o que mudou."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Plataforma de Gestão de Restaurantes para Operadores Multilocal | Sundae",
+      "metaDescription": "Sundae reúne escalas, ponto, tarefas, passagens de turno e dados operacionais conectados em uma única plataforma para grupos de hospitalidade e food-service com várias unidades. Execute o trabalho diário com responsabilidade clara, use inteligência para orientar decisões e meça o que mudou."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · GESTÃO DE TAREFAS PARA RESTAURANTES",
+      "title": "Gestão de tarefas para restaurantes que resiste ao movimento.",
+      "description": "Atribua tarefas de abertura, fechamento, recorrentes e de exceção à pessoa certa, acompanhe a conclusão entre unidades e leve a evidência para a próxima decisão operacional.",
+      "challenges": [
+        "Checklists de abertura e fechamento ficam em papel, chats ou planilhas que ninguém consegue auditar depois.",
+        "Gerentes regionais veem que uma tarefa foi perdida sem saber quem a possuía, o que a bloqueou ou se o problema se repetiu.",
+        "Uma tarefa é concluída, mas o sinal operacional nunca alcança a escala, o gerente ou a revisão de desempenho."
+      ],
+      "capabilities": [
+        "Checklists de abertura, fechamento e recorrentes",
+        "Atribuições por função, unidade, marca ou região",
+        "Aprovações de gerência e evidência de conclusão",
+        "Escalonamento de exceções e acompanhamento"
+      ],
+      "outcomes": [
+        "Cada tarefa tem um responsável, um status e o próximo passo visível.",
+        "Gerentes podem comparar padrões de execução entre turnos e unidades.",
+        "Trabalho concluído vira contexto para coaching, priorização e recuperação mensurável."
+      ],
+      "questions": [
+        {
+          "question": "O que é software de gestão de tarefas para restaurantes?",
+          "answer": "Oferece às equipes de restaurante uma forma compartilhada de atribuir, concluir, aprovar e revisar o trabalho operacional diário, como checklists de abertura, fechamento, segurança, manutenção e serviço."
+        },
+        {
+          "question": "A gestão de tarefas pode funcionar em várias unidades?",
+          "answer": "Sundae Crew é projetado para propriedade por função, unidade, marca e região, permitindo que operadores padronizem o trabalho mantendo a responsabilidade local visível."
+        },
+        {
+          "question": "Como a gestão de tarefas se conecta ao desempenho do restaurante?",
+          "answer": "O status das tarefas e as evidências podem virar contexto operacional para acompanhamento de gerentes, revisão de exceções e as decisões medidas pelo ciclo operacional da Sundae."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Gestão de operações",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Software de Gestão de Tarefas para Restaurantes | Sundae",
+      "metaDescription": "Atribua tarefas de abertura, fechamento, recorrentes e de exceção à pessoa certa, acompanhe a conclusão entre unidades e leve a evidência para a próxima decisão operacional."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · DIÁRIO E PASSAGEM DE TURNO",
+      "title": "Um diário digital para cada turno.",
+      "description": "Mantenha notas de gerência, passagens de turno, problemas e acompanhamentos em um registro operacional pesquisável, para que a próxima equipe comece com contexto em vez de dedução.",
+      "challenges": [
+        "Detalhes importantes da passagem de turno desaparecem em livros de papel, chats de grupo ou na memória dos gerentes.",
+        "O mesmo problema de manutenção, serviço ou pessoal se repete porque ninguém encontra o contexto anterior.",
+        "Uma nota é registrada, mas nenhum responsável, tarefa ou resultado mensurável a leva adiante."
+      ],
+      "capabilities": [
+        "Notas de turno e passagens de gerente",
+        "Registros de problemas, alertas e acompanhamentos",
+        "Histórico pesquisável entre unidades",
+        "Vincular notas a tarefas, responsáveis e contexto operacional"
+      ],
+      "outcomes": [
+        "Cada turno começa com o contexto que o gerente precisa.",
+        "Equipes regionais conseguem identificar problemas recorrentes em vez de tratar cada turno como um novo evento.",
+        "A comunicação vira registro que suporta ação, coaching e melhoria mensurável."
+      ],
+      "questions": [
+        {
+          "question": "O que é um diário digital para restaurante?",
+          "answer": "É um registro operacional compartilhado para notas de turno, passagens, problemas, atualizações de gerência e acompanhamentos em uma ou mais unidades de restaurante."
+        },
+        {
+          "question": "O que uma passagem de turno deve incluir?",
+          "answer": "Uma passagem útil registra o que aconteceu, o que precisa de atenção, quem é o responsável pela próxima ação e o que a equipe que chega deveria saber antes do serviço."
+        },
+        {
+          "question": "Um diário pode se conectar à gestão de tarefas do restaurante?",
+          "answer": "Sim. O modelo operacional da Sundae conecta comunicação e acompanhamento para que uma nota gere uma tarefa atribuída, uma aprovação ou a revisão do resultado."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Tarefas e checklists",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Gestão de operações",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Diário Digital e Passagem de Turno para Restaurantes | Sundae",
+      "metaDescription": "Mantenha notas de gerência, passagens de turno, problemas e acompanhamentos em um registro operacional pesquisável, para que a próxima equipe comece com contexto em vez de dedução."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · FLUXOS DE TRABALHO DE GORJETAS",
+      "title": "Fluxos de gorjetas prontos para revisão.",
+      "description": "Reúna regras de gorjeta, contexto da equipe, etapas de revisão e prontidão para folha em um fluxo que gerentes e times de folha possam explicar.",
+      "challenges": [
+        "Cálculos de gorjetas dependem de regras, funções, unidades e dados de origem que muitas vezes são reconciliados manualmente.",
+        "Gerentes e equipes de folha precisam revisar exceções sem perder as evidências subjacentes.",
+        "A equipe pode concluir um ciclo de folha sem saber quais padrões de equipe, ponto ou serviço mudaram o resultado."
+      ],
+      "capabilities": [
+        "Fluxos configuráveis de pool e distribuição de gorjetas",
+        "Contexto de revisão por função, unidade e período de pagamento",
+        "Aprovação de exceções e captura de evidências",
+        "Entrega pronta para folha e inteligência de equipe"
+      ],
+      "outcomes": [
+        "Fluxos de gorjetas tornam-se revisáveis e explicáveis antes da entrega.",
+        "Gerentes e equipes de folha compartilham um registro operacional único para exceções.",
+        "Sinais de equipe e ponto podem informar as decisões após o ciclo de pagamento."
+      ],
+      "questions": [
+        {
+          "question": "O que é software de gestão de gorjetas para restaurantes?",
+          "answer": "Suporta regras, cálculos, etapas de revisão e entrega necessários para gerenciar gorjetas entre funções, unidades e períodos de pagamento de restaurantes."
+        },
+        {
+          "question": "A gestão de gorjetas precisa se conectar à folha?",
+          "answer": "Fluxos de gorjetas são mais úteis quando sua revisão e evidências podem seguir para prontidão de folha ou entrega a um parceiro sem refazer o trabalho em outra planilha."
+        },
+        {
+          "question": "Como a Sundae conecta fluxos de gorjetas às operações?",
+          "answer": "Crew conecta fluxos de gorjetas e de equipe a escalas, ponto, prontidão para folha e à camada mais ampla de inteligência de decisão para que as equipes possam revisar o que mudou e por quê."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Prontidão para folha",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Ponto e presença",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Inteligência da Força de Trabalho",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Software de Gestão de Gorjetas para Restaurantes | Sundae Crew",
+      "metaDescription": "Reúna regras de gorjeta, contexto da equipe, etapas de revisão e prontidão para folha em um fluxo que gerentes e times de folha possam explicar."
+    }
+  },
+  "comparison": {
+    "eyebrow": "GUIA DE AVALIAÇÃO DE PLATAFORMA",
+    "title": "Avaliando uma alternativa ao Restaurant365? Comece pelo modelo operacional.",
+    "description": "Restaurant365 é uma plataforma de gestão de restaurantes. Sundae traz gestão de operações e inteligência de decisão para grupos de hospitalidade e food-service com várias unidades. Compare os fluxos de trabalho necessários, os sistemas que você mantém e como medir o resultado.",
+    "primaryCta": "Comparar seu modelo operacional",
+    "secondaryCta": "Explorar a plataforma operacional da Sundae",
+    "criteriaEyebrow": "FAÇA AS MESMAS PERGUNTAS A TODA PLATAFORMA",
+    "criteriaTitle": "Compare os fluxos de trabalho importantes para sua operação.",
+    "columns": [
+      "Área de avaliação",
+      "Pergunta a responder",
+      "Capacidade da Sundae"
+    ],
+    "criteria": [
+      [
+        "Operações diárias",
+        "Gerentes podem atribuir trabalho, gerir passagens de turno, revisar exceções e levar o contexto para o próximo turno?",
+        "Sundae Crew, gestão de tarefas, diário digital e Pulse"
+      ],
+      [
+        "Operações de equipe",
+        "Como escalas, ponto, RH, prontidão para folha e fluxos de gorjetas se conectam à visão operacional?",
+        "Sundae Crew · Inteligência da Força de Trabalho"
+      ],
+      [
+        "Suporte à decisão",
+        "A plataforma ajuda a equipe a entender o que mudou, por que importa e o que fazer a seguir?",
+        "Ask Sundae, Insights, Foresight e Watchtower"
+      ],
+      [
+        "Resultados mensuráveis",
+        "O operador pode registrar uma ação, atribuir responsabilidade e comparar o resultado com uma linha de base?",
+        "Core e Profit Recovery"
+      ],
+      [
+        "Ajuste regional",
+        "O modelo operacional suporta os países, parceiros, fluxos estatutários e processos locais no escopo?",
+        "Revise os pacotes regionais do Crew, exportações e entregas a parceiros em relação ao plano de rollout real"
+      ],
+      [
+        "Limite da plataforma",
+        "Quais sistemas permanecem autoritativos para contabilidade, POS, folha, inventário e outros registros?",
+        "Documente o modelo de integração e sistema de registro antes de escolher uma plataforma"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "O que é o Restaurant365?",
+        "body": "Restaurant365 descreve sua plataforma como específica para restaurantes e tudo-em-um, abrangendo contabilidade, operações, equipe e IA. Leia as informações atuais do produto diretamente antes de comparar o ajuste."
+      },
+      {
+        "title": "Em que deve-se avaliar uma alternativa ao Restaurant365?",
+        "body": "Compare os fluxos de trabalho operacionais diários, limites de sistema de registro, profundidade de gestão de equipe, requisitos regionais, integrações, suporte à decisão e como uma ação é medida depois de tomada."
+      },
+      {
+        "title": "Onde a Sundae se encaixa?",
+        "body": "Sundae conecta pessoas, fluxos de trabalho diários, dados operacionais e decisões mensuráveis em grupos de hospitalidade e food-service com várias unidades. Crew gerencia equipe e execução diária; Core traz evidências, decisões e resultados para uma visão operacional única."
+      }
+    ],
+    "sourcesEyebrow": "FONTES PRINCIPAIS",
+    "sourcesTitle": "Leia as definições de produto e teste-as com sua operação.",
+    "sourcesDescription": "Use as informações atuais do produto do Restaurant365 junto com as descrições da Sundae. Valide a profundidade dos fluxos, requisitos regionais e limites de integração com as pessoas que usarão a plataforma.",
+    "sourceLabels": [
+      "Informações de IA do Restaurant365",
+      "Workforce do Restaurant365",
+      "Diário do Restaurant365"
+    ],
+    "ctaTitle": "Traga seu modelo operacional.",
+    "ctaDescription": "Mapeie os fluxos de trabalho, sistemas e medidas de resultado que seu grupo precisa em todas as unidades.",
+    "ctaLabel": "Agendar sessão de trabalho",
+    "metaTitle": "Alternativa ao Restaurant365 para Operadores Multilocal | Sundae",
+    "metaDescription": "Compare alternativas ao Restaurant365 por fluxos de trabalho diários, operações de equipe, requisitos regionais, integrações e suporte à decisão."
+  }
+}

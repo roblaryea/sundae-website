@@ -1,6 +1,6 @@
 # Sundae
 
-> Sundae is an operating platform with decision intelligence for multi-location hospitality and food-service operators. It connects daily operating workflows to accountable action and measured profit recovery.
+> Sundae provides operations management and decision intelligence for multi-location hospitality and food-service operators. It connects daily operating workflows to accountable action and measured profit recovery.
 
 Sundae helps hospitality and food-service operators run every shift and recover preventable profit loss across every location. It brings workforce operations, daily execution, connected operating data, decision support and measured outcomes into one operating loop: detect, decide, execute, measure, learn.
 

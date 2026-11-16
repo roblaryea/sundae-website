@@ -1,5 +1,8 @@
 "use client";
 
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
+
 import Link from "next/link";
 import { motion, MotionConfig } from "framer-motion";
 import { Button } from "@/components/ui/Button";
@@ -595,6 +598,7 @@ export default function CrewPage() {
   const positioning = getPositioningCopy(locale).critical;
   const copy = {
     ...sourceCopy,
+    description: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
     loopEyebrow: positioning.crewExecutionEyebrow,
     loopTitle: positioning.crewExecutionTitle,
     loopDescription: positioning.crewExecutionDescription,
@@ -978,6 +982,8 @@ export default function CrewPage() {
           hideFilter
           headingOverride={galleryHeading("crew", locale)}
         />
+
+        <OperatorWorkflowLinks />
 
         {/* ════════════════════════════════════════════════
             CLOSING CTA

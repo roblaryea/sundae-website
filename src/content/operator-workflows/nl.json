@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Operations Management voor hospitality en foodservice",
+    "description": "Beheer shifts, personeel, taken en prestaties over multi-locatie hospitality- en foodservice-operaties. Verbind dagelijks werk met beslissingen en gemeten winstterugvordering.",
+    "eyebrow": "Operations management voor hospitality en foodservice",
+    "sub": "Laat elke shift op elke locatie draaien. Sundae verbindt roostering, aanwezigheid, taken en overdrachten met operationele data - zodat teams weten wat ze daarna moeten doen en kunnen meten wat er veranderde.",
+    "productTitle": "Één platform. Dagelijks werk naar gemeten beslissingen.",
+    "productDescription": "Breng personeel, shiftuitvoering en verbonden operationele data samen in één operationeel overzicht. Crew helpt teams het werk uit te voeren; Core helpt hen prestaties te begrijpen, te beslissen wat te doen en het resultaat te meten.",
+    "coreDescription": "De beslissingswerkruimte voor multi-locatie hospitality- en foodservice-teams. Verbind operationele data, controleer het bewijs, wijs de volgende actie toe en meet het resultaat.",
+    "crewDescription": "Personeel en dagelijkse operaties voor hospitality- en foodservice-groepen. Verbind roostering, aanwezigheid, taken, overdrachten, personeelsdossiers en payroll-klaarheid over elke locatie.",
+    "productMetaTitle": "Sundae Platform | Operations en Decision Intelligence",
+    "coreMetaTitle": "Sundae Core | Decision Workspace voor hospitality en foodservice",
+    "crewMetaTitle": "Sundae Crew | Personeel en dagelijkse operaties",
+    "illustrationDisclosure": "Illustratief voorbeeld, geen klantresultaat."
+  },
+  "shared": {
+    "primaryCta": "Plan een walkthrough",
+    "secondaryCta": "Bekijk Sundae Crew",
+    "rhythmEyebrow": "HET OPERATIEVE RITME",
+    "steps": [
+      "Leg het werk vast",
+      "Draag de context mee",
+      "Wijs de volgende actie toe",
+      "Meet wat er veranderde"
+    ],
+    "creamEyebrow": "DE OPERATIONELE LAAG",
+    "creamStatement": "Werk wordt vastgelegd. Context wordt gedragen. *Actie wordt gemeten.*",
+    "creamLede": "Sundae Crew verbindt dagelijks operationeel werk met beslissingen over het bredere platform.",
+    "problemEyebrow": "HET OPERATORPROBLEEM",
+    "problemTitle": "Dagelijks werk verdwijnt wanneer eigenaarschap onduidelijk is.",
+    "helpEyebrow": "HOE SUNDAE HELPT",
+    "helpTitle": "De workflow blijft verbonden met de operatie.",
+    "outcomesEyebrow": "WAT VERANDERT",
+    "outcomesTitle": "Van een registratie van werk naar een herhaalbaar operationeel ritme.",
+    "faqEyebrow": "VRAAG VAN OPERATORS",
+    "faqTitle": "Antwoorden voordat u de workflow verandert.",
+    "connectedEyebrow": "GECONNECTE OPERATIES",
+    "connectedTitle": "De workflow maakt deel uit van Sundae’s operationele lus.",
+    "connectedDescription": "Crew legt het werk vast. Pulse brengt uitzonderingen naar boven. Insights, Foresight en Profit Recovery helpen het team te beslissen wat te doen en te meten wat veranderde.",
+    "ctaTitle": "Bekijk de workflow in uw operatie.",
+    "ctaDescription": "Breng één reëel operationeel probleem. Zie hoe het werk, het bewijs en de volgende actie verbonden blijven."
+  },
+  "links": {
+    "eyebrow": "DAGELIJKSE OPERATIES",
+    "title": "Begin met het werk dat uw team moet uitvoeren.",
+    "description": "Verken de workflows en zie hoe ze verbinden met het bredere Sundae-platform.",
+    "platform": "Operationeel beheer",
+    "tasks": "Taken en checklists",
+    "logbook": "Digitaal logboek en shiftoverdracht",
+    "tips": "Tip-workflows",
+    "scheduling": "Personeelsroostering",
+    "attendance": "Tijd en aanwezigheid",
+    "payroll": "Payroll-klaarheid",
+    "comparison": "Platform-evaluatiegids"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · HOSPITALITY EN FOODSERVICE OPERATING PLATFORM",
+      "title": "Beheersoftware voor restaurants voor elke shift en elke locatie.",
+      "description": "Sundae brengt roostering, aanwezigheid, taken, overdrachten en verbonden operationele data samen in één platform voor multi-locatie hospitality- en foodservice-groepen. Voer dagelijks werk uit met duidelijk eigenaarschap, gebruik intelligence om beslissingen te sturen en meet wat veranderde.",
+      "challenges": [
+        "Roostering, aanwezigheid, taken, overdrachten, payroll en prestaties zitten in afzonderlijke systemen zonder gedeeld operationeel record.",
+        "Regionale leidinggevenden zien geïsoleerde rapporten in plaats van de context achter een uitzondering en de persoon die verantwoordelijk is voor de volgende actie.",
+        "Een operationele verbetering is moeilijk te herhalen wanneer teams niet kunnen vergelijken wat er gebeurde, wat veranderde en wat werkte."
+      ],
+      "capabilities": [
+        "Personeel-, roostering- en aanwezigheidsworkflows",
+        "Taken, goedkeuringen en shiftoverdrachten",
+        "Verbonden intelligence over operaties en prestaties",
+        "Meetbare acties en herstel van vermijdbaar winstverlies"
+      ],
+      "outcomes": [
+        "Operators krijgen één operationeel ritme over merken, locaties en teams.",
+        "Managers kunnen handelen op live context terwijl leiders het patroon over de groep zien.",
+        "Restaurant-workflows lopen door in dezelfde beslissings- en herstelcyclus die in hospitality- en foodservice-operaties wordt gebruikt."
+      ],
+      "questions": [
+        {
+          "question": "Wat is beheersoftware voor restaurants?",
+          "answer": "Het verbindt de dagelijkse systemen en workflows die gebruikt worden om restaurantlocaties te runnen, inclusief personeel, roosters, taken, overdrachten, aanwezigheid, payroll-klaarheid, operationele data en prestatiebeoordeling."
+        },
+        {
+          "question": "Is Sundae alleen voor restaurants?",
+          "answer": "Sundae ondersteunt multi-locatie hospitality- en foodservice-groepen, waaronder restaurants, cafés, cloud kitchens en cateraars. Hetzelfde operationele model verbindt mensen, dagelijkse workflows en gemeten beslissingen over de groep heen."
+        },
+        {
+          "question": "Waar past AI binnen het platform?",
+          "answer": "AI is ingebed in de operationele workflow om teams te helpen context te begrijpen, operationele vragen te beantwoorden, volgende acties aan te bevelen en te beoordelen wat veranderde."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Restaurant Management Platform voor multi-locatie operators | Sundae",
+      "metaDescription": "Sundae brengt roostering, aanwezigheid, taken, overdrachten en verbonden operationele data samen in één platform voor multi-locatie hospitality- en foodservice-groepen. Voer dagelijks werk uit met duidelijk eigenaarschap, gebruik intelligence om beslissingen te sturen en meet wat veranderde."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · RESTAURANT TAKENBEHEER",
+      "title": "Taakbeheer voor restaurants dat de drukte doorstaat.",
+      "description": "Ken openings-, sluitings-, terugkerende en uitzonderingswerk toe aan de juiste persoon, volg voltooiing over locaties en draag het bewijs over naar de volgende operationele beslissing.",
+      "challenges": [
+        "Openings- en sluitingschecklists bestaan op papier, in chatthreads of spreadsheets die later niet te auditen zijn.",
+        "Regionale managers zien dat een taak is gemist zonder te zien wie deze bezat, wat het blokkeerde of of het probleem zich herhaalde.",
+        "Een taak wordt voltooid, maar het operationele signaal bereikt nooit het rooster, de manager of de prestatiebeoordeling."
+      ],
+      "capabilities": [
+        "Openings-, sluitings- en terugkerende checklists",
+        "Toewijzingen op rol, locatie, merk of regio",
+        "Managergoedkeuringen en voltooiingsbewijs",
+        "Uitzonderingsescala­tie en opvolging"
+      ],
+      "outcomes": [
+        "Elke taak heeft een eigenaar, een status en een zichtbare volgende stap.",
+        "Managers kunnen uitvoeringspatronen vergelijken over shifts en locaties.",
+        "Voltooid werk wordt context voor coaching, prioritering en gemeten herstel."
+      ],
+      "questions": [
+        {
+          "question": "Wat is taakbeheer voor restaurants?",
+          "answer": "Het biedt restaurantteams een gedeelde manier om dagelijks operationeel werk zoals opening, sluiting, veiligheid, onderhoud en servicechecklists toe te wijzen, te voltooien, goed te keuren en te beoordelen."
+        },
+        {
+          "question": "Kan taakbeheer over meerdere locaties werken?",
+          "answer": "Sundae Crew is ontworpen voor eigenaarschap op rol-, locatie-, merk- en regioniveau zodat operators werk kunnen standaardiseren terwijl lokale verantwoordelijkheid zichtbaar blijft."
+        },
+        {
+          "question": "Hoe verbindt taakbeheer zich met restaurantprestaties?",
+          "answer": "Taakstatus en bewijs kunnen operationele context worden voor manageropvolging, uitzonderingsevaluatie en de beslissingen die worden gemeten via Sundae’s operationele lus."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse | Operationeel beheer",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Taakbeheer voor restaurants | Sundae",
+      "metaDescription": "Ken openings-, sluitings-, terugkerende en uitzonderingswerk toe aan de juiste persoon, volg voltooiing over locaties en draag het bewijs over naar de volgende operationele beslissing."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · LOGBOOK EN SHIFTOVERDRACHT",
+      "title": "Een digitaal logboek voor elke shift in restaurants.",
+      "description": "Houd managernotities, shiftoverdrachten, problemen en opvolging bij in één doorzoekbaar operationeel record, zodat het volgende team met context kan starten in plaats van giswerk.",
+      "challenges": [
+        "Belangrijke overdrachtsdetails verdwijnen in papieren boeken, groepschats of individuele managermemory.",
+        "Hetzelfde onderhouds-, service- of personeelsprobleem herhaalt zich omdat niemand de eerdere context kan vinden.",
+        "Een notitie wordt vastgelegd, maar geen eigenaar, taak of gemeten resultaat draagt het voort."
+      ],
+      "capabilities": [
+        "Shiftnotities en manageroverdrachten",
+        "Problemen, waarschuwingen en opvolgrecords",
+        "Doorzoekbare geschiedenis over locaties",
+        "Koppel notities aan taken, eigenaren en operationele context"
+      ],
+      "outcomes": [
+        "Elke shift begint met de context die de manager nodig heeft.",
+        "Regionale teams kunnen terugkerende problemen zien in plaats van elke shift als een nieuw incident te behandelen.",
+        "Communicatie wordt een record dat actie, coaching en gemeten verbetering ondersteunt."
+      ],
+      "questions": [
+        {
+          "question": "Wat is een digitaal logboek voor restaurants?",
+          "answer": "Het is een gedeeld operationeel record voor shiftnotities, overdrachten, problemen, managerupdates en opvolging over één of meer restaurantlocaties."
+        },
+        {
+          "question": "Wat moet een shiftoverdracht bevatten?",
+          "answer": "Een nuttige overdracht legt vast wat er gebeurde, wat aandacht nodig heeft, wie de volgende actie bezit en wat het inkomende team moet weten vóór de service."
+        },
+        {
+          "question": "Kan een logboek verbinden met taakbeheer voor restaurants?",
+          "answer": "Ja. Sundae’s operationele model verbindt communicatie en opvolging zodat een notitie kan leiden tot een toegewezen taak, een goedkeuring of een beoordeling van het resultaat."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Taken en checklists",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse | Operationeel beheer",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Digitaal logboek en shiftoverdracht voor restaurants | Sundae",
+      "metaDescription": "Houd managernotities, shiftoverdrachten, problemen en opvolging bij in één doorzoekbaar operationeel record, zodat het volgende team met context kan starten in plaats van giswerk."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · TIP-WORKFLOWS",
+      "title": "Tip-workflows voor restaurants klaar voor beoordeling.",
+      "description": "Breng tipregels, personeelscontext, beoordelingsstappen en payroll-klaarheid samen in één workflow die managers en payroll-teams kunnen verklaren.",
+      "challenges": [
+        "Tipberekeningen hangen af van regels, rollen, locaties en brondata die vaak handmatig worden geconsolideerd.",
+        "Managers en payroll-teams moeten uitzonderingen beoordelen zonder het onderliggende bewijs te verliezen.",
+        "Het team kan een payrollcyclus afsluiten zonder te weten welke personeels-, aanwezigheids- of servicepatronen het resultaat beïnvloedden."
+      ],
+      "capabilities": [
+        "Configureerbare tippool- en distributieworkflows",
+        "Rol-, locatie- en betaalperiodebeoordelingscontext",
+        "Uitzonderingsgoedkeuring en bewijsvastlegging",
+        "Payroll-klaar overdracht en personeelsintelligentie"
+      ],
+      "outcomes": [
+        "Tip-workflows worden beoordeelbaar en verklaarbaar vóór overdracht.",
+        "Managers en payroll-teams delen één operationeel record voor uitzonderingen.",
+        "Personeels- en aanwezigheids signalen kunnen de beslissingen informeren die volgen op de loonperiode."
+      ],
+      "questions": [
+        {
+          "question": "Wat is tipmanagementsoftware voor restaurants?",
+          "answer": "Het ondersteunt de regels, berekeningen, beoordelingsstappen en overdracht die nodig zijn om fooien te beheren over rollen, locaties en betaalperioden in restaurants."
+        },
+        {
+          "question": "Moet tipmanagement verbonden zijn met payroll?",
+          "answer": "Tip-workflows zijn het meest nuttig wanneer hun beoordeling en bewijs naar payroll-klaarheid of een partneroverdracht kan verplaatsen zonder het werk in een ander spreadsheet te hoeven recreëren."
+        },
+        {
+          "question": "Hoe verbindt Sundae tip-workflows met operaties?",
+          "answer": "Crew verbindt tip- en personeelsworkflows met roostering, aanwezigheid, payroll-klaarheid en de bredere decision-intelligence-laag zodat teams kunnen beoordelen wat veranderde en waarom."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Payroll-klaarheid",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Tijd en aanwezigheid",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Personeelsintelligentie",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Tipmanagementsoftware voor restaurants | Sundae Crew",
+      "metaDescription": "Breng tipregels, personeelscontext, beoordelingsstappen en payroll-klaarheid samen in één workflow die managers en payroll-teams kunnen verklaren."
+    }
+  },
+  "comparison": {
+    "eyebrow": "PLATFORM-EVALUATIEGIDS",
+    "title": "Evalueert u een Restaurant365-alternatief? Begin bij het operationele model.",
+    "description": "Restaurant365 is een restaurantmanagementplatform. Sundae brengt operations management en decision intelligence naar multi-locatie hospitality- en foodservice-groepen. Vergelijk de workflows die uw team nodig heeft, de systemen die u behoudt en hoe u het resultaat meet.",
+    "primaryCta": "Vergelijk uw operationele model",
+    "secondaryCta": "Verken Sundae’s operationele platform",
+    "criteriaEyebrow": "STEL ELKE PLATFORM DEZELFDE VRAGEN",
+    "criteriaTitle": "Vergelijk de workflows die voor uw operatie belangrijk zijn.",
+    "columns": [
+      "Evaluatiegebied",
+      "Vraag om te beantwoorden",
+      "Sundae-capaciteit"
+    ],
+    "criteria": [
+      [
+        "Dagelijkse operaties",
+        "Kunnen managers werk toewijzen, overdrachten beheren, uitzonderingen beoordelen en context in de volgende shift dragen?",
+        "Sundae Crew, taakbeheer, digitaal logboek en Pulse"
+      ],
+      [
+        "Personeelsoperaties",
+        "Hoe verbinden roostering, aanwezigheid, HR, payroll-klaarheid en tip-workflows zich met het operationele overzicht?",
+        "Sundae Crew · Personeelsintelligentie"
+      ],
+      [
+        "Besluitvormingondersteuning",
+        "Helpt het platform het team te begrijpen wat veranderde, waarom het belangrijk is en wat de volgende stap is?",
+        "Ask Sundae, Insights, Foresight en Watchtower"
+      ],
+      [
+        "Gemeten uitkomsten",
+        "Kan de operator een actie vastleggen, eigenaarschap toewijzen en het resultaat vergelijken met een basislijn?",
+        "Core en Profit Recovery"
+      ],
+      [
+        "Regionale fit",
+        "Kan het operationele model de landen, partners, wettelijke workflows en lokale processen in scope ondersteunen?",
+        "Beoordeel Crew’s regiopakketten, exports en partneroverdrachten tegenover het daadwerkelijke rollout-plan"
+      ],
+      [
+        "Platformgrens",
+        "Welke systemen blijven gezaghebbend voor accounting, POS, payroll, voorraad en andere records?",
+        "Documenteer het integratie- en system-of-record-model voordat u een platform kiest"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Wat is Restaurant365?",
+        "body": "Restaurant365 beschrijft zijn platform als restaurant-specifiek en alles-in-één, met accounting, operaties, personeel en AI. Lees de actuele productinformatie direct voordat u de fit vergelijkt."
+      },
+      {
+        "title": "Waarop moet een Restaurant365-alternatief worden geëvalueerd?",
+        "body": "Vergelijk de dagelijkse operationele workflows, system-of-record-grenzen, diepte van personeelsfunctionaliteit, regionale vereisten, integraties, besluitvormingondersteuning en de manier waarop een actie wordt gemeten nadat deze is uitgevoerd."
+      },
+      {
+        "title": "Waar past Sundae?",
+        "body": "Sundae verbindt mensen, dagelijkse workflows, operationele data en gemeten beslissingen over multi-locatie hospitality- en foodservice-groepen. Crew beheert personeel en dagelijkse uitvoering; Core brengt bewijs, beslissingen en uitkomsten samen in één operationeel overzicht."
+      }
+    ],
+    "sourcesEyebrow": "PRIMAIRE BRONNEN",
+    "sourcesTitle": "Lees de productdefinities en test ze vervolgens tegen uw operatie.",
+    "sourcesDescription": "Gebruik de actuele productinformatie van Restaurant365 naast Sundae’s eigen beschrijvingen. Valideer workflowdiepte, regionale vereisten en integratiegrenzen met de mensen die het platform zullen gebruiken.",
+    "sourceLabels": [
+      "Restaurant365 AI-informatie",
+      "Restaurant365 personeel",
+      "Restaurant365 logboek"
+    ],
+    "ctaTitle": "Breng uw operationeel model.",
+    "ctaDescription": "Breng de workflows, systemen en uitkomstmaten in kaart die uw groep nodig heeft op elke locatie.",
+    "ctaLabel": "Plan een werksessie",
+    "metaTitle": "Restaurant365-alternatief voor multi-locatie operators | Sundae",
+    "metaDescription": "Vergelijk Restaurant365-alternatieven op dagelijkse workflows, personeelsoperaties, regionale vereisten, integraties en besluitvormingondersteuning."
+  }
+}

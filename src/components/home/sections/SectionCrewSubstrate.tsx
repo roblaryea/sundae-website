@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
 import { crewBandCopy } from "./crewBandCopy";
 
 /**
@@ -17,6 +18,7 @@ export function SectionCrewSubstrate() {
   const copy = crewBandCopy[locale as keyof typeof crewBandCopy] ?? crewBandCopy.en;
 
   return (
+    <>
     <section
       className="relative overflow-hidden border-y border-[var(--border-default)] bg-[var(--navy-deep)] px-4 py-24 sm:px-6 sm:py-28 lg:px-8"
       style={{
@@ -67,6 +69,8 @@ export function SectionCrewSubstrate() {
         </FadeUp>
       </div>
     </section>
+    <OperatorWorkflowLinks />
+    </>
   );
 }
 

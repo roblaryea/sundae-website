@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Management operațional pentru ospitalitate și servicii alimentare",
+    "description": "Gestionează schimburile, forța de muncă, sarcinile și performanța în operațiuni multi-locație de ospitalitate și servicii alimentare. Conectează munca zilnică la decizii și la recuperarea profitului măsurată.",
+    "eyebrow": "Management operațional pentru ospitalitate și servicii alimentare",
+    "sub": "Condu fiecare schimb în fiecare locație. Sundae conectează programarea, prezența, sarcinile și predările cu datele operaționale - astfel echipele știu ce să facă în continuare și pot măsura ce s-a schimbat.",
+    "productTitle": "O platformă. Munca zilnică până la decizii măsurate.",
+    "productDescription": "Adună forța de muncă, execuția schimburilor și datele operaționale conectate într-o singură imagine operațională. Crew ajută echipele să desfășoare activitatea; Core le ajută să înțeleagă performanța, să decidă ce urmează și să măsoare rezultatul.",
+    "coreDescription": "Spațiul decizional pentru echipele multi-locație din ospitalitate și servicii alimentare. Conectează datele operaționale, inspectează dovezile, atribuie următoarea acțiune și măsoară rezultatul.",
+    "crewDescription": "Forța de muncă și operațiunile zilnice pentru grupurile din ospitalitate și servicii alimentare. Conectează programarea, prezența, sarcinile, predările, evidențele de personal și pregătirea pentru salarizare în fiecare locație.",
+    "productMetaTitle": "Platforma Sundae | Management operațional și Inteligență pentru decizii",
+    "coreMetaTitle": "Sundae Core | Spațiu decizional pentru ospitalitate și servicii alimentare",
+    "crewMetaTitle": "Sundae Crew | Forța de muncă și operațiuni zilnice",
+    "illustrationDisclosure": "Exemplu ilustrativ, nu un rezultat al unui client."
+  },
+  "shared": {
+    "primaryCta": "Programează o demonstrație",
+    "secondaryCta": "Vezi Sundae Crew",
+    "rhythmEyebrow": "RITMUL OPERAȚIONAL",
+    "steps": [
+      "Capturarea activității",
+      "Păstrarea contextului",
+      "Atribuirea următoarei acțiuni",
+      "Măsurarea modificărilor"
+    ],
+    "creamEyebrow": "STRATUL OPERAȚIONAL",
+    "creamStatement": "Munca este capturată. Contextul este păstrat. *Acțiunea este măsurată.*",
+    "creamLede": "Sundae Crew conectează munca operațională zilnică la decizii în întreaga platformă.",
+    "problemEyebrow": "PROBLEMA OPERATORULUI",
+    "problemTitle": "Munca zilnică dispare când responsabilitatea nu e clară.",
+    "helpEyebrow": "CUM AJUTĂ SUNDAE",
+    "helpTitle": "Fluxul de lucru rămâne conectat la operațiune.",
+    "outcomesEyebrow": "CE SE SCHIMBĂ",
+    "outcomesTitle": "De la un registru al activității la un ritm operațional repetabil.",
+    "faqEyebrow": "ÎNTREBĂRI ALE OPERATORULUI",
+    "faqTitle": "Răspunsuri înainte de a schimba fluxul de lucru.",
+    "connectedEyebrow": "OPERAȚIUNI CONECTATE",
+    "connectedTitle": "Fluxul de lucru face parte din bucla operațională Sundae.",
+    "connectedDescription": "Crew capturează munca. Pulse scoate în evidență excepțiile. Insights, Foresight și Profit Recovery ajută echipa să decidă ce urmează și să măsoare ce s-a schimbat.",
+    "ctaTitle": "Vezi fluxul de lucru în operațiunea ta.",
+    "ctaDescription": "Adu o problemă operațională reală. Vezi cum munca, dovezile și următoarea acțiune rămân conectate."
+  },
+  "links": {
+    "eyebrow": "OPERAȚIUNI ZILNICE",
+    "title": "Porneste de la munca pe care echipa ta trebuie s-o desfășoare.",
+    "description": "Explorează fluxurile de lucru, apoi vezi cum se conectează în întreaga platformă Sundae.",
+    "platform": "Management operațional",
+    "tasks": "Sarcini și liste de verificare",
+    "logbook": "Jurnal digital și predare de schimb",
+    "tips": "Fluxuri pentru bacșisuri",
+    "scheduling": "Programarea personalului",
+    "attendance": "Pontaj și prezență",
+    "payroll": "Pregătire salarizare",
+    "comparison": "Ghid de evaluare a platformei"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · PLATFORMĂ OPERAȚIONALĂ PENTRU OSPITALITATE ȘI SERVICII ALIMENTARE",
+      "title": "Software de management pentru restaurante pentru fiecare schimb și fiecare locație.",
+      "description": "Sundae aduce programarea, prezența, sarcinile, predările și datele operaționale conectate într-o singură platformă pentru grupuri multi-locație din ospitalitate și servicii alimentare. Rulează munca zilnică cu responsabilitate clară, folosește inteligența pentru a ghida deciziile și măsoară ce s-a schimbat.",
+      "challenges": [
+        "Programarea, prezența, sarcinile, predările, salarizarea și performanța trăiesc în sisteme separate fără un registru operațional comun.",
+        "Liderii regionali văd rapoarte izolate în loc de contextul din spatele unei excepții și persoana responsabilă pentru următoarea acțiune.",
+        "O îmbunătățire operațională e dificil de repetat când echipele nu pot compara ce s-a întâmplat, ce s-a schimbat și ce a funcționat."
+      ],
+      "capabilities": [
+        "Fluxuri pentru forța de muncă, programare și prezență",
+        "Sarcini, aprobări și predări de schimb",
+        "Inteligență conectată în operațiuni și performanță",
+        "Acțiuni măsurabile și recuperarea pierderilor de profit care pot fi prevenite"
+      ],
+      "outcomes": [
+        "Operatorii obțin un ritm operațional unic la nivel de branduri, locații și echipe.",
+        "Managerii pot acționa pe baza contextului în timp real, iar liderii văd tiparele la nivel de grup.",
+        "Fluxurile pentru restaurante intră în aceeași buclă de decizie și recuperare folosită în operațiunile de ospitalitate și servicii alimentare."
+      ],
+      "questions": [
+        {
+          "question": "Ce este software-ul de management pentru restaurante?",
+          "answer": "Conectează sistemele și fluxurile de lucru zilnice folosite pentru operarea locațiilor de restaurante, incluzând personalul, programele, sarcinile, predările, prezența, pregătirea pentru salarizare, datele operaționale și revizuirea performanței."
+        },
+        {
+          "question": "Sundae este doar pentru restaurante?",
+          "answer": "Sundae susține grupuri multi-locație din ospitalitate și servicii alimentare, inclusiv restaurante, cafenele, cloud kitchens și operatori de catering. Același model operațional conectează oamenii, fluxurile zilnice și deciziile măsurate în întreg grupul."
+        },
+        {
+          "question": "Unde se înscrie AI în platformă?",
+          "answer": "AI este încorporată în fluxul de lucru operațional pentru a ajuta echipele să înțeleagă contextul, să răspundă la întrebări operaționale, să recomande următoarele acțiuni și să revizuiască ce s-a schimbat."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Platformă de management pentru restaurante pentru operatori multi-locație | Sundae",
+      "metaDescription": "Sundae aduce programarea, prezența, sarcinile, predările și datele operaționale conectate într-o singură platformă pentru grupuri multi-locație din ospitalitate și servicii alimentare. Rulează munca zilnică cu responsabilitate clară, folosește inteligența pentru a ghida deciziile și măsoară ce s-a schimbat."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · GESTIONAREA SARCINILOR PENTRU RESTAURANTE",
+      "title": "Gestionarea sarcinilor pentru restaurante care rezistă în perioadele aglomerate.",
+      "description": "Atribuie munca de deschidere, închidere, recurentă și de excepție persoanei potrivite, urmărește finalizarea la nivelul locațiilor și păstrează dovezile în următoarea decizie operațională.",
+      "challenges": [
+        "Listele de verificare de deschidere și închidere sunt păstrate pe hârtie, în chat-uri sau în tabele pe care nimeni nu le poate audita ulterior.",
+        "Managerii regionali văd că o sarcină a fost ratată fără a vedea cine o avea în responsabilitate, ce a blocat-o sau dacă problema s-a repetat.",
+        "O sarcină este finalizată, dar semnalul operațional nu ajunge la program, manager sau la revizuirea performanței."
+      ],
+      "capabilities": [
+        "Liste de verificare pentru deschidere, închidere și recurente",
+        "Atribuiri după rol, locație, brand sau regiune",
+        "Aprobări manageriale și dovezi de finalizare",
+        "Escaladare a excepțiilor și urmărire"
+      ],
+      "outcomes": [
+        "Fiecare sarcină are un responsabil, un status și un pas următor vizibil.",
+        "Managerii pot compara tiparele de execuție între schimburi și locații.",
+        "Munca finalizată devine context pentru coaching, prioritizare și recuperare măsurată."
+      ],
+      "questions": [
+        {
+          "question": "Ce este un software de gestionare a sarcinilor pentru restaurante?",
+          "answer": "Oferă echipelor din restaurante o modalitate comună de a atribui, finaliza, aproba și revizui munca operațională zilnică precum listele de verificare pentru deschidere, închidere, siguranță, întreținere și servicii."
+        },
+        {
+          "question": "Poate gestionarea sarcinilor să funcționeze la mai multe locații?",
+          "answer": "Sundae Crew este conceput pentru responsabilitate la nivel de rol, locație, brand și regiune, astfel încât operatorii pot standardiza munca păstrând vizibilă responsabilitatea locală."
+        },
+        {
+          "question": "Cum se conectează gestionarea sarcinilor la performanța restaurantului?",
+          "answer": "Statusul sarcinilor și dovezile pot deveni context operațional pentru urmărirea de către manager, revizuirea excepțiilor și deciziile măsurate prin bucla operațională Sundae."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Management operațional",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Software de gestionare a sarcinilor pentru restaurante | Sundae",
+      "metaDescription": "Atribuie munca de deschidere, închidere, recurentă și de excepție persoanei potrivite, urmărește finalizarea la nivelul locațiilor și păstrează dovezile în următoarea decizie operațională."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · JURNAL ȘI PREDARE DE SCHIMB",
+      "title": "Un jurnal digital pentru restaurante pentru fiecare schimb.",
+      "description": "Păstrează notele managerilor, predările de schimb, problemele și urmările într-un singur registru operațional căutabil, ca să echipa următoare înceapă cu context, nu cu presupuneri.",
+      "challenges": [
+        "Detaliile importante de predare se pierd în cărți pe hârtie, chat-uri de grup sau în memoria managerilor individuali.",
+        "Aceeași problemă de întreținere, serviciu sau personal se repetă pentru că nimeni nu găsește contextul anterior.",
+        "Se înregistrează o notă, dar niciun responsabil, sarcină sau rezultat măsurat nu o preia mai departe."
+      ],
+      "capabilities": [
+        "Note de schimb și predări manageriale",
+        "Înregistrări de probleme, alerte și urmări",
+        "Istoric căutabil între locații",
+        "Leagă notele de sarcini, responsabili și context operațional"
+      ],
+      "outcomes": [
+        "Fiecare schimb începe cu contextul de care managerul are nevoie.",
+        "Echipele regionale pot identifica probleme recurente în loc să trateze fiecare schimb ca un eveniment nou.",
+        "Comunicarea devine un registru care susține acțiunea, coaching-ul și îmbunătățirea măsurată."
+      ],
+      "questions": [
+        {
+          "question": "Ce este un jurnal digital pentru restaurante?",
+          "answer": "Este un registru operațional comun pentru notele de schimb, predări, probleme, actualizări manageriale și urmări între una sau mai multe locații de restaurant."
+        },
+        {
+          "question": "Ce ar trebui să includă o predare de schimb la restaurant?",
+          "answer": "O predare utilă capturează ce s-a întâmplat, ce necesită atenție, cine deține următoarea acțiune și ce ar trebui să știe echipa care intră înainte de serviciu."
+        },
+        {
+          "question": "Poate un jurnal să se conecteze la gestionarea sarcinilor pentru restaurante?",
+          "answer": "Da. Modelul operațional Sundae conectează comunicarea și urmarea astfel încât o notă să poată conduce la o sarcină atribuită, o aprobare sau o revizuire a rezultatului."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Sarcini și liste de verificare",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Management operațional",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Jurnal digital pentru restaurante și predare de schimb | Sundae",
+      "metaDescription": "Păstrează notele managerilor, predările de schimb, problemele și urmările într-un singur registru operațional căutabil, ca să echipa următoare înceapă cu context, nu cu presupuneri."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · FLUXURI PENTRU BACȘISURI",
+      "title": "Fluxuri pentru bacșisuri pregătite pentru revizuire.",
+      "description": "Adună regulile pentru bacșisuri, contextul personalului, pașii de revizuire și pregătirea pentru salarizare într-un singur flux pe care managerii și echipele de salarizare îl pot explica.",
+      "challenges": [
+        "Calcularea bacșisurilor depinde de reguli, roluri, locații și date sursă care adesea sunt reconciliate manual.",
+        "Managerii și echipele de salarizare trebuie să revizuiască excepțiile fără a pierde dovezile de bază.",
+        "Echipa poate finaliza un ciclu de salarizare fără a înțelege ce modele de personal, prezență sau servicii au schimbat rezultatul."
+      ],
+      "capabilities": [
+        "Fluxuri configurabile pentru pool de bacșisuri și distribuire",
+        "Context de revizuire pe rol, locație și perioadă de plată",
+        "Aprobarea excepțiilor și capturarea dovezilor",
+        "Handoff pregătit pentru salarizare și inteligență pentru forța de muncă"
+      ],
+      "outcomes": [
+        "Fluxurile pentru bacșisuri devin revizuibile și explicabile înainte de predare.",
+        "Managerii și echipele de salarizare împart un registru operațional unic pentru excepții.",
+        "Semnalele din forța de muncă și prezență pot informa deciziile care urmează ciclului de plată."
+      ],
+      "questions": [
+        {
+          "question": "Ce este un software de gestionare a bacșișurilor pentru restaurante?",
+          "answer": "Sprijină regulile, calculele, pașii de revizuire și predarea necesare pentru administrarea bacșișurilor între roluri, locații și perioade de plată din restaurante."
+        },
+        {
+          "question": "Gestionarea bacșișurilor trebuie să se conecteze la salarizare?",
+          "answer": "Fluxurile pentru bacșisuri sunt cele mai utile atunci când revizuirea și dovezile pot trece în pregătirea salarizării sau într-un transfer către partener fără a recrea munca într-un alt tabel."
+        },
+        {
+          "question": "Cum conectează Sundae fluxurile pentru bacșișuri la operațiuni?",
+          "answer": "Crew conectează fluxurile pentru bacșisuri și forța de muncă la programare, prezență, pregătire pentru salarizare și stratul mai larg de inteligență decizională astfel încât echipele să poată revizui ce s-a schimbat și de ce."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Pregătire salarizare",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Pontaj și prezență",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Informații despre forța de muncă",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Software pentru gestionarea bacșișurilor în restaurante | Sundae Crew",
+      "metaDescription": "Adună regulile pentru bacșisuri, contextul personalului, pașii de revizuire și pregătirea pentru salarizare într-un singur flux pe care managerii și echipele de salarizare îl pot explica."
+    }
+  },
+  "comparison": {
+    "eyebrow": "GHID DE EVALUARE A PLATFORMEI",
+    "title": "Evaluezi o alternativă la Restaurant365? Începe cu modelul operațional.",
+    "description": "Restaurant365 este o platformă de management pentru restaurante. Sundae aduce management operațional și inteligență pentru decizii grupurilor multi-locație din ospitalitate și servicii alimentare. Compară fluxurile de lucru de care are nevoie echipa ta, sistemele pe care le păstrezi și modul în care măsori rezultatul.",
+    "primaryCta": "Comparați modelul operațional",
+    "secondaryCta": "Explorează platforma operațională Sundae",
+    "criteriaEyebrow": "PUNE ACELEAȘI ÎNTREBĂRI FIECĂREI PLATFORME",
+    "criteriaTitle": "Compară fluxurile care contează pentru operațiunea ta.",
+    "columns": [
+      "Domeniu de evaluare",
+      "Întrebare de răspuns",
+      "Capabilitate Sundae"
+    ],
+    "criteria": [
+      [
+        "Operațiuni zilnice",
+        "Pot managerii să atribuie munca, să gestioneze predările, să revizuiască excepțiile și să păstreze contextul pentru schimbul următor?",
+        "Sundae Crew, gestionarea sarcinilor, jurnal digital și Pulse"
+      ],
+      [
+        "Operațiuni pentru forța de muncă",
+        "Cum se conectează programarea, prezența, HR, pregătirea pentru salarizare și fluxurile pentru bacșisuri la imaginea operațională?",
+        "Sundae Crew · Informații despre forța de muncă"
+      ],
+      [
+        "Suport pentru decizii",
+        "Platforma ajută echipa să înțeleagă ce s-a schimbat, de ce contează și ce să facă în continuare?",
+        "Ask Sundae, Insights, Foresight și Watchtower"
+      ],
+      [
+        "Rezultate măsurate",
+        "Poate operatorul să înregistreze o acțiune, să atribuie responsabilitate și să compare rezultatul cu un reper?",
+        "Core și Profit Recovery"
+      ],
+      [
+        "Adecvarea regională",
+        "Poate modelul operațional susține țările, partenerii, fluxurile de lucru statutare și procesele locale din domeniu?",
+        "Revizuiește pachetele regionale ale Crew, exporturile și transferurile către parteneri în raport cu planul de implementare"
+      ],
+      [
+        "Limitele platformei",
+        "Care sisteme rămân autoritare pentru contabilitate, POS, salarizare, inventar și alte registre?",
+        "Documentează integrarea și modelul sistemului de înregistrare înainte de a alege o platformă"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Ce este Restaurant365?",
+        "body": "Restaurant365 își descrie platforma ca fiind specifică restaurantelor și all-in-one, acoperind contabilitate, operațiuni, forța de muncă și AI. Citește informațiile actuale despre produs direct înainte de a compara compatibilitatea."
+      },
+      {
+        "title": "Pe ce ar trebui evaluată o alternativă la Restaurant365?",
+        "body": "Compară fluxurile operaționale zilnice, limitele sistemului de înregistrare, profunzimea forței de muncă, cerințele regionale, integrările, suportul decizional și modul în care o acțiune este măsurată după ce este executată."
+      },
+      {
+        "title": "Unde se potrivește Sundae?",
+        "body": "Sundae conectează oamenii, fluxurile de lucru zilnice, datele operaționale și deciziile măsurate în grupuri multi-locație din ospitalitate și servicii alimentare. Crew gestionează forța de muncă și execuția zilnică; Core aduce dovezile, deciziile și rezultatele într-o singură imagine operațională."
+      }
+    ],
+    "sourcesEyebrow": "SURSE PRINCIPALE",
+    "sourcesTitle": "Citește definițiile produselor, apoi testeaz-le față de operațiunea ta.",
+    "sourcesDescription": "Folosește informațiile actuale despre produs ale Restaurant365 împreună cu descrierile Sundae. Verifică profunzimea fluxurilor, cerințele regionale și limitele integrării cu persoanele care vor folosi platforma.",
+    "sourceLabels": [
+      "Informații AI Restaurant365",
+      "Forța de muncă Restaurant365",
+      "Jurnal Restaurant365"
+    ],
+    "ctaTitle": "Adu modelul tău operațional.",
+    "ctaDescription": "Cartografiază fluxurile de lucru, sistemele și măsurătorile rezultatelor de care are nevoie grupul tău în fiecare locație.",
+    "ctaLabel": "Programează o sesiune de lucru",
+    "metaTitle": "Alternativă la Restaurant365 pentru operatori multi-locație | Sundae",
+    "metaDescription": "Compară alternativele la Restaurant365 după fluxurile zilnice, operațiunile forței de muncă, cerințele regionale, integrări și suportul decizional."
+  }
+}

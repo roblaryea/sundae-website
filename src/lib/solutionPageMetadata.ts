@@ -89,7 +89,7 @@ export function buildResolvedPageMetadata({
   const localizedPathname = getLocalizedPathname(pathname, locale);
 
   return {
-    title,
+    title: title.includes('Sundae') ? { absolute: title } : title,
     description,
     openGraph: {
       type: "website",

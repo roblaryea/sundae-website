@@ -7,6 +7,7 @@ import { recoveryLoopCopy } from "./recoveryLoopCopy";
 import { resolveRecoveryFigure, type RecoveryFigure } from "@/lib/recovery-figure";
 import type { WebsiteLocale } from "@/lib/i18n";
 import { positioningCopy } from "@/generated-locales/positioning_recovery";
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 
 /**
  * RecoveryLoop - the homepage hero-1 signature. The visual IS the message:
@@ -122,7 +123,7 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
           </span>
         </div>
 
-        <svg viewBox="0 0 472 388" className="block w-full" role="img" aria-label={`${copy.loopTitle}: ${stages.join(", ")}. ${finalStr} ${copy.recoveredThisWeek}, ${copy.measuredVsBaseline}.`}>
+        <svg viewBox="0 0 472 388" className="block w-full" role="img" aria-label={`${operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.illustrationDisclosure} ${copy.loopTitle}: ${stages.join(", ")}. ${finalStr} ${copy.recoveredThisWeek}, ${copy.measuredVsBaseline}.`}>
           <defs>
             <linearGradient id="recoveryLoopGrad" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0" stopColor="#F6C66B" />
@@ -212,6 +213,7 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
             {copy.measuredVsBaseline}
           </text>
         </svg>
+        <p className="px-5 pb-5 text-center text-xs leading-relaxed text-white/60">{operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.illustrationDisclosure}</p>
       </div>
     </motion.div>
   );

@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Operations Management for Hospitality and Food-Service",
+    "description": "Manage shifts, workforce, tasks and performance across multi-location hospitality and food-service operations. Connect daily work to decisions and measured profit recovery.",
+    "eyebrow": "Operations management for hospitality and food-service",
+    "sub": "Run every shift across every location. Sundae connects scheduling, attendance, tasks and handovers with operating data - so teams know what to do next and can measure what changed.",
+    "productTitle": "One platform. Daily work to measured decisions.",
+    "productDescription": "Bring workforce, shift execution and connected operating data into one operating picture. Crew helps teams run the work; Core helps them understand performance, decide what to do next and measure the result.",
+    "coreDescription": "The decision workspace for multi-location hospitality and food-service teams. Connect operating data, inspect the evidence, assign the next action and measure the outcome.",
+    "crewDescription": "Workforce and daily operations for hospitality and food-service groups. Connect scheduling, attendance, tasks, handovers, people records and payroll readiness across every location.",
+    "productMetaTitle": "Sundae Platform | Operations and Decision Intelligence",
+    "coreMetaTitle": "Sundae Core | Decision Workspace for Hospitality and Food-Service",
+    "crewMetaTitle": "Sundae Crew | Workforce and Daily Operations",
+    "illustrationDisclosure": "Illustrative example. Not a customer result."
+  },
+  "shared": {
+    "primaryCta": "Book a walkthrough",
+    "secondaryCta": "See Sundae Crew",
+    "rhythmEyebrow": "THE OPERATING RHYTHM",
+    "steps": [
+      "Capture the work",
+      "Carry the context",
+      "Assign the next action",
+      "Measure what changed"
+    ],
+    "creamEyebrow": "THE OPERATING LAYER",
+    "creamStatement": "Work is captured. Context is carried. *Action is measured.*",
+    "creamLede": "Sundae Crew connects daily operating work to decisions across the wider platform.",
+    "problemEyebrow": "THE OPERATOR PROBLEM",
+    "problemTitle": "Daily work disappears when ownership is unclear.",
+    "helpEyebrow": "HOW SUNDAE HELPS",
+    "helpTitle": "The workflow stays connected to the operation.",
+    "outcomesEyebrow": "WHAT CHANGES",
+    "outcomesTitle": "From a record of work to a repeatable operating rhythm.",
+    "faqEyebrow": "OPERATOR QUESTIONS",
+    "faqTitle": "Answers before you change the workflow.",
+    "connectedEyebrow": "CONNECTED OPERATIONS",
+    "connectedTitle": "The workflow is part of Sundae’s operating loop.",
+    "connectedDescription": "Crew captures the work. Pulse surfaces the exception. Insights, Foresight and Profit Recovery help the team decide what to do next and measure what changed.",
+    "ctaTitle": "See the workflow in your operation.",
+    "ctaDescription": "Bring one real operating problem. See how the work, the evidence and the next action stay connected."
+  },
+  "links": {
+    "eyebrow": "DAILY OPERATIONS",
+    "title": "Start with the work your team needs to run.",
+    "description": "Explore the workflows, then see how they connect across the wider Sundae platform.",
+    "platform": "Operations management",
+    "tasks": "Tasks and checklists",
+    "logbook": "Digital logbook and shift handover",
+    "tips": "Tip workflows",
+    "scheduling": "Staff scheduling",
+    "attendance": "Time and attendance",
+    "payroll": "Payroll readiness",
+    "comparison": "Platform evaluation guide"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · HOSPITALITY AND FOOD-SERVICE OPERATING PLATFORM",
+      "title": "Restaurant management software for every shift and every location.",
+      "description": "Sundae brings scheduling, attendance, tasks, handovers and connected operating data into one platform for multi-location hospitality and food-service groups. Run daily work with clear ownership, use intelligence to guide decisions and measure what changed.",
+      "challenges": [
+        "Scheduling, attendance, tasks, handovers, payroll and performance live in separate systems with no shared operating record.",
+        "Regional leaders see isolated reports instead of the context behind an exception and the person responsible for the next action.",
+        "An operating improvement is hard to repeat when teams cannot compare what happened, what changed and what worked."
+      ],
+      "capabilities": [
+        "Workforce, scheduling and attendance workflows",
+        "Tasks, approvals and shift handovers",
+        "Connected intelligence across operations and performance",
+        "Measured action and recovery of preventable profit loss"
+      ],
+      "outcomes": [
+        "Operators get one operating rhythm across brands, locations and teams.",
+        "Managers can act on live context while leaders see the pattern across the group.",
+        "Restaurant workflows lead into the same decision and recovery loop used across hospitality and food-service operations."
+      ],
+      "questions": [
+        {
+          "question": "What is restaurant management software?",
+          "answer": "It connects the daily systems and workflows used to run restaurant locations, including people, schedules, tasks, handovers, attendance, payroll readiness, operating data and performance review."
+        },
+        {
+          "question": "Is Sundae only for restaurants?",
+          "answer": "Sundae supports multi-location hospitality and food-service groups, including restaurants, cafés, cloud kitchens and catering operators. The same operating model connects people, daily workflows and measured decisions across the group."
+        },
+        {
+          "question": "Where does AI fit into the platform?",
+          "answer": "AI is embedded in the operating workflow to help teams understand context, answer operating questions, recommend next actions and review what changed."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Restaurant Management Platform for Multi-Location Operators | Sundae",
+      "metaDescription": "Sundae brings scheduling, attendance, tasks, handovers and connected operating data into one platform for multi-location hospitality and food-service groups. Run daily work with clear ownership, use intelligence to guide decisions and measure what changed."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · RESTAURANT TASK MANAGEMENT",
+      "title": "Restaurant task management that survives the rush.",
+      "description": "Assign opening, closing, recurring and exception work to the right person, track completion across locations and carry the evidence into the next operating decision.",
+      "challenges": [
+        "Opening and closing checklists live in paper, chat threads or spreadsheets that no one can audit later.",
+        "Regional managers see that a task was missed without seeing who owned it, what blocked it or whether the issue repeated.",
+        "A task gets completed, but the operating signal never reaches the schedule, the manager or the performance review."
+      ],
+      "capabilities": [
+        "Opening, closing and recurring checklists",
+        "Assignments by role, site, brand or region",
+        "Manager approvals and completion evidence",
+        "Exception escalation and follow-through"
+      ],
+      "outcomes": [
+        "Every task has an owner, a status and a visible next step.",
+        "Managers can compare execution patterns across shifts and locations.",
+        "Completed work becomes context for coaching, prioritization and measured recovery."
+      ],
+      "questions": [
+        {
+          "question": "What is restaurant task management software?",
+          "answer": "It gives restaurant teams a shared way to assign, complete, approve and review daily operating work such as opening, closing, safety, maintenance and service checklists."
+        },
+        {
+          "question": "Can task management work across multiple locations?",
+          "answer": "Sundae Crew is designed for role, site, brand and region ownership so operators can standardize work while keeping local accountability visible."
+        },
+        {
+          "question": "How does task management connect to restaurant performance?",
+          "answer": "Task status and evidence can become operating context for manager follow-up, exception review and the decisions measured through Sundae’s operating loop."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Operations management",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Restaurant Task Management Software | Sundae",
+      "metaDescription": "Assign opening, closing, recurring and exception work to the right person, track completion across locations and carry the evidence into the next operating decision."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · LOGBOOK AND SHIFT HANDOVER",
+      "title": "A digital restaurant logbook for every shift.",
+      "description": "Keep manager notes, shift handovers, issues and follow-up in one searchable operating record, so the next team starts with context instead of guesswork.",
+      "challenges": [
+        "Important handover details disappear into paper books, group chats or individual manager memory.",
+        "The same maintenance, service or staffing issue repeats because no one can find the prior context.",
+        "A note is recorded, but no owner, task or measured outcome carries it forward."
+      ],
+      "capabilities": [
+        "Shift notes and manager handovers",
+        "Issues, alerts and follow-up records",
+        "Searchable history across locations",
+        "Link notes to tasks, owners and operating context"
+      ],
+      "outcomes": [
+        "Every shift begins with the context the manager needs.",
+        "Regional teams can spot recurring issues instead of treating each shift as a new event.",
+        "Communication becomes a record that supports action, coaching and measured improvement."
+      ],
+      "questions": [
+        {
+          "question": "What is a digital restaurant logbook?",
+          "answer": "It is a shared operating record for shift notes, handovers, issues, manager updates and follow-up across one or more restaurant locations."
+        },
+        {
+          "question": "What should a restaurant shift handover include?",
+          "answer": "A useful handover captures what happened, what needs attention, who owns the next action and what the incoming team should know before service."
+        },
+        {
+          "question": "Can a logbook connect to restaurant task management?",
+          "answer": "Yes. Sundae’s operating model connects communication and follow-up so a note can lead to an assigned task, an approval or a review of the outcome."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Tasks and checklists",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Operations management",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Digital Restaurant Logbook and Shift Handover | Sundae",
+      "metaDescription": "Keep manager notes, shift handovers, issues and follow-up in one searchable operating record, so the next team starts with context instead of guesswork."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · TIP WORKFLOWS",
+      "title": "Restaurant tip workflows ready for review.",
+      "description": "Bring tip rules, staff context, review steps and payroll readiness into one workflow that managers and payroll teams can explain.",
+      "challenges": [
+        "Tip calculations depend on rules, roles, locations and source data that are often reconciled manually.",
+        "Managers and payroll teams need to review exceptions without losing the underlying evidence.",
+        "The team can finish a payroll cycle without learning which staffing, attendance or service patterns changed the result."
+      ],
+      "capabilities": [
+        "Configurable tip pool and distribution workflows",
+        "Role, location and pay-period review context",
+        "Exception approval and evidence capture",
+        "Payroll-ready handoff and workforce intelligence"
+      ],
+      "outcomes": [
+        "Tip workflows become reviewable and explainable before handoff.",
+        "Managers and payroll teams share one operating record for exceptions.",
+        "Workforce and attendance signals can inform the decisions that follow the pay cycle."
+      ],
+      "questions": [
+        {
+          "question": "What is restaurant tip management software?",
+          "answer": "It supports the rules, calculations, review steps and handoff required to manage tips across restaurant roles, locations and pay periods."
+        },
+        {
+          "question": "Does tip management need to connect to payroll?",
+          "answer": "Tip workflows are most useful when their review and evidence can move into payroll readiness or a partner handoff without recreating the work in another spreadsheet."
+        },
+        {
+          "question": "How does Sundae connect tip workflows to operations?",
+          "answer": "Crew connects tip and workforce workflows to scheduling, attendance, payroll readiness and the wider decision-intelligence layer so teams can review what changed and why."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Payroll readiness",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Time and attendance",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Workforce Intelligence",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Restaurant Tip Management Software | Sundae Crew",
+      "metaDescription": "Bring tip rules, staff context, review steps and payroll readiness into one workflow that managers and payroll teams can explain."
+    }
+  },
+  "comparison": {
+    "eyebrow": "PLATFORM EVALUATION GUIDE",
+    "title": "Evaluating a Restaurant365 alternative? Start with the operating model.",
+    "description": "Restaurant365 is a restaurant management platform. Sundae brings operations management and decision intelligence to multi-location hospitality and food-service groups. Compare the workflows your team needs, the systems you keep and how you measure the result.",
+    "primaryCta": "Compare your operating model",
+    "secondaryCta": "Explore Sundae’s operating platform",
+    "criteriaEyebrow": "ASK EVERY PLATFORM THE SAME QUESTIONS",
+    "criteriaTitle": "Compare the workflows that matter to your operation.",
+    "columns": [
+      "Evaluation area",
+      "Question to answer",
+      "Sundae capability"
+    ],
+    "criteria": [
+      [
+        "Daily operations",
+        "Can managers assign work, manage handovers, review exceptions and carry context into the next shift?",
+        "Sundae Crew, task management, digital logbook and Pulse"
+      ],
+      [
+        "Workforce operations",
+        "How do scheduling, attendance, HR, payroll readiness and tip workflows connect to the operating picture?",
+        "Sundae Crew · Workforce Intelligence"
+      ],
+      [
+        "Decision support",
+        "Does the platform help the team understand what changed, why it matters and what to do next?",
+        "Ask Sundae, Insights, Foresight and Watchtower"
+      ],
+      [
+        "Measured outcomes",
+        "Can the operator record an action, assign ownership and compare the outcome with a baseline?",
+        "Core and Profit Recovery"
+      ],
+      [
+        "Regional fit",
+        "Can the operating model support the countries, partners, statutory workflows and local processes in scope?",
+        "Review Crew’s region packs, exports and partner handoffs against the actual rollout plan"
+      ],
+      [
+        "Platform boundary",
+        "Which systems remain authoritative for accounting, POS, payroll, inventory and other records?",
+        "Document the integration and system-of-record model before choosing a platform"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "What is Restaurant365?",
+        "body": "Restaurant365 describes its platform as restaurant-specific and all-in-one, spanning accounting, operations, workforce and AI. Read its current product information directly before comparing fit."
+      },
+      {
+        "title": "What should a Restaurant365 alternative be evaluated on?",
+        "body": "Compare the daily operating workflows, system-of-record boundaries, workforce depth, regional requirements, integrations, decision support and the way an action is measured after it is taken."
+      },
+      {
+        "title": "Where does Sundae fit?",
+        "body": "Sundae connects people, daily workflows, operating data and measured decisions across multi-location hospitality and food-service groups. Crew manages workforce and daily execution; Core brings evidence, decisions and outcomes into one operating picture."
+      }
+    ],
+    "sourcesEyebrow": "PRIMARY SOURCES",
+    "sourcesTitle": "Read the product definitions, then test them against your operation.",
+    "sourcesDescription": "Use Restaurant365’s current product information alongside Sundae’s own descriptions. Validate workflow depth, regional requirements and integration boundaries with the people who will use the platform.",
+    "sourceLabels": [
+      "Restaurant365 AI information",
+      "Restaurant365 workforce",
+      "Restaurant365 logbook"
+    ],
+    "ctaTitle": "Bring your operating model.",
+    "ctaDescription": "Map the workflows, systems and outcome measures your group needs across every location.",
+    "ctaLabel": "Book a working session",
+    "metaTitle": "Restaurant365 Alternative for Multi-Location Operators | Sundae",
+    "metaDescription": "Compare Restaurant365 alternatives by daily workflows, workforce operations, regional requirements, integrations and decision support."
+  }
+}

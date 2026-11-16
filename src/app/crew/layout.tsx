@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
-import { generatedLocalCopy } from "@/generated-locales/app_crew_page";
-import { resolveWebsiteLocale } from "@/lib/i18n";
-import { buildCrewPageMetadata } from "@/lib/crewPageMetadata";
+import { resolveWebsiteLocale } from '@/lib/i18n';
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import { buildResolvedPageMetadata } from '@/lib/solutionPageMetadata';
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  return buildCrewPageMetadata({
-    locale,
-    pathname: "/crew",
-    englishTitle: "Restaurant Workforce and Operations Management Software - Sundae Crew",
-    englishDescription:
-      "Sundae Crew connects restaurant scheduling, task and approval workflows, shift communication, time and attendance, HR, tip workflows, payroll readiness and workforce intelligence for multi-location teams.",
-    generatedLocalCopy: generatedLocalCopy.localizedCopy,
-  });
+  const brand = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand;
+  return {
+    ...buildResolvedPageMetadata({ locale, pathname: '/crew', title: brand.crewMetaTitle, description: brand.crewDescription }),
+    title: { absolute: brand.crewMetaTitle },
+  };
 }
 
 export default function CrewLayout({ children }: { children: React.ReactNode }) {

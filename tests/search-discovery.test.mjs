@@ -145,9 +145,9 @@ test('Crew workforce pages expose localized metadata and AI discovery links', ()
     const source = fs.readFileSync(layoutPath, 'utf8')
     const pathname = route ? `/crew/${route}` : '/crew'
 
-    assert.match(source, /buildCrewPageMetadata/)
+    assert.match(source, route ? /buildCrewPageMetadata/ : /buildResolvedPageMetadata/)
     assert.match(source, /resolveWebsiteLocale\(await cookies\(\)\)/)
-    assert.match(source, /generatedLocalCopy:/)
+    assert.match(source, route ? /generatedLocalCopy:/ : /operatorNavigationCopy\[locale as keyof typeof operatorNavigationCopy\]\.brand/)
     assert.match(llms, new RegExp(`https:\\/\\/www\\.sundae\\.io${pathname.replaceAll('/', '\\/')}(?:\\)|:)`))
   }
 })

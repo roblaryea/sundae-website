@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Zarządzanie operacjami w gastronomii i usługach żywieniowych",
+    "description": "Zarządzaj zmianami, personelem, zadaniami i wynikami w wielolokalnych operacjach gastronomicznych i żywieniowych. Połącz codzienną pracę z decyzjami i mierzalnym odzyskiem zysku.",
+    "eyebrow": "Zarządzanie operacjami w gastronomii i usługach żywieniowych",
+    "sub": "Prowadź każdą zmianę w każdej lokalizacji. Sundae łącza harmonogramy, obecności, zadania i przekazania zmian z danymi operacyjnymi — tak zespoły wiedzą, co robić dalej i mogą zmierzyć, co się zmieniło.",
+    "productTitle": "Jedna platforma. Codzienna praca do mierzalnych decyzji.",
+    "productDescription": "Złącz zasoby ludzkie, realizację zmian i powiązane dane operacyjne w jeden obraz operacyjny. Crew pomaga zespołom wykonać pracę; Core pomaga zrozumieć wyniki, zdecydować, co dalej, i zmierzyć rezultat.",
+    "coreDescription": "Przestrzeń decyzyjna dla wielolokalnych zespołów gastronomii i usług żywieniowych. Połącz dane operacyjne, zbadaj dowody, przypisz kolejne działanie i zmierz wynik.",
+    "crewDescription": "Zarządzanie personelem i codzienne operacje dla grup gastronomicznych i żywieniowych. Połącz planowanie, obecność, zadania, przekazania zmian, rejestry osobowe i przygotowanie do płac we wszystkich lokalizacjach.",
+    "productMetaTitle": "Platforma Sundae | Zarządzanie operacjami i inteligencja decyzyjna",
+    "coreMetaTitle": "Sundae Core | Przestrzeń decyzyjna dla gastronomii i usług żywieniowych",
+    "crewMetaTitle": "Sundae Crew | Zarządzanie personelem i codzienne operacje",
+    "illustrationDisclosure": "Przykład ilustracyjny, nie wynik klienta."
+  },
+  "shared": {
+    "primaryCta": "Umów prezentację",
+    "secondaryCta": "Zobacz Sundae Crew",
+    "rhythmEyebrow": "RYTM OPERACYJNY",
+    "steps": [
+      "Zarejestruj pracę",
+      "Przenieś kontekst",
+      "Przypisz następne działanie",
+      "Zmierz, co się zmieniło"
+    ],
+    "creamEyebrow": "WARSTWA OPERACYJNA",
+    "creamStatement": "Praca jest rejestrowana. Kontekst jest przenoszony. *Działanie jest mierzone.*",
+    "creamLede": "Sundae Crew łączy codzienną pracę operacyjną z decyzjami w ramach całej platformy.",
+    "problemEyebrow": "PROBLEM OPERATORA",
+    "problemTitle": "Codzienna praca znika, gdy własność nie jest jasna.",
+    "helpEyebrow": "JAK SUNDAE POMAGA",
+    "helpTitle": "Przepływ pracy pozostaje powiązany z operacją.",
+    "outcomesEyebrow": "CO SIĘ ZMIENIA",
+    "outcomesTitle": "Od zapisu pracy do powtarzalnego rytmu operacyjnego.",
+    "faqEyebrow": "PYTANIA OPERATORÓW",
+    "faqTitle": "Odpowiedzi przed zmianą przepływu pracy.",
+    "connectedEyebrow": "POŁĄCZONE OPERACJE",
+    "connectedTitle": "Przepływ pracy jest częścią pętli operacyjnej Sundae.",
+    "connectedDescription": "Crew rejestruje pracę. Pulse uwidacznia wyjątki. Insights, Foresight i Profit Recovery pomagają zespołowi zdecydować, co dalej i zmierzyć, co się zmieniło.",
+    "ctaTitle": "Zobacz przepływ pracy w swojej operacji.",
+    "ctaDescription": "Przynieś jeden realny problem operacyjny. Zobacz, jak praca, dowody i następne działanie pozostają połączone."
+  },
+  "links": {
+    "eyebrow": "CODZIENNE OPERACJE",
+    "title": "Zacznij od pracy, którą Twój zespół musi wykonywać.",
+    "description": "Poznaj przepływy pracy, a potem zobacz, jak łączą się w szerszej platformie Sundae.",
+    "platform": "Zarządzanie operacjami",
+    "tasks": "Zadania i listy kontrolne",
+    "logbook": "Dziennik cyfrowy i przekazanie zmian",
+    "tips": "Przepływy rozliczeń napiwków",
+    "scheduling": "Harmonogramowanie personelu",
+    "attendance": "Czas i obecność",
+    "payroll": "Przygotowanie do listy płac",
+    "comparison": "Przewodnik oceny platformy"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · PLATFORM A OPERACJI DLA GASTRONOMII I USŁUG ŻYWIENIOWYCH",
+      "title": "Oprogramowanie do zarządzania restauracją dla każdej zmiany i każdej lokalizacji.",
+      "description": "Sundae łączy harmonogramowanie, obecność, zadania, przekazania zmian i powiązane dane operacyjne w jednej platformie dla wielolokalnych grup gastronomicznych i żywieniowych. Prowadź codzienną pracę z jasną odpowiedzialnością, używaj inteligencji do kierowania decyzjami i mierz, co się zmieniło.",
+      "challenges": [
+        "Harmonogramowanie, obecność, zadania, przekazania zmian, płace i wyniki żyją w oddzielnych systemach bez wspólnego zapisu operacyjnego.",
+        "Liderzy regionalni widzą izolowane raporty zamiast kontekstu leżącego u podstaw wyjątku i osoby odpowiedzialnej za następne działanie.",
+        "Udoskonalenie operacyjne trudno powtórzyć, gdy zespoły nie mogą porównać, co się wydarzyło, co się zmieniło i co zadziałało."
+      ],
+      "capabilities": [
+        "Przepływy pracy związane z personelem, harmonogramowaniem i obecnością",
+        "Zadania, zatwierdzenia i przekazania zmian",
+        "Powiązana inteligencja w obszarze operacji i wyników",
+        "Mierzalne działania i odzyskiwanie zysku utraconego wskutek strat, którym można zapobiec"
+      ],
+      "outcomes": [
+        "Operatorzy uzyskują jeden rytm operacyjny w ramach marek, lokalizacji i zespołów.",
+        "Kierownicy mogą działać na podstawie aktualnego kontekstu, podczas gdy liderzy widzą wzorce w całej grupie.",
+        "Przepływy pracy restauracyjne prowadzą do tej samej pętli decyzyjnej i odzysku używanej w całej gastronomii i usługach żywieniowych."
+      ],
+      "questions": [
+        {
+          "question": "Czym jest oprogramowanie do zarządzania restauracją?",
+          "answer": "Łączy codzienne systemy i przepływy pracy używane do prowadzenia lokali restauracyjnych, w tym osoby, harmonogramy, zadania, przekazania zmian, obecność, przygotowanie do płac, dane operacyjne i przegląd wyników."
+        },
+        {
+          "question": "Czy Sundae jest tylko dla restauracji?",
+          "answer": "Sundae wspiera wielolokalne grupy gastronomiczne i żywieniowe, w tym restauracje, kawiarnie, chmurowe kuchnie i operatorów kateringu. Ten sam model operacyjny łączy ludzi, codzienne przepływy pracy i mierzalne decyzje w całej grupie."
+        },
+        {
+          "question": "Gdzie AI pasuje do platformy?",
+          "answer": "AI jest osadzona w przepływie pracy operacyjnej, aby pomagać zespołom zrozumieć kontekst, odpowiadać na pytania operacyjne, rekomendować następne działania i przeglądać, co się zmieniło."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Platforma zarządzania restauracją dla operatorów wielolokalnych | Sundae",
+      "metaDescription": "Sundae łączy harmonogramowanie, obecność, zadania, przekazania zmian i powiązane dane operacyjne w jednej platformie dla wielolokalnych grup gastronomicznych i żywieniowych. Prowadź codzienną pracę z jasną odpowiedzialnością, używaj inteligencji do kierowania decyzjami i mierz, co się zmieniło."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · ZARZĄDZANIE ZADANIAMI W RESTAURACJI",
+      "title": "Zarządzanie zadaniami w restauracji, które przetrwa napływ gości.",
+      "description": "Przypisz pracę otwarcia, zamknięcia, cykliczną i wyjątkową właściwej osobie, śledź wykonanie w lokalizacjach i przenoś dowody do następnej decyzji operacyjnej.",
+      "challenges": [
+        "Listy kontrolne otwarcia i zamknięcia są prowadzone na papierze, w wątkach czatu lub arkuszach kalkulacyjnych, których nikt później nie audytuje.",
+        "Kierownicy regionalni widzą, że zadanie zostało pominięte, nie widząc kto je miał, co je blokowało ani czy problem się powtórzył.",
+        "Zadanie zostaje wykonane, ale sygnał operacyjny nigdy nie trafia do harmonogramu, menedżera ani przeglądu wyników."
+      ],
+      "capabilities": [
+        "Listy kontrolne otwarcia, zamknięcia i cykliczne",
+        "Przypisania według roli, lokalu, marki lub regionu",
+        "Zatwierdzenia menedżera i dowody wykonania",
+        "Eskalacja wyjątków i kontynuacja działań"
+      ],
+      "outcomes": [
+        "Każde zadanie ma właściciela, status i widoczny następny krok.",
+        "Kierownicy mogą porównywać wzorce wykonania między zmianami i lokalizacjami.",
+        "Wykonana praca staje się kontekstem dla coachingu, priorytetyzacji i mierzalnego odzysku."
+      ],
+      "questions": [
+        {
+          "question": "Czym jest oprogramowanie do zarządzania zadaniami w restauracji?",
+          "answer": "Daje zespołom restauracyjnym wspólny sposób przypisywania, wykonywania, zatwierdzania i przeglądu codziennej pracy operacyjnej, takiej jak listy kontrolne otwarcia, zamknięcia, bezpieczeństwa, konserwacji i obsługi."
+        },
+        {
+          "question": "Czy zarządzanie zadaniami może działać w wielu lokalizacjach?",
+          "answer": "Sundae Crew jest zaprojektowany pod kątem własności według roli, lokalu, marki i regionu, dzięki czemu operatorzy mogą standaryzować pracę, zachowując widoczną lokalną odpowiedzialność."
+        },
+        {
+          "question": "Jak zarządzanie zadaniami łączy się z wynikami restauracji?",
+          "answer": "Status zadania i dowody mogą stać się kontekstem operacyjnym dla działań następczych menedżera, przeglądu wyjątków i decyzji mierzonych przez pętlę operacyjną Sundae."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Zarządzanie operacjami",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Oprogramowanie do zarządzania zadaniami w restauracji | Sundae",
+      "metaDescription": "Przypisz pracę otwarcia, zamknięcia, cykliczną i wyjątkową właściwej osobie, śledź wykonanie w lokalizacjach i przenoś dowody do następnej decyzji operacyjnej."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · DZIENNIK I PRZEKAZANIE ZMIANY",
+      "title": "Cyfrowy dziennik restauracyjny dla każdej zmiany.",
+      "description": "Utrzymuj notatki menedżera, przekazania zmian, problemy i działania następcze w jednym przeszukiwalnym zapisie operacyjnym, tak aby kolejny zespół zaczynał z kontekstem zamiast zgadywania.",
+      "challenges": [
+        "Ważne szczegóły przekazania znikają w papierowych książkach, czatach grupowych lub pamięci poszczególnych menedżerów.",
+        "Ten sam problem z konserwacją, obsługą lub personelem się powtarza, ponieważ nikt nie może znaleźć wcześniejszego kontekstu.",
+        "Notatka jest zapisana, ale nie ma właściciela, zadania ani mierzalnego wyniku, które mogłyby ją pociągnąć dalej."
+      ],
+      "capabilities": [
+        "Notatki ze zmian i przekazania menedżera",
+        "Rekordy problemów, alertów i działań następczych",
+        "Przeszukiwalna historia w lokalizacjach",
+        "Powiązanie notatek z zadaniami, właścicielami i kontekstem operacyjnym"
+      ],
+      "outcomes": [
+        "Każda zmiana zaczyna się z kontekstem, którego potrzebuje menedżer.",
+        "Zespoły regionalne mogą dostrzec powtarzające się problemy zamiast traktować każdą zmianę jako nowe zdarzenie.",
+        "Komunikacja staje się zapisem wspierającym działanie, coaching i mierzalną poprawę."
+      ],
+      "questions": [
+        {
+          "question": "Czym jest cyfrowy dziennik restauracyjny?",
+          "answer": "To wspólny zapis operacyjny dla notatek ze zmian, przekazań, problemów, aktualizacji menedżerów i działań następczych w jednej lub więcej lokalizacjach restauracji."
+        },
+        {
+          "question": "Co powinno zawierać przekazanie zmiany w restauracji?",
+          "answer": "Przydatne przekazanie rejestruje, co się wydarzyło, co wymaga uwagi, kto jest właścicielem następnego działania i co zespół przychodzący powinien wiedzieć przed serwisem."
+        },
+        {
+          "question": "Czy dziennik może połączyć się z zarządzaniem zadaniami w restauracji?",
+          "answer": "Tak. Model operacyjny Sundae łączy komunikację i działania następcze, dzięki czemu notatka może prowadzić do przypisanego zadania, zatwierdzenia lub przeglądu wyniku."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Zadania i listy kontrolne",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Zarządzanie operacjami",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Cyfrowy dziennik i przekazanie zmiany w restauracji | Sundae",
+      "metaDescription": "Utrzymuj notatki menedżera, przekazania zmian, problemy i działania następcze w jednym przeszukiwalnym zapisie operacyjnym, tak aby kolejny zespół zaczynał z kontekstem zamiast zgadywania."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · PRZEPŁYWY NAPIWKÓW",
+      "title": "Przepływy napiwków gotowe do przeglądu.",
+      "description": "Zintegruj zasady napiwków, kontekst personelu, kroki przeglądu i przygotowanie do płac w jeden przepływ pracy, który menedżerowie i zespoły płac mogą wyjaśnić.",
+      "challenges": [
+        "Obliczenia napiwków zależą od zasad, ról, lokalizacji i źródłowych danych, które często są uzgadniane ręcznie.",
+        "Menedżerowie i zespoły płac muszą przeglądać wyjątki bez utraty leżących u podstaw dowodów.",
+        "Zespół może zakończyć cykl płacowy, nie dowiadując się, które wzorce obsady, obecności lub obsługi zmieniły wynik."
+      ],
+      "capabilities": [
+        "Konfigurowalne przepływy podziału i dystrybucji napiwków",
+        "Kontekst przeglądu według roli, lokalizacji i okresu płacowego",
+        "Zatwierdzenie wyjątków i rejestrowanie dowodów",
+        "Przygotowanie do listy płac i inteligencja personelu"
+      ],
+      "outcomes": [
+        "Przepływy napiwków stają się możliwe do przeglądu i wyjaśnienia przed przekazaniem.",
+        "Menedżerowie i zespoły płac dzielą jeden zapis operacyjny dla wyjątków.",
+        "Sygnały z zasobów ludzkich i obecności mogą informować decyzje następujące po cyklu płacowym."
+      ],
+      "questions": [
+        {
+          "question": "Czym jest oprogramowanie do zarządzania napiwkami w restauracji?",
+          "answer": "Wspiera zasady, obliczenia, kroki przeglądu i przekazanie wymagane do zarządzania napiwkami w rolach restauracyjnych, lokalizacjach i okresach płacowych."
+        },
+        {
+          "question": "Czy zarządzanie napiwkami musi być powiązane z płacami?",
+          "answer": "Przepływy napiwków są najbardziej użyteczne, gdy ich przegląd i dowody mogą przejść do przygotowania do płac lub przekazania partnerowi bez odtwarzania pracy w innym arkuszu kalkulacyjnym."
+        },
+        {
+          "question": "Jak Sundae łączy przepływy napiwków z operacjami?",
+          "answer": "Crew łączy przepływy napiwków i personelu z harmonogramowaniem, obecnością, przygotowaniem do płac i szerszą warstwą inteligencji decyzyjnej, aby zespoły mogły przeanalizować, co się zmieniło i dlaczego."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Przygotowanie do listy płac",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Czas i obecność",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Inteligencja zatrudnienia",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Oprogramowanie do zarządzania napiwkami w restauracji | Sundae Crew",
+      "metaDescription": "Zintegruj zasady napiwków, kontekst personelu, kroki przeglądu i przygotowanie do płac w jeden przepływ pracy, który menedżerowie i zespoły płac mogą wyjaśnić."
+    }
+  },
+  "comparison": {
+    "eyebrow": "PRZEWODNIK OCENY PLATFORMY",
+    "title": "Oceniasz alternatywę dla Restaurant365? Zacznij od modelu operacyjnego.",
+    "description": "Restaurant365 to platforma do zarządzania restauracją. Sundae wnosi zarządzanie operacjami i inteligencję decyzyjną dla wielolokalnych grup gastronomicznych i żywieniowych. Porównaj przepływy pracy, które Twój zespół potrzebuje, systemy, które zachowujesz, i sposób mierzenia rezultatu.",
+    "primaryCta": "Porównaj swój model operacyjny",
+    "secondaryCta": "Poznaj platformę operacyjną Sundae",
+    "criteriaEyebrow": "ZADAJ KAŻDEJ PLATFORMIE TE SAME PYTANIA",
+    "criteriaTitle": "Porównaj przepływy pracy istotne dla Twojej operacji.",
+    "columns": [
+      "Obszar oceny",
+      "Pytanie do odpowiedzi",
+      "Możliwości Sundae"
+    ],
+    "criteria": [
+      [
+        "Codzienne operacje",
+        "Czy menedżerowie mogą przypisywać pracę, zarządzać przekazaniami, przeglądać wyjątki i przenosić kontekst do następnej zmiany?",
+        "Sundae Crew, zarządzanie zadaniami, dziennik cyfrowy i Pulse"
+      ],
+      [
+        "Operacje kadrowe",
+        "Jak harmonogramowanie, obecność, HR, przygotowanie do płac i przepływy napiwków łączą się z obrazem operacyjnym?",
+        "Sundae Crew · Inteligencja zatrudnienia"
+      ],
+      [
+        "Wsparcie decyzyjne",
+        "Czy platforma pomaga zespołowi zrozumieć, co się zmieniło, dlaczego to ważne i co zrobić dalej?",
+        "Ask Sundae, Insights, Foresight i Watchtower"
+      ],
+      [
+        "Mierzalne wyniki",
+        "Czy operator może zapisać działanie, przypisać odpowiedzialność i porównać wynik z bazą odniesienia?",
+        "Core i Profit Recovery"
+      ],
+      [
+        "Dopasowanie regionalne",
+        "Czy model operacyjny może wspierać kraje, partnerów, przepływy wymagane prawnie i lokalne procesy w zasięgu?",
+        "Porównaj pakiety regionalne Crew, eksporty i przekazania partnerom z rzeczywistym planem wdrożenia"
+      ],
+      [
+        "Granice platformy",
+        "Które systemy pozostają autorytatywne dla księgowości, POS, płac, zapasów i innych rejestrów?",
+        "Udokumentuj integracje i model systemu źródłowego przed wyborem platformy"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Czym jest Restaurant365?",
+        "body": "Restaurant365 opisuje swoją platformę jako specyficzną dla restauracji i „wszystko w jednym”, obejmując księgowość, operacje, zasoby ludzkie i AI. Przeczytaj jej aktualne informacje produktowe bezpośrednio przed porównaniem zgodności."
+      },
+      {
+        "title": "Na co należy oceniać alternatywę dla Restaurant365?",
+        "body": "Porównaj codzienne przepływy operacyjne, granice systemów źródłowych, głębokość obsługi kadrowej, wymagania regionalne, integracje, wsparcie decyzyjne i sposób mierzenia działania po jego podjęciu."
+      },
+      {
+        "title": "Gdzie pasuje Sundae?",
+        "body": "Sundae łączy ludzi, codzienne przepływy pracy, dane operacyjne i mierzalne decyzje w wielolokalnych grupach gastronomicznych i żywieniowych. Crew zarządza personelem i realizacją zmian; Core zbiera dowody, decyzje i wyniki w jednym obrazie operacyjnym."
+      }
+    ],
+    "sourcesEyebrow": "GŁÓWNE ŹRÓDŁA",
+    "sourcesTitle": "Przeczytaj definicje produktów, a potem przetestuj je w odniesieniu do swojej operacji.",
+    "sourcesDescription": "Użyj aktualnych informacji produktowych Restaurant365 obok opisów Sundae. Zweryfikuj głębokość przepływów pracy, wymagania regionalne i granice integracji z osobami, które będą korzystać z platformy.",
+    "sourceLabels": [
+      "Informacje o AI Restaurant365",
+      "Zasoby ludzkie Restaurant365",
+      "Dziennik Restaurant365"
+    ],
+    "ctaTitle": "Przynieś swój model operacyjny.",
+    "ctaDescription": "Zmapuj przepływy pracy, systemy i miary wyników, których potrzebuje Twoja grupa w każdej lokalizacji.",
+    "ctaLabel": "Zarezerwuj sesję roboczą",
+    "metaTitle": "Alternatywa dla Restaurant365 dla operatorów wielolokalnych | Sundae",
+    "metaDescription": "Porównaj alternatywy dla Restaurant365 według codziennych przepływów pracy, operacji kadrowych, wymagań regionalnych, integracji i wsparcia decyzyjnego."
+  }
+}

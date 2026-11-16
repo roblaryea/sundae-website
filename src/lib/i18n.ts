@@ -1,3 +1,4 @@
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import { generatedWebsiteMessageOverrides } from './generatedWebsiteMessageOverrides'
 
 export const websiteLocaleProfiles = {
@@ -2919,6 +2920,7 @@ export function getWebsiteMessages(locale: WebsiteLocale): WebsiteMessages {
   const messages = mergeDeep(withLocale, expandedLocaleOverridesByLocale[locale]) as WebsiteMessagesBase
   return {
     ...messages,
+    metadata: { ...messages.metadata, title: operatorNavigationCopy[locale].brand.title, description: operatorNavigationCopy[locale].brand.description },
     pages: messages.home.pages,
   }
 }

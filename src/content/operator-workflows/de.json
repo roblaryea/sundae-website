@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Betriebssteuerung für Gastronomie und Food-Service",
+    "description": "Schichten, Personal, Aufgaben und Leistung über Multi‑Location‑Betriebe in Gastronomie und Food‑Service verwalten. Tagesgeschäft mit Entscheidungen und messbarer Profit‑Wiederherstellung verbinden.",
+    "eyebrow": "Betriebssteuerung für Gastronomie und Food‑Service",
+    "sub": "Jede Schicht an jedem Standort steuern. Sundae verbindet Dienstplanung, Anwesenheit, Aufgaben und Übergaben mit Betriebsdaten – damit Teams wissen, was als Nächstes zu tun ist und messen können, was sich geändert hat.",
+    "productTitle": "Eine Plattform. Tägliche Arbeit bis zur messbaren Entscheidung.",
+    "productDescription": "Personal, Schichtausführung und verknüpfte Betriebsdaten in ein einheitliches Lagebild bringen. Crew hilft Teams, die Arbeit auszuführen; Core hilft, Leistung zu verstehen, nächste Schritte zu entscheiden und das Ergebnis zu messen.",
+    "coreDescription": "Der Entscheidungsarbeitsbereich für Multi‑Location‑Teams in Gastronomie und Food‑Service. Betriebsdaten verbinden, Beweise prüfen, nächste Aktion zuweisen und das Ergebnis messen.",
+    "crewDescription": "Personal- und Tagesbetriebsmanagement für Gastronomie‑ und Food‑Service‑Gruppen. Dienstplanung, Anwesenheit, Aufgaben, Übergaben, Personalakten und Payroll‑Bereitschaft standortübergreifend verbinden.",
+    "productMetaTitle": "Sundae Plattform | Echtzeitbetrieb und Entscheidungsintelligenz",
+    "coreMetaTitle": "Sundae Core | Entscheidungsarbeitsbereich für Gastronomie und Lebensmittelservice",
+    "crewMetaTitle": "Sundae Crew | Personal und täglicher Betrieb",
+    "illustrationDisclosure": "Illustratives Beispiel, kein Kundenergebnis."
+  },
+  "shared": {
+    "primaryCta": "Demo buchen",
+    "secondaryCta": "Sundae Crew ansehen",
+    "rhythmEyebrow": "DER BETRIEBSRHYTHMUS",
+    "steps": [
+      "Die Arbeit erfassen",
+      "Den Kontext weitergeben",
+      "Die nächste Aktion zuweisen",
+      "Messen, was sich geändert hat"
+    ],
+    "creamEyebrow": "DIE BETRIEBSEBENE",
+    "creamStatement": "Arbeit wird erfasst. Kontext wird weitergegeben. *Aktion wird gemessen.*",
+    "creamLede": "Sundae Crew verbindet die tägliche operative Arbeit mit Entscheidungen über die gesamte Plattform.",
+    "problemEyebrow": "DAS PROBLEM FÜR BETRIEBSLEITER",
+    "problemTitle": "Tägliche Arbeit verschwindet, wenn die Zuständigkeit unklar ist.",
+    "helpEyebrow": "WIE SUNDAE HILFT",
+    "helpTitle": "Der Workflow bleibt mit dem Betrieb verbunden.",
+    "outcomesEyebrow": "WAS SICH ÄNDERT",
+    "outcomesTitle": "Vom Arbeitsnachweis zu einem wiederholbaren Betriebsrhythmus.",
+    "faqEyebrow": "FRAGEN VON BETRIEBSLEITERN",
+    "faqTitle": "Antworten, bevor Sie den Workflow ändern.",
+    "connectedEyebrow": "VERBUNDENE BETRIEBE",
+    "connectedTitle": "Der Workflow ist Teil von Sundaes Betriebs‑Loop.",
+    "connectedDescription": "Crew erfasst die Arbeit. Pulse erkennt Ausnahmen. Insights, Foresight und Profit Recovery helfen dem Team zu entscheiden, was als Nächstes zu tun ist und messen, was sich geändert hat.",
+    "ctaTitle": "Den Workflow in Ihrem Betrieb sehen.",
+    "ctaDescription": "Bringen Sie ein konkretes operatives Problem. Sehen Sie, wie Arbeit, Beweis und nächste Aktion verbunden bleiben."
+  },
+  "links": {
+    "eyebrow": "TÄGLICHE BETRIEBE",
+    "title": "Beginnen Sie mit der Arbeit, die Ihr Team erledigen muss.",
+    "description": "Erkunden Sie die Workflows und sehen Sie dann, wie sie über die gesamte Sundae‑Plattform verbunden sind.",
+    "platform": "Betriebssteuerung",
+    "tasks": "Aufgaben und Checklisten",
+    "logbook": "Digitales Logbuch und Schichtübergabe",
+    "tips": "Tip‑Workflows",
+    "scheduling": "Dienstplanung",
+    "attendance": "Zeit und Anwesenheit",
+    "payroll": "Payroll‑Bereitschaft",
+    "comparison": "Plattform‑Evaluationsleitfaden"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · BETRIEBSPLATTFORM FÜR GASTRONOMIE UND FOOD‑SERVICE",
+      "title": "Management‑Software für jede Schicht und jeden Standort.",
+      "description": "Sundae bringt Dienstplanung, Anwesenheit, Aufgaben, Übergaben und verknüpfte Betriebsdaten in eine Plattform für Multi‑Location‑Gastronomie‑ und Food‑Service‑Gruppen. Tägliche Arbeit mit klarer Zuständigkeit ausführen, Intelligenz für Entscheidungen nutzen und messen, was sich geändert hat.",
+      "challenges": [
+        "Dienstplanung, Anwesenheit, Aufgaben, Übergaben, Payroll und Leistung liegen in getrennten Systemen ohne gemeinsames Betriebsprotokoll.",
+        "Regionale Führungskräfte sehen isolierte Berichte statt des Kontexts hinter einer Ausnahme und der Person, die für die nächste Maßnahme verantwortlich ist.",
+        "Betriebliche Verbesserungen sind schwer zu wiederholen, wenn Teams nicht vergleichen können, was passiert ist, was sich geändert hat und was funktioniert hat."
+      ],
+      "capabilities": [
+        "Personal-, Dienstplan‑ und Anwesenheitsworkflows",
+        "Aufgaben, Genehmigungen und Schichtübergaben",
+        "Vernetzte Intelligenz über Betrieb und Leistung",
+        "Messbare Maßnahmen und Rückgewinnung vermeidbarer Gewinneinbußen"
+      ],
+      "outcomes": [
+        "Betreiber erhalten einen einheitlichen Betriebsrhythmus über Marken, Standorte und Teams.",
+        "Manager können auf Live‑Kontext reagieren, während Führungskräfte Muster über die Gruppe sehen.",
+        "Restaurant‑Workflows führen in denselben Entscheidungs‑ und Wiederherstellungs‑Loop, der in der gesamten Gastronomie und im Food‑Service verwendet wird."
+      ],
+      "questions": [
+        {
+          "question": "Was ist Restaurant‑Management‑Software?",
+          "answer": "Sie verbindet die täglichen Systeme und Workflows zur Führung von Restaurantstandorten, einschließlich Personal, Dienstplänen, Aufgaben, Übergaben, Anwesenheit, Payroll‑Bereitschaft, Betriebsdaten und Leistungsüberprüfung."
+        },
+        {
+          "question": "Ist Sundae nur für Restaurants?",
+          "answer": "Sundae unterstützt Multi‑Location‑Gastronomie‑ und Food‑Service‑Gruppen, darunter Restaurants, Cafés, Cloud‑Kitchens und Catering‑Anbieter. Dasselbe Betriebsmodell verbindet Personal, tägliche Workflows und messbare Entscheidungen in der gesamten Gruppe."
+        },
+        {
+          "question": "Wo passt KI in die Plattform?",
+          "answer": "KI ist in den operativen Workflow eingebettet, um Teams beim Verständnis des Kontexts zu unterstützen, betriebliche Fragen zu beantworten, nächste Aktionen zu empfehlen und zu überprüfen, was sich geändert hat."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Restaurant-Management-Plattform für Betreiber mit mehreren Standorten | Sundae",
+      "metaDescription": "Sundae bringt Dienstplanung, Anwesenheit, Aufgaben, Übergaben und verknüpfte Betriebsdaten in eine Plattform für Multi‑Location‑Gastronomie‑ und Food‑Service‑Gruppen. Tägliche Arbeit mit klarer Zuständigkeit ausführen, Intelligenz für Entscheidungen nutzen und messen, was sich geändert hat."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · AUFGABENMANAGEMENT FÜR RESTAURANTS",
+      "title": "Aufgabenmanagement für Restaurants, das den Ansturm übersteht.",
+      "description": "Eröffnungs‑, Abschluss‑, wiederkehrende und Ausnahmeaufgaben der richtigen Person zuweisen, die Erledigung standortübergreifend verfolgen und die Beweise in die nächste operative Entscheidung tragen.",
+      "challenges": [
+        "Eröffnungs‑ und Abschlusschecklisten liegen auf Papier, in Chat‑Threads oder Tabellen, die niemand später prüfen kann.",
+        "Regionale Manager sehen, dass eine Aufgabe verpasst wurde, ohne zu erkennen, wer sie besaß, was sie blockiert hat oder ob das Problem sich wiederholt hat.",
+        "Eine Aufgabe wird erledigt, aber das betriebliche Signal erreicht nie den Dienstplan, den Manager oder die Leistungsbewertung."
+      ],
+      "capabilities": [
+        "Eröffnungs‑, Abschluss‑ und wiederkehrende Checklisten",
+        "Zuweisungen nach Rolle, Standort, Marke oder Region",
+        "Manager‑Genehmigungen und Erledigungsbeweise",
+        "Ausnahmeeskalation und Nachverfolgung"
+      ],
+      "outcomes": [
+        "Jede Aufgabe hat einen Eigentümer, einen Status und einen sichtbaren nächsten Schritt.",
+        "Manager können Ausführungsmuster über Schichten und Standorte vergleichen.",
+        "Abgeschlossene Arbeit wird zum Kontext für Coaching, Priorisierung und gemessene Wiederherstellung."
+      ],
+      "questions": [
+        {
+          "question": "Was ist Aufgabenmanagement‑Software für Restaurants?",
+          "answer": "Sie bietet Restaurant‑Teams einen gemeinsamen Weg, tägliche operative Arbeit wie Eröffnungs-, Abschluss-, Sicherheits-, Wartungs‑ und Servicechecklisten zuzuweisen, zu erledigen, zu genehmigen und zu prüfen."
+        },
+        {
+          "question": "Kann Aufgabenmanagement standortübergreifend funktionieren?",
+          "answer": "Sundae Crew ist für Verantwortlichkeiten nach Rolle, Standort, Marke und Region ausgelegt, sodass Betreiber Arbeit standardisieren können, während lokale Zuständigkeit sichtbar bleibt."
+        },
+        {
+          "question": "Wie verbindet Aufgabenmanagement mit Restaurantleistung?",
+          "answer": "Aufgabenstatus und Beweise können betrieblichen Kontext für Manager‑Nachverfolgung, Ausnahmereview und die durch Sundaes Betriebs‑Loop gemessenen Entscheidungen liefern."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Betriebssteuerung",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Aufgabenmanagement-Software für Restaurants | Sundae",
+      "metaDescription": "Eröffnungs‑, Abschluss‑, wiederkehrende und Ausnahmeaufgaben der richtigen Person zuweisen, die Erledigung standortübergreifend verfolgen und die Beweise in die nächste operative Entscheidung tragen."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · LOGBUCH UND SCHICHTÜBERGABE",
+      "title": "Ein digitales Logbuch für jede Schicht.",
+      "description": "Manager‑Notizen, Schichtübergaben, Probleme und Nachverfolgung in einem durchsuchbaren Betriebsprotokoll aufbewahren, damit das nächste Team mit Kontext statt mit Schätzungen startet.",
+      "challenges": [
+        "Wichtige Übergabedetails verschwinden in Papierbüchern, Gruppenchats oder im Gedächtnis einzelner Manager.",
+        "Dasselbe Wartungs‑, Service‑ oder Personalproblem wiederholt sich, weil niemand den vorherigen Kontext finden kann.",
+        "Eine Notiz wird aufgezeichnet, aber kein Eigentümer, keine Aufgabe oder kein gemessenes Ergebnis trägt sie weiter."
+      ],
+      "capabilities": [
+        "Schichtnotizen und Manager‑Übergaben",
+        "Probleme, Meldungen und Nachverfolgungsaufzeichnungen",
+        "Durchsuchbare Historie über Standorte",
+        "Notizen mit Aufgaben, Eigentümern und Betriebs‑Kontext verknüpfen"
+      ],
+      "outcomes": [
+        "Jede Schicht beginnt mit dem Kontext, den der Manager braucht.",
+        "Regionale Teams können wiederkehrende Probleme erkennen, statt jede Schicht als neues Ereignis zu behandeln.",
+        "Kommunikation wird zu einem Protokoll, das Maßnahmen, Coaching und gemessene Verbesserung unterstützt."
+      ],
+      "questions": [
+        {
+          "question": "Was ist ein digitales Logbuch für Restaurants?",
+          "answer": "Es ist ein gemeinsames Betriebsprotokoll für Schichtnotizen, Übergaben, Probleme, Manager‑Updates und Nachverfolgung über einen oder mehrere Restaurantstandorte."
+        },
+        {
+          "question": "Was sollte eine Schichtübergabe im Restaurant enthalten?",
+          "answer": "Eine nützliche Übergabe dokumentiert, was passiert ist, was Aufmerksamkeit benötigt, wer die nächste Aktion besitzt und was das kommende Team vor dem Service wissen sollte."
+        },
+        {
+          "question": "Kann ein Logbuch mit Aufgabenmanagement für Restaurants verbunden werden?",
+          "answer": "Ja. Sundaes Betriebsmodell verbindet Kommunikation und Nachverfolgung, sodass eine Notiz zu einer zugewiesenen Aufgabe, einer Genehmigung oder einer Ergebnisprüfung führen kann."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Aufgaben und Checklisten",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Betriebssteuerung",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Digitales Logbuch und Schichtübergabe für Restaurants | Sundae",
+      "metaDescription": "Manager‑Notizen, Schichtübergaben, Probleme und Nachverfolgung in einem durchsuchbaren Betriebsprotokoll aufbewahren, damit das nächste Team mit Kontext statt mit Schätzungen startet."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · TIP‑WORKFLOWS",
+      "title": "Tip‑Workflows für Restaurants, bereit zur Prüfung.",
+      "description": "Tip‑Regeln, Personal‑Kontext, Prüfschritte und Payroll‑Bereitschaft in einen Workflow bringen, den Manager und Payroll‑Teams nachvollziehen können.",
+      "challenges": [
+        "Tippausscheidungen hängen von Regeln, Rollen, Standorten und Quelldaten ab, die oft manuell abgeglichen werden.",
+        "Manager und Payroll‑Teams müssen Ausnahmen prüfen, ohne die zugrunde liegenden Beweise zu verlieren.",
+        "Das Team kann eine Payroll‑Periode abschließen, ohne zu wissen, welche Personal‑, Anwesenheits‑ oder Service‑Muster das Ergebnis beeinflusst haben."
+      ],
+      "capabilities": [
+        "Konfigurierbare Tip‑Pool‑ und Verteilungsworkflows",
+        "Rollen‑, Standort‑ und Abrechnungszeitraum‑Kontext für Prüfungen",
+        "Ausnahmegenehmigung und Beweiserfassung",
+        "Payroll‑bereite Übergabe und Workforce‑Intelligence"
+      ],
+      "outcomes": [
+        "Tip‑Workflows werden prüfbar und erklärbar vor der Übergabe.",
+        "Manager und Payroll‑Teams teilen ein gemeinsames Betriebsprotokoll für Ausnahmen.",
+        "Personalmeldungen und Anwesenheitssignale können die Entscheidungen nach dem Abrechnungszyklus informieren."
+      ],
+      "questions": [
+        {
+          "question": "Was ist Tip‑Management‑Software für Restaurants?",
+          "answer": "Sie unterstützt Regeln, Berechnungen, Prüfschritte und Übergaben, die nötig sind, um Trinkgelder über Rollen, Standorte und Abrechnungszeiträume hinweg zu verwalten."
+        },
+        {
+          "question": "Muss Tip‑Management mit Payroll verbunden sein?",
+          "answer": "Tip‑Workflows sind am nützlichsten, wenn deren Prüfung und Beweise in Payroll‑Bereitschaft oder eine Partner‑Übergabe überführt werden können, ohne die Arbeit in einer weiteren Tabelle neu zu erstellen."
+        },
+        {
+          "question": "Wie verbindet Sundae Tip‑Workflows mit dem Betrieb?",
+          "answer": "Crew verknüpft Tip‑ und Workforce‑Workflows mit Dienstplanung, Anwesenheit, Payroll‑Bereitschaft und der breiteren Entscheidungs‑Intelligenz‑Ebene, damit Teams prüfen können, was sich geändert hat und warum."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Payroll‑Bereitschaft",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Zeit und Anwesenheit",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Personal-Intelligenz",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Trinkgeldverwaltung für Restaurants | Sundae Crew",
+      "metaDescription": "Tip‑Regeln, Personal‑Kontext, Prüfschritte und Payroll‑Bereitschaft in einen Workflow bringen, den Manager und Payroll‑Teams nachvollziehen können."
+    }
+  },
+  "comparison": {
+    "eyebrow": "PLATTFORM‑EVALUATIONSLEITFADEN",
+    "title": "Evaluieren Sie eine Restaurant365‑Alternative? Beginnen Sie mit dem Betriebsmodell.",
+    "description": "Restaurant365 ist eine Restaurant‑Management‑Plattform. Sundae bringt Betriebssteuerung und Entscheidungs‑Intelligenz zu Multi‑Location‑Gastronomie‑ und Food‑Service‑Gruppen. Vergleichen Sie die Workflows, die Ihr Team braucht, die Systeme, die Sie behalten, und wie Sie das Ergebnis messen.",
+    "primaryCta": "Ihr Betriebsmodell vergleichen",
+    "secondaryCta": "Sundaes Betriebsplattform erkunden",
+    "criteriaEyebrow": "STELLEN SIE JEDER PLATTFORM DIE GLEICHEN FRAGEN",
+    "criteriaTitle": "Vergleichen Sie die Workflows, die für Ihren Betrieb wichtig sind.",
+    "columns": [
+      "Bewertungsbereich",
+      "Zu beantwortende Frage",
+      "Sundae‑Fähigkeit"
+    ],
+    "criteria": [
+      [
+        "Tägliche Betriebsabläufe",
+        "Können Manager Arbeit zuweisen, Übergaben steuern, Ausnahmen prüfen und Kontext in die nächste Schicht tragen?",
+        "Sundae Crew, Aufgabenmanagement, digitales Logbuch und Pulse"
+      ],
+      [
+        "Personalabläufe",
+        "Wie verbinden sich Dienstplanung, Anwesenheit, HR, Payroll‑Bereitschaft und Tip‑Workflows mit dem Betriebsbild?",
+        "Sundae Crew · Personal-Intelligenz"
+      ],
+      [
+        "Entscheidungsunterstützung",
+        "Hilft die Plattform dem Team zu verstehen, was sich geändert hat, warum es wichtig ist und was als Nächstes zu tun ist?",
+        "Ask Sundae, Insights, Foresight und Watchtower"
+      ],
+      [
+        "Gemessene Ergebnisse",
+        "Kann der Betreiber eine Maßnahme aufzeichnen, Zuständigkeit zuweisen und das Ergebnis mit einer Grundlage vergleichen?",
+        "Core und Profit Recovery"
+      ],
+      [
+        "Regionale Eignung",
+        "Kann das Betriebsmodell die Länder, Partner, gesetzlichen Abläufe und lokalen Prozesse im Scope unterstützen?",
+        "Prüfen Sie Crews Region‑Packs, Exporte und Partner‑Übergaben gegen den tatsächlichen Rollout‑Plan"
+      ],
+      [
+        "Plattform‑Grenzen",
+        "Welche Systeme bleiben autoritativ für Buchhaltung, POS, Payroll, Inventar und andere Aufzeichnungen?",
+        "Dokumentieren Sie das Integrations‑ und System‑of‑Record‑Modell, bevor Sie eine Plattform wählen"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Was ist Restaurant365?",
+        "body": "Restaurant365 beschreibt seine Plattform als restaurantspezifisch und All‑in‑One, mit Buchhaltung, Betrieb, Personal und KI. Lesen Sie die aktuellen Produktinformationen direkt, bevor Sie die Passung vergleichen."
+      },
+      {
+        "title": "Worauf sollte eine Restaurant365‑Alternative bewertet werden?",
+        "body": "Vergleichen Sie die täglichen Betriebsworkflows, System‑of‑Record‑Grenzen, Personaltiefe, regionale Anforderungen, Integrationen, Entscheidungsunterstützung und die Art, wie eine Maßnahme nach ihrer Ausführung gemessen wird."
+      },
+      {
+        "title": "Wo steht Sundae?",
+        "body": "Sundae verbindet Personal, tägliche Workflows, Betriebsdaten und messbare Entscheidungen über Multi‑Location‑Gastronomie‑ und Food‑Service‑Gruppen. Crew verwaltet Personal und tägliche Ausführung; Core bringt Beweise, Entscheidungen und Ergebnisse in ein einheitliches Betriebsbild."
+      }
+    ],
+    "sourcesEyebrow": "PRIMÄRE QUELLEN",
+    "sourcesTitle": "Lesen Sie die Produktdefinitionen und testen Sie diese gegen Ihren Betrieb.",
+    "sourcesDescription": "Verwenden Sie die aktuellen Produktinformationen von Restaurant365 zusammen mit Sundaes eigenen Beschreibungen. Validieren Sie Workflow‑Tiefe, regionale Anforderungen und Integrationsgrenzen mit den Personen, die die Plattform nutzen werden.",
+    "sourceLabels": [
+      "Restaurant365 AI-Informationen",
+      "Restaurant365 Personal",
+      "Restaurant365 Logbuch"
+    ],
+    "ctaTitle": "Bringen Sie Ihr Betriebsmodell mit.",
+    "ctaDescription": "Kartieren Sie die Workflows, Systeme und Ergebnismaße, die Ihre Gruppe an jedem Standort benötigt.",
+    "ctaLabel": "Einen Arbeitstermin buchen",
+    "metaTitle": "Alternative zu Restaurant365 für Betreiber mit mehreren Standorten | Sundae",
+    "metaDescription": "Vergleichen Sie Restaurant365‑Alternativen nach täglichen Workflows, Personalabläufen, regionalen Anforderungen, Integrationen und Entscheidungsunterstützung."
+  }
+}

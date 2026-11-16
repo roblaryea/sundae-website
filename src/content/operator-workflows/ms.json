@@ -1,0 +1,339 @@
+{
+  "brand": {
+    "title": "Sundae | Pengurusan Operasi untuk Hospitaliti dan Perkhidmatan Makanan",
+    "description": "Urus syif, tenaga kerja, tugas dan prestasi merentasi operasi hospitaliti dan perkhidmatan makanan berbilang lokasi. Sambungkan kerja harian kepada keputusan dan pemulihan keuntungan yang diukur.",
+    "eyebrow": "Pengurusan operasi untuk hospitaliti dan perkhidmatan makanan",
+    "sub": "Jalankan setiap syif di setiap lokasi. Sundae menyambungkan penjadualan, kehadiran, tugas dan serah-tangan dengan data operasi — supaya pasukan tahu apa yang perlu dilakukan seterusnya dan boleh mengukur apa yang berubah.",
+    "productTitle": "Satu platform. Kerja harian kepada keputusan yang diukur.",
+    "productDescription": "Satukan tenaga kerja, pelaksanaan syif dan data operasi yang bersambung ke dalam satu gambaran operasi. Crew membantu pasukan menjalankan kerja; Core membantu mereka memahami prestasi, memutuskan langkah seterusnya dan mengukur hasilnya.",
+    "coreDescription": "Ruang kerja keputusan untuk pasukan hospitaliti dan perkhidmatan makanan berbilang lokasi. Sambungkan data operasi, periksa bukti, tugaskan tindakan seterusnya dan ukur hasilnya.",
+    "crewDescription": "Tenaga kerja dan operasi harian untuk kumpulan hospitaliti dan perkhidmatan makanan. Sambungkan penjadualan, kehadiran, tugas, serah-tangan, rekod pekerja dan kesiapan gaji merentasi setiap lokasi.",
+    "productMetaTitle": "Platform Sundae | Pengurusan Operasi dan Kecerdasan Keputusan",
+    "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitaliti dan Perkhidmatan Makanan",
+    "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
+    "illustrationDisclosure": "Contoh ilustrasi, bukan hasil sebenar pelanggan."
+  },
+  "shared": {
+    "primaryCta": "Tempah sesi tunjuk cara",
+    "secondaryCta": "Lihat Sundae Crew",
+    "rhythmEyebrow": "IRAMA OPERASI",
+    "steps": [
+      "Tangkap kerja",
+      "Bawa konteks",
+      "Tugaskan tindakan seterusnya",
+      "Ukur apa yang berubah"
+    ],
+    "creamEyebrow": "LAPIS OPERASI",
+    "creamStatement": "Kerja ditangkap. Konteks dibawa. *Tindakan diukur.*",
+    "creamLede": "Sundae Crew menyambungkan kerja operasi harian kepada keputusan merentasi platform yang lebih luas.",
+    "problemEyebrow": "MASALAH PENGENDALI",
+    "problemTitle": "Kerja harian hilang apabila pemilikan tidak jelas.",
+    "helpEyebrow": "BAGAIMANA SUNDAE MEMBANTU",
+    "helpTitle": "Aliran kerja kekal bersambung dengan operasi.",
+    "outcomesEyebrow": "APA YANG BERUBAH",
+    "outcomesTitle": "Daripada rekod kerja kepada irama operasi yang boleh diulangi.",
+    "faqEyebrow": "SOALAN PENGENDALI",
+    "faqTitle": "Jawapan sebelum anda mengubah aliran kerja.",
+    "connectedEyebrow": "OPERASI BERSAMBUNG",
+    "connectedTitle": "Aliran kerja adalah sebahagian daripada kitaran operasi Sundae.",
+    "connectedDescription": "Crew menangkap kerja. Pulse memaparkan pengecualian. Insights, Foresight dan Profit Recovery membantu pasukan memutuskan apa yang perlu dilakukan seterusnya dan mengukur apa yang berubah.",
+    "ctaTitle": "Lihat aliran kerja dalam operasi anda.",
+    "ctaDescription": "Bawa satu masalah operasi sebenar. Lihat bagaimana kerja, bukti dan tindakan seterusnya kekal bersambung."
+  },
+  "links": {
+    "eyebrow": "OPERASI HARIAN",
+    "title": "Mula dengan kerja yang perlu dijalankan pasukan anda.",
+    "description": "Terokai aliran kerja, kemudian lihat bagaimana ia bersambung merentasi platform Sundae yang lebih luas.",
+    "platform": "Pengurusan operasi",
+    "tasks": "Tugas dan senarai semak",
+    "logbook": "Buku log digital dan serah-tangan syif",
+    "tips": "Aliran kerja tip",
+    "scheduling": "Penjadualan kakitangan",
+    "attendance": "Masa dan kehadiran",
+    "payroll": "Kesiapan gaji",
+    "comparison": "Panduan penilaian platform"
+  },
+  "pages": {
+    "restaurant-management-platform": {
+      "eyebrow": "SUNDAE · PLATFORM OPERASI HOSPITALITI DAN PERKHIDMATAN MAKANAN",
+      "title": "Perisian pengurusan restoran untuk setiap syif dan setiap lokasi.",
+      "description": "Sundae menyatukan penjadualan, kehadiran, tugas, serah-tangan dan data operasi yang bersambung ke dalam satu platform untuk kumpulan hospitaliti dan perkhidmatan makanan berbilang lokasi. Jalankan kerja harian dengan pemilikan yang jelas, gunakan kecerdasan untuk membimbing keputusan dan ukur apa yang berubah.",
+      "challenges": [
+        "Penjadualan, kehadiran, tugas, serah-tangan, gaji dan prestasi hidup dalam sistem berasingan tanpa rekod operasi yang dikongsi.",
+        "Pemimpin serantau melihat laporan terpencil dan bukannya konteks di sebalik pengecualian dan orang yang bertanggungjawab untuk tindakan seterusnya.",
+        "Peningkatan operasi sukar diulang apabila pasukan tidak boleh membandingkan apa yang berlaku, apa yang berubah dan apa yang berkesan."
+      ],
+      "capabilities": [
+        "Aliran kerja tenaga kerja, penjadualan dan kehadiran",
+        "Tugas, kelulusan dan serah-tangan syif",
+        "Kecerdasan bersambung merentasi operasi dan prestasi",
+        "Tindakan yang boleh diukur dan pemulihan kehilangan keuntungan yang boleh dicegah"
+      ],
+      "outcomes": [
+        "Pengendali mendapat satu irama operasi merentasi jenama, lokasi dan pasukan.",
+        "Pengurus boleh bertindak berdasarkan konteks langsung manakala pemimpin melihat pola merentasi kumpulan.",
+        "Aliran kerja restoran membawa ke dalam gelung keputusan dan pemulihan yang sama digunakan merentasi operasi hospitaliti dan perkhidmatan makanan."
+      ],
+      "questions": [
+        {
+          "question": "Apakah perisian pengurusan restoran?",
+          "answer": "Ia menyambungkan sistem dan aliran kerja harian yang digunakan untuk menjalankan lokasi restoran, termasuk orang, jadual, tugas, serah-tangan, kehadiran, kesiapan gaji, data operasi dan kajian prestasi."
+        },
+        {
+          "question": "Adakah Sundae hanya untuk restoran?",
+          "answer": "Sundae menyokong kumpulan hospitaliti dan perkhidmatan makanan berbilang lokasi, termasuk restoran, kafe, dapur awan dan pengendali katering. Model operasi yang sama menyambungkan orang, aliran kerja harian dan keputusan yang diukur merentasi kumpulan."
+        },
+        {
+          "question": "Di mana AI sesuai dalam platform?",
+          "answer": "AI terbenam dalam aliran kerja operasi untuk membantu pasukan memahami konteks, menjawab soalan operasi, mengesyorkan tindakan seterusnya dan mengkaji apa yang berubah."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae",
+          "href": "/"
+        },
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        },
+        {
+          "label": "Ask Sundae",
+          "href": "/product/intelligence"
+        }
+      ],
+      "metaTitle": "Platform Pengurusan Restoran untuk Pengendali Berbilang Lokasi | Sundae",
+      "metaDescription": "Sundae menyatukan penjadualan, kehadiran, tugas, serah-tangan dan data operasi yang bersambung ke dalam satu platform untuk kumpulan hospitaliti dan perkhidmatan makanan berbilang lokasi. Jalankan kerja harian dengan pemilikan yang jelas, gunakan kecerdasan untuk membimbing keputusan dan ukur apa yang berubah."
+    },
+    "restaurant-task-management": {
+      "eyebrow": "SUNDAE CREW · PENGURUSAN TUGAS RESTORAN",
+      "title": "Pengurusan tugas restoran yang bertahan ketika sibuk.",
+      "description": "Tugaskan kerja pembukaan, penutupan, berulang dan pengecualian kepada orang yang betul, jejak penyelesaian merentasi lokasi dan bawa bukti ke dalam keputusan operasi seterusnya.",
+      "challenges": [
+        "Senarai semak pembukaan dan penutupan disimpan dalam kertas, thread sembang atau helaian yang tidak dapat diaudit kemudian.",
+        "Pengurus serantau melihat bahawa tugas terlepas tanpa melihat siapa yang memilikinya, apa yang menghalangnya atau sama ada masalah itu berulang.",
+        "Tugas diselesaikan, tetapi isyarat operasi tidak sampai kepada jadual, pengurus atau kajian prestasi."
+      ],
+      "capabilities": [
+        "Senarai semak pembukaan, penutupan dan berulang",
+        "Tugasan mengikut peranan, tapak, jenama atau rantau",
+        "Kelulusan pengurus dan bukti penyelesaian",
+        "Peningkatan pengecualian dan susulan"
+      ],
+      "outcomes": [
+        "Setiap tugas mempunyai pemilik, status dan langkah seterusnya yang dapat dilihat.",
+        "Pengurus boleh membandingkan corak pelaksanaan merentasi syif dan lokasi.",
+        "Kerja yang diselesaikan menjadi konteks untuk latihan, keutamaan dan pemulihan yang diukur."
+      ],
+      "questions": [
+        {
+          "question": "Apakah perisian pengurusan tugas restoran?",
+          "answer": "Ia memberi pasukan restoran cara berkongsi untuk menugaskan, menyelesaikan, meluluskan dan menyemak kerja operasi harian seperti senarai semak pembukaan, penutupan, keselamatan, penyelenggaraan dan perkhidmatan."
+        },
+        {
+          "question": "Bolehkah pengurusan tugas berfungsi merentasi pelbagai lokasi?",
+          "answer": "Sundae Crew direka untuk pemilikan mengikut peranan, tapak, jenama dan rantau supaya pengendali boleh menstandardkan kerja sambil mengekalkan akauntabiliti tempatan yang boleh dilihat."
+        },
+        {
+          "question": "Bagaimana pengurusan tugas bersambung kepada prestasi restoran?",
+          "answer": "Status tugas dan bukti boleh menjadi konteks operasi untuk susulan pengurus, semakan pengecualian dan keputusan yang diukur melalui gelung operasi Sundae."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Pulse · Pengurusan operasi",
+          "href": "/product/pulse"
+        },
+        {
+          "label": "Profit Recovery",
+          "href": "/product/recovery"
+        }
+      ],
+      "metaTitle": "Perisian Pengurusan Tugas Restoran | Sundae",
+      "metaDescription": "Tugaskan kerja pembukaan, penutupan, berulang dan pengecualian kepada orang yang betul, jejak penyelesaian merentasi lokasi dan bawa bukti ke dalam keputusan operasi seterusnya."
+    },
+    "restaurant-logbook": {
+      "eyebrow": "SUNDAE CREW · BUKU LOG DAN SERAH-TANGAN SYIF",
+      "title": "Buku log restoran digital untuk setiap syif.",
+      "description": "Simpan nota pengurus, serah-tangan syif, isu dan susulan dalam satu rekod operasi yang boleh dicari, supaya pasukan seterusnya bermula dengan konteks dan bukannya meneka.",
+      "challenges": [
+        "Butiran serah-tangan penting hilang dalam buku kertas, chat kumpulan atau ingatan pengurus individu.",
+        "Isu penyelenggaraan, perkhidmatan atau staf yang sama berulang kerana tiada siapa menemui konteks terdahulu.",
+        "Nota direkodkan, tetapi tiada pemilik, tugas atau hasil yang diukur meneruskannya."
+      ],
+      "capabilities": [
+        "Nota syif dan serah-tangan pengurus",
+        "Isu, amaran dan rekod susulan",
+        "Sejarah boleh dicari merentasi lokasi",
+        "Pautkan nota kepada tugas, pemilik dan konteks operasi"
+      ],
+      "outcomes": [
+        "Setiap syif bermula dengan konteks yang pengurus perlukan.",
+        "Pasukan serantau boleh mengesan isu berulang dan bukannya menganggap setiap syif sebagai kejadian baru.",
+        "Komunikasi menjadi rekod yang menyokong tindakan, latihan dan peningkatan yang diukur."
+      ],
+      "questions": [
+        {
+          "question": "Apakah buku log restoran digital?",
+          "answer": "Ia adalah rekod operasi berkongsi untuk nota syif, serah-tangan, isu, kemas kini pengurus dan susulan merentasi satu atau lebih lokasi restoran."
+        },
+        {
+          "question": "Apa yang perlu disertakan dalam serah-tangan syif restoran?",
+          "answer": "Serah-tangan yang berguna menangkap apa yang berlaku, apa yang perlu diberi perhatian, siapa yang memiliki tindakan seterusnya dan apa yang pasukan masuk perlu tahu sebelum perkhidmatan."
+        },
+        {
+          "question": "Bolehkah buku log disambungkan kepada pengurusan tugas restoran?",
+          "answer": "Ya. Model operasi Sundae menyambungkan komunikasi dan susulan supaya nota boleh membawa kepada tugas yang ditugaskan, kelulusan atau semakan hasil."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew",
+          "href": "/crew"
+        },
+        {
+          "label": "Tugas dan senarai semak",
+          "href": "/restaurant-task-management"
+        },
+        {
+          "label": "Pulse · Pengurusan operasi",
+          "href": "/product/pulse"
+        }
+      ],
+      "metaTitle": "Buku Log Restoran Digital dan Serah-Tangan Syif | Sundae",
+      "metaDescription": "Simpan nota pengurus, serah-tangan syif, isu dan susulan dalam satu rekod operasi yang boleh dicari, supaya pasukan seterusnya bermula dengan konteks dan bukannya meneka."
+    },
+    "restaurant-tip-management": {
+      "eyebrow": "SUNDAE CREW · ALIRAN KERJA TIP",
+      "title": "Aliran kerja tip restoran sedia untuk semakan.",
+      "description": "Bawa peraturan tip, konteks kakitangan, langkah semakan dan kesiapan gaji ke dalam satu aliran kerja yang pengurus dan pasukan gaji boleh jelaskan.",
+      "challenges": [
+        "Pengiraan tip bergantung pada peraturan, peranan, lokasi dan data sumber yang sering diselaraskan secara manual.",
+        "Pengurus dan pasukan gaji perlu menyemak pengecualian tanpa kehilangan bukti asas.",
+        "Pasukan boleh menyelesaikan kitaran gaji tanpa mengetahui corak staf, kehadiran atau perkhidmatan yang mengubah hasilnya."
+      ],
+      "capabilities": [
+        "Aliran kerja kolam tip dan pengagihan boleh dikonfigurasikan",
+        "Konteks semakan peranan, lokasi dan tempoh gaji",
+        "Kelulusan pengecualian dan tangkapan bukti",
+        "Serah-tangan sedia gaji dan kecerdasan tenaga kerja"
+      ],
+      "outcomes": [
+        "Aliran kerja tip menjadi boleh disemak dan dapat dijelaskan sebelum serah-tangan.",
+        "Pengurus dan pasukan gaji berkongsi satu rekod operasi untuk pengecualian.",
+        "Isyarat tenaga kerja dan kehadiran boleh memaklumkan keputusan selepas kitaran gaji."
+      ],
+      "questions": [
+        {
+          "question": "Apakah perisian pengurusan tip restoran?",
+          "answer": "Ia menyokong peraturan, pengiraan, langkah semakan dan serah-tangan yang diperlukan untuk menguruskan tip merentasi peranan, lokasi dan tempoh gaji restoran."
+        },
+        {
+          "question": "Adakah pengurusan tip perlu disambungkan kepada gaji?",
+          "answer": "Aliran kerja tip paling berguna apabila semakan dan buktinya boleh bergerak ke kesiapan gaji atau serah-tangan kepada rakan kongsi tanpa menghasilkan semula kerja dalam helaian lain."
+        },
+        {
+          "question": "Bagaimana Sundae menyambungkan aliran kerja tip kepada operasi?",
+          "answer": "Crew menyambungkan aliran kerja tip dan tenaga kerja kepada penjadualan, kehadiran, kesiapan gaji dan lapisan kecerdasan keputusan yang lebih luas supaya pasukan boleh menyemak apa yang berubah dan mengapa."
+        }
+      ],
+      "related": [
+        {
+          "label": "Sundae Crew · Kesiapan gaji",
+          "href": "/crew/payroll"
+        },
+        {
+          "label": "Masa dan kehadiran",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "label": "Kecerdasan Tenaga Kerja",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "metaTitle": "Perisian Pengurusan Tip Restoran | Sundae Crew",
+      "metaDescription": "Bawa peraturan tip, konteks kakitangan, langkah semakan dan kesiapan gaji ke dalam satu aliran kerja yang pengurus dan pasukan gaji boleh jelaskan."
+    }
+  },
+  "comparison": {
+    "eyebrow": "PANDUAN PENILAIAN PLATFORM",
+    "title": "Menilai alternatif Restaurant365? Mula dengan model operasi.",
+    "description": "Restaurant365 ialah platform pengurusan restoran. Sundae membawa pengurusan operasi dan kecerdasan keputusan kepada kumpulan hospitaliti dan perkhidmatan makanan berbilang lokasi. Bandingkan aliran kerja yang pasukan anda perlukan, sistem yang anda simpan dan bagaimana anda mengukur hasilnya.",
+    "primaryCta": "Bandingkan model operasi anda",
+    "secondaryCta": "Terokai platform operasi Sundae",
+    "criteriaEyebrow": "TANYA SETIAP PLATFORM SOALAN YANG SAMA",
+    "criteriaTitle": "Bandingkan aliran kerja yang penting untuk operasi anda.",
+    "columns": [
+      "Kawasan penilaian",
+      "Soalan untuk dijawab",
+      "Kebolehan Sundae"
+    ],
+    "criteria": [
+      [
+        "Operasi harian",
+        "Bolehkah pengurus menugaskan kerja, mengurus serah-tangan, menyemak pengecualian dan membawa konteks ke syif seterusnya?",
+        "Sundae Crew, pengurusan tugas, buku log digital dan Pulse"
+      ],
+      [
+        "Operasi tenaga kerja",
+        "Bagaimana penjadualan, kehadiran, HR, kesiapan gaji dan aliran kerja tip bersambung kepada gambaran operasi?",
+        "Sundae Crew · Kecerdasan Tenaga Kerja"
+      ],
+      [
+        "Sokongan keputusan",
+        "Adakah platform membantu pasukan memahami apa yang berubah, mengapa ia penting dan apa yang perlu dilakukan seterusnya?",
+        "Ask Sundae, Insights, Foresight dan Watchtower"
+      ],
+      [
+        "Hasil yang diukur",
+        "Bolehkah pengendali merekod tindakan, menugaskan pemilikan dan membandingkan hasil dengan garis dasar?",
+        "Core dan Profit Recovery"
+      ],
+      [
+        "Kesesuaian serantau",
+        "Bolehkah model operasi menyokong negara, rakan kongsi, aliran kerja statutori dan proses tempatan yang termasuk?",
+        "Semak pek rantau Crew, eksport dan serah-tangan rakan kongsi berbanding pelan pelaksanaan sebenar"
+      ],
+      [
+        "Sempadan platform",
+        "Sistem mana yang kekal sebagai autoritatif untuk perakaunan, POS, gaji, inventori dan rekod lain?",
+        "Dokumenkan integrasi dan model sistem-rekod sebelum memilih platform"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "Apakah Restaurant365?",
+        "body": "Restaurant365 menggambarkan platformnya sebagai khusus restoran dan serba boleh, merangkumi perakaunan, operasi, tenaga kerja dan AI. Baca maklumat produk semasa mereka secara langsung sebelum membuat perbandingan kecocokan."
+      },
+      {
+        "title": "Apa yang perlu dinilai untuk alternatif Restaurant365?",
+        "body": "Bandingkan aliran kerja operasi harian, sempadan sistem-rekod, kedalaman tenaga kerja, keperluan serantau, integrasi, sokongan keputusan dan cara tindakan diukur selepas diambil."
+      },
+      {
+        "title": "Di mana Sundae sesuai?",
+        "body": "Sundae menyambungkan orang, aliran kerja harian, data operasi dan keputusan yang diukur merentasi kumpulan hospitaliti dan perkhidmatan makanan berbilang lokasi. Crew mengurus tenaga kerja dan pelaksanaan harian; Core membawa bukti, keputusan dan hasil ke dalam satu gambaran operasi."
+      }
+    ],
+    "sourcesEyebrow": "SUMBER UTAMA",
+    "sourcesTitle": "Baca definisi produk, kemudian uji terhadap operasi anda.",
+    "sourcesDescription": "Gunakan maklumat produk semasa Restaurant365 bersama penerangan Sundae sendiri. Sahkan kedalaman aliran kerja, keperluan serantau dan sempadan integrasi dengan orang yang akan menggunakan platform tersebut.",
+    "sourceLabels": [
+      "Maklumat AI Restaurant365",
+      "Tenaga kerja Restaurant365",
+      "Buku log Restaurant365"
+    ],
+    "ctaTitle": "Bawa model operasi anda.",
+    "ctaDescription": "Peta aliran kerja, sistem dan ukuran hasil yang kumpulan anda perlukan merentasi setiap lokasi.",
+    "ctaLabel": "Tempah sesi kerja",
+    "metaTitle": "Alternatif Restaurant365 untuk Pengendali Berbilang Lokasi | Sundae",
+    "metaDescription": "Bandingkan alternatif Restaurant365 mengikut aliran kerja harian, operasi tenaga kerja, keperluan serantau, integrasi dan sokongan keputusan."
+  }
+}

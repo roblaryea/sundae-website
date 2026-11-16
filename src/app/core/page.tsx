@@ -1,5 +1,8 @@
 'use client';
 
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
@@ -665,7 +668,7 @@ export default function CoreProductPage() {
       <PageHero
         badge={ui.hero.badge}
         title={ui.hero.title}
-        description={ui.hero.description}
+        description={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.coreDescription}
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
@@ -1051,6 +1054,7 @@ export default function CoreProductPage() {
       />
 
       {/* CTA */}
+      <OperatorWorkflowLinks />
       <PageCTA
         title={ui.cta.title}
         description={ui.cta.description}
