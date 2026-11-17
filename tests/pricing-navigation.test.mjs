@@ -11,8 +11,8 @@ function load(file) {
   file = path.resolve(file)
   if (loaded.has(file)) return loaded.get(file)
   if (file.endsWith('.json')) return JSON.parse(fs.readFileSync(file, 'utf8'))
-  const module = { exports: {} }
-  loaded.set(file, module.exports)
+  const compiledModule = { exports: {} }
+  loaded.set(file, compiledModule.exports)
   const requireLocal = specifier => {
     let target = specifier.startsWith('@/') ? path.resolve('src', specifier.slice(2)) : path.resolve(path.dirname(file), specifier)
     if (!path.extname(target)) target += '.ts'
@@ -20,8 +20,8 @@ function load(file) {
   }
   vm.runInNewContext(ts.transpileModule(fs.readFileSync(file, 'utf8'), {
     compilerOptions: { module: ts.ModuleKind.CommonJS, esModuleInterop: true, target: ts.ScriptTarget.ES2022 },
-  }).outputText, { module, exports: module.exports, require: requireLocal, Intl, URL }, { filename: file })
-  return module.exports
+  }).outputText, { module: compiledModule, exports: compiledModule.exports, require: requireLocal, Intl, URL }, { filename: file })
+  return compiledModule.exports
 }
 const { getWebsiteMessages, websiteLocales } = load('src/lib/i18n.ts')
 for (const locale of websiteLocales) test(`${locale}: pricing entries retain current product identities after translation overrides`, () => {

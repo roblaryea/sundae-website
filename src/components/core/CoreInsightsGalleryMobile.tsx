@@ -129,6 +129,8 @@ export function CoreInsightsGalleryMobile() {
   const labourLoc = crewConv(locale, labourGbp);
   const profitLoc = revLoc - cogsLoc - labourLoc; // ≈ 346k AED
 
+  // ICU versions differ on invisible RLM currency marks. Isolate the amount
+  // in CSS and normalize those marks so SSR/browser text stays identical.
   // Compact, locale-currency formatting for the abbreviated magnitudes (1.21M / 508k).
   const compact = (value: number) =>
     new Intl.NumberFormat(locale, {
@@ -136,7 +138,7 @@ export function CoreInsightsGalleryMobile() {
       currency: ccy,
       notation: 'compact',
       maximumFractionDigits: 2,
-    }).format(value);
+    }).format(value).replace(/\u200f/g, '');
   // Bare compact number (donut center shows the magnitude with the currency code beneath).
   const compactNum = (value: number) =>
     new Intl.NumberFormat(locale, { notation: 'compact', maximumFractionDigits: 2 }).format(value);
@@ -291,28 +293,28 @@ export function CoreInsightsGalleryMobile() {
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 74, font: `500 11.5px ${FONT}`, color: T.tx2 }}>{t.rowRevenue}</span>
               <div style={{ flex: 1, height: 18, background: T.info, opacity: 0.6, borderRadius: 4 }} />
-              <span style={{ width: 56, textAlign: 'right', font: `600 11.5px ${FONT}`, color: T.tx }}>{compact(revLoc)}</span>
+              <span style={{ width: 56, textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.tx }}>{compact(revLoc)}</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 74, font: `500 11.5px ${FONT}`, color: T.tx2 }}>{t.rowCogs}</span>
               <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
                 <div style={{ width: '42%', height: 18, background: T.neg, opacity: 0.7, borderRadius: 4 }} />
               </div>
-              <span style={{ width: 56, textAlign: 'right', font: `600 11.5px ${FONT}`, color: T.negk }}>−{compact(cogsLoc)}</span>
+              <span style={{ width: 56, textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.negk }}>−{compact(cogsLoc)}</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 74, font: `500 11.5px ${FONT}`, color: T.tx2 }}>{t.rowLabour}</span>
               <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
                 <div style={{ width: '30%', height: 18, background: T.neg, opacity: 0.55, borderRadius: 4 }} />
               </div>
-              <span style={{ width: 56, textAlign: 'right', font: `600 11.5px ${FONT}`, color: T.negk }}>−{compact(labourLoc)}</span>
+              <span style={{ width: 56, textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.negk }}>−{compact(labourLoc)}</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 74, font: `600 11.5px ${FONT}`, color: T.posk }}>{t.rowProfit}</span>
               <div style={{ flex: 1 }}>
                 <div style={{ width: '28%', height: 18, background: T.acc, borderRadius: 4 }} />
               </div>
-              <span style={{ width: 56, textAlign: 'right', font: `700 11.5px ${FONT}`, color: T.posk }}>{compact(profitLoc)}</span>
+              <span style={{ width: 56, textAlign: 'right', unicodeBidi: 'isolate', font: `700 11.5px ${FONT}`, color: T.posk }}>{compact(profitLoc)}</span>
             </div>
           </div>
         </Card>
