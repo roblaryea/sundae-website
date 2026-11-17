@@ -754,7 +754,7 @@ export default function CoreProductPage() {
                     <SundaeIcon name={item.icon} size="md" className="text-white" />
                   </div>
                   <h3 className="card-title text-[var(--text-primary)] mb-2">{item.question}</h3>
-                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--coral)] mb-3">{item.title}</p>
+                  <p className="eyebrow mb-3">{item.title}</p>
                   <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{item.desc}</p>
                 </div>
               </StaggerItem>
@@ -811,7 +811,7 @@ export default function CoreProductPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <span className="inline-flex items-center gap-2 bg-[rgba(168,85,247,0.15)] text-purple-400 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              <span className="eyebrow inline-flex items-center gap-2 mb-4">
                 <SundaeIcon name="pulse" size="md" />
                 <span>{ui.pulse.badge}</span>
               </span>

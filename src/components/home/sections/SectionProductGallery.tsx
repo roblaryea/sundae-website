@@ -739,7 +739,7 @@ export function SectionProductGallery({
                       {item.personas.slice(0, 2).map((p) => (
                         <span
                           key={p}
-                          className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-[var(--accent-warm)]/15 text-[var(--accent-warm)] border border-[var(--accent-warm)]/30 font-bold"
+                          className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-[var(--surface-subtle)] text-[var(--text-secondary)] border border-[var(--border-default)] font-bold"
                         >
                           {copy.filterLabels[p] ?? p}
                         </span>

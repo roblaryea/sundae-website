@@ -49,7 +49,7 @@
   --text-supporting: rgba(255, 255, 255, 0.65);
   --text-muted: rgba(255, 255, 255, 0.5);
   --text-faint: rgba(255, 255, 255, 0.2);
-  --muted-grey: #79819A;
+  --muted-grey: var(--text-muted); /* legacy small copy follows the warm hierarchy */
   --eyebrow: rgba(246, 241, 232, 0.62);  /* muted warm label - eyebrows/kickers. Coral is freed for CTAs + live signals, not every section label. */
   --text-warm: #F6C66B; /* caramel/amber emphasis on espresso */
   --text-display: #FBF8F4;               /* warm off-white for display headings on dark - matches the hero headline + wordmark, not clinical pure #FFF */
@@ -102,6 +102,7 @@
   --cream-edge: #EAE0CE;
   --ink: #1A140F;              /* warm near-black on cream (never cold slate) */
   --accent-warm: var(--warm-coral);
+  --action-on-tint: var(--accent-warm); /* selected controls on tinted surfaces */
 
   /* ─── Trust (warm olive) · enterprise / security / audit / "live & syncing" ───
      A first-class trust hue, deliberately WARM olive (not cool sage) so it sits
@@ -202,11 +203,13 @@ html.light {
      on warm paper (the light-mode equivalent of dark's bright display). */
   --text-primary: #241D17;
   --text-secondary: rgba(36, 29, 23, 0.78);
-  --text-supporting: rgba(36, 29, 23, 0.62);
-  --text-muted: rgba(36, 29, 23, 0.52);
+  /* Keep supporting and tertiary copy readable on paper, cream and tinted
+     cards, while preserving the warm ink hierarchy below secondary text. */
+  --text-supporting: rgba(36, 29, 23, 0.74);
+  --text-muted: rgba(36, 29, 23, 0.69);
   --text-faint: rgba(36, 29, 23, 0.16);
-  --muted-grey: #857869;
-  --eyebrow: rgba(36, 29, 23, 0.58);   /* warm label on light (warm ink, not coral) */
+  --muted-grey: var(--text-muted); /* small copy shares the readable tertiary role */
+  --eyebrow: rgba(36, 29, 23, 0.69);   /* muted warm label on light, including tinted sections */
   --text-warm: #98501C; /* deep caramel emphasis on warm paper */
   --text-display: #1E1711;             /* deep warm ink display headings → more punch in light */
 
@@ -253,6 +256,7 @@ html.light {
   --hover-bg: var(--surface-hover);
   --link-hover: #CC3A1E;
   --accent-warm: #CC3A1E;        /* confident warm accent, kept dark enough to hold AA on white */
+  --action-on-tint: var(--brand-main); /* deeper coral preserves contrast on a warm tint */
   --cream: #F6E4C4;              /* richer apricot cream → warmer relief rhythm in light */
   --cream-edge: #EAD3A8;
 

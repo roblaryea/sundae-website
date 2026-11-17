@@ -173,8 +173,8 @@ export default function BlogPage() {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-6 py-2 rounded-full font-medium text-sm transition-all ${
                   selectedCategory === category
-                    ? 'bg-[#FF5C4D]/10 text-[#FF5C4D] shadow-lg'
-                    : 'bg-[var(--surface-subtle)] text-[var(--text-secondary)] hover:bg-stone-200'
+                    ? 'bg-[color-mix(in_srgb,var(--accent-warm)_10%,transparent)] text-[var(--action-on-tint)] shadow-lg'
+                    : 'bg-[var(--surface-subtle)] text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]'
                 }`}
               >
                 {category === 'All' ? copy.all : copy.categories[category]}
