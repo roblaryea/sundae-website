@@ -4,6 +4,34 @@ import catalog from './pricing/catalogSnapshot.json'
 
 export const WATCHTOWER_OPTIONS = ['competitive', 'events', 'trends', 'bundle'] as const
 
+export const CREW_COVERAGE_OPTIONS = ['operations', 'operating', 'complete'] as const
+
+/** The receiving contract adds prerequisite capabilities before quoting. */
+export function buildCrewCapabilityUrl(sku: PricingIntent['crewSkus'][number]) {
+  const intent: PricingIntent = {
+    v: 2, layer: 'crew', corePackage: 'core_foundation', locations: 1,
+    addOns: [], watchtowerModules: [], crewSkus: [sku],
+    crossIntelligence: 'none', billingCycle: 'monthly', operatingModels: [], employees: null, payrollCountry: '',
+  }
+  return `${PRICING_URL}/simulator?${new URLSearchParams({ cfg: encodePricingIntent(intent) })}`
+}
+
+/** A capability estimate includes its prerequisites; it never fixes a price. */
+export function buildCrewCoverageUrl(option: typeof CREW_COVERAGE_OPTIONS[number]) {
+  const bundleId = option === 'complete' ? 'crew_complete_bundle' : 'crew_suite_bundle'
+  const bundle = catalog.bundles.find(bundle => bundle.id === bundleId)
+  if (!bundle) throw new Error('Review Crew coverage before publishing this starting estimate')
+  const skus: PricingIntent['crewSkus'] = option === 'operations'
+    ? ['crew_operations', 'crew_scheduling']
+    : [...bundle.moduleIds, 'crew_scheduling'] as PricingIntent['crewSkus']
+  const intent: PricingIntent = {
+    v: 2, layer: 'crew', corePackage: 'core_foundation', locations: 1,
+    addOns: [], watchtowerModules: [], crewSkus: skus,
+    crossIntelligence: 'none', billingCycle: 'monthly', operatingModels: [], employees: null, payrollCountry: '',
+  }
+  return `${PRICING_URL}/simulator?${new URLSearchParams({ cfg: encodePricingIntent(intent) })}`
+}
+
 /** Watchtower is a paid extension; an eligible Core package is a prerequisite. */
 export function buildWatchtowerPricingUrl(option: typeof WATCHTOWER_OPTIONS[number] = 'bundle') {
   if (!catalog.tiers.find(tier => tier.id === 'growth')?.allowsWatchtower) {

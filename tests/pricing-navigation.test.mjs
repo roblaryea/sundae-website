@@ -25,10 +25,67 @@ function load(file) {
 }
 const { getWebsiteMessages, websiteLocales } = load('src/lib/i18n.ts')
 const { decodePricingIntent } = load('src/lib/pricingIntent.ts')
-const { buildWatchtowerPricingUrl, WATCHTOWER_OPTIONS } = load('src/lib/pricingNavigation.ts')
+const { buildWatchtowerPricingUrl, WATCHTOWER_OPTIONS, buildCrewCoverageUrl, buildCrewCapabilityUrl } = load('src/lib/pricingNavigation.ts')
+const { crewWorkflowScope } = load('src/lib/crewWorkflowCoverage.ts')
 const catalogue = load('src/lib/pricing/catalogSnapshot.json')
 const { getLocalizedFaqSections } = load('src/content/faqContent.ts')
 const commercial = load('src/content/commercial-copy.json')
+test('Crew feature estimates contain prerequisites rather than quoting an isolated component', () => {
+  const cases = {
+    crew_scheduling: ['crew_scheduling'],
+    crew_tna: ['crew_scheduling', 'crew_tna'],
+    crew_operations: ['crew_operations', 'crew_scheduling'],
+    crew_payroll: ['crew_operations', 'crew_payroll', 'crew_scheduling'],
+    crew_people_intelligence: ['crew_operations', 'crew_people_intelligence', 'crew_scheduling'],
+  }
+  for (const [sku, expected] of Object.entries(cases)) {
+    const url = new URL(buildCrewCapabilityUrl(sku))
+    const intent = decodePricingIntent(url.searchParams.get('cfg'))
+    assert.equal(intent.layer, 'crew')
+    assert.deepEqual([...intent.crewSkus].sort(), expected)
+    assert.equal(intent.locations, 1)
+    assert.equal(intent.billingCycle, 'monthly')
+    assert.equal(intent.watchtowerModules.length + intent.addOns.length, 0)
+  }
+})
+test('Crew workflow ownership does not follow reused product screenshots', () => {
+  assert.equal(crewWorkflowScope('restaurant-task-management'), 'operations')
+  assert.equal(crewWorkflowScope('restaurant-logbook'), 'operations')
+  assert.equal(crewWorkflowScope('restaurant-tip-management'), 'payroll')
+  for (const slug of ['restaurant-management-platform', 'restaurant365-alternative', 'core', '']) {
+    assert.equal(crewWorkflowScope(slug), null)
+  }
+})
+test('Crew coverage estimates match current bundles and include the Scheduling entitlement', () => {
+  for (const option of ['operations', 'operating', 'complete']) {
+    const url = new URL(buildCrewCoverageUrl(option))
+    const intent = decodePricingIntent(url.searchParams.get('cfg'))
+    assert.equal(url.origin, 'https://pricing.sundae.io')
+    assert.equal(url.pathname, '/simulator')
+    assert.equal(intent.layer, 'crew')
+    assert.equal(intent.locations, 1)
+    assert.equal(intent.billingCycle, 'monthly')
+    assert.equal(intent.addOns.length + intent.watchtowerModules.length, 0)
+    const expected = option === 'operations' ? ['crew_operations'] : catalogue.bundles.find(b => b.id === (option === 'complete' ? 'crew_complete_bundle' : 'crew_suite_bundle')).moduleIds
+    assert.deepEqual([...intent.crewSkus].sort(), [...expected, 'crew_scheduling'].sort())
+    assert.ok(intent.crewSkus.includes('crew_operations'))
+    assert.equal(intent.crewSkus.includes('crew_payroll'), option !== 'operations')
+    assert.equal(intent.crewSkus.includes('crew_people_intelligence'), option === 'complete')
+  }
+})
+test('all languages retain the package names, exclusions and Payroll prerequisite', () => {
+  for (const locale of websiteLocales) {
+    const c = commercial[locale]
+    for (const key of ['crewOperationsCoverage', 'crewPayrollCoverage']) {
+      assert.ok(c[key].includes('Crew Operating') && c[key].includes('Crew Complete'))
+      assert.ok(c[key].includes('Crew Operations'))
+      if (locale !== 'en') assert.notEqual(c[key], commercial.en[key])
+    }
+    assert.ok(c.crewCoverageExclusions.includes('Crew Starter') && c.crewCoverageExclusions.includes('Schedule & Time'))
+    assert.ok(c.crewHandoverCoverage.includes('Crew Operations'))
+    assert.ok(c.crewEstimateNote.trim())
+  }
+})
 test('all localized Watchtower FAQs state paid eligibility and preserve individual/bundle choice', () => {
   for (const locale of websiteLocales) {
     const section = getLocalizedFaqSections(locale, []).find(section => section.id === 'watchtower')

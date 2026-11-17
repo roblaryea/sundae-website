@@ -7,13 +7,15 @@ import { Button } from '@/components/ui/Button';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { SundaeIcon } from '@/components/icons';
-import { PRICING_URL, REPORT_APP_URL } from '@/lib/urls';
+import { REPORT_APP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { crewPricingLocales } from '@/lib/crewPricingLocales';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
-import { usd } from '@/lib/pricing/priceBook';
-import { CREW_MODULES, crewModule, type CrewModuleSlug } from './crewModules';
+import { CREW_MODULES, type CrewModuleSlug } from './crewModules';
+import { CrewWorkflowCoverage } from '@/components/seo/CrewWorkflowCoverage';
+import { buildCrewCapabilityUrl } from '@/lib/pricingNavigation';
+import type { PricingIntent } from '@/lib/pricingIntent';
 
 export type CrewModuleCopy = {
   badge: string;
@@ -72,7 +74,11 @@ export function CrewModulePage({
   const { locale } = useWebsiteI18n();
   const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
   const pl = crewPricingLocales[locale as keyof typeof crewPricingLocales] ?? crewPricingLocales.en;
-  const mod = crewModule(slug);
+  const capabilityIds: Record<CrewModuleSlug, PricingIntent['crewSkus'][number]> = {
+    scheduling: 'crew_scheduling', 'time-attendance': 'crew_tna', people: 'crew_operations',
+    payroll: 'crew_payroll', 'people-intelligence': 'crew_people_intelligence',
+  };
+  const pricingHref = buildCrewCapabilityUrl(capabilityIds[slug]);
   const related = CREW_MODULES.filter((m) => m.slug !== slug).map((m) => {
     const loc = cn.crewList.find((c) => c.href === m.href);
     return { ...m, name: loc?.name ?? m.name, tagline: loc?.description ?? m.tagline };
@@ -98,7 +104,7 @@ export function CrewModulePage({
                 {copy.heroLine1}
               </span>
               <br />
-              <span className="italic text-[#F6C66B]">
+              <span className="italic text-[var(--text-warm)]">
                 {copy.heroLine2}
               </span>
             </motion.h1>
@@ -117,19 +123,13 @@ export function CrewModulePage({
                 </Button>
               </a>
             </motion.div>
-            {/* Soft pricing indication - the pricing micro-site stays the authority
-                for tiers + dependencies. (Labels localized in the i18n pass.)
-                Crew SKUs are FLAT monthly under price book v1.7: the per-location
-                adder this line used to append is the retired v1.6 mechanic. */}
-            <motion.p {...fade} transition={{ duration: 0.8, ease, delay: 0.4 }} className="mt-5 text-sm text-[var(--text-muted)]">
-              {pl.from}{' '}
-              <span className="font-semibold text-[var(--text-primary)]">{usd(mod.monthly)}</span>
-              {' '}{getCommercialCopy(locale).firstLocation} · {getCommercialCopy(locale).extraLocations}
-              <span className="mx-2 text-[var(--text-faint)]">·</span>
-              <a href={PRICING_URL} className="font-semibold text-[var(--warm-coral)] underline-offset-4 hover:underline">
+            {/* A component price is not the required stack's starting total. */}
+            <motion.div {...fade} transition={{ duration: 0.8, ease, delay: 0.4 }} className="mt-5 text-sm text-[var(--text-muted)]" data-crew-capability-estimate={slug}>
+              <a href={pricingHref} className="brand-action-link inline-flex min-h-11 items-center font-semibold underline underline-offset-4">
                 {pl.cta} →
               </a>
-            </motion.p>
+              <p className="max-w-xl leading-relaxed">{getCommercialCopy(locale).crewEstimateNote}</p>
+            </motion.div>
             <motion.div {...fade} transition={{ duration: 0.8, ease, delay: 0.45 }} className="mt-8 grid max-w-xl grid-cols-2 gap-3 sm:grid-cols-4">
               {copy.heroProof.map((p) => (
                 <div key={p.label} className="rounded-xl border border-[var(--border-default)] bg-white/[0.04] px-3 py-3">
@@ -144,6 +144,8 @@ export function CrewModulePage({
           </motion.div>
         </div>
       </section>
+
+      {(slug === 'people' || slug === 'payroll') && <CrewWorkflowCoverage locale={locale} scope={slug === 'payroll' ? 'payroll' : 'operations'} />}
 
       {/* ── Features ── */}
       <section className="relative px-4 py-20 sm:px-6 lg:px-8">
