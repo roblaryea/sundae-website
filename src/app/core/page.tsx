@@ -662,7 +662,7 @@ export default function CoreProductPage() {
   const coreTiers = ui.tiers.items;
   const modules = ui.modules.items;
   const integrations = ui.integrations.items;
-  const faqs = ui.faq.items.map((faq, index) => index === 5 ? { q: commercial.moduleQuestion, a: commercial.moduleAnswer } : faq);
+  const faqs = ui.faq.items.map((faq, index) => index === 4 ? { ...faq, a: commercial.watchtowerEligibility } : index === 5 ? { q: commercial.moduleQuestion, a: commercial.moduleAnswer } : faq);
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -928,6 +928,7 @@ export default function CoreProductPage() {
               {ui.watchtower.heading}
             </h2>
             <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">{ui.watchtower.description}</p>
+            <p data-watchtower-eligibility className="mb-8 mx-auto max-w-3xl text-sm leading-relaxed text-[var(--text-supporting)]">{commercial.watchtowerEligibility}</p>
             <Button
               variant="outline"
               size="lg"

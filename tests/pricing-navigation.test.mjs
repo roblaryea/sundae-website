@@ -25,6 +25,32 @@ function load(file) {
 }
 const { getWebsiteMessages, websiteLocales } = load('src/lib/i18n.ts')
 const { decodePricingIntent } = load('src/lib/pricingIntent.ts')
+const { buildWatchtowerPricingUrl, WATCHTOWER_OPTIONS } = load('src/lib/pricingNavigation.ts')
+const catalogue = load('src/lib/pricing/catalogSnapshot.json')
+const { getLocalizedFaqSections } = load('src/content/faqContent.ts')
+const commercial = load('src/content/commercial-copy.json')
+test('all localized Watchtower FAQs state paid eligibility and preserve individual/bundle choice', () => {
+  for (const locale of websiteLocales) {
+    const section = getLocalizedFaqSections(locale, []).find(section => section.id === 'watchtower')
+    assert.equal(section.faqs[1].content, commercial[locale].watchtowerEligibility)
+    assert.equal(section.faqs[3].content, commercial[locale].watchtowerChoice)
+    assert.equal(section.faqs[4].content, commercial[locale].watchtowerEligibility)
+    if (locale !== 'en') assert.notEqual(commercial[locale].watchtowerEligibility, commercial.en.watchtowerEligibility)
+  }
+})
+test('Watchtower links select a paid signal on an actually eligible Core package', () => {
+  assert.deepEqual(catalogue.tiers.filter(tier => tier.allowsWatchtower).map(tier => tier.id), ['growth', 'performance'])
+  for (const option of WATCHTOWER_OPTIONS) {
+    const url = new URL(buildWatchtowerPricingUrl(option))
+    assert.equal(url.origin, 'https://pricing.sundae.io')
+    assert.equal(url.pathname, '/simulator')
+    const intent = decodePricingIntent(url.searchParams.get('cfg'))
+    assert.equal(intent.corePackage, 'core_growth')
+    assert.equal(intent.layer, 'core')
+    assert.deepEqual(Array.from(intent.watchtowerModules), [option])
+    assert.equal(intent.crewSkus.length, 0)
+  }
+})
 for (const locale of websiteLocales) test(`${locale}: pricing entries retain current product identities after translation overrides`, () => {
   const plans = getWebsiteMessages(locale).navbar.plansList
   for (const [index, layer] of ['core', 'crew'].entries()) {

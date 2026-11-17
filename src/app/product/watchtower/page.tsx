@@ -8,7 +8,8 @@ import { WatchtowerMockup } from "@/components/ui/MockupFrame";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
-import { PRICING_URL } from "@/lib/urls";
+import { buildWatchtowerPricingUrl, WATCHTOWER_OPTIONS } from '@/lib/pricingNavigation';
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
@@ -116,10 +117,10 @@ const localizedWatchtowerCopy = {
     pricingHeading: "Watchtower Pricing",
     pricingDescription: "Available on Core Growth and above. Choose individual components or save ~18% with the full bundle.",
     pricingCards: [
-      { name: "Competitive Intelligence", price: "$549", perLoc: "+$69/loc" },
-      { name: "Events & Calendar", price: "$249", perLoc: "+$39/loc" },
-      { name: "Market Trends", price: "$299", perLoc: "+$29/loc" },
-      { name: "Full Bundle", price: "$899", perLoc: "+$109/loc", highlight: true },
+      { name: "Competitive Intelligence" },
+      { name: "Events & Calendar" },
+      { name: "Market Trends" },
+      { name: "Full Bundle" },
     ],
     faqHeading: "Frequently Asked Questions",
     faqs: [
@@ -246,10 +247,10 @@ const localizedWatchtowerCopy = {
     pricingHeading: "أسعار Watchtower",
     pricingDescription: "متاح على Core Growth وما فوق. اختر مكونات فردية أو وفّر نحو 18% مع الحزمة الكاملة.",
     pricingCards: [
-      { name: "ذكاء المنافسين", price: "$549", perLoc: "+$69/موقع" },
-      { name: "الأحداث والتقويم", price: "$249", perLoc: "+$39/موقع" },
-      { name: "اتجاهات السوق", price: "$299", perLoc: "+$29/موقع" },
-      { name: "الحزمة الكاملة", price: "$899", perLoc: "+$109/موقع", highlight: true },
+      { name: "ذكاء المنافسين" },
+      { name: "الأحداث والتقويم" },
+      { name: "اتجاهات السوق" },
+      { name: "الحزمة الكاملة" },
     ],
     faqHeading: "الأسئلة الشائعة",
     faqs: [
@@ -358,10 +359,10 @@ const localizedWatchtowerCopy = {
     pricingHeading: "Tarifs Watchtower",
     pricingDescription: "Disponible à partir de Core Growth. Choisissez des composants individuels ou économisez environ 18 % avec le bundle complet.",
     pricingCards: [
-      { name: "Intelligence concurrentielle", price: "$549", perLoc: "+$69/site" },
-      { name: "Événements & calendrier", price: "$249", perLoc: "+$39/site" },
-      { name: "Tendances du marché", price: "$299", perLoc: "+$29/site" },
-      { name: "Bundle complet", price: "$899", perLoc: "+$109/site", highlight: true },
+      { name: "Intelligence concurrentielle" },
+      { name: "Événements & calendrier" },
+      { name: "Tendances du marché" },
+      { name: "Bundle complet" },
     ],
     faqHeading: "Questions fréquentes",
     faqs: [
@@ -470,10 +471,10 @@ const localizedWatchtowerCopy = {
     pricingHeading: "Precios de Watchtower",
     pricingDescription: "Disponible desde Core Growth. Elige componentes individuales o ahorra alrededor de 18% con el bundle completo.",
     pricingCards: [
-      { name: "Inteligencia competitiva", price: "$549", perLoc: "+$69/ubicación" },
-      { name: "Eventos y calendario", price: "$249", perLoc: "+$39/ubicación" },
-      { name: "Tendencias del mercado", price: "$299", perLoc: "+$29/ubicación" },
-      { name: "Bundle completo", price: "$899", perLoc: "+$109/ubicación", highlight: true },
+      { name: "Inteligencia competitiva" },
+      { name: "Eventos y calendario" },
+      { name: "Tendencias del mercado" },
+      { name: "Bundle completo" },
     ],
     faqHeading: "Preguntas frecuentes",
     faqs: [
@@ -497,19 +498,21 @@ export default function WatchtowerPage() {
   const { locale } = useWebsiteI18n();
   const sourceCopy = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? getGeneratedLocalCopy(localizedWatchtowerCopy, generatedLocalCopy.localizedWatchtowerCopy, locale) ?? localizedWatchtowerCopy.en;
   const story = storyCopy[locale as keyof typeof storyCopy];
-  const ui = { ...sourceCopy, internalHeading: story.watchtowerTitle, internalDescription: story.watchtowerDescription, introCards: sourceCopy.introCards.map((item, index) => index === 0 ? { ...item, text: story.watchtowerDescription } : item) };
+  const commercial = getCommercialCopy(locale);
+  const ui = { ...sourceCopy, heroNote: commercial.watchtowerEligibility, pricingDescription: commercial.watchtowerEligibility, featureEyebrow: 'Watchtower', featureDescription: commercial.watchtowerChoice, faqs: sourceCopy.faqs.map((faq, index) => index === 3 ? { ...faq, a: commercial.watchtowerEligibility } : index === 4 ? { ...faq, a: commercial.watchtowerChoice } : faq), internalHeading: story.watchtowerTitle, internalDescription: story.watchtowerDescription, introCards: sourceCopy.introCards.map((item, index) => index === 0 ? { ...item, text: story.watchtowerDescription } : item) };
   const cream = watchtowerCreamCopy[locale as keyof typeof watchtowerCreamCopy] ?? watchtowerCreamCopy.en;
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
-  const pricingCards = [...(ui.pricingCards as readonly { name: string; price: string; perLoc: string; highlight?: boolean }[])];
+  const pricingOptions = ui.pricingCards.map((item, index) => ({ name: item.name, id: WATCHTOWER_OPTIONS[index] }));
+  const pricingHref = buildWatchtowerPricingUrl();
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={ui.heroDescription}>
-        <p className="text-[var(--text-muted)] mb-8 max-w-3xl mx-auto body-lg">
+        <p data-watchtower-eligibility className="text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto body-lg">
           <strong>{ui.heroNote}</strong>
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button variant="cta" size="lg" href={PRICING_URL}>
+          <Button variant="cta" size="lg" href={pricingHref}>
             {ui.heroPrimary}
           </Button>
           <Button
@@ -623,20 +626,21 @@ export default function WatchtowerPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]" data-watchtower-pricing-options>
         <div className="max-w-5xl mx-auto">
           <FadeUp className="text-center mb-12">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.pricingHeading}</h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.pricingDescription}</p>
           </FadeUp>
 
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {pricingCards.map((item) => (
-              <StaggerItem key={item.name} className={`p-6 rounded-xl text-center ${item.highlight ? "bg-red-600" : "bg-[var(--navy-deep)] border border-[var(--border-default)]"}`}>
-                <h3 className={`font-semibold mb-2 ${item.highlight ? "text-white" : "text-[var(--text-display)]"}`}>{item.name}</h3>
-                <p className={`text-3xl font-bold mb-1 ${item.highlight ? "text-white" : "text-[var(--text-primary)]"}`}>{item.price}</p>
-                <p className={`text-sm ${item.highlight ? "text-red-100" : "text-[var(--text-muted)]"}`}>/month {item.perLoc}</p>
-                {item.highlight && <p className="text-xs text-red-200 mt-2">{labels.save18}</p>}
+          <p className="body-lg mx-auto mb-8 max-w-3xl text-center text-[var(--text-supporting)]">{commercial.watchtowerChoice}</p>
+          <StaggerContainer className="divide-y border-y divide-[var(--border-default)] border-[var(--border-default)]">
+            {pricingOptions.map((item) => (
+              <StaggerItem key={item.id} className="py-6">
+                <div data-watchtower-option={item.id} className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
+                <h3 className={`font-display text-xl font-semibold ${item.id === 'bundle' ? 'text-[var(--text-warm)]' : 'text-[var(--text-display)]'}`}>{item.name}</h3>
+                <Button variant="outline-light" size="md" href={buildWatchtowerPricingUrl(item.id)} className="max-w-full whitespace-normal! text-center">{ui.heroPrimary} →</Button>
+                </div>
               </StaggerItem>
             ))}
           </StaggerContainer>
@@ -688,7 +692,7 @@ export default function WatchtowerPage() {
             </div>
             <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{ui.ctaAdd}</h3>
             <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{labels.seeWatchtowerPricing}</p>
-            <Button variant="cta" size="md" className="w-full" href={PRICING_URL}>
+            <Button variant="cta" size="md" className="w-full" href={pricingHref}>
               {ui.heroPrimary} →
             </Button>
           </StaggerItem>

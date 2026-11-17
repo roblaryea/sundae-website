@@ -13,6 +13,7 @@ test('catalogue parity accepts reordered keyed module rows without rewriting dis
 for (const [name, mutate] of [
   ['location-band price', c => c.modules[0].locationBands[0][1]++],
   ['package inclusion', c => c.tiers[0].includedModuleIds.push('not-in-this-package')],
+  ['Watchtower eligibility', c => c.tiers[0].allowsWatchtower = !c.tiers[0].allowsWatchtower],
   ['ordered location bands', c => c.modules.find(m => m.locationBands.length > 1).locationBands.reverse()],
 ]) test(`catalogue parity still rejects changed ${name}`, () => {
   assert.throws(() => assert.deepEqual(changed(mutate), expected))

@@ -2,7 +2,7 @@
   "versionName": "v1.8.2-policy-20261009",
   "publishedAt": "2026-10-09T14:18:32.997+00:00",
   "isAuthoritative": true,
-  "verifiedOn": "2026-11-16",
+  "verifiedOn": "2026-11-17",
   "tiers": [
     {
       "id": "foundation",
@@ -48,7 +48,8 @@
         "revenue_assurance",
         "pulse"
       ],
-      "aiCreditsBase": 14000
+      "aiCreditsBase": 14000,
+      "allowsWatchtower": false
     },
     {
       "id": "margin",
@@ -97,7 +98,8 @@
         "purchasing",
         "delivery"
       ],
-      "aiCreditsBase": 16000
+      "aiCreditsBase": 16000,
+      "allowsWatchtower": false
     },
     {
       "id": "growth",
@@ -148,7 +150,8 @@
         "guest_crm",
         "delivery"
       ],
-      "aiCreditsBase": 18000
+      "aiCreditsBase": 18000,
+      "allowsWatchtower": true
     },
     {
       "id": "performance",
@@ -202,7 +205,8 @@
         "delivery",
         "foresight"
       ],
-      "aiCreditsBase": 24000
+      "aiCreditsBase": 24000,
+      "allowsWatchtower": true
     }
   ],
   "modules": [
@@ -234,7 +238,7 @@
     },
     {
       "id": "crew_lite",
-      "name": "Crew — Lite",
+      "name": "Crew \u2014 Lite",
       "locationBands": [
         [
           1,
@@ -248,7 +252,7 @@
     },
     {
       "id": "crew_scheduling",
-      "name": "Crew — Scheduling",
+      "name": "Crew \u2014 Scheduling",
       "locationBands": [
         [
           1,
@@ -286,7 +290,7 @@
     },
     {
       "id": "crew_operations",
-      "name": "Crew — Operations",
+      "name": "Crew \u2014 Operations",
       "locationBands": [
         [
           1,
@@ -324,7 +328,7 @@
     },
     {
       "id": "crew_tna",
-      "name": "Crew — Time & Attendance",
+      "name": "Crew \u2014 Time & Attendance",
       "locationBands": [
         [
           1,
@@ -358,7 +362,7 @@
     },
     {
       "id": "crew_payroll",
-      "name": "Crew — Payroll",
+      "name": "Crew \u2014 Payroll",
       "locationBands": [
         [
           1,
@@ -396,7 +400,7 @@
     },
     {
       "id": "crew_people_intelligence",
-      "name": "Crew — People Intelligence",
+      "name": "Crew \u2014 People Intelligence",
       "locationBands": [
         [
           1,
@@ -434,7 +438,7 @@
     },
     {
       "id": "crew_catering",
-      "name": "Crew — Catering & Events",
+      "name": "Crew \u2014 Catering & Events",
       "locationBands": [
         [
           1,
@@ -456,7 +460,7 @@
     },
     {
       "id": "crew_production",
-      "name": "Crew — Production",
+      "name": "Crew \u2014 Production",
       "locationBands": [
         [
           1,

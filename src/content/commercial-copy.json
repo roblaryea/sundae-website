@@ -16,7 +16,9 @@
     "comparePackages": "Compare packages",
     "moduleInclusion": "Included by package",
     "moduleQuestion": "Are modules sold separately?",
-    "moduleAnswer": "No. Modules are included in Core packages. Compare packages to see which capabilities each one includes."
+    "moduleAnswer": "No. Modules are included in Core packages. Compare packages to see which capabilities each one includes.",
+    "watchtowerEligibility": "Watchtower is a separately priced extension for Core Growth and Core Performance. It is not available with Core Foundation or Core Margin.",
+    "watchtowerChoice": "Choose Competitive Intelligence, Event & Calendar Signals, Market Trends or the full Watchtower bundle. Confirm your locations and current price in the calculator."
   },
   "ar": {
     "packageScope": "تتضمن باقات Core قدرات مختلفة. راجع الباقة المختارة والإضافات المؤهلة في حاسبة الأسعار.",
@@ -35,7 +37,9 @@
     "comparePackages": "قارن الباقات",
     "moduleInclusion": "مشمولة بحسب الباقة",
     "moduleQuestion": "هل تُباع الوحدات بشكل منفصل؟",
-    "moduleAnswer": "لا. الوحدات مشمولة ضمن باقات Core. قارن الباقات لمعرفة القدرات التي تتضمنها كل باقة."
+    "moduleAnswer": "لا. الوحدات مشمولة ضمن باقات Core. قارن الباقات لمعرفة القدرات التي تتضمنها كل باقة.",
+    "watchtowerEligibility": "Watchtower إضافة تُسعَّر بشكل منفصل لباقتي Core Growth وCore Performance. وهي غير متاحة مع Core Foundation أو Core Margin.",
+    "watchtowerChoice": "اختر الذكاء التنافسي أو إشارات الأحداث والتقويم أو اتجاهات السوق، أو حزمة Watchtower الكاملة. حدّد مواقعك وتحقّق من السعر الحالي في الحاسبة."
   },
   "fr": {
     "packageScope": "Les offres Core comprennent des capacités différentes. Vérifiez l’offre choisie et les extensions éligibles dans le simulateur de prix.",
@@ -54,7 +58,9 @@
     "comparePackages": "Comparer les offres",
     "moduleInclusion": "Inclus selon l’offre",
     "moduleQuestion": "Les modules sont-ils vendus séparément ?",
-    "moduleAnswer": "Non. Les modules sont inclus dans les offres Core. Comparez les offres pour connaître les capacités incluses dans chacune."
+    "moduleAnswer": "Non. Les modules sont inclus dans les offres Core. Comparez les offres pour connaître les capacités incluses dans chacune.",
+    "watchtowerEligibility": "Watchtower est une extension facturée séparément pour Core Growth et Core Performance. Elle n’est pas disponible avec Core Foundation ou Core Margin.",
+    "watchtowerChoice": "Choisissez la veille concurrentielle, les signaux événementiels et calendaires, les tendances du marché ou le pack Watchtower complet. Vérifiez vos établissements et le tarif actuel dans le calculateur."
   },
   "es": {
     "packageScope": "Los paquetes Core incluyen capacidades diferentes. Revisa el paquete elegido y las extensiones disponibles en la calculadora de precios.",
@@ -73,7 +79,9 @@
     "comparePackages": "Comparar paquetes",
     "moduleInclusion": "Incluido según el paquete",
     "moduleQuestion": "¿Se venden los módulos por separado?",
-    "moduleAnswer": "No. Los módulos están incluidos en los paquetes Core. Compare los paquetes para ver qué capacidades incluye cada uno."
+    "moduleAnswer": "No. Los módulos están incluidos en los paquetes Core. Compare los paquetes para ver qué capacidades incluye cada uno.",
+    "watchtowerEligibility": "Watchtower es una extensión con precio independiente para Core Growth y Core Performance. No está disponible con Core Foundation ni Core Margin.",
+    "watchtowerChoice": "Elige inteligencia competitiva, señales de eventos y calendario, tendencias del mercado o el paquete completo de Watchtower. Confirma tus locales y el precio vigente en la calculadora."
   },
   "de": {
     "packageScope": "Die Core-Pakete enthalten unterschiedliche Funktionen. Prüfen Sie das gewählte Paket und verfügbare Erweiterungen im Preisrechner.",
@@ -92,7 +100,9 @@
     "comparePackages": "Pakete vergleichen",
     "moduleInclusion": "Je nach Paket enthalten",
     "moduleQuestion": "Werden Module separat verkauft?",
-    "moduleAnswer": "Nein. Module sind in den Core-Paketen enthalten. Vergleichen Sie die Pakete, um die jeweils enthaltenen Funktionen zu sehen."
+    "moduleAnswer": "Nein. Module sind in den Core-Paketen enthalten. Vergleichen Sie die Pakete, um die jeweils enthaltenen Funktionen zu sehen.",
+    "watchtowerEligibility": "Watchtower ist eine separat berechnete Erweiterung für Core Growth und Core Performance. Sie ist nicht mit Core Foundation oder Core Margin verfügbar.",
+    "watchtowerChoice": "Wählen Sie Wettbewerbsinformationen, Ereignis- und Kalendersignale, Markttrends oder das vollständige Watchtower-Paket. Prüfen Sie Standorte und aktuelle Preise im Rechner."
   },
   "it": {
     "packageScope": "I pacchetti Core includono funzionalità diverse. Verifica il pacchetto scelto e le estensioni disponibili nel calcolatore dei prezzi.",
@@ -111,7 +121,9 @@
     "comparePackages": "Confronta i pacchetti",
     "moduleInclusion": "Incluso in base al pacchetto",
     "moduleQuestion": "I moduli sono venduti separatamente?",
-    "moduleAnswer": "No. I moduli sono inclusi nei pacchetti Core. Confronta i pacchetti per vedere quali funzionalità include ciascuno."
+    "moduleAnswer": "No. I moduli sono inclusi nei pacchetti Core. Confronta i pacchetti per vedere quali funzionalità include ciascuno.",
+    "watchtowerEligibility": "Watchtower è un’estensione con prezzo separato per Core Growth e Core Performance. Non è disponibile con Core Foundation o Core Margin.",
+    "watchtowerChoice": "Scegli intelligence competitiva, segnali di eventi e calendario, tendenze di mercato o il pacchetto Watchtower completo. Conferma le sedi e il prezzo attuale nel calcolatore."
   },
   "pt": {
     "packageScope": "Os pacotes Core incluem capacidades diferentes. Confirme o pacote escolhido e as extensões elegíveis no simulador de preços.",
@@ -130,7 +142,9 @@
     "comparePackages": "Comparar pacotes",
     "moduleInclusion": "Incluído conforme o pacote",
     "moduleQuestion": "Os módulos são vendidos separadamente?",
-    "moduleAnswer": "Não. Os módulos estão incluídos nos pacotes Core. Compare os pacotes para ver quais recursos cada um inclui."
+    "moduleAnswer": "Não. Os módulos estão incluídos nos pacotes Core. Compare os pacotes para ver quais recursos cada um inclui.",
+    "watchtowerEligibility": "Watchtower é uma extensão cobrada separadamente para Core Growth e Core Performance. Não está disponível com Core Foundation ou Core Margin.",
+    "watchtowerChoice": "Escolha inteligência competitiva, sinais de eventos e calendário, tendências de mercado ou o pacote Watchtower completo. Confirme as suas unidades e o preço atual na calculadora."
   },
   "nl": {
     "packageScope": "Core-pakketten bevatten verschillende functies. Controleer het gekozen pakket en beschikbare uitbreidingen in de prijscalculator.",
@@ -149,7 +163,9 @@
     "comparePackages": "Pakketten vergelijken",
     "moduleInclusion": "Inbegrepen per pakket",
     "moduleQuestion": "Worden modules apart verkocht?",
-    "moduleAnswer": "Nee. Modules zijn inbegrepen in de Core-pakketten. Vergelijk de pakketten om te zien welke mogelijkheden elk pakket bevat."
+    "moduleAnswer": "Nee. Modules zijn inbegrepen in de Core-pakketten. Vergelijk de pakketten om te zien welke mogelijkheden elk pakket bevat.",
+    "watchtowerEligibility": "Watchtower is een afzonderlijk geprijsde uitbreiding voor Core Growth en Core Performance. Het is niet beschikbaar bij Core Foundation of Core Margin.",
+    "watchtowerChoice": "Kies concurrentie-informatie, evenement- en kalendersignalen, markttrends of de volledige Watchtower-bundel. Controleer je locaties en de actuele prijs in de calculator."
   },
   "pl": {
     "packageScope": "Pakiety Core obejmują różne funkcje. Sprawdź wybrany pakiet i dostępne rozszerzenia w kalkulatorze cen.",
@@ -168,7 +184,9 @@
     "comparePackages": "Porównaj pakiety",
     "moduleInclusion": "Dostępność zależy od pakietu",
     "moduleQuestion": "Czy moduły są sprzedawane osobno?",
-    "moduleAnswer": "Nie. Moduły są zawarte w pakietach Core. Porównaj pakiety, aby sprawdzić funkcje dostępne w każdym z nich."
+    "moduleAnswer": "Nie. Moduły są zawarte w pakietach Core. Porównaj pakiety, aby sprawdzić funkcje dostępne w każdym z nich.",
+    "watchtowerEligibility": "Watchtower to osobno płatne rozszerzenie dla Core Growth i Core Performance. Nie jest dostępne z Core Foundation ani Core Margin.",
+    "watchtowerChoice": "Wybierz analizę konkurencji, sygnały wydarzeń i kalendarza, trendy rynkowe lub pełny pakiet Watchtower. Sprawdź lokalizacje i aktualną cenę w kalkulatorze."
   },
   "ro": {
     "packageScope": "Pachetele Core includ funcționalități diferite. Verificați pachetul ales și extensiile eligibile în calculatorul de prețuri.",
@@ -187,7 +205,9 @@
     "comparePackages": "Compară pachetele",
     "moduleInclusion": "Inclus în funcție de pachet",
     "moduleQuestion": "Modulele se vând separat?",
-    "moduleAnswer": "Nu. Modulele sunt incluse în pachetele Core. Compară pachetele pentru a vedea funcționalitățile incluse în fiecare."
+    "moduleAnswer": "Nu. Modulele sunt incluse în pachetele Core. Compară pachetele pentru a vedea funcționalitățile incluse în fiecare.",
+    "watchtowerEligibility": "Watchtower este o extensie cu preț separat pentru Core Growth și Core Performance. Nu este disponibilă cu Core Foundation sau Core Margin.",
+    "watchtowerChoice": "Alegeți informații despre concurență, semnale de evenimente și calendar, tendințe de piață sau pachetul Watchtower complet. Confirmați locațiile și prețul actual în calculator."
   },
   "sv": {
     "packageScope": "Core-paketen innehåller olika funktioner. Kontrollera valt paket och tillgängliga tillägg i priskalkylatorn.",
@@ -206,7 +226,9 @@
     "comparePackages": "Jämför paket",
     "moduleInclusion": "Ingår beroende på paket",
     "moduleQuestion": "Säljs moduler separat?",
-    "moduleAnswer": "Nej. Moduler ingår i Core-paketen. Jämför paketen för att se vilka funktioner som ingår i varje paket."
+    "moduleAnswer": "Nej. Moduler ingår i Core-paketen. Jämför paketen för att se vilka funktioner som ingår i varje paket.",
+    "watchtowerEligibility": "Watchtower är ett separat prissatt tillägg för Core Growth och Core Performance. Det är inte tillgängligt med Core Foundation eller Core Margin.",
+    "watchtowerChoice": "Välj konkurrentinformation, evenemangs- och kalendersignaler, marknadstrender eller hela Watchtower-paketet. Bekräfta dina enheter och aktuellt pris i kalkylatorn."
   },
   "tr": {
     "packageScope": "Core paketleri farklı özellikler içerir. Seçilen paketi ve uygun eklentileri fiyat hesaplayıcısında kontrol edin.",
@@ -225,7 +247,9 @@
     "comparePackages": "Paketleri karşılaştırın",
     "moduleInclusion": "Pakete göre dahildir",
     "moduleQuestion": "Modüller ayrı satılıyor mu?",
-    "moduleAnswer": "Hayır. Modüller Core paketlerine dahildir. Her paketin hangi özellikleri içerdiğini görmek için paketleri karşılaştırın."
+    "moduleAnswer": "Hayır. Modüller Core paketlerine dahildir. Her paketin hangi özellikleri içerdiğini görmek için paketleri karşılaştırın.",
+    "watchtowerEligibility": "Watchtower, Core Growth ve Core Performance için ayrıca fiyatlandırılan bir eklentidir. Core Foundation veya Core Margin ile kullanılamaz.",
+    "watchtowerChoice": "Rekabet bilgileri, etkinlik ve takvim sinyalleri, pazar trendleri veya tam Watchtower paketini seçin. Lokasyonlarınızı ve güncel fiyatı hesaplayıcıda doğrulayın."
   },
   "hi": {
     "packageScope": "Core पैकेजों में अलग-अलग क्षमताएँ शामिल हैं। चुने हुए पैकेज और उपलब्ध विस्तारों की जाँच मूल्य कैलकुलेटर में करें।",
@@ -244,7 +268,9 @@
     "comparePackages": "पैकेज की तुलना करें",
     "moduleInclusion": "पैकेज के अनुसार शामिल",
     "moduleQuestion": "क्या मॉड्यूल अलग से बेचे जाते हैं?",
-    "moduleAnswer": "नहीं। मॉड्यूल Core पैकेज में शामिल हैं। हर पैकेज में कौन सी क्षमताएँ शामिल हैं, यह जानने के लिए पैकेज की तुलना करें।"
+    "moduleAnswer": "नहीं। मॉड्यूल Core पैकेज में शामिल हैं। हर पैकेज में कौन सी क्षमताएँ शामिल हैं, यह जानने के लिए पैकेज की तुलना करें।",
+    "watchtowerEligibility": "Watchtower, Core Growth और Core Performance के लिए अलग शुल्क वाला एक्सटेंशन है। यह Core Foundation या Core Margin के साथ उपलब्ध नहीं है।",
+    "watchtowerChoice": "प्रतिस्पर्धी जानकारी, इवेंट और कैलेंडर संकेत, बाज़ार के रुझान या पूरा Watchtower बंडल चुनें। कैलकुलेटर में अपनी लोकेशन और मौजूदा कीमत की पुष्टि करें।"
   },
   "bn": {
     "packageScope": "Core প্যাকেজে ভিন্ন ভিন্ন সুবিধা রয়েছে। নির্বাচিত প্যাকেজ ও উপযুক্ত এক্সটেনশন মূল্য ক্যালকুলেটরে যাচাই করুন।",
@@ -263,7 +289,9 @@
     "comparePackages": "প্যাকেজ তুলনা করুন",
     "moduleInclusion": "প্যাকেজ অনুযায়ী অন্তর্ভুক্ত",
     "moduleQuestion": "মডিউল কি আলাদাভাবে বিক্রি হয়?",
-    "moduleAnswer": "না। মডিউলগুলো Core প্যাকেজের অন্তর্ভুক্ত। প্রতিটি প্যাকেজে কোন সুবিধা রয়েছে তা দেখতে প্যাকেজগুলো তুলনা করুন।"
+    "moduleAnswer": "না। মডিউলগুলো Core প্যাকেজের অন্তর্ভুক্ত। প্রতিটি প্যাকেজে কোন সুবিধা রয়েছে তা দেখতে প্যাকেজগুলো তুলনা করুন।",
+    "watchtowerEligibility": "Watchtower হলো Core Growth ও Core Performance-এর জন্য আলাদা মূল্যের একটি এক্সটেনশন। এটি Core Foundation বা Core Margin-এর সঙ্গে পাওয়া যায় না।",
+    "watchtowerChoice": "প্রতিযোগীদের তথ্য, ইভেন্ট ও ক্যালেন্ডার সংকেত, বাজারের প্রবণতা অথবা সম্পূর্ণ Watchtower বান্ডল বেছে নিন। ক্যালকুলেটরে আপনার লোকেশন ও বর্তমান মূল্য নিশ্চিত করুন।"
   },
   "ur": {
     "packageScope": "Core پیکیجز میں مختلف صلاحیتیں شامل ہیں۔ منتخب پیکیج اور اہل اضافوں کو قیمت کے کیلکولیٹر میں دیکھیں۔",
@@ -282,7 +310,9 @@
     "comparePackages": "پیکیجز کا موازنہ کریں",
     "moduleInclusion": "پیکیج کے مطابق شامل",
     "moduleQuestion": "کیا ماڈیولز الگ فروخت ہوتے ہیں؟",
-    "moduleAnswer": "نہیں۔ ماڈیولز Core پیکیجز میں شامل ہیں۔ ہر پیکیج میں شامل صلاحیتیں جاننے کے لیے پیکیجز کا موازنہ کریں۔"
+    "moduleAnswer": "نہیں۔ ماڈیولز Core پیکیجز میں شامل ہیں۔ ہر پیکیج میں شامل صلاحیتیں جاننے کے لیے پیکیجز کا موازنہ کریں۔",
+    "watchtowerEligibility": "Watchtower، Core Growth اور Core Performance کے لیے الگ قیمت والی اضافی سہولت ہے۔ یہ Core Foundation یا Core Margin کے ساتھ دستیاب نہیں ہے۔",
+    "watchtowerChoice": "مسابقتی معلومات، ایونٹ اور کیلنڈر کے اشارے، مارکیٹ کے رجحانات یا مکمل Watchtower بنڈل منتخب کریں۔ کیلکولیٹر میں اپنے مقامات اور موجودہ قیمت کی تصدیق کریں۔"
   },
   "zh-Hans": {
     "packageScope": "Core 套餐包含不同的功能。请在价格计算器中核实所选套餐及可用扩展。",
@@ -301,7 +331,9 @@
     "comparePackages": "比较套餐",
     "moduleInclusion": "按套餐包含",
     "moduleQuestion": "模块是否单独出售？",
-    "moduleAnswer": "不。模块包含在 Core 套餐中。请比较套餐，了解各套餐包含的功能。"
+    "moduleAnswer": "不。模块包含在 Core 套餐中。请比较套餐，了解各套餐包含的功能。",
+    "watchtowerEligibility": "Watchtower 是 Core Growth 和 Core Performance 的单独收费扩展，不适用于 Core Foundation 或 Core Margin。",
+    "watchtowerChoice": "可选择竞争情报、活动与日历信号、市场趋势或完整 Watchtower 套餐。请在价格计算器中确认门店数量和当前价格。"
   },
   "ja": {
     "packageScope": "Core の各プランに含まれる機能は異なります。選択したプランと利用可能な拡張機能を料金シミュレーターでご確認ください。",
@@ -320,7 +352,9 @@
     "comparePackages": "パッケージを比較",
     "moduleInclusion": "パッケージごとに含まれる機能",
     "moduleQuestion": "モジュールは個別に販売されていますか？",
-    "moduleAnswer": "いいえ。モジュールは Core パッケージに含まれます。各パッケージに含まれる機能を比較してください。"
+    "moduleAnswer": "いいえ。モジュールは Core パッケージに含まれます。各パッケージに含まれる機能を比較してください。",
+    "watchtowerEligibility": "Watchtower は Core Growth と Core Performance 向けの別料金の拡張機能です。Core Foundation と Core Margin では利用できません。",
+    "watchtowerChoice": "競合情報、イベント・カレンダー情報、市場動向、または Watchtower の全機能パックを選択できます。拠点数と現在の料金は料金計算ツールでご確認ください。"
   },
   "ko": {
     "packageScope": "Core 패키지마다 포함 기능이 다릅니다. 선택한 패키지와 이용 가능한 확장 기능을 요금 계산기에서 확인하세요.",
@@ -339,7 +373,9 @@
     "comparePackages": "패키지 비교",
     "moduleInclusion": "패키지에 따라 포함",
     "moduleQuestion": "모듈을 별도로 판매하나요?",
-    "moduleAnswer": "아니요. 모듈은 Core 패키지에 포함됩니다. 각 패키지에 포함된 기능을 비교해 보세요."
+    "moduleAnswer": "아니요. 모듈은 Core 패키지에 포함됩니다. 각 패키지에 포함된 기능을 비교해 보세요.",
+    "watchtowerEligibility": "Watchtower는 Core Growth와 Core Performance에서 별도 요금으로 이용하는 확장 기능입니다. Core Foundation 또는 Core Margin에서는 이용할 수 없습니다.",
+    "watchtowerChoice": "경쟁사 정보, 이벤트 및 일정 신호, 시장 동향 또는 전체 Watchtower 번들을 선택하세요. 계산기에서 사업장 수와 현재 요금을 확인하세요."
   },
   "id": {
     "packageScope": "Paket Core mencakup kemampuan yang berbeda. Periksa paket pilihan dan ekstensi yang memenuhi syarat di kalkulator harga.",
@@ -358,7 +394,9 @@
     "comparePackages": "Bandingkan paket",
     "moduleInclusion": "Termasuk sesuai paket",
     "moduleQuestion": "Apakah modul dijual terpisah?",
-    "moduleAnswer": "Tidak. Modul sudah termasuk dalam paket Core. Bandingkan paket untuk melihat kemampuan yang disertakan dalam setiap paket."
+    "moduleAnswer": "Tidak. Modul sudah termasuk dalam paket Core. Bandingkan paket untuk melihat kemampuan yang disertakan dalam setiap paket.",
+    "watchtowerEligibility": "Watchtower adalah ekstensi dengan harga terpisah untuk Core Growth dan Core Performance. Tidak tersedia pada Core Foundation atau Core Margin.",
+    "watchtowerChoice": "Pilih informasi persaingan, sinyal acara dan kalender, tren pasar, atau bundel Watchtower lengkap. Konfirmasikan lokasi dan harga terkini di kalkulator."
   },
   "ms": {
     "packageScope": "Pakej Core merangkumi keupayaan yang berbeza. Semak pakej pilihan dan sambungan yang layak dalam kalkulator harga.",
@@ -377,7 +415,9 @@
     "comparePackages": "Bandingkan pakej",
     "moduleInclusion": "Disertakan mengikut pakej",
     "moduleQuestion": "Adakah modul dijual secara berasingan?",
-    "moduleAnswer": "Tidak. Modul disertakan dalam pakej Core. Bandingkan pakej untuk melihat keupayaan yang disertakan dalam setiap pakej."
+    "moduleAnswer": "Tidak. Modul disertakan dalam pakej Core. Bandingkan pakej untuk melihat keupayaan yang disertakan dalam setiap pakej.",
+    "watchtowerEligibility": "Watchtower ialah tambahan berharga berasingan untuk Core Growth dan Core Performance. Ia tidak tersedia dengan Core Foundation atau Core Margin.",
+    "watchtowerChoice": "Pilih maklumat persaingan, isyarat acara dan kalendar, trend pasaran atau pakej Watchtower lengkap. Sahkan lokasi dan harga semasa dalam kalkulator."
   },
   "vi": {
     "packageScope": "Các gói Core bao gồm những tính năng khác nhau. Kiểm tra gói đã chọn và các tiện ích mở rộng phù hợp trong công cụ tính giá.",
@@ -396,7 +436,9 @@
     "comparePackages": "So sánh các gói",
     "moduleInclusion": "Bao gồm theo từng gói",
     "moduleQuestion": "Các mô-đun có được bán riêng không?",
-    "moduleAnswer": "Không. Các mô-đun được bao gồm trong các gói Core. So sánh các gói để xem những tính năng có trong từng gói."
+    "moduleAnswer": "Không. Các mô-đun được bao gồm trong các gói Core. So sánh các gói để xem những tính năng có trong từng gói.",
+    "watchtowerEligibility": "Watchtower là phần mở rộng tính phí riêng cho Core Growth và Core Performance. Không áp dụng cho Core Foundation hoặc Core Margin.",
+    "watchtowerChoice": "Chọn thông tin cạnh tranh, tín hiệu sự kiện và lịch, xu hướng thị trường hoặc gói Watchtower đầy đủ. Xác nhận số cơ sở và giá hiện tại trong công cụ tính giá."
   },
   "th": {
     "packageScope": "แพ็กเกจ Core มีความสามารถต่างกัน โปรดตรวจสอบแพ็กเกจที่เลือกและส่วนเสริมที่ใช้ได้ในเครื่องคำนวณราคา",
@@ -415,6 +457,8 @@
     "comparePackages": "เปรียบเทียบแพ็กเกจ",
     "moduleInclusion": "รวมตามแพ็กเกจ",
     "moduleQuestion": "โมดูลจำหน่ายแยกหรือไม่",
-    "moduleAnswer": "ไม่ โมดูลรวมอยู่ในแพ็กเกจ Core เปรียบเทียบแพ็กเกจเพื่อดูความสามารถที่รวมอยู่ในแต่ละแพ็กเกจ"
+    "moduleAnswer": "ไม่ โมดูลรวมอยู่ในแพ็กเกจ Core เปรียบเทียบแพ็กเกจเพื่อดูความสามารถที่รวมอยู่ในแต่ละแพ็กเกจ",
+    "watchtowerEligibility": "Watchtower เป็นส่วนเสริมที่คิดราคาแยกสำหรับ Core Growth และ Core Performance ไม่สามารถใช้กับ Core Foundation หรือ Core Margin ได้",
+    "watchtowerChoice": "เลือกข้อมูลคู่แข่ง สัญญาณกิจกรรมและปฏิทิน แนวโน้มตลาด หรือชุด Watchtower ทั้งหมด ตรวจสอบจำนวนสาขาและราคาปัจจุบันในเครื่องคำนวณราคา"
   }
 }

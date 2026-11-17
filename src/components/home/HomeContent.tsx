@@ -84,7 +84,8 @@ export default function HomeContent() {
     ...sourceEditorial,
     band1: { ...sourceEditorial.band1, headline: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.editorialHeadline },
   };
-  const platform = home.platform;
+  const commercial = getCommercialCopy(locale);
+  const platform = { ...home.platform, layers: home.platform.layers.map(layer => layer.name === 'Watchtower' ? { ...layer, description: commercial.watchtowerEligibility } : layer) };
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const closing = homeClosingCopy[locale as keyof typeof homeClosingCopy] ?? homeClosingCopy.en;
   const [signoffBefore, signoffAfter] = closing.signoff.split('Sundae');

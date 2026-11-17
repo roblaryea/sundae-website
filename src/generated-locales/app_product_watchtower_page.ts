@@ -99,24 +99,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "متوفر على مستويات Core. اختر مكونات فردية أو وفر ما يقرب من 18% مع الحزمة الكاملة.",
       "pricingCards": [
         {
-          "name": "الذكاء التنافسي",
-          "price": "549 دولارًا",
-          "perLoc": "+69 دولارًا أمريكيًا/الموقع"
+          "name": "الذكاء التنافسي"
         },
         {
-          "name": "الأحداث والتقويم",
-          "price": "249 دولارًا",
-          "perLoc": "+39 دولارًا أمريكيًا/الموقع"
+          "name": "الأحداث والتقويم"
         },
         {
-          "name": "اتجاهات السوق",
-          "price": "299 دولارًا",
-          "perLoc": "+ 29 دولارًا/الموقع"
+          "name": "اتجاهات السوق"
         },
         {
-          "name": "حزمة كاملة",
-          "price": "899 دولارًا",
-          "perLoc": "+109 دولارًا أمريكيًا/الموقع"
+          "name": "حزمة كاملة"
         }
       ],
       "faqHeading": "الأسئلة المتداولة",
@@ -223,24 +215,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Disponible sur les niveaux Core. Choisissez des composants individuels ou économisez environ 18 % avec l'ensemble complet.",
       "pricingCards": [
         {
-          "name": "Veille concurrentielle",
-          "price": "549 $",
-          "perLoc": "+69$/local"
+          "name": "Veille concurrentielle"
         },
         {
-          "name": "Événements et calendrier",
-          "price": "249 $",
-          "perLoc": "+39$/local"
+          "name": "Événements et calendrier"
         },
         {
-          "name": "Tendances du marché",
-          "price": "299 $",
-          "perLoc": "+29$/local"
+          "name": "Tendances du marché"
         },
         {
-          "name": "Forfait complet",
-          "price": "899 $",
-          "perLoc": "+109$/local"
+          "name": "Forfait complet"
         }
       ],
       "faqHeading": "Foire aux questions",
@@ -347,24 +331,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Disponible en niveles Core. Elija componentes individuales o ahorre ~18 % con el paquete completo.",
       "pricingCards": [
         {
-          "name": "Inteligencia Competitiva",
-          "price": "$549",
-          "perLoc": "+$69/loc"
+          "name": "Inteligencia Competitiva"
         },
         {
-          "name": "Eventos y Calendario",
-          "price": "$249",
-          "perLoc": "+$39/loc"
+          "name": "Eventos y Calendario"
         },
         {
-          "name": "Tendencias del mercado",
-          "price": "$299",
-          "perLoc": "+$29/loc"
+          "name": "Tendencias del mercado"
         },
         {
-          "name": "Paquete completo",
-          "price": "$899",
-          "perLoc": "+$109/loc"
+          "name": "Paquete completo"
         }
       ],
       "faqHeading": "Preguntas frecuentes",
@@ -471,24 +447,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Verfügbar auf den Core-Stufen. Wählen Sie einzelne Komponenten oder sparen Sie ~18 % mit dem Komplettpaket.",
       "pricingCards": [
         {
-          "name": "Wettbewerbsintelligenz",
-          "price": "$549",
-          "perLoc": "+$69/loc"
+          "name": "Wettbewerbsintelligenz"
         },
         {
-          "name": "Events & Kalender",
-          "price": "$249",
-          "perLoc": "+$39/loc"
+          "name": "Events & Kalender"
         },
         {
-          "name": "Markttrends",
-          "price": "299 $",
-          "perLoc": "+29 $/Lok"
+          "name": "Markttrends"
         },
         {
-          "name": "Vollständiges Paket",
-          "price": "899 $",
-          "perLoc": "+109 $/Lok"
+          "name": "Vollständiges Paket"
         }
       ],
       "faqHeading": "Häufig gestellte Fragen",
@@ -596,24 +564,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Beschikbaar op Core-lagen. Kies afzonderlijke componenten of bespaar ~18% met de volledige bundel.",
       "pricingCards": [
         {
-          "name": "Competitieve intelligentie",
-          "price": "$ 549",
-          "perLoc": "+$69/loc"
+          "name": "Competitieve intelligentie"
         },
         {
-          "name": "Evenementen en kalender",
-          "price": "$ 249",
-          "perLoc": "+$39/loc"
+          "name": "Evenementen en kalender"
         },
         {
-          "name": "Markttrends",
-          "price": "$ 299",
-          "perLoc": "+$29/loc"
+          "name": "Markttrends"
         },
         {
-          "name": "Volledige bundel",
-          "price": "$ 899",
-          "perLoc": "+$109/loc"
+          "name": "Volledige bundel"
         }
       ],
       "faqHeading": "Veelgestelde vragen",
@@ -721,24 +681,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Disponível nas camadas Core. Escolha componentes individuais ou economize aproximadamente 18% com o pacote completo.",
       "pricingCards": [
         {
-          "name": "Inteligência Competitiva",
-          "price": "US$ 549",
-          "perLoc": "+US$ 69/locação"
+          "name": "Inteligência Competitiva"
         },
         {
-          "name": "Eventos e calendário",
-          "price": "US$ 249",
-          "perLoc": "+US$ 39/locação"
+          "name": "Eventos e calendário"
         },
         {
-          "name": "Tendências de mercado",
-          "price": "US$ 299",
-          "perLoc": "+US$ 29/locação"
+          "name": "Tendências de mercado"
         },
         {
-          "name": "Pacote completo",
-          "price": "US$ 899",
-          "perLoc": "+US$ 109/local"
+          "name": "Pacote completo"
         }
       ],
       "faqHeading": "Perguntas frequentes",
@@ -846,24 +798,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "بنیادی سطحوں پر دستیاب ہے۔ انفرادی اجزاء کا انتخاب کریں یا مکمل بنڈل کے ساتھ ~18% کی بچت کریں۔",
       "pricingCards": [
         {
-          "name": "مسابقتی ذہانت",
-          "price": "$549",
-          "perLoc": "+$69/loc"
+          "name": "مسابقتی ذہانت"
         },
         {
-          "name": "واقعات اور کیلنڈر",
-          "price": "$249",
-          "perLoc": "+$39/loc"
+          "name": "واقعات اور کیلنڈر"
         },
         {
-          "name": "مارکیٹ کے رجحانات",
-          "price": "$299",
-          "perLoc": "+$29/loc"
+          "name": "مارکیٹ کے رجحانات"
         },
         {
-          "name": "مکمل بنڈل",
-          "price": "$899",
-          "perLoc": "+$109/loc"
+          "name": "مکمل بنڈل"
         }
       ],
       "faqHeading": "اکثر پوچھے گئے سوالات",
@@ -971,24 +915,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "कोर टियर पर उपलब्ध है। अलग-अलग घटक चुनें या पूरे बंडल के साथ ~18% बचाएं।",
       "pricingCards": [
         {
-          "name": "प्रतिस्पर्धी बुद्धि",
-          "price": "$549",
-          "perLoc": "+$69/स्थान"
+          "name": "प्रतिस्पर्धी बुद्धि"
         },
         {
-          "name": "घटनाएँ और कैलेंडर",
-          "price": "$249",
-          "perLoc": "+$39/स्थान"
+          "name": "घटनाएँ और कैलेंडर"
         },
         {
-          "name": "बाज़ार के रुझान",
-          "price": "$299",
-          "perLoc": "+$29/स्थान"
+          "name": "बाज़ार के रुझान"
         },
         {
-          "name": "पूर्ण बंडल",
-          "price": "$899",
-          "perLoc": "+$109/स्थान"
+          "name": "पूर्ण बंडल"
         }
       ],
       "faqHeading": "अक्सर पूछे जाने वाले प्रश्न",
@@ -1096,24 +1032,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Core katmanlarında mevcuttur. Bileşenleri tek tek seçin veya tam paketle ~%18 tasarruf edin.",
       "pricingCards": [
         {
-          "name": "Rekabetçi İstihbarat",
-          "price": "549$",
-          "perLoc": "+69$/yer"
+          "name": "Rekabetçi İstihbarat"
         },
         {
-          "name": "Etkinlikler ve Takvim",
-          "price": "249$",
-          "perLoc": "+$39/yer"
+          "name": "Etkinlikler ve Takvim"
         },
         {
-          "name": "Piyasa Trendleri",
-          "price": "299$",
-          "perLoc": "+$29/yer"
+          "name": "Piyasa Trendleri"
         },
         {
-          "name": "Tam Paket",
-          "price": "899$",
-          "perLoc": "+$109/yer"
+          "name": "Tam Paket"
         }
       ],
       "faqHeading": "Sıkça Sorulan Sorular",
@@ -1221,24 +1149,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Disponibile sui livelli Core. Scegli i singoli componenti o risparmia circa il 18% con il pacchetto completo.",
       "pricingCards": [
         {
-          "name": "Intelligenza competitiva",
-          "price": "$ 549",
-          "perLoc": "+$69/loc"
+          "name": "Intelligenza competitiva"
         },
         {
-          "name": "Eventi e calendario",
-          "price": "$ 249",
-          "perLoc": "+$39/loc"
+          "name": "Eventi e calendario"
         },
         {
-          "name": "Tendenze del mercato",
-          "price": "$ 299",
-          "perLoc": "+$29/località"
+          "name": "Tendenze del mercato"
         },
         {
-          "name": "Pacchetto completo",
-          "price": "$ 899",
-          "perLoc": "+$109/loc"
+          "name": "Pacchetto completo"
         }
       ],
       "faqHeading": "Domande frequenti",
@@ -1346,24 +1266,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Dostępne na poziomach Core. Wybierz poszczególne komponenty lub zaoszczędź ~18% przy pełnym pakiecie.",
       "pricingCards": [
         {
-          "name": "Inteligencja konkurencyjna",
-          "price": "549 dolarów",
-          "perLoc": "+69 USD/lok"
+          "name": "Inteligencja konkurencyjna"
         },
         {
-          "name": "Wydarzenia i kalendarz",
-          "price": "249 dolarów",
-          "perLoc": "+39 USD/lok"
+          "name": "Wydarzenia i kalendarz"
         },
         {
-          "name": "Trendy rynkowe",
-          "price": "299 dolarów",
-          "perLoc": "+29 USD/lok"
+          "name": "Trendy rynkowe"
         },
         {
-          "name": "Pełny pakiet",
-          "price": "899 dolarów",
-          "perLoc": "+109 USD/lok"
+          "name": "Pełny pakiet"
         }
       ],
       "faqHeading": "Często zadawane pytania",
@@ -1471,24 +1383,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "在核心层可用。选择单个组件或使用完整捆绑包可节省约 18%。",
       "pricingCards": [
         {
-          "name": "竞争情报",
-          "price": "$549",
-          "perLoc": "+$69/地点"
+          "name": "竞争情报"
         },
         {
-          "name": "活动和日历",
-          "price": "249 美元",
-          "perLoc": "+$39/地点"
+          "name": "活动和日历"
         },
         {
-          "name": "市场趋势",
-          "price": "299 美元",
-          "perLoc": "+$29/地点"
+          "name": "市场趋势"
         },
         {
-          "name": "全包",
-          "price": "899 美元",
-          "perLoc": "+$109/地点"
+          "name": "全包"
         }
       ],
       "faqHeading": "常见问题解答",
@@ -1596,24 +1500,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "コア層で利用可能です。個別のコンポーネントを選択するか、フルバンドルで最大 18% 割引します。",
       "pricingCards": [
         {
-          "name": "競争力のあるインテリジェンス",
-          "price": "$549",
-          "perLoc": "+$69/場所"
+          "name": "競争力のあるインテリジェンス"
         },
         {
-          "name": "イベントとカレンダー",
-          "price": "$249",
-          "perLoc": "+$39/場所"
+          "name": "イベントとカレンダー"
         },
         {
-          "name": "市場動向",
-          "price": "$299",
-          "perLoc": "+$29/場所"
+          "name": "市場動向"
         },
         {
-          "name": "フルバンドル",
-          "price": "$899",
-          "perLoc": "+$109/場所"
+          "name": "フルバンドル"
         }
       ],
       "faqHeading": "よくある質問",
@@ -1721,24 +1617,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "코어 계층에서 사용할 수 있습니다. 개별 구성 요소를 선택하거나 전체 번들로 최대 18%를 절약하세요.",
       "pricingCards": [
         {
-          "name": "경쟁 정보",
-          "price": "$549",
-          "perLoc": "+$69/좌"
+          "name": "경쟁 정보"
         },
         {
-          "name": "이벤트 및 캘린더",
-          "price": "$249",
-          "perLoc": "+$39/위치"
+          "name": "이벤트 및 캘린더"
         },
         {
-          "name": "시장 동향",
-          "price": "$299",
-          "perLoc": "+$29/위치"
+          "name": "시장 동향"
         },
         {
-          "name": "전체 번들",
-          "price": "$899",
-          "perLoc": "+$109/좌"
+          "name": "전체 번들"
         }
       ],
       "faqHeading": "자주 묻는 질문",
@@ -1846,24 +1734,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Tersedia di tingkat Inti. Pilih masing-masing komponen atau hemat ~18% dengan paket lengkap.",
       "pricingCards": [
         {
-          "name": "Intelijen Kompetitif",
-          "price": "$549",
-          "perLoc": "+$69/lokasi"
+          "name": "Intelijen Kompetitif"
         },
         {
-          "name": "Acara & Kalender",
-          "price": "$249",
-          "perLoc": "+$39/lokasi"
+          "name": "Acara & Kalender"
         },
         {
-          "name": "Tren Pasar",
-          "price": "$299",
-          "perLoc": "+$29/lokasi"
+          "name": "Tren Pasar"
         },
         {
-          "name": "Paket Lengkap",
-          "price": "$899",
-          "perLoc": "+$109/lokasi"
+          "name": "Paket Lengkap"
         }
       ],
       "faqHeading": "Pertanyaan yang Sering Diajukan",
@@ -1971,24 +1851,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Disponibil pe nivelurile Core. Alegeți componente individuale sau economisiți ~18% cu pachetul complet.",
       "pricingCards": [
         {
-          "name": "Inteligența competitivă",
-          "price": "549 USD",
-          "perLoc": "+69$/loc"
+          "name": "Inteligența competitivă"
         },
         {
-          "name": "Evenimente și calendar",
-          "price": "249 USD",
-          "perLoc": "+39$/loc"
+          "name": "Evenimente și calendar"
         },
         {
-          "name": "Tendințele pieței",
-          "price": "299 USD",
-          "perLoc": "+29$/loc"
+          "name": "Tendințele pieței"
         },
         {
-          "name": "Pachet complet",
-          "price": "899 USD",
-          "perLoc": "+109 USD/loc"
+          "name": "Pachet complet"
         }
       ],
       "faqHeading": "Întrebări frecvente",
@@ -2096,24 +1968,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Có sẵn trên các tầng Core. Chọn các thành phần riêng lẻ hoặc tiết kiệm ~18% với gói đầy đủ.",
       "pricingCards": [
         {
-          "name": "Thông tin cạnh tranh",
-          "price": "$549",
-          "perLoc": "+$69/loc"
+          "name": "Thông tin cạnh tranh"
         },
         {
-          "name": "Sự kiện & Lịch",
-          "price": "$249",
-          "perLoc": "+$39/loc"
+          "name": "Sự kiện & Lịch"
         },
         {
-          "name": "Xu hướng thị trường",
-          "price": "$299",
-          "perLoc": "+$29/loc"
+          "name": "Xu hướng thị trường"
         },
         {
-          "name": "Gói đầy đủ",
-          "price": "$899",
-          "perLoc": "+$109/loc"
+          "name": "Gói đầy đủ"
         }
       ],
       "faqHeading": "Câu hỏi thường gặp",
@@ -2221,24 +2085,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Tillgänglig på Core-nivåer. Välj enskilda komponenter eller spara ~18 % med hela paketet.",
       "pricingCards": [
         {
-          "name": "Konkurrenskraftig intelligens",
-          "price": "549 USD",
-          "perLoc": "+$69/lokal"
+          "name": "Konkurrenskraftig intelligens"
         },
         {
-          "name": "Evenemang & Kalender",
-          "price": "249 USD",
-          "perLoc": "+$39/lokal"
+          "name": "Evenemang & Kalender"
         },
         {
-          "name": "Marknadstrender",
-          "price": "299 USD",
-          "perLoc": "+29 USD/lokal"
+          "name": "Marknadstrender"
         },
         {
-          "name": "Fullt paket",
-          "price": "899 USD",
-          "perLoc": "+109 USD/lokal"
+          "name": "Fullt paket"
         }
       ],
       "faqHeading": "Vanliga frågor",
@@ -2346,24 +2202,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Core স্তরে উপলব্ধ। পৃথক উপাদান চয়ন করুন বা সম্পূর্ণ বান্ডেল সহ ~18% সংরক্ষণ করুন।",
       "pricingCards": [
         {
-          "name": "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
-          "price": "$549",
-          "perLoc": "+$69/লোক"
+          "name": "প্রতিযোগিতামূলক বুদ্ধিমত্তা"
         },
         {
-          "name": "ইভেন্ট এবং ক্যালেন্ডার",
-          "price": "$249",
-          "perLoc": "+$39/লোক"
+          "name": "ইভেন্ট এবং ক্যালেন্ডার"
         },
         {
-          "name": "বাজারের প্রবণতা",
-          "price": "$299",
-          "perLoc": "+$29/লোক"
+          "name": "বাজারের প্রবণতা"
         },
         {
-          "name": "সম্পূর্ণ বান্ডিল",
-          "price": "$899",
-          "perLoc": "+$109/লোক"
+          "name": "সম্পূর্ণ বান্ডিল"
         }
       ],
       "faqHeading": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
@@ -2471,24 +2319,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "มีให้ใช้งานในระดับ Core เลือกส่วนประกอบแต่ละชิ้นหรือประหยัด ~18% เมื่อซื้อครบชุด",
       "pricingCards": [
         {
-          "name": "ข่าวกรองการแข่งขัน",
-          "price": "$549",
-          "perLoc": "+$69/ที่"
+          "name": "ข่าวกรองการแข่งขัน"
         },
         {
-          "name": "กิจกรรมและปฏิทิน",
-          "price": "$249",
-          "perLoc": "+$39/ที่"
+          "name": "กิจกรรมและปฏิทิน"
         },
         {
-          "name": "แนวโน้มตลาด",
-          "price": "$299",
-          "perLoc": "+$29/ที่"
+          "name": "แนวโน้มตลาด"
         },
         {
-          "name": "ชุดเต็ม",
-          "price": "$899",
-          "perLoc": "+$109/ที่"
+          "name": "ชุดเต็ม"
         }
       ],
       "faqHeading": "คำถามที่พบบ่อย",
@@ -2596,24 +2436,16 @@ export const generatedLocalCopy = {
       "pricingDescription": "Tersedia pada peringkat Core. Pilih komponen individu atau jimat ~18% dengan himpunan penuh.",
       "pricingCards": [
         {
-          "name": "Kecerdasan Kompetitif",
-          "price": "$549",
-          "perLoc": "+$69/tempat"
+          "name": "Kecerdasan Kompetitif"
         },
         {
-          "name": "Acara & Kalendar",
-          "price": "$249",
-          "perLoc": "+$39/tempat"
+          "name": "Acara & Kalendar"
         },
         {
-          "name": "Aliran Pasaran",
-          "price": "$299",
-          "perLoc": "+$29/tempat"
+          "name": "Aliran Pasaran"
         },
         {
-          "name": "Himpunan Penuh",
-          "price": "$899",
-          "perLoc": "+$109/tempat"
+          "name": "Himpunan Penuh"
         }
       ],
       "faqHeading": "Soalan Lazim",
