@@ -13,7 +13,7 @@ import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
 import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
 import storyCopy from '@/content/platform-story.json'
 import proofCopy from '@/content/workflow-proof.json'
-import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
+import { OperatorOpeningTitle } from '@/components/ui/OperatorOpeningTitle'
 import openingCopy from '@/content/operator-openings.json'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import { getCoreNavigation } from '@/lib/coreNavigation'
@@ -29,7 +29,7 @@ export default function WhySundaePage() {
 
   return (
     <div className="search-brand-page min-h-screen overflow-x-hidden bg-[var(--navy-deep)]">
-      <PageHero badge={`${proofCopy[locale as keyof typeof proofCopy].whySundae} · ${operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.eyebrow}`} title={<BrandEmphasis text={opening.whyTitle} phrase={opening.whyAccent} />} description={opening.whyDescription}>
+      <PageHero badge={`${proofCopy[locale as keyof typeof proofCopy].whySundae} · ${operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.eyebrow}`} title={<OperatorOpeningTitle text={opening.whyTitle} accent={opening.whyAccent} />} description={opening.whyDescription}>
         <Button variant="cta" size="lg" href={href('/demo')} trackingLabel="why_sundae_hero_walkthrough" trackingMetadata={{ destination: href('/demo') }}>{messages.navbar.bookDemo}</Button>
       </PageHero>
       <section className="px-4 py-20 sm:px-6 lg:px-8 lg:py-28" data-choice-reasons>
