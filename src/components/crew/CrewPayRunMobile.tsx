@@ -152,7 +152,7 @@ export function CrewPayRunMobile() {
       {/* title */}
       <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', margin: '16px 2px 4px' }}>
         <div>
-          <h1 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>{t.title}</h1>
+          <h3 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>{t.title}</h3>
           <div style={{ font: `500 12.5px ${FONT}`, color: T.tx3, marginTop: 3 }}>
             {t.monthMarch} · {t.pays} 28 Mar
           </div>

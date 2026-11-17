@@ -15,6 +15,8 @@
  * crewMoney is intentionally not used here.
  */
 
+import accessibilityLabels from '@/content/accessibility-labels.json';
+
 import { useCrewScreen } from '../crew/crewI18n';
 import { LOC } from './locales/CoreInsightsAskMobile.locales';
 
@@ -134,7 +136,7 @@ function ActButton({ icon, label, tint }: { icon: React.ReactNode; label: string
 }
 
 export function CoreInsightsAskMobile() {
-  const { t } = useCrewScreen(EN, LOC);
+  const { t, locale } = useCrewScreen(EN, LOC);
 
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
@@ -345,6 +347,8 @@ export function CoreInsightsAskMobile() {
           {t.followUpPlaceholder}
         </div>
         <button
+          type="button"
+          aria-label={accessibilityLabels[locale as keyof typeof accessibilityLabels].sendFollowUp}
           style={{
             flex: 'none',
             width: 44,

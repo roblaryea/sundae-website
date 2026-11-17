@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { COUNTRY_CODES } from '@/lib/countryCodes';
+import accessibilityLabels from '@/content/accessibility-labels.json';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_marketing_LeadCaptureForm'
 import { trackEvent } from '@/lib/posthog';
@@ -505,6 +506,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
               id={name}
               name={name}
               type={type}
+              autoComplete={{ name: 'name', email: 'email', company: 'organization', role: 'organization-title' }[name]}
               value={formData[name as keyof FormData] as string}
               onChange={handleChange}
               aria-required="true"
@@ -524,6 +526,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
           <select
             id="country"
             name="country"
+            autoComplete="country-name"
             value={formData.country}
             onChange={handleCountryChange}
             aria-required="true"
@@ -550,6 +553,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
               <select
                 id="countryCode"
                 name="countryCode"
+                autoComplete="tel-country-code"
+                aria-label={accessibilityLabels[locale as keyof typeof accessibilityLabels].countryCallingCode}
                 value={formData.countryCode}
                 onChange={handleChange}
                 aria-required="true"
@@ -569,6 +574,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
                 id="phone"
                 name="phone"
                 type="tel"
+                autoComplete="tel-national"
                 value={formData.phone}
                 onChange={handleChange}
                 aria-required="true"
