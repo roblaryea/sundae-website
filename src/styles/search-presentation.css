@@ -23,6 +23,7 @@ html:is([lang="ar"], [lang="ur"], [lang="ja"], [lang="zh-Hans"], [lang="ko"], [l
 .search-criteria :is(td, th):last-child { background: var(--trust-bg); }
 .search-criteria dt { color: var(--text-warm); }
 .search-criteria h2, .search-criteria td:first-child { color: var(--text-display); }
+.search-editorial-article .hero-h1 { color: var(--text-display); }
 .search-editorial-article .prose h2 { color: var(--text-display); border-inline-start: 3px solid var(--warm-caramel); padding-inline-start: 1rem; }
 .search-editorial-article .prose h3 { color: var(--text-warm); }
 .search-editorial-article .prose :is(a, a:hover) { color: var(--accent-warm); }
