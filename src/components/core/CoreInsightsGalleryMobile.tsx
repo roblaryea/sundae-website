@@ -293,28 +293,28 @@ export function CoreInsightsGalleryMobile() {
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 74, font: `500 11.5px ${FONT}`, color: T.tx2 }}>{t.rowRevenue}</span>
               <div style={{ flex: 1, height: 18, background: T.info, opacity: 0.6, borderRadius: 4 }} />
-              <span style={{ width: 56, textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.tx }}>{compact(revLoc)}</span>
+              <span style={{ minWidth: 56, flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.tx }}>{compact(revLoc)}</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 74, font: `500 11.5px ${FONT}`, color: T.tx2 }}>{t.rowCogs}</span>
               <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
                 <div style={{ width: '42%', height: 18, background: T.neg, opacity: 0.7, borderRadius: 4 }} />
               </div>
-              <span style={{ width: 56, textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.negk }}>−{compact(cogsLoc)}</span>
+              <span style={{ minWidth: 56, flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.negk }}>−{compact(cogsLoc)}</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 74, font: `500 11.5px ${FONT}`, color: T.tx2 }}>{t.rowLabour}</span>
               <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
                 <div style={{ width: '30%', height: 18, background: T.neg, opacity: 0.55, borderRadius: 4 }} />
               </div>
-              <span style={{ width: 56, textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.negk }}>−{compact(labourLoc)}</span>
+              <span style={{ minWidth: 56, flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right', unicodeBidi: 'isolate', font: `600 11.5px ${FONT}`, color: T.negk }}>−{compact(labourLoc)}</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 74, font: `600 11.5px ${FONT}`, color: T.posk }}>{t.rowProfit}</span>
               <div style={{ flex: 1 }}>
                 <div style={{ width: '28%', height: 18, background: T.acc, borderRadius: 4 }} />
               </div>
-              <span style={{ width: 56, textAlign: 'right', unicodeBidi: 'isolate', font: `700 11.5px ${FONT}`, color: T.posk }}>{compact(profitLoc)}</span>
+              <span style={{ minWidth: 56, flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right', unicodeBidi: 'isolate', font: `700 11.5px ${FONT}`, color: T.posk }}>{compact(profitLoc)}</span>
             </div>
           </div>
         </Card>
