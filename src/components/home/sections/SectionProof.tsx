@@ -182,7 +182,7 @@ export function SectionProof() {
                     {copy.withSundaeLabel}
                   </div>
                   <p className="text-sm text-[var(--text-primary)] font-medium leading-snug">{c.sundae}</p>
-                  <Link href={getLocalizedPathname(claimLinks[i].href, locale)} className="brand-action-link mt-auto inline-flex self-start pt-5 text-sm font-semibold">
+                  <Link href={getLocalizedPathname(claimLinks[i].href, locale)} className="brand-action-link brand-action-link-on-tint mt-auto inline-flex self-start pt-5 text-sm font-semibold">
                     {claimLinks[i].label}{i === 2 ? ` · ${navigation.links.tasks}` : ''} →
                   </Link>
                 </div>
