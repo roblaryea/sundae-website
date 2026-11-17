@@ -66,7 +66,7 @@ export const generatedUiLabels = {
     "applyNow": "Aplicar ahora"
   },
   "de": {
-    "home": "Heim",
+    "home": "Startseite",
     "howSundaeHelps": "WIE SUNDAE HILFT",
     "whatChanges": "WAS SICH VERÄNDERT",
     "whatWeFound": "Was wir gefunden haben:",
