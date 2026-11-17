@@ -406,7 +406,7 @@ export default function PricingPage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={heroCopy.badge} title={heroCopy.title} description={heroCopy.description}>
+      <PageHero badge={heroCopy.badge} title={heroCopy.title} description={commercial.packageScope}>
         <div
           role="radiogroup"
           aria-label={copy.cyclesLabel}
