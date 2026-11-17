@@ -8,7 +8,8 @@ import Link from 'next/link';
 import { Button } from './ui/Button';
 import { SundaeLogotype } from './ui/SundaeLogotype';
 import { SundaeMark } from './ui/SundaeMark';
-import { useCta } from '@/lib/cta';
+import { useCta, trackCta } from '@/lib/cta';
+import { appendCampaign } from '@/lib/campaign';
 import { PRICING_URL } from '@/lib/links';
 import { ThemeToggle } from './ui/ThemeToggle';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
@@ -142,7 +143,6 @@ const Navbar = () => {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     product: true,
     solutions: false,
-    pricing: false,
     resources: false,
     company: false,
     core: false,
@@ -253,9 +253,6 @@ const Navbar = () => {
 
   // Six Intelligence Layers
   const pillars: ReadonlyArray<NavbarLink> = getCoreNavigation(nav.pillars, locale);
-
-  // Product Tiers (now surfaced under the Pricing dropdown)
-  const plans: ReadonlyArray<NavbarLink> = nav.plansList.map(plan => plan.name === 'Sundae Core' ? { ...plan, description: story.coreRole } : plan.name === 'Sundae Crew' ? { ...plan, description: story.crewRole } : plan);
 
   // Sundae Crew operational modules (Product → Sundae Crew group)
   const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList.map(link =>
@@ -445,62 +442,16 @@ const Navbar = () => {
               )}
             </div>
 
-            {/* Pricing Mega Menu - Plans now live here */}
-            <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
-              <button
-                type="button"
-                className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
-                onMouseEnter={() => setActiveDropdown('pricing')}
-                onFocus={() => setActiveDropdown('pricing')}
-                onClick={() => setActiveDropdown('pricing')}
-                data-pricing-menu-button
-                aria-haspopup="true"
-                aria-expanded={activeDropdown === 'pricing'}
-              >
-                {nav.pricing}
-              </button>
-
-              {activeDropdown === 'pricing' && (
-                <div
-                  data-pricing-menu className="absolute top-full left-0 z-50 w-[min(26rem,calc(100vw-2rem))] pt-2"
-                  onMouseEnter={() => setActiveDropdown('pricing')}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
-                  <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
-                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">{nav.plans}</h3>
-                    <div className="grid grid-cols-1 gap-1 mb-3">
-                      {plans.map((plan) => (
-                        <Link
-                          key={plan.name}
-                          href={localizeHref(plan.href)}
-                          className={dropdownLinkClass}
-                          onClick={() => setActiveDropdown(null)}
-                        >
-                          <div className={dropdownTitleClass}>{plan.name}</div>
-                          <div className={dropdownDescriptionClass}>{plan.description}</div>
-                        </Link>
-                      ))}
-                    </div>
-                    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3">
-                      <Link
-                        href={PRICING_URL}
-                        className="min-w-0 text-sm font-medium text-[var(--text-supporting)] transition-colors hover:text-[var(--text-primary)] break-words"
-                        onClick={() => setActiveDropdown(null)}
-                      >
-                        {nav.comparePlans}
-                      </Link>
-                      <a
-                        href={PRICING_URL}
-                        className="min-w-0 text-sm font-semibold text-[var(--warm-coral)] transition-colors hover:text-[var(--text-primary)] break-words"
-                        onClick={() => setActiveDropdown(null)}
-                      >
-                        {cn.viewPricing}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
+            <a
+              href={PRICING_URL}
+              data-pricing-link="desktop"
+              onClick={event => { event.currentTarget.href = appendCampaign(PRICING_URL); trackCta('nav_pricing', { destination: PRICING_URL, placement: 'desktop' }); }}
+              onMouseEnter={() => setActiveDropdown(null)}
+              onFocus={() => setActiveDropdown(null)}
+              className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm"
+            >
+              {nav.pricing}
+            </a>
 
             <Link href={localizeHref('/why-sundae')} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
               {proofCopy[locale as keyof typeof proofCopy].whySundae}
@@ -744,39 +695,9 @@ const Navbar = () => {
               ))}
             </AccordionSection>
 
-            {/* Pricing Section - Plans live here */}
-            <AccordionSection
-              title={nav.pricing}
-              id="pricing"
-              isExpanded={expandedSections.pricing}
-              onToggle={() => toggleSection('pricing')}
-            >
-              <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{nav.plans}</span>
-              </div>
-              {plans.map((plan) => (
-                <MobileNavLink key={plan.name} href={localizeHref(plan.href)} onClick={handleMobileNavClick}>
-                  {plan.name}
-                </MobileNavLink>
-              ))}
-              <MobileNavLink href={PRICING_URL} onClick={handleMobileNavClick}>
-                {nav.comparePlans}
-              </MobileNavLink>
-              <a
-                href={localizeHref('/demo')}
-                onClick={handleMobileNavClick}
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#FF8473] hover:bg-[var(--surface-hover)]"
-              >
-                {nav.bookDemo}
-              </a>
-              <a
-                href={PRICING_URL}
-                onClick={handleMobileNavClick}
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]"
-              >
-                {cn.viewPricing}
-              </a>
-            </AccordionSection>
+            <a href={PRICING_URL} data-pricing-link="mobile" onClick={event => { event.currentTarget.href = appendCampaign(PRICING_URL); trackCta('nav_pricing', { destination: PRICING_URL, placement: 'mobile' }); handleMobileNavClick(); }} className="block py-2.5 px-4 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)]">
+              {nav.pricing}
+            </a>
 
             {/* Resources Section */}
             <AccordionSection

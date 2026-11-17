@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { cookies } from "next/headers";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { CreamBreak } from "@/components/ui/CreamBreak";
-import { resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
+import { getLocalizedPathname, getWebsiteMessages, resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_about_page'
 import { aboutCreamCopy } from './aboutCreamCopy'
+import aboutFacts from '@/content/about-platform.json'
+import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
+import { crewNavLocales } from '@/lib/crewNavLocales'
+import storyCopy from '@/content/platform-story.json'
+import { getCoreNavigation } from '@/lib/coreNavigation'
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
 
 const aboutCopy = {
   en: {
@@ -319,7 +326,19 @@ const aboutCopy = {
 } as const;
 
 function getAboutCopy(locale: WebsiteLocale) {
-  return aboutCopy[locale as keyof typeof aboutCopy] ?? getGeneratedLocalCopy(aboutCopy, generatedLocalCopy.aboutCopy, locale) ?? aboutCopy.en;
+  const source = aboutCopy[locale as keyof typeof aboutCopy] ?? getGeneratedLocalCopy(aboutCopy, generatedLocalCopy.aboutCopy, locale) ?? aboutCopy.en;
+  const facts = aboutFacts[locale as keyof typeof aboutFacts];
+  const brand = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].brand;
+  return {
+    ...source,
+    metadataTitle: facts.metadataTitle,
+    metadataDescription: `${brand.productDescription} ${facts.languageProof}`,
+    title: brand.productTitle,
+    description: brand.productDescription,
+    builtDescription: storyCopy[locale as keyof typeof storyCopy].workReason,
+    stats: source.stats.map((stat, index) => index === 3 ? { value: '25', label: facts.languageLabel } : index === 2 ? { ...stat, value: '36+' } : stat),
+    values: source.values.map((value, index) => index === 3 ? { ...value, proof: facts.languageProof } : value),
+  };
 }
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -335,6 +354,17 @@ export default async function AboutPage() {
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getAboutCopy(locale);
   const cream = aboutCreamCopy[locale as keyof typeof aboutCreamCopy] ?? aboutCreamCopy.en;
+  const workflow = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy];
+  const story = storyCopy[locale as keyof typeof storyCopy];
+  const commercial = getCommercialCopy(locale);
+  const coreLinks = getCoreNavigation(getWebsiteMessages(locale).navbar.pillars, locale);
+  const crewLinks = [
+    ...crewNavLocales[locale as keyof typeof crewNavLocales].crewList.map((item, index) => ({ ...item, description: copy.crewPillarsSubtitle[index] })),
+    ...(['restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'] as const).map((slug, index) => ({
+      href: `/${slug}`, name: [workflow.links.tasks, workflow.links.logbook, workflow.links.tips][index],
+      description: workflow.pages[slug].capabilities[0],
+    })),
+  ];
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -366,45 +396,43 @@ export default async function AboutPage() {
               <p className="body-xl text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.builtDescription}</p>
             </div>
           </FadeUp>
-          {/* Row 1 - Decision Intelligence (the six Core pillars) */}
-          <div className="mb-5 flex items-center gap-3">
-            <span className="h-px flex-1 bg-[var(--border-default)]" />
-            <span className="eyebrow whitespace-nowrap text-[var(--text-muted)]">{copy.builtCoreLabel}</span>
-            <span className="h-px flex-1 bg-[var(--border-default)]" />
+          <div data-about-core className="border-t border-[var(--border-default)] py-10">
+            <div className="grid gap-6 lg:grid-cols-[minmax(0,0.5fr)_minmax(0,1fr)] lg:gap-16">
+              <div>
+                <h3 className="section-h3 mb-3"><Link href={getLocalizedPathname('/core', locale)} className="brand-action-link">Sundae Core →</Link></h3>
+                <p className="eyebrow">{story.coreRole}</p>
+              </div>
+              <div>
+                <p className="body-lg text-[var(--text-supporting)]">{workflow.brand.coreDescription}</p>
+                <p className="mt-4 text-base leading-relaxed text-[var(--text-supporting)]">{story.contextReason}</p>
+                <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
+                  {coreLinks.map(item => <Link key={item.href} href={getLocalizedPathname(item.href, locale)} className="brand-action-link inline-flex min-h-11 items-center text-sm font-semibold underline underline-offset-4">{item.name}</Link>)}
+                </div>
+                <p className="mt-4 text-sm leading-relaxed text-[var(--text-muted)]">{commercial.packageScope}</p>
+              </div>
+            </div>
           </div>
-          <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {copy.pillars.map((pillar, idx) => (
-              <StaggerItem key={pillar}>
-                <Card variant="feature" className="text-center h-full p-6 hover:-translate-y-1 transition-transform duration-300">
-                  <div className="w-14 h-14 mx-auto mb-4 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center">
-                    <SundaeIcon name={["pulse", "benchmarking", "watchtower", "insights", "intelligence", "forecasting"][idx] as SundaeIconName} size="lg" className="text-white" />
+          <div data-about-crew className="border-y border-[var(--border-default)] py-10">
+            <div className="mb-8 grid gap-6 lg:grid-cols-[minmax(0,0.5fr)_minmax(0,1fr)] lg:gap-16">
+              <div>
+                <h3 className="section-h3 mb-3"><Link href={getLocalizedPathname('/crew', locale)} className="brand-action-link">Sundae Crew →</Link></h3>
+                <p className="eyebrow">{story.crewRole}</p>
+              </div>
+              <p className="body-lg text-[var(--text-supporting)]">{workflow.brand.crewDescription}</p>
+            </div>
+            <StaggerContainer className="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-4">
+              {crewLinks.map((item, index) => (
+                <StaggerItem key={item.href} className="border-t border-[var(--border-default)] py-6">
+                  <div data-about-crew-capability={item.href}>
+                  <p aria-hidden="true" className="mb-3 font-display text-xl italic text-[var(--text-warm)]">{new Intl.NumberFormat(locale, { minimumIntegerDigits: 2 }).format(index + 1)}</p>
+                  <h4 className="mb-2 text-base font-semibold"><Link href={getLocalizedPathname(item.href, locale)} className="brand-action-link inline-flex min-h-11 items-center">{item.name} →</Link></h4>
+                  <p className="text-sm leading-relaxed text-[var(--text-supporting)]">{item.description}</p>
                   </div>
-                  <h3 className="font-bold text-[var(--text-primary)] text-base mb-1">{pillar}</h3>
-                  <p className="text-xs text-[var(--text-supporting)]">{copy.pillarsSubtitle[idx]}</p>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-
-          {/* Row 2 - Operational Suite (Sundae Crew) - emerald to distinguish from the coral Core pillars */}
-          <div className="mt-14 mb-5 flex items-center gap-3">
-            <span className="h-px flex-1 bg-[var(--border-default)]" />
-            <span className="eyebrow whitespace-nowrap text-[var(--text-muted)]">{copy.builtCrewLabel}</span>
-            <span className="h-px flex-1 bg-[var(--border-default)]" />
+                </StaggerItem>
+              ))}
+            </StaggerContainer>
+            <p className="mt-5 max-w-4xl text-sm leading-relaxed text-[var(--text-muted)]">{commercial.crewOperationsCoverage} {commercial.crewPayrollCoverage}</p>
           </div>
-          <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {copy.crewPillars.map((pillar, idx) => (
-              <StaggerItem key={pillar}>
-                <Card variant="feature" className="text-center h-full p-6 hover:-translate-y-1 transition-transform duration-300">
-                  <div className="w-14 h-14 mx-auto mb-4 bg-gradient-to-br from-[#0F766E] to-[#10B981] rounded-xl flex items-center justify-center">
-                    <SundaeIcon name={["time", "device", "finance", "hr", "labor"][idx] as SundaeIconName} size="lg" className="text-white" />
-                  </div>
-                  <h3 className="font-bold text-[var(--text-primary)] text-base mb-1">{pillar}</h3>
-                  <p className="text-xs text-[var(--text-supporting)]">{copy.crewPillarsSubtitle[idx]}</p>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
         </div>
       </section>
 

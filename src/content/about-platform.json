@@ -1,0 +1,112 @@
+{
+  "en": {
+    "languageLabel": "Product languages",
+    "languageProof": "Sundae supports 25 product languages.",
+    "metadataTitle": "About Sundae | Operations Management for Hospitality and Food-Service"
+  },
+  "ar": {
+    "languageLabel": "لغات المنتج",
+    "languageProof": "تدعم Sundae المنتج بـ 25 لغة.",
+    "metadataTitle": "حول Sundae | إدارة عمليات الضيافة وخدمات الأغذية"
+  },
+  "fr": {
+    "languageLabel": "Langues du produit",
+    "languageProof": "Sundae prend en charge 25 langues dans le produit.",
+    "metadataTitle": "À propos de Sundae | Gestion des opérations pour l’hôtellerie et la restauration"
+  },
+  "es": {
+    "languageLabel": "Idiomas del producto",
+    "languageProof": "El producto Sundae admite 25 idiomas.",
+    "metadataTitle": "Acerca de Sundae | Gestión de operaciones para hostelería y servicios de alimentación"
+  },
+  "de": {
+    "languageLabel": "Produktsprachen",
+    "languageProof": "Sundae unterstützt 25 Produktsprachen.",
+    "metadataTitle": "Über Sundae | Betriebsmanagement für Hospitality und Gastronomie"
+  },
+  "it": {
+    "languageLabel": "Lingue del prodotto",
+    "languageProof": "Sundae supporta 25 lingue nel prodotto.",
+    "metadataTitle": "Informazioni su Sundae | Gestione operativa per ospitalità e ristorazione"
+  },
+  "pt": {
+    "languageLabel": "Idiomas do produto",
+    "languageProof": "O produto Sundae suporta 25 idiomas.",
+    "metadataTitle": "Sobre a Sundae | Gestão de operações para hotelaria e restauração"
+  },
+  "nl": {
+    "languageLabel": "Producttalen",
+    "languageProof": "Het Sundae-product ondersteunt 25 talen.",
+    "metadataTitle": "Over Sundae | Operationeel beheer voor hospitality en foodservice"
+  },
+  "pl": {
+    "languageLabel": "Języki produktu",
+    "languageProof": "Produkt Sundae obsługuje 25 języków.",
+    "metadataTitle": "O Sundae | Zarządzanie operacjami w hotelarstwie i gastronomii"
+  },
+  "ro": {
+    "languageLabel": "Limbi ale produsului",
+    "languageProof": "Produsul Sundae acceptă 25 de limbi.",
+    "metadataTitle": "Despre Sundae | Gestionarea operațiunilor pentru ospitalitate și servicii alimentare"
+  },
+  "sv": {
+    "languageLabel": "Produktspråk",
+    "languageProof": "Sundae stöder 25 produktspråk.",
+    "metadataTitle": "Om Sundae | Driftledning för hotell och restaurang"
+  },
+  "tr": {
+    "languageLabel": "Ürün dilleri",
+    "languageProof": "Sundae ürünü 25 dili destekler.",
+    "metadataTitle": "Sundae Hakkında | Konaklama ve Yiyecek Hizmetleri Operasyon Yönetimi"
+  },
+  "hi": {
+    "languageLabel": "उत्पाद की भाषाएँ",
+    "languageProof": "Sundae उत्पाद 25 भाषाओं में उपलब्ध है।",
+    "metadataTitle": "Sundae के बारे में | आतिथ्य और खाद्य सेवा संचालन प्रबंधन"
+  },
+  "bn": {
+    "languageLabel": "পণ্যের ভাষা",
+    "languageProof": "Sundae পণ্য 25টি ভাষা সমর্থন করে।",
+    "metadataTitle": "Sundae সম্পর্কে | আতিথেয়তা ও খাদ্যসেবা পরিচালনা ব্যবস্থাপনা"
+  },
+  "ur": {
+    "languageLabel": "پروڈکٹ کی زبانیں",
+    "languageProof": "Sundae پروڈکٹ 25 زبانوں کی معاونت کرتا ہے۔",
+    "metadataTitle": "Sundae کے بارے میں | مہمان نوازی اور فوڈ سروس کا عملیاتی انتظام"
+  },
+  "zh-Hans": {
+    "languageLabel": "产品语言",
+    "languageProof": "Sundae 产品支持 25 种语言。",
+    "metadataTitle": "关于 Sundae | 酒店与餐饮运营管理"
+  },
+  "ja": {
+    "languageLabel": "製品の対応言語",
+    "languageProof": "Sundae 製品は 25 言語に対応しています。",
+    "metadataTitle": "Sundae について | ホスピタリティ・フードサービスの運営管理"
+  },
+  "ko": {
+    "languageLabel": "제품 언어",
+    "languageProof": "Sundae 제품은 25개 언어를 지원합니다.",
+    "metadataTitle": "Sundae 소개 | 호스피탈리티 및 외식 운영 관리"
+  },
+  "id": {
+    "languageLabel": "Bahasa produk",
+    "languageProof": "Produk Sundae mendukung 25 bahasa.",
+    "metadataTitle": "Tentang Sundae | Manajemen Operasi Perhotelan dan Layanan Makanan"
+  },
+  "ms": {
+    "languageLabel": "Bahasa produk",
+    "languageProof": "Produk Sundae menyokong 25 bahasa.",
+    "metadataTitle": "Tentang Sundae | Pengurusan Operasi Hospitaliti dan Perkhidmatan Makanan"
+  },
+  "vi": {
+    "languageLabel": "Ngôn ngữ sản phẩm",
+    "languageProof": "Sản phẩm Sundae hỗ trợ 25 ngôn ngữ.",
+    "metadataTitle": "Về Sundae | Quản lý vận hành dịch vụ lưu trú và ăn uống"
+  },
+  "th": {
+    "languageLabel": "ภาษาของผลิตภัณฑ์",
+    "languageProof": "ผลิตภัณฑ์ Sundae รองรับ 25 ภาษา",
+    "metadataTitle": "เกี่ยวกับ Sundae | การจัดการธุรกิจบริการและอาหาร"
+  }
+}
