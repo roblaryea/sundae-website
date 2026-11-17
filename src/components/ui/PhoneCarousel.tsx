@@ -68,7 +68,8 @@ export function PhoneCarousel({
             if (event.target !== event.currentTarget || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
             event.preventDefault();
             const rtl = getComputedStyle(event.currentTarget).direction === 'rtl';
-            go(event.key === 'Home' ? 0 : event.key === 'End' ? screens.length - 1 : active + ((event.key === 'ArrowRight') !== rtl ? 1 : -1));
+            const current = Math.round(Math.abs(event.currentTarget.scrollLeft) / event.currentTarget.clientWidth);
+            go(event.key === 'Home' ? 0 : event.key === 'End' ? screens.length - 1 : current + ((event.key === 'ArrowRight') !== rtl ? 1 : -1));
           }}
           role="region"
           tabIndex={0}
