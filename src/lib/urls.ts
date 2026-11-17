@@ -35,11 +35,11 @@ export const PRICING_URL = clean(
 
 /**
  * Sundae Report application (free trial / access).
- * Falls back to the main app sign-up page since Report
+ * Falls back to the public onboarding request page since Report
  * is now part of the unified Sundae app (no separate deployment).
  */
 export const REPORT_APP_URL = clean(
-  process.env.NEXT_PUBLIC_REPORT_APP_URL || `${APP_URL}/sign-up`,
+  process.env.NEXT_PUBLIC_REPORT_APP_URL || `${SITE_URL}/get-started`,
 );
 
 /** Sundae Core application */
@@ -53,8 +53,8 @@ export const DEMO_URL = '/demo'; // Internal for now
 /** Sign in URL - derived from APP_URL */
 export const SIGNIN_URL = `${APP_URL}/sign-in`;
 
-/** Sign up URL - derived from APP_URL */
-export const SIGNUP_URL = `${APP_URL}/sign-up`;
+/** Public access request; account creation requires a secure invitation. */
+export const SIGNUP_URL = `${SITE_URL}/get-started`;
 
 /** Keep an internal post-auth destination when crossing from the website to the app. */
 export function appAuthUrl(authUrl: string, returnUrl: unknown): string {

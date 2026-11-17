@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation';
 import { Button } from './ui/Button';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
-import { SIGNUP_URL } from '@/lib/urls';
+import { getAccessRequestCopy } from '@/lib/accessRequestCopy';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
@@ -128,9 +128,9 @@ const Footer = () => {
               <Button
                 variant="outline-light"
                 size="lg"
-                href={SIGNUP_URL}
+                href={localizeHref("/get-started")}
               >
-                {footer.startFree}
+                {getAccessRequestCopy(locale).title}
               </Button>
             </div>
           </div>

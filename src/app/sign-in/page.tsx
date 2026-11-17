@@ -7,7 +7,9 @@ import { FormField } from '@/components/auth/FormField';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
 import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
-import { APP_URL, SIGNIN_URL, SIGNUP_URL, appAuthUrl } from '@/lib/urls';
+import { APP_URL, SIGNIN_URL, appAuthUrl } from '@/lib/urls';
+import { getAccessRequestCopy } from '@/lib/accessRequestCopy';
+import { accessRequestUrl } from '@/lib/accessRequestUrl';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_sign_in_page'
 
@@ -69,9 +71,10 @@ export default function SignInPage({ searchParams }: {
 }) {
  const params = use(searchParams);
  const signInUrl = appAuthUrl(SIGNIN_URL, params.returnUrl);
- const signUpUrl = appAuthUrl(SIGNUP_URL, params.returnUrl);
  const { messages, locale } = useWebsiteI18n();
  const copy = messages.pages.signIn;
+ const accessCopy = getAccessRequestCopy(locale);
+ const signUpUrl = accessRequestUrl(params.returnUrl, locale);
  const shellCopy = localizedShellCopy[locale as keyof typeof localizedShellCopy] ?? getGeneratedLocalCopy(localizedShellCopy, generatedLocalCopy.localizedShellCopy, locale) ?? localizedShellCopy.en;
  const [email, setEmail] = useState('');
  const [password, setPassword] = useState('');
@@ -224,6 +227,13 @@ async function handleSubmit(e: FormEvent) {
  </p>
  </div>
 
+ {/* New customers have a distinct, visible onboarding path. */}
+ <section className="mb-8 border-y border-[var(--border-default)] py-5" aria-labelledby="new-customer-heading">
+ <h2 id="new-customer-heading" className="mb-2 text-base font-semibold text-[var(--text-primary)]">{copy.noAccount}</h2>
+ <p className="mb-4 text-sm leading-relaxed text-[var(--text-supporting)]">{accessCopy.description}</p>
+ <a href={signUpUrl} className="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-[var(--text-primary)] px-6 py-3 text-sm font-semibold text-[var(--navy-deep)] transition-opacity hover:opacity-85 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--text-primary)]">{accessCopy.title}</a>
+ </section>
+
  {/* SSO buttons (feature-flagged) */}
  {ENABLE_SSO && (
  <div className="space-y-3 mb-6">
@@ -369,16 +379,7 @@ async function handleSubmit(e: FormEvent) {
  </div>
  )}
 
- {/* Sign up link */}
- <p className="mt-8 text-center text-sm text-[var(--text-muted)]">
- {copy.noAccount}{' '}
- <a
- href={signUpUrl}
- className="font-medium text-[var(--text-primary)] hover:text-white/90 transition-colors"
- >
- {copy.getStartedFree}
- </a>
- </p>
+
  </div>
  </div>
 
