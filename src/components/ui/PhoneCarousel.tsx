@@ -51,7 +51,8 @@ export function PhoneCarousel({
     const el = ref.current;
     if (el) {
       const direction = getComputedStyle(el).direction === 'rtl' ? -1 : 1;
-      el.scrollTo({ left: Math.max(0, Math.min(screens.length - 1, i)) * el.clientWidth * direction, behavior: reduceMotion ? 'auto' : 'smooth' });
+      const instant = reduceMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      el.scrollTo({ left: Math.max(0, Math.min(screens.length - 1, i)) * el.clientWidth * direction, behavior: instant ? 'instant' : 'smooth' });
     }
   };
 
@@ -73,7 +74,7 @@ export function PhoneCarousel({
           tabIndex={0}
           aria-label={labels.productScreens}
           className="flex items-start snap-x snap-mandatory overflow-x-auto overflow-y-hidden [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-          style={{ scrollBehavior: reduceMotion ? 'auto' : 'smooth' }}
+          style={{ scrollBehavior: 'auto' }}
         >
           {screens.map((s, i) => (
             <div

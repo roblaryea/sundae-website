@@ -16,6 +16,7 @@ import { CREW_MODULES, type CrewModuleSlug } from './crewModules';
 import { CrewWorkflowCoverage } from '@/components/seo/CrewWorkflowCoverage';
 import { buildCrewCapabilityUrl } from '@/lib/pricingNavigation';
 import type { PricingIntent } from '@/lib/pricingIntent';
+import { getLocalizedPathname } from '@/lib/i18n';
 
 export type CrewModuleCopy = {
   badge: string;
@@ -112,16 +113,12 @@ export function CrewModulePage({
               {copy.description}
             </motion.p>
             <motion.div {...fade} transition={{ duration: 0.8, ease, delay: 0.3 }} className="flex flex-col gap-3 sm:flex-row">
-              <Link href="/demo">
-                <Button variant="primary" size="lg" trackingLabel="crew_module_hero_primary" trackingMetadata={{ module: slug, destination: "/demo" }}>
+                <Button href={getLocalizedPathname('/demo', locale)} variant="primary" size="lg" trackingLabel="crew_module_hero_primary" trackingMetadata={{ module: slug, destination: "/demo" }}>
                   {copy.primaryCta}
                 </Button>
-              </Link>
-              <a href={REPORT_APP_URL}>
-                <Button variant="outline-light" size="lg" trackingLabel="crew_module_hero_secondary" trackingMetadata={{ module: slug, destination: REPORT_APP_URL }}>
+                <Button href={REPORT_APP_URL} variant="outline-light" size="lg" trackingLabel="crew_module_hero_secondary" trackingMetadata={{ module: slug, destination: REPORT_APP_URL }}>
                   {copy.secondaryCta}
                 </Button>
-              </a>
             </motion.div>
             {/* A component price is not the required stack's starting total. */}
             <motion.div {...fade} transition={{ duration: 0.8, ease, delay: 0.4 }} className="mt-5 text-sm text-[var(--text-muted)]" data-crew-capability-estimate={slug}>
@@ -238,16 +235,12 @@ export function CrewModulePage({
           <h2 className="section-h2 mb-5 text-balance" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
           <p className="body-lg mx-auto mb-8 max-w-2xl" style={{ color: 'rgba(26,20,15,0.66)' }}>{copy.ctaDescription}</p>
           <div className="flex flex-col justify-center gap-3 sm:flex-row">
-            <Link href="/demo">
-              <Button variant="cta" size="lg" trackingLabel="crew_module_closing_primary" trackingMetadata={{ module: slug, destination: "/demo" }}>
+              <Button href={getLocalizedPathname('/demo', locale)} variant="cta" size="lg" trackingLabel="crew_module_closing_primary" trackingMetadata={{ module: slug, destination: "/demo" }}>
                 {copy.ctaPrimary}
               </Button>
-            </Link>
-            <Link href="/crew">
-              <Button variant="outline-ink" size="lg" trackingLabel="crew_module_closing_secondary" trackingMetadata={{ module: slug, destination: "/crew" }}>
+              <Button href={getLocalizedPathname('/crew', locale)} variant="outline-ink" size="lg" trackingLabel="crew_module_closing_secondary" trackingMetadata={{ module: slug, destination: "/crew" }}>
                 {copy.ctaSecondary}
               </Button>
-            </Link>
           </div>
         </FadeUp>
       </section>
