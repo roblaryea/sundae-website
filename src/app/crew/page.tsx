@@ -1,5 +1,6 @@
 "use client";
 
+import openingCopy from '@/content/operator-openings.json'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
 
@@ -607,22 +608,22 @@ export default function CrewPage() {
   const copy = {
     ...sourceCopy,
     pillarsTitle: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
-    pillarsDescription: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
+    pillarsDescription: openingCopy[locale as keyof typeof openingCopy].crewDescription,
     pillars: sourceCopy.pillars.map((item, index) => index === 2 ? { ...item, title: payrollTitle, body: commercial.payroll } : { ...item, body: operatorText(item.body), chips: item.chips.map(operatorText) }),
     payrollTitle,
     payrollDescription: commercial.payroll,
     modulesTitle: 'Sundae Crew',
-    modulesDescription: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
+    modulesDescription: openingCopy[locale as keyof typeof openingCopy].crewDescription,
     bundleDescription: commercial.extraLocations,
     retiresItems: sourceCopy.retiresItems.map(item => ({ ...item, body: operatorText(item.body) })),
     personas: sourceCopy.personas.map(item => ({ ...item, outcome: operatorText(item.outcome) })),
     modules: sourceCopy.modules.map(item => ({ ...item, included: item.included.map(operatorText) })),
     heroLine1: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
     heroLine2: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewTagline,
-    description: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
+    description: openingCopy[locale as keyof typeof openingCopy].crewDescription,
     loopEyebrow: positioning.crewExecutionEyebrow,
-    loopTitle: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productTitle,
-    loopDescription: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productDescription,
+    loopTitle: openingCopy[locale as keyof typeof openingCopy].sharedTitle,
+    loopDescription: openingCopy[locale as keyof typeof openingCopy].sharedDescription,
   };
   const cream = crewCreamCopy[locale as keyof typeof crewCreamCopy] ?? crewCreamCopy.en;
 

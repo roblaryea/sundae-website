@@ -17,6 +17,7 @@ import { trackEvent } from '@/lib/posthog';
 
 interface LeadCaptureFormProps {
   ctaLabel: string;
+  reassurance?: string;
   defaultMessage?: string;
   className?: string;
   pricingIntent?: PricingIntent;
@@ -234,6 +235,7 @@ const formCopy = {
 
 export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   ctaLabel,
+  reassurance,
   defaultMessage = '',
   className = '',
   pricingIntent,
@@ -664,6 +666,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
         <Button type="submit" variant="primary" size="lg" disabled={isSubmitting} className="w-full">
           {isSubmitting ? copy.submitting : ctaLabel}
         </Button>
+        {reassurance && <p className="text-center text-sm leading-relaxed text-[var(--text-supporting)]" data-demo-reassurance>{reassurance}</p>}
 
         <p className="text-center text-xs text-[var(--text-muted)]">
           {copy.privacyPrefix}{' '}

@@ -14,7 +14,8 @@ import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
 import storyCopy from '@/content/platform-story.json'
 import proofCopy from '@/content/workflow-proof.json'
 import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
-import brandEmphasis from '@/content/brand-emphasis.json'
+import openingCopy from '@/content/operator-openings.json'
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import { getCoreNavigation } from '@/lib/coreNavigation'
 
 export default function WhySundaePage() {
@@ -22,19 +23,20 @@ export default function WhySundaePage() {
   const copy = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy]
   const story = storyCopy[locale as keyof typeof storyCopy]
   const commercial = getCommercialCopy(locale)
+  const opening = openingCopy[locale as keyof typeof openingCopy]
   const coreLinks = getCoreNavigation(messages.navbar.pillars, locale)
   const href = (path: string) => getLocalizedPathname(path, locale)
 
   return (
     <div className="search-brand-page min-h-screen overflow-x-hidden bg-[var(--navy-deep)]">
-      <PageHero badge={proofCopy[locale as keyof typeof proofCopy].whySundae} title={<BrandEmphasis text={copy.brand.editorialHeadline} phrase={brandEmphasis[locale as keyof typeof brandEmphasis][7]} />} description={commercial.shortlist}>
+      <PageHero badge={`${proofCopy[locale as keyof typeof proofCopy].whySundae} · ${operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.eyebrow}`} title={<BrandEmphasis text={opening.whyTitle} phrase={opening.whyAccent} />} description={opening.whyDescription}>
         <Button variant="cta" size="lg" href={href('/demo')} trackingLabel="why_sundae_hero_walkthrough" trackingMetadata={{ destination: href('/demo') }}>{messages.navbar.bookDemo}</Button>
       </PageHero>
       <section className="px-4 py-20 sm:px-6 lg:px-8 lg:py-28" data-choice-reasons>
         <div className="mx-auto max-w-6xl">
           <FadeUp className="mb-12 max-w-3xl">
             <p className="eyebrow mb-4">{proofCopy[locale as keyof typeof proofCopy].whySundae}</p>
-            <h2 className="section-h2">{copy.shared.connectedTitle}</h2>
+            <h2 className="section-h2">{opening.choiceTitle}</h2>
           </FadeUp>
           {[
             { title: copy.comparison.criteria[0][0], description: story.workReason, paths: ['/crew', '/core'] },
@@ -51,6 +53,7 @@ export default function WhySundaePage() {
               </div>
             </div>
           </div>)}
+          <p className="mt-8 max-w-3xl text-base leading-relaxed text-[var(--text-supporting)]">{opening.compatibility}</p>
         </div>
       </section>
       <PlatformOfferings showIntro={false} />

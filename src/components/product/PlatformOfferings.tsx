@@ -10,20 +10,23 @@ import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import storyCopy from '@/content/platform-story.json'
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
 import { trackCta } from '@/lib/cta'
-import { BrandEmphasis, BrandStatement } from '@/components/ui/BrandEmphasis'
+import openingCopy from '@/content/operator-openings.json'
+import { OperatorOpeningTitle } from '@/components/ui/OperatorOpeningTitle'
+import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
 import brandEmphasis from '@/content/brand-emphasis.json'
 import { getCoreNavigation } from '@/lib/coreNavigation'
 
 /** Two peer offerings. Product capabilities stay within their parent offering. */
 export function PlatformOfferings({ showIntro = true }: { showIntro?: boolean }) {
   const { locale, messages } = useWebsiteI18n()
-  const { brand, links } = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy]
+  const { links } = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy]
   const copy = storyCopy[locale as keyof typeof storyCopy]
+  const opening = openingCopy[locale as keyof typeof openingCopy]
   const emphasis = brandEmphasis[locale as keyof typeof brandEmphasis]
   const crew = crewNavLocales[locale as keyof typeof crewNavLocales]
   const offerings = [
-    { id: 'core', name: 'Sundae Core', role: copy.coreRole, description: brand.coreDescription, links: getCoreNavigation(messages.navbar.pillars, locale) },
-    { id: 'crew', name: 'Sundae Crew', role: copy.crewRole, description: brand.crewDescription, links: [
+    { id: 'core', name: 'Sundae Core', role: copy.coreRole, description: opening.coreDescription, links: getCoreNavigation(messages.navbar.pillars, locale) },
+    { id: 'crew', name: 'Sundae Crew', role: copy.crewRole, description: opening.crewDescription, links: [
       ...crew.crewList,
       { name: links.tasks, href: '/restaurant-task-management' },
       { name: links.logbook, href: '/restaurant-logbook' },
@@ -36,8 +39,8 @@ export function PlatformOfferings({ showIntro = true }: { showIntro?: boolean })
       <div className="mx-auto max-w-6xl">
         {showIntro && <FadeUp className="mb-14 max-w-3xl">
           <p className="eyebrow mb-4">Sundae Core · Sundae Crew</p>
-          <h2 className="section-h2 text-balance"><BrandStatement text={brand.productTitle} /></h2>
-          <p className="body-lg mt-5 max-w-2xl text-[var(--text-supporting)]">{brand.productDescription}</p>
+          <h2 className="section-h2 text-balance"><OperatorOpeningTitle text={opening.sharedTitle} accent={opening.sharedAccent} /></h2>
+          <p className="body-lg mt-5 max-w-2xl text-[var(--text-supporting)]">{opening.sharedDescription}</p>
         </FadeUp>}
         <div className="grid gap-14 md:grid-cols-2 md:gap-0">
           {offerings.map((offering, index) => (
