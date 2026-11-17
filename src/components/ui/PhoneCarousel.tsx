@@ -47,11 +47,11 @@ export function PhoneCarousel({
     if (!el) return;
     setActive(Math.max(0, Math.min(screens.length - 1, Math.round(Math.abs(el.scrollLeft) / el.clientWidth))));
   };
-  const go = (i: number) => {
+  const go = (i: number, immediate = false) => {
     const el = ref.current;
     if (el) {
       const direction = getComputedStyle(el).direction === 'rtl' ? -1 : 1;
-      const instant = reduceMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const instant = immediate || reduceMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       el.scrollTo({ left: Math.max(0, Math.min(screens.length - 1, i)) * el.clientWidth * direction, behavior: instant ? 'instant' : 'smooth' });
     }
   };
@@ -69,7 +69,7 @@ export function PhoneCarousel({
             event.preventDefault();
             const rtl = getComputedStyle(event.currentTarget).direction === 'rtl';
             const current = Math.round(Math.abs(event.currentTarget.scrollLeft) / event.currentTarget.clientWidth);
-            go(event.key === 'Home' ? 0 : event.key === 'End' ? screens.length - 1 : current + ((event.key === 'ArrowRight') !== rtl ? 1 : -1));
+            go(event.key === 'Home' ? 0 : event.key === 'End' ? screens.length - 1 : current + ((event.key === 'ArrowRight') !== rtl ? 1 : -1), true);
           }}
           role="region"
           tabIndex={0}
