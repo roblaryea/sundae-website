@@ -42,3 +42,11 @@ Evidence is retained in ignored `output/seo/colour-*-2026-11-17.*` and `output/p
 - Focused browser colour review covers 48 page/theme pairs (96 desktop/mobile views), including English, Arabic, French and German. New headline-emphasis contrast is at least 4.5:1, cream closing headings remain ink, and no horizontal overflow or uncaught page errors were detected. Authority-guide callouts were inspected in both themes. This is a scoped review rather than full-site accessibility certification.
 - Build validation exposed the Next 16.4.3 cache disclosure advisory GHSA-mfr8-8qww-v76h. The bounded maintenance patch updates only Next and its matching environment/compiler packages to 16.4.6; no unrelated dependency refresh is bundled. Runtime dependency audit: eight moderate findings remain, zero high/critical, and Next is no longer listed.
 - The release PR carries the final hosted-check, merge and production-verification receipt.
+
+## Readability follow-through — independent audit F09
+
+The warm hierarchy above is already published in PR223. A fresh live read reproduced the remaining shared light-mode weakness: 51 footer contrast nodes on the platform/Core samples; blog metadata and excerpts also inherited the faint warm ink. These are repeated uses of shared roles, not 51 separate colour-system defects.
+
+The focused follow-through deepens only the light-theme supporting/muted ink to 74%/69%, below secondary text at 78%. The blog filter now uses the theme-aware action colour and surface hover, replacing its fixed bright coral text and pale hover. Brand hue roles, authored headline emphasis and product screenshot pixels remain intact. Dark-mode text tokens are unchanged. Check footer/blog after existing reveals settle, expand mobile footer sections, and record any automated indeterminate cases separately; a clean scoped result is not a whole-site accessibility claim.
+
+Local/preview/live receipts for this bounded correction are retained under ignored `output/seo/brand-followup-*` and `output/playwright/brand-followup-*`. Final independent review and release acceptance belong in its focused PR and the existing completion matrix.

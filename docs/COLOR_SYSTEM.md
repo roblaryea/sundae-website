@@ -37,6 +37,10 @@
 
 For search/editorial pages, `BrandEmphasis` wraps an authored phrase without changing the wording. `src/styles/search-presentation.css` supplies warm editorial surfaces, action links and olive evidence areas; it does not replace product/data colors or recolor the whole website. Cream closing sections explicitly pin heading text to ink in both themes. Article styling is scoped to the search-authority guides, preserving other content owners' work.
 
+Supporting and muted light-theme text use warm ink at 74% and 69% respectively. These roles still sit below secondary text (78%), but footer links, article metadata and descriptions must remain readable on paper and tinted cards. Do not reduce their opacity to make a layout feel quieter; use spacing and type size to establish hierarchy. Check the actual composited surface, including olive and cream, rather than white alone.
+
+Selected controls with a warm tint use `--action-on-tint`: the action coral on espresso and the deeper `--brand-main` on light paper. Ordinary action text on a plain surface continues to use `--accent-warm`; its plain-surface contrast does not guarantee readability over a coloured tint.
+
 ## Legacy tokens (retired 2026-06 — do not reintroduce)
 
 `--electric-blue` (held coral — lied), `--deep-blue` (held caramel → `--warm-deep`), `--brand-yellow` (→ `--warm-amber`). Consumers were repointed to `--accent-warm` / `--warm-amber`. New code must not reference the retired names.
