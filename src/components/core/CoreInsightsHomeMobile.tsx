@@ -203,7 +203,7 @@ export function CoreInsightsHomeMobile() {
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
       {/* scope filter chips */}
-      <div style={{ display: 'flex', gap: 7, overflowX: 'auto', paddingBottom: 2 }}>
+      <div tabIndex={0} role="region" aria-label={t.stateOfBusiness} style={{ display: 'flex', gap: 7, overflowX: 'auto', paddingBottom: 2 }}>
         <Chip label="Sundae Group · DIFC ▾" active />
         <Chip label="Marina Social ▾" />
         <Chip label={`${t.scopeRange} ▾`} />

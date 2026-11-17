@@ -13,6 +13,8 @@
  * stack — Glance → Focus → Detail → Act", phone "Detail · breakdown stack · Dark".
  */
 
+import accessibilityLabels from '@/content/accessibility-labels.json';
+
 import { useCrewScreen } from '../crew/crewI18n';
 import { LOC } from './locales/CoreInsightsDrillMobile.locales';
 
@@ -131,7 +133,7 @@ function HourRow({
 }
 
 export function CoreInsightsDrillMobile() {
-  const { t } = useCrewScreen(EN, LOC);
+  const { t, locale } = useCrewScreen(EN, LOC);
 
   // Per-level hour bars (% heights + colours), matching the design's mini chart.
   const bars: { h: number; bg: string; opacity: number }[] = [
@@ -156,6 +158,7 @@ export function CoreInsightsDrillMobile() {
       {/* header: back affordance + title/sub */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
         <button
+          aria-label={accessibilityLabels[locale as keyof typeof accessibilityLabels].back}
           type="button"
           style={{
             flex: 'none',
@@ -182,7 +185,7 @@ export function CoreInsightsDrillMobile() {
 
       {/* cross-filter path chips */}
       <div style={{ paddingBottom: 10, marginTop: 10, borderBottom: `1px solid ${T.bd}` }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 6, overflowX: 'auto' }}>
+        <div tabIndex={0} role="region" aria-label={t.path} style={{ display: 'flex', alignItems: 'center', gap: 6, overflowX: 'auto' }}>
           <span style={{ font: `500 10.5px ${FONT}`, color: T.tx3, flex: 'none' }}>{t.path}</span>
           <PathChip label="DIFC" />
           <span style={{ color: T.tx3, flex: 'none' }}>›</span>

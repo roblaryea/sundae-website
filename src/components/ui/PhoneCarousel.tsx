@@ -4,6 +4,8 @@ import { useRef, useState, type ReactNode } from 'react';
 import { PhoneFrame } from './PhoneFrame';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { coreMobileShowcaseLocales } from '@/lib/coreMobileShowcaseLocales';
+import { useReducedMotion } from 'framer-motion';
+import accessibilityLabels from '@/content/accessibility-labels.json';
 
 /**
  * One full-length phone the visitor can swipe/scroll through multiple screens —
@@ -31,6 +33,10 @@ export function PhoneCarousel({
   // Localized default for the "swipe for more" hint (overridable via the prop),
   // so every carousel — Crew + Core — matches the page language.
   const { locale } = useWebsiteI18n();
+  const labels = accessibilityLabels[locale as keyof typeof accessibilityLabels];
+  const reduceMotion = useReducedMotion();
+  const number = (value: number) => new Intl.NumberFormat(locale).format(value);
+  const screenLabel = (index: number) => `${labels.screen} ${number(index + 1)} / ${number(screens.length)}`;
   const resolvedHint =
     hint ??
     coreMobileShowcaseLocales[locale as keyof typeof coreMobileShowcaseLocales]?.swipeHint ??
@@ -39,11 +45,15 @@ export function PhoneCarousel({
   const onScroll = () => {
     const el = ref.current;
     if (!el) return;
-    setActive(Math.round(el.scrollLeft / el.clientWidth));
+    setActive(Math.max(0, Math.min(screens.length - 1, Math.round(Math.abs(el.scrollLeft) / el.clientWidth))));
   };
-  const go = (i: number) => {
+  const go = (i: number, immediate = false) => {
     const el = ref.current;
-    if (el) el.scrollTo({ left: i * el.clientWidth, behavior: 'smooth' });
+    if (el) {
+      const direction = getComputedStyle(el).direction === 'rtl' ? -1 : 1;
+      const instant = immediate || reduceMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      el.scrollTo({ left: Math.max(0, Math.min(screens.length - 1, i)) * el.clientWidth * direction, behavior: instant ? 'instant' : 'smooth' });
+    }
   };
 
   return (
@@ -51,14 +61,28 @@ export function PhoneCarousel({
       <PhoneFrame time={time} screenBg={screenBg}>
         <div
           ref={ref}
+          data-phone-carousel
           onScroll={onScroll}
+          onKeyDown={event => {
+            // Nested screen content keeps its own scrolling and control keys.
+            if (event.target !== event.currentTarget || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+            event.preventDefault();
+            const rtl = getComputedStyle(event.currentTarget).direction === 'rtl';
+            const current = Math.round(Math.abs(event.currentTarget.scrollLeft) / event.currentTarget.clientWidth);
+            go(event.key === 'Home' ? 0 : event.key === 'End' ? screens.length - 1 : current + ((event.key === 'ArrowRight') !== rtl ? 1 : -1), true);
+          }}
+          role="region"
+          tabIndex={0}
+          aria-label={labels.productScreens}
           className="flex items-start snap-x snap-mandatory overflow-x-auto overflow-y-hidden [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-          style={{ scrollBehavior: 'smooth' }}
-          aria-roledescription="carousel"
+          style={{ scrollBehavior: 'auto' }}
         >
           {screens.map((s, i) => (
             <div
               key={i}
+              role="group"
+              aria-label={screenLabel(i)}
+              tabIndex={0}
               className="max-h-[600px] w-full flex-none snap-center overflow-y-auto overflow-x-hidden [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
             >
               {s}
@@ -69,26 +93,18 @@ export function PhoneCarousel({
 
       {multi && (
         <div className="mt-4 flex flex-col items-center gap-2">
-          <div className="flex items-center gap-1.5">
+          <div className="flex max-w-full flex-wrap items-center justify-center gap-1">
             {screens.map((_, i) => (
               <button
                 key={i}
                 type="button"
                 onClick={() => go(i)}
-                aria-label={`Screen ${i + 1}`}
-                style={{
-                  height: 6,
-                  minHeight: 6,
-                  maxHeight: 6,
-                  width: i === active ? 22 : 6,
-                  minWidth: i === active ? 22 : 6,
-                  padding: 0,
-                  boxSizing: 'border-box',
-                }}
-                className={`block shrink-0 rounded-full border-0 transition-all duration-300 ${
-                  i === active ? 'bg-[var(--warm-coral)]' : 'bg-[var(--text-faint)] hover:bg-[var(--text-muted)]'
-                }`}
-              />
+                aria-label={screenLabel(i)}
+                aria-current={i === active ? 'true' : undefined}
+                className="flex h-8 min-h-8 w-8 min-w-8 shrink-0 items-center justify-center rounded-lg focus-visible:outline-2 focus-visible:outline-[var(--accent-warm)] focus-visible:outline-offset-2"
+              >
+                <span aria-hidden="true" className={`block h-1.5 rounded-full transition-all duration-300 ${i === active ? 'w-[22px] bg-[var(--warm-coral)]' : 'w-1.5 bg-[var(--text-faint)]'}`} />
+              </button>
             ))}
           </div>
           <span className="text-xs font-medium text-[var(--text-muted)]">{resolvedHint} →</span>

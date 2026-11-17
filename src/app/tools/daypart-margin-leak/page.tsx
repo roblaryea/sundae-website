@@ -299,10 +299,11 @@ export default function DaypartMarginLeakPage() {
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-3">
                 <div className="col-span-2">
-                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
+                  <label htmlFor="daypart-segment" className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
                     {copy.fields.segment}
                   </label>
                   <select
+                    id="daypart-segment"
                     value={segment}
                     onChange={(e) => setSegment(e.target.value as keyof typeof SEGMENT_TARGETS)}
                     className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
@@ -315,10 +316,11 @@ export default function DaypartMarginLeakPage() {
                   </select>
                 </div>
                 <div className="col-span-2">
-                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
+                  <label htmlFor="daypart-currency" className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
                     {copy.fields.currency}
                   </label>
                   <select
+                    id="daypart-currency"
                     value={currency}
                     onChange={(e) => setCurrency(e.target.value)}
                     className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
@@ -335,7 +337,7 @@ export default function DaypartMarginLeakPage() {
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 <div>
-                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
+                  <label htmlFor="daypart-daily-revenue" className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
                     {copy.fields.dailyRevenue}
                   </label>
                   <div className="flex">
@@ -343,6 +345,7 @@ export default function DaypartMarginLeakPage() {
                       {symbol}
                     </span>
                     <input
+                      id="daypart-daily-revenue"
                       type="number"
                       value={dailyRevenue}
                       onChange={(e) => setDailyRevenue(e.target.value)}
@@ -351,7 +354,7 @@ export default function DaypartMarginLeakPage() {
                   </div>
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
+                  <label htmlFor="daypart-hourly-labor" className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
                     {copy.fields.hourlyLabor}
                   </label>
                   <div className="flex">
@@ -359,6 +362,7 @@ export default function DaypartMarginLeakPage() {
                       {symbol}
                     </span>
                     <input
+                      id="daypart-hourly-labor"
                       type="number"
                       value={hourlyLaborCost}
                       onChange={(e) => setHourlyLaborCost(e.target.value)}
@@ -367,10 +371,11 @@ export default function DaypartMarginLeakPage() {
                   </div>
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
+                  <label htmlFor="daypart-outlets" className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
                     {copy.fields.outletCount}
                   </label>
                   <input
+                    id="daypart-outlets"
                     type="number"
                     min="1"
                     value={outletCount}
@@ -397,7 +402,9 @@ export default function DaypartMarginLeakPage() {
                     </div>
                     <div className="col-span-3 grid grid-cols-2 gap-2">
                       <div className="flex">
+                        <label htmlFor={`daypart-${dp.id}-revenue`} className="sr-only">{copy.dayparts[dp.id]} — {copy.placeholders.revPct}</label>
                         <input
+                          id={`daypart-${dp.id}-revenue`}
                           type="number"
                           min="0"
                           max="100"
@@ -415,7 +422,9 @@ export default function DaypartMarginLeakPage() {
                         </span>
                       </div>
                       <div className="flex">
+                        <label htmlFor={`daypart-${dp.id}-staff`} className="sr-only">{copy.dayparts[dp.id]} — {copy.placeholders.fte}</label>
                         <input
+                          id={`daypart-${dp.id}-staff`}
                           type="number"
                           min="0"
                           step="0.5"

@@ -3,7 +3,6 @@ import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { decodePricingIntent } from "@/lib/pricingIntent";
 import type { Metadata } from "next";
 import React from 'react';
-import Link from 'next/link';
 import { cookies } from 'next/headers';
 import { Button } from '@/components/ui/Button';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
@@ -139,16 +138,12 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
             {commercial.sampleWalkthrough}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="#demo-form" className="w-full sm:w-auto">
-              <Button variant="cta" size="lg" className="w-full sm:w-auto">
+              <Button href="#demo-form" variant="cta" size="lg" className="w-full sm:w-auto">
                 {copy.bookDemo}
               </Button>
-            </Link>
-            <a href={PRICING_URL}>
-              <Button variant="outline-light" size="lg">
+              <Button href={PRICING_URL} variant="outline-light" size="lg">
                 {copy.viewPricing}
               </Button>
-            </a>
           </div>
         </div>
       </section>

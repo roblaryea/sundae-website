@@ -15,6 +15,8 @@
  * — threads anchored to a visual", phone "Thread · Detail · Dark".
  */
 
+import accessibilityLabels from '@/content/accessibility-labels.json';
+
 import { useCrewScreen } from '../crew/crewI18n';
 import { LOC } from './locales/CoreInsightsCollabMobile.locales';
 
@@ -114,7 +116,7 @@ function ChannelChip({ label, color, bg }: { label: string; color: string; bg: s
 }
 
 export function CoreInsightsCollabMobile() {
-  const { t } = useCrewScreen(EN, LOC);
+  const { t, locale } = useCrewScreen(EN, LOC);
 
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
@@ -134,6 +136,7 @@ export function CoreInsightsCollabMobile() {
         }}
       >
         <button
+          aria-label={accessibilityLabels[locale as keyof typeof accessibilityLabels].back}
           type="button"
           style={{
             flex: 'none',

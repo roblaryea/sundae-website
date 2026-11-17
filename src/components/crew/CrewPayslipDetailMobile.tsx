@@ -10,6 +10,8 @@
  * Source: claude.ai/design 9d73e488 · "Sundae Crew Payroll.dc.html" · B · Payslip detail.
  */
 
+import accessibilityLabels from '@/content/accessibility-labels.json';
+
 import { useCrewScreen } from './crewI18n';
 import { crewConv, crewFmt, crewMoney } from './crewCurrency';
 import { LOC } from './locales/CrewPayslipDetailMobile.locales';
@@ -102,6 +104,8 @@ export function CrewPayslipDetailMobile() {
       {/* header: back · title · period selector */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '2px 2px 0' }}>
         <button
+          type="button"
+          aria-label={accessibilityLabels[locale as keyof typeof accessibilityLabels].back}
           style={{
             width: 36,
             height: 36,

@@ -3,7 +3,7 @@
 // Mobile nav overlay: full-viewport scrim + scroll lock, consistent on all pages
 // Refined mobile drawer with accordion sections, slide animation, and sticky CTA bar
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/Button';
 import { SundaeLogotype } from './ui/SundaeLogotype';
@@ -133,6 +133,8 @@ const Navbar = () => {
   // which is set before hydration) - no JS state, so no flash and no stale-src caching.
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const mobileDialogRef = useRef<HTMLDivElement>(null);
+  const mobileCloseRef = useRef<HTMLButtonElement>(null);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isLogoHovered, setIsLogoHovered] = useState(false);
   
@@ -191,6 +193,37 @@ const Navbar = () => {
         window.scrollTo(0, scrollY);
       };
     }
+  }, [isMenuOpen]);
+
+  // Keep keyboard focus in the modal and return it to the opener on close.
+  useEffect(() => {
+    if (!isMenuOpen) return;
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const frame = requestAnimationFrame(() => mobileCloseRef.current?.focus({ preventScroll: true }));
+    const handleTab = (event: KeyboardEvent) => {
+      if (event.key !== 'Tab') return;
+      const dialog = mobileDialogRef.current;
+      if (!dialog) return;
+      const controls = Array.from(dialog.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'))
+        .filter(el => el.tabIndex >= 0 && el.getClientRects().length > 0 && !el.closest('[inert], [aria-hidden="true"]'));
+      const first = controls[0];
+      const last = controls.at(-1);
+      const outside = !dialog.contains(document.activeElement);
+      if (first && ((!event.shiftKey && (document.activeElement === last || outside)) || (event.shiftKey && (document.activeElement === first || outside)))) {
+        event.preventDefault();
+        (event.shiftKey ? last : first)?.focus({ preventScroll: true });
+      }
+    };
+    const desktop = window.matchMedia('(min-width: 1280px)');
+    const closeOnDesktop = () => { if (desktop.matches) setIsMenuOpen(false); };
+    document.addEventListener('keydown', handleTab, true);
+    desktop.addEventListener('change', closeOnDesktop);
+    return () => {
+      cancelAnimationFrame(frame);
+      document.removeEventListener('keydown', handleTab, true);
+      desktop.removeEventListener('change', closeOnDesktop);
+      if (previousFocus?.isConnected) previousFocus.focus({ preventScroll: true });
+    };
   }, [isMenuOpen]);
 
   // Close mobile menu on ESC key
@@ -585,6 +618,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Full-Screen Drawer */}
       <div
+        ref={mobileDialogRef}
         className={`fixed inset-0 z-[60] xl:hidden transition-opacity duration-300 ${
           isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
@@ -602,7 +636,8 @@ const Navbar = () => {
           }`}
           onClick={() => setIsMenuOpen(false)}
           aria-label={nav.closeNavigation}
-          tabIndex={isMenuOpen ? 0 : -1}
+          tabIndex={-1}
+          aria-hidden="true"
         />
 
         {/* Slide-in Drawer Panel */}
@@ -619,6 +654,7 @@ const Navbar = () => {
               <SundaeLogotype className="text-[24px] text-[#FBF8F4] [html.light_&]:text-[#2A2320]" />
             </span>
             <button
+              ref={mobileCloseRef}
               type="button"
               onClick={() => setIsMenuOpen(false)}
               className="p-2 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF5C4D]"

@@ -1,0 +1,178 @@
+{
+  "en": {
+    "countryCallingCode": "Country calling code",
+    "screen": "Screen",
+    "productScreens": "Product screens",
+    "back": "Back",
+    "notifications": "Notifications",
+    "sendFollowUp": "Send follow-up"
+  },
+  "ar": {
+    "countryCallingCode": "رمز الاتصال الدولي",
+    "screen": "الشاشة",
+    "productScreens": "شاشات المنتج",
+    "back": "رجوع",
+    "notifications": "الإشعارات",
+    "sendFollowUp": "إرسال المتابعة"
+  },
+  "fr": {
+    "countryCallingCode": "Indicatif téléphonique",
+    "screen": "Écran",
+    "productScreens": "Écrans du produit",
+    "back": "Retour",
+    "notifications": "Notifications",
+    "sendFollowUp": "Envoyer la question de suivi"
+  },
+  "es": {
+    "countryCallingCode": "Prefijo telefónico",
+    "screen": "Pantalla",
+    "productScreens": "Pantallas del producto",
+    "back": "Volver",
+    "notifications": "Notificaciones",
+    "sendFollowUp": "Enviar seguimiento"
+  },
+  "de": {
+    "countryCallingCode": "Telefonvorwahl",
+    "screen": "Ansicht",
+    "productScreens": "Produktansichten",
+    "back": "Zurück",
+    "notifications": "Benachrichtigungen",
+    "sendFollowUp": "Rückfrage senden"
+  },
+  "it": {
+    "countryCallingCode": "Prefisso telefonico",
+    "screen": "Schermata",
+    "productScreens": "Schermate del prodotto",
+    "back": "Indietro",
+    "notifications": "Notifiche",
+    "sendFollowUp": "Invia domanda di approfondimento"
+  },
+  "pt": {
+    "countryCallingCode": "Indicativo telefónico",
+    "screen": "Ecrã",
+    "productScreens": "Ecrãs do produto",
+    "back": "Voltar",
+    "notifications": "Notificações",
+    "sendFollowUp": "Enviar seguimento"
+  },
+  "nl": {
+    "countryCallingCode": "Landnummer",
+    "screen": "Scherm",
+    "productScreens": "Productschermen",
+    "back": "Terug",
+    "notifications": "Meldingen",
+    "sendFollowUp": "Vervolgvraag verzenden"
+  },
+  "pl": {
+    "countryCallingCode": "Telefoniczny kod kraju",
+    "screen": "Ekran",
+    "productScreens": "Ekrany produktu",
+    "back": "Wstecz",
+    "notifications": "Powiadomienia",
+    "sendFollowUp": "Wyślij pytanie uzupełniające"
+  },
+  "ro": {
+    "countryCallingCode": "Prefix telefonic",
+    "screen": "Ecran",
+    "productScreens": "Ecranele produsului",
+    "back": "Înapoi",
+    "notifications": "Notificări",
+    "sendFollowUp": "Trimite întrebarea de continuare"
+  },
+  "sv": {
+    "countryCallingCode": "Landsnummer",
+    "screen": "Skärm",
+    "productScreens": "Produktvyer",
+    "back": "Tillbaka",
+    "notifications": "Aviseringar",
+    "sendFollowUp": "Skicka följdfråga"
+  },
+  "tr": {
+    "countryCallingCode": "Ülke telefon kodu",
+    "screen": "Ekran",
+    "productScreens": "Ürün ekranları",
+    "back": "Geri",
+    "notifications": "Bildirimler",
+    "sendFollowUp": "Takip sorusu gönder"
+  },
+  "hi": {
+    "countryCallingCode": "देश का कॉलिंग कोड",
+    "screen": "स्क्रीन",
+    "productScreens": "उत्पाद स्क्रीन",
+    "back": "वापस",
+    "notifications": "सूचनाएँ",
+    "sendFollowUp": "अगला प्रश्न भेजें"
+  },
+  "bn": {
+    "countryCallingCode": "দেশের কলিং কোড",
+    "screen": "স্ক্রিন",
+    "productScreens": "পণ্যের স্ক্রিন",
+    "back": "ফিরে যান",
+    "notifications": "বিজ্ঞপ্তি",
+    "sendFollowUp": "পরবর্তী প্রশ্ন পাঠান"
+  },
+  "ur": {
+    "countryCallingCode": "ملک کا کالنگ کوڈ",
+    "screen": "اسکرین",
+    "productScreens": "پروڈکٹ اسکرینیں",
+    "back": "واپس",
+    "notifications": "اطلاعات",
+    "sendFollowUp": "مزید سوال بھیجیں"
+  },
+  "zh-Hans": {
+    "countryCallingCode": "国家电话区号",
+    "screen": "屏幕",
+    "productScreens": "产品界面",
+    "back": "返回",
+    "notifications": "通知",
+    "sendFollowUp": "发送追问"
+  },
+  "ja": {
+    "countryCallingCode": "国番号",
+    "screen": "画面",
+    "productScreens": "製品画面",
+    "back": "戻る",
+    "notifications": "通知",
+    "sendFollowUp": "追加の質問を送信"
+  },
+  "ko": {
+    "countryCallingCode": "국가 전화 코드",
+    "screen": "화면",
+    "productScreens": "제품 화면",
+    "back": "뒤로",
+    "notifications": "알림",
+    "sendFollowUp": "후속 질문 보내기"
+  },
+  "id": {
+    "countryCallingCode": "Kode telepon negara",
+    "screen": "Layar",
+    "productScreens": "Layar produk",
+    "back": "Kembali",
+    "notifications": "Notifikasi",
+    "sendFollowUp": "Kirim pertanyaan lanjutan"
+  },
+  "ms": {
+    "countryCallingCode": "Kod panggilan negara",
+    "screen": "Skrin",
+    "productScreens": "Skrin produk",
+    "back": "Kembali",
+    "notifications": "Pemberitahuan",
+    "sendFollowUp": "Hantar soalan susulan"
+  },
+  "vi": {
+    "countryCallingCode": "Mã điện thoại quốc gia",
+    "screen": "Màn hình",
+    "productScreens": "Màn hình sản phẩm",
+    "back": "Quay lại",
+    "notifications": "Thông báo",
+    "sendFollowUp": "Gửi câu hỏi tiếp theo"
+  },
+  "th": {
+    "countryCallingCode": "รหัสโทรศัพท์ประเทศ",
+    "screen": "หน้าจอ",
+    "productScreens": "หน้าจอผลิตภัณฑ์",
+    "back": "ย้อนกลับ",
+    "notifications": "การแจ้งเตือน",
+    "sendFollowUp": "ส่งคำถามต่อเนื่อง"
+  }
+}
