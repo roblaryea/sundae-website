@@ -78,7 +78,7 @@ Sundae Crew connects workforce execution to the same decision-intelligence layer
 
 Core and Crew can be evaluated separately or together. Core connects operating evidence and decisions; Crew runs workforce and daily execution. Sundae connects to suitable POS and accounting systems; it does not replace an accounting general ledger. Confirm the actual connector, data scope and country requirements before committing to a rollout.
 
-Every Core package includes Pulse, base Benchmarks, Ask Sundae and Profit Recovery, plus labor, profit and revenue assurance analysis. Package AI seats and credit allowances apply; peer benchmarks need sufficient privacy-protected data, and premium benchmark options are separately priced.
+Every Core package includes Pulse, base Benchmarks, Ask Sundae and Profit Recovery, plus labor, profit and revenue assurance analysis. Package AI seats and credit allowances apply; peer benchmarks need sufficient privacy-protected data, and premium benchmark access has separate eligibility.
 
 Core Foundation provides the operating baseline. Core Margin adds inventory, purchasing and delivery economics. Core Growth adds marketing, reservations, guest experience, guest CRM and delivery economics; it does not include the inventory and purchasing experiences. Core Performance combines Margin and Growth coverage and includes Foresight & Action. Foresight & Action is an optional, separately priced extension for Foundation, Margin and Growth; do not count it twice in Performance.
 
