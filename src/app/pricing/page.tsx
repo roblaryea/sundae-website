@@ -3,12 +3,11 @@
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { Accordion } from '@/components/ui/Accordion';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
-import { formatWebsiteCurrency, formatWebsiteNumber, type WebsiteLocale } from '@/lib/i18n';
+import { formatWebsiteCurrency, formatWebsiteNumber, getLocalizedPathname, type WebsiteLocale } from '@/lib/i18n';
 import { PRICING_URL } from '@/lib/urls';
 import { PageHero, FadeUp, StaggerContainer, StaggerItem, PageCTA } from '@/components/ui/PageAnimations';
 import { CreamBreak } from '@/components/ui/CreamBreak';
@@ -379,6 +378,8 @@ function BandTable({
 
 export default function PricingPage() {
   const { locale, messages } = useWebsiteI18n();
+  const demoHref = getLocalizedPathname('/demo', locale);
+  const diagnosticHref = getLocalizedPathname('/diagnostic', locale);
   const heroCopy = messages.pages.pricing;
   const originalCopy = pricingPageCopy[locale as Exclude<WebsiteLocale, 'en'>] ?? enCopy;
   const commercial = getCommercialCopy(locale);
@@ -489,11 +490,9 @@ export default function PricingPage() {
                         </li>
                       ))}
                     </ul>
-                    <Link href="/demo">
-                      <Button variant="outline" size="lg" className="w-full">
-                        {heroCopy.bookDemo}
-                      </Button>
-                    </Link>
+                    <Button href={demoHref} variant="outline" size="lg" className="w-full">
+                      {heroCopy.bookDemo}
+                    </Button>
                   </CardContent>
                 </Card>
               </StaggerItem>
@@ -709,11 +708,9 @@ export default function PricingPage() {
                 <p className="text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">
                   {heroCopy.enterpriseDescription}
                 </p>
-                <Link href="/demo">
-                  <Button variant="primary" size="lg" className="px-8">
-                    {heroCopy.bookDemo}
-                  </Button>
-                </Link>
+                <Button href={demoHref} variant="primary" size="lg" className="px-8">
+                  {heroCopy.bookDemo}
+                </Button>
               </CardContent>
             </Card>
           </FadeUp>
@@ -751,11 +748,9 @@ export default function PricingPage() {
 
           <FadeUp delay={0.3}>
             <div className="text-center mt-8">
-              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="lg">
-                  {heroCopy.detailedPricingCalculator}
-                </Button>
-              </a>
+              <Button href={PRICING_URL} target="_blank" rel="noopener noreferrer" variant="outline" size="lg">
+                {heroCopy.detailedPricingCalculator}
+              </Button>
             </div>
           </FadeUp>
         </div>
@@ -779,10 +774,10 @@ export default function PricingPage() {
       </section>
 
       <PageCTA title={heroCopy.ctaTitle} description={heroCopy.ctaDescription}>
-        <Button variant="cta" size="lg" href="/demo">
+        <Button variant="cta" size="lg" href={demoHref}>
           {heroCopy.bookDemo}
         </Button>
-        <Button variant="outline-ink" size="lg" href="/diagnostic">
+        <Button variant="outline-ink" size="lg" href={diagnosticHref}>
           {copy.secondaryCta}
         </Button>
       </PageCTA>
