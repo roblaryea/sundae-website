@@ -14,6 +14,7 @@ import { crewPricingLocales } from '@/lib/crewPricingLocales';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { usd } from '@/lib/pricing/priceBook';
 import { CREW_MODULES, crewModule, type CrewModuleSlug } from './crewModules';
+import { CrewWorkflowCoverage } from '@/components/seo/CrewWorkflowCoverage';
 
 export type CrewModuleCopy = {
   badge: string;
@@ -98,7 +99,7 @@ export function CrewModulePage({
                 {copy.heroLine1}
               </span>
               <br />
-              <span className="italic text-[#F6C66B]">
+              <span className="italic text-[var(--text-warm)]">
                 {copy.heroLine2}
               </span>
             </motion.h1>
@@ -144,6 +145,8 @@ export function CrewModulePage({
           </motion.div>
         </div>
       </section>
+
+      {(slug === 'people' || slug === 'payroll') && <CrewWorkflowCoverage locale={locale} scope={slug === 'payroll' ? 'payroll' : 'operations'} />}
 
       {/* ── Features ── */}
       <section className="relative px-4 py-20 sm:px-6 lg:px-8">

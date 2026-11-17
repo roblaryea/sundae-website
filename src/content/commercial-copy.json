@@ -18,7 +18,12 @@
     "moduleQuestion": "Are modules sold separately?",
     "moduleAnswer": "No. Modules are included in Core packages. Compare packages to see which capabilities each one includes.",
     "watchtowerEligibility": "Watchtower is a separately priced extension for Core Growth and Core Performance. It is not available with Core Foundation or Core Margin.",
-    "watchtowerChoice": "Choose Competitive Intelligence, Event & Calendar Signals, Market Trends or the full Watchtower bundle. Confirm your locations and current price in the calculator."
+    "watchtowerChoice": "Choose Competitive Intelligence, Event & Calendar Signals, Market Trends or the full Watchtower bundle. Confirm your locations and current price in the calculator.",
+    "crewOperationsCoverage": "Tasks, checklists and the digital shift logbook are part of Crew Operations (Crew Manage), included in Crew Operating and Crew Complete.",
+    "crewPayrollCoverage": "Tip workflows are part of Crew Payroll (Crew Pay), included in Crew Operating and Crew Complete. Crew Pay requires Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter and Schedule & Time do not include these workflows.",
+    "crewHandoverCoverage": "Scheduling includes viewing manager handovers. Creating handovers and using the operational logbook require Crew Operations.",
+    "crewEstimateNote": "Editable starting estimates. Confirm your locations, requirements and current price in the calculator."
   },
   "ar": {
     "packageScope": "تتضمن باقات Core قدرات مختلفة. راجع الباقة المختارة والإضافات المؤهلة في حاسبة الأسعار.",
@@ -39,7 +44,12 @@
     "moduleQuestion": "هل تُباع الوحدات بشكل منفصل؟",
     "moduleAnswer": "لا. الوحدات مشمولة ضمن باقات Core. قارن الباقات لمعرفة القدرات التي تتضمنها كل باقة.",
     "watchtowerEligibility": "Watchtower إضافة تُسعَّر بشكل منفصل لباقتي Core Growth وCore Performance. وهي غير متاحة مع Core Foundation أو Core Margin.",
-    "watchtowerChoice": "اختر الذكاء التنافسي أو إشارات الأحداث والتقويم أو اتجاهات السوق، أو حزمة Watchtower الكاملة. حدّد مواقعك وتحقّق من السعر الحالي في الحاسبة."
+    "watchtowerChoice": "اختر الذكاء التنافسي أو إشارات الأحداث والتقويم أو اتجاهات السوق، أو حزمة Watchtower الكاملة. حدّد مواقعك وتحقّق من السعر الحالي في الحاسبة.",
+    "crewOperationsCoverage": "المهام وقوائم التحقق وسجل الورديات الرقمي جزء من Crew Operations ‏(Crew Manage)، ومشمولة في Crew Operating وCrew Complete.",
+    "crewPayrollCoverage": "إجراءات الإكراميات جزء من Crew Payroll ‏(Crew Pay)، ومشمولة في Crew Operating وCrew Complete. تتطلب Crew Pay وجود Crew Operations.",
+    "crewCoverageExclusions": "لا تشمل Crew Starter ولا Schedule & Time هذه الإجراءات.",
+    "crewHandoverCoverage": "تشمل الجدولة عرض تسليمات المديرين. أما إنشاء التسليمات واستخدام سجل العمليات فيتطلبان Crew Operations.",
+    "crewEstimateNote": "تقديرات أولية قابلة للتعديل. تأكد من مواقعك ومتطلباتك والسعر الحالي في الحاسبة."
   },
   "fr": {
     "packageScope": "Les offres Core comprennent des capacités différentes. Vérifiez l’offre choisie et les extensions éligibles dans le simulateur de prix.",
@@ -60,7 +70,12 @@
     "moduleQuestion": "Les modules sont-ils vendus séparément ?",
     "moduleAnswer": "Non. Les modules sont inclus dans les offres Core. Comparez les offres pour connaître les capacités incluses dans chacune.",
     "watchtowerEligibility": "Watchtower est une extension facturée séparément pour Core Growth et Core Performance. Elle n’est pas disponible avec Core Foundation ou Core Margin.",
-    "watchtowerChoice": "Choisissez la veille concurrentielle, les signaux événementiels et calendaires, les tendances du marché ou le pack Watchtower complet. Vérifiez vos établissements et le tarif actuel dans le calculateur."
+    "watchtowerChoice": "Choisissez la veille concurrentielle, les signaux événementiels et calendaires, les tendances du marché ou le pack Watchtower complet. Vérifiez vos établissements et le tarif actuel dans le calculateur.",
+    "crewOperationsCoverage": "Les tâches, listes de contrôle et le journal de service numérique font partie de Crew Operations (Crew Manage), inclus dans Crew Operating et Crew Complete.",
+    "crewPayrollCoverage": "Les pourboires relèvent de Crew Payroll (Crew Pay), inclus dans Crew Operating et Crew Complete. Crew Pay nécessite Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter et Schedule & Time ne comprennent pas ces fonctions.",
+    "crewHandoverCoverage": "La planification permet de consulter les transmissions des responsables. Leur création et le journal opérationnel nécessitent Crew Operations.",
+    "crewEstimateNote": "Estimations de départ modifiables. Vérifiez vos sites, vos besoins et le prix actuel dans le calculateur."
   },
   "es": {
     "packageScope": "Los paquetes Core incluyen capacidades diferentes. Revisa el paquete elegido y las extensiones disponibles en la calculadora de precios.",
@@ -81,7 +96,12 @@
     "moduleQuestion": "¿Se venden los módulos por separado?",
     "moduleAnswer": "No. Los módulos están incluidos en los paquetes Core. Compare los paquetes para ver qué capacidades incluye cada uno.",
     "watchtowerEligibility": "Watchtower es una extensión con precio independiente para Core Growth y Core Performance. No está disponible con Core Foundation ni Core Margin.",
-    "watchtowerChoice": "Elige inteligencia competitiva, señales de eventos y calendario, tendencias del mercado o el paquete completo de Watchtower. Confirma tus locales y el precio vigente en la calculadora."
+    "watchtowerChoice": "Elige inteligencia competitiva, señales de eventos y calendario, tendencias del mercado o el paquete completo de Watchtower. Confirma tus locales y el precio vigente en la calculadora.",
+    "crewOperationsCoverage": "Las tareas, listas de verificación y el registro digital de turnos forman parte de Crew Operations (Crew Manage), incluido en Crew Operating y Crew Complete.",
+    "crewPayrollCoverage": "La gestión de propinas forma parte de Crew Payroll (Crew Pay), incluido en Crew Operating y Crew Complete. Crew Pay requiere Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter y Schedule & Time no incluyen estas funciones.",
+    "crewHandoverCoverage": "La planificación permite consultar los relevos de responsables. Crear relevos y usar el registro operativo requiere Crew Operations.",
+    "crewEstimateNote": "Estimaciones iniciales editables. Confirma tus locales, necesidades y el precio actual en la calculadora."
   },
   "de": {
     "packageScope": "Die Core-Pakete enthalten unterschiedliche Funktionen. Prüfen Sie das gewählte Paket und verfügbare Erweiterungen im Preisrechner.",
@@ -102,7 +122,12 @@
     "moduleQuestion": "Werden Module separat verkauft?",
     "moduleAnswer": "Nein. Module sind in den Core-Paketen enthalten. Vergleichen Sie die Pakete, um die jeweils enthaltenen Funktionen zu sehen.",
     "watchtowerEligibility": "Watchtower ist eine separat berechnete Erweiterung für Core Growth und Core Performance. Sie ist nicht mit Core Foundation oder Core Margin verfügbar.",
-    "watchtowerChoice": "Wählen Sie Wettbewerbsinformationen, Ereignis- und Kalendersignale, Markttrends oder das vollständige Watchtower-Paket. Prüfen Sie Standorte und aktuelle Preise im Rechner."
+    "watchtowerChoice": "Wählen Sie Wettbewerbsinformationen, Ereignis- und Kalendersignale, Markttrends oder das vollständige Watchtower-Paket. Prüfen Sie Standorte und aktuelle Preise im Rechner.",
+    "crewOperationsCoverage": "Aufgaben, Checklisten und das digitale Schichtlogbuch gehören zu Crew Operations (Crew Manage), enthalten in Crew Operating und Crew Complete.",
+    "crewPayrollCoverage": "Trinkgeldabläufe gehören zu Crew Payroll (Crew Pay), enthalten in Crew Operating und Crew Complete. Crew Pay setzt Crew Operations voraus.",
+    "crewCoverageExclusions": "Crew Starter und Schedule & Time enthalten diese Funktionen nicht.",
+    "crewHandoverCoverage": "Die Dienstplanung umfasst das Anzeigen von Leitungsübergaben. Das Erstellen von Übergaben und das Betriebslogbuch erfordern Crew Operations.",
+    "crewEstimateNote": "Bearbeitbare Ausgangsschätzungen. Prüfen Sie Standorte, Anforderungen und aktuelle Preise im Rechner."
   },
   "it": {
     "packageScope": "I pacchetti Core includono funzionalità diverse. Verifica il pacchetto scelto e le estensioni disponibili nel calcolatore dei prezzi.",
@@ -123,7 +148,12 @@
     "moduleQuestion": "I moduli sono venduti separatamente?",
     "moduleAnswer": "No. I moduli sono inclusi nei pacchetti Core. Confronta i pacchetti per vedere quali funzionalità include ciascuno.",
     "watchtowerEligibility": "Watchtower è un’estensione con prezzo separato per Core Growth e Core Performance. Non è disponibile con Core Foundation o Core Margin.",
-    "watchtowerChoice": "Scegli intelligence competitiva, segnali di eventi e calendario, tendenze di mercato o il pacchetto Watchtower completo. Conferma le sedi e il prezzo attuale nel calcolatore."
+    "watchtowerChoice": "Scegli intelligence competitiva, segnali di eventi e calendario, tendenze di mercato o il pacchetto Watchtower completo. Conferma le sedi e il prezzo attuale nel calcolatore.",
+    "crewOperationsCoverage": "Attività, liste di controllo e registro digitale dei turni fanno parte di Crew Operations (Crew Manage), incluso in Crew Operating e Crew Complete.",
+    "crewPayrollCoverage": "I flussi delle mance fanno parte di Crew Payroll (Crew Pay), incluso in Crew Operating e Crew Complete. Crew Pay richiede Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter e Schedule & Time non includono queste funzioni.",
+    "crewHandoverCoverage": "La pianificazione include la consultazione dei passaggi di consegne dei responsabili. La creazione e il registro operativo richiedono Crew Operations.",
+    "crewEstimateNote": "Stime iniziali modificabili. Conferma sedi, esigenze e prezzo attuale nel calcolatore."
   },
   "pt": {
     "packageScope": "Os pacotes Core incluem capacidades diferentes. Confirme o pacote escolhido e as extensões elegíveis no simulador de preços.",
@@ -144,7 +174,12 @@
     "moduleQuestion": "Os módulos são vendidos separadamente?",
     "moduleAnswer": "Não. Os módulos estão incluídos nos pacotes Core. Compare os pacotes para ver quais recursos cada um inclui.",
     "watchtowerEligibility": "Watchtower é uma extensão cobrada separadamente para Core Growth e Core Performance. Não está disponível com Core Foundation ou Core Margin.",
-    "watchtowerChoice": "Escolha inteligência competitiva, sinais de eventos e calendário, tendências de mercado ou o pacote Watchtower completo. Confirme as suas unidades e o preço atual na calculadora."
+    "watchtowerChoice": "Escolha inteligência competitiva, sinais de eventos e calendário, tendências de mercado ou o pacote Watchtower completo. Confirme as suas unidades e o preço atual na calculadora.",
+    "crewOperationsCoverage": "As tarefas, listas de verificação e o registo digital de turnos fazem parte de Crew Operations (Crew Manage), incluído em Crew Operating e Crew Complete.",
+    "crewPayrollCoverage": "Os fluxos de gorjetas fazem parte de Crew Payroll (Crew Pay), incluído em Crew Operating e Crew Complete. Crew Pay requer Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter e Schedule & Time não incluem estas funções.",
+    "crewHandoverCoverage": "O planeamento permite consultar as passagens de turno dos responsáveis. A criação e o registo operacional requerem Crew Operations.",
+    "crewEstimateNote": "Estimativas iniciais editáveis. Confirme unidades, necessidades e preço atual na calculadora."
   },
   "nl": {
     "packageScope": "Core-pakketten bevatten verschillende functies. Controleer het gekozen pakket en beschikbare uitbreidingen in de prijscalculator.",
@@ -165,7 +200,12 @@
     "moduleQuestion": "Worden modules apart verkocht?",
     "moduleAnswer": "Nee. Modules zijn inbegrepen in de Core-pakketten. Vergelijk de pakketten om te zien welke mogelijkheden elk pakket bevat.",
     "watchtowerEligibility": "Watchtower is een afzonderlijk geprijsde uitbreiding voor Core Growth en Core Performance. Het is niet beschikbaar bij Core Foundation of Core Margin.",
-    "watchtowerChoice": "Kies concurrentie-informatie, evenement- en kalendersignalen, markttrends of de volledige Watchtower-bundel. Controleer je locaties en de actuele prijs in de calculator."
+    "watchtowerChoice": "Kies concurrentie-informatie, evenement- en kalendersignalen, markttrends of de volledige Watchtower-bundel. Controleer je locaties en de actuele prijs in de calculator.",
+    "crewOperationsCoverage": "Taken, checklists en het digitale dienstenlogboek horen bij Crew Operations (Crew Manage), opgenomen in Crew Operating en Crew Complete.",
+    "crewPayrollCoverage": "Fooienbeheer hoort bij Crew Payroll (Crew Pay), opgenomen in Crew Operating en Crew Complete. Crew Pay vereist Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter en Schedule & Time bevatten deze functies niet.",
+    "crewHandoverCoverage": "Planning omvat het bekijken van overdrachten door managers. Overdrachten maken en het operationele logboek gebruiken vereist Crew Operations.",
+    "crewEstimateNote": "Aanpasbare startschattingen. Controleer je locaties, behoeften en de actuele prijs in de calculator."
   },
   "pl": {
     "packageScope": "Pakiety Core obejmują różne funkcje. Sprawdź wybrany pakiet i dostępne rozszerzenia w kalkulatorze cen.",
@@ -186,7 +226,12 @@
     "moduleQuestion": "Czy moduły są sprzedawane osobno?",
     "moduleAnswer": "Nie. Moduły są zawarte w pakietach Core. Porównaj pakiety, aby sprawdzić funkcje dostępne w każdym z nich.",
     "watchtowerEligibility": "Watchtower to osobno płatne rozszerzenie dla Core Growth i Core Performance. Nie jest dostępne z Core Foundation ani Core Margin.",
-    "watchtowerChoice": "Wybierz analizę konkurencji, sygnały wydarzeń i kalendarza, trendy rynkowe lub pełny pakiet Watchtower. Sprawdź lokalizacje i aktualną cenę w kalkulatorze."
+    "watchtowerChoice": "Wybierz analizę konkurencji, sygnały wydarzeń i kalendarza, trendy rynkowe lub pełny pakiet Watchtower. Sprawdź lokalizacje i aktualną cenę w kalkulatorze.",
+    "crewOperationsCoverage": "Zadania, listy kontrolne i cyfrowy dziennik zmian należą do Crew Operations (Crew Manage), zawartego w Crew Operating i Crew Complete.",
+    "crewPayrollCoverage": "Obsługa napiwków należy do Crew Payroll (Crew Pay), zawartego w Crew Operating i Crew Complete. Crew Pay wymaga Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter i Schedule & Time nie obejmują tych funkcji.",
+    "crewHandoverCoverage": "Planowanie pozwala przeglądać przekazania zmian przez kierowników. Tworzenie przekazań i dziennik operacyjny wymagają Crew Operations.",
+    "crewEstimateNote": "Edytowalne wyceny początkowe. Potwierdź lokale, wymagania i aktualną cenę w kalkulatorze."
   },
   "ro": {
     "packageScope": "Pachetele Core includ funcționalități diferite. Verificați pachetul ales și extensiile eligibile în calculatorul de prețuri.",
@@ -207,7 +252,12 @@
     "moduleQuestion": "Modulele se vând separat?",
     "moduleAnswer": "Nu. Modulele sunt incluse în pachetele Core. Compară pachetele pentru a vedea funcționalitățile incluse în fiecare.",
     "watchtowerEligibility": "Watchtower este o extensie cu preț separat pentru Core Growth și Core Performance. Nu este disponibilă cu Core Foundation sau Core Margin.",
-    "watchtowerChoice": "Alegeți informații despre concurență, semnale de evenimente și calendar, tendințe de piață sau pachetul Watchtower complet. Confirmați locațiile și prețul actual în calculator."
+    "watchtowerChoice": "Alegeți informații despre concurență, semnale de evenimente și calendar, tendințe de piață sau pachetul Watchtower complet. Confirmați locațiile și prețul actual în calculator.",
+    "crewOperationsCoverage": "Sarcinile, listele de verificare și jurnalul digital de tură fac parte din Crew Operations (Crew Manage), inclus în Crew Operating și Crew Complete.",
+    "crewPayrollCoverage": "Gestionarea bacșișurilor face parte din Crew Payroll (Crew Pay), inclus în Crew Operating și Crew Complete. Crew Pay necesită Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter și Schedule & Time nu includ aceste funcții.",
+    "crewHandoverCoverage": "Planificarea include vizualizarea predărilor de tură ale managerilor. Crearea lor și jurnalul operațional necesită Crew Operations.",
+    "crewEstimateNote": "Estimări inițiale editabile. Confirmați locațiile, cerințele și prețul actual în calculator."
   },
   "sv": {
     "packageScope": "Core-paketen innehåller olika funktioner. Kontrollera valt paket och tillgängliga tillägg i priskalkylatorn.",
@@ -228,7 +278,12 @@
     "moduleQuestion": "Säljs moduler separat?",
     "moduleAnswer": "Nej. Moduler ingår i Core-paketen. Jämför paketen för att se vilka funktioner som ingår i varje paket.",
     "watchtowerEligibility": "Watchtower är ett separat prissatt tillägg för Core Growth och Core Performance. Det är inte tillgängligt med Core Foundation eller Core Margin.",
-    "watchtowerChoice": "Välj konkurrentinformation, evenemangs- och kalendersignaler, marknadstrender eller hela Watchtower-paketet. Bekräfta dina enheter och aktuellt pris i kalkylatorn."
+    "watchtowerChoice": "Välj konkurrentinformation, evenemangs- och kalendersignaler, marknadstrender eller hela Watchtower-paketet. Bekräfta dina enheter och aktuellt pris i kalkylatorn.",
+    "crewOperationsCoverage": "Uppgifter, checklistor och den digitala skiftloggen hör till Crew Operations (Crew Manage), som ingår i Crew Operating och Crew Complete.",
+    "crewPayrollCoverage": "Drickshantering hör till Crew Payroll (Crew Pay), som ingår i Crew Operating och Crew Complete. Crew Pay kräver Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter och Schedule & Time innehåller inte dessa funktioner.",
+    "crewHandoverCoverage": "Schemaläggning omfattar visning av chefers överlämningar. Att skapa överlämningar och använda driftloggen kräver Crew Operations.",
+    "crewEstimateNote": "Redigerbara startberäkningar. Bekräfta enheter, behov och aktuellt pris i kalkylatorn."
   },
   "tr": {
     "packageScope": "Core paketleri farklı özellikler içerir. Seçilen paketi ve uygun eklentileri fiyat hesaplayıcısında kontrol edin.",
@@ -249,7 +304,12 @@
     "moduleQuestion": "Modüller ayrı satılıyor mu?",
     "moduleAnswer": "Hayır. Modüller Core paketlerine dahildir. Her paketin hangi özellikleri içerdiğini görmek için paketleri karşılaştırın.",
     "watchtowerEligibility": "Watchtower, Core Growth ve Core Performance için ayrıca fiyatlandırılan bir eklentidir. Core Foundation veya Core Margin ile kullanılamaz.",
-    "watchtowerChoice": "Rekabet bilgileri, etkinlik ve takvim sinyalleri, pazar trendleri veya tam Watchtower paketini seçin. Lokasyonlarınızı ve güncel fiyatı hesaplayıcıda doğrulayın."
+    "watchtowerChoice": "Rekabet bilgileri, etkinlik ve takvim sinyalleri, pazar trendleri veya tam Watchtower paketini seçin. Lokasyonlarınızı ve güncel fiyatı hesaplayıcıda doğrulayın.",
+    "crewOperationsCoverage": "Görevler, kontrol listeleri ve dijital vardiya günlüğü, Crew Operating ve Crew Complete paketlerine dahil olan Crew Operations (Crew Manage) kapsamındadır.",
+    "crewPayrollCoverage": "Bahşiş iş akışları, Crew Operating ve Crew Complete paketlerine dahil olan Crew Payroll (Crew Pay) kapsamındadır. Crew Pay, Crew Operations gerektirir.",
+    "crewCoverageExclusions": "Crew Starter ve Schedule & Time bu iş akışlarını içermez.",
+    "crewHandoverCoverage": "Planlama, yönetici devir teslimlerini görüntülemeyi içerir. Devir teslim oluşturmak ve operasyon günlüğünü kullanmak Crew Operations gerektirir.",
+    "crewEstimateNote": "Düzenlenebilir başlangıç tahminleri. Lokasyonlarınızı, ihtiyaçlarınızı ve güncel fiyatı hesaplayıcıda doğrulayın."
   },
   "hi": {
     "packageScope": "Core पैकेजों में अलग-अलग क्षमताएँ शामिल हैं। चुने हुए पैकेज और उपलब्ध विस्तारों की जाँच मूल्य कैलकुलेटर में करें।",
@@ -270,7 +330,12 @@
     "moduleQuestion": "क्या मॉड्यूल अलग से बेचे जाते हैं?",
     "moduleAnswer": "नहीं। मॉड्यूल Core पैकेज में शामिल हैं। हर पैकेज में कौन सी क्षमताएँ शामिल हैं, यह जानने के लिए पैकेज की तुलना करें।",
     "watchtowerEligibility": "Watchtower, Core Growth और Core Performance के लिए अलग शुल्क वाला एक्सटेंशन है। यह Core Foundation या Core Margin के साथ उपलब्ध नहीं है।",
-    "watchtowerChoice": "प्रतिस्पर्धी जानकारी, इवेंट और कैलेंडर संकेत, बाज़ार के रुझान या पूरा Watchtower बंडल चुनें। कैलकुलेटर में अपनी लोकेशन और मौजूदा कीमत की पुष्टि करें।"
+    "watchtowerChoice": "प्रतिस्पर्धी जानकारी, इवेंट और कैलेंडर संकेत, बाज़ार के रुझान या पूरा Watchtower बंडल चुनें। कैलकुलेटर में अपनी लोकेशन और मौजूदा कीमत की पुष्टि करें।",
+    "crewOperationsCoverage": "कार्य, चेकलिस्ट और डिजिटल शिफ्ट लॉगबुक Crew Operations (Crew Manage) का हिस्सा हैं, जो Crew Operating और Crew Complete में शामिल है।",
+    "crewPayrollCoverage": "टिप संबंधी कार्यप्रवाह Crew Payroll (Crew Pay) का हिस्सा हैं, जो Crew Operating और Crew Complete में शामिल है। Crew Pay के लिए Crew Operations आवश्यक है।",
+    "crewCoverageExclusions": "Crew Starter और Schedule & Time में ये कार्यप्रवाह शामिल नहीं हैं।",
+    "crewHandoverCoverage": "शेड्यूलिंग में प्रबंधकों के हैंडओवर देखना शामिल है। हैंडओवर बनाने और संचालन लॉगबुक का उपयोग करने के लिए Crew Operations आवश्यक है।",
+    "crewEstimateNote": "बदलाव योग्य शुरुआती अनुमान। कैलकुलेटर में अपनी लोकेशन, आवश्यकताएँ और मौजूदा कीमत की पुष्टि करें।"
   },
   "bn": {
     "packageScope": "Core প্যাকেজে ভিন্ন ভিন্ন সুবিধা রয়েছে। নির্বাচিত প্যাকেজ ও উপযুক্ত এক্সটেনশন মূল্য ক্যালকুলেটরে যাচাই করুন।",
@@ -291,7 +356,12 @@
     "moduleQuestion": "মডিউল কি আলাদাভাবে বিক্রি হয়?",
     "moduleAnswer": "না। মডিউলগুলো Core প্যাকেজের অন্তর্ভুক্ত। প্রতিটি প্যাকেজে কোন সুবিধা রয়েছে তা দেখতে প্যাকেজগুলো তুলনা করুন।",
     "watchtowerEligibility": "Watchtower হলো Core Growth ও Core Performance-এর জন্য আলাদা মূল্যের একটি এক্সটেনশন। এটি Core Foundation বা Core Margin-এর সঙ্গে পাওয়া যায় না।",
-    "watchtowerChoice": "প্রতিযোগীদের তথ্য, ইভেন্ট ও ক্যালেন্ডার সংকেত, বাজারের প্রবণতা অথবা সম্পূর্ণ Watchtower বান্ডল বেছে নিন। ক্যালকুলেটরে আপনার লোকেশন ও বর্তমান মূল্য নিশ্চিত করুন।"
+    "watchtowerChoice": "প্রতিযোগীদের তথ্য, ইভেন্ট ও ক্যালেন্ডার সংকেত, বাজারের প্রবণতা অথবা সম্পূর্ণ Watchtower বান্ডল বেছে নিন। ক্যালকুলেটরে আপনার লোকেশন ও বর্তমান মূল্য নিশ্চিত করুন।",
+    "crewOperationsCoverage": "কাজ, চেকলিস্ট ও ডিজিটাল শিফট লগবুক Crew Operations (Crew Manage)-এর অংশ, যা Crew Operating ও Crew Complete-এ অন্তর্ভুক্ত।",
+    "crewPayrollCoverage": "টিপ ব্যবস্থাপনার কর্মপ্রবাহ Crew Payroll (Crew Pay)-এর অংশ, যা Crew Operating ও Crew Complete-এ অন্তর্ভুক্ত। Crew Pay-এর জন্য Crew Operations প্রয়োজন।",
+    "crewCoverageExclusions": "Crew Starter ও Schedule & Time-এ এই কর্মপ্রবাহগুলো অন্তর্ভুক্ত নয়।",
+    "crewHandoverCoverage": "সময়সূচি ব্যবস্থাপনায় ম্যানেজারের হ্যান্ডওভার দেখা যায়। হ্যান্ডওভার তৈরি ও পরিচালনার লগবুক ব্যবহারের জন্য Crew Operations প্রয়োজন।",
+    "crewEstimateNote": "সম্পাদনাযোগ্য প্রাথমিক হিসাব। ক্যালকুলেটরে আপনার লোকেশন, প্রয়োজন ও বর্তমান মূল্য নিশ্চিত করুন।"
   },
   "ur": {
     "packageScope": "Core پیکیجز میں مختلف صلاحیتیں شامل ہیں۔ منتخب پیکیج اور اہل اضافوں کو قیمت کے کیلکولیٹر میں دیکھیں۔",
@@ -312,7 +382,12 @@
     "moduleQuestion": "کیا ماڈیولز الگ فروخت ہوتے ہیں؟",
     "moduleAnswer": "نہیں۔ ماڈیولز Core پیکیجز میں شامل ہیں۔ ہر پیکیج میں شامل صلاحیتیں جاننے کے لیے پیکیجز کا موازنہ کریں۔",
     "watchtowerEligibility": "Watchtower، Core Growth اور Core Performance کے لیے الگ قیمت والی اضافی سہولت ہے۔ یہ Core Foundation یا Core Margin کے ساتھ دستیاب نہیں ہے۔",
-    "watchtowerChoice": "مسابقتی معلومات، ایونٹ اور کیلنڈر کے اشارے، مارکیٹ کے رجحانات یا مکمل Watchtower بنڈل منتخب کریں۔ کیلکولیٹر میں اپنے مقامات اور موجودہ قیمت کی تصدیق کریں۔"
+    "watchtowerChoice": "مسابقتی معلومات، ایونٹ اور کیلنڈر کے اشارے، مارکیٹ کے رجحانات یا مکمل Watchtower بنڈل منتخب کریں۔ کیلکولیٹر میں اپنے مقامات اور موجودہ قیمت کی تصدیق کریں۔",
+    "crewOperationsCoverage": "کام، چیک لسٹ اور ڈیجیٹل شفٹ لاگ بُک Crew Operations (Crew Manage) کا حصہ ہیں، جو Crew Operating اور Crew Complete میں شامل ہے۔",
+    "crewPayrollCoverage": "ٹِپ کے طریقۂ کار Crew Payroll (Crew Pay) کا حصہ ہیں، جو Crew Operating اور Crew Complete میں شامل ہے۔ Crew Pay کے لیے Crew Operations ضروری ہے۔",
+    "crewCoverageExclusions": "Crew Starter اور Schedule & Time میں یہ طریقۂ کار شامل نہیں ہیں۔",
+    "crewHandoverCoverage": "شیڈولنگ میں مینیجر کی حوالگیوں کو دیکھنا شامل ہے۔ حوالگیاں بنانے اور عملیاتی لاگ بُک کے استعمال کے لیے Crew Operations ضروری ہے۔",
+    "crewEstimateNote": "قابلِ ترمیم ابتدائی تخمینے۔ کیلکولیٹر میں اپنے مقامات، ضروریات اور موجودہ قیمت کی تصدیق کریں۔"
   },
   "zh-Hans": {
     "packageScope": "Core 套餐包含不同的功能。请在价格计算器中核实所选套餐及可用扩展。",
@@ -333,7 +408,12 @@
     "moduleQuestion": "模块是否单独出售？",
     "moduleAnswer": "不。模块包含在 Core 套餐中。请比较套餐，了解各套餐包含的功能。",
     "watchtowerEligibility": "Watchtower 是 Core Growth 和 Core Performance 的单独收费扩展，不适用于 Core Foundation 或 Core Margin。",
-    "watchtowerChoice": "可选择竞争情报、活动与日历信号、市场趋势或完整 Watchtower 套餐。请在价格计算器中确认门店数量和当前价格。"
+    "watchtowerChoice": "可选择竞争情报、活动与日历信号、市场趋势或完整 Watchtower 套餐。请在价格计算器中确认门店数量和当前价格。",
+    "crewOperationsCoverage": "任务、检查清单和数字班次日志属于 Crew Operations（Crew Manage），包含在 Crew Operating 和 Crew Complete 中。",
+    "crewPayrollCoverage": "小费工作流属于 Crew Payroll（Crew Pay），包含在 Crew Operating 和 Crew Complete 中。使用 Crew Pay 需要 Crew Operations。",
+    "crewCoverageExclusions": "Crew Starter 和 Schedule & Time 不包含这些工作流。",
+    "crewHandoverCoverage": "排班功能包含查看经理交接记录。创建交接记录和使用运营日志需要 Crew Operations。",
+    "crewEstimateNote": "可编辑的初始估算。请在价格计算器中确认门店、需求和当前价格。"
   },
   "ja": {
     "packageScope": "Core の各プランに含まれる機能は異なります。選択したプランと利用可能な拡張機能を料金シミュレーターでご確認ください。",
@@ -354,7 +434,12 @@
     "moduleQuestion": "モジュールは個別に販売されていますか？",
     "moduleAnswer": "いいえ。モジュールは Core パッケージに含まれます。各パッケージに含まれる機能を比較してください。",
     "watchtowerEligibility": "Watchtower は Core Growth と Core Performance 向けの別料金の拡張機能です。Core Foundation と Core Margin では利用できません。",
-    "watchtowerChoice": "競合情報、イベント・カレンダー情報、市場動向、または Watchtower の全機能パックを選択できます。拠点数と現在の料金は料金計算ツールでご確認ください。"
+    "watchtowerChoice": "競合情報、イベント・カレンダー情報、市場動向、または Watchtower の全機能パックを選択できます。拠点数と現在の料金は料金計算ツールでご確認ください。",
+    "crewOperationsCoverage": "タスク、チェックリスト、デジタルシフトログは Crew Operations（Crew Manage）の機能で、Crew Operating と Crew Complete に含まれます。",
+    "crewPayrollCoverage": "チップのワークフローは Crew Payroll（Crew Pay）の機能で、Crew Operating と Crew Complete に含まれます。Crew Pay には Crew Operations が必要です。",
+    "crewCoverageExclusions": "Crew Starter と Schedule & Time には、これらのワークフローは含まれません。",
+    "crewHandoverCoverage": "シフト管理には管理者の引き継ぎの閲覧が含まれます。引き継ぎの作成と業務ログの利用には Crew Operations が必要です。",
+    "crewEstimateNote": "編集可能な初期見積もりです。拠点数、要件、現在の料金を料金計算ツールでご確認ください。"
   },
   "ko": {
     "packageScope": "Core 패키지마다 포함 기능이 다릅니다. 선택한 패키지와 이용 가능한 확장 기능을 요금 계산기에서 확인하세요.",
@@ -375,7 +460,12 @@
     "moduleQuestion": "모듈을 별도로 판매하나요?",
     "moduleAnswer": "아니요. 모듈은 Core 패키지에 포함됩니다. 각 패키지에 포함된 기능을 비교해 보세요.",
     "watchtowerEligibility": "Watchtower는 Core Growth와 Core Performance에서 별도 요금으로 이용하는 확장 기능입니다. Core Foundation 또는 Core Margin에서는 이용할 수 없습니다.",
-    "watchtowerChoice": "경쟁사 정보, 이벤트 및 일정 신호, 시장 동향 또는 전체 Watchtower 번들을 선택하세요. 계산기에서 사업장 수와 현재 요금을 확인하세요."
+    "watchtowerChoice": "경쟁사 정보, 이벤트 및 일정 신호, 시장 동향 또는 전체 Watchtower 번들을 선택하세요. 계산기에서 사업장 수와 현재 요금을 확인하세요.",
+    "crewOperationsCoverage": "업무, 체크리스트, 디지털 근무일지는 Crew Operations(Crew Manage)에 속하며 Crew Operating과 Crew Complete에 포함됩니다.",
+    "crewPayrollCoverage": "팁 업무 흐름은 Crew Payroll(Crew Pay)에 속하며 Crew Operating과 Crew Complete에 포함됩니다. Crew Pay에는 Crew Operations가 필요합니다.",
+    "crewCoverageExclusions": "Crew Starter와 Schedule & Time에는 이러한 업무 흐름이 포함되지 않습니다.",
+    "crewHandoverCoverage": "일정 관리에는 관리자 인수인계 조회가 포함됩니다. 인수인계 작성과 운영일지 사용에는 Crew Operations가 필요합니다.",
+    "crewEstimateNote": "수정 가능한 시작 견적입니다. 계산기에서 사업장 수, 요구 사항, 현재 요금을 확인하세요."
   },
   "id": {
     "packageScope": "Paket Core mencakup kemampuan yang berbeda. Periksa paket pilihan dan ekstensi yang memenuhi syarat di kalkulator harga.",
@@ -396,7 +486,12 @@
     "moduleQuestion": "Apakah modul dijual terpisah?",
     "moduleAnswer": "Tidak. Modul sudah termasuk dalam paket Core. Bandingkan paket untuk melihat kemampuan yang disertakan dalam setiap paket.",
     "watchtowerEligibility": "Watchtower adalah ekstensi dengan harga terpisah untuk Core Growth dan Core Performance. Tidak tersedia pada Core Foundation atau Core Margin.",
-    "watchtowerChoice": "Pilih informasi persaingan, sinyal acara dan kalender, tren pasar, atau bundel Watchtower lengkap. Konfirmasikan lokasi dan harga terkini di kalkulator."
+    "watchtowerChoice": "Pilih informasi persaingan, sinyal acara dan kalender, tren pasar, atau bundel Watchtower lengkap. Konfirmasikan lokasi dan harga terkini di kalkulator.",
+    "crewOperationsCoverage": "Tugas, daftar periksa, dan log pergantian sif digital merupakan bagian dari Crew Operations (Crew Manage), yang termasuk dalam Crew Operating dan Crew Complete.",
+    "crewPayrollCoverage": "Alur tip merupakan bagian dari Crew Payroll (Crew Pay), yang termasuk dalam Crew Operating dan Crew Complete. Crew Pay memerlukan Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter dan Schedule & Time tidak mencakup alur ini.",
+    "crewHandoverCoverage": "Penjadwalan mencakup melihat serah terima manajer. Membuat serah terima dan menggunakan log operasional memerlukan Crew Operations.",
+    "crewEstimateNote": "Estimasi awal yang dapat diedit. Konfirmasikan lokasi, kebutuhan, dan harga terkini di kalkulator."
   },
   "ms": {
     "packageScope": "Pakej Core merangkumi keupayaan yang berbeza. Semak pakej pilihan dan sambungan yang layak dalam kalkulator harga.",
@@ -417,7 +512,12 @@
     "moduleQuestion": "Adakah modul dijual secara berasingan?",
     "moduleAnswer": "Tidak. Modul disertakan dalam pakej Core. Bandingkan pakej untuk melihat keupayaan yang disertakan dalam setiap pakej.",
     "watchtowerEligibility": "Watchtower ialah tambahan berharga berasingan untuk Core Growth dan Core Performance. Ia tidak tersedia dengan Core Foundation atau Core Margin.",
-    "watchtowerChoice": "Pilih maklumat persaingan, isyarat acara dan kalendar, trend pasaran atau pakej Watchtower lengkap. Sahkan lokasi dan harga semasa dalam kalkulator."
+    "watchtowerChoice": "Pilih maklumat persaingan, isyarat acara dan kalendar, trend pasaran atau pakej Watchtower lengkap. Sahkan lokasi dan harga semasa dalam kalkulator.",
+    "crewOperationsCoverage": "Tugasan, senarai semak dan log syif digital ialah sebahagian daripada Crew Operations (Crew Manage), yang termasuk dalam Crew Operating dan Crew Complete.",
+    "crewPayrollCoverage": "Aliran tip ialah sebahagian daripada Crew Payroll (Crew Pay), yang termasuk dalam Crew Operating dan Crew Complete. Crew Pay memerlukan Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter dan Schedule & Time tidak merangkumi aliran ini.",
+    "crewHandoverCoverage": "Penjadualan merangkumi paparan serah tugas pengurus. Mencipta serah tugas dan menggunakan log operasi memerlukan Crew Operations.",
+    "crewEstimateNote": "Anggaran awal yang boleh disunting. Sahkan lokasi, keperluan dan harga semasa dalam kalkulator."
   },
   "vi": {
     "packageScope": "Các gói Core bao gồm những tính năng khác nhau. Kiểm tra gói đã chọn và các tiện ích mở rộng phù hợp trong công cụ tính giá.",
@@ -438,7 +538,12 @@
     "moduleQuestion": "Các mô-đun có được bán riêng không?",
     "moduleAnswer": "Không. Các mô-đun được bao gồm trong các gói Core. So sánh các gói để xem những tính năng có trong từng gói.",
     "watchtowerEligibility": "Watchtower là phần mở rộng tính phí riêng cho Core Growth và Core Performance. Không áp dụng cho Core Foundation hoặc Core Margin.",
-    "watchtowerChoice": "Chọn thông tin cạnh tranh, tín hiệu sự kiện và lịch, xu hướng thị trường hoặc gói Watchtower đầy đủ. Xác nhận số cơ sở và giá hiện tại trong công cụ tính giá."
+    "watchtowerChoice": "Chọn thông tin cạnh tranh, tín hiệu sự kiện và lịch, xu hướng thị trường hoặc gói Watchtower đầy đủ. Xác nhận số cơ sở và giá hiện tại trong công cụ tính giá.",
+    "crewOperationsCoverage": "Công việc, danh sách kiểm tra và nhật ký ca số thuộc Crew Operations (Crew Manage), được bao gồm trong Crew Operating và Crew Complete.",
+    "crewPayrollCoverage": "Quy trình tiền tip thuộc Crew Payroll (Crew Pay), được bao gồm trong Crew Operating và Crew Complete. Crew Pay yêu cầu Crew Operations.",
+    "crewCoverageExclusions": "Crew Starter và Schedule & Time không bao gồm các quy trình này.",
+    "crewHandoverCoverage": "Lập lịch bao gồm xem bàn giao của quản lý. Tạo bàn giao và sử dụng nhật ký vận hành yêu cầu Crew Operations.",
+    "crewEstimateNote": "Ước tính ban đầu có thể chỉnh sửa. Xác nhận số cơ sở, yêu cầu và giá hiện tại trong công cụ tính giá."
   },
   "th": {
     "packageScope": "แพ็กเกจ Core มีความสามารถต่างกัน โปรดตรวจสอบแพ็กเกจที่เลือกและส่วนเสริมที่ใช้ได้ในเครื่องคำนวณราคา",
@@ -459,6 +564,11 @@
     "moduleQuestion": "โมดูลจำหน่ายแยกหรือไม่",
     "moduleAnswer": "ไม่ โมดูลรวมอยู่ในแพ็กเกจ Core เปรียบเทียบแพ็กเกจเพื่อดูความสามารถที่รวมอยู่ในแต่ละแพ็กเกจ",
     "watchtowerEligibility": "Watchtower เป็นส่วนเสริมที่คิดราคาแยกสำหรับ Core Growth และ Core Performance ไม่สามารถใช้กับ Core Foundation หรือ Core Margin ได้",
-    "watchtowerChoice": "เลือกข้อมูลคู่แข่ง สัญญาณกิจกรรมและปฏิทิน แนวโน้มตลาด หรือชุด Watchtower ทั้งหมด ตรวจสอบจำนวนสาขาและราคาปัจจุบันในเครื่องคำนวณราคา"
+    "watchtowerChoice": "เลือกข้อมูลคู่แข่ง สัญญาณกิจกรรมและปฏิทิน แนวโน้มตลาด หรือชุด Watchtower ทั้งหมด ตรวจสอบจำนวนสาขาและราคาปัจจุบันในเครื่องคำนวณราคา",
+    "crewOperationsCoverage": "งาน รายการตรวจสอบ และสมุดบันทึกกะดิจิทัลเป็นส่วนหนึ่งของ Crew Operations (Crew Manage) ซึ่งรวมอยู่ใน Crew Operating และ Crew Complete",
+    "crewPayrollCoverage": "ขั้นตอนจัดการทิปเป็นส่วนหนึ่งของ Crew Payroll (Crew Pay) ซึ่งรวมอยู่ใน Crew Operating และ Crew Complete โดย Crew Pay ต้องมี Crew Operations",
+    "crewCoverageExclusions": "Crew Starter และ Schedule & Time ไม่รวมขั้นตอนเหล่านี้",
+    "crewHandoverCoverage": "การจัดตารางรวมการดูบันทึกส่งต่องานของผู้จัดการ การสร้างบันทึกส่งต่องานและการใช้สมุดบันทึกการดำเนินงานต้องมี Crew Operations",
+    "crewEstimateNote": "ประมาณการเริ่มต้นที่แก้ไขได้ โปรดยืนยันจำนวนสาขา ความต้องการ และราคาปัจจุบันในเครื่องคำนวณราคา"
   }
 }

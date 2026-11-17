@@ -14,6 +14,7 @@ import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { NativeWorkflowProof } from '@/components/seo/NativeWorkflowProof';
+import { CrewWorkflowCoverage } from '@/components/seo/CrewWorkflowCoverage';
 import workflowProofCopy from '@/content/workflow-proof.json';
 import taskCapture from '../../../public/images/product/native-2026-11-16/tasks.png';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -997,6 +998,7 @@ export default function CrewPage() {
         </section>
 
         {/* Current, permitted native views; capture scope is stated beside each image. */}
+        <CrewWorkflowCoverage locale={locale} />
         <NativeWorkflowProof locale={locale} view="logbook" />
         <NativeWorkflowProof locale={locale} view="tips" />
 

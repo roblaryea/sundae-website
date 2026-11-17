@@ -9,6 +9,7 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_ui_Breadcrumbs'
 import { generatedUiLabels } from '@/lib/generatedUiLabels'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
+import { crewWorkflowScope } from '@/lib/crewWorkflowCoverage'
 
 const LABEL_MAP: Record<string, Record<string, string>> = {
   en: {
@@ -169,6 +170,9 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
     label: formatSegment(seg, labels),
     href: getLocalizedPathname('/' + segments.slice(0, i + 1).join('/'), locale),
   }));
+  if (segments.length === 1 && crewWorkflowScope(segments[0])) {
+    crumbs.unshift({ label: 'Sundae Crew', href: getLocalizedPathname('/crew', locale) });
+  }
   const homeHref = getLocalizedPathname('/', locale);
 
   // JSON-LD structured data for SEO

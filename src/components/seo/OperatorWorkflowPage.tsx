@@ -11,6 +11,8 @@ import { StaggerContainer, StaggerItem } from '@/components/ui/PageAnimations'
 import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
 import brandEmphasis from '@/content/brand-emphasis.json'
 import { NativeWorkflowProof } from './NativeWorkflowProof'
+import { CrewWorkflowCoverage } from './CrewWorkflowCoverage'
+import { crewWorkflowScope } from '@/lib/crewWorkflowCoverage'
 
 export type OperatorWorkflowQuestion = {
   question: string
@@ -53,6 +55,7 @@ export function OperatorWorkflowPage({
   const href = (path: string) => getLocalizedPathname(path, locale)
   const currentPath = usePathname()
   const slug = currentPath.split('/').filter(Boolean).at(-1) ?? ''
+  const crewScope = crewWorkflowScope(slug)
   const titleIndex = ['restaurant-management-platform', 'restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'].indexOf(slug)
   const emphasis = brandEmphasis[locale as keyof typeof brandEmphasis][titleIndex]
   const demoHref = `${href('/demo')}?workflow=${encodeURIComponent(currentPath.split('/').filter(Boolean).at(-1) ?? '')}`
@@ -94,6 +97,8 @@ export function OperatorWorkflowPage({
           </motion.div>
         </div>
       </section>
+
+      {crewScope && <CrewWorkflowCoverage locale={locale} scope={crewScope} handover={slug === 'restaurant-logbook'} />}
 
       <CreamBreak eyebrow={shared.creamEyebrow} statement={shared.creamStatement} lede={shared.creamLede} />
 
