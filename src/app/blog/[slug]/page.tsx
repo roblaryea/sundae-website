@@ -11,6 +11,8 @@ import {
 import { getLocalizedPathname, resolveWebsiteLocale, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { resolvePageTitle } from '@/lib/pageTitles';
 import { BlogContent } from './BlogContent';
+import { SEO_EDITORIAL_GUIDES } from '@/lib/seoEditorial';
+import { BrandEmphasis } from '@/components/ui/BrandEmphasis';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_blog_slug_page'
 import {
@@ -132,6 +134,7 @@ export default async function BlogPostPage({
   searchParams,
 }: BlogPostPageProps) {
   const { slug } = await params;
+  const isSearchGuide = SEO_EDITORIAL_GUIDES.has(slug);
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const forcedEnglish = resolvedSearchParams?.lang === 'en';
   const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
@@ -200,7 +203,7 @@ export default async function BlogPostPage({
         />
       ) : null}
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <article className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+      <article className={`pt-32 pb-20 px-4 sm:px-6 lg:px-8 ${isSearchGuide ? 'search-editorial-article brand-editorial-wash' : ''}`}>
         <div className="max-w-4xl mx-auto">
           {/* Back Button */}
           <Link href={localizedBlogPath} className="inline-block mb-8">
@@ -212,7 +215,7 @@ export default async function BlogPostPage({
           {/* Header */}
           <header className="mb-12">
             <div className="flex items-center gap-4 mb-6">
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-[#FF5C4D]/20 text-[#FF8473]">
+              <span data-editorial-category={isSearchGuide || undefined} className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-[#FF5C4D]/20 text-[#FF8473]">
                 {copy.categories[post.category] ?? post.category}
               </span>
               <time className="text-[var(--text-supporting)] text-sm">
@@ -220,7 +223,7 @@ export default async function BlogPostPage({
               </time>
             </div>
             <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
-              {post.title}
+              {isSearchGuide ? <BrandEmphasis text={post.title} phrase={post.title.includes(':') ? post.title.split(':')[0] : undefined} /> : post.title}
             </h1>
             <p className="body-xl text-[var(--text-supporting)] leading-relaxed">
               {post.summary}

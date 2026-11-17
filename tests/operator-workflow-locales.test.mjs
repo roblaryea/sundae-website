@@ -5,6 +5,19 @@ import test from 'node:test'
 const directory = 'src/content/operator-workflows'
 const english = JSON.parse(fs.readFileSync(`${directory}/en.json`, 'utf8'))
 const locales = ['en', 'ar', 'fr', 'es', 'de', 'nl', 'pt', 'hi', 'ur', 'it', 'pl', 'tr', 'zh-Hans', 'ja', 'ko', 'id', 'vi', 'ro', 'sv', 'bn', 'th', 'ms']
+const brandEmphasis = JSON.parse(fs.readFileSync('src/content/brand-emphasis.json', 'utf8'))
+const platformStory = JSON.parse(fs.readFileSync('src/content/platform-story.json', 'utf8'))
+
+test('brand accents match authored phrases in every supported language', () => {
+  assert.deepEqual(Object.keys(brandEmphasis).sort(), [...locales].sort())
+  for (const locale of locales) {
+    const copy = JSON.parse(fs.readFileSync(`${directory}/${locale}.json`, 'utf8'))
+    const titles = ['restaurant-management-platform', 'restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'].map(slug => copy.pages[slug].title)
+    titles.push(copy.comparison.title, platformStory[locale].coreRole, platformStory[locale].crewRole, copy.brand.editorialHeadline)
+    assert.equal(brandEmphasis[locale].length, titles.length, locale)
+    titles.forEach((title, i) => assert.ok(brandEmphasis[locale][i] && title.includes(brandEmphasis[locale][i]), `${locale}.${i}: headline copy changed without reviewing its accent`))
+  }
+})
 function compare(base, translated, key = '') {
   if (typeof base === 'string') {
     assert.equal(typeof translated, 'string', key)

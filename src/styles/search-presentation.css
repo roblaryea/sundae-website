@@ -1,0 +1,34 @@
+/* Sundae search/editorial surfaces. Coral acts; caramel warms; olive supports proof. */
+.brand-emphasis { color: var(--text-warm); font-style: italic; }
+html:is([lang="ar"], [lang="ur"], [lang="ja"], [lang="zh-Hans"], [lang="ko"], [lang="th"], [lang="bn"], [lang="hi"]) .brand-emphasis { font-style: normal; }
+.brand-action-link { color: var(--accent-warm); text-decoration-color: color-mix(in srgb, var(--accent-warm) 42%, transparent); }
+.brand-action-link:hover { color: var(--text-display); text-decoration-color: currentColor; }
+.brand-action-link:focus-visible { outline: 2px solid var(--accent-warm); outline-offset: 5px; }
+.search-hero { background: var(--bg-warm-glow); }
+.search-hero .hero-h1 { color: var(--text-display); }
+.search-hero .search-hero-eyebrow { color: var(--accent-warm); }
+.brand-editorial-wash {
+  background: radial-gradient(ellipse 80% 72% at 100% 0%, color-mix(in srgb, var(--warm-caramel) 8%, transparent), transparent 70%), var(--navy-deep);
+}
+.brand-evidence-surface { background: var(--trust-bg); border-color: var(--trust-border); }
+.brand-proof-frame { border-color: color-mix(in srgb, var(--warm-caramel) 30%, var(--border-default)); }
+.brand-proof-link { color: var(--accent-warm); }
+.brand-proof-link:hover { color: var(--text-display); }
+.search-outcomes { background: var(--navy-surface); }
+.search-outcomes [data-outcome] { border-color: var(--warm-caramel); }
+.search-outcomes [data-outcome-number], .search-rhythm-number { color: var(--text-warm); }
+.search-connected { background: var(--trust-bg); border-block: 1px solid var(--trust-border); }
+.search-criteria thead { background: var(--navy-surface); }
+.search-criteria th { color: var(--text-display); }
+.search-criteria :is(td, th):last-child { background: var(--trust-bg); }
+.search-criteria dt { color: var(--text-warm); }
+.search-criteria h2, .search-criteria td:first-child { color: var(--text-display); }
+.search-editorial-article .prose h2 { color: var(--text-display); border-inline-start: 3px solid var(--warm-caramel); padding-inline-start: 1rem; }
+.search-editorial-article .prose h3 { color: var(--text-warm); }
+.search-editorial-article .prose :is(a, a:hover) { color: var(--accent-warm); }
+.search-editorial-article .prose strong { color: var(--text-display); }
+.search-editorial-article [data-editorial-category] { color: var(--accent-warm); background: color-mix(in srgb, var(--accent-warm) 10%, transparent); }
+.search-editorial-article blockquote { border-color: var(--trust-border); background: var(--trust-bg); padding: 1.5rem; }
+.search-editorial-article table { border-color: var(--border-default); }
+.search-editorial-article thead { background: var(--navy-surface); }
+.search-editorial-article th { color: var(--text-warm); }

@@ -13,6 +13,8 @@ import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
 import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
 import storyCopy from '@/content/platform-story.json'
 import proofCopy from '@/content/workflow-proof.json'
+import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
+import brandEmphasis from '@/content/brand-emphasis.json'
 import { getCoreNavigation } from '@/lib/coreNavigation'
 
 export default function WhySundaePage() {
@@ -25,7 +27,7 @@ export default function WhySundaePage() {
 
   return (
     <div className="min-h-screen overflow-x-hidden bg-[var(--navy-deep)]">
-      <PageHero badge={proofCopy[locale as keyof typeof proofCopy].whySundae} title={copy.brand.editorialHeadline} description={commercial.shortlist}>
+      <PageHero badge={proofCopy[locale as keyof typeof proofCopy].whySundae} title={<BrandEmphasis text={copy.brand.editorialHeadline} phrase={brandEmphasis[locale as keyof typeof brandEmphasis][7]} />} description={commercial.shortlist}>
         <Button variant="cta" size="lg" href={href('/demo')} trackingLabel="why_sundae_hero_walkthrough" trackingMetadata={{ destination: href('/demo') }}>{messages.navbar.bookDemo}</Button>
       </PageHero>
       <section className="px-4 py-20 sm:px-6 lg:px-8 lg:py-28" data-choice-reasons>
@@ -43,7 +45,7 @@ export default function WhySundaePage() {
             <div>
               <p className="body-lg text-[var(--text-supporting)]">{reason.description}</p>
               <div className="mt-5 flex flex-wrap gap-x-6 gap-y-3">
-                {reason.paths.map(path => <Link key={path} href={href(path)} className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--text-primary)] underline underline-offset-4 transition-colors hover:text-[var(--warm-coral)]">
+                {reason.paths.map(path => <Link key={path} href={href(path)} className="brand-action-link inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4 transition-colors hover:text-[var(--warm-coral)]">
                   {coreLinks.find(item => item.href === path)?.name ?? (path === '/core' ? 'Sundae Core' : 'Sundae Crew')}<ArrowUpRight aria-hidden className="h-4 w-4 rtl:-scale-x-100" />
                 </Link>)}
               </div>
