@@ -23,7 +23,7 @@ Interaction: retain the established hero entrance, scroll reveals and link/CTA h
 ## Colour rules
 
 - `docs/COLOR_SYSTEM.md` remains authoritative. Coral marks action; caramel/amber warms selected headline phrases; olive is confined to evidence, integration and capability surfaces. Section labels remain muted except the first hero category signal.
-- `--text-warm` is butter/caramel on espresso and deep caramel on warm paper. Pale amber is not reused on the light background. The guide callout uses the existing deep brand colour on cream.
+- `--text-warm` is butter/caramel on espresso and deep caramel on warm paper. Pale amber is not reused on the light background. The guide callout uses the existing deep brand colour on cream; light-theme links on olive evidence surfaces use that deeper colour too, preserving 4.5:1 text contrast.
 - The custom workflow/comparison closing headings now explicitly use ink on cream in both themes. Their old inherited display token could render pale headings on cream in dark mode.
 - Localized headings use language-aware hyphenation and emergency wrapping so long words cannot disappear inside clipped sections on phones. The browser gate checks heading overflow as well as document width.
 - Headlines wrap authored phrases without changing visible wording, punctuation, metadata or accessible names. A regression check verifies every phrase against the existing copy in all 22 languages. Arabic and other non-Latin scripts retain upright native lettering.

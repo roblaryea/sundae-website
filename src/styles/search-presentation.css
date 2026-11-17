@@ -38,3 +38,6 @@ html:is([lang="ar"], [lang="ur"], [lang="ja"], [lang="zh-Hans"], [lang="ko"], [l
   overflow-wrap: anywhere;
   hyphens: auto;
 }
+/* Olive lowers light-surface contrast; use the deeper brand action colour there. */
+html.light :is(.search-connected, .brand-evidence-surface) .brand-action-link,
+html.light .search-editorial-article .prose blockquote a { color: var(--brand-main); }
