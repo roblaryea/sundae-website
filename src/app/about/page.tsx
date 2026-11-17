@@ -1,17 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { cookies } from "next/headers";
 import { Button } from "@/components/ui/Button";
-import { Card, CardContent } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { CreamBreak } from "@/components/ui/CreamBreak";
 import { getLocalizedPathname, getWebsiteMessages, resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_about_page'
-import { aboutCreamCopy } from './aboutCreamCopy'
 import aboutFacts from '@/content/about-platform.json'
+import narrative from '@/content/about-narrative.json'
+import { AboutProductFamily } from '@/components/seo/AboutProductFamily'
 import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
 import { crewNavLocales } from '@/lib/crewNavLocales'
 import storyCopy from '@/content/platform-story.json'
@@ -329,12 +326,13 @@ function getAboutCopy(locale: WebsiteLocale) {
   const source = aboutCopy[locale as keyof typeof aboutCopy] ?? getGeneratedLocalCopy(aboutCopy, generatedLocalCopy.aboutCopy, locale) ?? aboutCopy.en;
   const facts = aboutFacts[locale as keyof typeof aboutFacts];
   const brand = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].brand;
+  const story = narrative[locale as keyof typeof narrative];
   return {
     ...source,
     metadataTitle: facts.metadataTitle,
     metadataDescription: `${brand.productDescription} ${facts.languageProof}`,
-    title: brand.productTitle,
-    description: brand.productDescription,
+    title: story.originTitle,
+    description: story.originBody,
     builtDescription: storyCopy[locale as keyof typeof storyCopy].workReason,
     stats: source.stats.map((stat, index) => index === 3 ? { value: '25', label: facts.languageLabel } : index === 2 ? { ...stat, value: '36+' } : stat),
     values: source.values.map((value, index) => index === 3 ? { ...value, proof: facts.languageProof } : value),
@@ -353,13 +351,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function AboutPage() {
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getAboutCopy(locale);
-  const cream = aboutCreamCopy[locale as keyof typeof aboutCreamCopy] ?? aboutCreamCopy.en;
+  const prose = narrative[locale as keyof typeof narrative];
   const workflow = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy];
   const story = storyCopy[locale as keyof typeof storyCopy];
   const commercial = getCommercialCopy(locale);
-  const coreLinks = getCoreNavigation(getWebsiteMessages(locale).navbar.pillars, locale);
+  const coreLinks = getCoreNavigation(getWebsiteMessages(locale).navbar.pillars, locale).map((item, index) => ({ ...item, description: prose.coreDescriptions[index] }));
   const crewLinks = [
-    ...crewNavLocales[locale as keyof typeof crewNavLocales].crewList.map((item, index) => ({ ...item, description: copy.crewPillarsSubtitle[index] })),
+    ...crewNavLocales[locale as keyof typeof crewNavLocales].crewList.map((item, index) => ({ ...item, description: index === 2 ? prose.payrollDescription : copy.crewPillarsSubtitle[index] })),
     ...(['restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'] as const).map((slug, index) => ({
       href: `/${slug}`, name: [workflow.links.tasks, workflow.links.logbook, workflow.links.tips][index],
       description: workflow.pages[slug].capabilities[0],
@@ -385,95 +383,39 @@ export default async function AboutPage() {
         </div>
       </section>
 
-      {/* Cream relief - early warm break after the hero/stats, before the long dark built/mission/team stretch (the volume system) */}
-      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
-
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-6">{copy.builtTitle}</h2>
-              <p className="body-xl text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.builtDescription}</p>
+      <section data-about-section="purpose" className="bg-[var(--surface-faint)] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-6xl">
+          <FadeUp className="mb-10 grid gap-6 lg:grid-cols-2 lg:gap-16">
+            <div>
+              <h2 className="section-h2 mb-5">{copy.missionTitle}</h2>
+              <p className="body-xl text-[var(--text-supporting)]">{prose.missionIntro}</p>
             </div>
+            <p className="body-lg text-[var(--text-supporting)]">{copy.missionSupport}</p>
           </FadeUp>
-          <div data-about-core className="border-t border-[var(--border-default)] py-10">
-            <div className="grid gap-6 lg:grid-cols-[minmax(0,0.5fr)_minmax(0,1fr)] lg:gap-16">
-              <div>
-                <h3 className="section-h3 mb-3"><Link href={getLocalizedPathname('/core', locale)} className="brand-action-link">Sundae Core →</Link></h3>
-                <p className="eyebrow">{story.coreRole}</p>
-              </div>
-              <div>
-                <p className="body-lg text-[var(--text-supporting)]">{workflow.brand.coreDescription}</p>
-                <p className="mt-4 text-base leading-relaxed text-[var(--text-supporting)]">{story.contextReason}</p>
-                <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
-                  {coreLinks.map(item => <Link key={item.href} href={getLocalizedPathname(item.href, locale)} className="brand-action-link inline-flex min-h-11 items-center text-sm font-semibold underline underline-offset-4">{item.name}</Link>)}
-                </div>
-                <p className="mt-4 text-sm leading-relaxed text-[var(--text-muted)]">{commercial.packageScope}</p>
-              </div>
-            </div>
-          </div>
-          <div data-about-crew className="border-y border-[var(--border-default)] py-10">
-            <div className="mb-8 grid gap-6 lg:grid-cols-[minmax(0,0.5fr)_minmax(0,1fr)] lg:gap-16">
-              <div>
-                <h3 className="section-h3 mb-3"><Link href={getLocalizedPathname('/crew', locale)} className="brand-action-link">Sundae Crew →</Link></h3>
-                <p className="eyebrow">{story.crewRole}</p>
-              </div>
-              <p className="body-lg text-[var(--text-supporting)]">{workflow.brand.crewDescription}</p>
-            </div>
-            <StaggerContainer className="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-4">
-              {crewLinks.map((item, index) => (
-                <StaggerItem key={item.href} className="border-t border-[var(--border-default)] py-6">
-                  <div data-about-crew-capability={item.href}>
-                  <p aria-hidden="true" className="mb-3 font-display text-xl italic text-[var(--text-warm)]">{new Intl.NumberFormat(locale, { minimumIntegerDigits: 2 }).format(index + 1)}</p>
-                  <h4 className="mb-2 text-base font-semibold"><Link href={getLocalizedPathname(item.href, locale)} className="brand-action-link inline-flex min-h-11 items-center">{item.name} →</Link></h4>
-                  <p className="text-sm leading-relaxed text-[var(--text-supporting)]">{item.description}</p>
-                  </div>
-                </StaggerItem>
-              ))}
-            </StaggerContainer>
-            <p className="mt-5 max-w-4xl text-sm leading-relaxed text-[var(--text-muted)]">{commercial.crewOperationsCoverage} {commercial.crewPayrollCoverage}</p>
-          </div>
+          <ol className="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-4">
+            {prose.steps.map((step, index) => (
+              <li key={step.title} className="border-t border-[var(--border-default)] py-6">
+                <p aria-hidden="true" className="mb-4 font-display text-2xl italic text-[var(--text-warm)]">{new Intl.NumberFormat(locale, { minimumIntegerDigits: 2 }).format(index + 1)}</p>
+                <h3 className="mb-3 text-lg font-semibold text-[var(--text-display)]">{step.title}</h3>
+                <p className="text-base leading-relaxed text-[var(--text-supporting)]">{step.body}</p>
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <FadeUp>
-              <div>
-                <h2 className="section-h2 text-[var(--text-primary)] mb-8">{copy.missionTitle}</h2>
-                <p className="body-xl text-[var(--text-secondary)] mb-4">{copy.missionDescription}</p>
-                <p className="body-lg text-[var(--text-supporting)] mb-10">{copy.missionSupport}</p>
-                <div className="space-y-6">
-                  {copy.missionSteps.map((step, index) => (
-                    <div key={step.title} className="flex items-start space-x-4 hover:translate-x-1 transition-transform duration-200">
-                      <div className="w-8 h-8 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">{index + 1}</div>
-                      <div>
-                        <h4 className="font-semibold text-[var(--text-primary)] text-lg mb-1">{step.title}</h4>
-                        <p className="text-[var(--text-supporting)] leading-[1.65]">{step.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </FadeUp>
-            <FadeUp>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-[var(--navy-deep)] rounded-2xl p-5 shadow-lg">
-                  <div className="text-sm font-bold text-[#FF8473] mb-2 uppercase tracking-wide">Team</div>
-                  <div className="text-sm text-[var(--text-supporting)] font-medium">{locale === "ar" ? "أمستردام + دبي" : locale === "fr" ? "Amsterdam + Dubaï" : locale === "es" ? "Ámsterdam + Dubái" : "Amsterdam + Dubai offices"}</div>
-                </div>
-                <div className="bg-[var(--navy-deep)] rounded-2xl p-5 shadow-lg">
-                  <div className="text-sm font-bold text-[#FF8473] mb-2 uppercase tracking-wide">Scope</div>
-                  <div className="text-sm text-[var(--text-supporting)] font-medium">{locale === "ar" ? "12 مجالًا تشغيليًا" : locale === "fr" ? "12 domaines opérationnels" : locale === "es" ? "12 dominios operativos" : "12 operational domains"}</div>
-                </div>
-              </div>
-            </FadeUp>
-          </div>
+      <section data-about-section="platform" className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-6xl">
+          <FadeUp className="mb-10 max-w-3xl">
+            <h2 className="section-h2 mb-5">{copy.builtTitle}</h2>
+            <p className="body-xl text-[var(--text-supporting)]">{copy.builtDescription}</p>
+          </FadeUp>
+          <AboutProductFamily family="core" role={story.coreRole} intro={workflow.brand.coreDescription} capabilities={coreLinks} scope={[commercial.packageScope, commercial.watchtowerEligibility, commercial.foresightCoverage]} locale={locale} />
+          <AboutProductFamily family="crew" role={story.crewRole} intro={workflow.brand.crewDescription} capabilities={crewLinks} scope={[commercial.crewOperationsCoverage, commercial.crewPayrollCoverage, commercial.crewCoverageExclusions]} locale={locale} />
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
+      <section data-about-section="team" className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] lg:py-24">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
@@ -500,9 +442,9 @@ export default async function AboutPage() {
                   <h3 className="font-bold text-[var(--text-primary)] text-xl mb-1">{member.name}</h3>
                   <p className="text-[var(--text-primary)] font-semibold text-sm mb-1">{member.role}</p>
                   <p className="text-[var(--text-muted)] text-sm mb-6">{member.location}</p>
-                  <ul className="text-left space-y-3">
+                  <ul className="text-start space-y-3">
                     {member.bullets.map((bullet) => (
-                      <li key={bullet} className="flex items-start space-x-2 text-sm text-[var(--text-supporting)]">
+                      <li key={bullet} className="flex items-start gap-2 text-sm text-[var(--text-supporting)]">
                         <span className="text-[var(--text-primary)] mt-1 flex-shrink-0">&bull;</span>
                         <span>{bullet}</span>
                       </li>
@@ -512,168 +454,67 @@ export default async function AboutPage() {
               </StaggerItem>
             ))}
           </StaggerContainer>
-          <FadeUp delay={0.4}>
-            <Card variant="elevated">
-              <CardContent className="p-8">
-                <h3 className="font-bold text-[var(--text-primary)] text-lg mb-6">{copy.strengthsTitle}</h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="restaurant" size="lg" className="text-white" /></div>
-                    <p className="text-[var(--text-secondary)] font-medium">{locale === "ar" ? "وسّعت مفاهيم المطاعم إلى أكثر من 10 ملايين دولار قبل كتابة سطر واحد من الكود" : locale === "fr" ? "A développé des concepts restaurant à plus de 10 M$ avant d'écrire une ligne de code" : locale === "es" ? "Escaló conceptos de restaurante a más de 10 M$ antes de escribir una línea de código" : "Scaled restaurant concepts to $10M+ before writing a line of code"}</p>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="growth" size="lg" className="text-white" /></div>
-                    <p className="text-[var(--text-secondary)] font-medium">{locale === "ar" ? "خروجات ناجحة متعددة وشركات تجاوزت 100 مليون دولار بُنيت من الصفر" : locale === "fr" ? "Plusieurs sorties réussies et des entreprises à plus de 100 M$ construites from scratch" : locale === "es" ? "Múltiples salidas exitosas y empresas de más de 100 M$ creadas desde cero" : "Multiple successful exits and $100M+ businesses built from scratch"}</p>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
-                    <p className="text-[var(--text-secondary)] font-medium">{locale === "ar" ? "وجود في أمستردام ودبي يخدم مجموعات مؤسسية عبر 3 دول" : locale === "fr" ? "Présence à Amsterdam et Dubaï au service de groupes enterprise dans 3 pays" : locale === "es" ? "Presencia en Ámsterdam y Dubái al servicio de grupos enterprise en 3 países" : "Amsterdam + Dubai presence serving enterprise groups across 3 countries"}</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </FadeUp>
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)] overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-6">{copy.journeyTitle}</h2>
-              <p className="body-xl text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.journeyDescription}</p>
-            </div>
-          </FadeUp>
-          <div className="hidden lg:grid lg:grid-cols-5 gap-6 relative">
-            <div className="absolute top-8 left-0 right-0 h-1 bg-gradient-to-r from-[var(--surface-subtle)] via-[var(--border-default)] to-[var(--surface-subtle)]" />
+      <section data-about-section="journey" className="bg-[var(--surface-faint)] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[minmax(0,0.5fr)_minmax(0,1fr)] lg:gap-16">
+          <div>
+            <h2 className="section-h2 mb-5">{copy.journeyTitle}</h2>
+            <p className="body-lg text-[var(--text-supporting)]">{prose.journeyIntro}</p>
+          </div>
+          <ol className="border-s border-[var(--border-default)] ps-6 sm:ps-8">
             {copy.milestones.map((milestone, index) => (
-              <FadeUp key={`${milestone.year}-${index}`} delay={index * 0.1}>
-                <div className="relative">
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mx-auto mb-6 relative z-10 border-4 border-[var(--surface-faint)] hover:scale-110 transition-transform duration-300">{milestone.year}</div>
-                  <div className="text-center">
-                    <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
-                    <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
-                  </div>
-                </div>
-              </FadeUp>
+              <li key={`${milestone.year}-${index}`} className="relative pb-8 last:pb-0">
+                <span aria-hidden="true" className="absolute -start-[29px] top-2 h-2 w-2 rounded-full bg-[var(--warm-caramel)] sm:-start-[37px]" />
+                <p className="mb-2 font-display text-xl italic text-[var(--text-warm)]">{milestone.year}</p>
+                <h3 className="mb-3 text-lg font-semibold text-[var(--text-display)]">{milestone.title}</h3>
+                <p className="text-base leading-relaxed text-[var(--text-supporting)]">{milestone.description}</p>
+              </li>
             ))}
-          </div>
-          <div className="lg:hidden">
-            <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-8" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-              {copy.milestones.map((milestone, index) => (
-                <FadeUp key={`mobile-${milestone.year}-${index}`} delay={index * 0.1}>
-                  <div className="flex-shrink-0 w-80 snap-center">
-                    <Card variant="elevated" className="h-full p-6">
-                      <div className="w-16 h-16 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mb-4">{milestone.year}</div>
-                      <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
-                      <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
-                    </Card>
-                  </div>
-                </FadeUp>
-              ))}
-            </div>
-          </div>
+          </ol>
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-6">{copy.valuesTitle}</h2>
-              <p className="body-xl text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.valuesDescription}</p>
-            </div>
-          </FadeUp>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {copy.values.map((value, index) => (
-              <FadeUp key={value.title} delay={index * 0.1}>
-                <Card variant="feature" className="text-center h-full p-8">
-                  <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300">
-                    <SundaeIcon name={value.icon as SundaeIconName} size="xl" className="text-white" />
-                  </div>
-                  <h3 className="text-[var(--text-primary)] text-xl font-bold mb-3">{value.title}</h3>
-                  <p className="text-[var(--text-supporting)] leading-[1.65] mb-4">{value.description}</p>
-                  <p className="text-xs text-[var(--text-muted)] italic border-t border-[var(--border-default)] pt-3 mt-auto">{value.proof}</p>
-                </Card>
-              </FadeUp>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-12">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-6">{copy.presenceTitle}</h2>
-              <p className="body-xl text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.presenceDescription}</p>
-            </div>
-          </FadeUp>
-
-          {/* Render in 2 tiers when the locale has the tier field, otherwise
-              fall back to the flat 4-column layout. EN ships the tier
-              structure; other locales pick it up via the translation
-              pipeline regeneration. */}
-          {(() => {
-            type RegionEntry = { region: string; countries: string; label: string; tier?: string };
-            const all = copy.regions as unknown as RegionEntry[];
-            const hasTiers = all.some((r) => r.tier);
-            const activeMarkets = hasTiers ? all.filter((r) => r.tier === 'active') : all;
-            const expandingMarkets = hasTiers ? all.filter((r) => r.tier === 'expanding') : [];
-            const subheadings = (copy as typeof copy & { presenceSubheadings?: { active: string; expanding: string } }).presenceSubheadings;
-            const footnote = (copy as typeof copy & { presenceFootnote?: string }).presenceFootnote;
-
-            const renderRow = (markets: RegionEntry[], title: string | undefined, isExpanding: boolean) => (
-              <div className={isExpanding ? 'mb-2' : 'mb-12'}>
-                {title && (
-                  <p className="eyebrow text-center mb-6 text-[var(--text-muted)]">
-                    <span className={`inline-block w-1.5 h-1.5 rounded-full ${isExpanding ? 'bg-[#FF8473]' : 'bg-emerald-400'} mr-2 align-middle`} />
-                    {title}
-                  </p>
-                )}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 max-w-5xl mx-auto">
-                  {markets.map((region, index) => {
-                    return (
-                      <FadeUp key={region.region} delay={index * 0.08}>
-                        <div className={`text-center hover:-translate-y-1 transition-transform duration-300 ${isExpanding ? 'opacity-90' : ''}`}>
-                          <div
-                            className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4"
-                            style={{ backgroundColor: isExpanding ? 'rgba(255,132,115,0.12)' : 'rgba(16,185,129,0.12)', border: isExpanding ? '1px dashed rgba(255,132,115,0.3)' : '1px solid rgba(16,185,129,0.25)' }}
-                          >
-                            <SundaeIcon name="network" size="md" className={isExpanding ? "text-[#FF8473]/80" : "text-emerald-300"} />
-                          </div>
-                          <h3 className={`font-bold text-base mb-0.5 leading-tight ${isExpanding ? 'text-[var(--text-secondary)]' : 'text-[var(--text-primary)]'}`}>
-                            {region.region}
-                            {isExpanding && <span className="text-[#FF8473] ml-0.5">*</span>}
-                          </h3>
-                          <p className="text-xs text-[var(--text-muted)] uppercase tracking-wider">{region.countries}</p>
-                        </div>
-                      </FadeUp>
-                    );
-                  })}
-                </div>
+      <section data-about-section="principles" className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="section-h2 mb-10">{copy.valuesTitle}</h2>
+          <div className="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-4">
+            {prose.principles.map(principle => (
+              <div key={principle.title} className="border-t border-[var(--border-default)] py-6">
+                <h3 className="mb-3 text-lg font-semibold text-[var(--text-display)]">{principle.title}</h3>
+                <p className="text-base leading-relaxed text-[var(--text-supporting)]">{principle.body}</p>
               </div>
-            );
-
-            return (
-              <>
-                {renderRow(activeMarkets, subheadings?.active, false)}
-                {expandingMarkets.length > 0 && renderRow(expandingMarkets, subheadings?.expanding, true)}
-                {footnote && (
-                  <p className="text-[11px] text-center text-[var(--text-muted)] mt-6 italic max-w-3xl mx-auto leading-relaxed">
-                    <span className="text-[#FF8473]">*</span> {footnote}
-                  </p>
-                )}
-              </>
-            );
-          })()}
+            ))}
+          </div>
         </div>
       </section>
 
-      <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Button variant="cta" size="lg" href="/demo">{copy.ctaPrimary}</Button>
-        <Button variant="outline-ink" size="lg" href="/careers">{copy.ctaSecondary}</Button>
-        <Button variant="outline-ink" size="lg" href="/">{copy.ctaHome}</Button>
+      <section data-about-section="presence" className="bg-[var(--surface-faint)] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="section-h2 mb-10">{copy.presenceTitle}</h2>
+          <div className="grid gap-10 lg:grid-cols-3">
+            <div className="border-t border-[var(--border-default)] py-6">
+              <h3 className="eyebrow mb-5">{prose.hubsLabel}</h3>
+              {copy.regions.slice(0, 2).map(region => <p key={region.region} className="mb-3 text-xl font-semibold text-[var(--text-display)]">{region.region}</p>)}
+            </div>
+            <div className="border-t border-[var(--border-default)] py-6">
+              <h3 className="eyebrow mb-5">{prose.legalLabel}</h3>
+              <p className="text-xl font-semibold text-[var(--text-display)]">Delaware C-Corp</p>
+            </div>
+            <div className="border-t border-[var(--border-default)] py-6">
+              <h3 className="eyebrow mb-5">{prose.expansionLabel}</h3>
+              <p className="mb-4 text-base leading-relaxed text-[var(--text-supporting)]">{copy.regions.filter(region => region.tier === 'expanding').map(region => region.region).join(' · ')}</p>
+              <p className="text-sm leading-relaxed text-[var(--text-muted)]">{prose.expansionNote}</p>
+            </div>
+          </div>
+          <p className="mt-5 max-w-4xl text-sm leading-relaxed text-[var(--text-muted)]">{aboutFacts[locale as keyof typeof aboutFacts].languageProof}</p>
+        </div>
+      </section>
+
+      <PageCTA title={prose.closeTitle} description={commercial.sampleWalkthrough}>
+        <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="about_walkthrough" trackingMetadata={{ destination: getLocalizedPathname('/demo', locale) }}>{copy.ctaPrimary}</Button>
+        <Button variant="ghost" size="md" href={getLocalizedPathname('/careers', locale)} className="text-[var(--ink)]! hover:bg-black/5">{copy.ctaSecondary}</Button>
       </PageCTA>
     </div>
   );

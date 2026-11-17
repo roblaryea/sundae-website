@@ -1,0 +1,1256 @@
+{
+  "en": {
+    "originTitle": "We built what we couldn't find.",
+    "originBody": "We ran businesses where people, systems and decisions rarely moved together. Sundae grew from that experience, connecting daily work, operating intelligence and accountable action in one platform.",
+    "missionIntro": "Running locations takes shared context, practical tools and clear ownership. We built Sundae to help teams understand what is happening, coordinate the work and learn from the result.",
+    "steps": [
+      {
+        "title": "Connect",
+        "body": "Bring operating systems, people and daily work into a shared context."
+      },
+      {
+        "title": "Understand",
+        "body": "Use role-specific intelligence, peer benchmarks and relevant market signals to explain changes."
+      },
+      {
+        "title": "Act",
+        "body": "Give the next action an owner and support execution through daily workflows."
+      },
+      {
+        "title": "Measure",
+        "body": "Compare what changed with a recorded baseline and use the evidence to guide the next decision."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Operators first",
+        "body": "Design around the decisions and daily work that operators need to manage."
+      },
+      {
+        "title": "Shared context",
+        "body": "Give each role the relevant view of consistent operating information."
+      },
+      {
+        "title": "Clear ownership",
+        "body": "Make the next action, responsible person and follow-through visible."
+      },
+      {
+        "title": "Evidence matters",
+        "body": "Distinguish observed results from estimates and make limits clear."
+      }
+    ],
+    "journeyIntro": "How operator experience shaped the company and the platform.",
+    "hubsLabel": "Operating hubs",
+    "legalLabel": "Legal registration",
+    "expansionLabel": "Planned expansion",
+    "expansionNote": "Planned locations do not indicate an office or active deployment.",
+    "closeTitle": "See Sundae in your operation.",
+    "payrollDescription": "Gross-to-net calculations, payslips and reviewed exports. Filing and payments depend on country and provider.",
+    "coreDescriptions": [
+      "Live shift performance and operational exceptions",
+      "Compare locations with privacy-protected peer groups",
+      "Competitors, events, weather and market signals",
+      "Analyse performance across operating domains",
+      "Ask operating questions with source-linked answers",
+      "Forecasts, scenarios and guided action",
+      "Assign fixes and measure outcomes against a baseline"
+    ]
+  },
+  "ar": {
+    "originTitle": "بنينا ما احتجنا إليه ولم نجده.",
+    "originBody": "أدرنا أعمالاً لم تكن فيها الفرق والأنظمة والقرارات تتحرك معاً. من تلك التجربة نشأت Sundae، لتربط العمل اليومي وذكاء العمليات والإجراءات ذات المسؤولية الواضحة في منصة واحدة.",
+    "missionIntro": "تحتاج إدارة المواقع إلى سياق مشترك وأدوات عملية ومسؤولية واضحة. بنينا Sundae لمساعدة الفرق على فهم ما يحدث وتنسيق العمل والتعلم من النتيجة.",
+    "steps": [
+      {
+        "title": "اربط",
+        "body": "اجمع أنظمة التشغيل والموظفين والعمل اليومي ضمن سياق مشترك."
+      },
+      {
+        "title": "افهم",
+        "body": "فسّر التغيرات بذكاء يناسب كل دور ومقارنات الأقران وإشارات السوق ذات الصلة."
+      },
+      {
+        "title": "نفّذ",
+        "body": "عيّن مسؤولاً للإجراء التالي وادعم التنفيذ عبر إجراءات العمل اليومية."
+      },
+      {
+        "title": "قِس",
+        "body": "قارن التغير بخط أساس مسجّل واستخدم الأدلة لتوجيه القرار التالي."
+      }
+    ],
+    "principles": [
+      {
+        "title": "المشغّلون أولاً",
+        "body": "صمّم حول القرارات والعمل اليومي الذي يحتاج المشغّلون إلى إدارته."
+      },
+      {
+        "title": "سياق مشترك",
+        "body": "امنح كل دور الرؤية المناسبة من معلومات تشغيلية متسقة."
+      },
+      {
+        "title": "مسؤولية واضحة",
+        "body": "أظهر الإجراء التالي والمسؤول عنه ومتابعة التنفيذ."
+      },
+      {
+        "title": "الأدلة مهمة",
+        "body": "ميّز النتائج المرصودة من التقديرات ووضّح الحدود."
+      }
+    ],
+    "journeyIntro": "كيف شكّلت الخبرة التشغيلية الشركة والمنصة.",
+    "hubsLabel": "مراكز العمل",
+    "legalLabel": "التسجيل القانوني",
+    "expansionLabel": "التوسع المخطط",
+    "expansionNote": "لا تعني المواقع المخططة وجود مكتب أو تشغيل فعلي فيها.",
+    "closeTitle": "شاهد Sundae في عملياتك.",
+    "payrollDescription": "حساب الإجمالي إلى الصافي وكشوف الرواتب والتصديرات المراجَعة. يعتمد الإيداع والصرف على الدولة والمزود.",
+    "coreDescriptions": [
+      "أداء الورديات المباشر والاستثناءات التشغيلية",
+      "قارن المواقع بمجموعات أقران مع حماية الخصوصية",
+      "المنافسون والفعاليات والطقس وإشارات السوق",
+      "حلّل الأداء عبر مجالات التشغيل",
+      "اطرح أسئلة تشغيلية بإجابات مرتبطة بالمصادر",
+      "التوقعات والسيناريوهات والإجراءات الموجّهة",
+      "أسند المعالجات وقِس النتائج مقابل خط أساس"
+    ]
+  },
+  "fr": {
+    "originTitle": "Nous avons créé ce qui nous manquait.",
+    "originBody": "Nous avons dirigé des entreprises où équipes, systèmes et décisions avançaient rarement ensemble. Sundae est née de cette expérience, reliant travail quotidien, intelligence opérationnelle et actions avec un responsable dans une seule plateforme.",
+    "missionIntro": "Gérer plusieurs sites exige un contexte partagé, des outils pratiques et des responsabilités claires. Sundae aide les équipes à comprendre, coordonner le travail et tirer des leçons des résultats.",
+    "steps": [
+      {
+        "title": "Connecter",
+        "body": "Réunir systèmes, équipes et travail quotidien dans un contexte commun."
+      },
+      {
+        "title": "Comprendre",
+        "body": "Expliquer les changements grâce à une intelligence par rôle, aux comparaisons entre pairs et aux signaux du marché."
+      },
+      {
+        "title": "Agir",
+        "body": "Attribuer la prochaine action et soutenir son exécution dans les tâches quotidiennes."
+      },
+      {
+        "title": "Mesurer",
+        "body": "Comparer les changements à une référence enregistrée pour éclairer la décision suivante."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Les opérateurs d’abord",
+        "body": "Concevoir pour les décisions et le travail quotidien des opérateurs."
+      },
+      {
+        "title": "Contexte partagé",
+        "body": "Donner à chaque rôle une vue pertinente de données cohérentes."
+      },
+      {
+        "title": "Responsabilité claire",
+        "body": "Rendre visibles la prochaine action, son responsable et son suivi."
+      },
+      {
+        "title": "Les preuves comptent",
+        "body": "Distinguer résultats observés et estimations, et préciser les limites."
+      }
+    ],
+    "journeyIntro": "Comment l’expérience opérationnelle a façonné l’entreprise et la plateforme.",
+    "hubsLabel": "Pôles opérationnels",
+    "legalLabel": "Immatriculation légale",
+    "expansionLabel": "Expansion prévue",
+    "expansionNote": "Les lieux prévus ne désignent ni bureau ni déploiement actif.",
+    "closeTitle": "Découvrez Sundae dans votre activité.",
+    "payrollDescription": "Calcul brut-net, bulletins et exports vérifiés. Déclarations et paiements dépendent du pays et du prestataire.",
+    "coreDescriptions": [
+      "Performance du service et exceptions en direct",
+      "Comparer les sites à des pairs avec protection de la confidentialité",
+      "Concurrents, événements, météo et signaux du marché",
+      "Analyser les performances par domaine opérationnel",
+      "Poser des questions avec des réponses liées aux sources",
+      "Prévisions, scénarios et actions guidées",
+      "Attribuer les corrections et mesurer les résultats par rapport à une référence"
+    ]
+  },
+  "es": {
+    "originTitle": "Creamos lo que necesitábamos y no encontrábamos.",
+    "originBody": "Dirigimos negocios donde personas, sistemas y decisiones rara vez avanzaban juntos. Sundae nació de esa experiencia y conecta trabajo diario, inteligencia operativa y acciones con responsables en una plataforma.",
+    "missionIntro": "Gestionar locales exige contexto compartido, herramientas prácticas y responsabilidad clara. Sundae ayuda a entender qué ocurre, coordinar el trabajo y aprender de los resultados.",
+    "steps": [
+      {
+        "title": "Conectar",
+        "body": "Reunir sistemas, personas y trabajo diario en un contexto común."
+      },
+      {
+        "title": "Entender",
+        "body": "Explicar cambios con inteligencia por rol, comparaciones entre pares y señales del mercado."
+      },
+      {
+        "title": "Actuar",
+        "body": "Asignar la próxima acción y facilitar su ejecución en el trabajo diario."
+      },
+      {
+        "title": "Medir",
+        "body": "Comparar cambios con una referencia registrada para orientar la siguiente decisión."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Primero el operador",
+        "body": "Diseñar para las decisiones y el trabajo diario del operador."
+      },
+      {
+        "title": "Contexto compartido",
+        "body": "Dar a cada rol la vista pertinente de información coherente."
+      },
+      {
+        "title": "Responsabilidad clara",
+        "body": "Hacer visibles la próxima acción, su responsable y el seguimiento."
+      },
+      {
+        "title": "La evidencia importa",
+        "body": "Distinguir resultados observados de estimaciones y aclarar los límites."
+      }
+    ],
+    "journeyIntro": "Cómo la experiencia operativa dio forma a la empresa y la plataforma.",
+    "hubsLabel": "Centros operativos",
+    "legalLabel": "Registro legal",
+    "expansionLabel": "Expansión prevista",
+    "expansionNote": "Los destinos previstos no indican oficinas ni despliegues activos.",
+    "closeTitle": "Descubre Sundae en tu operación.",
+    "payrollDescription": "Cálculo de bruto a neto, nóminas y exportaciones revisadas. Declaraciones y pagos dependen del país y proveedor.",
+    "coreDescriptions": [
+      "Rendimiento del turno y excepciones en directo",
+      "Comparar locales con pares protegiendo la privacidad",
+      "Competidores, eventos, clima y señales de mercado",
+      "Analizar el rendimiento por áreas operativas",
+      "Preguntas operativas con respuestas vinculadas a fuentes",
+      "Previsiones, escenarios y acciones guiadas",
+      "Asignar correcciones y medir resultados frente a una referencia"
+    ]
+  },
+  "de": {
+    "originTitle": "Wir haben gebaut, was uns fehlte.",
+    "originBody": "Wir führten Betriebe, in denen Menschen, Systeme und Entscheidungen selten zusammenwirkten. Daraus entstand Sundae: eine Plattform für tägliche Arbeit, betriebliche Erkenntnisse und klar verantwortete Maßnahmen.",
+    "missionIntro": "Standorte brauchen gemeinsamen Kontext, praktische Werkzeuge und klare Verantwortung. Sundae hilft Teams, Veränderungen zu verstehen, Arbeit zu koordinieren und aus Ergebnissen zu lernen.",
+    "steps": [
+      {
+        "title": "Verbinden",
+        "body": "Systeme, Menschen und tägliche Arbeit in einen gemeinsamen Kontext bringen."
+      },
+      {
+        "title": "Verstehen",
+        "body": "Veränderungen mit rollenspezifischen Erkenntnissen, Betriebsvergleichen und Marktsignalen erklären."
+      },
+      {
+        "title": "Handeln",
+        "body": "Die nächste Maßnahme zuweisen und ihre Umsetzung im Alltag unterstützen."
+      },
+      {
+        "title": "Messen",
+        "body": "Änderungen mit einer erfassten Ausgangsbasis vergleichen und daraus Entscheidungen ableiten."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Betreiber zuerst",
+        "body": "Für die Entscheidungen und täglichen Aufgaben der Betreiber entwickeln."
+      },
+      {
+        "title": "Gemeinsamer Kontext",
+        "body": "Jeder Rolle die passende Sicht auf konsistente Betriebsdaten geben."
+      },
+      {
+        "title": "Klare Verantwortung",
+        "body": "Nächste Maßnahme, Zuständigkeit und Nachverfolgung sichtbar machen."
+      },
+      {
+        "title": "Belege zählen",
+        "body": "Beobachtete Ergebnisse von Schätzungen trennen und Grenzen erklären."
+      }
+    ],
+    "journeyIntro": "Wie Betriebserfahrung Unternehmen und Plattform geprägt hat.",
+    "hubsLabel": "Betriebsstandorte",
+    "legalLabel": "Rechtliche Registrierung",
+    "expansionLabel": "Geplante Expansion",
+    "expansionNote": "Geplante Orte bedeuten keine Niederlassung oder aktive Einführung.",
+    "closeTitle": "Erleben Sie Sundae in Ihrem Betrieb.",
+    "payrollDescription": "Brutto-Netto-Berechnung, Abrechnungen und geprüfte Exporte. Meldungen und Zahlungen hängen von Land und Anbieter ab.",
+    "coreDescriptions": [
+      "Live-Schichtleistung und betriebliche Ausnahmen",
+      "Standorte datenschutzkonform mit ähnlichen Betrieben vergleichen",
+      "Wettbewerber, Veranstaltungen, Wetter und Marktsignale",
+      "Leistung nach betrieblichen Bereichen analysieren",
+      "Betriebsfragen mit quellenverknüpften Antworten stellen",
+      "Prognosen, Szenarien und geführte Maßnahmen",
+      "Korrekturen zuweisen und Ergebnisse mit einer Ausgangsbasis vergleichen"
+    ]
+  },
+  "it": {
+    "originTitle": "Abbiamo creato ciò che ci mancava.",
+    "originBody": "Abbiamo gestito attività in cui persone, sistemi e decisioni raramente procedevano insieme. Da quell’esperienza nasce Sundae, una piattaforma che collega lavoro quotidiano, intelligence operativa e azioni con responsabilità definite.",
+    "missionIntro": "Gestire più sedi richiede contesto condiviso, strumenti pratici e responsabilità chiare. Sundae aiuta a capire cosa accade, coordinare il lavoro e imparare dai risultati.",
+    "steps": [
+      {
+        "title": "Collegare",
+        "body": "Riunire sistemi, persone e lavoro quotidiano in un contesto comune."
+      },
+      {
+        "title": "Comprendere",
+        "body": "Spiegare i cambiamenti con intelligence per ruolo, confronti tra operatori e segnali di mercato."
+      },
+      {
+        "title": "Agire",
+        "body": "Assegnare la prossima azione e sostenerne l’esecuzione nei flussi quotidiani."
+      },
+      {
+        "title": "Misurare",
+        "body": "Confrontare i cambiamenti con una base registrata per orientare la decisione successiva."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Prima gli operatori",
+        "body": "Progettare per le decisioni e il lavoro quotidiano degli operatori."
+      },
+      {
+        "title": "Contesto condiviso",
+        "body": "Dare a ogni ruolo la vista pertinente di informazioni coerenti."
+      },
+      {
+        "title": "Responsabilità chiare",
+        "body": "Rendere visibili prossima azione, responsabile e avanzamento."
+      },
+      {
+        "title": "Contano le evidenze",
+        "body": "Distinguere risultati osservati e stime, chiarendo i limiti."
+      }
+    ],
+    "journeyIntro": "Come l’esperienza operativa ha plasmato azienda e piattaforma.",
+    "hubsLabel": "Centri operativi",
+    "legalLabel": "Registrazione legale",
+    "expansionLabel": "Espansione prevista",
+    "expansionNote": "Le località previste non indicano uffici o implementazioni attive.",
+    "closeTitle": "Scopri Sundae nella tua attività.",
+    "payrollDescription": "Calcolo lordo-netto, cedolini ed esportazioni verificate. Invii e pagamenti dipendono dal paese e dal fornitore.",
+    "coreDescriptions": [
+      "Prestazioni del turno ed eccezioni in tempo reale",
+      "Confrontare sedi con operatori simili tutelando la privacy",
+      "Concorrenti, eventi, meteo e segnali di mercato",
+      "Analizzare le prestazioni per area operativa",
+      "Domande operative con risposte collegate alle fonti",
+      "Previsioni, scenari e azioni guidate",
+      "Assegnare interventi e misurare i risultati rispetto a una base"
+    ]
+  },
+  "pt": {
+    "originTitle": "Criámos o que nos fazia falta.",
+    "originBody": "Gerimos negócios em que pessoas, sistemas e decisões raramente avançavam juntos. Dessa experiência nasceu a Sundae, ligando trabalho diário, inteligência operacional e ações com responsáveis numa plataforma.",
+    "missionIntro": "Gerir unidades exige contexto comum, ferramentas práticas e responsabilidade clara. A Sundae ajuda a compreender mudanças, coordenar o trabalho e aprender com os resultados.",
+    "steps": [
+      {
+        "title": "Ligar",
+        "body": "Reunir sistemas, pessoas e trabalho diário num contexto comum."
+      },
+      {
+        "title": "Compreender",
+        "body": "Explicar mudanças com inteligência por função, comparação com pares e sinais de mercado."
+      },
+      {
+        "title": "Agir",
+        "body": "Atribuir a próxima ação e apoiar a execução nos fluxos diários."
+      },
+      {
+        "title": "Medir",
+        "body": "Comparar mudanças com uma base registada para orientar a decisão seguinte."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Operadores primeiro",
+        "body": "Desenhar para as decisões e tarefas diárias dos operadores."
+      },
+      {
+        "title": "Contexto comum",
+        "body": "Dar a cada função a vista relevante de informação coerente."
+      },
+      {
+        "title": "Responsabilidade clara",
+        "body": "Tornar visíveis a próxima ação, o responsável e o acompanhamento."
+      },
+      {
+        "title": "As evidências contam",
+        "body": "Distinguir resultados observados de estimativas e esclarecer limites."
+      }
+    ],
+    "journeyIntro": "Como a experiência operacional moldou a empresa e a plataforma.",
+    "hubsLabel": "Centros operacionais",
+    "legalLabel": "Registo legal",
+    "expansionLabel": "Expansão prevista",
+    "expansionNote": "Os locais previstos não indicam escritórios nem implementações ativas.",
+    "closeTitle": "Conheça a Sundae na sua operação.",
+    "payrollDescription": "Cálculo bruto-líquido, recibos e exportações revistos. Declarações e pagamentos dependem do país e do prestador.",
+    "coreDescriptions": [
+      "Desempenho do turno e exceções em direto",
+      "Comparar unidades com pares protegendo a privacidade",
+      "Concorrentes, eventos, meteorologia e sinais de mercado",
+      "Analisar desempenho por área operacional",
+      "Perguntas operacionais com respostas ligadas a fontes",
+      "Previsões, cenários e ações orientadas",
+      "Atribuir correções e medir resultados face a uma base"
+    ]
+  },
+  "nl": {
+    "originTitle": "We bouwden wat we zelf misten.",
+    "originBody": "We leidden bedrijven waar mensen, systemen en beslissingen zelden samenkwamen. Uit die ervaring ontstond Sundae: één platform voor dagelijks werk, operationele inzichten en acties met een duidelijke eigenaar.",
+    "missionIntro": "Locaties beheren vraagt om gedeelde context, praktische hulpmiddelen en duidelijke verantwoordelijkheid. Sundae helpt teams begrijpen, samenwerken en leren van resultaten.",
+    "steps": [
+      {
+        "title": "Verbinden",
+        "body": "Systemen, mensen en dagelijks werk in een gedeelde context samenbrengen."
+      },
+      {
+        "title": "Begrijpen",
+        "body": "Veranderingen verklaren met inzichten per rol, bedrijfsvergelijkingen en marktsignalen."
+      },
+      {
+        "title": "Handelen",
+        "body": "De volgende actie toewijzen en uitvoering in dagelijkse werkstromen ondersteunen."
+      },
+      {
+        "title": "Meten",
+        "body": "Veranderingen vergelijken met een vastgelegde basis voor de volgende beslissing."
+      }
+    ],
+    "principles": [
+      {
+        "title": "De operator eerst",
+        "body": "Ontwerpen voor de beslissingen en dagelijkse taken van operators."
+      },
+      {
+        "title": "Gedeelde context",
+        "body": "Elke rol de relevante kijk op consistente informatie geven."
+      },
+      {
+        "title": "Duidelijk eigenaarschap",
+        "body": "Actie, verantwoordelijke en opvolging zichtbaar maken."
+      },
+      {
+        "title": "Bewijs telt",
+        "body": "Waargenomen resultaten onderscheiden van schattingen en grenzen uitleggen."
+      }
+    ],
+    "journeyIntro": "Hoe praktijkervaring het bedrijf en het platform vormde.",
+    "hubsLabel": "Operationele locaties",
+    "legalLabel": "Juridische registratie",
+    "expansionLabel": "Geplande uitbreiding",
+    "expansionNote": "Geplande plaatsen betekenen geen kantoor of actieve implementatie.",
+    "closeTitle": "Ontdek Sundae in jouw bedrijf.",
+    "payrollDescription": "Bruto-nettoberekeningen, loonstroken en gecontroleerde exports. Aangiften en betalingen hangen af van land en aanbieder.",
+    "coreDescriptions": [
+      "Live dienstprestaties en operationele uitzonderingen",
+      "Locaties vergelijken met privacybeschermde vergelijkbare bedrijven",
+      "Concurrenten, evenementen, weer en marktsignalen",
+      "Prestaties per operationeel gebied analyseren",
+      "Bedrijfsvragen met brongebonden antwoorden stellen",
+      "Prognoses, scenario’s en begeleide acties",
+      "Verbeteringen toewijzen en resultaten met een basis vergelijken"
+    ]
+  },
+  "pl": {
+    "originTitle": "Zbudowaliśmy to, czego sami nie mogliśmy znaleźć.",
+    "originBody": "Prowadziliśmy firmy, w których ludzie, systemy i decyzje rzadko współdziałały. Z tego doświadczenia powstało Sundae: platforma łącząca codzienną pracę, wiedzę operacyjną i działania z jasno określoną odpowiedzialnością.",
+    "missionIntro": "Zarządzanie lokalami wymaga wspólnego kontekstu, praktycznych narzędzi i odpowiedzialności. Sundae pomaga rozumieć zmiany, koordynować pracę i uczyć się na wynikach.",
+    "steps": [
+      {
+        "title": "Połącz",
+        "body": "Połącz systemy, ludzi i codzienną pracę we wspólnym kontekście."
+      },
+      {
+        "title": "Zrozum",
+        "body": "Wyjaśniaj zmiany dzięki analizom dla ról, porównaniom z innymi lokalami i sygnałom rynku."
+      },
+      {
+        "title": "Działaj",
+        "body": "Wyznacz odpowiedzialnego za kolejną czynność i wspieraj wykonanie w codziennej pracy."
+      },
+      {
+        "title": "Mierz",
+        "body": "Porównuj zmiany z zapisaną bazą, by wspierać kolejne decyzje."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Najpierw operatorzy",
+        "body": "Projektuj dla decyzji i codziennej pracy operatorów."
+      },
+      {
+        "title": "Wspólny kontekst",
+        "body": "Zapewnij każdej roli właściwy widok spójnych informacji."
+      },
+      {
+        "title": "Jasna odpowiedzialność",
+        "body": "Pokazuj kolejne działanie, właściciela i postępy."
+      },
+      {
+        "title": "Liczą się dowody",
+        "body": "Odróżniaj wyniki obserwowane od szacunków i wyjaśniaj ograniczenia."
+      }
+    ],
+    "journeyIntro": "Jak doświadczenie operacyjne ukształtowało firmę i platformę.",
+    "hubsLabel": "Centra operacyjne",
+    "legalLabel": "Rejestracja prawna",
+    "expansionLabel": "Planowana ekspansja",
+    "expansionNote": "Planowane lokalizacje nie oznaczają biur ani aktywnych wdrożeń.",
+    "closeTitle": "Zobacz Sundae w swojej działalności.",
+    "payrollDescription": "Obliczenia brutto-netto, paski płac i sprawdzone eksporty. Zgłoszenia i wypłaty zależą od kraju i dostawcy.",
+    "coreDescriptions": [
+      "Wyniki zmiany i wyjątki operacyjne na żywo",
+      "Porównuj lokale z podobnymi firmami z ochroną prywatności",
+      "Konkurenci, wydarzenia, pogoda i sygnały rynku",
+      "Analizuj wyniki według obszarów operacyjnych",
+      "Pytaj o działalność i otrzymuj odpowiedzi ze źródłami",
+      "Prognozy, scenariusze i ukierunkowane działania",
+      "Przydzielaj poprawki i mierz wyniki względem bazy"
+    ]
+  },
+  "ro": {
+    "originTitle": "Am construit ceea ce nu găseam.",
+    "originBody": "Am condus afaceri în care oamenii, sistemele și deciziile rareori mergeau împreună. Din această experiență s-a născut Sundae: muncă zilnică, inteligență operațională și acțiuni cu responsabili într-o platformă.",
+    "missionIntro": "Gestionarea locațiilor cere context comun, instrumente practice și responsabilitate. Sundae ajută echipele să înțeleagă, să coordoneze munca și să învețe din rezultate.",
+    "steps": [
+      {
+        "title": "Conectează",
+        "body": "Reunește sistemele, oamenii și munca zilnică într-un context comun."
+      },
+      {
+        "title": "Înțelege",
+        "body": "Explică schimbările prin informații pe roluri, comparații cu operatori similari și semnale de piață."
+      },
+      {
+        "title": "Acționează",
+        "body": "Atribuie următoarea acțiune și sprijină execuția în fluxurile zilnice."
+      },
+      {
+        "title": "Măsoară",
+        "body": "Compară schimbările cu o bază înregistrată pentru a ghida următoarea decizie."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Operatorii pe primul loc",
+        "body": "Proiectează pentru deciziile și munca zilnică a operatorilor."
+      },
+      {
+        "title": "Context comun",
+        "body": "Oferă fiecărui rol perspectiva relevantă asupra informațiilor coerente."
+      },
+      {
+        "title": "Responsabilitate clară",
+        "body": "Arată următoarea acțiune, responsabilul și urmărirea ei."
+      },
+      {
+        "title": "Dovezile contează",
+        "body": "Separă rezultatele observate de estimări și explică limitele."
+      }
+    ],
+    "journeyIntro": "Cum experiența operațională a modelat compania și platforma.",
+    "hubsLabel": "Centre operaționale",
+    "legalLabel": "Înregistrare juridică",
+    "expansionLabel": "Extindere planificată",
+    "expansionNote": "Locurile planificate nu indică birouri sau implementări active.",
+    "closeTitle": "Descoperă Sundae în operațiunea ta.",
+    "payrollDescription": "Calcul brut-net, fluturași și exporturi verificate. Declarațiile și plățile depind de țară și furnizor.",
+    "coreDescriptions": [
+      "Performanța turei și excepții în timp real",
+      "Compară locațiile cu operatori similari protejând confidențialitatea",
+      "Concurenți, evenimente, vreme și semnale de piață",
+      "Analizează performanța pe domenii operaționale",
+      "Întrebări operaționale cu răspunsuri legate de surse",
+      "Prognoze, scenarii și acțiuni ghidate",
+      "Atribuie corecții și măsoară rezultatele față de o bază"
+    ]
+  },
+  "sv": {
+    "originTitle": "Vi byggde det vi själva saknade.",
+    "originBody": "Vi drev företag där människor, system och beslut sällan fungerade tillsammans. Ur den erfarenheten föddes Sundae: dagligt arbete, operativa insikter och tydligt ansvariga åtgärder i en plattform.",
+    "missionIntro": "Att driva enheter kräver gemensamt sammanhang, praktiska verktyg och ansvar. Sundae hjälper team förstå förändringar, samordna arbetet och lära av resultat.",
+    "steps": [
+      {
+        "title": "Anslut",
+        "body": "Samla system, människor och dagligt arbete i ett gemensamt sammanhang."
+      },
+      {
+        "title": "Förstå",
+        "body": "Förklara förändringar med rollanpassade insikter, jämförelser och relevanta marknadssignaler."
+      },
+      {
+        "title": "Agera",
+        "body": "Ge nästa åtgärd en ansvarig och stöd genomförandet i vardagen."
+      },
+      {
+        "title": "Mät",
+        "body": "Jämför förändringar med en registrerad baslinje inför nästa beslut."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Operatörer först",
+        "body": "Utforma för operatörernas beslut och dagliga arbete."
+      },
+      {
+        "title": "Gemensamt sammanhang",
+        "body": "Ge varje roll en relevant vy av enhetlig information."
+      },
+      {
+        "title": "Tydligt ansvar",
+        "body": "Synliggör nästa åtgärd, ansvarig och uppföljning."
+      },
+      {
+        "title": "Belägg räknas",
+        "body": "Skilj observerade resultat från uppskattningar och förklara gränser."
+      }
+    ],
+    "journeyIntro": "Hur driftserfarenhet formade företaget och plattformen.",
+    "hubsLabel": "Operativa nav",
+    "legalLabel": "Juridisk registrering",
+    "expansionLabel": "Planerad expansion",
+    "expansionNote": "Planerade platser innebär inte kontor eller aktiva införanden.",
+    "closeTitle": "Se Sundae i din verksamhet.",
+    "payrollDescription": "Brutto-nettoberäkning, lönebesked och granskade exporter. Rapportering och utbetalningar beror på land och leverantör.",
+    "coreDescriptions": [
+      "Skiftresultat och operativa avvikelser i realtid",
+      "Jämför enheter med liknande företag med integritetsskydd",
+      "Konkurrenter, evenemang, väder och marknadssignaler",
+      "Analysera resultat per verksamhetsområde",
+      "Ställ verksamhetsfrågor med källanknutna svar",
+      "Prognoser, scenarier och vägledda åtgärder",
+      "Tilldela förbättringar och mät resultat mot en baslinje"
+    ]
+  },
+  "tr": {
+    "originTitle": "İhtiyacımız olan ama bulamadığımız şeyi geliştirdik.",
+    "originBody": "İnsanların, sistemlerin ve kararların nadiren birlikte ilerlediği işletmeler yönettik. Sundae bu deneyimden doğdu: günlük işi, operasyonel içgörüyü ve sorumlusu belli eylemleri tek platformda birleştirmek için.",
+    "missionIntro": "Lokasyon yönetimi ortak bağlam, pratik araçlar ve açık sorumluluk ister. Sundae ekiplerin değişimi anlamasına, işi koordine etmesine ve sonuçlardan öğrenmesine yardımcı olur.",
+    "steps": [
+      {
+        "title": "Bağla",
+        "body": "Sistemleri, insanları ve günlük işi ortak bağlamda birleştir."
+      },
+      {
+        "title": "Anla",
+        "body": "Role özel içgörüler, benzer işletme karşılaştırmaları ve piyasa sinyalleriyle değişimi açıkla."
+      },
+      {
+        "title": "Harekete geç",
+        "body": "Sonraki eyleme sorumlu ata ve günlük akışlarla uygulamayı destekle."
+      },
+      {
+        "title": "Ölç",
+        "body": "Değişimi kayıtlı başlangıçla karşılaştırarak sonraki kararı yönlendir."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Önce işletmeciler",
+        "body": "İşletmecilerin kararları ve günlük işleri için tasarla."
+      },
+      {
+        "title": "Ortak bağlam",
+        "body": "Her role tutarlı bilgilerin ilgili görünümünü sun."
+      },
+      {
+        "title": "Açık sorumluluk",
+        "body": "Sonraki eylemi, sorumluyu ve takibi görünür kıl."
+      },
+      {
+        "title": "Kanıt önemlidir",
+        "body": "Gözlenen sonuçları tahminlerden ayır ve sınırları açıkla."
+      }
+    ],
+    "journeyIntro": "Operasyon deneyiminin şirketi ve platformu nasıl şekillendirdiği.",
+    "hubsLabel": "Operasyon merkezleri",
+    "legalLabel": "Yasal kayıt",
+    "expansionLabel": "Planlanan genişleme",
+    "expansionNote": "Planlanan yerler ofis veya aktif kurulum anlamına gelmez.",
+    "closeTitle": "Sundae'yi işletmenizde görün.",
+    "payrollDescription": "Brütten nete hesaplama, bordro ve incelenmiş dışa aktarımlar. Bildirim ve ödemeler ülkeye ve sağlayıcıya bağlıdır.",
+    "coreDescriptions": [
+      "Canlı vardiya performansı ve operasyon istisnaları",
+      "Lokasyonları gizliliği korunan benzer işletmelerle karşılaştır",
+      "Rakipler, etkinlikler, hava ve piyasa sinyalleri",
+      "Operasyon alanlarında performansı analiz et",
+      "Kaynak bağlantılı yanıtlarla operasyon soruları sor",
+      "Tahminler, senaryolar ve yönlendirilmiş eylemler",
+      "Düzeltmeleri ata ve sonuçları başlangıca göre ölç"
+    ]
+  },
+  "hi": {
+    "originTitle": "हमने वह बनाया जो हमें चाहिए था, पर मिला नहीं।",
+    "originBody": "हमने ऐसे व्यवसाय चलाए जहाँ लोग, सिस्टम और फैसले अक्सर साथ नहीं चलते थे। Sundae उसी अनुभव से बनी: रोज़ के काम, संचालन की समझ और स्पष्ट जिम्मेदारी वाली कार्रवाई को एक मंच पर जोड़ने के लिए।",
+    "missionIntro": "लोकेशन चलाने के लिए साझा संदर्भ, उपयोगी साधन और स्पष्ट जिम्मेदारी चाहिए। Sundae टीमों को बदलाव समझने, काम मिलकर करने और परिणामों से सीखने में मदद करती है।",
+    "steps": [
+      {
+        "title": "जोड़ें",
+        "body": "सिस्टम, लोगों और रोज़ के काम को साझा संदर्भ में लाएँ।"
+      },
+      {
+        "title": "समझें",
+        "body": "भूमिका के अनुसार जानकारी, समान व्यवसायों की तुलना और बाज़ार संकेतों से बदलाव समझें।"
+      },
+      {
+        "title": "कार्रवाई करें",
+        "body": "अगले काम का जिम्मेदार तय करें और दैनिक कार्यप्रवाह में उसे पूरा करने में मदद दें।"
+      },
+      {
+        "title": "मापें",
+        "body": "बदलाव की तुलना दर्ज आधार से करके अगले निर्णय को दिशा दें।"
+      }
+    ],
+    "principles": [
+      {
+        "title": "संचालक पहले",
+        "body": "संचालकों के फैसलों और रोज़ के काम के लिए बनाएँ।"
+      },
+      {
+        "title": "साझा संदर्भ",
+        "body": "हर भूमिका को एकसमान जानकारी का जरूरी दृश्य दें।"
+      },
+      {
+        "title": "स्पष्ट जिम्मेदारी",
+        "body": "अगला काम, जिम्मेदार व्यक्ति और उसकी प्रगति स्पष्ट करें।"
+      },
+      {
+        "title": "प्रमाण मायने रखता है",
+        "body": "देखे गए परिणाम और अनुमान अलग रखें और सीमाएँ बताएँ।"
+      }
+    ],
+    "journeyIntro": "संचालन के अनुभव ने कंपनी और मंच को कैसे आकार दिया।",
+    "hubsLabel": "संचालन केंद्र",
+    "legalLabel": "कानूनी पंजीकरण",
+    "expansionLabel": "योजनाबद्ध विस्तार",
+    "expansionNote": "योजनाबद्ध स्थानों का मतलब वहाँ कार्यालय या सक्रिय तैनाती नहीं है।",
+    "closeTitle": "अपने संचालन में Sundae देखें।",
+    "payrollDescription": "सकल से शुद्ध वेतन, वेतन पर्चियाँ और जाँचे गए निर्यात। फाइलिंग और भुगतान देश व प्रदाता पर निर्भर हैं।",
+    "coreDescriptions": [
+      "लाइव शिफ्ट प्रदर्शन और संचालन की असामान्य स्थितियाँ",
+      "गोपनीयता-सुरक्षित समान व्यवसायों से लोकेशन की तुलना",
+      "प्रतिस्पर्धी, कार्यक्रम, मौसम और बाज़ार के संकेत",
+      "संचालन के विभिन्न क्षेत्रों के प्रदर्शन का विश्लेषण",
+      "स्रोतों से जुड़े उत्तरों के साथ संचालन के सवाल पूछें",
+      "पूर्वानुमान, परिदृश्य और निर्देशित कार्रवाई",
+      "सुधार सौंपें और दर्ज आधार से परिणाम मापें"
+    ]
+  },
+  "bn": {
+    "originTitle": "আমাদের যা দরকার ছিল, খুঁজে না পেয়ে আমরা তা তৈরি করেছি।",
+    "originBody": "আমরা এমন ব্যবসা চালিয়েছি যেখানে মানুষ, সিস্টেম ও সিদ্ধান্ত একসঙ্গে এগোত না। সেই অভিজ্ঞতা থেকে Sundae তৈরি হয়েছে, দৈনন্দিন কাজ, পরিচালনার বুদ্ধিমত্তা ও নির্দিষ্ট দায়িত্বসহ পদক্ষেপকে এক প্ল্যাটফর্মে আনতে।",
+    "missionIntro": "লোকেশন চালাতে অভিন্ন প্রেক্ষাপট, কার্যকর সরঞ্জাম ও স্পষ্ট দায়িত্ব দরকার। Sundae পরিবর্তন বুঝতে, কাজ সমন্বয় করতে ও ফলাফল থেকে শিখতে সাহায্য করে।",
+    "steps": [
+      {
+        "title": "যুক্ত করুন",
+        "body": "সিস্টেম, মানুষ ও দৈনন্দিন কাজকে অভিন্ন প্রেক্ষাপটে আনুন।"
+      },
+      {
+        "title": "বুঝুন",
+        "body": "ভূমিকা অনুযায়ী তথ্য, সমকক্ষের তুলনা ও বাজার সংকেত দিয়ে পরিবর্তন বুঝুন।"
+      },
+      {
+        "title": "পদক্ষেপ নিন",
+        "body": "পরবর্তী কাজের দায়িত্ব দিন এবং দৈনন্দিন কর্মপ্রবাহে সম্পাদনে সহায়তা করুন।"
+      },
+      {
+        "title": "পরিমাপ করুন",
+        "body": "নথিভুক্ত ভিত্তির সঙ্গে পরিবর্তন তুলনা করে পরের সিদ্ধান্ত নিন।"
+      }
+    ],
+    "principles": [
+      {
+        "title": "আগে পরিচালকদের প্রয়োজন",
+        "body": "পরিচালকদের সিদ্ধান্ত ও দৈনন্দিন কাজের জন্য নকশা করুন।"
+      },
+      {
+        "title": "অভিন্ন প্রেক্ষাপট",
+        "body": "প্রতিটি ভূমিকাকে সামঞ্জস্যপূর্ণ তথ্যের প্রাসঙ্গিক দৃশ্য দিন।"
+      },
+      {
+        "title": "স্পষ্ট দায়িত্ব",
+        "body": "পরবর্তী কাজ, দায়িত্বপ্রাপ্ত ব্যক্তি ও অগ্রগতি স্পষ্ট করুন।"
+      },
+      {
+        "title": "প্রমাণ গুরুত্বপূর্ণ",
+        "body": "পর্যবেক্ষিত ফল ও অনুমান আলাদা করে সীমা স্পষ্ট করুন।"
+      }
+    ],
+    "journeyIntro": "পরিচালনার অভিজ্ঞতা যেভাবে কোম্পানি ও প্ল্যাটফর্মকে গড়েছে।",
+    "hubsLabel": "পরিচালনা কেন্দ্র",
+    "legalLabel": "আইনি নিবন্ধন",
+    "expansionLabel": "পরিকল্পিত সম্প্রসারণ",
+    "expansionNote": "পরিকল্পিত স্থানে অফিস বা সক্রিয় ব্যবহার আছে এমন বোঝায় না।",
+    "closeTitle": "আপনার পরিচালনায় Sundae দেখুন।",
+    "payrollDescription": "মোট থেকে নিট বেতন, পে-স্লিপ ও পর্যালোচিত এক্সপোর্ট। দাখিল ও অর্থপ্রদান দেশ ও প্রদানকারীর ওপর নির্ভরশীল।",
+    "coreDescriptions": [
+      "লাইভ শিফটের কর্মদক্ষতা ও পরিচালনার ব্যতিক্রম",
+      "গোপনীয়তা-সুরক্ষিত সমকক্ষের সঙ্গে লোকেশন তুলনা",
+      "প্রতিযোগী, অনুষ্ঠান, আবহাওয়া ও বাজার সংকেত",
+      "পরিচালনার বিভিন্ন ক্ষেত্রের কর্মদক্ষতা বিশ্লেষণ",
+      "সোর্স-সংযুক্ত উত্তরসহ পরিচালনার প্রশ্ন করুন",
+      "পূর্বাভাস, পরিস্থিতি ও নির্দেশিত পদক্ষেপ",
+      "সংশোধনের দায়িত্ব দিন ও ভিত্তির সঙ্গে ফল মাপুন"
+    ]
+  },
+  "ur": {
+    "originTitle": "جو ہمیں درکار تھا اور ملا نہیں، ہم نے وہ بنایا۔",
+    "originBody": "ہم نے ایسے کاروبار چلائے جہاں لوگ، نظام اور فیصلے کم ہی ساتھ چلتے تھے۔ Sundae اسی تجربے سے وجود میں آیا، روزمرہ کام، عملیاتی فہم اور واضح ذمہ داری والے اقدامات کو ایک پلیٹ فارم پر جوڑنے کے لیے۔",
+    "missionIntro": "مقامات چلانے کے لیے مشترکہ تناظر، مفید اوزار اور واضح ذمہ داری چاہیے۔ Sundae ٹیموں کو تبدیلی سمجھنے، کام مربوط کرنے اور نتائج سے سیکھنے میں مدد دیتا ہے۔",
+    "steps": [
+      {
+        "title": "جوڑیں",
+        "body": "نظام، لوگ اور روزمرہ کام مشترکہ تناظر میں لائیں۔"
+      },
+      {
+        "title": "سمجھیں",
+        "body": "کردار کے مطابق معلومات، ہم پیشہ موازنے اور مارکیٹ اشاروں سے تبدیلی سمجھیں۔"
+      },
+      {
+        "title": "عمل کریں",
+        "body": "اگلے اقدام کا ذمہ دار مقرر کریں اور روزمرہ طریقۂ کار میں عمل کی مدد کریں۔"
+      },
+      {
+        "title": "ناپیں",
+        "body": "تبدیلی کو درج شدہ بنیاد سے موازنہ کرکے اگلا فیصلہ کریں۔"
+      }
+    ],
+    "principles": [
+      {
+        "title": "پہلے آپریٹرز",
+        "body": "آپریٹرز کے فیصلوں اور روزمرہ کام کے لیے بنائیں۔"
+      },
+      {
+        "title": "مشترکہ تناظر",
+        "body": "ہر کردار کو یکساں معلومات کا متعلقہ منظر دیں۔"
+      },
+      {
+        "title": "واضح ذمہ داری",
+        "body": "اگلا کام، ذمہ دار فرد اور پیش رفت واضح کریں۔"
+      },
+      {
+        "title": "شواہد اہم ہیں",
+        "body": "دیکھے گئے نتائج اور تخمینے الگ رکھیں اور حدود بتائیں۔"
+      }
+    ],
+    "journeyIntro": "عملیاتی تجربے نے کمپنی اور پلیٹ فارم کو کیسے تشکیل دیا۔",
+    "hubsLabel": "عملیاتی مراکز",
+    "legalLabel": "قانونی اندراج",
+    "expansionLabel": "منصوبہ بند توسیع",
+    "expansionNote": "منصوبہ بند مقام کا مطلب دفتر یا فعال نفاذ نہیں۔",
+    "closeTitle": "اپنے کاروبار میں Sundae دیکھیں۔",
+    "payrollDescription": "مجموعی سے خالص تنخواہ، پے سلپس اور جائزہ شدہ ایکسپورٹس۔ فائلنگ اور ادائیگی ملک اور فراہم کنندہ پر منحصر ہیں۔",
+    "coreDescriptions": [
+      "لائیو شفٹ کی کارکردگی اور عملیاتی استثنا",
+      "رازداری کے تحفظ کے ساتھ ہم پیشہ مقامات سے موازنہ",
+      "حریف، تقریبات، موسم اور مارکیٹ اشارے",
+      "عملیاتی شعبوں میں کارکردگی کا تجزیہ",
+      "ماخذ سے منسلک جواب کے ساتھ عملیاتی سوال پوچھیں",
+      "پیش گوئیاں، منظرنامے اور رہنمائی والے اقدامات",
+      "اصلاحات سونپیں اور بنیاد کے مقابلے میں نتائج ناپیں"
+    ]
+  },
+  "zh-Hans": {
+    "originTitle": "我们打造了自己需要却找不到的平台。",
+    "originBody": "我们经营过人员、系统和决策难以协同的企业。Sundae 源于这些经历，将日常工作、运营洞察和责任明确的行动连接在一个平台上。",
+    "missionIntro": "管理门店需要共同的背景信息、实用工具和明确责任。Sundae 帮助团队理解变化、协调工作，并从结果中学习。",
+    "steps": [
+      {
+        "title": "连接",
+        "body": "将运营系统、人员和日常工作置于共同背景中。"
+      },
+      {
+        "title": "理解",
+        "body": "通过角色专属洞察、同行基准和相关市场信号解释变化。"
+      },
+      {
+        "title": "行动",
+        "body": "明确下一项行动的负责人，并通过日常工作流支持执行。"
+      },
+      {
+        "title": "衡量",
+        "body": "将变化与已记录的基准比较，为下一次决策提供依据。"
+      }
+    ],
+    "principles": [
+      {
+        "title": "运营者优先",
+        "body": "围绕运营者的决策和日常工作设计。"
+      },
+      {
+        "title": "共同背景",
+        "body": "为每个角色提供一致信息中的相关视角。"
+      },
+      {
+        "title": "明确责任",
+        "body": "清楚呈现下一项行动、负责人和跟进情况。"
+      },
+      {
+        "title": "重视证据",
+        "body": "区分观察结果与估算，并说明限制。"
+      }
+    ],
+    "journeyIntro": "运营经验如何塑造公司与平台。",
+    "hubsLabel": "运营中心",
+    "legalLabel": "法律注册",
+    "expansionLabel": "计划拓展",
+    "expansionNote": "计划地点不代表已有办公室或正在部署。",
+    "closeTitle": "了解 Sundae 如何用于您的运营。",
+    "payrollDescription": "税前到税后计算、工资单和经审核的导出。申报与支付取决于国家和服务商。",
+    "coreDescriptions": [
+      "实时班次表现与运营异常",
+      "在保护隐私的前提下与同类门店比较",
+      "竞争对手、活动、天气和市场信号",
+      "分析不同运营领域的表现",
+      "提出运营问题并获得关联来源的回答",
+      "预测、情景和引导式行动",
+      "分配改进任务并根据基准衡量结果"
+    ]
+  },
+  "ja": {
+    "originTitle": "必要としても見つからなかったものを、自分たちで作りました。",
+    "originBody": "私たちは、人・システム・判断がうまく連携しない事業を運営してきました。Sundae はその経験から生まれ、日々の業務、運営の知見、担当が明確な行動を一つのプラットフォームでつなぎます。",
+    "missionIntro": "拠点運営には共通の状況認識、実用的なツール、明確な責任が必要です。Sundae は変化の理解、業務の連携、結果からの学びを支援します。",
+    "steps": [
+      {
+        "title": "つなぐ",
+        "body": "運営システム、人、日々の業務の背景を共有します。"
+      },
+      {
+        "title": "理解する",
+        "body": "役割別の知見、同業比較、市場情報から変化を説明します。"
+      },
+      {
+        "title": "行動する",
+        "body": "次の行動に担当者を定め、日々の業務フローで実行を支援します。"
+      },
+      {
+        "title": "測定する",
+        "body": "記録した基準と変化を比較し、次の判断に生かします。"
+      }
+    ],
+    "principles": [
+      {
+        "title": "運営者を第一に",
+        "body": "運営者の判断と日々の業務を中心に設計します。"
+      },
+      {
+        "title": "状況認識を共有",
+        "body": "一貫した情報から、各役割に必要な視点を届けます。"
+      },
+      {
+        "title": "責任を明確に",
+        "body": "次の行動、担当者、進捗を見えるようにします。"
+      },
+      {
+        "title": "根拠を重視",
+        "body": "観測した結果と推定を区別し、限界を明示します。"
+      }
+    ],
+    "journeyIntro": "運営経験が会社とプラットフォームを形作った歩み。",
+    "hubsLabel": "運営拠点",
+    "legalLabel": "法人登録",
+    "expansionLabel": "拡大計画",
+    "expansionNote": "計画中の場所は、事務所や導入実績の存在を示すものではありません。",
+    "closeTitle": "あなたの現場で Sundae をご覧ください。",
+    "payrollDescription": "総支給額から手取り額への計算、給与明細、確認済みの出力。申告と支払いは国と提供事業者により異なります。",
+    "coreDescriptions": [
+      "リアルタイムのシフト実績と運営上の例外",
+      "プライバシーを守った同業グループとの拠点比較",
+      "競合、イベント、天候、市場情報",
+      "運営領域ごとの実績分析",
+      "出典に結び付いた回答で運営上の疑問を解決",
+      "予測、シナリオ、行動の支援",
+      "改善を担当者に割り当て、基準に対して成果を測定"
+    ]
+  },
+  "ko": {
+    "originTitle": "필요했지만 찾을 수 없던 것을 직접 만들었습니다.",
+    "originBody": "사람, 시스템, 의사결정이 함께 움직이지 않는 사업을 운영했습니다. Sundae는 그 경험에서 출발해 일상 업무, 운영 인사이트, 책임이 명확한 행동을 하나의 플랫폼으로 연결합니다.",
+    "missionIntro": "사업장 운영에는 공유된 맥락, 실용적인 도구, 명확한 책임이 필요합니다. Sundae는 변화를 이해하고 업무를 조율하며 결과에서 배우도록 돕습니다.",
+    "steps": [
+      {
+        "title": "연결",
+        "body": "시스템, 사람, 일상 업무의 맥락을 함께 연결합니다."
+      },
+      {
+        "title": "이해",
+        "body": "역할별 인사이트, 동종 업체 비교, 관련 시장 신호로 변화를 설명합니다."
+      },
+      {
+        "title": "실행",
+        "body": "다음 행동의 담당자를 정하고 일상 업무 흐름으로 실행을 돕습니다."
+      },
+      {
+        "title": "측정",
+        "body": "기록된 기준과 변화를 비교해 다음 결정을 이끕니다."
+      }
+    ],
+    "principles": [
+      {
+        "title": "운영자 우선",
+        "body": "운영자의 결정과 일상 업무를 중심으로 설계합니다."
+      },
+      {
+        "title": "공유된 맥락",
+        "body": "일관된 정보에서 각 역할에 필요한 관점을 제공합니다."
+      },
+      {
+        "title": "명확한 책임",
+        "body": "다음 행동, 담당자, 후속 진행을 보이게 합니다."
+      },
+      {
+        "title": "근거 중시",
+        "body": "관찰된 결과와 추정치를 구분하고 한계를 밝힙니다."
+      }
+    ],
+    "journeyIntro": "운영 경험이 회사와 플랫폼을 만들어 온 과정.",
+    "hubsLabel": "운영 거점",
+    "legalLabel": "법인 등록",
+    "expansionLabel": "계획된 확장",
+    "expansionNote": "계획된 지역은 사무실이나 실제 도입을 뜻하지 않습니다.",
+    "closeTitle": "운영 현장에서 Sundae를 확인하세요.",
+    "payrollDescription": "총급여에서 실수령액 계산, 급여명세서, 검토된 내보내기. 신고와 지급은 국가 및 제공업체에 따라 다릅니다.",
+    "coreDescriptions": [
+      "실시간 근무 실적과 운영 예외",
+      "개인정보를 보호하며 동종 사업장과 비교",
+      "경쟁사, 행사, 날씨 및 시장 신호",
+      "운영 영역별 실적 분석",
+      "출처가 연결된 답변으로 운영 질문 해결",
+      "예측, 시나리오 및 실행 안내",
+      "개선 담당자를 지정하고 기준 대비 결과 측정"
+    ]
+  },
+  "id": {
+    "originTitle": "Kami membangun yang kami butuhkan, tetapi tidak kami temukan.",
+    "originBody": "Kami menjalankan bisnis di mana orang, sistem, dan keputusan jarang berjalan bersama. Dari pengalaman itu lahir Sundae, yang menghubungkan pekerjaan harian, wawasan operasional, dan tindakan dengan penanggung jawab dalam satu platform.",
+    "missionIntro": "Mengelola lokasi memerlukan konteks bersama, alat praktis, dan tanggung jawab jelas. Sundae membantu tim memahami perubahan, mengoordinasikan pekerjaan, dan belajar dari hasil.",
+    "steps": [
+      {
+        "title": "Hubungkan",
+        "body": "Satukan sistem, orang, dan pekerjaan harian dalam konteks bersama."
+      },
+      {
+        "title": "Pahami",
+        "body": "Jelaskan perubahan lewat wawasan sesuai peran, tolok ukur rekan, dan sinyal pasar."
+      },
+      {
+        "title": "Bertindak",
+        "body": "Tetapkan penanggung jawab tindakan berikutnya dan dukung pelaksanaan dalam alur harian."
+      },
+      {
+        "title": "Ukur",
+        "body": "Bandingkan perubahan dengan dasar tercatat untuk memandu keputusan berikutnya."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Operator diutamakan",
+        "body": "Rancang untuk keputusan dan pekerjaan harian operator."
+      },
+      {
+        "title": "Konteks bersama",
+        "body": "Berikan setiap peran pandangan relevan atas informasi konsisten."
+      },
+      {
+        "title": "Tanggung jawab jelas",
+        "body": "Tampilkan tindakan berikutnya, penanggung jawab, dan tindak lanjut."
+      },
+      {
+        "title": "Bukti penting",
+        "body": "Bedakan hasil teramati dari perkiraan dan jelaskan batasnya."
+      }
+    ],
+    "journeyIntro": "Bagaimana pengalaman operasional membentuk perusahaan dan platform.",
+    "hubsLabel": "Pusat operasional",
+    "legalLabel": "Pendaftaran hukum",
+    "expansionLabel": "Rencana ekspansi",
+    "expansionNote": "Lokasi yang direncanakan tidak menunjukkan kantor atau penerapan aktif.",
+    "closeTitle": "Lihat Sundae dalam operasi Anda.",
+    "payrollDescription": "Perhitungan bruto-neto, slip gaji, dan ekspor yang ditinjau. Pelaporan dan pembayaran bergantung pada negara serta penyedia.",
+    "coreDescriptions": [
+      "Kinerja sif langsung dan pengecualian operasional",
+      "Bandingkan lokasi dengan rekan sambil menjaga privasi",
+      "Pesaing, acara, cuaca, dan sinyal pasar",
+      "Analisis kinerja menurut bidang operasional",
+      "Ajukan pertanyaan dengan jawaban tertaut sumber",
+      "Prakiraan, skenario, dan tindakan terpandu",
+      "Tugaskan perbaikan dan ukur hasil terhadap dasar"
+    ]
+  },
+  "ms": {
+    "originTitle": "Kami membina apa yang diperlukan tetapi tidak ditemui.",
+    "originBody": "Kami mengurus perniagaan yang orang, sistem dan keputusannya jarang bergerak bersama. Daripada pengalaman itu lahir Sundae, menghubungkan kerja harian, wawasan operasi dan tindakan dengan tanggungjawab jelas dalam satu platform.",
+    "missionIntro": "Mengurus lokasi memerlukan konteks bersama, alat praktikal dan tanggungjawab jelas. Sundae membantu pasukan memahami perubahan, menyelaras kerja dan belajar daripada hasil.",
+    "steps": [
+      {
+        "title": "Hubungkan",
+        "body": "Satukan sistem, orang dan kerja harian dalam konteks bersama."
+      },
+      {
+        "title": "Fahami",
+        "body": "Jelaskan perubahan dengan wawasan mengikut peranan, perbandingan rakan dan isyarat pasaran."
+      },
+      {
+        "title": "Bertindak",
+        "body": "Tetapkan pemilik tindakan seterusnya dan sokong pelaksanaan dalam aliran harian."
+      },
+      {
+        "title": "Ukur",
+        "body": "Bandingkan perubahan dengan garis dasar direkodkan untuk memandu keputusan seterusnya."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Pengendali diutamakan",
+        "body": "Reka untuk keputusan dan kerja harian pengendali."
+      },
+      {
+        "title": "Konteks bersama",
+        "body": "Berikan setiap peranan pandangan relevan bagi maklumat konsisten."
+      },
+      {
+        "title": "Tanggungjawab jelas",
+        "body": "Paparkan tindakan seterusnya, penanggungjawab dan susulan."
+      },
+      {
+        "title": "Bukti penting",
+        "body": "Bezakan hasil diperhatikan daripada anggaran dan jelaskan batasan."
+      }
+    ],
+    "journeyIntro": "Bagaimana pengalaman operasi membentuk syarikat dan platform.",
+    "hubsLabel": "Pusat operasi",
+    "legalLabel": "Pendaftaran undang-undang",
+    "expansionLabel": "Pengembangan dirancang",
+    "expansionNote": "Lokasi dirancang tidak menunjukkan pejabat atau pelaksanaan aktif.",
+    "closeTitle": "Lihat Sundae dalam operasi anda.",
+    "payrollDescription": "Pengiraan kasar-bersih, slip gaji dan eksport disemak. Pemfailan dan bayaran bergantung pada negara serta penyedia.",
+    "coreDescriptions": [
+      "Prestasi syif langsung dan pengecualian operasi",
+      "Bandingkan lokasi dengan rakan sambil melindungi privasi",
+      "Pesaing, acara, cuaca dan isyarat pasaran",
+      "Analisis prestasi mengikut bidang operasi",
+      "Soalan operasi dengan jawapan berpaut sumber",
+      "Ramalan, senario dan tindakan berpandu",
+      "Tugaskan pembaikan dan ukur hasil berbanding garis dasar"
+    ]
+  },
+  "vi": {
+    "originTitle": "Chúng tôi xây điều mình cần nhưng không tìm thấy.",
+    "originBody": "Chúng tôi từng điều hành doanh nghiệp nơi con người, hệ thống và quyết định hiếm khi phối hợp. Sundae ra đời từ trải nghiệm đó, kết nối công việc hằng ngày, hiểu biết vận hành và hành động có người chịu trách nhiệm trên một nền tảng.",
+    "missionIntro": "Quản lý cơ sở cần bối cảnh chung, công cụ thực tế và trách nhiệm rõ ràng. Sundae giúp đội ngũ hiểu thay đổi, phối hợp công việc và học từ kết quả.",
+    "steps": [
+      {
+        "title": "Kết nối",
+        "body": "Đưa hệ thống, con người và công việc hằng ngày vào bối cảnh chung."
+      },
+      {
+        "title": "Hiểu",
+        "body": "Giải thích thay đổi bằng thông tin theo vai trò, so sánh tương đồng và tín hiệu thị trường."
+      },
+      {
+        "title": "Hành động",
+        "body": "Giao người phụ trách hành động tiếp theo và hỗ trợ thực hiện qua quy trình hằng ngày."
+      },
+      {
+        "title": "Đo lường",
+        "body": "So sánh thay đổi với mức cơ sở đã ghi nhận để định hướng quyết định tiếp theo."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Ưu tiên người vận hành",
+        "body": "Thiết kế cho quyết định và công việc hằng ngày của người vận hành."
+      },
+      {
+        "title": "Bối cảnh chung",
+        "body": "Cung cấp góc nhìn phù hợp từ thông tin nhất quán cho mỗi vai trò."
+      },
+      {
+        "title": "Trách nhiệm rõ ràng",
+        "body": "Hiển thị việc tiếp theo, người phụ trách và tiến độ theo dõi."
+      },
+      {
+        "title": "Coi trọng bằng chứng",
+        "body": "Phân biệt kết quả quan sát với ước tính và nêu rõ giới hạn."
+      }
+    ],
+    "journeyIntro": "Trải nghiệm vận hành định hình công ty và nền tảng như thế nào.",
+    "hubsLabel": "Trung tâm vận hành",
+    "legalLabel": "Đăng ký pháp lý",
+    "expansionLabel": "Mở rộng dự kiến",
+    "expansionNote": "Địa điểm dự kiến không thể hiện văn phòng hay triển khai đang hoạt động.",
+    "closeTitle": "Khám phá Sundae trong hoạt động của bạn.",
+    "payrollDescription": "Tính lương từ gộp đến ròng, phiếu lương và tệp xuất đã rà soát. Khai nộp và thanh toán tùy quốc gia, nhà cung cấp.",
+    "coreDescriptions": [
+      "Hiệu suất ca trực tiếp và ngoại lệ vận hành",
+      "So sánh cơ sở với nhóm tương đồng có bảo vệ riêng tư",
+      "Đối thủ, sự kiện, thời tiết và tín hiệu thị trường",
+      "Phân tích hiệu suất theo lĩnh vực vận hành",
+      "Đặt câu hỏi vận hành với câu trả lời gắn nguồn",
+      "Dự báo, kịch bản và hướng dẫn hành động",
+      "Giao việc khắc phục và đo kết quả so với mức cơ sở"
+    ]
+  },
+  "th": {
+    "originTitle": "เราสร้างสิ่งที่ต้องการแต่หาไม่พบขึ้นมาเอง",
+    "originBody": "เราเคยบริหารธุรกิจที่คน ระบบ และการตัดสินใจไม่ค่อยทำงานไปด้วยกัน Sundae เกิดจากประสบการณ์นั้น โดยเชื่อมงานประจำวัน ข้อมูลเชิงลึกการดำเนินงาน และการลงมือทำที่มีผู้รับผิดชอบไว้ในแพลตฟอร์มเดียว",
+    "missionIntro": "การบริหารสาขาต้องมีบริบทร่วม เครื่องมือที่ใช้ได้จริง และความรับผิดชอบชัดเจน Sundae ช่วยทีมเข้าใจการเปลี่ยนแปลง ประสานงาน และเรียนรู้จากผลลัพธ์",
+    "steps": [
+      {
+        "title": "เชื่อมต่อ",
+        "body": "เชื่อมระบบ คน และงานประจำวันไว้ในบริบทร่วม"
+      },
+      {
+        "title": "ทำความเข้าใจ",
+        "body": "อธิบายความเปลี่ยนแปลงด้วยข้อมูลตามบทบาท เกณฑ์เทียบธุรกิจ และสัญญาณตลาด"
+      },
+      {
+        "title": "ลงมือทำ",
+        "body": "กำหนดผู้รับผิดชอบงานถัดไปและสนับสนุนการทำงานผ่านขั้นตอนประจำวัน"
+      },
+      {
+        "title": "วัดผล",
+        "body": "เทียบความเปลี่ยนแปลงกับค่าฐานที่บันทึกไว้เพื่อช่วยตัดสินใจครั้งต่อไป"
+      }
+    ],
+    "principles": [
+      {
+        "title": "ผู้ประกอบการมาก่อน",
+        "body": "ออกแบบเพื่อการตัดสินใจและงานประจำวันของผู้ประกอบการ"
+      },
+      {
+        "title": "บริบทร่วม",
+        "body": "ให้แต่ละบทบาทเห็นข้อมูลที่เกี่ยวข้องจากข้อมูลที่สอดคล้องกัน"
+      },
+      {
+        "title": "ความรับผิดชอบชัดเจน",
+        "body": "แสดงงานถัดไป ผู้รับผิดชอบ และการติดตาม"
+      },
+      {
+        "title": "หลักฐานสำคัญ",
+        "body": "แยกผลที่สังเกตได้ออกจากประมาณการและอธิบายข้อจำกัด"
+      }
+    ],
+    "journeyIntro": "ประสบการณ์ดำเนินงานที่หล่อหลอมบริษัทและแพลตฟอร์ม",
+    "hubsLabel": "ศูนย์ปฏิบัติงาน",
+    "legalLabel": "การจดทะเบียนนิติบุคคล",
+    "expansionLabel": "การขยายที่วางแผนไว้",
+    "expansionNote": "พื้นที่ที่วางแผนไว้ไม่ได้หมายถึงสำนักงานหรือการใช้งานจริงในปัจจุบัน",
+    "closeTitle": "ดู Sundae ในการดำเนินงานของคุณ",
+    "payrollDescription": "คำนวณเงินเดือนก่อนและหลังหัก สลิปเงินเดือน และไฟล์ส่งออกที่ตรวจสอบแล้ว การยื่นและจ่ายขึ้นอยู่กับประเทศและผู้ให้บริการ",
+    "coreDescriptions": [
+      "ผลการทำงานของกะแบบสดและข้อยกเว้นการดำเนินงาน",
+      "เทียบสาขากับธุรกิจคล้ายกันโดยปกป้องความเป็นส่วนตัว",
+      "คู่แข่ง กิจกรรม อากาศ และสัญญาณตลาด",
+      "วิเคราะห์ผลการทำงานตามด้านการดำเนินงาน",
+      "ถามเรื่องการดำเนินงานพร้อมคำตอบที่เชื่อมโยงแหล่งข้อมูล",
+      "การคาดการณ์ สถานการณ์ และแนวทางลงมือทำ",
+      "มอบหมายการแก้ไขและวัดผลเทียบค่าฐาน"
+    ]
+  }
+}
