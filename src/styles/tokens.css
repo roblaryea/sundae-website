@@ -208,8 +208,8 @@ html.light {
   --text-supporting: rgba(36, 29, 23, 0.74);
   --text-muted: rgba(36, 29, 23, 0.69);
   --text-faint: rgba(36, 29, 23, 0.16);
-  --muted-grey: #857869;
-  --eyebrow: rgba(36, 29, 23, 0.58);   /* warm label on light (warm ink, not coral) */
+  --muted-grey: var(--text-muted); /* small copy shares the readable tertiary role */
+  --eyebrow: rgba(36, 29, 23, 0.69);   /* muted warm label on light, including tinted sections */
   --text-warm: #98501C; /* deep caramel emphasis on warm paper */
   --text-display: #1E1711;             /* deep warm ink display headings → more punch in light */
 
