@@ -23,7 +23,15 @@
     "crewPayrollCoverage": "Tip workflows are part of Crew Payroll (Crew Pay), included in Crew Operating and Crew Complete. Crew Pay requires Crew Operations.",
     "crewCoverageExclusions": "Crew Starter and Schedule & Time do not include these workflows.",
     "crewHandoverCoverage": "Scheduling includes viewing manager handovers. Creating handovers and using the operational logbook require Crew Operations.",
-    "crewEstimateNote": "Editable starting estimates. Confirm your locations, requirements and current price in the calculator."
+    "crewEstimateNote": "Editable starting estimates. Confirm your locations, requirements and current price in the calculator.",
+    "coreUniversalTitle": "Included in every Core package",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae and Profit Recovery, plus labor, profit and revenue assurance analysis.",
+    "coreUsageNote": "Package AI seats and credit allowances apply. Peer benchmarks depend on sufficient privacy-protected data; premium benchmark options are priced separately.",
+    "coreFoundationCoverage": "The operating baseline: labor, profit, revenue assurance and Pulse.",
+    "coreMarginCoverage": "Foundation coverage plus inventory, purchasing and delivery economics.",
+    "coreGrowthCoverage": "Foundation coverage plus marketing, reservations, guest experience, guest CRM and delivery economics. Inventory and purchasing are not included.",
+    "corePerformanceCoverage": "Combines Margin and Growth coverage, with Foresight & Action included.",
+    "foresightCoverage": "Foresight & Action is included in Core Performance. It is a separately priced optional extension for Core Foundation, Core Margin and Core Growth."
   },
   "ar": {
     "packageScope": "تتضمن باقات Core قدرات مختلفة. راجع الباقة المختارة والإضافات المؤهلة في حاسبة الأسعار.",
@@ -49,7 +57,15 @@
     "crewPayrollCoverage": "إجراءات الإكراميات جزء من Crew Payroll ‏(Crew Pay)، ومشمولة في Crew Operating وCrew Complete. تتطلب Crew Pay وجود Crew Operations.",
     "crewCoverageExclusions": "لا تشمل Crew Starter ولا Schedule & Time هذه الإجراءات.",
     "crewHandoverCoverage": "تشمل الجدولة عرض تسليمات المديرين. أما إنشاء التسليمات واستخدام سجل العمليات فيتطلبان Crew Operations.",
-    "crewEstimateNote": "تقديرات أولية قابلة للتعديل. تأكد من مواقعك ومتطلباتك والسعر الحالي في الحاسبة."
+    "crewEstimateNote": "تقديرات أولية قابلة للتعديل. تأكد من مواقعك ومتطلباتك والسعر الحالي في الحاسبة.",
+    "coreUniversalTitle": "مشمولة في كل باقات Core",
+    "coreUniversalBody": "Pulse وBenchmarks وAsk Sundae وProfit Recovery، إضافةً إلى تحليل العمالة والربح وضمان الإيرادات.",
+    "coreUsageNote": "تُطبَّق حدود مقاعد الذكاء الاصطناعي والأرصدة الخاصة بالباقة. تعتمد مقارنات الأقران على توافر بيانات كافية تحمي الخصوصية؛ وتُسعَّر خيارات المقارنة المتقدمة بشكل منفصل.",
+    "coreFoundationCoverage": "الأساس التشغيلي: العمالة والربح وضمان الإيرادات وPulse.",
+    "coreMarginCoverage": "نطاق Foundation مع المخزون والمشتريات واقتصاديات التوصيل.",
+    "coreGrowthCoverage": "نطاق Foundation مع التسويق والحجوزات وتجربة الضيوف وإدارة علاقاتهم واقتصاديات التوصيل. لا يشمل المخزون والمشتريات.",
+    "corePerformanceCoverage": "تجمع نطاق Margin وGrowth، مع Foresight & Action.",
+    "foresightCoverage": "تُشمَل Foresight & Action في Core Performance. وهي إضافة اختيارية بسعر منفصل لباقات Core Foundation وCore Margin وCore Growth."
   },
   "fr": {
     "packageScope": "Les offres Core comprennent des capacités différentes. Vérifiez l’offre choisie et les extensions éligibles dans le simulateur de prix.",
@@ -75,7 +91,15 @@
     "crewPayrollCoverage": "Les pourboires relèvent de Crew Payroll (Crew Pay), inclus dans Crew Operating et Crew Complete. Crew Pay nécessite Crew Operations.",
     "crewCoverageExclusions": "Crew Starter et Schedule & Time ne comprennent pas ces fonctions.",
     "crewHandoverCoverage": "La planification permet de consulter les transmissions des responsables. Leur création et le journal opérationnel nécessitent Crew Operations.",
-    "crewEstimateNote": "Estimations de départ modifiables. Vérifiez vos sites, vos besoins et le prix actuel dans le calculateur."
+    "crewEstimateNote": "Estimations de départ modifiables. Vérifiez vos sites, vos besoins et le prix actuel dans le calculateur.",
+    "coreUniversalTitle": "Inclus dans toutes les offres Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae et Profit Recovery, ainsi que les analyses du travail, du profit et de la protection des revenus.",
+    "coreUsageNote": "Les limites de sièges IA et de crédits de l’offre s’appliquent. Les comparaisons entre pairs nécessitent suffisamment de données protégeant la confidentialité ; les options avancées sont facturées séparément.",
+    "coreFoundationCoverage": "Le socle opérationnel : travail, profit, protection des revenus et Pulse.",
+    "coreMarginCoverage": "Le périmètre Foundation, plus les stocks, les achats et la rentabilité de la livraison.",
+    "coreGrowthCoverage": "Le périmètre Foundation, plus le marketing, les réservations, l’expérience client, le CRM client et la rentabilité de la livraison. Stocks et achats non inclus.",
+    "corePerformanceCoverage": "Réunit les périmètres Margin et Growth, avec Foresight & Action inclus.",
+    "foresightCoverage": "Foresight & Action est inclus dans Core Performance. C’est une extension optionnelle facturée séparément pour Core Foundation, Core Margin et Core Growth."
   },
   "es": {
     "packageScope": "Los paquetes Core incluyen capacidades diferentes. Revisa el paquete elegido y las extensiones disponibles en la calculadora de precios.",
@@ -101,7 +125,15 @@
     "crewPayrollCoverage": "La gestión de propinas forma parte de Crew Payroll (Crew Pay), incluido en Crew Operating y Crew Complete. Crew Pay requiere Crew Operations.",
     "crewCoverageExclusions": "Crew Starter y Schedule & Time no incluyen estas funciones.",
     "crewHandoverCoverage": "La planificación permite consultar los relevos de responsables. Crear relevos y usar el registro operativo requiere Crew Operations.",
-    "crewEstimateNote": "Estimaciones iniciales editables. Confirma tus locales, necesidades y el precio actual en la calculadora."
+    "crewEstimateNote": "Estimaciones iniciales editables. Confirma tus locales, necesidades y el precio actual en la calculadora.",
+    "coreUniversalTitle": "Incluido en todos los paquetes Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae y Profit Recovery, más análisis de personal, beneficios y protección de ingresos.",
+    "coreUsageNote": "Se aplican los límites de usuarios de IA y créditos del paquete. Las comparaciones requieren suficientes datos protegidos; las opciones avanzadas se cobran por separado.",
+    "coreFoundationCoverage": "La base operativa: personal, beneficios, protección de ingresos y Pulse.",
+    "coreMarginCoverage": "Cobertura de Foundation más inventario, compras y rentabilidad del reparto.",
+    "coreGrowthCoverage": "Cobertura de Foundation más marketing, reservas, experiencia del cliente, CRM de clientes y rentabilidad del reparto. No incluye inventario ni compras.",
+    "corePerformanceCoverage": "Combina la cobertura de Margin y Growth, con Foresight & Action incluido.",
+    "foresightCoverage": "Foresight & Action está incluido en Core Performance. Es una extensión opcional con precio independiente para Core Foundation, Core Margin y Core Growth."
   },
   "de": {
     "packageScope": "Die Core-Pakete enthalten unterschiedliche Funktionen. Prüfen Sie das gewählte Paket und verfügbare Erweiterungen im Preisrechner.",
@@ -127,7 +159,15 @@
     "crewPayrollCoverage": "Trinkgeldabläufe gehören zu Crew Payroll (Crew Pay), enthalten in Crew Operating und Crew Complete. Crew Pay setzt Crew Operations voraus.",
     "crewCoverageExclusions": "Crew Starter und Schedule & Time enthalten diese Funktionen nicht.",
     "crewHandoverCoverage": "Die Dienstplanung umfasst das Anzeigen von Leitungsübergaben. Das Erstellen von Übergaben und das Betriebslogbuch erfordern Crew Operations.",
-    "crewEstimateNote": "Bearbeitbare Ausgangsschätzungen. Prüfen Sie Standorte, Anforderungen und aktuelle Preise im Rechner."
+    "crewEstimateNote": "Bearbeitbare Ausgangsschätzungen. Prüfen Sie Standorte, Anforderungen und aktuelle Preise im Rechner.",
+    "coreUniversalTitle": "In jedem Core-Paket enthalten",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae und Profit Recovery sowie Analysen zu Personal, Gewinn und Umsatzsicherung.",
+    "coreUsageNote": "Die KI-Nutzer- und Kontingentgrenzen des Pakets gelten. Vergleiche mit anderen Betrieben erfordern ausreichend datenschutzkonforme Daten; Premium-Benchmarkoptionen werden separat berechnet.",
+    "coreFoundationCoverage": "Die Betriebsgrundlage: Personal, Gewinn, Umsatzsicherung und Pulse.",
+    "coreMarginCoverage": "Foundation-Umfang plus Bestand, Einkauf und Lieferwirtschaftlichkeit.",
+    "coreGrowthCoverage": "Foundation-Umfang plus Marketing, Reservierungen, Gästeerlebnis, Gäste-CRM und Lieferwirtschaftlichkeit. Bestand und Einkauf sind nicht enthalten.",
+    "corePerformanceCoverage": "Verbindet den Umfang von Margin und Growth, einschließlich Foresight & Action.",
+    "foresightCoverage": "Foresight & Action ist in Core Performance enthalten. Für Core Foundation, Core Margin und Core Growth ist es eine separat berechnete optionale Erweiterung."
   },
   "it": {
     "packageScope": "I pacchetti Core includono funzionalità diverse. Verifica il pacchetto scelto e le estensioni disponibili nel calcolatore dei prezzi.",
@@ -153,7 +193,15 @@
     "crewPayrollCoverage": "I flussi delle mance fanno parte di Crew Payroll (Crew Pay), incluso in Crew Operating e Crew Complete. Crew Pay richiede Crew Operations.",
     "crewCoverageExclusions": "Crew Starter e Schedule & Time non includono queste funzioni.",
     "crewHandoverCoverage": "La pianificazione include la consultazione dei passaggi di consegne dei responsabili. La creazione e il registro operativo richiedono Crew Operations.",
-    "crewEstimateNote": "Stime iniziali modificabili. Conferma sedi, esigenze e prezzo attuale nel calcolatore."
+    "crewEstimateNote": "Stime iniziali modificabili. Conferma sedi, esigenze e prezzo attuale nel calcolatore.",
+    "coreUniversalTitle": "Incluso in tutti i pacchetti Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae e Profit Recovery, oltre alle analisi di personale, profitto e tutela dei ricavi.",
+    "coreUsageNote": "Si applicano i limiti di utenti IA e crediti del pacchetto. I confronti richiedono dati sufficienti a tutela della privacy; le opzioni avanzate sono a pagamento separato.",
+    "coreFoundationCoverage": "La base operativa: personale, profitto, tutela dei ricavi e Pulse.",
+    "coreMarginCoverage": "Copertura Foundation più scorte, acquisti e redditività delle consegne.",
+    "coreGrowthCoverage": "Copertura Foundation più marketing, prenotazioni, esperienza degli ospiti, CRM ospiti e redditività delle consegne. Scorte e acquisti non sono inclusi.",
+    "corePerformanceCoverage": "Combina la copertura di Margin e Growth, con Foresight & Action incluso.",
+    "foresightCoverage": "Foresight & Action è incluso in Core Performance. È un’estensione opzionale con prezzo separato per Core Foundation, Core Margin e Core Growth."
   },
   "pt": {
     "packageScope": "Os pacotes Core incluem capacidades diferentes. Confirme o pacote escolhido e as extensões elegíveis no simulador de preços.",
@@ -179,7 +227,15 @@
     "crewPayrollCoverage": "Os fluxos de gorjetas fazem parte de Crew Payroll (Crew Pay), incluído em Crew Operating e Crew Complete. Crew Pay requer Crew Operations.",
     "crewCoverageExclusions": "Crew Starter e Schedule & Time não incluem estas funções.",
     "crewHandoverCoverage": "O planeamento permite consultar as passagens de turno dos responsáveis. A criação e o registo operacional requerem Crew Operations.",
-    "crewEstimateNote": "Estimativas iniciais editáveis. Confirme unidades, necessidades e preço atual na calculadora."
+    "crewEstimateNote": "Estimativas iniciais editáveis. Confirme unidades, necessidades e preço atual na calculadora.",
+    "coreUniversalTitle": "Incluído em todos os pacotes Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae e Profit Recovery, além de análises de pessoal, lucro e proteção de receitas.",
+    "coreUsageNote": "Aplicam-se os limites de utilizadores de IA e créditos do pacote. A comparação com pares depende de dados suficientes com proteção de privacidade; as opções avançadas têm preço separado.",
+    "coreFoundationCoverage": "A base operacional: pessoal, lucro, proteção de receitas e Pulse.",
+    "coreMarginCoverage": "Cobertura Foundation mais inventário, compras e rentabilidade das entregas.",
+    "coreGrowthCoverage": "Cobertura Foundation mais marketing, reservas, experiência do cliente, CRM de clientes e rentabilidade das entregas. Inventário e compras não estão incluídos.",
+    "corePerformanceCoverage": "Combina a cobertura de Margin e Growth, com Foresight & Action incluído.",
+    "foresightCoverage": "Foresight & Action está incluído em Core Performance. É uma extensão opcional com preço separado para Core Foundation, Core Margin e Core Growth."
   },
   "nl": {
     "packageScope": "Core-pakketten bevatten verschillende functies. Controleer het gekozen pakket en beschikbare uitbreidingen in de prijscalculator.",
@@ -205,7 +261,15 @@
     "crewPayrollCoverage": "Fooienbeheer hoort bij Crew Payroll (Crew Pay), opgenomen in Crew Operating en Crew Complete. Crew Pay vereist Crew Operations.",
     "crewCoverageExclusions": "Crew Starter en Schedule & Time bevatten deze functies niet.",
     "crewHandoverCoverage": "Planning omvat het bekijken van overdrachten door managers. Overdrachten maken en het operationele logboek gebruiken vereist Crew Operations.",
-    "crewEstimateNote": "Aanpasbare startschattingen. Controleer je locaties, behoeften en de actuele prijs in de calculator."
+    "crewEstimateNote": "Aanpasbare startschattingen. Controleer je locaties, behoeften en de actuele prijs in de calculator.",
+    "coreUniversalTitle": "In elk Core-pakket inbegrepen",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae en Profit Recovery, plus analyses van personeel, winst en omzetbewaking.",
+    "coreUsageNote": "De AI-gebruikers- en kredietlimieten van het pakket gelden. Vergelijkingen vereisen voldoende privacybeschermde gegevens; premium benchmarkopties worden apart geprijsd.",
+    "coreFoundationCoverage": "De operationele basis: personeel, winst, omzetbewaking en Pulse.",
+    "coreMarginCoverage": "De dekking van Foundation plus voorraad, inkoop en bezorgrendement.",
+    "coreGrowthCoverage": "De dekking van Foundation plus marketing, reserveringen, gastbeleving, gasten-CRM en bezorgrendement. Voorraad en inkoop zijn niet inbegrepen.",
+    "corePerformanceCoverage": "Combineert de dekking van Margin en Growth, inclusief Foresight & Action.",
+    "foresightCoverage": "Foresight & Action is inbegrepen in Core Performance. Voor Core Foundation, Core Margin en Core Growth is het een apart geprijsde optionele uitbreiding."
   },
   "pl": {
     "packageScope": "Pakiety Core obejmują różne funkcje. Sprawdź wybrany pakiet i dostępne rozszerzenia w kalkulatorze cen.",
@@ -231,7 +295,15 @@
     "crewPayrollCoverage": "Obsługa napiwków należy do Crew Payroll (Crew Pay), zawartego w Crew Operating i Crew Complete. Crew Pay wymaga Crew Operations.",
     "crewCoverageExclusions": "Crew Starter i Schedule & Time nie obejmują tych funkcji.",
     "crewHandoverCoverage": "Planowanie pozwala przeglądać przekazania zmian przez kierowników. Tworzenie przekazań i dziennik operacyjny wymagają Crew Operations.",
-    "crewEstimateNote": "Edytowalne wyceny początkowe. Potwierdź lokale, wymagania i aktualną cenę w kalkulatorze."
+    "crewEstimateNote": "Edytowalne wyceny początkowe. Potwierdź lokale, wymagania i aktualną cenę w kalkulatorze.",
+    "coreUniversalTitle": "W każdym pakiecie Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae i Profit Recovery oraz analizy personelu, zysku i ochrony przychodów.",
+    "coreUsageNote": "Obowiązują limity użytkowników AI i kredytów pakietu. Porównania wymagają wystarczających danych chroniących prywatność; opcje premium są płatne osobno.",
+    "coreFoundationCoverage": "Podstawa operacyjna: personel, zysk, ochrona przychodów i Pulse.",
+    "coreMarginCoverage": "Zakres Foundation oraz zapasy, zakupy i rentowność dostaw.",
+    "coreGrowthCoverage": "Zakres Foundation oraz marketing, rezerwacje, doświadczenia gości, CRM gości i rentowność dostaw. Nie obejmuje zapasów ani zakupów.",
+    "corePerformanceCoverage": "Łączy zakres Margin i Growth, z Foresight & Action w cenie.",
+    "foresightCoverage": "Foresight & Action jest zawarty w Core Performance. Dla Core Foundation, Core Margin i Core Growth jest opcjonalnym rozszerzeniem płatnym osobno."
   },
   "ro": {
     "packageScope": "Pachetele Core includ funcționalități diferite. Verificați pachetul ales și extensiile eligibile în calculatorul de prețuri.",
@@ -257,7 +329,15 @@
     "crewPayrollCoverage": "Gestionarea bacșișurilor face parte din Crew Payroll (Crew Pay), inclus în Crew Operating și Crew Complete. Crew Pay necesită Crew Operations.",
     "crewCoverageExclusions": "Crew Starter și Schedule & Time nu includ aceste funcții.",
     "crewHandoverCoverage": "Planificarea include vizualizarea predărilor de tură ale managerilor. Crearea lor și jurnalul operațional necesită Crew Operations.",
-    "crewEstimateNote": "Estimări inițiale editabile. Confirmați locațiile, cerințele și prețul actual în calculator."
+    "crewEstimateNote": "Estimări inițiale editabile. Confirmați locațiile, cerințele și prețul actual în calculator.",
+    "coreUniversalTitle": "Inclus în fiecare pachet Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae și Profit Recovery, plus analize de personal, profit și protecția veniturilor.",
+    "coreUsageNote": "Se aplică limitele de utilizatori AI și credite ale pachetului. Comparațiile necesită suficiente date cu protecția confidențialității; opțiunile premium au preț separat.",
+    "coreFoundationCoverage": "Baza operațională: personal, profit, protecția veniturilor și Pulse.",
+    "coreMarginCoverage": "Acoperirea Foundation plus stocuri, achiziții și rentabilitatea livrărilor.",
+    "coreGrowthCoverage": "Acoperirea Foundation plus marketing, rezervări, experiența oaspeților, CRM pentru oaspeți și rentabilitatea livrărilor. Stocurile și achizițiile nu sunt incluse.",
+    "corePerformanceCoverage": "Combină acoperirea Margin și Growth, cu Foresight & Action inclus.",
+    "foresightCoverage": "Foresight & Action este inclus în Core Performance. Este o extensie opțională cu preț separat pentru Core Foundation, Core Margin și Core Growth."
   },
   "sv": {
     "packageScope": "Core-paketen innehåller olika funktioner. Kontrollera valt paket och tillgängliga tillägg i priskalkylatorn.",
@@ -283,7 +363,15 @@
     "crewPayrollCoverage": "Drickshantering hör till Crew Payroll (Crew Pay), som ingår i Crew Operating och Crew Complete. Crew Pay kräver Crew Operations.",
     "crewCoverageExclusions": "Crew Starter och Schedule & Time innehåller inte dessa funktioner.",
     "crewHandoverCoverage": "Schemaläggning omfattar visning av chefers överlämningar. Att skapa överlämningar och använda driftloggen kräver Crew Operations.",
-    "crewEstimateNote": "Redigerbara startberäkningar. Bekräfta enheter, behov och aktuellt pris i kalkylatorn."
+    "crewEstimateNote": "Redigerbara startberäkningar. Bekräfta enheter, behov och aktuellt pris i kalkylatorn.",
+    "coreUniversalTitle": "Ingår i alla Core-paket",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae och Profit Recovery, samt analyser av personal, vinst och intäktssäkring.",
+    "coreUsageNote": "Paketets gränser för AI-användare och krediter gäller. Jämförelser kräver tillräckliga integritetsskyddade data; premiumalternativ för benchmarking prissätts separat.",
+    "coreFoundationCoverage": "Driftsgrunden: personal, vinst, intäktssäkring och Pulse.",
+    "coreMarginCoverage": "Foundation-innehållet plus lager, inköp och leveranslönsamhet.",
+    "coreGrowthCoverage": "Foundation-innehållet plus marknadsföring, bokningar, gästupplevelse, gäst-CRM och leveranslönsamhet. Lager och inköp ingår inte.",
+    "corePerformanceCoverage": "Kombinerar innehållet i Margin och Growth, med Foresight & Action inkluderat.",
+    "foresightCoverage": "Foresight & Action ingår i Core Performance. Det är ett separat prissatt valfritt tillägg för Core Foundation, Core Margin och Core Growth."
   },
   "tr": {
     "packageScope": "Core paketleri farklı özellikler içerir. Seçilen paketi ve uygun eklentileri fiyat hesaplayıcısında kontrol edin.",
@@ -309,7 +397,15 @@
     "crewPayrollCoverage": "Bahşiş iş akışları, Crew Operating ve Crew Complete paketlerine dahil olan Crew Payroll (Crew Pay) kapsamındadır. Crew Pay, Crew Operations gerektirir.",
     "crewCoverageExclusions": "Crew Starter ve Schedule & Time bu iş akışlarını içermez.",
     "crewHandoverCoverage": "Planlama, yönetici devir teslimlerini görüntülemeyi içerir. Devir teslim oluşturmak ve operasyon günlüğünü kullanmak Crew Operations gerektirir.",
-    "crewEstimateNote": "Düzenlenebilir başlangıç tahminleri. Lokasyonlarınızı, ihtiyaçlarınızı ve güncel fiyatı hesaplayıcıda doğrulayın."
+    "crewEstimateNote": "Düzenlenebilir başlangıç tahminleri. Lokasyonlarınızı, ihtiyaçlarınızı ve güncel fiyatı hesaplayıcıda doğrulayın.",
+    "coreUniversalTitle": "Her Core paketine dahil",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae ve Profit Recovery ile iş gücü, kâr ve gelir güvencesi analizleri.",
+    "coreUsageNote": "Paketin yapay zekâ kullanıcı ve kredi sınırları geçerlidir. Emsal karşılaştırmaları için yeterli, gizliliği korunan veri gerekir; premium seçenekler ayrıca fiyatlandırılır.",
+    "coreFoundationCoverage": "Operasyon temeli: iş gücü, kâr, gelir güvencesi ve Pulse.",
+    "coreMarginCoverage": "Foundation kapsamına ek olarak stok, satın alma ve teslimat ekonomisi.",
+    "coreGrowthCoverage": "Foundation kapsamına ek olarak pazarlama, rezervasyonlar, misafir deneyimi, misafir CRM ve teslimat ekonomisi. Stok ve satın alma dahil değildir.",
+    "corePerformanceCoverage": "Margin ve Growth kapsamlarını birleştirir; Foresight & Action dahildir.",
+    "foresightCoverage": "Foresight & Action, Core Performance paketine dahildir. Core Foundation, Core Margin ve Core Growth için ayrıca fiyatlandırılan isteğe bağlı bir eklentidir."
   },
   "hi": {
     "packageScope": "Core पैकेजों में अलग-अलग क्षमताएँ शामिल हैं। चुने हुए पैकेज और उपलब्ध विस्तारों की जाँच मूल्य कैलकुलेटर में करें।",
@@ -335,7 +431,15 @@
     "crewPayrollCoverage": "टिप संबंधी कार्यप्रवाह Crew Payroll (Crew Pay) का हिस्सा हैं, जो Crew Operating और Crew Complete में शामिल है। Crew Pay के लिए Crew Operations आवश्यक है।",
     "crewCoverageExclusions": "Crew Starter और Schedule & Time में ये कार्यप्रवाह शामिल नहीं हैं।",
     "crewHandoverCoverage": "शेड्यूलिंग में प्रबंधकों के हैंडओवर देखना शामिल है। हैंडओवर बनाने और संचालन लॉगबुक का उपयोग करने के लिए Crew Operations आवश्यक है।",
-    "crewEstimateNote": "बदलाव योग्य शुरुआती अनुमान। कैलकुलेटर में अपनी लोकेशन, आवश्यकताएँ और मौजूदा कीमत की पुष्टि करें।"
+    "crewEstimateNote": "बदलाव योग्य शुरुआती अनुमान। कैलकुलेटर में अपनी लोकेशन, आवश्यकताएँ और मौजूदा कीमत की पुष्टि करें।",
+    "coreUniversalTitle": "हर Core पैकेज में शामिल",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae और Profit Recovery के साथ श्रम, लाभ और राजस्व सुरक्षा का विश्लेषण।",
+    "coreUsageNote": "पैकेज की AI उपयोगकर्ता और क्रेडिट सीमाएँ लागू होती हैं। अन्य संचालकों से तुलना के लिए पर्याप्त गोपनीयता-सुरक्षित डेटा आवश्यक है; प्रीमियम बेंचमार्क विकल्पों का शुल्क अलग है।",
+    "coreFoundationCoverage": "संचालन का आधार: श्रम, लाभ, राजस्व सुरक्षा और Pulse।",
+    "coreMarginCoverage": "Foundation की सुविधाओं के साथ इन्वेंटरी, खरीदारी और डिलीवरी की लाभप्रदता।",
+    "coreGrowthCoverage": "Foundation की सुविधाओं के साथ मार्केटिंग, आरक्षण, अतिथि अनुभव, अतिथि CRM और डिलीवरी की लाभप्रदता। इन्वेंटरी और खरीदारी शामिल नहीं हैं।",
+    "corePerformanceCoverage": "Margin और Growth की सुविधाएँ एक साथ, Foresight & Action सहित।",
+    "foresightCoverage": "Foresight & Action, Core Performance में शामिल है। Core Foundation, Core Margin और Core Growth के लिए यह अलग शुल्क वाला वैकल्पिक एक्सटेंशन है।"
   },
   "bn": {
     "packageScope": "Core প্যাকেজে ভিন্ন ভিন্ন সুবিধা রয়েছে। নির্বাচিত প্যাকেজ ও উপযুক্ত এক্সটেনশন মূল্য ক্যালকুলেটরে যাচাই করুন।",
@@ -361,7 +465,15 @@
     "crewPayrollCoverage": "টিপ ব্যবস্থাপনার কর্মপ্রবাহ Crew Payroll (Crew Pay)-এর অংশ, যা Crew Operating ও Crew Complete-এ অন্তর্ভুক্ত। Crew Pay-এর জন্য Crew Operations প্রয়োজন।",
     "crewCoverageExclusions": "Crew Starter ও Schedule & Time-এ এই কর্মপ্রবাহগুলো অন্তর্ভুক্ত নয়।",
     "crewHandoverCoverage": "সময়সূচি ব্যবস্থাপনায় ম্যানেজারের হ্যান্ডওভার দেখা যায়। হ্যান্ডওভার তৈরি ও পরিচালনার লগবুক ব্যবহারের জন্য Crew Operations প্রয়োজন।",
-    "crewEstimateNote": "সম্পাদনাযোগ্য প্রাথমিক হিসাব। ক্যালকুলেটরে আপনার লোকেশন, প্রয়োজন ও বর্তমান মূল্য নিশ্চিত করুন।"
+    "crewEstimateNote": "সম্পাদনাযোগ্য প্রাথমিক হিসাব। ক্যালকুলেটরে আপনার লোকেশন, প্রয়োজন ও বর্তমান মূল্য নিশ্চিত করুন।",
+    "coreUniversalTitle": "প্রতিটি Core প্যাকেজে অন্তর্ভুক্ত",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae ও Profit Recovery-এর পাশাপাশি শ্রম, লাভ ও রাজস্ব সুরক্ষার বিশ্লেষণ।",
+    "coreUsageNote": "প্যাকেজের AI ব্যবহারকারী ও ক্রেডিট সীমা প্রযোজ্য। সমকক্ষের সঙ্গে তুলনার জন্য পর্যাপ্ত গোপনীয়তা-সুরক্ষিত ডেটা প্রয়োজন; প্রিমিয়াম বেঞ্চমার্ক বিকল্পের মূল্য আলাদা।",
+    "coreFoundationCoverage": "পরিচালনার ভিত্তি: শ্রম, লাভ, রাজস্ব সুরক্ষা ও Pulse।",
+    "coreMarginCoverage": "Foundation-এর সুবিধার সঙ্গে মজুত, ক্রয় ও ডেলিভারির লাভজনকতা।",
+    "coreGrowthCoverage": "Foundation-এর সুবিধার সঙ্গে বিপণন, রিজার্ভেশন, অতিথির অভিজ্ঞতা, অতিথি CRM ও ডেলিভারির লাভজনকতা। মজুত ও ক্রয় অন্তর্ভুক্ত নয়।",
+    "corePerformanceCoverage": "Margin ও Growth-এর সুবিধা একসঙ্গে, Foresight & Action-সহ।",
+    "foresightCoverage": "Core Performance-এ Foresight & Action অন্তর্ভুক্ত। Core Foundation, Core Margin ও Core Growth-এর জন্য এটি আলাদা মূল্যের ঐচ্ছিক এক্সটেনশন।"
   },
   "ur": {
     "packageScope": "Core پیکیجز میں مختلف صلاحیتیں شامل ہیں۔ منتخب پیکیج اور اہل اضافوں کو قیمت کے کیلکولیٹر میں دیکھیں۔",
@@ -387,7 +499,15 @@
     "crewPayrollCoverage": "ٹِپ کے طریقۂ کار Crew Payroll (Crew Pay) کا حصہ ہیں، جو Crew Operating اور Crew Complete میں شامل ہے۔ Crew Pay کے لیے Crew Operations ضروری ہے۔",
     "crewCoverageExclusions": "Crew Starter اور Schedule & Time میں یہ طریقۂ کار شامل نہیں ہیں۔",
     "crewHandoverCoverage": "شیڈولنگ میں مینیجر کی حوالگیوں کو دیکھنا شامل ہے۔ حوالگیاں بنانے اور عملیاتی لاگ بُک کے استعمال کے لیے Crew Operations ضروری ہے۔",
-    "crewEstimateNote": "قابلِ ترمیم ابتدائی تخمینے۔ کیلکولیٹر میں اپنے مقامات، ضروریات اور موجودہ قیمت کی تصدیق کریں۔"
+    "crewEstimateNote": "قابلِ ترمیم ابتدائی تخمینے۔ کیلکولیٹر میں اپنے مقامات، ضروریات اور موجودہ قیمت کی تصدیق کریں۔",
+    "coreUniversalTitle": "ہر Core پیکیج میں شامل",
+    "coreUniversalBody": "Pulse، Benchmarks، Ask Sundae اور Profit Recovery کے ساتھ عملے، منافع اور آمدنی کے تحفظ کا تجزیہ۔",
+    "coreUsageNote": "پیکیج کی AI صارف اور کریڈٹ حدود لاگو ہیں۔ ہم پیشہ اداروں سے موازنے کے لیے کافی رازداری سے محفوظ ڈیٹا درکار ہے؛ پریمیم بینچ مارک اختیارات کی قیمت الگ ہے۔",
+    "coreFoundationCoverage": "عملیاتی بنیاد: عملہ، منافع، آمدنی کا تحفظ اور Pulse۔",
+    "coreMarginCoverage": "Foundation کی سہولتوں کے ساتھ انوینٹری، خریداری اور ڈیلیوری کی منافع بخشی۔",
+    "coreGrowthCoverage": "Foundation کی سہولتوں کے ساتھ مارکیٹنگ، ریزرویشن، مہمانوں کا تجربہ، مہمان CRM اور ڈیلیوری کی منافع بخشی۔ انوینٹری اور خریداری شامل نہیں۔",
+    "corePerformanceCoverage": "Margin اور Growth کی سہولتیں یکجا، Foresight & Action سمیت۔",
+    "foresightCoverage": "Foresight & Action، Core Performance میں شامل ہے۔ Core Foundation، Core Margin اور Core Growth کے لیے یہ الگ قیمت والا اختیاری ایکسٹینشن ہے۔"
   },
   "zh-Hans": {
     "packageScope": "Core 套餐包含不同的功能。请在价格计算器中核实所选套餐及可用扩展。",
@@ -413,7 +533,15 @@
     "crewPayrollCoverage": "小费工作流属于 Crew Payroll（Crew Pay），包含在 Crew Operating 和 Crew Complete 中。使用 Crew Pay 需要 Crew Operations。",
     "crewCoverageExclusions": "Crew Starter 和 Schedule & Time 不包含这些工作流。",
     "crewHandoverCoverage": "排班功能包含查看经理交接记录。创建交接记录和使用运营日志需要 Crew Operations。",
-    "crewEstimateNote": "可编辑的初始估算。请在价格计算器中确认门店、需求和当前价格。"
+    "crewEstimateNote": "可编辑的初始估算。请在价格计算器中确认门店、需求和当前价格。",
+    "coreUniversalTitle": "每个 Core 套餐均包含",
+    "coreUniversalBody": "Pulse、Benchmarks、Ask Sundae 和 Profit Recovery，以及人力、利润和收入保障分析。",
+    "coreUsageNote": "适用各套餐的 AI 席位和积分额度。同行基准比较需要充足且受隐私保护的数据；高级基准选项单独收费。",
+    "coreFoundationCoverage": "运营基础：人力、利润、收入保障和 Pulse。",
+    "coreMarginCoverage": "Foundation 的功能，加上库存、采购和配送经济分析。",
+    "coreGrowthCoverage": "Foundation 的功能，加上营销、预订、宾客体验、宾客 CRM 和配送经济分析。不包含库存和采购。",
+    "corePerformanceCoverage": "汇集 Margin 和 Growth 的功能，并包含 Foresight & Action。",
+    "foresightCoverage": "Core Performance 包含 Foresight & Action。对于 Core Foundation、Core Margin 和 Core Growth，它是单独收费的可选扩展。"
   },
   "ja": {
     "packageScope": "Core の各プランに含まれる機能は異なります。選択したプランと利用可能な拡張機能を料金シミュレーターでご確認ください。",
@@ -439,7 +567,15 @@
     "crewPayrollCoverage": "チップのワークフローは Crew Payroll（Crew Pay）の機能で、Crew Operating と Crew Complete に含まれます。Crew Pay には Crew Operations が必要です。",
     "crewCoverageExclusions": "Crew Starter と Schedule & Time には、これらのワークフローは含まれません。",
     "crewHandoverCoverage": "シフト管理には管理者の引き継ぎの閲覧が含まれます。引き継ぎの作成と業務ログの利用には Crew Operations が必要です。",
-    "crewEstimateNote": "編集可能な初期見積もりです。拠点数、要件、現在の料金を料金計算ツールでご確認ください。"
+    "crewEstimateNote": "編集可能な初期見積もりです。拠点数、要件、現在の料金を料金計算ツールでご確認ください。",
+    "coreUniversalTitle": "すべての Core プランに含まれる機能",
+    "coreUniversalBody": "Pulse、Benchmarks、Ask Sundae、Profit Recovery と、人件費・利益・売上保全の分析。",
+    "coreUsageNote": "プランごとの AI 席数とクレジット上限が適用されます。他社との比較には十分なプライバシー保護済みデータが必要です。高度なベンチマーク機能は別料金です。",
+    "coreFoundationCoverage": "運営の基盤：人件費、利益、売上保全、Pulse。",
+    "coreMarginCoverage": "Foundation の機能に、在庫・購買・デリバリー採算の分析を追加。",
+    "coreGrowthCoverage": "Foundation の機能に、マーケティング・予約・ゲスト体験・ゲスト CRM・デリバリー採算の分析を追加。在庫と購買は含まれません。",
+    "corePerformanceCoverage": "Margin と Growth の機能を統合し、Foresight & Action も含まれます。",
+    "foresightCoverage": "Foresight & Action は Core Performance に含まれます。Core Foundation、Core Margin、Core Growth では別料金の任意の拡張機能です。"
   },
   "ko": {
     "packageScope": "Core 패키지마다 포함 기능이 다릅니다. 선택한 패키지와 이용 가능한 확장 기능을 요금 계산기에서 확인하세요.",
@@ -465,7 +601,15 @@
     "crewPayrollCoverage": "팁 업무 흐름은 Crew Payroll(Crew Pay)에 속하며 Crew Operating과 Crew Complete에 포함됩니다. Crew Pay에는 Crew Operations가 필요합니다.",
     "crewCoverageExclusions": "Crew Starter와 Schedule & Time에는 이러한 업무 흐름이 포함되지 않습니다.",
     "crewHandoverCoverage": "일정 관리에는 관리자 인수인계 조회가 포함됩니다. 인수인계 작성과 운영일지 사용에는 Crew Operations가 필요합니다.",
-    "crewEstimateNote": "수정 가능한 시작 견적입니다. 계산기에서 사업장 수, 요구 사항, 현재 요금을 확인하세요."
+    "crewEstimateNote": "수정 가능한 시작 견적입니다. 계산기에서 사업장 수, 요구 사항, 현재 요금을 확인하세요.",
+    "coreUniversalTitle": "모든 Core 패키지에 포함",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae, Profit Recovery와 인력·이익·매출 보호 분석.",
+    "coreUsageNote": "패키지별 AI 좌석 및 크레딧 한도가 적용됩니다. 동종 업체 비교에는 충분한 개인정보 보호 데이터가 필요하며, 프리미엄 벤치마크 옵션은 별도 요금입니다.",
+    "coreFoundationCoverage": "운영의 기본: 인력, 이익, 매출 보호 및 Pulse.",
+    "coreMarginCoverage": "Foundation 범위에 재고·구매·배달 수익성 분석을 추가합니다.",
+    "coreGrowthCoverage": "Foundation 범위에 마케팅·예약·고객 경험·고객 CRM·배달 수익성 분석을 추가합니다. 재고와 구매는 포함되지 않습니다.",
+    "corePerformanceCoverage": "Margin과 Growth 범위를 통합하며 Foresight & Action을 포함합니다.",
+    "foresightCoverage": "Foresight & Action은 Core Performance에 포함됩니다. Core Foundation, Core Margin, Core Growth에서는 별도 요금의 선택 확장 기능입니다."
   },
   "id": {
     "packageScope": "Paket Core mencakup kemampuan yang berbeda. Periksa paket pilihan dan ekstensi yang memenuhi syarat di kalkulator harga.",
@@ -491,7 +635,15 @@
     "crewPayrollCoverage": "Alur tip merupakan bagian dari Crew Payroll (Crew Pay), yang termasuk dalam Crew Operating dan Crew Complete. Crew Pay memerlukan Crew Operations.",
     "crewCoverageExclusions": "Crew Starter dan Schedule & Time tidak mencakup alur ini.",
     "crewHandoverCoverage": "Penjadwalan mencakup melihat serah terima manajer. Membuat serah terima dan menggunakan log operasional memerlukan Crew Operations.",
-    "crewEstimateNote": "Estimasi awal yang dapat diedit. Konfirmasikan lokasi, kebutuhan, dan harga terkini di kalkulator."
+    "crewEstimateNote": "Estimasi awal yang dapat diedit. Konfirmasikan lokasi, kebutuhan, dan harga terkini di kalkulator.",
+    "coreUniversalTitle": "Termasuk dalam setiap paket Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae, dan Profit Recovery, serta analisis tenaga kerja, laba, dan perlindungan pendapatan.",
+    "coreUsageNote": "Batas pengguna AI dan kredit paket berlaku. Perbandingan dengan rekan membutuhkan data terlindungi yang memadai; opsi tolok ukur premium dikenakan biaya terpisah.",
+    "coreFoundationCoverage": "Dasar operasional: tenaga kerja, laba, perlindungan pendapatan, dan Pulse.",
+    "coreMarginCoverage": "Cakupan Foundation ditambah persediaan, pembelian, dan ekonomi pengantaran.",
+    "coreGrowthCoverage": "Cakupan Foundation ditambah pemasaran, reservasi, pengalaman tamu, CRM tamu, dan ekonomi pengantaran. Persediaan dan pembelian tidak termasuk.",
+    "corePerformanceCoverage": "Menggabungkan cakupan Margin dan Growth, termasuk Foresight & Action.",
+    "foresightCoverage": "Foresight & Action termasuk dalam Core Performance. Untuk Core Foundation, Core Margin, dan Core Growth, fitur ini merupakan ekstensi opsional dengan harga terpisah."
   },
   "ms": {
     "packageScope": "Pakej Core merangkumi keupayaan yang berbeza. Semak pakej pilihan dan sambungan yang layak dalam kalkulator harga.",
@@ -517,7 +669,15 @@
     "crewPayrollCoverage": "Aliran tip ialah sebahagian daripada Crew Payroll (Crew Pay), yang termasuk dalam Crew Operating dan Crew Complete. Crew Pay memerlukan Crew Operations.",
     "crewCoverageExclusions": "Crew Starter dan Schedule & Time tidak merangkumi aliran ini.",
     "crewHandoverCoverage": "Penjadualan merangkumi paparan serah tugas pengurus. Mencipta serah tugas dan menggunakan log operasi memerlukan Crew Operations.",
-    "crewEstimateNote": "Anggaran awal yang boleh disunting. Sahkan lokasi, keperluan dan harga semasa dalam kalkulator."
+    "crewEstimateNote": "Anggaran awal yang boleh disunting. Sahkan lokasi, keperluan dan harga semasa dalam kalkulator.",
+    "coreUniversalTitle": "Termasuk dalam setiap pakej Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae dan Profit Recovery, serta analisis tenaga kerja, keuntungan dan perlindungan hasil.",
+    "coreUsageNote": "Had pengguna AI dan kredit pakej terpakai. Perbandingan rakan industri memerlukan data terlindung yang mencukupi; pilihan penanda aras premium berharga berasingan.",
+    "coreFoundationCoverage": "Asas operasi: tenaga kerja, keuntungan, perlindungan hasil dan Pulse.",
+    "coreMarginCoverage": "Liputan Foundation serta inventori, pembelian dan ekonomi penghantaran.",
+    "coreGrowthCoverage": "Liputan Foundation serta pemasaran, tempahan, pengalaman tetamu, CRM tetamu dan ekonomi penghantaran. Inventori dan pembelian tidak termasuk.",
+    "corePerformanceCoverage": "Menggabungkan liputan Margin dan Growth, termasuk Foresight & Action.",
+    "foresightCoverage": "Foresight & Action termasuk dalam Core Performance. Bagi Core Foundation, Core Margin dan Core Growth, ia ialah tambahan pilihan dengan harga berasingan."
   },
   "vi": {
     "packageScope": "Các gói Core bao gồm những tính năng khác nhau. Kiểm tra gói đã chọn và các tiện ích mở rộng phù hợp trong công cụ tính giá.",
@@ -543,7 +703,15 @@
     "crewPayrollCoverage": "Quy trình tiền tip thuộc Crew Payroll (Crew Pay), được bao gồm trong Crew Operating và Crew Complete. Crew Pay yêu cầu Crew Operations.",
     "crewCoverageExclusions": "Crew Starter và Schedule & Time không bao gồm các quy trình này.",
     "crewHandoverCoverage": "Lập lịch bao gồm xem bàn giao của quản lý. Tạo bàn giao và sử dụng nhật ký vận hành yêu cầu Crew Operations.",
-    "crewEstimateNote": "Ước tính ban đầu có thể chỉnh sửa. Xác nhận số cơ sở, yêu cầu và giá hiện tại trong công cụ tính giá."
+    "crewEstimateNote": "Ước tính ban đầu có thể chỉnh sửa. Xác nhận số cơ sở, yêu cầu và giá hiện tại trong công cụ tính giá.",
+    "coreUniversalTitle": "Bao gồm trong mọi gói Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae và Profit Recovery, cùng phân tích nhân lực, lợi nhuận và bảo vệ doanh thu.",
+    "coreUsageNote": "Áp dụng giới hạn người dùng AI và tín dụng của gói. So sánh với đơn vị tương đồng cần đủ dữ liệu được bảo vệ quyền riêng tư; tùy chọn nâng cao tính phí riêng.",
+    "coreFoundationCoverage": "Nền tảng vận hành: nhân lực, lợi nhuận, bảo vệ doanh thu và Pulse.",
+    "coreMarginCoverage": "Phạm vi Foundation cộng thêm tồn kho, mua hàng và hiệu quả kinh tế giao hàng.",
+    "coreGrowthCoverage": "Phạm vi Foundation cộng thêm tiếp thị, đặt chỗ, trải nghiệm khách, CRM khách và hiệu quả kinh tế giao hàng. Không bao gồm tồn kho và mua hàng.",
+    "corePerformanceCoverage": "Kết hợp phạm vi Margin và Growth, bao gồm Foresight & Action.",
+    "foresightCoverage": "Foresight & Action được bao gồm trong Core Performance. Với Core Foundation, Core Margin và Core Growth, đây là phần mở rộng tùy chọn tính phí riêng."
   },
   "th": {
     "packageScope": "แพ็กเกจ Core มีความสามารถต่างกัน โปรดตรวจสอบแพ็กเกจที่เลือกและส่วนเสริมที่ใช้ได้ในเครื่องคำนวณราคา",
@@ -569,6 +737,14 @@
     "crewPayrollCoverage": "ขั้นตอนจัดการทิปเป็นส่วนหนึ่งของ Crew Payroll (Crew Pay) ซึ่งรวมอยู่ใน Crew Operating และ Crew Complete โดย Crew Pay ต้องมี Crew Operations",
     "crewCoverageExclusions": "Crew Starter และ Schedule & Time ไม่รวมขั้นตอนเหล่านี้",
     "crewHandoverCoverage": "การจัดตารางรวมการดูบันทึกส่งต่องานของผู้จัดการ การสร้างบันทึกส่งต่องานและการใช้สมุดบันทึกการดำเนินงานต้องมี Crew Operations",
-    "crewEstimateNote": "ประมาณการเริ่มต้นที่แก้ไขได้ โปรดยืนยันจำนวนสาขา ความต้องการ และราคาปัจจุบันในเครื่องคำนวณราคา"
+    "crewEstimateNote": "ประมาณการเริ่มต้นที่แก้ไขได้ โปรดยืนยันจำนวนสาขา ความต้องการ และราคาปัจจุบันในเครื่องคำนวณราคา",
+    "coreUniversalTitle": "รวมอยู่ในทุกแพ็กเกจ Core",
+    "coreUniversalBody": "Pulse, Benchmarks, Ask Sundae และ Profit Recovery พร้อมการวิเคราะห์แรงงาน กำไร และการรักษารายได้",
+    "coreUsageNote": "เป็นไปตามจำนวนผู้ใช้ AI และเครดิตของแพ็กเกจ การเปรียบเทียบกับธุรกิจใกล้เคียงต้องมีข้อมูลที่ปกป้องความเป็นส่วนตัวเพียงพอ ตัวเลือกขั้นสูงคิดราคาแยก",
+    "coreFoundationCoverage": "พื้นฐานการดำเนินงาน: แรงงาน กำไร การรักษารายได้ และ Pulse",
+    "coreMarginCoverage": "ขอบเขต Foundation พร้อมสินค้าคงคลัง การจัดซื้อ และความคุ้มค่าของการจัดส่ง",
+    "coreGrowthCoverage": "ขอบเขต Foundation พร้อมการตลาด การจอง ประสบการณ์ลูกค้า CRM ลูกค้า และความคุ้มค่าของการจัดส่ง ไม่รวมสินค้าคงคลังและการจัดซื้อ",
+    "corePerformanceCoverage": "รวมขอบเขต Margin และ Growth พร้อม Foresight & Action",
+    "foresightCoverage": "Foresight & Action รวมอยู่ใน Core Performance สำหรับ Core Foundation, Core Margin และ Core Growth จะเป็นส่วนเสริมแบบเลือกได้ที่คิดราคาแยก"
   }
 }

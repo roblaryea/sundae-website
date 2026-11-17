@@ -78,7 +78,15 @@ Sundae Crew connects workforce execution to the same decision-intelligence layer
 
 Core and Crew can be evaluated separately or together. Core connects operating evidence and decisions; Crew runs workforce and daily execution. Sundae connects to suitable POS and accounting systems; it does not replace an accounting general ledger. Confirm the actual connector, data scope and country requirements before committing to a rollout.
 
-Core packages include different module sets. A capability described in the product catalogue is not automatically included in every package. Crew products and bundles use first-location prices plus additional-location bands. Performance includes Foresight; do not count it twice in an estimate. Implementation, integration scope, taxes, support, payment schedule and optional extensions affect the comparison.
+Every Core package includes Pulse, base Benchmarks, Ask Sundae and Profit Recovery, plus labor, profit and revenue assurance analysis. Package AI seats and credit allowances apply; peer benchmarks need sufficient privacy-protected data, and premium benchmark options are separately priced.
+
+Core Foundation provides the operating baseline. Core Margin adds inventory, purchasing and delivery economics. Core Growth adds marketing, reservations, guest experience, guest CRM and delivery economics; it does not include the inventory and purchasing experiences. Core Performance combines Margin and Growth coverage and includes Foresight & Action. Foresight & Action is an optional, separately priced extension for Foundation, Margin and Growth; do not count it twice in Performance.
+
+Watchtower is a separately priced extension only for Core Growth and Core Performance. Choose Competitive Intelligence, Event & Calendar Signals, Market Trends or the full bundle. Eligibility does not mean the extension is included in the Core price.
+
+Crew tasks, checklists and the operational shift logbook require Crew Operations (called Crew Manage in the calculator). Tip workflows use Crew Payroll (Crew Pay), which requires Crew Operations. Crew Operating and Crew Complete include these workflows; Crew Starter and Schedule & Time do not. Scheduling allows viewing manager handovers; creating handovers and using the operational logbook require Crew Operations. Confirm scope in the Crew pages and calculator.
+
+Crew products and bundles use first-location prices plus additional-location bands. Implementation, integration scope, taxes, support, payment schedule and optional extensions affect the comparison.
 
 - [Current pricing calculator](https://pricing.sundae.io): Authoritative current estimate for the selected products and locations
 - [Active public pricing catalogue](https://www.sundae.io/api/pricing/catalog): Published database catalogue version, current list rates and included module IDs
