@@ -63,7 +63,8 @@ export function PhoneCarousel({
           data-phone-carousel
           onScroll={onScroll}
           onKeyDown={event => {
-            if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key) || (event.target as HTMLElement).matches('input, select, textarea')) return;
+            // Nested screen content keeps its own scrolling and control keys.
+            if (event.target !== event.currentTarget || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
             event.preventDefault();
             const rtl = getComputedStyle(event.currentTarget).direction === 'rtl';
             go(event.key === 'Home' ? 0 : event.key === 'End' ? screens.length - 1 : active + ((event.key === 'ArrowRight') !== rtl ? 1 : -1));
