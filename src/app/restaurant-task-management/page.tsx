@@ -6,5 +6,5 @@ import { OperatorWorkflowPage } from '@/components/seo/OperatorWorkflowPage'
 export default async function RestaurantTaskManagementPage() {
   const locale = resolveWebsiteLocale(await cookies())
   const copy = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy]
-  return <OperatorWorkflowPage {...copy.pages['restaurant-task-management']} shared={copy.shared} locale={locale} proof="tasks" accent="from-[#FF5C4D] to-[#F59E0B]" />
+  return <OperatorWorkflowPage {...copy.pages['restaurant-task-management']} shared={copy.shared} locale={locale} proof="tasks" />
 }

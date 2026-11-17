@@ -1,5 +1,6 @@
 'use client';
 
+import { BrandStatement } from '@/components/ui/BrandEmphasis';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { getLocalizedPathname } from '@/lib/i18n';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
@@ -227,8 +228,8 @@ export default function ProductPage() {
   const creamMid = productCreamMidCopy[locale as keyof typeof productCreamMidCopy] ?? productCreamMidCopy.en;
 
   return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={ui.heroBadge} title={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productTitle} description={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productDescription}>
+    <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
+      <PageHero badge={ui.heroBadge} title={<BrandStatement text={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productTitle} />} description={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.productDescription}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta("/pricing", "see_pricing_product_hero", { page: "/product" })}>{ui.heroPrimary}</Button>
           <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_product_hero", { page: "/product" })}>{ui.heroSecondary}</Button>

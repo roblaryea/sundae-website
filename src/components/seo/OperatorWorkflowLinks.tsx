@@ -21,7 +21,7 @@ export function OperatorWorkflowLinks() {
   const { locale } = useWebsiteI18n()
   const copy = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links
   return (
-    <section className="border-y border-[var(--border-default)] bg-[var(--navy-deep)] px-4 py-20 sm:px-6 sm:py-28 lg:px-8">
+    <section className="border-y border-[var(--border-default)] brand-editorial-wash px-4 py-20 sm:px-6 sm:py-28 lg:px-8">
       <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
         <FadeUp>
           <p className="eyebrow mb-4">{copy.eyebrow}</p>
@@ -32,7 +32,7 @@ export function OperatorWorkflowLinks() {
           {destinations.map(([key, path]) => (
             <Link key={path} href={getLocalizedPathname(path, locale)} className="group flex! w-full min-h-16 items-center justify-between gap-6 px-0! py-5! text-lg font-medium text-[var(--text-primary)] transition-colors hover:text-[var(--warm-coral)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--warm-coral)]">
               <span>{copy[key]}</span>
-              <ArrowUpRight aria-hidden className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-0.5 rtl:-scale-x-100" />
+              <ArrowUpRight aria-hidden className="h-5 w-5 shrink-0 text-[var(--accent-warm)] transition-transform group-hover:-translate-y-0.5 rtl:-scale-x-100" />
             </Link>
           ))}
         </nav>

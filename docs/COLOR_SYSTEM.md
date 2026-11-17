@@ -21,6 +21,7 @@
 | Token | Dark | Light | Use |
 |-------|------|-------|-----|
 | `--text-display` | `#FBF8F4` warm off-white | `#2A2320` warm ink | **All display headings** (`.hero-h1/h2`, `.section-h2/h3/h4`, `.card-title`). Not clinical `#FFF`. |
+| `--text-warm` | `#F6C66B` butter/caramel | `#98501C` deep caramel | Selected headline phrases and editorial accents. The darker light-theme value preserves contrast; do not use pale butter directly on paper. |
 | `--text-primary` | `#FFFFFF` | `#2A2320` | Max-contrast body/UI, `.text-contrast-high`, white-on-photo |
 | `--eyebrow` | cream @62% | ink @55% | Section eyebrows/kickers via the `.eyebrow` class — **muted, never coral** |
 
@@ -33,6 +34,8 @@
 5. **Data-state colors stay data-state.** `--positive` (green) / `--warning` (amber) / `--critical` (red) live inside product mockups and status only. The Trust olive (`--trust`) is a brand-surface color and must stay visually distinct from the live-data green.
 6. **The closing CTA gradient is punctuation, not a palette rule.** `--grad-warm-cta` / `bg-grad-deep` belong at page-ending CTAs only — a drama beat, not a repeated surface treatment.
 7. **Light mode is first-class.** Any fixed color must be checked in both themes. A light-butter/cream value on white is illegible; theme-flipping tokens on an always-dark slab need the slab pinned (`.surface-always-dark`).
+
+For search/editorial pages, `BrandEmphasis` wraps an authored phrase without changing the wording. `src/styles/search-presentation.css` supplies warm editorial surfaces, action links and olive evidence areas; it does not replace product/data colors or recolor the whole website. Cream closing sections explicitly pin heading text to ink in both themes. Article styling is scoped to the search-authority guides, preserving other content owners' work.
 
 ## Legacy tokens (retired 2026-06 — do not reintroduce)
 

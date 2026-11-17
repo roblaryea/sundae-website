@@ -51,6 +51,7 @@
   --text-faint: rgba(255, 255, 255, 0.2);
   --muted-grey: #79819A;
   --eyebrow: rgba(246, 241, 232, 0.62);  /* muted warm label - eyebrows/kickers. Coral is freed for CTAs + live signals, not every section label. */
+  --text-warm: #F6C66B; /* caramel/amber emphasis on espresso */
   --text-display: #FBF8F4;               /* warm off-white for display headings on dark - matches the hero headline + wordmark, not clinical pure #FFF */
 
   /* ─── Surface Transparency Scale ─── */
@@ -206,6 +207,7 @@ html.light {
   --text-faint: rgba(36, 29, 23, 0.16);
   --muted-grey: #857869;
   --eyebrow: rgba(36, 29, 23, 0.58);   /* warm label on light (warm ink, not coral) */
+  --text-warm: #98501C; /* deep caramel emphasis on warm paper */
   --text-display: #1E1711;             /* deep warm ink display headings → more punch in light */
 
   /* ─── Surface Transparency Scale ─── */

@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
+import brandEmphasis from '@/content/brand-emphasis.json'
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
 import { PRICING_URL } from '@/lib/urls'
 import { Button } from '@/components/ui/Button'
@@ -26,13 +28,12 @@ export default async function Restaurant365AlternativePage() {
   }
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)]">
+    <div className="search-brand-page min-h-screen overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)]">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
-      <section className="relative overflow-hidden px-4 pb-20 pt-32 sm:px-6 lg:px-8">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1C47FF]/20 via-transparent to-[#FF5C4D]/10" aria-hidden />
+      <section className="search-hero relative overflow-hidden px-4 pb-20 pt-32 sm:px-6 lg:px-8">
         <div className="relative z-10 mx-auto max-w-5xl">
-          <p className="eyebrow mb-5">{copy.eyebrow}</p>
-          <h1 className="hero-h1 max-w-4xl text-balance">{copy.title}</h1>
+          <p className="eyebrow search-hero-eyebrow mb-5">{copy.eyebrow}</p>
+          <h1 className="hero-h1 max-w-4xl text-balance"><BrandEmphasis text={copy.title} phrase={brandEmphasis[locale as keyof typeof brandEmphasis][4]} /></h1>
           <p className="body-xl mt-7 max-w-3xl text-[var(--text-supporting)]">
             {copy.description}
           </p>
@@ -49,13 +50,13 @@ export default async function Restaurant365AlternativePage() {
             <h2 className="section-h2 mb-5">{copy.questions[2].title}</h2>
             <p className="body-lg text-[var(--text-supporting)]">{commercial.shortlist}</p>
             <div className="mt-7 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold">
-              {['restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'].map(slug => <Link key={slug} className="underline underline-offset-4 hover:text-[var(--warm-coral)]" href={href(`/${slug}`)}>{operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].pages[slug as keyof typeof operatorWorkflowCopy[typeof locale]['pages']].title} →</Link>)}
+              {['restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'].map(slug => <Link key={slug} className="brand-action-link underline underline-offset-4 hover:text-[var(--warm-coral)]" href={href(`/${slug}`)}>{operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].pages[slug as keyof typeof operatorWorkflowCopy[typeof locale]['pages']].title} →</Link>)}
             </div>
           </div>
-          <aside className="border-s border-[var(--border-default)] ps-7">
+          <aside className="brand-evidence-surface border-s ps-7 py-6 pe-6">
             <h2 className="text-xl font-semibold mb-4">Core · Crew · Core + Crew</h2>
             <p className="text-[var(--text-supporting)] leading-relaxed">{commercial.costComparison}</p>
-            <a className="mt-6 inline-flex font-semibold underline underline-offset-4" href={PRICING_URL}>pricing.sundae.io →</a>
+            <a className="brand-action-link mt-6 inline-flex font-semibold underline underline-offset-4" href={PRICING_URL}>pricing.sundae.io →</a>
             <a className="mt-4 block text-sm underline underline-offset-4 text-[var(--text-supporting)]" href="https://www.restaurant365.com/pricing/">Restaurant365 · restaurant365.com/pricing →</a>
           </aside>
         </div>
@@ -63,7 +64,7 @@ export default async function Restaurant365AlternativePage() {
 
       <NativeWorkflowProof locale={locale} view="tasks" />
 
-      <section className="border-y border-[var(--border-default)] bg-white/[0.02] px-4 py-20 sm:px-6 lg:px-8">
+      <section className="search-criteria border-y border-[var(--border-default)] bg-[var(--surface-faint)] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <p className="eyebrow mb-4">{copy.criteriaEyebrow}</p>
           <h2 className="section-h2 mb-8 max-w-3xl">{copy.criteriaTitle}</h2>
@@ -104,7 +105,7 @@ export default async function Restaurant365AlternativePage() {
       <section className="px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2">
           {questions.slice(0, 2).map((item) => (
-            <article key={item.title} className="border-t-2 border-[#FF5C4D] pt-5">
+            <article key={item.title} className="border-t-2 border-[var(--warm-caramel)] pt-5">
               <h2 className="mb-3 text-lg font-semibold">{item.title}</h2>
               <p className="body-base text-[var(--text-supporting)]">{item.body}</p>
             </article>
@@ -112,7 +113,7 @@ export default async function Restaurant365AlternativePage() {
         </div>
       </section>
 
-      <section className="bg-[var(--surface-faint)] px-4 py-20 sm:px-6 lg:px-8">
+      <section className="brand-evidence-surface px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <p className="eyebrow mb-4">{copy.sourcesEyebrow}</p>
           <h2 className="section-h2 mb-6">{copy.sourcesTitle}</h2>
@@ -129,7 +130,7 @@ export default async function Restaurant365AlternativePage() {
       </section>
 
       <section className="bg-[var(--cream)] px-4 py-20 text-center text-[var(--ink)] sm:px-6 lg:px-8">
-        <h2 className="section-h2 mx-auto mb-5 max-w-3xl">{copy.ctaTitle}</h2>
+        <h2 className="section-h2 mx-auto mb-5 max-w-3xl" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
         <p className="body-lg mx-auto mb-8 max-w-2xl text-black/65">{copy.ctaDescription}</p>
         <Button href={href('/demo')} variant="cta" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="platform_comparison_closing" trackingMetadata={{ destination: href('/demo') }}>{copy.ctaLabel}</Button>
       </section>

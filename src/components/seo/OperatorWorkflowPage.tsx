@@ -8,6 +8,8 @@ import type { OperatorWorkflowCopy } from '@/lib/operatorWorkflowCopy'
 import { Button } from '@/components/ui/Button'
 import { CreamBreak } from '@/components/ui/CreamBreak'
 import { StaggerContainer, StaggerItem } from '@/components/ui/PageAnimations'
+import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
+import brandEmphasis from '@/content/brand-emphasis.json'
 import { NativeWorkflowProof } from './NativeWorkflowProof'
 
 export type OperatorWorkflowQuestion = {
@@ -21,7 +23,6 @@ export type OperatorWorkflowPageProps = {
   proof: 'tasks' | 'logbook' | 'tips'
   eyebrow: string
   title: string
-  accent: string
   description: string
   problemTitle: string
   helpTitle: string
@@ -36,7 +37,6 @@ export type OperatorWorkflowPageProps = {
 export function OperatorWorkflowPage({
   eyebrow,
   title,
-  accent,
   description,
   problemTitle,
   helpTitle,
@@ -52,6 +52,9 @@ export function OperatorWorkflowPage({
 }: OperatorWorkflowPageProps) {
   const href = (path: string) => getLocalizedPathname(path, locale)
   const currentPath = usePathname()
+  const slug = currentPath.split('/').filter(Boolean).at(-1) ?? ''
+  const titleIndex = ['restaurant-management-platform', 'restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'].indexOf(slug)
+  const emphasis = brandEmphasis[locale as keyof typeof brandEmphasis][titleIndex]
   const demoHref = `${href('/demo')}?workflow=${encodeURIComponent(currentPath.split('/').filter(Boolean).at(-1) ?? '')}`
   const schema = {
     '@context': 'https://schema.org',
@@ -65,14 +68,13 @@ export function OperatorWorkflowPage({
 
   return (
     <MotionConfig reducedMotion="user">
-    <div className="min-h-screen overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)]">
+    <div className="search-brand-page min-h-screen overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)]">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
-      <section className="relative overflow-hidden px-4 pb-20 pt-28 sm:px-6 lg:px-8 lg:pt-32">
-        <div className={`absolute inset-0 bg-gradient-to-br ${accent} opacity-[0.14]`} aria-hidden />
+      <section className="search-hero relative overflow-hidden px-4 pb-20 pt-28 sm:px-6 lg:px-8 lg:pt-32">
         <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.8fr)]">
           <div>
-            <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55 }} className="eyebrow mb-5">{eyebrow}</motion.p>
-            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.08 }} className="hero-h1 max-w-4xl text-balance">{title}</motion.h1>
+            <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55 }} className="eyebrow search-hero-eyebrow mb-5">{eyebrow}</motion.p>
+            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.08 }} className="hero-h1 max-w-4xl text-balance"><BrandEmphasis text={title} phrase={emphasis} /></motion.h1>
             <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.16 }} className="body-xl mt-7 max-w-2xl text-[var(--text-supporting)]">{description}</motion.p>
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.24 }} className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Button href={demoHref} variant="primary" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_hero_primary" trackingMetadata={{ destination: demoHref }}>{shared.primaryCta}</Button>
@@ -84,7 +86,7 @@ export function OperatorWorkflowPage({
             <ol className="space-y-6">
               {shared.steps.map((step, index) => (
                 <li key={step} className="flex items-start gap-4">
-                  <span className="font-display text-2xl italic text-[#F6C66B]">0{index + 1}</span>
+                  <span className="font-display text-2xl italic search-rhythm-number">0{index + 1}</span>
                   <span className="pt-1 text-lg font-medium text-[var(--text-primary)]">{step}</span>
                 </li>
               ))}
@@ -105,7 +107,7 @@ export function OperatorWorkflowPage({
             <StaggerContainer className="divide-y divide-[var(--border-default)] border-y border-[var(--border-default)]">
               {challenges.map((challenge, index) => (
                 <StaggerItem key={challenge} className="flex gap-5 py-5">
-                  <span className="font-display text-xl italic text-[#FF8473]">0{index + 1}</span>
+                  <span className="font-display text-xl italic text-[var(--text-warm)]">0{index + 1}</span>
                   <p className="text-[var(--text-supporting)]">{challenge}</p>
                 </StaggerItem>
               ))}
@@ -125,14 +127,14 @@ export function OperatorWorkflowPage({
         </div>
       </section>
 
-      <section className="bg-[var(--surface-faint)] px-4 py-20 sm:px-6 lg:px-8">
+      <section className="search-outcomes px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <p className="eyebrow mb-4 text-center">{shared.outcomesEyebrow}</p>
           <h2 className="section-h2 mx-auto mb-10 max-w-3xl text-center">{outcomesTitle}</h2>
           <div className="grid gap-8 md:grid-cols-3">
             {outcomes.map((outcome, index) => (
-              <div key={outcome} className="border-t-2 border-[#FF5C4D] pt-5">
-                <div className="mb-4 font-display text-3xl italic text-[#FF8473]">0{index + 1}</div>
+              <div key={outcome} data-outcome className="border-t-2 pt-5">
+                <div data-outcome-number className="mb-4 font-display text-3xl italic text-[var(--text-warm)]">0{index + 1}</div>
                 <p className="text-lg font-semibold leading-snug">{outcome}</p>
               </div>
             ))}
@@ -155,8 +157,8 @@ export function OperatorWorkflowPage({
         </div>
       </section>
 
-      <section className="px-4 py-20 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl rounded-3xl border border-[#FF5C4D]/25 bg-gradient-to-br from-[#FF5C4D]/10 to-transparent p-8 sm:p-12">
+      <section className="search-connected px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl">
           <p className="eyebrow mb-4">{shared.connectedEyebrow}</p>
           <h2 className="section-h2 mb-5">{shared.connectedTitle}</h2>
           <p className="body-lg mb-8 max-w-3xl text-[var(--text-supporting)]">
@@ -164,7 +166,7 @@ export function OperatorWorkflowPage({
           </p>
           <div className="flex flex-wrap gap-3">
             {related.map(({ label, href }) => (
-              <Link key={href} href={getLocalizedPathname(href, locale)} className="rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium text-[var(--text-primary)] transition hover:border-[#FF5C4D]/50 hover:bg-white/[0.04]">
+              <Link key={href} href={getLocalizedPathname(href, locale)} className="rounded-full border border-[var(--border-default)] px-4 py-2 brand-action-link text-sm font-medium transition hover:border-[var(--accent-warm)] hover:bg-[var(--surface-subtle)]">
                 {label} →
               </Link>
             ))}
@@ -173,7 +175,7 @@ export function OperatorWorkflowPage({
       </section>
 
       <section className="bg-[var(--cream)] px-4 py-20 text-center text-[var(--ink)] sm:px-6 lg:px-8">
-        <h2 className="section-h2 mx-auto mb-5 max-w-3xl">{shared.ctaTitle}</h2>
+        <h2 className="section-h2 mx-auto mb-5 max-w-3xl" style={{ color: 'var(--ink)' }}>{shared.ctaTitle}</h2>
         <p className="body-lg mx-auto mb-8 max-w-2xl text-black/65">{shared.ctaDescription}</p>
         <Button href={demoHref} variant="cta" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_closing_primary" trackingMetadata={{ destination: demoHref }}>{shared.primaryCta}</Button>
       </section>
