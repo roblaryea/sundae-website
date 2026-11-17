@@ -38,8 +38,7 @@ export const generatedLocalCopy = {
           "industry": "Die Abweichung der Marge wird oft erst am Monatsende erklärt, nachdem die Kosten bereits verbucht sind.",
           "sundae": "Insights verbindet Umsatz, Arbeitskosten, Lebensmittelkosten, Rabatte und Preisgestaltung, damit Teams die Marge zurückgewinnen und sie nachmessen können."
         }
-      ],
-      "footnote": "Brancheneinsichten sind allgemeine Muster der Gastronomiebranche aus öffentlicher Forschung und Beratungsfeedback. Benannte Pilotergebnisse und validierte Kundenergebnisse ersetzen diesen Abschnitt, sobald sie verfügbar sind."
+      ]
     },
     "fr": {
       "eyebrow": "CONSTRUIT AVEC DES OPÉRATEURS",
@@ -77,8 +76,7 @@ export const generatedLocalCopy = {
           "industry": "L'écart de marge n'est souvent expliqué qu'en fin de mois, une fois les coûts déjà enregistrés.",
           "sundae": "Insights relie chiffre d'affaires, main-d'œuvre, coût matière, remises et prix pour que les équipes récupèrent la marge et la mesurent."
         }
-      ],
-      "footnote": "Observations sectorielles : motifs généraux de la restauration tirés de recherche publique et de retours conseil. Des résultats pilotes nommés et des résultats clients validés remplaceront cette section dès qu'ils seront disponibles."
+      ]
     },
     "es": {
       "eyebrow": "CONSTRUIDO CON OPERADORES",
@@ -116,8 +114,7 @@ export const generatedLocalCopy = {
           "industry": "La desviación de margen suele explicarse a final de mes, cuando los costes ya están registrados.",
           "sundae": "Insights conecta ingresos, mano de obra, coste de alimentos, descuentos y precios para que los equipos recuperen el margen y lo midan."
         }
-      ],
-      "footnote": "Observaciones de industria: patrones generales de la restauración basados en investigación pública y feedback de asesoría. Resultados de pilotos nombrados y resultados de clientes validados reemplazarán esta sección cuando estén disponibles."
+      ]
     },
     "nl": {
       "eyebrow": "GEBOUWD MET OPERATORS",
@@ -155,8 +152,7 @@ export const generatedLocalCopy = {
           "industry": "Margevariatie wordt vaak aan het einde van de maand verklaard, nadat de kosten al zijn geboekt.",
           "sundae": "Insights verbindt omzet, arbeid, voedselkosten, kortingen en prijzen, zodat teams de marge terugwinnen en die kunnen nameten."
         }
-      ],
-      "footnote": "Brancheobservaties zijn algemene patronen uit de horecabranche, gebaseerd op openbaar onderzoek en adviesfeedback. Genoemde pilotresultaten en gevalideerde klantresultaten vervangen dit gedeelte zodra ze beschikbaar zijn."
+      ]
     },
     "pt": {
       "eyebrow": "CONSTRUÍDO COM OPERADORES",
@@ -194,8 +190,7 @@ export const generatedLocalCopy = {
           "industry": "A variação de margem geralmente é explicada no final do mês, após os custos já terem sido registrados.",
           "sundae": "O Insights conecta receita, mão de obra, custo de alimentos, descontos e preços para que as equipes recuperem a margem e a meçam."
         }
-      ],
-      "footnote": "Observações do setor são padrões gerais da restauração, com base em pesquisas públicas e feedback consultivo. Resultados de pilotos nomeados e resultados validados de clientes substituirão esta seção assim que estiverem disponíveis."
+      ]
     },
     "hi": {
       "eyebrow": "ऑपरेटरों के साथ निर्मित",
@@ -233,8 +228,7 @@ export const generatedLocalCopy = {
           "industry": "मार्जिन भिन्नता अक्सर महीने के अंत में समझाई जाती है, जब लागत पहले से ही बुक की जा चुकी होती है।",
           "sundae": "Insights राजस्व, श्रम, खाद्य लागत, छूट और मूल्य निर्धारण को जोड़ता है ताकि टीमें मार्जिन की भरपाई कर सकें और उसे माप सकें।"
         }
-      ],
-      "footnote": "इंडस्ट्री अवलोकन सार्वजनिक शोध और सलाहकार फीडबैक से लिए गए फ़ूड-सर्विस इंडस्ट्री के सामान्य पैटर्न हैं। नामित पायलट नतीजे और सत्यापित ग्राहक परिणाम उपलब्ध होते ही इस सेक्शन की जगह लेंगे।"
+      ]
     },
     "it": {
       "eyebrow": "CREATO CON GLI OPERATORI",
@@ -272,8 +266,7 @@ export const generatedLocalCopy = {
           "industry": "Lo scostamento di margine viene spesso spiegato a fine mese, quando i costi sono ormai registrati.",
           "sundae": "Insights collega ricavi, lavoro, costo del cibo, sconti e prezzi così che i team recuperino il margine e lo misurino."
         }
-      ],
-      "footnote": "Le osservazioni di settore sono pattern generali della ristorazione tratti da ricerche pubbliche e feedback di consulenza. Risultati di pilot nominativi e risultati validati dei clienti sostituiranno questa sezione non appena disponibili."
+      ]
     },
     "ar": {
       "eyebrow": "مبني مع المشغلين",
@@ -311,8 +304,7 @@ export const generatedLocalCopy = {
           "industry": "غالبًا ما يتم تفسير تباين الهامش في نهاية الشهر، بعد أن يتم تسجيل التكاليف بالفعل.",
           "sundae": "تربط Insights الإيرادات، والعمالة، وتكاليف الطعام، والخصومات، والأسعار حتى تسترد الفرق الهامش وتقيس ما استُرِدّ."
         }
-      ],
-      "footnote": "ملاحظات الصناعة أنماط عامة لصناعة خدمات الطعام من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها."
+      ]
     },
     "ur": {
       "eyebrow": "آپریٹرز کے ساتھ بنایا گیا",
@@ -350,8 +342,7 @@ export const generatedLocalCopy = {
           "industry": "مارجن کی تبدیلی اکثر مہینے کے آخر میں وضاحت کی جاتی ہے، جب کہ اخراجات پہلے ہی بک ہو چکے ہوتے ہیں۔",
           "sundae": "Insights آمدنی، مزدوری، خوراک کی قیمت، رعایتیں، اور قیمتوں کو جوڑتا ہے تاکہ ٹیمیں مارجن بحال کر سکیں اور اُسے ماپ سکیں۔"
         }
-      ],
-      "footnote": "صنعتی مشاہدات عوامی تحقیق اور مشاورتی فیڈ بیک سے اخذ کردہ فوڈ سروس انڈسٹری کے عمومی نمونے ہیں۔ نامزد پائلٹ نتائج اور تصدیق شدہ کسٹمر نتائج دستیاب ہوتے ہی اس حصے کی جگہ لے لیں گے۔"
+      ]
     },
     "tr": {
       "eyebrow": "OPERATÖRLERLE İNŞA EDİLDİ",
@@ -389,8 +380,7 @@ export const generatedLocalCopy = {
           "industry": "Marj sapması çoğu zaman ay sonunda, maliyetler çoktan kaydedildikten sonra açıklanır.",
           "sundae": "Insights; geliri, iş gücünü, gıda maliyetini, indirimleri ve fiyatlandırmayı birbirine bağlar; böylece ekipler marjı geri kazanır ve bunu ölçer."
         }
-      ],
-      "footnote": "Sektör gözlemleri, kamuya açık araştırmalar ve danışmanlık geri bildirimlerinden derlenen genel yeme-içme sektörü kalıplarıdır. İsimli pilot sonuçlar ve doğrulanmış müşteri sonuçları, kullanıma sunulduğunda bu bölümün yerini alacaktır."
+      ]
     },
     "pl": {
       "eyebrow": "TWORZONE Z OPERATORAMI",
@@ -428,8 +418,7 @@ export const generatedLocalCopy = {
           "industry": "Wariancja marży często jest wyjaśniana na koniec miesiąca, po tym jak koszty zostały już zaksięgowane.",
           "sundae": "Insights łączy przychody, koszty pracy, koszty żywności, zniżki i ceny, aby zespoły odzyskały marżę i ją zmierzyły."
         }
-      ],
-      "footnote": "Obserwacje branżowe to ogólne wzorce branży gastronomicznej oparte na publicznych badaniach i opiniach doradczych. Nazwane wyniki pilotaży i zweryfikowane wyniki klientów zastąpią tę sekcję, gdy będą dostępne."
+      ]
     },
     "ja": {
       "eyebrow": "オペレーターによって構築されました",
@@ -467,8 +456,7 @@ export const generatedLocalCopy = {
           "industry": "マージンの変動は、コストがすでに計上された後の月末に説明されることが多いです。",
           "sundae": "Insightsは、収益、労働、食材コスト、割引、価格設定を接続し、チームがマージンを取り戻し、それを測り直せるようにします。"
         }
-      ],
-      "footnote": "業界の観察は、公開調査とアドバイザリーからのフィードバックに基づく飲食業界の一般的な傾向です。指名されたパイロット結果と検証済みの顧客成果が、利用可能になり次第このセクションを置き換えます。"
+      ]
     },
     "zh-Hans": {
       "eyebrow": "由运营商构建",
@@ -506,8 +494,7 @@ export const generatedLocalCopy = {
           "industry": "利润差异通常在月末解释，此时成本已经入账。",
           "sundae": "Insights 连接收入、劳动力、食品成本、折扣和定价，让团队追回利润并核算回来。"
         }
-      ],
-      "footnote": "行业观察是基于公开研究与顾问反馈的餐饮行业通用模式。具名的试点结果与经验证的客户成果将在可用时取代本节内容。"
+      ]
     },
     "id": {
       "eyebrow": "DIBANGUN DENGAN OPERATOR",
@@ -545,8 +532,7 @@ export const generatedLocalCopy = {
           "industry": "Varians margin sering dijelaskan di akhir bulan, setelah biaya sudah dicatat.",
           "sundae": "Insights menghubungkan pendapatan, tenaga kerja, biaya makanan, diskon, dan harga sehingga tim dapat memulihkan margin dan mengukurnya kembali."
         }
-      ],
-      "footnote": "Observasi industri adalah pola umum industri layanan makanan yang diambil dari riset publik dan masukan konsultatif. Hasil pilot bernama dan hasil pelanggan tervalidasi akan menggantikan bagian ini begitu tersedia."
+      ]
     },
     "ko": {
       "eyebrow": "운영자와 함께 구축됨",
@@ -584,8 +570,7 @@ export const generatedLocalCopy = {
           "industry": "마진 변동은 종종 월말에 설명되며, 비용이 이미 기록된 후입니다.",
           "sundae": "Insights는 수익, 노동, 식품 비용, 할인 및 가격을 연결하여 팀이 마진을 되찾고 그것을 다시 측정할 수 있도록 합니다."
         }
-      ],
-      "footnote": "업계 관찰은 공개 조사와 자문 피드백에서 도출한 외식업계의 일반적 패턴입니다. 지명된 파일럿 결과와 검증된 고객 성과가 제공되는 즉시 이 섹션을 대체합니다."
+      ]
     },
     "vi": {
       "eyebrow": "XÂY DỰNG BỞI CÁC NHÀ VẬN HÀNH",
@@ -623,8 +608,7 @@ export const generatedLocalCopy = {
           "industry": "Biến động biên thường chỉ được giải thích vào cuối tháng, sau khi chi phí đã được ghi nhận.",
           "sundae": "Insights kết nối doanh thu, lao động, chi phí thực phẩm, giảm giá và giá cả để các nhóm thu hồi biên lợi nhuận và đo lường lại."
         }
-      ],
-      "footnote": "Quan sát ngành là các mô hình chung của ngành dịch vụ ăn uống, rút ra từ nghiên cứu công khai và phản hồi tư vấn. Kết quả thí điểm có tên và kết quả khách hàng đã xác thực sẽ thay thế phần này ngay khi có."
+      ]
     },
     "ro": {
       "eyebrow": "CONSTRUIT CU OPERATORI",
@@ -662,8 +646,7 @@ export const generatedLocalCopy = {
           "industry": "Varianta de marjă este adesea explicată la sfârșitul lunii, după ce costurile sunt deja înregistrate.",
           "sundae": "Insights conectează veniturile, forța de muncă, costul alimentelor, reducerile și prețurile, astfel încât echipele să recupereze marja și să o măsoare."
         }
-      ],
-      "footnote": "Observațiile din industrie sunt tipare generale ale industriei HoReCa, extrase din cercetări publice și feedback de consultanță. Rezultatele piloților nominalizați și rezultatele validate ale clienților vor înlocui această secțiune de îndată ce devin disponibile."
+      ]
     },
     "sv": {
       "eyebrow": "BYGGD MED OPERATÖRER",
@@ -701,8 +684,7 @@ export const generatedLocalCopy = {
           "industry": "Marginalvariation förklaras ofta i slutet av månaden, efter att kostnaderna redan har bokförts.",
           "sundae": "Insights kopplar samman intäkter, arbetskraft, matkostnader, rabatter och prissättning så att team kan återvinna marginalen och mäta den."
         }
-      ],
-      "footnote": "Branschobservationer är generella mönster i restaurangbranschen hämtade från offentlig forskning och rådgivande feedback. Namngivna pilotresultat och validerade kundresultat ersätter detta avsnitt så snart de finns tillgängliga."
+      ]
     },
     "bn": {
       "eyebrow": "অপারেটরদের দ্বারা নির্মিত",
@@ -740,8 +722,7 @@ export const generatedLocalCopy = {
           "industry": "মার্জিনের পরিবর্তন প্রায়ই মাসের শেষে ব্যাখ্যা করা হয়, যখন খরচ ইতিমধ্যেই বুক করা হয়।",
           "sundae": "Insights রাজস্ব, শ্রম, খাদ্য খরচ, ডিসকাউন্ট এবং মূল্য নির্ধারণকে সংযুক্ত করে যাতে টিমগুলো মার্জিন পুনরুদ্ধার করে তা মেপে দেখতে পারে।"
         }
-      ],
-      "footnote": "ইন্ডাস্ট্রি পর্যবেক্ষণ হলো সর্বজনীন গবেষণা ও পরামর্শমূলক ফিডব্যাক থেকে নেওয়া ফুড সার্ভিস শিল্পের সাধারণ প্যাটার্ন। নামসহ পাইলট ফলাফল ও যাচাইকৃত গ্রাহক ফলাফল উপলব্ধ হওয়ামাত্র এই অংশটির স্থান নেবে।"
+      ]
     },
     "th": {
       "eyebrow": "สร้างขึ้นโดยผู้ดำเนินการ",
@@ -779,8 +760,7 @@ export const generatedLocalCopy = {
           "industry": "ความแปรปรวนของกำไรมักจะถูกอธิบายที่สิ้นเดือน หลังจากที่ค่าใช้จ่ายถูกบันทึกแล้ว",
           "sundae": "Insights เชื่อมโยงรายได้ แรงงาน ต้นทุนอาหาร ส่วนลด และการตั้งราคา เพื่อให้ทีมกู้คืนมาร์จิ้นและวัดผลย้อนกลับได้."
         }
-      ],
-      "footnote": "ข้อสังเกตของอุตสาหกรรมเป็นรูปแบบทั่วไปของธุรกิจบริการอาหาร ซึ่งได้จากงานวิจัยสาธารณะและความเห็นที่ปรึกษา ผลลัพธ์นำร่องที่ระบุชื่อและผลลัพธ์ลูกค้าที่ผ่านการตรวจสอบจะมาแทนที่ส่วนนี้ทันทีที่พร้อมใช้งาน"
+      ]
     },
     "ms": {
       "eyebrow": "DIBINA BERSAMA PENGENDALI",
@@ -818,8 +798,7 @@ export const generatedLocalCopy = {
           "industry": "Varians margin sering dijelaskan pada akhir bulan, setelah kos sudah dicatat.",
           "sundae": "Insights menghubungkan hasil, buruh, kos makanan, diskaun, dan penetapan harga supaya pasukan dapat memulihkan margin dan mengukurnya semula."
         }
-      ],
-      "footnote": "Pemerhatian industri ialah corak umum industri perkhidmatan makanan yang diambil daripada penyelidikan awam dan maklum balas perundingan. Keputusan perintis bernama dan hasil pelanggan yang disahkan akan menggantikan bahagian ini sebaik sahaja tersedia."
+      ]
     }
   }
 } as const

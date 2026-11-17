@@ -33,6 +33,10 @@ export const operatorNavigationCopy = {
       "attendance": "Time and attendance",
       "payroll": "Payroll readiness",
       "comparison": "Platform evaluation guide"
+    },
+    "crewExample": {
+      "industry": "Opening and closing checklists live in paper, chat threads or spreadsheets that no one can audit later.",
+      "sundae": "Assign opening, closing, recurring and exception work to the right person, track completion across locations and carry the evidence into the next operating decision."
     }
   },
   "ar": {
@@ -68,6 +72,10 @@ export const operatorNavigationCopy = {
       "attendance": "الوقت والحضور",
       "payroll": "جاهزية الرواتب",
       "comparison": "دليل تقييم المنصة"
+    },
+    "crewExample": {
+      "industry": "قوائم التحقق للفتح والإغلاق عالقة على ورق أو محادثات جماعية أو جداول لا يمكن لأحد تدقيقها لاحقًا.",
+      "sundae": "عيّن أعمال الافتتاح والإغلاق والمتكررة والاستثنائية للشخص المناسب، تعقب الإنجاز عبر المواقع واحمل الأدلة إلى قرار التشغيل التالي."
     }
   },
   "fr": {
@@ -103,6 +111,10 @@ export const operatorNavigationCopy = {
       "attendance": "Pointage et présence",
       "payroll": "Préparation de la paie",
       "comparison": "Guide d'évaluation de la plateforme"
+    },
+    "crewExample": {
+      "industry": "Les listes d’ouverture et de fermeture existent sur papier, dans des discussions de groupe ou des tableaux que personne ne peut auditer ensuite.",
+      "sundae": "Attribuez les tâches d’ouverture, de fermeture, récurrentes et d’exception à la bonne personne, suivez l’achèvement sur les sites et portez les preuves dans la décision opérationnelle suivante."
     }
   },
   "es": {
@@ -138,6 +150,10 @@ export const operatorNavigationCopy = {
       "attendance": "Tiempo y asistencia",
       "payroll": "Preparación de nómina",
       "comparison": "Guía de evaluación de plataformas"
+    },
+    "crewExample": {
+      "industry": "Las listas de verificación de apertura y cierre viven en papel, hilos de chat o hojas de cálculo que nadie puede auditar después.",
+      "sundae": "Asigne tareas de apertura, cierre, recurrentes y excepcionales a la persona adecuada, haga seguimiento del cumplimiento en locales y lleve la evidencia a la siguiente decisión operativa."
     }
   },
   "de": {
@@ -173,6 +189,10 @@ export const operatorNavigationCopy = {
       "attendance": "Zeit und Anwesenheit",
       "payroll": "Payroll‑Bereitschaft",
       "comparison": "Plattform‑Evaluationsleitfaden"
+    },
+    "crewExample": {
+      "industry": "Eröffnungs‑ und Abschlusschecklisten liegen auf Papier, in Chat‑Threads oder Tabellen, die niemand später prüfen kann.",
+      "sundae": "Eröffnungs‑, Abschluss‑, wiederkehrende und Ausnahmeaufgaben der richtigen Person zuweisen, die Erledigung standortübergreifend verfolgen und die Beweise in die nächste operative Entscheidung tragen."
     }
   },
   "nl": {
@@ -208,6 +228,10 @@ export const operatorNavigationCopy = {
       "attendance": "Tijd en aanwezigheid",
       "payroll": "Payroll-klaarheid",
       "comparison": "Platform-evaluatiegids"
+    },
+    "crewExample": {
+      "industry": "Openings- en sluitingschecklists bestaan op papier, in chatthreads of spreadsheets die later niet te auditen zijn.",
+      "sundae": "Ken openings-, sluitings-, terugkerende en uitzonderingswerk toe aan de juiste persoon, volg voltooiing over locaties en draag het bewijs over naar de volgende operationele beslissing."
     }
   },
   "pt": {
@@ -243,6 +267,10 @@ export const operatorNavigationCopy = {
       "attendance": "Ponto e presença",
       "payroll": "Prontidão para folha",
       "comparison": "Guia de avaliação de plataforma"
+    },
+    "crewExample": {
+      "industry": "Checklists de abertura e fechamento ficam em papel, chats ou planilhas que ninguém consegue auditar depois.",
+      "sundae": "Atribua tarefas de abertura, fechamento, recorrentes e de exceção à pessoa certa, acompanhe a conclusão entre unidades e leve a evidência para a próxima decisão operacional."
     }
   },
   "hi": {
@@ -278,6 +306,10 @@ export const operatorNavigationCopy = {
       "attendance": "टाइम और उपस्थिति",
       "payroll": "पेरोल रेडीनेस",
       "comparison": "प्लेटफ़ॉर्म मूल्यांकन गाइड"
+    },
+    "crewExample": {
+      "industry": "ओपनिंग और क्लोजिंग चेकलिस्ट कागज, चैट थ्रेड या स्प्रेडशीट में रहती हैं जिन्हें बाद में कोई ऑडिट नहीं कर सकता।",
+      "sundae": "ओपनिंग, क्लोजिंग, रेकरिंग और अपवाद कार्य उचित व्यक्ति को सौंपें, लोकेशन्स में पूरा होना ट्रैक करें और अगले ऑपरेटिंग निर्णय में सबूत को साथ रखें।"
     }
   },
   "ur": {
@@ -313,6 +345,10 @@ export const operatorNavigationCopy = {
       "attendance": "وقت اور حاضری",
       "payroll": "پے رول ریڈینس",
       "comparison": "پلیٹ فارم جائزہ گائیڈ"
+    },
+    "crewExample": {
+      "industry": "اوپننگ اور کلوزنگ چیک لسٹ کاغذ، چیٹ تھریڈز یا اسپریڈشیٹس میں ہوتی ہیں جنہیں بعد میں کوئی آڈٹ نہیں کر سکتا۔",
+      "sundae": "اوپننگ، کلوزنگ، دورانیہ وار اور استثنائی کام کو صحیح شخص کے حوالے کریں، مقامات پر مکمل ہونے کا سراغ رکھیں اور شواہد کو اگلے آپریٹنگ فیصلے تک لے جائیں۔"
     }
   },
   "it": {
@@ -348,6 +384,10 @@ export const operatorNavigationCopy = {
       "attendance": "Presenze e timbrature",
       "payroll": "Prontezza payroll",
       "comparison": "Guida di valutazione della piattaforma"
+    },
+    "crewExample": {
+      "industry": "Le checklist di apertura e chiusura vivono su carta, chat di gruppo o fogli di calcolo che nessuno può verificare dopo.",
+      "sundae": "Assegna attività di apertura, chiusura, ricorrenti ed eccezionali alla persona giusta, traccia il completamento tra le sedi e porta l'evidenza nella prossima decisione operativa."
     }
   },
   "pl": {
@@ -383,6 +423,10 @@ export const operatorNavigationCopy = {
       "attendance": "Czas i obecność",
       "payroll": "Przygotowanie do listy płac",
       "comparison": "Przewodnik oceny platformy"
+    },
+    "crewExample": {
+      "industry": "Listy kontrolne otwarcia i zamknięcia są prowadzone na papierze, w wątkach czatu lub arkuszach kalkulacyjnych, których nikt później nie audytuje.",
+      "sundae": "Przypisz pracę otwarcia, zamknięcia, cykliczną i wyjątkową właściwej osobie, śledź wykonanie w lokalizacjach i przenoś dowody do następnej decyzji operacyjnej."
     }
   },
   "tr": {
@@ -418,6 +462,10 @@ export const operatorNavigationCopy = {
       "attendance": "Zaman ve devam",
       "payroll": "Bordro hazırlığı",
       "comparison": "Platform değerlendirme rehberi"
+    },
+    "crewExample": {
+      "industry": "Açılış ve kapanış kontrol listeleri kağıtta, sohbet dizilerinde veya denetlenemeyen tablolarla tutulur.",
+      "sundae": "Açılış, kapanış, tekrarlayan ve istisna işlerini doğru kişiye atayın, lokasyonlar arasında tamamlamayı takip edin ve kanıtı bir sonraki işletme kararına taşıyın."
     }
   },
   "zh-Hans": {
@@ -453,6 +501,10 @@ export const operatorNavigationCopy = {
       "attendance": "出勤与打卡",
       "payroll": "工资准备",
       "comparison": "平台评估指南"
+    },
+    "crewExample": {
+      "industry": "开店与关店检查表记录在纸张、聊天记录或表格中，无法事后审计。",
+      "sundae": "将开店、关店、定期与异常工作分配给合适人员，跟踪跨门店的完成情况，并将证据带入下一次运营决策。"
     }
   },
   "ja": {
@@ -488,6 +540,10 @@ export const operatorNavigationCopy = {
       "attendance": "勤務時間と出勤管理",
       "payroll": "給与準備",
       "comparison": "プラットフォーム評価ガイド"
+    },
+    "crewExample": {
+      "industry": "オープン・クローズのチェックリストが紙、チャット、スプレッドシートに残り、後で監査できない。",
+      "sundae": "オープン、クローズ、定期作業、例外業務を適切な担当者に割り当て、拠点間で完了を追跡し、次の運用決定に証拠を引き継ぎます。"
     }
   },
   "ko": {
@@ -523,6 +579,10 @@ export const operatorNavigationCopy = {
       "attendance": "출결 관리",
       "payroll": "급여 준비",
       "comparison": "플랫폼 평가 가이드"
+    },
+    "crewExample": {
+      "industry": "오프닝 및 클로징 체크리스트가 종이, 채팅 쓰레드 또는 스프레드시트에 남아 나중에 누구도 감사를 할 수 없습니다.",
+      "sundae": "오프닝, 클로징, 반복 업무 및 예외 업무를 적합한 담당자에게 할당하고 지점별 완료를 추적하며 근거를 다음 운영 결정으로 전달하세요."
     }
   },
   "id": {
@@ -558,6 +618,10 @@ export const operatorNavigationCopy = {
       "attendance": "Waktu dan kehadiran",
       "payroll": "Kesiapan penggajian",
       "comparison": "Panduan evaluasi platform"
+    },
+    "crewExample": {
+      "industry": "Daftar periksa pembukaan dan penutupan tersimpan di kertas, thread chat atau spreadsheet yang tidak bisa diaudit nanti.",
+      "sundae": "Tugaskan pekerjaan pembukaan, penutupan, berulang dan pengecualian ke orang yang tepat, lacak penyelesaian di seluruh lokasi dan bawa buktinya ke keputusan operasi berikutnya."
     }
   },
   "vi": {
@@ -593,6 +657,10 @@ export const operatorNavigationCopy = {
       "attendance": "Chấm công và điểm danh",
       "payroll": "Sẵn sàng trả lương",
       "comparison": "Hướng dẫn đánh giá nền tảng"
+    },
+    "crewExample": {
+      "industry": "Danh sách kiểm tra mở cửa và đóng cửa nằm trên giấy, chat nhóm hoặc bảng tính mà không ai có thể kiểm toán sau này.",
+      "sundae": "Phân công công việc mở cửa, đóng cửa, định kỳ và ngoại lệ cho người phù hợp, theo dõi hoàn thành trên các địa điểm và mang bằng chứng vào quyết định vận hành tiếp theo."
     }
   },
   "ro": {
@@ -628,6 +696,10 @@ export const operatorNavigationCopy = {
       "attendance": "Pontaj și prezență",
       "payroll": "Pregătire salarizare",
       "comparison": "Ghid de evaluare a platformei"
+    },
+    "crewExample": {
+      "industry": "Listele de verificare de deschidere și închidere sunt păstrate pe hârtie, în chat-uri sau în tabele pe care nimeni nu le poate audita ulterior.",
+      "sundae": "Atribuie munca de deschidere, închidere, recurentă și de excepție persoanei potrivite, urmărește finalizarea la nivelul locațiilor și păstrează dovezile în următoarea decizie operațională."
     }
   },
   "sv": {
@@ -663,6 +735,10 @@ export const operatorNavigationCopy = {
       "attendance": "Tid och närvaro",
       "payroll": "Löparberedskap",
       "comparison": "Guide för plattformsutvärdering"
+    },
+    "crewExample": {
+      "industry": "Öppnings- och stängningschecklistor finns på papper, i chattrådar eller kalkylblad som ingen senare kan granska.",
+      "sundae": "Tilldela öppnings-, stängnings-, återkommande och undantagsarbete till rätt person, spåra genomförande över platser och för över bevisen till nästa driftsbeslut."
     }
   },
   "bn": {
@@ -698,6 +774,10 @@ export const operatorNavigationCopy = {
       "attendance": "সময় ও উপস্থিতি",
       "payroll": "পে-রোল প্রস্তুতি",
       "comparison": "প্ল্যাটফর্ম মূল্যায়ন গাইড"
+    },
+    "crewExample": {
+      "industry": "ওপেনিং ও ক্লোজিং চেকলিস্ট কাগজ, চ্যাট থ্রেড বা স্প্রেডশিটে থাকে যা পরে কেউ অডিট করতে পারে না।",
+      "sundae": "ওপেনিং, ক্লোজিং, পুনরাবৃত্তিমূলক ও ব্যতিক্রমী কাজ সঠিক ব্যক্তির কাছে বরাদ্দ করুন, লোকেশন জুড়ে সম্পন্নতা ট্র্যাক করুন এবং প্রমাণকে পরবর্তী অপারেটিং সিদ্ধান্তে বহন করুন।"
     }
   },
   "th": {
@@ -733,6 +813,10 @@ export const operatorNavigationCopy = {
       "attendance": "เวลาและการเข้า-ออกงาน",
       "payroll": "เตรียมความพร้อมเงินเดือน",
       "comparison": "คู่มือการประเมินแพลตฟอร์ม"
+    },
+    "crewExample": {
+      "industry": "เช็คลิสต์เปิด-ปิดอยู่ในกระดาษ แชท หรือสเปรดชีตที่ไม่มีใครตรวจสอบได้ทีหลัง",
+      "sundae": "มอบหมายงานเปิด ปิด งานซ้ำ และงานข้อยกเว้นให้บุคคลที่เหมาะสม ติดตามการเสร็จงานข้ามสาขา และพกพาหลักฐานไปสู่การตัดสินใจปฏิบัติการถัดไป"
     }
   },
   "ms": {
@@ -768,6 +852,10 @@ export const operatorNavigationCopy = {
       "attendance": "Masa dan kehadiran",
       "payroll": "Kesiapan gaji",
       "comparison": "Panduan penilaian platform"
+    },
+    "crewExample": {
+      "industry": "Senarai semak pembukaan dan penutupan disimpan dalam kertas, thread sembang atau helaian yang tidak dapat diaudit kemudian.",
+      "sundae": "Tugaskan kerja pembukaan, penutupan, berulang dan pengecualian kepada orang yang betul, jejak penyelesaian merentasi lokasi dan bawa bukti ke dalam keputusan operasi seterusnya."
     }
   }
 } as const

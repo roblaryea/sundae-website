@@ -6,6 +6,8 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionProof'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { balanceSentences } from '@/lib/balanceSentences';
+import Link from 'next/link';
+import { getLocalizedPathname } from '@/lib/i18n';
 
 type LocalizedProof = {
   eyebrow: string;
@@ -18,10 +20,13 @@ type LocalizedProof = {
   industryTodayLabel: string;
   withSundaeLabel: string;
   industryClaims: { industry: string; sundae: string }[];
-  footnote: string;
 };
 
-const claimIds = ["reporting-lag", "leakage", "margin-variance"];
+const claimLinks = [
+  { id: 'leakage', href: '/product/pulse', label: 'Pulse' },
+  { id: 'margin-variance', href: '/product/insights', label: 'Insights' },
+  { id: 'crew-tasks', href: '/restaurant-task-management', label: 'Sundae Crew' },
+];
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
   en: {
@@ -43,7 +48,6 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "Voids, comps, discounts, and POS exceptions are small on their own. Left unreviewed, they compound into real revenue and margin leakage.", sundae: "Pulse flags exception patterns during the shift, attributed to the server, daypart, location, or behavior driving them." },
       { industry: "Margin variance is often explained at month-end, after the costs are already booked.", sundae: "Insights connects revenue, labor, food cost, discounts, and pricing so teams can recover the margin and measure it back." },
     ],
-    footnote: "Industry observations are general food-service industry patterns drawn from public research and advisory feedback. Named pilot results and validated customer outcomes will replace this section as they become available.",
   },
   ar: {
     eyebrow: "مبني مع المشغلين",
@@ -64,7 +68,6 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "التجاوزات والتعويضات والخصومات وحالات POS الشاذة صغيرة بذاتها. تركها بلا مراجعة يجعلها تتراكم إلى تسرب حقيقي في الإيراد والهامش.", sundae: "Pulse يكشف أنماط الحالات الشاذة خلال الوردية، منسوبة إلى الموظف أو الفترة أو الموقع." },
       { industry: "غالباً ما يُفسر تباين الهامش في نهاية الشهر، بعد تسجيل التكاليف.", sundae: "Insights يربط الإيرادات والعمالة وتكلفة الطعام والخصومات والتسعير ليسترد الفريق الهامش ويقيس ما استُرِدّ." },
     ],
-    footnote: "ملاحظات الصناعة أنماط عامة لصناعة خدمات الطعام من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها.",
   },
   fr: {
     eyebrow: "CONSTRUIT AVEC LES OPÉRATEURS",
@@ -85,7 +88,6 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "Annulations, comps, remises et exceptions POS sont petites individuellement. Non revues, elles finissent par créer une vraie fuite de revenu et marge.", sundae: "Pulse signale les motifs d'exception pendant le service, attribués au serveur, à la tranche horaire, au site ou au comportement." },
       { industry: "La variance de marge est souvent expliquée en fin de mois, après que les coûts soient passés.", sundae: "Insights connecte revenu, main-d'œuvre, coût matière, remises et prix pour que l'équipe récupère la marge et la mesure." },
     ],
-    footnote: "Observations sectorielles : motifs généraux de la restauration tirés de recherche publique et de retours conseil. Des résultats pilotes nommés et des résultats clients validés remplaceront cette section dès qu'ils seront disponibles.",
   },
   es: {
     eyebrow: "CONSTRUIDO CON OPERADORES",
@@ -106,7 +108,6 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "Anulaciones, comps, descuentos y excepciones POS son pequeños por sí solos. Sin revisar, acaban creando una fuga real de ingresos y margen.", sundae: "Pulse señala los patrones de excepción durante el turno, atribuidos al mesero, daypart, local o comportamiento." },
       { industry: "La varianza de margen suele explicarse a fin de mes, después de que los costes se registraron.", sundae: "Insights conecta ingresos, personal, coste alimentos, descuentos y precios para que el equipo recupere el margen y lo mida." },
     ],
-    footnote: "Observaciones de industria: patrones generales de la restauración basados en investigación pública y feedback de asesoría. Resultados de pilotos nombrados y resultados de clientes validados reemplazarán esta sección cuando estén disponibles.",
   },
 };
 
@@ -114,8 +115,9 @@ export function SectionProof() {
   const { locale } = useWebsiteI18n();
   const originalCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
-  const brand = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand;
-  const copy = { ...originalCopy, industryClaims: originalCopy.industryClaims.slice(1), stats: [
+  const navigation = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy];
+  const brand = navigation.brand;
+  const copy = { ...originalCopy, industryClaims: [...originalCopy.industryClaims.slice(1), navigation.crewExample], stats: [
     { value: 'Crew', label: brand.crewHeadline, footnoteMarker: undefined },
     { value: 'Core', label: brand.coreHeadline, footnoteMarker: undefined },
   ] };
@@ -168,27 +170,27 @@ export function SectionProof() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-4 sm:gap-5">
+          <div className="grid md:grid-cols-3 gap-4 sm:gap-5" data-operator-patterns>
             {copy.industryClaims.map((c, i) => (
-              <div key={claimIds[i]} className="rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-5 sm:p-6">
+              <div key={claimLinks[i].id} data-operator-pattern={claimLinks[i].id} className="flex flex-col rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-5 sm:p-6">
                 <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-bold mb-2">
                   {copy.industryTodayLabel}
                 </div>
                 <p className="text-sm text-[var(--text-supporting)] leading-snug mb-4">{c.industry}</p>
-                <div className="pt-4 border-t border-[var(--border-default)]">
-                  <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
+                <div className="flex flex-1 flex-col pt-4 border-t border-[var(--border-default)]">
+                  <div className="eyebrow text-[11px]! mb-2">
                     {copy.withSundaeLabel}
                   </div>
                   <p className="text-sm text-[var(--text-primary)] font-medium leading-snug">{c.sundae}</p>
+                  <Link href={getLocalizedPathname(claimLinks[i].href, locale)} className="brand-action-link mt-auto inline-flex self-start pt-5 text-sm font-semibold">
+                    {claimLinks[i].label}{i === 2 ? ` · ${navigation.links.tasks}` : ''} →
+                  </Link>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        <p className="mt-10 text-center text-[11px] text-[var(--text-muted)] italic max-w-3xl mx-auto leading-relaxed">
-          {copy.footnote}
-        </p>
       </div>
     </section>
   );

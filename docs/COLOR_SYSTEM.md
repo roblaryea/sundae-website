@@ -52,3 +52,7 @@ Selected controls with a warm tint use `--action-on-tint`: the action coral on e
 - [ ] No module/data-state color used as section chrome or brand.
 - [ ] Trust surfaces use `--trust`; coral reserved for action.
 - [ ] Verified in **both** light and dark.
+
+## Default appearance
+
+The owner confirmed dark as the first-visit default on 17 November 2026. Preserve a visitor’s explicit saved light preference and the toggle; do not force dark at every visit or treat the OS light setting as a saved site preference. Cross-site preference sharing with pricing remains a separate handoff.
