@@ -13,7 +13,7 @@ const pick = (item, keys) => Object.fromEntries(keys.map(key => [key, item[key] 
 const actual = {
   ...pick(live.version, ['versionName', 'publishedAt', 'isAuthoritative']),
   verifiedOn: saved.verifiedOn,
-  tiers: live.tiers.map(item => pick(item, ['id', 'name', 'basePrice', 'locationBands', 'includedModuleIds', 'aiCreditsBase'])),
+  tiers: live.tiers.map(item => pick(item, ['id', 'name', 'basePrice', 'locationBands', 'includedModuleIds', 'aiCreditsBase', 'allowsWatchtower'])),
   modules: live.modules.filter(item => saved.modules.some(savedItem => savedItem.id === item.id)).map(item => pick(item, ['id', 'name', 'locationBands'])),
   bundles: live.bundles.map(item => pick(item, ['id', 'name', 'basePrice', 'locationBands', 'moduleIds'])),
   discounts: live.discounts.map(item => pick(item, ['billingCycle', 'discountPercent', 'paymentSchedule'])),

@@ -1569,6 +1569,7 @@ export function getLocalizedFaqSections(
     'products-tiers': { 0: commercial.productOverview, 1: commercial.packageScope, 3: commercial.packageScope },
     modules: { 0: commercial.packageScope, 1: commercial.packageScope, 2: commercial.packageScope, 3: commercial.packageScope, 4: commercial.packageScope, 5: commercial.moduleAnswer },
     'pricing-billing': { 1: commercial.setup, 3: commercial.terms },
+    watchtower: { 1: commercial.watchtowerEligibility, 3: commercial.watchtowerChoice, 4: commercial.watchtowerEligibility },
     comparisons: { 2: commercial.packageScope + ' ' + commercial.setup },
     crew: { 1: commercial.payroll, 2: commercial.payroll, 4: commercial.firstLocation + ': [pricing.sundae.io](https://pricing.sundae.io). ' + commercial.extraLocations },
   };

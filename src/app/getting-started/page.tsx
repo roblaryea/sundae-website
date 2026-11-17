@@ -306,7 +306,11 @@ export default function GettingStartedPage() {
   const { locale } = useWebsiteI18n();
   const originalCopy = localizedGettingStartedCopy[locale as keyof typeof localizedGettingStartedCopy] ?? getGeneratedLocalCopy(localizedGettingStartedCopy, generatedLocalCopy.localizedGettingStartedCopy, locale) ?? localizedGettingStartedCopy.en;
   const commercial = getCommercialCopy(locale);
-  const copy = { ...originalCopy, steps: originalCopy.steps.map((step, index) => index === 1 ? { ...step, description: commercial.packageScope } : step) };
+  const copy = {
+    ...originalCopy,
+    steps: originalCopy.steps.map((step, index) => index === 1 ? { ...step, description: commercial.packageScope } : index === 3 ? { ...step, actions: step.actions.map((action, actionIndex) => actionIndex === 3 ? commercial.watchtowerEligibility : action) } : step),
+    journeys: originalCopy.journeys.map((journey, index) => index === 2 ? { ...journey, items: journey.items.map((item, itemIndex) => itemIndex === 2 ? commercial.watchtowerEligibility : item) } : journey),
+  };
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
 
   const handleFinalCardClick = (href?: string) => {

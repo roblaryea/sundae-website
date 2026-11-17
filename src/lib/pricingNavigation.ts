@@ -1,5 +1,21 @@
 import { encodePricingIntent, type PricingIntent } from './pricingIntent'
 import { PRICING_URL } from './urls'
+import catalog from './pricing/catalogSnapshot.json'
+
+export const WATCHTOWER_OPTIONS = ['competitive', 'events', 'trends', 'bundle'] as const
+
+/** Watchtower is a paid extension; an eligible Core package is a prerequisite. */
+export function buildWatchtowerPricingUrl(option: typeof WATCHTOWER_OPTIONS[number] = 'bundle') {
+  if (!catalog.tiers.find(tier => tier.id === 'growth')?.allowsWatchtower) {
+    throw new Error('Review Watchtower eligibility before publishing this starting estimate')
+  }
+  const intent: PricingIntent = {
+    v: 2, layer: 'core', corePackage: 'core_growth', locations: 1,
+    addOns: [], watchtowerModules: [option], crewSkus: [],
+    crossIntelligence: 'none', billingCycle: 'monthly', operatingModels: [], employees: null, payrollCountry: '',
+  }
+  return `${PRICING_URL}/simulator?${new URLSearchParams({ cfg: encodePricingIntent(intent) })}`
+}
 
 /** A menu entry opens an editable starting estimate, not a purchase or saved quote. */
 export function buildPricingEntryUrl(layer: 'core' | 'crew') {
