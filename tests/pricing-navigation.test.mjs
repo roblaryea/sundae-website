@@ -58,6 +58,8 @@ test('Core package FAQs use the same localized coverage, common capabilities and
     const sections = getLocalizedFaqSections(locale, [])
     assert.equal(sections.find(s => s.id === 'getting-started').faqs[3].content, summary)
     assert.equal(sections.find(s => s.id === 'products-tiers').faqs[1].content, summary)
+    assert.equal(sections.find(s => s.id === 'use-cases').faqs[0].content, commercial[locale].coreLocationScope)
+    assert.ok(!sections.find(s => s.id === 'use-cases').faqs[0].content.includes('same eleven modules'))
     for (const name of ['Pulse', 'Benchmarks', 'Ask Sundae', 'Profit Recovery', 'Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance']) assert.ok(summary.includes(name))
     assert.ok(summary.includes(commercial[locale].coreUsageNote))
     if (locale !== 'en') assert.notEqual(commercial[locale].coreGrowthCoverage, commercial.en.coreGrowthCoverage)

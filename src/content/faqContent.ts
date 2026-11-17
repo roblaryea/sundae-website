@@ -1571,6 +1571,7 @@ export function getLocalizedFaqSections(
     'pricing-billing': { 1: commercial.setup, 3: commercial.terms },
     watchtower: { 1: commercial.watchtowerEligibility, 3: commercial.watchtowerChoice, 4: commercial.watchtowerEligibility },
     comparisons: { 2: commercial.packageScope + ' ' + commercial.setup },
+    'use-cases': { 0: commercial.coreLocationScope },
     crew: { 1: commercial.payroll, 2: commercial.payroll, 4: commercial.firstLocation + ': [pricing.sundae.io](https://pricing.sundae.io). ' + commercial.extraLocations },
   };
   return sections.map((section, index) => ({
