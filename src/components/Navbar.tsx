@@ -421,6 +421,7 @@ const Navbar = () => {
                 onMouseEnter={() => setActiveDropdown('pricing')}
                 onFocus={() => setActiveDropdown('pricing')}
                 onClick={() => setActiveDropdown('pricing')}
+                data-pricing-menu-button
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'pricing'}
               >
@@ -429,7 +430,7 @@ const Navbar = () => {
 
               {activeDropdown === 'pricing' && (
                 <div
-                  className="absolute top-full left-0 z-50 w-[min(26rem,calc(100vw-2rem))] pt-2"
+                  data-pricing-menu className="absolute top-full left-0 z-50 w-[min(26rem,calc(100vw-2rem))] pt-2"
                   onMouseEnter={() => setActiveDropdown('pricing')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >

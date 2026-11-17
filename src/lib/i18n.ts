@@ -1,3 +1,5 @@
+import { getPricingNavigation } from './pricingNavigation'
+import platformStory from '@/content/platform-story.json'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import { generatedWebsiteMessageOverrides } from './generatedWebsiteMessageOverrides'
 
@@ -2920,6 +2922,11 @@ export function getWebsiteMessages(locale: WebsiteLocale): WebsiteMessages {
   const messages = mergeDeep(withLocale, expandedLocaleOverridesByLocale[locale]) as WebsiteMessagesBase
   return {
     ...messages,
+    navbar: { ...messages.navbar, plansList: getPricingNavigation({
+      core: platformStory[locale].coreRole,
+      crew: platformStory[locale].crewRole,
+      foresight: messages.navbar.pillars.find(link => link.href === '/product/foresight')?.description ?? '',
+    }) },
     metadata: { ...messages.metadata, title: operatorNavigationCopy[locale].brand.title, description: operatorNavigationCopy[locale].brand.description },
     pages: messages.home.pages,
   }

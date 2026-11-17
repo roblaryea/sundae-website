@@ -1567,7 +1567,7 @@ export function getLocalizedFaqSections(
   const corrections: Record<string, Record<number, string>> = {
     'getting-started': { 0: commercial.productOverview, 3: commercial.packageScope, 4: commercial.terms },
     'products-tiers': { 0: commercial.productOverview, 1: commercial.packageScope, 3: commercial.packageScope },
-    modules: { 0: commercial.packageScope, 1: commercial.packageScope, 2: commercial.packageScope, 3: commercial.packageScope, 4: commercial.packageScope },
+    modules: { 0: commercial.packageScope, 1: commercial.packageScope, 2: commercial.packageScope, 3: commercial.packageScope, 4: commercial.packageScope, 5: commercial.moduleAnswer },
     'pricing-billing': { 1: commercial.setup, 3: commercial.terms },
     comparisons: { 2: commercial.packageScope + ' ' + commercial.setup },
     crew: { 1: commercial.payroll, 2: commercial.payroll, 4: commercial.firstLocation + ': [pricing.sundae.io](https://pricing.sundae.io). ' + commercial.extraLocations },
@@ -1577,6 +1577,7 @@ export function getLocalizedFaqSections(
     title: categoryTitles[index] ?? localizedFaqSections.en[index]?.id ?? section.id,
     faqs: section.faqs.map((faq, faqIndex) => ({
       ...faq,
+      title: section.id === "modules" && faqIndex === 5 ? commercial.moduleQuestion : faq.title,
       content: section.id === "modules" && faqIndex === 0 ? commercial.packageScope + "\n\n" + DOMAIN_MODULE_LINES : corrections[section.id]?.[faqIndex] ?? applyFaqTokens(faq.content, locale),
     })).filter((_, faqIndex) => section.id !== "modules" || ![1, 2, 3].includes(faqIndex)),
   }));
