@@ -1,3 +1,4 @@
+import { normalizeCatalogComparison } from './lib/catalog-comparison.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 
@@ -18,5 +19,5 @@ const actual = {
   discounts: live.discounts.map(item => pick(item, ['billingCycle', 'discountPercent', 'paymentSchedule'])),
   maxCombinedDiscountPercent: live.version.maxCombinedDiscountPercent,
 };
-assert.deepEqual(actual, saved, 'Website price snapshot differs from the active catalogue. Review rates, package scope and copy before release.');
+assert.deepEqual(normalizeCatalogComparison(actual), normalizeCatalogComparison(saved), 'Website price snapshot differs from the active catalogue. Review rates, package scope and copy before release.');
 console.log(`Pricing parity verified: ${saved.versionName}; Core, Crew, concepts, bundles, module inclusions and payment discounts.`);

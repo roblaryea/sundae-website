@@ -1,6 +1,5 @@
 'use client';
 
-import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -11,6 +10,8 @@ import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
 import { CreamBreak } from '@/components/ui/CreamBreak';
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
+import { PRICING_URL } from '@/lib/urls';
 import { insightsCreamCopy } from './insightsCreamCopy';
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreInsightsMobile } from '@/components/core/CoreInsightsMobile';
@@ -681,6 +682,7 @@ export default function InsightsPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedInsightsUi[locale as keyof typeof localizedInsightsUi] ?? getGeneratedLocalCopy(localizedInsightsUi, generatedLocalCopy.localizedInsightsUi, locale) ?? localizedInsightsUi.en;
+  const commercial = getCommercialCopy(locale);
   const cream = insightsCreamCopy[locale as keyof typeof insightsCreamCopy] ?? insightsCreamCopy.en;
   const modules = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;
 
@@ -692,7 +694,7 @@ export default function InsightsPage() {
 
   const howItWorks: { step: number; title: string; description: string; icon: SundaeIconName }[] = [
     { step: 1, title: ui.modulesTitle, description: ui.modulesDescription, icon: "modules" },
-    { step: 2, title: ui.howTitle, description: ui.howDescription, icon: "integration" },
+    { step: 2, title: commercial.comparePackages, description: commercial.packageScope, icon: "integration" },
     { step: 3, title: ui.fitTitle, description: ui.fitDescription, icon: "intelligence" },
   ];
 
@@ -740,11 +742,9 @@ export default function InsightsPage() {
             >
               {ui.bookDemo}
             </Button>
-            <Link href="/modules">
-              <Button variant="outline" size="lg">
-                {ui.seeModules}
-              </Button>
-            </Link>
+            <Button href={PRICING_URL} variant="outline" size="lg" trackingLabel="compare_packages_insights_hero" trackingMetadata={{ destination: PRICING_URL }}>
+              {commercial.comparePackages}
+            </Button>
           </motion.div>
 
           {/* Module Categories Grid */}
@@ -791,11 +791,11 @@ export default function InsightsPage() {
       <section className="py-10 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-wrap justify-center gap-8 text-sm text-[var(--text-muted)]">
-            <span className="font-medium">{ui.valueProps[0]}</span>
-            <span className="text-[var(--text-muted)]">|</span>
+            <span className="font-medium">{commercial.moduleInclusion}</span>
+            <span aria-hidden className="text-[var(--text-muted)]">|</span>
             <span className="font-medium">{ui.valueProps[1]}</span>
-            <span className="text-[var(--text-muted)]">|</span>
-            <span className="font-medium">{ui.valueProps[2]}</span>
+            <span aria-hidden className="text-[var(--text-muted)]">|</span>
+            <a href={PRICING_URL} className="brand-action-link font-medium underline underline-offset-4">{commercial.comparePackages}</a>
           </div>
         </div>
       </section>
@@ -882,7 +882,7 @@ export default function InsightsPage() {
               {ui.howTitle}
             </h2>
             <p className="body-lg max-w-3xl mx-auto" style={{ color: 'var(--ink-soft, rgba(26,20,15,0.64))' }}>
-              {ui.howDescription}
+              {commercial.moduleInclusion}
             </p>
           </div>
 
@@ -959,7 +959,7 @@ export default function InsightsPage() {
             {ui.ctaTitle}
           </h2>
           <p className="body-xl mb-8" style={{ color: 'rgba(26,20,15,0.66)' }}>
-            {ui.ctaDescription}
+            {commercial.packageScope}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -969,11 +969,9 @@ export default function InsightsPage() {
             >
               {ui.ctaDemo}
             </Button>
-            <Link href="/modules">
-              <Button variant="outline-ink" size="lg">
-                {ui.ctaPricing}
-              </Button>
-            </Link>
+            <Button href={PRICING_URL} variant="outline-ink" size="lg" trackingLabel="compare_packages_insights_closing" trackingMetadata={{ destination: PRICING_URL }}>
+              {commercial.comparePackages}
+            </Button>
           </div>
         </div>
       </section>

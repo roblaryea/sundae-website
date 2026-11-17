@@ -48,6 +48,14 @@ export async function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl
   const { locale: localeFromPath, pathname: internalPathname } = parseWebsiteLocaleFromPathname(pathname)
 
+  // Retired module-shopping entry: preserve locale/query and land on package coverage.
+  if (internalPathname.replace(/\/$/, '') === '/modules') {
+    const target = request.nextUrl.clone()
+    target.pathname = getLocalizedPathname('/core', localeFromPath ?? defaultWebsiteLocale)
+    target.hash = 'packages'
+    return NextResponse.redirect(target, 308)
+  }
+
   // next.config handles the English aliases before the proxy. Apply the same
   // explicit successor mapping after stripping a locale, preserving language
   // and query parameters instead of rewriting an obsolete route to a 404.

@@ -12,7 +12,11 @@
     "sampleWalkthrough": "Your own data is optional. We can start with a sample operation.",
     "shortlist": "Shortlist Sundae when you want daily workforce and shift workflows connected to performance across systems, while keeping the POS and accounting tools that fit your business. Start with Crew, Core or both.",
     "accountingBoundary": "Restaurant365 includes native restaurant accounting, a general ledger and accounts payable. Sundae connects operating evidence; it does not replace your accounting ledger. Confirm integrations and country-specific scope with each provider.",
-    "costComparison": "Compare the same locations, workforce, modules, implementation, integrations, taxes and support. Use Sundae’s current calculator and request a scoped Restaurant365 quote. A headline price alone does not establish better value."
+    "costComparison": "Compare the same locations, workforce, modules, implementation, integrations, taxes and support. Use Sundae’s current calculator and request a scoped Restaurant365 quote. A headline price alone does not establish better value.",
+    "comparePackages": "Compare packages",
+    "moduleInclusion": "Included by package",
+    "moduleQuestion": "Are modules sold separately?",
+    "moduleAnswer": "No. Modules are included in Core packages. Compare packages to see which capabilities each one includes."
   },
   "ar": {
     "packageScope": "تتضمن باقات Core قدرات مختلفة. راجع الباقة المختارة والإضافات المؤهلة في حاسبة الأسعار.",
@@ -27,7 +31,11 @@
     "sampleWalkthrough": "بياناتك الخاصة اختيارية. يمكننا البدء بمثال تشغيلي.",
     "shortlist": "ضع Sundae ضمن خياراتك عندما تريد ربط أعمال الموظفين والورديات اليومية بالأداء عبر الأنظمة، مع الاحتفاظ بأنظمة نقاط البيع والمحاسبة المناسبة لك. ابدأ بـ Crew أو Core أو كليهما.",
     "accountingBoundary": "تتضمن Restaurant365 محاسبة مطاعم أصلية ودفتر أستاذ وحسابات دائنة. تربط Sundae الأدلة التشغيلية ولا تحل محل دفتر المحاسبة. تأكد من التكاملات والنطاق الخاص بكل دولة لدى كل مزود.",
-    "costComparison": "قارن المواقع والموظفين والوحدات والتنفيذ والتكاملات والضرائب والدعم نفسها. استخدم حاسبة Sundae الحالية واطلب عرضًا محدد النطاق من Restaurant365. السعر المعلن وحده لا يثبت قيمة أفضل."
+    "costComparison": "قارن المواقع والموظفين والوحدات والتنفيذ والتكاملات والضرائب والدعم نفسها. استخدم حاسبة Sundae الحالية واطلب عرضًا محدد النطاق من Restaurant365. السعر المعلن وحده لا يثبت قيمة أفضل.",
+    "comparePackages": "قارن الباقات",
+    "moduleInclusion": "مشمولة بحسب الباقة",
+    "moduleQuestion": "هل تُباع الوحدات بشكل منفصل؟",
+    "moduleAnswer": "لا. الوحدات مشمولة ضمن باقات Core. قارن الباقات لمعرفة القدرات التي تتضمنها كل باقة."
   },
   "fr": {
     "packageScope": "Les offres Core comprennent des capacités différentes. Vérifiez l’offre choisie et les extensions éligibles dans le simulateur de prix.",
@@ -42,7 +50,11 @@
     "sampleWalkthrough": "Vos propres données sont facultatives. Nous pouvons commencer avec un exemple d’exploitation.",
     "shortlist": "Retenez Sundae si vous voulez relier la gestion quotidienne des équipes et des services aux performances de vos systèmes, tout en gardant les outils de caisse et de comptabilité adaptés. Commencez avec Crew, Core ou les deux.",
     "accountingBoundary": "Restaurant365 intègre une comptabilité de restauration, un grand livre et la gestion fournisseurs. Sundae relie les données opérationnelles sans remplacer votre grand livre. Confirmez intégrations et couverture nationale auprès de chaque fournisseur.",
-    "costComparison": "Comparez les mêmes sites, effectifs, modules, déploiement, intégrations, taxes et support. Utilisez le simulateur Sundae et demandez un devis Restaurant365 à périmètre égal. Un prix affiché seul ne prouve pas une meilleure valeur."
+    "costComparison": "Comparez les mêmes sites, effectifs, modules, déploiement, intégrations, taxes et support. Utilisez le simulateur Sundae et demandez un devis Restaurant365 à périmètre égal. Un prix affiché seul ne prouve pas une meilleure valeur.",
+    "comparePackages": "Comparer les offres",
+    "moduleInclusion": "Inclus selon l’offre",
+    "moduleQuestion": "Les modules sont-ils vendus séparément ?",
+    "moduleAnswer": "Non. Les modules sont inclus dans les offres Core. Comparez les offres pour connaître les capacités incluses dans chacune."
   },
   "es": {
     "packageScope": "Los paquetes Core incluyen capacidades diferentes. Revisa el paquete elegido y las extensiones disponibles en la calculadora de precios.",
@@ -57,7 +69,11 @@
     "sampleWalkthrough": "Tus datos son opcionales. Podemos empezar con una operación de ejemplo.",
     "shortlist": "Considera Sundae si quieres conectar el trabajo diario de equipos y turnos con el rendimiento entre sistemas, conservando el TPV y la contabilidad que te convengan. Empieza con Crew, Core o ambos.",
     "accountingBoundary": "Restaurant365 incluye contabilidad nativa para restaurantes, libro mayor y cuentas por pagar. Sundae conecta evidencias operativas sin sustituir tu libro contable. Confirma integraciones y cobertura por país con cada proveedor.",
-    "costComparison": "Compara los mismos locales, empleados, módulos, implementación, integraciones, impuestos y soporte. Usa la calculadora actual de Sundae y solicita un presupuesto equivalente a Restaurant365. Un precio inicial no demuestra mayor valor."
+    "costComparison": "Compara los mismos locales, empleados, módulos, implementación, integraciones, impuestos y soporte. Usa la calculadora actual de Sundae y solicita un presupuesto equivalente a Restaurant365. Un precio inicial no demuestra mayor valor.",
+    "comparePackages": "Comparar paquetes",
+    "moduleInclusion": "Incluido según el paquete",
+    "moduleQuestion": "¿Se venden los módulos por separado?",
+    "moduleAnswer": "No. Los módulos están incluidos en los paquetes Core. Compare los paquetes para ver qué capacidades incluye cada uno."
   },
   "de": {
     "packageScope": "Die Core-Pakete enthalten unterschiedliche Funktionen. Prüfen Sie das gewählte Paket und verfügbare Erweiterungen im Preisrechner.",
@@ -72,7 +88,11 @@
     "sampleWalkthrough": "Eigene Daten sind optional. Wir können mit einem Beispielbetrieb beginnen.",
     "shortlist": "Nehmen Sie Sundae in die engere Wahl, wenn Sie tägliche Personal- und Schichtabläufe mit systemübergreifenden Leistungsdaten verbinden und passende Kassen- und Buchhaltungssysteme behalten möchten. Starten Sie mit Crew, Core oder beidem.",
     "accountingBoundary": "Restaurant365 enthält native Restaurantbuchhaltung, Hauptbuch und Kreditorenbuchhaltung. Sundae verbindet betriebliche Daten und ersetzt Ihr Hauptbuch nicht. Bestätigen Sie Integrationen und Länderumfang bei beiden Anbietern.",
-    "costComparison": "Vergleichen Sie dieselben Standorte, Mitarbeiter, Module, Einführung, Integrationen, Steuern und Supportleistungen. Nutzen Sie den aktuellen Sundae-Rechner und ein gleichwertig abgegrenztes Restaurant365-Angebot. Der Einstiegspreis allein belegt keinen besseren Wert."
+    "costComparison": "Vergleichen Sie dieselben Standorte, Mitarbeiter, Module, Einführung, Integrationen, Steuern und Supportleistungen. Nutzen Sie den aktuellen Sundae-Rechner und ein gleichwertig abgegrenztes Restaurant365-Angebot. Der Einstiegspreis allein belegt keinen besseren Wert.",
+    "comparePackages": "Pakete vergleichen",
+    "moduleInclusion": "Je nach Paket enthalten",
+    "moduleQuestion": "Werden Module separat verkauft?",
+    "moduleAnswer": "Nein. Module sind in den Core-Paketen enthalten. Vergleichen Sie die Pakete, um die jeweils enthaltenen Funktionen zu sehen."
   },
   "it": {
     "packageScope": "I pacchetti Core includono funzionalità diverse. Verifica il pacchetto scelto e le estensioni disponibili nel calcolatore dei prezzi.",
@@ -87,7 +107,11 @@
     "sampleWalkthrough": "I tuoi dati sono facoltativi. Possiamo iniziare con un’attività di esempio.",
     "shortlist": "Valuta Sundae per collegare il lavoro quotidiano di personale e turni alle prestazioni tra sistemi, mantenendo POS e contabilità adatti alla tua attività. Inizia con Crew, Core o entrambi.",
     "accountingBoundary": "Restaurant365 include contabilità nativa per ristoranti, libro mastro e contabilità fornitori. Sundae collega le evidenze operative senza sostituire il libro mastro. Verifica integrazioni e copertura nazionale con ciascun fornitore.",
-    "costComparison": "Confronta le stesse sedi, personale, moduli, implementazione, integrazioni, imposte e assistenza. Usa il calcolatore Sundae e richiedi un preventivo Restaurant365 con lo stesso ambito. Il solo prezzo iniziale non dimostra maggior valore."
+    "costComparison": "Confronta le stesse sedi, personale, moduli, implementazione, integrazioni, imposte e assistenza. Usa il calcolatore Sundae e richiedi un preventivo Restaurant365 con lo stesso ambito. Il solo prezzo iniziale non dimostra maggior valore.",
+    "comparePackages": "Confronta i pacchetti",
+    "moduleInclusion": "Incluso in base al pacchetto",
+    "moduleQuestion": "I moduli sono venduti separatamente?",
+    "moduleAnswer": "No. I moduli sono inclusi nei pacchetti Core. Confronta i pacchetti per vedere quali funzionalità include ciascuno."
   },
   "pt": {
     "packageScope": "Os pacotes Core incluem capacidades diferentes. Confirme o pacote escolhido e as extensões elegíveis no simulador de preços.",
@@ -102,7 +126,11 @@
     "sampleWalkthrough": "Os seus dados são opcionais. Podemos começar com uma operação de exemplo.",
     "shortlist": "Considere a Sundae para ligar os fluxos diários de equipas e turnos ao desempenho entre sistemas, mantendo as ferramentas de POS e contabilidade adequadas. Comece com Crew, Core ou ambos.",
     "accountingBoundary": "Restaurant365 inclui contabilidade nativa para restauração, razão geral e contas a pagar. A Sundae liga evidência operacional sem substituir o razão contabilístico. Confirme integrações e cobertura por país com cada fornecedor.",
-    "costComparison": "Compare as mesmas unidades, equipas, módulos, implementação, integrações, impostos e suporte. Use o simulador Sundae e peça uma proposta Restaurant365 com o mesmo âmbito. Um preço inicial não comprova melhor valor."
+    "costComparison": "Compare as mesmas unidades, equipas, módulos, implementação, integrações, impostos e suporte. Use o simulador Sundae e peça uma proposta Restaurant365 com o mesmo âmbito. Um preço inicial não comprova melhor valor.",
+    "comparePackages": "Comparar pacotes",
+    "moduleInclusion": "Incluído conforme o pacote",
+    "moduleQuestion": "Os módulos são vendidos separadamente?",
+    "moduleAnswer": "Não. Os módulos estão incluídos nos pacotes Core. Compare os pacotes para ver quais recursos cada um inclui."
   },
   "nl": {
     "packageScope": "Core-pakketten bevatten verschillende functies. Controleer het gekozen pakket en beschikbare uitbreidingen in de prijscalculator.",
@@ -117,7 +145,11 @@
     "sampleWalkthrough": "Uw eigen gegevens zijn optioneel. We kunnen beginnen met een voorbeeldbedrijf.",
     "shortlist": "Overweeg Sundae als u dagelijks personeels- en ploegwerk wilt verbinden met prestaties over systemen heen en uw passende kassa- en boekhoudtools wilt behouden. Begin met Crew, Core of beide.",
     "accountingBoundary": "Restaurant365 bevat eigen restaurantboekhouding, een grootboek en crediteurenbeheer. Sundae verbindt operationele gegevens en vervangt uw grootboek niet. Bevestig integraties en de landspecifieke dekking bij elke aanbieder.",
-    "costComparison": "Vergelijk dezelfde locaties, medewerkers, modules, implementatie, integraties, belastingen en ondersteuning. Gebruik de actuele Sundae-calculator en vraag een gelijkwaardig Restaurant365-offerte aan. Alleen de instapprijs bewijst geen betere waarde."
+    "costComparison": "Vergelijk dezelfde locaties, medewerkers, modules, implementatie, integraties, belastingen en ondersteuning. Gebruik de actuele Sundae-calculator en vraag een gelijkwaardig Restaurant365-offerte aan. Alleen de instapprijs bewijst geen betere waarde.",
+    "comparePackages": "Pakketten vergelijken",
+    "moduleInclusion": "Inbegrepen per pakket",
+    "moduleQuestion": "Worden modules apart verkocht?",
+    "moduleAnswer": "Nee. Modules zijn inbegrepen in de Core-pakketten. Vergelijk de pakketten om te zien welke mogelijkheden elk pakket bevat."
   },
   "pl": {
     "packageScope": "Pakiety Core obejmują różne funkcje. Sprawdź wybrany pakiet i dostępne rozszerzenia w kalkulatorze cen.",
@@ -132,7 +164,11 @@
     "sampleWalkthrough": "Twoje dane są opcjonalne. Możemy zacząć od przykładowej działalności.",
     "shortlist": "Rozważ Sundae, gdy chcesz połączyć codzienną pracę zespołów i zmian z wynikami z różnych systemów, zachowując odpowiedni POS i księgowość. Zacznij od Crew, Core lub obu.",
     "accountingBoundary": "Restaurant365 obejmuje własną księgowość restauracji, księgę główną i zobowiązania. Sundae łączy dane operacyjne, ale nie zastępuje księgi głównej. Potwierdź integracje i zakres dla danego kraju u każdego dostawcy.",
-    "costComparison": "Porównaj te same lokalizacje, zatrudnienie, moduły, wdrożenie, integracje, podatki i wsparcie. Użyj kalkulatora Sundae i poproś Restaurant365 o wycenę tego samego zakresu. Sama cena początkowa nie dowodzi większej wartości."
+    "costComparison": "Porównaj te same lokalizacje, zatrudnienie, moduły, wdrożenie, integracje, podatki i wsparcie. Użyj kalkulatora Sundae i poproś Restaurant365 o wycenę tego samego zakresu. Sama cena początkowa nie dowodzi większej wartości.",
+    "comparePackages": "Porównaj pakiety",
+    "moduleInclusion": "Dostępność zależy od pakietu",
+    "moduleQuestion": "Czy moduły są sprzedawane osobno?",
+    "moduleAnswer": "Nie. Moduły są zawarte w pakietach Core. Porównaj pakiety, aby sprawdzić funkcje dostępne w każdym z nich."
   },
   "ro": {
     "packageScope": "Pachetele Core includ funcționalități diferite. Verificați pachetul ales și extensiile eligibile în calculatorul de prețuri.",
@@ -147,7 +183,11 @@
     "sampleWalkthrough": "Datele proprii sunt opționale. Putem începe cu un exemplu de operațiune.",
     "shortlist": "Luați în calcul Sundae când doriți să conectați munca zilnică a echipelor și turelor cu performanța între sisteme, păstrând POS-ul și contabilitatea potrivite. Începeți cu Crew, Core sau ambele.",
     "accountingBoundary": "Restaurant365 include contabilitate nativă pentru restaurante, registru general și conturi de furnizori. Sundae conectează date operaționale fără să înlocuiască registrul contabil. Confirmați integrările și acoperirea pe țară cu fiecare furnizor.",
-    "costComparison": "Comparați aceleași locații, personal, module, implementare, integrări, taxe și suport. Folosiți calculatorul Sundae și cereți o ofertă Restaurant365 cu același domeniu. Prețul de pornire singur nu dovedește valoare mai bună."
+    "costComparison": "Comparați aceleași locații, personal, module, implementare, integrări, taxe și suport. Folosiți calculatorul Sundae și cereți o ofertă Restaurant365 cu același domeniu. Prețul de pornire singur nu dovedește valoare mai bună.",
+    "comparePackages": "Compară pachetele",
+    "moduleInclusion": "Inclus în funcție de pachet",
+    "moduleQuestion": "Modulele se vând separat?",
+    "moduleAnswer": "Nu. Modulele sunt incluse în pachetele Core. Compară pachetele pentru a vedea funcționalitățile incluse în fiecare."
   },
   "sv": {
     "packageScope": "Core-paketen innehåller olika funktioner. Kontrollera valt paket och tillgängliga tillägg i priskalkylatorn.",
@@ -162,7 +202,11 @@
     "sampleWalkthrough": "Egna data är valfria. Vi kan börja med en exempelverksamhet.",
     "shortlist": "Överväg Sundae när du vill koppla dagliga personal- och skiftflöden till resultat över flera system och behålla de kassasystem och bokföringsverktyg som passar. Börja med Crew, Core eller båda.",
     "accountingBoundary": "Restaurant365 innehåller egen restaurangbokföring, huvudbok och leverantörsreskontra. Sundae kopplar operativa underlag och ersätter inte huvudboken. Bekräfta integrationer och landsspecifik omfattning med varje leverantör.",
-    "costComparison": "Jämför samma platser, personal, moduler, införande, integrationer, skatter och support. Använd Sundaes kalkylator och begär en Restaurant365-offert för samma omfattning. Enbart startpriset visar inte bättre värde."
+    "costComparison": "Jämför samma platser, personal, moduler, införande, integrationer, skatter och support. Använd Sundaes kalkylator och begär en Restaurant365-offert för samma omfattning. Enbart startpriset visar inte bättre värde.",
+    "comparePackages": "Jämför paket",
+    "moduleInclusion": "Ingår beroende på paket",
+    "moduleQuestion": "Säljs moduler separat?",
+    "moduleAnswer": "Nej. Moduler ingår i Core-paketen. Jämför paketen för att se vilka funktioner som ingår i varje paket."
   },
   "tr": {
     "packageScope": "Core paketleri farklı özellikler içerir. Seçilen paketi ve uygun eklentileri fiyat hesaplayıcısında kontrol edin.",
@@ -177,7 +221,11 @@
     "sampleWalkthrough": "Kendi verileriniz isteğe bağlıdır. Örnek bir işletmeyle başlayabiliriz.",
     "shortlist": "Günlük ekip ve vardiya işlerini sistemler arası performansla birleştirirken uygun POS ve muhasebe araçlarını korumak istiyorsanız Sundae’yi değerlendirin. Crew, Core veya ikisiyle başlayın.",
     "accountingBoundary": "Restaurant365 yerleşik restoran muhasebesi, büyük defter ve borç hesapları içerir. Sundae operasyonel kanıtları birleştirir; muhasebe defterinizin yerine geçmez. Entegrasyonları ve ülke kapsamını her sağlayıcıyla doğrulayın.",
-    "costComparison": "Aynı lokasyonları, çalışanları, modülleri, kurulumu, entegrasyonları, vergileri ve desteği karşılaştırın. Sundae hesaplayıcısını kullanın ve Restaurant365’ten aynı kapsamda teklif isteyin. Başlangıç fiyatı tek başına daha iyi değeri kanıtlamaz."
+    "costComparison": "Aynı lokasyonları, çalışanları, modülleri, kurulumu, entegrasyonları, vergileri ve desteği karşılaştırın. Sundae hesaplayıcısını kullanın ve Restaurant365’ten aynı kapsamda teklif isteyin. Başlangıç fiyatı tek başına daha iyi değeri kanıtlamaz.",
+    "comparePackages": "Paketleri karşılaştırın",
+    "moduleInclusion": "Pakete göre dahildir",
+    "moduleQuestion": "Modüller ayrı satılıyor mu?",
+    "moduleAnswer": "Hayır. Modüller Core paketlerine dahildir. Her paketin hangi özellikleri içerdiğini görmek için paketleri karşılaştırın."
   },
   "hi": {
     "packageScope": "Core पैकेजों में अलग-अलग क्षमताएँ शामिल हैं। चुने हुए पैकेज और उपलब्ध विस्तारों की जाँच मूल्य कैलकुलेटर में करें।",
@@ -192,7 +240,11 @@
     "sampleWalkthrough": "आपके अपने डेटा का उपयोग वैकल्पिक है। हम एक नमूना संचालन से शुरुआत कर सकते हैं।",
     "shortlist": "Sundae को तब चुनिंदा विकल्पों में रखें जब दैनिक कर्मचारी और शिफ्ट के काम को विभिन्न प्रणालियों के प्रदर्शन से जोड़ना हो, और उपयुक्त POS व लेखांकन उपकरण बनाए रखने हों। Crew, Core या दोनों से शुरू करें।",
     "accountingBoundary": "Restaurant365 में रेस्तराँ के लिए मूल लेखांकन, सामान्य खाता-बही और देय खाते शामिल हैं। Sundae संचालन के साक्ष्य जोड़ता है; यह आपकी लेखांकन खाता-बही का विकल्प नहीं है। हर प्रदाता से एकीकरण और देश-विशिष्ट दायरे की पुष्टि करें।",
-    "costComparison": "समान स्थानों, कर्मचारियों, मॉड्यूल, कार्यान्वयन, एकीकरण, करों और सहायता की तुलना करें। Sundae का वर्तमान कैलकुलेटर उपयोग करें और Restaurant365 से समान दायरे का प्रस्ताव लें। केवल शुरुआती मूल्य बेहतर मूल्य का प्रमाण नहीं है।"
+    "costComparison": "समान स्थानों, कर्मचारियों, मॉड्यूल, कार्यान्वयन, एकीकरण, करों और सहायता की तुलना करें। Sundae का वर्तमान कैलकुलेटर उपयोग करें और Restaurant365 से समान दायरे का प्रस्ताव लें। केवल शुरुआती मूल्य बेहतर मूल्य का प्रमाण नहीं है।",
+    "comparePackages": "पैकेज की तुलना करें",
+    "moduleInclusion": "पैकेज के अनुसार शामिल",
+    "moduleQuestion": "क्या मॉड्यूल अलग से बेचे जाते हैं?",
+    "moduleAnswer": "नहीं। मॉड्यूल Core पैकेज में शामिल हैं। हर पैकेज में कौन सी क्षमताएँ शामिल हैं, यह जानने के लिए पैकेज की तुलना करें।"
   },
   "bn": {
     "packageScope": "Core প্যাকেজে ভিন্ন ভিন্ন সুবিধা রয়েছে। নির্বাচিত প্যাকেজ ও উপযুক্ত এক্সটেনশন মূল্য ক্যালকুলেটরে যাচাই করুন।",
@@ -207,7 +259,11 @@
     "sampleWalkthrough": "আপনার নিজস্ব ডেটা দেওয়া ঐচ্ছিক। আমরা একটি নমুনা কার্যক্রম দিয়ে শুরু করতে পারি।",
     "shortlist": "দৈনন্দিন কর্মী ও শিফটের কাজকে বিভিন্ন সিস্টেমের পারফরম্যান্সের সঙ্গে যুক্ত করতে এবং উপযুক্ত POS ও হিসাবরক্ষণ রাখতে চাইলে Sundae বিবেচনা করুন। Crew, Core বা উভয় দিয়ে শুরু করুন।",
     "accountingBoundary": "Restaurant365-এ রেস্তোরাঁর নিজস্ব হিসাবরক্ষণ, সাধারণ খতিয়ান ও প্রদেয় হিসাব রয়েছে। Sundae পরিচালনাগত প্রমাণ যুক্ত করে; এটি আপনার হিসাবের খতিয়ান প্রতিস্থাপন করে না। প্রতিটি সরবরাহকারীর সঙ্গে একীকরণ ও দেশভিত্তিক পরিসর যাচাই করুন।",
-    "costComparison": "একই লোকেশন, কর্মী, মডিউল, বাস্তবায়ন, একীকরণ, কর ও সহায়তার তুলনা করুন। Sundae-এর বর্তমান ক্যালকুলেটর ব্যবহার করুন এবং Restaurant365 থেকে সমপরিসরের প্রস্তাব নিন। শুধু প্রারম্ভিক মূল্য উন্নত মূল্যমান প্রমাণ করে না।"
+    "costComparison": "একই লোকেশন, কর্মী, মডিউল, বাস্তবায়ন, একীকরণ, কর ও সহায়তার তুলনা করুন। Sundae-এর বর্তমান ক্যালকুলেটর ব্যবহার করুন এবং Restaurant365 থেকে সমপরিসরের প্রস্তাব নিন। শুধু প্রারম্ভিক মূল্য উন্নত মূল্যমান প্রমাণ করে না।",
+    "comparePackages": "প্যাকেজ তুলনা করুন",
+    "moduleInclusion": "প্যাকেজ অনুযায়ী অন্তর্ভুক্ত",
+    "moduleQuestion": "মডিউল কি আলাদাভাবে বিক্রি হয়?",
+    "moduleAnswer": "না। মডিউলগুলো Core প্যাকেজের অন্তর্ভুক্ত। প্রতিটি প্যাকেজে কোন সুবিধা রয়েছে তা দেখতে প্যাকেজগুলো তুলনা করুন।"
   },
   "ur": {
     "packageScope": "Core پیکیجز میں مختلف صلاحیتیں شامل ہیں۔ منتخب پیکیج اور اہل اضافوں کو قیمت کے کیلکولیٹر میں دیکھیں۔",
@@ -222,7 +278,11 @@
     "sampleWalkthrough": "آپ کا اپنا ڈیٹا اختیاری ہے۔ ہم ایک نمونہ کاروبار سے آغاز کر سکتے ہیں۔",
     "shortlist": "Sundae کو تب منتخب اختیارات میں رکھیں جب روزمرہ عملے اور شفٹ کے کام کو مختلف نظاموں کی کارکردگی سے جوڑنا ہو اور مناسب POS و حسابداری برقرار رکھنی ہو۔ Crew، Core یا دونوں سے آغاز کریں۔",
     "accountingBoundary": "Restaurant365 میں ریسٹورنٹ کی مقامی حسابداری، جنرل لیجر اور قابل ادائیگی کھاتے شامل ہیں۔ Sundae عملی شواہد جوڑتا ہے؛ آپ کے حسابداری لیجر کی جگہ نہیں لیتا۔ ہر فراہم کنندہ سے انضمام اور ملکی دائرے کی تصدیق کریں۔",
-    "costComparison": "یکساں مقامات، عملے، ماڈیولز، نفاذ، انضمام، ٹیکس اور سپورٹ کا موازنہ کریں۔ Sundae کا موجودہ کیلکولیٹر استعمال کریں اور Restaurant365 سے اسی دائرے کی پیشکش لیں۔ صرف ابتدائی قیمت بہتر قدر ثابت نہیں کرتی۔"
+    "costComparison": "یکساں مقامات، عملے، ماڈیولز، نفاذ، انضمام، ٹیکس اور سپورٹ کا موازنہ کریں۔ Sundae کا موجودہ کیلکولیٹر استعمال کریں اور Restaurant365 سے اسی دائرے کی پیشکش لیں۔ صرف ابتدائی قیمت بہتر قدر ثابت نہیں کرتی۔",
+    "comparePackages": "پیکیجز کا موازنہ کریں",
+    "moduleInclusion": "پیکیج کے مطابق شامل",
+    "moduleQuestion": "کیا ماڈیولز الگ فروخت ہوتے ہیں؟",
+    "moduleAnswer": "نہیں۔ ماڈیولز Core پیکیجز میں شامل ہیں۔ ہر پیکیج میں شامل صلاحیتیں جاننے کے لیے پیکیجز کا موازنہ کریں۔"
   },
   "zh-Hans": {
     "packageScope": "Core 套餐包含不同的功能。请在价格计算器中核实所选套餐及可用扩展。",
@@ -237,7 +297,11 @@
     "sampleWalkthrough": "您自己的数据并非必需。我们可以先使用示例运营数据。",
     "shortlist": "如果您希望把员工与班次的日常工作连接到跨系统绩效，同时保留适合业务的 POS 和会计工具，可将 Sundae 纳入候选。可从 Crew、Core 或两者开始。",
     "accountingBoundary": "Restaurant365 包含原生餐厅会计、总账和应付账款。Sundae 连接运营证据，并不取代您的会计总账。请向各供应商确认集成与各国适用范围。",
-    "costComparison": "请按相同门店、员工、模块、实施、集成、税费和支持范围比较。使用 Sundae 当前计算器，并向 Restaurant365 索取同等范围报价。仅凭起始价格无法证明更高价值。"
+    "costComparison": "请按相同门店、员工、模块、实施、集成、税费和支持范围比较。使用 Sundae 当前计算器，并向 Restaurant365 索取同等范围报价。仅凭起始价格无法证明更高价值。",
+    "comparePackages": "比较套餐",
+    "moduleInclusion": "按套餐包含",
+    "moduleQuestion": "模块是否单独出售？",
+    "moduleAnswer": "不。模块包含在 Core 套餐中。请比较套餐，了解各套餐包含的功能。"
   },
   "ja": {
     "packageScope": "Core の各プランに含まれる機能は異なります。選択したプランと利用可能な拡張機能を料金シミュレーターでご確認ください。",
@@ -252,7 +316,11 @@
     "sampleWalkthrough": "お客様のデータは必須ではありません。サンプルの運営データから始められます。",
     "shortlist": "日々の人員・シフト業務をシステム横断の実績につなぎ、適した POS や会計ツールを維持したい場合は Sundae を候補にしてください。Crew、Core、または両方から始められます。",
     "accountingBoundary": "Restaurant365 はレストラン向けのネイティブ会計、総勘定元帳、買掛金管理を含みます。Sundae は運営上の根拠をつなぐもので、会計元帳を置き換えません。連携と国別対応範囲を各社に確認してください。",
-    "costComparison": "同じ拠点数、人員、モジュール、導入、連携、税金、サポートで比較してください。Sundae の現行計算ツールと同範囲の Restaurant365 見積もりを使います。開始価格だけでは価値の優劣は判断できません。"
+    "costComparison": "同じ拠点数、人員、モジュール、導入、連携、税金、サポートで比較してください。Sundae の現行計算ツールと同範囲の Restaurant365 見積もりを使います。開始価格だけでは価値の優劣は判断できません。",
+    "comparePackages": "パッケージを比較",
+    "moduleInclusion": "パッケージごとに含まれる機能",
+    "moduleQuestion": "モジュールは個別に販売されていますか？",
+    "moduleAnswer": "いいえ。モジュールは Core パッケージに含まれます。各パッケージに含まれる機能を比較してください。"
   },
   "ko": {
     "packageScope": "Core 패키지마다 포함 기능이 다릅니다. 선택한 패키지와 이용 가능한 확장 기능을 요금 계산기에서 확인하세요.",
@@ -267,7 +335,11 @@
     "sampleWalkthrough": "자체 데이터는 선택 사항입니다. 샘플 운영 사례로 시작할 수 있습니다.",
     "shortlist": "적합한 POS와 회계 도구를 유지하면서 일상 인력·교대 업무를 여러 시스템의 성과와 연결하려면 Sundae를 후보로 검토하세요. Crew, Core 또는 둘 다로 시작할 수 있습니다.",
     "accountingBoundary": "Restaurant365에는 식당 전용 기본 회계, 총계정원장과 매입채무 관리가 포함됩니다. Sundae는 운영 근거를 연결하며 회계 원장을 대체하지 않습니다. 통합과 국가별 범위는 각 제공업체에 확인하세요.",
-    "costComparison": "동일한 지점, 인력, 모듈, 도입, 통합, 세금과 지원 범위를 비교하세요. Sundae의 현재 계산기를 사용하고 Restaurant365에 같은 범위의 견적을 요청하세요. 시작 가격만으로 더 나은 가치를 입증할 수는 없습니다."
+    "costComparison": "동일한 지점, 인력, 모듈, 도입, 통합, 세금과 지원 범위를 비교하세요. Sundae의 현재 계산기를 사용하고 Restaurant365에 같은 범위의 견적을 요청하세요. 시작 가격만으로 더 나은 가치를 입증할 수는 없습니다.",
+    "comparePackages": "패키지 비교",
+    "moduleInclusion": "패키지에 따라 포함",
+    "moduleQuestion": "모듈을 별도로 판매하나요?",
+    "moduleAnswer": "아니요. 모듈은 Core 패키지에 포함됩니다. 각 패키지에 포함된 기능을 비교해 보세요."
   },
   "id": {
     "packageScope": "Paket Core mencakup kemampuan yang berbeda. Periksa paket pilihan dan ekstensi yang memenuhi syarat di kalkulator harga.",
@@ -282,7 +354,11 @@
     "sampleWalkthrough": "Data Anda sendiri bersifat opsional. Kita dapat mulai dengan contoh operasional.",
     "shortlist": "Pertimbangkan Sundae untuk menghubungkan pekerjaan harian staf dan sif dengan kinerja lintas sistem, sambil mempertahankan POS dan akuntansi yang sesuai. Mulai dengan Crew, Core, atau keduanya.",
     "accountingBoundary": "Restaurant365 mencakup akuntansi restoran bawaan, buku besar, dan utang usaha. Sundae menghubungkan bukti operasional tanpa menggantikan buku besar Anda. Konfirmasikan integrasi dan cakupan negara dengan setiap penyedia.",
-    "costComparison": "Bandingkan lokasi, staf, modul, implementasi, integrasi, pajak, dan dukungan yang sama. Gunakan kalkulator Sundae terkini dan minta penawaran Restaurant365 dengan cakupan setara. Harga awal saja tidak membuktikan nilai yang lebih baik."
+    "costComparison": "Bandingkan lokasi, staf, modul, implementasi, integrasi, pajak, dan dukungan yang sama. Gunakan kalkulator Sundae terkini dan minta penawaran Restaurant365 dengan cakupan setara. Harga awal saja tidak membuktikan nilai yang lebih baik.",
+    "comparePackages": "Bandingkan paket",
+    "moduleInclusion": "Termasuk sesuai paket",
+    "moduleQuestion": "Apakah modul dijual terpisah?",
+    "moduleAnswer": "Tidak. Modul sudah termasuk dalam paket Core. Bandingkan paket untuk melihat kemampuan yang disertakan dalam setiap paket."
   },
   "ms": {
     "packageScope": "Pakej Core merangkumi keupayaan yang berbeza. Semak pakej pilihan dan sambungan yang layak dalam kalkulator harga.",
@@ -297,7 +373,11 @@
     "sampleWalkthrough": "Data anda sendiri adalah pilihan. Kita boleh bermula dengan contoh operasi.",
     "shortlist": "Pertimbangkan Sundae untuk menghubungkan kerja harian kakitangan dan syif dengan prestasi merentas sistem, sambil mengekalkan POS dan perakaunan yang sesuai. Mulakan dengan Crew, Core atau kedua-duanya.",
     "accountingBoundary": "Restaurant365 merangkumi perakaunan restoran terbina dalam, lejar am dan akaun belum bayar. Sundae menghubungkan bukti operasi tanpa menggantikan lejar anda. Sahkan integrasi dan skop negara dengan setiap penyedia.",
-    "costComparison": "Bandingkan lokasi, tenaga kerja, modul, pelaksanaan, integrasi, cukai dan sokongan yang sama. Gunakan kalkulator Sundae semasa dan minta sebut harga Restaurant365 dengan skop setara. Harga awal sahaja tidak membuktikan nilai lebih baik."
+    "costComparison": "Bandingkan lokasi, tenaga kerja, modul, pelaksanaan, integrasi, cukai dan sokongan yang sama. Gunakan kalkulator Sundae semasa dan minta sebut harga Restaurant365 dengan skop setara. Harga awal sahaja tidak membuktikan nilai lebih baik.",
+    "comparePackages": "Bandingkan pakej",
+    "moduleInclusion": "Disertakan mengikut pakej",
+    "moduleQuestion": "Adakah modul dijual secara berasingan?",
+    "moduleAnswer": "Tidak. Modul disertakan dalam pakej Core. Bandingkan pakej untuk melihat keupayaan yang disertakan dalam setiap pakej."
   },
   "vi": {
     "packageScope": "Các gói Core bao gồm những tính năng khác nhau. Kiểm tra gói đã chọn và các tiện ích mở rộng phù hợp trong công cụ tính giá.",
@@ -312,7 +392,11 @@
     "sampleWalkthrough": "Dữ liệu riêng của bạn là tùy chọn. Chúng tôi có thể bắt đầu bằng hoạt động mẫu.",
     "shortlist": "Cân nhắc Sundae khi muốn kết nối công việc nhân sự và ca hằng ngày với hiệu quả trên nhiều hệ thống, đồng thời giữ POS và công cụ kế toán phù hợp. Bắt đầu với Crew, Core hoặc cả hai.",
     "accountingBoundary": "Restaurant365 có kế toán nhà hàng tích hợp, sổ cái và quản lý phải trả. Sundae kết nối bằng chứng vận hành, không thay thế sổ cái kế toán. Xác nhận tích hợp và phạm vi từng quốc gia với mỗi nhà cung cấp.",
-    "costComparison": "So sánh cùng số địa điểm, nhân sự, mô-đun, triển khai, tích hợp, thuế và hỗ trợ. Dùng công cụ tính giá Sundae hiện tại và yêu cầu báo giá Restaurant365 có phạm vi tương đương. Giá khởi điểm không tự chứng minh giá trị tốt hơn."
+    "costComparison": "So sánh cùng số địa điểm, nhân sự, mô-đun, triển khai, tích hợp, thuế và hỗ trợ. Dùng công cụ tính giá Sundae hiện tại và yêu cầu báo giá Restaurant365 có phạm vi tương đương. Giá khởi điểm không tự chứng minh giá trị tốt hơn.",
+    "comparePackages": "So sánh các gói",
+    "moduleInclusion": "Bao gồm theo từng gói",
+    "moduleQuestion": "Các mô-đun có được bán riêng không?",
+    "moduleAnswer": "Không. Các mô-đun được bao gồm trong các gói Core. So sánh các gói để xem những tính năng có trong từng gói."
   },
   "th": {
     "packageScope": "แพ็กเกจ Core มีความสามารถต่างกัน โปรดตรวจสอบแพ็กเกจที่เลือกและส่วนเสริมที่ใช้ได้ในเครื่องคำนวณราคา",
@@ -327,6 +411,10 @@
     "sampleWalkthrough": "ไม่จำเป็นต้องใช้ข้อมูลของคุณเอง เราสามารถเริ่มจากตัวอย่างการดำเนินงานได้",
     "shortlist": "พิจารณา Sundae เมื่อคุณต้องการเชื่อมงานพนักงานและกะประจำวันกับผลการดำเนินงานข้ามระบบ โดยคง POS และเครื่องมือบัญชีที่เหมาะสมไว้ เริ่มด้วย Crew, Core หรือทั้งสองอย่าง",
     "accountingBoundary": "Restaurant365 มีบัญชีร้านอาหารในตัว บัญชีแยกประเภททั่วไป และบัญชีเจ้าหนี้ Sundae เชื่อมหลักฐานการดำเนินงานโดยไม่แทนที่บัญชีแยกประเภทของคุณ โปรดยืนยันการเชื่อมต่อและขอบเขตประเทศกับผู้ให้บริการแต่ละราย",
-    "costComparison": "เปรียบเทียบสาขา พนักงาน โมดูล การติดตั้ง การเชื่อมต่อ ภาษี และการสนับสนุนในขอบเขตเดียวกัน ใช้เครื่องคำนวณ Sundae ปัจจุบันและขอใบเสนอราคา Restaurant365 ที่เทียบเคียงกัน ราคาเริ่มต้นอย่างเดียวไม่ได้พิสูจน์ว่าคุ้มค่ากว่า"
+    "costComparison": "เปรียบเทียบสาขา พนักงาน โมดูล การติดตั้ง การเชื่อมต่อ ภาษี และการสนับสนุนในขอบเขตเดียวกัน ใช้เครื่องคำนวณ Sundae ปัจจุบันและขอใบเสนอราคา Restaurant365 ที่เทียบเคียงกัน ราคาเริ่มต้นอย่างเดียวไม่ได้พิสูจน์ว่าคุ้มค่ากว่า",
+    "comparePackages": "เปรียบเทียบแพ็กเกจ",
+    "moduleInclusion": "รวมตามแพ็กเกจ",
+    "moduleQuestion": "โมดูลจำหน่ายแยกหรือไม่",
+    "moduleAnswer": "ไม่ โมดูลรวมอยู่ในแพ็กเกจ Core เปรียบเทียบแพ็กเกจเพื่อดูความสามารถที่รวมอยู่ในแต่ละแพ็กเกจ"
   }
 }

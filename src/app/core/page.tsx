@@ -1,5 +1,6 @@
 'use client';
 
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
 
@@ -657,10 +658,11 @@ export default function CoreProductPage() {
   const { locale } = useWebsiteI18n();
   const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
   const cream = coreCreamCopy[locale as keyof typeof coreCreamCopy] ?? coreCreamCopy.en;
+  const commercial = getCommercialCopy(locale);
   const coreTiers = ui.tiers.items;
   const modules = ui.modules.items;
   const integrations = ui.integrations.items;
-  const faqs = ui.faq.items;
+  const faqs = ui.faq.items.map((faq, index) => index === 5 ? { q: commercial.moduleQuestion, a: commercial.moduleAnswer } : faq);
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -875,13 +877,13 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* Add Modules */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
+      {/* Package coverage */}
+      <section data-core-package-components className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.modules.heading}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.modules.description}</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{commercial.packageTitle}</h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{commercial.packageScope}</p>
             </div>
           </FadeUp>
 
@@ -905,9 +907,10 @@ export default function CoreProductPage() {
             <Button
               variant="outline"
               size="lg"
-              onClick={() => cta("/insights", "explore_modules_from_core", { page: "/core" })}
+              href={PRICING_URL}
+              trackingLabel="compare_packages_from_core" trackingMetadata={{ destination: PRICING_URL, page: "/core" }}
             >
-              {ui.modules.button} →
+              {commercial.comparePackages} →
             </Button>
           </div>
         </div>
@@ -937,8 +940,8 @@ export default function CoreProductPage() {
       </section>
 
 
-      {/* Three Tiers */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+      {/* Core package comparison */}
+      <section id="packages" className="scroll-mt-24 py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
