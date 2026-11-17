@@ -28,7 +28,7 @@ export default async function Restaurant365AlternativePage() {
   }
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)]">
+    <div className="search-brand-page min-h-screen overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)]">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
       <section className="search-hero relative overflow-hidden px-4 pb-20 pt-32 sm:px-6 lg:px-8">
         <div className="relative z-10 mx-auto max-w-5xl">

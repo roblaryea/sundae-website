@@ -26,7 +26,7 @@ export default function WhySundaePage() {
   const href = (path: string) => getLocalizedPathname(path, locale)
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[var(--navy-deep)]">
+    <div className="search-brand-page min-h-screen overflow-x-hidden bg-[var(--navy-deep)]">
       <PageHero badge={proofCopy[locale as keyof typeof proofCopy].whySundae} title={<BrandEmphasis text={copy.brand.editorialHeadline} phrase={brandEmphasis[locale as keyof typeof brandEmphasis][7]} />} description={commercial.shortlist}>
         <Button variant="cta" size="lg" href={href('/demo')} trackingLabel="why_sundae_hero_walkthrough" trackingMetadata={{ destination: href('/demo') }}>{messages.navbar.bookDemo}</Button>
       </PageHero>

@@ -52,6 +52,8 @@ try {
       const clippedActions = await page.locator('a').evaluateAll(nodes => nodes.filter(n => n.className.includes('rounded-xl') && n.getBoundingClientRect().width && n.scrollWidth > n.clientWidth + 1).map(n => n.textContent))
       assert.deepEqual(clippedActions, [], `${path}: action text overflows`)
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${path}: horizontal overflow`)
+      const clippedHeadings = await page.locator('main h1, main h2, main h3').evaluateAll(nodes => nodes.filter(n => n.getBoundingClientRect().width && n.scrollWidth > n.clientWidth + 1).map(n => n.textContent))
+      assert.deepEqual(clippedHeadings, [], `${path}: heading clips inside section`)
       assert.deepEqual(errors, [], path)
       results.push({ path, status: response.status(), locale, title: copy.metaTitle, errors })
       await page.close()
