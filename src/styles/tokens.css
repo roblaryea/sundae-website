@@ -49,7 +49,7 @@
   --text-supporting: rgba(255, 255, 255, 0.65);
   --text-muted: rgba(255, 255, 255, 0.5);
   --text-faint: rgba(255, 255, 255, 0.2);
-  --muted-grey: #79819A;
+  --muted-grey: var(--text-muted); /* legacy small copy follows the warm hierarchy */
   --eyebrow: rgba(246, 241, 232, 0.62);  /* muted warm label - eyebrows/kickers. Coral is freed for CTAs + live signals, not every section label. */
   --text-warm: #F6C66B; /* caramel/amber emphasis on espresso */
   --text-display: #FBF8F4;               /* warm off-white for display headings on dark - matches the hero headline + wordmark, not clinical pure #FFF */
