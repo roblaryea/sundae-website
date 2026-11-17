@@ -143,7 +143,6 @@ const Navbar = () => {
     product: true,
     solutions: false,
     resources: false,
-    company: false,
     core: false,
     crew: false,
   });
@@ -322,7 +321,7 @@ const Navbar = () => {
           {/* Desktop Navigation - tighter spacing (space-x-6) so the right-side
               CTA cluster doesn't collide with the Resources dropdown at narrow
               widths; min-w-0 lets the row shrink instead of overflow */}
-          <div className="hidden xl:flex items-center space-x-5 min-w-0 whitespace-nowrap">
+          <div data-site-navigation="desktop" className="hidden xl:flex items-center space-x-5 min-w-0 whitespace-nowrap">
             {/* Products Mega Menu */}
             <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
               <button
@@ -655,9 +654,6 @@ const Navbar = () => {
                   </div>
                 </div>
               ))}
-              <MobileNavLink href={localizeHref('/why-sundae')} onClick={handleMobileNavClick}>
-                {proofCopy[locale as keyof typeof proofCopy].whySundae}
-              </MobileNavLink>
             </AccordionSection>
 
             {/* Solutions Section */}
@@ -698,6 +694,10 @@ const Navbar = () => {
               {nav.pricing}
             </a>
 
+            <MobileNavLink href={localizeHref('/why-sundae')} onClick={handleMobileNavClick}>
+              {proofCopy[locale as keyof typeof proofCopy].whySundae}
+            </MobileNavLink>
+
             {/* Resources Section */}
             <AccordionSection
               title={nav.resources}
@@ -714,18 +714,6 @@ const Navbar = () => {
                   {resource.name}
                 </MobileNavLink>
               ))}
-            </AccordionSection>
-
-            {/* Company Section */}
-            <AccordionSection
-              title={nav.company}
-              id="company"
-              isExpanded={expandedSections.company}
-              onToggle={() => toggleSection('company')}
-            >
-              <MobileNavLink href={localizeHref('/about')} onClick={handleMobileNavClick}>
-                {nav.about}
-              </MobileNavLink>
             </AccordionSection>
           </div>
 
