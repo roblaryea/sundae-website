@@ -4,6 +4,18 @@ import catalog from './pricing/catalogSnapshot.json'
 
 export const WATCHTOWER_OPTIONS = ['competitive', 'events', 'trends', 'bundle'] as const
 
+export function buildCoreCoverageUrl(corePackage: PricingIntent['corePackage'], foresight = false) {
+  const tier = catalog.tiers.find(tier => `core_${tier.id}` === corePackage)
+  if (!tier) throw new Error('Review Core coverage before publishing this starting estimate')
+  const intent: PricingIntent = {
+    v: 2, layer: 'core', corePackage, locations: 1,
+    addOns: foresight && !tier.includedModuleIds.includes('foresight') ? ['foresight_action'] : [],
+    watchtowerModules: [], crewSkus: [],
+    crossIntelligence: 'none', billingCycle: 'monthly', operatingModels: [], employees: null, payrollCountry: '',
+  }
+  return `${PRICING_URL}/simulator?${new URLSearchParams({ cfg: encodePricingIntent(intent) })}`
+}
+
 export const CREW_COVERAGE_OPTIONS = ['operations', 'operating', 'complete'] as const
 
 /** The receiving contract adds prerequisite capabilities before quoting. */

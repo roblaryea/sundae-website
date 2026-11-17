@@ -12,6 +12,7 @@ import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { PRICING_URL } from '@/lib/urls';
+import { CoreCoverageNote } from '@/components/seo/CoreCoverageNote';
 import { insightsCreamCopy } from './insightsCreamCopy';
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreInsightsMobile } from '@/components/core/CoreInsightsMobile';
@@ -787,18 +788,7 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* Value Props */}
-      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-wrap justify-center gap-8 text-sm text-[var(--text-muted)]">
-            <span className="font-medium">{commercial.moduleInclusion}</span>
-            <span aria-hidden className="text-[var(--text-muted)]">|</span>
-            <span className="font-medium">{ui.valueProps[1]}</span>
-            <span aria-hidden className="text-[var(--text-muted)]">|</span>
-            <a href={PRICING_URL} className="brand-action-link font-medium underline underline-offset-4">{commercial.comparePackages}</a>
-          </div>
-        </div>
-      </section>
+      <CoreCoverageNote locale={locale} />
 
       {/* Who It's For */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">

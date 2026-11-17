@@ -25,11 +25,46 @@ function load(file) {
 }
 const { getWebsiteMessages, websiteLocales } = load('src/lib/i18n.ts')
 const { decodePricingIntent } = load('src/lib/pricingIntent.ts')
-const { buildWatchtowerPricingUrl, WATCHTOWER_OPTIONS, buildCrewCoverageUrl, buildCrewCapabilityUrl } = load('src/lib/pricingNavigation.ts')
+const { buildWatchtowerPricingUrl, WATCHTOWER_OPTIONS, buildCrewCoverageUrl, buildCrewCapabilityUrl, buildCoreCoverageUrl } = load('src/lib/pricingNavigation.ts')
+const { getCoreCoverageSummary } = load('src/lib/pricing/commercialCopy.ts')
 const { crewWorkflowScope } = load('src/lib/crewWorkflowCoverage.ts')
 const catalogue = load('src/lib/pricing/catalogSnapshot.json')
 const { getLocalizedFaqSections } = load('src/content/faqContent.ts')
 const commercial = load('src/content/commercial-copy.json')
+test('Core coverage preserves distinct Margin/Growth domains and Delivery coverage', () => {
+  const modules = Object.fromEntries(catalogue.tiers.map(t => [t.id, t.includedModuleIds]))
+  assert.deepEqual(modules.foundation, ['labor', 'profit', 'revenue_assurance', 'pulse'])
+  for (const id of ['margin', 'performance']) assert.ok(modules[id].includes('inventory') && modules[id].includes('purchasing'))
+  assert.ok(!modules.growth.includes('inventory') && !modules.growth.includes('purchasing'))
+  for (const id of ['margin', 'growth', 'performance']) assert.ok(modules[id].includes('delivery'))
+  for (const id of ['foundation', 'margin', 'growth']) assert.ok(!modules[id].includes('foresight'))
+  assert.ok(modules.performance.includes('foresight'))
+})
+test('Core package links select the exact package; optional Foresight is not charged again in Performance', () => {
+  for (const tier of catalogue.tiers) for (const foresight of [false, true]) {
+    const url = new URL(buildCoreCoverageUrl(`core_${tier.id}`, foresight))
+    const intent = decodePricingIntent(url.searchParams.get('cfg'))
+    assert.equal(intent.corePackage, `core_${tier.id}`)
+    assert.equal(intent.layer, 'core')
+    assert.equal(intent.locations, 1)
+    assert.equal(intent.billingCycle, 'monthly')
+    assert.equal(intent.crewSkus.length + intent.watchtowerModules.length, 0)
+    assert.deepEqual([...intent.addOns], foresight && tier.id !== 'performance' ? ['foresight_action'] : [])
+  }
+})
+test('Core package FAQs use the same localized coverage, common capabilities and limits', () => {
+  for (const locale of websiteLocales) {
+    const summary = getCoreCoverageSummary(locale)
+    const sections = getLocalizedFaqSections(locale, [])
+    assert.equal(sections.find(s => s.id === 'getting-started').faqs[3].content, summary)
+    assert.equal(sections.find(s => s.id === 'products-tiers').faqs[1].content, summary)
+    assert.equal(sections.find(s => s.id === 'use-cases').faqs[0].content, commercial[locale].coreLocationScope)
+    assert.ok(!sections.find(s => s.id === 'use-cases').faqs[0].content.includes('same eleven modules'))
+    for (const name of ['Pulse', 'Benchmarks', 'Ask Sundae', 'Profit Recovery', 'Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance']) assert.ok(summary.includes(name))
+    assert.ok(summary.includes(commercial[locale].coreUsageNote))
+    if (locale !== 'en') assert.notEqual(commercial[locale].coreGrowthCoverage, commercial.en.coreGrowthCoverage)
+  }
+})
 test('Crew feature estimates contain prerequisites rather than quoting an isolated component', () => {
   const cases = {
     crew_scheduling: ['crew_scheduling'],

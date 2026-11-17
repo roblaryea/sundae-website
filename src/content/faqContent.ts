@@ -1,4 +1,4 @@
-import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
+import { getCommercialCopy, getCoreCoverageSummary } from '@/lib/pricing/commercialCopy';
 import type { SundaeIconName } from '@/components/icons';
 import type { RequiredEnglishLocalizedRecord, WebsiteLocale } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -1565,12 +1565,13 @@ export function getLocalizedFaqSections(
 
   const commercial = getCommercialCopy(locale);
   const corrections: Record<string, Record<number, string>> = {
-    'getting-started': { 0: commercial.productOverview, 3: commercial.packageScope, 4: commercial.terms },
-    'products-tiers': { 0: commercial.productOverview, 1: commercial.packageScope, 3: commercial.packageScope },
+    'getting-started': { 0: commercial.productOverview, 3: getCoreCoverageSummary(locale), 4: commercial.terms },
+    'products-tiers': { 0: commercial.productOverview, 1: getCoreCoverageSummary(locale), 3: commercial.packageScope },
     modules: { 0: commercial.packageScope, 1: commercial.packageScope, 2: commercial.packageScope, 3: commercial.packageScope, 4: commercial.packageScope, 5: commercial.moduleAnswer },
     'pricing-billing': { 1: commercial.setup, 3: commercial.terms },
     watchtower: { 1: commercial.watchtowerEligibility, 3: commercial.watchtowerChoice, 4: commercial.watchtowerEligibility },
     comparisons: { 2: commercial.packageScope + ' ' + commercial.setup },
+    'use-cases': { 0: commercial.coreLocationScope },
     crew: { 1: commercial.payroll, 2: commercial.payroll, 4: commercial.firstLocation + ': [pricing.sundae.io](https://pricing.sundae.io). ' + commercial.extraLocations },
   };
   return sections.map((section, index) => ({

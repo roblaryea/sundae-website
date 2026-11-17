@@ -6,7 +6,8 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { MockupFrame, MockupKPI, MockupTable, MockupAlert } from "@/components/ui/MockupFrame";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
-import { PRICING_URL } from "@/lib/urls";
+import { CoreCoverageNote } from '@/components/seo/CoreCoverageNote';
+import { buildCoreCoverageUrl } from '@/lib/pricingNavigation';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
@@ -616,9 +617,11 @@ export default function ForesightPage() {
         <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">{locale === 'en' ? '22 forecast metrics. 14-365 day horizons. Self-correcting accuracy. 32 forecast visuals.' : locale === 'ar' ? '22 مقياس توقع. أفق 14-365 يوماً. دقة تتصحح ذاتياً. 32 مرئية تنبؤية.' : locale === 'fr' ? '22 métriques, horizons 14-365 jours, précision auto-corrigée, 32 visuels de forecast.' : '22 métricas de previsión. Horizontes de 14-365 días. Precisión con autocorrección. 32 visuales.'}</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_hero", { page: "/product/foresight" })}>{ui.heroPrimary}</Button>
-          <Button variant="outline-light" size="lg" href={PRICING_URL}>{ui.heroSecondary}</Button>
+          <Button variant="outline-light" size="lg" href={buildCoreCoverageUrl('core_foundation', true)}>{ui.heroSecondary}</Button>
         </div>
       </PageHero>
+
+      <CoreCoverageNote locale={locale} foresight />
 
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">

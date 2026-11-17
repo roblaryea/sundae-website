@@ -1,12 +1,10 @@
 'use client';
 
-import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
+import { getCommercialCopy, getCoreCoverageSummary } from '@/lib/pricing/commercialCopy';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
 
 import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
-import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
@@ -16,12 +14,8 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
-import {
-  CORE_PACKAGES_BY_ID,
-  describeBands,
-  usd,
-  type CorePackageId,
-} from '@/lib/pricing/priceBook'
+import type { CorePackageId } from '@/lib/pricing/priceBook'
+import { CorePackageCoverage } from '@/components/seo/CorePackageCoverage'
 import { generatedLocalCopy } from '@/generated-locales/app_core_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { coreCreamCopy } from "./coreCreamCopy";
@@ -659,10 +653,8 @@ export default function CoreProductPage() {
   const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
   const cream = coreCreamCopy[locale as keyof typeof coreCreamCopy] ?? coreCreamCopy.en;
   const commercial = getCommercialCopy(locale);
-  const coreTiers = ui.tiers.items;
-  const modules = ui.modules.items;
   const integrations = ui.integrations.items;
-  const faqs = ui.faq.items.map((faq, index) => index === 4 ? { ...faq, a: commercial.watchtowerEligibility } : index === 5 ? { q: commercial.moduleQuestion, a: commercial.moduleAnswer } : faq);
+  const faqs = ui.faq.items.map((faq, index) => index === 0 ? { ...faq, a: getCoreCoverageSummary(locale) } : index === 4 ? { ...faq, a: commercial.watchtowerEligibility } : index === 5 ? { q: commercial.moduleQuestion, a: commercial.moduleAnswer } : faq);
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -877,45 +869,6 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* Package coverage */}
-      <section data-core-package-components className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{commercial.packageTitle}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{commercial.packageScope}</p>
-            </div>
-          </FadeUp>
-
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {modules.map((mod) => (
-              <StaggerItem key={mod.name}>
-                <div className="flex items-start gap-3 p-5 bg-[var(--surface-faint)] rounded-xl border border-[var(--border-default)] h-full">
-                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF7E6F] to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name={mod.icon} size="md" className="text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-[var(--text-primary)] mb-1">{mod.name}</h3>
-                    <p className="text-sm text-[var(--text-supporting)]">{mod.description}</p>
-                  </div>
-                </div>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-
-          <div className="text-center">
-            <Button
-              variant="outline"
-              size="lg"
-              href={PRICING_URL}
-              trackingLabel="compare_packages_from_core" trackingMetadata={{ destination: PRICING_URL, page: "/core" }}
-            >
-              {commercial.comparePackages} →
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* Core + Watchtower */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[var(--surface-subtle)] to-transparent" />
@@ -941,94 +894,7 @@ export default function CoreProductPage() {
       </section>
 
 
-      {/* Core package comparison */}
-      <section id="packages" className="scroll-mt-24 py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <p className="eyebrow mb-4">{ui.tiers.eyebrow}</p>
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
-            </div>
-          </FadeUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-            {coreTiers.map((tier, index) => {
-              // Prices are read from the v1.7 price book, never from copy.
-              // Core packages are marginal-band SKUs: a first-location anchor
-              // plus a stepped rate per additional location. There is no flat
-              // per-location rate and no included-locations allowance.
-              const pkg = CORE_PACKAGES_BY_ID[tier.packageId as CorePackageId];
-              return (
-              <motion.div
-                key={tier.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card variant="elevated" className="h-full relative">
-                  {tier.badge && (
-                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <span className={`px-4 py-1 bg-gradient-to-r ${tier.color} text-white text-xs font-semibold rounded-full shadow-lg`}>
-                        {tier.badge}
-                      </span>
-                    </div>
-                  )}
-                    <CardHeader className="pt-8">
-                      <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
-                      <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
-                      <div className="mb-3">
-                        <span className="text-3xl font-bold text-[var(--text-primary)] tabular-nums">
-                          {usd(pkg.firstUnitMonthly)}
-                        </span>
-                        <p className="text-xs text-[var(--text-muted)]">{ui.tiers.priceLabel}</p>
-                      </div>
-                      <CardDescription>{tier.description}</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="mb-6 rounded-lg border border-[var(--border-default)] p-3">
-                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">
-                          {ui.tiers.bandsLabel}
-                        </p>
-                        <p className="text-sm text-[var(--text-secondary)] tabular-nums">
-                          {describeBands(pkg)}
-                        </p>
-                      </div>
-                      <ul className="space-y-3 mb-6">
-                        <li className="flex items-start gap-2">
-                          <span className="text-green-500 mt-1">&#10003;</span>
-                          <span className="text-sm text-[var(--text-supporting)]">
-                            {pkg.aiCreditWallet.toLocaleString('en-US')} {ui.tiers.walletLabel}
-                          </span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-green-500 mt-1">&#10003;</span>
-                          <span className="text-sm text-[var(--text-supporting)]">{tier.areas}</span>
-                        </li>
-                      </ul>
-                      <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
-                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">{ui.tiers.bestForLabel}</p>
-                        <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
-                      </div>
-                      <Button
-                        variant="primary"
-                      size="lg"
-                      className="w-full"
-                        href={PRICING_URL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {ui.tiers.viewPrefix} {tier.name}
-                      </Button>
-                    </CardContent>
-                  </Card>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+      <CorePackageCoverage locale={locale} />
 
       {/* FAQ */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
