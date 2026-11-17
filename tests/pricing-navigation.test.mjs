@@ -25,11 +25,29 @@ function load(file) {
 }
 const { getWebsiteMessages, websiteLocales } = load('src/lib/i18n.ts')
 const { decodePricingIntent } = load('src/lib/pricingIntent.ts')
-const { buildWatchtowerPricingUrl, WATCHTOWER_OPTIONS, buildCrewCoverageUrl } = load('src/lib/pricingNavigation.ts')
+const { buildWatchtowerPricingUrl, WATCHTOWER_OPTIONS, buildCrewCoverageUrl, buildCrewCapabilityUrl } = load('src/lib/pricingNavigation.ts')
 const { crewWorkflowScope } = load('src/lib/crewWorkflowCoverage.ts')
 const catalogue = load('src/lib/pricing/catalogSnapshot.json')
 const { getLocalizedFaqSections } = load('src/content/faqContent.ts')
 const commercial = load('src/content/commercial-copy.json')
+test('Crew feature estimates contain prerequisites rather than quoting an isolated component', () => {
+  const cases = {
+    crew_scheduling: ['crew_scheduling'],
+    crew_tna: ['crew_scheduling', 'crew_tna'],
+    crew_operations: ['crew_operations', 'crew_scheduling'],
+    crew_payroll: ['crew_operations', 'crew_payroll', 'crew_scheduling'],
+    crew_people_intelligence: ['crew_operations', 'crew_people_intelligence', 'crew_scheduling'],
+  }
+  for (const [sku, expected] of Object.entries(cases)) {
+    const url = new URL(buildCrewCapabilityUrl(sku))
+    const intent = decodePricingIntent(url.searchParams.get('cfg'))
+    assert.equal(intent.layer, 'crew')
+    assert.deepEqual([...intent.crewSkus].sort(), expected)
+    assert.equal(intent.locations, 1)
+    assert.equal(intent.billingCycle, 'monthly')
+    assert.equal(intent.watchtowerModules.length + intent.addOns.length, 0)
+  }
+})
 test('Crew workflow ownership does not follow reused product screenshots', () => {
   assert.equal(crewWorkflowScope('restaurant-task-management'), 'operations')
   assert.equal(crewWorkflowScope('restaurant-logbook'), 'operations')

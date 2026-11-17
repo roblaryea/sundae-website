@@ -17,7 +17,7 @@ export function CrewWorkflowCoverage({ locale, scope = 'overview', handover = fa
   return (
     <section data-crew-coverage={scope} className="border-y border-[var(--border-default)] bg-[var(--navy-surface)] px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
       <div className="mx-auto grid max-w-6xl gap-7 lg:grid-cols-[minmax(0,0.5fr)_minmax(0,1fr)] lg:gap-16">
-        <h2 className="section-h3 text-[var(--text-warm)]">{copy.packageTitle}</h2>
+        <h2 className="section-h3"><span className="text-[var(--text-warm)]">{copy.packageTitle}</span></h2>
         <div>
           <div className="space-y-4 text-base leading-relaxed text-[var(--text-supporting)]">
             {statements.map(statement => <p key={statement}>{statement}</p>)}

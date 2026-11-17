@@ -6,6 +6,16 @@ export const WATCHTOWER_OPTIONS = ['competitive', 'events', 'trends', 'bundle'] 
 
 export const CREW_COVERAGE_OPTIONS = ['operations', 'operating', 'complete'] as const
 
+/** The receiving contract adds prerequisite capabilities before quoting. */
+export function buildCrewCapabilityUrl(sku: PricingIntent['crewSkus'][number]) {
+  const intent: PricingIntent = {
+    v: 2, layer: 'crew', corePackage: 'core_foundation', locations: 1,
+    addOns: [], watchtowerModules: [], crewSkus: [sku],
+    crossIntelligence: 'none', billingCycle: 'monthly', operatingModels: [], employees: null, payrollCountry: '',
+  }
+  return `${PRICING_URL}/simulator?${new URLSearchParams({ cfg: encodePricingIntent(intent) })}`
+}
+
 /** A capability estimate includes its prerequisites; it never fixes a price. */
 export function buildCrewCoverageUrl(option: typeof CREW_COVERAGE_OPTIONS[number]) {
   const bundleId = option === 'complete' ? 'crew_complete_bundle' : 'crew_suite_bundle'
