@@ -642,7 +642,7 @@ export default function CrewPage() {
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
                 <span className="text-[var(--text-primary)]">{copy.heroLine1}</span>
                 <br />
-                <span className="italic text-[#F6C66B]">{copy.heroLine2}</span>
+                <span className="italic text-[var(--text-warm)]">{copy.heroLine2}</span>
               </motion.h1>
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-8">
                 {copy.description}
