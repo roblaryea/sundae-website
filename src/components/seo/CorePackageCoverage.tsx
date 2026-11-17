@@ -25,7 +25,7 @@ export function CorePackageCoverage({ locale }: { locale: WebsiteLocale }) {
             <div key={tier.id} data-core-coverage-tier={tier.id} className="grid gap-4 py-7 lg:grid-cols-[minmax(0,0.55fr)_minmax(0,1fr)_auto] lg:items-start lg:gap-10">
               <h3 className="font-display text-xl font-semibold text-[var(--text-display)]">{tier.name}</h3>
               <p className="text-base leading-relaxed text-[var(--text-supporting)]">{descriptions[tier.id as keyof typeof descriptions]}</p>
-              <a data-core-coverage-option={tier.id} aria-label={`${copy.comparePackages} — ${tier.name}`} href={buildCoreCoverageUrl(`core_${tier.id}` as PricingIntent['corePackage'])} className="brand-action-link inline-flex min-h-11 items-center self-start text-sm font-semibold underline underline-offset-4">{copy.comparePackages} →</a>
+              <a data-core-coverage-option={tier.id} aria-label={`${copy.viewEstimate} — ${tier.name}`} href={buildCoreCoverageUrl(`core_${tier.id}` as PricingIntent['corePackage'])} className="brand-action-link inline-flex min-h-11 items-center self-start text-sm font-semibold underline underline-offset-4">{copy.viewEstimate} →</a>
             </div>
           ))}
         </div>
