@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/Button";
 import { motion, MotionConfig } from "framer-motion";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { SIGNUP_URL } from "@/lib/urls";
 import { MockupFrame } from "@/components/ui/MockupFrame";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -18,7 +17,7 @@ import { SectionOperatorVoice } from "./sections/SectionOperatorVoice";
 import { SectionEcosystemStrip } from "./sections/SectionEcosystemStrip";
 import { SundaeWordmark } from "./sections/SundaeWordmark";
 import { editorialCopy, type EditorialCopy } from "./sections/editorialCopy";
-import { closerLineCopy } from "./closerCopy";
+import { homeClosingCopy } from "./closerCopy";
 import { heroDashboardCopy } from "./heroDashboardCopy";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
 import { SectionThreeMoats } from "./sections/SectionThreeMoats";
@@ -87,7 +86,8 @@ export default function HomeContent() {
   };
   const platform = home.platform;
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
-  const closerLine = closerLineCopy[locale as keyof typeof closerLineCopy] ?? closerLineCopy.en;
+  const closing = homeClosingCopy[locale as keyof typeof homeClosingCopy] ?? homeClosingCopy.en;
+  const [signoffBefore, signoffAfter] = closing.signoff.split('Sundae');
   const cta = useCta();
   // Defer reduced-motion to after mount so SSR and the first client render
   // always take the full-motion path (framer's reducedMotion="user" strips
@@ -237,7 +237,7 @@ export default function HomeContent() {
                   {home.titleTop}
                 </span>{" "}
                 <br />
-                <span className="italic text-[#F6C66B]">
+                <span className="italic text-[var(--text-warm)]" data-live-shift-emphasis>
                   {home.titleBottom}
                 </span>
               </h2>
@@ -287,29 +287,6 @@ export default function HomeContent() {
             </motion.div>
           </motion.div>
 
-          {/* Proof bar */}
-          <motion.div
-            className="max-w-4xl mx-auto mt-16 relative z-20"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, delay: 0.45 }}
-          >
-            <div
-              // Theme-native proof slab: smoked-dark card in dark mode, warm cream
-              // card in light mode (a heavy near-black block looked foreign on the
-              // light page). Numbers shift to a deeper-warm gradient and labels to
-              // warm ink in light mode so both stay legible on the cream surface.
-              className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center overflow-hidden rounded-2xl border divide-x bg-[#0D0906] border-white/10 divide-white/10 [html.light_&]:bg-[var(--surface-raised)] [html.light_&]:border-black/[0.07] [html.light_&]:divide-black/[0.07] [html.light_&]:shadow-[0_10px_34px_-16px_rgba(0,0,0,0.18)]"
-            >
-              {home.proofStats.map((item) => (
-                <div key={item.label} className="min-w-[140px] flex-1 px-5 py-5 text-center sm:px-7">
-                  <div className="font-display bg-gradient-to-r from-[#F8C96C] to-[#FF7E6F] [html.light_&]:from-[#C2410C] [html.light_&]:to-[#E03E48] bg-clip-text text-3xl font-semibold tabular-nums text-transparent sm:text-4xl">{item.number}</div>
-                  <div className="mt-2 text-[11px] font-semibold uppercase tracking-wider text-[var(--text-secondary)] sm:text-xs">{item.label}</div>
-                </div>
-              ))}
-            </div>
-          </motion.div>
         </section>
 
         {/* Explain the operating products and daily workflows before the intelligence detail. */}
@@ -530,29 +507,22 @@ export default function HomeContent() {
 
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <FadeUp>
-              <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>
-                {home.closingTitle}{" "}
-                {/* cherry-toned sign-off - matches the cream relief emphasis */}
-                <span className="mt-1 block" style={{ color: 'var(--warm-cherry)' }}>{closerLine}</span>
+              <h2 className="section-h2 mb-8 break-words" style={{ color: 'var(--ink)' }}>
+                <span className="block">{closing.lead}</span>{' '}
+                <span className="mt-2 block">{closing.benefit}</span>{' '}
+                <span className="mt-2 block italic">{signoffBefore}<span style={{ color: 'var(--brand-main)' }}>Sundae</span>{signoffAfter}</span>
               </h2>
-              <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>
-                {getCommercialCopy(locale).sampleWalkthrough}
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col items-center">
                 <Button
                   variant="cta"
                   size="lg"
                   onClick={() => cta("/demo", "book_demo_footer_cta", { page: "/home" })}
                 >
-                  {home.bookDemo}
+                  {messages.navbar.bookDemo}
                 </Button>
-                <Button
-                  variant="outline-ink"
-                  size="lg"
-                  onClick={() => cta(SIGNUP_URL, "get_report_footer_cta", { page: "/home" })}
-                >
-                  {home.startFree}
-                </Button>
+                <p className="mt-4 max-w-sm text-sm leading-relaxed" style={{ color: 'rgba(26,20,15,0.74)' }}>
+                  {getCommercialCopy(locale).sampleWalkthrough}
+                </p>
               </div>
             </FadeUp>
           </div>

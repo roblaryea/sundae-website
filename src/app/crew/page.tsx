@@ -4,17 +4,18 @@ import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
 
 import Link from "next/link";
+import Image from 'next/image';
 import { motion, MotionConfig } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { ThemedShot } from "@/components/ui/ThemedShot";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
-import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
+import { NativeWorkflowProof } from '@/components/seo/NativeWorkflowProof';
+import workflowProofCopy from '@/content/workflow-proof.json';
+import taskCapture from '../../../public/images/product/native-2026-11-16/tasks.png';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_crew_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
@@ -596,6 +597,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
 export default function CrewPage() {
   const { locale } = useWebsiteI18n();
+  const workflowProof = workflowProofCopy[locale as keyof typeof workflowProofCopy];
   const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const positioning = getPositioningCopy(locale).critical;
   const commercial = getCommercialCopy(locale);
@@ -677,15 +679,15 @@ export default function CrewPage() {
             </div>
             <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }} className="lg:pl-4" style={{ perspective: "1200px" }}>
               <motion.div initial={{ rotateX: 6 }} animate={{ rotateX: 1.5 }} transition={{ duration: 1.2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}>
-                <ThemedShot
-                  framed
-                  dark="/images/product/2026-fresh/crew-people-dark.png"
-                  light="/images/product/2026-fresh/crew-people.png"
-                  alt="Sundae Crew - People Management: 123 active headcount, full employee roster with roles, departments, outlets, and lifecycle status"
-                  width={1600}
-                  height={1000}
-                  priority
-                />
+                <figure data-crew-hero-proof>
+                  <div className="overflow-hidden rounded-2xl border brand-proof-frame bg-[#FAF7F2] shadow-[var(--shadow-xl)]">
+                    <Image src={taskCapture} alt={workflowProof.tasks} priority sizes="(max-width: 1024px) 100vw, 55vw" className="h-auto w-full" />
+                  </div>
+                  <figcaption className="mt-4 space-y-3 text-sm leading-relaxed text-[var(--text-supporting)]">
+                    <p>{workflowProof.disclosure}</p>
+                    <a href="/images/product/native-2026-11-16/tasks.png" target="_blank" rel="noreferrer" className="brand-proof-link inline-block font-semibold underline underline-offset-4">{workflowProof.openImage} ↗</a>
+                  </figcaption>
+                </figure>
               </motion.div>
             </motion.div>
           </div>
@@ -994,12 +996,9 @@ export default function CrewPage() {
           </div>
         </section>
 
-        {/* Product gallery - Crew surfaces in detail */}
-        <SectionProductGallery
-          productFilter="/crew"
-          hideFilter
-          headingOverride={galleryHeading("crew", locale)}
-        />
+        {/* Current, permitted native views; capture scope is stated beside each image. */}
+        <NativeWorkflowProof locale={locale} view="logbook" />
+        <NativeWorkflowProof locale={locale} view="tips" />
 
         <OperatorWorkflowLinks />
 

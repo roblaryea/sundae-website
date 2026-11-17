@@ -77,7 +77,7 @@ const Footer = () => {
   // the retired Report ladder and Core that price book v1.7 leaves with nothing
   // to compare, so the row is gone rather than repointed at a duplicate.
   const planLinks = [
-    ...[...nav.plansList].sort((a, b) => (a.href === '/core' ? 0 : a.href === '/crew' ? 1 : 2) - (b.href === '/core' ? 0 : b.href === '/crew' ? 1 : 2)).map((item) => ({ name: item.name, href: item.href })),
+    ...nav.plansList.map((item) => ({ name: item.name, href: item.href })),
   ];
 
   // Sundae Crew operational modules — mirrors the header's "Sundae Crew" group.

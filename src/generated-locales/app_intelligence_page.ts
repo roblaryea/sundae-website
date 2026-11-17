@@ -6,7 +6,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Inteligencia Sundae",
       "heroTitle": "Pregunta a tus datos cualquier cosa. Obtén respuestas en segundos.",
       "heroDescription": "Preguntas en lenguaje natural, respuestas visuales estructuradas - impulsadas por los datos de tu POS, inventario, mano de obra y entrega en tiempo real.",
-      "heroPrimary": "Pruébalo gratis",
       "heroSecondary": "Reserva una demostración",
       "platforms": [
         "Aplicación Web",
@@ -174,7 +173,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Intelligence Sundae",
       "heroTitle": "Posez n'importe quelle question à vos données. Obtenez des réponses en quelques secondes.",
       "heroDescription": "Questions en langage naturel, réponses visuelles structurées - alimentées par vos données de POS, d'inventaire, de main-d'œuvre et de livraison en temps réel.",
-      "heroPrimary": "Essayez-le gratuitement",
       "heroSecondary": "Réservez une démo",
       "platforms": [
         "Application Web",
@@ -342,7 +340,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundae Intelligenz",
       "heroTitle": "Fragen Sie Ihre Daten alles. Erhalten Sie Antworten in Sekunden.",
       "heroDescription": "Fragen in natürlicher Sprache, strukturierte visuelle Antworten - unterstützt von Ihren POS-, Bestands-, Arbeits- und Lieferdaten in Echtzeit.",
-      "heroPrimary": "Kostenlos Ausprobieren",
       "heroSecondary": "Demo buchen",
       "platforms": [
         "Web-App",
@@ -510,7 +507,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Ask Sundae",
       "heroTitle": "Vraag je gegevens alles. Krijg binnen enkele seconden antwoorden.",
       "heroDescription": "Natuurlijke taalvragen, gestructureerde visuele antwoorden - aangedreven door uw POS-, voorraad-, arbeids- en leveringsgegevens in real-time.",
-      "heroPrimary": "Probeer het gratis",
       "heroSecondary": "Boek een demo",
       "platforms": [
         "Web App",
@@ -678,7 +674,6 @@ export const generatedLocalCopy = {
       "heroBadge": "ذكاء Sundae",
       "heroTitle": "اسأل بياناتك أي شيء. احصل على الإجابات في ثوان.",
       "heroDescription": "أسئلة بلغة طبيعية، وإجابات بصرية منظمة - مدعومة من بيانات نظام POS، والمخزون، والعمالة، والتوصيل في الوقت الحقيقي.",
-      "heroPrimary": "جربه مجانًا",
       "heroSecondary": "احجز عرضًا تجريبيًا",
       "platforms": [
         "تطبيق الويب",
@@ -846,7 +841,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundae इंटेलिजेंस",
       "heroTitle": "अपने डेटा से कुछ भी पूछें। सेकंडों में उत्तर प्राप्त करें।",
       "heroDescription": "प्राकृतिक भाषा के प्रश्न, संरचित दृश्य उत्तर - आपके POS, इन्वेंटरी, श्रम और डिलीवरी डेटा द्वारा वास्तविक समय में संचालित।",
-      "heroPrimary": "इसे मुफ्त में आजमाएँ",
       "heroSecondary": "डेमो बुक करें",
       "platforms": [
         "वेब ऐप",
@@ -1014,7 +1008,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Inteligência Sundae",
       "heroTitle": "Pergunte Qualquer Coisa aos Seus Dados. Obtenha Respostas em Segundos.",
       "heroDescription": "Perguntas em linguagem natural, respostas visuais estruturadas - alimentadas pelos dados do seu POS, inventário, mão de obra e entrega em tempo real.",
-      "heroPrimary": "Experimente Grátis",
       "heroSecondary": "Agende uma Demonstração",
       "platforms": [
         "Aplicativo Web",
@@ -1182,7 +1175,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Intelligenza Sundae",
       "heroTitle": "Chiedi ai tuoi dati qualsiasi cosa. Ottieni risposte in pochi secondi.",
       "heroDescription": "Domande in linguaggio naturale, risposte visive strutturate - alimentate dai dati in tempo reale del tuo POS, inventario, manodopera e consegne.",
-      "heroPrimary": "Provalo Gratis",
       "heroSecondary": "Prenota una demo",
       "platforms": [
         "Web App",
@@ -1350,7 +1342,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundae انٹیلیجنس",
       "heroTitle": "اپنے ڈیٹا سے کچھ بھی پوچھیں۔ سیکنڈز میں جوابات حاصل کریں۔",
       "heroDescription": "قدرتی زبان کے سوالات، منظم بصری جوابات - آپ کے POS، انوینٹری، مزدوری، اور ترسیل کے ڈیٹا کی مدد سے حقیقی وقت میں.",
-      "heroPrimary": "اسے مفت میں آزمائیں",
       "heroSecondary": "ایک ڈیمو بک کریں",
       "platforms": [
         "ویب ایپ",
@@ -1518,7 +1509,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Inteligencja Sundae",
       "heroTitle": "Zapytaj swoje dane o cokolwiek. Otrzymaj odpowiedzi w kilka sekund.",
       "heroDescription": "Pytania w języku naturalnym, strukturalne wizualne odpowiedzi - zasilane przez dane z Twojego POS, zapasów, pracy i dostaw w czasie rzeczywistym.",
-      "heroPrimary": "Wypróbuj za darmo",
       "heroSecondary": "Zarezerwuj demo",
       "platforms": [
         "Aplikacja internetowa",
@@ -1686,7 +1676,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundae 智能",
       "heroTitle": "随时询问您的数据。几秒钟内获取答案。",
       "heroDescription": "自然语言提问，结构化视觉答案 - 实时由您的POS、库存、劳动力和交付数据驱动。",
-      "heroPrimary": "免费试用",
       "heroSecondary": "预约演示",
       "platforms": [
         "网页应用",
@@ -1854,7 +1843,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundae Zekası",
       "heroTitle": "Verilerinize Her Şeyi Sorun. Cevapları Saniyeler İçinde Alın.",
       "heroDescription": "Doğal dilde sorular, yapılandırılmış görsel yanıtlar - gerçek zamanlı olarak POS, envanter, iş gücü ve teslimat verilerinizle desteklenir.",
-      "heroPrimary": "Ücretsiz Deneyin",
       "heroSecondary": "Demo Rezervasyonu Yap",
       "platforms": [
         "Web Uygulaması",
@@ -2022,7 +2010,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundaeインテリジェンス",
       "heroTitle": "データに何でも聞いてください。数秒で回答を得られます。",
       "heroDescription": "自然言語の質問、構造化された視覚的回答 - あなたのPOS、在庫、労働、配送データをリアルタイムで活用しています。",
-      "heroPrimary": "無料で試す",
       "heroSecondary": "デモを予約する",
       "platforms": [
         "ウェブアプリ",
@@ -2190,7 +2177,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Ask Sundae",
       "heroTitle": "Tanyakan Apa Saja kepada Data Anda. Dapatkan Jawaban dalam Hitungan Detik.",
       "heroDescription": "Pertanyaan dalam bahasa alami, jawaban visual terstruktur - didukung oleh data POS, inventaris, tenaga kerja, dan pengiriman Anda secara real-time.",
-      "heroPrimary": "Coba Gratis",
       "heroSecondary": "Pesan Demo",
       "platforms": [
         "Aplikasi Web",
@@ -2358,7 +2344,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Ask Sundae",
       "heroTitle": "Hỏi Dữ Liệu Của Bạn Bất Cứ Điều Gì. Nhận Câu Trả Lời Trong Vài Giây.",
       "heroDescription": "Câu hỏi bằng ngôn ngữ tự nhiên, câu trả lời trực quan có cấu trúc - được hỗ trợ bởi dữ liệu POS, tồn kho, lao động và giao hàng của bạn trong thời gian thực.",
-      "heroPrimary": "Dùng thử miễn phí",
       "heroSecondary": "Đặt lịch Demo",
       "platforms": [
         "Ứng dụng Web",
@@ -2526,7 +2511,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Inteligența Sundae",
       "heroTitle": "Întreabă-ți datele orice. Obține răspunsuri în câteva secunde.",
       "heroDescription": "Întrebări în limbaj natural, răspunsuri vizuale structurate - alimentate de datele tale POS, de inventar, de muncă și de livrare în timp real.",
-      "heroPrimary": "Încearcă gratuit",
       "heroSecondary": "Rezervați o demonstrație",
       "platforms": [
         "Aplicație web",
@@ -2694,7 +2678,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Ask Sundae",
       "heroTitle": "Fråga din data om vad som helst. Få svar på sekunder.",
       "heroDescription": "Naturliga språkfrågor, strukturerade visuella svar - drivet av din POS, lager, arbetskraft och leveransdata i realtid.",
-      "heroPrimary": "Prova gratis",
       "heroSecondary": "Boka en demo",
       "platforms": [
         "Webbapp",
@@ -2862,7 +2845,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundae ইন্টেলিজেন্স",
       "heroTitle": "আপনার ডেটা থেকে কিছু জিজ্ঞাসা করুন। সেকেন্ডের মধ্যে উত্তর পান।",
       "heroDescription": "প্রাকৃতিক ভাষার প্রশ্ন, কাঠামোবদ্ধ ভিজ্যুয়াল উত্তর - আপনার POS, ইনভেন্টরি, শ্রম এবং ডেলিভারি ডেটার মাধ্যমে বাস্তব সময়ে চালিত।",
-      "heroPrimary": "এটি বিনামূল্যে চেষ্টা করুন",
       "heroSecondary": "ডেমো বুক করুন",
       "platforms": [
         "ওয়েব অ্যাপ",
@@ -3030,7 +3012,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundae 인텔리전스",
       "heroTitle": "데이터에 무엇이든 물어보세요. 몇 초 안에 답변을 받으세요.",
       "heroDescription": "자연어 질문, 구조화된 시각적 답변 - 실시간으로 귀하의 POS, 재고, 인력 및 배송 데이터를 기반으로 합니다.",
-      "heroPrimary": "무료로 사용해 보세요",
       "heroSecondary": "데모 예약하기",
       "platforms": [
         "웹 앱",
@@ -3198,7 +3179,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Ask Sundae",
       "heroTitle": "Tanya Data Anda Apa Saja. Dapatkan Jawapan dalam Beberapa Saat.",
       "heroDescription": "Soalan dalam bahasa semula jadi, jawapan visual terstruktur - dikuasakan oleh data POS, inventori, tenaga kerja, dan penghantaran anda dalam masa nyata.",
-      "heroPrimary": "Cuba Secara Percuma",
       "heroSecondary": "Tempah Demo",
       "platforms": [
         "Aplikasi Web",
@@ -3366,7 +3346,6 @@ export const generatedLocalCopy = {
       "heroBadge": "Sundae อินเทลลิเจนซ์",
       "heroTitle": "ถามข้อมูลของคุณได้ทุกอย่าง รับคำตอบในไม่กี่วินาที.",
       "heroDescription": "คำถามด้วยภาษาธรรมชาติ คำตอบที่มีโครงสร้างแบบภาพ - ขับเคลื่อนโดยข้อมูล POS, สต็อก, แรงงาน และการจัดส่งของคุณแบบเรียลไทม์.",
-      "heroPrimary": "ทดลองใช้ฟรี",
       "heroSecondary": "จองการสาธิต",
       "platforms": [
         "เว็บแอป",

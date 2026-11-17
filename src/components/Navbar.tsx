@@ -10,7 +10,6 @@ import { SundaeLogotype } from './ui/SundaeLogotype';
 import { SundaeMark } from './ui/SundaeMark';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
-import { SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
@@ -223,7 +222,7 @@ const Navbar = () => {
   const pillars: ReadonlyArray<NavbarLink> = getCoreNavigation(nav.pillars, locale);
 
   // Product Tiers (now surfaced under the Pricing dropdown)
-  const plans: ReadonlyArray<NavbarLink> = nav.plansList.map(plan => plan.href === '/core' ? { ...plan, description: story.coreRole } : plan.href === '/crew' ? { ...plan, description: story.crewRole } : plan).sort((a, b) => (a.href === '/core' ? 0 : a.href === '/crew' ? 1 : 2) - (b.href === '/core' ? 0 : b.href === '/crew' ? 1 : 2));
+  const plans: ReadonlyArray<NavbarLink> = nav.plansList.map(plan => plan.name === 'Sundae Core' ? { ...plan, description: story.coreRole } : plan.name === 'Sundae Crew' ? { ...plan, description: story.crewRole } : plan);
 
   // Sundae Crew operational modules (Product → Sundae Crew group)
   const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList.map(link =>
@@ -451,7 +450,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3">
                       <Link
-                        href={localizeHref('/core')}
+                        href={PRICING_URL}
                         className="min-w-0 text-sm font-medium text-[var(--text-supporting)] transition-colors hover:text-[var(--text-primary)] break-words"
                         onClick={() => setActiveDropdown(null)}
                       >
@@ -724,15 +723,15 @@ const Navbar = () => {
                   {plan.name}
                 </MobileNavLink>
               ))}
-              <MobileNavLink href={localizeHref('/core')} onClick={handleMobileNavClick}>
+              <MobileNavLink href={PRICING_URL} onClick={handleMobileNavClick}>
                 {nav.comparePlans}
               </MobileNavLink>
               <a
-                href={SIGNUP_URL}
+                href={localizeHref('/demo')}
                 onClick={handleMobileNavClick}
                 className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#FF8473] hover:bg-[var(--surface-hover)]"
               >
-                {nav.startFree}
+                {nav.bookDemo}
               </a>
               <a
                 href={PRICING_URL}

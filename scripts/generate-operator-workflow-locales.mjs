@@ -74,7 +74,12 @@ await Promise.all(Array.from({ length: 4 }, async () => {
 const navigation = {}
 for (const locale of ['en', ...Object.keys(languages)]) {
   const copy = JSON.parse(await fs.readFile(path.join(directory, `${locale}.json`), 'utf8'))
-  navigation[locale] = { brand: copy.brand, links: copy.links }
+  const tasks = copy.pages['restaurant-task-management']
+  navigation[locale] = {
+    brand: copy.brand,
+    links: copy.links,
+    crewExample: { industry: tasks.challenges[0], sundae: tasks.description },
+  }
 }
 await fs.writeFile(path.join(directory, 'navigation.ts'),
   `// Generated from the reviewed workflow locale files.\nexport const operatorNavigationCopy = ${JSON.stringify(navigation, null, 2)} as const\n`)

@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { SIGNUP_URL } from "@/lib/urls";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { CreamBreak } from "@/components/ui/CreamBreak";
@@ -17,6 +16,7 @@ import { intelligenceCreamCopy } from './intelligenceCreamCopy'
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreAskWelcomeMobile } from '@/components/core/CoreAskWelcomeMobile';
 import { CoreAskThreadMobile } from '@/components/core/CoreAskThreadMobile';
+import { getLocalizedPathname } from '@/lib/i18n';
 
 const localizedChatCopy = {
   en: {
@@ -24,7 +24,6 @@ const localizedChatCopy = {
     heroTitle: "Ask Your Data Anything. Get Answers in Seconds.",
     heroDescription:
       "A restaurant intelligence platform for natural-language questions and structured visual answers, powered by your POS, inventory, labor, and delivery data in real time.",
-    heroPrimary: "Try It Free",
     heroSecondary: "Book a Demo",
     platforms: ["Web App", "Telegram", "Slack", "Microsoft Teams", "Voice Input"],
     modesTitle: "Four Specialized Modes",
@@ -100,7 +99,6 @@ const localizedChatCopy = {
     heroTitle: "اسأل بياناتك أي شيء. واحصل على إجابات خلال ثوانٍ.",
     heroDescription:
       "أسئلة باللغة الطبيعية، وإجابات مرئية منظمة - مدعومة ببيانات نقاط البيع والمخزون والعمالة والتوصيل في الوقت الفعلي.",
-    heroPrimary: "جرّبه مجانًا",
     heroSecondary: "احجز عرضًا",
     platforms: ["تطبيق الويب", "Telegram", "Slack", "Microsoft Teams", "الإدخال الصوتي"],
     modesTitle: "أربعة أوضاع متخصصة",
@@ -176,7 +174,6 @@ const localizedChatCopy = {
     heroTitle: "Posez n'importe quelle question à vos données. Obtenez une réponse en quelques secondes.",
     heroDescription:
       "Questions en langage naturel, réponses visuelles structurées - alimentées en temps réel par vos données POS, stock, main-d'œuvre et livraison.",
-    heroPrimary: "Essayer gratuitement",
     heroSecondary: "Reserver une demo",
     platforms: ["Application web", "Telegram", "Slack", "Microsoft Teams", "Saisie vocale"],
     modesTitle: "Quatre modes spécialisés",
@@ -252,7 +249,6 @@ const localizedChatCopy = {
     heroTitle: "Pregunta cualquier cosa a tus datos. Obtén respuestas en segundos.",
     heroDescription:
       "Preguntas en lenguaje natural, respuestas visuales estructuradas - impulsadas por tus datos de POS, inventario, personal y delivery en tiempo real.",
-    heroPrimary: "Probar gratis",
     heroSecondary: "Reservar una demo",
     platforms: ["Aplicacion web", "Telegram", "Slack", "Microsoft Teams", "Entrada por voz"],
     modesTitle: "Cuatro modos especializados",
@@ -335,10 +331,7 @@ export default function ChatWithDataPage() {
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={ui.heroDescription}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" onClick={() => cta(SIGNUP_URL, "try_intelligence_hero", { page: "/intelligence" })}>
-            {ui.heroPrimary}
-          </Button>
-          <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_intelligence", { page: "/intelligence" })}>
+          <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_intelligence", { page: "/intelligence" })}>
             {ui.heroSecondary}
           </Button>
         </div>
@@ -582,8 +575,7 @@ export default function ChatWithDataPage() {
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Button variant="cta" size="lg" href={SIGNUP_URL}>{ui.heroPrimary}</Button>
-        <Button variant="outline-ink" size="lg" href="/demo">{ui.heroSecondary}</Button>
+        <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)}>{ui.heroSecondary}</Button>
       </PageCTA>
     </div>
   );

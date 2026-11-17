@@ -20,13 +20,25 @@ function load(file) {
   }
   vm.runInNewContext(ts.transpileModule(fs.readFileSync(file, 'utf8'), {
     compilerOptions: { module: ts.ModuleKind.CommonJS, esModuleInterop: true, target: ts.ScriptTarget.ES2022 },
-  }).outputText, { module: compiledModule, exports: compiledModule.exports, require: requireLocal, Intl, URL }, { filename: file })
+  }).outputText, { module: compiledModule, exports: compiledModule.exports, require: requireLocal, Intl, URL, URLSearchParams, TextEncoder, TextDecoder, btoa, atob, process: { env: {} } }, { filename: file })
   return compiledModule.exports
 }
 const { getWebsiteMessages, websiteLocales } = load('src/lib/i18n.ts')
+const { decodePricingIntent } = load('src/lib/pricingIntent.ts')
 for (const locale of websiteLocales) test(`${locale}: pricing entries retain current product identities after translation overrides`, () => {
   const plans = getWebsiteMessages(locale).navbar.plansList
-  assert.deepEqual(Array.from(plans, entry => entry.href), ['/core', '/crew', '/product/foresight'])
+  for (const [index, layer] of ['core', 'crew'].entries()) {
+    const url = new URL(plans[index].href)
+    assert.equal(url.origin, 'https://pricing.sundae.io')
+    assert.equal(url.pathname, '/simulator')
+    const selection = decodePricingIntent(url.searchParams.get('cfg'))
+    assert.equal(selection.layer, layer)
+    assert.equal(selection.locations, 1)
+    assert.equal(selection.billingCycle, 'monthly')
+    assert.equal(selection.crewSkus.length > 0, layer === 'crew')
+    if (layer === 'crew') assert.deepEqual(Array.from(selection.crewSkus), ['crew_operations', 'crew_scheduling', 'crew_tna', 'crew_payroll'])
+  }
+  assert.equal(plans[2].href, '/product/foresight')
   assert.deepEqual(Array.from(plans, entry => entry.name), ['Sundae Core', 'Sundae Crew', 'Foresight & Action'])
   assert.ok(plans.every(entry => typeof entry.description === 'string' && entry.description.trim()))
   assert.ok(plans.every(entry => !/Sundae Report/i.test(entry.name)))

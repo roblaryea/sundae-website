@@ -4,6 +4,7 @@ html:is([lang="ar"], [lang="ur"], [lang="ja"], [lang="zh-Hans"], [lang="ko"], [l
 .brand-action-link { color: var(--accent-warm); text-decoration-color: color-mix(in srgb, var(--accent-warm) 42%, transparent); }
 .brand-action-link:hover { color: var(--text-display); text-decoration-color: currentColor; }
 .brand-action-link:focus-visible { outline: 2px solid var(--accent-warm); outline-offset: 5px; }
+.brand-action-link-on-tint { color: var(--action-on-tint); }
 .search-hero { background: var(--bg-warm-glow); }
 .search-hero .hero-h1 { color: var(--text-display); }
 .search-hero .search-hero-eyebrow { color: var(--accent-warm); }
