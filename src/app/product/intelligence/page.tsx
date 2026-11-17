@@ -16,6 +16,7 @@ import { intelligenceCreamCopy } from './intelligenceCreamCopy'
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreAskWelcomeMobile } from '@/components/core/CoreAskWelcomeMobile';
 import { CoreAskThreadMobile } from '@/components/core/CoreAskThreadMobile';
+import { getLocalizedPathname } from '@/lib/i18n';
 
 const localizedChatCopy = {
   en: {
@@ -574,8 +575,7 @@ export default function ChatWithDataPage() {
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Button variant="cta" size="lg" href="/demo">{ui.heroSecondary}</Button>
-        <Button variant="outline-ink" size="lg" href="/demo">{ui.heroSecondary}</Button>
+        <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)}>{ui.heroSecondary}</Button>
       </PageCTA>
     </div>
   );
