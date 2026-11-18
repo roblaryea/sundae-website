@@ -16,7 +16,7 @@
     "test:runtime-security": "node --test tests/deployed-runtime-audit.test.mjs",
     "smoke:profile-card": "node --no-warnings scripts/smoke-profile-card.mjs",
     "test:profile-card": "node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs tests/public-profiles.test.mjs",
-    "test:seo": "node --test tests/buyer-clarity.test.mjs tests/buyer-depth-locales.test.mjs tests/theme-preference.test.mjs tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs tests/lead-form-analytics.test.mjs tests/operator-workflow-locales.test.mjs tests/home-about-alignment.test.mjs tests/button-cta-tracking.test.mjs tests/campaign-attribution.test.mjs tests/pricing-navigation.test.mjs tests/pricing-catalog-comparison.test.mjs",
+    "test:seo": "node --test tests/approved-brand.test.mjs tests/buyer-clarity.test.mjs tests/buyer-depth-locales.test.mjs tests/theme-preference.test.mjs tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs tests/lead-form-analytics.test.mjs tests/operator-workflow-locales.test.mjs tests/home-about-alignment.test.mjs tests/button-cta-tracking.test.mjs tests/campaign-attribution.test.mjs tests/pricing-navigation.test.mjs tests/pricing-catalog-comparison.test.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "seo:sitemap-report": "node scripts/report-sitemap-inventory.mjs",
     "test:booking": "node --test tests/booking-timezones.test.mjs tests/booking-date-format.test.mjs tests/booking-verification.test.mjs",
@@ -34,7 +34,8 @@
     "qa:reduced-motion": "node scripts/qa-reduced-motion.mjs",
     "qa:fixed-position": "node scripts/qa-fixed-containing-block.mjs",
     "test:pricing-handoff": "node --test tests/pricing-handoff.test.mjs",
-    "pricing:check": "node scripts/check-pricing-catalog.mjs"
+    "pricing:check": "node scripts/check-pricing-catalog.mjs",
+    "brand:assets": "node scripts/build-approved-brand-assets.mjs && node scripts/render-brand-share-card.mjs && node --no-warnings scripts/profile-og/generate.mjs"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.81",

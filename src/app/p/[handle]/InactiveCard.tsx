@@ -16,8 +16,8 @@ export function InactiveCard({ copy }: { copy: ProfileCardCopy }) {
         <div className="pc-content">
           <header className="pc-header">
             <Link href="/" aria-label="Sundae" className="inline-flex min-h-[44px] items-center">
-              <Image src="/logos/sundae-wordmark-card-cream.svg" alt="Sundae" width={112} height={34} unoptimized priority className="pc-wm-cream h-[34px] w-auto" />
-              <Image src="/logos/sundae-wordmark-card-ink.svg" alt="" width={112} height={34} unoptimized priority className="pc-wm-ink h-[34px] w-auto" />
+              <Image src="/brand/wordmarks/sundae-wordmark-fraunces-white.png" alt="Sundae" width={480} height={120} unoptimized priority className="pc-wm-cream h-[34px] w-auto" />
+              <Image src="/brand/wordmarks/sundae-wordmark-fraunces.png" alt="" width={480} height={120} unoptimized priority className="pc-wm-ink h-[34px] w-auto" />
             </Link>
           </header>
           <main className="pc-main">

@@ -7,7 +7,6 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/Button';
 import { SundaeLogotype } from './ui/SundaeLogotype';
-import { SundaeMark } from './ui/SundaeMark';
 import { useCta, trackCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { appendCampaign } from '@/lib/campaign';
@@ -292,27 +291,18 @@ const Navbar = () => {
           {/* Logo - Left Aligned with Animation */}
           {/* Inner flex span: `nav a { display:inline-block }` (accessibility.css,
               unlayered) overrides Tailwind's flex on the anchor itself, so the
-              mark + wordmark lockup must flex on a child element. */}
+              approved wordmark uses an inner flex element. */}
           <Link href={localizeHref('/')} className="group" aria-label={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.title}>
             <span
               className="flex items-center gap-2.5"
               onMouseEnter={() => setIsLogoHovered(true)}
               onMouseLeave={() => setIsLogoHovered(false)}
             >
-              <SundaeMark size={30} className="flex-shrink-0 transition-transform duration-300 group-hover:-translate-y-px group-hover:scale-[1.06]" />
               <span className="relative inline-block">
-                {/* Finessed Fraunces logotype - rebrand primary register (theme-aware: white on dark, warm ink on light) */}
+                {/* Approved Fraunces artwork: white on dark, ink on light */}
                 <SundaeLogotype
                   className={`text-[27px] text-[#FBF8F4] [html.light_&]:text-[#2A2320] transition-opacity duration-300 ${
                     isLogoHovered ? 'opacity-80' : 'opacity-100'
-                  }`}
-                />
-                {/* Subtle shimmer effect on hover - theme-aware via --shape-tint */}
-                <span
-                  aria-hidden
-                  style={{ background: 'linear-gradient(to right, transparent, color-mix(in srgb, var(--shape-tint) 20%, transparent), transparent)' }}
-                  className={`absolute inset-0 transition-all duration-600 ease-out ${
-                    isLogoHovered ? 'translate-x-full opacity-15' : '-translate-x-full opacity-0'
                   }`}
                 />
               </span>
@@ -600,7 +590,6 @@ const Navbar = () => {
           {/* Drawer Header with Close Button */}
           <div className="flex items-center justify-between px-4 py-4 border-b border-[var(--border-default)] flex-shrink-0">
             <span className="flex items-center gap-2.5">
-              <SundaeMark size={28} className="flex-shrink-0" />
               <SundaeLogotype className="text-[24px] text-[#FBF8F4] [html.light_&]:text-[#2A2320]" />
             </span>
             <button

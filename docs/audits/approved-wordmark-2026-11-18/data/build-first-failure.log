@@ -1,0 +1,50 @@
+
+> sundae@0.1.0 prebuild
+> npm run qa:i18n && npm run qa:translation && npm run qa:diagnostic-i18n && npm run qa:positioning
+
+
+> sundae@0.1.0 qa:i18n
+> node scripts/qa-i18n-stack.mjs
+
+i18n stack QA passed for locales: en, ar, fr, es, de, nl, pt, hi, ur, it, pl, tr, zh-Hans, ja, ko, id, vi, ro, sv, bn, th, ms
+
+> sundae@0.1.0 qa:translation
+> node scripts/qa-translation-quality.mjs
+
+Translation quality QA passed
+
+> sundae@0.1.0 qa:diagnostic-i18n
+> node scripts/qa-diagnostic-i18n.mjs
+
+Diagnostic i18n QA passed for 22 locales
+
+> sundae@0.1.0 qa:positioning
+> node scripts/qa-positioning.mjs
+
+Positioning QA passed: claims are safe and all 22 flagship locales are complete.
+
+> sundae@0.1.0 build
+> next build
+
+▲ Next.js 16.4.6 (Turbopack)
+[@sentry/nextjs] Importing `withSentryConfig` from `@sentry/nextjs` is deprecated and will stop working in v11. Import it from `@sentry/nextjs/config` instead:
+  import { withSentryConfig } from '@sentry/nextjs/config';
+✓ Running next.config.ts took 3.5s
+- Experiments (use with caution):
+  · clientTraceMetadata
+  · optimizePackageImports
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 1 error:
+./src/app/favicon.ico
+Error: Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: The PNG is not in RGBA format!
+- The PNG is not in RGBA format!
+
+
+    at ignore-listed frames

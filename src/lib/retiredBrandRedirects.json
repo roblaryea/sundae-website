@@ -1,0 +1,106 @@
+[
+  {
+    "source": "/brand/favicon/apple-touch-icon-180.png",
+    "destination": "/brand/icons/wordmark-180.png"
+  },
+  {
+    "source": "/brand/favicon/favicon-32.png",
+    "destination": "/brand/icons/wordmark-32.png"
+  },
+  {
+    "source": "/brand/logo/sundae-lockup-dark.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces.png"
+  },
+  {
+    "source": "/brand/logo/sundae-lockup-light.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces-white.png"
+  },
+  {
+    "source": "/brand/logo/sundae-logo-square-1024.png",
+    "destination": "/brand/icons/wordmark-512.png"
+  },
+  {
+    "source": "/brand/logo/sundae-mark-1024.png",
+    "destination": "/brand/icons/wordmark-512.png"
+  },
+  {
+    "source": "/brand/logo/sundae-mark-512.png",
+    "destination": "/brand/icons/wordmark-512.png"
+  },
+  {
+    "source": "/brand/logo/sundae-mark.svg",
+    "destination": "/brand/icons/wordmark-512.png"
+  },
+  {
+    "source": "/brand/logo/sundae-wordmark-dark.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces.png"
+  },
+  {
+    "source": "/brand/logo/sundae-wordmark-light.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces-white.png"
+  },
+  {
+    "source": "/logos/apple-touch-icon.png",
+    "destination": "/brand/icons/wordmark-180.png"
+  },
+  {
+    "source": "/logos/og-card.png",
+    "destination": "/logos/og-operations.png"
+  },
+  {
+    "source": "/logos/sundae-app-icon.png",
+    "destination": "/brand/icons/wordmark-512.png"
+  },
+  {
+    "source": "/logos/sundae-icon.svg",
+    "destination": "/brand/icons/wordmark-512.png"
+  },
+  {
+    "source": "/logos/sundae-lockup-white.svg",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces-white.png"
+  },
+  {
+    "source": "/logos/sundae-lockup.svg",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces.png"
+  },
+  {
+    "source": "/logos/sundae-mark-72.png",
+    "destination": "/brand/icons/wordmark-192.png"
+  },
+  {
+    "source": "/logos/sundae-mark.svg",
+    "destination": "/brand/icons/wordmark-512.png"
+  },
+  {
+    "source": "/logos/sundae-wordmark-card-cream.svg",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces-white.png"
+  },
+  {
+    "source": "/logos/sundae-wordmark-card-ink.svg",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces.png"
+  },
+  {
+    "source": "/logos/sundae-wordmark-email-tight-white.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces-white.png"
+  },
+  {
+    "source": "/logos/sundae-wordmark-email-tight.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces.png"
+  },
+  {
+    "source": "/logos/sundae-wordmark-email-white.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces-white.png"
+  },
+  {
+    "source": "/logos/sundae-wordmark-email.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces.png"
+  },
+  {
+    "source": "/logos/sundae-wordmark-white.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces-white.png"
+  },
+  {
+    "source": "/logos/sundae-wordmark.png",
+    "destination": "/brand/wordmarks/sundae-wordmark-fraunces.png"
+  }
+]

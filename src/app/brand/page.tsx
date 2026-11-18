@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import { SundaeMark } from "@/components/ui/SundaeMark";
-import { SundaeLogotype } from "@/components/ui/SundaeLogotype";
+import { ApprovedWordmark } from "@/components/ui/ApprovedWordmark";
+import { SUNDAE_WORDMARK } from "@/lib/brandAssets";
 import { Button } from "@/components/ui/Button";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { ColorSwatches } from "./ColorSwatches";
@@ -9,12 +8,12 @@ import { ColorSwatches } from "./ColorSwatches";
 export const metadata: Metadata = {
   title: "Brand Assets",
   description:
-    "The Sundae brand kit - mark, wordmark, lock-up, colors, and typography, with downloadable logo files. One link for partners, press, and OEMs.",
+    "The approved Sundae Fraunces wordmarks, colors and typography. Download the original PNG artwork for light and dark backgrounds.",
   alternates: { canonical: "/brand" },
   openGraph: {
     title: "Sundae Brand Assets",
     description:
-      "The Sundae brand kit - mark, wordmark, colors, and type, in one place.",
+      "The approved Sundae Fraunces wordmarks, colors and typography, in one place.",
     url: "/brand",
   },
 };
@@ -40,25 +39,18 @@ function DownloadChip({ href, label }: { href: string; label: string }) {
   );
 }
 
-const BANNERS = [
-  { src: "/brand/banners/linkedin-1128x191.png", label: "LinkedIn", dim: "1128×191", w: 1128, h: 191 },
-  { src: "/brand/banners/x-1500x500.png", label: "X / Twitter", dim: "1500×500", w: 1500, h: 500 },
-  { src: "/brand/banners/facebook-1640x624.png", label: "Facebook", dim: "1640×624", w: 1640, h: 624 },
-  { src: "/brand/banners/youtube-2048x1152.png", label: "YouTube", dim: "2048×1152", w: 2048, h: 1152 },
-];
-
 const DOS = [
-  "Use the coral-S mark with the Fraunces “sundae” wordmark.",
-  "Keep clear space around the lock-up - at least the height of the mark’s cherry.",
-  "Place the dark-tile mark on light or dark; it’s built to read on both.",
-  "Set “sundae” in Fraunces (display cut) whenever it’s used as a logo.",
+  "Use the supplied Fraunces PNG wordmark without changing its proportions.",
+  "Choose the dark wordmark on light backgrounds and the white wordmark on dark backgrounds.",
+  "Keep the clear space included in the original file.",
+  "Write Sundae as ordinary text within sentences.",
 ];
 
 const DONTS = [
-  "Don’t use the retired blue orb “e” icon or the blue “sundae” wordmark.",
-  "Don’t recolor, rotate, stretch, or add shadows/effects to the mark.",
-  "Don’t swap a wordmark image into running text - “Sundae” stays plain text mid-sentence.",
-  "Don’t rebuild the mark; use these files so every surface matches.",
+  "Do not use retired symbols, layered-S marks or mark-plus-wordmark lockups.",
+  "Do not redraw, retype, recolor, stretch or crop the lettering.",
+  "Do not combine the wordmark with a separate mark.",
+  "Do not rebuild the logo with a font or an image generator.",
 ];
 
 export default function BrandPage() {
@@ -68,19 +60,19 @@ export default function BrandPage() {
       <section className="relative overflow-hidden bg-mesh px-6 pt-32 pb-24 text-center">
         <div className="mx-auto max-w-4xl">
           <div className="mb-8 flex justify-center">
-            <SundaeMark size={76} />
+            <ApprovedWordmark className="h-20 w-80 max-w-full" />
           </div>
           <span className="eyebrow">Brand</span>
           <h1 className="hero-h1 mt-3 text-[var(--text-display)]">
             Sundae brand assets
           </h1>
           <p className="body-xl mx-auto mt-5 max-w-2xl text-[var(--text-supporting)]">
-            The mark, wordmark, colors, and type - everything you need to
-            represent Sundae correctly, in one place.
+            The approved wordmark, colors and typography to represent Sundae
+            consistently across your materials.
           </p>
           <div className="mt-9 flex flex-wrap justify-center gap-3">
             <Button href="/brand/sundae-brand-assets.zip" variant="cta" size="lg">
-              Download all assets
+              Download approved wordmarks
             </Button>
             <Button href="#logo" variant="outline-light" size="lg">
               Browse the kit
@@ -92,86 +84,36 @@ export default function BrandPage() {
         </div>
       </section>
 
-      {/* ── Logo ─────────────────────────────────────────────────────────── */}
       <section id="logo" className="px-4 py-20 sm:px-6 md:py-24 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <FadeUp>
-            <div className="mb-14 text-center">
-              <span className="eyebrow">Logo</span>
-              <h2 className="section-h2 mt-2 text-[var(--text-primary)]">
-                Mark, wordmark, lock-up
-              </h2>
-              <p className="body-lg mx-auto mt-3 max-w-2xl text-[var(--text-supporting)]">
-                The coral layered-S - the business as strata, topped by the cherry
-                (the signal) - beside “sundae” in Fraunces.
+            <div className="mb-14 max-w-3xl">
+              <span className="eyebrow">The approved logo</span>
+              <h2 className="section-h2 mt-2 text-[var(--text-primary)]">One wordmark. Two backgrounds.</h2>
+              <p className="body-lg mt-4 text-[var(--text-supporting)]">
+                Use these original Fraunces PNGs. Earlier marks, reconstructed lettering
+                and mark-plus-wordmark lockups are retired.
               </p>
             </div>
           </FadeUp>
-
-          <FadeUp>
-            <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-              {/* Mark */}
-              <div className="rounded-3xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-6">
-                <div className="mb-5 flex h-44 items-center justify-center rounded-2xl bg-[var(--navy)]">
-                  <SundaeMark size={104} />
-                </div>
-                <h3 className="section-h4 text-[var(--text-primary)]">The mark</h3>
-                <p className="body-sm mt-1 mb-4 text-[var(--text-muted)]">
-                  App icon, favicon, avatar. Dark-tile, rounded square.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <DownloadChip href="/brand/logo/sundae-mark.svg" label="SVG" />
-                  <DownloadChip href="/brand/logo/sundae-mark-512.png" label="PNG 512" />
-                  <DownloadChip href="/brand/logo/sundae-mark-1024.png" label="PNG 1024" />
-                </div>
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
+            <FadeUp>
+              <div className="flex min-h-56 items-center justify-center rounded-2xl border border-[#d8cbbd] bg-[#FBF8F4] px-4">
+                <ApprovedWordmark tone="ink" className="h-24 w-96 max-w-full" />
               </div>
-
-              {/* Wordmark */}
-              <div className="rounded-3xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-6">
-                <div className="mb-5 flex h-44 items-center justify-center rounded-2xl bg-[var(--navy)]">
-                  <SundaeLogotype className="text-[var(--text-display)] text-[52px]" />
-                </div>
-                <h3 className="section-h4 text-[var(--text-primary)]">The wordmark</h3>
-                <p className="body-sm mt-1 mb-4 text-[var(--text-muted)]">
-                  “sundae” in Fraunces (display cut). Cream on dark, espresso on light.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <DownloadChip href="/brand/logo/sundae-wordmark-light.png" label="PNG light" />
-                  <DownloadChip href="/brand/logo/sundae-wordmark-dark.png" label="PNG dark" />
-                </div>
+              <h3 className="section-h4 mt-6 text-[var(--text-primary)]">Dark on light</h3>
+              <p className="body-sm mb-4 mt-2 text-[var(--text-supporting)]">For white, cream and other very light backgrounds.</p>
+              <DownloadChip href={SUNDAE_WORDMARK.ink} label="Download dark wordmark PNG" />
+            </FadeUp>
+            <FadeUp>
+              <div className="flex min-h-56 items-center justify-center rounded-2xl border border-[#524536] bg-[#171210] px-4">
+                <ApprovedWordmark tone="cream" className="h-24 w-96 max-w-full" />
               </div>
-
-              {/* Lock-up */}
-              <div className="rounded-3xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-6">
-                <div className="mb-5 flex h-44 items-center justify-center gap-4 rounded-2xl bg-[var(--navy)]">
-                  <SundaeMark size={60} />
-                  <SundaeLogotype className="text-[var(--text-display)] text-[46px]" />
-                </div>
-                <h3 className="section-h4 text-[var(--text-primary)]">The lock-up</h3>
-                <p className="body-sm mt-1 mb-4 text-[var(--text-muted)]">
-                  Mark + wordmark together. The default header / footer signature.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <DownloadChip href="/brand/logo/sundae-lockup-light.png" label="PNG light" />
-                  <DownloadChip href="/brand/logo/sundae-lockup-dark.png" label="PNG dark" />
-                </div>
-              </div>
-            </div>
-          </FadeUp>
-
-          {/* Mark on light - proof it reads both ways */}
-          <FadeUp>
-            <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
-              <div className="flex items-center justify-center gap-4 rounded-3xl border border-[var(--border-default)] bg-[var(--navy)] p-10">
-                <SundaeMark size={52} />
-                <SundaeLogotype className="text-[var(--text-display)] text-[40px]" />
-              </div>
-              <div className="flex items-center justify-center gap-4 rounded-3xl border border-[var(--cream-edge)] bg-[var(--cream)] p-10">
-                <SundaeMark size={52} />
-                <SundaeLogotype className="text-[#1A140F] text-[40px]" />
-              </div>
-            </div>
-          </FadeUp>
+              <h3 className="section-h4 mt-6 text-[var(--text-primary)]">White on dark</h3>
+              <p className="body-sm mb-4 mt-2 text-[var(--text-supporting)]">For espresso, navy and other dark backgrounds.</p>
+              <DownloadChip href={SUNDAE_WORDMARK.cream} label="Download white wordmark PNG" />
+            </FadeUp>
+          </div>
         </div>
       </section>
 
@@ -185,7 +127,7 @@ export default function BrandPage() {
                 A warm, decisive palette
               </h2>
               <p className="body-lg mx-auto mt-3 max-w-2xl text-[var(--text-supporting)]">
-                Cream to clay through coral - the same strata that fill the mark.
+                Cream, espresso and warm coral form the website palette.
               </p>
             </div>
           </FadeUp>
@@ -227,11 +169,7 @@ export default function BrandPage() {
                   Aa Bb Cc - 0123456789
                 </p>
                 <p className="body-sm mt-4 text-[var(--text-muted)]">
-                  Headings + the wordmark. The wordmark locks the display cut:
-                  <span className="font-mono text-[var(--text-supporting)]">
-                    {" "}opsz 144, SOFT 90, WONK 1
-                  </span>
-                  .
+                  Use Fraunces for editorial headings. For the logo itself, use the supplied PNG rather than retyping it.
                 </p>
               </div>
               <div className="rounded-3xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-8">
@@ -252,52 +190,6 @@ export default function BrandPage() {
                   UI, body copy, and data labels (Geist Mono for tabular figures).
                 </p>
               </div>
-            </div>
-          </FadeUp>
-        </div>
-      </section>
-
-      {/* ── Social banners ───────────────────────────────────────────────── */}
-      <section className="border-t border-[var(--border-default)] bg-[var(--surface-faint)] px-4 py-20 sm:px-6 md:py-24 lg:px-8">
-        <div className="mx-auto max-w-6xl">
-          <FadeUp>
-            <div className="mb-14 text-center">
-              <span className="eyebrow">Social</span>
-              <h2 className="section-h2 mt-2 text-[var(--text-primary)]">
-                Channel banners
-              </h2>
-              <p className="body-lg mx-auto mt-3 max-w-2xl text-[var(--text-supporting)]">
-                Sized and safe-area-checked for each platform.
-              </p>
-            </div>
-          </FadeUp>
-          <FadeUp>
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-              {BANNERS.map((b) => (
-                <div
-                  key={b.src}
-                  className="overflow-hidden rounded-3xl border border-[var(--border-default)] bg-[var(--navy)]"
-                >
-                  <Image
-                    src={b.src}
-                    width={b.w}
-                    height={b.h}
-                    alt={`Sundae ${b.label} banner`}
-                    className="h-auto w-full"
-                  />
-                  <div className="flex items-center justify-between px-5 py-4">
-                    <div>
-                      <p className="font-display text-lg text-[var(--text-primary)]">
-                        {b.label}
-                      </p>
-                      <p className="font-mono text-xs text-[var(--text-muted)]">
-                        {b.dim}
-                      </p>
-                    </div>
-                    <DownloadChip href={b.src} label="PNG" />
-                  </div>
-                </div>
-              ))}
             </div>
           </FadeUp>
         </div>
@@ -348,18 +240,18 @@ export default function BrandPage() {
         <div className="mx-auto max-w-3xl text-center">
           <FadeUp>
             <div className="mb-6 flex justify-center">
-              <SundaeMark size={56} />
+              <ApprovedWordmark className="h-16 w-64 max-w-full" />
             </div>
             <h2 className="section-h2 text-[var(--text-primary)]">
               Everything, in one link
             </h2>
             <p className="body-lg mx-auto mt-3 max-w-xl text-[var(--text-supporting)]">
               Bookmark <span className="font-mono text-[var(--text-secondary)]">sundae.io/brand</span>.
-              Need a format that isn’t here, or a co-branded lock-up? Reach out.
+              Need another file format? Contact us for approved artwork.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Button href="/brand/sundae-brand-assets.zip" variant="cta" size="lg">
-                Download all assets
+                Download approved wordmarks
               </Button>
               <Button href="/contact" variant="outline-light" size="lg">
                 Contact us

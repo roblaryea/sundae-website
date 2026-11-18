@@ -1,0 +1,17 @@
+[WebServer] (node:96780) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:96860) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] [@sentry/nextjs] Importing `withSentryConfig` from `@sentry/nextjs` is deprecated and will stop working in v11. Import it from `@sentry/nextjs/config` instead:
+[WebServer]   import { withSentryConfig } from '@sentry/nextjs/config';
+
+Running 2 tests using 1 worker
+
+(node:97044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/booking-e2e/booking-brand.spec.ts:3:5 › approved Sundae PNG wordmark appears on public and unavailable booking surfaces (2.3s)
+(node:97103) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [mobile] › tests/booking-e2e/booking-brand.spec.ts:3:5 › approved Sundae PNG wordmark appears on public and unavailable booking surfaces (1.9s)
+
+  2 passed (6.6s)

@@ -8,6 +8,7 @@
  * collapsible sections that the rail can open + scroll to.
  */
 
+import { ApprovedWordmark } from '@/components/ui/ApprovedWordmark';
 import { useState } from "react";
 import {
   Sun, Moon, ChevronDown, TrendingDown, Gauge, Layers,
@@ -127,7 +128,7 @@ export function DiagnosticReportView({
       <header className={`shrink-0 border-b ${dark ? "bg-[#020617] border-white/10" : "bg-white border-gray-200"}`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2.5 min-w-0">
-            <span className="text-lg font-extrabold tracking-tight">sundae<span className="text-[#FF5C4D]">.</span></span>
+            <ApprovedWordmark tone={dark ? "cream" : "ink"} className="h-10 w-40" />
             <span className={`hidden sm:inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider px-2 py-1 rounded-full ${dark ? "bg-[#FF5C4D]/15 text-[#FF8473]" : "bg-[#FF5C4D]/10 text-[#C2410C]"}`}>
               <Sparkles className="w-3 h-3" /> {copy.share.title}
             </span>

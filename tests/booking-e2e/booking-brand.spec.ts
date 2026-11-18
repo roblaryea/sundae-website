@@ -1,13 +1,16 @@
 import { test, expect } from '@playwright/test';
 
-test('approved Sundae mark and wordmark appear on public and unavailable booking surfaces', async ({ page }) => {
+test('approved Sundae PNG wordmark appears on public and unavailable booking surfaces', async ({ page }) => {
   for (const path of ['/book?token=optional', '/book/qa-host/intro', '/book?token=expired', '/book/paused', '/book/manage?id=invalid&token=invalid']) {
     await page.goto(path);
     const brand = page.getByRole('img', { name: 'Sundae', exact: true });
     await expect(brand).toHaveCount(1);
     await expect(brand).toBeVisible();
-    await expect(brand.locator('svg')).toHaveAttribute('viewBox', '0 0 200 200');
-    await expect(brand.getByText('sundae', { exact: true })).toBeVisible();
+    await expect(brand.locator('svg')).toHaveCount(0);
+    await expect(brand.locator('img')).toHaveCount(2);
+    for (const image of await brand.locator('img').all()) {
+      await expect(image).toHaveAttribute('src', /\/brand\/wordmarks\/sundae-wordmark-fraunces(?:-white)?\.png$/);
+    }
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
 

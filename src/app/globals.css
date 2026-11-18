@@ -115,3 +115,8 @@ html.light .theme-hero-surface {
   --border-default: rgba(255, 255, 255, 0.08);
   --border-emphasis: rgba(255, 255, 255, 0.15);
 }
+
+/* Approved PNG artwork is selected by surface, never recoloured with CSS. */
+[data-approved-wordmark="adaptive"] .approved-wordmark-ink { display: none; }
+html.light [data-approved-wordmark="adaptive"] .approved-wordmark-cream { display: none; }
+html.light [data-approved-wordmark="adaptive"] .approved-wordmark-ink { display: block; }

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, type CSSProperties, type ReactNode } from 'react';
-import { SundaeMark } from '@/components/ui/SundaeMark';
 import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
 
 /* ------------------------------------------------------------------ *
@@ -52,16 +51,6 @@ const SUB =
 /* ------------------------------------------------------------------ *
  * Small graphic primitives
  * ------------------------------------------------------------------ */
-
-function Cherry({ size = 16, color = P.cherry, stem = P.choco }: { size?: number; color?: string; stem?: string }) {
-  return (
-    <svg width={size} height={size * 1.3} viewBox="0 0 40 52" aria-hidden>
-      <path d="M20 14 C24 6 31 3 37 4" stroke={stem} strokeWidth="3" fill="none" strokeLinecap="round" />
-      <circle cx="16" cy="38" r="12" fill={color} />
-      <ellipse cx="12" cy="33" rx="3.4" ry="2.4" fill="#fff" opacity="0.45" />
-    </svg>
-  );
-}
 
 function Spoon({ size = 26, color = P.silver }: { size?: number; color?: string }) {
   return (
@@ -201,8 +190,7 @@ function HeroCurrent() {
       {/* top bar */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <SundaeMark size={26} />
-          <SundaeLogotype className="text-[#FBF8F4]" style={{ fontSize: 24 }} />
+          <SundaeLogotype tone="cream" className="text-[#FBF8F4]" style={{ fontSize: 24 }} />
         </div>
         <div style={{ display: 'flex', gap: 18, fontFamily: FONT.hanken, fontSize: 13, color: 'rgba(255,255,255,0.7)' }}>
           <span>Products</span>
@@ -345,8 +333,7 @@ function HeroCurrentElevated() {
       {/* top: wordmark + warm ticket nav */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <SundaeMark size={26} />
-          <SundaeLogotype className="text-[#FBF8F4]" style={{ fontSize: 24 }} />
+          <SundaeLogotype tone="cream" className="text-[#FBF8F4]" style={{ fontSize: 24 }} />
         </div>
         <TicketNavWarm />
       </div>
@@ -414,7 +401,7 @@ function HeroFaithful() {
       </div>
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16, marginTop: -28 }}>
-        <span style={{ fontFamily: FONT.times, fontWeight: 700, fontSize: 28, color: P.inkBlue, letterSpacing: '-0.01em' }}>Sundae</span>
+        <SundaeLogotype tone="ink" style={{ fontSize: 28 }} />
         <TicketNav ink={P.inkGreen} line={P.inkGreen} counter={P.cherry} font={FONT.arial} />
       </div>
 
@@ -469,12 +456,7 @@ function HeroBestOfBoth() {
   return (
     <HeroFrame bg={P.cream} border="rgba(42,31,203,0.22)">
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16 }}>
-        <span style={{ position: 'relative', display: 'inline-block', fontFamily: FONT.fraunces, fontWeight: 600, fontSize: 27, color: P.inkBlue, letterSpacing: '-0.018em' }}>
-          sundae
-          <span style={{ position: 'absolute', top: -9, right: -13 }}>
-            <Cherry size={14} />
-          </span>
-        </span>
+        <SundaeLogotype tone="ink" style={{ fontSize: 27 }} />
         <TicketNav ink={P.inkBlue} line="rgba(42,31,203,0.35)" counter={P.cherry} font={FONT.hanken} />
       </div>
 
@@ -543,45 +525,14 @@ function LogoTile({ label, dark, children }: { label: string; dark?: boolean; ch
   );
 }
 
-function WordmarkCherry({ font, color, lower }: { font: string; color: string; lower?: boolean }) {
-  return (
-    <span style={{ position: 'relative', display: 'inline-block', fontFamily: font, fontWeight: lower ? 600 : 700, fontSize: 34, color, letterSpacing: lower ? '-0.018em' : '-0.01em' }}>
-      {lower ? 'sundae' : 'Sundae'}
-      <span style={{ position: 'absolute', top: -11, right: -16 }}>
-        <Cherry size={17} />
-      </span>
-    </span>
-  );
-}
-
 function LogoLab() {
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 22 }}>
-      <LogoTile label="Current: layered-S mark + wordmark" dark>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <SundaeMark size={40} />
-          <SundaeLogotype className="text-[#FBF8F4]" style={{ fontSize: 30 }} />
-        </div>
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 22 }}>
+      <LogoTile label="Approved original PNG: white on dark" dark>
+        <SundaeLogotype tone="cream" style={{ fontSize: 30 }} />
       </LogoTile>
-
-      <LogoTile label="Wordmark + cherry (Fraunces) - recommended">
-        <WordmarkCherry font={FONT.fraunces} color={P.inkBlue} lower />
-      </LogoTile>
-
-      <LogoTile label="Wordmark + cherry (Times, deck face)">
-        <WordmarkCherry font={FONT.times} color={P.inkBlue} />
-      </LogoTile>
-
-      <LogoTile label="Bare type-only (Times) - the literal P.S. suggestion">
-        <span style={{ fontFamily: FONT.times, fontWeight: 700, fontSize: 34, color: P.inkBlue }}>Sundae</span>
-      </LogoTile>
-
-      <LogoTile label="Bare type-only (Fraunces)">
-        <span style={{ fontFamily: FONT.fraunces, fontWeight: 600, fontSize: 34, color: P.inkBlue, letterSpacing: '-0.018em' }}>sundae</span>
-      </LogoTile>
-
-      <LogoTile label="Wordmark + cherry on blue" dark>
-        <WordmarkCherry font={FONT.fraunces} color={P.cream} lower />
+      <LogoTile label="Approved original PNG: dark on light">
+        <SundaeLogotype tone="ink" style={{ fontSize: 30 }} />
       </LogoTile>
     </div>
   );
@@ -739,10 +690,10 @@ export function RedesignComparison() {
         </div>
 
         {/* logos */}
-        <SectionLabel>02 · Logo lab - your two P.S. notes, tested</SectionLabel>
+        <SectionLabel>02 · Approved wordmark</SectionLabel>
         <div style={{ fontFamily: FONT.hanken, fontSize: 13, lineHeight: 1.55, color: '#6b6259', marginBottom: 18, maxWidth: 720 }}>
-          P.S.1 (type-only) and P.S.2 (no &quot;S&quot; beside &quot;Sundae&quot;), rendered both ways. The cherry is your most ownable, on-name asset
- - bare type throws it away. Recommendation: lead with the wordmark + cherry; keep the layered-S for the app icon only.
+          Use only the supplied Fraunces PNGs shown below. Earlier symbol, cherry-lockup and typed-logo
+          proposals are retired; the surrounding layout studies do not propose a different identity.
         </div>
         <div style={{ marginBottom: 56 }}>
           <LogoLab />

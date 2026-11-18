@@ -102,10 +102,10 @@ export async function generateMetadata(): Promise<Metadata> {
       : undefined,
     icons: {
       icon: [
-        { url: "/logos/sundae-app-icon.png", sizes: "512x512", type: "image/png" },
+        { url: "/brand/icons/wordmark-512.png", sizes: "512x512", type: "image/png" },
       ],
       apple: [
-        { url: "/logos/sundae-app-icon.png", sizes: "512x512", type: "image/png" },
+        { url: "/brand/icons/wordmark-180.png", sizes: "180x180", type: "image/png" },
       ],
     },
     manifest: "/site.webmanifest",
@@ -291,7 +291,7 @@ export default async function RootLayout({
         "@id": organizationId,
         name: "Sundae",
         url: new URL("/", baseUrl).toString(),
-        logo: new URL("/logos/sundae-app-icon.png", baseUrl).toString(),
+        logo: new URL("/brand/wordmarks/sundae-wordmark-fraunces.png", baseUrl).toString(),
         description:
           "Sundae provides operations management and decision intelligence for multi-location hospitality and food-service groups.",
         sameAs: [

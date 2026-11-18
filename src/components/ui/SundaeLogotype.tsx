@@ -1,36 +1,11 @@
-import type { CSSProperties } from "react";
+import type { CSSProperties } from 'react';
+import { ApprovedWordmark } from './ApprovedWordmark';
 
-/**
- * The Sundae logotype - the rebrand's primary register: a clean Fraunces
- * wordmark set in the display face. Single source of truth so the navbar,
- * mobile drawer, footer, and auth screens all render one identical wordmark.
- *
- * Theme-aware color is supplied by the caller via `className`
- * (e.g. "text-[#FBF8F4] [html.light_&]:text-[#2A2320]"), and size via a
- * text-[..] utility, so the same component scales across surfaces.
- */
-export function SundaeLogotype({
-  className = "",
-  style,
-}: {
+/** Compatibility sizing for existing chrome; artwork comes from the approved PNG. */
+export function SundaeLogotype({ className = '', style, tone = 'adaptive' }: {
   className?: string;
   style?: CSSProperties;
+  tone?: 'adaptive' | 'ink' | 'cream';
 }) {
-  return (
-    <span
-      aria-label="Sundae"
-      className={`block select-none leading-none tracking-[-0.018em] ${className}`}
-      style={{
-        fontFamily: "var(--font-display)",
-        fontWeight: 600,
-        // Force the warm display cut + soft, slightly wonky letterforms at any
-        // size so the wordmark reads as a crafted logotype, not a plain serif.
-        fontOpticalSizing: "none",
-        fontVariationSettings: "'opsz' 144, 'SOFT' 90, 'WONK' 1",
-        ...style,
-      }}
-    >
-      sundae
-    </span>
-  );
+  return <ApprovedWordmark tone={tone} className={`h-[1.6em] w-[6.4em] ${className}`} style={style} />;
 }
