@@ -122,7 +122,7 @@ export async function generateMetadata(): Promise<Metadata> {
       url: new URL(localizedCanonicalPath, baseUrl).toString(),
       images: [
         {
-          url: "/logos/og-card.png",
+          url: "/logos/og-operations.png",
           width: 1200,
           height: 630,
           alt: messages.metadata.title,
@@ -133,7 +133,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: routeTitle ?? messages.metadata.title,
       description: metadataDescription,
-      images: ["/logos/og-card.png"],
+      images: ["/logos/og-operations.png"],
     },
     robots: {
       index: true,

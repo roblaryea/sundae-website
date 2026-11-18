@@ -101,7 +101,7 @@ export function buildResolvedPageMetadata({
       url: localizedPathname,
       images: [
         {
-          url: "/logos/og-card.png",
+          url: "/logos/og-operations.png",
           width: 1200,
           height: 630,
           alt: title,
@@ -112,7 +112,7 @@ export function buildResolvedPageMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: ["/logos/og-card.png"],
+      images: ["/logos/og-operations.png"],
     },
   };
 }
