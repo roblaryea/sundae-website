@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/verify-production-trace.mjs",
+    "postbuild": "npm run test:runtime-security && node scripts/verify-production-trace.mjs && node scripts/audit-deployed-runtime.mjs",
     "prebuild": "npm run qa:i18n && npm run qa:translation && npm run qa:diagnostic-i18n && npm run qa:positioning",
     "start": "next start",
     "lint": "eslint",
@@ -13,6 +13,7 @@
     "lead:preflight": "node scripts/check-lead-capture-env.mjs",
     "test:diagnostic-lead": "node --test tests/diagnostic-lead-outbox.test.mjs tests/diagnostic-flow-contract.test.mjs tests/diagnostic-report-grounding.test.mjs tests/diagnostic-evidence.test.mjs",
     "test:observability": "node --test tests/sentry-runtime-policy.test.mjs",
+    "test:runtime-security": "node --test tests/deployed-runtime-audit.test.mjs",
     "smoke:profile-card": "node --no-warnings scripts/smoke-profile-card.mjs",
     "test:profile-card": "node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs tests/public-profiles.test.mjs",
     "test:seo": "node --test tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs tests/lead-form-analytics.test.mjs tests/operator-workflow-locales.test.mjs tests/home-about-alignment.test.mjs tests/button-cta-tracking.test.mjs tests/campaign-attribution.test.mjs tests/pricing-navigation.test.mjs tests/pricing-catalog-comparison.test.mjs",

@@ -1,6 +1,7 @@
 import { readFile, readdir, realpath, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
 
 // The Next SDK contains both build tooling and runtime code. Audit the emitted
 // package inventory AND the declared Sentry runtime closure, including code
@@ -121,6 +122,18 @@ export async function auditRuntime(root = process.cwd()) {
   await mkdir(path.join(root, 'output/seo'), { recursive: true });
   await writeFile(path.join(root, 'output/seo/deployed-runtime-audit.json'), JSON.stringify(report, null, 2) + '\n');
   console.log(`Deployed runtime audit: ${Object.keys(packages).length} packages, ${result.blocking.length} high/critical findings, ${result.findings.length} total advisories`);
+  // Retain the complete build/development report under the existing policy:
+  // these findings are visible even when they are absent from the deployment.
+  const full = spawnSync('npm', ['audit', '--include=dev', '--json'], {
+    cwd: root, encoding: 'utf8', timeout: 45_000, maxBuffer: 10 * 1024 * 1024,
+  });
+  const buildReport = JSON.parse(full.stdout || '{}');
+  if (full.error || ![0, 1].includes(full.status) || buildReport.error
+      || !buildReport.metadata?.vulnerabilities) {
+    throw new Error('Unable to obtain complete build dependency audit');
+  }
+  await writeFile(path.join(root, 'output/seo/build-dependency-audit.json'), JSON.stringify(buildReport, null, 2) + '\n');
+  console.log('Complete build/development audit (reported separately): ' + JSON.stringify(buildReport.metadata.vulnerabilities));
   if (result.blocking.length) {
     for (const finding of result.blocking) console.error(`${finding.severity}: ${finding.name} ${finding.url}`);
     throw new Error('Deployed runtime security audit failed');
