@@ -1,0 +1,200 @@
+{
+  "en": {
+    "roleContextTitle": "Start with the question your team needs to answer.",
+    "roleCtaDescription": "Bring one operating question. Review the relevant work, data and next step using your operation or a sample.",
+    "proofLink": "See Sundae in practice",
+    "resultsLabel": "Sundae in practice",
+    "guidesLabel": "Read the operator guides",
+    "nativeEvidenceTitle": "Inside Sundae Crew",
+    "nativeEvidenceDescription": "These product views show the work and controls a team can review. They use a demo workspace and do not establish a customer result."
+  },
+  "ar": {
+    "roleContextTitle": "ابدأ بالسؤال الذي يحتاج فريقك الإجابة عليه.",
+    "roleCtaDescription": "قدّم سؤالًا تشغيليا واحدًا. راجع العمل والبيانات والخطوة التالية ذات الصلة باستخدام تشغيلك أو نموذج.",
+    "proofLink": "شاهد Sundae في التطبيق",
+    "resultsLabel": "Sundae في التطبيق",
+    "guidesLabel": "اقرأ أدلة المشغل",
+    "nativeEvidenceTitle": "داخل Sundae Crew",
+    "nativeEvidenceDescription": "تُظهر هذه العروض المنتجية العمل والضوابط التي يمكن للفريق مراجعتها. تستخدم مساحة عمل تجريبية ولا تؤسس نتيجة عميل."
+  },
+  "fr": {
+    "roleContextTitle": "Commencez par la question que votre équipe doit répondre.",
+    "roleCtaDescription": "Apportez une question opérationnelle. Passez en revue le travail pertinent, les données et l’étape suivante en utilisant votre exploitation ou un exemple.",
+    "proofLink": "Voir Sundae en pratique",
+    "resultsLabel": "Sundae en pratique",
+    "guidesLabel": "Lire les guides opérateurs",
+    "nativeEvidenceTitle": "À l’intérieur de Sundae Crew",
+    "nativeEvidenceDescription": "Ces vues produit montrent le travail et les contrôles qu’une équipe peut examiner. Elles utilisent un espace de travail de démonstration et n’établissent pas un résultat client."
+  },
+  "es": {
+    "roleContextTitle": "Comience con la pregunta que su equipo necesita responder.",
+    "roleCtaDescription": "Lleve una pregunta operativa. Revise el trabajo, los datos y el siguiente paso relevantes usando su operación o una muestra.",
+    "proofLink": "Vea Sundae en la práctica",
+    "resultsLabel": "Sundae en la práctica",
+    "guidesLabel": "Lea las guías para operadores",
+    "nativeEvidenceTitle": "Dentro de Sundae Crew",
+    "nativeEvidenceDescription": "Estas vistas de producto muestran el trabajo y los controles que un equipo puede revisar. Usan un espacio de trabajo demo y no establecen un resultado de cliente."
+  },
+  "de": {
+    "roleContextTitle": "Beginnen Sie mit der Frage, die Ihr Team beantworten muss.",
+    "roleCtaDescription": "Bringen Sie eine Betriebsfrage mit. Prüfen Sie die relevante Arbeit, Daten und den nächsten Schritt anhand Ihres Betriebs oder eines Beispiels.",
+    "proofLink": "Sehen Sie Sundae in der Praxis",
+    "resultsLabel": "Sundae in der Praxis",
+    "guidesLabel": "Lesen Sie die Operator-Guides",
+    "nativeEvidenceTitle": "Innerhalb von Sundae Crew",
+    "nativeEvidenceDescription": "Diese Produktansichten zeigen die Arbeit und Kontrollen, die ein Team prüfen kann. Sie nutzen einen Demo-Workspace und stellen kein Kundenergebnis dar."
+  },
+  "nl": {
+    "roleContextTitle": "Begin met de vraag die uw team moet beantwoorden.",
+    "roleCtaDescription": "Breng één operationele vraag. Beoordeel het relevante werk, de gegevens en de volgende stap met uw operatie of een voorbeeld.",
+    "proofLink": "Zie Sundae in de praktijk",
+    "resultsLabel": "Sundae in de praktijk",
+    "guidesLabel": "Lees de operatorhandleidingen",
+    "nativeEvidenceTitle": "Binnen Sundae Crew",
+    "nativeEvidenceDescription": "Deze productweergaven tonen het werk en de besturingen die een team kan beoordelen. Ze gebruiken een demo-workspace en leggen geen klantresultaat vast."
+  },
+  "pt": {
+    "roleContextTitle": "Comece com a pergunta que a sua equipa precisa responder.",
+    "roleCtaDescription": "Traga uma questão operacional. Reveja o trabalho relevante, os dados e o próximo passo usando a sua operação ou uma amostra.",
+    "proofLink": "Veja a Sundae em ação",
+    "resultsLabel": "Sundae em prática",
+    "guidesLabel": "Leia os guias do operador",
+    "nativeEvidenceTitle": "Dentro do Sundae Crew",
+    "nativeEvidenceDescription": "Estas vistas de produto mostram o trabalho e os controlos que uma equipa pode rever. Usam um espaço de trabalho demo e não estabelecem um resultado de cliente."
+  },
+  "hi": {
+    "roleContextTitle": "उस प्रश्न से शुरू करें जिसका आपके टीम को उत्तर चाहिए।",
+    "roleCtaDescription": "एक ऑपरेटिंग प्रश्न लाएं। अपने ऑपरेशन या एक सैंपल का उपयोग करके संबंधित काम, डेटा और अगला कदम समीक्षा करें।",
+    "proofLink": "Sundae को व्यवहार में देखें",
+    "resultsLabel": "Sundae व्यवहार में",
+    "guidesLabel": "ऑपरेटर गाइड पढ़ें",
+    "nativeEvidenceTitle": "Sundae Crew के अंदर",
+    "nativeEvidenceDescription": "ये प्रोडक्ट दृश्य काम और नियंत्रण दिखाते हैं जिन्हें एक टीम समीक्षा कर सकती है। वे डेमो वर्कस्पेस का उपयोग करते हैं और ग्राहक परिणाम स्थापित नहीं करते।"
+  },
+  "ur": {
+    "roleContextTitle": "اپنے ٹیم کے سوال سے آغاز کریں جس کا جواب درکار ہے۔",
+    "roleCtaDescription": "ایک آپریٹنگ سوال لائیں۔ متعلقہ کام، ڈیٹا اور اگلے قدم کا جائزہ اپنے آپریشن یا ایک نمونے کے ساتھ کریں۔",
+    "proofLink": "Sundae کو عملی طور پر دیکھیں",
+    "resultsLabel": "Sundae عملی طور پر",
+    "guidesLabel": "آپریٹر گائیڈز پڑھیں",
+    "nativeEvidenceTitle": "Sundae Crew کے اندر",
+    "nativeEvidenceDescription": "یہ پروڈکٹ مناظر دکھاتے ہیں کہ ٹیم کیا کام اور کنٹرولز جائزہ لے سکتی ہے۔ یہ ایک ڈیمو ورک اسپیس استعمال کرتے ہیں اور کسٹمر نتیجہ قائم نہیں کرتے۔"
+  },
+  "it": {
+    "roleContextTitle": "Inizia con la domanda che il tuo team deve rispondere.",
+    "roleCtaDescription": "Porta una domanda operativa. Rivedi il lavoro rilevante, i dati e il passo successivo usando la tua operazione o un esempio.",
+    "proofLink": "Vedi Sundae in pratica",
+    "resultsLabel": "Sundae in pratica",
+    "guidesLabel": "Leggi le guide per operatori",
+    "nativeEvidenceTitle": "Dentro Sundae Crew",
+    "nativeEvidenceDescription": "Queste viste prodotto mostrano il lavoro e i controlli che un team può rivedere. Usano uno spazio di lavoro demo e non stabiliscono un risultato cliente."
+  },
+  "pl": {
+    "roleContextTitle": "Zacznij od pytania, na które Twój zespół potrzebuje odpowiedzi.",
+    "roleCtaDescription": "Przynieś jedno pytanie operacyjne. Przejrzyj odpowiednią pracę, dane i następny krok używając swojej operacji lub przykładu.",
+    "proofLink": "Zobacz Sundae w praktyce",
+    "resultsLabel": "Sundae w praktyce",
+    "guidesLabel": "Przeczytaj przewodniki operatora",
+    "nativeEvidenceTitle": "Wewnątrz Sundae Crew",
+    "nativeEvidenceDescription": "Te widoki produktu pokazują pracę i kontrole, które zespół może przeglądać. Używają przestrzeni roboczej demo i nie ustanawiają wyniku klienta."
+  },
+  "tr": {
+    "roleContextTitle": "Ekibinizin yanıtlaması gereken soruyla başlayın.",
+    "roleCtaDescription": "Bir işletme sorusu getirin. İlgili işi, veriyi ve sonraki adımı işletmenizden veya bir örnekten kullanarak gözden geçirin.",
+    "proofLink": "Sundae'i uygulamada görün",
+    "resultsLabel": "Sundae uygulamada",
+    "guidesLabel": "Operatör kılavuzlarını okuyun",
+    "nativeEvidenceTitle": "Sundae Crew içinde",
+    "nativeEvidenceDescription": "Bu ürün görünümleri bir ekibin gözden geçirebileceği işleri ve kontrolleri gösterir. Demo çalışma alanı kullanırlar ve müşteri sonucu oluşturmazlar."
+  },
+  "zh-Hans": {
+    "roleContextTitle": "从团队需要回答的问题开始。",
+    "roleCtaDescription": "带来一个运营问题。使用您的门店或样例，复核相关工作、数据与下一步。",
+    "proofLink": "查看 Sundae 的实践",
+    "resultsLabel": "Sundae 的实践",
+    "guidesLabel": "阅读操作员指南",
+    "nativeEvidenceTitle": "Sundae Crew 内部",
+    "nativeEvidenceDescription": "这些产品视图展示团队可复核的工作与控制。它们使用演示工作区，不代表客户结果。"
+  },
+  "ja": {
+    "roleContextTitle": "チームが答えるべき問いから始める。",
+    "roleCtaDescription": "運営上の一つの問いを持ち寄ってください。お使いの運用またはサンプルを使い、関連する作業、データ、次のステップをレビューします。",
+    "proofLink": "Sundaeの実践例を見る",
+    "resultsLabel": "Sundaeの実践例",
+    "guidesLabel": "オペレーターガイドを読む",
+    "nativeEvidenceTitle": "Sundae Crew内部",
+    "nativeEvidenceDescription": "これらの製品ビューはチームがレビューできる作業と管理を示します。デモ作業スペースを使っており、顧客成果を示すものではありません。"
+  },
+  "ko": {
+    "roleContextTitle": "팀이 답해야 할 질문으로 시작하세요.",
+    "roleCtaDescription": "하나의 운영 질문을 가져오세요. 귀하의 운영이나 샘플을 사용해 관련 작업, 데이터, 다음 단계를 검토합니다.",
+    "proofLink": "Sundae 실무 보기",
+    "resultsLabel": "Sundae 실무",
+    "guidesLabel": "운영자 가이드 읽기",
+    "nativeEvidenceTitle": "Sundae Crew 내부",
+    "nativeEvidenceDescription": "이 제품 뷰는 팀이 검토할 수 있는 작업과 통제를 보여줍니다. 데모 워크스페이스를 사용하며 고객 결과를 확립하지 않습니다."
+  },
+  "id": {
+    "roleContextTitle": "Mulai dengan pertanyaan yang perlu dijawab tim Anda.",
+    "roleCtaDescription": "Bawa satu pertanyaan operasional. Tinjau pekerjaan, data dan langkah selanjutnya yang relevan menggunakan operasi Anda atau contoh.",
+    "proofLink": "Lihat Sundae in practice",
+    "resultsLabel": "Sundae dalam praktik",
+    "guidesLabel": "Baca panduan operator",
+    "nativeEvidenceTitle": "Di dalam Sundae Crew",
+    "nativeEvidenceDescription": "Tampilan produk ini menunjukkan pekerjaan dan kontrol yang dapat ditinjau tim. Mereka menggunakan workspace demo dan tidak menetapkan hasil pelanggan."
+  },
+  "vi": {
+    "roleContextTitle": "Bắt đầu với câu hỏi đội bạn cần trả lời.",
+    "roleCtaDescription": "Mang một câu hỏi vận hành. Xem công việc, dữ liệu và bước tiếp theo liên quan sử dụng hoạt động của bạn hoặc một mẫu.",
+    "proofLink": "Xem Sundae trong thực hành",
+    "resultsLabel": "Sundae trong thực hành",
+    "guidesLabel": "Đọc hướng dẫn cho người vận hành",
+    "nativeEvidenceTitle": "Bên trong Sundae Crew",
+    "nativeEvidenceDescription": "Những giao diện sản phẩm này cho thấy công việc và kiểm soát mà đội có thể xem xét. Chúng dùng không gian làm việc demo và không thiết lập kết quả khách hàng."
+  },
+  "ro": {
+    "roleContextTitle": "Pornește de la întrebarea la care echipa ta trebuie să răspundă.",
+    "roleCtaDescription": "Adu o întrebare operațională. Revizuiește munca relevantă, datele și pasul următor folosind operația ta sau un exemplu.",
+    "proofLink": "Vezi Sundae în practică",
+    "resultsLabel": "Sundae în practică",
+    "guidesLabel": "Citește ghidurile operatorului",
+    "nativeEvidenceTitle": "În interiorul Sundae Crew",
+    "nativeEvidenceDescription": "Aceste vizualizări de produs arată munca și controalele pe care o echipă le poate revizui. Folosesc un spațiu de lucru demo și nu stabilesc un rezultat de client."
+  },
+  "sv": {
+    "roleContextTitle": "Börja med den fråga ditt team behöver besvara.",
+    "roleCtaDescription": "Ta med en driftsfråga. Granska relevant arbete, data och nästa steg med din verksamhet eller ett exempel.",
+    "proofLink": "Se Sundae i praktiken",
+    "resultsLabel": "Sundae i praktiken",
+    "guidesLabel": "Läs driftgoderna",
+    "nativeEvidenceTitle": "Inuti Sundae Crew",
+    "nativeEvidenceDescription": "Dessa produktvyer visar arbete och kontroller som ett team kan granska. De använder ett demoarbetsrum och etablerar inte ett kundresultat."
+  },
+  "bn": {
+    "roleContextTitle": "আপনার দলকে যে প্রশ্নটির উত্তর দিতে হবে তা থেকে শুরু করুন।",
+    "roleCtaDescription": "একটি অপারেটিং প্রশ্ন নিয়ে আসুন। আপনার অপারেশন বা একটি নমুনার মাধ্যমে প্রাসঙ্গিক কাজ, ডেটা ও পরবর্তী ধাপ পর্যালোচনা করুন।",
+    "proofLink": "Sundae অনুশীলনে দেখুন",
+    "resultsLabel": "Sundae অনুশীলনে",
+    "guidesLabel": "অপারেটরের গাইড পড়ুন",
+    "nativeEvidenceTitle": "Sundae Crew-এর ভেতরের দৃশ্য",
+    "nativeEvidenceDescription": "এই প্রোডাক্ট ভিউগুলো দল কী কাজ ও নিয়ন্ত্রণ পর্যালোচনা করতে পারে তা দেখায়। এগুলো একটি ডেমো ওয়ার্কস্পেস ব্যবহার করে এবং কোনো গ্রাহক ফলাফল স্থাপন করে না।"
+  },
+  "th": {
+    "roleContextTitle": "เริ่มจากคำถามที่ทีมของคุณต้องตอบ",
+    "roleCtaDescription": "นำคำถามการปฏิบัติงานหนึ่งข้อ ทบทวนงาน ข้อมูล และขั้นตอนถัดไปที่เกี่ยวข้องโดยใช้การปฏิบัติงานของคุณหรือการดำเนินงานตัวอย่าง",
+    "proofLink": "ดู Sundae ในการปฏิบัติ",
+    "resultsLabel": "Sundae ในการปฏิบัติ",
+    "guidesLabel": "อ่านคู่มือสำหรับผู้ปฏิบัติงาน",
+    "nativeEvidenceTitle": "ภายใน Sundae Crew",
+    "nativeEvidenceDescription": "มุมมองผลิตภัณฑ์เหล่านี้แสดงงานและการควบคุมที่ทีมสามารถทบทวนได้ พวกเขาใช้พื้นที่ทำงานสาธิตและไม่ก่อให้เกิดผลลัพธ์ของลูกค้า"
+  },
+  "ms": {
+    "roleContextTitle": "Mula dengan soalan yang perlu dijawab pasukan anda.",
+    "roleCtaDescription": "Bawa satu soalan operasi. Semak kerja, data dan langkah seterusnya yang relevan menggunakan operasi anda atau sampel.",
+    "proofLink": "Lihat Sundae dalam Amalan",
+    "resultsLabel": "Sundae dalam Amalan",
+    "guidesLabel": "Baca panduan operator",
+    "nativeEvidenceTitle": "Dalam Sundae Crew",
+    "nativeEvidenceDescription": "Paparan produk ini menunjukkan kerja dan kawalan yang boleh disemak oleh pasukan. Mereka menggunakan ruang kerja demo dan tidak menetapkan keputusan pelanggan."
+  }
+}

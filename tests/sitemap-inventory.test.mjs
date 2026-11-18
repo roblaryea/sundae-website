@@ -19,7 +19,7 @@ const priorityRoutes = [
 ]
 
 test('static sitemap inventory stays normalized and duplicate-free', () => {
-  assert.equal(sitemapStaticRoutes.length, 59)
+  assert.equal(sitemapStaticRoutes.length, 60)
   assert.equal(new Set(sitemapStaticRoutes).size, sitemapStaticRoutes.length)
 
   for (const route of sitemapStaticRoutes) {
@@ -35,7 +35,7 @@ test('priority search and conversion routes remain submitted', () => {
 })
 
 test('sitemap groups retain their expected boundaries', () => {
-  assert.equal(sitemapRouteGroups.core.length, 21)
+  assert.equal(sitemapRouteGroups.core.length, 22)
   assert.equal(sitemapRouteGroups.product.length, 9)
   assert.equal(sitemapRouteGroups.crew.length, 11)
   assert.equal(sitemapRouteGroups.solutions.length, 10)

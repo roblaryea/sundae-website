@@ -1,5 +1,10 @@
 'use client';
 
+import bodyCopy from '@/content/buyer-clarity/core.json';
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import { getLocalizedPathname } from '@/lib/i18n';
+
+
 import { getCommercialCopy, getCoreCoverageSummary } from '@/lib/pricing/commercialCopy';
 import openingCopy from '@/content/operator-openings.json'
 import { OperatorOpeningTitle } from '@/components/ui/OperatorOpeningTitle';
@@ -15,7 +20,7 @@ import { ThemedShot } from "@/components/ui/ThemedShot";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import type { CorePackageId } from '@/lib/pricing/priceBook'
 import { CorePackageCoverage } from '@/components/seo/CorePackageCoverage'
 import { generatedLocalCopy } from '@/generated-locales/app_core_page'
@@ -652,7 +657,8 @@ const localizedCoreCopy = {
 export default function CoreProductPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
+  const sourceUi = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
+  const ui = mergeGeneratedCopy(sourceUi, bodyCopy[locale as keyof typeof bodyCopy]);
   const cream = coreCreamCopy[locale as keyof typeof coreCreamCopy] ?? coreCreamCopy.en;
   const commercial = getCommercialCopy(locale);
   const integrations = ui.integrations.items;
@@ -759,6 +765,11 @@ export default function CoreProductPage() {
             <p className="mt-10 text-center body-sm text-[var(--text-muted)] max-w-3xl mx-auto italic">
               {ui.proof.honesty}
             </p>
+            <div className="mt-6 flex justify-center">
+              <Button variant="outline-light" href={getLocalizedPathname('/results', locale)} trackingLabel="core_review_evidence">
+                {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
+              </Button>
+            </div>
           </FadeUp>
         </div>
       </section>

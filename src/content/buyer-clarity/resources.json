@@ -1,0 +1,200 @@
+{
+  "en": {
+    "description": "Find practical operator guides, product workflows and customer stories to support your evaluation of Sundae.",
+    "primaryCta": "Book a walkthrough",
+    "secondaryCta": "See Sundae in practice",
+    "storiesNote": "Real, anonymized customer stories. Read each evidence note alongside the reported outcomes.",
+    "guidesTitle": "Put the evidence to work.",
+    "guidesDescription": "Read practical guidance on forecasting, live-shift review, market signals and peer comparisons, then explore the relevant Sundae capability.",
+    "guidesCta": "Read the operator guides"
+  },
+  "ar": {
+    "description": "اعثر على أدلة عملية للمشغلين، سير عمل المنتج وقصص العملاء لدعم تقييمك لـ Sundae.",
+    "primaryCta": "احجز جولة توضيحية",
+    "secondaryCta": "شاهد Sundae في التطبيق",
+    "storiesNote": "قصص عملاء حقيقية ومجهولة. اقرأ كل ملاحظة دليل بجانب النتائج المبلغ عنها.",
+    "guidesTitle": "ضع الدليل موضع التنفيذ.",
+    "guidesDescription": "اطلع على إرشادات عملية حول التنبؤ، مراجعة الشفت الحي، إشارات السوق ومقارنات الأقران، ثم استكشف القدرة المناسبة في Sundae.",
+    "guidesCta": "اقرأ أدلة المشغل"
+  },
+  "fr": {
+    "description": "Trouvez des guides pratiques pour opérateurs, des flux produit et des récits clients pour soutenir votre évaluation de Sundae.",
+    "primaryCta": "Réserver une démonstration",
+    "secondaryCta": "Voir Sundae en pratique",
+    "storiesNote": "Récits clients réels et anonymisés. Lisez chaque note de preuve avec les résultats rapportés.",
+    "guidesTitle": "Mettez les preuves en pratique.",
+    "guidesDescription": "Lisez des conseils pratiques sur les prévisions, la revue en live-shift, les signaux de marché et les comparaisons de pairs, puis explorez la capacité Sundae pertinente.",
+    "guidesCta": "Lire les guides opérateurs"
+  },
+  "es": {
+    "description": "Encuentre guías prácticas para operadores, flujos de trabajo de producto e historias de clientes para apoyar su evaluación de Sundae.",
+    "primaryCta": "Reservar una demostración",
+    "secondaryCta": "Ver Sundae en la práctica",
+    "storiesNote": "Historias reales y anonimizadas de clientes. Lea cada nota de evidencia junto con los resultados reportados.",
+    "guidesTitle": "Ponga la evidencia en práctica.",
+    "guidesDescription": "Lea orientación práctica sobre previsión, revisión en turno en vivo, señales de mercado y comparaciones con pares, luego explore la capacidad de Sundae correspondiente.",
+    "guidesCta": "Leer las guías para operadores"
+  },
+  "de": {
+    "description": "Finden Sie praktische Operator-Guides, Produkt-Workflows und Kundenberichte zur Unterstützung Ihrer Bewertung von Sundae.",
+    "primaryCta": "Einen Walkthrough buchen",
+    "secondaryCta": "Sundae in der Praxis sehen",
+    "storiesNote": "Reale, anonymisierte Kundenberichte. Lesen Sie jede Evidenznotiz zusammen mit den berichteten Ergebnissen.",
+    "guidesTitle": "Setzen Sie die Belege in die Praxis um.",
+    "guidesDescription": "Lesen Sie praktische Anleitungen zu Prognosen, Live-Schicht-Überprüfung, Marktsignalen und Peer-Vergleichen und erkunden Sie dann die relevante Sundae-Funktion.",
+    "guidesCta": "Lesen Sie die Operator-Guides"
+  },
+  "nl": {
+    "description": "Vind praktische operatorhandleidingen, productworkflows en klantverhalen om uw evaluatie van Sundae te ondersteunen.",
+    "primaryCta": "Boek een walkthrough",
+    "secondaryCta": "Zie Sundae in de praktijk",
+    "storiesNote": "Echte, geanonimiseerde klantverhalen. Lees elke bewijsnota naast de gerapporteerde uitkomsten.",
+    "guidesTitle": "Zet het bewijs om in actie.",
+    "guidesDescription": "Lees praktische richtlijnen over forecasting, live-shift review, marktsignalen en peervergelijkingen, en verken vervolgens de relevante Sundae-functionaliteit.",
+    "guidesCta": "Lees de operatorhandleidingen"
+  },
+  "pt": {
+    "description": "Encontre guias práticos para operadores, fluxos de produto e histórias de clientes para apoiar a sua avaliação da Sundae.",
+    "primaryCta": "Agendar uma sessão guiada",
+    "secondaryCta": "Veja a Sundae em prática",
+    "storiesNote": "Histórias reais e anonimizadas de clientes. Leia cada nota de evidência juntamente com os resultados reportados.",
+    "guidesTitle": "Coloque a evidência em prática.",
+    "guidesDescription": "Leia orientações práticas sobre previsão, revisão de turno em direto, sinais de mercado e comparações com pares, depois explore a capacidade Sundae relevante.",
+    "guidesCta": "Ler os guias do operador"
+  },
+  "hi": {
+    "description": "Sundae के मूल्यांकन का समर्थन करने के लिए व्यावहारिक ऑपरेटर गाइड, प्रोडक्ट वर्कफ्लो और ग्राहक कहानियाँ खोजें।",
+    "primaryCta": "वॉकथ्रू बुक करें",
+    "secondaryCta": "Sundae व्यवहार में देखें",
+    "storiesNote": "वास्तविक, अनानिमाइज़्ड ग्राहक कहानियाँ। रिपोर्ट किए गए परिणामों के साथ प्रत्येक साक्ष्य नोट पढ़ें।",
+    "guidesTitle": "साक्ष्य को काम पर लगाएँ।",
+    "guidesDescription": "फोरकास्टिंग, लाइव-शिफ्ट समीक्षा, मार्केट सिग्नल और पीयर तुलना पर व्यावहारिक मार्गदर्शन पढ़ें, फिर संबंधित Sundae क्षमता का अन्वेषण करें।",
+    "guidesCta": "ऑपरेटर गाइड पढ़ें"
+  },
+  "ur": {
+    "description": "عملی آپریٹر گائیڈز، پروڈکٹ ورک فلو اور کسٹمر کہانیاں تلاش کریں تاکہ Sundae کے آپ کے اندازے کی حمایت ہو سکے۔",
+    "primaryCta": "واک تھرو بک کریں",
+    "secondaryCta": "Sundae عملی طور پر دیکھیں",
+    "storiesNote": "حقیقی، گمنام کردہ کسٹمر کہانیاں۔ ہر شواہد کے نوٹ کو رپورٹ شدہ نتائج کے ساتھ پڑھیں۔",
+    "guidesTitle": "شواہد کو کام میں لائیں۔",
+    "guidesDescription": "پیشگوئی، لائیو شفٹ جائزہ، بازار کے اشارے اور ہم مرتبہ تقابلات پر عملی رہنمائی پڑھیں، پھر متعلقہ Sundae صلاحیت کو دریافت کریں۔",
+    "guidesCta": "آپریٹر گائیڈز پڑھیں"
+  },
+  "it": {
+    "description": "Trova guide pratiche per operatori, workflow di prodotto e storie cliente per supportare la tua valutazione di Sundae.",
+    "primaryCta": "Prenota una dimostrazione",
+    "secondaryCta": "Vedi Sundae in pratica",
+    "storiesNote": "Storie cliente reali e anonimizzate. Leggi ogni nota sulle prove insieme ai risultati riportati.",
+    "guidesTitle": "Metti le prove al lavoro.",
+    "guidesDescription": "Leggi indicazioni pratiche su forecasting, revisione in diretta del turno, segnali di mercato e confronti con i pari, poi esplora la funzionalità Sundae pertinente.",
+    "guidesCta": "Leggi le guide per operatori"
+  },
+  "pl": {
+    "description": "Znajdź praktyczne przewodniki operatora, workflowy produktu i historie klientów, aby wesprzeć ocenę Sundae.",
+    "primaryCta": "Umów demonstrację",
+    "secondaryCta": "Zobacz Sundae w praktyce",
+    "storiesNote": "Prawdziwe, zanonimizowane historie klientów. Czytaj każdą informację o dowodach razem ze zgłoszonymi rezultatami.",
+    "guidesTitle": "Wprowadź dowody w praktykę.",
+    "guidesDescription": "Przeczytaj praktyczne wskazówki dotyczące prognozowania, przeglądu zmiany w czasie rzeczywistym, sygnałów rynkowych i porównań peer, a następnie poznaj odpowiednią funkcję Sundae.",
+    "guidesCta": "Przeczytaj przewodniki operatora"
+  },
+  "tr": {
+    "description": "Sundae değerlendirinize destek olacak pratik operatör kılavuzları, ürün iş akışları ve müşteri hikayeleri bulun.",
+    "primaryCta": "Bir yürütme oturumu ayarlayın",
+    "secondaryCta": "Sundae'i uygulamada görün",
+    "storiesNote": "Gerçek, anonimleştirilmiş müşteri hikayeleri. Her kanıt notunu bildirilen sonuçlarla birlikte okuyun.",
+    "guidesTitle": "Kanmıtları işe uyarlayın.",
+    "guidesDescription": "Tahminleme, canlı vardiya incelemesi, pazar sinyalleri ve emsal karşılaştırmalar üzerine pratik rehberliği okuyun, sonra ilgili Sundae yeteneğini keşfedin.",
+    "guidesCta": "Operatör kılavuzlarını okuyun"
+  },
+  "zh-Hans": {
+    "description": "查找实用的操作员指南、产品工作流与客户案例，支持您评估 Sundae。",
+    "primaryCta": "预约演示",
+    "secondaryCta": "查看 Sundae 的实践",
+    "storiesNote": "真实的匿名客户案例。请将每条证据说明与报告的结果一并阅读。",
+    "guidesTitle": "把证据付诸实践。",
+    "guidesDescription": "阅读关于预测、实时班次复核、市场信号与同行对比的实用指南，然后探索相关的 Sundae 功能。",
+    "guidesCta": "阅读操作员指南"
+  },
+  "ja": {
+    "description": "Sundaeの評価を支援する実務的なオペレーターガイド、製品ワークフロー、顧客事例を見つけてください。",
+    "primaryCta": "ウォークスルーを予約する",
+    "secondaryCta": "Sundaeの実践例を見る",
+    "storiesNote": "実際の匿名化された顧客事例。各証拠注記を報告された成果とともに読んでください。",
+    "guidesTitle": "証拠を実務に活かす。",
+    "guidesDescription": "予測、ライブシフトのレビュー、市場シグナル、同業比較に関する実務的な指針を読み、関連するSundaeの機能を探索してください。",
+    "guidesCta": "オペレーターガイドを読む"
+  },
+  "ko": {
+    "description": "평가에 도움이 되는 실무자 가이드, 제품 워크플로, 고객 사례를 찾으세요.",
+    "primaryCta": "워크스루 예약",
+    "secondaryCta": "Sundae 실무 보기",
+    "storiesNote": "실제 익명화된 고객 사례입니다. 각 근거 주석을 보고된 결과와 함께 읽으세요.",
+    "guidesTitle": "근거를 활용하세요.",
+    "guidesDescription": "예측, 실시간 교대 검토, 시장 신호, 동료 비교에 대한 실무 지침을 읽고 관련 Sundae 기능을 살펴보세요.",
+    "guidesCta": "운영자 가이드 읽기"
+  },
+  "id": {
+    "description": "Temukan panduan operator praktis, alur kerja produk dan cerita pelanggan untuk mendukung evaluasi Sundae Anda.",
+    "primaryCta": "Pesan walkthrough",
+    "secondaryCta": "Lihat Sundae in practice",
+    "storiesNote": "Cerita pelanggan nyata yang dianonimkan. Baca setiap catatan bukti bersama hasil yang dilaporkan.",
+    "guidesTitle": "Gunakan bukti itu.",
+    "guidesDescription": "Baca panduan praktis tentang peramalan, tinjauan shift langsung, sinyal pasar dan perbandingan rekan, lalu jelajahi kapabilitas Sundae yang relevan.",
+    "guidesCta": "Baca panduan operator"
+  },
+  "vi": {
+    "description": "Tìm hướng dẫn thực tế cho người vận hành, quy trình sản phẩm và câu chuyện khách hàng để hỗ trợ đánh giá Sundae của bạn.",
+    "primaryCta": "Đặt lịch hướng dẫn",
+    "secondaryCta": "Xem Sundae trong thực hành",
+    "storiesNote": "Những câu chuyện khách hàng thực, được ẩn danh. Đọc từng ghi chú bằng chứng cùng với các kết quả đã báo cáo.",
+    "guidesTitle": "Đưa bằng chứng vào thực tiễn.",
+    "guidesDescription": "Đọc hướng dẫn thực tế về dự báo, xem ca trực trực tiếp, tín hiệu thị trường và so sánh đồng cấp, sau đó khám phá khả năng Sundae liên quan.",
+    "guidesCta": "Đọc hướng dẫn cho người vận hành"
+  },
+  "ro": {
+    "description": "Găsește ghiduri practice pentru operatori, fluxuri de produs și povești ale clienților pentru a-ți susține evaluarea Sundae.",
+    "primaryCta": "Programează o prezentare",
+    "secondaryCta": "Vezi Sundae în practică",
+    "storiesNote": "Povești reale, anonimizate ale clienților. Citește fiecare notă de dovezi alături de rezultatele raportate.",
+    "guidesTitle": "Pune dovezile în practică.",
+    "guidesDescription": "Citește ghiduri practice despre prognoză, revizuirea turei live, semnalele de piață și comparațiile cu peer-ii, apoi explorează capabilitatea Sundae relevantă.",
+    "guidesCta": "Citește ghidurile operatorului"
+  },
+  "sv": {
+    "description": "Hitta praktiska driftguider, produktflöden och kundberättelser för att stödja din utvärdering av Sundae.",
+    "primaryCta": "Boka en genomgång",
+    "secondaryCta": "Se Sundae i praktiken",
+    "storiesNote": "Verkliga, anonymiserade kundberättelser. Läs varje bevisnot tillsammans med de rapporterade resultaten.",
+    "guidesTitle": "Sätt bevisen i arbete.",
+    "guidesDescription": "Läs praktisk vägledning om prognoser, live-skiftgranskning, marknadssignaler och peer-jämförelser, och utforska sedan relevant Sundae-funktion.",
+    "guidesCta": "Läs driftguiderna"
+  },
+  "bn": {
+    "description": "আপনার Sundae মূল্যায়ন সমর্থনের জন্য ব্যবহারিক অপারেটর গাইড, প্রোডাক্ট ওয়ার্কফ্লো ও গ্রাহক গল্পগুলি খুঁজুন।",
+    "primaryCta": "একটি ওয়াকথ্রু বুক করুন",
+    "secondaryCta": "Sundae অনুশীলনে দেখুন",
+    "storiesNote": "বাস্তব, অ্যানোনিমাইজড গ্রাহক গল্প। প্রতিটি প্রমাণ নোট রিপোর্ট করা ফলাফলের সঙ্গে একসাথে পড়ুন।",
+    "guidesTitle": "প্রমাণ কাজে লাগান।",
+    "guidesDescription": "Forecasting, লাইভ-শিফট পর্যালোচনা, বাজার সংকেত এবং পিয়ার তুলনা সম্পর্কে ব্যবহারিক নির্দেশনা পড়ুন, তারপর প্রাসঙ্গিক Sundae ক্ষমতা অন্বেষণ করুন।",
+    "guidesCta": "অপারেটরের গাইড পড়ুন"
+  },
+  "th": {
+    "description": "ค้นหาคู่มือเชิงปฏิบัติสำหรับผู้ปฏิบัติงาน เวิร์กโฟลว์ผลิตภัณฑ์ และเรื่องราวลูกค้าเพื่อสนับสนุนการประเมิน Sundae ของคุณ",
+    "primaryCta": "จองการสาธิต",
+    "secondaryCta": "ดู Sundae ในการปฏิบัติ",
+    "storiesNote": "เรื่องราวลูกค้าที่แท้จริงและไม่ระบุตัวตน อ่านบันทึกหลักฐานแต่ละฉบับควบคู่กับผลลัพธ์ที่รายงาน",
+    "guidesTitle": "นำหลักฐานไปใช้",
+    "guidesDescription": "อ่านแนวทางปฏิบัติสำหรับการพยากรณ์ การทบทวนกะสด สัญญาณตลาด และการเปรียบเทียบเพื่อนร่วมกลุ่ม จากนั้นสำรวจความสามารถ Sundae ที่เกี่ยวข้อง",
+    "guidesCta": "อ่านคู่มือสำหรับผู้ปฏิบัติงาน"
+  },
+  "ms": {
+    "description": "Cari panduan operator praktikal, aliran kerja produk dan cerita pelanggan untuk menyokong penilaian Sundae anda.",
+    "primaryCta": "Tempah sesi tunjukcara",
+    "secondaryCta": "Lihat Sundae dalam Amalan",
+    "storiesNote": "Cerita pelanggan sebenar tanpa nama. Baca setiap nota bukti bersama hasil yang dilaporkan.",
+    "guidesTitle": "Gunakan bukti itu.",
+    "guidesDescription": "Baca panduan praktikal mengenai peramalan, semakan pergeseran langsung, isyarat pasaran dan perbandingan rakan sebaya, kemudian terokai kebolehan Sundae yang relevan.",
+    "guidesCta": "Baca panduan operator"
+  }
+}

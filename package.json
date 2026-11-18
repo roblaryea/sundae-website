@@ -16,7 +16,7 @@
     "test:runtime-security": "node --test tests/deployed-runtime-audit.test.mjs",
     "smoke:profile-card": "node --no-warnings scripts/smoke-profile-card.mjs",
     "test:profile-card": "node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs tests/public-profiles.test.mjs",
-    "test:seo": "node --test tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs tests/lead-form-analytics.test.mjs tests/operator-workflow-locales.test.mjs tests/home-about-alignment.test.mjs tests/button-cta-tracking.test.mjs tests/campaign-attribution.test.mjs tests/pricing-navigation.test.mjs tests/pricing-catalog-comparison.test.mjs",
+    "test:seo": "node --test tests/buyer-clarity.test.mjs tests/theme-preference.test.mjs tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs tests/lead-form-analytics.test.mjs tests/operator-workflow-locales.test.mjs tests/home-about-alignment.test.mjs tests/button-cta-tracking.test.mjs tests/campaign-attribution.test.mjs tests/pricing-navigation.test.mjs tests/pricing-catalog-comparison.test.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "seo:sitemap-report": "node scripts/report-sitemap-inventory.mjs",
     "test:booking": "node --test tests/booking-timezones.test.mjs tests/booking-date-format.test.mjs tests/booking-verification.test.mjs",

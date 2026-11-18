@@ -1,5 +1,8 @@
 'use client';
 
+import bodyCopy from '@/content/buyer-clarity/home.json';
+
+
 import Image from 'next/image';
 import { type ReactNode } from 'react';
 import { motion } from 'framer-motion';
@@ -38,7 +41,8 @@ function renderStatement(statement: string): ReactNode {
 export function SectionManifesto() {
   const { locale } = useWebsiteI18n();
   const reduceMotion = useSettledReducedMotion();
-  const copy = manifestoCopy[locale as keyof typeof manifestoCopy] ?? manifestoCopy.en;
+  const sourceCopy = manifestoCopy[locale as keyof typeof manifestoCopy] ?? manifestoCopy.en;
+  const copy = { ...sourceCopy, ...bodyCopy[locale as keyof typeof bodyCopy].manifesto };
   const mm = manifestoMoments[locale as keyof typeof manifestoMoments] ?? manifestoMoments.en!;
 
   return (

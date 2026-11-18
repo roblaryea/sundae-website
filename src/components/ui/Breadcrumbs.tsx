@@ -10,6 +10,7 @@ import { generatedLocalCopy } from '@/generated-locales/components_ui_Breadcrumb
 import { generatedUiLabels } from '@/lib/generatedUiLabels'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import proofCopy from '@/content/workflow-proof.json'
+import buyerCopy from '@/content/buyer-clarity/shared.json'
 import { crewWorkflowScope } from '@/lib/crewWorkflowCoverage'
 
 const LABEL_MAP: Record<string, Record<string, string>> = {
@@ -148,6 +149,7 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
     ...(LABEL_MAP[locale] ?? getGeneratedLocalCopy(LABEL_MAP, generatedLocalCopy.LABEL_MAP, locale) ?? LABEL_MAP.en),
     product: messages.navbar.products,
     crew: 'Sundae Crew',
+    results: buyerCopy[locale as keyof typeof buyerCopy].resultsLabel,
     'why-sundae': proofCopy[locale as keyof typeof proofCopy].whySundae,
     'restaurant-management-platform': workflow.platform,
     'restaurant-task-management': workflow.tasks,

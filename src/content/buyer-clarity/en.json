@@ -1,0 +1,227 @@
+{
+  "home": {
+    "platformTitle": "See what changed. Choose what to do next.",
+    "platformDescription": "Follow the shift in Pulse, compare performance with Benchmarks, investigate in Insights and ask questions in Ask Sundae. Forecasting and market signals are available according to your package and selected extensions.",
+    "workEyebrow": "LESS MANUAL FOLLOW-UP",
+    "workTitle": "Spend less time assembling the answer.",
+    "workDescription": "Sundae turns connected sales, cost and workforce data into answers and recommendations. Managers can check the source, assign the next step and track what changed.",
+    "todayLabel": "When the work is disconnected",
+    "todayItems": [
+      "Rebuilding the same sales and labor report",
+      "Searching separate systems for the reason",
+      "Chasing an update after the shift",
+      "Losing the context between locations",
+      "Reviewing an issue after the opportunity has passed"
+    ],
+    "sundaeItems": [
+      "Sales, costs and staffing in one operating view",
+      "Answers linked to the supporting data",
+      "A person responsible for the next action",
+      "Tasks and handovers that carry the context",
+      "A starting point and a recorded result",
+      "Relevant comparisons across locations"
+    ],
+    "workClosing": "Keep useful systems. Connect the work around them.",
+    "contextTitle": "Understand the shift and the market around it.",
+    "contextDescription": "Use live shift signals, relevant market context and anonymized peer comparisons to decide what to investigate. Review the evidence before acting.",
+    "contextLayers": [
+      {
+        "title": "The shift as it happens",
+        "why": "Review sales pace, labor, voids and service exceptions while the shift is running."
+      },
+      {
+        "title": "The market around each location",
+        "why": "Consider relevant competitor, event and weather signals alongside your own data. Watchtower is a paid extension for eligible Core packages."
+      },
+      {
+        "title": "A relevant comparison",
+        "why": "Compare a metric with suitable anonymized peers. Check the cohort and data coverage before drawing a conclusion."
+      }
+    ],
+    "scenarioTitle": "Follow one operating problem through to review.",
+    "scenarioDescription": "This example shows a manager comparing sales with plan, considering possible causes and choosing a response. The result still needs to be checked against the starting point.",
+    "scenarioClosing": "Understand the change. Assign a response. Review the result.",
+    "scenarioDimensions": [
+      {
+        "title": "Covers are down 22%.",
+        "body": "Average check is steady in this example. The manager starts by investigating the change in traffic."
+      },
+      {
+        "title": "Sales are $3,800 behind forecast.",
+        "body": "Compare staffing and costs with the lower sales volume before choosing a response."
+      },
+      {
+        "title": "Check what may explain the gap.",
+        "body": "Review competitor offers and local events alongside the location's own operating records."
+      },
+      {
+        "title": "Give someone the next action.",
+        "body": "The manager reviews staffing and the lunch offer, records the chosen response and checks what changed after the shift.",
+        "shortLabel": "Action and review",
+        "eyebrow": "ACTION AND REVIEW"
+      }
+    ],
+    "voiceEyebrow": "THE MANAGER'S QUESTION",
+    "voiceText": "You can feel the shift changing. *Where do you check the reason, and who follows it through?*",
+    "voiceResolution": "Look at the sales and staffing signals, agree the next step with the team and keep the handover and result together.",
+    "voiceAttribution": "Sundae's view of the daily operating challenge",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "FOUR VIEWS OF ONE OPERATING QUESTION",
+    "scenarioNote": "Illustrative scenario using demo figures. Week-on-week covers and variance against forecast are different comparisons, not measured customer outcomes.",
+    "scenarioVisual": {
+      "laborNote": "Compare scheduled labor with this sales volume before changing coverage.",
+      "watchtowerItem2": "An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location.",
+      "coachBody": "Review coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response.",
+      "coachProjection": "Example recommendation. Any impact needs to be measured after the action.",
+      "illustrative": "Illustrative example"
+    },
+    "manifesto": {
+      "statement": "Preventable loss deserves *a clear response.*",
+      "coda": "Sundae connects the operating signals with the work needed to respond. Understand the change, give someone the next step and compare what happened afterwards."
+    },
+    "shiftMoment": {
+      "eyebrow": "AN ILLUSTRATIVE SHIFT",
+      "heading": "See the gap while the shift is running.",
+      "sub": "Move through this illustrative evening to see a sales and labor signal, a manager response and the later review. These are demo figures, not a customer result.",
+      "withSundae": "With a recorded response",
+      "oldWay": "Without timely follow-up",
+      "signalBody": "Sales pace has fallen in Section 3 and labor is above 30%. Check service flow and coverage before deciding whether to change an assignment.",
+      "signalAction": "Review and assign the next step.",
+      "oldBody": "The next-day review shows where sales pace and staffing differed. Use the record to plan the next shift, even if the earlier opportunity has passed.",
+      "oldAction": "Plan the next shift.",
+      "savedTitle": "Illustrative end-of-shift view",
+      "savedBody": "This example ends closer to plan. A real outcome needs the action record, a relevant baseline and a review of other changes.",
+      "projectedClose": "Example projected close"
+    }
+  },
+  "product": {
+    "layersEyebrow": "WHAT CORE HELPS YOU DO",
+    "layersTitle": "Understand today. Plan the next move.",
+    "layersDescription": "Use each capability for a specific operating question. Availability follows your Core package and any selected extensions.",
+    "loopEyebrow": "FROM QUESTION TO FOLLOW-UP",
+    "loopTitle": "Keep the decision and the result together.",
+    "loopDescription": "See what prompted the decision, who is responsible and what happened next. Compare the result with a relevant starting point and check other changes that may have affected it.",
+    "loopCta": "See how actions are reviewed"
+  },
+  "core": {
+    "realTime": {
+      "heading": "Find the change that needs attention.",
+      "description": "Compare sales, labor and costs across locations. Open the supporting records, decide the next step and follow the result with the manager responsible.",
+      "cards": [
+        {
+          "title": "Review the evidence",
+          "desc": "Inspect the records behind a signal before deciding what to do."
+        },
+        {
+          "title": "Compare locations",
+          "desc": "Start with the group view, then investigate the location or shift that differs."
+        },
+        {
+          "title": "Choose the coverage you need",
+          "desc": "Select a package for the operating areas you need to understand, with pricing based on your locations."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "CHECKING THE RESULT",
+      "heading": "See what changed after the action.",
+      "description": "A better number needs context. Review the action, the comparison period and the data behind it before treating a change as recovered profit.",
+      "items": [
+        {
+          "question": "Was the action followed through?",
+          "title": "Action and follow-up",
+          "desc": "Review who took responsibility, what was done and whether a result was recorded. An open action is still open."
+        },
+        {
+          "question": "Is the comparison fair?",
+          "title": "The starting point",
+          "desc": "Compare relevant periods and operating conditions. Check seasonality, data coverage and other changes that could affect the result."
+        },
+        {
+          "question": "How does the value compare with the cost?",
+          "title": "Compare recovered value with your cost.",
+          "desc": "Review supported recovery figures alongside your Sundae cost for the same period. A positive return depends on the evidence and your operation."
+        }
+      ],
+      "honesty": "Keep estimates, recorded outcomes and reviewed results distinct. Missing evidence should remain visible."
+    },
+    "solves": {
+      "heading": "Choose the operating areas you need to understand.",
+      "description": "Packages cover different areas of the operation. Review the coverage and your connected data before choosing."
+    },
+    "pulse": {
+      "heading": "Pulse: follow the live shift.",
+      "description": "See where sales, labor and leakage signals move off plan. Investigate the change and agree the response with the manager on shift."
+    },
+    "integrations": {
+      "heading": "Connect the systems your operation uses.",
+      "description": "Review your POS, workforce, inventory, accounting and other data sources with Sundae. Connection method, available fields and refresh timing depend on the source and setup."
+    },
+    "watchtower": {
+      "heading": "Put market changes beside your operating data.",
+      "description": "Compare relevant competitor, event and weather signals with changes at your locations. Use the context to investigate a question or plan a response."
+    },
+    "cta": {
+      "title": "Bring one sales or cost question.",
+      "description": "Walk through the supporting data, the next action and how you would review the result. We can start with a sample operation."
+    }
+  },
+  "crew": {
+    "pillarsTitle": "Manage the people and work behind each shift.",
+    "retiresEyebrow": "LESS CHASING BETWEEN SYSTEMS",
+    "retiresTitle": "Keep schedules, hours and follow-up connected.",
+    "retiresDescription": "Give managers and staff a clear place to find the schedule, review attendance, complete assigned work and carry issues into the next handover.",
+    "retiresClosing": "Use Crew for daily workforce operations, or bring connected workforce data into Core from the tools you keep.",
+    "personasTitle": "The right shift information for each role.",
+    "personasDescription": "Staff see their shifts and assigned work. Managers review attendance, tasks and handovers. HR and payroll teams work from the same workforce records, with access set for each role.",
+    "coachTitle": "Ask a workforce question. Review the answer.",
+    "coachBody": "Ask what needs attention in the workforce, then check the records behind the answer. Managers choose the response and keep the decision and follow-up together.",
+    "workflowTitle": "Set up approvals and follow-up.",
+    "workflowBody": "Build approval steps around the people responsible. Managers can see what needs review and how the decision moves through the team.",
+    "coverageLabel": "Review the capabilities in your package"
+  },
+  "shared": {
+    "roleContextTitle": "Start with the question your team needs to answer.",
+    "roleCtaDescription": "Bring one operating question. Review the relevant work, data and next step using your operation or a sample.",
+    "proofLink": "See Sundae in practice",
+    "resultsLabel": "Sundae in practice",
+    "guidesLabel": "Read the operator guides",
+    "nativeEvidenceTitle": "Inside Sundae Crew",
+    "nativeEvidenceDescription": "These product views show the work and controls a team can review. They use a demo workspace and do not establish a customer result."
+  },
+  "results": {
+    "eyebrow": "SUNDAE IN PRACTICE",
+    "title": "See the work. Review the evidence.",
+    "description": "Explore native product workflows and anonymized customer stories. Understand what each example shows, then bring a relevant question to a walkthrough.",
+    "workflowTitle": "Inside Sundae Crew",
+    "workflowDescription": "Review reusable task templates, searchable shift records and tip-pool configuration. Each view explains the capability it supports.",
+    "storiesTitle": "Customer stories, with their context.",
+    "storiesDescription": "These are real, anonymized customer stories. Read the operating challenge, the Sundae capabilities used and the reported outcomes together.",
+    "evidenceLabel": "Evidence note",
+    "evidenceNote": "Reported in this anonymized customer story. The measurement period, comparison baseline, calculation method and measured-versus-estimated breakdown are not published here. Use the example to discuss your operation, not to forecast its results.",
+    "outcomesLabel": "Reported outcomes",
+    "ctaTitle": "What would useful evidence look like for you?",
+    "ctaDescription": "Choose a workflow or operating question. We can show the relevant product view and discuss how to measure a result in your operation.",
+    "primaryCta": "Book a walkthrough",
+    "secondaryCta": "Explore the daily workflows",
+    "metaTitle": "Sundae in Practice | Product Evidence and Customer Stories",
+    "metaDescription": "Explore Sundae Crew workflows and anonymized customer stories, with clear limits on product demonstrations and reported outcomes."
+  },
+  "resources": {
+    "description": "Find practical operator guides, product workflows and customer stories to support your evaluation of Sundae.",
+    "primaryCta": "Book a walkthrough",
+    "secondaryCta": "See Sundae in practice",
+    "storiesNote": "Real, anonymized customer stories. Read each evidence note alongside the reported outcomes.",
+    "guidesTitle": "Put the evidence to work.",
+    "guidesDescription": "Read practical guidance on forecasting, live-shift review, market signals and peer comparisons, then explore the relevant Sundae capability.",
+    "guidesCta": "Read the operator guides"
+  },
+  "docs": {
+    "currentCoreTitle": "Get started with Sundae Core",
+    "currentCrewTitle": "Explore Sundae Crew workflows",
+    "currentCoreDescription": "Understand package coverage, source connections, operating questions and the first review.",
+    "currentCrewDescription": "Explore scheduling, attendance, tasks, handovers, people records and payroll, with the relevant package scope.",
+    "ctaTitle": "Find the next step for your team.",
+    "ctaDescription": "Use the getting-started guide or book a walkthrough for your operation."
+  }
+}

@@ -1,5 +1,10 @@
 'use client';
 
+import bodyCopy from '@/content/buyer-clarity/home.json';
+import depthCopy from '@/content/operator-depth.json';
+import audienceCopy from '@/content/operator-audiences.json';
+
+
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
@@ -87,7 +92,10 @@ export default function HomeContent() {
     band1: { ...sourceEditorial.band1, headline: alignment.editorialHeadline, sub: alignment.editorialSupport },
   };
   const commercial = getCommercialCopy(locale);
-  const platform = { ...home.platform, layers: home.platform.layers.map(layer => layer.name === 'Watchtower' ? { ...layer, description: commercial.watchtowerEligibility } : layer) };
+  const deeper = bodyCopy[locale as keyof typeof bodyCopy];
+  const depth = depthCopy[locale as keyof typeof depthCopy];
+  const layerDescriptions = [depth.pulse, audienceCopy[locale as keyof typeof audienceCopy].benchmarking, commercial.watchtowerEligibility, depth.insights, depth.intelligence, depth.foresight];
+  const platform = { ...home.platform, eyebrow: deeper.platformEyebrow, heading: deeper.platformTitle, description: deeper.platformDescription, layers: home.platform.layers.map((layer, index) => ({ ...layer, description: layerDescriptions[index] })) };
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const closing = homeClosingCopy[locale as keyof typeof homeClosingCopy] ?? homeClosingCopy.en;
   const [signoffBefore, signoffAfter] = closing.signoff.split('Sundae');
@@ -388,7 +396,7 @@ export default function HomeContent() {
               <Button
                 variant="outline-light"
                 size="lg"
-                onClick={() => cta("/insights", "explore_modules", { page: "/home", section: "platform" })}
+                onClick={() => cta("/product/insights", "explore_modules", { page: "/home", section: "platform" })}
               >
                 {platform.exploreModules}
               </Button>

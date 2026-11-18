@@ -1,5 +1,10 @@
 'use client';
 
+import bodyCopy from '@/content/buyer-clarity/product.json';
+import depthCopy from '@/content/operator-depth.json';
+import audienceCopy from '@/content/operator-audiences.json';
+
+
 import openingCopy from '@/content/operator-openings.json'
 import { OperatorOpeningTitle } from '@/components/ui/OperatorOpeningTitle';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
@@ -21,7 +26,7 @@ import {
   IntelligenceChatMockup,
   ForesightDashboardMockup,
 } from "@/components/ui/MockupFrame";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_page'
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { productCreamCopy, productCreamMidCopy } from './productCreamCopy';
@@ -224,8 +229,12 @@ const localizedPillars: Record<'en' | 'ar' | 'fr' | 'es', Pillar[]> = {
 export default function ProductPage() {
   const cta = useCta();
   const { locale, messages } = useWebsiteI18n();
-  const ui = copyMap[locale as keyof typeof copyMap] ?? getGeneratedLocalCopy(copyMap, generatedLocalCopy.copyMap, locale) ?? copyMap.en;
-  const pillars = localizedPillars[locale as keyof typeof localizedPillars] ?? getGeneratedLocalCopy(localizedPillars, generatedLocalCopy.localizedPillars, locale) ?? localizedPillars.en;
+  const sourceUi = copyMap[locale as keyof typeof copyMap] ?? getGeneratedLocalCopy(copyMap, generatedLocalCopy.copyMap, locale) ?? copyMap.en;
+  const ui = mergeGeneratedCopy(sourceUi, bodyCopy[locale as keyof typeof bodyCopy]);
+  const sourcePillars = localizedPillars[locale as keyof typeof localizedPillars] ?? getGeneratedLocalCopy(localizedPillars, generatedLocalCopy.localizedPillars, locale) ?? localizedPillars.en;
+  const depth = depthCopy[locale as keyof typeof depthCopy];
+  const descriptions = [depth.pulse, audienceCopy[locale as keyof typeof audienceCopy].benchmarking, depth.watchtower, depth.insights, depth.intelligence, depth.foresight];
+  const pillars = sourcePillars.map((pillar, index) => ({ ...pillar, description: descriptions[index] }));
   const cream = productCreamCopy[locale as keyof typeof productCreamCopy] ?? productCreamCopy.en;
   const creamMid = productCreamMidCopy[locale as keyof typeof productCreamMidCopy] ?? productCreamMidCopy.en;
 

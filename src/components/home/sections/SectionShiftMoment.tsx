@@ -1,5 +1,8 @@
 'use client';
 
+import bodyCopy from '@/content/buyer-clarity/home.json';
+
+
 import { useEffect, useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
@@ -118,7 +121,8 @@ function smoothArea(getV: (f: Frame) => number, fromT: number, toT: number): str
 
 export function SectionShiftMoment({ embedded = false }: { embedded?: boolean }) {
   const { locale } = useWebsiteI18n();
-  const copy = shiftMomentCopy[locale as keyof typeof shiftMomentCopy] ?? shiftMomentCopy.en;
+  const sourceCopy = shiftMomentCopy[locale as keyof typeof shiftMomentCopy] ?? shiftMomentCopy.en;
+  const copy = { ...sourceCopy, ...bodyCopy[locale as keyof typeof bodyCopy].shiftMoment };
   const en = shiftMomentCopy.en;
   const reduce = useReducedMotion();
 
