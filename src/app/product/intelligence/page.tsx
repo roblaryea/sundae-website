@@ -1,5 +1,7 @@
 'use client';
 
+import depthCopy from '@/content/operator-depth.json'
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { useCta } from "@/lib/cta";
@@ -329,7 +331,7 @@ export default function ChatWithDataPage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={ui.heroDescription}>
+      <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={depthCopy[locale as keyof typeof depthCopy].intelligence}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_intelligence", { page: "/intelligence" })}>
             {ui.heroSecondary}

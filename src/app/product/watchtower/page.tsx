@@ -1,5 +1,7 @@
 'use client';
 
+import depthCopy from '@/content/operator-depth.json'
+
 import storyCopy from '@/content/platform-story.json';
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
@@ -507,7 +509,7 @@ export default function WatchtowerPage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={ui.heroDescription}>
+      <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={depthCopy[locale as keyof typeof depthCopy].watchtower}>
         <p data-watchtower-eligibility className="text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto body-lg">
           <strong>{ui.heroNote}</strong>
         </p>

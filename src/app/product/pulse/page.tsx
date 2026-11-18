@@ -1,5 +1,7 @@
 'use client';
 
+import depthCopy from '@/content/operator-depth.json'
+
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
@@ -1270,7 +1272,7 @@ export default function PulsePage() {
       <PageHero
         badge={ui.hero.badge}
         title={ui.hero.title}
-        description={ui.hero.description}
+        description={depthCopy[locale as keyof typeof depthCopy].pulse}
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button

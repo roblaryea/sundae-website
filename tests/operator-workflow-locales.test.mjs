@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict'
 import fs from 'node:fs'
 import test from 'node:test'
+import vm from 'node:vm'
+import ts from 'typescript'
 
 const directory = 'src/content/operator-workflows'
 const english = JSON.parse(fs.readFileSync(`${directory}/en.json`, 'utf8'))
@@ -61,3 +63,42 @@ for (const locale of locales) {
     assert.notEqual(copy.comparison.questions[0].body, english.comparison.questions[0].body)
   })
 }
+
+const depthCopy = JSON.parse(fs.readFileSync('src/content/operator-depth.json', 'utf8'))
+const continuationModule = { exports: {} }
+vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/lib/operatorWorkflowContinuation.ts', 'utf8'), {
+  compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop: true },
+}).outputText, { module: continuationModule, exports: continuationModule.exports, require: specifier => {
+  assert.equal(specifier, '@/content/operator-depth.json')
+  return depthCopy
+} })
+const { getWorkflowContinuation } = continuationModule.exports
+
+test('shared task proof does not replace the broad management proposition', () => {
+  for (const locale of locales) {
+    const original = JSON.parse(fs.readFileSync(`${directory}/${locale}.json`, 'utf8')).shared
+    const fallback = { title: original.connectedTitle, body: original.connectedDescription }
+    for (const slug of ['restaurant-management-platform', 'restaurant365-alternative', '', 'toString']) {
+      assert.equal(getWorkflowContinuation(locale, slug, fallback), fallback, `${locale}/${slug}`)
+    }
+  }
+})
+
+test('specific workflow continuations stay attached to their exact page in all locales', () => {
+  for (const locale of locales) {
+    for (const [slug, key] of [['restaurant-task-management', 'tasks'], ['restaurant-logbook', 'logbook'], ['restaurant-tip-management', 'tips']]) {
+      const actual = getWorkflowContinuation(locale, slug, { title: 'fallback', body: 'fallback' })
+      assert.equal(actual.title, depthCopy[locale][`${key}Title`], `${locale}/${slug}`)
+      assert.equal(actual.body, depthCopy[locale][`${key}Body`], `${locale}/${slug}`)
+    }
+  }
+})
+
+test('every published locale has the Foresight facts without a Spanish fallback', () => {
+  assert.deepEqual(Object.keys(depthCopy).sort(), [...locales].sort())
+  for (const locale of locales) {
+    const facts = depthCopy[locale].foresightFacts
+    for (const value of ['22', '14', '365', '32']) assert.ok(facts.includes(value), `${locale}: ${value}`)
+    if (locale !== 'es') assert.notEqual(facts, depthCopy.es.foresightFacts, locale)
+  }
+})

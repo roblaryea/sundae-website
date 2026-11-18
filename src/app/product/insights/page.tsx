@@ -1,5 +1,7 @@
 'use client';
 
+import depthCopy from '@/content/operator-depth.json'
+
 import { Button } from "@/components/ui/Button";
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -727,7 +729,7 @@ export default function InsightsPage() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto"
           >
-            {ui.description}
+            {depthCopy[locale as keyof typeof depthCopy].insights}
           </motion.p>
 
           <motion.div

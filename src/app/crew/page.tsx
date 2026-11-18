@@ -1,5 +1,6 @@
 "use client";
 
+import depthCopy from '@/content/operator-depth.json'
 import openingCopy from '@/content/operator-openings.json'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
@@ -625,6 +626,7 @@ export default function CrewPage() {
     loopTitle: openingCopy[locale as keyof typeof openingCopy].sharedTitle,
     loopDescription: openingCopy[locale as keyof typeof openingCopy].sharedDescription,
   };
+  const depth = depthCopy[locale as keyof typeof depthCopy];
   const cream = crewCreamCopy[locale as keyof typeof crewCreamCopy] ?? crewCreamCopy.en;
 
   return (
@@ -707,25 +709,17 @@ export default function CrewPage() {
               <p className="body-lg max-w-2xl mx-auto">{copy.loopDescription}</p>
             </FadeUp>
 
-            <div className="grid md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] gap-5 sm:gap-6 max-w-5xl mx-auto items-stretch">
-              <div className="rounded-2xl p-6 sm:p-7 bg-[var(--surface-subtle)] border border-[var(--border-default)]">
-                <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold mb-3">{copy.loopLeftLabel}</div>
-                <p className="text-sm text-[var(--text-muted)] leading-relaxed">{copy.loopLeftBody}</p>
-              </div>
-              <div className="hidden md:flex items-center justify-center px-1">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#FF5C4D] to-[#FF7E6F] flex items-center justify-center shadow-[0_0_30px_rgba(255,92,77,0.4)]">
-                  <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12h14" /><path d="m13 5 7 7-7 7" /></svg>
-                </div>
-              </div>
-              <div className="rounded-2xl p-6 sm:p-7 border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.10] to-[var(--warm-coral)]/[0.02] shadow-[0_0_40px_rgba(255,92,77,0.10)]">
-                <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-3">{copy.loopRightLabel}</div>
-                <p className="text-sm text-[var(--text-primary)] font-medium leading-relaxed">{copy.loopRightBody}</p>
-              </div>
+            <div data-crew-operating-context className="mx-auto grid max-w-5xl gap-10 md:grid-cols-2 md:gap-14">
+              {[
+                { id: 'work', title: depth.crewWorkTitle, body: depth.crewWorkBody },
+                { id: 'context', title: depth.crewInsightTitle, body: depth.crewInsightBody },
+              ].map((item, index) => <div key={item.id} data-crew-context={item.id} className="border-t border-[var(--border-default)] pt-6">
+                <span aria-hidden="true" className="font-display text-2xl italic text-[var(--text-warm)]">{new Intl.NumberFormat(locale, { minimumIntegerDigits: 2 }).format(index + 1)}</span>
+                <h3 className="section-h3 mt-4 mb-4">{item.title}</h3>
+                <p className="text-base leading-relaxed text-[var(--text-supporting)]">{item.body}</p>
+              </div>)}
             </div>
-
-            <p className="mt-12 text-center text-xl sm:text-2xl text-[var(--text-primary)] italic font-light max-w-2xl mx-auto">
-              {copy.loopClosing}
-            </p>
+            <p className="mx-auto mt-10 max-w-3xl text-center text-lg leading-relaxed text-[var(--text-supporting)]">{depth.crewBridge}</p>
           </div>
         </section>
 
@@ -984,8 +978,8 @@ export default function CrewPage() {
           <div className="relative z-10 max-w-5xl mx-auto">
             <FadeUp className="text-center max-w-3xl mx-auto mb-12">
               <p className="eyebrow mb-4">{copy.byohrEyebrow}</p>
-              <h2 className="section-h2 text-balance mb-5">{balanceSentences(copy.byohrTitle)}</h2>
-              <p className="body-lg max-w-2xl mx-auto">{copy.byohrDescription}</p>
+              <h2 className="section-h2 text-balance mb-5">{balanceSentences(depth.crewConnectTitle)}</h2>
+              <p className="body-lg max-w-2xl mx-auto">{depth.crewConnectBody}</p>
             </FadeUp>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 max-w-3xl mx-auto">
@@ -1013,7 +1007,7 @@ export default function CrewPage() {
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>
               <p className="eyebrow mb-4">{copy.ctaEyebrow}</p>
-              <h2 className="section-h2 mb-4">{copy.ctaTitle}</h2>
+              <h2 className="section-h2 mb-4">{depth.crewCtaTitle}</h2>
               <p className="body-lg mb-10 max-w-xl mx-auto">{copy.ctaDescription}</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link href="/demo">

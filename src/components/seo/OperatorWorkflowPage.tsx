@@ -12,6 +12,7 @@ import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
 import brandEmphasis from '@/content/brand-emphasis.json'
 import { NativeWorkflowProof } from './NativeWorkflowProof'
 import { CrewWorkflowCoverage } from './CrewWorkflowCoverage'
+import { getWorkflowContinuation } from '@/lib/operatorWorkflowContinuation'
 import { crewWorkflowScope } from '@/lib/crewWorkflowCoverage'
 
 export type OperatorWorkflowQuestion = {
@@ -56,6 +57,7 @@ export function OperatorWorkflowPage({
   const currentPath = usePathname()
   const slug = currentPath.split('/').filter(Boolean).at(-1) ?? ''
   const crewScope = crewWorkflowScope(slug)
+  const nextSection = getWorkflowContinuation(locale, slug, { title: shared.connectedTitle, body: shared.connectedDescription })
   const titleIndex = ['restaurant-management-platform', 'restaurant-task-management', 'restaurant-logbook', 'restaurant-tip-management'].indexOf(slug)
   const emphasis = brandEmphasis[locale as keyof typeof brandEmphasis][titleIndex]
   const demoHref = `${href('/demo')}?workflow=${encodeURIComponent(currentPath.split('/').filter(Boolean).at(-1) ?? '')}`
@@ -162,12 +164,12 @@ export function OperatorWorkflowPage({
         </div>
       </section>
 
-      <section className="search-connected px-4 py-20 sm:px-6 lg:px-8">
+      <section className="search-connected px-4 py-20 sm:px-6 lg:px-8" data-workflow-next={slug}>
         <div className="mx-auto max-w-5xl">
           <p className="eyebrow mb-4">{shared.connectedEyebrow}</p>
-          <h2 className="section-h2 mb-5">{shared.connectedTitle}</h2>
+          <h2 className="section-h2 mb-5">{nextSection.title}</h2>
           <p className="body-lg mb-8 max-w-3xl text-[var(--text-supporting)]">
-            {shared.connectedDescription}
+            {nextSection.body}
           </p>
           <div className="flex flex-wrap gap-3">
             {related.map(({ label, href }) => (
