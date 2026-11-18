@@ -44,6 +44,22 @@ export function classifyAdvisories(advisories, packages) {
   return { findings, blocking: findings.filter(f => ['high', 'critical'].includes(f.severity)) };
 }
 
+export async function reportBuildAudit(root = process.cwd()) {
+  const full = spawnSync('npm', ['audit', '--include=dev', '--json'], {
+    cwd: root, encoding: 'utf8', timeout: 180_000, maxBuffer: 10 * 1024 * 1024,
+  });
+  const buildReport = JSON.parse(full.stdout || '{}');
+  if (full.error || ![0, 1].includes(full.status) || buildReport.error
+      || !buildReport.metadata?.vulnerabilities) {
+    throw new Error('Unable to obtain complete build dependency audit: '
+      + (full.error?.message || buildReport.error?.summary || full.stderr?.slice(-1000) || `exit ${full.status}`));
+  }
+  await mkdir(path.join(root, 'output/seo'), { recursive: true });
+  await writeFile(path.join(root, 'output/seo/build-dependency-audit.json'), JSON.stringify(buildReport, null, 2) + '\n');
+  console.log('Complete build/development audit (reported separately): ' + JSON.stringify(buildReport.metadata.vulnerabilities));
+  console.log(JSON.stringify(buildReport, null, 2));
+}
+
 export async function auditRuntime(root = process.cwd()) {
   const traces = [];
   async function walk(directory) {
@@ -122,18 +138,6 @@ export async function auditRuntime(root = process.cwd()) {
   await mkdir(path.join(root, 'output/seo'), { recursive: true });
   await writeFile(path.join(root, 'output/seo/deployed-runtime-audit.json'), JSON.stringify(report, null, 2) + '\n');
   console.log(`Deployed runtime audit: ${Object.keys(packages).length} packages, ${result.blocking.length} high/critical findings, ${result.findings.length} total advisories`);
-  // Retain the complete build/development report under the existing policy:
-  // these findings are visible even when they are absent from the deployment.
-  const full = spawnSync('npm', ['audit', '--include=dev', '--json'], {
-    cwd: root, encoding: 'utf8', timeout: 45_000, maxBuffer: 10 * 1024 * 1024,
-  });
-  const buildReport = JSON.parse(full.stdout || '{}');
-  if (full.error || ![0, 1].includes(full.status) || buildReport.error
-      || !buildReport.metadata?.vulnerabilities) {
-    throw new Error('Unable to obtain complete build dependency audit');
-  }
-  await writeFile(path.join(root, 'output/seo/build-dependency-audit.json'), JSON.stringify(buildReport, null, 2) + '\n');
-  console.log('Complete build/development audit (reported separately): ' + JSON.stringify(buildReport.metadata.vulnerabilities));
   if (result.blocking.length) {
     for (const finding of result.blocking) console.error(`${finding.severity}: ${finding.name} ${finding.url}`);
     throw new Error('Deployed runtime security audit failed');
@@ -142,5 +146,9 @@ export async function auditRuntime(root = process.cwd()) {
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  await auditRuntime();
+  // The security workflow retains the full build/development report. Deploys
+  // always run the emitted-runtime audit; an informational full-tree report
+  // need not repeat npm's expensive metadata calculation on each deployment.
+  if (process.argv.includes('--build-report')) await reportBuildAudit();
+  else await auditRuntime();
 }

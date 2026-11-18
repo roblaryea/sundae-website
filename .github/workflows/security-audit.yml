@@ -28,3 +28,8 @@ jobs:
         # Runtime packages gate releases. Development-only lint tooling is
         # monitored by Dependabot until its upstream glob chain ships a fix.
         run: npm audit --omit=dev --audit-level=high
+
+      - name: Complete build and development dependency report
+        # Preserve visibility of build-only findings separately from the
+        # production gate and the actual-runtime audit enforced by postbuild.
+        run: node scripts/audit-deployed-runtime.mjs --build-report
