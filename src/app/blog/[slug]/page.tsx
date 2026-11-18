@@ -178,7 +178,7 @@ export default async function BlogPostPage({
       name: 'Sundae',
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}/logos/sundae-app-icon.png`,
+        url: `${baseUrl}/brand/wordmarks/sundae-wordmark-fraunces.png`,
       },
     },
     mainEntityOfPage: {

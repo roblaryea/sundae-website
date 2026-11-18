@@ -1,0 +1,142 @@
+[
+  {
+    "formerPath": "public/logos/sundae-lockup-white.svg",
+    "sha256": "4adb3acbc56f9f43d05b94e03198b4093ede95071d771a66670599e29042c94e"
+  },
+  {
+    "formerPath": "public/logos/og-operations.png",
+    "sha256": "ba6501be9d9a617c679bad0194af98e79f9b429eeb8f620b07eae2fdbfd62ac4"
+  },
+  {
+    "formerPath": "public/logos/sundae-wordmark.png",
+    "sha256": "5d9319b255685fc634c73ec84cbca869dbf77dde6f8766aa458d6d8a8ad01456"
+  },
+  {
+    "formerPath": "public/logos/og-card.png",
+    "sha256": "4e8d1ed03c6f82ac3c10d0a6c23ef1a3e8ed4add17bf5218f422088cc674c0fe"
+  },
+  {
+    "formerPath": "public/logos/apple-touch-icon.png",
+    "sha256": "5a32f34e2f68a60e82ceaf214c1f3e8e8fe7d246c6ed85906ac824fee8e71e52"
+  },
+  {
+    "formerPath": "public/logos/sundae-mark.svg",
+    "sha256": "dff75ed182b38965d4b4c066f41152b66e1c525b92d4aac40e458a0d1909ee05"
+  },
+  {
+    "formerPath": "public/logos/sundae-wordmark-email-tight.png",
+    "sha256": "fac7fabed008553e32535ec66ef55477761383c931882e93e4e3c19cac5c22e6"
+  },
+  {
+    "formerPath": "public/logos/sundae-wordmark-white.png",
+    "sha256": "695ed023a66e0704370c27c4adf05fbbb23a8ca4d4059aec451d70e0a57a9456"
+  },
+  {
+    "formerPath": "public/logos/sundae-wordmark-card-cream.svg",
+    "sha256": "6360f3020a8660c6ff077ebcb5c964a07da5110970eae23ac3ae726ffdf41eaa"
+  },
+  {
+    "formerPath": "public/logos/sundae-icon.svg",
+    "sha256": "dff75ed182b38965d4b4c066f41152b66e1c525b92d4aac40e458a0d1909ee05"
+  },
+  {
+    "formerPath": "public/logos/sundae-wordmark-email-tight-white.png",
+    "sha256": "67bddccc870904ed3506f3c18822cd2e5c91977bd1bd2ebe31866c97a5c984f6"
+  },
+  {
+    "formerPath": "public/logos/sundae-wordmark-email.png",
+    "sha256": "297e5fc0bbb320a5e92961d9e210369cce176699e2d3168acfeb78f290fae790"
+  },
+  {
+    "formerPath": "public/logos/sundae-lockup.svg",
+    "sha256": "2186b9e3a56636cb26182181c68c683a29b6b66e703209126d85b6a127c93454"
+  },
+  {
+    "formerPath": "public/logos/sundae-mark-72.png",
+    "sha256": "6fd12c4c10bbc0ab28ab1d226eac07a80c52c33667ac907e446a71d997e1eee4"
+  },
+  {
+    "formerPath": "public/logos/sundae-wordmark-email-white.png",
+    "sha256": "8e5ef599b3c9a0148296270f7fca0f0fb8cf12ac43a765967baf50219242bbe7"
+  },
+  {
+    "formerPath": "public/logos/sundae-app-icon.png",
+    "sha256": "450d9eb46bdd6dd381783697287b5059313716f4a9b3094bfa5f1013a562c65c"
+  },
+  {
+    "formerPath": "public/logos/sundae-wordmark-card-ink.svg",
+    "sha256": "3a17624a52575a2ccc830ed6da23d7dd87f440b0735f7af4395f237cc8dfd198"
+  },
+  {
+    "formerPath": "public/brand/sundae-brand-assets.zip",
+    "sha256": "8808256ec2031f3b6f6b3f86bf82dfeaeecad4fca8f288e1db284a1cdad8db8b"
+  },
+  {
+    "formerPath": "public/brand/favicon/apple-touch-icon-180.png",
+    "sha256": "efb47dedaa932b1bf44bf8a48243443ce5b4118550d3466719198249bc242f98"
+  },
+  {
+    "formerPath": "public/brand/favicon/favicon-32.png",
+    "sha256": "121fcbadeb7bc8fa3aabfed88bb6de5e371d6d8ab1b034345ffec187697cb967"
+  },
+  {
+    "formerPath": "public/brand/banners/youtube-2048x1152.png",
+    "sha256": "fdba956da5c6ca146d0781f86931e454f6bca6c134c78dfcfcca41b1a4639310"
+  },
+  {
+    "formerPath": "public/brand/banners/linkedin-1128x191.png",
+    "sha256": "23cc1ab2d17f02421252e9208db482b5d626f6bdfab7fd3d7ce794402c470493"
+  },
+  {
+    "formerPath": "public/brand/banners/x-1500x500.png",
+    "sha256": "9cd5394794771f228d0f59565e24c67fa90df5904f894f5bfb194b67c00c3eff"
+  },
+  {
+    "formerPath": "public/brand/banners/facebook-1640x624.png",
+    "sha256": "87e02b5617c03eafae4f29c596ffadfcb45025fe5399457837a68ffebd616fa2"
+  },
+  {
+    "formerPath": "public/brand/logo/sundae-lockup-light.png",
+    "sha256": "45a55182fe3e66af40550811c1ccd15f2f05bfee631f8d1162214c63204e57a3"
+  },
+  {
+    "formerPath": "public/brand/logo/sundae-wordmark-light.png",
+    "sha256": "cc7489eacda4d63e1af03f6dfbab29ab443a1659bffba7350b6644baafbf2f1b"
+  },
+  {
+    "formerPath": "public/brand/logo/sundae-mark.svg",
+    "sha256": "bbad492adf9844f8fa1122a13af28225f8d5a2eb5f5151edd60e637c97a1b7e0"
+  },
+  {
+    "formerPath": "public/brand/logo/sundae-wordmark-dark.png",
+    "sha256": "5d1ec6d45bebb84f04c578cf599a65f459101bb2883f21159d2778090c7fb8d6"
+  },
+  {
+    "formerPath": "public/brand/logo/sundae-lockup-dark.png",
+    "sha256": "d6715f8640e848063482c785b5582b77e1ac53451347e5863315919a4c45d6d7"
+  },
+  {
+    "formerPath": "public/brand/logo/sundae-logo-square-1024.png",
+    "sha256": "3a5c0385f520e05e222897d4789423feee40292704ee88a826caadef1ee90384"
+  },
+  {
+    "formerPath": "public/brand/logo/sundae-mark-1024.png",
+    "sha256": "6677118b661916f3b32afb984047f877bbddf52d9e17ee57573dce6713f59437"
+  },
+  {
+    "formerPath": "public/brand/logo/sundae-mark-512.png",
+    "sha256": "25acedc84766c3689dc38eb47661874c63924a2cb8031b7b9b2b679fb3973479"
+  },
+  {
+    "formerPath": "public/favicon.ico",
+    "sha256": "57738fa33dff423eca8e3f6d320dd149e1b2cefac70e84f9eccebd28c988a5bc"
+  },
+  {
+    "formerPath": "src/app/favicon.ico",
+    "sha256": "57738fa33dff423eca8e3f6d320dd149e1b2cefac70e84f9eccebd28c988a5bc"
+  },
+  {
+    "formerPath": "public/profile/robert-og.png",
+    "sha256": "2eb02f466399c2f545964701e2ecc7dd3413cf00e938a59c368b5806f131ed20"
+  }
+]

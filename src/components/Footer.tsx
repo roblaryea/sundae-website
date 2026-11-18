@@ -15,7 +15,6 @@ import { crewNavLocales } from '@/lib/crewNavLocales';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { SundaeLogotype } from './ui/SundaeLogotype';
-import { SundaeMark } from './ui/SundaeMark';
 
 /**
  * Pages that ship their own bespoke closing CTA - Footer pre-CTA is suppressed
@@ -147,7 +146,6 @@ const Footer = () => {
               {/* flex on a child span: `footer a { display:inline-block }`
                   (accessibility.css, unlayered) overrides flex on the anchor. */}
               <span className="flex items-center gap-2.5">
-                <SundaeMark size={32} className="flex-shrink-0" />
                 <SundaeLogotype className="text-[24px] text-[var(--text-primary)]" />
               </span>
             </Link>

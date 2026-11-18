@@ -3,6 +3,7 @@ import { PHASE_PRODUCTION_SERVER } from "next/constants";
 import { createRequire } from "node:module";
 import { withBotId } from "botid/next/config";
 import { PROFILE_HANDLES } from "./src/lib/profileHandles";
+import retiredBrandRedirects from "./src/lib/retiredBrandRedirects.json";
 
 // Sentry is a build dependency: its wrapper instruments the emitted app, while
 // the emitted server and client traces carry the runtime SDK. Keep `next start`
@@ -76,6 +77,8 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      ...retiredBrandRedirects.map(redirect => ({ ...redirect, permanent: true })),
+
       // Core product pages unified under /product/* — keep old top-level URLs working
       {
         source: '/intelligence',

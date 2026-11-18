@@ -1,7 +1,7 @@
 /* Profile card page (sundae.io/<handle>). A brand object, not a themed marketing page:
    it carries its own light and dark palettes (light by default, a visitor toggle switches
    and remembers the choice on that device) and does not use the site's theme. The hero panel is always
-   espresso: it holds the layered S, whose cream top would disappear on paper.
+   espresso: it holds the approved white wordmark.
    Motion is additive only: everything is visible without it. */
 
 /* ---------- palettes ---------- */
@@ -84,15 +84,15 @@
 }
 .pc-art {
   position: absolute;
-  /* Sized from the hero's height too, so the S never spills past the compact phone hero. */
-  width: min(78vw, 380px, 27vh);
-  aspect-ratio: 1;
-  right: -12vw;
+  width: min(78vw, 440px);
+  height: auto;
+  aspect-ratio: 4 / 1;
+  right: 4vw;
   top: 50%;
   transform: translateY(-44%);
   pointer-events: none;
 }
-[dir="rtl"] .pc-art { right: auto; left: -12vw; }
+[dir="rtl"] .pc-art { right: auto; left: 4vw; }
 
 .pc-header {
   position: absolute;
@@ -121,7 +121,7 @@
     border-radius: 36px;
   }
   .pc-art {
-    width: min(94%, 740px);
+    width: min(94%, 600px);
     right: auto;
     left: 50%;
     top: 50%;

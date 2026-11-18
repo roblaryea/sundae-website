@@ -1,6 +1,6 @@
 'use client';
 
-import Image from "next/image";
+import { ApprovedWordmark } from "@/components/ui/ApprovedWordmark";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
@@ -70,14 +70,7 @@ export default function NotFound() {
             transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
             className="relative"
           >
-            <Image
-              src="/logos/sundae-app-icon.png"
-              alt={copy.orbAlt}
-              width={120}
-              height={120}
-              className="drop-shadow-lg rounded-[22px]"
-              priority
-            />
+            <ApprovedWordmark className="h-16 w-64" />
             <div className="absolute inset-0 bg-gradient-to-br from-[#FF8473]/10 to-[#F2B45C]/10 rounded-[22px] blur-xl"></div>
           </motion.div>
         </motion.div>

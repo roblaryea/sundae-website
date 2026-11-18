@@ -1,0 +1,24 @@
+{
+  "sourceRegistry": "sundae-marketing/configs/brand-assets.yml",
+  "source": "sundae-remotion/public/images",
+  "canvas": {
+    "width": 480,
+    "height": 120
+  },
+  "alphaBounds": {
+    "left": 74,
+    "top": 12,
+    "width": 332,
+    "height": 95
+  },
+  "wordmarks": {
+    "ink": {
+      "path": "/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "sha256": "5d1ec6d45bebb84f04c578cf599a65f459101bb2883f21159d2778090c7fb8d6"
+    },
+    "cream": {
+      "path": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "sha256": "cc7489eacda4d63e1af03f6dfbab29ab443a1659bffba7350b6644baafbf2f1b"
+    }
+  }
+}
