@@ -202,3 +202,15 @@ At 12:59 UTC on 16 November, the owner's normal-browser empty-form test on `/dem
 The later owner-authorised demo and diagnostic tests closed those live-delivery gaps: accepted events, the diagnostic acknowledgment and both recipient emails were verified. See [completion matrix](COMPLETION_MATRIX_2026-11-16.md) for exact times, release links, QA exclusions, production checks and remaining operational dependencies. Earlier pending statements describe the state at that earlier check, not the current state.
 
 Fresh Google evidence is in [Search Console review](SEARCH_CONSOLE_REVIEW_2026-11-16.md), including complete 7/14/28-day comparisons ending 14 November, the 40 localized alias repairs, accepted sitemap/crawl requests and Google's resolved labor-calculator canonical. Keep these dates distinct from the PostHog baseline's complete UTC days through 15 November. Review the next weekly checkpoint on 23 November and a complete post-release fortnight at or after 30 November. The existing Monday automation remains active and reads both records.
+
+## 18 November refinement measurement record
+
+The release and validation authority remains `COMPLETION_MATRIX_2026-11-16.md`. Website PR245/main 25fcaa7 and PR246/main cf9b2a7 and pricing PR62/main 140def244 are published; finite public cross-site theme, locale and quote-return checks passed.
+
+Use complete pre-release UTC periods: 11–17 November has 6 acquisition entrants / 0 CTA people / 0 accepted forms; 21 October–17 November has 27/3/0. These six saved event-contract insights are working definitions, not governed business measures or automatic sales qualification. Preserve production-host, private-booking, consent and QA boundaries. All six include `/results`; dashboard scope also includes the existing daypart tool. The exact internal `public_theme_retakes` campaign is excluded alongside `internal_qa`, retaining raw events.
+
+Dashboard 2048486 in project 332239 retains its six insights and annotations 598545, 598559 and 598606. No new dashboard, subscription or scheduler was introduced. The consented public campaign handoff to canonical HTTPS pricing preserves quote/locale parameters and explicit target tags. Absence of earlier URL tags alone does not establish historical first-touch loss.
+
+The existing Monday checkpoint is 23 November. Assess health and discovery then; it is an early checkpoint. Complete post-18 November UTC windows start 19 November: seven days through 25 November, fourteen through 2 December and 28 through 16 December. Corresponding scheduled decision reviews are 30 November, 7 December and 21 December, using finalized Search Console dates and complete analytics days. Keep the earlier 16 November release comparison separate.
+
+Activation belongs to the existing content owner and approval process. The restart packet uses practical operator questions, native demo proof, one canonical tagged workflow destination and clear claim limits. Measure tagged workflow visits, useful CTA progression and accepted enquiries, then establish operator relevance separately. Repeated low traffic without meaningful distribution is not evidence that the form needs redesign.
