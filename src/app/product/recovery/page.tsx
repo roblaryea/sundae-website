@@ -29,7 +29,7 @@ export default function RecoveryPage() {
         title={
           <>
             <span className="block">{copy.title}</span>
-            <span className="block text-[var(--warm-coral)]">{copy.titleAccent}</span>
+            <span className="block text-[var(--text-warm)]">{copy.titleAccent}</span>
           </>
         }
         description={depthCopy[locale as keyof typeof depthCopy].recovery}
