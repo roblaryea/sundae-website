@@ -29,7 +29,7 @@ const hasSentryRuntime = ['client', 'server', 'edge'].every((target) =>
   ),
 );
 const forbiddenBuildPackages = [...tracedFiles].filter((file) =>
-  /node_modules\/(?:@rollup\/plugin-commonjs|@rollup\/pluginutils|fdir|tinyglobby|picomatch)(?:\/|$)/.test(file),
+  /node_modules\/(?:rollup|@rollup\/plugin-commonjs|@rollup\/pluginutils|@sentry\/bundler-plugins|@sentry\/webpack-plugin|fdir|tinyglobby|picomatch)(?:\/|$)/.test(file),
 );
 
 if (!hasSentryRuntime) {
