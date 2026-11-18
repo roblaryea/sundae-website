@@ -1,0 +1,6 @@
+### Result
+{"text":"Plan shifts, manage daily work and understand changes in sales, costs and demand. Sundae combines your operating data with relevant market context to explain what needs attention, help teams act and track the result across locations.","opacity":"1","visibility":"visible","transform":"none"}
+### Ran Playwright code
+```js
+await (async page => {const context=await page.context().browser().newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}); const proof=await context.newPage(); await proof.goto("http://localhost:3137/"); const text=proof.locator("section.surface-always-dark p.mt-7"); const result=await text.evaluate(el=>({text:el.textContent,opacity:getComputedStyle(el).opacity,visibility:getComputedStyle(el).visibility,transform:getComputedStyle(el).transform})); await proof.screenshot({path:"output/seo/audit-followthrough-20261118/home-no-js-mobile.png"}); await context.close(); return result;})(page);
+```
