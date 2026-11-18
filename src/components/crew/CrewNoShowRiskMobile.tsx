@@ -212,7 +212,7 @@ export function CrewNoShowRiskMobile() {
       {/* title */}
       <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', margin: '16px 2px 4px' }}>
         <div>
-          <h1 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>{t.title}</h1>
+          <h2 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>{t.title}</h2>
           <div style={{ font: `500 12.5px ${FONT}`, color: T.tx3, marginTop: 3 }}>
             {t.tonight} · {t.allOutlets}
           </div>

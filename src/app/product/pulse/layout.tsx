@@ -43,11 +43,12 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
   const page = copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
   return {
-    title: page.title,
+    title: { absolute: page.title },
     description: page.description,
     openGraph: {
       title: page.openGraphTitle,
       description: page.openGraphDescription,
+      images: [{ url: "/logos/og-card.png", width: 1200, height: 630, alt: page.openGraphTitle }],
     },
   };
 }

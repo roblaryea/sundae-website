@@ -7,8 +7,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(cookieStore);
   const messages = getWebsiteMessages(locale) as WebsiteMessages;
   return {
-    title: messages.pages.signIn.metadataTitle,
+    title: { absolute: messages.pages.signIn.metadataTitle },
     description: messages.pages.signIn.metadataDescription,
+    robots: { index: false, follow: false },
+    openGraph: { title: messages.pages.signIn.metadataTitle, description: messages.pages.signIn.metadataDescription, images: [{ url: "/logos/og-card.png", width: 1200, height: 630, alt: messages.pages.signIn.metadataTitle }] },
   };
 }
 
