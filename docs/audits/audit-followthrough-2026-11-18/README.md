@@ -29,3 +29,12 @@ Checks completed before publication: 221 SEO/search/navigation tests, 54 pricing
 - The pricing loading/layout-shift item remains with the pricing owner because it requires a structural loading-shell and catalogue-hydration correction. A controlled three-run production Lighthouse diagnostic recorded pricing median LCP 5.98s and CLS 0.324; this is lab evidence, with cache-clear warnings on two runs, and is not a field-performance or uplift claim. The matched pricing successor is being prepared separately.
 - The homepage diagnostic baseline was measured three times before and three times after this finite text change. Results vary materially between runs because of shared-host/cache and candidate-selection behavior; the receipts are retained as diagnostics rather than converted into a performance promise.
 - App splash-screen publication and social/content scheduling remain separate owners and releases.
+
+## 18 November continuation
+
+The follow-through continued after this report was first prepared:
+
+- Main PR252 (`0986f12`) aligned Careers and Blog openings, metadata and OG descriptions with hospitality and food-service operations across all 22 website locales. PR253 (`561fc12`) then corrected translated Careers breadcrumbs and Blog article-count pluralisation. Public verification passed all 44 Careers/Blog locale routes for status, H1, metadata, canonical, language/direction and the finite translated-label/count cases.
+- Pricing PR64 (`7c44785`) merged the loading-stability successor and the light-mode consent contrast correction. Public readback confirmed the static loading shell, the validated `$1,195/mo` Foundation quote, no horizontal overflow, readable light-mode consent copy and explicit failure/retry behaviour. Arabic simulator readback retained RTL and produced the validated 7-location Core Growth quote (`3,310.75 US$/شهرياً`) while consuming the configuration link under the existing contract. This does not establish field/CrUX performance or a ranking outcome; the matched lab evidence supports CLS/first-paint improvement only, with LCP still open.
+
+The 23 November search/discovery and PostHog checkpoint remains the next measurement boundary. Customer story baselines and fresh Core evidence remain owner-dependent and are not invented.
