@@ -57,3 +57,8 @@ The only browser console errors during local production-preview inspection were 
 ## Publication handoff
 
 The source author does not merge or deploy this patch. The existing SEO/GEO owner publishes the independently accepted main-site source first, verifies public artwork/download/redirect behavior, then publishes pricing PR63, which reuses the main site's `/logos/og-operations.png` URL. This evidence does not claim production publication or search-ranking improvement.
+
+
+## Public verification — independent publication owner
+
+Main PR248 and pricing PR63 were merged after their required checks and independent application/visual acceptance. Their production deployments succeeded. The existing [completion matrix](../../seo/COMPLETION_MATRIX_2026-11-16.md#approved-identity--published-18-november-2026) records exact commits, public readbacks, representative live theme/device captures and the separate app-release boundary. See `data/public-main-readback.json` (55 checks) and `data/public-pricing-readback.json` (9 checks), all passed. These publication results supersede the pre-publication handoff status above without changing the recorded source evidence.

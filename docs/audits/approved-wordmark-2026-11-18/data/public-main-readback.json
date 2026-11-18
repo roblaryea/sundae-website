@@ -1,0 +1,448 @@
+{
+  "checkedAt": "2026-11-18T11:30:00.385754+00:00",
+  "applicationSource": "18896f50ce7dfd19f7d20b6140aa83450a5f787b",
+  "checks": 55,
+  "pass": true,
+  "rows": [
+    {
+      "url": "https://www.sundae.io/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "5d1ec6d45bebb84f04c578cf599a65f459101bb2883f21159d2778090c7fb8d6",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "cc7489eacda4d63e1af03f6dfbab29ab443a1659bffba7350b6644baafbf2f1b",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/favicon.ico",
+      "status": 200,
+      "mime": "image/vnd.microsoft.icon",
+      "sha256": "52f5f844b2afb1c7a1e7a9cbffbeb64a7df2498b29f01efc4e95c8e37d956f18",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/icons/wordmark-16.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "14a24e659108a6f68c074ecf8ec019c8d7fa6d10a5b56eb37844b59682039068",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/icons/wordmark-32.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "6ce2ab9eec7c6bfe21df2115c41d02cdcad6042f081ea90087d3b057fd8a3747",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/icons/wordmark-180.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "3e94b0a1965a58da926201b42ced64614da2e8eb4744af8a306fc45380ff4f20",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/icons/wordmark-192.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "b59e534a7426c1d3846f2c16168bcd9ec1aa4060f31e9939d422a9240e664ee5",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/icons/wordmark-512.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "f735cc949ce3585ba6aebdf270b49043855c85ae30615344184212a49fd52096",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/og-operations.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "f8b4bc4a68c275916ac766b08f5e9fed11eba2e2b19be1ba36208bffd7d2c77e",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/profile/robert-og.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "f122623e832ee213665c6cff3e7a03d34e7dc9b8e7e1baaa95e30fc44cb37cc2",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/sundae-brand-assets.zip",
+      "status": 200,
+      "mime": "application/zip",
+      "sha256": "fb6c5888afc7969e81f7549c86bf646f5b37c15ef2c67d00b18378c18869ebfa",
+      "expectedBytesMatch": true,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/favicon/apple-touch-icon-180.png",
+      "status": 308,
+      "location": "/brand/icons/wordmark-180.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/favicon/favicon-32.png",
+      "status": 308,
+      "location": "/brand/icons/wordmark-32.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/logo/sundae-lockup-dark.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/logo/sundae-lockup-light.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/logo/sundae-logo-square-1024.png",
+      "status": 308,
+      "location": "/brand/icons/wordmark-512.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/logo/sundae-mark-1024.png",
+      "status": 308,
+      "location": "/brand/icons/wordmark-512.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/logo/sundae-mark-512.png",
+      "status": 308,
+      "location": "/brand/icons/wordmark-512.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/logo/sundae-mark.svg",
+      "status": 308,
+      "location": "/brand/icons/wordmark-512.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/logo/sundae-wordmark-dark.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/logo/sundae-wordmark-light.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/apple-touch-icon.png",
+      "status": 308,
+      "location": "/brand/icons/wordmark-180.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/og-card.png",
+      "status": 308,
+      "location": "/logos/og-operations.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-app-icon.png",
+      "status": 308,
+      "location": "/brand/icons/wordmark-512.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-icon.svg",
+      "status": 308,
+      "location": "/brand/icons/wordmark-512.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-lockup-white.svg",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-lockup.svg",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-mark-72.png",
+      "status": 308,
+      "location": "/brand/icons/wordmark-192.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-mark.svg",
+      "status": 308,
+      "location": "/brand/icons/wordmark-512.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-wordmark-card-cream.svg",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-wordmark-card-ink.svg",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-wordmark-email-tight-white.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-wordmark-email-tight.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-wordmark-email-white.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-wordmark-email.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-wordmark-white.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/logos/sundae-wordmark.png",
+      "status": 308,
+      "location": "/brand/wordmarks/sundae-wordmark-fraunces.png",
+      "targetStatus": 200,
+      "targetMime": "image/png",
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/banners/linkedin-1128x191.png",
+      "status": 404,
+      "mime": "text/html",
+      "sha256": "2b713213402630ea7caf1b7c611655b9e3b61e81e2526fdc75632dc4b6bb12bb",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/banners/x-1500x500.png",
+      "status": 404,
+      "mime": "text/html",
+      "sha256": "daf1733a1ecda49b4d958c5a0bcea212d61a886d5c7eeaf0188c8e1df6e762da",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/banners/facebook-1640x624.png",
+      "status": 404,
+      "mime": "text/html",
+      "sha256": "2692045a341526405befc8f86905c9bf2740fb908f56d642ba05dc7d3cafdbe9",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/banners/youtube-2048x1152.png",
+      "status": 404,
+      "mime": "text/html",
+      "sha256": "5c9c51b85bdf1db7469abfb34476d146b2a7b52f1eea8f08028f59bbab1d0e1f",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/site.webmanifest",
+      "status": 200,
+      "mime": "application/manifest+json",
+      "sha256": "875cd44ec440cb2fa5fe2e80dfe0a82c40e7b32bbe833e0aebbe67fff0df1102",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/icons/wordmark-192.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "b59e534a7426c1d3846f2c16168bcd9ec1aa4060f31e9939d422a9240e664ee5",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand/icons/wordmark-512.png",
+      "status": 200,
+      "mime": "image/png",
+      "sha256": "f735cc949ce3585ba6aebdf270b49043855c85ae30615344184212a49fd52096",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/",
+      "status": 200,
+      "mime": "text/html",
+      "sha256": "f4346df169f4dc74993e0da419ed518a4aaecdba425ad59f12241782968558ee",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/brand",
+      "status": 200,
+      "mime": "text/html",
+      "sha256": "961ae453058636daf2cc5b675dfd4394b80762ee9e1a1f79e4259b7167cb52d9",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/crew",
+      "status": 200,
+      "mime": "text/html",
+      "sha256": "7ce04bc9d8abd46577946c86114d7a21acb290a980cda7ab34794aff227bc735",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/results",
+      "status": 200,
+      "mime": "text/html",
+      "sha256": "78e132283e90ba41db3f77d65f0a86a7e7737048e7177a6c1a4392e398667e67",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/restaurant-management-platform",
+      "status": 200,
+      "mime": "text/html",
+      "sha256": "517dc78b65730205b0b10f6c1fba35ec3904f39ca0aa12d4aeb54e7a5e462f97",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/robert",
+      "status": 200,
+      "mime": "text/html",
+      "sha256": "462c7870f5fb53d3445d0ea1e8e702f461d05d83bef307cfe3221c1701ee6023",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/diagnostic/report",
+      "status": 200,
+      "mime": "text/html",
+      "sha256": "b310e0bf3fd99509568181ad3b9227b852f33bb8fa7968641add2a8bf6996246",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/sign-in",
+      "status": 200,
+      "mime": "text/html",
+      "sha256": "dd60084af4e0dbe611785b57e2e01c437afedd37c590d4c4d8d6d96b4352bf17",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/robots.txt",
+      "status": 200,
+      "mime": "text/plain",
+      "sha256": "63ecd5739d0ed11928655af0bfbf2fbaa924783659506d3018a0fd90a8032a89",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/sitemap.xml",
+      "status": 200,
+      "mime": "application/xml",
+      "sha256": "d06e6cd1e6984c72236a077df893ebd4faae80714d869fa12bc5561122ae8120",
+      "expectedBytesMatch": null,
+      "pass": true
+    },
+    {
+      "url": "https://www.sundae.io/llms.txt",
+      "status": 200,
+      "mime": "text/plain",
+      "sha256": "2a6645e6d80d1aa01e901e5ddd0030a222dafa58a1efc0394b920b740335187b",
+      "expectedBytesMatch": null,
+      "pass": true
+    }
+  ]
+}
