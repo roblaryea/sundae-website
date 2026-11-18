@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
 import { cookies } from "next/headers";
 import { resolveWebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -29,7 +30,8 @@ const copy = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  return copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
+  const page = copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
+  return { ...page, description: getOperatorAudienceCopy(locale).cross };
 }
 
 export default function CrossIntelligenceLayout({ children }: { children: React.ReactNode }) {

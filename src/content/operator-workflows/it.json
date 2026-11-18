@@ -2,8 +2,8 @@
   "brand": {
     "title": "Sundae | Gestione operativa per l'ospitalità e la ristorazione",
     "description": "Gestisci turni, personale, attività e performance su operazioni multi-sede nel settore dell'ospitalità e della ristorazione. Collega il lavoro quotidiano alle decisioni e al recupero di profitto misurato.",
-    "eyebrow": "Gestione operativa per l'ospitalità e la ristorazione",
-    "sub": "Gestisci ogni turno in ogni sede. Sundae collega programmazione, presenze, attività e trasferimenti turno con i dati operativi — così i team sanno cosa fare dopo e possono misurare cosa è cambiato.",
+    "eyebrow": "Gestione operativa per ospitalità e ristorazione",
+    "sub": "Pianifica i turni, gestisci il lavoro quotidiano e comprendi i cambiamenti in vendite, costi e domanda. Sundae unisce dati operativi e contesto di mercato per spiegare cosa richiede attenzione, aiutare il team ad agire e seguire il risultato tra sedi.",
     "productTitle": "Una piattaforma. Dal lavoro quotidiano alle decisioni misurate.",
     "productDescription": "Riunisci forza lavoro, esecuzione dei turni e dati operativi connessi in un'unica visione operativa. Crew aiuta i team a svolgere il lavoro; Core li aiuta a capire le performance, decidere la prossima azione e misurarne il risultato.",
     "coreDescription": "Lo spazio decisionale per team multi-sede dell'ospitalità e della ristorazione. Collega i dati operativi, ispeziona le evidenze, assegna la prossima azione e misura l'esito.",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | Spazio decisionale per l'ospitalità e la ristorazione",
     "crewMetaTitle": "Sundae Crew | Forza lavoro e operazioni quotidiane",
     "illustrationDisclosure": "Esempio illustrativo, non un risultato di un cliente.",
-    "homeHeadline": "Gestisci ogni turno.",
-    "homeTagline": "Migliora ogni sede.",
+    "homeHeadline": "Vedi ogni livello.",
+    "homeTagline": "Agisci in tempo.",
     "coreHeadline": "Decisioni migliori. Risultati misurabili.",
     "crewHeadline": "Gestisci il personale.",
     "crewTagline": "Dirigi il turno.",
-    "editorialHeadline": "Collega il lavoro quotidiano a progressi misurabili."
+    "editorialHeadline": "Trasforma il lavoro quotidiano nella prossima decisione.",
+    "homeLiveTitleTop": "Vedi il turno mentre procede.",
+    "homeLiveTitleBottom": "Sai cosa fare dopo.",
+    "homeLiveSupport": "I segnali live di vendite, personale e perdite mostrano dove intervenire mentre il turno è ancora in corso.",
+    "editorialSupport": "Riunisci registri del turno, vendite e costi per capire cosa richiede attenzione, agire e verificare il risultato."
   },
   "shared": {
     "primaryCta": "Prenota una dimostrazione",

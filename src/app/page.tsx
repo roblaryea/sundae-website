@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildResolvedPageMetadata } from "@/lib/solutionPageMetadata";
 import { cookies, headers } from "next/headers";
 import HomeContent from "@/components/home/HomeContent";
 import { SectionCinematicIntro } from "@/components/home/SectionCinematicIntro";
@@ -9,14 +10,7 @@ export async function generateMetadata(): Promise<Metadata> {
  const locale = resolveWebsiteLocale(await cookies());
  const messages = getWebsiteMessages(locale);
 
- return {
- title: messages.metadata.title,
- description: messages.metadata.description,
- openGraph: {
- title: messages.metadata.title,
- description: messages.metadata.description,
- },
- };
+ return buildResolvedPageMetadata({ locale, pathname: '/', title: messages.metadata.title, description: messages.metadata.description });
 }
 
 export default async function Home() {

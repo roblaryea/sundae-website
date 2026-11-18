@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import { getHomeAboutAlignment } from '@/lib/homeAboutAlignment';
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
 import { RecoveryLoop } from "./RecoveryLoop";
 import type { RecoveryFigure } from "@/lib/recovery-figure";
@@ -47,14 +47,13 @@ function fitSubPx(el: HTMLElement): number | null {
   el.style.fontSize = "";
   if (!maxW || !avail) return null;
   const cap = Math.min(18.5, window.innerWidth * 0.0155); // mirrors clamp(_, 1.55vw, 18.5)
-  return Math.min(cap, (REF * avail) / maxW);
+  return Math.max(15.5, Math.min(cap, (REF * avail) / maxW));
 }
 
 /**
- * Cinematic brand intro - the opening moment of the homepage. Hero 1 leads on
- * closed-loop profit recovery via the RecoveryLoop signature (detect the leak,
- * decide an owner, execute the fix, measure the recovery); the live Pulse product
- * site below is the proof. The 3D "sundae glass" now appears deeper in the page
+ * Cinematic brand intro - the opening moment of the homepage. Operations
+ * management leads; the RecoveryLoop illustrates how teams can follow through.
+ * The live Pulse section below explains the in-shift job. The 3D "sundae glass" now appears deeper in the page
  * as a brand motif. Fraunces (--font-display) + warm tokens.
  */
 
@@ -70,8 +69,8 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
   const rm = mounted && reduceMotion;
-  const brand = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand;
-  const copy = { ...cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy], headline: brand.homeHeadline, tagline: brand.homeTagline, eyebrow: brand.eyebrow, sub: brand.sub };
+  const alignment = getHomeAboutAlignment(locale);
+  const copy = { ...cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy], headline: alignment.primaryHeadline, tagline: alignment.primaryTagline, eyebrow: alignment.eyebrow, sub: alignment.primarySupport };
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLSpanElement>(null);
 
@@ -88,7 +87,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
   useIsoLayoutEffect(() => {
     const el = headlineRef.current;
     if (!el) return;
-    const fit = () => setHeadlinePx(fitHeadlinePx(el));
+    const fit = () => setHeadlinePx(window.innerWidth < 1024 ? null : fitHeadlinePx(el));
     fit();
     const ro = new ResizeObserver(fit);
     ro.observe(document.documentElement);
@@ -113,7 +112,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
         background:
           "radial-gradient(115% 75% at 82% 14%, rgba(255,92,77,.16), transparent 55%), radial-gradient(80% 60% at 8% 92%, rgba(233,162,74,.12), transparent 55%), var(--navy-deep)",
       }}
-      aria-label="Sundae - find the leak, recover the profit"
+      aria-label={`Sundae - ${copy.headline} ${copy.tagline}`}
     >
       {/* drifting warm light - two large blurred fields that slowly cross, giving
           the flat navy real depth and motion behind the content. */}
@@ -176,7 +175,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
             <span className="block overflow-hidden">
               <motion.span
                 ref={headlineRef}
-                className="block whitespace-nowrap"
+                className="block whitespace-normal [overflow-wrap:anywhere] lg:whitespace-nowrap"
                 style={{ fontSize: headlinePx ? `${headlinePx}px` : "clamp(44px,7.1vw,104px)" }}
                 initial={{ y: "110%" }}
                 animate={{ y: 0 }}

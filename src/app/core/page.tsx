@@ -1,6 +1,8 @@
 'use client';
 
 import { getCommercialCopy, getCoreCoverageSummary } from '@/lib/pricing/commercialCopy';
+import openingCopy from '@/content/operator-openings.json'
+import { OperatorOpeningTitle } from '@/components/ui/OperatorOpeningTitle';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
 
@@ -660,9 +662,9 @@ export default function CoreProductPage() {
     <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero */}
       <PageHero
-        badge={ui.hero.badge}
-        title={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.coreHeadline}
-        description={operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.coreDescription}
+        badge={`${ui.hero.badge} · ${operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.eyebrow}`}
+        title={<OperatorOpeningTitle text={openingCopy[locale as keyof typeof openingCopy].coreTitle} accent={openingCopy[locale as keyof typeof openingCopy].coreAccent} />}
+        description={openingCopy[locale as keyof typeof openingCopy].coreDescription}
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button

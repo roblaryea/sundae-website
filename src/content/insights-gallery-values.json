@@ -1,0 +1,178 @@
+{
+  "en": {
+    "currency": "GBP",
+    "magnitude": "259.7K",
+    "revenue": "£259.7K",
+    "cogs": "£109K",
+    "labor": "£76.4K",
+    "profit": "£74.3K"
+  },
+  "fr": {
+    "currency": "EUR",
+    "magnitude": "303,85 k",
+    "revenue": "303,85 k €",
+    "cogs": "127,53 k €",
+    "labor": "89,39 k €",
+    "profit": "86,93 k €"
+  },
+  "es": {
+    "currency": "EUR",
+    "magnitude": "303,85 mil",
+    "revenue": "303,85 mil €",
+    "cogs": "127,53 mil €",
+    "labor": "89,39 mil €",
+    "profit": "86,93 mil €"
+  },
+  "de": {
+    "currency": "EUR",
+    "magnitude": "303.849",
+    "revenue": "303.849 €",
+    "cogs": "127.530 €",
+    "labor": "89.388 €",
+    "profit": "86.931 €"
+  },
+  "nl": {
+    "currency": "EUR",
+    "magnitude": "303,85K",
+    "revenue": "€ 303,85K",
+    "cogs": "€ 127,53K",
+    "labor": "€ 89,39K",
+    "profit": "€ 86,93K"
+  },
+  "pt": {
+    "currency": "EUR",
+    "magnitude": "303,85 mil",
+    "revenue": "€ 303,85 mil",
+    "cogs": "€ 127,53 mil",
+    "labor": "€ 89,39 mil",
+    "profit": "€ 86,93 mil"
+  },
+  "it": {
+    "currency": "EUR",
+    "magnitude": "303.849",
+    "revenue": "303.849 €",
+    "cogs": "127.530 €",
+    "labor": "89.388 €",
+    "profit": "86.931 €"
+  },
+  "ar": {
+    "currency": "AED",
+    "magnitude": "1.21 مليون",
+    "revenue": "1.21 مليون د.إ.",
+    "cogs": "507.94 ألف د.إ.",
+    "labor": "356.02 ألف د.إ.",
+    "profit": "346.24 ألف د.إ."
+  },
+  "hi": {
+    "currency": "INR",
+    "magnitude": "2.75 क॰",
+    "revenue": "₹2.75 क॰",
+    "cogs": "₹1.16 क॰",
+    "labor": "₹80.98 लाख",
+    "profit": "₹78.76 लाख"
+  },
+  "ur": {
+    "currency": "PKR",
+    "magnitude": "9.22 کروڑ",
+    "revenue": "Rs 9.22 کروڑ",
+    "cogs": "Rs 3.87 کروڑ",
+    "labor": "Rs 2.71 کروڑ",
+    "profit": "Rs 2.64 کروڑ"
+  },
+  "pl": {
+    "currency": "PLN",
+    "magnitude": "1,3 mln",
+    "revenue": "1,3 mln zł",
+    "cogs": "545 tys. zł",
+    "labor": "382 tys. zł",
+    "profit": "371,5 tys. zł"
+  },
+  "tr": {
+    "currency": "TRY",
+    "magnitude": "10,65 Mn",
+    "revenue": "10,65 Mn ₺",
+    "cogs": "4,47 Mn ₺",
+    "labor": "3,13 Mn ₺",
+    "profit": "3,05 Mn ₺"
+  },
+  "zh-Hans": {
+    "currency": "CNY",
+    "magnitude": "238.92万",
+    "revenue": "¥238.92万",
+    "cogs": "¥100.28万",
+    "labor": "¥70.29万",
+    "profit": "¥68.36万"
+  },
+  "ja": {
+    "currency": "JPY",
+    "magnitude": "4934.3万",
+    "revenue": "￥4934.3万",
+    "cogs": "￥2071万",
+    "labor": "￥1451.6万",
+    "profit": "￥1411.7万"
+  },
+  "ko": {
+    "currency": "KRW",
+    "magnitude": "4.47억",
+    "revenue": "₩4.47억",
+    "cogs": "₩1.87억",
+    "labor": "₩1.31억",
+    "profit": "₩1.28억"
+  },
+  "id": {
+    "currency": "IDR",
+    "magnitude": "5,32 M",
+    "revenue": "Rp 5,32 M",
+    "cogs": "Rp 2,23 M",
+    "labor": "Rp 1,57 M",
+    "profit": "Rp 1,52 M"
+  },
+  "vi": {
+    "currency": "VND",
+    "magnitude": "8,31 T",
+    "revenue": "8,31 T ₫",
+    "cogs": "3,49 T ₫",
+    "labor": "2,44 T ₫",
+    "profit": "2,38 T ₫"
+  },
+  "ro": {
+    "currency": "RON",
+    "magnitude": "1,51 mil.",
+    "revenue": "1,51 mil. RON",
+    "cogs": "632,2 mii RON",
+    "labor": "443,12 mii RON",
+    "profit": "430,94 mii RON"
+  },
+  "sv": {
+    "currency": "SEK",
+    "magnitude": "3,48 mn",
+    "revenue": "3,48 mn kr",
+    "cogs": "1,46 mn kr",
+    "labor": "1,02 mn kr",
+    "profit": "995,62 tn kr"
+  },
+  "bn": {
+    "currency": "BDT",
+    "magnitude": "৩.৯৫ কো",
+    "revenue": "৩.৯৫ কো৳",
+    "cogs": "১.৬৬ কো৳",
+    "labor": "১.১৬ কো৳",
+    "profit": "১.১৩ কো৳"
+  },
+  "th": {
+    "currency": "THB",
+    "magnitude": "11.69M",
+    "revenue": "฿11.69M",
+    "cogs": "฿4.91M",
+    "labor": "฿3.44M",
+    "profit": "฿3.34M"
+  },
+  "ms": {
+    "currency": "MYR",
+    "magnitude": "1.53J",
+    "revenue": "RM 1.53J",
+    "cogs": "RM 643.1K",
+    "labor": "RM 450.76K",
+    "profit": "RM 438.37K"
+  }
+}

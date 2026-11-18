@@ -1,5 +1,7 @@
 'use client';
 
+import depthCopy from '@/content/operator-depth.json'
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -613,8 +615,8 @@ export default function ForesightPage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={ui.heroDescription}>
-        <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">{locale === 'en' ? '22 forecast metrics. 14-365 day horizons. Self-correcting accuracy. 32 forecast visuals.' : locale === 'ar' ? '22 مقياس توقع. أفق 14-365 يوماً. دقة تتصحح ذاتياً. 32 مرئية تنبؤية.' : locale === 'fr' ? '22 métriques, horizons 14-365 jours, précision auto-corrigée, 32 visuels de forecast.' : '22 métricas de previsión. Horizontes de 14-365 días. Precisión con autocorrección. 32 visuales.'}</p>
+      <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={depthCopy[locale as keyof typeof depthCopy].foresight}>
+        <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">{depthCopy[locale as keyof typeof depthCopy].foresightFacts}</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_hero", { page: "/product/foresight" })}>{ui.heroPrimary}</Button>
           <Button variant="outline-light" size="lg" href={buildCoreCoverageUrl('core_foundation', true)}>{ui.heroSecondary}</Button>

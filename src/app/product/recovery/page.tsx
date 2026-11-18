@@ -1,5 +1,7 @@
 "use client";
 
+import depthCopy from '@/content/operator-depth.json'
+
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
@@ -27,10 +29,10 @@ export default function RecoveryPage() {
         title={
           <>
             <span className="block">{copy.title}</span>
-            <span className="block text-[var(--warm-coral)]">{copy.titleAccent}</span>
+            <span className="block text-[var(--text-warm)]">{copy.titleAccent}</span>
           </>
         }
-        description={copy.description}
+        description={depthCopy[locale as keyof typeof depthCopy].recovery}
       >
         <div className="mt-8 flex flex-wrap gap-3">
           <Button

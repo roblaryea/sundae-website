@@ -1,5 +1,7 @@
 "use client";
 
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
+
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence, MotionConfig } from "framer-motion";
@@ -341,7 +343,9 @@ const ROTATION_MS = 5000;
 
 export default function SolutionsHubPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const opening = getOperatorAudienceCopy(locale);
+  const sourceOpeningCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const copy = { ...sourceOpeningCopy, description: opening.solutions };
   const [activeIdx, setActiveIdx] = useState(0);
   const activeShot = ROTATING_SHOTS[activeIdx];
   const activeLabel = copy.rotatingLabels[activeIdx] ?? "";
@@ -371,7 +375,7 @@ export default function SolutionsHubPage() {
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
                 <span className="text-[var(--text-primary)]">{copy.titleLine1}</span>
                 <br />
-                <span className="italic text-[#F6C66B]">{copy.titleLine2}</span>
+                <span className="italic text-[var(--text-warm)]">{copy.titleLine2}</span>
               </motion.h1>
 
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-3">

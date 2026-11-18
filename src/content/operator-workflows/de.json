@@ -2,8 +2,8 @@
   "brand": {
     "title": "Sundae | Betriebssteuerung für Gastronomie und Food-Service",
     "description": "Schichten, Personal, Aufgaben und Leistung über Multi‑Location‑Betriebe in Gastronomie und Food‑Service verwalten. Tagesgeschäft mit Entscheidungen und messbarer Profit‑Wiederherstellung verbinden.",
-    "eyebrow": "Betriebssteuerung für Gastronomie und Food‑Service",
-    "sub": "Jede Schicht an jedem Standort steuern. Sundae verbindet Dienstplanung, Anwesenheit, Aufgaben und Übergaben mit Betriebsdaten – damit Teams wissen, was als Nächstes zu tun ist und messen können, was sich geändert hat.",
+    "eyebrow": "Betriebsmanagement für Gastronomie und Foodservice",
+    "sub": "Planen Sie Schichten, organisieren Sie die tägliche Arbeit und verstehen Sie Veränderungen bei Umsatz, Kosten und Nachfrage. Sundae verbindet Betriebsdaten mit relevantem Marktkontext, damit Teams erkennen, was Aufmerksamkeit braucht, handeln und Ergebnisse standortübergreifend prüfen.",
     "productTitle": "Eine Plattform. Tägliche Arbeit bis zur messbaren Entscheidung.",
     "productDescription": "Personal, Schichtausführung und verknüpfte Betriebsdaten in ein einheitliches Lagebild bringen. Crew hilft Teams, die Arbeit auszuführen; Core hilft, Leistung zu verstehen, nächste Schritte zu entscheiden und das Ergebnis zu messen.",
     "coreDescription": "Der Entscheidungsarbeitsbereich für Multi‑Location‑Teams in Gastronomie und Food‑Service. Betriebsdaten verbinden, Beweise prüfen, nächste Aktion zuweisen und das Ergebnis messen.",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | Entscheidungsarbeitsbereich für Gastronomie und Lebensmittelservice",
     "crewMetaTitle": "Sundae Crew | Personal und täglicher Betrieb",
     "illustrationDisclosure": "Illustratives Beispiel, kein Kundenergebnis.",
-    "homeHeadline": "Leite jede Schicht.",
-    "homeTagline": "Verbessere jeden Standort.",
+    "homeHeadline": "Jede Ebene sehen.",
+    "homeTagline": "Rechtzeitig handeln.",
     "coreHeadline": "Bessere Entscheidungen. Messbare Ergebnisse.",
     "crewHeadline": "Führe dein Team.",
     "crewTagline": "Die Schicht managen.",
-    "editorialHeadline": "Verknüpfe tägliche Arbeit mit messbarem Fortschritt."
+    "editorialHeadline": "Tägliche Arbeit in die nächste Entscheidung verwandeln.",
+    "homeLiveTitleTop": "Die Schicht im Verlauf sehen.",
+    "homeLiveTitleBottom": "Den nächsten Schritt kennen.",
+    "homeLiveSupport": "Live-Signale zu Umsatz, Personal und Verlusten zeigen, wo während der laufenden Schicht Aufmerksamkeit nötig ist.",
+    "editorialSupport": "Führen Sie Schichtprotokolle, Umsatz- und Kostendaten zusammen. Teams verstehen, was Aufmerksamkeit braucht, handeln und prüfen das Ergebnis."
   },
   "shared": {
     "primaryCta": "Demo buchen",

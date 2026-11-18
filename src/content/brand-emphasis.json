@@ -7,7 +7,7 @@
     "Start with the operating model",
     "decision intelligence",
     "daily operations",
-    "measurable progress"
+    "next decision."
   ],
   "ar": [
     "لكل شفت وكل موقع",
@@ -17,7 +17,7 @@
     "ابدأ بنموذج التشغيل",
     "ذكاء القرار",
     "العمليات اليومية",
-    "بالتقدّم الملموس"
+    "القرار التالي."
   ],
   "fr": [
     "chaque service et chaque établissement",
@@ -27,7 +27,7 @@
     "Commencez par le modèle opérationnel",
     "intelligence décisionnelle",
     "opérations quotidiennes",
-    "progrès mesurables"
+    "prochaine décision."
   ],
   "es": [
     "cada turno y cada local",
@@ -37,7 +37,7 @@
     "Empiece por el modelo operativo",
     "inteligencia para decidir",
     "operaciones diarias",
-    "progreso medible"
+    "siguiente decisión."
   ],
   "de": [
     "jede Schicht und jeden Standort",
@@ -47,7 +47,7 @@
     "Beginnen Sie mit dem Betriebsmodell",
     "Entscheidungsintelligenz",
     "täglicher Betrieb",
-    "messbarem Fortschritt"
+    "nächste Entscheidung"
   ],
   "nl": [
     "elke shift en elke locatie",
@@ -57,7 +57,7 @@
     "Begin bij het operationele model",
     "beslisinzicht",
     "dagelijkse bedrijfsvoering",
-    "meetbare vooruitgang"
+    "volgende beslissing."
   ],
   "pt": [
     "cada turno e cada unidade",
@@ -67,7 +67,7 @@
     "Comece pelo modelo operacional",
     "inteligência para decisões",
     "operações diárias",
-    "progresso mensurável"
+    "próxima decisão."
   ],
   "it": [
     "ogni turno e ogni sede",
@@ -77,7 +77,7 @@
     "Inizia dal modello operativo",
     "supporto alle decisioni",
     "operazioni quotidiane",
-    "progressi misurabili"
+    "prossima decisione."
   ],
   "pl": [
     "każdej zmiany i każdej lokalizacji",
@@ -87,7 +87,7 @@
     "Zacznij od modelu operacyjnego",
     "wsparcie decyzji",
     "codzienną pracą",
-    "mierzalnym postępem"
+    "kolejną decyzję."
   ],
   "ro": [
     "fiecare schimb și fiecare locație",
@@ -97,7 +97,7 @@
     "Începe cu modelul operațional",
     "sprijin pentru decizii",
     "operațiuni zilnice",
-    "progres măsurabil"
+    "următoarea decizie."
   ],
   "sv": [
     "varje skift och varje plats",
@@ -107,7 +107,7 @@
     "Börja med driftsmodellen",
     "beslutsstöd",
     "daglig drift",
-    "mätbar framgång"
+    "nästa beslut."
   ],
   "tr": [
     "Her vardiya ve her lokasyon",
@@ -117,7 +117,7 @@
     "İşletme modelinden başlayın",
     "karar zekâsı",
     "günlük operasyonlar",
-    "ölçülebilir ilerlemeyle"
+    "sonraki karara"
   ],
   "hi": [
     "हर शिफ्ट और हर लोकेशन",
@@ -127,7 +127,7 @@
     "ऑपरेटिंग मॉडल से शुरू करें",
     "निर्णय के लिए अंतर्दृष्टि",
     "रोज़मर्रा के संचालन",
-    "नापे जाने वाली प्रगति"
+    "अगले निर्णय"
   ],
   "ur": [
     "ہر شفٹ اور ہر مقام",
@@ -137,7 +137,7 @@
     "آپریٹنگ ماڈل سے شروع کریں",
     "فیصلہ سازی کی بصیرت",
     "روزمرہ کے کام",
-    "قابلِ پیمائش ترقی"
+    "اگلے فیصلے"
   ],
   "bn": [
     "প্রতিটি শিফট ও প্রতিটি লোকেশনের",
@@ -147,7 +147,7 @@
     "অপারেটিং মডেল থেকেই শুরু করুন",
     "সিদ্ধান্তের অন্তর্দৃষ্টি",
     "দৈনন্দিন পরিচালনা",
-    "পরিমাপযোগ্য অগ্রগতির"
+    "পরের সিদ্ধান্তে"
   ],
   "zh-Hans": [
     "每个班次与每个门店",
@@ -157,7 +157,7 @@
     "从运营模型开始",
     "决策智能",
     "日常运营",
-    "可衡量进展"
+    "下一项决策。"
   ],
   "ja": [
     "すべてのシフトとすべての拠点",
@@ -167,7 +167,7 @@
     "まず運用モデルから",
     "意思決定支援",
     "日々の業務運営",
-    "測定できる進捗"
+    "次の判断"
   ],
   "ko": [
     "모든 근무교대와 모든 지점",
@@ -177,7 +177,7 @@
     "운영 모델에서 시작하세요",
     "의사결정 지원",
     "일상 운영",
-    "측정 가능한 진전"
+    "다음 결정"
   ],
   "id": [
     "setiap shift dan setiap lokasi",
@@ -187,7 +187,7 @@
     "Mulai dengan model operasi",
     "kecerdasan keputusan",
     "operasional harian",
-    "kemajuan yang terukur"
+    "keputusan berikutnya."
   ],
   "vi": [
     "mọi ca và mọi địa điểm",
@@ -197,7 +197,7 @@
     "Bắt đầu từ mô hình vận hành",
     "hỗ trợ quyết định",
     "vận hành hằng ngày",
-    "tiến triển đo được"
+    "quyết định tiếp theo."
   ],
   "th": [
     "ทุกกะและทุกสาขา",
@@ -207,7 +207,7 @@
     "เริ่มจากโมเดลการปฏิบัติการ",
     "ข้อมูลช่วยตัดสินใจ",
     "การดำเนินงานประจำวัน",
-    "ความก้าวหน้าที่วัดได้"
+    "การตัดสินใจครั้งถัดไป"
   ],
   "ms": [
     "setiap syif dan setiap lokasi",
@@ -217,6 +217,6 @@
     "Mula dengan model operasi",
     "maklumat untuk keputusan",
     "operasi harian",
-    "kemajuan yang boleh diukur"
+    "keputusan seterusnya."
   ]
 }

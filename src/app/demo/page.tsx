@@ -1,3 +1,5 @@
+import openingCopy from '@/content/operator-openings.json'
+import { OperatorOpeningTitle } from '@/components/ui/OperatorOpeningTitle'
 import { operatorWorkflowCopy } from '@/lib/operatorWorkflowCopy';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { decodePricingIntent } from "@/lib/pricingIntent";
@@ -16,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
   return {
     title: operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].shared.primaryCta,
-    description: operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].brand.productDescription,
+    description: openingCopy[locale as keyof typeof openingCopy].demoDescription,
   };
 }
 
@@ -27,19 +29,19 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
   const copy = getWebsiteMessages(locale).pages.demo;
   const workflowCopy = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy];
   const commercial = getCommercialCopy(locale);
+  const opening = openingCopy[locale as keyof typeof openingCopy];
   const workflowKey = typeof params.workflow === 'string' && Object.hasOwn(workflowCopy.pages, params.workflow) ? params.workflow as keyof typeof workflowCopy.pages : null;
   const requestMessage = workflowKey ? `${workflowCopy.pages[workflowKey].title} — ${workflowCopy.shared.primaryCta}` : workflowCopy.shared.primaryCta;
   const positioning = {
     ...getPositioningCopy(locale).critical,
-    demoTitle: workflowCopy.shared.primaryCta,
-    demoDescription: `${workflowCopy.brand.productDescription} ${commercial.sampleWalkthrough}`,
-    demoRequestDescription: commercial.sampleWalkthrough,
-    demoWhatTitle: workflowCopy.brand.productTitle,
-    demoWhatDescription: workflowCopy.brand.productDescription,
+    demoTitle: opening.demoTitle,
+    demoDescription: opening.demoDescription,
+    demoWhatTitle: opening.sharedTitle,
+    demoWhatDescription: opening.sharedDescription,
   };
   const benefits = [
-    { title: 'Sundae Crew', description: workflowCopy.brand.crewDescription, details: workflowCopy.shared.steps.slice(0, 2) },
-    { title: 'Sundae Core', description: workflowCopy.brand.coreDescription, details: workflowCopy.shared.steps.slice(2) },
+    { title: 'Sundae Crew', description: opening.crewDescription, details: workflowCopy.shared.steps.slice(0, 2) },
+    { title: 'Sundae Core', description: opening.coreDescription, details: workflowCopy.shared.steps.slice(2) },
     { title: workflowCopy.shared.connectedEyebrow, description: commercial.packageScope, details: [commercial.sampleWalkthrough] },
   ];
 
@@ -48,22 +50,9 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--warm-coral)] mb-4">{copy.badge}</span>
-          {/* Keep each sentence atomic so line breaks fall BETWEEN sentences
-              (e.g. "Real Answers." never splits across rows) - handles Latin and
-              CJK/Arabic punctuation. Titles with no sentence boundaries (e.g. Thai)
-              fall back to normal wrapping so they never overflow. */}
-          <h1 className="hero-h1 text-[var(--text-primary)] mb-6 text-balance">
-            {(() => {
-              const parts = positioning.demoTitle.split(/(?<=[.!?。！？؟])\s*/).filter(Boolean);
-              if (parts.length <= 1) return positioning.demoTitle;
-              return parts.map((sentence, i) => (
-                <span key={i} className="inline-block whitespace-nowrap">
-                  {sentence}
-                  {i < parts.length - 1 ? "\u00A0" : ""}
-                </span>
-              ));
-            })()}
+          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--warm-coral)] mb-4">{workflowCopy.brand.eyebrow}</span>
+          <h1 className="hero-h1 mb-6 text-balance">
+            <OperatorOpeningTitle text={positioning.demoTitle} accent="Sundae" />
           </h1>
           <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
             {positioning.demoDescription}
@@ -78,15 +67,13 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               {copy.requestTitle}
             </h2>
-            <p className="body-lg text-[var(--text-supporting)]">
-              {positioning.demoRequestDescription}
-            </p>
           </div>
 
           <LeadCaptureForm
             ctaLabel={copy.ctaLabel}
             defaultMessage={requestMessage}
             pricingIntent={pricingIntent ?? undefined}
+            reassurance={commercial.sampleWalkthrough}
           />
         </div>
       </section>
@@ -96,7 +83,7 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              {positioning.demoWhatTitle}
+              <OperatorOpeningTitle text={positioning.demoWhatTitle} accent={opening.sharedAccent} />
             </h2>
             <p className="body-lg text-[var(--text-supporting)]">
               {positioning.demoWhatDescription}

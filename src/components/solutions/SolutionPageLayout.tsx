@@ -94,10 +94,10 @@ export function SolutionPageLayout({
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
                 <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)]">{copy.badge}</span>
               </motion.div>
-              <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance" aria-label={`${copy.titleLine1} ${copy.titleLine2}`}>
+              <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance [overflow-wrap:anywhere] hyphens-auto" aria-label={`${copy.titleLine1} ${copy.titleLine2}`}>
                 <span className="text-[var(--text-primary)]">{copy.titleLine1}</span>{" "}
                 <br />
-                <span className="italic text-[#F6C66B]">{copy.titleLine2}</span>
+                <span className="italic text-[var(--text-warm)]">{copy.titleLine2}</span>
               </motion.h1>
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-8">
                 {copy.description}

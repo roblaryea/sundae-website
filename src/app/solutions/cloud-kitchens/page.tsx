@@ -1,5 +1,7 @@
 "use client";
 
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
+
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
@@ -156,6 +158,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 
 export default function CloudKitchensPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const opening = getOperatorAudienceCopy(locale);
+  const sourceOpeningCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const copy = { ...sourceOpeningCopy, description: opening.cloud, titleLine1: opening.cloudLine1, titleLine2: opening.cloudLine2 };
   return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/insights-revenue-dark.png" light="/images/product/2026-fresh/insights-revenue.png" alt="Revenue Intelligence - revenue, average check, and RevPASH unified across every delivery platform and brand" />} gallery={<SectionProductGallery defaultPersona="operations" />} />;
 }

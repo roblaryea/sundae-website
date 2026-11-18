@@ -1,5 +1,7 @@
 'use client';
 
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
+
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
@@ -239,7 +241,9 @@ const localized4DCopy = {
 
 export default function FourDIntelligencePage() {
   const { locale } = useWebsiteI18n();
-  const ui = localized4DCopy[locale as keyof typeof localized4DCopy] ?? getGeneratedLocalCopy(localized4DCopy, generatedLocalCopy.localized4DCopy, locale) ?? localized4DCopy.en;
+  const opening = getOperatorAudienceCopy(locale);
+  const sourceOpeningCopy = localized4DCopy[locale as keyof typeof localized4DCopy] ?? getGeneratedLocalCopy(localized4DCopy, generatedLocalCopy.localized4DCopy, locale) ?? localized4DCopy.en;
+  const ui = { ...sourceOpeningCopy, heroDescription: opening.fourD };
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

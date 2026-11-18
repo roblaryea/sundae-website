@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getOperatorAudienceDescription } from '@/lib/operatorAudienceCopy';
 import {
   getLocalizedPathname,
   type WebsiteLocale,
@@ -84,9 +85,10 @@ export function buildResolvedPageMetadata({
   locale,
   pathname,
   title,
-  description,
+  description: fallbackDescription,
 }: BuildResolvedSolutionPageMetadataOptions): Metadata {
   const localizedPathname = getLocalizedPathname(pathname, locale);
+  const description = getOperatorAudienceDescription(locale, pathname) ?? fallbackDescription;
 
   return {
     title: title.includes('Sundae') ? { absolute: title } : title,
@@ -99,7 +101,7 @@ export function buildResolvedPageMetadata({
       url: localizedPathname,
       images: [
         {
-          url: "/logos/og-card.png",
+          url: "/logos/og-operations.png",
           width: 1200,
           height: 630,
           alt: title,
@@ -110,7 +112,7 @@ export function buildResolvedPageMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: ["/logos/og-card.png"],
+      images: ["/logos/og-operations.png"],
     },
   };
 }

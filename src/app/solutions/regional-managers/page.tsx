@@ -1,5 +1,7 @@
 "use client";
 
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
+
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
@@ -157,9 +159,11 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 
 export default function RegionalManagersPage() {
   const { locale } = useWebsiteI18n();
+  const opening = getOperatorAudienceCopy(locale);
   const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const copy = {
     ...sourceCopy,
+    description: opening.regional,
     challenges: sourceCopy.challenges.map((challenge, index) =>
       index === 1
         ? { ...challenge, title: getPositioningCopy(locale).critical.regionalVariationTitle }

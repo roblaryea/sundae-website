@@ -83,18 +83,20 @@ export function PageHero({
   title,
   description,
   children,
+  compactMobileTop = false,
 }: {
   badge?: string;
   title: React.ReactNode;
   description: string;
   children?: React.ReactNode;
+  compactMobileTop?: boolean;
 }) {
   return (
     <section className="relative overflow-hidden bg-mesh">
       {/* Subtle radial glow */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.08),transparent_70%)]" />
 
-      <div className="relative z-10 max-w-5xl mx-auto px-6 pt-32 pb-20 text-center">
+      <div className={`relative z-10 max-w-5xl mx-auto px-6 pb-20 text-center ${compactMobileTop ? 'pt-[5.5rem] sm:pt-32' : 'pt-32'}`}>
         {badge && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}

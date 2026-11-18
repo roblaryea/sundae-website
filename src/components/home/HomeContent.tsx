@@ -25,6 +25,7 @@ import { Section4DScene } from "./sections/Section4DScene";
 import { SectionCrewSubstrate } from "./sections/SectionCrewSubstrate";
 import { HomeScrollSpine, type HomeChapter } from "./HomeScrollSpine";
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import { getHomeAboutAlignment } from '@/lib/homeAboutAlignment';
 import proofCopy from '@/content/workflow-proof.json';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 
@@ -78,11 +79,12 @@ import { SectionTrustStrip } from "./sections/SectionTrustStrip";
 
 export default function HomeContent() {
   const { messages, locale } = useWebsiteI18n();
-  const home = messages.home;
+  const alignment = getHomeAboutAlignment(locale);
+  const home = { ...messages.home, titleTop: alignment.liveTitleTop, titleBottom: alignment.liveTitleBottom, subheadline: alignment.liveSupport };
   const sourceEditorial = editorialCopy[locale as keyof typeof editorialCopy] ?? editorialCopy.en;
   const editorial: EditorialCopy = {
     ...sourceEditorial,
-    band1: { ...sourceEditorial.band1, headline: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.editorialHeadline },
+    band1: { ...sourceEditorial.band1, headline: alignment.editorialHeadline, sub: alignment.editorialSupport },
   };
   const commercial = getCommercialCopy(locale);
   const platform = { ...home.platform, layers: home.platform.layers.map(layer => layer.name === 'Watchtower' ? { ...layer, description: commercial.watchtowerEligibility } : layer) };

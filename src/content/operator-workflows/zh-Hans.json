@@ -2,8 +2,8 @@
   "brand": {
     "title": "Sundae | 酒店与餐饮运营管理",
     "description": "管理多门店酒店与餐饮运营的班次、人员、任务与绩效。将日常工作与决策及可度量的利润恢复挂钩。",
-    "eyebrow": "酒店与餐饮运营管理",
-    "sub": "管理每个地点的每个班次。Sundae 将排班、出勤、任务与交接与运营数据连接——让团队知道下一步该做什么，并能衡量变化。",
+    "eyebrow": "面向餐饮与食品服务的运营管理",
+    "sub": "安排班次、管理日常工作，理解销售、成本和需求的变化。Sundae 将经营数据与相关市场背景结合，说明哪里需要关注，帮助团队行动并跟踪各门店的结果。",
     "productTitle": "一个平台。将日常工作转为可衡量决策。",
     "productDescription": "把人员、班次执行与关联的运营数据整合为单一运营视图。Crew 帮助团队执行工作；Core 帮助他们理解绩效、决定下一步并衡量结果。",
     "coreDescription": "面向多门店酒店与餐饮团队的决策工作空间。连接运营数据、审查证据、分配后续行动并衡量结果。",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | 面向酒店与餐饮的决策工作空间",
     "crewMetaTitle": "Sundae Crew | 人员与日常运营",
     "illustrationDisclosure": "示意示例，非客户实际成果。",
-    "homeHeadline": "让每个班次顺利进行。",
-    "homeTagline": "提升每一家门店。",
+    "homeHeadline": "看清每一层。",
+    "homeTagline": "及时行动。",
     "coreHeadline": "更好决策，可量化成效。",
     "crewHeadline": "管理你的团队。",
     "crewTagline": "掌控班次运作。",
-    "editorialHeadline": "把日常工作与可衡量进展连接起来。"
+    "editorialHeadline": "把日常工作变成下一项决策。",
+    "homeLiveTitleTop": "看见班次如何展开。",
+    "homeLiveTitleBottom": "知道下一步做什么。",
+    "homeLiveSupport": "销售、人力和损耗的实时信号显示班次进行中哪里需要关注。",
+    "editorialSupport": "汇集班次记录、销售和成本数据，让团队理解重点、采取行动并检查结果。"
   },
   "shared": {
     "primaryCta": "预约演示",

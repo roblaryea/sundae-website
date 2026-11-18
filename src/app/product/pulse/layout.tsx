@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildResolvedPageMetadata } from "@/lib/solutionPageMetadata";
 import { cookies } from "next/headers";
 import { resolveWebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -42,13 +43,10 @@ const copy = {
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
   const page = copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
+  const metadata = buildResolvedPageMetadata({ locale, pathname: "/product/pulse", title: page.title, description: page.description });
   return {
-    title: page.title,
-    description: page.description,
-    openGraph: {
-      title: page.openGraphTitle,
-      description: page.openGraphDescription,
-    },
+    ...metadata,
+    openGraph: { ...metadata.openGraph, title: page.openGraphTitle, description: page.openGraphDescription },
   };
 }
 

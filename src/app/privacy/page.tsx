@@ -7,7 +7,7 @@ import { getLocalizedPolicy } from "@/lib/legal/localized-policy";
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
   const policy = getLocalizedPolicy(locale, "privacy");
-  return { title: `${policy.title} | Sundae`, description: policy.description, robots: { index: true, follow: true } };
+  return { title: policy.title, description: policy.description, robots: { index: true, follow: true } };
 }
 
 export default async function PrivacyPage() {

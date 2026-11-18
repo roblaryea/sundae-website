@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildResolvedPageMetadata } from "@/lib/solutionPageMetadata";
 import { cookies } from "next/headers";
 import { getPositioningCopy } from '@/lib/positioningCopy';
 import { resolveWebsiteLocale } from "@/lib/i18n";
@@ -19,11 +20,8 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraphTitle: `${copy.title} ${copy.titleAccent}`,
     openGraphDescription: copy.ctaDescription,
   };
-  return {
-    title: c.title,
-    description: c.description,
-    openGraph: { title: c.openGraphTitle, description: c.openGraphDescription },
-  };
+  const metadata = buildResolvedPageMetadata({ locale, pathname: "/product/recovery", title: c.title, description: c.description });
+  return { ...metadata, openGraph: { ...metadata.openGraph, title: c.openGraphTitle, description: c.openGraphDescription } };
 }
 
 export default function RecoveryLayout({ children }: { children: React.ReactNode }) {

@@ -1,4 +1,5 @@
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import { getOperatorAudienceDescription } from '@/lib/operatorAudienceCopy';
 import type { WebsiteLocale } from '@/lib/i18n';
 import { generatedLocalCopy } from '@/generated-locales/lib_page_titles';
 import { resolveLocalizedPageDescription } from '@/lib/localizedPageDescriptions';
@@ -124,6 +125,8 @@ export function resolvePageTitle(path: string, locale: WebsiteLocale): string | 
 }
 
 export function resolvePageDescription(path: string, locale: WebsiteLocale): string | null {
+  const opening = getOperatorAudienceDescription(locale, path);
+  if (opening) return opening;
   const brand = operatorNavigationCopy[locale].brand;
   if (path === '/product') return brand.productDescription;
   if (path === '/core') return brand.coreDescription;

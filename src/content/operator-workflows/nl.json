@@ -2,8 +2,8 @@
   "brand": {
     "title": "Sundae | Operations Management voor hospitality en foodservice",
     "description": "Beheer shifts, personeel, taken en prestaties over multi-locatie hospitality- en foodservice-operaties. Verbind dagelijks werk met beslissingen en gemeten winstterugvordering.",
-    "eyebrow": "Operations management voor hospitality en foodservice",
-    "sub": "Laat elke shift op elke locatie draaien. Sundae verbindt roostering, aanwezigheid, taken en overdrachten met operationele data - zodat teams weten wat ze daarna moeten doen en kunnen meten wat er veranderde.",
+    "eyebrow": "Operationeel management voor horeca en foodservice",
+    "sub": "Plan diensten, beheer dagelijks werk en begrijp veranderingen in omzet, kosten en vraag. Sundae combineert operationele data met relevante marktcontext om te tonen wat aandacht nodig heeft, teams te helpen handelen en het resultaat over locaties te volgen.",
     "productTitle": "Één platform. Dagelijks werk naar gemeten beslissingen.",
     "productDescription": "Breng personeel, shiftuitvoering en verbonden operationele data samen in één operationeel overzicht. Crew helpt teams het werk uit te voeren; Core helpt hen prestaties te begrijpen, te beslissen wat te doen en het resultaat te meten.",
     "coreDescription": "De beslissingswerkruimte voor multi-locatie hospitality- en foodservice-teams. Verbind operationele data, controleer het bewijs, wijs de volgende actie toe en meet het resultaat.",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | Decision Workspace voor hospitality en foodservice",
     "crewMetaTitle": "Sundae Crew | Personeel en dagelijkse operaties",
     "illustrationDisclosure": "Illustratief voorbeeld, geen klantresultaat.",
-    "homeHeadline": "Draai elke shift.",
-    "homeTagline": "Verbeter elke locatie.",
+    "homeHeadline": "Zie elke laag.",
+    "homeTagline": "Kom op tijd in actie.",
     "coreHeadline": "Betere keuzes. Meetbare resultaten.",
     "crewHeadline": "Regel je team.",
     "crewTagline": "Draai de shift.",
-    "editorialHeadline": "Verbind dagelijks werk met meetbare vooruitgang."
+    "editorialHeadline": "Maak van dagelijks werk de volgende beslissing.",
+    "homeLiveTitleTop": "Zie de dienst zich ontvouwen.",
+    "homeLiveTitleBottom": "Weet wat de volgende stap is.",
+    "homeLiveSupport": "Live signalen voor omzet, personeel en verlies tonen waar aandacht nodig is terwijl de dienst nog loopt.",
+    "editorialSupport": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren."
   },
   "shared": {
     "primaryCta": "Plan een walkthrough",

@@ -1,5 +1,7 @@
 'use client';
 
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
+
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { CrewModulePage } from '@/components/crew/CrewModulePage';
 import { PhoneCarousel } from '@/components/ui/PhoneCarousel';
@@ -12,7 +14,9 @@ import { generatedLocalCopy } from '@/generated-locales/app_crew_scheduling_page
 
 export default function CrewSchedulingPage() {
   const { locale } = useWebsiteI18n();
-  const copy = getGeneratedLocalCopy(schedulingCopy, generatedLocalCopy.copy, locale) ?? schedulingCopy.en;
+  const opening = getOperatorAudienceCopy(locale);
+  const sourceOpeningCopy = getGeneratedLocalCopy(schedulingCopy, generatedLocalCopy.copy, locale) ?? schedulingCopy.en;
+  const copy = { ...sourceOpeningCopy, description: opening.scheduling };
 
   return (
     <CrewModulePage
