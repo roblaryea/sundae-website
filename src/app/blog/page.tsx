@@ -12,6 +12,7 @@ import { getLocalizedPathname, type RequiredEnglishLocalizedRecord } from '@/lib
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_blog_page'
+import supportPageOpenings from '@/content/support-page-openings.json';
 
 type BlogPageCopy = {
   badge: string;
@@ -127,6 +128,7 @@ const localizedBlogPageCopy: RequiredEnglishLocalizedRecord<BlogPageCopy> = {
 
 export default function BlogPage() {
   const { locale } = useWebsiteI18n();
+  const opening = supportPageOpenings[locale as keyof typeof supportPageOpenings].blog;
   const [selectedCategory, setSelectedCategory] = useState<BlogCategory | 'All'>('All');
   const copy = localizedBlogPageCopy[locale as keyof typeof localizedBlogPageCopy] ?? getGeneratedLocalCopy(localizedBlogPageCopy, generatedLocalCopy.localizedBlogPageCopy, locale) ?? localizedBlogPageCopy.en;
   const localizedPosts = getLocalizedBlogPosts(locale);
@@ -159,8 +161,8 @@ export default function BlogPage() {
       {/* Hero Section */}
       <PageHero
         badge={copy.badge}
-        title={copy.title}
-        description={copy.description}
+        title={opening.title}
+        description={opening.description}
       />
 
       {/* Category Filter */}

@@ -8,6 +8,7 @@ import { resolveWebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_careers_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
+import supportPageOpenings from '@/content/support-page-openings.json';
 
 const careersCopy = {
   en: {
@@ -172,10 +173,11 @@ export default async function CareersPage() {
   const locale = resolveWebsiteLocale(await cookies());
   const ui = careersCopy[locale as keyof typeof careersCopy] ?? getGeneratedLocalCopy(careersCopy, generatedLocalCopy.careersCopy, locale) ?? careersCopy.en;
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
+  const opening = supportPageOpenings[locale as keyof typeof supportPageOpenings].careers;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={ui.badge} title={ui.title} description={ui.description}>
+      <PageHero badge={ui.badge} title={opening.title} description={opening.description}>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="#open-positions">
             <Button variant="primary" size="lg">{ui.heroPrimary}</Button>
