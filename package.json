@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/verify-production-trace.mjs",
     "prebuild": "npm run qa:i18n && npm run qa:translation && npm run qa:diagnostic-i18n && npm run qa:positioning",
     "start": "next start",
     "lint": "eslint",
@@ -40,7 +41,6 @@
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.6.1",
     "@react-three/postprocessing": "^3.0.4",
-    "@sentry/nextjs": "^10.76.2",
     "@vercel/analytics": "^1.6.1",
     "ai": "^6.0.193",
     "botid": "^1.5.11",
@@ -69,6 +69,7 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "~16.3.8",
+    "@sentry/nextjs": "^10.76.2",
     "fast-glob": "file:tooling/next-lint-glob",
     "puppeteer-core": "^25.2.1",
     "tailwindcss": "^4",
