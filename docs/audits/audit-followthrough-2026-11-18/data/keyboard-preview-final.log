@@ -1,0 +1,12 @@
+### Result
+[{"locale":"en","key":"End","active":"true","focus":"persona-tab-tech"},{"locale":"en","key":"ArrowRight","active":"true","focus":"persona-tab-cfo","tabStops":1,"overflow":false},{"locale":"de","key":"End","active":"true","focus":"persona-tab-tech"},{"locale":"de","key":"ArrowRight","active":"true","focus":"persona-tab-cfo","tabStops":1,"overflow":false},{"locale":"ar","key":"End","active":"true","focus":"persona-tab-tech"},{"locale":"ar","key":"ArrowLeft","active":"true","focus":"persona-tab-cfo","tabStops":1,"overflow":false}]
+### Ran Playwright code
+```js
+await (async page => {const rows=[]; for (const locale of ["en","de","ar"]) {await page.goto(`http://localhost:3137/${locale==="en"?"":locale}`); const tabs=page.getByRole("tab"); await tabs.nth(0).press("End"); rows.push({locale,key:"End",active:await tabs.nth(5).getAttribute("aria-selected"),focus:await page.evaluate(()=>document.activeElement?.id)}); await tabs.nth(5).press("Home"); await tabs.nth(0).press(locale==="ar"?"ArrowLeft":"ArrowRight"); rows.push({locale,key:locale==="ar"?"ArrowLeft":"ArrowRight",active:await tabs.nth(1).getAttribute("aria-selected"),focus:await page.evaluate(()=>document.activeElement?.id),tabStops:await tabs.evaluateAll(nodes=>nodes.filter(n=>n.tabIndex===0).length),overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)});} return rows;})(page);
+```
+### Page
+- Page URL: http://localhost:3137/ar
+- Page Title: Sundae | إدارة العمليات للضيافة وخدمات الطعام
+- Console: 2 errors, 0 warnings
+### Events
+- New console entries: .playwright-cli/console-2026-11-18T13-00-53-620Z.log#L7-L18

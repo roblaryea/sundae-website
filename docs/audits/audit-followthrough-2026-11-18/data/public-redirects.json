@@ -1,0 +1,272 @@
+{
+  "checkedAt": "2026-11-18T13:15:44.319266+00:00",
+  "applicationSource": "7bddfd0aa15bac326f8a0037c93e695b5eea1886",
+  "cases": 44,
+  "pass": true,
+  "rows": [
+    {
+      "path": "/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only",
+      "pass": true
+    },
+    {
+      "path": "/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only",
+      "pass": true
+    },
+    {
+      "path": "/ar/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ar",
+      "pass": true
+    },
+    {
+      "path": "/ar/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ar",
+      "pass": true
+    },
+    {
+      "path": "/fr/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=fr",
+      "pass": true
+    },
+    {
+      "path": "/fr/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=fr",
+      "pass": true
+    },
+    {
+      "path": "/es/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=es",
+      "pass": true
+    },
+    {
+      "path": "/es/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=es",
+      "pass": true
+    },
+    {
+      "path": "/de/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=de",
+      "pass": true
+    },
+    {
+      "path": "/de/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=de",
+      "pass": true
+    },
+    {
+      "path": "/nl/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=nl",
+      "pass": true
+    },
+    {
+      "path": "/nl/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=nl",
+      "pass": true
+    },
+    {
+      "path": "/pt/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=pt",
+      "pass": true
+    },
+    {
+      "path": "/pt/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=pt",
+      "pass": true
+    },
+    {
+      "path": "/hi/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=hi",
+      "pass": true
+    },
+    {
+      "path": "/hi/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=hi",
+      "pass": true
+    },
+    {
+      "path": "/ur/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ur",
+      "pass": true
+    },
+    {
+      "path": "/ur/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ur",
+      "pass": true
+    },
+    {
+      "path": "/it/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=it",
+      "pass": true
+    },
+    {
+      "path": "/it/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=it",
+      "pass": true
+    },
+    {
+      "path": "/pl/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=pl",
+      "pass": true
+    },
+    {
+      "path": "/pl/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=pl",
+      "pass": true
+    },
+    {
+      "path": "/tr/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=tr",
+      "pass": true
+    },
+    {
+      "path": "/tr/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=tr",
+      "pass": true
+    },
+    {
+      "path": "/zh-Hans/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=zh-Hans",
+      "pass": true
+    },
+    {
+      "path": "/zh-Hans/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=zh-Hans",
+      "pass": true
+    },
+    {
+      "path": "/ja/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ja",
+      "pass": true
+    },
+    {
+      "path": "/ja/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ja",
+      "pass": true
+    },
+    {
+      "path": "/ko/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ko",
+      "pass": true
+    },
+    {
+      "path": "/ko/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ko",
+      "pass": true
+    },
+    {
+      "path": "/id/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=id",
+      "pass": true
+    },
+    {
+      "path": "/id/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=id",
+      "pass": true
+    },
+    {
+      "path": "/vi/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=vi",
+      "pass": true
+    },
+    {
+      "path": "/vi/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=vi",
+      "pass": true
+    },
+    {
+      "path": "/ro/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ro",
+      "pass": true
+    },
+    {
+      "path": "/ro/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ro",
+      "pass": true
+    },
+    {
+      "path": "/sv/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=sv",
+      "pass": true
+    },
+    {
+      "path": "/sv/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=sv",
+      "pass": true
+    },
+    {
+      "path": "/bn/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=bn",
+      "pass": true
+    },
+    {
+      "path": "/bn/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=bn",
+      "pass": true
+    },
+    {
+      "path": "/th/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=th",
+      "pass": true
+    },
+    {
+      "path": "/th/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=th",
+      "pass": true
+    },
+    {
+      "path": "/ms/pricing",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ms",
+      "pass": true
+    },
+    {
+      "path": "/ms/pricing/simulator",
+      "status": 308,
+      "destination": "https://pricing.sundae.io/simulator?cfg=eyJ2IjoyLCJsYXllciI6ImNvcmUiLCJjb3JlUGFja2FnZSI6ImNvcmVfZ3Jvd3RoIiwibG9jYXRpb25zIjozLCJhZGRPbnMiOltdLCJ3YXRjaHRvd2VyTW9kdWxlcyI6W10sImNyZXdTa3VzIjpbXSwiY3Jvc3NJbnRlbGxpZ2VuY2UiOiJub25lIiwiYmlsbGluZ0N5Y2xlIjoibW9udGhseSIsIm9wZXJhdGluZ01vZGVscyI6W119&utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118&gclid=qa-only&lang=ms",
+      "pass": true
+    }
+  ]
+}

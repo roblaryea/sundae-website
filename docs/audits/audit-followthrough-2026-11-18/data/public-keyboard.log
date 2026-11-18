@@ -1,0 +1,9 @@
+### Result
+{"url":"https://www.sundae.io/ar?utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118","dir":"rtl","selected":"true","focus":"persona-tab-cfo","tabStops":1,"overflow":false}
+### Ran Playwright code
+```js
+await (async page => {await page.goto("https://www.sundae.io/ar?utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118"); const tabs=page.getByRole("tab"); await tabs.nth(0).press("ArrowLeft"); const result={url:page.url(),dir:await page.locator("html").getAttribute("dir"),selected:await tabs.nth(1).getAttribute("aria-selected"),focus:await page.evaluate(()=>document.activeElement?.id),tabStops:await tabs.evaluateAll(nodes=>nodes.filter(n=>n.tabIndex===0).length),overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)}; await page.screenshot({path:"output/seo/audit-followthrough-20261118/public-role-tabs-ar-mobile.png"}); return result;})(page);
+```
+### Page
+- Page URL: https://www.sundae.io/ar?utm_source=internal_qa&utm_medium=qa&utm_campaign=audit_followthrough_20261118
+- Page Title: Sundae | إدارة العمليات للضيافة وخدمات الطعام
