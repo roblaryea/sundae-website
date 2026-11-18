@@ -149,6 +149,7 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
   const labels = {
     ...(LABEL_MAP[locale] ?? getGeneratedLocalCopy(LABEL_MAP, generatedLocalCopy.LABEL_MAP, locale) ?? LABEL_MAP.en),
     product: messages.navbar.products,
+    careers: messages.footer.companyLinks.find(link => link.href === '/careers')?.name ?? 'Careers',
     crew: 'Sundae Crew',
     ...(unlocalizedPathname.startsWith('/solutions/') ? Object.fromEntries([...messages.navbar.solutionsSegments, ...messages.navbar.solutionsRoles].map(link => [link.href.split('/').pop()!, link.name])) : {}),
     ...(unlocalizedPathname.startsWith('/crew/') ? Object.fromEntries(crewNavLocales[locale as keyof typeof crewNavLocales].crewList.map(link => [link.href.split('/').pop()!, link.name])) : {}),

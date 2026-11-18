@@ -21,7 +21,6 @@ type BlogPageCopy = {
   all: string;
   categories: Record<BlogCategory, string>;
   readMore: string;
-  articleCount: (count: number) => string;
   noArticlesTitle: string;
   noArticlesDescription: string;
   browseEnglish: string;
@@ -46,7 +45,6 @@ const localizedBlogPageCopy: RequiredEnglishLocalizedRecord<BlogPageCopy> = {
       Research: 'Research',
     },
     readMore: 'Read More →',
-    articleCount: (count) => `${new Intl.NumberFormat('en-US').format(count)} ${count === 1 ? 'article' : 'articles'}`,
     noArticlesTitle: 'No translated articles yet',
     noArticlesDescription: 'We are still localizing the blog library for this language. You can browse the English blog in the meantime.',
     browseEnglish: 'Browse English Articles',
@@ -69,7 +67,6 @@ const localizedBlogPageCopy: RequiredEnglishLocalizedRecord<BlogPageCopy> = {
       Research: 'البحث',
     },
     readMore: 'اقرأ المزيد ←',
-    articleCount: (count) => `${new Intl.NumberFormat('ar').format(count)} ${count === 1 ? 'مقال' : 'مقالات'}`,
     noArticlesTitle: 'لا توجد مقالات مترجمة بعد',
     noArticlesDescription: 'ما زلنا نترجم مكتبة المدونة لهذه اللغة. يمكنك تصفح المدونة الإنجليزية في الوقت الحالي.',
     browseEnglish: 'تصفح المقالات الإنجليزية',
@@ -92,7 +89,6 @@ const localizedBlogPageCopy: RequiredEnglishLocalizedRecord<BlogPageCopy> = {
       Research: 'Recherche',
     },
     readMore: 'Lire la suite →',
-    articleCount: (count) => `${new Intl.NumberFormat('fr-FR').format(count)} article${count === 1 ? '' : 's'}`,
     noArticlesTitle: 'Aucun article traduit pour le moment',
     noArticlesDescription: "Nous continuons de localiser la bibliothèque du blog pour cette langue. Vous pouvez consulter le blog anglais en attendant.",
     browseEnglish: 'Voir les articles en anglais',
@@ -115,7 +111,6 @@ const localizedBlogPageCopy: RequiredEnglishLocalizedRecord<BlogPageCopy> = {
       Research: 'Investigación',
     },
     readMore: 'Leer más →',
-    articleCount: (count) => `${new Intl.NumberFormat('es-ES').format(count)} artículo${count === 1 ? '' : 's'}`,
     noArticlesTitle: 'Todavía no hay artículos traducidos',
     noArticlesDescription: 'Seguimos localizando la biblioteca del blog para este idioma. Mientras tanto, puedes consultar el blog en inglés.',
     browseEnglish: 'Ver artículos en inglés',
@@ -150,6 +145,9 @@ export default function BlogPage() {
   const filteredPosts = selectedCategory === 'All'
     ? localizedPosts
     : localizedPosts.filter(post => post.category === selectedCategory);
+  const articleForms: Partial<Record<Intl.LDMLPluralRule, string>> = opening.articleCount;
+  const articleCount = (count: number) => (articleForms[new Intl.PluralRules(locale).select(count)] ?? articleForms.other!)
+    .replace('{count}', new Intl.NumberFormat(locale).format(count));
 
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
@@ -184,7 +182,7 @@ export default function BlogPage() {
             ))}
           </div>
           <div className="text-center mt-6 text-[var(--text-supporting)]">
-            {copy.articleCount(filteredPosts.length)}
+            {articleCount(filteredPosts.length)}
           </div>
         </div>
       </section>
