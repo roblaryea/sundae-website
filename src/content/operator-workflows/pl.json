@@ -2,8 +2,8 @@
   "brand": {
     "title": "Sundae | Zarządzanie operacjami w gastronomii i usługach żywieniowych",
     "description": "Zarządzaj zmianami, personelem, zadaniami i wynikami w wielolokalnych operacjach gastronomicznych i żywieniowych. Połącz codzienną pracę z decyzjami i mierzalnym odzyskiem zysku.",
-    "eyebrow": "Zarządzanie operacjami w gastronomii i usługach żywieniowych",
-    "sub": "Prowadź każdą zmianę w każdej lokalizacji. Sundae łącza harmonogramy, obecności, zadania i przekazania zmian z danymi operacyjnymi — tak zespoły wiedzą, co robić dalej i mogą zmierzyć, co się zmieniło.",
+    "eyebrow": "Zarządzanie operacyjne dla gastronomii i food service",
+    "sub": "Planuj zmiany, zarządzaj codzienną pracą i rozumiej zmiany sprzedaży, kosztów oraz popytu. Sundae łączy dane operacyjne z kontekstem rynku, by wyjaśnić, co wymaga uwagi, pomóc zespołom działać i śledzić wynik między lokalami.",
     "productTitle": "Jedna platforma. Codzienna praca do mierzalnych decyzji.",
     "productDescription": "Złącz zasoby ludzkie, realizację zmian i powiązane dane operacyjne w jeden obraz operacyjny. Crew pomaga zespołom wykonać pracę; Core pomaga zrozumieć wyniki, zdecydować, co dalej, i zmierzyć rezultat.",
     "coreDescription": "Przestrzeń decyzyjna dla wielolokalnych zespołów gastronomii i usług żywieniowych. Połącz dane operacyjne, zbadaj dowody, przypisz kolejne działanie i zmierz wynik.",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | Przestrzeń decyzyjna dla gastronomii i usług żywieniowych",
     "crewMetaTitle": "Sundae Crew | Zarządzanie personelem i codzienne operacje",
     "illustrationDisclosure": "Przykład ilustracyjny, nie wynik klienta.",
-    "homeHeadline": "Prowadź każdą zmianę.",
-    "homeTagline": "Usprawniaj każdą salę.",
+    "homeHeadline": "Zobacz każdą warstwę.",
+    "homeTagline": "Działaj na czas.",
     "coreHeadline": "Lepsze decyzje. Namierzalne efekty.",
     "crewHeadline": "Zarządzaj zespołem.",
     "crewTagline": "Prowadź zmianę.",
-    "editorialHeadline": "Powiąż codzienną pracę z mierzalnym postępem."
+    "editorialHeadline": "Zamień codzienną pracę w kolejną decyzję.",
+    "homeLiveTitleTop": "Zobacz przebieg zmiany.",
+    "homeLiveTitleBottom": "Wiedz, co zrobić dalej.",
+    "homeLiveSupport": "Sygnały sprzedaży, personelu i strat na żywo pokazują, gdzie potrzebna jest uwaga podczas trwającej zmiany.",
+    "editorialSupport": "Połącz zapisy zmian, sprzedaż i koszty, by zespoły rozumiały, co wymaga uwagi, działały i sprawdzały wynik."
   },
   "shared": {
     "primaryCta": "Umów prezentację",

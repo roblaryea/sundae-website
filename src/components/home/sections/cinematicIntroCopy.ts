@@ -1,16 +1,12 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
-// Locale copy for the cinematic intro. Everything localizes, including the
-// "Recover the profit. / Prove what worked." headline (native transcreation per locale).
+// Localized CTA and layer labels. Home headlines and support are authored in
+// the reviewed workflow locale files and resolved by getHomeAboutAlignment.
 export type CinematicLayer = { name: string; sub: string };
-export type CinematicIntroCopy = { headline: string; tagline: string; eyebrow: string; sub: string; cta: string; layers: CinematicLayer[] };
+export type CinematicIntroCopy = { cta: string; layers: CinematicLayer[] };
 
 export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
   en: {
-    headline: 'Find the leak.',
-    tagline: 'Recover the profit.',
-    eyebrow: 'Closed-loop profit recovery for multi-location operators',
-    sub: 'Sundae connects every layer - revenue, labor, inventory, guests, marketing, and outlet performance - to find where margin leaks, route the fix to a named owner, and measure the recovery back against a baseline.',
     cta: 'Book a demo',
     layers: [
       { name: 'Foundation', sub: 'org topology' },
@@ -23,10 +19,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ar: {
-    headline: 'اكتشف موضع التسرّب.',
-    tagline: 'واستعِد الربح.',
-    eyebrow: 'استعادة الأرباح بحلقة مغلقة لمشغّلي المواقع المتعددة',
-    sub: 'يربط Sundae كل طبقة - الإيرادات والعمالة والمخزون والضيوف والتسويق وأداء الفروع - ليكتشف أين يتسرّب الهامش، ويوجّه الإصلاح إلى مسؤول محدّد، ويقيس الاستعادة مقابل خط أساس.',
     cta: 'احجز عرضاً',
     layers: [
       { name: 'الأساس', sub: 'هيكل المؤسسة' },
@@ -39,10 +31,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   fr: {
-    headline: 'Trouvez la fuite.',
-    tagline: 'Récupérez le profit.',
-    eyebrow: 'Récupération de profit en boucle fermée pour opérateurs multi-sites',
-    sub: 'Sundae relie chaque couche - revenu, main-d’œuvre, stocks, clients, marketing et performance des points de vente - pour repérer où la marge fuit, confier la correction à un responsable désigné et mesurer la récupération par rapport à une référence.',
     cta: 'Réserver une démo',
     layers: [
       { name: 'Fondation', sub: 'topologie org' },
@@ -55,10 +43,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   es: {
-    headline: 'Encuentra la fuga.',
-    tagline: 'Recupera el beneficio.',
-    eyebrow: 'Recuperación de beneficio en ciclo cerrado para operadores multilocal',
-    sub: 'Sundae conecta cada capa - ingresos, personal, inventario, clientes, marketing y rendimiento de locales - para hallar dónde se fuga el margen, asignar la solución a un responsable concreto y medir la recuperación frente a una base.',
     cta: 'Reservar una demo',
     layers: [
       { name: 'Base', sub: 'topología org' },
@@ -71,10 +55,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   de: {
-    headline: 'Finde das Leck.',
-    tagline: 'Hol den Gewinn zurück.',
-    eyebrow: 'Gewinnrückgewinnung im geschlossenen Kreislauf für Betreiber mit mehreren Standorten',
-    sub: 'Sundae verbindet jede Ebene - Umsatz, Personal, Inventar, Gäste, Marketing und Standortleistung - um zu finden, wo die Marge verloren geht, die Korrektur einem benannten Verantwortlichen zuzuweisen und die Rückgewinnung gegen eine Basislinie zu messen.',
     cta: 'Demo buchen',
     layers: [
       { name: 'Fundament', sub: 'Org-Topologie' },
@@ -87,10 +67,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   nl: {
-    headline: 'Vind het lek.',
-    tagline: 'Herwin de winst.',
-    eyebrow: 'Closed-loop winstherstel voor operators met meerdere vestigingen',
-    sub: 'Sundae verbindt elke laag - omzet, personeel, voorraad, gasten, marketing en vestigingsprestaties - om te vinden waar de marge weglekt, de oplossing bij een benoemde eigenaar te leggen en het herstel af te meten aan een basislijn.',
     cta: 'Demo boeken',
     layers: [
       { name: 'Fundament', sub: 'org-topologie' },
@@ -103,10 +79,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   pt: {
-    headline: 'Ache o vazamento.',
-    tagline: 'Recupere o lucro.',
-    eyebrow: 'Recuperação de lucro em ciclo fechado para operadores multiunidade',
-    sub: 'O Sundae conecta cada camada - receita, equipe, estoque, clientes, marketing e desempenho das unidades - para achar onde a margem vaza, atribuir a correção a um responsável definido e medir a recuperação frente a uma linha de base.',
     cta: 'Agendar demo',
     layers: [
       { name: 'Base', sub: 'topologia org' },
@@ -119,10 +91,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   hi: {
-    headline: 'लीक ढूँढें।',
-    tagline: 'मुनाफ़ा वापस पाएँ।',
-    eyebrow: 'मल्टी-लोकेशन ऑपरेटरों के लिए क्लोज़्ड-लूप प्रॉफ़िट रिकवरी',
-    sub: 'Sundae हर परत को जोड़ता है - रेवेन्यू, लेबर, इन्वेंटरी, मेहमान, मार्केटिंग और आउटलेट परफ़ॉर्मेंस - ताकि पता चले मार्जिन कहाँ रिस रहा है, समाधान किसी तय ज़िम्मेदार को सौंपा जाए और रिकवरी को एक बेसलाइन के मुक़ाबले मापा जाए।',
     cta: 'डेमो बुक करें',
     layers: [
       { name: 'नींव', sub: 'ऑर्ग टोपोलॉजी' },
@@ -135,10 +103,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ur: {
-    headline: 'رساؤ تلاش کریں۔',
-    tagline: 'منافع واپس پائیں۔',
-    eyebrow: 'متعدد مقامات والے آپریٹرز کے لیے کلوزڈ-لوپ منافع کی بازیابی',
-    sub: 'Sundae ہر پرت کو جوڑتا ہے - ریونیو، لیبر، انوینٹری، مہمان، مارکیٹنگ اور آؤٹ لیٹ کارکردگی - تاکہ معلوم ہو مارجن کہاں رِس رہا ہے، حل کسی مقررہ ذمہ دار کو سونپا جائے اور بازیابی کو ایک بنیادی سطح کے مقابلے میں ناپا جائے۔',
     cta: 'ڈیمو بُک کریں',
     layers: [
       { name: 'بنیاد', sub: 'آرگ ٹوپولوجی' },
@@ -151,10 +115,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   it: {
-    headline: 'Trova la falla.',
-    tagline: 'Recupera il profitto.',
-    eyebrow: 'Recupero di profitto a ciclo chiuso per operatori multi-sede',
-    sub: 'Sundae collega ogni livello - ricavi, personale, magazzino, clienti, marketing e performance dei locali - per trovare dove si disperde il margine, affidare la correzione a un responsabile preciso e misurare il recupero rispetto a una baseline.',
     cta: 'Prenota una demo',
     layers: [
       { name: 'Base', sub: 'topologia org' },
@@ -167,10 +127,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   pl: {
-    headline: 'Znajdź przeciek.',
-    tagline: 'Odzyskaj zysk.',
-    eyebrow: 'Odzysk zysku w zamkniętej pętli dla operatorów wielolokalizacyjnych',
-    sub: 'Sundae łączy każdą warstwę - przychód, kadry, magazyn, gości, marketing i wyniki lokali - by znaleźć, gdzie ucieka marża, przypisać naprawę wskazanej osobie i zmierzyć odzysk względem punktu odniesienia.',
     cta: 'Umów demo',
     layers: [
       { name: 'Fundament', sub: 'topologia org' },
@@ -183,10 +139,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   tr: {
-    headline: 'Sızıntıyı bul.',
-    tagline: 'Kârı geri kazan.',
-    eyebrow: 'Çok şubeli işletmeciler için kapalı döngü kâr kurtarma',
-    sub: 'Sundae her katmanı birbirine bağlar - gelir, personel, envanter, misafirler, pazarlama ve şube performansı - marjın nereden sızdığını bulmak, düzeltmeyi belirli bir sorumluya vermek ve kurtarmayı bir referansa göre ölçmek için.',
     cta: 'Demo planlayın',
     layers: [
       { name: 'Temel', sub: 'org topolojisi' },
@@ -199,10 +151,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   'zh-Hans': {
-    headline: '找到漏损。',
-    tagline: '追回利润。',
-    eyebrow: '面向多门店运营者的闭环利润追回',
-    sub: 'Sundae 连接每一层--营收、用工、库存、客人、营销与门店表现--找出利润在哪里流失，把修复指派给明确的负责人，并将追回结果对照基线加以衡量。',
     cta: '预约演示',
     layers: [
       { name: '根基', sub: '组织拓扑' },
@@ -215,10 +163,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ja: {
-    headline: '漏れを見つける。',
-    tagline: '利益を取り戻す。',
-    eyebrow: '多店舗オペレーター向けのクローズドループ利益回収',
-    sub: 'Sundae はあらゆるレイヤー--売上、労務、在庫、ゲスト、マーケティング、店舗パフォーマンス--をつなぎ、マージンがどこで漏れているかを見つけ、修正を担当者に割り当て、回収をベースラインと照らして測定します。',
     cta: 'デモを予約',
     layers: [
       { name: '基盤', sub: '組織トポロジー' },
@@ -231,10 +175,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ko: {
-    headline: '누수를 찾으세요.',
-    tagline: '이익을 되찾으세요.',
-    eyebrow: '다점포 운영자를 위한 폐쇄형 루프 이익 회수',
-    sub: 'Sundae는 모든 계층 - 매출, 인력, 재고, 고객, 마케팅, 매장 성과 - 을 연결해 마진이 어디서 새는지 찾고, 해결을 지정된 담당자에게 맡기며, 회수를 기준선과 대비해 측정합니다.',
     cta: '데모 예약',
     layers: [
       { name: '기반', sub: '조직 구조' },
@@ -247,10 +187,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   id: {
-    headline: 'Temukan kebocoran.',
-    tagline: 'Pulihkan labanya.',
-    eyebrow: 'Pemulihan laba lingkar tertutup untuk operator multi-lokasi',
-    sub: 'Sundae menghubungkan setiap lapisan - pendapatan, tenaga kerja, inventaris, tamu, pemasaran, dan kinerja outlet - untuk menemukan di mana margin bocor, menyerahkan perbaikan ke penanggung jawab yang ditunjuk, dan mengukur pemulihan terhadap garis dasar.',
     cta: 'Pesan demo',
     layers: [
       { name: 'Fondasi', sub: 'topologi org' },
@@ -263,10 +199,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   vi: {
-    headline: 'Tìm chỗ rò rỉ.',
-    tagline: 'Thu lại lợi nhuận.',
-    eyebrow: 'Phục hồi lợi nhuận vòng kín cho nhà điều hành nhiều chi nhánh',
-    sub: 'Sundae kết nối mọi tầng - doanh thu, nhân sự, tồn kho, khách, marketing và hiệu suất chi nhánh - để tìm nơi biên lợi nhuận rò rỉ, giao việc khắc phục cho một người phụ trách cụ thể và đo mức phục hồi so với đường cơ sở.',
     cta: 'Đặt demo',
     layers: [
       { name: 'Nền tảng', sub: 'sơ đồ tổ chức' },
@@ -279,10 +211,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ro: {
-    headline: 'Găsește scurgerea.',
-    tagline: 'Recuperează profitul.',
-    eyebrow: 'Recuperare de profit în buclă închisă pentru operatori multi-locație',
-    sub: 'Sundae conectează fiecare strat - venit, personal, stocuri, clienți, marketing și performanța locațiilor - ca să găsească unde se scurge marja, să atribuie remediul unui responsabil desemnat și să măsoare recuperarea față de o referință.',
     cta: 'Programează un demo',
     layers: [
       { name: 'Fundație', sub: 'topologie org' },
@@ -295,10 +223,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   sv: {
-    headline: 'Hitta läckan.',
-    tagline: 'Ta tillbaka vinsten.',
-    eyebrow: 'Vinståtervinning i sluten loop för operatörer med flera enheter',
-    sub: 'Sundae kopplar ihop varje lager - intäkter, personal, lager, gäster, marknadsföring och enhetsprestanda - för att hitta var marginalen läcker, ge åtgärden till en utsedd ägare och mäta återvinningen mot en baslinje.',
     cta: 'Boka en demo',
     layers: [
       { name: 'Grund', sub: 'org-topologi' },
@@ -311,10 +235,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   bn: {
-    headline: 'লিক খুঁজে বের করুন।',
-    tagline: 'মুনাফা ফিরিয়ে আনুন।',
-    eyebrow: 'মাল্টি-লোকেশন অপারেটরদের জন্য ক্লোজড-লুপ প্রফিট রিকভারি',
-    sub: 'Sundae প্রতিটি স্তর যুক্ত করে - রাজস্ব, কর্মী, ইনভেন্টরি, অতিথি, মার্কেটিং ও আউটলেট পারফরম্যান্স - যাতে খুঁজে পাওয়া যায় মার্জিন কোথায় গলছে, সমাধান নির্দিষ্ট একজন দায়িত্বশীলকে দেওয়া যায় এবং রিকভারি একটি বেসলাইনের বিপরীতে মাপা যায়।',
     cta: 'ডেমো বুক করুন',
     layers: [
       { name: 'ভিত্তি', sub: 'অর্গ টপোলজি' },
@@ -327,10 +247,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   th: {
-    headline: 'หาจุดรั่ว',
-    tagline: 'ทวงกำไรคืน',
-    eyebrow: 'การกู้กำไรแบบวงจรปิดสำหรับผู้ดำเนินการหลายสาขา',
-    sub: 'Sundae เชื่อมทุกชั้น - รายได้ แรงงาน สินค้าคงคลัง ลูกค้า การตลาด และผลงานสาขา - เพื่อค้นหาว่ามาร์จินรั่วตรงไหน มอบการแก้ไขให้ผู้รับผิดชอบที่ระบุชัด และวัดการกู้คืนเทียบกับเส้นฐาน',
     cta: 'จองเดโม',
     layers: [
       { name: 'รากฐาน', sub: 'โครงสร้างองค์กร' },
@@ -343,10 +259,6 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ms: {
-    headline: 'Cari kebocoran.',
-    tagline: 'Dapatkan semula untung.',
-    eyebrow: 'Pemulihan untung gelung tertutup untuk pengendali berbilang lokasi',
-    sub: 'Sundae menghubungkan setiap lapisan - hasil, tenaga kerja, inventori, tetamu, pemasaran dan prestasi outlet - untuk mencari di mana margin bocor, menyerahkan pembetulan kepada pemilik yang ditetapkan dan mengukur pemulihan berbanding garis dasar.',
     cta: 'Tempah demo',
     layers: [
       { name: 'Asas', sub: 'topologi org' },

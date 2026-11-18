@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildResolvedPageMetadata } from "@/lib/solutionPageMetadata";
 import Image from "next/image";
 import { cookies } from "next/headers";
 import { Button } from "@/components/ui/Button";
@@ -14,6 +15,7 @@ import { crewNavLocales } from '@/lib/crewNavLocales'
 import storyCopy from '@/content/platform-story.json'
 import { getCoreNavigation } from '@/lib/coreNavigation'
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
+import { getHomeAboutAlignment } from '@/lib/homeAboutAlignment'
 
 const aboutCopy = {
   en: {
@@ -326,6 +328,7 @@ function getAboutCopy(locale: WebsiteLocale) {
   const source = aboutCopy[locale as keyof typeof aboutCopy] ?? getGeneratedLocalCopy(aboutCopy, generatedLocalCopy.aboutCopy, locale) ?? aboutCopy.en;
   const facts = aboutFacts[locale as keyof typeof aboutFacts];
   const brand = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].brand;
+  const alignment = getHomeAboutAlignment(locale);
   const story = narrative[locale as keyof typeof narrative];
   return {
     ...source,
@@ -333,7 +336,9 @@ function getAboutCopy(locale: WebsiteLocale) {
     metadataDescription: `${brand.productDescription} ${facts.languageProof}`,
     title: story.originTitle,
     description: story.originBody,
-    builtDescription: storyCopy[locale as keyof typeof storyCopy].workReason,
+    builtDescription: alignment.sharedDescription,
+    aboutCoreDescription: alignment.coreDescription,
+    aboutCrewDescription: alignment.crewDescription,
     stats: source.stats.map((stat, index) => index === 3 ? { value: '25', label: facts.languageLabel } : index === 2 ? { ...stat, value: '36+' } : stat),
     values: source.values.map((value, index) => index === 3 ? { ...value, proof: facts.languageProof } : value),
   };
@@ -342,10 +347,7 @@ function getAboutCopy(locale: WebsiteLocale) {
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getAboutCopy(locale);
-  return {
-    title: copy.metadataTitle,
-    description: copy.metadataDescription,
-  };
+  return buildResolvedPageMetadata({ locale, pathname: '/about', title: copy.metadataTitle, description: copy.metadataDescription });
 }
 
 export default async function AboutPage() {
@@ -410,8 +412,8 @@ export default async function AboutPage() {
             <h2 className="section-h2 mb-5">{copy.builtTitle}</h2>
             <p className="body-xl text-[var(--text-supporting)]">{copy.builtDescription}</p>
           </FadeUp>
-          <AboutProductFamily family="core" role={story.coreRole} intro={workflow.brand.coreDescription} capabilities={coreLinks} scope={[commercial.packageScope, commercial.watchtowerEligibility, commercial.foresightCoverage]} locale={locale} />
-          <AboutProductFamily family="crew" role={story.crewRole} intro={workflow.brand.crewDescription} capabilities={crewLinks} scope={[commercial.crewOperationsCoverage, commercial.crewPayrollCoverage, commercial.crewCoverageExclusions]} locale={locale} />
+          <AboutProductFamily family="core" role={story.coreRole} intro={copy.aboutCoreDescription} capabilities={coreLinks} scope={[commercial.packageScope, commercial.watchtowerEligibility, commercial.foresightCoverage]} locale={locale} />
+          <AboutProductFamily family="crew" role={story.crewRole} intro={copy.aboutCrewDescription} capabilities={crewLinks} scope={[commercial.crewOperationsCoverage, commercial.crewPayrollCoverage, commercial.crewCoverageExclusions]} locale={locale} />
         </div>
       </section>
 

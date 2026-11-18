@@ -2,8 +2,8 @@
   "brand": {
     "title": "Sundae | Gestión de operaciones para hostelería y servicios de alimentación",
     "description": "Gestione turnos, personal, tareas y rendimiento en operaciones multi‑localización de hostelería y servicios de alimentación. Conecte el trabajo diario con las decisiones y la recuperación de beneficio medida.",
-    "eyebrow": "Gestión de operaciones para hostelería y servicios de alimentación",
-    "sub": "Gestione cada turno en cada local. Sundae conecta la programación, asistencia, tareas y traspasos con datos operativos: así los equipos saben qué hacer a continuación y pueden medir lo que cambió.",
+    "eyebrow": "Gestión operativa para hostelería y restauración",
+    "sub": "Planifica turnos, gestiona el trabajo diario y entiende los cambios en ventas, costes y demanda. Sundae combina tus datos operativos con contexto de mercado relevante para explicar qué necesita atención, ayudar al equipo a actuar y seguir el resultado entre locales.",
     "productTitle": "Una plataforma. Trabajo diario hacia decisiones medidas.",
     "productDescription": "Reúna personal, ejecución de turnos y datos operativos conectados en una sola visión operativa. Crew ayuda a los equipos a ejecutar el trabajo; Core les ayuda a entender el rendimiento, decidir el siguiente paso y medir el resultado.",
     "coreDescription": "El espacio de decisiones para equipos multi‑localización de hostelería y servicios de alimentación. Conecte datos operativos, examine la evidencia, asigne la siguiente acción y mida el resultado.",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | Espacio de decisiones para hostelería y servicios de alimentación",
     "crewMetaTitle": "Sundae Crew | Personal y operaciones diarias",
     "illustrationDisclosure": "Ejemplo ilustrativo. No es un resultado de cliente.",
-    "homeHeadline": "Dirige cada turno.",
-    "homeTagline": "Mejora cada local.",
+    "homeHeadline": "Ve cada capa.",
+    "homeTagline": "Actúa a tiempo.",
     "coreHeadline": "Mejores decisiones. Resultados medibles.",
     "crewHeadline": "Gestiona a tu equipo.",
     "crewTagline": "Lleva el turno.",
-    "editorialHeadline": "Conecta el trabajo diario con el progreso medible."
+    "editorialHeadline": "Convierte el trabajo diario en la siguiente decisión.",
+    "homeLiveTitleTop": "Ve cómo avanza el turno.",
+    "homeLiveTitleBottom": "Sabe qué hacer después.",
+    "homeLiveSupport": "Las señales en vivo de ventas, personal y fugas muestran dónde actuar mientras el turno sigue en marcha.",
+    "editorialSupport": "Reúne registros de turnos, ventas y costes para entender qué necesita atención, actuar y comprobar el resultado."
   },
   "shared": {
     "primaryCta": "Solicitar una demostración",

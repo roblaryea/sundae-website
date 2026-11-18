@@ -3,7 +3,7 @@
     "title": "Sundae | Pengurusan Operasi untuk Hospitaliti dan Perkhidmatan Makanan",
     "description": "Urus syif, tenaga kerja, tugas dan prestasi merentasi operasi hospitaliti dan perkhidmatan makanan berbilang lokasi. Sambungkan kerja harian kepada keputusan dan pemulihan keuntungan yang diukur.",
     "eyebrow": "Pengurusan operasi untuk hospitaliti dan perkhidmatan makanan",
-    "sub": "Jalankan setiap syif di setiap lokasi. Sundae menyambungkan penjadualan, kehadiran, tugas dan serah-tangan dengan data operasi — supaya pasukan tahu apa yang perlu dilakukan seterusnya dan boleh mengukur apa yang berubah.",
+    "sub": "Rancang syif, urus kerja harian dan fahami perubahan jualan, kos serta permintaan. Sundae menggabungkan data operasi dengan konteks pasaran yang relevan untuk menerangkan perkara yang perlu diberi perhatian, membantu pasukan bertindak dan menjejak hasil merentas lokasi.",
     "productTitle": "Satu platform. Kerja harian kepada keputusan yang diukur.",
     "productDescription": "Satukan tenaga kerja, pelaksanaan syif dan data operasi yang bersambung ke dalam satu gambaran operasi. Crew membantu pasukan menjalankan kerja; Core membantu mereka memahami prestasi, memutuskan langkah seterusnya dan mengukur hasilnya.",
     "coreDescription": "Ruang kerja keputusan untuk pasukan hospitaliti dan perkhidmatan makanan berbilang lokasi. Sambungkan data operasi, periksa bukti, tugaskan tindakan seterusnya dan ukur hasilnya.",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitaliti dan Perkhidmatan Makanan",
     "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
     "illustrationDisclosure": "Contoh ilustrasi, bukan hasil sebenar pelanggan.",
-    "homeHeadline": "Urus setiap syif.",
-    "homeTagline": "Tingkatkan setiap lokasi.",
+    "homeHeadline": "Lihat setiap lapisan.",
+    "homeTagline": "Bertindak tepat pada masanya.",
     "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
     "crewHeadline": "Urus pasukan anda.",
     "crewTagline": "Jalankan syif.",
-    "editorialHeadline": "Hubungkan kerja harian kepada kemajuan yang boleh diukur."
+    "editorialHeadline": "Jadikan kerja harian keputusan seterusnya.",
+    "homeLiveTitleTop": "Lihat syif yang sedang berjalan.",
+    "homeLiveTitleBottom": "Tahu langkah seterusnya.",
+    "homeLiveSupport": "Isyarat langsung jualan, tenaga kerja dan kebocoran menunjukkan perkara yang memerlukan perhatian ketika syif masih berjalan.",
+    "editorialSupport": "Satukan rekod syif, jualan dan kos supaya pasukan memahami perkara yang perlu diberi perhatian, bertindak dan menyemak hasil."
   },
   "shared": {
     "primaryCta": "Tempah sesi tunjuk cara",

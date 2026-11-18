@@ -2,8 +2,8 @@
   "brand": {
     "title": "Sundae | Gestion des opérations pour l'hôtellerie et la restauration",
     "description": "Gérez les services, les équipes, les tâches et la performance sur des établissements multi-sites en hôtellerie et restauration. Reliez le travail quotidien aux décisions et à la récupération de bénéfices mesurée.",
-    "eyebrow": "Gestion des opérations pour l'hôtellerie et la restauration",
-    "sub": "Pilotez chaque service dans chaque établissement. Sundae relie la planification, la présence, les tâches et les transmissions avec les données d’exploitation — pour que les équipes sachent quoi faire ensuite et puissent mesurer ce qui a changé.",
+    "eyebrow": "Gestion des opérations pour l’hôtellerie et la restauration",
+    "sub": "Planifiez les services, gérez le travail quotidien et comprenez les évolutions des ventes, des coûts et de la demande. Sundae relie vos données opérationnelles au contexte marché pertinent pour expliquer ce qui mérite attention, aider les équipes à agir et suivre le résultat entre établissements.",
     "productTitle": "Une plateforme. Du travail quotidien aux décisions mesurées.",
     "productDescription": "Regroupez effectifs, exécution des services et données opérationnelles connectées dans une même vision opérationnelle. Crew aide les équipes à exécuter le travail ; Core leur permet de comprendre la performance, décider des actions suivantes et mesurer le résultat.",
     "coreDescription": "L’espace décisionnel pour les équipes hôtelières et de restauration multi-sites. Connectez les données opérationnelles, vérifiez les preuves, assignez l’action suivante et mesurez le résultat.",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | Espace décisionnel pour l'hôtellerie et la restauration",
     "crewMetaTitle": "Sundae Crew | Effectifs et opérations quotidiennes",
     "illustrationDisclosure": "Exemple illustratif, pas un résultat client.",
-    "homeHeadline": "Gérez chaque service.",
-    "homeTagline": "Améliorez chaque établissement.",
+    "homeHeadline": "Voyez chaque couche.",
+    "homeTagline": "Agissez à temps.",
     "coreHeadline": "Meilleures décisions. Résultats mesurables.",
     "crewHeadline": "Gérez vos équipes.",
     "crewTagline": "Conduisez le service.",
-    "editorialHeadline": "Reliez le travail quotidien aux progrès mesurables."
+    "editorialHeadline": "Transformer le travail quotidien en prochaine décision.",
+    "homeLiveTitleTop": "Voyez le service se dérouler.",
+    "homeLiveTitleBottom": "Sachez quoi faire ensuite.",
+    "homeLiveSupport": "Les signaux live de ventes, de main-d’œuvre et de pertes indiquent où agir pendant que le service continue.",
+    "editorialSupport": "Rassemblez les relevés de service, les ventes et les coûts pour comprendre ce qui mérite attention, agir et vérifier le résultat."
   },
   "shared": {
     "primaryCta": "Réserver une démonstration",

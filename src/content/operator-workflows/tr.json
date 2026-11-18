@@ -2,8 +2,8 @@
   "brand": {
     "title": "Sundae | Konaklama ve Gıda-Servis için Operasyon Yönetimi",
     "description": "Çok lokasyonlu konaklama ve gıda-servis operasyonlarında vardiyeleri, işgücünü, görevleri ve performansı yönetin. Günlük işleri kararlara ve ölçülen kazanç kurtarımına bağlayın.",
-    "eyebrow": "Konaklama ve gıda-servis için operasyon yönetimi",
-    "sub": "Her lokasyonda her vardiyayı yönetin. Sundae, planlama, devam, görevler ve devir teslimleri işletme verileriyle bağlar — böylece ekipler sırada ne yapacaklarını bilir ve ne değiştiğini ölçebilir.",
+    "eyebrow": "Konaklama ve yiyecek hizmetleri için operasyon yönetimi",
+    "sub": "Vardiyaları planlayın, günlük işi yönetin ve satış, maliyet ve talepteki değişimleri anlayın. Sundae operasyon verilerinizi ilgili pazar bağlamıyla birleştirerek neye dikkat gerektiğini açıklar, ekiplerin harekete geçmesini ve sonucu konumlar arasında izlemesini sağlar.",
     "productTitle": "Tek platform. Günlük işten ölçülen kararlara.",
     "productDescription": "İşgücünü, vardiya yürütmeyi ve bağlanmış işletme verilerini tek bir işletme görünümüne getirin. Crew ekiplerin işi yürütmesine yardımcı olur; Core performansı anlamalarına, sonraki adımı belirlemelerine ve sonucu ölçmelerine yardımcı olur.",
     "coreDescription": "Çok lokasyonlu konaklama ve gıda-servis ekipleri için karar çalışma alanı. İşletme verilerini bağlayın, kanıtı inceleyin, sonraki eylemi atayın ve sonucu ölçün.",
@@ -12,12 +12,16 @@
     "coreMetaTitle": "Sundae Core | Konaklama ve Gıda-Servis için Karar Çalışma Alanı",
     "crewMetaTitle": "Sundae Crew | İşgücü ve Günlük Operasyonlar",
     "illustrationDisclosure": "Temsili örnektir, bir müşteri sonucu değildir.",
-    "homeHeadline": "Her vardiyayı çalıştır.",
-    "homeTagline": "Her konumu iyileştir.",
+    "homeHeadline": "Her katmanı görün.",
+    "homeTagline": "Zamanında harekete geçin.",
     "coreHeadline": "Daha iyi kararlar. Ölçülebilir sonuçlar.",
     "crewHeadline": "Ekibini yönet.",
     "crewTagline": "Vardiyayı yürüt.",
-    "editorialHeadline": "Günlük işi ölçülebilir ilerlemeyle bağla."
+    "editorialHeadline": "Günlük işi sonraki karara dönüştürün.",
+    "homeLiveTitleTop": "Vardiyanın akışını görün.",
+    "homeLiveTitleBottom": "Sonraki adımı bilin.",
+    "homeLiveSupport": "Canlı satış, personel ve kayıp sinyalleri vardiya sürerken nerede dikkat gerektiğini gösterir.",
+    "editorialSupport": "Vardiya kayıtlarını, satış ve maliyet verilerini birleştirerek ekiplerin neye dikkat edeceğini anlamasını, harekete geçmesini ve sonucu kontrol etmesini sağlayın."
   },
   "shared": {
     "primaryCta": "Tanıtım talep et",
