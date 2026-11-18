@@ -1,7 +1,22 @@
 import type { NextConfig } from "next";
-import { withSentryConfig } from "@sentry/nextjs";
+import { PHASE_PRODUCTION_SERVER } from "next/constants";
+import { createRequire } from "node:module";
 import { withBotId } from "botid/next/config";
 import { PROFILE_HANDLES } from "./src/lib/profileHandles";
+
+// Sentry is a build dependency: its wrapper instruments the emitted app, while
+// the emitted server and client traces carry the runtime SDK. Keep `next start`
+// usable from a production-only install after the build has completed.
+const require = createRequire(`${process.cwd()}/next.config.ts`);
+let sentryLoadError: unknown;
+const sentry = (() => {
+  try {
+    return require("@sentry/nextjs") as typeof import("@sentry/nextjs");
+  } catch (error) {
+    sentryLoadError = error;
+    return null;
+  }
+})();
 
 const pricingUrl = (process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sundae.io').replace(/\/+$/, '');
 
@@ -152,16 +167,23 @@ const nextConfig: NextConfig = {
   },
 };
 
-const configuredNext =
-  process.env.SENTRY_SKIP_UPLOAD === "1"
-    ? nextConfig
-    : withSentryConfig(nextConfig, {
-        org: process.env.SENTRY_ORG,
-        project: process.env.SENTRY_PROJECT,
-        silent: !process.env.CI,
-        sourcemaps: {
-          filesToDeleteAfterUpload: ["./next/**/*.map"],
-        },
-      });
+export default function createConfig(phase: string): NextConfig {
+  const productionServerPhase = phase === PHASE_PRODUCTION_SERVER;
+  if (!sentry && !productionServerPhase) {
+    throw sentryLoadError;
+  }
 
-export default withBotId(configuredNext);
+  const configuredNext =
+    process.env.SENTRY_SKIP_UPLOAD === "1" || !sentry
+      ? nextConfig
+      : sentry.withSentryConfig(nextConfig, {
+          org: process.env.SENTRY_ORG,
+          project: process.env.SENTRY_PROJECT,
+          silent: !process.env.CI,
+          sourcemaps: {
+            filesToDeleteAfterUpload: ["./next/**/*.map"],
+          },
+        });
+
+  return withBotId(configuredNext);
+}
