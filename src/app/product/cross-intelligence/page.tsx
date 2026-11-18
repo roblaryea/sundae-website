@@ -1142,7 +1142,7 @@ export default function CrossIntelligencePage() {
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* Conviction beat - belief before the feature volume */}
-      <SectionConviction {...(crossIntelligenceConviction[locale as keyof typeof crossIntelligenceConviction] ?? crossIntelligenceConviction.en)} />
+      <SectionConviction {...crossIntelligenceConviction[locale as keyof typeof crossIntelligenceConviction]} coda={opening.cross} />
 
       {/* Components */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">

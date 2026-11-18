@@ -9,13 +9,13 @@ import openingCopy from '@/content/operator-openings.json'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
 
-import Link from "next/link";
 import Image from 'next/image';
 import { motion, MotionConfig } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { REPORT_APP_URL } from "@/lib/urls";
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import { getLocalizedPathname } from '@/lib/i18n';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -665,16 +665,12 @@ export default function CrewPage() {
                 {copy.description}
               </motion.p>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
-                <Link href="/demo">
-                  <Button variant="primary" size="lg" trackingLabel="crew_hub_hero_primary" trackingMetadata={{ destination: "/demo" }}>
+                  <Button href={getLocalizedPathname("/demo", locale)} variant="primary" size="lg" trackingLabel="crew_hub_hero_primary" trackingMetadata={{ destination: "/demo" }}>
                     {copy.primaryCta}
                   </Button>
-                </Link>
-                <a href={REPORT_APP_URL}>
-                  <Button variant="outline-light" size="lg" trackingLabel="crew_hub_hero_secondary" trackingMetadata={{ destination: REPORT_APP_URL }}>
-                    {copy.secondaryCta}
+                  <Button href={getLocalizedPathname("/results", locale) + "#crew-workflows"} variant="outline-light" size="lg" trackingLabel="crew_hub_hero_secondary" trackingMetadata={{ destination: "/results#crew-workflows" }}>
+                    {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
                   </Button>
-                </a>
               </motion.div>
 
               {/* Hero proof strip - quantified depth of the multi-region payroll shipment */}
@@ -1021,16 +1017,12 @@ export default function CrewPage() {
               <h2 className="section-h2 mb-4">{depth.crewCtaTitle}</h2>
               <p className="body-lg mb-10 max-w-xl mx-auto">{copy.ctaDescription}</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                <Link href="/demo">
-                  <Button variant="cta" size="lg" trackingLabel="crew_hub_closing_primary" trackingMetadata={{ destination: "/demo" }}>
+                  <Button href={getLocalizedPathname("/demo", locale)} variant="cta" size="lg" trackingLabel="crew_hub_closing_primary" trackingMetadata={{ destination: "/demo" }}>
                     {copy.ctaPrimary}
                   </Button>
-                </Link>
-                <Link href="/">
-                  <Button variant="outline-light" size="lg" trackingLabel="crew_hub_closing_secondary" trackingMetadata={{ destination: "/" }}>
+                  <Button href={getLocalizedPathname("/", locale)} variant="outline-light" size="lg" trackingLabel="crew_hub_closing_secondary" trackingMetadata={{ destination: "/" }}>
                     {copy.ctaSecondary}
                   </Button>
-                </Link>
               </div>
             </FadeUp>
           </div>

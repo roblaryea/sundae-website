@@ -312,7 +312,8 @@ export default function GettingStartedPage() {
     steps: originalCopy.steps.map((step, index) => index === 1 ? { ...step, description: commercial.packageScope } : index === 3 ? { ...step, actions: step.actions.map((action, actionIndex) => actionIndex === 3 ? commercial.watchtowerEligibility : action) } : step),
     journeys: originalCopy.journeys.map((journey, index) => index === 2 ? { ...journey, items: journey.items.map((item, itemIndex) => itemIndex === 2 ? commercial.watchtowerEligibility : item) } : journey),
   };
-  const copy = mergeGeneratedCopy(commerciallyScopedCopy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy]);
+  const translatedCopy = mergeGeneratedCopy(commerciallyScopedCopy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy]);
+  const copy = { ...translatedCopy, steps: translatedCopy.steps.map((step, index) => index === 1 ? { ...step, ctaLink: PRICING_URL } : step) };
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
 
   const handleFinalCardClick = (href?: string) => {

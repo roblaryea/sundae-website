@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/Button';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { SundaeIcon } from '@/components/icons';
-import { REPORT_APP_URL } from '@/lib/urls';
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { crewPricingLocales } from '@/lib/crewPricingLocales';
@@ -116,8 +116,8 @@ export function CrewModulePage({
                 <Button href={getLocalizedPathname('/demo', locale)} variant="primary" size="lg" trackingLabel="crew_module_hero_primary" trackingMetadata={{ module: slug, destination: "/demo" }}>
                   {copy.primaryCta}
                 </Button>
-                <Button href={REPORT_APP_URL} variant="outline-light" size="lg" trackingLabel="crew_module_hero_secondary" trackingMetadata={{ module: slug, destination: REPORT_APP_URL }}>
-                  {copy.secondaryCta}
+                <Button href={getLocalizedPathname("/results", locale) + "#crew-workflows"} variant="outline-light" size="lg" trackingLabel="crew_module_hero_secondary" trackingMetadata={{ module: slug, destination: "/results#crew-workflows" }}>
+                  {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
                 </Button>
             </motion.div>
             {/* A component price is not the required stack's starting total. */}

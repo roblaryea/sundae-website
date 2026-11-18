@@ -954,7 +954,7 @@ export default function InsightsPage() {
             {ui.ctaTitle}
           </h2>
           <p className="body-xl mb-8" style={{ color: 'rgba(26,20,15,0.66)' }}>
-            {commercial.packageScope}
+            {ui.ctaDescription}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
