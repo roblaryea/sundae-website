@@ -1,9 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import type { ReactNode } from "react";
 import { motion, MotionConfig } from "framer-motion";
-import { REPORT_APP_URL } from "@/lib/urls";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
@@ -11,6 +9,9 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { solutionCreamCopy } from "./solutionCreamCopy";
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import { localizeWebsiteHref } from '@/lib/i18n';
+import roleBodyCopy from "@/content/buyer-depth/roleBand.json";
 import { SectionConviction } from "@/components/home/sections/SectionConviction";
 import { solutionsConviction } from "@/components/home/sections/routeConvictionCopy";
 
@@ -73,13 +74,15 @@ export function SolutionPageLayout({
   copy,
   mockup,
   primaryCtaHref = "/demo",
-  secondaryCtaHref = REPORT_APP_URL,
+  secondaryCtaHref,
   ctaButtonHref = "/demo",
   gallery,
 }: Props) {
   const { locale } = useWebsiteI18n();
+  const secondaryHref = localizeWebsiteHref(secondaryCtaHref ?? '/results', locale);
+  const secondaryLabel = secondaryCtaHref ? copy.secondaryCta : sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink;
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
-  const cream = solutionCreamCopy[locale as keyof typeof solutionCreamCopy] ?? solutionCreamCopy.en;
+  const cream = { ...solutionCreamCopy[locale as keyof typeof solutionCreamCopy], ...roleBodyCopy[locale as keyof typeof roleBodyCopy] };
 
   return (
     <MotionConfig reducedMotion="user">
@@ -103,26 +106,24 @@ export function SolutionPageLayout({
                 {copy.description}
               </motion.p>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
-                <Link href={primaryCtaHref}>
                   <Button
                     variant="primary"
                     size="lg"
+                    href={localizeWebsiteHref(primaryCtaHref, locale)}
                     trackingLabel="solution_hero_primary"
                     trackingMetadata={{ section: "hero", destination: primaryCtaHref }}
                   >
                     {copy.primaryCta}
                   </Button>
-                </Link>
-                <a href={secondaryCtaHref}>
                   <Button
                     variant="outline-light"
                     size="lg"
+                    href={secondaryHref}
                     trackingLabel="solution_hero_secondary"
-                    trackingMetadata={{ section: "hero", destination: secondaryCtaHref }}
+                    trackingMetadata={{ section: "hero", destination: secondaryHref }}
                   >
-                    {copy.secondaryCta}
+                    {secondaryLabel}
                   </Button>
-                </a>
               </motion.div>
             </div>
             <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }} className="lg:pl-4" style={{ perspective: "1200px" }}>
@@ -258,16 +259,15 @@ export function SolutionPageLayout({
                       </p>
                     </div>
                     <div className="flex-shrink-0">
-                      <Link href="/crew">
                         <Button
                           variant="outline-light"
                           size="lg"
+                          href={localizeWebsiteHref("/crew", locale)}
                           trackingLabel="solution_crew_crosslink"
                           trackingMetadata={{ section: "crew_callout", destination: "/crew" }}
                         >
                           {copy.crewCallout.ctaText} →
                         </Button>
-                      </Link>
                     </div>
                   </div>
                 </div>
@@ -290,16 +290,15 @@ export function SolutionPageLayout({
             <FadeUp>
               <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
               <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>{copy.ctaDescription}</p>
-              <Link href={ctaButtonHref}>
                 <Button
                   variant="cta"
                   size="lg"
+                  href={localizeWebsiteHref(ctaButtonHref, locale)}
                   trackingLabel="solution_closing_primary"
                   trackingMetadata={{ section: "closing", destination: ctaButtonHref }}
                 >
                   {copy.ctaButton}
                 </Button>
-              </Link>
             </FadeUp>
           </div>
         </section>

@@ -1,0 +1,596 @@
+{
+  "en": {
+    "outcomes": [
+      {
+        "title": "Review overtime before the next shift",
+        "description": "Inspect scheduled and worked hours, discuss coverage with the manager and compare the result after the change."
+      },
+      {
+        "title": "Compare labor with plan",
+        "description": "Review staffing, approved hours and demand by location, then agree what to change for the next shift."
+      },
+      {
+        "title": "Coach from relevant measures",
+        "description": "Compare available sales and workload measures alongside role, shift and service conditions."
+      },
+      {
+        "title": "Build and review the staffing plan",
+        "description": "Use available demand forecasts and staff availability, then let managers check the schedule before publishing."
+      }
+    ],
+    "crewCallout": {
+      "title": "Keep shifts, people records and daily work together.",
+      "description": "Crew brings scheduling, attendance, people records and payroll review together with tasks and handovers. Confirm required capabilities, access and country/provider scope before rollout."
+    },
+    "ctaDescription": "Walk through a staffing, attendance or people question and the records your team would use to respond.",
+    "outcomesDescription": "Workforce records and operating context that support the next staffing decision.",
+    "ctaTitle": "Bring a workforce question your managers need to answer."
+  },
+  "ar": {
+    "outcomes": [
+      {
+        "title": "راجع العمل الإضافي قبل الشفت التالي",
+        "description": "افحص الساعات المجدولة والمشتغلة، ناقش التغطية مع المدير وقارن النتيجة بعد التغيير."
+      },
+      {
+        "title": "قارن العمالة مع الخطة",
+        "description": "راجع التوظيف والساعات المعتمدة والطلب حسب الموقع، ثم اتفق ما الذي يجب تغييره للشفت التالي."
+      },
+      {
+        "title": "قدّم تدريباً من مقاييس ذات صلة",
+        "description": "قارن مقاييس المبيعات وحجم العمل المتاحة إلى جانب الدور والشفت وظروف الخدمة."
+      },
+      {
+        "title": "ابنِ وراجع خطة التوظيف",
+        "description": "استخدم توقعات الطلب وتوافر الموظفين المتاحة، ثم دَع المديرين يفحصون الجدول قبل النشر."
+      }
+    ],
+    "crewCallout": {
+      "title": "اجمع الشفتات وسجلات الأشخاص والعمل اليومي معاً.",
+      "description": "تجمع Crew الجدولة والحضور وسجلات الأشخاص ومراجعة الرواتب مع المهام والتسليمات. أكد القدرات المطلوبة والوصول ونطاق البلد/المزود قبل النشر."
+    },
+    "ctaDescription": "استعرض سؤالاً حول التوظيف أو الحضور أو الأشخاص والسجلات التي سيستخدمها فريقك للرد.",
+    "outcomesDescription": "سجلات القوى العاملة والسياق التشغيلي التي تدعم قرار التوظيف التالي.",
+    "ctaTitle": "أحضر سؤال قوة عاملة يحتاج مديروك للإجابة عنه."
+  },
+  "fr": {
+    "outcomes": [
+      {
+        "title": "Revoir les heures supplémentaires avant le prochain service",
+        "description": "Inspecter heures planifiées et travaillées, discuter de la couverture avec le manager et comparer le résultat après le changement."
+      },
+      {
+        "title": "Comparer la main-d'œuvre au plan",
+        "description": "Revoir staffing, heures approuvées et demande par emplacement, puis convenir de ce qu'il faut changer pour le prochain service."
+      },
+      {
+        "title": "Coach à partir de mesures pertinentes",
+        "description": "Comparer mesures de ventes et charge de travail disponibles à côté du rôle, du service et des conditions de service."
+      },
+      {
+        "title": "Construire et revoir le plan de staffing",
+        "description": "Utiliser prévisions de demande et disponibilité du personnel disponibles, puis laisser les managers vérifier le planning avant publication."
+      }
+    ],
+    "crewCallout": {
+      "title": "Garder plannings, dossiers personnes et travail quotidien ensemble.",
+      "description": "Crew réunit planification, présence, dossiers personnes et revue de paie avec tâches et handovers. Confirmez capacités requises, accès et périmètre pays/provider avant déploiement."
+    },
+    "ctaDescription": "Parcourez une question de staffing, présence ou personnes et les dossiers que votre équipe utiliserait pour répondre.",
+    "outcomesDescription": "Dossiers workforce et contexte opérationnel qui soutiennent la prochaine décision de staffing.",
+    "ctaTitle": "Apportez une question workforce que vos managers doivent répondre."
+  },
+  "es": {
+    "outcomes": [
+      {
+        "title": "Revisar horas extras antes del próximo turno",
+        "description": "Inspeccione horas programadas y trabajadas, discuta la cobertura con el gerente y compare el resultado tras el cambio."
+      },
+      {
+        "title": "Comparar mano de obra con el plan",
+        "description": "Revise plantilla, horas aprobadas y demanda por local, luego acuerde qué cambiar para el siguiente turno."
+      },
+      {
+        "title": "Entrenar con medidas relevantes",
+        "description": "Compare las medidas de ventas y carga de trabajo disponibles junto al rol, turno y condiciones de servicio."
+      },
+      {
+        "title": "Construir y revisar el plan de personal",
+        "description": "Use previsiones de demanda y disponibilidad de personal disponibles, luego deje que los gerentes verifiquen el horario antes de publicarlo."
+      }
+    ],
+    "crewCallout": {
+      "title": "Mantenga turnos, registros de personal y trabajo diario juntos.",
+      "description": "Crew reúne programación, asistencia, registros de personal y revisión de nómina con tareas y traspasos. Confirme capacidades requeridas, accesos y alcance por país/proveedor antes del despliegue."
+    },
+    "ctaDescription": "Repase una pregunta de plantilla, asistencia o personal y los registros que su equipo usaría para responder.",
+    "outcomesDescription": "Registros de personal y contexto operativo que apoyan la siguiente decisión de plantilla.",
+    "ctaTitle": "Traiga una pregunta de personal que sus gerentes necesiten responder."
+  },
+  "de": {
+    "outcomes": [
+      {
+        "title": "Überstunden vor der nächsten Schicht prüfen",
+        "description": "Prüfen Sie geplante und geleistete Stunden, besprechen Sie die Abdeckung mit dem Manager und vergleichen Sie das Ergebnis nach der Änderung."
+      },
+      {
+        "title": "Personal mit Plan vergleichen",
+        "description": "Überprüfen Sie Personal, genehmigte Stunden und Nachfrage nach Standort und einigen Sie sich, was für die nächste Schicht geändert wird."
+      },
+      {
+        "title": "Coachen mit relevanten Kennzahlen",
+        "description": "Vergleichen Sie verfügbare Umsatz- und Arbeitslastmaße neben Rolle, Schicht und Servicebedingungen."
+      },
+      {
+        "title": "Den Personaleinsatzplan erstellen und prüfen",
+        "description": "Nutzen Sie verfügbare Nachfrageprognosen und Personalverfügbarkeit, und lassen Sie Manager den Dienstplan vor der Veröffentlichung prüfen."
+      }
+    ],
+    "crewCallout": {
+      "title": "Schichten, Personenakten und tägliche Arbeit zusammenhalten.",
+      "description": "Crew bringt Dienstplanung, Anwesenheit, Personenakten und Payroll-Überprüfung zusammen mit Aufgaben und Übergaben. Bestätigen Sie erforderliche Fähigkeiten, Zugriffe und Landes/Provider-Scope vor dem Rollout."
+    },
+    "ctaDescription": "Gehen Sie eine Personal-, Anwesenheits- oder Personenfrage durch und die Aufzeichnungen, die Ihr Team zur Beantwortung nutzen würde.",
+    "outcomesDescription": "Workforce-Aufzeichnungen und operativer Kontext, die die nächste Personalentscheidung unterstützen.",
+    "ctaTitle": "Bringen Sie eine Workforce-Frage, die Ihre Manager beantworten müssen."
+  },
+  "nl": {
+    "outcomes": [
+      {
+        "title": "Beoordeel overuren vóór de volgende shift",
+        "description": "Inspecteer geplande en gewerkte uren, bespreek de dekking met de manager en vergelijk het resultaat na de wijziging."
+      },
+      {
+        "title": "Vergelijk arbeid met plan",
+        "description": "Beoordeel bemensing, goedgekeurde uren en vraag per locatie en kom vervolgens overeen wat er voor de volgende shift te wijzigen."
+      },
+      {
+        "title": "Coach vanuit relevante maatstaven",
+        "description": "Vergelijk beschikbare omzet- en werklastmaatstaven naast rol, shift en servicecondities."
+      },
+      {
+        "title": "Bou een en beoordeel het personeelsplan",
+        "description": "Gebruik beschikbare vraagprognoses en personeelsbeschikbaarheid, en laat managers het rooster controleren voordat het wordt gepubliceerd."
+      }
+    ],
+    "crewCallout": {
+      "title": "Houd shifts, personeelsgegevens en dagelijks werk samen.",
+      "description": "Crew brengt planning, aanwezigheid, personeelsgegevens en payroll-review samen met taken en overdrachten. Bevestig benodigde mogelijkheden, toegang en land/provider-scope vóór uitrol."
+    },
+    "ctaDescription": "Loop een personeels-, aanwezigheids- of personeelsvraag door en de gegevens die uw team zou gebruiken om te reageren.",
+    "outcomesDescription": "Personeelsgegevens en operationele context die de volgende personeelsbeslissing ondersteunen.",
+    "ctaTitle": "Breng een personeelsvraag die uw managers moeten beantwoorden."
+  },
+  "pt": {
+    "outcomes": [
+      {
+        "title": "Rever horas extras antes do próximo turno",
+        "description": "Inspecione horas agendadas e trabalhadas, discuta cobertura com o gerente e compare o resultado após a mudança."
+      },
+      {
+        "title": "Comparar trabalho com o plano",
+        "description": "Revise pessoal, horas aprovadas e demanda por local, depois concorde o que mudar para o próximo turno."
+      },
+      {
+        "title": "Orientar a partir de medidas relevantes",
+        "description": "Compare medidas de vendas e carga de trabalho disponíveis ao lado de função, turno e condições de serviço."
+      },
+      {
+        "title": "Construir e revisar o plano de pessoal",
+        "description": "Use previsões de demanda e disponibilidade de equipe disponíveis, então permita que gerentes verifiquem a escala antes de publicar."
+      }
+    ],
+    "crewCallout": {
+      "title": "Mantenha turnos, registros de pessoas e trabalho diário juntos.",
+      "description": "Crew reúne escalas, presença, registros de pessoas e revisão de folha com tarefas e handovers. Confirme capacidades requeridas, acesso e escopo de país/provedor antes do rollout."
+    },
+    "ctaDescription": "Percorra uma questão de pessoal, presença ou pessoas e os registros que sua equipe usaria para responder.",
+    "outcomesDescription": "Registros de força de trabalho e contexto operacional que suportam a próxima decisão de pessoal.",
+    "ctaTitle": "Traga uma questão de força de trabalho que seus gerentes precisam responder."
+  },
+  "hi": {
+    "outcomes": [
+      {
+        "title": "अगली शिफ्ट से पहले ओवरटाइम की समीक्षा करें",
+        "description": "निर्धारित और काम किए गए घंटे निरीक्षण करें, कवरेज पर प्रबंधक के साथ चर्चा करें और परिवर्तन के बाद परिणाम की तुलना करें।"
+      },
+      {
+        "title": "योजना के साथ श्रम की तुलना करें",
+        "description": "स्थान द्वारा स्टाफिंग, अनुमोदित घंटे और मांग की समीक्षा करें, फिर अगली शिफ्ट के लिए क्या बदलना है तय करें।"
+      },
+      {
+        "title": "प्रासंगिक मापों से कोचिंग करें",
+        "description": "उपलब्ध बिक्री और वर्कलोड मापों की तुलना भूमिका, शिफ्ट और सेवा शर्तों के साथ करें।"
+      },
+      {
+        "title": "स्टाफिंग प्लान बनाएं और समीक्षा करें",
+        "description": "उपलब्ध मांग पूर्वानुमानों और स्टाफ उपलब्धता का उपयोग करें, फिर प्रबंधकों को प्रकाशित करने से पहले शेड्यूल की जाँच करने दें।"
+      }
+    ],
+    "crewCallout": {
+      "title": "शिफ्ट्स, लोग रिकॉर्ड और दैनिक काम एक साथ रखें।",
+      "description": "Crew शेड्यूलिंग, उपस्थिति, लोग रिकॉर्ड और पेरोल समीक्षा को कार्यों और हैंडओवर के साथ जोड़ता है। रोलआउट से पहले आवश्यक क्षमताओं, एक्सेस और देश/प्रदाता स्कोप की पुष्टि करें।"
+    },
+    "ctaDescription": "एक स्टाफिंग, उपस्थिति या लोगों का प्रश्न और उन रिकॉर्ड्स के माध्यम से जाएँ जिनका आपकी टीम उत्तर देने में उपयोग करेगी।",
+    "outcomesDescription": "वो वर्कफोर्स रिकॉर्ड और ऑपरेटिंग संदर्भ जो अगले स्टाफिंग निर्णय का समर्थन करते हैं।",
+    "ctaTitle": "एक वर्कफोर्स प्रश्न लाएँ जिसका आपके मैनेजरों को उत्तर देना जरूरी है।"
+  },
+  "ur": {
+    "outcomes": [
+      {
+        "title": "اگلے شفٹ سے پہلے اوور ٹائم کا جائزہ لیں",
+        "description": "شیڈولڈ اور ورک کیے گئے گھنٹوں کا معائنہ کریں، مینیجر کے ساتھ کوریج پر گفتگو کریں اور تبدیلی کے بعد نتیجہ کا موازنہ کریں۔"
+      },
+      {
+        "title": "لیبر کا منصوبے کے ساتھ موازنہ کریں",
+        "description": "مقام کے لحاظ سے اسٹافنگ، منظور شدہ گھنٹے اور ڈیمانڈ کا جائزہ لیں، پھر اگلے شفٹ کے لیے تبدیلی پر اتفاق کریں۔"
+      },
+      {
+        "title": "موزوں میجرز سے کوچ کریں",
+        "description": "موجودہ سیلز اور ورک لوڈ میجرز کا موازنہ رول، شفٹ اور سروس حالات کے ساتھ کریں۔"
+      },
+      {
+        "title": "اسٹافنگ پلان بنائیں اور جائزہ لیں",
+        "description": "دستیاب ڈیمانڈ پیشن گوئیاں اور اسٹاف دستیابی استعمال کریں، پھر مینیجرز شیڈول شائع کرنے سے پہلے چیک کریں۔"
+      }
+    ],
+    "crewCallout": {
+      "title": "شفٹ، لوگوں کے ریکارڈ اور روزمرہ کا کام ایک ساتھ رکھیں۔",
+      "description": "Crew شیڈیولنگ، حاضری، لوگوں کے ریکارڈ اور پے رول ریویو کو ٹاسکس اور ہینڈ اوورز کے ساتھ جوڑتا ہے۔ رول آؤٹ سے پہلے درکار صلاحیتیں، رسائی اور ملک/پرووائیڈر اسکوپ کی تصدیق کریں۔"
+    },
+    "ctaDescription": "ایک اسٹافنگ، حاضری یا لوگوں کا سوال اور وہ ریکارڈز دکھائیں جو آپ کی ٹیم جواب دینے کے لیے استعمال کرے گی۔",
+    "outcomesDescription": "وہ ورک فورس ریکارڈز اور آپریٹنگ سیاق و سباق جو اگلے اسٹافنگ فیصلے کی حمایت کریں۔",
+    "ctaTitle": "وہ ورک فورس سوال لائیں جس کا آپ کے مینیجرز جواب دینا چاہتے ہیں۔"
+  },
+  "it": {
+    "outcomes": [
+      {
+        "title": "Rivedere gli straordinari prima del prossimo turno",
+        "description": "Ispeziona ore programmate e lavorate, discuti la copertura con il manager e confronta il risultato dopo il cambiamento."
+      },
+      {
+        "title": "Confrontare lavoro e piano",
+        "description": "Rivedi staffing, ore approvate e domanda per sede, poi concorda cosa cambiare per il prossimo turno."
+      },
+      {
+        "title": "Fare coaching da misure rilevanti",
+        "description": "Confronta misure di vendite e carico di lavoro disponibili insieme a ruolo, turno e condizioni di servizio."
+      },
+      {
+        "title": "Costruire e rivedere il piano di staffing",
+        "description": "Usa previsioni di domanda e disponibilità del personale disponibili, poi lascia che i manager controllino il turno prima della pubblicazione."
+      }
+    ],
+    "crewCallout": {
+      "title": "Tenere insieme turni, record persone e lavoro quotidiano.",
+      "description": "Crew unisce pianificazione, presenze, record persone e revisione payroll con task e handover. Conferma capacità richieste, accessi e ambito Paese/provider prima del rollout."
+    },
+    "ctaDescription": "Analizza una domanda su staffing, presenze o persone e i record che il tuo team userebbe per rispondere.",
+    "outcomesDescription": "Record workforce e contesto operativo che supportano la prossima decisione di staffing.",
+    "ctaTitle": "Porta una domanda workforce che i tuoi manager devono rispondere."
+  },
+  "pl": {
+    "outcomes": [
+      {
+        "title": "Sprawdź nadgodziny przed następną zmianą",
+        "description": "Przejrzyj zaplanowane i przepracowane godziny, omów obsadę z managerem i porównaj wynik po zmianie."
+      },
+      {
+        "title": "Porównaj zatrudnienie z planem",
+        "description": "Przejrzyj obsadę, zatwierdzone godziny i popyt według lokalizacji, a następnie uzgodnij, co zmienić na następną zmianę."
+      },
+      {
+        "title": "Coachuj na podstawie odpowiednich miar",
+        "description": "Porównaj dostępne miary sprzedaży i obciążenia pracy obok roli, zmiany i warunków obsługi."
+      },
+      {
+        "title": "Zbuduj i przejrzyj plan zatrudnienia",
+        "description": "Wykorzystaj dostępne prognozy popytu i dostępność personelu, potem pozwól managerom sprawdzić grafik przed publikacją."
+      }
+    ],
+    "crewCallout": {
+      "title": "Trzymaj zmiany, zapisy personalne i pracę dzienną razem.",
+      "description": "Crew łączy harmonogramowanie, obecność, zapisy personalne i przegląd płac z zadaniami i przekazaniami. Potwierdź wymagane funkcje, dostęp i zakres kraju/dostawcy przed wdrożeniem."
+    },
+    "ctaDescription": "Przejdź przez pytanie dotyczące zatrudnienia, obecności lub personelu i zapisy, które Twój zespół wykorzystałby do odpowiedzi.",
+    "outcomesDescription": "Zapisy zatrudnienia i kontekst operacyjny wspierające kolejną decyzję kadrową.",
+    "ctaTitle": "Przynieś pytanie kadrowe, które Twoi managerowie muszą odpowiedzieć."
+  },
+  "tr": {
+    "outcomes": [
+      {
+        "title": "Bir sonraki vardiyadan önce fazla mesaiyi gözden geçirin",
+        "description": "Planlanan ve çalışılan saatleri inceleyin, kapsamı yöneticiyle tartışın ve değişiklikten sonra sonucu karşılaştırın."
+      },
+      {
+        "title": "İşgücünü planla karşılaştırın",
+        "description": "Konuma göre personel, onaylı saatler ve talebi gözden geçirin, sonra bir sonraki vardiya için neyi değiştireceğinize karar verin."
+      },
+      {
+        "title": "İlgili ölçülerle koçluk yapın",
+        "description": "Rol, vardiya ve hizmet koşullarıyla birlikte mevcut satış ve iş yükü ölçülerini karşılaştırın."
+      },
+      {
+        "title": "Personel planını oluşturun ve gözden geçirin",
+        "description": "Mevcut talep tahminlerini ve personel uygunluğunu kullanın, sonra yöneticilerin çizelgeyi yayımlamadan önce kontrol etmesine izin verin."
+      }
+    ],
+    "crewCallout": {
+      "title": "Vardiyalar, kişi kayıtları ve günlük işi birlikte tutun.",
+      "description": "Crew çizelgeleme, katılım, kişi kayıtları ve bordro incelemesini görevler ve devre teslimleri ile birleştirir. Dağıtımdan önce gerekli yetenekleri, erişimi ve ülke/sağlayıcı kapsamını doğrulayın."
+    },
+    "ctaDescription": "Bir personel, katılım veya kişi sorusunu ve ekibinizin yanıtlamak için kullanacağı kayıtları birlikte inceleyin.",
+    "outcomesDescription": "Bir sonraki personel kararını destekleyen işgücü kayıtları ve işletme bağlamı.",
+    "ctaTitle": "Yöneticilerinizin yanıtlaması gereken bir işgücü sorusu getirin."
+  },
+  "zh-Hans": {
+    "outcomes": [
+      {
+        "title": "在下一班次前审查加班",
+        "description": "检查排班与实际工时，与经理讨论覆盖情况并在变更后比较结果。"
+      },
+      {
+        "title": "将人工与计划比较",
+        "description": "按地点审查人员配置、已批准工时和需求，然后达成下一班次的变更方案。"
+      },
+      {
+        "title": "基于相关度量进行辅导",
+        "description": "在角色、班次和服务条件旁比较可用的销售与工作量度量。"
+      },
+      {
+        "title": "制定并审查排班计划",
+        "description": "使用可用的需求预测和人员可用性，让经理在发布前检查排班。"
+      }
+    ],
+    "crewCallout": {
+      "title": "将班次、人员记录与日常工作保持在一起。",
+      "description": "Crew 将排班、考勤、人员记录和工资审查与任务和交接整合。上线前确认所需功能、访问和国家/供应商范围。"
+    },
+    "ctaDescription": "梳理一个人员、考勤或人员管理问题以及您的团队会用来响应的记录。",
+    "outcomesDescription": "支持下一次排班决策的人员记录与运营背景。",
+    "ctaTitle": "带来您的经理需要回答的人员问题。"
+  },
+  "ja": {
+    "outcomes": [
+      {
+        "title": "次シフト前に残業をレビューする",
+        "description": "予定と実働時間を点検し、責任者とカバレッジを議論し、変更後の結果を比較する。"
+      },
+      {
+        "title": "労務を計画と比較する",
+        "description": "ロケーションごとの人員、承認時間、需要をレビューし、次シフトで何を変更するか合意する。"
+      },
+      {
+        "title": "関連指標からコーチする",
+        "description": "役割、シフト、サービス条件に沿って利用可能な売上や作業量指標を比較する。"
+      },
+      {
+        "title": "人員計画を作りレビューする",
+        "description": "利用可能な需要予測とスタッフ可用性を使い、公開前にマネージャーがスケジュールを確認できるようにする。"
+      }
+    ],
+    "crewCallout": {
+      "title": "シフト、人物記録、日常業務を一緒に保つ。",
+      "description": "Crewはスケジューリング、出勤、人物記録、給与レビューをタスクと引き継ぎと共に結集する。展開前に必要な機能、アクセス、国別／プロバイダ範囲を確認する。"
+    },
+    "ctaDescription": "人員、出勤、人物に関する質問と、チームが対応に使う記録を一緒に確認する。",
+    "outcomesDescription": "次の人員判断を支えるワークフォース記録と稼働文脈。",
+    "ctaTitle": "マネージャーが答える必要のあるワークフォースの質問を持ってきてください。"
+  },
+  "ko": {
+    "outcomes": [
+      {
+        "title": "다음 교대 전에 초과근무 검토",
+        "description": "예정 및 실제 근무 시간을 검사하고 관리자와 적용 범위를 논의한 뒤 변경 후 결과를 비교하세요."
+      },
+      {
+        "title": "인력을 계획과 비교",
+        "description": "지점별 인력, 승인된 시간 및 수요를 검토한 후 다음 교대에 변경할 사항을 합의하세요."
+      },
+      {
+        "title": "관련 지표로 코칭",
+        "description": "역할, 교대 및 서비스 조건과 함께 사용 가능한 매출 및 업무량 지표를 비교하세요."
+      },
+      {
+        "title": "인력 계획 수립 및 검토",
+        "description": "사용 가능한 수요 예측과 직원 가용성을 활용한 뒤 관리자들이 일정을 확인하고 게시하게 하세요."
+      }
+    ],
+    "crewCallout": {
+      "title": "교대, 사람 기록 및 일일 작업을 함께 유지하세요.",
+      "description": "Crew는 스케줄링, 출석, 사람 기록 및 급여 검토를 과제와 인수와 함께 통합합니다. 롤아웃 전에 필요한 기능, 접근 및 국가/공급자 범위를 확인하세요."
+    },
+    "ctaDescription": "인력, 출석 또는 사람 관련 질문과 팀이 대응에 사용할 기록을 함께 검토하세요.",
+    "outcomesDescription": "다음 인력 결정을 지원하는 인력 기록과 운영 맥락.",
+    "ctaTitle": "관리자가 답해야 할 인력 질문을 가져오세요."
+  },
+  "id": {
+    "outcomes": [
+      {
+        "title": "Tinjau lembur sebelum shift berikutnya",
+        "description": "Periksa jam yang dijadwalkan dan yang dikerjakan, diskusikan cakupan dengan manajer dan bandingkan hasil setelah perubahan."
+      },
+      {
+        "title": "Bandingkan tenaga kerja dengan rencana",
+        "description": "Tinjau staf, jam yang disetujui dan permintaan menurut lokasi, lalu sepakati apa yang akan diubah untuk shift berikutnya."
+      },
+      {
+        "title": "Melatih dari ukuran yang relevan",
+        "description": "Bandingkan ukuran penjualan dan beban kerja yang tersedia berdampingan dengan peran, shift dan kondisi layanan."
+      },
+      {
+        "title": "Bangun dan tinjau rencana staf",
+        "description": "Gunakan prakiraan permintaan dan ketersediaan staf yang tersedia, lalu biarkan manajer memeriksa jadwal sebelum dipublikasikan."
+      }
+    ],
+    "crewCallout": {
+      "title": "Jaga shift, catatan orang dan pekerjaan harian bersama.",
+      "description": "Crew menggabungkan penjadwalan, kehadiran, catatan orang dan tinjauan penggajian bersama tugas dan serah terima. Konfirmasi kemampuan yang diperlukan, akses dan cakupan negara/penyedia sebelum peluncuran."
+    },
+    "ctaDescription": "Jalankan melalui pertanyaan staf, kehadiran atau orang dan catatan yang tim Anda gunakan untuk merespons.",
+    "outcomesDescription": "Catatan tenaga kerja dan konteks operasional yang mendukung keputusan staf berikutnya.",
+    "ctaTitle": "Bawa pertanyaan tenaga kerja yang perlu dijawab manajer Anda."
+  },
+  "vi": {
+    "outcomes": [
+      {
+        "title": "Xem lại làm thêm trước ca tiếp theo",
+        "description": "Kiểm tra giờ đã lên lịch và giờ đã làm, thảo luận về biên phủ với quản lý và so sánh kết quả sau thay đổi."
+      },
+      {
+        "title": "So sánh nhân công với kế hoạch",
+        "description": "Xem xét nhân sự, giờ đã phê duyệt và nhu cầu theo địa điểm, rồi thống nhất thay đổi cho ca tiếp theo."
+      },
+      {
+        "title": "Huấn luyện từ chỉ số phù hợp",
+        "description": "So sánh các chỉ số doanh thu và khối lượng công việc có sẵn cùng với vai trò, ca và điều kiện dịch vụ."
+      },
+      {
+        "title": "Xây dựng và xem lại kế hoạch nhân sự",
+        "description": "Dùng dự báo nhu cầu và khả năng nhân sự có sẵn, sau đó để quản lý kiểm tra lịch trước khi công bố."
+      }
+    ],
+    "crewCallout": {
+      "title": "Giữ ca, hồ sơ nhân sự và công việc hàng ngày cùng nhau.",
+      "description": "Crew đưa lịch, điểm danh, hồ sơ con người và kiểm tra bảng lương cùng nhiệm vụ và bàn giao. Xác nhận năng lực cần thiết, quyền truy cập và phạm vi quốc gia/nhà cung cấp trước khi triển khai."
+    },
+    "ctaDescription": "Duyệt một câu hỏi về nhân sự, điểm danh hoặc con người và các hồ sơ đội bạn sẽ dùng để trả lời.",
+    "outcomesDescription": "Hồ sơ lực lượng lao động và bối cảnh vận hành hỗ trợ quyết định nhân sự tiếp theo.",
+    "ctaTitle": "Mang một câu hỏi lực lượng lao động quản lý của bạn cần trả lời."
+  },
+  "ro": {
+    "outcomes": [
+      {
+        "title": "Revizuiți orele suplimentare înaintea următorului schimb",
+        "description": "Inspectați orele programate și lucrate, discutați acoperirea cu managerul și comparați rezultatul după schimbare."
+      },
+      {
+        "title": "Comparați forța de muncă cu planul",
+        "description": "Revizuiți personalul, orele aprobate și cererea pe locație, apoi conveniți ce să schimbați pentru următorul schimb."
+      },
+      {
+        "title": "Consiliați din măsuri relevante",
+        "description": "Comparați măsurile disponibile de vânzări și volum de lucru alături de rol, schimb și condițiile de serviciu."
+      },
+      {
+        "title": "Construiți și revizuiți planul de personal",
+        "description": "Folosiți prognoze de cerere disponibile și disponibilitatea personalului, apoi permiteți managerilor să verifice programul înainte de publicare."
+      }
+    ],
+    "crewCallout": {
+      "title": "Păstrați schimburile, registrele de personal și munca zilnică împreună.",
+      "description": "Crew aduce programarea, prezența, registrele de personal și revizuirea salarizării împreună cu sarcini și predări. Confirmați capabilitățile necesare, accesul și domeniul țară/furnizor înainte de implementare."
+    },
+    "ctaDescription": "Parcurgeți o întrebare despre personal, prezență sau oameni și registrele pe care echipa dvs. le-ar folosi pentru a răspunde.",
+    "outcomesDescription": "Registre de personal și context operațional care susțin următoarea decizie de staffing.",
+    "ctaTitle": "Aduceți o întrebare despre forța de muncă la care managerii trebuie să răspundă."
+  },
+  "sv": {
+    "outcomes": [
+      {
+        "title": "Granska övertid före nästa skift",
+        "description": "Inspektera schemalagda och arbetade timmar, diskutera täckning med chefen och jämför resultatet efter förändringen."
+      },
+      {
+        "title": "Jämför arbetskraft med plan",
+        "description": "Granska bemanning, godkända timmar och efterfrågan per plats, och kom sedan överens om vad som ska ändras inför nästa skift."
+      },
+      {
+        "title": "Coacha utifrån relevanta mått",
+        "description": "Jämför tillgängliga försäljnings- och arbetsbelastningsmått tillsammans med roll, skift och servicevillkor."
+      },
+      {
+        "title": "Bygg och granska bemanningsplanen",
+        "description": "Använd tillgängliga efterfrågeprognoser och personaltillgänglighet, och låt sedan chefer granska schemat innan publicering."
+      }
+    ],
+    "crewCallout": {
+      "title": "Håll skift, personalposter och dagligt arbete tillsammans.",
+      "description": "Crew förenar schemaläggning, närvaro, personalposter och lönegranskning med uppgifter och överlämningar. Bekräfta nödvändiga funktioner, åtkomst och land/leverantörsomfång innan utrullning."
+    },
+    "ctaDescription": "Gå igenom en bemannings-, närvaro- eller personalfråga och de poster ditt team skulle använda för att svara.",
+    "outcomesDescription": "Workforce-poster och driftkontext som stödjer nästa bemanningsbeslut.",
+    "ctaTitle": "Ta med en personalfråga som dina chefer behöver svara på."
+  },
+  "bn": {
+    "outcomes": [
+      {
+        "title": "পরবর্তী শিফটের আগে ওভারটাইম পর্যালোচনা করুন",
+        "description": "নির্ধারিত ও কাজ করা ঘণ্টাগুলো পরিদর্শন করুন, ম্যানেজারের সঙ্গে কভারেজ আলোচনা করুন ও পরিবর্তনের পরে ফলাফল তুলনা করুন।"
+      },
+      {
+        "title": "পরিকল্পনার সঙ্গে লেবার তুলনা করুন",
+        "description": "অবস্থান অনুযায়ী স্টাফিং, অনুমোদিত ঘণ্টা এবং চাহিদা পর্যালোচনা করুন, তারপর পরবর্তী শিফ্টের জন্য কি পরিবর্তন হবে তা সম্মত করুন।"
+      },
+      {
+        "title": "প্রাসঙ্গিক মেট্রিক থেকে কোচ করুন",
+        "description": "রোল, শিফট এবং সার্ভিস শর্তের পাশাপাশি উপলব্ধ বিক্রয় ও কাজের মাপ তুলনা করুন।"
+      },
+      {
+        "title": "স্টাফিং প্ল্যান তৈরি ও পর্যালোচনা করুন",
+        "description": "উপলব্ধ চাহিদার পূর্বাভাস ও স্টাফ প্রাপ্যতা ব্যবহার করুন, তারপর ম্যানেজাররা প্রকাশের আগে শিডিউল চেক করতে পারবেন।"
+      }
+    ],
+    "crewCallout": {
+      "title": "শিফট, লোকজনের রেকর্ড এবং দৈনিক কাজ একসঙ্গে রাখুন।",
+      "description": "Crew শিডিউলিং, উপস্থিতি, লোক রেকর্ড এবং পে-রোল পর্যালোচনা টাস্ক ও হ্যান্ডওভারসহ একত্রিত করে। রোলআউটের আগে প্রয়োজনীয় ক্ষমতা, অ্যাক্সেস ও দেশ/প্রোভাইডার স্কোপ নিশ্চিত করুন।"
+    },
+    "ctaDescription": "একটি স্টাফিং, উপস্থিতি বা লোক প্রশ্ন এবং আপনার দল যে রেকর্ড ব্যবহার করবে সেগুলো নিয়ে চলুন।",
+    "outcomesDescription": "পরবর্তী স্টাফিং সিদ্ধান্তকে সমর্থনকারী কর্মী রেকর্ড ও অপারেটিং কনটেক্সট।",
+    "ctaTitle": "একটি কর্মী প্রশ্ন আনুন যা আপনার ম্যানেজারদের উত্তর দিতে হবে।"
+  },
+  "th": {
+    "outcomes": [
+      {
+        "title": "ทบทวนชั่วโมงล่วงเวลาก่อนกะถัดไป",
+        "description": "ตรวจดูชั่วโมงที่กำหนดและชั่วโมงที่ทำจริง หารือความครอบคลุมกับผู้จัดการ และเปรียบเทียบผลหลังการเปลี่ยนแปลง"
+      },
+      {
+        "title": "เปรียบเทียบแรงงานกับแผน",
+        "description": "ทบทวนการจัดพนักงาน ชั่วโมงที่อนุมัติ และความต้องการตามสาขา แล้วตกลงว่าจะเปลี่ยนแปลงอะไรสำหรับกะถัดไป"
+      },
+      {
+        "title": "โค้ชจากมาตรการที่เกี่ยวข้อง",
+        "description": "เปรียบเทียบยอดขายและมาตรการภาระงานที่มีพร้อมกับบทบาท กะ และสภาพการให้บริการ"
+      },
+      {
+        "title": "วางแผนและทบทวนการจัดพนักงาน",
+        "description": "ใช้การพยากรณ์ความต้องการและความพร้อมของพนักงานที่มี แล้วให้ผู้จัดการตรวจตราตารางก่อนเผยแพร่"
+      }
+    ],
+    "crewCallout": {
+      "title": "เก็บกะ บันทึกบุคคล และงานประจำไว้ด้วยกัน",
+      "description": "Crew นำการจัดตาราง การเข้าออกงาน บันทึกบุคคล และการทบทวนเงินเดือนไปพร้อมงานและการส่งต่อ ยืนยันความสามารถที่ต้องการ การเข้าถึง และขอบเขตประเทศ/ผู้ให้บริการก่อนเปิดตัว"
+    },
+    "ctaDescription": "เดินผ่านคำถามด้านการจัดพนักงาน การเข้าออกงาน หรือบุคคล และบันทึกที่ทีมคุณจะใช้ตอบ",
+    "outcomesDescription": "บันทึกแรงงานและบริบทการปฏิบัติงานที่สนับสนุนการตัดสินใจด้านการจัดพนักงานครั้งต่อไป",
+    "ctaTitle": "นำคำถามแรงงานที่ผู้จัดการของคุณต้องตอบมา"
+  },
+  "ms": {
+    "outcomes": [
+      {
+        "title": "Semak kerja lebih masa sebelum syif seterusnya",
+        "description": "Periksa jam yang dijadual dan yang bekerja, bincang liputan dengan pengurus dan bandingkan hasil selepas perubahan."
+      },
+      {
+        "title": "Bandingkan buruh dengan pelan",
+        "description": "Semak kakitangan, jam diluluskan dan permintaan mengikut lokasi, kemudian setujui apa yang harus diubah untuk syif seterusnya."
+      },
+      {
+        "title": "Bimbing dari ukuran relevan",
+        "description": "Bandingkan ukuran jualan dan beban kerja yang tersedia bersama peranan, syif dan keadaan perkhidmatan."
+      },
+      {
+        "title": "Bina dan semak pelan kakitangan",
+        "description": "Gunakan ramalan permintaan dan ketersediaan kakitangan yang tersedia, kemudian biarkan pengurus menyemak jadual sebelum menerbitkan."
+      }
+    ],
+    "crewCallout": {
+      "title": "Simpan syif, rekod orang dan kerja harian bersama.",
+      "description": "Crew menggabungkan penjadualan, kehadiran, rekod orang dan semakan payroll bersama tugas dan penyerahan. Sahkan keupayaan, akses dan skop negara/penyedia yang diperlukan sebelum pelaksanaan."
+    },
+    "ctaDescription": "Jelajahi soalan kakitangan, kehadiran atau orang dan rekod yang pasukan anda akan gunakan untuk bertindak balas.",
+    "outcomesDescription": "Rekod tenaga kerja dan konteks operasi yang menyokong keputusan kakitangan seterusnya.",
+    "ctaTitle": "Bawa soalan tenaga kerja yang pengurus anda perlu jawab."
+  }
+}

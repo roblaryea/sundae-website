@@ -8,7 +8,8 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { MockupFrame, MockupKPI, MockupBarChart, MockupTable, MockupAlert } from "@/components/ui/MockupFrame";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL } from "@/lib/urls";
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import { getLocalizedPathname } from '@/lib/i18n';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
@@ -182,11 +183,11 @@ export default function BenchmarkingPage() {
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero badge={ui.badge} title={ui.title} description={ui.description}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" href={REPORT_APP_URL} onClick={() => cta(REPORT_APP_URL, "try_benchmarks_hero", { page: "/benchmarking" })}>
-            {ui.heroPrimary}
-          </Button>
-          <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_benchmarks", { page: "/benchmarking" })}>
+          <Button variant="cta" size="lg" onClick={() => cta("/demo", "try_benchmarks_hero", { page: "/benchmarking" })}>
             {ui.heroSecondary}
+          </Button>
+          <Button variant="outline-light" size="lg" href={getLocalizedPathname("/results", locale)} trackingLabel="book_demo_benchmarks">
+            {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
           </Button>
         </div>
       </PageHero>
@@ -306,11 +307,11 @@ export default function BenchmarkingPage() {
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Button variant="cta" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_benchmarks_cta", { page: "/benchmarking" })}>
-          {ui.startFree}
-        </Button>
-        <Button variant="outline-ink" size="lg" onClick={() => cta("/demo", "book_demo_benchmarks_cta", { page: "/benchmarking" })}>
+        <Button variant="cta" size="lg" onClick={() => cta("/demo", "start_free_benchmarks_cta", { page: "/benchmarking" })}>
           {ui.heroSecondary}
+        </Button>
+        <Button variant="outline-ink" size="lg" href={getLocalizedPathname("/results", locale)} trackingLabel="book_demo_benchmarks_cta">
+          {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
         </Button>
       </PageCTA>
     </div>

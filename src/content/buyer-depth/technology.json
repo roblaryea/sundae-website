@@ -1,0 +1,1190 @@
+{
+  "en": {
+    "description": "Connect operating sources, inspect data coverage and give teams a consistent basis for analysis. Review connector, access and refresh requirements for your environment.",
+    "secondaryCta": "Review data connections",
+    "problemsDescription": "Different source definitions, incomplete records and recurring reporting requests compete for your team’s time.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Refresh requirements vary",
+        "description": "A live-shift question and a monthly review need different refresh and source coverage. The connection has to match the use case."
+      }
+    ],
+    "howDescription": "A shared operating view, with connection scope and controls agreed before rollout.",
+    "howSundaeHelps": [
+      {
+        "title": "Connect the operating picture",
+        "description": "Review your POS, workforce, inventory, delivery and accounting sources. Confirm which fields and locations can be connected and how they will be used."
+      },
+      {
+        "title": "Agree the integration boundary",
+        "description": "Check supported connection methods, exports and any required API access with Sundae. Confirm the work for your systems rather than assuming universal endpoints or webhooks."
+      },
+      {
+        "title": "Match refresh to the decision",
+        "description": "Review source availability and refresh timing for Pulse and other capabilities. Latency depends on the source and connection."
+      },
+      {
+        "title": "Inspect the answer and its access",
+        "description": "Review Ask Sundae outputs, supporting data and role permissions for the use cases your teams need."
+      }
+    ],
+    "outcomesDescription": "Connect the right records, align metric definitions and give each team the access it needs.",
+    "outcomes": [
+      {
+        "title": "Scope the connection work",
+        "description": "Document supported sources, required fields, owners and any gaps before implementation."
+      },
+      {
+        "title": "Compare metric definitions",
+        "description": "Check how sales, cost and workforce measures are defined before using them across teams."
+      },
+      {
+        "title": "Follow the available evidence",
+        "description": "Inspect the supporting records and coverage for a result instead of assuming every source exposes the same detail."
+      },
+      {
+        "title": "Evaluate AI with your controls",
+        "description": "Test useful operating questions, permissions and source support with the people who will use and govern the answers."
+      }
+    ],
+    "ctaTitle": "Bring your source and access requirements.",
+    "ctaDescription": "Review your systems, the connection scope and a representative question with the technical team."
+  },
+  "ar": {
+    "description": "اربِط مصادر التشغيل، افحص تغطية البيانات وقدّم للفرق أساساً موحداً للتحليل. راجع متطلبات الموصل والوصول والتحديث لبيئتك.",
+    "secondaryCta": "استعرض وصلات البيانات",
+    "problemsDescription": "تعريفات مصدر مختلفة، سجلات غير مكتملة وطلبات تقارير متكررة تتنافس على وقت فريقك.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "متطلبات التحديث تختلف",
+        "description": "سؤال عن شفت مباشر ومراجعة شهرية يحتاجان تغطية وتحديث مختلفين. يجب أن يتوافق الاتصال مع حالة الاستخدام."
+      }
+    ],
+    "howDescription": "رؤية تشغيلية مشتركة مع نطاق الاتصال والضوابط المتفق عليها قبل النشر.",
+    "howSundaeHelps": [
+      {
+        "title": "وصل الصورة التشغيلية",
+        "description": "راجع مصادر نقاط البيع والموظفين والمخزون والتوصيل والمحاسبة. أكد أي الحقول والمواقع التي يمكن توصيلها وكيف ستُستخدم."
+      },
+      {
+        "title": "اتفق على حدود التكامل",
+        "description": "تحقق من طرق الاتصال المدعومة والتصديرات وأي وصول API مطلوب مع Sundae. أكد الأعمال على أنظمتك بدلاً من افتراض نقاط نهاية عالمية أو webhooks."
+      },
+      {
+        "title": "وافق التحديث مع القرار",
+        "description": "راجع توفر المصدر وتوقيت التحديث لـ Pulse وقدرات أخرى. يعتمد الكمون على المصدر والطريقة المتصلة."
+      },
+      {
+        "title": "افحص الجواب ووصوله",
+        "description": "راجع مخرجات Ask Sundae والبيانات الداعمة وصلاحيات الأدوار لحالات الاستخدام التي تحتاجها فرقك."
+      }
+    ],
+    "outcomesDescription": "وصل السجلات الصحيحة، ووافق تعريفات المقاييس ومنح كل فريق الوصول الذي يحتاجه.",
+    "outcomes": [
+      {
+        "title": "حدد نطاق عمل الاتصال",
+        "description": "وثق المصادر المدعومة والحقول المطلوبة والمالكين وأي فجوات قبل التنفيذ."
+      },
+      {
+        "title": "قارن تعريفات المقاييس",
+        "description": "تحقق من كيفية تعريف مقاييس المبيعات والتكلفة والعمالة قبل استخدامها عبر الفرق."
+      },
+      {
+        "title": "اتبع الأدلة المتاحة",
+        "description": "افحص السجلات الداعمة والتغطية لنتيجة بدل افتراض أن كل مصدر يكشف نفس التفاصيل."
+      },
+      {
+        "title": "قيّم الذكاء الاصطناعي من خلال ضوابطك",
+        "description": "اختبر أسئلة تشغيلية مفيدة، الصلاحيات ودعم المصادر مع الأشخاص الذين سيستخدمون ويُحكّمون الأجوبة."
+      }
+    ],
+    "ctaTitle": "أحضر متطلبات المصدر والوصول لديك.",
+    "ctaDescription": "راجع أنظمتك ونطاق الاتصال وسؤالً نموذجياً مع الفريق التقني."
+  },
+  "fr": {
+    "description": "Connecter les sources opérationnelles, inspecter la couverture des données et donner aux équipes une base cohérente pour l'analyse. Revuez les exigences de connecteur, d'accès et de rafraîchissement pour votre environnement.",
+    "secondaryCta": "Revoir les connexions de données",
+    "problemsDescription": "Définitions sources différentes, dossiers incomplets et demandes de reporting récurrentes concurrencent le temps de votre équipe.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Les exigences de rafraîchissement varient",
+        "description": "Une question en direct et une revue mensuelle nécessitent des rafraîchissements et une couverture source différents. La connexion doit correspondre au cas d'usage."
+      }
+    ],
+    "howDescription": "Une vue opérationnelle partagée, avec périmètre de connexion et contrôles convenus avant le déploiement.",
+    "howSundaeHelps": [
+      {
+        "title": "Connecter le panorama opérationnel",
+        "description": "Revoir vos sources POS, workforce, inventaire, livraison et comptabilité. Confirmez quels champs et emplacements peuvent être connectés et comment ils seront utilisés."
+      },
+      {
+        "title": "Convenir de la frontière d'intégration",
+        "description": "Vérifiez les méthodes de connexion supportées, les exports et tout accès API requis avec Sundae. Confirmez le travail pour vos systèmes plutôt que de supposer des endpoints universels ou des webhooks."
+      },
+      {
+        "title": "Adapter le rafraîchissement à la décision",
+        "description": "Revoir la disponibilité des sources et le timing de rafraîchissement pour Pulse et autres capacités. La latence dépend de la source et de la connexion."
+      },
+      {
+        "title": "Inspecter la réponse et son accès",
+        "description": "Revoir les sorties Ask Sundae, les données justificatives et les permissions de rôle pour les cas d'usage dont vos équipes ont besoin."
+      }
+    ],
+    "outcomesDescription": "Connecter les bons dossiers, aligner les définitions de métriques et donner à chaque équipe l'accès dont elle a besoin.",
+    "outcomes": [
+      {
+        "title": "Cadrer le travail de connexion",
+        "description": "Documenter les sources supportées, champs requis, propriétaires et éventuels écarts avant mise en œuvre."
+      },
+      {
+        "title": "Comparer les définitions de métriques",
+        "description": "Vérifier comment ventes, coûts et mesures de main-d'œuvre sont définis avant de les utiliser entre équipes."
+      },
+      {
+        "title": "Suivre les preuves disponibles",
+        "description": "Inspecter les dossiers justificatifs et la couverture pour un résultat au lieu de supposer que chaque source expose le même détail."
+      },
+      {
+        "title": "Évaluer l'IA avec vos contrôles",
+        "description": "Tester des questions opérationnelles utiles, permissions et support source avec les personnes qui utiliseront et gouverneront les réponses."
+      }
+    ],
+    "ctaTitle": "Apportez vos exigences de source et d'accès.",
+    "ctaDescription": "Revoir vos systèmes, le périmètre de connexion et une question représentative avec l'équipe technique."
+  },
+  "es": {
+    "description": "Conecte fuentes operativas, inspeccione la cobertura de datos y dé a los equipos una base consistente para el análisis. Revise requisitos de conectores, accesos y actualización para su entorno.",
+    "secondaryCta": "Revisar conexiones de datos",
+    "problemsDescription": "Diferentes definiciones de fuente, registros incompletos y solicitudes de informes recurrentes compiten por el tiempo de su equipo.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Los requisitos de actualización varían",
+        "description": "Una pregunta en vivo por turno y una revisión mensual necesitan distinta actualización y cobertura de fuentes. La conexión debe ajustarse al caso de uso."
+      }
+    ],
+    "howDescription": "Una vista operativa compartida, con alcance de conexión y controles acordados antes del despliegue.",
+    "howSundaeHelps": [
+      {
+        "title": "Conectar la imagen operativa",
+        "description": "Revise sus fuentes de POS, personal, inventario, delivery y contabilidad. Confirme qué campos y locales se pueden conectar y cómo se usarán."
+      },
+      {
+        "title": "Acordar el límite de integración",
+        "description": "Compruebe los métodos de conexión soportados, exportaciones y cualquier acceso API requerido con Sundae. Confirme el trabajo para sus sistemas en lugar de asumir endpoints universales o webhooks."
+      },
+      {
+        "title": "Ajustar la actualización a la decisión",
+        "description": "Revise la disponibilidad de la fuente y la cadencia de actualización para Pulse y otras capacidades. La latencia depende de la fuente y la conexión."
+      },
+      {
+        "title": "Inspeccionar la respuesta y su acceso",
+        "description": "Revise las salidas de Ask Sundae, los datos de soporte y los permisos de rol para los casos de uso que necesitan sus equipos."
+      }
+    ],
+    "outcomesDescription": "Conecte los registros correctos, alinee definiciones métricas y dé a cada equipo el acceso que necesita.",
+    "outcomes": [
+      {
+        "title": "Alcance el trabajo de conexión",
+        "description": "Documente fuentes soportadas, campos requeridos, propietarios y cualquier brecha antes de la implementación."
+      },
+      {
+        "title": "Comparar definiciones métricas",
+        "description": "Compruebe cómo se definen ventas, costes y medidas de personal antes de usarlas entre equipos."
+      },
+      {
+        "title": "Seguir la evidencia disponible",
+        "description": "Inspeccione los registros de soporte y la cobertura de un resultado en vez de asumir que todas las fuentes exponen el mismo detalle."
+      },
+      {
+        "title": "Evaluar la IA con sus controles",
+        "description": "Pruebe preguntas operativas útiles, permisos y soporte de fuentes con las personas que usarán y gobernarán las respuestas."
+      }
+    ],
+    "ctaTitle": "Aporte sus requisitos de fuente y acceso.",
+    "ctaDescription": "Revise sus sistemas, el alcance de la conexión y una pregunta representativa con el equipo técnico."
+  },
+  "de": {
+    "description": "Verbinden Sie operative Quellen, prüfen Sie die Datenabdeckung und schaffen Sie für Teams eine konsistente Basis zur Analyse. Überprüfen Sie Connector-, Zugriffs- und Refresh-Anforderungen für Ihre Umgebung.",
+    "secondaryCta": "Datenverbindungen prüfen",
+    "problemsDescription": "Unterschiedliche Quellendefinitionen, unvollständige Datensätze und wiederkehrende Reporting-Anfragen konkurrieren um die Zeit Ihres Teams.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Refresh-Anforderungen variieren",
+        "description": "Eine Live-Schichtfrage und eine monatliche Review benötigen unterschiedliche Refresh-Intervalle und Quellabdeckung. Die Verbindung muss zum Use Case passen."
+      }
+    ],
+    "howDescription": "Eine geteilte operative Sicht, mit vereinbartem Verbindungsscope und Kontrollen vor dem Rollout.",
+    "howSundaeHelps": [
+      {
+        "title": "Das operative Bild verbinden",
+        "description": "Prüfen Sie Ihre POS-, Workforce-, Inventar-, Delivery- und Buchhaltungsquellen. Bestätigen Sie, welche Felder und Standorte verbunden werden können und wie sie genutzt werden."
+      },
+      {
+        "title": "Die Integrationsgrenze vereinbaren",
+        "description": "Prüfen Sie unterstützte Verbindungsmethoden, Exporte und erforderlichen API-Zugriff mit Sundae. Bestätigen Sie die Arbeiten für Ihre Systeme, statt universelle Endpunkte oder Webhooks vorauszusetzen."
+      },
+      {
+        "title": "Refresh an die Entscheidung anpassen",
+        "description": "Prüfen Sie die Verfügbarkeit der Quelle und Refresh-Zeiten für Pulse und andere Funktionen. Latenz hängt von Quelle und Verbindung ab."
+      },
+      {
+        "title": "Die Antwort und ihren Zugriff prüfen",
+        "description": "Überprüfen Sie Ask Sundae-Ausgaben, unterstützende Daten und Rollenberechtigungen für die Use Cases, die Ihre Teams benötigen."
+      }
+    ],
+    "outcomesDescription": "Die richtigen Aufzeichnungen verbinden, Kennzahldefinitionen angleichen und jedem Team den notwendigen Zugriff geben.",
+    "outcomes": [
+      {
+        "title": "Die Verbindungsschritte abgrenzen",
+        "description": "Dokumentieren Sie unterstützte Quellen, erforderliche Felder, Owner und Lücken vor der Implementierung."
+      },
+      {
+        "title": "Kennzahldefinitionen vergleichen",
+        "description": "Prüfen Sie, wie Umsatz-, Kosten- und Workforce-Maße definiert sind, bevor Sie sie teamübergreifend verwenden."
+      },
+      {
+        "title": "Der verfügbaren Evidenz folgen",
+        "description": "Untersuchen Sie die unterstützenden Aufzeichnungen und deren Abdeckung für ein Ergebnis, anstatt davon auszugehen, dass jede Quelle dieselben Details liefert."
+      },
+      {
+        "title": "KI mit Ihren Kontrollen bewerten",
+        "description": "Testen Sie nützliche operative Fragen, Berechtigungen und Quellunterstützung mit den Personen, die die Antworten nutzen und steuern werden."
+      }
+    ],
+    "ctaTitle": "Bringen Sie Ihre Quellen- und Zugriffsanforderungen.",
+    "ctaDescription": "Überprüfen Sie Ihre Systeme, den Verbindungsscope und eine repräsentative Frage mit dem technischen Team."
+  },
+  "nl": {
+    "description": "Verbind operationele bronnen, controleer datadekking en geef teams een consistente basis voor analyse. Beoordeel connector-, toegangs- en verversvereisten voor uw omgeving.",
+    "secondaryCta": "Beoordeel dataverbindingen",
+    "problemsDescription": "Verschillende brondefinities, onvolledige gegevens en terugkerende rapportageverzoeken concurreren om uw teamtijd.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Verversvereisten verschillen",
+        "description": "Een live-shift vraag en een maandelijkse review hebben verschillende ververs- en brondekkingseisen. De verbinding moet bij de use case passen."
+      }
+    ],
+    "howDescription": "Een gedeeld operationeel beeld, met scope en controles voor verbindingen overeengekomen vóór uitrol.",
+    "howSundaeHelps": [
+      {
+        "title": "Verbind het operationele beeld",
+        "description": "Beoordeel uw POS-, workforce-, voorraad-, delivery- en boekhoudbronnen. Bevestig welke velden en locaties verbonden kunnen worden en hoe ze gebruikt zullen worden."
+      },
+      {
+        "title": "Kom overeen de integratiegrens",
+        "description": "Controleer met Sundae ondersteunde verbindingsmethoden, exports en eventuele vereiste API-toegang. Bevestig het werk voor uw systemen in plaats van universele endpoints of webhooks te veronderstellen."
+      },
+      {
+        "title": "Stem verversing af op de beslissing",
+        "description": "Beoordeel bronbeschikbaarheid en verversmomenten voor Pulse en andere mogelijkheden. Latentie hangt af van de bron en de verbinding."
+      },
+      {
+        "title": "Inspecteer het antwoord en de toegang",
+        "description": "Beoordeel Ask Sundae-uitvoer, ondersteunende data en rolpermissies voor de use cases die uw teams nodig hebben."
+      }
+    ],
+    "outcomesDescription": "Verbind de juiste records, stem metricdefinities af en geef elk team de toegang die het nodig heeft.",
+    "outcomes": [
+      {
+        "title": "Bepaal de scope van connectiewerk",
+        "description": "Documenteer ondersteunde bronnen, vereiste velden, eigenaren en eventuele hiaten vóór implementatie."
+      },
+      {
+        "title": "Vergelijk metricdefinities",
+        "description": "Controleer hoe omzet-, kosten- en workforce-maatregelen zijn gedefinieerd voordat u ze teams overschrijdend gebruikt."
+      },
+      {
+        "title": "Volg het beschikbare bewijs",
+        "description": "Inspecteer de ondersteunende records en dekking voor een resultaat in plaats van aan te nemen dat elke bron dezelfde detailgraad biedt."
+      },
+      {
+        "title": "Evalueer AI met uw controles",
+        "description": "Test nuttige operationele vragen, permissies en bronondersteuning met de mensen die de antwoorden zullen gebruiken en besturen."
+      }
+    ],
+    "ctaTitle": "Breng uw bron- en toegangsvereisten.",
+    "ctaDescription": "Beoordeel uw systemen, de connectiescope en een representatieve vraag met het technische team."
+  },
+  "pt": {
+    "description": "Conecte fontes operacionais, inspecione a cobertura de dados e dê às equipes uma base consistente para análise. Reveja conectores, acesso e requisitos de atualização para seu ambiente.",
+    "secondaryCta": "Reveja conexões de dados",
+    "problemsDescription": "Definições diferentes de fontes, registros incompletos e pedidos de relatório recorrentes competem pelo tempo da sua equipe.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Requisitos de atualização variam",
+        "description": "Uma pergunta em turno e uma revisão mensal precisam de cobertura e atualizações diferentes. A conexão precisa corresponder ao caso de uso."
+      }
+    ],
+    "howDescription": "Uma visão operacional compartilhada, com escopo de conexão e controles acordados antes do rollout.",
+    "howSundaeHelps": [
+      {
+        "title": "Conectar o panorama operacional",
+        "description": "Revise seus fontes de POS, pessoal, inventário, entrega e contabilidade. Confirme quais campos e locais podem ser conectados e como serão usados."
+      },
+      {
+        "title": "Acordar o limite da integração",
+        "description": "Verifique métodos de conexão suportados, exportações e qualquer acesso API requerido com Sundae. Confirme o trabalho para seus sistemas em vez de presumir endpoints universais ou webhooks."
+      },
+      {
+        "title": "Ajustar a atualização à decisão",
+        "description": "Revise disponibilidade da fonte e tempos de atualização para Pulse e outras capacidades. Latência depende da fonte e da conexão."
+      },
+      {
+        "title": "Inspecionar a resposta e seu acesso",
+        "description": "Revise saídas do Ask Sundae, dados de suporte e permissões de função para os casos de uso que suas equipes precisam."
+      }
+    ],
+    "outcomesDescription": "Conecte os registros certos, alinhe definições de métricas e dê a cada equipe o acesso que precisa.",
+    "outcomes": [
+      {
+        "title": "Delimitar o trabalho de conexão",
+        "description": "Documente fontes suportadas, campos requeridos, proprietários e lacunas antes da implementação."
+      },
+      {
+        "title": "Comparar definições de métricas",
+        "description": "Verifique como vendas, custos e medidas de pessoal são definidos antes de usá-los entre equipes."
+      },
+      {
+        "title": "Seguir as evidências disponíveis",
+        "description": "Inspecione os registros de suporte e cobertura para um resultado em vez de presumir que toda fonte expõe o mesmo detalhe."
+      },
+      {
+        "title": "Avaliar IA com seus controles",
+        "description": "Teste perguntas operacionais úteis, permissões e suporte de fontes com as pessoas que usarão e governarão as respostas."
+      }
+    ],
+    "ctaTitle": "Traga seus requisitos de fonte e acesso.",
+    "ctaDescription": "Revise seus sistemas, o escopo da conexão e uma pergunta representativa com a equipe técnica."
+  },
+  "hi": {
+    "description": "ऑपरेटिंग स्रोतों को कनेक्ट करें, डेटा कवरेज देखें और टीमों को विश्लेषण के लिए एक सुसंगत आधार दें। अपने वातावरण के लिए कनेक्टर, एक्सेस और रिफ्रेश आवश्यकताओं की समीक्षा करें।",
+    "secondaryCta": "डेटा कनेक्शनों की समीक्षा करें",
+    "problemsDescription": "विभिन्न स्रोत परिभाषाएँ, अधूरी रिकॉर्ड और बार-बार रिपोर्टिंग अनुरोध आपकी टीम का समय लेते हैं।",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "रिफ्रेश आवश्यकताएँ अलग होती हैं",
+        "description": "एक लाइव-शिफ्ट सवाल और एक मासिक समीक्षा को अलग रिफ्रेश और स्रोत कवरेज चाहिए। कनेक्शन को उपयोग केस से मेल खाना चाहिए।"
+      }
+    ],
+    "howDescription": "एक साझा ऑपरेटिंग दृश्य, जिसमें रोलआउट से पहले कनेक्शन स्कोप और नियंत्रण सहमति किए गए हों।",
+    "howSundaeHelps": [
+      {
+        "title": "ऑपरेटिंग तस्वीर कनेक्ट करें",
+        "description": "अपने POS, वर्कफोर्स, इन्वेंटरी, डिलीवरी और अकाउंटिंग स्रोतों की समीक्षा करें। पुष्टि करें कि कौन से फील्ड और स्थान कनेक्ट किए जा सकते हैं और वे कैसे उपयोग होंगे।"
+      },
+      {
+        "title": "इंटीग्रेशन की सीमा पर सहमति करें",
+        "description": "Sundae के साथ समर्थित कनेक्शन तरीकों, एक्सपोर्ट और किसी आवश्यक API एक्सेस की जांच करें। सार्वभौमिक एंडपॉइंट या वेबहुक मान लेने के बजाय अपने सिस्टम के लिए आवश्यक काम की पुष्टि करें।"
+      },
+      {
+        "title": "निर्णय के लिए रिफ्रेश को मिलाएँ",
+        "description": "Pulse और अन्य क्षमताओं के लिए स्रोत उपलब्धता और रिफ्रेश समय की समीक्षा करें। लेटेंसी स्रोत और कनेक्शन पर निर्भर करती है।"
+      },
+      {
+        "title": "उत्तर और उसकी पहुंच का निरीक्षण करें",
+        "description": "Ask Sundae आउटपुट, सहायक डेटा और उन उपयोग मामलों के लिए भूमिका अनुमतियों की समीक्षा करें जिनकी आपकी टीमों को आवश्यकता है।"
+      }
+    ],
+    "outcomesDescription": "सही रिकॉर्ड कनेक्ट करें, मीट्रिक परिभाषाओं को संरेखित करें और प्रत्येक टीम को आवश्यक एक्सेस दें।",
+    "outcomes": [
+      {
+        "title": "कनेक्शन कार्य का स्कोप बनाना",
+        "description": "लागू होने से पहले समर्थित स्रोत, आवश्यक फील्ड, मालिक और किसी भी गैप का दस्तावेज़ बनाएं।"
+      },
+      {
+        "title": "मीट्रिक परिभाषाओं की तुलना करें",
+        "description": "टीमों के बीच उपयोग से पहले जांचें कि बिक्री, लागत और वर्कफोर्स मापों को कैसे परिभाषित किया गया है।"
+      },
+      {
+        "title": "उपलब्ध साक्ष्य का पालन करें",
+        "description": "परिणाम के लिए उपयुक्त स्रोत रिकॉर्ड और कवरेज का निरीक्षण करें बजाय इसके कि हर स्रोत वही विवरण उजागर करता हो।"
+      },
+      {
+        "title": "अपने नियंत्रणों के साथ AI का मूल्यांकन करें",
+        "description": "उपयोगी ऑपरेटिंग प्रश्नों, अनुमतियों और स्रोत समर्थन का परीक्षण उन लोगों के साथ करें जो उत्तरों का उपयोग और शासन करेंगे।"
+      }
+    ],
+    "ctaTitle": "अपने स्रोत और एक्सेस आवश्यकताएँ लाएँ।",
+    "ctaDescription": "तकनीकी टीम के साथ अपने सिस्टम, कनेक्शन स्कोप और एक प्रतिनिधि प्रश्न की समीक्षा करें।"
+  },
+  "ur": {
+    "description": "آپریٹنگ سورسز کو کنکٹ کریں، ڈیٹا کوریج کا معائنہ کریں اور ٹیموں کو تجزیے کے لیے ایک مستقل بنیاد دیں۔ اپنے ماحول کے لیے کنیکٹر، رسائی اور ریفریش ضروریات کا جائزہ لیں۔",
+    "secondaryCta": "ڈیٹا کنکشنز کا جائزہ لیں",
+    "problemsDescription": "مختلف سورس تعریفیں، نامکمل ریکارڈز اور بار بار آنے والی رپورٹس آپ کی ٹیم کا وقت مانگتی ہیں۔",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "ریفریش تقاضے مختلف ہیں",
+        "description": "ایک لائیو شفٹ سوال اور ماہانہ ریویو کو مختلف ریفریش اور سورس کوریج درکار ہے۔ کنکشن کو استعمال کے کیس سے میل کھانا چاہیے۔"
+      }
+    ],
+    "howDescription": "ایک مشترکہ آپریٹنگ منظر، جس میں کنکشن اسکوپ اور کنٹرولز رول آؤٹ سے پہلے طے ہوں۔",
+    "howSundaeHelps": [
+      {
+        "title": "آپریٹنگ تصویر کنیکٹ کریں",
+        "description": "اپنے POS، ورک فورس، انوینٹری، ڈیلیوری اور اکاؤنٹنگ سورسز کا جائزہ لیں۔ تصدیق کریں کن فیلڈز اور مقامات کو جوڑا جا سکتا ہے اور انہیں کیسے استعمال کیا جائے گا۔"
+      },
+      {
+        "title": "انٹیگریشن کی حد طے کریں",
+        "description": "Sundae کے ساتھ سپورٹ شدہ کنکشن طریقے، ایکسپورٹس اور کسی بھی مطلوب API رسائی کی جانچ کریں۔ عمومی اینڈ پوائنٹس یا ویب ہکس فرض نہ کریں، اپنے سسٹمز کے لیے کام کی تصدیق کریں۔"
+      },
+      {
+        "title": "فیصلے کے مطابق ریفریش منتخب کریں",
+        "description": "Pulse اور دیگر صلاحیتوں کے لیے سورس دستیابی اور ریفریش ٹائمنگ کا جائزہ لیں۔ لیٹنسی سورس اور کنکشن پر منحصر ہوتی ہے۔"
+      },
+      {
+        "title": "جواب اور اس کی رسائی کا معائنہ کریں",
+        "description": "Ask Sundae آؤٹ پٹس، معاون ڈیٹا اور آپ کی ٹیموں کی ضرورت کے استعمال کے کیسز کے لیے رول پرمیشنز کا جائزہ لیں۔"
+      }
+    ],
+    "outcomesDescription": "صحیح ریکارڈز کنیکٹ کریں، میٹرک تعریفیں ہم آہنگ کریں اور ہر ٹیم کو ضروری رسائی دیں۔",
+    "outcomes": [
+      {
+        "title": "کنکشن ورک کو اسکوپ کریں",
+        "description": "اسپروٹڈ سورسز، درکار فیلڈز، مالکان اور کسی بھی خلاء کو عملدرآمد سے پہلے دستاویز کریں۔"
+      },
+      {
+        "title": "میٹرک تعریفوں کا موازنہ کریں",
+        "description": "ٹیموں کے درمیان استعمال سے پہلے چیک کریں کہ سیلز، لاگت اور ورک فورس میجرز کیسے تعریف کیے گئے ہیں۔"
+      },
+      {
+        "title": "دستیاب شواہد پر عمل کریں",
+        "description": "ہر سورس ایک جیسی تفصیل ظاہر کرتا ہے فرض کرنے کی بجائے نتیجے کے معاون ریکارڈز اور کوریج کا معائنہ کریں۔"
+      },
+      {
+        "title": "اپنے کنٹرولز کے ساتھ AI کا جائزہ لیں",
+        "description": "ان لوگوں کے ساتھ مفید آپریٹنگ سوالات، اجازتیں اور سورس سپورٹ ٹیسٹ کریں جو جوابات استعمال اور گورن کریں گے۔"
+      }
+    ],
+    "ctaTitle": "اپنے سورس اور رسائی کی ضروریات لائیں۔",
+    "ctaDescription": "تکنیکی ٹیم کے ساتھ اپنے سسٹمز، کنکشن اسکوپ اور نمائندہ سوال کا جائزہ لیں۔"
+  },
+  "it": {
+    "description": "Collega le fonti operative, ispeziona la copertura dei dati e fornisci alle squadre una base coerente per l’analisi. Rivedi con il team connettori, accessi e requisiti di refresh per il tuo ambiente.",
+    "secondaryCta": "Rivedere le connessioni dati",
+    "problemsDescription": "Definizioni diverse delle fonti, record incompleti e richieste di report ricorrenti competono per il tempo del tuo team.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "I requisiti di refresh variano",
+        "description": "Una domanda su un turno in tempo reale e una revisione mensile richiedono refresh e coperture della fonte diversi. La connessione deve corrispondere al caso d’uso."
+      }
+    ],
+    "howDescription": "Una vista operativa condivisa, con ambito di connessione e controlli concordati prima del rollout.",
+    "howSundaeHelps": [
+      {
+        "title": "Connettere il quadro operativo",
+        "description": "Rivedi le tue fonti POS, workforce, inventario, delivery e contabilità. Conferma quali campi e sedi possono essere collegati e come saranno usati."
+      },
+      {
+        "title": "Concordare il confine d’integrazione",
+        "description": "Controlla i metodi di connessione supportati, le esportazioni e qualsiasi accesso API richiesto con Sundae. Conferma il lavoro per i tuoi sistemi invece di presumere endpoint universali o webhook."
+      },
+      {
+        "title": "Allineare il refresh alla decisione",
+        "description": "Rivedi disponibilità delle fonti e tempi di refresh per Pulse e altre capacità. La latenza dipende dalla fonte e dalla connessione."
+      },
+      {
+        "title": "Ispezionare la risposta e il suo accesso",
+        "description": "Rivedi gli output di Ask Sundae, i dati di supporto e i permessi di ruolo per i casi d’uso di cui le tue squadre hanno bisogno."
+      }
+    ],
+    "outcomesDescription": "Collega i record giusti, allinea le definizioni delle metriche e dai a ogni team l’accesso necessario.",
+    "outcomes": [
+      {
+        "title": "Definire il lavoro di connessione",
+        "description": "Documenta fonti supportate, campi richiesti, proprietari e eventuali gap prima dell’implementazione."
+      },
+      {
+        "title": "Confrontare le definizioni delle metriche",
+        "description": "Controlla come sono definite vendite, costi e misure workforce prima di usarle tra i team."
+      },
+      {
+        "title": "Seguire le evidenze disponibili",
+        "description": "Ispeziona i record di supporto e la copertura per un risultato invece di presumere che ogni fonte esponga lo stesso livello di dettaglio."
+      },
+      {
+        "title": "Valutare l’AI con i tuoi controlli",
+        "description": "Testa domande operative utili, permessi e supporto delle fonti con le persone che useranno e governeranno le risposte."
+      }
+    ],
+    "ctaTitle": "Porta i tuoi requisiti di fonte e accesso.",
+    "ctaDescription": "Rivedi i tuoi sistemi, l’ambito di connessione e una domanda rappresentativa con il team tecnico."
+  },
+  "pl": {
+    "description": "Połącz źródła operacyjne, sprawdź zakres danych i zapewnij zespołom spójną podstawę do analiz. Przejrzyj wymagania dotyczące konektorów, dostępu i odświeżania dla Twojego środowiska.",
+    "secondaryCta": "Przejrzyj połączenia danych",
+    "problemsDescription": "Różne definicje źródeł, niekompletne zapisy i powtarzające się żądania raportowe konkurują o czas Twojego zespołu.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Wymagania odświeżania się różnią",
+        "description": "Pytanie w trakcie zmiany i miesięczny przegląd potrzebują różnych częstotliwości odświeżania i zakresu źródeł. Połączenie musi odpowiadać przypadkowi użycia."
+      }
+    ],
+    "howDescription": "Wspólny widok operacyjny, z uzgodnionym zakresem połączeń i kontrolami przed wdrożeniem.",
+    "howSundaeHelps": [
+      {
+        "title": "Połącz obraz operacyjny",
+        "description": "Przejrzyj swoje źródła POS, workforce, inventory, delivery i accounting. Potwierdź, które pola i lokalizacje można połączyć i jak będą używane."
+      },
+      {
+        "title": "Uzgodnij granicę integracji",
+        "description": "Sprawdź z Sundae obsługiwane metody połączeń, eksporty i ewentualny wymagany dostęp do API. Potwierdź pracę dla Twoich systemów zamiast zakładać uniwersalne końcówki lub webhooks."
+      },
+      {
+        "title": "Dopasuj odświeżanie do decyzji",
+        "description": "Przejrzyj dostępność źródeł i harmonogram odświeżania dla Pulse i innych funkcji. Latencja zależy od źródła i połączenia."
+      },
+      {
+        "title": "Sprawdź odpowiedź i dostęp",
+        "description": "Przejrzyj wyniki Ask Sundae, wspierające dane i uprawnienia ról dla przypadków użycia potrzebnych Twoim zespołom."
+      }
+    ],
+    "outcomesDescription": "Połącz właściwe zapisy, wyrównaj definicje metryk i zapewnij każdemu zespołowi potrzebny dostęp.",
+    "outcomes": [
+      {
+        "title": "Zakreśl pracę integracyjną",
+        "description": "Udokumentuj obsługiwane źródła, wymagane pola, właścicieli i ewentualne luki przed wdrożeniem."
+      },
+      {
+        "title": "Porównaj definicje metryk",
+        "description": "Sprawdź, jak definiowane są miary sprzedaży, kosztów i zatrudnienia przed ich użyciem w zespołach."
+      },
+      {
+        "title": "Kieruj się dostępnymi dowodami",
+        "description": "Sprawdź wspierające zapisy i zakres zamiast zakładać, że każde źródło ujawnia te same szczegóły."
+      },
+      {
+        "title": "Oceń AI według swoich kontroli",
+        "description": "Przetestuj przydatne pytania operacyjne, uprawnienia i wsparcie źródeł z ludźmi, którzy będą używać i nadzorować odpowiedzi."
+      }
+    ],
+    "ctaTitle": "Przynieś wymagania dotyczące źródeł i dostępu.",
+    "ctaDescription": "Przejrzyj swoje systemy, zakres połączeń i reprezentatywne pytanie z zespołem technicznym."
+  },
+  "tr": {
+    "description": "İşletme kaynaklarını bağlayın, veri kapsamını inceleyin ve ekiplerin analiz için tutarlı bir temeli olsun. Ortamınız için bağlayıcı, erişim ve yenileme gereksinimlerini gözden geçirin.",
+    "secondaryCta": "Veri bağlantılarını gözden geçirin",
+    "problemsDescription": "Farklı kaynak tanımları, eksik kayıtlar ve tekrar eden raporlama talepleri ekibinizin zamanıyla rekabet ediyor.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Yenileme gereksinimleri değişir",
+        "description": "Canlı vardiya sorusu ile aylık inceleme farklı yenileme ve kaynak kapsamı gerektirir. Bağlantı kullanım durumuna uygun olmalıdır."
+      }
+    ],
+    "howDescription": "Paylaşılan bir işletme görünümü, dağıtımdan önce bağlantı kapsamı ve kontrolleri üzerinde anlaşma sağlanır.",
+    "howSundaeHelps": [
+      {
+        "title": "İşletme resmini bağlayın",
+        "description": "POS, işgücü, envanter, teslimat ve muhasebe kaynaklarınızı gözden geçirin. Hangi alanların ve konumların bağlanabileceğini ve nasıl kullanılacağını doğrulayın."
+      },
+      {
+        "title": "Entegrasyon sınırını kararlaştırın",
+        "description": "Sundae ile desteklenen bağlantı yöntemlerini, dışa aktarımları ve gereken API erişimini kontrol edin. Evrensel uç noktalar veya webhooklar varsaymayın, sizin sistemleriniz için yapılacak işi doğrulayın."
+      },
+      {
+        "title": "Yenilemeyi karara eşleştirin",
+        "description": "Pulse ve diğer yetenekler için kaynak kullanılabilirliğini ve yenileme zamanlamasını gözden geçirin. Gecikme kaynak ve bağlantıya bağlıdır."
+      },
+      {
+        "title": "Cevabı ve erişimini denetleyin",
+        "description": "Ask Sundae çıktılarını, destekleyici verileri ve ekiplerinizin ihtiyaç duyduğu kullanım durumları için rol izinlerini gözden geçirin."
+      }
+    ],
+    "outcomesDescription": "Doğru kayıtları bağlayın, metrik tanımlarını uyumlu hale getirin ve her takıma ihtiyaç duyduğu erişimi verin.",
+    "outcomes": [
+      {
+        "title": "Bağlantı işini kapsamlandırın",
+        "description": "Uygulamadan önce desteklenen kaynakları, gerekli alanları, sahipleri ve varsa boşlukları belgeleyin."
+      },
+      {
+        "title": "Metrik tanımlarını karşılaştırın",
+        "description": "Satış, maliyet ve işgücü ölçülerinin nasıl tanımlandığını ekipler arası kullanım öncesi kontrol edin."
+      },
+      {
+        "title": "Mevcut kanıta uyun",
+        "description": "Bir sonucu varsaymak yerine destekleyici kayıtları ve kapsamı inceleyin; her kaynağın aynı ayrıntıyı sunduğunu varsaymayın."
+      },
+      {
+        "title": "Yapay zekayı kontrollerinizle değerlendirin",
+        "description": "Kullanışlı işletme sorularını, izinleri ve kaynak desteğini kullanacak ve yönetecek kişilerle test edin."
+      }
+    ],
+    "ctaTitle": "Kaynak ve erişim gereksinimlerinizi getirin.",
+    "ctaDescription": "Teknik ekiple sistemlerinizi, bağlantı kapsamını ve temsilî bir soruyu gözden geçirin."
+  },
+  "zh-Hans": {
+    "description": "连接运营来源、检查数据覆盖并为团队提供一致的分析基础。在部署前审查连接器、访问和刷新要求。",
+    "secondaryCta": "审查数据连接",
+    "problemsDescription": "不同的来源定义、记录不完整以及重复的报告请求消耗团队时间。",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "刷新要求各异",
+        "description": "实时班次问题和每月审查需要不同的刷新和数据覆盖。连接必须匹配使用场景。"
+      }
+    ],
+    "howDescription": "一个共享的运营视图，在上线前就连接范围与控制达成一致。",
+    "howSundaeHelps": [
+      {
+        "title": "连接运营全貌",
+        "description": "审查您的 POS、人员、库存、外卖和会计数据源。确认哪些字段与地点可以连接以及它们将如何使用。"
+      },
+      {
+        "title": "确认集成边界",
+        "description": "与 Sundae 一起检查支持的连接方法、导出和任何所需的 API 访问。确认对您系统的工作，而不要假设通用端点或 webhook。"
+      },
+      {
+        "title": "将刷新频率与决策匹配",
+        "description": "审查 Pulse 和其它功能所需的数据可用性与刷新时序。延迟取决于数据源与连接方式。"
+      },
+      {
+        "title": "检查答案及其访问",
+        "description": "审查 Ask Sundae 的输出、支持数据和角色权限，针对团队需要的使用场景。"
+      }
+    ],
+    "outcomesDescription": "连接正确的记录，统一指标定义，并为每个团队提供所需访问。",
+    "outcomes": [
+      {
+        "title": "确定连接工作范围",
+        "description": "在实施前记录支持的数据源、必需字段、负责人和任何差距。"
+      },
+      {
+        "title": "比较指标定义",
+        "description": "在跨团队使用前检查销售、成本和人员指标的定义。"
+      },
+      {
+        "title": "遵循可用证据",
+        "description": "检查结果的支持记录与覆盖，而不要假设每个源都暴露相同细节。"
+      },
+      {
+        "title": "在您的控制下评估 AI",
+        "description": "与将使用并监管答案的人一起测试有用的运营问题、权限和数据源支持。"
+      }
+    ],
+    "ctaTitle": "带上您的数据源与访问要求。",
+    "ctaDescription": "与技术团队审查您的系统、连接范围与一个代表性问题。"
+  },
+  "ja": {
+    "description": "稼働ソースを接続し、データカバレッジを点検し、チームに一貫した分析基盤を提供する。接続、アクセス、リフレッシュ要件を環境に合わせてレビューする。",
+    "secondaryCta": "データ接続を確認する",
+    "problemsDescription": "異なるソース定義、不完全な記録、繰り返しのレポート要求がチームの時間を圧迫する。",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "リフレッシュ要件が異なる",
+        "description": "リアルタイムのシフト質問と月次レビューでは必要なリフレッシュやソースカバレッジが異なる。接続はユースケースに合致している必要がある。"
+      }
+    ],
+    "howDescription": "共有の稼働ビュー。接続範囲と制御は展開前に合意する。",
+    "howSundaeHelps": [
+      {
+        "title": "稼働図を接続する",
+        "description": "POS、ワークフォース、在庫、デリバリー、会計ソースをレビューする。どのフィールドとロケーションを接続でき、どのように使用するかを確認する。"
+      },
+      {
+        "title": "統合の境界を合意する",
+        "description": "サポートされる接続方法、エクスポート、および必要なAPIアクセスをSundaeと確認する。汎用エンドポイントやWebhookを前提とせず、貴社システムの作業を確認する。"
+      },
+      {
+        "title": "判断に合わせてリフレッシュを合わせる",
+        "description": "Pulseや他の機能のためにソースの可用性とリフレッシュタイミングを確認する。レイテンシはソースと接続に依存する。"
+      },
+      {
+        "title": "回答とそのアクセスを点検する",
+        "description": "Ask Sundaeの出力、裏付けデータ、チームが必要とするユースケースのためのロール権限をレビューする。"
+      }
+    ],
+    "outcomesDescription": "適切な記録を接続し、指標定義を整合させ、各チームに必要なアクセスを与える。",
+    "outcomes": [
+      {
+        "title": "接続作業の範囲を定める",
+        "description": "実装前にサポートされるソース、必要なフィールド、オーナー、およびギャップを文書化する。"
+      },
+      {
+        "title": "指標定義を比較する",
+        "description": "チーム間で使用する前に、売上、コスト、ワークフォースの定義を確認する。"
+      },
+      {
+        "title": "利用可能な証拠に従う",
+        "description": "結果について、すべてのソースが同じ詳細を露出していると仮定するのではなく、裏付け記録とカバレッジを点検する。"
+      },
+      {
+        "title": "統制とともにAIを評価する",
+        "description": "有用な稼働質問、権限、ソースサポートを、実際に使用しガバナンスする人々と共にテストする。"
+      }
+    ],
+    "ctaTitle": "ソースとアクセス要件を持ってきてください。",
+    "ctaDescription": "技術チームと共にシステム、接続範囲、代表的な質問をレビューする。"
+  },
+  "ko": {
+    "description": "운영 소스를 연결하고 데이터 적용 범위를 검사해 팀에 일관된 분석 기반을 제공하세요. 환경에 대한 커넥터, 접근 및 새로고침 요구사항을 검토하세요.",
+    "secondaryCta": "데이터 연결 검토",
+    "problemsDescription": "출처별 정의 차이, 불완전한 기록 및 반복되는 보고 요청이 팀의 시간을 경쟁합니다.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "새로고침 요구가 다양합니다",
+        "description": "실시간 현장 질문과 월간 검토는 서로 다른 새로고침 및 소스 적용 범위를 필요로 합니다. 연결은 사용 사례에 맞아야 합니다."
+      }
+    ],
+    "howDescription": "롤아웃 전에 연결 범위와 제어를 합의한 공유 운영 뷰.",
+    "howSundaeHelps": [
+      {
+        "title": "운영 그림 연결",
+        "description": "POS, 인력, 재고, 배달 및 회계 소스를 검토하세요. 연결할 수 있는 필드와 위치 및 사용 방식을 확인하세요."
+      },
+      {
+        "title": "통합 경계 합의",
+        "description": "지원되는 연결 방식, 내보내기 및 Sundae와 필요한 API 접근을 확인하세요. 보편적 엔드포인트나 웹후크를 가정하지 말고 귀사 시스템에 필요한 작업을 확정하세요."
+      },
+      {
+        "title": "결정에 맞춘 새로고침",
+        "description": "Pulse 및 기타 기능에 대한 소스 가용성과 새로고침 타이밍을 검토하세요. 지연은 소스와 연결에 따라 달라집니다."
+      },
+      {
+        "title": "답변과 접근 검토",
+        "description": "Ask Sundae 출력물, 근거 데이터 및 팀이 필요로 하는 사용 사례에 대한 역할 권한을 검토하세요."
+      }
+    ],
+    "outcomesDescription": "적절한 기록을 연결하고 지표 정의를 정렬하며 각 팀에 필요한 접근을 제공합니다.",
+    "outcomes": [
+      {
+        "title": "연결 작업 범위 정리",
+        "description": "구현 전에 지원되는 소스, 필수 필드, 소유자 및 격차를 문서화하세요."
+      },
+      {
+        "title": "지표 정의 비교",
+        "description": "팀 간 사용 전에 매출, 비용 및 인력 지표 정의를 확인하세요."
+      },
+      {
+        "title": "가용 증거 따르기",
+        "description": "결과를 가정하지 말고 지원 기록과 적용 범위를 검사하세요. 모든 소스가 동일한 상세를 노출한다고 가정하지 마세요."
+      },
+      {
+        "title": "통제와 함께 AI 평가",
+        "description": "실무에 유용한 질문, 권한 및 소스 지원을 실제 사용 및 거버넌스를 담당할 사람들과 테스트하세요."
+      }
+    ],
+    "ctaTitle": "귀하의 소스 및 접근 요구사항을 가져오세요.",
+    "ctaDescription": "기술 팀과 시스템, 연결 범위 및 대표 질문을 검토하세요."
+  },
+  "id": {
+    "description": "Hubungkan sumber operasional, periksa cakupan data dan berikan tim dasar analisis yang konsisten. Tinjau kebutuhan konektor, akses dan penyegaran untuk lingkungan Anda.",
+    "secondaryCta": "Tinjau koneksi data",
+    "problemsDescription": "Definisi sumber yang berbeda, catatan tidak lengkap dan permintaan pelaporan berulang bersaing untuk waktu tim Anda.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Kebutuhan penyegaran bervariasi",
+        "description": "Pertanyaan shift langsung dan tinjauan bulanan memerlukan penyegaran dan cakupan sumber yang berbeda. Koneksi harus cocok dengan kasus penggunaan."
+      }
+    ],
+    "howDescription": "Tata pandang operasional bersama, dengan ruang lingkup koneksi dan kontrol disepakati sebelum peluncuran.",
+    "howSundaeHelps": [
+      {
+        "title": "Hubungkan gambaran operasional",
+        "description": "Tinjau sumber POS, tenaga kerja, inventaris, pengiriman dan akuntansi Anda. Konfirmasi bidang dan lokasi mana yang dapat dihubungkan dan bagaimana akan digunakan."
+      },
+      {
+        "title": "Sepakati batas integrasi",
+        "description": "Periksa metode koneksi yang didukung, ekspor dan akses API yang diperlukan dengan Sundae. Konfirmasi pekerjaan untuk sistem Anda daripada berasumsi endpoint universal atau webhook."
+      },
+      {
+        "title": "Sesuakan penyegaran dengan keputusan",
+        "description": "Tinjau ketersediaan sumber dan waktu penyegaran untuk Pulse dan kemampuan lain. Laten tergantung pada sumber dan koneksi."
+      },
+      {
+        "title": "Periksa jawaban dan aksesnya",
+        "description": "Tinjau keluaran Ask Sundae, data pendukung dan izin peran untuk kasus penggunaan yang tim Anda perlukan."
+      }
+    ],
+    "outcomesDescription": "Hubungkan catatan yang tepat, selaraskan definisi metrik dan beri setiap tim akses yang mereka butuhkan.",
+    "outcomes": [
+      {
+        "title": "Ruang lingkup pekerjaan koneksi",
+        "description": "Dokumentasikan sumber yang didukung, bidang yang diperlukan, pemilik dan setiap kekurangan sebelum implementasi."
+      },
+      {
+        "title": "Bandingkan definisi metrik",
+        "description": "Periksa bagaimana ukuran penjualan, biaya dan tenaga kerja didefinisikan sebelum menggunakannya lintas tim."
+      },
+      {
+        "title": "Ikuti bukti yang tersedia",
+        "description": "Periksa catatan pendukung dan cakupan untuk sebuah hasil daripada berasumsi setiap sumber mengekspor detail yang sama."
+      },
+      {
+        "title": "Evaluasi AI dengan kontrol Anda",
+        "description": "Uji pertanyaan operasional yang berguna, izin dan dukungan sumber dengan orang yang akan menggunakan dan mengatur jawaban."
+      }
+    ],
+    "ctaTitle": "Bawa kebutuhan sumber dan akses Anda.",
+    "ctaDescription": "Tinjau sistem Anda, ruang lingkup koneksi dan sebuah pertanyaan representatif dengan tim teknis."
+  },
+  "vi": {
+    "description": "Kết nối nguồn vận hành, kiểm tra phạm vi dữ liệu và cung cấp cho các đội cơ sở nhất quán cho phân tích. Xem lại kết nối, quyền truy cập và yêu cầu làm mới cho môi trường của bạn.",
+    "secondaryCta": "Xem lại kết nối dữ liệu",
+    "problemsDescription": "Định nghĩa nguồn khác nhau, hồ sơ không hoàn chỉnh và yêu cầu báo cáo lặp lại cạnh tranh thời gian của đội bạn.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Yêu cầu làm mới khác nhau",
+        "description": "Một câu hỏi ca trực trực tiếp và một đánh giá hàng tháng cần tần suất làm mới và phạm vi nguồn khác nhau. Kết nối phải phù hợp với trường hợp sử dụng."
+      }
+    ],
+    "howDescription": "Một góc nhìn vận hành chung, với phạm vi kết nối và quyền kiểm soát được thỏa thuận trước khi triển khai.",
+    "howSundaeHelps": [
+      {
+        "title": "Kết nối bức tranh vận hành",
+        "description": "Xem xét nguồn POS, lực lượng lao động, tồn kho, giao nhận và kế toán của bạn. Xác nhận trường và địa điểm có thể kết nối và cách chúng sẽ được sử dụng."
+      },
+      {
+        "title": "Thống nhất ranh giới tích hợp",
+        "description": "Kiểm tra phương thức kết nối được hỗ trợ, các xuất dữ liệu và bất kỳ yêu cầu truy cập API nào với Sundae. Xác nhận công việc cho hệ thống của bạn thay vì giả định các endpoint hay webhook phổ quát."
+      },
+      {
+        "title": "Khớp tần suất làm mới với quyết định",
+        "description": "Xem lại tính khả dụng nguồn và thời gian làm mới cho Pulse và các khả năng khác. Độ trễ phụ thuộc vào nguồn và kết nối."
+      },
+      {
+        "title": "Kiểm tra kết quả và quyền truy cập",
+        "description": "Xem xét đầu ra Ask Sundae, dữ liệu hỗ trợ và quyền vai trò cho các trường hợp sử dụng đội bạn cần."
+      }
+    ],
+    "outcomesDescription": "Kết nối đúng hồ sơ, thống nhất định nghĩa chỉ số và cung cấp quyền truy cập cần thiết cho từng đội.",
+    "outcomes": [
+      {
+        "title": "Phạm vi công việc kết nối",
+        "description": "Ghi chép các nguồn được hỗ trợ, trường cần thiết, chủ sở hữu và bất kỳ khoảng trống nào trước khi triển khai."
+      },
+      {
+        "title": "So sánh định nghĩa chỉ số",
+        "description": "Kiểm tra cách định nghĩa doanh thu, chi phí và chỉ số lực lượng lao động trước khi dùng chung giữa các đội."
+      },
+      {
+        "title": "Theo bằng chứng có sẵn",
+        "description": "Kiểm tra hồ sơ hỗ trợ và phạm vi bao phủ cho một kết quả thay vì giả định mọi nguồn đều lộ cùng mức chi tiết."
+      },
+      {
+        "title": "Đánh giá AI theo kiểm soát",
+        "description": "Thử các câu hỏi vận hành hữu ích, quyền và hỗ trợ nguồn với những người sẽ dùng và quản trị câu trả lời."
+      }
+    ],
+    "ctaTitle": "Mang yêu cầu nguồn và quyền truy cập của bạn.",
+    "ctaDescription": "Xem lại hệ thống, phạm vi kết nối và một câu hỏi đại diện với đội kỹ thuật."
+  },
+  "ro": {
+    "description": "Conectați sursele operaționale, inspectați acoperirea datelor și oferiți echipelor o bază consistentă pentru analiză. Revizuiți conectorii, accesul și cerințele de reîmprospătare pentru mediul dvs.",
+    "secondaryCta": "Revizuiți conexiunile de date",
+    "problemsDescription": "Definiții de sursă diferite, registre incomplete și cerințe recurente de raportare concurează pentru timpul echipei dvs.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Cerințele de reîmprospătare variază",
+        "description": "O întrebare de tipul «live-shift» și o revizuire lunară necesită acoperire și reîmprospătări diferite. Conexiunea trebuie să se potrivească cazului de utilizare."
+      }
+    ],
+    "howDescription": "O vedere operațională comună, cu domeniul conexiunii și controalele agreate înainte de implementare.",
+    "howSundaeHelps": [
+      {
+        "title": "Conectați imaginea operațională",
+        "description": "Revizuiți sursele POS, pentru forța de muncă, inventar, livrări și contabilitate. Confirmați ce câmpuri și locații pot fi conectate și cum vor fi folosite."
+      },
+      {
+        "title": "Agreați limita integrării",
+        "description": "Verificați metodele de conectare acceptate, exporturile și orice acces API necesar cu Sundae. Confirmați munca pentru sistemele dvs. în loc să presupuneți endpointuri universale sau webhookuri."
+      },
+      {
+        "title": "Potriviți reîmprospătarea cu decizia",
+        "description": "Revizuiți disponibilitatea surselor și timpii de reîmprospătare pentru Pulse și alte funcționalități. Latența depinde de sursă și conexiune."
+      },
+      {
+        "title": "Inspectați răspunsul și accesul la el",
+        "description": "Revizuiți rezultatele Ask Sundae, datele suport și permisiunile pe rol pentru cazurile de utilizare de care au nevoie echipele dvs."
+      }
+    ],
+    "outcomesDescription": "Conectați registrele potrivite, aliniați definițiile metricilor și oferiți fiecărei echipe accesul necesar.",
+    "outcomes": [
+      {
+        "title": "Definiți volumul de lucru pentru conexiuni",
+        "description": "Documentați sursele suportate, câmpurile necesare, proprietarii și orice lacune înainte de implementare."
+      },
+      {
+        "title": "Comparați definițiile metricilor",
+        "description": "Verificați cum sunt definite vânzările, costurile și măsurile de personal înainte de a le folosi între echipe."
+      },
+      {
+        "title": "Urmăriți dovezile disponibile",
+        "description": "Inspectați evidențele suport și acoperirea pentru un rezultat în loc să presupuneți că fiecare sursă expune același nivel de detaliu."
+      },
+      {
+        "title": "Evaluați AI în cadrul controalelor dvs.",
+        "description": "Testați întrebări operaționale utile, permisiunile și suportul surselor cu persoanele care vor folosi și guverna răspunsurile."
+      }
+    ],
+    "ctaTitle": "Aduceți cerințele dvs. de sursă și acces.",
+    "ctaDescription": "Revizuiți sistemele, domeniul de conexiune și o întrebare reprezentativă cu echipa tehnică."
+  },
+  "sv": {
+    "description": "Koppla driftkällor, inspektera datatäckning och ge team en konsekvent analysgrund. Granska connector-, åtkomst- och uppdateringskrav för din miljö.",
+    "secondaryCta": "Granska datakopplingar",
+    "problemsDescription": "Olika källdefinitioner, ofullständiga poster och återkommande rapportförfrågningar konkurrerar om ditt teams tid.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Uppdateringskrav varierar",
+        "description": "En fråga i realtid och en månadsöversyn kräver olika uppdateringsfrekvens och källtäckning. Kopplingen måste matcha användningsfallet."
+      }
+    ],
+    "howDescription": "En gemensam driftvy, med avgränsning och styrning föransedd innan utrullning.",
+    "howSundaeHelps": [
+      {
+        "title": "Koppla driftbilden",
+        "description": "Granska dina POS-, workforce-, lager-, leverans- och redovisningskällor. Bekräfta vilka fält och platser som kan kopplas och hur de kommer att användas."
+      },
+      {
+        "title": "Kom överens om integrationsgränsen",
+        "description": "Kontrollera stödda anslutningsmetoder, exportformat och eventuell nödvändig API-åtkomst med Sundae. Bekräfta arbetet för era system i stället för att anta universella endpoints eller webhooks."
+      },
+      {
+        "title": "Matcha uppdatering till beslutet",
+        "description": "Granska källtillgänglighet och uppdateringstid för Pulse och andra funktioner. Latens beror på källan och kopplingen."
+      },
+      {
+        "title": "Inspektera svaret och dess åtkomst",
+        "description": "Granska Ask Sundae-utdata, stödjande data och rollbehörigheter för de användningsfall ditt team behöver."
+      }
+    ],
+    "outcomesDescription": "Koppla rätt poster, synkronisera metrikdefinitioner och ge varje team den åtkomst det behöver.",
+    "outcomes": [
+      {
+        "title": "Avgränsa anslutningsarbetet",
+        "description": "Dokumentera stödda källor, nödvändiga fält, ägare och eventuella luckor innan implementation."
+      },
+      {
+        "title": "Jämför metrikdefinitioner",
+        "description": "Kontrollera hur försäljnings-, kostnads- och workforce-mått definieras innan de används över team."
+      },
+      {
+        "title": "Följ tillgänglig evidens",
+        "description": "Inspektera stödjande poster och täckning för ett resultat i stället för att anta att varje källa visar samma detaljgrad."
+      },
+      {
+        "title": "Utvärdera AI med era styrningar",
+        "description": "Testa användbara driftfrågor, behörigheter och kälsupport med de personer som ska använda och styra svaren."
+      }
+    ],
+    "ctaTitle": "Ta med dina käll- och åtkomstkrav.",
+    "ctaDescription": "Granska dina system, anslutningsomfång och en representativ fråga med det tekniska teamet."
+  },
+  "bn": {
+    "description": "অপারেটিং সোর্স সংযুক্ত করুন, ডেটা কভারেজ পরীক্ষা করুন এবং দলগুলোর জন্য বিশ্লেষণের একটি সঙ্গত ভিত্তি দিন। আপনার পরিবেশের জন্য কনেক্টর, অ্যাক্সেস এবং রিফ্রেশ প্রয়োজনীয়তা পর্যালোচনা করুন।",
+    "secondaryCta": "ডেটা সংযোগগুলো পর্যালোচনা করুন",
+    "problemsDescription": "ভিন্ন সোর্স সংজ্ঞা, অসম্পূর্ণ রেকর্ড এবং পুনরাবৃত্তি রিপোর্টিং অনুরোধগুলি আপনার দলের সময়ের জন্য প্রতিযোগিতা করে।",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "রিফ্রেশ প্রয়োজনীয়তা ভিন্ন হতে পারে",
+        "description": "লাইভ-শিফট প্রশ্ন ও মাসিক রিভিউয়ের জন্য রিফ্রেশ এবং সোর্স কভারের ভিন্নতা থাকে। সংযোগটি ব্যবহার কেসের সাথে মিলে যেতে হবে।"
+      }
+    ],
+    "howDescription": "একটি শেয়ারড অপারেটিং ভিউ, যেখানে সংযোগের স্কোপ এবং নিয়ন্ত্রণগুলো রোলআউটের আগে সম্মত।",
+    "howSundaeHelps": [
+      {
+        "title": "অপারেটিং চিত্র সংযুক্ত করুন",
+        "description": "আপনার POS, কর্মী, ইনভেন্টরি, ডেলিভারি এবং অ্যাকাউন্টিং সোর্সগুলো পর্যালোচনা করুন। নিশ্চিত করুন কোন ফিল্ড ও লোকেশনগুলো সংযুক্ত করা যাবে এবং কিভাবে ব্যবহার করা হবে।"
+      },
+      {
+        "title": "ইন্টিগ্রেশন সীমা নিয়ে সম্মত হোন",
+        "description": "Sundae-র সঙ্গে সমর্থিত সংযোগ পদ্ধতি, এক্সপোর্ট এবং যে কোনো প্রয়োজনীয় API অ্যাক্সেস পরীক্ষা করুন। সার্বজনীন এন্ডপয়েন্ট বা webhook থাকার অনুমান না করে আপনার সিস্টেমগুলোর জন্য প্রয়োজনীয় কাজ নিশ্চিত করুন।"
+      },
+      {
+        "title": "সিদ্ধান্তের সাথে রিফ্রেশ মিলান",
+        "description": "Pulse এবং অন্যান্য ক্ষমতার জন্য সোর্সের প্রাপ্যতা ও রিফ্রেশ টাইমিং পর্যালোচনা করুন। লাইভেন্সি সোর্স ও সংযোগের উপর নির্ভর করে।"
+      },
+      {
+        "title": "উত্তর এবং তার অ্যাক্সেস নিরীক্ষা করুন",
+        "description": "Ask Sundae আউটপুট, সমর্থনকারী ডেটা এবং রোল পারমিশনগুলো পর্যালোচনা করুন আপনার দলের ব্যবহার কেস অনুযায়ী।"
+      }
+    ],
+    "outcomesDescription": "সঠিক রেকর্ডগুলো সংযুক্ত করুন, মেট্রিক সংজ্ঞাগুলো সঙ্গত করুন এবং প্রতিটি দলকে প্রয়োজনীয় অ্যাক্সেস দিন।",
+    "outcomes": [
+      {
+        "title": "সংযোগ কাজের স্কোপ নির্ধারণ করুন",
+        "description": "ইমপ্লিমেন্টেশনের আগে সমর্থিত সোর্স, প্রয়োজনীয় ফিল্ড, মালিক এবং যে কোনো গ্যাপ নথিভুক্ত করুন।"
+      },
+      {
+        "title": "মেট্রিক সংজ্ঞাগুলো তুলনা করুন",
+        "description": "দলগুলোর মধ্যে ব্যবহার করার আগে বিক্রয়, খরচ এবং কর্মী মাপ কিভাবে সংজ্ঞায়িত তা পরীক্ষা করুন।"
+      },
+      {
+        "title": "উপলব্ধ প্রমাণ অনুসরণ করুন",
+        "description": "ফলাফল ধরে নেওয়ার পরিবর্তে সমর্থনকারী রেকর্ড ও কভারেজ পরিদর্শন করুন যেন প্রত্যেক সোর্স একই বিস্তারিত প্রকাশ করে না।"
+      },
+      {
+        "title": "আপনার নিয়ন্ত্রণের সাথে AI মূল্যায়ন করুন",
+        "description": "উত্তর ব্যবহার করবে ও গভর্ন করবে এই লোকজনের সাথে দরকারী অপারেটিং প্রশ্ন, পারমিশন এবং সোর্স সাপোর্ট টেস্ট করুন।"
+      }
+    ],
+    "ctaTitle": "আপনার সোর্স এবং অ্যাক্সেস প্রয়োজনসমূহ আনুন।",
+    "ctaDescription": "প্রযুক্তি দলের সঙ্গে আপনার সিস্টেম, সংযোগের স্কোপ এবং একটি প্রতিনিধিত্বমূলক প্রশ্ন পর্যালোচনা করুন।"
+  },
+  "th": {
+    "description": "เชื่อมแหล่งการปฏิบัติงาน ตรวจสอบความครอบคลุมของข้อมูล และให้ทีมมีพื้นฐานการวิเคราะห์ที่สอดคล้อง ทบทวนข้อกำหนดตัวเชื่อม การเข้าถึง และความถี่การรีเฟรชสำหรับสภาพแวดล้อมของคุณ",
+    "secondaryCta": "ทบทวนการเชื่อมต่อข้อมูล",
+    "problemsDescription": "คำนิยามจากแหล่งต่างกัน บันทึกไม่สมบูรณ์ และคำขอรายงานซ้ำๆ แข่งขันกับเวลาของทีมคุณ",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "ข้อกำหนดการรีเฟรชไม่เท่ากัน",
+        "description": "คำถามแบบสดตามกะและการทบทวนรายเดือนต้องการความถี่การรีเฟรชและความครอบคลุมแหล่งต่างกัน การเชื่อมต่อต้องสอดคล้องกับกรณีใช้งาน"
+      }
+    ],
+    "howDescription": "มุมมองการปฏิบัติงานร่วมกัน โดยขอบเขตการเชื่อมต่อและการควบคุมตกลงก่อนเปิดตัว",
+    "howSundaeHelps": [
+      {
+        "title": "เชื่อมภาพการปฏิบัติงาน",
+        "description": "ทบทวนแหล่ง POS Workforce สต็อก การส่งสินค้า และบัญชีของคุณ ยืนยันฟิลด์และสาขาที่สามารถเชื่อมต่อได้และวิธีการนำไปใช้"
+      },
+      {
+        "title": "ตกลงขอบเขตการบูรณาการ",
+        "description": "ตรวจสอบวิธีการเชื่อมต่อที่รองรับ การส่งออก และการเข้าถึง API ที่อาจต้องใช้กับ Sundae ยืนยันงานที่ต้องทำสำหรับระบบของคุณ แทนการสมมติว่ามี endpoints หรือ webhooks ทั่วไป"
+      },
+      {
+        "title": "จับความถี่รีเฟรชกับการตัดสินใจ",
+        "description": "ทบทวนความพร้อมใช้งานของแหล่งและเวลาการรีเฟรชสำหรับ Pulse และความสามารถอื่นๆ ความหน่วงขึ้นกับแหล่งและการเชื่อมต่อ"
+      },
+      {
+        "title": "ตรวจสอบคำตอบและการเข้าถึง",
+        "description": "ทบทวนผลลัพธ์จาก Ask Sundae ข้อมูลสนับสนุน และสิทธิ์บทบาทสำหรับกรณีใช้งานที่ทีมของคุณต้องการ"
+      }
+    ],
+    "outcomesDescription": "เชื่อมบันทึกที่ถูกต้อง จัดให้คำนิยามเมตริกสอดคล้อง และให้แต่ละทีมการเข้าถึงที่ต้องการ",
+    "outcomes": [
+      {
+        "title": "กำหนดขอบเขตงานเชื่อมต่อ",
+        "description": "บันทึกแหล่งที่รองรับ ฟิลด์ที่ต้องการ เจ้าของ และช่องว่างก่อนการใช้งานจริง"
+      },
+      {
+        "title": "เปรียบเทียบคำนิยามเมตริก",
+        "description": "ตรวจสอบวิธีการนิยามยอดขาย ต้นทุน และเมตริกแรงงานก่อนใช้งานร่วมกันระหว่างทีม"
+      },
+      {
+        "title": "ติดตามหลักฐานที่มี",
+        "description": "ตรวจดูบันทึกสนับสนุนและความครอบคลุมสำหรับผลลัพธ์ แทนที่จะสันนิษฐานว่าแหล่งทุกแห่งเผยรายละเอียดเท่ากัน"
+      },
+      {
+        "title": "ประเมิน AI ด้วยการควบคุมของคุณ",
+        "description": "ทดสอบคำถามการปฏิบัติงานที่มีประโยชน์ สิทธิ์ และการสนับสนุนแหล่งข้อมูลกับคนที่ใช้และกำกับคำตอบ"
+      }
+    ],
+    "ctaTitle": "นำความต้องการแหล่งและการเข้าถึงของคุณมา",
+    "ctaDescription": "ทบทวนระบบ ขอบเขตการเชื่อมต่อ และคำถามตัวอย่างกับทีมเทคนิค"
+  },
+  "ms": {
+    "description": "Sambungkan sumber operasi, periksa liputan data dan berikan pasukan asas yang konsisten untuk analisis. Semak keperluan penyambung, akses dan penyegaran untuk persekitaran anda.",
+    "secondaryCta": "Semak sambungan data",
+    "problemsDescription": "Definisi sumber yang berbeza, rekod tidak lengkap dan permintaan pelaporan berkala bersaing untuk masa pasukan anda.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Keperluan penyegaran berbeza",
+        "description": "Soalan semasa syif dan ulasan bulanan memerlukan penyegaran dan liputan sumber yang berbeza. Sambungan mesti sepadan dengan kes penggunaan."
+      }
+    ],
+    "howDescription": "Pandangan operasi yang dikongsi, dengan skop sambungan dan kawalan dipersetujui sebelum pelaksanaan.",
+    "howSundaeHelps": [
+      {
+        "title": "Sambungkan gambaran operasi",
+        "description": "Semak sumber POS, tenaga kerja, inventori, penghantaran dan perakaunan anda. Sahkan medan dan lokasi mana yang boleh disambungkan dan bagaimana ia akan digunakan."
+      },
+      {
+        "title": "Setujui sempadan integrasi",
+        "description": "Semak kaedah sambungan yang disokong, eksport dan sebarang akses API yang diperlukan dengan Sundae. Sahkan kerja untuk sistem anda dan jangan menganggap titik akhir atau webhook universal."
+      },
+      {
+        "title": "Padankan penyegaran dengan keputusan",
+        "description": "Semak ketersediaan sumber dan masa penyegaran untuk Pulse dan kebolehan lain. Kelewatan bergantung pada sumber dan sambungan."
+      },
+      {
+        "title": "Periksa jawapan dan aksesnya",
+        "description": "Semak output Ask Sundae, data sokongan dan kebenaran peranan untuk kes penggunaan yang diperlukan pasukan anda."
+      }
+    ],
+    "outcomesDescription": "Sambungkan rekod yang betul, selaraskan definisi metrik dan berikan setiap pasukan akses yang diperlukan.",
+    "outcomes": [
+      {
+        "title": "Skopkan kerja sambungan",
+        "description": "Dokumentasikan sumber yang disokong, medan diperlukan, pemilik dan sebarang jurang sebelum pelaksanaan."
+      },
+      {
+        "title": "Bandingkan definisi metrik",
+        "description": "Semak bagaimana ukuran jualan, kos dan tenaga kerja ditakrifkan sebelum menggunakannya merentas pasukan."
+      },
+      {
+        "title": "Ikut bukti yang ada",
+        "description": "Periksa rekod sokongan dan liputan untuk sesuatu keputusan dan jangan menganggap setiap sumber mendedahkan butiran yang sama."
+      },
+      {
+        "title": "Nilai AI dengan kawalan anda",
+        "description": "Uji soalan operasi yang berguna, kebenaran dan sokongan sumber dengan orang yang akan menggunakan dan mentadbir jawapan."
+      }
+    ],
+    "ctaTitle": "Bawa keperluan sumber dan akses anda.",
+    "ctaDescription": "Semak sistem anda, skop sambungan dan soalan perwakilan dengan pasukan teknikal."
+  }
+}

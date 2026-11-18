@@ -1,0 +1,420 @@
+{
+  "en": {
+    "heroTitle": "Understand the market around each location.",
+    "introDescription": "Review relevant competitor, event, weather and market signals beside the operation. Use the context to investigate a change or plan the next response.",
+    "features": [
+      {
+        "description": "Bring relevant competitor activity, local events and weather beside your own operating data in a prioritized briefing. Review the sources and relevance before acting."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower brings relevant external signals and operating context into a prioritized briefing. Review available delivery settings, market coverage and refresh timing with Sundae."
+      }
+    ]
+  },
+  "ar": {
+    "heroTitle": "افهم السوق حول كل موقع.",
+    "introDescription": "راجع إشارات المنافسين والأحداث والطقس والسوق الملائمة بجانب التشغيل. استخدم السياق للتحقيق في تغيير أو تخطيط الاستجابة التالية.",
+    "features": [
+      {
+        "description": "اجلب نشاط المنافسين المحلي والأحداث والطقس ذي الصلة بجانب بيانات التشغيل لديك في موجز ذات أولوية. راجع المصادر والملاءمة قبل التصرف."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "يجلب Watchtower إشارات خارجية وسياق تشغيلي ذي صلة إلى موجز ذي أولوية. راجع إعدادات التسليم المتاحة وتغطية السوق وتوقيت التحديث مع Sundae."
+      }
+    ]
+  },
+  "fr": {
+    "heroTitle": "Comprenez le marché autour de chaque emplacement.",
+    "introDescription": "Passez en revue les signaux pertinents de concurrents, d'événements, de météo et de marché à côté de l'exploitation. Servez-vous du contexte pour enquêter sur un changement ou planifier la réponse suivante.",
+    "features": [
+      {
+        "description": "Placez l'activité concurrentielle pertinente, les événements locaux et la météo à côté de vos propres données d'exploitation dans un briefing priorisé. Vérifiez les sources et la pertinence avant d'agir."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower intègre des signaux externes pertinents et le contexte d'exploitation dans un briefing priorisé. Passez en revue les paramètres de livraison disponibles, la couverture du marché et la fréquence de rafraîchissement avec Sundae."
+      }
+    ]
+  },
+  "es": {
+    "heroTitle": "Comprenda el mercado alrededor de cada ubicación.",
+    "introDescription": "Revise señales relevantes de competidores, eventos, clima y mercado junto a la operación. Use el contexto para investigar un cambio o planear la siguiente respuesta.",
+    "features": [
+      {
+        "description": "Coloque la actividad relevante de competidores, eventos locales y clima junto a sus propios datos operativos en un informe priorizado. Revise las fuentes y su relevancia antes de actuar."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower incorpora señales externas relevantes y contexto operativo en un informe priorizado. Revise la configuración de entrega disponible, la cobertura del mercado y la frecuencia de actualización con Sundae."
+      }
+    ]
+  },
+  "de": {
+    "heroTitle": "Verstehen Sie den Markt rund um jeden Standort.",
+    "introDescription": "Prüfen Sie relevante Wettbewerber-, Veranstaltungs-, Wetter- und Marktsignale neben Ihrem Betrieb. Nutzen Sie den Kontext, um eine Veränderung zu untersuchen oder die nächste Reaktion zu planen.",
+    "features": [
+      {
+        "description": "Platzieren Sie relevante Wettbewerbsaktivität, lokale Events und Wetter neben Ihren eigenen Betriebsdaten in einem priorisierten Briefing. Prüfen Sie Quellen und Relevanz, bevor Sie handeln."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower bringt relevante externe Signale und betrieblichen Kontext in ein priorisiertes Briefing. Besprechen Sie verfügbare Lieferoptionen, Marktabdeckung und Aktualisierungsrhythmen mit Sundae."
+      }
+    ]
+  },
+  "nl": {
+    "heroTitle": "Begrijp de markt rond elke locatie.",
+    "introDescription": "Bekijk relevante concurrentie-, evenementen-, weer- en marktsignalen naast de operatie. Gebruik de context om een verandering te onderzoeken of de volgende reactie te plannen.",
+    "features": [
+      {
+        "description": "Breng relevante concurrentie-activiteiten, lokale evenementen en weer naast uw eigen operationele gegevens in een geprioriteerde briefing. Controleer bronnen en relevantie voordat u actie onderneemt."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower brengt relevante externe signalen en operationele context in een geprioriteerde briefing. Bespreek beschikbare bezorginstellingen, marktdekking en ververstijd met Sundae."
+      }
+    ]
+  },
+  "pt": {
+    "heroTitle": "Entenda o mercado ao redor de cada local.",
+    "introDescription": "Revise sinais relevantes de concorrentes, eventos, clima e mercado ao lado da operação. Use o contexto para investigar uma mudança ou planejar a próxima resposta.",
+    "features": [
+      {
+        "description": "Traga atividade relevante de concorrentes, eventos locais e clima ao lado dos seus dados operacionais em um briefing priorizado. Revise as fontes e a relevância antes de agir."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "O Watchtower traz sinais externos relevantes e contexto operacional para um briefing priorizado. Revise as configurações de entrega disponíveis, cobertura de mercado e timing de atualização com a Sundae."
+      }
+    ]
+  },
+  "hi": {
+    "heroTitle": "प्रत्येक स्थान के आसपास के बाजार को समझें।",
+    "introDescription": "परिचालन के बगल में प्रासंगिक प्रतियोगी, कार्यक्रम, मौसम और बाजार संकेतों की समीक्षा करें। किसी परिवर्तन की जाँच करने या अगला उत्तर योजना बनाने के लिए संदर्भ का उपयोग करें।",
+    "features": [
+      {
+        "description": "प्राथमिकता वाली briefing में प्रासंगिक प्रतियोगी गतिविधि, स्थानीय कार्यक्रम और मौसम को अपने परिचालन डेटा के बगल में लाएँ। कार्रवाई करने से पहले स्रोतों और प्रासंगिकता की समीक्षा करें।"
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower प्रासंगिक बाहरी संकेतों और परिचालन संदर्भ को प्राथमिकता वाली briefing में लाता है। उपलब्ध delivery सेटिंग्स, बाजार कवरेज और रिफ्रेश समय के बारे में Sundae के साथ समीक्षा करें।"
+      }
+    ]
+  },
+  "ur": {
+    "heroTitle": "ہر مقام کے آس پاس کے بازار کو سمجھیں۔",
+    "introDescription": "آپریشن کے ساتھ متعلقہ حریف، ایونٹ، موسم اور مارکیٹ سگنلز کا جائزہ لیں۔ تبدیلی کی تحقیق یا اگلے ردعمل کی منصوبہ بندی کے لیے سیاق و سباق استعمال کریں۔",
+    "features": [
+      {
+        "description": "متعلقہ حریف کی سرگرمی، مقامی ایونٹس اور موسم کو اپنی آپریٹنگ ڈیٹا کے ساتھ ایک ترجیحی بریفنگ میں لائیں۔ عمل سے پہلے ذرائع اور مطابقت کا جائزہ لیں۔"
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower متعلقہ بیرونی سگنلز اور آپریٹنگ سیاق و سباق کو ایک ترجیحی بریفنگ میں لاتا ہے۔ دستیاب ڈیلیوری سیٹنگز، مارکیٹ کوریج اور ریفریش ٹائمنگ کو Sundae کے ساتھ چیک کریں۔"
+      }
+    ]
+  },
+  "it": {
+    "heroTitle": "Comprendi il mercato attorno a ogni location.",
+    "introDescription": "Esamina competitor rilevanti, eventi, meteo e segnali di mercato accanto all'operazione. Usa il contesto per indagare un cambiamento o pianificare la risposta successiva.",
+    "features": [
+      {
+        "description": "Porta attività rilevanti dei competitor, eventi locali e meteo accanto ai tuoi dati operativi in un briefing prioritizzato. Esamina le fonti e la rilevanza prima di agire."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower porta segnali esterni rilevanti e contesto operativo in un briefing prioritizzato. Esamina impostazioni di consegna disponibili, copertura di mercato e tempi di aggiornamento con Sundae."
+      }
+    ]
+  },
+  "pl": {
+    "heroTitle": "Zrozum rynek wokół każdej lokalizacji.",
+    "introDescription": "Przejrzyj istotne sygnały konkurencji, wydarzeń, pogody i rynku obok danych operacyjnych. Wykorzystaj kontekst do zbadania zmiany lub zaplanowania reakcji.",
+    "features": [
+      {
+        "description": "Umieść istotne działania konkurencji, lokalne wydarzenia i pogodę obok własnych danych operacyjnych w priorytetowym briefingu. Przejrzyj źródła i ich znaczenie przed podjęciem działań."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower wprowadza istotne sygnały zewnętrzne i kontekst operacyjny do priorytetowego briefingu. Przejrzyj dostępne ustawienia dostawy, pokrycie rynku i częstotliwość odświeżania z Sundae."
+      }
+    ]
+  },
+  "tr": {
+    "heroTitle": "Her konumun çevresindeki pazarı anlayın.",
+    "introDescription": "İlgili rakip, etkinlik, hava ve pazar sinyallerini işletme verilerinizin yanında inceleyin. Bir değişikliği araştırmak veya bir sonraki yanıtı planlamak için bağlamı kullanın.",
+    "features": [
+      {
+        "description": "İlgili rakip faaliyetlerini, yerel etkinlikleri ve havayı önceliklendirilmiş bir brifingde kendi işletme verilerinizin yanına getirin. Harekete geçmeden önce kaynakları ve alaka düzeyini gözden geçirin."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower, ilgili dış sinyalleri ve işletme bağlamını önceliklendirilmiş bir brifinge getirir. Mevcut teslimat ayarlarını, pazar kapsamını ve yenileme zamanlamasını Sundae ile gözden geçirin."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "heroTitle": "了解每个门店周边的市场情况。",
+    "introDescription": "在运营旁展示相关竞争者、活动、天气和市场信号。利用这些背景调查变化或策划下一步回应。",
+    "features": [
+      {
+        "description": "将相关的竞争活动、本地事件和天气按优先级并列到您的运营数据旁，形成简报。采取行动前审查来源和相关性。"
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower 将相关外部信号和运营背景引入优先简报。与 Sundae 一起审查可用的交付设置、市场覆盖范围和刷新频率。"
+      }
+    ]
+  },
+  "ja": {
+    "heroTitle": "各拠点を取り巻く市場を把握する。",
+    "introDescription": "競合、イベント、天候、市場シグナルを運用データのそばに表示し、変化を調査したり次の対応を計画したりするための文脈を提供します。",
+    "features": [
+      {
+        "description": "関連する競合の動き、地域イベント、天候を優先されたブリーフィングで自社の運用データのそばに持ってきます。行動する前にソースと関連性を確認してください。"
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtowerは関連する外部シグナルと運用コンテキストを優先されたブリーフィングに取り込みます。利用可能な配信設定、市場カバレッジ、更新頻度についてはSundaeと確認してください。"
+      }
+    ]
+  },
+  "ko": {
+    "heroTitle": "각 지점 주변 시장을 파악하세요.",
+    "introDescription": "해당 운영 옆에 관련 경쟁사, 이벤트, 날씨 및 시장 신호를 검토하세요. 변화를 조사하거나 다음 대응을 계획할 때 그 문맥을 활용하세요.",
+    "features": [
+      {
+        "description": "우선순위화된 브리핑에 관련 경쟁 활동, 지역 이벤트 및 날씨를 운영 데이터 옆에 가져오세요. 조치 전에 출처와 관련성을 검토하세요."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower는 관련 외부 신호와 운영 문맥을 우선순위화된 브리핑으로 제공합니다. 사용 가능한 전달 설정, 시장 범위 및 갱신 주기를 Sundae와 함께 검토하세요."
+      }
+    ]
+  },
+  "id": {
+    "heroTitle": "Pahami pasar di sekitar setiap lokasi.",
+    "introDescription": "Tinjau sinyal pesaing, acara, cuaca, dan pasar yang relevan di samping operasi. Gunakan konteks untuk menyelidiki perubahan atau merencanakan respons berikutnya.",
+    "features": [
+      {
+        "description": "Hadapkan aktivitas pesaing yang relevan, acara lokal, dan cuaca di samping data operasi Anda dalam pengarahan terprioritaskan. Tinjau sumber dan relevansi sebelum bertindak."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower membawa sinyal eksternal dan konteks operasi yang relevan ke dalam pengarahan terprioritaskan. Tinjau pengaturan pengiriman yang tersedia, cakupan pasar, dan jadwal pembaruan bersama Sundae."
+      }
+    ]
+  },
+  "vi": {
+    "heroTitle": "Hiểu thị trường xung quanh từng địa điểm.",
+    "introDescription": "Xem các tín hiệu đối thủ, sự kiện, thời tiết và thị trường liên quan bên cạnh hoạt động. Dùng bối cảnh đó để điều tra một thay đổi hoặc lên kế hoạch phản ứng tiếp theo.",
+    "features": [
+      {
+        "description": "Đưa các hoạt động đối thủ có liên quan, sự kiện địa phương và thời tiết vào bên cạnh dữ liệu vận hành của bạn trong một bản tóm tắt được ưu tiên. Kiểm tra nguồn và mức độ liên quan trước khi hành động."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower đưa các tín hiệu bên ngoài và bối cảnh vận hành có liên quan vào một bản tóm tắt được ưu tiên. Xem xét các cài đặt giao hàng khả dụng, phạm vi thị trường và tần suất làm mới với Sundae."
+      }
+    ]
+  },
+  "ro": {
+    "heroTitle": "Înțelegeți piața din jurul fiecărei locații.",
+    "introDescription": "Analizați semnalele relevante despre competitori, evenimente, vreme și piață lângă operațiune. Folosiți contextul pentru a investiga o schimbare sau a planifica următoarea reacție.",
+    "features": [
+      {
+        "description": "Aduceți activitatea relevantă a competitorilor, evenimentele locale și condițiile meteo alături de propriile date operaționale într-un briefing prioritizat. Revizuiți sursele și relevanța înainte de a acționa."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower aduce semnale externe relevante și context operațional într-un briefing prioritizat. Revizuiți setările de livrare disponibile, acoperirea pieței și frecvența de reîmprospătare cu Sundae."
+      }
+    ]
+  },
+  "sv": {
+    "heroTitle": "Förstå marknaden kring varje plats.",
+    "introDescription": "Granska relevanta konkurrent-, evenemangs-, väder- och marknadssignaler bredvid verksamheten. Använd kontexten för att undersöka en förändring eller planera nästa åtgärd.",
+    "features": [
+      {
+        "description": "Placera relevant konkurrentaktivitet, lokala evenemang och väder bredvid dina egna driftsdata i en prioriterad briefing. Granska källor och relevans innan du agerar."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower för in relevanta externa signaler och driftkontext i en prioriterad briefing. Granska tillgängliga leveransinställningar, marknadstäckning och uppdateringsfrekvens med Sundae."
+      }
+    ]
+  },
+  "bn": {
+    "heroTitle": "প্রতিটি অবস্থানের চারপাশের বাজার বুঝুন।",
+    "introDescription": "অপারেশনের পাশে প্রাসঙ্গিক প্রতিযোগি, ইভেন্ট, আবহাওয়া এবং মার্কেট সিগনালগুলো পর্যালোচনা করুন। পরিবর্তন তদন্ত বা পরবর্তী প্রতিক্রিয়া পরিকল্পনার জন্য প্রেক্ষাপট ব্যবহার করুন।",
+    "features": [
+      {
+        "description": "একটি প্রাধান্যপ্রাপ্ত ব্রিফিংয়ে আপনার অপারেটিং ডেটার পাশে প্রাসঙ্গিক প্রতিযোগী কার্যকলাপ, স্থানীয় ইভেন্ট এবং আবহাওয়া নিয়ে আসুন। কর্ম নেওয়ায় আগে সোর্স এবং প্রাসঙ্গিকতা পর্যালোচনা করুন।"
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower প্রাসঙ্গিক বাহ্যিক সিগনাল এবং অপারেটিং প্রেক্ষাপটকে একটি প্রাধান্যপ্রাপ্ত ব্রিফিংয়ে নিয়ে আসে। উপলব্ধ ডেলিভারি সেটিংস, মার্কেট কভারেজ এবং রিফ্রেশ টাইমিং Sundae-এর সঙ্গে পর্যালোচনা করুন।"
+      }
+    ]
+  },
+  "th": {
+    "heroTitle": "เข้าใจสภาพตลาดรอบแต่ละโลเคชัน",
+    "introDescription": "ทบทวนสัญญาณคู่แข่ง เหตุการณ์ สภาพอากาศ และตลาดที่เกี่ยวข้องเคียงข้างการปฏิบัติงาน ใช้บริบทเพื่อสืบสวนการเปลี่ยนแปลงหรือวางแผนการตอบสนองต่อไป",
+    "features": [
+      {
+        "description": "นำกิจกรรมของคู่แข่ง เหตุการณ์ท้องถิ่น และสภาพอากาศที่เกี่ยวข้องมาไว้เคียงข้างข้อมูลการปฏิบัติงานของคุณในบรีฟที่จัดลำดับความสำคัญ ตรวจสอบแหล่งที่มาและความเกี่ยวข้องก่อนปฏิบัติ"
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower นำสัญญาณภายนอกและบริบทการปฏิบัติงานที่เกี่ยวข้องเข้ามาในบรีฟที่จัดลำดับความสำคัญ ตรวจสอบการตั้งค่าการส่งมอบที่มีอยู่ ขอบเขตตลาด และความถี่การรีเฟรชกับ Sundae"
+      }
+    ]
+  },
+  "ms": {
+    "heroTitle": "Fahami pasaran sekitar setiap lokasi.",
+    "introDescription": "Semak pesaing, acara, cuaca dan isyarat pasaran yang relevan di sisi operasi. Gunakan konteks itu untuk menyiasat perubahan atau merancang tindak balas seterusnya.",
+    "features": [
+      {
+        "description": "Bawa aktiviti pesaing, acara tempatan dan cuaca yang relevan di sebelah data operasi anda dalam taklimat yang diutamakan. Semak sumber dan relevansi sebelum bertindak."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower membawa isyarat luaran dan konteks operasi yang relevan ke dalam taklimat yang diutamakan. Semak tetapan penghantaran tersedia, liputan pasaran dan kekerapan segar semula dengan Sundae."
+      }
+    ]
+  }
+}

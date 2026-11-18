@@ -37,13 +37,14 @@ export function getCampaignParams(): Campaign {
   catch { clear(); return {}; }
 }
 
-/** Propagate only to same-origin public pages, preserving explicit target tags. */
+/** Preserve consented public campaign tags on main-site and canonical pricing journeys. */
 export function appendCampaign(url: string): string {
   if (typeof window === 'undefined') return url;
   const campaign = getCampaignParams();
   try {
     const target = new URL(url, window.location.href);
-    if (target.origin !== window.location.origin || isBookingUrl(target.href) ||
+    const publicDestination = target.origin === window.location.origin || target.origin === 'https://pricing.sundae.io';
+    if (!publicDestination || target.username || target.password || isBookingUrl(target.href) ||
         containsBookingData(target.href) || url.startsWith('#') ||
         [...target.searchParams.keys()].some(key => key.startsWith('utm_'))) return url;
     for (const [key, value] of Object.entries(campaign)) target.searchParams.set(key, value);

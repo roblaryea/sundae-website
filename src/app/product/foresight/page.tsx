@@ -1,5 +1,7 @@
 'use client';
 
+import buyerFeatureCopy from '@/content/buyer-feature-details/foresight.json';
+
 import depthCopy from '@/content/operator-depth.json'
 
 import { Button } from "@/components/ui/Button";
@@ -15,7 +17,7 @@ import { SectionProductGallery } from "@/components/home/sections/SectionProduct
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { foresightCreamCopy } from "../foresightCreamCopy";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_foresight_page'
 import { SectionConviction } from '@/components/home/sections/SectionConviction'
 import { foresightConviction } from '@/components/home/sections/routeConvictionCopy'
@@ -609,7 +611,8 @@ const mockupRenderers = [
 export default function ForesightPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedForesightCopy[locale as keyof typeof localizedForesightCopy] ?? getGeneratedLocalCopy(localizedForesightCopy, generatedLocalCopy.localizedForesightCopy, locale) ?? localizedForesightCopy.en;
+  const sourceFeatureCopy = localizedForesightCopy[locale as keyof typeof localizedForesightCopy] ?? getGeneratedLocalCopy(localizedForesightCopy, generatedLocalCopy.localizedForesightCopy, locale) ?? localizedForesightCopy.en;
+  const ui = mergeGeneratedCopy(sourceFeatureCopy, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy]);
   const cream = foresightCreamCopy[locale as keyof typeof foresightCreamCopy] ?? foresightCreamCopy.en;
   const mockups = ui.mockups;
 
@@ -631,19 +634,7 @@ export default function ForesightPage() {
             <h2 className="section-h2 text-[var(--text-primary)] mb-6">{balanceSentences(ui.problemTitle)}</h2>
             <p className="body-lg text-[var(--text-supporting)] mb-8">{ui.problemDescription}</p>
           </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {ui.stats.map((item) => (
-              <StaggerItem key={item.label}>
-                <Card variant="elevated" className="text-center p-6">
-                  <CardContent>
-                    <SundaeIcon name={item.icon} size="lg" className="text-[#FF5C4D] mx-auto mb-3" />
-                    <div className="text-3xl font-bold text-[var(--text-primary)] mb-2">{item.stat}</div>
-                    <p className="text-sm text-[var(--text-supporting)]">{item.label}</p>
-                  </CardContent>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
+
         </div>
       </section>
 

@@ -8,7 +8,8 @@ import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { REPORT_APP_URL } from "@/lib/urls";
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import { getLocalizedPathname } from '@/lib/i18n';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -387,8 +388,8 @@ export default function SolutionsHubPage() {
               </motion.p>
 
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
-                <Link href="/demo"><Button variant="primary" size="lg">{copy.primaryCta}</Button></Link>
-                <a href={REPORT_APP_URL}><Button variant="outline-light" size="lg">{copy.secondaryCta}</Button></a>
+                <Button href={getLocalizedPathname("/demo", locale)} variant="primary" size="lg" trackingLabel="solutions_primaryCta">{copy.primaryCta}</Button>
+                <Button href={getLocalizedPathname("/results", locale)} variant="outline-light" size="lg" trackingLabel="solutions_public_evidence">{sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}</Button>
               </motion.div>
             </div>
 
@@ -480,8 +481,8 @@ export default function SolutionsHubPage() {
               <h2 className="section-h2 mb-4">{copy.closingTitle}</h2>
               <p className="body-lg mb-10 max-w-xl mx-auto">{copy.closingDescription}</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                <Link href="/demo"><Button variant="cta" size="lg">{copy.closingPrimaryCta}</Button></Link>
-                <Link href="/product"><Button variant="outline-light" size="lg">{copy.closingSecondaryCta}</Button></Link>
+                <Button href={getLocalizedPathname("/demo", locale)} variant="cta" size="lg" trackingLabel="solutions_closingPrimaryCta">{copy.closingPrimaryCta}</Button>
+                <Button href={getLocalizedPathname("/product", locale)} variant="outline-light" size="lg" trackingLabel="solutions_closingSecondaryCta">{copy.closingSecondaryCta}</Button>
               </div>
             </FadeUp>
           </div>

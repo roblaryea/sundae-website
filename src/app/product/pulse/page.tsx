@@ -1,11 +1,14 @@
 'use client';
 
+import buyerFeatureCopy from '@/content/buyer-feature-details/pulse.json';
+
 import depthCopy from '@/content/operator-depth.json'
 
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL } from "@/lib/urls";
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import { getLocalizedPathname } from '@/lib/i18n';
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
@@ -19,7 +22,7 @@ import {
   MockupTable,
   MockupAlert,
 } from "@/components/ui/MockupFrame";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_pulse_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { pulseCreamCopy } from "./pulseCreamCopy";
@@ -1251,7 +1254,8 @@ function LocalizedPulseDashboardMockup() {
 export default function PulsePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? getGeneratedLocalCopy(localizedPulseCopy, generatedLocalCopy.localizedPulseCopy, locale) ?? localizedPulseCopy.en;
+  const sourceFeatureCopy = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? getGeneratedLocalCopy(localizedPulseCopy, generatedLocalCopy.localizedPulseCopy, locale) ?? localizedPulseCopy.en;
+  const ui = mergeGeneratedCopy(sourceFeatureCopy, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy]);
   const cream = pulseCreamCopy[locale as keyof typeof pulseCreamCopy] ?? pulseCreamCopy.en;
   const featureMockups = [
     AdaptiveTargetsMockup,
@@ -1479,9 +1483,10 @@ export default function PulsePage() {
         <Button
           variant="outline-ink"
           size="lg"
-          onClick={() => cta(REPORT_APP_URL, "start_free_pulse_cta", { page: "/product/pulse" })}
+          href={getLocalizedPathname("/results", locale)}
+          trackingLabel="start_free_pulse_cta"
         >
-          {ui.cta.secondary} →
+          {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink} →
         </Button>
       </PageCTA>
     </div>

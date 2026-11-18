@@ -1,0 +1,640 @@
+{
+  "en": {
+    "creamStatement": "Every shift brings a choice. *Make it with context.*",
+    "creamLede": "Sundae helps teams connect the work on the floor with the signals behind the next decision.",
+    "personas": [
+      {
+        "outcome": "Know which shift needs attention."
+      },
+      {
+        "outcomeCopy": "Compare shift-level labor, food cost and voids with the supporting operating records. Investigate the change alongside your accounting review."
+      },
+      {
+        "outcome": "A clearer group operating review."
+      },
+      {
+        "outcome": "Campaign performance in context.",
+        "outcomeCopy": "Compare spend, covers, average check and available margin attribution. Check the coverage and assumptions before reallocating or testing the next campaign."
+      },
+      {
+        "outcome": "Review staffing before the next shift."
+      },
+      {
+        "outcome": "Give each team consistent operating answers.",
+        "outcomeCopy": "Connect your operating systems, align metric definitions and control who can see what. Confirm supported fields and refresh timing during setup."
+      }
+    ],
+    "creamEyebrow": "FROM SIGNAL TO RESPONSE",
+    "creamProof": "Illustrative shift examples. A manager checks the context before choosing a response.",
+    "creamCauseLabel": "Context to check"
+  },
+  "ar": {
+    "creamStatement": "كل شفت يجلب اختياراً. *اتخذه بسياق.*",
+    "creamLede": "تساعد Sundae الفرق على ربط العمل على الأرض بالإشارات وراء القرار التالي.",
+    "personas": [
+      {
+        "outcome": "اعرف أي شفت يحتاج انتباهاً."
+      },
+      {
+        "outcomeCopy": "قارن العمالة على مستوى الشفت وتكلفة الطعام والفراغات مع السجلات التشغيلية الداعمة. استقصِ التغير جنب مراجعتك المحاسبية."
+      },
+      {
+        "outcome": "مراجعة تشغيلية للمجموعة أوضح."
+      },
+      {
+        "outcome": "أداء الحملة في السياق.",
+        "outcomeCopy": "قارن الإنفاق والأعداد والمتوسط والهامش المنسوب المتاح. تحقق من التغطية والفروض قبل إعادة التخصيص أو اختبار الحملة التالية."
+      },
+      {
+        "outcome": "راجع التوظيف قبل الشفت التالي."
+      },
+      {
+        "outcome": "امنح كل فريق إجابات تشغيلية متسقة.",
+        "outcomeCopy": "وصل أنظمة التشغيل، وافق تعريفات المقاييس وتحكم من يرى ماذا. أكد الحقول المدعومة وتوقيت التحديث أثناء الإعداد."
+      }
+    ],
+    "creamEyebrow": "من الإشارة إلى الاستجابة",
+    "creamProof": "أمثلة شفت توضيحية. يفحص المدير السياق قبل اختيار استجابة.",
+    "creamCauseLabel": "سياق للفحص"
+  },
+  "fr": {
+    "creamStatement": "Chaque service implique un choix. *Prenez-le avec contexte.*",
+    "creamLede": "Sundae aide les équipes à relier le travail sur le terrain aux signaux derrière la prochaine décision.",
+    "personas": [
+      {
+        "outcome": "Savoir quel service nécessite attention."
+      },
+      {
+        "outcomeCopy": "Comparer main-d'œuvre au niveau du service, coût alimentaire et pertes avec les dossiers opérationnels justificatifs. Analyser le changement à côté de votre revue comptable."
+      },
+      {
+        "outcome": "Une revue opérationnelle de groupe plus claire."
+      },
+      {
+        "outcome": "Performance de campagne en contexte.",
+        "outcomeCopy": "Comparer dépenses, couverts, ticket moyen et attribution de marge disponible. Vérifier la couverture et les hypothèses avant de réallouer ou tester la prochaine campagne."
+      },
+      {
+        "outcome": "Revoir le staffing avant le prochain service."
+      },
+      {
+        "outcome": "Donner à chaque équipe des réponses opérationnelles cohérentes.",
+        "outcomeCopy": "Connecter vos systèmes opérationnels, aligner les définitions de métriques et contrôler qui peut voir quoi. Confirmer champs supportés et timing de rafraîchissement lors de la configuration."
+      }
+    ],
+    "creamEyebrow": "DU SIGNAL À LA RÉPONSE",
+    "creamProof": "Exemples de services illustratifs. Un manager vérifie le contexte avant de choisir une réponse.",
+    "creamCauseLabel": "Contexte à vérifier"
+  },
+  "es": {
+    "creamStatement": "Cada turno trae una elección. *Tómela con contexto.*",
+    "creamLede": "Sundae ayuda a los equipos a conectar el trabajo en sala con las señales detrás de la siguiente decisión.",
+    "personas": [
+      {
+        "outcome": "Sepa qué turno necesita atención."
+      },
+      {
+        "outcomeCopy": "Compare mano de obra por turno, coste de alimentos y anulaciones con los registros operativos de soporte. Investigue el cambio junto a su revisión contable."
+      },
+      {
+        "outcome": "Una revisión operativa de grupo más clara."
+      },
+      {
+        "outcome": "Rendimiento de campaña en contexto.",
+        "outcomeCopy": "Compare gasto, cubiertos, ticket medio y atribución de margen disponible. Compruebe la cobertura y las suposiciones antes de reasignar o probar la siguiente campaña."
+      },
+      {
+        "outcome": "Revisar la plantilla antes del próximo turno."
+      },
+      {
+        "outcome": "Dar a cada equipo respuestas operativas consistentes.",
+        "outcomeCopy": "Conecte sus sistemas operativos, alinee definiciones métricas y controle quién puede ver qué. Confirme campos soportados y cadencia de actualización durante la configuración."
+      }
+    ],
+    "creamEyebrow": "DE SEÑAL A RESPUESTA",
+    "creamProof": "Ejemplos ilustrativos de turno. Un gerente comprueba el contexto antes de elegir una respuesta.",
+    "creamCauseLabel": "Contexto para comprobar"
+  },
+  "de": {
+    "creamStatement": "Jede Schicht bringt eine Wahl. *Treffen Sie sie mit Kontext.*",
+    "creamLede": "Sundae hilft Teams, die Arbeit auf der Fläche mit den Signalen hinter der nächsten Entscheidung zu verbinden.",
+    "personas": [
+      {
+        "outcome": "Wissen, welche Schicht Aufmerksamkeit braucht."
+      },
+      {
+        "outcomeCopy": "Vergleichen Sie schichtbezogene Arbeit, Warenkosten und voids mit den unterstützenden operativen Aufzeichnungen. Untersuchen Sie die Änderung neben Ihrer Buchhaltungsprüfung."
+      },
+      {
+        "outcome": "Eine klarere Gruppen-Operational-Review."
+      },
+      {
+        "outcome": "Kampagnenleistung im Kontext.",
+        "outcomeCopy": "Vergleichen Sie Ausgaben, Covers, durchschnittlichen Bon und verfügbare Margen-Zuordnung. Prüfen Sie Abdeckung und Annahmen, bevor Sie umverteilen oder die nächste Kampagne testen."
+      },
+      {
+        "outcome": "Personal vor der nächsten Schicht prüfen."
+      },
+      {
+        "outcome": "Jedem Team konsistente operative Antworten geben.",
+        "outcomeCopy": "Verbinden Sie Ihre Operativen Systeme, gleichen Sie Kennzahlen ab und steuern Sie, wer was sehen kann. Bestätigen Sie unterstützte Felder und Refresh-Zeiten während der Einrichtung."
+      }
+    ],
+    "creamEyebrow": "VON SIGNAL ZUR REAKTION",
+    "creamProof": "Illustrative Schichtbeispiele. Ein Manager prüft den Kontext, bevor er eine Reaktion wählt.",
+    "creamCauseLabel": "Kontext zum Prüfen"
+  },
+  "nl": {
+    "creamStatement": "Elke shift brengt een keuze. *Maak die met context.*",
+    "creamLede": "Sundae helpt teams het werk op de vloer te koppelen aan de signalen achter de volgende beslissing.",
+    "personas": [
+      {
+        "outcome": "Weet welke shift aandacht nodig heeft."
+      },
+      {
+        "outcomeCopy": "Vergelijk shiftniveau arbeid, voedselkosten en voids met de ondersteunende operationele gegevens. Onderzoek de verandering naast uw boekhoudkundige review."
+      },
+      {
+        "outcome": "Een duidelijkere groepsoperationele review."
+      },
+      {
+        "outcome": "Campagneprestaties in context.",
+        "outcomeCopy": "Vergelijk uitgaven, covers, gemiddelde besteding en beschikbare marge-attributie. Controleer dekking en aannames voordat u opnieuw toewijst of de volgende campagne test."
+      },
+      {
+        "outcome": "Beoordeel bemensing vóór de volgende shift."
+      },
+      {
+        "outcome": "Geef elk team consistente operationele antwoorden.",
+        "outcomeCopy": "Verbind uw operationele systemen, stem metricdefinities af en beheer wie welke data kan zien. Bevestig ondersteunde velden en ververstiming tijdens de setup."
+      }
+    ],
+    "creamEyebrow": "VAN SIGNAL NAAR REACTIE",
+    "creamProof": "Illustratieve shiftexamples. Een manager controleert de context vóór het kiezen van een reactie.",
+    "creamCauseLabel": "Context om te controleren"
+  },
+  "pt": {
+    "creamStatement": "Cada turno traz uma escolha. *Faça-a com contexto.*",
+    "creamLede": "Sundae ajuda equipes a conectar o trabalho no salão com os sinais por trás da próxima decisão.",
+    "personas": [
+      {
+        "outcome": "Saber qual turno precisa de atenção."
+      },
+      {
+        "outcomeCopy": "Compare trabalho por turno, custo de alimentos e cancelamentos com os registros operacionais de suporte. Investigue a mudança junto à sua revisão contábil."
+      },
+      {
+        "outcome": "Uma revisão operacional de grupo mais clara."
+      },
+      {
+        "outcome": "Desempenho de campanha em contexto.",
+        "outcomeCopy": "Compare gasto, covers, ticket médio e atribuição de margem disponível. Verifique cobertura e premissas antes de realocar ou testar a próxima campanha."
+      },
+      {
+        "outcome": "Revisar pessoal antes do próximo turno."
+      },
+      {
+        "outcome": "Dar a cada equipe respostas operacionais consistentes.",
+        "outcomeCopy": "Conecte seus sistemas operacionais, alinhe definições de métricas e controle quem pode ver o quê. Confirme campos suportados e tempos de atualização durante a configuração."
+      }
+    ],
+    "creamEyebrow": "DE SINAL A RESPOSTA",
+    "creamProof": "Exemplos ilustrativos de turno. Um gerente verifica o contexto antes de escolher uma resposta.",
+    "creamCauseLabel": "Contexto para verificar"
+  },
+  "hi": {
+    "creamStatement": "हर शिफ्ट एक विकल्प लाता है। *संदर्भ के साथ लें।*",
+    "creamLede": "Sundae टीमों को फ्लोर पर काम को अगले निर्णय के संकेतों के साथ जोड़ने में मदद करता है।",
+    "personas": [
+      {
+        "outcome": "जानें कौन सी शिफ्ट को ध्यान चाहिए।"
+      },
+      {
+        "outcomeCopy": "सपाट‑स्तर के श्रम, फूड कॉस्ट और वॉइड्स की तुलना सहायक ऑपरेटिंग रिकॉर्ड्स के साथ करें। बदलते पैटर्न की अपनी अकाउंटिंग समीक्षा के साथ जांच करें।"
+      },
+      {
+        "outcome": "एक स्पष्ट समूह ऑपरेटिंग समीक्षा।"
+      },
+      {
+        "outcome": "कॉन्टेक्स्ट में कैम्पेन प्रदर्शन।",
+        "outcomeCopy": "खर्च, कवर, औसत चेक और उपलब्ध मार्जिन एट्रीब्यूशन की तुलना करें। पुनःआवंटन या अगले कैम्पेन का परीक्षण करने से पहले कवरेज और अनुमानों की जाँच करें।"
+      },
+      {
+        "outcome": "अगली शिफ्ट से पहले स्टाफिंग की समीक्षा करें।"
+      },
+      {
+        "outcome": "प्रत्येक टीम को सुसंगत ऑपरेटिंग उत्तर दें।",
+        "outcomeCopy": "अपने ऑपरेटिंग सिस्टम कनेक्ट करें, मीट्रिक परिभाषाओं का संरेखण करें और यह नियंत्रित करें कि कौन क्या देख सकता है। सेटअप के दौरान समर्थित फील्ड और रिफ्रेश समय की पुष्टि करें।"
+      }
+    ],
+    "creamEyebrow": "सिग्नल से प्रतिक्रिया तक",
+    "creamProof": "रूपक शिफ्ट उदाहरण। एक प्रबंधक संदर्भ की जाँच करता है फिर प्रतिक्रिया चुनता है।",
+    "creamCauseLabel": "जाँच करने के लिए संदर्भ"
+  },
+  "ur": {
+    "creamStatement": "ہر شفٹ ایک انتخاب لاتی ہے۔ *پس منظر کے ساتھ فیصلہ کریں.*",
+    "creamLede": "Sundae ٹیموں کو فلور کا کام اگلے فیصلے کے پیچھے سگنلز سے جوڑنے میں مدد دیتا ہے۔",
+    "personas": [
+      {
+        "outcome": "جانیں کہ کون سا شفٹ توجہ کا محتاج ہے۔"
+      },
+      {
+        "outcomeCopy": "شفٹ سطح کی لیبر، فوڈ کوسٹ اور ووڈز کا موازنہ معاون آپریٹنگ ریکارڈز کے ساتھ کریں۔ تبدیلی کی تحقیقات اپنے اکاؤنٹنگ جائزے کے ساتھ کریں۔"
+      },
+      {
+        "outcome": "گروپ آپریٹنگ ریویو میں وضاحت۔"
+      },
+      {
+        "outcome": "مہم کی کارکردگی تناظر میں۔",
+        "outcomeCopy": "خرچ، کورز، اوسط چیک اور دستیاب مارجن ایٹری بیوشن کا موازنہ کریں۔ دوبارہ مختص یا اگلی مہم ٹیسٹ کرنے سے پہلے کوریج اور مفروضات چیک کریں۔"
+      },
+      {
+        "outcome": "اگلے شفٹ سے پہلے اسٹافنگ کا جائزہ لیں۔"
+      },
+      {
+        "outcome": "ہر ٹیم کو مستقل آپریٹنگ جوابات دیں۔",
+        "outcomeCopy": "اپنے آپریٹنگ سسٹمز کو جوڑیں، میٹرک تعریفیں ہم آہنگ کریں اور کنٹرول کریں کہ کون کیا دیکھ سکتا ہے۔سیٹ اپ کے دوران سپورٹ شدہ فیلڈز اور ریفریش ٹائمنگ کی تصدیق کریں۔"
+      }
+    ],
+    "creamEyebrow": "سگنل سے ردِعمل تک",
+    "creamProof": "مثالی شفٹ مثالیں۔ ایک مینیجر ردِعمل منتخب کرنے سے پہلے سیاق و سباق چیک کرتا ہے۔",
+    "creamCauseLabel": "چیک کرنے کے لیے سیاق و سباق"
+  },
+  "it": {
+    "creamStatement": "Ogni turno porta una scelta. *Prendila con contesto.*",
+    "creamLede": "Sundae aiuta i team a collegare il lavoro in sala con i segnali alla base della prossima decisione.",
+    "personas": [
+      {
+        "outcome": "Sapere quale turno richiede attenzione."
+      },
+      {
+        "outcomeCopy": "Confronta lavoro a livello di turno, costo del cibo e void con i record operativi di supporto. Indaga la variazione insieme alla tua revisione contabile."
+      },
+      {
+        "outcome": "Una revisione operativa di gruppo più chiara."
+      },
+      {
+        "outcome": "Prestazioni campagna nel contesto.",
+        "outcomeCopy": "Confronta spesa, coperti, scontrino medio e attribuzione di margine disponibile. Controlla copertura e ipotesi prima di riallocare o testare la prossima campagna."
+      },
+      {
+        "outcome": "Rivedere lo staffing prima del prossimo turno."
+      },
+      {
+        "outcome": "Dare a ogni team risposte operative coerenti.",
+        "outcomeCopy": "Collega i tuoi sistemi operativi, allinea le definizioni delle metriche e controlla chi può vedere cosa. Conferma campi supportati e tempi di refresh durante la configurazione."
+      }
+    ],
+    "creamEyebrow": "DAL SEGNALE ALLA RISPOSTA",
+    "creamProof": "Esempi di turno illustrativi. Un manager verifica il contesto prima di scegliere una risposta.",
+    "creamCauseLabel": "Contesto da verificare"
+  },
+  "pl": {
+    "creamStatement": "Każda zmiana to wybór. *Podejmuj go z kontekstem.*",
+    "creamLede": "Sundae pomaga zespołom połączyć pracę na sali z sygnałami stojącymi za następną decyzją.",
+    "personas": [
+      {
+        "outcome": "Wiedzieć, która zmiana wymaga uwagi."
+      },
+      {
+        "outcomeCopy": "Porównaj koszty pracy na zmianę, koszt żywności i straty z wspierającymi zapisami operacyjnymi. Zbadaj zmianę obok przeglądu księgowego."
+      },
+      {
+        "outcome": "Jaśniejszy przegląd operacyjny grupy."
+      },
+      {
+        "outcome": "Wyniki kampanii w kontekście.",
+        "outcomeCopy": "Porównaj wydatki, liczbę gości, średni rachunek i dostępną atrybucję marży. Sprawdź zasięg i założenia przed przekierowaniem budżetu lub testem następnej kampanii."
+      },
+      {
+        "outcome": "Przejrzyj obsadę przed następną zmianą."
+      },
+      {
+        "outcome": "Daj każdemu zespołowi spójne odpowiedzi operacyjne.",
+        "outcomeCopy": "Połącz swoje systemy operacyjne, wyrównaj definicje metryk i kontroluj, kto może co widzieć. Potwierdź wspierane pola i harmonogram odświeżania podczas konfiguracji."
+      }
+    ],
+    "creamEyebrow": "OD SYGNAŁU DO REAKCJI",
+    "creamProof": "Ilustracyjne przykłady zmian. Manager sprawdza kontekst przed wyborem reakcji.",
+    "creamCauseLabel": "Kontekst do sprawdzenia"
+  },
+  "tr": {
+    "creamStatement": "Her vardiya bir seçim getirir. *Bağlamla yapın.*",
+    "creamLede": "Sundae ekiplerin sahadaki işleri bir sonraki kararın ardındaki sinyallerle bağlamasına yardımcı olur.",
+    "personas": [
+      {
+        "outcome": "Hangi vardiyanın dikkat gerektirdiğini bilin."
+      },
+      {
+        "outcomeCopy": "Vardiya düzeyinde işçilik, gıda maliyeti ve fireleri destekleyici işletme kayıtlarıyla karşılaştırın. Değişikliği muhasebe incelemenizle birlikte araştırın."
+      },
+      {
+        "outcome": "Daha net bir grup işletme incelemesi."
+      },
+      {
+        "outcome": "Kampanya performansı bağlamında.",
+        "outcomeCopy": "Harcama, kapak, ortalama hesap ve mevcut marj atamasını karşılaştırın. Yeniden tahsis veya bir sonraki kampanyayı test etmeden önce kapsamı ve varsayımları kontrol edin."
+      },
+      {
+        "outcome": "Bir sonraki vardiyadan önce personel planlamasını gözden geçirin."
+      },
+      {
+        "outcome": "Her ekibe tutarlı işletme cevapları verin.",
+        "outcomeCopy": "İşletme sistemlerinizi bağlayın, metrik tanımlarını uyumlu hale getirin ve kimin neyi görebileceğini kontrol edin. Kurulum sırasında desteklenen alanları ve yenileme zamanlamasını doğrulayın."
+      }
+    ],
+    "creamEyebrow": "SİNYALDEN YANITE",
+    "creamProof": "Örnek vardiya örnekleri. Bir yönetici yanıtı seçmeden önce bağlamı kontrol eder.",
+    "creamCauseLabel": "Kontrol edilecek bağlam"
+  },
+  "zh-Hans": {
+    "creamStatement": "每个班次都有选择。*用语境去做出选择。*",
+    "creamLede": "Sundae 帮助团队将一线工作与下一次决策背后的信号连接起来。",
+    "personas": [
+      {
+        "outcome": "知道哪个班次需要关注。"
+      },
+      {
+        "outcomeCopy": "在支持的运营记录旁比较班次级别的人工、餐食成本与作废项。与会计复核并行调查变化。"
+      },
+      {
+        "outcome": "更清晰的集团运营复盘。"
+      },
+      {
+        "outcome": "以语境理解的活动表现。",
+        "outcomeCopy": "比较支出、翻台数、人均消费与可用利润归因。在重新分配或测试下一个活动前检查覆盖与假设。"
+      },
+      {
+        "outcome": "在下一班次前审查人员配置。"
+      },
+      {
+        "outcome": "为各团队提供一致的运营答复。",
+        "outcomeCopy": "连接您的运营系统，统一指标定义并控制访问权限。在设置时确认支持的字段与刷新时序。"
+      }
+    ],
+    "creamEyebrow": "从信号到响应",
+    "creamProof": "示例性班次场景。经理在选择响应前检查语境。",
+    "creamCauseLabel": "需要检查的语境"
+  },
+  "ja": {
+    "creamStatement": "すべてのシフトが選択をもたらす。*文脈を持って選ぶ。*",
+    "creamLede": "Sundaeは現場の作業を次の判断の背後にあるシグナルとつなげる。",
+    "personas": [
+      {
+        "outcome": "どのシフトが注意を要するかを把握する。"
+      },
+      {
+        "outcomeCopy": "シフト単位の労務、食品原価、消却を裏付け稼働記録と比較する。会計レビューと並べて変化を調査する。"
+      },
+      {
+        "outcome": "より明確なグループ稼働レビュー。"
+      },
+      {
+        "outcome": "文脈にあるキャンペーンパフォーマンス。",
+        "outcomeCopy": "支出、カバー数、平均チェック、利用可能なマージン帰属を比較する。再配分や次のキャンペーンを試す前にカバレッジと前提を確認する。"
+      },
+      {
+        "outcome": "次シフト前に人員配置をレビューする。"
+      },
+      {
+        "outcome": "各チームに一貫した稼働上の回答を与える。",
+        "outcomeCopy": "稼働システムを接続し、指標定義を整合させ、閲覧権限を制御する。設定時にサポートされるフィールドとリフレッシュタイミングを確認する。"
+      }
+    ],
+    "creamEyebrow": "シグナルから対応へ",
+    "creamProof": "図示的なシフト例。マネージャーは対応を選ぶ前に文脈を確認する。",
+    "creamCauseLabel": "確認するための文脈"
+  },
+  "ko": {
+    "creamStatement": "모든 교대는 선택을 가져옵니다. *맥락과 함께 결정하세요.*",
+    "creamLede": "Sundae는 현장의 작업을 다음 결정을 뒷받침하는 신호와 연결하도록 도와줍니다.",
+    "personas": [
+      {
+        "outcome": "어떤 교대에 주의를 기울여야 하는지 파악하세요."
+      },
+      {
+        "outcomeCopy": "교대 수준의 인건비, 식자재비 및 VOID를 지원 운영 기록과 비교하세요. 회계 검토와 함께 변화를 조사하세요."
+      },
+      {
+        "outcome": "더 명확한 그룹 운영 검토."
+      },
+      {
+        "outcome": "맥락 속의 캠페인 성과.",
+        "outcomeCopy": "지출, 커버수, 평균 체크 및 사용 가능한 마진 귀속을 비교하세요. 재배치하거나 다음 캠페인을 테스트하기 전에 적용 범위와 가정을 확인하세요."
+      },
+      {
+        "outcome": "다음 교대 전에 인력 검토."
+      },
+      {
+        "outcome": "각 팀에 일관된 운영 답변 제공.",
+        "outcomeCopy": "운영 시스템을 연결하고 지표 정의를 정렬하며 누가 무엇을 볼 수 있는지 제어하세요. 설정 중 지원 필드와 새로고침 타이밍을 확인하세요."
+      }
+    ],
+    "creamEyebrow": "신호에서 대응까지",
+    "creamProof": "예시 교대 사례. 관리자는 대응을 선택하기 전에 맥락을 확인합니다.",
+    "creamCauseLabel": "확인할 맥락"
+  },
+  "id": {
+    "creamStatement": "Setiap shift membawa pilihan. *Buatlah dengan konteks.*",
+    "creamLede": "Sundae membantu tim menghubungkan pekerjaan di lantai dengan sinyal di balik keputusan berikutnya.",
+    "personas": [
+      {
+        "outcome": "Ketahui shift mana yang perlu perhatian."
+      },
+      {
+        "outcomeCopy": "Bandingkan tenaga kerja tingkat shift, biaya bahan dan void bersama catatan operasional pendukung. Selidiki perubahan bersamaan dengan tinjauan akuntansi Anda."
+      },
+      {
+        "outcome": "Tinjauan operasional grup yang lebih jelas."
+      },
+      {
+        "outcome": "Kinerja kampanye dalam konteks.",
+        "outcomeCopy": "Bandingkan pengeluaran, covers, rata-rata check dan atribusi margin yang tersedia. Periksa cakupan dan asumsi sebelum mengalokasikan ulang atau menguji kampanye berikutnya."
+      },
+      {
+        "outcome": "Tinjau staf sebelum shift berikutnya."
+      },
+      {
+        "outcome": "Berikan setiap tim jawaban operasional yang konsisten.",
+        "outcomeCopy": "Hubungkan sistem operasional Anda, selaraskan definisi metrik dan kendalikan siapa yang dapat melihat apa. Konfirmasi bidang yang didukung dan waktu penyegaran selama pengaturan."
+      }
+    ],
+    "creamEyebrow": "DARI SINYAL KE RESPON",
+    "creamProof": "Contoh shift ilustratif. Seorang manajer memeriksa konteks sebelum memilih respons.",
+    "creamCauseLabel": "Konteks untuk diperiksa"
+  },
+  "vi": {
+    "creamStatement": "Mỗi ca trực đều có một lựa chọn. *Lựa chọn đó có bối cảnh.*",
+    "creamLede": "Sundae giúp các đội kết nối công việc trên sàn với các tín hiệu phía sau quyết định tiếp theo.",
+    "personas": [
+      {
+        "outcome": "Biết ca nào cần chú ý."
+      },
+      {
+        "outcomeCopy": "So sánh nhân công theo ca, chi phí thực phẩm và các khoản loại trừ với hồ sơ vận hành hỗ trợ. Điều tra sự thay đổi cùng với xem xét kế toán của bạn."
+      },
+      {
+        "outcome": "Một đánh giá vận hành nhóm rõ ràng hơn."
+      },
+      {
+        "outcome": "Hiệu suất chiến dịch trong bối cảnh.",
+        "outcomeCopy": "So sánh chi tiêu, lượt phục vụ, hóa đơn trung bình và attribution biên có sẵn. Kiểm tra phạm vi và giả định trước khi phân bổ lại hoặc thử chiến dịch tiếp theo."
+      },
+      {
+        "outcome": "Xem xét nhân sự trước ca tiếp theo."
+      },
+      {
+        "outcome": "Mang lại câu trả lời vận hành nhất quán cho từng đội.",
+        "outcomeCopy": "Kết nối hệ thống vận hành của bạn, thống nhất định nghĩa chỉ số và kiểm soát ai thấy gì. Xác nhận các trường được hỗ trợ và thời gian làm mới trong quá trình thiết lập."
+      }
+    ],
+    "creamEyebrow": "TỪ TÍN HIỆU ĐẾN PHẢN ỨNG",
+    "creamProof": "Ví dụ ca trực minh họa. Một quản lý kiểm tra bối cảnh trước khi chọn phản ứng.",
+    "creamCauseLabel": "Bối cảnh để kiểm tra"
+  },
+  "ro": {
+    "creamStatement": "Fiecare schimb aduce o alegere. *Luați-o în context.*",
+    "creamLede": "Sundae ajută echipele să conecteze munca de pe teren cu semnalele din spatele următoarei decizii.",
+    "personas": [
+      {
+        "outcome": "Știți ce schimb necesită atenție."
+      },
+      {
+        "outcomeCopy": "Comparați munca pe schimb, costul alimentelor și pierderile cu evidențele operaționale suport. Investigați schimbarea alături de revizuirea contabilă."
+      },
+      {
+        "outcome": "O revizuire operațională de grup mai clară."
+      },
+      {
+        "outcome": "Performanța campaniei în context.",
+        "outcomeCopy": "Comparați cheltuielile, acoperirile, tichetul mediu și atribuirea marjei disponibile. Verificați acoperirea și ipotezele înainte de a realoca sau testa următoarea campanie."
+      },
+      {
+        "outcome": "Revizuiți personalul înainte de următorul schimb."
+      },
+      {
+        "outcome": "Oferiți fiecărei echipe răspunsuri operaționale consistente.",
+        "outcomeCopy": "Conectați sistemele operaționale, aliniați definițiile metricilor și controlați cine poate vedea ce. Confirmați câmpurile suportate și timpii de reîmprospătare în timpul configurării."
+      }
+    ],
+    "creamEyebrow": "DE LA SEMNAL LA RĂSPUNS",
+    "creamProof": "Exemple ilustrative de schimb. Un manager verifică contextul înainte de a alege un răspuns.",
+    "creamCauseLabel": "Context de verificat"
+  },
+  "sv": {
+    "creamStatement": "Varje skift innebär ett val. *Gör det med kontext.*",
+    "creamLede": "Sundae hjälper team att koppla arbetet på golvet med signalerna bakom nästa beslut.",
+    "personas": [
+      {
+        "outcome": "Veta vilket skift som behöver uppmärksamhet."
+      },
+      {
+        "outcomeCopy": "Jämför skiftesnivåns arbetskraft, matkostnad och borttagningar med stödjande driftposter. Undersök förändringen tillsammans med din redovisningsgranskning."
+      },
+      {
+        "outcome": "En tydligare koncerndriftgranskning."
+      },
+      {
+        "outcome": "Kampanjprestanda i kontext.",
+        "outcomeCopy": "Jämför utgifter, covers, genomsnittskvitto och tillgänglig marginalattribuering. Kontrollera täckning och antaganden innan omallokering eller test av nästa kampanj."
+      },
+      {
+        "outcome": "Granska bemanning före nästa skift."
+      },
+      {
+        "outcome": "Ge varje team konsekventa driftssvar.",
+        "outcomeCopy": "Koppla era driftsystem, synkronisera metrikdefinitioner och kontrollera vem som kan se vad. Bekräfta stödda fält och uppdateringstid vid uppsättning."
+      }
+    ],
+    "creamEyebrow": "FRÅN SIGNAL TILL ÅTGÄRD",
+    "creamProof": "Illustrativa skiftexempel. En chef kontrollerar kontexten innan åtgärd väljs.",
+    "creamCauseLabel": "Kontext att kontrollera"
+  },
+  "bn": {
+    "creamStatement": "প্রতিটি শিফট একটি সিদ্ধান্ত নিয়ে আসে। *প্রেক্ষাপট নিয়ে নিন.*",
+    "creamLede": "Sundae দলগুলোকে মেঝের কাজকে পরবর্তী সিদ্ধান্তের সংকেতগুলোর সঙ্গে যোগ করতে সাহায্য করে।",
+    "personas": [
+      {
+        "outcome": "জানুন কোন শিফট মনোযোগ চায়।"
+      },
+      {
+        "outcomeCopy": "সমর্থনকারী অপারেটিং রেকর্ডগুলোর সঙ্গে শিফট-স্তরের লেবার, ফুড কস্ট এবং ভয়েড তুলনা করুন। পরিবর্তনটি আপনার অ্যাকাউন্টিং রিভিউর পাশাপাশি তদন্ত করুন।"
+      },
+      {
+        "outcome": "একটি পরিষ্কার গ্রুপ অপারেটিং রিভিউ।"
+      },
+      {
+        "outcome": "ক্যাম্পেইন পারফরম্যান্স প্রাসঙ্গিকে।",
+        "outcomeCopy": "ব্যয়, কভার, গড় চেক এবং উপলব্ধ মার্জিন অ্যাট্রিবিউশন তুলনা করুন। পুনবণ্টন বা পরবর্তী ক্যাম্পেইন টেস্ট করার আগে কভারেজ ও অনুমান পরীক্ষা করুন।"
+      },
+      {
+        "outcome": "পরবর্তী শিফটের আগে স্টাফিং রিভিউ করুন।"
+      },
+      {
+        "outcome": "প্রতিটি টিমকে কনসিস্টেন্ট অপারেটিং উত্তর দিন।",
+        "outcomeCopy": "আপনার অপারেটিং সিস্টেমগুলো সংযুক্ত করুন, মেট্রিক সংজ্ঞা সঙ্গত করুন এবং কে কী দেখবে তা নিয়ন্ত্রণ করুন। সেটআপের সময় সমর্থিত ফিল্ড ও রিফ্রেশ টাইমিং নিশ্চিত করুন।"
+      }
+    ],
+    "creamEyebrow": "SIGNAL থেকে RESPONSE পর্যন্ত",
+    "creamProof": "দৃষ্টান্তমূলক শিফট উদাহরণ। একটি ম্যানেজার প্রতিক্রিয়া বেছে নেওয়ার আগে প্রেক্ষাপট পরীক্ষা করে।",
+    "creamCauseLabel": "পরীক্ষা করার জন্য প্রেক্ষাপট"
+  },
+  "th": {
+    "creamStatement": "ทุกกะมีทางเลือก *ตัดสินใจด้วยบริบท*",
+    "creamLede": "Sundae ช่วยทีมเชื่อมงานบนพื้นกับสัญญาณที่อยู่เบื้องหลังการตัดสินใจครั้งถัดไป",
+    "personas": [
+      {
+        "outcome": "รู้ว่ากะใดต้องใส่ใจ"
+      },
+      {
+        "outcomeCopy": "เปรียบเทียบแรงงานระดับกะ ต้นทุนอาหาร และรายการตัดทิ้งกับบันทึกการปฏิบัติงานที่สนับสนุน ตรวจสอบการเปลี่ยนแปลงควบคู่กับการตรวจทานบัญชีของคุณ"
+      },
+      {
+        "outcome": "การทบทวนการปฏิบัติงานกลุ่มที่ชัดเจนขึ้น"
+      },
+      {
+        "outcome": "ประสิทธิภาพแคมเปญในบริบท",
+        "outcomeCopy": "เปรียบเทียบค่าใช้จ่าย จำนวนลูกค้า ค่าเฉลี่ยใบเสร็จ และการอ้างมาร์จิ้นที่มี ตรวจสอบความครอบคลุมและสมมติฐานก่อนเปลี่ยนสรรพหรือทดสอบแคมเปญต่อไป"
+      },
+      {
+        "outcome": "ทบทวนการจัดพนักงานก่อนกะถัดไป"
+      },
+      {
+        "outcome": "ให้แต่ละทีมคำตอบการปฏิบัติงานที่สอดคล้องกัน",
+        "outcomeCopy": "เชื่อมระบบการปฏิบัติงาน จัดให้คำนิยามเมตริกสอดคล้อง และควบคุมว่าใครเห็นอะไร ยืนยันฟิลด์ที่รองรับและเวลาการรีเฟรชระหว่างการตั้งค่า"
+      }
+    ],
+    "creamEyebrow": "FROM SIGNAL TO RESPONSE",
+    "creamProof": "ตัวอย่างกะเชิงภาพ ผู้จัดการตรวจบริบทก่อนเลือกการตอบสนอง",
+    "creamCauseLabel": "บริบทที่ต้องตรวจ"
+  },
+  "ms": {
+    "creamStatement": "Setiap syif membawa pilihan. *Buat ia dengan konteks.*",
+    "creamLede": "Sundae membantu pasukan menghubungkan kerja di lantai dengan isyarat di sebalik keputusan seterusnya.",
+    "personas": [
+      {
+        "outcome": "Tahu syif mana yang memerlukan perhatian."
+      },
+      {
+        "outcomeCopy": "Bandingkan buruh per syif, kos makanan dan pembatalan dengan rekod operasi sokongan. Siasat perubahan bersama ulasan perakaunan anda."
+      },
+      {
+        "outcome": "Ulasan operasi kumpulan yang lebih jelas."
+      },
+      {
+        "outcome": "Prestasi kempen dalam konteks.",
+        "outcomeCopy": "Bandingkan perbelanjaan, pengunjung, cek purata dan atribusi margin yang tersedia. Semak liputan dan andaian sebelum mengagihkan semula atau menguji kempen seterusnya."
+      },
+      {
+        "outcome": "Semak kakitangan sebelum syif seterusnya."
+      },
+      {
+        "outcome": "Berikan setiap pasukan jawapan operasi yang konsisten.",
+        "outcomeCopy": "Sambungkan sistem operasi anda, selaraskan definisi metrik dan kawal siapa dapat melihat apa. Sahkan medan yang disokong dan masa penyegaran semasa penyediaan."
+      }
+    ],
+    "creamEyebrow": "DARI ISYARAT KE TINDAKAN",
+    "creamProof": "Contoh syif ilustratif. Seorang pengurus memeriksa konteks sebelum memilih tindak balas.",
+    "creamCauseLabel": "Konteks untuk disemak"
+  }
+}

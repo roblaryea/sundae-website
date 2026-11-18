@@ -8,9 +8,9 @@ export async function generateMetadata(): Promise<Metadata> {
   return buildSolutionPageMetadata({
     locale: resolveWebsiteLocale(await cookies()),
     pathname: "/solutions/marketing-teams",
-    englishTitle: "Sundae for Marketing Leads - Campaign Performance Signals in 24 Hours",
+    englishTitle: "Sundae for Marketing Leads - Campaign and Channel Performance",
     englishDescription:
-      "Campaign performance signals - covers, average check, channel mix, attribution - within 24 hours of activation. Re-allocate spend while the campaign is still running.",
+      "Compare campaign spend, sales and channel mix. Use the available attribution and market context to choose the next test.",
     generatedLocalCopy: generatedLocalCopy.localizedCopy,
   });
 }

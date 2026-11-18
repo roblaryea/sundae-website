@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import exampleCopy from '@/content/buyer-proof-labels/examples.json';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
 /* ─── Mockup Frame Shell ─── */
@@ -14,6 +15,8 @@ interface MockupFrameProps {
 }
 
 export function MockupFrame({ label, children, glow = true, className = "" }: MockupFrameProps) {
+  const { locale } = useWebsiteI18n();
+  const disclosure = exampleCopy[locale as keyof typeof exampleCopy].disclosure;
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-60px" });
 
@@ -38,6 +41,7 @@ export function MockupFrame({ label, children, glow = true, className = "" }: Mo
       </div>
       {/* Dashboard body */}
       <div className="mockup-body">{children}</div>
+      <p data-illustrative-proof className="border-t border-[var(--border-default)] bg-[var(--navy-surface)] px-4 py-3 text-sm leading-relaxed text-[var(--text-supporting)]">{disclosure}</p>
     </motion.div>
   );
 }

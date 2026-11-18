@@ -63,3 +63,22 @@ test('private booking credentials and contact query parameters never enter campa
 test('server rendering has no storage or URL side effects', () => {
   assert.deepEqual(getCampaignParams(), {}); assert.equal(appendCampaign('/demo'), '/demo');
 });
+
+test('canonical HTTPS pricing handoff retains consented public campaign tags and quote selection', () => {
+  browser(); getCampaignParams();
+  window.location = new URL('https://www.sundae.io/ar/crew');
+  const target = new URL(appendCampaign('https://pricing.sundae.io/simulator?cfg=unchanged&lang=ar#estimate'));
+  assert.equal(target.searchParams.get('cfg'), 'unchanged');
+  assert.equal(target.searchParams.get('lang'), 'ar');
+  assert.equal(target.hash, '#estimate');
+  assert.equal(target.searchParams.get('utm_source'), 'linkedin');
+  assert.equal(target.searchParams.get('utm_campaign'), 'handover');
+  assert.equal(appendCampaign('https://pricing.sundae.io/?utm_source=partner'), 'https://pricing.sundae.io/?utm_source=partner');
+});
+
+test('pricing handoff never broadens origin, credential or consent boundaries', () => {
+  browser(); getCampaignParams();
+  for (const target of ['http://pricing.sundae.io/', 'https://pricing.sundae.io.evil.test/', 'https://other.sundae.io/', 'https://user:private@pricing.sundae.io/', 'https://pricing.sundae.io/?token=private']) assert.equal(appendCampaign(target), target);
+  window.localStorage.getItem = () => 'declined';
+  assert.equal(appendCampaign('https://pricing.sundae.io/?cfg=unchanged'), 'https://pricing.sundae.io/?cfg=unchanged');
+});

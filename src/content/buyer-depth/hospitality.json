@@ -1,0 +1,662 @@
+{
+  "en": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Bring connected restaurant, banquet and in-room dining records into a shared operating review. Confirm the source fields and accounting boundary for each outlet."
+      }
+    ],
+    "outcomesDescription": "Compare outlets, assign follow-up and review the result with the relevant team.",
+    "ctaDescription": "Choose an outlet, service period or food-and-beverage question. Review the available records and the next action in a real or sample operation.",
+    "howDescription": "Compare connected food-and-beverage outlets and give the next operating question to the relevant team.",
+    "outcomes": [
+      {
+        "title": "Investigate the outlet that differs",
+        "description": "Compare the restaurant, bar and other connected outlets, then agree a response with the manager responsible."
+      },
+      {
+        "title": "Review banquet contribution",
+        "description": "Bring available event revenue, food cost and labor records into the operating discussion, with allocation assumptions visible."
+      },
+      {
+        "title": "Compare productivity in context",
+        "description": "Check direct and allocated labor, service type and coverage before comparing productivity between outlets."
+      },
+      {
+        "title": "Understand guest activity across outlets",
+        "description": "Explore available guest and spend records across the connected outlets. Coverage depends on the sources and permissions in your setup."
+      }
+    ],
+    "ctaTitle": "Bring one food-and-beverage operating question."
+  },
+  "ar": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "أحضر سجلات المطاعم والولائم وخدمة الغرف المتصلة إلى مراجعة تشغيلية مشتركة. أكد حقول المصدر وحدود المحاسبة لكل منفذ."
+      }
+    ],
+    "outcomesDescription": "قارن المنافذ، عيّن متابعة وراجع النتيجة مع الفريق المعني.",
+    "ctaDescription": "اختر منفذاً أو فترة خدمة أو سؤال طعام ومشروبات. راجع السجلات المتاحة والإجراء التالي في عملية حقيقية أو نموذجية.",
+    "howDescription": "قارن منافذ الطعام والشراب المتصلة وعيّن السؤال التشغيلي التالي للفريق المعني.",
+    "outcomes": [
+      {
+        "title": "تحقق من المنفذ المختلف",
+        "description": "قارن المطعم والبار والمنافذ المتصلة الأخرى، ثم اتفق على الاستجابة مع المدير المسؤول."
+      },
+      {
+        "title": "راجع مساهمة الولائم",
+        "description": "أحضر إيرادات الفعاليات المتاحة وتكلفة الطعام وسجلات العمالة إلى النقاش التشغيلي مع إبراز فروض التخصيص."
+      },
+      {
+        "title": "قارن الإنتاجية في السياق",
+        "description": "تحقق من العمالة المباشرة والموزعة ونوع الخدمة والتغطية قبل مقارنة الإنتاجية بين المنافذ."
+      },
+      {
+        "title": "افهم نشاط الضيوف عبر المنافذ",
+        "description": "استكشف سجلات الضيوف والإنفاق المتاحة عبر المنافذ المتصلة. تعتمد التغطية على المصادر والصلاحيات في إعدادك."
+      }
+    ],
+    "ctaTitle": "أحضر سؤالاً تشغيلياً واحداً للطعام والشراب."
+  },
+  "fr": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Rassembler les dossiers restaurant, banquet et room service connectés dans une revue opérationnelle partagée. Confirmez champs source et frontière comptable pour chaque point de vente."
+      }
+    ],
+    "outcomesDescription": "Comparer points de vente, assigner le suivi et revoir le résultat avec l'équipe concernée.",
+    "ctaDescription": "Choisir un point de vente, une période de service ou une question F&B. Revoir les dossiers disponibles et l'action suivante dans une opération réelle ou échantillon.",
+    "howDescription": "Comparer les points de vente F&B connectés et confier la prochaine question opérationnelle à l'équipe pertinente.",
+    "outcomes": [
+      {
+        "title": "Analyser le point de vente qui diffère",
+        "description": "Comparer restaurant, bar et autres points connectés, puis convenir d'une réponse avec le manager responsable."
+      },
+      {
+        "title": "Revoir la contribution des banquets",
+        "description": "Apporter revenus d'événements, coût alimentaire et dossiers de main-d'œuvre disponibles à la discussion opérationnelle, avec les hypothèses d'allocation visibles."
+      },
+      {
+        "title": "Comparer la productivité en contexte",
+        "description": "Vérifier main-d'œuvre directe et allouée, type de service et couverture avant de comparer productivité entre points de vente."
+      },
+      {
+        "title": "Comprendre l'activité client à travers les points de vente",
+        "description": "Explorer les dossiers clients et de dépenses disponibles à travers les points connectés. La couverture dépend des sources et permissions de votre configuration."
+      }
+    ],
+    "ctaTitle": "Apportez une question opérationnelle F&B."
+  },
+  "es": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Integre registros conectados de restaurante, banquetes y servicio de habitaciones en una revisión operativa compartida. Confirme los campos de origen y el límite contable para cada punto de venta."
+      }
+    ],
+    "outcomesDescription": "Compare puntos de venta, asigne seguimiento y revise el resultado con el equipo relevante.",
+    "ctaDescription": "Elija un punto de venta, periodo de servicio o pregunta de alimentos y bebidas. Revise los registros disponibles y la siguiente acción en una operación real o de muestra.",
+    "howDescription": "Compare puntos de venta de alimentos y bebidas conectados y entregue la siguiente pregunta operativa al equipo responsable.",
+    "outcomes": [
+      {
+        "title": "Investigar el punto de venta que difiere",
+        "description": "Compare el restaurante, bar y otros puntos conectados, luego acuerde una respuesta con el gerente responsable."
+      },
+      {
+        "title": "Revisar la contribución de banquetes",
+        "description": "Lleve ingresos de eventos disponibles, coste de alimentos y registros de mano de obra a la discusión operativa, con suposiciones de asignación visibles."
+      },
+      {
+        "title": "Comparar productividad en contexto",
+        "description": "Compruebe mano de obra directa y asignada, tipo de servicio y cobertura antes de comparar productividad entre puntos de venta."
+      },
+      {
+        "title": "Entender la actividad de huéspedes entre puntos de venta",
+        "description": "Explore registros disponibles de huéspedes y gasto entre los puntos conectados. La cobertura depende de las fuentes y permisos en su configuración."
+      }
+    ],
+    "ctaTitle": "Traiga una pregunta operativa de alimentos y bebidas."
+  },
+  "de": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Bringen Sie verbundene Restaurant-, Bankett- und Room-Service-Aufzeichnungen in eine gemeinsame operative Review. Bestätigen Sie die Quellfelder und die buchhalterische Abgrenzung für jeden Betrieb."
+      }
+    ],
+    "outcomesDescription": "Standorte vergleichen, Follow-up zuweisen und das Ergebnis mit dem relevanten Team prüfen.",
+    "ctaDescription": "Wählen Sie einen Betrieb, einen Servicezeitraum oder eine Food-&-Beverage-Frage. Prüfen Sie die verfügbaren Aufzeichnungen und die nächste Maßnahme in einem realen oder Musterbetrieb.",
+    "howDescription": "Vergleichen Sie verbundene Food-&-Beverage-Betriebe und geben Sie die nächste operative Frage an das zuständige Team.",
+    "outcomes": [
+      {
+        "title": "Den abweichenden Betrieb untersuchen",
+        "description": "Vergleichen Sie Restaurant, Bar und andere verbundene Outlets, und einigen Sie sich dann mit dem verantwortlichen Manager auf eine Reaktion."
+      },
+      {
+        "title": "Bankettbeitrag überprüfen",
+        "description": "Bringen Sie verfügbare Event-Umsätze, Warenkosten und Personalaufzeichnungen in die operative Diskussion, mit sichtbaren Allokationsannahmen."
+      },
+      {
+        "title": "Produktivität im Kontext vergleichen",
+        "description": "Prüfen Sie direkte und zugewiesene Arbeitskosten, Servicetyp und Abdeckung, bevor Sie Produktivität zwischen Outlets vergleichen."
+      },
+      {
+        "title": "Gästetätigkeit über Outlets verstehen",
+        "description": "Untersuchen Sie verfügbare Gäste- und Ausgabedaten über die verbundenen Outlets. Die Abdeckung hängt von Quellen und Berechtigungen in Ihrer Einrichtung ab."
+      }
+    ],
+    "ctaTitle": "Bringen Sie eine Food-&-Beverage-Betriebsfrage."
+  },
+  "nl": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Breng verbonden restaurant-, banket- en roomservicegegevens in een gedeelde operationele review. Bevestig de bronvelden en boekhoudgrens voor elk outlet."
+      }
+    ],
+    "outcomesDescription": "Vergelijk outlets, wijs opvolging toe en beoordeel het resultaat met het relevante team.",
+    "ctaDescription": "Kies een outlet, serviceperiode of food-and-beverage vraag. Beoordeel de beschikbare gegevens en de volgende actie in een echte of voorbeeldoperatie.",
+    "howDescription": "Vergelijk verbonden food-and-beverage outlets en geef de volgende operationele vraag aan het relevante team.",
+    "outcomes": [
+      {
+        "title": "Onderzoek de afwijkende outlet",
+        "description": "Vergelijk het restaurant, de bar en andere verbonden outlets en kom daarna een reactie overeen met de verantwoordelijke manager."
+      },
+      {
+        "title": "Beoordeel banketbijdrage",
+        "description": "Breng beschikbare eventomzet, voedselkosten en personeelsgegevens in de operationele discussie, met zichtbare toewijzingsaannames."
+      },
+      {
+        "title": "Vergelijk productiviteit in context",
+        "description": "Controleer directe en toegewezen arbeid, servicetype en dekking voordat u productiviteit tussen outlets vergelijkt."
+      },
+      {
+        "title": "Begrijp gastenactiviteit over outlets heen",
+        "description": "Onderzoek beschikbare gast- en bestedingsgegevens over de verbonden outlets. Dekking hangt af van de bronnen en permissies in uw setup."
+      }
+    ],
+    "ctaTitle": "Breng één food-and-beverage operationele vraag."
+  },
+  "pt": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Traga registros conectados de restaurante, banquete e room service para uma revisão operacional compartilhada. Confirme os campos fonte e o limite contábil de cada ponto de venda."
+      }
+    ],
+    "outcomesDescription": "Compare pontos de venda, atribua acompanhamento e reveja o resultado com a equipe relevante.",
+    "ctaDescription": "Escolha um ponto de venda, período de serviço ou questão de alimentos e bebidas. Revise os registros disponíveis e a próxima ação em uma operação real ou de amostra.",
+    "howDescription": "Compare pontos de venda de alimentos e bebidas conectados e dê a próxima questão operacional à equipe relevante.",
+    "outcomes": [
+      {
+        "title": "Investigar o ponto de venda que difere",
+        "description": "Compare restaurante, bar e outros pontos conectados, depois concorde uma resposta com o gerente responsável."
+      },
+      {
+        "title": "Rever a contribuição de banquetes",
+        "description": "Traga receita de eventos, custo de alimentos e registros de trabalho disponíveis para a discussão operacional, com premissas de alocação visíveis."
+      },
+      {
+        "title": "Comparar produtividade em contexto",
+        "description": "Verifique trabalho direto e alocado, tipo de serviço e cobertura antes de comparar produtividade entre pontos de venda."
+      },
+      {
+        "title": "Entender atividade de hóspedes entre pontos de venda",
+        "description": "Explore registros disponíveis de hóspedes e gastos entre os pontos conectados. A cobertura depende das fontes e permissões na sua configuração."
+      }
+    ],
+    "ctaTitle": "Traga uma questão operacional de alimentos e bebidas."
+  },
+  "hi": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "कनेक्टेड रेस्टोरेंट, बैंक्वेट और इन-रूम डाइनिंग रिकॉर्ड्स को साझा ऑपरेटिंग समीक्षा में लाएँ। प्रत्येक आउटलेट के लिए स्रोत फील्ड और अकाउंटिंग सीमा की पुष्टि करें।"
+      }
+    ],
+    "outcomesDescription": "आउटलेट्स की तुलना करें, फॉलो‑अप सौंपें और परिणाम को संबंधित टीम के साथ समीक्षा करें।",
+    "ctaDescription": "एक आउटलेट, सर्विस अवधि या खाद्य और पेय प्रश्न चुनें। उपलब्ध रिकॉर्ड और अगले कार्रवाई को वास्तविक या नमूना ऑपरेशन में समीक्षा करें।",
+    "howDescription": "कनेक्टेड फूड‑एंड‑बेवरेज आउटलेट्स की तुलना करें और अगले ऑपरेटिंग प्रश्न को संबंधित टीम को दें।",
+    "outcomes": [
+      {
+        "title": "वह आउटलेट जांचें जो अलग है",
+        "description": "रेस्टोरेंट, बार और अन्य कनेक्टेड आउटलेट्स की तुलना करें, फिर जिम्मेदार प्रबंधक के साथ प्रतिक्रिया पर सहमति बनाएं।"
+      },
+      {
+        "title": "बैंक्वेट योगदान की समीक्षा करें",
+        "description": "उपलब्ध इवेंट राजस्व, फूड कॉस्ट और लेबर रिकॉर्ड ऑपरेटिंग चर्चा में लाएँ, आवंटन अनुमान दिखते हुए।"
+      },
+      {
+        "title": "संदर्भ में उत्पादकता की तुलना करें",
+        "description": "आउटलेट्स के बीच उत्पादकता की तुलना करने से पहले डायरेक्ट और आवंटित लेबर, सेवा प्रकार और कवरेज की जाँच करें।"
+      },
+      {
+        "title": "आउटलेट्स में अतिथि गतिविधि समझें",
+        "description": "कनेक्टेड आउटलेट्स के बीच उपलब्ध अतिथि और खर्च रिकॉर्ड का अन्वेषण करें। कवरेज आपके सेटअप के स्रोतों और अनुमतियों पर निर्भर करती है।"
+      }
+    ],
+    "ctaTitle": "एक खाद्य‑और‑पेय ऑपरेटिंग प्रश्न लाएँ।"
+  },
+  "ur": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "متصل ریسٹورنٹ، بنکوئٹ اور ان روم ڈائننگ ریکارڈز کو مشترکہ آپریٹنگ ریویو میں لائیں۔ ہر آؤٹ لیٹ کے لیے سورس فیلڈز اور اکاؤنٹنگ باونڈری کی تصدیق کریں۔"
+      }
+    ],
+    "outcomesDescription": "آؤٹ لیٹس کا موازنہ کریں، فالو اپ تفویض کریں اور متعلقہ ٹیم کے ساتھ نتیجہ کا جائزہ لیں۔",
+    "ctaDescription": "ایک آؤٹ لیٹ، سروس مدت یا فوڈ اینڈ بیوریج سوال منتخب کریں۔ دستیاب ریکارڈز اور اگلے اقدام کا جائزہ حقیقی یا نمونہ آپریشن میں کریں۔",
+    "howDescription": "متصل فوڈ اینڈ بیوریج آؤٹ لیٹس کا موازنہ کریں اور اگلا آپریٹنگ سوال متعلقہ ٹیم کو دیں۔",
+    "outcomes": [
+      {
+        "title": "وہ آؤٹ لیٹ تلاش کریں جو مختلف ہے",
+        "description": "ریسٹورنٹ، بار اور دیگر متصل آؤٹ لیٹس کا موازنہ کریں، پھر ذمہ دار مینیجر کے ساتھ ردِعمل پر متفق ہوں۔"
+      },
+      {
+        "title": "بنکوئٹ کنٹریبیوشن کا جائزہ لیں",
+        "description": "دستیاب ایونٹ ریونیو، فوڈ کوسٹ اور لیبر ریکارڈز کو آپریٹنگ بحث میں لائیں، الاکیشن مفروضات ظاہر ہوں۔"
+      },
+      {
+        "title": "تناظر میں پیداواری صلاحیت کا موازنہ کریں",
+        "description": "آؤٹ لیٹس کے درمیان پیداواری صلاحیت کا موازنہ کرنے سے پہلے براہِ راست اور الاٹڈ لیبر، سروس کی قسم اور کوریج چیک کریں۔"
+      },
+      {
+        "title": "مہمان کی سرگرمی کو آؤٹ لیٹس میں سمجھیں",
+        "description": "متصل آؤٹ لیٹس میں دستیاب مہمان اور خرچ ریکارڈز کو دریافت کریں۔ کوریج آپ کے سیٹ اپ میں سورسز اور اجازتوں پر منحصر ہے۔"
+      }
+    ],
+    "ctaTitle": "ایک فوڈ اینڈ بیوریج آپریٹنگ سوال لائیں۔"
+  },
+  "it": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Porta record collegati di ristorazione, banchetti e in-room dining in una revisione operativa condivisa. Conferma i campi fonte e il confine contabile per ogni outlet."
+      }
+    ],
+    "outcomesDescription": "Confronta gli outlet, assegna follow-up e rivedi il risultato con il team pertinente.",
+    "ctaDescription": "Scegli un outlet, un periodo di servizio o una domanda F&B. Rivedi i record disponibili e la prossima azione in una operazione reale o campione.",
+    "howDescription": "Confronta outlet F&B collegati e assegna la prossima domanda operativa al team rilevante.",
+    "outcomes": [
+      {
+        "title": "Indagare l’outlet che differisce",
+        "description": "Confronta ristorante, bar e altri outlet collegati, poi concorda una risposta con il manager responsabile."
+      },
+      {
+        "title": "Rivedere il contributo dei banchetti",
+        "description": "Porta ricavi eventi, costo del cibo e record di lavoro disponibili nella discussione operativa, con ipotesi di allocazione visibili."
+      },
+      {
+        "title": "Confrontare produttività nel contesto",
+        "description": "Controlla lavoro diretto e allocato, tipo di servizio e copertura prima di confrontare produttività tra outlet."
+      },
+      {
+        "title": "Comprendere l’attività degli ospiti tra outlet",
+        "description": "Esplora record ospiti e di spesa disponibili tra gli outlet collegati. La copertura dipende dalle fonti e dai permessi nella tua configurazione."
+      }
+    ],
+    "ctaTitle": "Porta una domanda operativa F&B."
+  },
+  "pl": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Przynieś połączone zapisy restauracji, bankietów i obsługi pokojowej do wspólnego przeglądu operacyjnego. Potwierdź pola źródłowe i granicę księgową dla każdego punktu sprzedaży."
+      }
+    ],
+    "outcomesDescription": "Porównaj punkty sprzedaży, przypisz follow-up i przejrzyj wynik z odpowiednim zespołem.",
+    "ctaDescription": "Wybierz punkt sprzedaży, okres obsługi lub pytanie F&B. Przejrzyj dostępne zapisy i następne działanie w realnej lub przykładowej operacji.",
+    "howDescription": "Porównaj połączone punkty F&B i przekaż następne pytanie operacyjne do odpowiedniego zespołu.",
+    "outcomes": [
+      {
+        "title": "Zbadaj punkt sprzedaży, który się wyróżnia",
+        "description": "Porównaj restaurację, bar i inne połączone punkty sprzedaży, a następnie uzgodnij reakcję z odpowiedzialnym managerem."
+      },
+      {
+        "title": "Przeanalizuj wkład bankietów",
+        "description": "Przynieś dostępne przychody z wydarzeń, koszty żywności i zapisy pracy do dyskusji operacyjnej, z widocznymi założeniami alokacji."
+      },
+      {
+        "title": "Porównaj produktywność w kontekście",
+        "description": "Sprawdź bezpośrednie i przypisane koszty pracy, typ obsługi i zakres przed porównaniem produktywności między punktami sprzedaży."
+      },
+      {
+        "title": "Zrozum aktywność gości między punktami sprzedaży",
+        "description": "Zbadaj dostępne zapisy gości i wydatków w połączonych punktach sprzedaży. Zasięg zależy od źródeł i uprawnień w Twojej konfiguracji."
+      }
+    ],
+    "ctaTitle": "Przynieś jedno pytanie operacyjne F&B."
+  },
+  "tr": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Bağlı restoran, banket ve oda servisi kayıtlarını ortak bir işletme incelemesine getirin. Her çıkış için kaynak alanlarını ve muhasebe sınırını doğrulayın."
+      }
+    ],
+    "outcomesDescription": "Çıkışları karşılaştırın, takip atayın ve sonucu ilgili ekiple gözden geçirin.",
+    "ctaDescription": "Bir çıkış, hizmet dönemi veya yiyecek-içecek sorusu seçin. Mevcut kayıtları ve bir gerçek veya örnek operasyondaki sonraki eylemi gözden geçirin.",
+    "howDescription": "Bağlı yiyecek-içecek çıkışlarını karşılaştırın ve sonraki işletme sorusunu ilgili ekibe verin.",
+    "outcomes": [
+      {
+        "title": "Fark gösteren çıkışı araştırın",
+        "description": "Restoran, bar ve diğer bağlı çıkışları karşılaştırın, sonra sorumlu yöneticiyle bir yanıt kararlaştırın."
+      },
+      {
+        "title": "Banket katkısını gözden geçirin",
+        "description": "Tahsis varsayımları görünür şekilde mevcut etkinlik geliri, gıda maliyeti ve işçilik kayıtlarını işletme tartışmasına getirin."
+      },
+      {
+        "title": "Bağlam içinde verimliliği karşılaştırın",
+        "description": "Çıkışlar arasında verimliliği karşılaştırmadan önce doğrudan ve tahsis edilmiş işçilik, hizmet türü ve kapsamı kontrol edin."
+      },
+      {
+        "title": "Çıkışlar arasında misafir etkinliğini anlayın",
+        "description": "Bağlı çıkışlar arasındaki mevcut misafir ve harcama kayıtlarını keşfedin. Kapsam, kurulumunuzdaki kaynaklara ve izinlere bağlıdır."
+      }
+    ],
+    "ctaTitle": "Bir yiyecek-içecek işletme sorusu getirin."
+  },
+  "zh-Hans": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "将已连接的餐厅、宴会和客房餐饮记录带入共享的运营审查。确认每个餐饮点的来源字段与会计边界。"
+      }
+    ],
+    "outcomesDescription": "比较餐饮点、分配后续并与相关团队一起审查结果。",
+    "ctaDescription": "选择一个餐饮点、服务期间或餐饮问题。审查可用记录和真实或示例门店中的下一步行动。",
+    "howDescription": "比较已连接的餐饮点并将下一步运营问题交给相关团队。",
+    "outcomes": [
+      {
+        "title": "调查有差异的餐饮点",
+        "description": "比较餐厅、酒吧和其他已连接餐饮点，然后与负责的经理达成响应。"
+      },
+      {
+        "title": "审查宴会贡献",
+        "description": "将可用的活动收入、餐食成本和人工记录带入运营讨论，并使分配假设可见。"
+      },
+      {
+        "title": "在语境中比较生产力",
+        "description": "在比较餐饮点间的生产力前，检查直接与分配的人工、服务类型与覆盖情况。"
+      },
+      {
+        "title": "了解客人在各餐饮点的活动",
+        "description": "探索已连接餐饮点中可用的客人和消费记录。覆盖取决于您的设置中的来源与权限。"
+      }
+    ],
+    "ctaTitle": "带来一个餐饮运营问题。"
+  },
+  "ja": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "接続されたレストラン、宴会、ルームサービスの記録を共有の稼働レビューに持ち込む。各アウトレットのソースフィールドと会計の境界を確認する。"
+      }
+    ],
+    "outcomesDescription": "アウトレットを比較し、フォローアップを割り当て、関連チームと結果をレビューする。",
+    "ctaDescription": "アウトレット、サービス期間、または飲食に関する問いを一つ選ぶ。実際またはサンプルの運用で利用可能な記録と次のアクションをレビューする。",
+    "howDescription": "接続された飲食系アウトレットを比較し、次の稼働質問を関連チームへ渡す。",
+    "outcomes": [
+      {
+        "title": "差異のあるアウトレットを調査する",
+        "description": "レストラン、バー、その他接続されたアウトレットを比較し、責任マネージャーと対応を合意する。"
+      },
+      {
+        "title": "宴会の貢献をレビューする",
+        "description": "利用可能なイベント収益、食品原価、労務記録を配賦前提とともに稼働議論に持ち込む。"
+      },
+      {
+        "title": "文脈の中で生産性を比較する",
+        "description": "アウトレット間で生産性を比較する前に直接労務と配賦労務、サービス種別、カバレッジを確認する。"
+      },
+      {
+        "title": "アウトレット横断のゲスト活動を理解する",
+        "description": "接続されたアウトレット全体の利用可能なゲストと支出記録を探索する。カバレッジは設定のソースと権限に依存する。"
+      }
+    ],
+    "ctaTitle": "飲食に関する稼働の問いを一つ持ってきてください。"
+  },
+  "ko": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "연결된 레스토랑, 연회 및 객실 내 식음료 기록을 공유 운영 검토로 가져오세요. 각 점포의 소스 필드와 회계 경계를 확인하세요."
+      }
+    ],
+    "outcomesDescription": "점포를 비교하고 후속 조치를 할당한 뒤 관련 팀과 결과를 검토하세요.",
+    "ctaDescription": "점포, 서비스 기간 또는 식음료 관련 질문을 선택하세요. 실제 또는 샘플 운영에서 사용 가능한 기록과 다음 행동을 검토하세요.",
+    "howDescription": "연결된 식음료 점포를 비교하고 다음 운영 질문을 관련 팀에 전달하세요.",
+    "outcomes": [
+      {
+        "title": "차이나는 점포 조사",
+        "description": "레스토랑, 바 및 기타 연결된 점포를 비교한 뒤 책임 관리자와 대응을 합의하세요."
+      },
+      {
+        "title": "연회 기여도 검토",
+        "description": "사용 가능한 이벤트 매출, 식자재비 및 인건비 기록을 운영 토론에 가져오고 배분 가정을 표시하세요."
+      },
+      {
+        "title": "맥락 속 생산성 비교",
+        "description": "점포 간 생산성을 비교하기 전에 직접 및 배분 인건비, 서비스 유형 및 적용 범위를 확인하세요."
+      },
+      {
+        "title": "점포 전반의 고객 활동 이해",
+        "description": "연결된 점포 전반의 사용 가능한 고객 및 지출 기록을 탐색하세요. 적용 범위는 설정된 소스와 권한에 따라 다릅니다."
+      }
+    ],
+    "ctaTitle": "식음료 운영 질문 하나를 가져오세요."
+  },
+  "id": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Masukkan catatan restoran, banquet dan layanan kamar yang terhubung ke dalam tinjauan operasional bersama. Konfirmasi bidang sumber dan batas akuntansi untuk setiap outlet."
+      }
+    ],
+    "outcomesDescription": "Bandingkan outlet, tugaskan tindak lanjut dan tinjau hasilnya dengan tim terkait.",
+    "ctaDescription": "Pilih sebuah outlet, periode layanan atau pertanyaan food-and-beverage. Tinjau catatan yang tersedia dan tindakan berikutnya pada operasi nyata atau sampel.",
+    "howDescription": "Bandingkan outlet food-and-beverage yang terhubung dan berikan pertanyaan operasional berikutnya kepada tim terkait.",
+    "outcomes": [
+      {
+        "title": "Selidiki outlet yang berbeda",
+        "description": "Bandingkan restoran, bar dan outlet terhubung lainnya, lalu sepakati respons dengan manajer yang bertanggung jawab."
+      },
+      {
+        "title": "Tinjau kontribusi banquet",
+        "description": "Masukkan pendapatan acara, biaya bahan dan catatan tenaga kerja yang tersedia ke dalam diskusi operasional, dengan asumsi alokasi terlihat."
+      },
+      {
+        "title": "Bandingkan produktivitas dalam konteks",
+        "description": "Periksa tenaga kerja langsung dan yang dialokasikan, tipe layanan dan cakupan sebelum membandingkan produktivitas antar outlet."
+      },
+      {
+        "title": "Pahami aktivitas tamu di seluruh outlet",
+        "description": "Jelajahi catatan tamu dan pengeluaran yang tersedia di seluruh outlet terhubung. Cakupan tergantung pada sumber dan izin di pengaturan Anda."
+      }
+    ],
+    "ctaTitle": "Bawa satu pertanyaan operasional food-and-beverage."
+  },
+  "vi": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Đưa các hồ sơ nhà hàng, tiệc và phục vụ trong phòng đã kết nối vào một đánh giá vận hành chung. Xác nhận trường nguồn và ranh giới kế toán cho từng outlet."
+      }
+    ],
+    "outcomesDescription": "So sánh outlet, giao hành động theo dõi và xem lại kết quả với đội liên quan.",
+    "ctaDescription": "Chọn một outlet, kỳ dịch vụ hoặc câu hỏi F&B. Xem lại hồ sơ có sẵn và hành động tiếp theo trong một hoạt động thực tế hoặc mẫu.",
+    "howDescription": "So sánh các outlet F&B đã kết nối và giao câu hỏi vận hành tiếp theo cho đội liên quan.",
+    "outcomes": [
+      {
+        "title": "Điều tra outlet khác biệt",
+        "description": "So sánh nhà hàng, quầy bar và các outlet kết nối khác, rồi thống nhất phản ứng với quản lý chịu trách nhiệm."
+      },
+      {
+        "title": "Xem xét đóng góp tiệc",
+        "description": "Mang doanh thu sự kiện, chi phí thực phẩm và hồ sơ nhân công có sẵn vào cuộc thảo luận vận hành, với giả định phân bổ hiển thị."
+      },
+      {
+        "title": "So sánh năng suất trong bối cảnh",
+        "description": "Kiểm tra nhân công trực tiếp và phân bổ, loại dịch vụ và phạm vi trước khi so sánh năng suất giữa các outlet."
+      },
+      {
+        "title": "Hiểu hoạt động khách giữa các outlet",
+        "description": "Khám phá hồ sơ khách và chi tiêu có sẵn giữa các outlet kết nối. Phạm vi phụ thuộc vào nguồn và quyền trong cấu hình của bạn."
+      }
+    ],
+    "ctaTitle": "Mang một câu hỏi vận hành F&B."
+  },
+  "ro": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Aduceți evidențele conectate ale restaurantului, banchetelor și room service într-o revizuire operațională comună. Confirmați câmpurile sursă și limita contabilă pentru fiecare punct de vânzare."
+      }
+    ],
+    "outcomesDescription": "Comparați punctele de vânzare, atribuiți urmărire și revizuiți rezultatul cu echipa relevantă.",
+    "ctaDescription": "Alegeți un punct de vânzare, o perioadă de serviciu sau o întrebare F&B. Revizuiți evidențele disponibile și acțiunea următoare într-o operațiune reală sau eșantion.",
+    "howDescription": "Comparați punctele de vânzare F&B conectate și dați întrebarea operațională următoare echipei potrivite.",
+    "outcomes": [
+      {
+        "title": "Investigați punctul de vânzare care diferă",
+        "description": "Comparați restaurantul, barul și celelalte puncte conectate, apoi conveniți un răspuns cu managerul responsabil."
+      },
+      {
+        "title": "Revizuiți contribuția banchetelor",
+        "description": "Aduceți veniturile de eveniment, costul alimentelor și evidențele de muncă disponibile în discuția operațională, cu ipotezele de alocare vizibile."
+      },
+      {
+        "title": "Comparați productivitatea în context",
+        "description": "Verificați munca directă și alocată, tipul serviciului și acoperirea înainte de a compara productivitatea între punctele de vânzare."
+      },
+      {
+        "title": "Înțelegeți activitatea oaspeților între puncte",
+        "description": "Explorați evidențele disponibile despre oaspeți și cheltuieli între punctele conectate. Acoperirea depinde de surse și permisiunile din configurația dvs."
+      }
+    ],
+    "ctaTitle": "Aduceți o întrebare operațională F&B."
+  },
+  "sv": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Ta med anslutna restaurang-, bankett- och room service-poster i en gemensam driftgranskning. Bekräfta källfält och redovisningsgräns för varje enhet."
+      }
+    ],
+    "outcomesDescription": "Jämför enheter, tilldela uppföljning och granska resultatet med relevant team.",
+    "ctaDescription": "Välj en enhet, serviceperiod eller FOH/BEV-fråga. Granska tillgängliga poster och nästa åtgärd i en verklig eller provverksamhet.",
+    "howDescription": "Jämför anslutna mat- och dryckesenheter och ge nästa driftfråga till relevant team.",
+    "outcomes": [
+      {
+        "title": "Undersök den enhet som skiljer sig",
+        "description": "Jämför restaurang, bar och andra anslutna enheter och kom överens om en åtgärd med ansvarig chef."
+      },
+      {
+        "title": "Granska banketternas bidrag",
+        "description": "Ta in tillgänglig evenemangsförsäljning, matkostnad och arbetskostnad i driftdiskussionen med synliga allokeringsantaganden."
+      },
+      {
+        "title": "Jämför produktivitet i kontext",
+        "description": "Kontrollera direkt och allokerad arbetskraft, servicetyp och täckning innan du jämför produktivitet mellan enheter."
+      },
+      {
+        "title": "Förstå gästaktivitet över enheter",
+        "description": "Utforska tillgängliga gäst- och spenderapporter över anslutna enheter. Täckning beror på källor och behörigheter i din konfiguration."
+      }
+    ],
+    "ctaTitle": "Ta med en driftfråga för mat och dryck."
+  },
+  "bn": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "সংযুক্ত রেস্টুরেন্ট, ব্যাংকেট ও ইন-রুম ডাইনিং রেকর্ডগুলি একটি শেয়ারড অপারেটিং রিভিউতে আনুন। প্রতিটি আউটলেটের সোর্স ফিল্ড এবং অ্যাকাউন্টিং সীমা নিশ্চিত করুন।"
+      }
+    ],
+    "outcomesDescription": "আউটলেটগুলো তুলনা করুন, ফলো-আপ নির্ধারণ করুন এবং প্রাসঙ্গিক টিমের সঙ্গে ফলাফল পর্যালোচনা করুন।",
+    "ctaDescription": "একটি আউটলেট, সার্ভিস পিরিয়ড বা F&B প্রশ্ন নির্বাচন করুন। উপলব্ধ রেকর্ড এবং পরবর্তী কর্মটি বাস্তব বা নমুনা অপারেশনে পর্যালোচনা করুন।",
+    "howDescription": "সংযুক্ত F&B আউটলেটগুলো তুলনা করুন এবং পরবর্তী অপারেটিং প্রশ্ন প্রাসঙ্গিক টিমকে দিন।",
+    "outcomes": [
+      {
+        "title": "যে আউটলেট আলাদা তা তদন্ত করুন",
+        "description": "রেস্টুরেন্ট, বার ও অন্যান্য সংযুক্ত আউটলেটগুলো তুলনা করুন, তারপর দায়িত্বশীল ম্যানেজারের সঙ্গে প্রতিক্রিয়া সম্মত করুন।"
+      },
+      {
+        "title": "ব্যাঙ্কেট কনট্রিবিউশন পর্যালোচনা করুন",
+        "description": "উপলব্ধ ইভেন্ট রাজস্ব, ফুড কস্ট ও লেবার রেকর্ডগুলো অপারেটিং আলোচনায় আনুন, বরাদ্দ অনুমানগুলো দৃশ্যমান রাখুন।"
+      },
+      {
+        "title": "প্রোডাক্টিভিটি প্রাসঙ্গিকভাবে তুলনা করুন",
+        "description": "আউটলেটগুলোর মধ্যে প্রোডাক্টিভিটি তুলনা করার আগে সরাসরি ও বরাদ্দকৃত লেবার, সার্ভিস টাইপ এবং কভারেজ পরীক্ষা করুন।"
+      },
+      {
+        "title": "আউটলেট জুড়ে অতিথির কার্যকলাপ বোঝুন",
+        "description": "সংযুক্ত আউটলেটগুলোর মধ্যে উপলব্ধ অতিথি ও ব্যয় রেকর্ড অন্বেষণ করুন। কভারেজ আপনার কনফিগারেশনের সোর্স ও অনুমতিগুলোর উপর নির্ভর করে।"
+      }
+    ],
+    "ctaTitle": "একটি F&B অপারেটিং প্রশ্ন আনুন।"
+  },
+  "th": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "นำบันทึกร้านอาหาร งานเลี้ยง และบริการในห้องพักที่เชื่อมต่อเข้าการทบทวนการปฏิบัติงานร่วม ยืนยันฟิลด์ต้นทางและขอบเขตการบัญชีของแต่ละช่องทาง"
+      }
+    ],
+    "outcomesDescription": "เปรียบเทียบช่องทาง มอบหมายการติดตามผล และทบทวนผลลัพธ์กับทีมที่เกี่ยวข้อง",
+    "ctaDescription": "เลือกช่องทาง ระยะการให้บริการ หรือคำถามเกี่ยวกับอาหารและเครื่องดื่ม ทบทวนบันทึกที่มีและขั้นตอนถัดไปในการดำเนินงานจริงหรือตัวอย่าง",
+    "howDescription": "เปรียบเทียบช่องทางอาหารและเครื่องดื่มที่เชื่อมต่อ และมอบคำถามการปฏิบัติงานครั้งต่อไปให้ทีมที่เกี่ยวข้อง",
+    "outcomes": [
+      {
+        "title": "ตรวจสอบช่องทางที่แตกต่าง",
+        "description": "เปรียบเทียบร้านอาหาร บาร์ และช่องทางที่เชื่อมต่ออื่นๆ แล้วตกลงการตอบสนองกับผู้จัดการที่รับผิดชอบ"
+      },
+      {
+        "title": "ทบทวนส่วนต่างของงานเลี้ยง",
+        "description": "นำรายได้จากงาน ลิ้มรส ต้นทุนอาหาร และบันทึกแรงงานที่มีเข้าสู่การอภิปรายการปฏิบัติงาน โดยแสดงสมมติฐานการจัดสรร"
+      },
+      {
+        "title": "เปรียบเทียบประสิทธิภาพในบริบท",
+        "description": "ตรวจสอบแรงงานโดยตรงและที่จัดสรร ประเภทการบริการ และความครอบคลุมก่อนเปรียบเทียบประสิทธิภาพระหว่างช่องทาง"
+      },
+      {
+        "title": "เข้าใจกิจกรรมแขกข้ามช่องทาง",
+        "description": "สำรวจบันทึกแขกและการใช้จ่ายที่มีข้ามช่องทางที่เชื่อมต่อ ความครอบคลุมขึ้นกับแหล่งและสิทธิ์ในระบบของคุณ"
+      }
+    ],
+    "ctaTitle": "นำคำถามการปฏิบัติงานด้านอาหารและเครื่องดื่มหนึ่งข้อมา"
+  },
+  "ms": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Bawa rekod restoran, jamuan dan sajian dalam bilik yang bersambung ke dalam ulasan operasi kongsi. Sahkan medan sumber dan sempadan perakaunan untuk setiap outlet."
+      }
+    ],
+    "outcomesDescription": "Bandingkan outlet, tugaskan susulan dan semak hasil dengan pasukan yang relevan.",
+    "ctaDescription": "Pilih outlet, tempoh perkhidmatan atau soalan makanan dan minuman. Semak rekod yang tersedia dan tindakan seterusnya dalam operasi sebenar atau sampel.",
+    "howDescription": "Bandingkan outlet makanan dan minuman yang bersambung dan berikan soalan operasi seterusnya kepada pasukan yang relevan.",
+    "outcomes": [
+      {
+        "title": "Siasat outlet yang berbeza",
+        "description": "Bandingkan restoran, bar dan outlet bersambung lain, kemudian setujui tindak balas dengan pengurus bertanggungjawab."
+      },
+      {
+        "title": "Semak sumbangan jamuan",
+        "description": "Bawa hasil acara, kos makanan dan rekod buruh yang tersedia ke dalam perbincangan operasi, dengan andaian peruntukan yang jelas."
+      },
+      {
+        "title": "Bandingkan produktiviti dalam konteks",
+        "description": "Semak buruh langsung dan diagihkan, jenis perkhidmatan dan liputan sebelum membandingkan produktiviti antara outlet."
+      },
+      {
+        "title": "Fahami aktiviti tetamu merentas outlet",
+        "description": "Terokai rekod tetamu dan perbelanjaan yang tersedia merentas outlet yang bersambung. Liputan bergantung pada sumber dan kebenaran dalam konfigurasi anda."
+      }
+    ],
+    "ctaTitle": "Bawa satu soalan operasi makanan dan minuman."
+  }
+}

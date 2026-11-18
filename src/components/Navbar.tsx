@@ -10,6 +10,7 @@ import { SundaeLogotype } from './ui/SundaeLogotype';
 import { SundaeMark } from './ui/SundaeMark';
 import { useCta, trackCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
+import { appendCampaign } from '@/lib/campaign';
 import { ThemeToggle } from './ui/ThemeToggle';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
@@ -443,7 +444,7 @@ const Navbar = () => {
             <a
               href={PRICING_URL}
               data-pricing-link="desktop"
-              onClick={() => { trackCta('nav_pricing', { destination: PRICING_URL, placement: 'desktop' }); }}
+              onClick={(event) => { event.currentTarget.href = appendCampaign(PRICING_URL); trackCta('nav_pricing', { destination: PRICING_URL, placement: 'desktop' }); }}
               onMouseEnter={() => setActiveDropdown(null)}
               onFocus={() => setActiveDropdown(null)}
               className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm"
@@ -690,7 +691,7 @@ const Navbar = () => {
               ))}
             </AccordionSection>
 
-            <a href={PRICING_URL} data-pricing-link="mobile" onClick={() => { trackCta('nav_pricing', { destination: PRICING_URL, placement: 'mobile' }); handleMobileNavClick(); }} className="block py-2.5 px-4 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)]">
+            <a href={PRICING_URL} data-pricing-link="mobile" onClick={(event) => { event.currentTarget.href = appendCampaign(PRICING_URL); trackCta('nav_pricing', { destination: PRICING_URL, placement: 'mobile' }); handleMobileNavClick(); }} className="block py-2.5 px-4 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)]">
               {nav.pricing}
             </a>
 

@@ -1,5 +1,7 @@
 'use client';
 
+import buyerBodyCopy from '@/content/buyer-depth/workforce.json';
+
 import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
 
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
@@ -9,7 +11,7 @@ import { CrewClockInMobile } from '@/components/crew/CrewClockInMobile';
 import { CrewTimesheetMobile } from '@/components/crew/CrewTimesheetMobile';
 import { timeAttendanceCopy } from '@/components/crew/moduleCopies';
 
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy';
 import { generatedLocalCopy } from '@/generated-locales/app_crew_time_attendance_page';
 
 export default function Page() {
@@ -20,7 +22,7 @@ export default function Page() {
   return (
     <CrewModulePage
       slug="time-attendance"
-      copy={copy}
+      copy={mergeGeneratedCopy(copy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy].attendance)}
       heroVisual={
         <PhoneCarousel
           screenBg="#020617"

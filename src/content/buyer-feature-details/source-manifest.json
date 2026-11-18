@@ -1,0 +1,28 @@
+{
+  "sourceHash": "5ec95f52b8bdcdc6884d2fd05c7ae18890970e9fb069924ecb9493dc4be7b82a",
+  "model": "gpt-5-mini",
+  "locales": [
+    "en",
+    "ar",
+    "fr",
+    "es",
+    "de",
+    "nl",
+    "pt",
+    "hi",
+    "ur",
+    "it",
+    "pl",
+    "tr",
+    "zh-Hans",
+    "ja",
+    "ko",
+    "id",
+    "vi",
+    "ro",
+    "sv",
+    "bn",
+    "th",
+    "ms"
+  ]
+}

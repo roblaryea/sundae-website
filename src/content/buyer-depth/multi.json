@@ -1,0 +1,838 @@
+{
+  "en": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Test a practice across brands",
+        "description": "Investigate a pattern at one brand, identify what may transfer and give another team a defined trial and comparison period."
+      },
+      {
+        "description": "Use Foresight where included or selected to compare portfolio forecasts and scenarios. Review assumptions and confidence ranges before making a market, concept or capital decision."
+      }
+    ],
+    "outcomesDescription": "Comparable location views, coordinated follow-up and a clearer basis for group decisions.",
+    "crewCallout": {
+      "description": "Use Crew to coordinate workforce records and operating work across locations. Scope country rules, required payroll outputs and provider connections with Sundae; calculation and export do not establish payment or statutory filing.",
+      "title": "Coordinate people and daily work across locations."
+    },
+    "ctaDescription": "Bring a question across brands or regions. Compare the locations, agree who will respond and define what the next review should measure.",
+    "outcomes": [
+      {
+        "title": "Compare the group on a consistent basis",
+        "description": "Check source coverage and metric definitions before comparing brands or deciding where to focus resources."
+      },
+      {
+        "title": "Make brand reviews specific",
+        "description": "Use internal and suitable peer comparisons to choose the operating question for each brand."
+      },
+      {
+        "title": "Follow a practice through the trial",
+        "description": "Record the starting point, responsible team and result before extending a change across the group."
+      },
+      {
+        "title": "Review capital decisions with context",
+        "description": "Consider forecast assumptions, scenarios and operating conditions when deciding where to invest or slow expansion."
+      }
+    ],
+    "ctaTitle": "Which brand or location needs the next decision?"
+  },
+  "ar": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "اختبر ممارسة عبر العلامات",
+        "description": "ابحث عن نمط في علامة واحدة، حدّد ما قد يُنقل وامنح فريقاً آخر تجربة محددة وفترة مقارنة."
+      },
+      {
+        "description": "استخدم Foresight حيثما كان مشمولاً أو مختاراً لمقارنة توقعات المحافظ والسيناريوهات. راجع الفروض ونطاقات الثقة قبل اتخاذ قرار سوقي أو مفهومي أو رأسمالي."
+      }
+    ],
+    "outcomesDescription": "عرض مواقع قابلة للمقارنة، متابعة منسقة وأساس أوضح لقرارات المجموعة.",
+    "crewCallout": {
+      "description": "استخدم Crew لتنسيق سجلات القوى العاملة والعمل التشغيلي عبر المواقع. حدد قواعد البلد، مخرجات الرواتب المطلوبة ووصلات المزود مع Sundae؛ الحساب والتصدير لا يؤسسان الدفع أو الإيداع القانوني.",
+      "title": "نسق الأشخاص والعمل اليومي عبر المواقع."
+    },
+    "ctaDescription": "أحضر سؤالاً عبر العلامات أو المناطق. قارن المواقع، اتفق من سيرد وعرّف ما الذي يجب أن تقيسه المراجعة التالية.",
+    "outcomes": [
+      {
+        "title": "قارن المجموعة على أساس متسق",
+        "description": "تحقق من تغطية المصدر وتعريفات المقاييس قبل مقارنة العلامات أو تقرير أين تركز الموارد."
+      },
+      {
+        "title": "اجعل مراجعات العلامات محددة",
+        "description": "استخدم المقارنات الداخلية والأقران المناسبة لاختيار السؤال التشغيلي لكل علامة."
+      },
+      {
+        "title": "تابع ممارسة خلال التجربة",
+        "description": "سجّل نقطة البداية والفريق المسؤول والنتيجة قبل توسيع التغيير عبر المجموعة."
+      },
+      {
+        "title": "راجع قرارات رأس المال في السياق",
+        "description": "اعتبر فروض التوقعات والسيناريوهات والظروف التشغيلية عند تقرير أين تستثمر أو تبطئ التوسع."
+      }
+    ],
+    "ctaTitle": "أي علامة أو موقع يحتاج القرار التالي؟"
+  },
+  "fr": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Tester une pratique entre marques",
+        "description": "Analyser un schéma sur une marque, identifier ce qui peut se transférer et donner à une autre équipe un essai défini et une période de comparaison."
+      },
+      {
+        "description": "Utilisez Foresight lorsqu'il est inclus ou sélectionné pour comparer prévisions et scénarios de portefeuille. Revuez hypothèses et intervalles de confiance avant de prendre une décision de marché, concept ou capital."
+      }
+    ],
+    "outcomesDescription": "Vues comparables par emplacement, suivi coordonné et base plus claire pour les décisions de groupe.",
+    "crewCallout": {
+      "description": "Utilisez Crew pour coordonner dossiers de main-d'œuvre et travail opérationnel entre emplacements. Cadrer règles nationales, sorties paie requises et connexions provider avec Sundae ; calcul et export n'établissent pas le paiement ou le dépôt légal.",
+      "title": "Coordonner personnes et travail quotidien entre emplacements."
+    },
+    "ctaDescription": "Apportez une question à travers marques ou régions. Comparer les emplacements, convenir qui répondra et définir ce que la prochaine revue doit mesurer.",
+    "outcomes": [
+      {
+        "title": "Comparer le groupe sur une base cohérente",
+        "description": "Vérifier la couverture source et les définitions de métriques avant de comparer des marques ou décider où concentrer les ressources."
+      },
+      {
+        "title": "Rendre les revues de marque spécifiques",
+        "description": "Utiliser comparaisons internes et pairs adaptés pour choisir la question opérationnelle pour chaque marque."
+      },
+      {
+        "title": "Suivre une pratique pendant l'essai",
+        "description": "Enregistrer le point de départ, l'équipe responsable et le résultat avant d'étendre un changement au groupe."
+      },
+      {
+        "title": "Revoir les décisions d'investissement avec contexte",
+        "description": "Considérer hypothèses de prévision, scénarios et conditions opérationnelles lors de la décision d'investir ou de ralentir l'expansion."
+      }
+    ],
+    "ctaTitle": "Quelle marque ou quel emplacement a besoin de la prochaine décision ?"
+  },
+  "es": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Probar una práctica entre marcas",
+        "description": "Investigue un patrón en una marca, identifique qué puede transferirse y dé a otro equipo una prueba definida y un periodo de comparación."
+      },
+      {
+        "description": "Use Foresight cuando esté incluido o seleccionado para comparar previsiones y escenarios de cartera. Revise suposiciones y rangos de confianza antes de tomar una decisión de mercado, concepto o capital."
+      }
+    ],
+    "outcomesDescription": "Vistas comparables por local, seguimiento coordinado y una base más clara para decisiones de grupo.",
+    "crewCallout": {
+      "description": "Use Crew para coordinar registros de personal y trabajo operativo entre ubicaciones. Defina reglas de país, salidas de nómina requeridas y conexiones de proveedor con Sundae; el cálculo y la exportación no establecen el pago ni la presentación obligatoria.",
+      "title": "Coordinar personas y trabajo diario entre ubicaciones."
+    },
+    "ctaDescription": "Traiga una pregunta entre marcas o regiones. Compare las ubicaciones, acuerde quién responderá y defina qué debe medir la próxima revisión.",
+    "outcomes": [
+      {
+        "title": "Comparar el grupo sobre una base consistente",
+        "description": "Compruebe la cobertura de fuentes y las definiciones métricas antes de comparar marcas o decidir dónde enfocar recursos."
+      },
+      {
+        "title": "Hacer las revisiones de marca específicas",
+        "description": "Use comparaciones internas y de pares adecuadas para elegir la pregunta operativa de cada marca."
+      },
+      {
+        "title": "Seguir una práctica durante la prueba",
+        "description": "Registre el punto de partida, el equipo responsable y el resultado antes de extender un cambio por el grupo."
+      },
+      {
+        "title": "Revisar decisiones de capital con contexto",
+        "description": "Considere suposiciones de previsión, escenarios y condiciones operativas al decidir dónde invertir o ralentizar la expansión."
+      }
+    ],
+    "ctaTitle": "¿Qué marca o ubicación necesita la siguiente decisión?"
+  },
+  "de": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Eine Praxis über Marken testen",
+        "description": "Untersuchen Sie ein Muster bei einer Marke, identifizieren Sie, was übertragbar sein könnte, und geben Sie einem anderen Team einen definierten Test und Vergleichszeitraum."
+      },
+      {
+        "description": "Verwenden Sie Foresight, falls enthalten oder gewählt, um Portfolio-Prognosen und Szenarien zu vergleichen. Prüfen Sie Annahmen und Konfidenzbereiche vor einer Markt-, Konzept- oder Investitionsentscheidung."
+      }
+    ],
+    "outcomesDescription": "Vergleichbare Standortansichten, koordiniertes Follow-up und eine klarere Grundlage für Gruppenentscheidungen.",
+    "crewCallout": {
+      "description": "Nutzen Sie Crew, um Workforce-Aufzeichnungen und operative Arbeit über Standorte zu koordinieren. Definieren Sie Landesregeln, erforderliche Payroll-Ausgaben und Provider-Verbindungen mit Sundae; Berechnung und Export begründen keine Zahlung oder gesetzliche Einreichung.",
+      "title": "Personen und tägliche Arbeit standortübergreifend koordinieren."
+    },
+    "ctaDescription": "Bringen Sie eine Frage über Marken oder Regionen. Vergleichen Sie die Standorte, einigen Sie sich, wer antwortet, und definieren Sie, was die nächste Review messen soll.",
+    "outcomes": [
+      {
+        "title": "Die Gruppe konsistent vergleichen",
+        "description": "Prüfen Sie Quellenabdeckung und Kennzahldefinitionen, bevor Sie Marken vergleichen oder entscheiden, wo Ressourcen fokussiert werden."
+      },
+      {
+        "title": "Markenreviews spezifizieren",
+        "description": "Nutzen Sie interne und geeignete Peer-Vergleiche, um die operative Frage für jede Marke zu wählen."
+      },
+      {
+        "title": "Eine Praxis durch den Versuch verfolgen",
+        "description": "Dokumentieren Sie Ausgangspunkt, verantwortliches Team und Ergebnis, bevor Sie eine Änderung gruppenweit ausrollen."
+      },
+      {
+        "title": "Investitionsentscheidungen mit Kontext prüfen",
+        "description": "Berücksichtigen Sie Prognoseannahmen, Szenarien und operative Bedingungen bei Entscheidungen, wo investiert oder Expansion verlangsamt werden soll."
+      }
+    ],
+    "ctaTitle": "Welche Marke oder welcher Standort braucht die nächste Entscheidung?"
+  },
+  "nl": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Test een werkwijze over merken heen",
+        "description": "Onderzoek een patroon bij één merk, identificeer wat mogelijk overdraagbaar is en geef een ander team een gedefinieerde proef en vergelijkingsperiode."
+      },
+      {
+        "description": "Gebruik Foresight waar inbegrepen of geselecteerd om portfolio-prognoses en scenario's te vergelijken. Beoordeel aannames en betrouwbaarheidsbereiken voordat u een markt-, concept- of kapitaalbeslissing neemt."
+      }
+    ],
+    "outcomesDescription": "Vergelijkbare locatieweergaven, gecoördineerde opvolging en een duidelijkere basis voor groepsbesluiten.",
+    "crewCallout": {
+      "description": "Gebruik Crew om personeelsgegevens en operationeel werk over locaties te coördineren. Bepaal landregels, vereiste payroll-outputs en providerverbindingen met Sundae; berekening en export vestigen geen betaling of wettelijke indiening.",
+      "title": "Coördineer personeel en dagelijkse taken over locaties."
+    },
+    "ctaDescription": "Breng een vraag over merken of regio's. Vergelijk de locaties, kom overeen wie zal reageren en definieer wat de volgende review moet meten.",
+    "outcomes": [
+      {
+        "title": "Vergelijk de groep op een consistente basis",
+        "description": "Controleer brondekking en metricdefinities voordat u merken vergelijkt of beslist waar middelen op te richten."
+      },
+      {
+        "title": "Maak merkanalyses specifiek",
+        "description": "Gebruik interne en geschikte peervergelijkingen om de operationele vraag voor elk merk te kiezen."
+      },
+      {
+        "title": "Volg een praktijk tijdens de proef",
+        "description": "Leg het uitgangspunt, het verantwoordelijke team en het resultaat vast voordat u een wijziging over de groep uitbreidt."
+      },
+      {
+        "title": "Beoordeel kapitaalbeslissingen met context",
+        "description": "Houd rekening met prognoseaannames, scenario's en operationele omstandigheden bij het beslissen waar te investeren of groei te vertragen."
+      }
+    ],
+    "ctaTitle": "Welk merk of welke locatie heeft de volgende beslissing nodig?"
+  },
+  "pt": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Testar uma prática entre marcas",
+        "description": "Investigue um padrão em uma marca, identifique o que pode ser transferido e dê a outra equipe um teste definido e período de comparação."
+      },
+      {
+        "description": "Use Foresight quando incluído ou selecionado para comparar previsões e cenários de portfólio. Reveja premissas e faixas de confiança antes de tomar uma decisão de mercado, conceito ou capital."
+      }
+    ],
+    "outcomesDescription": "Visões comparáveis por local, acompanhamento coordenado e uma base mais clara para decisões de grupo.",
+    "crewCallout": {
+      "description": "Use Crew para coordenar registros de pessoal e trabalho operacional entre locais. Defina regras de país, saídas de folha necessárias e conexões com provedores com Sundae; cálculo e exportação não estabelecem pagamento ou envio legal.",
+      "title": "Coordenar pessoas e trabalho diário entre locais."
+    },
+    "ctaDescription": "Traga uma pergunta entre marcas ou regiões. Compare os locais, concorde quem vai responder e defina o que a próxima revisão deve medir.",
+    "outcomes": [
+      {
+        "title": "Comparar o grupo numa base consistente",
+        "description": "Verifique cobertura de fontes e definições de métricas antes de comparar marcas ou decidir onde focar recursos."
+      },
+      {
+        "title": "Tornar revisões de marca específicas",
+        "description": "Use comparações internas e pares adequados para escolher a questão operacional de cada marca."
+      },
+      {
+        "title": "Acompanhar uma prática durante o teste",
+        "description": "Registre o ponto de partida, a equipe responsável e o resultado antes de estender uma mudança pelo grupo."
+      },
+      {
+        "title": "Rever decisões de capital com contexto",
+        "description": "Considere premissas de previsão, cenários e condições operacionais ao decidir onde investir ou frear expansão."
+      }
+    ],
+    "ctaTitle": "Que marca ou local precisa da próxima decisão?"
+  },
+  "hi": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "ब्रांड्स में प्रैक्टिस का परीक्षण करें",
+        "description": "किसी ब्रांड में पैटर्न की जांच करें, क्या हस्तांतरित हो सकता है पहचानें और दूसरे टीम को परिभाषित परीक्षण और तुलना अवधि दें।"
+      },
+      {
+        "description": "Foresight का उपयोग जहाँ शामिल या चुना गया हो पोर्टफोलियो पूर्वानुमानों और परिदृश्यों की तुलना करने के लिए करें। मार्केट, कॉन्सेप्ट या पूंजी निर्णय लेने से पहले अनुमान और आत्मविश्वास सीमाओं की समीक्षा करें।"
+      }
+    ],
+    "outcomesDescription": "तुलनीय स्थान दृश्य, समन्वित फॉलो‑अप और समूह निर्णयों के लिए स्पष्ट आधार।",
+    "crewCallout": {
+      "description": "स्थान भर में वर्कफोर्स रिकॉर्ड और ऑपरेटिंग काम का समन्वय करने के लिए Crew का उपयोग करें। देश नियम, आवश्यक पेरोल आउटपुट और प्रदाता कनेक्शनों का स्कोप Sundae के साथ समायोजित करें; गणना और एक्सपोर्ट भुगतान या विधिक फाइलिंग स्थापित नहीं करते।",
+      "title": "स्थान भर में लोगों और दैनिक काम का समन्वय करें।"
+    },
+    "ctaDescription": "ब्रांड्स या क्षेत्रों में एक प्रश्न लाएँ। स्थानों की तुलना करें, तय करें कौन प्रतिक्रिया करेगा और अगली समीक्षा क्या मापेगी पर परिभाषा दें।",
+    "outcomes": [
+      {
+        "title": "सुसंगत आधार पर समूह की तुलना करें",
+        "description": "ब्रांड्स की तुलना करने या संसाधन केन्द्रित करने से पहले स्रोत कवरेज और मीट्रिक परिभाषाओं की जांच करें।"
+      },
+      {
+        "title": "ब्रांड समीक्षाओं को विशिष्ट बनाएं",
+        "description": "प्रत्येक ब्रांड के लिए ऑपरेटिंग प्रश्न चुनने हेतु अंदरूनी और उपयुक्त सहकर्मी तुलना का उपयोग करें।"
+      },
+      {
+        "title": "परीक्षण के माध्यम से प्रैक्टिस का पालन करें",
+        "description": "परिवर्तन को समूह तक बढ़ाने से पहले शुरुआती बिंदु, जिम्मेदार टीम और परिणाम रिकॉर्ड करें।"
+      },
+      {
+        "title": "संदर्भ के साथ पूंजी निर्णयों की समीक्षा करें",
+        "description": "निवेश या विस्तार धीमा करने का निर्णय करते समय पूर्वानुमान अनुमानों, परिदृश्य और ऑपरेटिंग स्थितियों पर विचार करें।"
+      }
+    ],
+    "ctaTitle": "किस ब्रांड या स्थान को अगला निर्णय चाहिए?"
+  },
+  "ur": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "برانڈز میں پریکٹس کا ٹیسٹ کریں",
+        "description": "ایک برانڈ پر پیٹرن کی تحقیقات کریں، جو منتقل ہو سکتا ہے اسے شناخت کریں اور دوسرے ٹیم کو ایک معین ٹرائل اور موازنہ مدت دیں۔"
+      },
+      {
+        "description": "Foresight استعمال کریں جہاں شامل یا منتخب ہو کر پورٹ فولیو پیشن گوئیاں اور منظرنامے موازنہ کریں۔ مارکیٹ، تصور یا سرمایہ کے فیصلے سے پہلے مفروضات اور اعتماد کی حدود کا جائزہ لیں۔"
+      }
+    ],
+    "outcomesDescription": "قابل موازنہ مقام کے نظارے، مربوط فالو اپ اور گروپ فیصلوں کے لیے واضح بنیاد۔",
+    "crewCallout": {
+      "description": "Crew استعمال کریں تاکہ مقامات کے درمیان ورک فورس ریکارڈز اور آپریٹنگ کام کو ہم آہنگ کریں۔ ملک کے قوانین، درکار پے رول آؤٹ پٹس اور پرووائیڈر کنکشنز کو Sundae کے ساتھ اسکوپ کریں؛ کیلکولیشن اور ایکسپورٹ ادائیگی یا قانونی فائلنگ قائم نہیں کرتے۔",
+      "title": "مقامات کے درمیان لوگوں اور روزمرہ کام کو مربوط کریں۔"
+    },
+    "ctaDescription": "برانڈز یا علاقوں کے پار ایک سوال لائیں۔ مقامات کا موازنہ کریں، طے کریں کون جواب دے گا اور اگلے جائزے میں کیا ناپا جانا چاہیے۔",
+    "outcomes": [
+      {
+        "title": "گروپ کا مستقل بنیاد پر موازنہ کریں",
+        "description": "برانڈز کا موازنہ کرنے یا وسائل پر توجہ دینے سے پہلے سورس کوریج اور میٹرک تعریفیں چیک کریں۔"
+      },
+      {
+        "title": "برانڈ جائزوں کو مخصوص بنائیں",
+        "description": "ہر برانڈ کے لیے آپریٹنگ سوال منتخب کرنے کے لیے اندرونی اور مناسب پیئر موازنہ استعمال کریں۔"
+      },
+      {
+        "title": "ٹرائل کے دوران پریکٹس کی پیروی کریں",
+        "description": "تبدیلی کو گروپ میں پھیلانے سے پہلے ابتدا، ذمہ دار ٹیم اور نتیجہ ریکارڈ کریں۔"
+      },
+      {
+        "title": "سرمایہ کاری کے فیصلوں کا سیاق و سباق کے ساتھ جائزہ لیں",
+        "description": "کہاں سرمایہ لگانا یا توسیع سست کرنا ہے یہ فیصلہ کرتے وقت پیشن گوئی مفروضات، منظرنامے اور آپریٹنگ حالات کو مدنظر رکھیں۔"
+      }
+    ],
+    "ctaTitle": "کون سا برانڈ یا مقام اگلے فیصلے کا محتاج ہے؟"
+  },
+  "it": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Testare una pratica tra brand",
+        "description": "Indaga un pattern in un brand, identifica cosa può trasferirsi e assegna a un altro team una prova definita e il periodo di confronto."
+      },
+      {
+        "description": "Usa Foresight dove incluso o selezionato per confrontare previsioni e scenari di portafoglio. Rivedi ipotesi e intervalli di confidenza prima di decidere su mercato, concept o capitale."
+      }
+    ],
+    "outcomesDescription": "Viste comparabili per sede, follow-up coordinato e una base più chiara per decisioni di gruppo.",
+    "crewCallout": {
+      "description": "Usa Crew per coordinare record workforce e lavoro operativo tra sedi. Definisci le regole del Paese, gli output payroll richiesti e le connessioni provider con Sundae; il calcolo e l’esportazione non costituiscono pagamento o invio fiscale.",
+      "title": "Coordinare persone e lavoro quotidiano tra sedi."
+    },
+    "ctaDescription": "Porta una domanda tra brand o regioni. Confronta le sedi, concorda chi risponderà e definisci cosa la prossima revisione dovrebbe misurare.",
+    "outcomes": [
+      {
+        "title": "Confrontare il gruppo su base coerente",
+        "description": "Controlla copertura delle fonti e definizioni delle metriche prima di confrontare brand o decidere dove concentrare risorse."
+      },
+      {
+        "title": "Rendere specifiche le revisioni di brand",
+        "description": "Usa confronti interni e peer adatti per scegliere la domanda operativa per ogni brand."
+      },
+      {
+        "title": "Seguire una pratica durante la prova",
+        "description": "Registra il punto di partenza, il team responsabile e il risultato prima di estendere un cambiamento al gruppo."
+      },
+      {
+        "title": "Rivedere decisioni di capitale con contesto",
+        "description": "Considera ipotesi di previsione, scenari e condizioni operative quando decidi dove investire o rallentare l’espansione."
+      }
+    ],
+    "ctaTitle": "Quale brand o sede necessita della prossima decisione?"
+  },
+  "pl": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Przetestuj praktykę między markami",
+        "description": "Zbadaj wzorzec w jednej marce, określ, co może się przenieść i nadaj innej drużynie zdefiniowaną próbę i okres porównania."
+      },
+      {
+        "description": "Skorzystaj z Foresight tam, gdzie jest w pakiecie lub wybrane, aby porównać prognozy i scenariusze portfela. Przejrzyj założenia i zakresy ufności przed podjęciem decyzji rynkowej, konceptualnej lub kapitałowej."
+      }
+    ],
+    "outcomesDescription": "Porównywalne widoki lokalizacji, skoordynowane działania następcze i jaśniejsza podstawa dla decyzji grupowych.",
+    "crewCallout": {
+      "description": "Użyj Crew do koordynacji zapisów zatrudnienia i codziennej pracy między lokalizacjami. Określ zasady krajowe, wymagane wyjścia płacowe i połączenia dostawców z Sundae; kalkulacja i eksport nie ustanawiają płatności ani zgłoszeń statutowych.",
+      "title": "Koordynuj osoby i pracę codzienną między lokalizacjami."
+    },
+    "ctaDescription": "Przynieś pytanie między markami lub regionami. Porównaj lokalizacje, uzgodnij, kto odpowie i określ, co powinien mierzyć następny przegląd.",
+    "outcomes": [
+      {
+        "title": "Porównaj grupę na spójnej podstawie",
+        "description": "Sprawdź zakres źródeł i definicje metryk przed porównaniem marek lub decyzją, gdzie skoncentrować zasoby."
+      },
+      {
+        "title": "Uczyń przeglądy marek konkretnymi",
+        "description": "Użyj wewnętrznych i odpowiednich porównań rówieśniczych, aby wybrać pytanie operacyjne dla każdej marki."
+      },
+      {
+        "title": "Śledź praktykę przez próbę",
+        "description": "Zarejestruj punkt wyjścia, odpowiedzialny zespół i wynik przed rozszerzeniem zmiany na całą grupę."
+      },
+      {
+        "title": "Przeglądaj decyzje kapitałowe z kontekstem",
+        "description": "Weź pod uwagę założenia prognoz, scenariusze i warunki operacyjne przy decydowaniu, gdzie inwestować lub spowolnić ekspansję."
+      }
+    ],
+    "ctaTitle": "Która marka lub lokalizacja potrzebuje następnej decyzji?"
+  },
+  "tr": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Markalar arasında bir uygulamayı test edin",
+        "description": "Bir markadaki deseni araştırın, neyin aktarılabileceğini belirleyin ve başka bir ekip için tanımlı bir deneme ve karşılaştırma dönemi verin."
+      },
+      {
+        "description": "Dahilse veya seçildiyse Foresight’i kullanarak portföy tahminlerini ve senaryolarını karşılaştırın. Pazar, konsept veya sermaye kararı vermeden önce varsayımları ve güven aralıklarını gözden geçirin."
+      }
+    ],
+    "outcomesDescription": "Karşılaştırılabilir konum görünümleri, koordine takip ve grup kararları için daha net bir temel.",
+    "crewCallout": {
+      "description": "Crew ile konumlar arasında işgücü kayıtlarını ve işletme işlerini koordine edin. Ülke kurallarını, gerekli bordro çıktıları ve sağlayıcı bağlantılarını Sundae ile kapsamlandırın; hesaplama ve dışa aktarma ödeme veya yasal dosyalama oluşturmaz.",
+      "title": "Konumlar arasında insanları ve günlük işi koordine edin."
+    },
+    "ctaDescription": "Markalar veya bölgeler arası bir soru getirin. Konumları karşılaştırın, kimin yanıt vereceğini kararlaştırın ve bir sonraki incelemenin neyi ölçeceğini tanımlayın.",
+    "outcomes": [
+      {
+        "title": "Grubu tutarlı bir temelde karşılaştırın",
+        "description": "Markaları karşılaştırmadan veya kaynakları nereye odaklayacağınıza karar vermeden önce kaynak kapsamını ve metrik tanımlarını kontrol edin."
+      },
+      {
+        "title": "Marka incelemelerini spesifik hale getirin",
+        "description": "Her marka için işletme sorusunu seçmek üzere dahili ve uygun akran karşılaştırmaları kullanın."
+      },
+      {
+        "title": "Uygulamayı deneme sürecinde izleyin",
+        "description": "Bir değişikliği gruba yaymadan önce başlangıç noktasını, sorumlu ekibi ve sonucu kaydedin."
+      },
+      {
+        "title": "Sermaye kararlarını bağlamla gözden geçirin",
+        "description": "Nereye yatırım yapılacağına veya genişlemeyi yavaşlatacağınıza karar verirken tahmin varsayımlarını, senaryoları ve işletme koşullarını dikkate alın."
+      }
+    ],
+    "ctaTitle": "Hangi marka veya konum bir sonraki kararı gerektiriyor?"
+  },
+  "zh-Hans": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "在品牌间测试做法",
+        "description": "调查某品牌的模式，识别可迁移的要点并给另一个团队一个定义明确的试验与比较期。"
+      },
+      {
+        "description": "在包含或选择时使用 Foresight 比较组合预测和情景。做出市场、概念或资本决策前审查假设与置信区间。"
+      }
+    ],
+    "outcomesDescription": "可比的门店视图、协调的跟进和更清晰的集团决策依据。",
+    "crewCallout": {
+      "description": "使用 Crew 在门店间协调人员记录和日常工作。与 Sundae 确定国家规则、所需工资输出和供应商连接；计算与导出不等同于支付或法定申报。",
+      "title": "在门店间协调人员与日常工作。"
+    },
+    "ctaDescription": "带来跨品牌或区域的问题。比较门店、达成响应人并定义下一次审查应测量的内容。",
+    "outcomes": [
+      {
+        "title": "以一致方式比较集团",
+        "description": "在比较品牌或决定重点前检查数据覆盖与指标定义。"
+      },
+      {
+        "title": "使品牌审查具体化",
+        "description": "使用内部与合适的同辈比较来选择每个品牌的运营问题。"
+      },
+      {
+        "title": "在试验中跟踪做法",
+        "description": "记录起始点、负责团队与结果，在将变更推广至集团前进行比较。"
+      },
+      {
+        "title": "在背景中审查资本决策",
+        "description": "在决定投资或放缓扩张时，考虑预测假设、情景与运营条件。"
+      }
+    ],
+    "ctaTitle": "哪个品牌或门店需要下一次决策？"
+  },
+  "ja": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "ブランド横断でプラクティスを検証する",
+        "description": "あるブランドで見られたパターンを調査し、移転可能な要素を特定して別のチームに定義された試行と比較期間を与える。"
+      },
+      {
+        "description": "含まれるか選択された場合はForesightを使ってポートフォリオの予測とシナリオを比較する。市場、コンセプト、資本判断を行う前に前提と信頼区間を見直す。"
+      }
+    ],
+    "outcomesDescription": "比較可能なロケーションビュー、連携したフォローアップ、グループ判断のための明確な土台。",
+    "crewCallout": {
+      "description": "Crewを使ってロケーション間のワークフォース記録と日常業務を調整する。国別ルール、必要な給与出力、プロバイダ接続はSundaeと範囲を決めること。計算とエクスポートは支払いや法定申告を確立するものではない。",
+      "title": "ロケーション間で人と日常業務を調整する。"
+    },
+    "ctaDescription": "ブランドや地域横断の質問を持ってきてください。ロケーションを比較し、誰が対応するかを合意し、次のレビューで何を測るかを定義する。",
+    "outcomes": [
+      {
+        "title": "一貫した基準でグループを比較する",
+        "description": "ブランドを比較したり資源集中先を決める前にソースカバレッジと指標定義を確認する。"
+      },
+      {
+        "title": "ブランドレビューを具体化する",
+        "description": "内部比較と適切なピア比較を使って各ブランドの稼働質問を選ぶ。"
+      },
+      {
+        "title": "試行を通じてプラクティスを追跡する",
+        "description": "変更をグループに拡張する前に起点、担当チーム、結果を記録する。"
+      },
+      {
+        "title": "文脈を踏まえて投資判断をレビューする",
+        "description": "投資先や拡張を遅らせるかを決める際に予測前提、シナリオ、稼働条件を考慮する。"
+      }
+    ],
+    "ctaTitle": "次の判断が必要なブランドやロケーションはどれか？"
+  },
+  "ko": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "브랜드 간 관행 시험",
+        "description": "한 브랜드에서의 패턴을 조사하고 전수 가능한 요소를 식별한 뒤 다른 팀에 정의된 시험과 비교 기간을 부여하세요."
+      },
+      {
+        "description": "포함되었거나 선택된 경우 Foresight를 사용해 포트폴리오 예측과 시나리오를 비교하세요. 시장, 콘셉트 또는 자본 결정을 내리기 전에 가정과 신뢰범위를 검토하세요."
+      }
+    ],
+    "outcomesDescription": "비교 가능한 지점 뷰, 조정된 후속 조치 및 그룹 결정의 더 명확한 근거.",
+    "crewCallout": {
+      "description": "Crew를 사용해 지점 간 인력 기록과 일상 작업을 조정하세요. 급여와 관련한 국가 규정, 필요한 출력물 및 공급자 연결을 Sundae와 함께 범위화하세요; 계산 및 내보내기가 지급이나 법정 제출을 성립하지 않습니다.",
+      "title": "지점 간 인력과 일상 업무 조정."
+    },
+    "ctaDescription": "브랜드나 지역 전반의 질문을 가져오세요. 지점을 비교하고 누가 대응할지 합의하며 다음 검토가 무엇을 측정할지 정의하세요.",
+    "outcomes": [
+      {
+        "title": "일관된 기준으로 그룹 비교",
+        "description": "브랜드를 비교하거나 자원 집중 지점을 결정하기 전에 소스 적용 범위와 지표 정의를 확인하세요."
+      },
+      {
+        "title": "브랜드 리뷰 구체화",
+        "description": "내부 및 적절한 동료 비교를 사용해 각 브랜드의 운영 질문을 선택하세요."
+      },
+      {
+        "title": "시험을 통한 관행 추적",
+        "description": "변경을 그룹에 확장하기 전에 시작점, 책임 팀 및 결과를 기록하세요."
+      },
+      {
+        "title": "맥락과 함께 자본 결정 검토",
+        "description": "투자하거나 확장을 늦출 위치를 결정할 때 예측 가정, 시나리오 및 운영 조건을 고려하세요."
+      }
+    ],
+    "ctaTitle": "어떤 브랜드나 지점이 다음 결정을 필요로 합니까?"
+  },
+  "id": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Uji praktik lintas merek",
+        "description": "Selidiki pola di satu merek, identifikasi apa yang dapat ditransfer dan berikan tim lain uji coba yang terdefinisi dan periode perbandingan."
+      },
+      {
+        "description": "Gunakan Foresight bila termasuk atau dipilih untuk membandingkan prakiraan dan skenario portofolio. Tinjau asumsi dan rentang keyakinan sebelum membuat keputusan pasar, konsep atau modal."
+      }
+    ],
+    "outcomesDescription": "Tampilan lokasi yang dapat dibandingkan, tindak lanjut terkoordinasi dan dasar yang lebih jelas untuk keputusan grup.",
+    "crewCallout": {
+      "description": "Gunakan Crew untuk mengoordinasikan catatan tenaga kerja dan pekerjaan operasional lintas lokasi. Tetapkan aturan negara, keluaran penggajian yang dibutuhkan dan koneksi penyedia dengan Sundae; perhitungan dan ekspor tidak menetapkan pembayaran atau pelaporan statutori.",
+      "title": "Koordinasikan orang dan pekerjaan harian lintas lokasi."
+    },
+    "ctaDescription": "Bawa pertanyaan lintas merek atau wilayah. Bandingkan lokasi, sepakati siapa yang akan merespons dan definisikan apa yang harus diukur tinjauan berikutnya.",
+    "outcomes": [
+      {
+        "title": "Bandingkan grup secara konsisten",
+        "description": "Periksa cakupan sumber dan definisi metrik sebelum membandingkan merek atau memutuskan fokus sumber daya."
+      },
+      {
+        "title": "Jadikan tinjauan merek spesifik",
+        "description": "Gunakan perbandingan internal dan rekan yang sesuai untuk memilih pertanyaan operasional bagi setiap merek."
+      },
+      {
+        "title": "Ikuti praktik selama uji coba",
+        "description": "Rekam titik awal, tim yang bertanggung jawab dan hasil sebelum memperluas perubahan ke seluruh grup."
+      },
+      {
+        "title": "Tinjau keputusan modal dengan konteks",
+        "description": "Pertimbangkan asumsi prakiraan, skenario dan kondisi operasional saat memutuskan di mana berinvestasi atau memperlambat ekspansi."
+      }
+    ],
+    "ctaTitle": "Merek atau lokasi mana yang membutuhkan keputusan berikutnya?"
+  },
+  "vi": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Thử một thực hành giữa các thương hiệu",
+        "description": "Điều tra một mẫu ở một thương hiệu, xác định điều có thể chuyển giao và giao cho đội khác một thử nghiệm định nghĩa cùng kỳ so sánh."
+      },
+      {
+        "description": "Sử dụng Foresight khi được bao gồm hoặc lựa chọn để so sánh dự báo và kịch bản danh mục. Xem lại giả định và khoảng tin cậy trước khi đưa ra quyết định thị trường, khái niệm hoặc vốn."
+      }
+    ],
+    "outcomesDescription": "Các nhìn theo địa điểm có thể so sánh, theo dõi hành động phối hợp và cơ sở rõ ràng hơn cho quyết định nhóm.",
+    "crewCallout": {
+      "description": "Dùng Crew để phối hợp hồ sơ nhân sự và công việc vận hành giữa các địa điểm. Xác định quy tắc quốc gia, các đầu ra bảng lương cần thiết và kết nối nhà cung cấp với Sundae; việc tính toán và xuất không thiết lập việc chi trả hay khai báo bắt buộc.",
+      "title": "Phối hợp con người và công việc hàng ngày giữa các địa điểm."
+    },
+    "ctaDescription": "Mang một câu hỏi giữa các thương hiệu hoặc vùng. So sánh các địa điểm, thống nhất ai sẽ phản hồi và định nghĩa những gì cuộc đánh giá tiếp theo nên đo.",
+    "outcomes": [
+      {
+        "title": "So sánh nhóm trên cơ sở nhất quán",
+        "description": "Kiểm tra phạm vi nguồn và định nghĩa chỉ số trước khi so sánh thương hiệu hoặc quyết định tập trung nguồn lực."
+      },
+      {
+        "title": "Làm cho đánh giá thương hiệu cụ thể",
+        "description": "Dùng so sánh nội bộ và đồng cấp phù hợp để chọn câu hỏi vận hành cho từng thương hiệu."
+      },
+      {
+        "title": "Theo dõi thực hành qua thử nghiệm",
+        "description": "Ghi lại điểm khởi đầu, đội chịu trách nhiệm và kết quả trước khi mở rộng thay đổi trên toàn nhóm."
+      },
+      {
+        "title": "Xem xét quyết định vốn với bối cảnh",
+        "description": "Cân nhắc giả định dự báo, kịch bản và điều kiện vận hành khi quyết định nơi đầu tư hoặc chậm mở rộng."
+      }
+    ],
+    "ctaTitle": "Thương hiệu hoặc địa điểm nào cần quyết định tiếp theo?"
+  },
+  "ro": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Testați o practică între mărci",
+        "description": "Investigați un tipar la o marcă, identificați ce se poate transfera și oferiți unei alte echipe un test definit și o perioadă de comparație."
+      },
+      {
+        "description": "Folosiți Foresight când este inclus sau selectat pentru a compara prognozele și scenariile portofoliului. Revizuiți ipotezele și intervalele de încredere înainte de a lua o decizie de piață, concept sau capital."
+      }
+    ],
+    "outcomesDescription": "Vederi comparabile pe locații, urmărire coordonată și o bază mai clară pentru deciziile de grup.",
+    "crewCallout": {
+      "description": "Folosiți Crew pentru a coordona registrele de personal și munca operațională între locații. Stabiliți regulile țării, outputurile salariale necesare și conexiunile cu furnizorii împreună cu Sundae; calculul și exportul nu stabilesc plata sau depunerea statutară.",
+      "title": "Coordonați oamenii și munca zilnică între locații."
+    },
+    "ctaDescription": "Aduceți o întrebare între mărci sau regiuni. Comparați locațiile, stabiliți cine va răspunde și definiți ce ar trebui măsurat la următoarea revizuire.",
+    "outcomes": [
+      {
+        "title": "Comparați grupul pe o bază consistentă",
+        "description": "Verificați acoperirea surselor și definițiile metricilor înainte de a compara mărci sau a decide unde să concentrați resursele."
+      },
+      {
+        "title": "Faceți recenziile de marcă specifice",
+        "description": "Folosiți comparații interne și între colegi potriviți pentru a alege întrebarea operațională pentru fiecare marcă."
+      },
+      {
+        "title": "Urmăriți o practică pe durata testului",
+        "description": "Înregistrați punctul de plecare, echipa responsabilă și rezultatul înainte de a extinde o schimbare în întregul grup."
+      },
+      {
+        "title": "Revizuiți deciziile de capital cu context",
+        "description": "Luați în considerare ipotezele prognozei, scenariile și condițiile operaționale când decideți unde să investiți sau să încetiniți extinderea."
+      }
+    ],
+    "ctaTitle": "Ce marcă sau locație are nevoie de următoarea decizie?"
+  },
+  "sv": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Testa en praxis över varumärken",
+        "description": "Undersök ett mönster på ett varumärke, identifiera vad som kan överföras och ge ett annat team en definierad försöks- och jämförelseperiod."
+      },
+      {
+        "description": "Använd Foresight där det ingår eller väljs för att jämföra portföljprognoser och scenarier. Granska antaganden och konfidensintervall innan ni fattar marknads-, koncept- eller kapitalbeslut."
+      }
+    ],
+    "outcomesDescription": "Jämförbara platsvyer, koordinerad uppföljning och en tydligare grund för koncernbeslut.",
+    "crewCallout": {
+      "description": "Använd Crew för att koordinera workforce-poster och driftarbete över platser. Avgränsa landsregler, nödvändiga löneutdata och leverantörskopplingar med Sundae; beräkning och export etablerar inte betalning eller statlig inlämning.",
+      "title": "Samordna personal och dagligt arbete över platser."
+    },
+    "ctaDescription": "Ta med en fråga över varumärken eller regioner. Jämför platserna, kom överens om vem som svarar och definiera vad nästa granskning ska mäta.",
+    "outcomes": [
+      {
+        "title": "Jämför koncernen på ett konsekvent sätt",
+        "description": "Kontrollera källtäckning och metrikdefinitioner innan du jämför varumärken eller bestämmer var fokus ska ligga."
+      },
+      {
+        "title": "Gör varumärkesgranskningar specifika",
+        "description": "Använd interna och lämpliga kollegjämförelser för att välja driftfrågan för varje varumärke."
+      },
+      {
+        "title": "Följ en praxis genom försöket",
+        "description": "Dokumentera startpunkt, ansvarigt team och resultat innan du utvidgar en förändring över koncernen."
+      },
+      {
+        "title": "Granska kapitalbeslut med kontext",
+        "description": "Beakta prognosantaganden, scenarier och driftförhållanden när ni beslutar var ni ska investera eller bromsa expansion."
+      }
+    ],
+    "ctaTitle": "Vilket varumärke eller vilken plats behöver nästa beslut?"
+  },
+  "bn": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "ব্র্যান্ড জুড়ে একটি অনুশীলন পরীক্ষা করুন",
+        "description": "একটি ব্র্যান্ডে দেখা একটি প্যাটার্ন তদন্ত করুন, কী ট্রান্সফারযোগ্য তা চিহ্নিত করুন এবং অন্য টিমকে একটি সংজ্ঞায়িত ট্রায়াল ও তুলনা সময় দিন।"
+      },
+      {
+        "description": "Foresight অন্তর্ভুক্ত বা নির্বাচিত থাকলে পোর্টফোলিও পূর্বাভাস ও সিনারিও তুলনা করতে তা ব্যবহার করুন। বাজার, ধারণা বা পুঁজি সিদ্ধান্ত নেওয়ার আগে অনুমান ও নিশ্চিততার রেঞ্জ পর্যালোচনা করুন।"
+      }
+    ],
+    "outcomesDescription": "তুলনাযোগ্য লোকেশন ভিউ, সমন্বিত ফলো-আপ এবং গ্রুপ সিদ্ধান্তগুলোর জন্য একটি পরিষ্কার ভিত্তি।",
+    "crewCallout": {
+      "description": "লোকেশন জুড়ে কর্মী রেকর্ড ও অপারেটিং কাজ সমন্বয় করতে Crew ব্যবহার করুন। দেশের নিয়ম, প্রয়োজনীয় পে-রোল আউটপুট এবং প্রোভাইডার সংযোগগুলো Sundae-র সঙ্গে স্কোপ করুন; গণনা ও এক্সপোর্ট পেমেন্ট বা স্ট্যাটিউটরি ফাইলিং প্রতিষ্ঠা করে না।",
+      "title": "লোকেশন জুড়ে মানুষ এবং দৈনিক কাজ সমন্বয় করুন।"
+    },
+    "ctaDescription": "ব্র্যান্ড বা অঞ্চলের জুড়ে একটি প্রশ্ন আনুন। লোকেশনগুলো তুলনা করুন, কে প্রতিক্রিয়া দেবে তা নির্ধারণ করুন এবং পরবর্তী রিভিউ কী মাপবে তা সংজ্ঞায়িত করুন।",
+    "outcomes": [
+      {
+        "title": "গ্রুপকে কনসিস্টেন্ট ভিত্তিতে তুলনা করুন",
+        "description": "ব্র্যান্ড তুলনা বা সংস্থান ফোকাস করার আগে সোর্স কভারেজ ও মেট্রিক সংজ্ঞা পরীক্ষা করুন।"
+      },
+      {
+        "title": "ব্র্যান্ড রিভিউগুলো নির্দিষ্ট করুন",
+        "description": "প্রতিটি ব্র্যান্ডের জন্য অপারেটিং প্রশ্ন নির্বাচন করতে অভ্যন্তরীণ ও উপযুক্ত পিয়ার তুলনা ব্যবহার করুন।"
+      },
+      {
+        "title": "ট্রায়ালে একটি অনুশীলন অনুসরণ করুন",
+        "description": "একটি পরিবর্তন পুরো গ্রুপে বাড়ানোর আগে আরম্ভিক পয়েন্ট, দায়িত্বশীল টিম এবং ফলাফল রেকর্ড করুন।"
+      },
+      {
+        "title": "পুঁজি সিদ্ধান্তগুলি কনটেক্সট নিয়ে রিভিউ করুন",
+        "description": "কোন স্থানে বিনিয়োগ বা সম্প্রসারণ ধীর করার সিদ্ধান্ত নেওয়ার সময় পূর্বাভাস অনুমান, সিনারিও এবং অপারেটিং শর্ত বিবেচনা করুন।"
+      }
+    ],
+    "ctaTitle": "কোন ব্র্যান্ড বা লোকেশনকে পরবর্তী সিদ্ধান্ত দরকার?"
+  },
+  "th": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "ทดสอบแนวปฏิบัติข้ามแบรนด์",
+        "description": "ตรวจสอบรูปแบบที่แบรนด์หนึ่งพบ ระบุสิ่งที่อาจถ่ายโอน และให้ทีมอื่นการทดลองที่มีระยะเวลาและการเปรียบเทียบที่กำหนด"
+      },
+      {
+        "description": "ใช้ Foresight เมื่อรวมไว้หรือเลือกใช้งานเพื่อเปรียบเทียบทำนายพอร์ตโฟลิโอและสถานการณ์ ทบทวนสมมติฐานและช่วงความเชื่อมั่นก่อนการตัดสินใจด้านตลาด แนวคิด หรือทุน"
+      }
+    ],
+    "outcomesDescription": "มุมมองสาขาที่เปรียบเทียบได้ การติดตามผลที่ประสานกัน และพื้นฐานชัดเจนขึ้นสำหรับการตัดสินใจของกลุ่ม",
+    "crewCallout": {
+      "description": "ใช้ Crew เพื่อประสานบันทึกแรงงานและงานปฏิบัติงานประจำข้ามสาขา กำหนดขอบเขตกฎประเทศ ผลลัพธ์เงินเดือนที่ต้องการ และการเชื่อมต่อผู้ให้บริการกับ Sundae; การคำนวณและการส่งออกไม่ก่อให้เกิดการจ่ายหรือการยื่นตามกฎหมาย",
+      "title": "ประสานคนและงานประจำข้ามสาขา"
+    },
+    "ctaDescription": "นำคำถามข้ามแบรนด์หรือภูมิภาคมา เปรียบเทียบสาขา ตกลงว่าใครจะตอบ และกำหนดสิ่งที่การทบทวนครั้งถัดไปควรวัด",
+    "outcomes": [
+      {
+        "title": "เปรียบเทียบกลุ่มบนพื้นฐานเดียวกัน",
+        "description": "ตรวจสอบความครอบคลุมของแหล่งและคำนิยามเมตริกก่อนเปรียบเทียบแบรนด์หรือเลือกจุดเน้นทรัพยากร"
+      },
+      {
+        "title": "ทำให้การทบทวนแบรนด์เฉพาะเจาะจง",
+        "description": "ใช้การเปรียบเทียบภายในและเพื่อนร่วมกลุ่มที่เหมาะสมเพื่อเลือกคำถามการปฏิบัติงานสำหรับแต่ละแบรนด์"
+      },
+      {
+        "title": "ติดตามแนวปฏิบัติผ่านการทดลอง",
+        "description": "บันทึกจุดเริ่มต้น ทีมรับผิดชอบ และผลก่อนขยายการเปลี่ยนแปลงทั่วกลุ่ม"
+      },
+      {
+        "title": "ทบทวนการตัดสินใจด้านทุนด้วยบริบท",
+        "description": "พิจารณาสมมติฐานการพยากรณ์ สถานการณ์ และสภาพการปฏิบัติงานเมื่อตัดสินใจว่าจะลงทุนหรือชะลอการขยาย"
+      }
+    ],
+    "ctaTitle": "แบรนด์หรือสาขาใดต้องการการตัดสินใจครั้งต่อไป?"
+  },
+  "ms": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Uji amalan merentas jenama",
+        "description": "Siasat corak pada satu jenama, kenal pasti apa yang boleh dipindah dan berikan pasukan lain percubaan dan tempoh perbandingan yang ditakrifkan."
+      },
+      {
+        "description": "Gunakan Foresight jika termasuk atau dipilih untuk membandingkan ramalan dan senario portfolio. Semak andaian dan julat keyakinan sebelum membuat keputusan pasaran, konsep atau modal."
+      }
+    ],
+    "outcomesDescription": "Pandangan lokasi yang boleh dibandingkan, susulan berkoordinasi dan asas yang lebih jelas untuk keputusan kumpulan.",
+    "crewCallout": {
+      "description": "Gunakan Crew untuk menyelaraskan rekod tenaga kerja dan kerja operasi merentas lokasi. Skopkan peraturan negara, output payroll yang diperlukan dan sambungan penyedia dengan Sundae; pengiraan dan eksport tidak menetapkan pembayaran atau pemfailan kehakiman.",
+      "title": "Selaras orang dan kerja harian merentas lokasi."
+    },
+    "ctaDescription": "Bawa soalan merentas jenama atau rantau. Bandingkan lokasi, setujui siapa yang akan bertindak dan takrif apa yang ulasan seterusnya patut ukur.",
+    "outcomes": [
+      {
+        "title": "Bandingkan kumpulan atas asas yang konsisten",
+        "description": "Periksa liputan sumber dan definisi metrik sebelum membandingkan jenama atau memutuskan di mana memberi tumpuan sumber."
+      },
+      {
+        "title": "Jadikan ulasan jenama khusus",
+        "description": "Gunakan perbandingan dalaman dan rakan sebaya yang sesuai untuk memilih soalan operasi bagi setiap jenama."
+      },
+      {
+        "title": "Ikuti amalan melalui percubaan",
+        "description": "Rekod titik permulaan, pasukan bertanggungjawab dan hasil sebelum meluaskan perubahan merentas kumpulan."
+      },
+      {
+        "title": "Semak keputusan modal dengan konteks",
+        "description": "Pertimbangkan andaian ramalan, senario dan keadaan operasi apabila memutuskan di mana untuk melabur atau memperlahankan pengembangan."
+      }
+    ],
+    "ctaTitle": "Jenama atau lokasi mana memerlukan keputusan seterusnya?"
+  }
+}

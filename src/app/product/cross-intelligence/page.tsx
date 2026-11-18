@@ -1,20 +1,22 @@
 'use client';
 
+import buyerFeatureCopy from '@/content/buyer-feature-details/cross.json';
+
 import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
 
 import { Fragment } from "react";
 
 import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { MockupFrame, MockupKPI, MockupTable, MockupAlert } from "@/components/ui/MockupFrame";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { CoreCoverageNote } from '@/components/seo/CoreCoverageNote';
+import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { crossIntelligenceCreamCopy } from "../crossIntelligenceCreamCopy";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_cross_intelligence_page'
 import { SectionConviction } from '@/components/home/sections/SectionConviction'
 import { crossIntelligenceConviction } from '@/components/home/sections/routeConvictionCopy'
@@ -944,69 +946,6 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
   ],
 };
 
-const localizedTierComparison: Record<'en' | 'ar' | 'fr' | 'es', { feature: string; base: boolean; pro: boolean }[]> = {
-  en: [
-    { feature: "Marketing Impact Timeline (30-day)", base: true, pro: true },
-    { feature: "Cause & Effect Cards", base: true, pro: true },
-    { feature: "What Changed weekly digest", base: true, pro: true },
-    { feature: "Basic correlation alerts", base: true, pro: true },
-    { feature: "Full Correlation Matrix", base: false, pro: true },
-    { feature: "Revenue Attribution Waterfall", base: false, pro: true },
-    { feature: "Spend Efficiency Radar", base: false, pro: true },
-    { feature: "Campaign Pulse Monitor", base: false, pro: true },
-    { feature: "Cannibalization Detector", base: false, pro: true },
-    { feature: "Unlimited timeline lookback", base: false, pro: true },
-    { feature: "Custom alert rules & thresholds", base: false, pro: true },
-    { feature: "API access for correlation data", base: false, pro: true },
-    { feature: "Priority processing", base: false, pro: true },
-  ],
-  ar: [
-    { feature: "الجدول الزمني لأثر التسويق (30 يوماً)", base: true, pro: true },
-    { feature: "بطاقات السبب والنتيجة", base: true, pro: true },
-    { feature: "ملخص أسبوعي لما تغيّر", base: true, pro: true },
-    { feature: "تنبيهات ارتباط أساسية", base: true, pro: true },
-    { feature: "مصفوفة ارتباط كاملة", base: false, pro: true },
-    { feature: "شلال إسناد الإيرادات", base: false, pro: true },
-    { feature: "رادار كفاءة الإنفاق", base: false, pro: true },
-    { feature: "مراقب نبض الحملة", base: false, pro: true },
-    { feature: "كاشف الاستهلاك المتبادل", base: false, pro: true },
-    { feature: "عودة غير محدودة للخلف زمنياً", base: false, pro: true },
-    { feature: "قواعد وحدود تنبيه مخصصة", base: false, pro: true },
-    { feature: "وصول API لبيانات الارتباط", base: false, pro: true },
-    { feature: "معالجة ذات أولوية", base: false, pro: true },
-  ],
-  fr: [
-    { feature: "Chronologie d'impact marketing (30 jours)", base: true, pro: true },
-    { feature: "Cartes cause-effet", base: true, pro: true },
-    { feature: "Digest hebdomadaire What Changed", base: true, pro: true },
-    { feature: "Alertes de corrélation basiques", base: true, pro: true },
-    { feature: "Matrice de corrélation complète", base: false, pro: true },
-    { feature: "Waterfall d'attribution revenu", base: false, pro: true },
-    { feature: "Radar d'efficacité des dépenses", base: false, pro: true },
-    { feature: "Campaign Pulse Monitor", base: false, pro: true },
-    { feature: "Détecteur de cannibalisation", base: false, pro: true },
-    { feature: "Historique illimité", base: false, pro: true },
-    { feature: "Règles et seuils d'alerte personnalisés", base: false, pro: true },
-    { feature: "Accès API aux données de corrélation", base: false, pro: true },
-    { feature: "Traitement prioritaire", base: false, pro: true },
-  ],
-  es: [
-    { feature: "Línea de impacto de marketing (30 días)", base: true, pro: true },
-    { feature: "Tarjetas causa-efecto", base: true, pro: true },
-    { feature: "Resumen semanal What Changed", base: true, pro: true },
-    { feature: "Alertas básicas de correlación", base: true, pro: true },
-    { feature: "Matriz de correlación completa", base: false, pro: true },
-    { feature: "Cascada de atribución de ingresos", base: false, pro: true },
-    { feature: "Radar de eficiencia del gasto", base: false, pro: true },
-    { feature: "Campaign Pulse Monitor", base: false, pro: true },
-    { feature: "Detector de canibalización", base: false, pro: true },
-    { feature: "Historial ilimitado", base: false, pro: true },
-    { feature: "Reglas y umbrales de alerta personalizados", base: false, pro: true },
-    { feature: "Acceso API a datos de correlación", base: false, pro: true },
-    { feature: "Procesamiento prioritario", base: false, pro: true },
-  ],
-};
-
 const crossIntelligenceCopy = {
   en: {
     heroBadge: 'Included with every Core package',
@@ -1155,10 +1094,10 @@ export default function CrossIntelligencePage() {
   const { locale } = useWebsiteI18n();
   const opening = getOperatorAudienceCopy(locale);
   const sourceOpeningCopy = crossIntelligenceCopy[locale as keyof typeof crossIntelligenceCopy] ?? getGeneratedLocalCopy(crossIntelligenceCopy, generatedLocalCopy.crossIntelligenceCopy, locale) ?? crossIntelligenceCopy.en;
-  const ui = { ...sourceOpeningCopy, heroDescription: opening.cross };
+  const ui = mergeGeneratedCopy({ ...sourceOpeningCopy, heroDescription: opening.cross }, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy].ui);
   const cream = crossIntelligenceCreamCopy[locale as keyof typeof crossIntelligenceCreamCopy] ?? crossIntelligenceCreamCopy.en;
-  const components = localizedCrossIntelligenceComponents[locale as keyof typeof localizedCrossIntelligenceComponents] ?? getGeneratedLocalCopy(localizedCrossIntelligenceComponents, generatedLocalCopy.localizedCrossIntelligenceComponents, locale) ?? localizedCrossIntelligenceComponents.en;
-  const tierComparison = localizedTierComparison[locale as keyof typeof localizedTierComparison] ?? getGeneratedLocalCopy(localizedTierComparison, generatedLocalCopy.localizedTierComparison, locale) ?? localizedTierComparison.en;
+  const previousComponents = localizedCrossIntelligenceComponents[locale as keyof typeof localizedCrossIntelligenceComponents] ?? getGeneratedLocalCopy(localizedCrossIntelligenceComponents, generatedLocalCopy.localizedCrossIntelligenceComponents, locale) ?? localizedCrossIntelligenceComponents.en;
+  const components = mergeGeneratedCopy(previousComponents, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy].components);
   const mockupCopy = localizedCrossIntelligenceMockups[locale as keyof typeof localizedCrossIntelligenceMockups] ?? getGeneratedLocalCopy(localizedCrossIntelligenceMockups, generatedLocalCopy.localizedCrossIntelligenceMockups, locale) ?? localizedCrossIntelligenceMockups.en;
 
   return (
@@ -1195,19 +1134,7 @@ export default function CrossIntelligencePage() {
               {ui.problemDescription}
             </p>
           </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {ui.problemStats.map((item) => (
-              <StaggerItem key={item.label}>
-                <Card variant="elevated" className="text-center p-6">
-                  <CardContent>
-                    <SundaeIcon name={item.icon} size="lg" className="text-[#FF7E6F] mx-auto mb-3" />
-                    <div className="text-3xl font-bold text-[var(--text-primary)] mb-2">{item.stat}</div>
-                    <p className="text-sm text-[var(--text-supporting)]">{item.label}</p>
-                  </CardContent>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
+
         </div>
       </section>
 
@@ -1215,7 +1142,7 @@ export default function CrossIntelligencePage() {
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* Conviction beat - belief before the feature volume */}
-      <SectionConviction {...(crossIntelligenceConviction[locale as keyof typeof crossIntelligenceConviction] ?? crossIntelligenceConviction.en)} />
+      <SectionConviction {...crossIntelligenceConviction[locale as keyof typeof crossIntelligenceConviction]} coda={opening.cross} />
 
       {/* Components */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
@@ -1246,9 +1173,7 @@ export default function CrossIntelligencePage() {
                         <div>
                           <div className="flex items-center gap-2">
                             <h3 className="text-2xl font-bold text-[var(--text-display)]">{component.title}</h3>
-                            <span className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full ${component.tier === 'pro' ? 'bg-[#E9A24A]/20 text-[#E9A24A]' : 'bg-[#FF5C4D]/20 text-[#FF7E6F]'}`}>
-                              {component.tier === 'pro' ? ui.proTierLabel : ui.baseTierLabel}
-                            </span>
+
                           </div>
                           <p className="text-sm text-[var(--text-muted)] font-medium">{component.headline}</p>
                         </div>
@@ -1273,69 +1198,7 @@ export default function CrossIntelligencePage() {
         </div>
       </section>
 
-      {/* Base vs Pro */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-4xl mx-auto">
-          <FadeUp className="text-center mb-12">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.baseVsProTitle}</h2>
-            <p className="body-lg text-[var(--text-supporting)]">{ui.baseVsProDescription}</p>
-          </FadeUp>
-
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {/* Base */}
-            <StaggerItem>
-              <Card variant="elevated" className="border border-[#FF5C4D]/30">
-                <CardHeader>
-                  <div className="flex items-center gap-3 mb-2">
-                    <SundaeIcon name="insights" size="lg" className="text-[#FF7E6F]" />
-                    <div>
-                      <CardTitle className="text-xl text-[var(--text-primary)]">{ui.baseCardTitle}</CardTitle>
-                      <p className="text-sm text-green-400 font-semibold">{ui.baseLabel}</p>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {tierComparison.filter(f => f.base).map(f => (
-                      <li key={f.feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
-                        <span className="text-[#FF7E6F]">✓</span> {f.feature}
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            </StaggerItem>
-
-            {/* Pro */}
-            <StaggerItem>
-              <Card variant="elevated" className="border border-[#E9A24A]/30 relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#FF5C4D] to-[#E9A24A]" />
-                <CardHeader>
-                  <div className="flex items-center gap-3 mb-2">
-                    <SundaeIcon name="core" size="lg" className="text-[#E9A24A]" />
-                    <div>
-                      <CardTitle className="text-xl text-[var(--text-primary)]">{ui.proCardTitle}</CardTitle>
-                      <p className="text-sm text-[#E9A24A] font-semibold">{ui.proLabel}</p>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {tierComparison.map(f => (
-                      <li key={f.feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
-                        <span className={f.pro ? "text-[#E9A24A]" : "text-[var(--text-muted)]"}>
-                          {f.pro ? "✓" : "-"}
-                        </span>
-                        {f.feature}
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            </StaggerItem>
-          </StaggerContainer>
-        </div>
-      </section>
+      <CoreCoverageNote locale={locale} />
 
       {/* CTA */}
       <PageCTA

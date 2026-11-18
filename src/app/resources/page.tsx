@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
+import resourceHeading from '@/content/buyer-proof-labels/resources.json';
 import { PageHero, PageCTA } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { getLocalizedPathname } from '@/lib/i18n';
@@ -18,7 +19,7 @@ export default function ResourcesPage() {
   const local = (pathname: string) => getLocalizedPathname(pathname, locale);
   return (
     <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
-      <PageHero compactMobileTop badge={labels.badge} title={labels.title} description={copy.description}>
+      <PageHero compactMobileTop badge={labels.badge} title={resourceHeading[locale as keyof typeof resourceHeading].title} description={copy.description}>
         <div className="flex flex-col justify-center gap-3 sm:flex-row">
           <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="resources_walkthrough_hero">{copy.primaryCta}</Button>
           <Button variant="outline-light" size="lg" href={local('/results')} trackingLabel="resources_results_hero">{copy.secondaryCta}</Button>

@@ -3,8 +3,10 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 
 const root = path.resolve(import.meta.dirname, '..');
-const directory = path.join(root, 'src/content/buyer-clarity');
-const temporary = path.join(root, 'output/seo/buyer-clarity-locales');
+const contentGroup = process.argv.find(a => a.startsWith('--content-group='))?.slice('--content-group='.length) || 'buyer-clarity';
+if (!['buyer-clarity', 'buyer-depth', 'buyer-feature-details', 'buyer-proof-labels'].includes(contentGroup)) throw new Error('Unknown reviewed content group');
+const directory = path.join(root, 'src/content', contentGroup);
+const temporary = path.join(root, 'output/seo', `${contentGroup}-locales`);
 const english = JSON.parse(await fs.readFile(path.join(directory, 'en.json'), 'utf8'));
 const sourceHash = createHash('sha256').update(JSON.stringify(english)).digest('hex');
 const protectedNumbers = [];

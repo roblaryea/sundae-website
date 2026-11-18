@@ -6,7 +6,9 @@ import { SundaeIcon } from "@/components/icons";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
+import { PRICING_URL } from "@/lib/urls";
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import { getLocalizedPathname } from '@/lib/i18n';
 import { getLocalizedFaqSections } from "@/content/faqContent";
 
 export default function FAQPage() {
@@ -88,21 +90,20 @@ export default function FAQPage() {
             <Button
               variant="cta"
               size="lg"
-              onClick={() => cta(REPORT_APP_URL, "start_free_from_faq", { page: "/faq" })}
-            >
-              {copy.startFree}
-            </Button>
-            <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
-              <Button variant="outline-light" size="lg" className="w-full">
-                {copy.seePricing}
-              </Button>
-            </a>
-            <Button
-              variant="outline-light"
-              size="lg"
               onClick={() => cta("/demo", "book_demo_from_faq", { page: "/faq" })}
             >
               {copy.bookDemo}
+            </Button>
+            <Button href={PRICING_URL} target="_blank" rel="noopener noreferrer" variant="outline-light" size="lg" className="w-full" trackingLabel="faq_pricing">
+              {copy.seePricing}
+            </Button>
+            <Button
+              variant="outline-light"
+              size="lg"
+              href={getLocalizedPathname("/results", locale)}
+              trackingLabel="faq_public_evidence"
+            >
+              {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
             </Button>
             <Button
               variant="outline-light"

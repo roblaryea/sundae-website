@@ -1,5 +1,6 @@
 "use client";
 
+import buyerBodyCopy from '@/content/buyer-depth/onboarding.json';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
@@ -8,7 +9,7 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_getting_started_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
 import {
@@ -306,11 +307,13 @@ export default function GettingStartedPage() {
   const { locale } = useWebsiteI18n();
   const originalCopy = localizedGettingStartedCopy[locale as keyof typeof localizedGettingStartedCopy] ?? getGeneratedLocalCopy(localizedGettingStartedCopy, generatedLocalCopy.localizedGettingStartedCopy, locale) ?? localizedGettingStartedCopy.en;
   const commercial = getCommercialCopy(locale);
-  const copy = {
+  const commerciallyScopedCopy = {
     ...originalCopy,
     steps: originalCopy.steps.map((step, index) => index === 1 ? { ...step, description: commercial.packageScope } : index === 3 ? { ...step, actions: step.actions.map((action, actionIndex) => actionIndex === 3 ? commercial.watchtowerEligibility : action) } : step),
     journeys: originalCopy.journeys.map((journey, index) => index === 2 ? { ...journey, items: journey.items.map((item, itemIndex) => itemIndex === 2 ? commercial.watchtowerEligibility : item) } : journey),
   };
+  const translatedCopy = mergeGeneratedCopy(commerciallyScopedCopy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy]);
+  const copy = { ...translatedCopy, steps: translatedCopy.steps.map((step, index) => index === 1 ? { ...step, ctaLink: PRICING_URL } : step) };
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
 
   const handleFinalCardClick = (href?: string) => {

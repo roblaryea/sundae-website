@@ -1,0 +1,530 @@
+{
+  "en": {
+    "howSteps": [
+      {},
+      {
+        "description": "Generate forecasts with confidence ranges from the operating data and configured assumptions. Review the available horizons and any market signals used."
+      },
+      {
+        "description": "Compare forecast with actual, review systematic bias and update the assumptions or model. Accuracy depends on data coverage and operating conditions."
+      }
+    ],
+    "componentsDescription": "Compare forecast timelines, scenarios, scheduling and purchasing assumptions, and executive planning views.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Review forecast accuracy over time."
+      },
+      {
+        "description": "Use the executive briefing to review forecast risks, opportunities and proposed actions. Confirm delivery settings for your operation."
+      }
+    ]
+  },
+  "ar": {
+    "howSteps": [
+      {},
+      {
+        "description": "أنشئ توقعات مع نطاقات ثقة من بيانات التشغيل والافتراضات المكوّنة. راجع الآفاق المتاحة وأي إشارات سوقية مستخدمة."
+      },
+      {
+        "description": "قارن التوقعات مع الفعل، راجع الانحياز المنتظم وحدثّ الافتراضات أو النموذج. تعتمد الدقة على تغطية البيانات وظروف التشغيل."
+      }
+    ],
+    "componentsDescription": "قارن جداول التوقعات والسيناريوهات والجدولة وافتراضات الشراء ووجهات نظر التخطيط التنفيذية.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "راجع دقة التوقع عبر الزمن."
+      },
+      {
+        "description": "استخدم الموجز التنفيذي لمراجعة مخاطر التوقع وفرصه والإجراءات المقترحة. أكد إعدادات التسليم لعمليتك."
+      }
+    ]
+  },
+  "fr": {
+    "howSteps": [
+      {},
+      {
+        "description": "Générez des prévisions avec plages de confiance à partir des données d'exploitation et des hypothèses configurées. Passez en revue les horizons disponibles et les signaux de marché utilisés."
+      },
+      {
+        "description": "Comparez la prévision aux réalisations, analysez les biais systématiques et mettez à jour les hypothèses ou le modèle. La précision dépend de la couverture des données et des conditions d'exploitation."
+      }
+    ],
+    "componentsDescription": "Comparez les calendriers de prévision, les scénarios, la planification et les hypothèses d'achat, ainsi que les vues de planification exécutive.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Examinez l'exactitude des prévisions dans le temps."
+      },
+      {
+        "description": "Utilisez le briefing exécutif pour passer en revue les risques et opportunités de la prévision et les actions proposées. Confirmez les paramètres de livraison pour votre exploitation."
+      }
+    ]
+  },
+  "es": {
+    "howSteps": [
+      {},
+      {
+        "description": "Genere pronósticos con rangos de confianza a partir de los datos operativos y supuestos configurados. Revise los horizontes disponibles y las señales de mercado utilizadas."
+      },
+      {
+        "description": "Compare el pronóstico con lo real, revise sesgos sistemáticos y actualice supuestos o el modelo. La precisión depende de la cobertura de datos y las condiciones operativas."
+      }
+    ],
+    "componentsDescription": "Compare cronogramas de pronóstico, escenarios, programación y supuestos de compra, además de las vistas de planificación ejecutiva.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Revise la precisión del pronóstico a lo largo del tiempo."
+      },
+      {
+        "description": "Utilice el informe ejecutivo para revisar riesgos, oportunidades y acciones propuestas del pronóstico. Confirme la configuración de entrega para su operación."
+      }
+    ]
+  },
+  "de": {
+    "howSteps": [
+      {},
+      {
+        "description": "Erzeugen Sie Prognosen mit Konfidenzintervallen aus Betriebsdaten und konfigurierten Annahmen. Prüfen Sie die verfügbaren Horizonte und verwendete Marktsignale."
+      },
+      {
+        "description": "Vergleichen Sie Prognose und Ist-Werte, prüfen Sie systematische Verzerrungen und passen Sie Annahmen oder Modell an. Die Genauigkeit hängt von Datenabdeckung und Betriebsbedingungen ab."
+      }
+    ],
+    "componentsDescription": "Vergleichen Sie Prognosezeiträume, Szenarien, Planungs- und Einkaufsannahmen sowie Managementsichtweisen.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Überprüfen Sie die Prognosegenauigkeit im Zeitverlauf."
+      },
+      {
+        "description": "Nutzen Sie das Executive Briefing, um Prognoserisiken, Chancen und vorgeschlagene Maßnahmen zu prüfen. Bestätigen Sie die Lieferoptionen für Ihren Betrieb."
+      }
+    ]
+  },
+  "nl": {
+    "howSteps": [
+      {},
+      {
+        "description": "Genereer prognoses met betrouwbaarheidsintervallen op basis van operationele gegevens en geconfigureerde aannames. Bekijk de beschikbare horizonten en eventuele gebruikte marktsignalen."
+      },
+      {
+        "description": "Vergelijk prognose met realiteit, controleer systematische bias en werk de aannames of het model bij. Nauwkeurigheid hangt af van datadekking en operationele omstandigheden."
+      }
+    ],
+    "componentsDescription": "Vergelijk prognosetijdlijnen, scenario's, planning- en inkoopaannames en managementplannen.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Beoordeel prognosenauwkeurigheid in de tijd."
+      },
+      {
+        "description": "Gebruik de managementbriefing om prognoserisico's, kansen en voorgestelde acties te bespreken. Bevestig bezorg- en leveringsinstellingen voor uw operatie."
+      }
+    ]
+  },
+  "pt": {
+    "howSteps": [
+      {},
+      {
+        "description": "Gere previsões com intervalos de confiança a partir dos dados operacionais e das hipóteses configuradas. Revise os horizontes disponíveis e quaisquer sinais de mercado usados."
+      },
+      {
+        "description": "Compare a previsão com o realizado, revise vieses sistemáticos e atualize as hipóteses ou o modelo. A precisão depende da cobertura dos dados e das condições operacionais."
+      }
+    ],
+    "componentsDescription": "Compare cronogramas de previsão, cenários, pressupostos de agendamento e compra, e visões de planejamento executivo.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Revise a acurácia da previsão ao longo do tempo."
+      },
+      {
+        "description": "Use o briefing executivo para revisar riscos da previsão, oportunidades e ações propostas. Confirme as configurações de entrega para a sua operação."
+      }
+    ]
+  },
+  "hi": {
+    "howSteps": [
+      {},
+      {
+        "description": "परिचालन डेटा और सक्षम मान्यताओं से confidence रेंज के साथ पूर्वानुमान बनाएँ। उपलब्ध horizons और इस्तेमाल किए गए किसी भी बाजार संकेत की समीक्षा करें।"
+      },
+      {
+        "description": "पूर्वानुमान की वास्तविकता से तुलना करें, प्रणालीबद्ध पक्षपात की समीक्षा करें और मान्यताओं या मॉडल को अपडेट करें। सटीकता डेटा कवरेज और परिचालन परिस्थितियों पर निर्भर करती है।"
+      }
+    ],
+    "componentsDescription": "पूर्वानुमान की समयरेखा, परिदृश्य, शेड्यूलिंग और खरीद मान्यताएँ तथा कार्यकारी योजना के दृश्य तुलनात्मक रूप से देखें।",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "समय के साथ पूर्वानुमान सटीकता की समीक्षा करें।"
+      },
+      {
+        "description": "जोखिम, अवसर और प्रस्तावित कार्यों की समीक्षा के लिए कार्यकारी briefing का उपयोग करें। अपने ऑपरेशन के लिए delivery सेटिंग्स की पुष्टि करें।"
+      }
+    ]
+  },
+  "ur": {
+    "howSteps": [
+      {},
+      {
+        "description": "آپریٹنگ ڈیٹا اور کنفیگر کردہ مفروضات سے اعتماد حدود کے ساتھ پیشین گوئیاں تیار کریں۔ دستیاب ہوری زونز اور استعمال ہونے والے مارکیٹ سگنلز کا جائزہ لیں۔"
+      },
+      {
+        "description": "پیشین گوئی کا حقیقی نتائج سے موازنہ کریں، نظامی تعصب کا جائزہ لیں اور مفروضات یا ماڈل کو اپ ڈیٹ کریں۔ درستگی ڈیٹا کوریج اور آپریٹنگ حالات پر منحصر ہے۔"
+      }
+    ],
+    "componentsDescription": "پیشین گوئی کی ٹائم لائنز، منظرناموں، شیڈولنگ اور خریداری کے مفروضات، اور ایگزیکٹو پلیننگ ویوز کا موازنہ کریں۔",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "وقت کے ساتھ پیشین گوئی کی درستگی کا جائزہ لیں۔"
+      },
+      {
+        "description": "ایگزیکٹو بریفنگ استعمال کریں تاکہ پیشین گوئی کے خطرات، مواقع اور تجویز کردہ اقدامات کا جائزہ لے سکیں۔ اپنے آپریشن کے لیے ڈیلیوری سیٹنگز کی تصدیق کریں۔"
+      }
+    ]
+  },
+  "it": {
+    "howSteps": [
+      {},
+      {
+        "description": "Genera previsioni con intervalli di confidenza dai dati operativi e dalle ipotesi configurate. Esamina gli orizzonti disponibili e i segnali di mercato usati."
+      },
+      {
+        "description": "Confronta la previsione con il reale, esamina eventuali bias sistematici e aggiorna ipotesi o modello. L'accuratezza dipende dalla copertura dei dati e dalle condizioni operative."
+      }
+    ],
+    "componentsDescription": "Confronta timeline di previsione, scenari, schedulazione e ipotesi di acquisto, oltre alle viste di pianificazione esecutiva.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Esamina l'accuratezza delle previsioni nel tempo."
+      },
+      {
+        "description": "Usa il briefing esecutivo per esaminare rischi e opportunità delle previsioni e le azioni proposte. Conferma le impostazioni di consegna per la tua operazione."
+      }
+    ]
+  },
+  "pl": {
+    "howSteps": [
+      {},
+      {
+        "description": "Generuj prognozy z przedziałami niepewności na podstawie danych operacyjnych i skonfigurowanych założeń. Sprawdź dostępne horyzonty i sygnały rynkowe użyte w modelu."
+      },
+      {
+        "description": "Porównaj prognozę z rzeczywistością, sprawdź uprzedzenie systematyczne i zaktualizuj założenia lub model. Dokładność zależy od pokrycia danych i warunków operacyjnych."
+      }
+    ],
+    "componentsDescription": "Porównaj harmonogramy prognoz, scenariusze, założenia harmonogramowania i zakupu oraz widoki planowania kierowniczego.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Przeglądaj dokładność prognoz w czasie."
+      },
+      {
+        "description": "Użyj briefingu kierowniczego do przeglądu ryzyk prognozy, szans i proponowanych działań. Potwierdź ustawienia dostarczania dla swojej operacji."
+      }
+    ]
+  },
+  "tr": {
+    "howSteps": [
+      {},
+      {
+        "description": "İşletme verilerinden ve yapılandırılmış varsayımlardan güven aralıklı tahminler oluşturun. Kullanılan yatayları ve piyasa sinyallerini inceleyin."
+      },
+      {
+        "description": "Tahmini gerçekle karşılaştırın, sistematik sapmayı gözden geçirin ve varsayımları veya modeli güncelleyin. Doğruluk veri kapsamına ve işletme koşullarına bağlıdır."
+      }
+    ],
+    "componentsDescription": "Tahmin zaman çizelgelerini, senaryoları, planlama ve satın alma varsayımlarını ve yönetici planlama görünümlerini karşılaştırın.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Zaman içinde tahmin doğruluğunu gözden geçirin."
+      },
+      {
+        "description": "Yönetici brifingiyle tahmin risklerini, fırsatları ve önerilen eylemleri inceleyin. İşletmeniz için teslimat ayarlarını onaylayın."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "howSteps": [
+      {},
+      {
+        "description": "根据运营数据和配置的假设生成带置信区间的预测。审查可用的预测时段和使用的任何市场信号。"
+      },
+      {
+        "description": "将预测与实际比较，检查系统性偏差并更新假设或模型。准确性取决于数据覆盖和运营条件。"
+      }
+    ],
+    "componentsDescription": "比较预测时间线、情景、排班与采购假设，以及高层规划视图。",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "随时间回顾预测准确性。"
+      },
+      {
+        "description": "使用高层简报审查预测风险、机会和建议行动。确认适用于您运营的交付设置。"
+      }
+    ]
+  },
+  "ja": {
+    "howSteps": [
+      {},
+      {
+        "description": "運用データと設定した前提から信頼区間付きの予測を生成します。利用可能な予測期間と使用した市場シグナルを確認してください。"
+      },
+      {
+        "description": "予測と実績を比較し、系統的な偏りを確認して前提またはモデルを更新します。精度はデータの網羅性と運用状況に依存します。"
+      }
+    ],
+    "componentsDescription": "予測のタイムライン、シナリオ、スケジューリングと購買の前提、経営陣向けの計画ビューを比較します。",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "時間経過に伴う予測精度を確認する。"
+      },
+      {
+        "description": "経営陣向けブリーフィングで予測のリスク、機会、提案された行動を確認します。運用に対する配信設定を確定してください。"
+      }
+    ]
+  },
+  "ko": {
+    "howSteps": [
+      {},
+      {
+        "description": "운영 데이터와 구성된 가정에서 신뢰구간이 포함된 예측을 생성하세요. 사용 가능한 예측 기간과 활용한 시장 신호를 검토하세요."
+      },
+      {
+        "description": "예측을 실제값과 비교하고 체계적 편향을 검토한 뒤 가정이나 모델을 업데이트하세요. 정확도는 데이터 범위와 운영 조건에 따라 달라집니다."
+      }
+    ],
+    "componentsDescription": "예측 일정, 시나리오, 스케줄링 및 구매 가정과 경영진 계획 관점을 비교하세요.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "시간 경과에 따른 예측 정확도를 검토하세요."
+      },
+      {
+        "description": "경영진 브리핑을 사용해 예측의 위험, 기회 및 제안된 조치를 검토하세요. 운영에 맞는 전달 설정을 확인하세요."
+      }
+    ]
+  },
+  "id": {
+    "howSteps": [
+      {},
+      {
+        "description": "Hasilkan prakiraan dengan rentang keyakinan dari data operasi dan asumsi yang dikonfigurasi. Tinjau horizon yang tersedia dan sinyal pasar yang digunakan."
+      },
+      {
+        "description": "Bandingkan prakiraan dengan realisasi, tinjau bias sistematis, dan perbarui asumsi atau model. Akurasi bergantung pada cakupan data dan kondisi operasi."
+      }
+    ],
+    "componentsDescription": "Bandingkan garis waktu prakiraan, skenario, penjadwalan dan asumsi pembelian, serta pandangan perencanaan eksekutif.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Tinjau akurasi prakiraan dari waktu ke waktu."
+      },
+      {
+        "description": "Gunakan pengarahan eksekutif untuk meninjau risiko prakiraan, peluang, dan tindakan yang diusulkan. Konfirmasi pengaturan pengiriman untuk operasi Anda."
+      }
+    ]
+  },
+  "vi": {
+    "howSteps": [
+      {},
+      {
+        "description": "Tạo dự báo với các khoảng tin cậy từ dữ liệu vận hành và các giả định được cấu hình. Xem lại các chân trời khả dụng và bất kỳ tín hiệu thị trường nào được sử dụng."
+      },
+      {
+        "description": "So sánh dự báo với thực tế, xem xét thiên lệch hệ thống và cập nhật giả định hoặc mô hình. Độ chính xác phụ thuộc vào phạm vi dữ liệu và điều kiện vận hành."
+      }
+    ],
+    "componentsDescription": "So sánh các mốc thời gian dự báo, kịch bản, lịch trình và giả định mua hàng, cùng với các góc nhìn lập kế hoạch điều hành.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Xem lại độ chính xác dự báo theo thời gian."
+      },
+      {
+        "description": "Sử dụng cuộc họp tóm tắt điều hành để xem xét rủi ro, cơ hội và hành động đề xuất từ dự báo. Xác nhận cài đặt giao hàng cho hoạt động của bạn."
+      }
+    ]
+  },
+  "ro": {
+    "howSteps": [
+      {},
+      {
+        "description": "Generați prognoze cu intervale de încredere din datele operaționale și din ipotezele configurate. Revizuiți orizonturile disponibile și orice semnale de piață folosite."
+      },
+      {
+        "description": "Comparați prognoza cu realul, verificați erorile sistematice și actualizați ipotezele sau modelul. Acuratețea depinde de acoperirea datelor și de condițiile operaționale."
+      }
+    ],
+    "componentsDescription": "Comparați cronologiile prognozei, scenariile, programarea și ipotezele de achiziție, precum și viziunile pentru planificarea executivă.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Revizuiți acuratețea prognozei în timp."
+      },
+      {
+        "description": "Folosiți briefingul executiv pentru a examina riscurile, oportunitățile și acțiunile propuse legate de prognoză. Confirmați setările de livrare pentru operațiunea dumneavoastră."
+      }
+    ]
+  },
+  "sv": {
+    "howSteps": [
+      {},
+      {
+        "description": "Generera prognoser med konfidensintervall från driftdata och konfigurerade antaganden. Granska tillgängliga horisonter och eventuella marknadssignaler som används."
+      },
+      {
+        "description": "Jämför prognos med faktisk utfall, granska systematiska avvikelser och uppdatera antaganden eller modell. Noggrannheten beror på datatäckning och driftförhållanden."
+      }
+    ],
+    "componentsDescription": "Jämför prognoslinjer, scenarier, schemaläggnings- och inköpsantaganden samt ledningsöversikter.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Granska prognosnoggrannhet över tid."
+      },
+      {
+        "description": "Använd den ledningsbriefing som underlag för driftsgenomgång. Bekräfta leveransinställningar för din verksamhet."
+      }
+    ]
+  },
+  "bn": {
+    "howSteps": [
+      {},
+      {
+        "description": "অপারেটিং ডেটা এবং কনফিগার করা অনুমান থেকে আস্থা সীমাসহ পূর্বাভাস তৈরি করুন। উপলব্ধ হরাইজন এবং ব্যবহৃত কোনো মার্কেট সিগনাল পর্যালোচনা করুন।"
+      },
+      {
+        "description": "পূর্বাভাসকে বাস্তবের সঙ্গে তুলনা করুন, প্রণালীগত পক্ষপাত পর্যালোচনা করুন এবং অনুমান অথবা মডেল আপডেট করুন। নির্ভুলতা ডেটা কভারেজ ও অপারেটিং পরিস্থিতির ওপর নির্ভর করে।"
+      }
+    ],
+    "componentsDescription": "পূর্বাভাসের টাইমলাইন, সিনারিও, পরিকল্পনা ও ক্রয় অনুমান এবং নির্বাহী পরিকল্পনার ভিউগুলো তুলনা করুন।",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "সময়ে সময়ে পূর্বাভাসের নির্ভুলতা পর্যালোচনা করুন।"
+      },
+      {
+        "description": "ঝুঁকি, সুযোগ এবং প্রস্তাবিত কর্মসম্পাদন পর্যালোচনার জন্য নির্বাহী ব্রিফিং ব্যবহার করুন। আপনার অপারেশনের ডেলিভারি সেটিংস নিশ্চিত করুন।"
+      }
+    ]
+  },
+  "th": {
+    "howSteps": [
+      {},
+      {
+        "description": "สร้างการพยากรณ์พร้อมช่วงความเชื่อมั่นจากข้อมูลการปฏิบัติงานและสมมติฐานที่กำหนดไว้ ตรวจสอบระยะเวลาที่มีและสัญญาณตลาดที่ใช้"
+      },
+      {
+        "description": "เปรียบเทียบการพยากรณ์กับจริง ทบทวนอคติแบบเป็นระบบ และปรับสมมติฐานหรือโมเดล ความแม่นยำขึ้นกับความครอบคลุมของข้อมูลและสภาพการปฏิบัติงาน"
+      }
+    ],
+    "componentsDescription": "เปรียบเทียบไทม์ไลน์การพยากรณ์ สถานการณ์ การจัดตารางและสมมติฐานการจัดซื้อ และมุมมองการวางแผนระดับผู้บริหาร",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "ทบทวนความแม่นยำของการพยากรณ์เมื่อเวลาผ่านไป"
+      },
+      {
+        "description": "ใช้การบรีฟแบบเฉพาะบุคคลเพื่อตรวจสอบความเสี่ยง โอกาส และการดำเนินการที่เสนอสำหรับการพยากรณ์ ยืนยันการตั้งค่าการส่งมอบสำหรับการปฏิบัติงานของคุณ"
+      }
+    ]
+  },
+  "ms": {
+    "howSteps": [
+      {},
+      {
+        "description": "Hasilkan ramalan dengan julat keyakinan daripada data operasi dan andaian yang dikonfigurasikan. Semak horizon tersedia dan sebarang isyarat pasaran yang digunakan."
+      },
+      {
+        "description": "Bandingkan ramalan dengan sebenar, semak bias sistematik dan kemaskini andaian atau model. Ketepatan bergantung pada liputan data dan kondisi operasi."
+      }
+    ],
+    "componentsDescription": "Bandingkan garis masa ramalan, senario, penjadualan dan andaian pembelian, serta pandangan perancangan eksekutif.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Semak ketepatan ramalan dari masa ke masa."
+      },
+      {
+        "description": "Gunakan taklimat eksekutif untuk mengkaji risiko ramalan, peluang dan tindakan yang dicadangkan. Sahkan tetapan penghantaran untuk operasi anda."
+      }
+    ]
+  }
+}

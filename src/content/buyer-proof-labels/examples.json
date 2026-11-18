@@ -1,0 +1,68 @@
+{
+  "en": {
+    "disclosure": "Illustrative example. Not a customer result."
+  },
+  "ar": {
+    "disclosure": "مثال توضيحي. ليس نتيجة عميل."
+  },
+  "fr": {
+    "disclosure": "Exemple illustratif. Pas un résultat client."
+  },
+  "es": {
+    "disclosure": "Ejemplo ilustrativo. No es un resultado de cliente."
+  },
+  "de": {
+    "disclosure": "Beispiel zur Veranschaulichung. Kein Kundenergebnis."
+  },
+  "nl": {
+    "disclosure": "Illustratief voorbeeld. Geen klantresultaat."
+  },
+  "pt": {
+    "disclosure": "Exemplo ilustrativo. Não é um resultado de cliente."
+  },
+  "hi": {
+    "disclosure": "उदाहरणात्मक विवरण। ग्राहक का परिणाम नहीं।"
+  },
+  "ur": {
+    "disclosure": "وضاحتی مثال۔ گاہک کا نتیجہ نہیں۔"
+  },
+  "it": {
+    "disclosure": "Esempio illustrativo. Non è un risultato di un cliente."
+  },
+  "pl": {
+    "disclosure": "Przykład poglądowy. Nie jest to wynik klienta."
+  },
+  "tr": {
+    "disclosure": "Temsili örnek. Müşteri sonucu değildir."
+  },
+  "zh-Hans": {
+    "disclosure": "示例说明，不代表真实客户结果。"
+  },
+  "ja": {
+    "disclosure": "説明用の例です。顧客の成果ではありません。"
+  },
+  "ko": {
+    "disclosure": "설명용 예시입니다. 고객 결과가 아닙니다."
+  },
+  "id": {
+    "disclosure": "Contoh ilustratif. Bukan hasil pelanggan."
+  },
+  "vi": {
+    "disclosure": "Ví dụ minh họa. Không phải kết quả của khách hàng."
+  },
+  "ro": {
+    "disclosure": "Exemplu ilustrativ. Nu este un rezultat al unui client."
+  },
+  "sv": {
+    "disclosure": "Illustrativt exempel. Inte ett kundresultat."
+  },
+  "bn": {
+    "disclosure": "চিত্রগত উদাহরণ। গ্রাহকের ফলাফল নয়।"
+  },
+  "th": {
+    "disclosure": "ตัวอย่างประกอบ ไม่ใช่ผลลัพธ์จากลูกค้า"
+  },
+  "ms": {
+    "disclosure": "Contoh ilustratif. Bukan keputusan pelanggan."
+  }
+}

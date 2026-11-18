@@ -1,0 +1,948 @@
+{
+  "en": {
+    "description": "Compare franchise locations on a consistent basis, keep operating standards visible and investigate performance with each owner-operator.",
+    "howDescription": "Shared operating measures, relevant peer comparisons and follow-up across the franchise network.",
+    "howSundaeHelps": [
+      {
+        "title": "Compare relevant locations",
+        "description": "Use anonymized peer comparisons where suitable cohorts and data coverage are available. Review the basis of comparison with each operator."
+      },
+      {
+        "title": "Connect standards with daily work",
+        "description": "Use Crew tasks, checklists and handovers to record the required work. Compare relevant operating measures in Core to decide where a review is needed."
+      },
+      {
+        "title": "Share a useful operating practice",
+        "description": "Investigate what changed at a stronger location, agree what is transferable and assign a trial in another location."
+      },
+      {
+        "title": "Support the revenue review",
+        "description": "Use consistent connected revenue measures to investigate differences with a franchisee. Contract calculations and accounting reconciliation retain their agreed systems and rules."
+      }
+    ],
+    "outcomesDescription": "A clearer basis for coaching and reviewing standards with franchisees.",
+    "outcomes": [
+      {
+        "title": "Coach from a relevant comparison",
+        "description": "Discuss a location’s sales, staffing and service measures alongside suitable peers and its own history."
+      },
+      {
+        "title": "Keep standards inspectable",
+        "description": "Review assigned checks and recorded handovers rather than relying only on the next site visit."
+      },
+      {
+        "title": "Test a practice across locations",
+        "description": "Give the trial an owner, preserve the starting point and compare the result before extending it."
+      },
+      {
+        "title": "Resolve revenue questions with context",
+        "description": "Bring the relevant connected records to the discussion and investigate differences with the franchisee."
+      }
+    ],
+    "ctaTitle": "Bring one network standard or performance question.",
+    "ctaDescription": "See how a franchise team can compare locations, inspect the work and agree the next review."
+  },
+  "ar": {
+    "description": "قارن مواقع الامتياز على أساس ثابت، اجعل معايير التشغيل مرئية واستكشف الأداء مع كل مالك-مشغل.",
+    "howDescription": "مقاييس تشغيلية مشتركة، مقارنات أقران ذات صلة ومتابعة عبر شبكة الامتياز.",
+    "howSundaeHelps": [
+      {
+        "title": "قارن المواقع ذات الصلة",
+        "description": "استخدم مقارنات الأقران المجهولة الهوية حيث تتوفر مجموعات مناسبة وتغطية بيانات. راجع أساس المقارنة مع كل مشغل."
+      },
+      {
+        "title": "وصل المعايير بالعمل اليومي",
+        "description": "استخدم مهام Crew وقوائم التحقق والتسليمات لتسجيل العمل المطلوب. قارن مقاييس التشغيل ذات الصلة في Core لتقرير أين يلزم المراجعة."
+      },
+      {
+        "title": "شارك ممارسة تشغيلية مفيدة",
+        "description": "استقصِ ما تغيّر في موقع أقوى، اتفق على ما يمكن نقله وعيّن تجربة في موقع آخر."
+      },
+      {
+        "title": "ادعم مراجعة الإيرادات",
+        "description": "استخدم مقاييس الإيراد المتصلة والمتسقة للتحقيق في الاختلافات مع صاحب الامتياز. تظل قواعد حسابات العقد والمطابقة المحاسبية في أنظمتها المتفق عليها."
+      }
+    ],
+    "outcomesDescription": "أساس أوضح للتدريب ومراجعة المعايير مع أصحاب الامتياز.",
+    "outcomes": [
+      {
+        "title": "قدّم تدريباً من مقارنة ذات صلة",
+        "description": "ناقش مبيعات الموقع والموظفين ومقاييس الخدمة إلى جانب الأقران المناسبين وتاريخه."
+      },
+      {
+        "title": "اجعل المعايير قابلة للفحص",
+        "description": "راجع الفحوص المعينة والتسليمات المسجلة بدلاً من الاعتماد فقط على الزيارة الميدانية التالية."
+      },
+      {
+        "title": "اختبر ممارسة عبر المواقع",
+        "description": "امنح التجربة مالكاً، احفظ نقطة البداية وقارن النتيجة قبل توسيعها."
+      },
+      {
+        "title": "حلّ أسئلة الإيراد في السياق",
+        "description": "أحضر السجلات المتصلة ذات الصلة إلى النقاش واستقصِ الاختلافات مع صاحب الامتياز."
+      }
+    ],
+    "ctaTitle": "أحضر معيار شبكة أو سؤال أداء واحد.",
+    "ctaDescription": "شاهد كيف يمكن لفريق الامتياز مقارنة المواقع، فحص العمل واتفاق على المراجعة التالية."
+  },
+  "fr": {
+    "description": "Comparer les emplacements de franchise sur une base cohérente, garder les standards opérationnels visibles et analyser la performance avec chaque franchisé.",
+    "howDescription": "Mesures opérationnelles partagées, comparaisons de pairs pertinentes et suivi à travers le réseau de franchises.",
+    "howSundaeHelps": [
+      {
+        "title": "Comparer les emplacements pertinents",
+        "description": "Utiliser des comparaisons anonymisées entre pairs lorsque des cohortes et une couverture de données adaptées sont disponibles. Revoir la base de comparaison avec chaque exploitant."
+      },
+      {
+        "title": "Relier les standards au travail quotidien",
+        "description": "Utiliser les tâches, checklists et handovers de Crew pour enregistrer le travail requis. Comparer les mesures opérationnelles pertinentes dans Core pour décider où une revue est nécessaire."
+      },
+      {
+        "title": "Partager une pratique opérationnelle utile",
+        "description": "Analyser ce qui a changé dans un emplacement performant, convenir de ce qui est transférable et assigner un essai dans un autre site."
+      },
+      {
+        "title": "Soutenir la revue de revenus",
+        "description": "Utiliser des mesures de revenus connectées et cohérentes pour analyser les différences avec un franchisé. Les calculs contractuels et la réconciliation comptable conservent leurs systèmes et règles convenus."
+      }
+    ],
+    "outcomesDescription": "Une base plus claire pour coacher et revoir les standards avec les franchisés.",
+    "outcomes": [
+      {
+        "title": "Coacher à partir d'une comparaison pertinente",
+        "description": "Discuter des ventes, staffing et mesures de service d'un emplacement à côté de pairs adaptés et de son historique."
+      },
+      {
+        "title": "Garder les standards inspectables",
+        "description": "Revoir les contrôles assignés et les handovers enregistrés plutôt que de ne compter que sur la prochaine visite de site."
+      },
+      {
+        "title": "Tester une pratique entre emplacements",
+        "description": "Donner un propriétaire à l'essai, conserver le point de départ et comparer le résultat avant de l'étendre."
+      },
+      {
+        "title": "Résoudre les questions de revenus avec du contexte",
+        "description": "Apporter les dossiers connectés pertinents à la discussion et analyser les différences avec le franchisé."
+      }
+    ],
+    "ctaTitle": "Apportez une norme réseau ou une question de performance.",
+    "ctaDescription": "Voir comment une équipe franchise peut comparer emplacements, inspecter le travail et convenir de la prochaine revue."
+  },
+  "es": {
+    "description": "Compare ubicaciones franquiciadas con una base consistente, mantenga visibles los estándares operativos e investigue el rendimiento con cada propietario-operador.",
+    "howDescription": "Medidas operativas compartidas, comparaciones de pares relevantes y seguimiento en la red de franquicias.",
+    "howSundaeHelps": [
+      {
+        "title": "Comparar ubicaciones relevantes",
+        "description": "Use comparaciones de pares anonimizadas cuando haya cohortes y cobertura de datos adecuadas. Revise la base de comparación con cada operador."
+      },
+      {
+        "title": "Conectar estándares con el trabajo diario",
+        "description": "Use tareas, listas de comprobación y traspasos de Crew para registrar el trabajo requerido. Compare medidas operativas relevantes en Core para decidir dónde es necesaria una revisión."
+      },
+      {
+        "title": "Compartir una práctica operativa útil",
+        "description": "Investigue qué cambió en una ubicación más fuerte, acuerde qué es transferible y asigne una prueba en otra ubicación."
+      },
+      {
+        "title": "Apoyar la revisión de ingresos",
+        "description": "Use medidas de ingresos conectadas y consistentes para investigar diferencias con un franquiciado. Los cálculos contractuales y la conciliación contable mantienen sus sistemas y reglas acordadas."
+      }
+    ],
+    "outcomesDescription": "Una base más clara para el coaching y la revisión de estándares con los franquiciados.",
+    "outcomes": [
+      {
+        "title": "Entrenar a partir de una comparación relevante",
+        "description": "Discuta ventas, personal y medidas de servicio de una ubicación junto a pares adecuados y su propia historia."
+      },
+      {
+        "title": "Mantener los estándares inspeccionables",
+        "description": "Revise comprobaciones asignadas y traspasos registrados en lugar de confiar solo en la próxima visita al sitio."
+      },
+      {
+        "title": "Probar una práctica entre ubicaciones",
+        "description": "Dé a la prueba un responsable, preserve el punto de partida y compare el resultado antes de extenderla."
+      },
+      {
+        "title": "Resolver preguntas de ingresos con contexto",
+        "description": "Lleve los registros conectados relevantes a la discusión e investigue las diferencias con el franquiciado."
+      }
+    ],
+    "ctaTitle": "Traiga un estándar de red o una pregunta de rendimiento.",
+    "ctaDescription": "Vea cómo un equipo franquiciado puede comparar ubicaciones, inspeccionar el trabajo y acordar la siguiente revisión."
+  },
+  "de": {
+    "description": "Vergleichen Sie Franchise-Standorte auf konsistenter Basis, halten Sie Betriebstandards sichtbar und untersuchen Sie die Performance mit jedem Betreiber.",
+    "howDescription": "Geteilte operative Kennzahlen, relevante Peer-Vergleiche und Follow-up im Franchise-Netzwerk.",
+    "howSundaeHelps": [
+      {
+        "title": "Relevante Standorte vergleichen",
+        "description": "Verwenden Sie anonymisierte Peer-Vergleiche, wo geeignete Kohorten und Datenabdeckung verfügbar sind. Prüfen Sie die Vergleichsbasis mit jedem Betreiber."
+      },
+      {
+        "title": "Standards mit täglicher Arbeit verbinden",
+        "description": "Nutzen Sie Crew-Aufgaben, Checklisten und Übergaben, um die erforderliche Arbeit zu dokumentieren. Vergleichen Sie relevante Kennzahlen in Core, um zu entscheiden, wo eine Überprüfung nötig ist."
+      },
+      {
+        "title": "Eine nützliche Betriebspraxis teilen",
+        "description": "Untersuchen Sie, was sich an einem besseren Standort geändert hat, einigen Sie sich, was übertragbar ist, und weisen Sie einen Versuch an einem anderen Standort zu."
+      },
+      {
+        "title": "Die Umsatzüberprüfung unterstützen",
+        "description": "Verwenden Sie konsistent verbundene Umsatzkennzahlen, um Unterschiede mit einem Franchisenehmer zu untersuchen. Vertragsberechnungen und buchhalterische Abstimmung behalten ihre vereinbarten Systeme und Regeln."
+      }
+    ],
+    "outcomesDescription": "Eine klarere Grundlage für Coaching und die Überprüfung von Standards mit Franchisenehmern.",
+    "outcomes": [
+      {
+        "title": "Coachen anhand relevanter Vergleiche",
+        "description": "Besprechen Sie Umsatz-, Personal- und Servicemessungen eines Standorts neben geeigneten Peers und seiner eigenen Historie."
+      },
+      {
+        "title": "Standards prüfbar halten",
+        "description": "Überprüfen Sie zugewiesene Checks und aufgezeichnete Übergaben statt sich nur auf den nächsten Vor-Ort-Besuch zu verlassen."
+      },
+      {
+        "title": "Eine Praxis über Standorte testen",
+        "description": "Geben Sie dem Versuch einen Verantwortlichen, bewahren Sie den Ausgangspunkt und vergleichen Sie das Ergebnis, bevor Sie ausweiten."
+      },
+      {
+        "title": "Umsatzfragen mit Kontext klären",
+        "description": "Bringen Sie die relevanten verbundenen Aufzeichnungen in die Diskussion und untersuchen Sie Unterschiede mit dem Franchisenehmer."
+      }
+    ],
+    "ctaTitle": "Bringen Sie einen Netzwerkstandard oder eine Leistungsfrage.",
+    "ctaDescription": "Sehen Sie, wie ein Franchise-Team Standorte vergleichen, die Arbeit prüfen und die nächste Review vereinbaren kann."
+  },
+  "nl": {
+    "description": "Vergelijk franchise-locaties op een consistente basis, houd operationele standaarden zichtbaar en onderzoek prestaties met elke eigenaar-operator.",
+    "howDescription": "Gedeelde operationele maatstaven, relevante peervergelijkingen en opvolging door het franchisenetwerk.",
+    "howSundaeHelps": [
+      {
+        "title": "Vergelijk relevante locaties",
+        "description": "Gebruik geanonimiseerde peervergelijkingen waar geschikte cohorten en datadekking beschikbaar zijn. Bespreek de vergelijkingsbasis met elke operator."
+      },
+      {
+        "title": "Verbind standaarden met dagelijks werk",
+        "description": "Gebruik Crew-taken, checklists en overdrachten om het vereiste werk vast te leggen. Vergelijk relevante operationele maatstaven in Core om te bepalen waar een review nodig is."
+      },
+      {
+        "title": "Deel een bruikbare werkwijze",
+        "description": "Onderzoek wat er veranderde bij een beter presterende locatie, kom overeen wat overdraagbaar is en wijs een proef toe in een andere locatie."
+      },
+      {
+        "title": "Ondersteun de omzetreview",
+        "description": "Gebruik consistente verbonden omzetmaatstaven om verschillen met een franchisenemer te onderzoeken. Contractberekeningen en boekhoudkundige reconciliatie behouden hun afgesproken systemen en regels."
+      }
+    ],
+    "outcomesDescription": "Een helderdere basis voor coaching en het beoordelen van standaarden met franchisenemers.",
+    "outcomes": [
+      {
+        "title": "Coach vanuit een relevante vergelijking",
+        "description": "Bespreek een locatie's omzet, personeels- en servicemaatstaven naast geschikte peers en de eigen geschiedenis."
+      },
+      {
+        "title": "Houd standaarden inspecteerbaar",
+        "description": "Beoordeel toegewezen checks en vastgelegde overdrachten in plaats van alleen op het volgende sitebezoek te vertrouwen."
+      },
+      {
+        "title": "Test een praktijk over locaties heen",
+        "description": "Geef de proef een eigenaar, bewaar het uitgangspunt en vergelijk het resultaat voordat u het uitbreidt."
+      },
+      {
+        "title": "Los omzetvragen op met context",
+        "description": "Breng de relevante verbonden records naar het gesprek en onderzoek verschillen met de franchisenemer."
+      }
+    ],
+    "ctaTitle": "Breng één netwerkstandaard of prestatievraag.",
+    "ctaDescription": "Bekijk hoe een franchise-team locaties kan vergelijken, het werk kan inspecteren en de volgende review kan afspreken."
+  },
+  "pt": {
+    "description": "Compare locais de franquia numa base consistente, mantenha padrões operacionais visíveis e investigue desempenho com cada franqueado operador.",
+    "howDescription": "Medidas operacionais compartilhadas, comparações entre pares relevantes e acompanhamento pela rede de franquias.",
+    "howSundaeHelps": [
+      {
+        "title": "Comparar locais relevantes",
+        "description": "Use comparações anônimas entre pares quando coortes adequadas e cobertura de dados estiverem disponíveis. Reveja a base de comparação com cada operador."
+      },
+      {
+        "title": "Conectar padrões ao trabalho diário",
+        "description": "Use tarefas, checklists e handovers do Crew para registrar o trabalho requerido. Compare medidas operacionais relevantes no Core para decidir onde é necessária uma revisão."
+      },
+      {
+        "title": "Compartilhar uma prática operacional útil",
+        "description": "Investigue o que mudou em um local mais forte, concorde o que é transferível e atribua um teste em outro local."
+      },
+      {
+        "title": "Apoiar a revisão de receita",
+        "description": "Use medidas de receita conectadas e consistentes para investigar diferenças com um franqueado. Cálculos contratuais e conciliação contábil mantêm seus sistemas e regras acordados."
+      }
+    ],
+    "outcomesDescription": "Uma base mais clara para coaching e revisão de padrões com franqueados.",
+    "outcomes": [
+      {
+        "title": "Orientar a partir de uma comparação relevante",
+        "description": "Discuta vendas, pessoal e medidas de serviço de um local ao lado de pares adequados e de seu histórico."
+      },
+      {
+        "title": "Manter padrões inspecionáveis",
+        "description": "Revise checks atribuídos e handovers registrados em vez de confiar apenas na próxima visita ao local."
+      },
+      {
+        "title": "Testar uma prática entre locais",
+        "description": "Dê ao teste um responsável, preserve o ponto de partida e compare o resultado antes de estendê-lo."
+      },
+      {
+        "title": "Resolver questões de receita com contexto",
+        "description": "Traga os registros conectados relevantes para a discussão e investigue diferenças com o franqueado."
+      }
+    ],
+    "ctaTitle": "Traga um padrão de rede ou pergunta de desempenho.",
+    "ctaDescription": "Veja como uma equipe de franquia pode comparar locais, inspecionar o trabalho e concordar a próxima revisão."
+  },
+  "hi": {
+    "description": "फ्रैंचाइज़ी स्थानों की सुसंगत तुलना करें, ऑपरेटिंग मानकों को दृश्य रखें और प्रत्येक मालिक‑ऑपरेटर के साथ प्रदर्शन की जांच करें।",
+    "howDescription": "साझा ऑपरेटिंग माप, प्रासंगिक सहकर्मी तुलना और फ्रैंचाइज़ी नेटवर्क में फॉलो‑अप।",
+    "howSundaeHelps": [
+      {
+        "title": "प्रासंगिक स्थानों की तुलना करें",
+        "description": "जहाँ उपयुक्त कोहोर्ट और डेटा कवरेज उपलब्ध हो वहाँ गुमनामी सहकर्मी तुलना का उपयोग करें। प्रत्येक ऑपरेटर के साथ तुलना के आधार की समीक्षा करें।"
+      },
+      {
+        "title": "मानकों को दैनिक कार्य से जोड़ें",
+        "description": "आवश्यक कार्य रिकॉर्ड करने के लिए Crew के कार्य, चेकलिस्ट और हैंडओवर का उपयोग करें। समीक्षा कहाँ चाहिए यह तय करने के लिए Core में प्रासंगिक ऑपरेटिंग मापों की तुलना करें।"
+      },
+      {
+        "title": "एक उपयोगी ऑपरेटिंग प्रैक्टिस साझा करें",
+        "description": "किसी मजबूत स्थान में क्या बदला इसकी जांच करें, क्या हस्तांतरित किया जा सकता है पर सहमति बनाएं और दूसरे स्थान में एक परीक्षण सौंपें।"
+      },
+      {
+        "title": "राजस्व समीक्षा का समर्थन करें",
+        "description": "अंतर जांचने के लिए सुसंगत कनेक्टेड राजस्व मापों का उपयोग करें। अनुबंध गणनाएँ और अकाउंटिंग मिलान अपनी सहमत प्रणालियों और नियमों को बनाए रखते हैं।"
+      }
+    ],
+    "outcomesDescription": "फ्रैंचाइज़ियों के साथ कोचिंग और मानकों की समीक्षा के लिए स्पष्ट आधार।",
+    "outcomes": [
+      {
+        "title": "प्रासंगिक तुलना से कोचिंग करें",
+        "description": "उपयुक्त सहकर्मियों और अपने इतिहास के साथ किसी स्थान की बिक्री, स्टाफिंग और सर्विस मापों पर चर्चा करें।"
+      },
+      {
+        "title": "मानकों को जांचने योग्य रखें",
+        "description": "केवल अगली साइट विज़िट पर निर्भर रहने के बजाय सौंपे गए चेक और रिकॉर्ड किये गए हैंडओवर की समीक्षा करें।"
+      },
+      {
+        "title": "प्रैक्टिस का परीक्षण करें",
+        "description": "परीक्षण को एक मालिक दें, शुरुआती बिंदु सुरक्षित रखें और विस्तार से पहले परिणाम की तुलना करें।"
+      },
+      {
+        "title": "संदर्भ के साथ राजस्व प्रश्न हल करें",
+        "description": "चर्चा में संबंधित कनेक्टेड रिकॉर्ड लाएँ और फ्रैंचाइज़ी के साथ अंतर की जांच करें।"
+      }
+    ],
+    "ctaTitle": "एक नेटवर्क मानक या प्रदर्शन प्रश्न लाएँ।",
+    "ctaDescription": "देखें कि एक फ्रैंचाइज़ी टीम स्थानों की तुलना कैसे कर सकती है, काम का निरीक्षण कर सकती है और अगले समीक्षा पर सहमति कर सकती है।"
+  },
+  "ur": {
+    "description": "فرینچائز مقامات کو مستقل بنیاد پر موازنہ کریں، آپریٹنگ معیارات کو مرئی رکھیں اور ہر مالک آپریٹر کے ساتھ کارکردگی کی تحقیقات کریں۔",
+    "howDescription": "مشترکہ آپریٹنگ میجرز، مناسب پیئر موازنہ اور فائلو اپ پورے فرینچائز نیٹ ورک میں۔",
+    "howSundaeHelps": [
+      {
+        "title": "مربوط مقامات کا موازنہ کریں",
+        "description": "جہاں مناسب کوہورٹس اور ڈیٹا کوریج دستیاب ہوں، گمنام پیئر موازنہ استعمال کریں۔ ہر آپریٹر کے ساتھ موازنہ کی بنیاد کا جائزہ لیں۔"
+      },
+      {
+        "title": "معیارات کو روزمرہ کام سے جوڑیں",
+        "description": "ضروری کام کو ریکارڈ کرنے کے لیے Crew ٹاسکس، چیک لسٹس اور ہینڈ اوور استعمال کریں۔ فیصلہ کرنے کے لیے Core میں متعلقہ آپریٹنگ میجرز کا موازنہ کریں کہ کہاں ریویو درکار ہے۔"
+      },
+      {
+        "title": "مفید آپریٹنگ پریکٹس شیئر کریں",
+        "description": "بہتر مقام پر کیا بدلا اس کی تحقیقات کریں، جو قابل منتقلی ہو اس پر متفق ہوں اور دوسرے مقام میں ایک ٹرائل تفویض کریں۔"
+      },
+      {
+        "title": "ریونیو ریویو کی حمایت کریں",
+        "description": "فرق کی تحقیقات کے لیے متصل ریونیو میجرز استعمال کریں۔ کنٹریکٹ کیلکولیشنز اور اکاؤنٹنگ ری کنسیلی ایشن اپنے طے شدہ سسٹمز اور قواعد برقرار رکھتے ہیں۔"
+      }
+    ],
+    "outcomesDescription": "فرینچائزیز کے ساتھ کوچنگ اور معیارات کے جائزے کے لیے واضح بنیاد۔",
+    "outcomes": [
+      {
+        "title": "موزوں موازنہ سے کوچ کریں",
+        "description": "مقام کی سیلز، اسٹافنگ اور سروس میجرز کو مناسب پیئرز اور اس کی اپنی تاریخ کے ساتھ زیر بحث لائیں۔"
+      },
+      {
+        "title": "معیارات قابل معائنہ رکھیں",
+        "description": "صرف اگلے سائٹ وزٹ پر انحصار کرنے کے بجائے تفویض کردہ چیکس اور ریکارڈ شدہ ہینڈ اوورز کا جائزہ لیں۔"
+      },
+      {
+        "title": "مقامات میں پریکٹس ٹیسٹ کریں",
+        "description": "ٹرائل کو ایک مالک دیں، ابتدا محفوظ رکھیں اور اسے بڑھانے سے پہلے نتیجہ کا موازنہ کریں۔"
+      },
+      {
+        "title": "ریونیو سوالات کو سیاق و سباق کے ساتھ حل کریں",
+        "description": "متعلقہ متصل ریکارڈز کو بحث میں لائیں اور فرینچائزی کے ساتھ فرق کی تحقیقات کریں۔"
+      }
+    ],
+    "ctaTitle": "ایک نیٹ ورک معیار یا کارکردگی سوال لائیں۔",
+    "ctaDescription": "دیکھیں کہ فرینچائز ٹیم مقامات کا موازنہ کیسے کر سکتی ہے، کام کا معائنہ اور اگلے جائزے پر متفق ہو سکتی ہے۔"
+  },
+  "it": {
+    "description": "Confronta le sedi in franchising su una base coerente, mantieni visibili gli standard operativi e indaga le prestazioni con ogni owner-operator.",
+    "howDescription": "Misure operative condivise, confronti peer rilevanti e follow-up nella rete di franchising.",
+    "howSundaeHelps": [
+      {
+        "title": "Confrontare sedi rilevanti",
+        "description": "Usa confronti peer anonimizzati dove sono disponibili coorti e copertura dati adeguate. Rivedi la base del confronto con ogni operatore."
+      },
+      {
+        "title": "Collegare gli standard al lavoro quotidiano",
+        "description": "Usa task, checklist e handover di Crew per registrare il lavoro richiesto. Confronta le misure operative rilevanti in Core per decidere dove è necessaria una revisione."
+      },
+      {
+        "title": "Condividere una pratica operativa utile",
+        "description": "Indaga cosa è cambiato in una sede più performante, concorda cosa è trasferibile e assegna una prova in un’altra sede."
+      },
+      {
+        "title": "Supportare la revisione dei ricavi",
+        "description": "Usa misure di ricavo collegate e coerenti per indagare le differenze con un franchisee. I calcoli contrattuali e la riconciliazione contabile mantengono i sistemi e le regole concordate."
+      }
+    ],
+    "outcomesDescription": "Una base più chiara per coaching e revisione degli standard con i franchisee.",
+    "outcomes": [
+      {
+        "title": "Fare coaching da un confronto rilevante",
+        "description": "Discuti vendite, personale e misure di servizio di una sede accanto a peer adeguati e alla sua storia."
+      },
+      {
+        "title": "Mantenere gli standard ispezionabili",
+        "description": "Rivedi i controlli assegnati e gli handover registrati invece di fare affidamento solo sulla prossima visita in loco."
+      },
+      {
+        "title": "Testare una pratica tra sedi",
+        "description": "Assegna un responsabile alla prova, conserva il punto di partenza e confronta il risultato prima di estenderla."
+      },
+      {
+        "title": "Risolvere domande sui ricavi con contesto",
+        "description": "Porta i record collegati rilevanti nella discussione e indaga le differenze con il franchisee."
+      }
+    ],
+    "ctaTitle": "Porta uno standard di rete o una domanda di performance.",
+    "ctaDescription": "Vedi come un team franchising può confrontare sedi, ispezionare il lavoro e concordare la prossima revisione."
+  },
+  "pl": {
+    "description": "Porównuj lokalizacje franczyzowe na spójnej podstawie, utrzymuj widoczne standardy operacyjne i analizuj wyniki z każdym właścicielem-operatoriem.",
+    "howDescription": "Wspólne miary operacyjne, istotne porównania rówieśnicze i działania następcze w całej sieci franczyzowej.",
+    "howSundaeHelps": [
+      {
+        "title": "Porównaj odpowiednie lokalizacje",
+        "description": "Użyj anonimowych porównań rówieśniczych tam, gdzie dostępne są odpowiednie kohorty i zakres danych. Omów podstawę porównań z każdym operatorem."
+      },
+      {
+        "title": "Połącz standardy z pracą codzienną",
+        "description": "Wykorzystaj zadania, listy kontrolne i przekazania w Crew, aby rejestrować wymagane prace. Porównaj odpowiednie miary operacyjne w Core, aby zdecydować, gdzie potrzebny jest przegląd."
+      },
+      {
+        "title": "Udostępnij użyteczną praktykę operacyjną",
+        "description": "Zbadaj, co zmieniło się w lepiej działającej lokalizacji, uzgodnij, co można przenieść i przypisz próbę w innej lokalizacji."
+      },
+      {
+        "title": "Wspieraj przegląd przychodów",
+        "description": "Użyj spójnych połączonych miar przychodu, aby badać różnice z franczyzobiorcą. Obliczenia kontraktowe i uzgadnianie księgowe zachowują swoje uzgodnione systemy i zasady."
+      }
+    ],
+    "outcomesDescription": "Jaśniejsza podstawa do coachingu i przeglądu standardów z franczyzobiorcami.",
+    "outcomes": [
+      {
+        "title": "Coachuj w oparciu o odpowiednie porównanie",
+        "description": "Omów sprzedaż, zatrudnienie i miary obsługi lokalizacji obok odpowiednich rówieśników i jej własnej historii."
+      },
+      {
+        "title": "Utrzymuj standardy możliwe do sprawdzenia",
+        "description": "Przeglądaj przypisane kontrole i zarejestrowane przekazania zamiast polegać wyłącznie na następnej wizycie na miejscu."
+      },
+      {
+        "title": "Przetestuj praktykę między lokalizacjami",
+        "description": "Nadaj próbie właściciela, zachowaj punkt wyjścia i porównaj wynik przed rozszerzeniem."
+      },
+      {
+        "title": "Rozwiąż pytania przychodowe z kontekstem",
+        "description": "Przynieś odpowiednie połączone zapisy do dyskusji i badaj różnice z franczyzobiorcą."
+      }
+    ],
+    "ctaTitle": "Przynieś jedno standard sieci lub pytanie o wyniki.",
+    "ctaDescription": "Zobacz, jak zespół franczyzowy może porównywać lokalizacje, sprawdzać wykonaną pracę i uzgadniać następny przegląd."
+  },
+  "tr": {
+    "description": "Franchise konumlarını tutarlı bir şekilde karşılaştırın, işletme standartlarını görünür tutun ve performansı her sahip-operatör ile araştırın.",
+    "howDescription": "Paylaşılan işletme ölçüleri, uygun akran karşılaştırmaları ve franchise ağı genelinde takip.",
+    "howSundaeHelps": [
+      {
+        "title": "İlgili konumları karşılaştırın",
+        "description": "Uygun kohortlar ve veri kapsamı varsa anonimleştirilmiş akran karşılaştırmaları kullanın. Karşılaştırma temelini her operatörle gözden geçirin."
+      },
+      {
+        "title": "Standartları günlük iş ile bağlayın",
+        "description": "Gerekli işleri kaydetmek için Crew görevleri, kontrol listeleri ve devre teslimlerini kullanın. Hangi incelemenin gerektiğine karar vermek için Core’da ilgili işletme ölçülerini karşılaştırın."
+      },
+      {
+        "title": "Yararlı bir işletme uygulamasını paylaşın",
+        "description": "Daha güçlü bir konumda ne değiştiğini araştırın, aktarılabilir olanı kararlaştırın ve başka bir konumda deneme atayın."
+      },
+      {
+        "title": "Gelir incelemesini destekleyin",
+        "description": "Farkları araştırmak için tutarlı bağlı gelir ölçülerini kullanın. Sözleşme hesaplamaları ve muhasebe mutabakatı kendi üzerinde anlaşılmış sistemler ve kurallar olarak kalır."
+      }
+    ],
+    "outcomesDescription": "Franchise sahipleriyle koçluk ve standartların gözden geçirilmesi için daha net bir temel.",
+    "outcomes": [
+      {
+        "title": "İlgili bir karşılaştırmadan koçluk yapın",
+        "description": "Bir konumun satış, personel ve hizmet ölçülerini uygun akranlar ve kendi geçmişiyle birlikte tartışın."
+      },
+      {
+        "title": "Standartları denetlenebilir tutun",
+        "description": "Sadece bir sonraki saha ziyaretiyle sınırlı kalmayıp atanmış kontrolleri ve kaydedilmiş devre teslimlerini gözden geçirin."
+      },
+      {
+        "title": "Bir uygulamayı konumlar arasında test edin",
+        "description": "Denemeye bir sahip atayın, başlangıç noktasını koruyun ve genişletmeden önce sonucu karşılaştırın."
+      },
+      {
+        "title": "Gelir sorularını bağlamla çözün",
+        "description": "İlgili bağlı kayıtları tartışmaya getirin ve franchisee ile farkları araştırın."
+      }
+    ],
+    "ctaTitle": "Ağdan bir standart veya performans sorusu getirin.",
+    "ctaDescription": "Bir franchise ekibinin konumları nasıl karşılaştırabileceğini, işi nasıl denetleyebileceğini ve bir sonraki incelemeyi nasıl kararlaştıracağını görün."
+  },
+  "zh-Hans": {
+    "description": "以一致的标准比较加盟门店，保持运营标准可见并与各业主经营者一起调查表现。",
+    "howDescription": "共享的运营度量、相关的同辈比较和跨加盟网络的跟进。",
+    "howSundaeHelps": [
+      {
+        "title": "比较相关门店",
+        "description": "在适合的队列和数据覆盖可用时使用匿名化的同辈比较。与各经营者一起审查比较基础。"
+      },
+      {
+        "title": "将标准与日常工作连接",
+        "description": "使用 Crew 的任务、检查表和交接记录必需工作。在 Core 中比较相关运营度量以决定哪里需要审查。"
+      },
+      {
+        "title": "分享有用的运营做法",
+        "description": "调查表现较好门店发生了什么，达成可复制的要点并在另一门店指定试验。"
+      },
+      {
+        "title": "支持营收审查",
+        "description": "使用一致的已连接营收度量与加盟商调查差异。合同计算和会计对账保留其已达成的系统与规则。"
+      }
+    ],
+    "outcomesDescription": "为与加盟商进行辅导与标准审查提供更清晰的依据。",
+    "outcomes": [
+      {
+        "title": "基于相关比较进行辅导",
+        "description": "将门店的销售、人员配置和服务度量与合适的同辈及其历史并列讨论。"
+      },
+      {
+        "title": "保持标准可检查",
+        "description": "审查已分配的检查项和记录的交接，而不是仅依赖下一次现场拜访。"
+      },
+      {
+        "title": "在多门店测试一种做法",
+        "description": "为试验指定负责人，保留起始点并在扩展前比较结果。"
+      },
+      {
+        "title": "用背景解决收入问题",
+        "description": "将相关的已连接记录带入讨论，与加盟商一起调查差异。"
+      }
+    ],
+    "ctaTitle": "带来一个网络标准或性能问题。",
+    "ctaDescription": "查看加盟团队如何比较门店、检查工作并达成下一次审查的共识。"
+  },
+  "ja": {
+    "description": "フランチャイズの各ロケーションを一貫した基準で比較し、稼働基準を見える化し、各オーナーオペレーターとともにパフォーマンスを調査する。",
+    "howDescription": "共有の稼働指標、関連するピア比較、ネットワーク全体でのフォローアップ。",
+    "howSundaeHelps": [
+      {
+        "title": "関連するロケーションを比較する",
+        "description": "適切なコホートとデータカバレッジがある場合は匿名化されたピア比較を使う。各オペレーターと比較の基準を確認する。"
+      },
+      {
+        "title": "基準を日常業務につなげる",
+        "description": "Crewのタスク、チェックリスト、引き継ぎで必要な作業を記録する。Coreで関連する稼働指標を比較してレビューが必要な箇所を決める。"
+      },
+      {
+        "title": "有用な運用プラクティスを共有する",
+        "description": "優れているロケーションで何が変わったかを調査し、移転可能な要素に合意し、別のロケーションで試行を割り当てる。"
+      },
+      {
+        "title": "売上レビューを支援する",
+        "description": "一貫した接続された収益指標を使ってフランチャイジーと差異を調査する。契約上の計算と会計の突合は合意されたシステムとルールを維持する。"
+      }
+    ],
+    "outcomesDescription": "フランチャイジーへのコーチングと基準レビューのためのより明確な土台。",
+    "outcomes": [
+      {
+        "title": "関連する比較からコーチする",
+        "description": "ロケーションの売上、スタッフ、サービス指標を適切なピアと自身の履歴と並べて議論する。"
+      },
+      {
+        "title": "基準を検査可能に保つ",
+        "description": "次回の現地訪問だけに頼らず、割り当てられたチェックと記録された引き継ぎをレビューする。"
+      },
+      {
+        "title": "ロケーション間でプラクティスを試す",
+        "description": "試行に担当を付け、起点を保存し、拡張する前に結果を比較する。"
+      },
+      {
+        "title": "文脈とともに売上の疑問を解決する",
+        "description": "関連する接続された記録を議論に持ち込み、フランチャイジーと差異を調査する。"
+      }
+    ],
+    "ctaTitle": "ネットワークの基準やパフォーマンスの疑問を一つ持ってきてください。",
+    "ctaDescription": "フランチャイズチームがロケーションを比較し、作業を点検し、次のレビューを合意する様子を確認する。"
+  },
+  "ko": {
+    "description": "프랜차이즈 지점을 일관된 기준으로 비교하고 운영 기준을 가시화하며 각 소유 운영자와 성과를 조사하세요.",
+    "howDescription": "공유 운영 지표, 관련 동료 비교 및 프랜차이즈 네트워크 전반의 후속 조치.",
+    "howSundaeHelps": [
+      {
+        "title": "관련 지점 비교",
+        "description": "적절한 코호트와 데이터 적용 범위가 있을 때 익명화된 동료 비교를 사용하세요. 비교 근거를 각 운영자와 검토하세요."
+      },
+      {
+        "title": "기준을 일상 업무에 연결",
+        "description": "필요한 작업을 기록하기 위해 Crew 과제, 체크리스트 및 인수를 사용하세요. 검토가 필요한 곳을 판단하기 위해 Core에서 관련 운영 지표를 비교하세요."
+      },
+      {
+        "title": "유용한 운영 관행 공유",
+        "description": "성장한 지점에서 무엇이 변했는지 조사하고 전수 가능한 부분을 합의한 뒤 다른 지점에 시험을 지정하세요."
+      },
+      {
+        "title": "수익 검토 지원",
+        "description": "프랜차이즈와 차이를 조사하기 위해 일관된 연결 수익 지표를 사용하세요. 계약상의 계산과 회계 대조는 합의된 시스템과 규칙을 유지합니다."
+      }
+    ],
+    "outcomesDescription": "프랜차이즈와의 코칭 및 기준 검토를 위한 더 명확한 근거.",
+    "outcomes": [
+      {
+        "title": "관련 비교로 코칭",
+        "description": "적절한 동료 및 자체 이력을 함께 두고 지점의 매출, 인력 및 서비스 지표를 논의하세요."
+      },
+      {
+        "title": "기준을 점검 가능하게 유지",
+        "description": "다음 현장 방문에만 의존하지 말고 할당된 점검과 기록된 인수를 검토하세요."
+      },
+      {
+        "title": "지점 간 관행 시험",
+        "description": "시험에 책임자를 지정하고 시작점을 보존한 뒤 결과를 비교한 후 확장하세요."
+      },
+      {
+        "title": "맥락과 함께 수익 질문 해결",
+        "description": "관련 연결 기록을 토론에 가져오고 프랜차이즈와 차이를 조사하세요."
+      }
+    ],
+    "ctaTitle": "네트워크 기준이나 성과 질문 하나를 가져오세요.",
+    "ctaDescription": "프랜차이즈 팀이 지점을 비교하고 작업을 검토하며 다음 검토를 합의하는 방법을 확인하세요."
+  },
+  "id": {
+    "description": "Bandingkan lokasi waralaba secara konsisten, jaga standar operasional terlihat dan selidiki kinerja dengan setiap pemilik-operasi.",
+    "howDescription": "Ukuran operasional bersama, perbandingan rekan yang relevan dan tindak lanjut di seluruh jaringan waralaba.",
+    "howSundaeHelps": [
+      {
+        "title": "Bandingkan lokasi yang relevan",
+        "description": "Gunakan perbandingan rekan yang dianonimkan ketika kohor dan cakupan data sesuai tersedia. Tinjau dasar perbandingan dengan setiap operator."
+      },
+      {
+        "title": "Hubungkan standar dengan pekerjaan harian",
+        "description": "Gunakan tugas, checklist dan serah terima Crew untuk merekam pekerjaan yang diperlukan. Bandingkan ukuran operasional yang relevan di Core untuk memutuskan lokasi mana yang perlu ditinjau."
+      },
+      {
+        "title": "Bagikan praktik operasional yang berguna",
+        "description": "Selidiki apa yang berubah di lokasi yang lebih kuat, sepakati apa yang dapat dipindahkan dan tugaskan uji coba di lokasi lain."
+      },
+      {
+        "title": "Dukung tinjauan pendapatan",
+        "description": "Gunakan ukuran pendapatan terhubung yang konsisten untuk menyelidiki perbedaan dengan penerima waralaba. Perhitungan kontrak dan rekonsiliasi akuntansi tetap pada sistem dan aturan yang disepakati."
+      }
+    ],
+    "outcomesDescription": "Dasar yang lebih jelas untuk membina dan meninjau standar dengan penerima waralaba.",
+    "outcomes": [
+      {
+        "title": "Memberi pelatihan dari perbandingan relevan",
+        "description": "Diskusikan penjualan, staf dan ukuran layanan lokasi berdampingan dengan rekan yang sesuai dan riwayatnya sendiri."
+      },
+      {
+        "title": "Jaga standar dapat diperiksa",
+        "description": "Tinjau pemeriksaan yang ditugaskan dan serah terima yang direkam daripada hanya mengandalkan kunjungan lokasi berikutnya."
+      },
+      {
+        "title": "Uji praktik lintas lokasi",
+        "description": "Berikan uji coba pemilik, pertahankan titik awal dan bandingkan hasil sebelum memperluas."
+      },
+      {
+        "title": "Selesaikan pertanyaan pendapatan dengan konteks",
+        "description": "Bawa catatan terhubung yang relevan ke diskusi dan selidiki perbedaan dengan penerima waralaba."
+      }
+    ],
+    "ctaTitle": "Bawa satu standar jaringan atau pertanyaan kinerja.",
+    "ctaDescription": "Lihat bagaimana tim waralaba dapat membandingkan lokasi, memeriksa pekerjaan dan menyepakati tinjauan berikutnya."
+  },
+  "vi": {
+    "description": "So sánh các địa điểm nhượng quyền trên cơ sở nhất quán, giữ tiêu chuẩn vận hành hiển thị và điều tra hiệu suất cùng từng chủ sở hữu-điều hành.",
+    "howDescription": "Chỉ số vận hành chung, so sánh đồng cấp phù hợp và theo dõi hành động trên mạng lưới nhượng quyền.",
+    "howSundaeHelps": [
+      {
+        "title": "So sánh các địa điểm phù hợp",
+        "description": "Dùng so sánh đồng cấp ẩn danh khi có các nhóm phù hợp và phạm vi dữ liệu. Xem lại cơ sở so sánh với từng nhà điều hành."
+      },
+      {
+        "title": "Kết nối tiêu chuẩn với công việc hàng ngày",
+        "description": "Dùng nhiệm vụ, danh sách kiểm tra và bàn giao của Crew để ghi lại công việc yêu cầu. So sánh các chỉ số vận hành liên quan trong Core để quyết định nơi cần đánh giá."
+      },
+      {
+        "title": "Chia sẻ thực hành vận hành hữu ích",
+        "description": "Điều tra thay đổi ở một địa điểm mạnh hơn, đồng ý điều gì có thể chuyển giao và phân công thử nghiệm ở địa điểm khác."
+      },
+      {
+        "title": "Hỗ trợ đánh giá doanh thu",
+        "description": "Dùng các chỉ số doanh thu kết nối nhất quán để điều tra khác biệt với bên nhượng quyền. Tính toán theo hợp đồng và đối chiếu kế toán vẫn theo hệ thống và quy tắc đã thỏa thuận."
+      }
+    ],
+    "outcomesDescription": "Cơ sở rõ ràng hơn để huấn luyện và xem lại tiêu chuẩn với các nhượng quyền.",
+    "outcomes": [
+      {
+        "title": "Huấn luyện từ so sánh phù hợp",
+        "description": "Thảo luận doanh thu, nhân sự và chỉ số dịch vụ của một địa điểm bên cạnh các đồng cấp phù hợp và lịch sử của chính nó."
+      },
+      {
+        "title": "Giữ tiêu chuẩn để kiểm tra",
+        "description": "Xem lại các kiểm tra được giao và bàn giao đã ghi lại thay vì chỉ dựa vào chuyến thăm hiện trường tiếp theo."
+      },
+      {
+        "title": "Thử thực hành giữa các địa điểm",
+        "description": "Giao chủ sở hữu cho thử nghiệm, giữ điểm khởi đầu và so sánh kết quả trước khi mở rộng."
+      },
+      {
+        "title": "Giải quyết câu hỏi doanh thu với bối cảnh",
+        "description": "Mang các hồ sơ kết nối liên quan vào cuộc thảo luận và điều tra khác biệt với bên nhượng quyền."
+      }
+    ],
+    "ctaTitle": "Mang một tiêu chuẩn mạng lưới hoặc câu hỏi hiệu suất.",
+    "ctaDescription": "Xem cách đội nhượng quyền có thể so sánh địa điểm, kiểm tra công việc và thống nhất cuộc đánh giá tiếp theo."
+  },
+  "ro": {
+    "description": "Comparați locațiile francizei pe o bază consistentă, mențineți vizibile standardele operaționale și investigați performanța cu fiecare proprietar-operator.",
+    "howDescription": "Măsuri operaționale comune, comparații relevante între colegi și urmărire în rețeaua de franciză.",
+    "howSundaeHelps": [
+      {
+        "title": "Comparați locații relevante",
+        "description": "Folosiți comparații anonimizate între colegi unde sunt disponibile cohortele și acoperirea datelor. Revizuiți baza comparației cu fiecare operator."
+      },
+      {
+        "title": "Conectați standardele cu munca zilnică",
+        "description": "Folosiți sarcini, liste de verificare și predări în Crew pentru a înregistra munca necesară. Comparați măsurile operaționale relevante în Core pentru a decide unde e nevoie de revizuire."
+      },
+      {
+        "title": "Distribuiți o practică operațională utilă",
+        "description": "Investigați ce s-a schimbat într-o locație mai performantă, conveniți ce poate fi transferat și atribuiți un test într-o altă locație."
+      },
+      {
+        "title": "Susțineți revizuirea veniturilor",
+        "description": "Folosiți măsuri constante de venit conectate pentru a investiga diferențele cu un francizat. Calculul contractual și reconcilierea contabilă își păstrează sistemele și regulile agreate."
+      }
+    ],
+    "outcomesDescription": "O bază mai clară pentru coaching și revizuirea standardelor cu francizații.",
+    "outcomes": [
+      {
+        "title": "Consiliați dintr-o comparație relevantă",
+        "description": "Discutați vânzările, personalul și măsurile de serviciu ale unei locații alături de colegi potriviți și istoricul propriu."
+      },
+      {
+        "title": "Păstrați standardele inspectabile",
+        "description": "Revizuiți verificările atribuite și predările înregistrate în loc să vă bazați doar pe următoarea vizită la fața locului."
+      },
+      {
+        "title": "Testați o practică între locații",
+        "description": "Atribuiți responsabil unui test, păstrați punctul de plecare și comparați rezultatul înainte de a extinde schimbarea."
+      },
+      {
+        "title": "Rezolvați întrebările privind veniturile cu context",
+        "description": "Aduceți registrele conectate relevante în discuție și investigați diferențele cu francizatul."
+      }
+    ],
+    "ctaTitle": "Aduceți un standard de rețea sau o întrebare de performanță.",
+    "ctaDescription": "Vedeți cum o echipă de franciză poate compara locații, inspecta munca și conveni următoarea revizuire."
+  },
+  "sv": {
+    "description": "Jämför franchiselokaler på en konsekvent grund, håll driftstandarder synliga och undersök prestanda med varje ägare-operatör.",
+    "howDescription": "Gemensamma driftmått, relevanta jämförelser med kollegor och uppföljning genom franchise-nätverket.",
+    "howSundaeHelps": [
+      {
+        "title": "Jämför relevanta platser",
+        "description": "Använd anonymiserade jämförelser med kollegor där lämpliga kohorter och datatäckning finns. Granska jämförelsegrunden med varje operatör."
+      },
+      {
+        "title": "Knyt standarder till dagligt arbete",
+        "description": "Använd Crew-uppgifter, checklistor och överlämningar för att dokumentera nödvändigt arbete. Jämför relevanta driftmått i Core för att avgöra var en granskning behövs."
+      },
+      {
+        "title": "Dela en användbar driftpraxis",
+        "description": "Undersök vad som ändrades på en starkare plats, kom överens om vad som är överförbart och tilldela en försöksperiod i en annan lokal."
+      },
+      {
+        "title": "Stöd intäktsgranskningen",
+        "description": "Använd konsekventa anslutna intäktmått för att undersöka skillnader med en franchisegivare. Kontraktsberäkningar och redovisningsavstämning behåller sina avtalade system och regler."
+      }
+    ],
+    "outcomesDescription": "En tydligare grund för coaching och granskning av standarder med franchisegivare.",
+    "outcomes": [
+      {
+        "title": "Coacha med relevant jämförelse",
+        "description": "Diskutera en plats försäljning, bemanning och servicemått tillsammans med lämpliga kollegor och dess egen historik."
+      },
+      {
+        "title": "Håll standarder granskbara",
+        "description": "Granska tilldelade kontroller och dokumenterade överlämningar i stället för att förlita dig enbart på nästa platsbesök."
+      },
+      {
+        "title": "Testa en praxis över platser",
+        "description": "Ge försöket en ägare, bevara utgångspunkten och jämför resultatet innan det utökas."
+      },
+      {
+        "title": "Lös intäktsfrågor med kontext",
+        "description": "Ta med relevanta anslutna poster i diskussionen och undersök skillnader med franchisegivaren."
+      }
+    ],
+    "ctaTitle": "Ta med en nätverksstandard eller prestationsfråga.",
+    "ctaDescription": "Se hur ett franchiseteam kan jämföra platser, inspektera arbetet och komma överens om nästa granskning."
+  },
+  "bn": {
+    "description": "কনসিস্টেন্ট ভিত্তিতে ফ্র্যাঞ্চাইজি লোকেশনগুলো তুলনা করুন, অপারেটিং স্ট্যান্ডার্ড দৃশ্যমান রাখুন এবং প্রতিটি মালিক-অপারেটরের সঙ্গে পারফরম্যান্স তদন্ত করুন।",
+    "howDescription": "শেয়ারড অপারেটিং মাপ, প্রাসঙ্গিক পিয়ার তুলনা এবং ফ্র্যাঞ্চাইজি নেটওয়ার্ক জুড়ে ফলো-আপ।",
+    "howSundaeHelps": [
+      {
+        "title": "প্রাসঙ্গিক লোকেশনগুলো তুলনা করুন",
+        "description": "উপযুক্ত কোহর্ট ও ডেটা কভারেজ থাকলে গোপন প্রতিদ্বন্দ্বী তুলনা ব্যবহার করুন। প্রতিটি অপারেটরের সঙ্গে তুলনার ভিত্তি পর্যালোচনা করুন।"
+      },
+      {
+        "title": "স্ট্যান্ডার্ডগুলো দৈনন্দিন কাজের সঙ্গে সংযুক্ত করুন",
+        "description": "দরকারি কাজ রেকর্ড করতে Crew টাস্ক, চেকলিস্ট এবং হ্যান্ডওভার ব্যবহার করুন। কোন রিভিউ প্রয়োজন তা নির্ধারণ করতে Core-এ প্রাসঙ্গিক অপারেটিং মেট্রিক তুলনা করুন।"
+      },
+      {
+        "title": "একটি কার্যকর অপারেটিং অনুশীলন শেয়ার করুন",
+        "description": "একটি শক্তিশালী লোকেশনে কী পরিবর্তন হয়েছিল তা তদন্ত করুন, কি ট্রান্সফারযোগ্য তা সম্মত করুন এবং অন্য একটি লোকেশনে একটি ট্রায়াল নির্ধারণ করুন।"
+      },
+      {
+        "title": "রেভিনিউ রিভিউকে সহায়তা করুন",
+        "description": "পর্যবেক্ষণযোগ্য সংযুক্ত রাজস্ব মেট্রিক ব্যবহার করে ফ্র্যাঞ্চাইজির সঙ্গে পার্থক্যগুলি তদন্ত করুন। কনট্রাক্ট গণনা ও অ্যাকাউন্টিং রিকনসিলিয়েশন তাদের সম্মত সিস্টেম ও নিয়ম বজায় রাখে।"
+      }
+    ],
+    "outcomesDescription": "ফ্র্যাঞ্চাইজিদের সঙ্গে কোচিং ও স্ট্যান্ডার্ড রিভিউ করার জন্য একটি পরিষ্কার ভিত্তি।",
+    "outcomes": [
+      {
+        "title": "প্রাসঙ্গিক তুলনার থেকে কোচিং করুন",
+        "description": "উপযুক্ত পিয়ার এবং তার নিজের ইতিহাসের সঙ্গে একটি লোকেশনের বিক্রয়, স্টাফিং ও সার্ভিস মেট্রিক আলোচনা করুন।"
+      },
+      {
+        "title": "স্ট্যান্ডার্ডগুলো পরীক্ষাযোগ্য রাখুন",
+        "description": "পরের সাইট ভিজিটেই নির্ভর না করে নির্ধারিত চেক এবং রেকর্ড করা হ্যান্ডওভারগুলো পর্যালোচনা করুন।"
+      },
+      {
+        "title": "একাধিক লোকেশনে একটি অনুশীলন পরীক্ষা করুন",
+        "description": "ট্রায়ালের জন্য একজন দায়িত্বশীল দিন, আরম্ভিক পয়েন্ট সংরক্ষণ করুন এবং বর্ধিত করার আগে ফলাফল তুলনা করুন।"
+      },
+      {
+        "title": "প্রাসঙ্গিক কনটেক্সট নিয়ে রাজস্ব প্রশ্ন সমাধান করুন",
+        "description": "আলোচনায় প্রাসঙ্গিক সংযুক্ত রেকর্ডগুলো নিয়ে যান এবং ফ্র্যাঞ্চাইজির সঙ্গে পার্থক্যগুলো তদন্ত করুন।"
+      }
+    ],
+    "ctaTitle": "একটি নেটওয়ার্ক স্ট্যান্ডার্ড বা পারফরম্যান্স প্রশ্ন আনুন।",
+    "ctaDescription": "দেখুন কিভাবে একটি ফ্র্যাঞ্চাইজি দল লোকেশনগুলো তুলনা করতে পারে, কাজ পরীক্ষা করতে পারে এবং পরবর্তী রিভিউ কী হবে তা নির্ধারণ করতে পারে।"
+  },
+  "th": {
+    "description": "เปรียบเทียบสาขาแฟรนไชส์อย่างสม่ำเสมอ ทำให้มาตรฐานการปฏิบัติงานมองเห็นได้ และตรวจสอบประสิทธิภาพกับแต่ละผู้ประกอบการเจ้าของสาขา",
+    "howDescription": "เมตริกการปฏิบัติงานร่วมกัน การเปรียบเทียบเพื่อนร่วมกลุ่มที่เกี่ยวข้อง และการติดตามผลในเครือข่ายแฟรนไชส์",
+    "howSundaeHelps": [
+      {
+        "title": "เปรียบเทียบสาขาที่เกี่ยวข้อง",
+        "description": "ใช้การเปรียบเทียบเพื่อนร่วมกลุ่มที่ไม่เปิดเผยชื่อเมื่อมีโคฮอร์ตและความครอบคลุมของข้อมูลที่เหมาะสม ทบทวนฐานการเปรียบเทียบกับแต่ละผู้ประกอบการ"
+      },
+      {
+        "title": "เชื่อมมาตรฐานกับงานประจำวัน",
+        "description": "ใช้งาน Checklist และการส่งต่อของ Crew เพื่อบันทึกงานที่ต้องทำ เปรียบเทียบเมตริกการปฏิบัติงานที่เกี่ยวข้องใน Core เพื่อชี้ว่าจุดใดต้องทบทวน"
+      },
+      {
+        "title": "แชร์แนวปฏิบัติการปฏิบัติงานที่ใช้ได้",
+        "description": "ตรวจสอบสิ่งที่เปลี่ยนที่สาขาที่ทำได้ดี ตกลงว่าส่วนใดถ่ายโอนได้ และมอบการทดลองในสาขาอื่น"
+      },
+      {
+        "title": "สนับสนุนการทบทวนรายได้",
+        "description": "ใช้มาตรการรายได้ที่เชื่อมต่ออย่างสม่ำเสมอเพื่อตรวจสอบความแตกต่างกับแฟรนไชซี การคำนวณตามสัญญาและการกระทบยอดบัญชียังคงเป็นไปตามระบบและกฎที่ตกลงไว้"
+      }
+    ],
+    "outcomesDescription": "พื้นฐานที่ชัดเจนขึ้นสำหรับการโค้ชและการทบทวนมาตรฐานกับแฟรนไชซี",
+    "outcomes": [
+      {
+        "title": "โค้ชจากการเปรียบเทียบที่เกี่ยวข้อง",
+        "description": "หารือยอดขาย การจัดพนักงาน และมาตรการการบริการของสาขาควบคู่กับเพื่อนร่วมกลุ่มที่เหมาะสมและประวัติของสาขานั้น"
+      },
+      {
+        "title": "ทำให้มาตรฐานตรวจสอบได้",
+        "description": "ทบทวนการตรวจที่มอบหมายและการส่งต่อที่บันทึกไว้ แทนการพึ่งพาแค่การเยี่ยมไซต์ครั้งถัดไป"
+      },
+      {
+        "title": "ทดสอบแนวปฏิบัติข้ามสาขา",
+        "description": "มอบหมายผู้รับผิดชอบการทดลอง เก็บจุดเริ่มต้น และเปรียบเทียบผลก่อนขยาย"
+      },
+      {
+        "title": "แก้คำถามรายได้ด้วยบริบท",
+        "description": "นำบันทึกที่เชื่อมต่อที่เกี่ยวข้องมาสู่การสนทนาและตรวจสอบความแตกต่างกับแฟรนไชซี"
+      }
+    ],
+    "ctaTitle": "นำมาตรฐานเครือข่ายหรือคำถามการปฏิบัติงานหนึ่งข้อมา",
+    "ctaDescription": "ดูว่าทีมแฟรนไชส์จะเปรียบเทียบสาขา ตรวจสอบงาน และตกลงการทบทวนครั้งถัดไปอย่างไร"
+  },
+  "ms": {
+    "description": "Bandingkan lokasi francais berdasarkan asas yang konsisten, pastikan piawaian operasi kelihatan dan siasat prestasi bersama setiap pemilik-operator.",
+    "howDescription": "Ukuran operasi yang dikongsi, perbandingan rakan sebaya yang relevan dan susulan di seluruh rangkaian francais.",
+    "howSundaeHelps": [
+      {
+        "title": "Bandingkan lokasi yang relevan",
+        "description": "Gunakan perbandingan rakan sebaya tanpa nama apabila kohort dan liputan data sesuai. Semak asas perbandingan dengan setiap operator."
+      },
+      {
+        "title": "Sambungkan piawaian dengan kerja harian",
+        "description": "Gunakan tugas, senarai semak dan penyerahan Crew untuk merekod kerja yang diperlukan. Bandingkan ukuran operasi yang relevan dalam Core untuk memutuskan di mana ulasan diperlukan."
+      },
+      {
+        "title": "Kongsi amalan operasi yang berguna",
+        "description": "Siasat apa yang berubah di lokasi yang lebih kuat, setujui apa yang boleh dipindah dan tetapkan percubaan di lokasi lain."
+      },
+      {
+        "title": "Sokong ulasan hasil",
+        "description": "Gunakan ukuran hasil yang disambung secara konsisten untuk menyiasat perbezaan bersama franchisor. Pengiraan kontrak dan penyelarasan perakaunan mengekalkan sistem dan peraturan yang dipersetujui."
+      }
+    ],
+    "outcomesDescription": "Asas yang lebih jelas untuk membimbing dan menyemak piawaian dengan francaisi.",
+    "outcomes": [
+      {
+        "title": "Bimbing dari perbandingan yang relevan",
+        "description": "Bincangkan jualan, kakitangan dan ukuran perkhidmatan lokasi bersama rakan sebaya yang sesuai dan sejarahnya sendiri."
+      },
+      {
+        "title": "Jadikan piawaian boleh diperiksa",
+        "description": "Semak pemeriksaan yang ditugaskan dan penyerahan yang direkodkan daripada hanya bergantung pada lawatan tapak seterusnya."
+      },
+      {
+        "title": "Uji amalan merentas lokasi",
+        "description": "Berikan percubaan pemilik, simpan titik permulaan dan bandingkan hasil sebelum meluaskannya."
+      },
+      {
+        "title": "Selesaikan soalan hasil dengan konteks",
+        "description": "Bawa rekod bersambung yang relevan ke perbincangan dan siasat perbezaan bersama franchaisi."
+      }
+    ],
+    "ctaTitle": "Bawa satu piawaian rangkaian atau soalan prestasi.",
+    "ctaDescription": "Lihat bagaimana pasukan francais boleh membandingkan lokasi, memeriksa kerja dan bersetuju ulasan seterusnya."
+  }
+}

@@ -1,5 +1,7 @@
 'use client';
 
+import buyerFeatureCopy from '@/content/buyer-feature-details/watchtower.json';
+
 import depthCopy from '@/content/operator-depth.json'
 
 import storyCopy from '@/content/platform-story.json';
@@ -17,7 +19,7 @@ import { SectionProductGallery } from "@/components/home/sections/SectionProduct
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { watchtowerCreamCopy } from "../watchtowerCreamCopy";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_watchtower_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
 import { SectionConviction } from "@/components/home/sections/SectionConviction";
@@ -498,10 +500,11 @@ const localizedWatchtowerCopy = {
 export default function WatchtowerPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const sourceCopy = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? getGeneratedLocalCopy(localizedWatchtowerCopy, generatedLocalCopy.localizedWatchtowerCopy, locale) ?? localizedWatchtowerCopy.en;
+  const previousFeatureCopy = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? getGeneratedLocalCopy(localizedWatchtowerCopy, generatedLocalCopy.localizedWatchtowerCopy, locale) ?? localizedWatchtowerCopy.en;
   const story = storyCopy[locale as keyof typeof storyCopy];
+  const sourceCopy = mergeGeneratedCopy(previousFeatureCopy, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy]);
   const commercial = getCommercialCopy(locale);
-  const ui = { ...sourceCopy, heroNote: commercial.watchtowerEligibility, pricingDescription: commercial.watchtowerEligibility, featureEyebrow: 'Watchtower', featureDescription: commercial.watchtowerChoice, faqs: sourceCopy.faqs.map((faq, index) => index === 3 ? { ...faq, a: commercial.watchtowerEligibility } : index === 4 ? { ...faq, a: commercial.watchtowerChoice } : faq), internalHeading: story.watchtowerTitle, internalDescription: story.watchtowerDescription, introCards: sourceCopy.introCards.map((item, index) => index === 0 ? { ...item, text: story.watchtowerDescription } : item) };
+  const ui = { ...sourceCopy, heroTitle: buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy].heroTitle, heroNote: commercial.watchtowerEligibility, pricingDescription: commercial.watchtowerEligibility, featureEyebrow: 'Watchtower', featureDescription: commercial.watchtowerChoice, faqs: sourceCopy.faqs.map((faq, index) => index === 3 ? { ...faq, a: commercial.watchtowerEligibility } : index === 4 ? { ...faq, a: commercial.watchtowerChoice } : faq), internalHeading: story.watchtowerTitle, internalDescription: story.watchtowerDescription, introCards: sourceCopy.introCards.map((item, index) => index === 0 ? { ...item, text: story.watchtowerDescription } : item) };
   const cream = watchtowerCreamCopy[locale as keyof typeof watchtowerCreamCopy] ?? watchtowerCreamCopy.en;
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
   const pricingOptions = ui.pricingCards.map((item, index) => ({ name: item.name, id: WATCHTOWER_OPTIONS[index] }));

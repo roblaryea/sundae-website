@@ -1,0 +1,90 @@
+{
+  "en": {
+    "howDescription": "Compare the locations on shift, understand the exception and agree the response with the manager responsible.",
+    "ctaDescription": "Choose one location or shift question. See the operating signals, the follow-up and how to review the result."
+  },
+  "ar": {
+    "howDescription": "قارن المواقع أثناء الشفت، افهم الاستثناء واتفق على الاستجابة مع المدير المسؤول.",
+    "ctaDescription": "اختر موقعاً أو سؤال شفت واحد. اطلع على الإشارات التشغيلية والمتابعة وكيفية مراجعة النتيجة."
+  },
+  "fr": {
+    "howDescription": "Comparer les emplacements sur un service, comprendre l'exception et convenir de la réponse avec le manager responsable.",
+    "ctaDescription": "Choisir une question sur un emplacement ou un service. Voir les signaux opérationnels, le suivi et comment revoir le résultat."
+  },
+  "es": {
+    "howDescription": "Compare las ubicaciones por turno, entienda la excepción y acuerde la respuesta con el gerente responsable.",
+    "ctaDescription": "Elija una ubicación o pregunta por turno. Vea las señales operativas, el seguimiento y cómo revisar el resultado."
+  },
+  "de": {
+    "howDescription": "Vergleichen Sie Standorte auf Schichtebene, verstehen Sie die Ausnahme und einigen Sie sich mit dem verantwortlichen Manager auf die Reaktion.",
+    "ctaDescription": "Wählen Sie eine Standort- oder Schichtfrage. Sehen Sie die operativen Signale, das Follow-up und wie das Ergebnis überprüft wird."
+  },
+  "nl": {
+    "howDescription": "Vergelijk locaties per shift, begrijp de uitzondering en kom overeen wat de verantwoordelijke manager doet.",
+    "ctaDescription": "Kies één locatie- of shiftvraag. Bekijk de operationele signalen, de opvolging en hoe het resultaat te beoordelen is."
+  },
+  "pt": {
+    "howDescription": "Compare os locais por turno, entenda a exceção e concorde a resposta com o gerente responsável.",
+    "ctaDescription": "Escolha uma pergunta sobre local ou turno. Veja os sinais operacionais, o acompanhamento e como revisar o resultado."
+  },
+  "hi": {
+    "howDescription": "शिफ्ट पर स्थानों की तुलना करें, अपवाद समझें और जिम्मेदार प्रबंधक के साथ प्रतिक्रिया पर सहमति बनाएं।",
+    "ctaDescription": "एक स्थान या शिफ्ट प्रश्न चुनें। ऑपरेटिंग संकेत, फॉलो‑अप और परिणाम की समीक्षा कैसे करनी है देखें।"
+  },
+  "ur": {
+    "howDescription": "شفٹ پر مقامات کا موازنہ کریں، استثنا کو سمجھیں اور ذمہ دار مینیجر کے ساتھ ردِعمل طے کریں۔",
+    "ctaDescription": "ایک مقام یا شفٹ سوال منتخب کریں۔ آپریٹنگ سگنلز، فالو اپ اور نتیجے کا جائزہ دیکھیں۔"
+  },
+  "it": {
+    "howDescription": "Confronta le sedi su turno, capisci l’eccezione e concorda la risposta con il manager responsabile.",
+    "ctaDescription": "Scegli una sede o una domanda su un turno. Vedi i segnali operativi, il follow-up e come rivedere il risultato."
+  },
+  "pl": {
+    "howDescription": "Porównaj lokalizacje na zmianie, zrozum wyjątek i uzgodnij reakcję z odpowiedzialnym managerem.",
+    "ctaDescription": "Wybierz jedno pytanie dotyczące lokalizacji lub zmiany. Zobacz sygnały operacyjne, follow-up i sposób przeglądu wyniku."
+  },
+  "tr": {
+    "howDescription": "Konumları vardiya bazında karşılaştırın, istisnayı anlayın ve sorumlu yöneticiyle yanıtı kararlaştırın.",
+    "ctaDescription": "Bir konum veya vardiya sorusu seçin. İşletme sinyallerini, takibini ve sonucu nasıl gözden geçireceğinizi görün."
+  },
+  "zh-Hans": {
+    "howDescription": "在班次中比较门店，理解例外并与负责的经理达成响应。",
+    "ctaDescription": "选择一个门店或班次问题。查看运营信号、后续行动以及如何审查结果。"
+  },
+  "ja": {
+    "howDescription": "シフトでロケーションを比較し、例外を理解し、責任マネージャーと対応を合意する。",
+    "ctaDescription": "ロケーションやシフトの問いを一つ選ぶ。稼働シグナル、フォローアップ、結果のレビュー方法を確認する。"
+  },
+  "ko": {
+    "howDescription": "교대별로 지점을 비교하고 예외를 이해하며 책임 관리자와 대응을 합의하세요.",
+    "ctaDescription": "한 지점이나 교대 질문을 선택하세요. 운영 신호, 후속 조치 및 결과 검토 방법을 확인하세요."
+  },
+  "id": {
+    "howDescription": "Bandingkan lokasi pada shift, pahami pengecualian dan sepakati respons dengan manajer yang bertanggung jawab.",
+    "ctaDescription": "Pilih satu lokasi atau pertanyaan shift. Lihat sinyal operasional, tindak lanjut dan cara meninjau hasil."
+  },
+  "vi": {
+    "howDescription": "So sánh các địa điểm theo ca, hiểu ngoại lệ và thống nhất phản ứng với quản lý chịu trách nhiệm.",
+    "ctaDescription": "Chọn một câu hỏi về địa điểm hoặc ca. Xem các tín hiệu vận hành, hành động theo dõi và cách xem lại kết quả."
+  },
+  "ro": {
+    "howDescription": "Comparați locațiile pe schimb, înțelegeți excepția și conveniți răspunsul cu managerul responsabil.",
+    "ctaDescription": "Alegeți o locație sau o întrebare de schimb. Vedeți semnalele operaționale, urmărirea și cum să revizuiți rezultatul."
+  },
+  "sv": {
+    "howDescription": "Jämför platser per skift, förstå undantaget och kom överens om åtgärden med ansvarig chef.",
+    "ctaDescription": "Välj en plats eller skiftsfråga. Se driftssignalerna, uppföljningen och hur man granskar resultatet."
+  },
+  "bn": {
+    "howDescription": "শিফট অনুযায়ী লোকেশনগুলো তুলনা করুন, ব্যতিক্রমটা বুঝুন এবং দায়িত্বশীল ম্যানেজারের সঙ্গে প্রতিক্রিয়া সম্মত করুন।",
+    "ctaDescription": "একটি লোকেশন বা শিফট প্রশ্ন নির্বাচন করুন। অপারেটিং সংকেতগুলো, ফলো-আপ এবং ফলাফল কিভাবে পর্যালোচনা করা হবে তা দেখুন।"
+  },
+  "th": {
+    "howDescription": "เปรียบเทียบสาขาตามกะ เข้าใจข้อยกเว้น และตกลงการตอบสนองกับผู้จัดการที่รับผิดชอบ",
+    "ctaDescription": "เลือกคำถามสาขาหรือกะหนึ่งข้อ ดูสัญญาณการปฏิบัติงาน การติดตามผล และวิธีทบทวนผล"
+  },
+  "ms": {
+    "howDescription": "Bandingkan lokasi pada syif, fahami pengecualian dan setujui tindak balas dengan pengurus bertanggungjawab.",
+    "ctaDescription": "Pilih satu soalan lokasi atau syif. Lihat isyarat operasi, susulan dan cara menyemak hasil."
+  }
+}

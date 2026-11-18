@@ -94,7 +94,7 @@ export default function HomeContent() {
   const commercial = getCommercialCopy(locale);
   const deeper = bodyCopy[locale as keyof typeof bodyCopy];
   const depth = depthCopy[locale as keyof typeof depthCopy];
-  const layerDescriptions = [depth.pulse, audienceCopy[locale as keyof typeof audienceCopy].benchmarking, commercial.watchtowerEligibility, depth.insights, depth.intelligence, depth.foresight];
+  const layerDescriptions = [depth.pulse, audienceCopy[locale as keyof typeof audienceCopy].benchmarking, `${depth.watchtower} ${commercial.watchtowerEligibility}`, depth.insights, depth.intelligence, depth.foresight];
   const platform = { ...home.platform, eyebrow: deeper.platformEyebrow, heading: deeper.platformTitle, description: deeper.platformDescription, layers: home.platform.layers.map((layer, index) => ({ ...layer, description: layerDescriptions[index] })) };
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const closing = homeClosingCopy[locale as keyof typeof homeClosingCopy] ?? homeClosingCopy.en;

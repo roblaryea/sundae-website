@@ -47,3 +47,11 @@ Security, legal policy and historical research are not globally reauthored. Any 
 - Pre-release baseline, complete UTC periods ending18November00:00: acquisition11–17November has6entrants/0CTA/0accepted leads;21October–17November has27entrants/3CTA/0accepted leads. This is small volume, not evidence the new copy already worked or that the form needs redesign.
 - Extend existing canonical-page distribution through the content owner's approved sequence and copy/visual approvals. Supply practical operator questions, exact proof scope and tagged destinations; do not publish or schedule their work.
 - Annotate actual release times, compare complete post-release periods, and preserve the existing Monday cadence. Public-page availability, indexing, rankings, AI citations and qualified enquiries remain distinct outcomes.
+
+## Second finite body and feature cut
+
+The approved English is in `src/content/buyer-depth/en.json`, `src/content/buyer-feature-details/en.json` and `src/content/buyer-proof-labels/en.json`, each with a bound 22-locale manifest. It refines all ten solution role bodies, the five Crew module bodies, getting started and canonical FAQ answers, six feature-detail routes and supporting Home/Resources sections. Role CTAs now distinguish a booked walkthrough from public evidence. Crew country/provider/payment boundaries, human approval, data coverage and forecasting uncertainty remain explicit without placing repetitive caveats ahead of the practical job.
+
+Two source defects found during this deeper scan are removed: the retired Cross-Intelligence Base/Pro price/tier presentation and unsupported Cross/Foresight marketing stat grids. Actual sample numbers remain examples, with readable localized disclosure in the shared mockup frame. Real screenshots remain native demo proof with their separate disclosure. The current catalogue parity check passed against v1.8.2-policy-20261009; this does not certify unsupported capabilities or alter prices.
+
+A bounded campaign enhancement preserves consented public UTM slugs on canonical HTTPS pricing links, retaining quote, locale, explicit target tags and private-booking exclusions. Other external origins remain excluded. It is a continuity improvement, not a claim that prior first-touch analytics was definitively lost.
