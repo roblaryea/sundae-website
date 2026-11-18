@@ -1,5 +1,8 @@
 "use client";
 
+import bodyCopy from '@/content/buyer-clarity/home.json';
+
+
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
@@ -191,7 +194,13 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
 export function Section4DScene() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const deeper = bodyCopy[locale as keyof typeof bodyCopy];
+  const copy = { ...sourceCopy, eyebrow: deeper.scenarioEyebrow, headline: deeper.scenarioTitle,
+    description: deeper.scenarioDescription, closing: deeper.scenarioClosing,
+    illustrativeNote: deeper.scenarioNote,
+    dimensions: sourceCopy.dimensions.map((dimension, index) => ({ ...dimension, ...deeper.scenarioDimensions[index] })),
+    visualLabels: { ...sourceCopy.visualLabels, ...deeper.scenarioVisual } };
   const dimensions = copy.dimensions;
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);

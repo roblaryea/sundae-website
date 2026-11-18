@@ -1,0 +1,1388 @@
+{
+  "en": {
+    "realTime": {
+      "heading": "Find the change that needs attention.",
+      "description": "Compare sales, labor and costs across locations. Open the supporting records, decide the next step and follow the result with the manager responsible.",
+      "cards": [
+        {
+          "title": "Review the evidence",
+          "desc": "Inspect the records behind a signal before deciding what to do."
+        },
+        {
+          "title": "Compare locations",
+          "desc": "Start with the group view, then investigate the location or shift that differs."
+        },
+        {
+          "title": "Choose the coverage you need",
+          "desc": "Select a package for the operating areas you need to understand, with pricing based on your locations."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "CHECKING THE RESULT",
+      "heading": "See what changed after the action.",
+      "description": "A better number needs context. Review the action, the comparison period and the data behind it before treating a change as recovered profit.",
+      "items": [
+        {
+          "question": "Was the action followed through?",
+          "title": "Action and follow-up",
+          "desc": "Review who took responsibility, what was done and whether a result was recorded. An open action is still open."
+        },
+        {
+          "question": "Is the comparison fair?",
+          "title": "The starting point",
+          "desc": "Compare relevant periods and operating conditions. Check seasonality, data coverage and other changes that could affect the result."
+        },
+        {
+          "question": "How does the value compare with the cost?",
+          "title": "Compare recovered value with your cost.",
+          "desc": "Review supported recovery figures alongside your Sundae cost for the same period. A positive return depends on the evidence and your operation."
+        }
+      ],
+      "honesty": "Keep estimates, recorded outcomes and reviewed results distinct. Missing evidence should remain visible."
+    },
+    "solves": {
+      "heading": "Choose the operating areas you need to understand.",
+      "description": "Packages cover different areas of the operation. Review the coverage and your connected data before choosing."
+    },
+    "pulse": {
+      "heading": "Pulse: follow the live shift.",
+      "description": "See where sales, labor and leakage signals move off plan. Investigate the change and agree the response with the manager on shift."
+    },
+    "integrations": {
+      "heading": "Connect the systems your operation uses.",
+      "description": "Review your POS, workforce, inventory, accounting and other data sources with Sundae. Connection method, available fields and refresh timing depend on the source and setup."
+    },
+    "watchtower": {
+      "heading": "Put market changes beside your operating data.",
+      "description": "Compare relevant competitor, event and weather signals with changes at your locations. Use the context to investigate a question or plan a response."
+    },
+    "cta": {
+      "title": "Bring one sales or cost question.",
+      "description": "Walk through the supporting data, the next action and how you would review the result. We can start with a sample operation."
+    }
+  },
+  "ar": {
+    "realTime": {
+      "heading": "اعثر على التغيير الذي يحتاج انتباه.",
+      "description": "قارن المبيعات والعمالة والتكاليف عبر المواقع. افتح السجلات الداعمة، قرر الخطوة التالية وتابع النتيجة مع المدير المسؤول.",
+      "cards": [
+        {
+          "title": "راجع الدلائل",
+          "desc": "افحص السجلات وراء الإشارة قبل أن تقرر ما تفعل."
+        },
+        {
+          "title": "قارن المواقع",
+          "desc": "ابدأ بعرض المجموعة، ثم حقق في الموقع أو الشفت المختلف."
+        },
+        {
+          "title": "اختر التغطية التي تحتاجها",
+          "desc": "اختر حزما لمناطق التشغيل التي تحتاج فهمها، مع تسعير يعتمد على مواقعك."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "فحص النتيجة",
+      "heading": "انظر ما تغيّر بعد الإجراء.",
+      "description": "الرقم الأفضل يحتاج سياقا. راجع الإجراء، فترة المقارنة والبيانات الداعمة قبل اعتبار التغير ربحا مستعادا.",
+      "items": [
+        {
+          "question": "هل تم متابعة الإجراء؟",
+          "title": "الإجراء والمتابعة",
+          "desc": "راجع من تولّى المسؤولية، ما الذي نُفّذ وهل سُجّلت نتيجة. الإجراء المفتوح يبقى مفتوحا."
+        },
+        {
+          "question": "هل المقارنة عادلة؟",
+          "title": "نقطة البداية",
+          "desc": "قارن فترات وظروف تشغيل ذات صلة. تحقق من الموسمية، تغطية البيانات وتغيرات أخرى قد تؤثر على النتيجة."
+        },
+        {
+          "question": "كيف تقارن القيمة بالتكلفة؟",
+          "title": "قارن القيمة المستعادة بتكلفتك.",
+          "desc": "راجع أرقام الاسترداد المدعومة إلى جانب تكلفة Sundae للفترة نفسها. العائد الإيجابي يعتمد على الدليل وتشغيلك."
+        }
+      ],
+      "honesty": "حافظ على تمييز التقديرات والنتائج المسجّلة والنتائج التي راجعت. يجب أن تظل الأدلة المفقودة مرئية."
+    },
+    "solves": {
+      "heading": "اختر مجالات التشغيل التي تحتاج فهمها.",
+      "description": "تغطي الحزم مناطق مختلفة من التشغيل. راجع التغطية وبياناتك الموصولة قبل الاختيار."
+    },
+    "pulse": {
+      "heading": "Pulse: تابع الشفت الحي.",
+      "description": "شاهد أين تبتعد إشارات المبيعات والعمالة والتسرب عن الخطة. حقق في التغيير واتفق على الاستجابة مع المدير في الشفت."
+    },
+    "integrations": {
+      "heading": "ربط الأنظمة التي يستخدمها تشغيلك.",
+      "description": "راجع POS والعمالة والمخزون والمحاسبة ومصادر بيانات أخرى مع Sundae. طريقة الاتصال والحقول المتاحة وتوقيت التحديث تعتمد على المصدر والإعداد."
+    },
+    "watchtower": {
+      "heading": "ضع تغيّرات السوق بجانب بيانات تشغيلك.",
+      "description": "قارن إشارات المنافسين والأحداث والطقس ذات الصلة مع التغيّرات في مواقعك. استخدم السياق للتحقيق في سؤال أو تخطيط استجابة."
+    },
+    "cta": {
+      "title": "قدّم سؤال مبيعات أو تكلفة واحد.",
+      "description": "تعرّف على البيانات الداعمة، الإجراء التالي وكيف ستراجع النتيجة. يمكننا البدء بتشغيل نموذجي."
+    }
+  },
+  "fr": {
+    "realTime": {
+      "heading": "Trouvez le changement qui nécessite de l’attention.",
+      "description": "Comparez ventes, main-d’œuvre et coûts entre sites. Ouvrez les enregistrements justificatifs, décidez de l’étape suivante et suivez le résultat avec le manager responsable.",
+      "cards": [
+        {
+          "title": "Vérifier les preuves",
+          "desc": "Inspectez les enregistrements derrière un signal avant de décider quoi faire."
+        },
+        {
+          "title": "Comparer les sites",
+          "desc": "Commencez par la vue de groupe, puis investiguez le site ou le shift qui diffère."
+        },
+        {
+          "title": "Choisir la couverture dont vous avez besoin",
+          "desc": "Sélectionnez un package pour les zones opérationnelles que vous devez comprendre, avec tarification basée sur vos sites."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "VÉRIFICATION DU RÉSULTAT",
+      "heading": "Voir ce qui a changé après l’action.",
+      "description": "Un meilleur chiffre nécessite du contexte. Passez en revue l’action, la période de comparaison et les données sous-jacentes avant de considérer un changement comme du profit récupéré.",
+      "items": [
+        {
+          "question": "L’action a-t-elle été suivie ?",
+          "title": "Action et suivi",
+          "desc": "Vérifiez qui a pris la responsabilité, ce qui a été fait et si un résultat a été enregistré. Une action ouverte est toujours ouverte."
+        },
+        {
+          "question": "La comparaison est-elle équitable ?",
+          "title": "Le point de départ",
+          "desc": "Comparez des périodes et conditions d’exploitation pertinentes. Vérifiez la saisonnalité, la couverture des données et d’autres changements pouvant affecter le résultat."
+        },
+        {
+          "question": "Comment la valeur se compare-t-elle au coût ?",
+          "title": "Comparer la valeur récupérée avec votre coût.",
+          "desc": "Examinez les chiffres de récupération étayés aux côtés du coût Sundae pour la même période. Un retour positif dépend des preuves et de votre exploitation."
+        }
+      ],
+      "honesty": "Maintenez distincts estimations, résultats enregistrés et résultats revus. Les preuves manquantes doivent rester visibles."
+    },
+    "solves": {
+      "heading": "Choisissez les zones opérationnelles que vous devez comprendre.",
+      "description": "Les packages couvrent différentes zones de l’exploitation. Passez en revue la couverture et vos données connectées avant de choisir."
+    },
+    "pulse": {
+      "heading": "Pulse : suivre le shift en direct.",
+      "description": "Voyez où les signaux de ventes, main-d’œuvre et fuites s’écartent du plan. Investigatez le changement et convenez de la réponse avec le manager en poste."
+    },
+    "integrations": {
+      "heading": "Connectez les systèmes utilisés par votre exploitation.",
+      "description": "Examinez vos sources POS, effectifs, inventaire, comptabilité et autres avec Sundae. La méthode de connexion, les champs disponibles et le rythme de rafraîchissement dépendent de la source et de la configuration."
+    },
+    "watchtower": {
+      "heading": "Placez les changements de marché à côté de vos données opérationnelles.",
+      "description": "Comparez les signaux pertinents de concurrents, d’événements et de météo avec les changements sur vos sites. Utilisez le contexte pour investiguer une question ou planifier une réponse."
+    },
+    "cta": {
+      "title": "Apportez une question sur les ventes ou les coûts.",
+      "description": "Parcourez les données justificatives, l’action suivante et comment vous examineriez le résultat. Nous pouvons commencer avec une exploitation d’exemple."
+    }
+  },
+  "es": {
+    "realTime": {
+      "heading": "Encuentre el cambio que necesita atención.",
+      "description": "Compare ventas, personal y costes entre ubicaciones. Abra los registros de respaldo, decida el siguiente paso y siga el resultado con el gestor responsable.",
+      "cards": [
+        {
+          "title": "Revise la evidencia",
+          "desc": "Inspeccione los registros detrás de una señal antes de decidir qué hacer."
+        },
+        {
+          "title": "Compare ubicaciones",
+          "desc": "Comience con la vista de grupo, luego investigue la ubicación o el turno que difiere."
+        },
+        {
+          "title": "Elija la cobertura que necesita",
+          "desc": "Seleccione un paquete para las áreas operativas que necesite entender, con precios basados en sus ubicaciones."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "COMPROBANDO EL RESULTADO",
+      "heading": "Vea qué cambió después de la acción.",
+      "description": "Un número mejor necesita contexto. Revise la acción, el periodo de comparación y los datos detrás antes de tratar un cambio como beneficio recuperado.",
+      "items": [
+        {
+          "question": "¿Se siguió la acción?",
+          "title": "Acción y seguimiento",
+          "desc": "Revise quién asumió la responsabilidad, qué se hizo y si se registró un resultado. Una acción abierta sigue abierta."
+        },
+        {
+          "question": "¿Es justa la comparación?",
+          "title": "El punto de partida",
+          "desc": "Compare periodos y condiciones operativas relevantes. Compruebe la estacionalidad, la cobertura de datos y otros cambios que podrían afectar el resultado."
+        },
+        {
+          "question": "¿Cómo se compara el valor con el coste?",
+          "title": "Compare el valor recuperado con su coste.",
+          "desc": "Revise las cifras de recuperación respaldadas junto con su coste de Sundae para el mismo periodo. Un retorno positivo depende de la evidencia y de su operación."
+        }
+      ],
+      "honesty": "Mantenga estimaciones, resultados registrados y resultados revisados distintos. La falta de evidencia debe permanecer visible."
+    },
+    "solves": {
+      "heading": "Elija las áreas operativas que necesita entender.",
+      "description": "Los paquetes cubren distintas áreas de la operación. Revise la cobertura y sus datos conectados antes de elegir."
+    },
+    "pulse": {
+      "heading": "Pulse: siga el turno en vivo.",
+      "description": "Vea dónde las señales de ventas, plantilla y fuga se alejan del plan. Investigue el cambio y acuerde la respuesta con el gestor en turno."
+    },
+    "integrations": {
+      "heading": "Conecte los sistemas que usa su operación.",
+      "description": "Revise su POS, plantilla, inventario, contabilidad y otras fuentes de datos con Sundae. El método de conexión, los campos disponibles y la frecuencia de actualización dependen de la fuente y la configuración."
+    },
+    "watchtower": {
+      "heading": "Coloque los cambios del mercado junto a sus datos operativos.",
+      "description": "Compare señales relevantes de competidores, eventos y clima con los cambios en sus ubicaciones. Use el contexto para investigar una pregunta o planificar una respuesta."
+    },
+    "cta": {
+      "title": "Lleve una pregunta de ventas o costes.",
+      "description": "Recorra los datos de respaldo, el siguiente paso y cómo revisaría el resultado. Podemos comenzar con una operación de muestra."
+    }
+  },
+  "de": {
+    "realTime": {
+      "heading": "Finden Sie die Änderung, die Aufmerksamkeit braucht.",
+      "description": "Vergleichen Sie Umsatz, Personal und Kosten über Standorte hinweg. Öffnen Sie die unterstützenden Aufzeichnungen, entscheiden Sie den nächsten Schritt und verfolgen Sie das Ergebnis mit dem verantwortlichen Manager.",
+      "cards": [
+        {
+          "title": "Beweise prüfen",
+          "desc": "Untersuchen Sie die Aufzeichnungen hinter einem Signal, bevor Sie entscheiden, was zu tun ist."
+        },
+        {
+          "title": "Standorte vergleichen",
+          "desc": "Beginnen Sie mit der Gruppenansicht, untersuchen Sie dann den Standort oder die Schicht, die abweicht."
+        },
+        {
+          "title": "Wählen Sie die nötige Deckung",
+          "desc": "Wählen Sie ein Paket für die Betriebsbereiche, die Sie verstehen müssen; die Preisgestaltung richtet sich nach Ihren Standorten."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "ERGEBNIS PRÜFEN",
+      "heading": "Sehen Sie, was sich nach der Aktion verändert hat.",
+      "description": "Eine bessere Zahl braucht Kontext. Überprüfen Sie die Aktion, den Vergleichszeitraum und die zugrunde liegenden Daten, bevor Sie eine Änderung als wiedergewonnenen Gewinn behandeln.",
+      "items": [
+        {
+          "question": "Wurde die Aktion ausgeführt?",
+          "title": "Aktion und Nachverfolgung",
+          "desc": "Prüfen Sie, wer Verantwortung übernommen hat, was getan wurde und ob ein Ergebnis aufgezeichnet wurde. Eine offene Aktion ist weiterhin offen."
+        },
+        {
+          "question": "Ist der Vergleich fair?",
+          "title": "Der Ausgangspunkt",
+          "desc": "Vergleichen Sie relevante Perioden und Betriebsbedingungen. Prüfen Sie Saisonalität, Datenabdeckung und andere Änderungen, die das Ergebnis beeinflussen könnten."
+        },
+        {
+          "question": "Wie verhält sich der Wert zu den Kosten?",
+          "title": "Vergleichen Sie wiedergewonnenen Wert mit Ihren Kosten.",
+          "desc": "Prüfen Sie unterstützte Wiedergewinnungszahlen neben Ihren Sundae-Kosten für denselben Zeitraum. Eine positive Rendite hängt von den Beweisen und Ihrem Betrieb ab."
+        }
+      ],
+      "honesty": "Halten Sie Schätzungen, aufgezeichnete Ergebnisse und überprüfte Resultate klar getrennt. Fehlende Belege sollten sichtbar bleiben."
+    },
+    "solves": {
+      "heading": "Wählen Sie die Betriebsbereiche, die Sie verstehen müssen.",
+      "description": "Pakete decken unterschiedliche Bereiche des Betriebs ab. Prüfen Sie die Abdeckung und Ihre verbundenen Daten, bevor Sie wählen."
+    },
+    "pulse": {
+      "heading": "Pulse: Folgen Sie der Live-Schicht.",
+      "description": "Sehen Sie, wo Umsatz-, Personal- und Leakage-Signale vom Plan abweichen. Untersuchen Sie die Änderung und vereinbaren Sie die Reaktion mit dem Manager in der Schicht."
+    },
+    "integrations": {
+      "heading": "Verbinden Sie die Systeme, die Ihr Betrieb nutzt.",
+      "description": "Prüfen Sie Ihr POS, Workforce-, Inventar-, Buchhaltungs- und andere Datenquellen mit Sundae. Verbindungsart, verfügbare Felder und Aktualisierungsfrequenz hängen von der Quelle und Einrichtung ab."
+    },
+    "watchtower": {
+      "heading": "Stellen Sie Marktveränderungen neben Ihre Betriebsdaten.",
+      "description": "Vergleichen Sie relevante Wettbewerber-, Event- und Wettersignale mit Veränderungen an Ihren Standorten. Nutzen Sie den Kontext, um eine Frage zu untersuchen oder eine Reaktion zu planen."
+    },
+    "cta": {
+      "title": "Bringen Sie eine Umsatz- oder Kostenfrage mit.",
+      "description": "Gehen Sie die unterstützenden Daten, den nächsten Schritt und wie Sie das Ergebnis überprüfen würden, durch. Wir können mit einem Beispielbetrieb beginnen."
+    }
+  },
+  "nl": {
+    "realTime": {
+      "heading": "Vind de verandering die aandacht nodig heeft.",
+      "description": "Vergelijk verkoop, inzet en kosten tussen locaties. Open de ondersteunende dossiers, bepaal de volgende stap en volg het resultaat met de verantwoordelijke manager.",
+      "cards": [
+        {
+          "title": "Beoordeel het bewijsmateriaal",
+          "desc": "Inspecteer de dossiers achter een signaal voordat u beslist wat te doen."
+        },
+        {
+          "title": "Vergelijk locaties",
+          "desc": "Begin met de groepsweergave en onderzoek vervolgens de locatie of shift die afwijkt."
+        },
+        {
+          "title": "Kies de dekking die u nodig heeft",
+          "desc": "Selecteer een pakket voor de operationele gebieden die u wilt begrijpen, met prijzen gebaseerd op uw locaties."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "CONTROLE OP HET RESULTAAT",
+      "heading": "Zie wat er veranderde na de actie.",
+      "description": "Een beter cijfer heeft context nodig. Beoordeel de actie, de vergelijkingsperiode en de gegevens erachter voordat u een verandering als hersteld rendement behandelt.",
+      "items": [
+        {
+          "question": "Is de actie uitgevoerd?",
+          "title": "Actie en nazorg",
+          "desc": "Bekijk wie verantwoordelijkheid nam, wat er is gedaan en of een resultaat is vastgelegd. Een openstaande actie is nog steeds open."
+        },
+        {
+          "question": "Is de vergelijking eerlijk?",
+          "title": "Het uitgangspunt",
+          "desc": "Vergelijk relevante periodes en operationele omstandigheden. Controleer seizoensinvloeden, datadekking en andere veranderingen die het resultaat kunnen beïnvloeden."
+        },
+        {
+          "question": "Hoe verhoudt de waarde zich tot de kosten?",
+          "title": "Vergelijk herwonnen waarde met uw kosten.",
+          "desc": "Bekijk ondersteunde herstelcijfers naast uw Sundae-kosten voor dezelfde periode. Een positief rendement hangt af van het bewijsmateriaal en uw operatie."
+        }
+      ],
+      "honesty": "Houd schattingen, vastgelegde uitkomsten en beoordeelde resultaten gescheiden. Ontbrekend bewijs moet zichtbaar blijven."
+    },
+    "solves": {
+      "heading": "Kies de operationele gebieden die u wilt begrijpen.",
+      "description": "Pakketten dekken verschillende gebieden van de operatie. Bekijk de dekking en uw gekoppelde gegevens voordat u kiest."
+    },
+    "pulse": {
+      "heading": "Pulse: volg de live shift.",
+      "description": "Zie waar verkoop-, inzet- en lekkagesignalen van plan afwijken. Onderzoek de verandering en stem de reactie af met de manager op de shift."
+    },
+    "integrations": {
+      "heading": "Verbind de systemen die uw operatie gebruikt.",
+      "description": "Bekijk uw POS-, personeels-, voorraad-, boekhoud- en andere datasources met Sundae. Verbindingsmethode, beschikbare velden en refresh-timing hangen af van de bron en setup."
+    },
+    "watchtower": {
+      "heading": "Plaats marktveranderingen naast uw operationele gegevens.",
+      "description": "Vergelijk relevante concurrentie-, evenement- en weersignalen met veranderingen op uw locaties. Gebruik de context om een vraag te onderzoeken of een respons te plannen."
+    },
+    "cta": {
+      "title": "Breng één verkoop- of kostenvraag.",
+      "description": "Loop door de onderliggende gegevens, de volgende actie en hoe u het resultaat zou beoordelen. We kunnen beginnen met een voorbeeldoperatie."
+    }
+  },
+  "pt": {
+    "realTime": {
+      "heading": "Encontre a mudança que precisa de atenção.",
+      "description": "Compare vendas, pessoal e custos entre localizações. Abra os registos de suporte, decida o próximo passo e acompanhe o resultado com o gestor responsável.",
+      "cards": [
+        {
+          "title": "Revise as evidências",
+          "desc": "Inspecione os registos por trás de um sinal antes de decidir o que fazer."
+        },
+        {
+          "title": "Compare localizações",
+          "desc": "Comece pela vista de grupo e depois investigue o local ou turno que difere."
+        },
+        {
+          "title": "Escolha a cobertura necessária",
+          "desc": "Selecione um pacote para as áreas operacionais que precisa de entender, com preços baseados nas suas localizações."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "VERIFICANDO O RESULTADO",
+      "heading": "Veja o que mudou após a ação.",
+      "description": "Um número melhor precisa de contexto. Reveja a ação, o período de comparação e os dados por trás antes de tratar uma mudança como lucro recuperado.",
+      "items": [
+        {
+          "question": "A ação foi executada?",
+          "title": "Ação e acompanhamento",
+          "desc": "Revise quem assumiu responsabilidade, o que foi feito e se foi registado um resultado. Uma ação aberta continua aberta."
+        },
+        {
+          "question": "A comparação é justa?",
+          "title": "O ponto de partida",
+          "desc": "Compare períodos e condições operacionais relevantes. Verifique sazonalidade, cobertura de dados e outras mudanças que possam afetar o resultado."
+        },
+        {
+          "question": "Como o valor compara com o custo?",
+          "title": "Compare o valor recuperado com o seu custo.",
+          "desc": "Revise os números de recuperação suportados juntamente com o custo da Sundae para o mesmo período. Um retorno positivo depende das evidências e da sua operação."
+        }
+      ],
+      "honesty": "Mantenha estimativas, resultados registados e resultados revistos distintos. A falta de evidência deve permanecer visível."
+    },
+    "solves": {
+      "heading": "Escolha as áreas operacionais que precisa de entender.",
+      "description": "Os pacotes cobrem diferentes áreas da operação. Reveja a cobertura e os seus dados conectados antes de escolher."
+    },
+    "pulse": {
+      "heading": "Pulse: acompanhe o turno em tempo real.",
+      "description": "Veja onde sinais de vendas, pessoal e fuga se desviam do plano. Investigue a mudança e concorde a resposta com o gestor em turno."
+    },
+    "integrations": {
+      "heading": "Conecte os sistemas que a sua operação usa.",
+      "description": "Revise o seu POS, gestão de pessoal, inventário, contabilidade e outras fontes de dados com a Sundae. O método de conexão, campos disponíveis e tempo de atualização dependem da fonte e da configuração."
+    },
+    "watchtower": {
+      "heading": "Coloque mudanças de mercado ao lado dos seus dados operacionais.",
+      "description": "Compare sinais relevantes de concorrentes, eventos e meteorologia com mudanças nas suas localizações. Use o contexto para investigar uma questão ou planear uma resposta."
+    },
+    "cta": {
+      "title": "Traga uma pergunta sobre vendas ou custos.",
+      "description": "Percorra os dados de suporte, a próxima ação e como revisaria o resultado. Podemos começar com uma operação de amostra."
+    }
+  },
+  "hi": {
+    "realTime": {
+      "heading": "उस परिवर्तन को खोजें जिस पर ध्यान देने की आवश्यकता है।",
+      "description": "लोकेशनों के बीच सेल्स, लेबर और लागत की तुलना करें। समर्थन करने वाले रिकॉर्ड खोलें, अगला कदम तय करें और जिम्मेदार प्रबंधक के साथ परिणाम का पालन करें।",
+      "cards": [
+        {
+          "title": "साक्ष्य की समीक्षा करें",
+          "desc": "निर्णय लेने से पहले सिग्नल के पीछे के रिकॉर्ड का निरीक्षण करें।"
+        },
+        {
+          "title": "लोकेशनों की तुलना करें",
+          "desc": "ग्रुप व्यू से शुरू करें, फिर उस लोकेशन या शिफ्ट की जाँच करें जो अलग दिखती है।"
+        },
+        {
+          "title": "आपको जो कवरेज चाहिए चुनें",
+          "desc": "उन ऑपरेटिंग क्षेत्रों के लिए पैकेज चुनें जिन्हें आप समझना चाहते हैं, कीमतें आपके लोकेशनों के आधार पर निर्धारित होती हैं।"
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "परिणाम की जांच",
+      "heading": "कार्रवाई के बाद क्या बदला देखें।",
+      "description": "एक बेहतर संख्या को संदर्भ की आवश्यकता होती है। परिवर्तन को सुधार हुआ मुनाफा मानने से पहले कार्रवाई, तुलना अवधि और उसके पीछे के डेटा की समीक्षा करें।",
+      "items": [
+        {
+          "question": "क्या कार्रवाई पूरी हुई?",
+          "title": "कार्रवाई और फॉलो-अप",
+          "desc": "जिम्मेदारी किसने ली, क्या किया गया और क्या परिणाम रिकॉर्ड हुआ इसकी समीक्षा करें। खुला कार्रवाई अभी भी खुली रहेगी।"
+        },
+        {
+          "question": "क्या तुलना निष्पक्ष है?",
+          "title": "शुरुआती बिंदु",
+          "desc": "प्रासंगिक अवधियों और ऑपरेटिंग शर्तों की तुलना करें। मौसमीता, डेटा कवरेज और अन्य परिवर्तनों की जांच करें जो परिणाम को प्रभावित कर सकते हैं।"
+        },
+        {
+          "question": "मूल्य की तुलना लागत के साथ कैसे है?",
+          "title": "प्राप्त मूल्य की तुलना अपनी लागत से करें।",
+          "desc": "एक ही अवधि के लिए समर्थित रिकवरी आंकड़ों की तुलना अपने Sundae लागत के साथ करें। सकारात्मक रिटर्न साक्ष्य और आपके संचालन पर निर्भर करता है।"
+        }
+      ],
+      "honesty": "अनुमानों, रिकॉर्ड किए गए परिणामों और समीक्षा किए गए परिणामों को अलग रखें। गायब साक्ष्य को स्पष्ट रखना चाहिए।"
+    },
+    "solves": {
+      "heading": "उन ऑपरेटिंग क्षेत्रों का चयन करें जिन्हें आप समझना चाहते हैं।",
+      "description": "पैकेज ऑपरेशन के विभिन्न क्षेत्रों को कवर करते हैं। चुनने से पहले कवरेज और आपके जुड़े डेटा की समीक्षा करें।"
+    },
+    "pulse": {
+      "heading": "Pulse: लाइव शिफ्ट का पालन करें।",
+      "description": "देखें कहाँ सेल्स, लेबर और लीकएज सिग्नल प्लान से हटते हैं। परिवर्तन की जांच करें और शिफ्ट पर प्रबंधक के साथ प्रतिक्रिया सहमत करें।"
+    },
+    "integrations": {
+      "heading": "उन प्रणालियों को कनेक्ट करें जिनका आपका संचालन उपयोग करता है।",
+      "description": "Sundae के साथ अपने POS, वर्कफोर्स, इन्वेंटरी, अकाउंटिंग और अन्य डेटा स्रोतों की समीक्षा करें। कनेक्शन विधि, उपलब्ध फ़ील्ड और रिफ्रेश समय स्रोत और सेटअप पर निर्भर करते हैं।"
+    },
+    "watchtower": {
+      "heading": "बाजार परिवर्तनों को अपने ऑपरेटिंग डेटा के बगल में रखें।",
+      "description": "प्रासंगिक प्रतियोगी, इवेंट और मौसम सिग्नल की तुलना अपने लोकेशनों में हुए बदलावों के साथ करें। संदर्भ का उपयोग प्रश्न की जांच या प्रतिक्रिया की योजना बनाने के लिए करें।"
+    },
+    "cta": {
+      "title": "एक सेल्स या लागत प्रश्न लाएं।",
+      "description": "समर्थक डेटा, अगला कार्य और आप परिणाम की समीक्षा कैसे करेंगे यह दिखाएँ। हम एक सैंपल ऑपरेशन से शुरू कर सकते हैं।"
+    }
+  },
+  "ur": {
+    "realTime": {
+      "heading": "بدلتی صورتحال تلاش کریں جس پر توجہ درکار ہو۔",
+      "description": "فروخت، لیبر اور لاگت کا مختلف مقامات میں موازنہ کریں۔ معاون ریکارڈ کھولیں، اگلا قدم طے کریں اور ذمہ دار منیجر کے ساتھ نتیجے کی پیروی کریں۔",
+      "cards": [
+        {
+          "title": "شواہد کا جائزہ لیں",
+          "desc": "فیصلہ کرنے سے پہلے سگنل کے پیچھے موجود ریکارڈز کا معائنہ کریں۔"
+        },
+        {
+          "title": "مقامات کا موازنہ کریں",
+          "desc": "گروپ ویو سے شروع کریں، پھر اس مقام یا شفٹ کی تفتیش کریں جو مختلف ہے۔"
+        },
+        {
+          "title": "ضرورت کے مطابق کوریج منتخب کریں",
+          "desc": "ان آپریٹنگ علاقوں کے لیے ایک پیکیج منتخب کریں جنہیں آپ سمجھنا چاہتے ہیں، قیمتیں آپ کے مقامات کی بنیاد پر ہیں۔"
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "نتیجہ کی جانچ",
+      "heading": "عمل کے بعد کیا بدلا دیکھیں۔",
+      "description": "بہتر نمبر کو سیاق و سباق کی ضرورت ہوتی ہے۔ کسی تبدیلی کو بازیافت شدہ منافع سمجھنے سے پہلے عمل، موازنہ مدت اور اس کے پیچھے کے ڈیٹا کا جائزہ لیں۔",
+      "items": [
+        {
+          "question": "کیا عمل پوری طرح انجام پایا؟",
+          "title": "عمل اور فالو اپ",
+          "desc": "یہ دیکھیں کہ کس نے ذمہ داری لی، کیا کیا گیا اور کیا نتیجہ ریکارڈ ہوا۔ کھلا عمل تب تک کھلا رہتا ہے جب تک اسے بند نہ کیا جائے۔"
+        },
+        {
+          "question": "کیا موازنہ منصفانہ ہے؟",
+          "title": "ابتدائی نقطہ",
+          "desc": "متعلقہ مدتوں اور آپریٹنگ حالات کا موازنہ کریں۔ موسمیات، ڈیٹا کوریج اور دیگر تبدیلیوں کو چیک کریں جو نتیجے پر اثرانداز ہو سکتی ہیں۔"
+        },
+        {
+          "question": "اس قدر کا موازنہ آپ کی لاگت سے کیسا ہے؟",
+          "title": "بازیافت شدہ قدر کا آپ کی لاگت کے ساتھ موازنہ کریں۔",
+          "desc": "ایک ہی مدت کے لیے سپورٹ شدہ بازیافت اعداد و شمار کو اپنے Sundae لاگت کے ساتھ دیکھیں۔ مثبت واپسی شواہد اور آپریشن پر منحصر ہے۔"
+        }
+      ],
+      "honesty": "تخمینے، ریکارڈ شدہ نتائج اور جائزہ شدہ نتائج کو الگ رکھیں۔ غائب شواہد کو مرئی رہنے دیں۔"
+    },
+    "solves": {
+      "heading": "ان آپریٹنگ شعبوں کا انتخاب کریں جنہیں آپ سمجھنا چاہتے ہیں۔",
+      "description": "پیکیجز آپریشن کے مختلف شعبوں کو کور کرتے ہیں۔ انتخاب کرنے سے پہلے کوریج اور آپ کے مربوط ڈیٹا کا جائزہ لیں۔"
+    },
+    "pulse": {
+      "heading": "Pulse: لائیو شفٹ کی پیروی کریں۔",
+      "description": "دیکھیں کہ کہاں فروخت، لیبر اور لیکیج سگنلز پلان سے ہٹ رہے ہیں۔ تبدیلی کی تفتیش کریں اور شفٹ پر موجود منیجر کے ساتھ ردعمل طے کریں۔"
+    },
+    "integrations": {
+      "heading": "اپنے آپریشن میں استعمال ہونے والے نظاموں کو جوڑیں۔",
+      "description": "Sundae کے ساتھ اپنے POS، ورک فورس، انوینٹری، اکاؤنٹنگ اور دیگر ڈیٹا ماخذوں کا جائزہ لیں۔ کنکشن کا طریقہ، دستیاب فیلڈز اور ریفریش ٹائمنگ ماخذ اور سیٹ اپ پر منحصر ہیں۔"
+    },
+    "watchtower": {
+      "heading": "بازار کی تبدیلیوں کو اپنے آپریٹنگ ڈیٹا کے ساتھ رکھیں۔",
+      "description": "متعلقہ حریف، ایونٹ اور موسم کے اشاروں کا موازنہ اپنے مقامات پر ہونے والی تبدیلیوں کے ساتھ کریں۔ سوال کی تفتیش یا ردعمل کی منصوبہ بندی کے لیے سیاق و سباق استعمال کریں۔"
+    },
+    "cta": {
+      "title": "ایک فروخت یا لاگت کا سوال لائیں۔",
+      "description": "معاون ڈیٹا، اگلا عمل اور نتیجہ کا جائزہ لیں۔ ہم ایک نمونہ آپریشن سے شروع کر سکتے ہیں۔"
+    }
+  },
+  "it": {
+    "realTime": {
+      "heading": "Trova il cambiamento che richiede attenzione.",
+      "description": "Confronta vendite, personale e costi tra le sedi. Apri i registri di supporto, decidi il passo successivo e segui il risultato con il manager responsabile.",
+      "cards": [
+        {
+          "title": "Rivedi le prove",
+          "desc": "Ispeziona i registri dietro un segnale prima di decidere cosa fare."
+        },
+        {
+          "title": "Confronta le sedi",
+          "desc": "Inizia dalla vista di gruppo, poi indaga la sede o il turno che differisce."
+        },
+        {
+          "title": "Scegli la copertura necessaria",
+          "desc": "Seleziona un pacchetto per le aree operative che devi comprendere, con prezzi basati sulle tue sedi."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "VERIFICA DEL RISULTATO",
+      "heading": "Vedi cosa è cambiato dopo l'azione.",
+      "description": "Un numero migliore ha bisogno di contesto. Rivedi l'azione, il periodo di confronto e i dati alla base prima di considerare una variazione come profitto recuperato.",
+      "items": [
+        {
+          "question": "L'azione è stata portata a termine?",
+          "title": "Azione e follow-up",
+          "desc": "Controlla chi si è assunto la responsabilità, cosa è stato fatto e se è stato registrato un risultato. Un'azione aperta è ancora aperta."
+        },
+        {
+          "question": "Il confronto è equo?",
+          "title": "Il punto di partenza",
+          "desc": "Confronta periodi e condizioni operative rilevanti. Verifica stagionalità, copertura dei dati e altri cambiamenti che potrebbero influenzare il risultato."
+        },
+        {
+          "question": "Come si confronta il valore con il costo?",
+          "title": "Confronta il valore recuperato con il tuo costo.",
+          "desc": "Rivedi le cifre di recupero supportate insieme al costo di Sundae per lo stesso periodo. Un ritorno positivo dipende dalle prove e dalla tua operazione."
+        }
+      ],
+      "honesty": "Mantieni distinte stime, risultati registrati e risultati revisionati. Le prove mancanti devono rimanere visibili."
+    },
+    "solves": {
+      "heading": "Scegli le aree operative che devi comprendere.",
+      "description": "I pacchetti coprono diverse aree dell'operazione. Verifica la copertura e i dati connessi prima di scegliere."
+    },
+    "pulse": {
+      "heading": "Pulse: segui il turno in diretta.",
+      "description": "Vedi dove segnali di vendite, personale e perdite si discostano dal piano. Indaga la variazione e concorda la risposta con il manager in turno."
+    },
+    "integrations": {
+      "heading": "Connetti i sistemi che usa la tua operazione.",
+      "description": "Rivedi il tuo POS, workforce, inventario, contabilità e altre fonti dati con Sundae. Metodo di connessione, campi disponibili e frequenza di aggiornamento dipendono dalla fonte e dalla configurazione."
+    },
+    "watchtower": {
+      "heading": "Metti i cambiamenti di mercato accanto ai tuoi dati operativi.",
+      "description": "Confronta segnali pertinenti di concorrenti, eventi e meteo con i cambiamenti nelle tue sedi. Usa il contesto per investigare una domanda o pianificare una risposta."
+    },
+    "cta": {
+      "title": "Porta una domanda su vendite o costi.",
+      "description": "Analizziamo insieme i dati di supporto, la prossima azione e come rivedresti il risultato. Possiamo iniziare con un'operazione di esempio."
+    }
+  },
+  "pl": {
+    "realTime": {
+      "heading": "Znajdź zmianę, która wymaga uwagi.",
+      "description": "Porównuj sprzedaż, pracę i koszty między lokalizacjami. Otwórz wspierające zapisy, zdecyduj o następnym kroku i śledź rezultat z odpowiedzialnym menedżerem.",
+      "cards": [
+        {
+          "title": "Przejrzyj dowody",
+          "desc": "Skontroluj zapisy stojące za sygnałem przed podjęciem decyzji."
+        },
+        {
+          "title": "Porównaj lokalizacje",
+          "desc": "Zacznij od widoku grupy, potem zbadaj lokalizację lub zmianę, która się różni."
+        },
+        {
+          "title": "Wybierz potrzebne pokrycie",
+          "desc": "Wybierz pakiet dla obszarów operacyjnych, które chcesz rozumieć, z ceną zależną od Twoich lokalizacji."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "SPRAWDZANIE REZULTATU",
+      "heading": "Zobacz, co zmieniło się po działaniu.",
+      "description": "Lepsza liczba wymaga kontekstu. Przejrzyj działanie, okres porównawczy i dane za nim stojące, zanim potraktujesz zmianę jako odzyskany zysk.",
+      "items": [
+        {
+          "question": "Czy działanie zostało zrealizowane?",
+          "title": "Działanie i dopilnowanie",
+          "desc": "Sprawdź, kto wziął odpowiedzialność, co zostało zrobione i czy zarejestrowano rezultat. Otwarte działanie nadal jest otwarte."
+        },
+        {
+          "question": "Czy porównanie jest uczciwe?",
+          "title": "Punkt wyjścia",
+          "desc": "Porównaj odpowiednie okresy i warunki operacyjne. Sprawdź sezonowość, zasięg danych i inne zmiany, które mogły wpłynąć na rezultat."
+        },
+        {
+          "question": "Jak wartość porównuje się z kosztem?",
+          "title": "Porównaj odzyskaną wartość z Twoim kosztem.",
+          "desc": "Przejrzyj wspierane liczby odzysku obok kosztu Sundae za ten sam okres. Pozytywny zwrot zależy od dowodów i Twojej operacji."
+        }
+      ],
+      "honesty": "Utrzymuj rozróżnienie między oszacowaniami, zarejestrowanymi wynikami i przeglądanymi rezultatami. Brakujące dowody powinny pozostać widoczne."
+    },
+    "solves": {
+      "heading": "Wybierz obszary operacyjne, które chcesz zrozumieć.",
+      "description": "Pakiety obejmują różne obszary operacji. Przejrzyj zakres i podłączone dane przed wyborem."
+    },
+    "pulse": {
+      "heading": "Pulse: śledź bieżącą zmianę.",
+      "description": "Zobacz, gdzie tempo sprzedaży, praca i sygnały przecieku odbiegają od planu. Zbadaj zmianę i uzgodnij reakcję z menedżerem na zmianie."
+    },
+    "integrations": {
+      "heading": "Połącz systemy używane w Twojej operacji.",
+      "description": "Przejrzyj dane POS, workforce, inventory, księgowości i inne źródła z Sundae. Metoda połączenia, dostępne pola i częstotliwość odświeżania zależą od źródła i konfiguracji."
+    },
+    "watchtower": {
+      "heading": "Umieść zmiany rynkowe obok danych operacyjnych.",
+      "description": "Porównaj istotne sygnały konkurencji, wydarzeń i pogody ze zmianami w Twoich lokalizacjach. Wykorzystaj kontekst do zbadania pytania lub zaplanowania reakcji."
+    },
+    "cta": {
+      "title": "Przynieś jedno pytanie o sprzedaż lub koszty.",
+      "description": "Przejdź przez wspierające dane, następne działanie i sposób przeglądu rezultatu. Możemy zacząć od przykładowej operacji."
+    }
+  },
+  "tr": {
+    "realTime": {
+      "heading": "Dikkat gerektiren değişikliği bulun.",
+      "description": "Satışları, işgücünü ve maliyetleri konumlar arasında karşılaştırın. Destekleyici kayıtları açın, bir sonraki adımı kararlaştırın ve sorumlu yöneticiyle sonucu takip edin.",
+      "cards": [
+        {
+          "title": "Kanıtı gözden geçirin",
+          "desc": "Ne yapacağınıza karar vermeden önce bir sinyalin arkasındaki kayıtları inceleyin."
+        },
+        {
+          "title": "Konumları karşılaştırın",
+          "desc": "Grup görünümüyle başlayın, sonra farklılık gösteren konumu veya vardiyayı araştırın."
+        },
+        {
+          "title": "İhtiyacınız olan kapsama alanını seçin",
+          "desc": "Anlamak istediğiniz işletme alanları için bir paket seçin; fiyatlandırma konum sayısına göre belirlenir."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "SONUCU KONTROL ETME",
+      "heading": "Eylem sonrası ne değiştiğini görün.",
+      "description": "Daha iyi bir sayı bağlam gerektirir. Bir değişikliği iyileşmiş kar olarak değerlendirmeden önce eylemi, karşılaştırma dönemini ve arkasındaki veriyi gözden geçirin.",
+      "items": [
+        {
+          "question": "Eylem takip edildi mi?",
+          "title": "Eylem ve takip",
+          "desc": "Kimin sorumluluk aldığını, nelerin yapıldığını ve bir sonucun kaydedilip kaydedilmediğini inceleyin. Açık bir görev hâlâ açıktır."
+        },
+        {
+          "question": "Karşılaştırma adil mi?",
+          "title": "Başlangıç noktası",
+          "desc": "İlgili dönemleri ve işletme koşullarını karşılaştırın. Sezonsallik, veri kapsamı ve sonucu etkileyebilecek diğer değişiklikleri kontrol edin."
+        },
+        {
+          "question": "Değer maliyetle nasıl karşılaştırılır?",
+          "title": "Geri kazanılan değeri maliyetinizle karşılaştırın.",
+          "desc": "Desteklenen geri kazanım rakamlarını aynı dönem için Sundae maliyetinizle birlikte gözden geçirin. Pozitif bir getiri, kanıtlara ve işletmenize bağlıdır."
+        }
+      ],
+      "honesty": "Tahminleri, kaydedilmiş sonuçları ve gözden geçirilmiş sonuçları ayrı tutun. Eksik kanıt görünür kalmalıdır."
+    },
+    "solves": {
+      "heading": "Anlamak istediğiniz işletme alanlarını seçin.",
+      "description": "Paketler işletmenin farklı alanlarını kapsar. Seçmeden önce kapsama alanını ve bağlı verilerinizi gözden geçirin."
+    },
+    "pulse": {
+      "heading": "Pulse: canlı vardiyayı takip edin.",
+      "description": "Satışın, işgücünün ve sızıntı sinyallerinin plandan ne zaman saptığını görün. Değişikliği araştırın ve vardiyadaki yöneticiyle yanıt üzerinde anlaşın."
+    },
+    "integrations": {
+      "heading": "İşletmenizin kullandığı sistemleri bağlayın.",
+      "description": "POS, işgücü, envanter, muhasebe ve diğer veri kaynaklarınızı Sundae ile gözden geçirin. Bağlantı yöntemi, kullanılabilir alanlar ve yenileme sıklığı kaynağa ve kurulumuna göre değişir."
+    },
+    "watchtower": {
+      "heading": "Pazar değişikliklerini işletme verilerinizin yanına koyun.",
+      "description": "İlgili rakip, etkinlik ve hava durumu sinyallerini konumlarınızdaki değişikliklerle karşılaştırın. Bir soruyu araştırmak veya yanıt planlamak için bağlamı kullanın."
+    },
+    "cta": {
+      "title": "Bir satış veya maliyet sorununu getirin.",
+      "description": "Destekleyici veriyi, sonraki eylemi ve sonucu nasıl gözden geçireceğinizi adım adım yürütün. Bir örnek işletmeyle başlayabiliriz."
+    }
+  },
+  "zh-Hans": {
+    "realTime": {
+      "heading": "找到需要关注的变化。",
+      "description": "在门店间比较销售、劳动力与成本。打开支撑记录，决定下一步，并与负责的管理者一起跟进结果。",
+      "cards": [
+        {
+          "title": "复核证据",
+          "desc": "在决定如何处理前，检查信号背后的记录。"
+        },
+        {
+          "title": "比较门店",
+          "desc": "从分组视图开始，再调查与众不同的门店或班次。"
+        },
+        {
+          "title": "选择所需覆盖范围",
+          "desc": "为您需要了解的运营领域选择套餐，价格基于您的门店数量。"
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "复核结果",
+      "heading": "查看行动后的变化。",
+      "description": "更好的数字需要背景。在将变化视为已恢复的利润前，复核行动、比较周期和背后的数据。",
+      "items": [
+        {
+          "question": "行动是否得到执行？",
+          "title": "行动与跟进",
+          "desc": "复核谁承担了责任、做了什么以及是否记录了结果。未完成的行动仍然未完成。"
+        },
+        {
+          "question": "比较是否公平？",
+          "title": "起始点",
+          "desc": "比较相关期间与运营条件。检查季节性、数据覆盖和可能影响结果的其他变化。"
+        },
+        {
+          "question": "恢复的数值与成本如何比较？",
+          "title": "将恢复的价值与您的成本比较。",
+          "desc": "将支持的恢复数字与相同期的 Sundae 成本并列复核。正回报取决于证据与您自身的运营。"
+        }
+      ],
+      "honesty": "保持估算、记录的结果与复核后的结果相互区分。证据缺失应保持可见。"
+    },
+    "solves": {
+      "heading": "选择您需要了解的运营领域。",
+      "description": "不同套餐覆盖运营的不同领域。在选择前复核覆盖范围与连接的数据。"
+    },
+    "pulse": {
+      "heading": "Pulse：跟踪实时班次。",
+      "description": "查看销售、劳动力与泄损信号何时偏离计划。调查变化并与值班管理者商定应对。"
+    },
+    "integrations": {
+      "heading": "连接您运营使用的系统。",
+      "description": "用 Sundae 复核您的 POS、劳动力、库存、会计及其他数据来源。连接方式、可用字段和刷新频率取决于来源与设置。"
+    },
+    "watchtower": {
+      "heading": "将市场变化并列到您的运营数据旁。",
+      "description": "将相关竞争、活动与天气信号与门店变化进行比较。利用这些上下文来调查问题或规划应对。"
+    },
+    "cta": {
+      "title": "带来一个销售或成本问题。",
+      "description": "演示支撑数据、下一步行动及如何复核结果。我们可以从一个样例门店开始。"
+    }
+  },
+  "ja": {
+    "realTime": {
+      "heading": "注意が必要な変化を見つける。",
+      "description": "店舗間で売上、労務、コストを比較します。根拠記録を開き、次のステップを決め、責任者と結果を追います。",
+      "cards": [
+        {
+          "title": "根拠を確認する",
+          "desc": "何をするか決める前にシグナルの裏にある記録を点検します。"
+        },
+        {
+          "title": "店舗を比較する",
+          "desc": "まずグループビューで開始し、差異のある店舗やシフトを調査します。"
+        },
+        {
+          "title": "必要なカバレッジを選ぶ",
+          "desc": "理解したい運営領域に合わせたパッケージを選択します。価格は店舗数に基づきます。"
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "結果を確認する",
+      "heading": "行動後に何が変わったかを見る。",
+      "description": "良い数値には文脈が必要です。行動、比較期間、裏にあるデータを見直してから変化を回復した利益として扱ってください。",
+      "items": [
+        {
+          "question": "行動は実行されたか？",
+          "title": "行動とフォローアップ",
+          "desc": "誰が責任を負い、何が行われ、結果が記録されているかを確認します。未完了のアクションは未完了のままです。"
+        },
+        {
+          "question": "比較は公正か？",
+          "title": "出発点",
+          "desc": "関連する期間と運営条件と比較してください。季節性、データカバレッジ、結果に影響する他の変化を確認します。"
+        },
+        {
+          "question": "回収された価値はコストと比べてどうか？",
+          "title": "回収価値をコストと比較する。",
+          "desc": "同期間のSundaeコストとともにサポートされた回収数値を確認します。正のリターンは証拠とお客様の運用に依存します。"
+        }
+      ],
+      "honesty": "見積もり、記録された結果、レビュー済みの結果を区別してください。欠けている証拠は可視のままにします。"
+    },
+    "solves": {
+      "heading": "理解したい運営領域を選ぶ。",
+      "description": "パッケージは運営の異なる領域をカバーします。選択前にカバレッジと接続されたデータを確認してください。"
+    },
+    "pulse": {
+      "heading": "Pulse：ライブシフトを追う。",
+      "description": "売上、労務、ロスのシグナルが計画から外れる場所を見ます。変化を調査し、シフト担当のマネージャーと対応を合意します。"
+    },
+    "integrations": {
+      "heading": "運用で使うシステムを接続する。",
+      "description": "POS、勤怠、在庫、会計などのデータソースをSundaeで確認します。接続方法、利用可能な項目、更新頻度はソースと設定に依存します。"
+    },
+    "watchtower": {
+      "heading": "市場の変化を運用データの横に置く。",
+      "description": "関連する競合、イベント、天候シグナルを店舗の変化と比較します。文脈を使って問いを調査したり対応を計画したりします。"
+    },
+    "cta": {
+      "title": "売上またはコストに関する一つの問いを持ち寄る。",
+      "description": "根拠データ、次のアクション、結果のレビュー方法を案内します。サンプル運用から始めることができます。"
+    }
+  },
+  "ko": {
+    "realTime": {
+      "heading": "주의가 필요한 변화를 찾으세요.",
+      "description": "지점 간 매출, 인력, 비용을 비교하세요. 근거 기록을 열어 다음 단계를 결정하고 책임자와 함께 결과를 추적하세요.",
+      "cards": [
+        {
+          "title": "근거 검토",
+          "desc": "무엇을 할지 결정하기 전에 신호 뒤의 기록을 검사하세요."
+        },
+        {
+          "title": "지점 비교",
+          "desc": "그룹 뷰에서 시작한 뒤 차이가 있는 지점이나 교대를 조사하세요."
+        },
+        {
+          "title": "필요한 커버리지 선택",
+          "desc": "이해하려는 운영 영역에 맞는 패키지를 선택하세요. 가격은 지점 수에 따라 책정됩니다."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "결과 확인",
+      "heading": "조치 후 무엇이 변했는지 확인하세요.",
+      "description": "숫자가 좋아졌다면 맥락이 필요합니다. 변화를 회복된 이익으로 간주하기 전에 조치, 비교 기간 및 그 이면의 데이터를 검토하세요.",
+      "items": [
+        {
+          "question": "조치가 실행되었나요?",
+          "title": "조치와 추적",
+          "desc": "누가 책임졌는지, 어떤 조치가 이루어졌는지, 결과가 기록되었는지 검토하세요. 열린 조치는 여전히 열려 있습니다."
+        },
+        {
+          "question": "비교가 공정한가요?",
+          "title": "출발점",
+          "desc": "관련된 기간과 운영 조건을 비교하세요. 계절성, 데이터 커버리지 및 결과에 영향을 줄 수 있는 다른 변경을 확인하세요."
+        },
+        {
+          "question": "회복된 가치가 비용과 어떻게 비교되나요?",
+          "title": "회복된 가치와 비용 비교",
+          "desc": "같은 기간에 대한 Sundae 비용과 함께 지원된 회복 수치를 검토하세요. 긍정적 수익은 근거와 귀하의 운영에 달려 있습니다."
+        }
+      ],
+      "honesty": "추정치, 기록된 결과 및 검토된 결과를 구분하세요. 근거가 부족한 항목은 가시적으로 남겨두어야 합니다."
+    },
+    "solves": {
+      "heading": "이해가 필요한 운영 영역을 선택하세요.",
+      "description": "패키지는 운영의 서로 다른 영역을 포함합니다. 선택 전에 적용 범위와 연결된 데이터를 검토하세요."
+    },
+    "pulse": {
+      "heading": "Pulse: 실시간 교대를 따라가세요.",
+      "description": "매출, 인력, 누수 신호가 계획에서 벗어나는 곳을 확인하세요. 변화를 조사하고 교대 중인 관리자와 대응을 합의하세요."
+    },
+    "integrations": {
+      "heading": "운영에서 사용하는 시스템을 연결하세요.",
+      "description": "POS, 인력관리, 재고, 회계 등 데이터를 Sundae와 검토하세요. 연결 방식, 사용 가능한 필드 및 갱신 주기는 소스와 설정에 따라 달라집니다."
+    },
+    "watchtower": {
+      "heading": "운영 데이터 옆에 시장 변화를 두세요.",
+      "description": "관련 경쟁사, 이벤트, 날씨 신호를 지점의 변화와 비교하세요. 맥락을 사용해 질문을 조사하거나 대응을 계획하세요."
+    },
+    "cta": {
+      "title": "하나의 매출 또는 비용 질문을 가져오세요.",
+      "description": "지원 데이터, 다음 조치, 결과를 검토하는 방법을 함께 진행합니다. 샘플 운영으로 시작할 수 있습니다."
+    }
+  },
+  "id": {
+    "realTime": {
+      "heading": "Temukan perubahan yang perlu perhatian.",
+      "description": "Bandingkan penjualan, tenaga kerja dan biaya antar lokasi. Buka catatan pendukung, tentukan langkah selanjutnya dan ikuti hasil bersama manajer yang bertanggung jawab.",
+      "cards": [
+        {
+          "title": "Tinjau bukti",
+          "desc": "Periksa catatan di balik sinyal sebelum memutuskan tindakan."
+        },
+        {
+          "title": "Bandingkan lokasi",
+          "desc": "Mulai dari tampilan grup, lalu selidiki lokasi atau shift yang berbeda."
+        },
+        {
+          "title": "Pilih cakupan yang Anda butuhkan",
+          "desc": "Pilih paket untuk area operasi yang perlu Anda pahami, dengan harga berdasarkan lokasi Anda."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "MEMERIKSA HASIL",
+      "heading": "Lihat apa yang berubah setelah tindakan.",
+      "description": "Angka yang lebih baik membutuhkan konteks. Tinjau tindakan, periode perbandingan dan data di baliknya sebelum menganggap perubahan sebagai pemulihan profit.",
+      "items": [
+        {
+          "question": "Apakah tindakan ditindaklanjuti?",
+          "title": "Tindakan dan tindak lanjut",
+          "desc": "Tinjau siapa yang mengambil tanggung jawab, apa yang dilakukan dan apakah hasil tercatat. Tindakan yang terbuka tetap terbuka."
+        },
+        {
+          "question": "Apakah perbandingan adil?",
+          "title": "Titik awal",
+          "desc": "Bandingkan periode dan kondisi operasional yang relevan. Periksa musiman, cakupan data dan perubahan lain yang dapat memengaruhi hasil."
+        },
+        {
+          "question": "Bagaimana nilai dibandingkan dengan biaya?",
+          "title": "Bandingkan nilai yang dipulihkan dengan biaya Anda.",
+          "desc": "Tinjau angka pemulihan yang didukung bersamaan dengan biaya Sundae Anda untuk periode yang sama. Pengembalian positif bergantung pada bukti dan operasi Anda."
+        }
+      ],
+      "honesty": "Jaga estimasi, hasil tercatat dan hasil yang ditinjau tetap terpisah. Bukti yang hilang harus tetap terlihat."
+    },
+    "solves": {
+      "heading": "Pilih area operasi yang perlu Anda pahami.",
+      "description": "Paket mencakup area operasi yang berbeda. Tinjau cakupan dan data terhubung Anda sebelum memilih."
+    },
+    "pulse": {
+      "heading": "Pulse: ikuti shift langsung.",
+      "description": "Lihat di mana sinyal penjualan, tenaga kerja dan kebocoran menyimpang dari rencana. Selidiki perubahan dan sepakati respons dengan manajer yang bertugas."
+    },
+    "integrations": {
+      "heading": "Hubungkan sistem yang digunakan operasi Anda.",
+      "description": "Tinjau POS, tenaga kerja, inventaris, akuntansi dan sumber data lain dengan Sundae. Metode koneksi, bidang yang tersedia dan waktu penyegaran bergantung pada sumber dan pengaturan."
+    },
+    "watchtower": {
+      "heading": "Letakkan perubahan pasar di samping data operasional Anda.",
+      "description": "Bandingkan sinyal pesaing, acara dan cuaca yang relevan dengan perubahan di lokasi Anda. Gunakan konteks untuk menyelidiki pertanyaan atau merencanakan respons."
+    },
+    "cta": {
+      "title": "Bawa satu pertanyaan penjualan atau biaya.",
+      "description": "Jalankan melalui data pendukung, tindakan selanjutnya dan bagaimana Anda akan meninjau hasilnya. Kita bisa mulai dengan operasi contoh."
+    }
+  },
+  "vi": {
+    "realTime": {
+      "heading": "Tìm thay đổi cần chú ý.",
+      "description": "So sánh doanh thu, lao động và chi phí giữa các địa điểm. Mở hồ sơ hỗ trợ, quyết định bước tiếp theo và theo dõi kết quả với người quản lý chịu trách nhiệm.",
+      "cards": [
+        {
+          "title": "Xem bằng chứng",
+          "desc": "Kiểm tra hồ sơ đằng sau một tín hiệu trước khi quyết định làm gì."
+        },
+        {
+          "title": "So sánh các địa điểm",
+          "desc": "Bắt đầu từ góc nhìn nhóm, rồi điều tra địa điểm hoặc ca làm việc có khác biệt."
+        },
+        {
+          "title": "Chọn độ bao phủ bạn cần",
+          "desc": "Chọn gói cho các khu vực vận hành bạn cần hiểu, với giá tính theo số địa điểm."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "KIỂM TRA KẾT QUẢ",
+      "heading": "Xem điều gì đã thay đổi sau hành động.",
+      "description": "Một con số tốt hơn cần bối cảnh. Xem lại hành động, giai đoạn so sánh và dữ liệu bên dưới trước khi coi một thay đổi là lợi nhuận phục hồi.",
+      "items": [
+        {
+          "question": "Hành động đã được hoàn tất chưa?",
+          "title": "Hành động và theo dõi",
+          "desc": "Xem ai chịu trách nhiệm, đã làm gì và liệu kết quả có được ghi lại. Một hành động mở vẫn là hành động mở."
+        },
+        {
+          "question": "So sánh có công bằng không?",
+          "title": "Điểm khởi đầu",
+          "desc": "So sánh các giai đoạn và điều kiện vận hành phù hợp. Kiểm tra tính theo mùa, độ bao phủ dữ liệu và các thay đổi khác có thể ảnh hưởng đến kết quả."
+        },
+        {
+          "question": "Giá trị so với chi phí thế nào?",
+          "title": "So sánh giá trị thu hồi với chi phí của bạn.",
+          "desc": "Xem các con số phục hồi được hỗ trợ cùng với chi phí Sundae của bạn trong cùng kỳ. Lợi nhuận dương phụ thuộc vào bằng chứng và vận hành của bạn."
+        }
+      ],
+      "honesty": "Giữ ước tính, kết quả ghi lại và kết quả đã được xem xét tách biệt. Bằng chứng thiếu nên vẫn hiển thị."
+    },
+    "solves": {
+      "heading": "Chọn các khu vực vận hành bạn cần hiểu.",
+      "description": "Các gói bao phủ các khu vực vận hành khác nhau. Xem lại phạm vi phủ sóng và dữ liệu kết nối trước khi chọn."
+    },
+    "pulse": {
+      "heading": "Pulse: theo dõi ca trực trực tiếp.",
+      "description": "Xem nơi các tín hiệu doanh thu, lao động và rò rỉ lệch khỏi kế hoạch. Điều tra thay đổi và thống nhất phản ứng với quản lý đang trực ca."
+    },
+    "integrations": {
+      "heading": "Kết nối các hệ thống vận hành của bạn.",
+      "description": "Xem POS, nhân sự, tồn kho, kế toán và các nguồn dữ liệu khác với Sundae. Phương thức kết nối, trường có sẵn và thời gian làm mới phụ thuộc vào nguồn và cấu hình."
+    },
+    "watchtower": {
+      "heading": "Đặt thay đổi thị trường cạnh dữ liệu vận hành của bạn.",
+      "description": "So sánh các tín hiệu đối thủ, sự kiện và thời tiết liên quan với các thay đổi tại địa điểm của bạn. Dùng bối cảnh để điều tra câu hỏi hoặc lên kế hoạch phản ứng."
+    },
+    "cta": {
+      "title": "Mang đến một câu hỏi về doanh thu hoặc chi phí.",
+      "description": "Đi qua dữ liệu hỗ trợ, bước tiếp theo và cách bạn sẽ xem xét kết quả. Chúng tôi có thể bắt đầu với một hoạt động mẫu."
+    }
+  },
+  "ro": {
+    "realTime": {
+      "heading": "Găsește schimbarea care necesită atenție.",
+      "description": "Compară vânzările, munca și costurile între locații. Deschide înregistrările suport, decide pasul următor și urmărește rezultatul cu managerul responsabil.",
+      "cards": [
+        {
+          "title": "Revizuiește dovezile",
+          "desc": "Inspectează înregistrările din spatele unui semnal înainte de a decide ce să faci."
+        },
+        {
+          "title": "Compară locațiile",
+          "desc": "Pornește de la vederea de grup, apoi investighează locația sau tura care diferă."
+        },
+        {
+          "title": "Alege acoperirea de care ai nevoie",
+          "desc": "Selectează un pachet pentru ariile operaționale pe care trebuie să le înțelegi, cu prețuri bazate pe locațiile tale."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "VERIFICAREA REZULTATULUI",
+      "heading": "Vezi ce s-a schimbat după acțiune.",
+      "description": "Un număr mai bun are nevoie de context. Revizuiește acțiunea, perioada de comparație și datele din spate înainte de a trata o schimbare ca profit recuperat.",
+      "items": [
+        {
+          "question": "Acțiunea a fost dusă la capăt?",
+          "title": "Acțiune și urmărire",
+          "desc": "Revizuiește cine a luat responsabilitatea, ce s-a făcut și dacă s-a înregistrat un rezultat. O acțiune deschisă rămâne deschisă."
+        },
+        {
+          "question": "Este comparația corectă?",
+          "title": "Punctul de plecare",
+          "desc": "Compară perioade și condiții operaționale relevante. Verifică sezonalitatea, acoperirea datelor și alte schimbări care ar putea afecta rezultatul."
+        },
+        {
+          "question": "Cum se compară valoarea cu costul?",
+          "title": "Compară valoarea recuperată cu costul tău.",
+          "desc": "Revizuiește cifrele de recuperare suportate alături de costul Sundae pentru aceeași perioadă. Un randament pozitiv depinde de dovezi și de operația ta."
+        }
+      ],
+      "honesty": "Păstrează distinct estimările, rezultatele înregistrate și rezultatele revizuite. Dovezile lipsă trebuie să rămână vizibile."
+    },
+    "solves": {
+      "heading": "Alege ariile operaționale pe care vrei să le înțelegi.",
+      "description": "Pachetele acoperă zone diferite ale operațiunii. Revizuiește acoperirea și datele conectate înainte de a alege."
+    },
+    "pulse": {
+      "heading": "Pulse: urmărește tura live.",
+      "description": "Vezi unde vânzările, munca și scurgerile se abat de la plan. Investigă schimbarea și agrează răspunsul cu managerul din tură."
+    },
+    "integrations": {
+      "heading": "Conectează sistemele pe care le folosește operația ta.",
+      "description": "Revizuiește POS-ul, forța de muncă, inventarul, contabilitatea și alte surse de date cu Sundae. Metoda de conectare, câmpurile disponibile și frecvența de actualizare depind de sursă și configurare."
+    },
+    "watchtower": {
+      "heading": "Așază schimbările de piață lângă datele tale operaționale.",
+      "description": "Compară semnalele relevante despre competitori, evenimente și vreme cu schimbările de la locațiile tale. Folosește contextul pentru a investiga o întrebare sau a planifica un răspuns."
+    },
+    "cta": {
+      "title": "Adu o întrebare despre vânzări sau costuri.",
+      "description": "Parcurge datele suport, pasul următor și cum ai revizui rezultatul. Putem începe cu o operație exemplu."
+    }
+  },
+  "sv": {
+    "realTime": {
+      "heading": "Hitta förändringen som behöver uppmärksamhet.",
+      "description": "Jämför försäljning, personal och kostnader över enheter. Öppna underliggande poster, besluta nästa steg och följ resultatet med ansvarig chef.",
+      "cards": [
+        {
+          "title": "Granska bevisen",
+          "desc": "Inspektera posterna bakom en signal innan du bestämmer vad som ska göras."
+        },
+        {
+          "title": "Jämför enheter",
+          "desc": "Börja med gruppvyn, undersök sedan den enhet eller det skift som avviker."
+        },
+        {
+          "title": "Välj den täckning du behöver",
+          "desc": "Välj ett paket för de driftområden du behöver förstå, med prissättning baserad på dina enheter."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "GRANSKA RESULTATET",
+      "heading": "Se vad som förändrades efter åtgärden.",
+      "description": "Ett bättre tal behöver kontext. Granska åtgärden, jämförelseperioden och datan bakom innan du behandlar en förändring som återvunnen vinst.",
+      "items": [
+        {
+          "question": "Följdes åtgärden upp?",
+          "title": "Åtgärd och uppföljning",
+          "desc": "Granska vem som tog ansvar, vad som gjordes och om ett resultat registrerades. En öppen åtgärd är fortfarande öppen."
+        },
+        {
+          "question": "Är jämförelsen rättvis?",
+          "title": "Startpunkten",
+          "desc": "Jämför relevanta perioder och driftförhållanden. Kontrollera säsongsmässighet, datatäckning och andra förändringar som kan påverka resultatet."
+        },
+        {
+          "question": "Hur står värdet sig mot kostnaden?",
+          "title": "Jämför återvunnen värde med din kostnad.",
+          "desc": "Granska stödda återhämtningssiffror tillsammans med din Sundae-kostnad för samma period. En positiv avkastning beror på bevisen och din verksamhet."
+        }
+      ],
+      "honesty": "Håll uppskattningar, inspelade utfall och granskade resultat åtskilda. Saknade bevis bör förbli synliga."
+    },
+    "solves": {
+      "heading": "Välj de driftområden du behöver förstå.",
+      "description": "Paket omfattar olika delar av driften. Granska täckningen och din sammanlänkade data innan du väljer."
+    },
+    "pulse": {
+      "heading": "Pulse: följ live-skiftet.",
+      "description": "Se var försäljnings-, personal- och läckagesignaler avviker från plan. Undersök förändringen och enas om åtgärd med chefen på skiftet."
+    },
+    "integrations": {
+      "heading": "Koppla de system din verksamhet använder.",
+      "description": "Granska din POS, personal-, lager-, bokförings- och andra datakällor med Sundae. Anslutningsmetod, tillgängliga fält och uppdateringsfrekvens beror på källa och inställning."
+    },
+    "watchtower": {
+      "heading": "Placera marknadsförändringar bredvid din driftsdata.",
+      "description": "Jämför relevanta konkurrent-, evenemangs- och vädersignaler med förändringar på dina enheter. Använd kontexten för att undersöka en fråga eller planera en åtgärd."
+    },
+    "cta": {
+      "title": "Ta med en försäljnings- eller kostnadsfråga.",
+      "description": "Gå igenom underliggande data, nästa åtgärd och hur du skulle granska resultatet. Vi kan börja med en exempelverksamhet."
+    }
+  },
+  "bn": {
+    "realTime": {
+      "heading": "যে পরিবর্তনটি মনোযোগ দাবি করে তা খুঁজুন।",
+      "description": "অবস্থাগুলো জুড়ে বিক্রয়, লেবার ও খরচ তুলনা করুন। সহায়ক রেকর্ড খুলুন, পরবর্তী পদক্ষেপ নির্ধারণ করুন এবং দায়িত্বপ্রাপ্ত ম্যানেজারের সাথে ফলাফল অনুসরণ করুন।",
+      "cards": [
+        {
+          "title": "প্রমাণ পর্যালোচনা করুন",
+          "desc": "কী করা হবে সিদ্ধান্ত নেওয়ার আগে সংকেতের পেছনের রেকর্ডগুলো পরিদর্শন করুন।"
+        },
+        {
+          "title": "অবস্থানগুলো তুলনা করুন",
+          "desc": "গ্রুপ ভিউ থেকে শুরু করুন, তারপর যে অবস্থান বা শিফট ভিন্ন তা তদন্ত করুন।"
+        },
+        {
+          "title": "আপনার দরকারি কভারেজ বেছে নিন",
+          "desc": "আপনি বুঝতে চান এমন অপারেটিং এলাকাগুলির জন্য একটি প্যাকেজ নির্বাচন করুন, মূল্য নির্ধারণ আপনার অবস্থানগুলোর ভিত্তিতে।"
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "ফলাফল যাচাই",
+      "heading": "কাজের পরে কী পরিবর্তিত হলো তা দেখুন।",
+      "description": "একটি ভাল সংখ্যা প্রসঙ্গ চায়। কোনও পরিবর্তনকে পুনরুদ্ধারকৃত লাভ হিসেবে ধরার আগে কাজ, তুলনা সময়কাল এবং পেছনের ডেটা পর্যালোচনা করুন।",
+      "items": [
+        {
+          "question": "কাজটি অনুসরণ করা হয়েছিল কি?",
+          "title": "কর্ম ও অনুসরণ",
+          "desc": "কে দায়িত্ব নিয়েছিল, কী করা হয়েছিল এবং কোনো ফলাফল রেকর্ড করা হয়েছিল কি তা পর্যালোচনা করুন। খোলা থাকা কাজ এখনও খোলা।"
+        },
+        {
+          "question": "তুলনা কি ন্যায্য?",
+          "title": "শুরুর বিন্দু",
+          "desc": "প্রাসঙ্গিক সময়কাল ও অপারেটিং শর্ত তুলনা করুন। মৌসুমীয়তা, ডেটা কভারেজ ও ফলাফলে প্রভাব ফেলার মতো অন্য পরিবর্তনগুলো যাচাই করুন।"
+        },
+        {
+          "question": "মান খরচের সঙ্গে কিভাবে তুলনা করে?",
+          "title": "পুনরুদ্ধারকৃত মানকে আপনার খরচের সঙ্গে তুলনা করুন।",
+          "desc": "একই সময়কালের জন্য আপনার Sundae খরচের সঙ্গে সহায়ক পুনরুদ্ধার সংখ্যাগুলো পর্যালোচনা করুন। ইতিবাচক রিটার্ন প্রমাণ এবং আপনার অপারেশনের ওপর নির্ভর করে।"
+        }
+      ],
+      "honesty": "প্রাক্কলিত, রেকর্ডকৃত ফলাফল এবং পর্যালোচিত ফলাফল আলাদা রাখুন। অনুপস্থিত প্রমাণ দৃশ্যমান থাকা উচিত।"
+    },
+    "solves": {
+      "heading": "আপনি যে অপারেটিং এলাকাগুলি বুঝতে চান সেগুলো বেছে নিন।",
+      "description": "প্যাকেজগুলো অপারেশনের বিভিন্ন এলাকা কভার করে। নির্বাচন করার আগে কভারেজ এবং আপনার সংযুক্ত ডেটা পর্যালোচনা করুন।"
+    },
+    "pulse": {
+      "heading": "Pulse: লাইভ শিফট অনুসরণ করুন।",
+      "description": "কোথায় বিক্রয়, লেবার ও লিকেজ সংকেত পরিকল্পনার বাইরে চলে গেছে তা দেখুন। পরিবর্তন তদন্ত করুন এবং শিফটে থাকা ম্যানেজারের সঙ্গে প্রতিক্রয় নির্ধারণ করুন।"
+    },
+    "integrations": {
+      "heading": "আপনার অপারেশন যেসব সিস্টেম ব্যবহার করে সেগুলো সংযুক্ত করুন।",
+      "description": "Sundae-তে আপনার POS, workforce, inventory, accounting ও অন্যান্য ডেটা সোর্সগুলো পর্যালোচনা করুন। কানেকশন পদ্ধতি, উপলব্ধ ক্ষেত্র ও রিফ্রেশ সময় সোর্স ও সেটআপের উপর নির্ভর করে।"
+    },
+    "watchtower": {
+      "heading": "আপনার অপারেটিং ডেটার পাশ에 বাজার পরিবর্তন রাখুন।",
+      "description": "প্রাসঙ্গিক প্রতিযোগী, ইভেন্ট ও আবহাওয়ার সংকেতগুলিকে আপনার অবস্থানের পরিবর্তনের সঙ্গে তুলনা করুন। একটি প্রশ্ন তদন্ত বা প্রতিক্রিয়া পরিকল্পনা করতে প্রসঙ্গ ব্যবহার করুন।"
+    },
+    "cta": {
+      "title": "একটি বিক্রয় বা খরচ প্রশ্ন নিয়ে আসুন।",
+      "description": "সহায়ক ডেটা, পরবর্তী পদক্ষেপ এবং আপনি কীভাবে ফলাফল পর্যালোচনা করবেন তা দেখে যান। আমরা একটি নমুনা অপারেশন দিয়ে শুরু করতে পারি।"
+    }
+  },
+  "th": {
+    "realTime": {
+      "heading": "ค้นหาการเปลี่ยนแปลงที่ต้องใส่ใจ",
+      "description": "เปรียบเทียบยอดขาย แรงงาน และต้นทุนข้ามสาขา เปิดบันทึกสนับสนุน ตัดสินใจขั้นตอนถัดไป และติดตามผลกับผู้จัดการที่รับผิดชอบ",
+      "cards": [
+        {
+          "title": "ทบทวนหลักฐาน",
+          "desc": "ตรวจสอบบันทึกเบื้องหลังสัญญาณก่อนตัดสินใจทำอะไร"
+        },
+        {
+          "title": "เปรียบเทียบสาขา",
+          "desc": "เริ่มจากมุมมองกลุ่ม แล้วสืบสวนสาขาหรือกะที่ต่างออกไป"
+        },
+        {
+          "title": "เลือกการครอบคลุมที่คุณต้องการ",
+          "desc": "เลือกแพ็กเกจสำหรับพื้นที่ปฏิบัติงานที่คุณต้องเข้าใจ โดยคิดราคาอิงตามสาขาของคุณ"
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "ทบทวนผลลัพธ์",
+      "heading": "ดูสิ่งที่เปลี่ยนหลังการดำเนินการ",
+      "description": "ตัวเลขที่ดีขึ้นต้องการบริบท ทบทวนการดำเนินการ ช่วงเปรียบเทียบ และข้อมูลเบื้องหลังก่อนถือว่าการเปลี่ยนแปลงเป็นกำไรที่คืนมา",
+      "items": [
+        {
+          "question": "การดำเนินการถูกติดตามจนเสร็จหรือไม่?",
+          "title": "การดำเนินการและการติดตามผล",
+          "desc": "ทบทวนว่าใครรับผิดชอบ ทำอะไร และบันทึกผลหรือไม่ การกระทำที่ยังเปิดอยู่ก็ยังเปิดอยู่"
+        },
+        {
+          "question": "การเปรียบเทียบยุติธรรมหรือไม่?",
+          "title": "จุดเริ่มต้น",
+          "desc": "เปรียบเทียบช่วงเวลาและสภาวะการปฏิบัติงานที่เกี่ยวข้อง ตรวจสอบฤดูกาล ความครอบคลุมข้อมูล และการเปลี่ยนแปลงอื่นๆ ที่อาจมีผล"
+        },
+        {
+          "question": "มูลค่าเทียบกับต้นทุนอย่างไร?",
+          "title": "เปรียบเทียบมูลค่าที่กู้คืนกับต้นทุนของคุณ",
+          "desc": "ทบทวนตัวเลขการกู้คืนที่มีหลักฐานขนานกับต้นทุน Sundae ของคุณในช่วงเวลาเดียวกัน ผลตอบแทนบวกขึ้นอยู่กับหลักฐานและการปฏิบัติงานของคุณ"
+        }
+      ],
+      "honesty": "แยกประมาณการ ผลลัพธ์ที่บันทึก และผลลัพธ์ที่ทบทวนออกจากกัน หลักฐานที่ขาดควรยังคงมองเห็นได้"
+    },
+    "solves": {
+      "heading": "เลือกพื้นที่ปฏิบัติงานที่คุณต้องการเข้าใจ",
+      "description": "แพ็กเกจครอบคลุมพื้นที่ปฏิบัติงานต่างกัน ทบทวนความครอบคลุมและข้อมูลที่เชื่อมต่อก่อนเลือก"
+    },
+    "pulse": {
+      "heading": "Pulse: ติดตามกะแบบสด",
+      "description": "ดูว่าตรงไหนที่สัญญาณยอดขาย แรงงาน และการรั่วไหลเบี่ยงจากแผน สืบสวนการเปลี่ยนแปลงและตกลงการตอบสนองกับผู้จัดการที่กำลังทำกะ"
+    },
+    "integrations": {
+      "heading": "เชื่อมต่อระบบที่การปฏิบัติงานของคุณใช้",
+      "description": "ทบทวน POS แหล่งข้อมูลแรงงาน คลังสินค้า การบัญชี และแหล่งข้อมูลอื่นๆ กับ Sundae วิธีเชื่อมต่อ ฟิลด์ที่มี และความถี่การรีเฟรชขึ้นกับแหล่งและการตั้งค่า"
+    },
+    "watchtower": {
+      "heading": "วางการเปลี่ยนแปลงตลาดเคียงกับข้อมูลการปฏิบัติของคุณ",
+      "description": "เปรียบเทียบสัญญาณคู่แข่ง เหตุการณ์ และสภาพอากาศที่เกี่ยวข้องกับการเปลี่ยนแปลงในสาขาของคุณ ใช้บริบทเมื่อสืบสวนคำถามหรือวางแผนการตอบสนอง"
+    },
+    "cta": {
+      "title": "นำคำถามด้านยอดขายหรือค่าใช้จ่ายหนึ่งข้อมา",
+      "description": "เดินผ่านข้อมูลสนับสนุน ขั้นตอนถัดไป และวิธีที่คุณจะทบทวนผลลัพธ์ เราสามารถเริ่มจากการดำเนินงานตัวอย่าง"
+    }
+  },
+  "ms": {
+    "realTime": {
+      "heading": "Cari perubahan yang memerlukan perhatian.",
+      "description": "Bandingkan jualan, buruh dan kos merentasi lokasi. Buka rekod sokongan, tentukan langkah seterusnya dan ikuti hasil bersama pengurus yang bertanggungjawab.",
+      "cards": [
+        {
+          "title": "Semak bukti",
+          "desc": "Periksa rekod di sebalik isyarat sebelum memutuskan tindakan."
+        },
+        {
+          "title": "Bandingkan lokasi",
+          "desc": "Mula dengan paparan kumpulan, kemudian selidik lokasi atau syif yang berbeza."
+        },
+        {
+          "title": "Pilih liputan yang anda perlukan",
+          "desc": "Pilih pakej untuk kawasan operasi yang perlu anda fahami, dengan harga berdasarkan lokasi anda."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "MEMERIKSA HASIL",
+      "heading": "Lihat apa yang berubah selepas tindakan.",
+      "description": "Nombor yang lebih baik memerlukan konteks. Semak tindakan, tempoh perbandingan dan data di sebaliknya sebelum menganggap perubahan sebagai keuntungan yang dipulihkan.",
+      "items": [
+        {
+          "question": "Adakah tindakan itu dilaksanakan?",
+          "title": "Tindakan dan susulan",
+          "desc": "Semak siapa yang mengambil tanggungjawab, apa yang dilakukan dan sama ada hasil direkodkan. Tindakan terbuka masih terbuka."
+        },
+        {
+          "question": "Adakah perbandingan adil?",
+          "title": "Titik mula",
+          "desc": "Bandingkan tempoh dan keadaan operasi yang relevan. Periksa musim, liputan data dan perubahan lain yang boleh menjejaskan hasil."
+        },
+        {
+          "question": "Bagaimana nilai itu dibandingkan dengan kos?",
+          "title": "Bandingkan nilai yang dipulihkan dengan kos anda.",
+          "desc": "Semak angka pemulihan yang disokong bersama kos Sundae anda untuk tempoh yang sama. Pulangan positif bergantung pada bukti dan operasi anda."
+        }
+      ],
+      "honesty": "Kekalkan anggaran, hasil yang direkodkan dan keputusan yang disemak sebagai perkara berbeza. Bukti yang hilang harus kekal terlihat."
+    },
+    "solves": {
+      "heading": "Pilih kawasan operasi yang anda perlu fahami.",
+      "description": "Pakej meliputi kawasan operasi yang berbeza. Semak liputan dan data yang disambung sebelum memilih."
+    },
+    "pulse": {
+      "heading": "Pulse: ikuti pergeseran langsung.",
+      "description": "Lihat di mana isyarat jualan, buruh dan kebocoran menyimpang dari rancangan. Siasat perubahan dan setujui tindak balas dengan pengurus yang bertugas."
+    },
+    "integrations": {
+      "heading": "Sambungkan sistem yang digunakan operasi anda.",
+      "description": "Semak POS, tenaga kerja, inventori, perakaunan dan sumber data lain dengan Sundae. Kaedah sambungan, medan tersedia dan kekerapan kemas kini bergantung pada sumber dan konfigurasi."
+    },
+    "watchtower": {
+      "heading": "Letakkan perubahan pasaran bersebelahan data operasi anda.",
+      "description": "Bandingkan isyarat pesaing, acara dan cuaca yang relevan dengan perubahan di lokasi anda. Gunakan konteks untuk menyiasat soalan atau merancang tindak balas."
+    },
+    "cta": {
+      "title": "Bawa satu soalan jualan atau kos.",
+      "description": "Lalui data sokongan, tindakan seterusnya dan cara anda akan menyemak hasil. Kita boleh mulakan dengan operasi sampel."
+    }
+  }
+}

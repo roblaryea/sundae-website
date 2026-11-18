@@ -1,6 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState, useCallback } from 'react';
+import { readThemePreference, writeThemePreference } from '@/lib/themePreference';
 
 type Theme = 'dark' | 'light';
 
@@ -26,7 +27,7 @@ export function ThemeScript() {
   return (
     <script
       dangerouslySetInnerHTML={{
-        __html: `(function(){try{var t=localStorage.getItem('sundae-theme');if(t==='light'){document.documentElement.classList.add('light')}else{document.documentElement.classList.remove('light')}}catch(e){}})()`,
+        __html: `(function(){var t;try{var c=document.cookie.match(/(?:^|;\\s*)sundae_theme=(light|dark)(?:;|$)/);t=c&&c[1]}catch(e){}if(t!=='light'&&t!=='dark'){try{t=localStorage.getItem('sundae-theme')}catch(e){}}document.documentElement.classList.toggle('light',t==='light')})()`,
       }}
     />
   );
@@ -38,11 +39,11 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       return 'dark';
     }
 
-    return localStorage.getItem('sundae-theme') === 'light' ? 'light' : 'dark';
+    return readThemePreference();
   });
 
   useEffect(() => {
-    localStorage.setItem('sundae-theme', theme);
+    writeThemePreference(theme);
     if (theme === 'light') {
       document.documentElement.classList.add('light');
     } else {
@@ -50,10 +51,22 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     }
   }, [theme]);
 
+  useEffect(() => {
+    const sync = () => setTheme(readThemePreference());
+    window.addEventListener('pageshow', sync);
+    window.addEventListener('focus', sync);
+    window.addEventListener('storage', sync);
+    return () => {
+      window.removeEventListener('pageshow', sync);
+      window.removeEventListener('focus', sync);
+      window.removeEventListener('storage', sync);
+    };
+  }, []);
+
   const toggleTheme = useCallback(() => {
     setTheme((prev) => {
       const next = prev === 'dark' ? 'light' : 'dark';
-      localStorage.setItem('sundae-theme', next);
+      writeThemePreference(next);
       if (next === 'light') {
         document.documentElement.classList.add('light');
       } else {

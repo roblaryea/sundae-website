@@ -33,6 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const localized = copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
   return {
     ...localized,
+    title: { absolute: localized.title },
     description: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.description,
   };
 }

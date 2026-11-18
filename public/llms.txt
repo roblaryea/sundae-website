@@ -16,6 +16,8 @@ The operating layer is connected to Sundae's decision-intelligence products, so 
 
 ## Primary pages
 
+- [Sundae in practice](https://www.sundae.io/results): Native Crew workflow views and anonymized customer stories. Demo views establish capability, not customer outcomes. Story measurement periods, baselines and methods are not published; reported figures must not be treated as a forecast.
+
 - [Sundae](https://www.sundae.io/): Platform overview
 - [Profit Recovery](https://www.sundae.io/product/recovery): Closed-loop profit recovery workflow
 - [Why Sundae](https://www.sundae.io/why-sundae): Product differentiation

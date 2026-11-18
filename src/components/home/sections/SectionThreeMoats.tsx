@@ -1,5 +1,8 @@
 "use client";
 
+import bodyCopy from '@/content/buyer-clarity/home.json';
+
+
 import { motion } from "framer-motion";
 import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -202,7 +205,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
 export function SectionThreeMoats() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const deeper = bodyCopy[locale as keyof typeof bodyCopy];
+  const copy = { ...sourceCopy, headline: deeper.contextTitle, description: deeper.contextDescription,
+    layers: deeper.contextLayers, closing: deeper.workClosing };
 
   return (
     <section aria-labelledby="moats-headline" className="relative">

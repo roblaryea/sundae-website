@@ -1,5 +1,9 @@
 "use client";
 
+import bodyCopy from '@/content/buyer-clarity/crew.json';
+import audienceCopy from '@/content/operator-audiences.json';
+
+
 import depthCopy from '@/content/operator-depth.json'
 import openingCopy from '@/content/operator-openings.json'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
@@ -606,17 +610,24 @@ export default function CrewPage() {
   const commercial = getCommercialCopy(locale);
   const payrollTitle = crewNavLocales[locale as keyof typeof crewNavLocales].crewList.find(item => item.href === '/crew/payroll')?.name ?? 'Crew Pay';
   const operatorText = (value: string) => value.replace(/\b(?:WebAuthn|PWA)\b\s*/g, '').replace(/\bSKUs?\b/g, 'Crew').trim();
+  const deeper = bodyCopy[locale as keyof typeof bodyCopy];
+  const audience = audienceCopy[locale as keyof typeof audienceCopy];
   const copy = {
     ...sourceCopy,
-    pillarsTitle: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
+    ...deeper,
+    pillarsTitle: deeper.pillarsTitle,
     pillarsDescription: openingCopy[locale as keyof typeof openingCopy].crewDescription,
-    pillars: sourceCopy.pillars.map((item, index) => index === 2 ? { ...item, title: payrollTitle, body: commercial.payroll } : { ...item, body: operatorText(item.body), chips: item.chips.map(operatorText) }),
+    pillars: sourceCopy.pillars.map((item, index) => ({ ...item,
+      title: index === 2 ? payrollTitle : index === 4 ? deeper.coachTitle : index === 5 ? deeper.workflowTitle : item.title,
+      body: [audience.scheduling, audience.attendance, commercial.payroll, audience.people, deeper.coachBody, deeper.workflowBody][index],
+      chips: item.chips.map(operatorText) })),
     payrollTitle,
     payrollDescription: commercial.payroll,
     modulesTitle: 'Sundae Crew',
     modulesDescription: openingCopy[locale as keyof typeof openingCopy].crewDescription,
     bundleDescription: commercial.extraLocations,
-    retiresItems: sourceCopy.retiresItems.map(item => ({ ...item, body: operatorText(item.body) })),
+    retiresItems: sourceCopy.retiresItems.map((item, index) => ({ ...item,
+      body: [audience.scheduling, audience.attendance, commercial.payroll, audience.people, operatorText(item.body), audience.peopleIntelligence][index] })),
     personas: sourceCopy.personas.map(item => ({ ...item, outcome: operatorText(item.outcome) })),
     modules: sourceCopy.modules.map(item => ({ ...item, included: item.included.map(operatorText) })),
     heroLine1: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
@@ -646,7 +657,7 @@ export default function CrewPage() {
                 </span>
               </motion.div>
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
-                <span className="text-[var(--text-primary)]">{copy.heroLine1}</span>
+                <span className="text-[var(--text-primary)]">{copy.heroLine1}</span>{" "}
                 <br />
                 <span className="italic text-[var(--text-warm)]">{copy.heroLine2}</span>
               </motion.h1>

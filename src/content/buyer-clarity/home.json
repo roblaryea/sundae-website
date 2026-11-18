@@ -1,0 +1,2092 @@
+{
+  "en": {
+    "platformTitle": "See what changed. Choose what to do next.",
+    "platformDescription": "Follow the shift in Pulse, compare performance with Benchmarks, investigate in Insights and ask questions in Ask Sundae. Forecasting and market signals are available according to your package and selected extensions.",
+    "workEyebrow": "LESS MANUAL FOLLOW-UP",
+    "workTitle": "Spend less time assembling the answer.",
+    "workDescription": "Sundae turns connected sales, cost and workforce data into answers and recommendations. Managers can check the source, assign the next step and track what changed.",
+    "todayLabel": "When the work is disconnected",
+    "todayItems": [
+      "Rebuilding the same sales and labor report",
+      "Searching separate systems for the reason",
+      "Chasing an update after the shift",
+      "Losing the context between locations",
+      "Reviewing an issue after the opportunity has passed"
+    ],
+    "sundaeItems": [
+      "Sales, costs and staffing in one operating view",
+      "Answers linked to the supporting data",
+      "A person responsible for the next action",
+      "Tasks and handovers that carry the context",
+      "A starting point and a recorded result",
+      "Relevant comparisons across locations"
+    ],
+    "workClosing": "Keep useful systems. Connect the work around them.",
+    "contextTitle": "Understand the shift and the market around it.",
+    "contextDescription": "Use live shift signals, relevant market context and anonymized peer comparisons to decide what to investigate. Review the evidence before acting.",
+    "contextLayers": [
+      {
+        "title": "The shift as it happens",
+        "why": "Review sales pace, labor, voids and service exceptions while the shift is running."
+      },
+      {
+        "title": "The market around each location",
+        "why": "Consider relevant competitor, event and weather signals alongside your own data. Watchtower is a paid extension for eligible Core packages."
+      },
+      {
+        "title": "A relevant comparison",
+        "why": "Compare a metric with suitable anonymized peers. Check the cohort and data coverage before drawing a conclusion."
+      }
+    ],
+    "scenarioTitle": "Follow one operating problem through to review.",
+    "scenarioDescription": "This example shows a manager comparing sales with plan, considering possible causes and choosing a response. The result still needs to be checked against the starting point.",
+    "scenarioClosing": "Understand the change. Assign a response. Review the result.",
+    "scenarioDimensions": [
+      {
+        "title": "Covers are down 22%.",
+        "body": "Average check is steady in this example. The manager starts by investigating the change in traffic."
+      },
+      {
+        "title": "Sales are $3,800 behind forecast.",
+        "body": "Compare staffing and costs with the lower sales volume before choosing a response."
+      },
+      {
+        "title": "Check what may explain the gap.",
+        "body": "Review competitor offers and local events alongside the location's own operating records."
+      },
+      {
+        "title": "Give someone the next action.",
+        "body": "The manager reviews staffing and the lunch offer, records the chosen response and checks what changed after the shift.",
+        "shortLabel": "Action and review",
+        "eyebrow": "ACTION AND REVIEW"
+      }
+    ],
+    "voiceEyebrow": "THE MANAGER'S QUESTION",
+    "voiceText": "You can feel the shift changing. *Where do you check the reason, and who follows it through?*",
+    "voiceResolution": "Look at the sales and staffing signals, agree the next step with the team and keep the handover and result together.",
+    "voiceAttribution": "Sundae's view of the daily operating challenge",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "FOUR VIEWS OF ONE OPERATING QUESTION",
+    "scenarioNote": "Illustrative scenario using demo figures. Week-on-week covers and variance against forecast are different comparisons, not measured customer outcomes.",
+    "scenarioVisual": {
+      "laborNote": "Compare scheduled labor with this sales volume before changing coverage.",
+      "watchtowerItem2": "An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location.",
+      "coachBody": "Review coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response.",
+      "coachProjection": "Example recommendation. Any impact needs to be measured after the action.",
+      "illustrative": "Illustrative example"
+    },
+    "manifesto": {
+      "statement": "Preventable loss deserves *a clear response.*",
+      "coda": "Sundae connects the operating signals with the work needed to respond. Understand the change, give someone the next step and compare what happened afterwards."
+    },
+    "shiftMoment": {
+      "eyebrow": "AN ILLUSTRATIVE SHIFT",
+      "heading": "See the gap while the shift is running.",
+      "sub": "Move through this illustrative evening to see a sales and labor signal, a manager response and the later review. These are demo figures, not a customer result.",
+      "withSundae": "With a recorded response",
+      "oldWay": "Without timely follow-up",
+      "signalBody": "Sales pace has fallen in Section 3 and labor is above 30%. Check service flow and coverage before deciding whether to change an assignment.",
+      "signalAction": "Review and assign the next step.",
+      "oldBody": "The next-day review shows where sales pace and staffing differed. Use the record to plan the next shift, even if the earlier opportunity has passed.",
+      "oldAction": "Plan the next shift.",
+      "savedTitle": "Illustrative end-of-shift view",
+      "savedBody": "This example ends closer to plan. A real outcome needs the action record, a relevant baseline and a review of other changes.",
+      "projectedClose": "Example projected close"
+    }
+  },
+  "ar": {
+    "platformTitle": "شاهد ما تغيّر. اختر الإجراء التالي.",
+    "platformDescription": "تابع التحول في Pulse، قارن الأداء مع Benchmarks، حقق في Insights واطرح الأسئلة في Ask Sundae. التنبؤ وإشارات السوق متاحة بحسب حزمتك والملحقات المختارة.",
+    "workEyebrow": "أقل متابعة يدوية",
+    "workTitle": "اقضِ وقتا أقل في تجميع الإجابة.",
+    "workDescription": "Sundae يحوّل بيانات المبيعات والتكاليف والقوى العاملة الموصولة إلى إجابات وتوصيات. يمكن للمديرين فحص المصدر، تعيين الخطوة التالية وتتبع ما تغيّر.",
+    "todayLabel": "عندما تكون الأعمال مفصولة",
+    "todayItems": [
+      "إعادة بناء نفس تقرير المبيعات والعمالة",
+      "البحث في أنظمة منفصلة عن السبب",
+      "مطاردة تحديث بعد التحول",
+      "فقدان السياق بين المواقع",
+      "مراجعة مشكلة بعد فوات الفرصة"
+    ],
+    "sundaeItems": [
+      "المبيعات والتكاليف والموظفين في عرض تشغيلي واحد",
+      "إجابات مرتبطة بالبيانات الداعمة",
+      "شخص مسؤول عن الإجراء التالي",
+      "مهام وتسليمات تنقُل السياق",
+      "نقطة بداية ونتيجة مسجلة",
+      "مقارنات ذات صلة عبر المواقع"
+    ],
+    "workClosing": "احتفظ بالأنظمة المفيدة. اربط العمل حولها.",
+    "contextTitle": "افهم التحول والسوق المحيط به.",
+    "contextDescription": "استخدم إشارات الشفت الحية، وسياق السوق ذي الصلة ومقارنات الأقران المجهولة لتقرر ما الذي تحقق منه. راجع الدلائل قبل اتخاذ إجراء.",
+    "contextLayers": [
+      {
+        "title": "التحول أثناء حدوثه",
+        "why": "راجع وتيرة المبيعات والعمالة والإلغاءات واستثناءات الخدمة بينما يسير الشفت."
+      },
+      {
+        "title": "السوق حول كل موقع",
+        "why": "ضع إشارات المنافسين والأحداث والطقس ذات الصلة جنبًا إلى جنب مع بياناتك. Watchtower امتداد مدفوع للحزم المؤهلة من Core."
+      },
+      {
+        "title": "مقارنة ذات صلة",
+        "why": "قارن مقياسًا مع نظراء مجهولين مناسبين. تحقق من الفوج وتغطية البيانات قبل استخلاص استنتاج."
+      }
+    ],
+    "scenarioTitle": "تابع مشكلة تشغيلية واحدة حتى المراجعة.",
+    "scenarioDescription": "هذا المثال يُظهر مديرا يقارن المبيعات مع الخطة، ويفكر في الأسباب المحتملة ويختار استجابة. النتيجة لا بد أن تُفحص مقابل نقطة البداية.",
+    "scenarioClosing": "افهم التغيير. كلف بالإجراء. راجع النتيجة.",
+    "scenarioDimensions": [
+      {
+        "title": "عدد الجلوسات انخفض 22%.",
+        "body": "المعدل المتوسط للفاتورة ثابت في هذا المثال. يبدأ المدير بالتحقيق في التغيير في الحركة."
+      },
+      {
+        "title": "المبيعات متأخرة $3,800 عن التوقع.",
+        "body": "قارن العمالة والتكاليف بحجم المبيعات الأقل قبل اختيار استجابة."
+      },
+      {
+        "title": "تحقق ممّا قد يفسّر الفجوة.",
+        "body": "راجع عروض المنافسين والأحداث المحلية جنبًا إلى جنب مع سجلات التشغيل في الموقع."
+      },
+      {
+        "title": "كلّف شخصا بالإجراء التالي.",
+        "body": "يراجع المدير العمالة وعرض الغداء، يسجل الاستجابة المختارة ويتحقق مما تغيّر بعد الشفت.",
+        "shortLabel": "إجراء ومراجعة",
+        "eyebrow": "الإجراء والمراجعة"
+      }
+    ],
+    "voiceEyebrow": "سؤال المدير",
+    "voiceText": "يمكنك أن تشعر بتغير الشفت. *أين تتحقق من السبب، ومن يتابع الأمر حتى النهاية؟*",
+    "voiceResolution": "انظر إلى إشارات المبيعات والموظفين، اتفق على الخطوة التالية مع الفريق واحتفظ بالتسليم والنتيجة معا.",
+    "voiceAttribution": "رؤية Sundae للتحدي التشغيلي اليومي",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "أربع رؤى لسؤال تشغيلي واحد",
+    "scenarioNote": "سيناريو توضيحي باستخدام أرقام تجريبية. التغيّر الأسبوعي في عدد الجلوسات والانحراف عن التوقع هما مقارنات مختلفة، وليسا نتائج عملاء مقاسة.",
+    "scenarioVisual": {
+      "laborNote": "قارن العمالة المجدولة مع حجم المبيعات هذا قبل تعديل التغطية.",
+      "watchtowerItem2": "تم جدولة تدريب إخلاء في برج مكاتب 11-12، على بعد 2 مبانٍ. تحقق مما إذا كان سيؤثر على هذا الموقع.",
+      "coachBody": "راجع التغطية قبل تغيير نوبة طباخ الخط 11-2. ضع في الحسبان عرض الغداء $11.99 إن كان ملائما للتشغيل. يقرّر المدير الاستجابة.",
+      "coachProjection": "توصية مثال. أي تأثير يحتاج أن يُقاس بعد الإجراء.",
+      "illustrative": "مثال توضيحي"
+    },
+    "manifesto": {
+      "statement": "الخسارة القابلة للتجنّب تستحق *رد فعل واضح.*",
+      "coda": "Sundae يربط إشارات التشغيل بالعمل اللازم للرد. افهم التغيير، امنح شخصا الخطوة التالية وقارن ما حدث لاحقا."
+    },
+    "shiftMoment": {
+      "eyebrow": "شفت توضيحي",
+      "heading": "شاهد الفجوة بينما الشفت جارٍ.",
+      "sub": "تنقّل عبر هذا المساء التوضيحي لرؤية إشارة مبيعات وعمالة، واستجابة مدير والمراجعة اللاحقة. هذه أرقام تجريبية، ليست نتيجة عميل.",
+      "withSundae": "مع استجابة مسجلة",
+      "oldWay": "بدون متابعة فورية",
+      "signalBody": "تراجعت وتيرة المبيعات في القسم 3 والعمالة فوق 30%. تحقق من تدفق الخدمة والتغطية قبل أن تقرر تغيير التعيين.",
+      "signalAction": "راجع وكلف الخطوة التالية.",
+      "oldBody": "تُظهر مراجعة اليوم التالي أين اختلفت وتيرة المبيعات والموظفين. استخدم السجل لتخطيط الشفت التالي، حتى لو فاتت الفرصة السابقة.",
+      "oldAction": "خطط للشفت التالي.",
+      "savedTitle": "عرض توضيحي لنهاية الشفت",
+      "savedBody": "ينتهي هذا المثال أقرب إلى الخطة. النتيجة الحقيقية تحتاج سجل الإجراء، خط أساس ذي صلة ومراجعة تغييرات أخرى.",
+      "projectedClose": "إغلاق متوقع نموذجي"
+    }
+  },
+  "fr": {
+    "platformTitle": "Voyez ce qui a changé. Choisissez la suite.",
+    "platformDescription": "Suivez le changement dans Pulse, comparez les performances avec Benchmarks, examinez dans Insights et posez des questions dans Ask Sundae. Les prévisions et signaux de marché sont disponibles selon votre package et les extensions sélectionnées.",
+    "workEyebrow": "MOINS DE SUIVI MANUEL",
+    "workTitle": "Passez moins de temps à assembler la réponse.",
+    "workDescription": "Sundae transforme les données connectées de ventes, coûts et effectifs en réponses et recommandations. Les managers peuvent vérifier la source, attribuer l’étape suivante et suivre ce qui a changé.",
+    "todayLabel": "Quand le travail est déconnecté",
+    "todayItems": [
+      "Recréer le même rapport de ventes et de main-d’œuvre",
+      "Rechercher la raison dans des systèmes séparés",
+      "Poursuivre une mise à jour après le changement",
+      "Perdre le contexte entre les sites",
+      "Revoir un problème après que l’opportunité est passée"
+    ],
+    "sundaeItems": [
+      "Ventes, coûts et staffing dans une même vue opérationnelle",
+      "Réponses liées aux données justificatives",
+      "Une personne responsable de l’étape suivante",
+      "Tâches et transferts qui conservent le contexte",
+      "Un point de départ et un résultat enregistré",
+      "Comparaisons pertinentes entre sites"
+    ],
+    "workClosing": "Conservez des systèmes utiles. Connectez le travail autour d’eux.",
+    "contextTitle": "Comprenez le changement et le marché autour.",
+    "contextDescription": "Utilisez des signaux de shift en direct, le contexte de marché pertinent et des comparaisons anonymisées de pairs pour décider quoi investiguer. Examinez les preuves avant d’agir.",
+    "contextLayers": [
+      {
+        "title": "Le shift au moment où il se produit",
+        "why": "Consultez le rythme des ventes, la main-d’œuvre, les pertes et les exceptions de service pendant que le shift est en cours."
+      },
+      {
+        "title": "Le marché autour de chaque site",
+        "why": "Considérez les signaux pertinents de concurrents, d’événements et de météo aux côtés de vos propres données. Watchtower est une extension payante pour les Core éligibles."
+      },
+      {
+        "title": "Une comparaison pertinente",
+        "why": "Comparez une métrique avec des pairs anonymisés adaptés. Vérifiez la cohorte et la couverture des données avant de tirer une conclusion."
+      }
+    ],
+    "scenarioTitle": "Suivez un problème opérationnel jusqu’à la revue.",
+    "scenarioDescription": "Cet exemple montre un manager comparant les ventes au plan, considérant les causes possibles et choisissant une réponse. Le résultat doit encore être vérifié par rapport au point de départ.",
+    "scenarioClosing": "Comprendre le changement. Attribuer une réponse. Revoir le résultat.",
+    "scenarioDimensions": [
+      {
+        "title": "Le nombre de couverts est en baisse de 22%.",
+        "body": "Le ticket moyen est stable dans cet exemple. Le manager commence par investiguer le changement de trafic."
+      },
+      {
+        "title": "Les ventes sont de $3,800 en dessous des prévisions.",
+        "body": "Comparez le staffing et les coûts avec le volume de ventes réduit avant de choisir une réponse."
+      },
+      {
+        "title": "Vérifiez ce qui peut expliquer l’écart.",
+        "body": "Examinez les offres concurrentes et les événements locaux à côté des enregistrements opérationnels du site."
+      },
+      {
+        "title": "Donnez à quelqu’un l’action suivante.",
+        "body": "Le manager passe en revue le staffing et l’offre du déjeuner, enregistre la réponse choisie et vérifie ce qui a changé après le shift.",
+        "shortLabel": "Action et revue",
+        "eyebrow": "ACTION ET REVUE"
+      }
+    ],
+    "voiceEyebrow": "LA QUESTION DU MANAGER",
+    "voiceText": "Vous sentez le changement s’opérer. *Où vérifiez-vous la raison, et qui le suit ?*",
+    "voiceResolution": "Consultez les signaux de ventes et de staffing, convenez de l’étape suivante avec l’équipe et conservez le transfert et le résultat ensemble.",
+    "voiceAttribution": "La vision de Sundae sur le défi opérationnel quotidien",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "QUATRE VUES D’UNE MÊME QUESTION OPÉRATIONNELLE",
+    "scenarioNote": "Scénario illustratif utilisant des chiffres de démonstration. Les variations hebdomadaires de couverts et l’écart par rapport aux prévisions sont des comparaisons différentes, pas des résultats clients mesurés.",
+    "scenarioVisual": {
+      "laborNote": "Comparez la main-d’œuvre prévue avec ce volume de ventes avant de modifier la couverture.",
+      "watchtowerItem2": "Un exercice d’évacuation de la tour de bureaux est prévu 11-12, à 2 pâtés de maisons. Vérifiez s’il affecte ce site.",
+      "coachBody": "Revoyez la couverture avant de modifier le shift de cuisinier de ligne 11-2. Envisagez l’offre déjeuner $11.99 si elle convient à l’exploitation. Un manager décide de la réponse.",
+      "coachProjection": "Recommandation d’exemple. Tout impact doit être mesuré après l’action.",
+      "illustrative": "Exemple illustratif"
+    },
+    "manifesto": {
+      "statement": "La perte évitable mérite *une réponse claire.*",
+      "coda": "Sundae relie les signaux opérationnels au travail nécessaire pour y répondre. Comprenez le changement, donnez à quelqu’un l’étape suivante et comparez ce qui s’est passé ensuite."
+    },
+    "shiftMoment": {
+      "eyebrow": "UN SHIFT ILLUSTRATIF",
+      "heading": "Repérez l’écart pendant que le shift tourne.",
+      "sub": "Parcourez cette soirée illustrative pour voir un signal de ventes et de main-d’œuvre, une réponse manager et la revue ultérieure. Ce sont des chiffres de démonstration, pas un résultat client.",
+      "withSundae": "Avec une réponse enregistrée",
+      "oldWay": "Sans suivi en temps utile",
+      "signalBody": "Le rythme des ventes a baissé dans la Section 3 et la main-d’œuvre est supérieure à 30%. Vérifiez le flux de service et la couverture avant de décider de modifier une affectation.",
+      "signalAction": "Examiner et attribuer l’étape suivante.",
+      "oldBody": "La revue du lendemain montre où le rythme des ventes et le staffing différaient. Utilisez l’enregistrement pour planifier le shift suivant, même si l’opportunité initiale est passée.",
+      "oldAction": "Planifier le shift suivant.",
+      "savedTitle": "Vue illustrative de fin de shift",
+      "savedBody": "Cet exemple se termine plus proche du plan. Un vrai résultat nécessite l’enregistrement de l’action, une base pertinente et une revue des autres changements.",
+      "projectedClose": "Fermeture projetée d’exemple"
+    }
+  },
+  "es": {
+    "platformTitle": "Vea lo que cambió. Elija qué hacer a continuación.",
+    "platformDescription": "Siga el cambio en Pulse, compare el rendimiento con Benchmarks, investigue en Insights y haga preguntas en Ask Sundae. La previsión y las señales de mercado están disponibles según su paquete y las extensiones seleccionadas.",
+    "workEyebrow": "MENOS SEGUIMIENTO MANUAL",
+    "workTitle": "Dedique menos tiempo a ensamblar la respuesta.",
+    "workDescription": "Sundae convierte los datos conectados de ventas, costes y personal en respuestas y recomendaciones. Los gestores pueden comprobar la fuente, asignar el siguiente paso y rastrear lo que cambió.",
+    "todayLabel": "Cuando el trabajo está desconectado",
+    "todayItems": [
+      "Reconstruir el mismo informe de ventas y horas",
+      "Buscar en sistemas separados la razón",
+      "Perseguir una actualización tras el cambio",
+      "Perder el contexto entre ubicaciones",
+      "Revisar un problema después de que la oportunidad haya pasado"
+    ],
+    "sundaeItems": [
+      "Ventas, costes y plantilla en una vista operativa",
+      "Respuestas enlazadas con los datos de respaldo",
+      "Una persona responsable del siguiente paso",
+      "Tareas y transferencias que conservan el contexto",
+      "Un punto de inicio y un resultado registrado",
+      "Comparaciones relevantes entre ubicaciones"
+    ],
+    "workClosing": "Mantenga sistemas útiles. Conecte el trabajo alrededor de ellos.",
+    "contextTitle": "Entienda el cambio y el mercado que lo rodea.",
+    "contextDescription": "Use señales de turno en vivo, contexto de mercado relevante y comparaciones anónimas con pares para decidir qué investigar. Revise la evidencia antes de actuar.",
+    "contextLayers": [
+      {
+        "title": "El turno tal como ocurre",
+        "why": "Revise el ritmo de ventas, el personal, los desperdicios y las excepciones de servicio mientras el turno se desarrolla."
+      },
+      {
+        "title": "El mercado alrededor de cada ubicación",
+        "why": "Considere las señales relevantes de competidores, eventos y clima junto con sus propios datos. Watchtower es una extensión de pago para los paquetes Core elegibles."
+      },
+      {
+        "title": "Una comparación relevante",
+        "why": "Compare una métrica con pares anónimos adecuados. Compruebe la cohorte y la cobertura de datos antes de sacar una conclusión."
+      }
+    ],
+    "scenarioTitle": "Siga un problema operativo hasta su revisión.",
+    "scenarioDescription": "Este ejemplo muestra a un gestor comparando las ventas con el plan, considerando causas posibles y eligiendo una respuesta. El resultado aún necesita comprobación frente al punto de partida.",
+    "scenarioClosing": "Entienda el cambio. Asigne una respuesta. Revise el resultado.",
+    "scenarioDimensions": [
+      {
+        "title": "Las cubiertas han bajado 22%.",
+        "body": "El ticket medio permanece estable en este ejemplo. El gestor comienza investigando el cambio en el tráfico."
+      },
+      {
+        "title": "Las ventas están $3,800 por detrás del pronóstico.",
+        "body": "Compare la plantilla y los costes con el menor volumen de ventas antes de elegir una respuesta."
+      },
+      {
+        "title": "Compruebe qué puede explicar la brecha.",
+        "body": "Revise las ofertas de competidores y los eventos locales junto con los registros operativos de la ubicación."
+      },
+      {
+        "title": "Déle a alguien la siguiente acción.",
+        "body": "El gestor revisa la plantilla y la oferta del almuerzo, registra la respuesta elegida y comprueba qué cambió después del turno.",
+        "shortLabel": "Acción y revisión",
+        "eyebrow": "ACCIÓN Y REVISIÓN"
+      }
+    ],
+    "voiceEyebrow": "LA PREGUNTA DEL GESTOR",
+    "voiceText": "Siente que el turno está cambiando. *¿Dónde comprueba la razón y quién lo sigue hasta el final?*",
+    "voiceResolution": "Mire las señales de ventas y plantilla, acuerde el siguiente paso con el equipo y mantenga la transferencia y el resultado juntos.",
+    "voiceAttribution": "La visión de Sundae sobre el reto operativo diario",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "CUATRO VISTAS DE UNA PREGUNTA OPERATIVA",
+    "scenarioNote": "Escenario ilustrativo usando cifras demo. La variación semanal de cubiertas y la variación frente al pronóstico son comparaciones diferentes, no resultados medidos de clientes.",
+    "scenarioVisual": {
+      "laborNote": "Compare la plantilla programada con este volumen de ventas antes de cambiar la cobertura.",
+      "watchtowerItem2": "Un simulacro de incendio en una torre de oficinas está programado 11-12, a 2 manzanas. Compruebe si afecta a esta ubicación.",
+      "coachBody": "Revise la cobertura antes de cambiar el turno de cocinero de línea 11-2. Considere la oferta de almuerzo $11.99 si encaja con la operación. Un gestor decide la respuesta.",
+      "coachProjection": "Recomendación de ejemplo. Cualquier impacto debe medirse después de la acción.",
+      "illustrative": "Ejemplo ilustrativo"
+    },
+    "manifesto": {
+      "statement": "La pérdida prevenible merece *una respuesta clara.*",
+      "coda": "Sundae conecta las señales operativas con el trabajo necesario para responder. Entienda el cambio, déle a alguien el siguiente paso y compare lo ocurrido después."
+    },
+    "shiftMoment": {
+      "eyebrow": "UN TURNO ILUSTRATIVO",
+      "heading": "Vea la brecha mientras el turno está en curso.",
+      "sub": "Avance por esta tarde ilustrativa para ver una señal de ventas y de personal, una respuesta del gestor y la revisión posterior. Estas son cifras demo, no un resultado de cliente.",
+      "withSundae": "Con una respuesta registrada",
+      "oldWay": "Sin seguimiento oportuno",
+      "signalBody": "El ritmo de ventas ha caído en la Sección 3 y el personal está por encima del 30%. Compruebe el flujo de servicio y la cobertura antes de decidir si cambia una asignación.",
+      "signalAction": "Revise y asigne el siguiente paso.",
+      "oldBody": "La revisión del día siguiente muestra dónde difirieron el ritmo de ventas y la plantilla. Use el registro para planear el siguiente turno, incluso si la oportunidad anterior ya pasó.",
+      "oldAction": "Planear el siguiente turno.",
+      "savedTitle": "Vista ilustrativa de fin de turno",
+      "savedBody": "Este ejemplo termina más cerca del plan. Un resultado real necesita el registro de la acción, una línea base relevante y una revisión de otros cambios.",
+      "projectedClose": "Cierre proyectado de ejemplo"
+    }
+  },
+  "de": {
+    "platformTitle": "Sehen Sie, was sich geändert hat. Wählen Sie das nächste Vorgehen.",
+    "platformDescription": "Verfolgen Sie Verschiebungen in Pulse, vergleichen Sie Leistungen mit Benchmarks, untersuchen Sie in Insights und stellen Sie Fragen in Ask Sundae. Prognosen und Marktsignale sind entsprechend Ihrem Paket und ausgewählten Erweiterungen verfügbar.",
+    "workEyebrow": "WENIGER MANUELLES NACHVERFOLGEN",
+    "workTitle": "Verbringen Sie weniger Zeit mit dem Zusammenstellen der Antwort.",
+    "workDescription": "Sundae verwandelt verknüpfte Verkaufs-, Kosten- und Personaldaten in Antworten und Empfehlungen. Manager können die Quelle prüfen, den nächsten Schritt zuweisen und verfolgen, was sich verändert hat.",
+    "todayLabel": "Wenn die Arbeit getrennt ist",
+    "todayItems": [
+      "Den gleichen Verkaufs- und Arbeitsbericht neu erstellen",
+      "Getrennte Systeme nach dem Grund durchsuchen",
+      "Einem Update nach der Verschiebung hinterherlaufen",
+      "Den Kontext zwischen Standorten verlieren",
+      "Ein Problem nach dem verstrichenen Zeitpunkt prüfen"
+    ],
+    "sundaeItems": [
+      "Umsatz, Kosten und Personal in einer Betriebsansicht",
+      "Antworten verknüpft mit den unterstützenden Daten",
+      "Eine verantwortliche Person für den nächsten Schritt",
+      "Aufgaben und Übergaben, die den Kontext tragen",
+      "Ein Ausgangspunkt und ein aufgezeichnetes Ergebnis",
+      "Relevante Vergleiche über Standorte hinweg"
+    ],
+    "workClosing": "Behalten Sie nützliche Systeme. Vernetzen Sie die Arbeit darum herum.",
+    "contextTitle": "Verstehen Sie die Verschiebung und den Markt darum herum.",
+    "contextDescription": "Nutzen Sie Live-Schichtsignale, relevanten Marktkontext und anonymisierte Peer-Vergleiche, um zu entscheiden, was untersucht werden sollte. Prüfen Sie die Beweise, bevor Sie handeln.",
+    "contextLayers": [
+      {
+        "title": "Die Verschiebung, während sie passiert",
+        "why": "Prüfen Sie Umsatztempo, Personal, Stornos und Serviceausnahmen, während die Schicht läuft."
+      },
+      {
+        "title": "Der Markt um jeden Standort",
+        "why": "Berücksichtigen Sie relevante Wettbewerber-, Event- und Wettersignale neben Ihren eigenen Daten. Watchtower ist eine kostenpflichtige Erweiterung für berechtigte Core-Pakete."
+      },
+      {
+        "title": "Ein relevanter Vergleich",
+        "why": "Vergleichen Sie eine Kennzahl mit geeigneten anonymisierten Peers. Prüfen Sie Kohorte und Datenabdeckung, bevor Sie eine Schlussfolgerung ziehen."
+      }
+    ],
+    "scenarioTitle": "Begleiten Sie ein Betriebsproblem bis zur Überprüfung.",
+    "scenarioDescription": "Dieses Beispiel zeigt, wie ein Manager Umsatz mit Plan vergleicht, mögliche Ursachen abwägt und eine Reaktion wählt. Das Ergebnis muss gegen den Ausgangspunkt geprüft werden.",
+    "scenarioClosing": "Verstehen Sie die Änderung. Weisen Sie eine Reaktion zu. Überprüfen Sie das Ergebnis.",
+    "scenarioDimensions": [
+      {
+        "title": "Covers sind um 22% gesunken.",
+        "body": "Der durchschnittliche Bon bleibt in diesem Beispiel stabil. Der Manager beginnt damit, die Änderung im Besucheraufkommen zu untersuchen."
+      },
+      {
+        "title": "Der Umsatz liegt $3,800 hinter der Prognose.",
+        "body": "Vergleichen Sie Personal und Kosten mit dem geringeren Umsatzvolumen, bevor Sie eine Reaktion wählen."
+      },
+      {
+        "title": "Prüfen Sie, was die Lücke erklären könnte.",
+        "body": "Überprüfen Sie Wettbewerberangebote und lokale Veranstaltungen neben den betrieblichen Aufzeichnungen des Standorts."
+      },
+      {
+        "title": "Geben Sie jemandem die nächste Aufgabe.",
+        "body": "Der Manager prüft Personal und das Mittagsangebot, dokumentiert die gewählte Reaktion und prüft, was sich nach der Schicht verändert hat.",
+        "shortLabel": "Aktion und Überprüfung",
+        "eyebrow": "AKTION UND ÜBERPRÜFUNG"
+      }
+    ],
+    "voiceEyebrow": "DIE FRAGE DES MANAGERS",
+    "voiceText": "Sie spüren die Verschiebung. *Wo prüfen Sie den Grund und wer verfolgt ihn weiter?*",
+    "voiceResolution": "Sehen Sie sich die Umsatz- und Personal-Signale an, stimmen Sie den nächsten Schritt mit dem Team ab und behalten Sie Übergabe und Ergebnis zusammen.",
+    "voiceAttribution": "Sundaes Sicht auf die tägliche Betriebsherausforderung",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "VIER BLICKE AUF EINE BETRIEBSFRAGE",
+    "scenarioNote": "Illustratives Szenario mit Demo-Zahlen. Wochendurchschnitts-Covers und Abweichung gegenüber Prognose sind unterschiedliche Vergleiche, keine gemessenen Kundenergebnisse.",
+    "scenarioVisual": {
+      "laborNote": "Vergleichen Sie geplante Arbeitszeiten mit diesem Umsatzvolumen, bevor Sie die Personaldeckung ändern.",
+      "watchtowerItem2": "Eine Evakuierungsübung in einem Bürogebäude ist für 11-12, 2 Blocks entfernt, geplant. Prüfen Sie, ob sie diesen Standort beeinflusst.",
+      "coachBody": "Überprüfen Sie die Deckung, bevor Sie die 11-2 Schicht des Line-Cooks ändern. Ziehen Sie das $11.99 Mittagsangebot in Betracht, wenn es zur Betriebsform passt. Ein Manager entscheidet über die Reaktion.",
+      "coachProjection": "Beispiel-Empfehlung. Jede Auswirkung muss nach der Aktion gemessen werden.",
+      "illustrative": "Illustratives Beispiel"
+    },
+    "manifesto": {
+      "statement": "Vermeidbarer Verlust verdient *eine klare Reaktion.*",
+      "coda": "Sundae verbindet die betrieblichen Signale mit der Arbeit, die zur Reaktion nötig ist. Verstehen Sie die Änderung, geben Sie jemandem den nächsten Schritt und vergleichen Sie, was danach passiert ist."
+    },
+    "shiftMoment": {
+      "eyebrow": "EINE ILLUSTRATIVE SCHICHT",
+      "heading": "Sehen Sie die Lücke, während die Schicht läuft.",
+      "sub": "Durchlaufen Sie diesen illustrativen Abend, um ein Umsatz- und Personalsignal, eine Managerreaktion und die spätere Überprüfung zu sehen. Dies sind Demo-Zahlen, kein Kundenergebnis.",
+      "withSundae": "Mit einer aufgezeichneten Reaktion",
+      "oldWay": "Ohne zeitnahe Nachverfolgung",
+      "signalBody": "Das Umsatztempo ist in Bereich 3 gefallen und die Personalkosten liegen über 30%. Prüfen Sie Servicefluss und Deckung, bevor Sie eine Änderung der Zuteilung vornehmen.",
+      "signalAction": "Überprüfen und den nächsten Schritt zuweisen.",
+      "oldBody": "Die Überprüfung am nächsten Tag zeigt, wo sich Umsatztempo und Personal unterschieden haben. Verwenden Sie die Aufzeichnung, um die nächste Schicht zu planen, auch wenn die frühere Gelegenheit verstrichen ist.",
+      "oldAction": "Planen Sie die nächste Schicht.",
+      "savedTitle": "Illustratives End-of-Shift-Ansicht",
+      "savedBody": "Dieses Beispiel endet näher am Plan. Ein reales Ergebnis benötigt die Aktionsaufzeichnung, eine relevante Basislinie und eine Überprüfung anderer Änderungen.",
+      "projectedClose": "Beispiel projizierter Abschluss"
+    }
+  },
+  "nl": {
+    "platformTitle": "Zie wat veranderde. Kies wat daarna te doen.",
+    "platformDescription": "Volg de verschuiving in Pulse, vergelijk prestaties met Benchmarks, onderzoek in Insights en stel vragen in Ask Sundae. Forecasting en marktsignalen zijn beschikbaar afhankelijk van uw pakket en geselecteerde extensies.",
+    "workEyebrow": "MINDER HANDMATIGE NAZORG",
+    "workTitle": "Besteed minder tijd aan het samenstellen van het antwoord.",
+    "workDescription": "Sundae zet verbonden verkoop-, kost- en personeelsgegevens om in antwoorden en aanbevelingen. Managers kunnen de bron controleren, de volgende stap toewijzen en bijhouden wat er is veranderd.",
+    "todayLabel": "Wanneer het werk versnipperd is",
+    "todayItems": [
+      "Het opnieuw opbouwen van hetzelfde verkoop- en loonkostenrapport",
+      "Het doorzoeken van aparte systemen naar de reden",
+      "Het najagen van een update na de verschuiving",
+      "Het verliezen van context tussen locaties",
+      "Het beoordelen van een probleem nadat de kans voorbij is"
+    ],
+    "sundaeItems": [
+      "Verkoop, kosten en bezetting in één operationeel overzicht",
+      "Antwoorden gekoppeld aan de onderliggende gegevens",
+      "Een persoon verantwoordelijk voor de volgende actie",
+      "Taken en overdrachten die de context behouden",
+      "Een startpunt en een vastgelegd resultaat",
+      "Relevante vergelijkingen tussen locaties"
+    ],
+    "workClosing": "Behoud bruikbare systemen. Verbind het werk eromheen.",
+    "contextTitle": "Begrijp de verschuiving en de markt eromheen.",
+    "contextDescription": "Gebruik live shift-signalen, relevante marktcontext en geanonimiseerde peervergelijkingen om te beslissen wat te onderzoeken. Beoordeel het bewijsmateriaal voordat u handelt.",
+    "contextLayers": [
+      {
+        "title": "De shift terwijl die plaatsvindt",
+        "why": "Bekijk verkooptempo, inzet, voids en service-excepties terwijl de shift loopt."
+      },
+      {
+        "title": "De markt rond elke locatie",
+        "why": "Beschouw relevante concurrentie-, evenement- en weersignalen naast uw eigen gegevens. Watchtower is een betaalde extensie voor in aanmerking komende Core-pakketten."
+      },
+      {
+        "title": "Een relevante vergelijking",
+        "why": "Vergelijk een metriek met geschikte geanonimiseerde peers. Controleer de cohort en de datadekking voordat u een conclusie trekt."
+      }
+    ],
+    "scenarioTitle": "Volg één operationeel probleem tot beoordeling.",
+    "scenarioDescription": "Dit voorbeeld toont een manager die verkoop vergelijkt met de planning, mogelijke oorzaken overweegt en een respons kiest. Het resultaat moet nog worden gecontroleerd tegen het vertrekpunt.",
+    "scenarioClosing": "Begrijp de verandering. Wijs een reactie toe. Beoordeel het resultaat.",
+    "scenarioDimensions": [
+      {
+        "title": "Covers zijn gedaald met 22%.",
+        "body": "De gemiddelde besteding blijft in dit voorbeeld stabiel. De manager begint met het onderzoeken van de daling in bezoekersaantallen."
+      },
+      {
+        "title": "Verkoop blijft $3,800 achter op de forecast.",
+        "body": "Vergelijk inzet en kosten met het lagere verkoopvolume voordat u een reactie kiest."
+      },
+      {
+        "title": "Controleer wat de kloof kan verklaren.",
+        "body": "Bekijk concurrentieaanbiedingen en lokale evenementen naast de operationele gegevens van de locatie."
+      },
+      {
+        "title": "Geef iemand de volgende actie.",
+        "body": "De manager beoordeelt inzet en het lunchaanbod, legt de gekozen reactie vast en controleert wat er na de shift is veranderd.",
+        "shortLabel": "Actie en beoordeling",
+        "eyebrow": "ACTIE EN BEOORDELING"
+      }
+    ],
+    "voiceEyebrow": "DE VRAAG VAN DE MANAGER",
+    "voiceText": "U voelt de verschuiving. *Waar controleert u de reden, en wie volgt het op?*",
+    "voiceResolution": "Kijk naar de verkoop- en bezettingssignalen, stem de volgende stap af met het team en houd overdracht en resultaat samen.",
+    "voiceAttribution": "Sundae's blik op de dagelijkse operationele uitdaging",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "VIER ZICHTEN OP ÉÉN OPERATIONELE VRAAG",
+    "scenarioNote": "Illustratief scenario met demo-cijfers. Week-op-week covers en afwijking ten opzichte van forecast zijn verschillende vergelijkingen, geen gemeten klantuitkomsten.",
+    "scenarioVisual": {
+      "laborNote": "Vergelijk gepland personeel met dit verkoopvolume voordat u de bezetting verandert.",
+      "watchtowerItem2": "Een ontruimingsoefening in een kantoortoren is gepland op 11-12, 2 blokken verderop. Controleer of dit invloed heeft op deze locatie.",
+      "coachBody": "Controleer de bezetting voordat u de 11-2 lijnkokshift wijzigt. Overweeg het $11.99 lunchaanbod als het bij de operatie past. Een manager beslist de reactie.",
+      "coachProjection": "Voorbeeldaanbeveling. Elke impact moet na de actie worden gemeten.",
+      "illustrative": "Illustratief voorbeeld"
+    },
+    "manifesto": {
+      "statement": "Voorkombaar verlies verdient *een heldere reactie.*",
+      "coda": "Sundae verbindt de operationele signalen met het werk dat nodig is om te reageren. Begrijp de verandering, wijs iemand de volgende stap toe en vergelijk wat er daarna gebeurde."
+    },
+    "shiftMoment": {
+      "eyebrow": "EEN ILLUSTRATIEVE SHIFT",
+      "heading": "Zie de kloof terwijl de shift loopt.",
+      "sub": "Loop door deze illustratieve avond om een verkoop- en bezettingssignaal, een managerreactie en de latere beoordeling te zien. Dit zijn demo-cijfers, geen klantresultaat.",
+      "withSundae": "Met een vastgelegde reactie",
+      "oldWay": "Zonder tijdige nazorg",
+      "signalBody": "Het verkooptempo is gedaald in Sectie 3 en de inzet ligt boven 30%. Controleer serviceflow en bezetting voordat u een wijziging in een opdracht doorvoert.",
+      "signalAction": "Beoordeel en wijs de volgende stap toe.",
+      "oldBody": "De review van de volgende dag toont waar verkooptempo en inzet verschilden. Gebruik het verslag om de volgende shift te plannen, zelfs als de eerdere kans voorbij is.",
+      "oldAction": "Plan de volgende shift.",
+      "savedTitle": "Illustratief einde-van-shift overzicht",
+      "savedBody": "Dit voorbeeld eindigt dichter bij de planning. Een echt resultaat heeft het actieregister, een relevant uitgangspunt en een beoordeling van andere veranderingen nodig.",
+      "projectedClose": "Voorbeeld van verwachte afsluiting"
+    }
+  },
+  "pt": {
+    "platformTitle": "Veja o que mudou. Escolha o próximo passo.",
+    "platformDescription": "Siga a mudança no Pulse, compare desempenho com Benchmarks, investigue no Insights e faça perguntas em Ask Sundae. Previsões e sinais de mercado estão disponíveis conforme o seu pacote e extensões selecionadas.",
+    "workEyebrow": "MENOS ACOMPANHAMENTO MANUAL",
+    "workTitle": "Gaste menos tempo a reunir a resposta.",
+    "workDescription": "Sundae transforma dados conectados de vendas, custos e pessoal em respostas e recomendações. Os gestores podem verificar a origem, atribuir o próximo passo e acompanhar o que mudou.",
+    "todayLabel": "Quando o trabalho está desconectado",
+    "todayItems": [
+      "Reconstruir o mesmo relatório de vendas e horas",
+      "Procurar em sistemas separados a razão",
+      "Perseguir uma atualização após a mudança",
+      "Perder o contexto entre localizações",
+      "Rever um problema depois da oportunidade ter passado"
+    ],
+    "sundaeItems": [
+      "Vendas, custos e pessoal numa vista operacional única",
+      "Respostas ligadas aos dados de suporte",
+      "Uma pessoa responsável pela próxima ação",
+      "Tarefas e passagens que mantêm o contexto",
+      "Um ponto de partida e um resultado registado",
+      "Comparações relevantes entre localizações"
+    ],
+    "workClosing": "Mantenha sistemas úteis. Conecte o trabalho à volta deles.",
+    "contextTitle": "Perceba a mudança e o mercado à volta.",
+    "contextDescription": "Use sinais de turno em tempo real, contexto de mercado relevante e comparações anónimas com pares para decidir o que investigar. Reveja as evidências antes de agir.",
+    "contextLayers": [
+      {
+        "title": "A mudança enquanto acontece",
+        "why": "Revise o ritmo das vendas, horas, desperdícios e exceções de serviço enquanto o turno decorre."
+      },
+      {
+        "title": "O mercado à volta de cada local",
+        "why": "Considere sinais relevantes de concorrentes, eventos e meteorologia junto dos seus próprios dados. Watchtower é uma extensão paga para pacotes Core elegíveis."
+      },
+      {
+        "title": "Uma comparação relevante",
+        "why": "Compare uma métrica com pares anónimos adequados. Verifique a coorte e a cobertura de dados antes de tirar uma conclusão."
+      }
+    ],
+    "scenarioTitle": "Siga um problema operacional até à revisão.",
+    "scenarioDescription": "Este exemplo mostra um gestor a comparar vendas com o plano, a considerar causas possíveis e a escolher uma resposta. O resultado ainda precisa de ser verificado face ao ponto de partida.",
+    "scenarioClosing": "Perceba a mudança. Atribua uma resposta. Reveja o resultado.",
+    "scenarioDimensions": [
+      {
+        "title": "Covers estão em queda 22%.",
+        "body": "O ticket médio está estável neste exemplo. O gestor começa por investigar a mudança no tráfego."
+      },
+      {
+        "title": "As vendas estão $3,800 abaixo do previsto.",
+        "body": "Compare o pessoal e os custos com o menor volume de vendas antes de escolher uma resposta."
+      },
+      {
+        "title": "Verifique o que pode explicar o desfasamento.",
+        "body": "Revise ofertas de concorrentes e eventos locais juntamente com os registos operacionais do local."
+      },
+      {
+        "title": "Dê a alguém a próxima ação.",
+        "body": "O gestor revê o pessoal e a oferta de almoço, regista a resposta escolhida e verifica o que mudou após o turno.",
+        "shortLabel": "Ação e revisão",
+        "eyebrow": "AÇÃO E REVISÃO"
+      }
+    ],
+    "voiceEyebrow": "A PERGUNTA DO GESTOR",
+    "voiceText": "Sente a mudança a acontecer. *Onde verifica a razão e quem a acompanha até ao fim?*",
+    "voiceResolution": "Consulte os sinais de vendas e pessoal, concorde o próximo passo com a equipa e mantenha a passagem e o resultado juntos.",
+    "voiceAttribution": "A visão da Sundae sobre o desafio operacional diário",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "QUATRO VISTAS DE UMA QUESTÃO OPERACIONAL",
+    "scenarioNote": "Cenário ilustrativo usando números demo. Covers semana a semana e a variação face à previsão são comparações diferentes, não resultados medidos do cliente.",
+    "scenarioVisual": {
+      "laborNote": "Compare o trabalho programado com este volume de vendas antes de alterar a cobertura.",
+      "watchtowerItem2": "Um exercício de evacuação numa torre de escritórios está agendado 11-12, a 2 quarteirões de distância. Verifique se afeta este local.",
+      "coachBody": "Revise a cobertura antes de alterar o turno do cozinheiro de linha 11-2. Considere a oferta de almoço $11.99 se for adequada à operação. Um gestor decide a resposta.",
+      "coachProjection": "Recomendação de exemplo. Qualquer impacto precisa de ser medido após a ação.",
+      "illustrative": "Exemplo ilustrativo"
+    },
+    "manifesto": {
+      "statement": "Perdas evitáveis merecem *uma resposta clara.*",
+      "coda": "Sundae liga os sinais operacionais ao trabalho necessário para responder. Perceba a mudança, dê alguém o próximo passo e compare o que aconteceu depois."
+    },
+    "shiftMoment": {
+      "eyebrow": "UM TURNO ILUSTRATIVO",
+      "heading": "Veja a lacuna enquanto o turno decorre.",
+      "sub": "Percorra esta noite ilustrativa para ver um sinal de vendas e horas, uma resposta do gestor e a revisão posterior. Estes são números demo, não um resultado do cliente.",
+      "withSundae": "Com uma resposta registada",
+      "oldWay": "Sem acompanhamento atempado",
+      "signalBody": "O ritmo das vendas caiu na Secção 3 e as horas estão acima de 30%. Verifique o fluxo de serviço e a cobertura antes de decidir alterar uma atribuição.",
+      "signalAction": "Rever e atribuir o próximo passo.",
+      "oldBody": "A revisão do dia seguinte mostra onde o ritmo de vendas e a equipa diferiram. Use o registo para planear o próximo turno, mesmo que a oportunidade anterior tenha passado.",
+      "oldAction": "Planear o próximo turno.",
+      "savedTitle": "Vista ilustrativa no fim do turno",
+      "savedBody": "Este exemplo termina mais próximo do plano. Um resultado real precisa do registo da ação, uma linha de base relevante e uma revisão de outras mudanças.",
+      "projectedClose": "Fecho projetado de exemplo"
+    }
+  },
+  "hi": {
+    "platformTitle": "जो बदल गया देखें। अगला कदम चुनें।",
+    "platformDescription": "Pulse में शिफ्ट का पालन करें, Benchmarks के साथ प्रदर्शन तुलना करें, Insights में जाँच करें और Ask Sundae में प्रश्न पूछें। Forecasting और market signals आपके पैकेज और चुनी गई एक्सटेंशन्स के अनुसार उपलब्ध हैं।",
+    "workEyebrow": "कम मैनुअल फॉलो-अप",
+    "workTitle": "उत्तर संकलित करने में कम समय लगाएं।",
+    "workDescription": "Sundae जुड़े सेल्स, लागत और वर्कफोर्स डेटा को उत्तर और सिफारिशों में बदलता है। प्रबंधक स्रोत की जाँच कर सकते हैं, अगला कदम सौंप सकते हैं और क्या बदला उसका ट्रैक रख सकते हैं।",
+    "todayLabel": "जब काम डिस्कनेक्टेड हो",
+    "todayItems": [
+      "वही सेल्स और लेबर रिपोर्ट बार-बार बनाना",
+      "कारण के लिए अलग प्रणालियों में सर्च करना",
+      "शिफ्ट के बाद अपडेट के लिए पीछा करना",
+      "लोकेशनों के बीच संदर्भ खोना",
+      "अवसर निकल जाने के बाद किसी मुद्दे की समीक्षा करना"
+    ],
+    "sundaeItems": [
+      "एक ऑपरेटिंग व्यू में सेल्स, लागत और स्टाफिंग",
+      "समर्थक डेटा से जुड़े उत्तर",
+      "अगले कार्य के लिए जिम्मेदार व्यक्ति",
+      "कॉन्टेक्स्ट के साथ टास्क और हैंडओवर्स",
+      "शुरूआत का बिंदु और रिकॉर्ड की गई परिणाम",
+      "लोकेशनों के बीच प्रासंगिक तुलना"
+    ],
+    "workClosing": "उपयोगी प्रणालियाँ बनाए रखें। उनके चारों ओर काम कनेक्ट करें।",
+    "contextTitle": "शिफ्ट और उसके आसपास के बाजार को समझें।",
+    "contextDescription": "लाइव शिफ्ट सिगनल, प्रासंगिक मार्केट संदर्भ और अनानिमाइज़्ड पीयर तुलना का उपयोग कर निर्णय लें कि क्या जांच करनी है। कार्रवाई करने से पहले साक्ष्य की समीक्षा करें।",
+    "contextLayers": [
+      {
+        "title": "शिफ्ट जैसे ही हो रहा है",
+        "why": "शिफ्ट चलते हुए सेल्स पेस, लेबर, वॉइड्स और सर्विस अपवादों की समीक्षा करें।"
+      },
+      {
+        "title": "प्रत्येक लोकेशन के आसपास का बाजार",
+        "why": "अपनी खुद की डेटा के साथ प्रासंगिक प्रतियोगी, इवेंट और मौसम सिग्नल पर विचार करें। Watchtower चार्ज वाली एक्सटेंशन है जो योग्य Core पैकेजों के लिए उपलब्ध है।"
+      },
+      {
+        "title": "एक प्रासंगिक तुलना",
+        "why": "एक मीट्रिक की तुलना उपयुक्त अनानिमाइज़्ड पीयर्स के साथ करें। निष्कर्ष निकालने से पहले कोहोर्ट और डेटा कवरेज जांचें।"
+      }
+    ],
+    "scenarioTitle": "एक ऑपरेटिंग समस्या का पालन समीक्षा तक करें।",
+    "scenarioDescription": "यह उदाहरण एक प्रबंधक को सेल्स की प्लान से तुलना करते हुए, संभावित कारणों पर विचार करते हुए और प्रतिक्रिया चुनते हुए दिखाता है। परिणाम को अभी भी शुरुआती बिंदु के खिलाफ जांचने की आवश्यकता है।",
+    "scenarioClosing": "परिवर्तन को समझें। एक प्रतिक्रिया सौंपें। परिणाम की समीक्षा करें।",
+    "scenarioDimensions": [
+      {
+        "title": "Covers में कमी 22% है।",
+        "body": "इस उदाहरण में एवरेज चेक स्थिर है। प्रबंधक ट्रैफिक में हुए बदलाव की जांच से शुरू करता है।"
+      },
+      {
+        "title": "Sales फोरकास्ट से $3,800 पीछे हैं।",
+        "body": "प्रतिक्रिया चुनने से पहले कम सेल्स वॉल्यूम के साथ स्टाफिंग और लागत की तुलना करें।"
+      },
+      {
+        "title": "जगह की खाई क्या समझा सकती है देखें।",
+        "body": "लोकेशन के अपने ऑपरेटिंग रिकॉर्ड के साथ प्रतियोगी ऑफर और स्थानीय इवेंट की समीक्षा करें।"
+      },
+      {
+        "title": "किसी को अगला कार्य दें।",
+        "body": "प्रबंधक स्टाफिंग और लंच ऑफर की समीक्षा करता है, चुनी गई प्रतिक्रिया रिकॉर्ड करता है और शिफ्ट के बाद क्या बदला उसकी जाँच करता है।",
+        "shortLabel": "कार्य और समीक्षा",
+        "eyebrow": "कार्रवाई और समीक्षा"
+      }
+    ],
+    "voiceEyebrow": "प्रबंधक का प्रश्न",
+    "voiceText": "आप शिफ्ट बदलते हुए महसूस कर सकते हैं। *आप कारण कहाँ जाँच करते हैं, और इसे कौन पूरा करता है?*",
+    "voiceResolution": "सेल्स और स्टाफिंग सिग्नल देखें, टीम के साथ अगला कदम सहमत करें और हैंडओवर तथा परिणाम साथ रखें।",
+    "voiceAttribution": "दैनिक ऑपरेटिंग चुनौती पर Sundae का दृष्टिकोण",
+    "platformEyebrow": "Sundae CORE",
+    "scenarioEyebrow": "एक ऑपरेटिंग प्रश्न के चार दृश्य",
+    "scenarioNote": "डेमो आंकड़ों का उपयोग करके उदाहरण। सप्ताह-दर-सप्ताह कवर और फोरकास्ट के खिलाफ वैरिएंस अलग तुलना हैं, ग्राहक परिणाम नहीं नापा गया।",
+    "scenarioVisual": {
+      "laborNote": "कवरेज बदलने से पहले इस सेल्स वॉल्यूम के साथ शेड्यूल्ड लेबर की तुलना करें।",
+      "watchtowerItem2": "एक ऑफिस-टावर फायर ड्रिल 11-12 को शेड्यूल की गई है, 2 ब्लॉक्स दूर। जांचें कि क्या यह इस लोकेशन को प्रभावित करता है।",
+      "coachBody": "11-2 लाइन-कुक शिफ्ट बदलने से पहले कवरेज की समीक्षा करें। यदि यह संचालन में फिट बैठता है तो $11.99 लंच ऑफर पर विचार करें। प्रतिक्रिया का निर्णय प्रबंधक करता है।",
+      "coachProjection": "उदाहरण सिफारिश। किसी भी प्रभाव का मापन कार्रवाई के बाद करना होगा।",
+      "illustrative": "उदाहरणात्मक"
+    },
+    "manifesto": {
+      "statement": "रोकने योग्य नुकसान *एक स्पष्ट प्रतिक्रिया* का हकदार है।",
+      "coda": "Sundae ऑपरेटिंग सिगनलों को आवश्यक प्रतिक्रिया के काम के साथ जोड़ता है। परिवर्तन को समझें, किसी को अगला कदम दें और बाद में क्या हुआ उसकी तुलना करें।"
+    },
+    "shiftMoment": {
+      "eyebrow": "एक उदाहरणात्मक शिफ्ट",
+      "heading": "शिफ्ट चलते हुए गैप देखें।",
+      "sub": "इस उदाहरणात्मक शाम में आगे बढ़ें ताकि सेल्स और लेबर सिग्नल, एक प्रबंधक की प्रतिक्रिया और बाद की समीक्षा दिखाई दे। ये डेमो आंकड़े हैं, ग्राहक परिणाम नहीं।",
+      "withSundae": "रिकॉर्ड की गई प्रतिक्रिया के साथ",
+      "oldWay": "समय पर फॉलो-अप के बिना",
+      "signalBody": "Section 3 में सेल्स पेस गिरी है और लेबर 30% से ऊपर है। असाइनमेंट बदलने से पहले सर्विस फ्लो और कवरेज की जाँच करें।",
+      "signalAction": "समीक्षा करें और अगला कदम असाइन करें।",
+      "oldBody": "अगले दिन की समीक्षा दिखाती है कि सेल्स पेस और स्टाफिंग कहाँ भिन्न थे। अगली शिफ्ट की योजना बनाने के लिए रिकॉर्ड का उपयोग करें, भले ही पिछला अवसर निकल गया हो।",
+      "oldAction": "अगली शिफ्ट की योजना बनाएं।",
+      "savedTitle": "उदाहरणात्मक शिफ्ट के अंत का दृश्य",
+      "savedBody": "यह उदाहरण प्लान के निकट समाप्त होता है। एक वास्तविक परिणाम के लिए कार्रवाई रिकॉर्ड, एक प्रासंगिक बेसलाइन और अन्य परिवर्तनों की समीक्षा आवश्यक है।",
+      "projectedClose": "उदाहरण प्रोजेक्टेड क्लोज"
+    }
+  },
+  "ur": {
+    "platformTitle": "دستیاب تبدیلیاں دیکھیں۔ اگلا قدم منتخب کریں۔",
+    "platformDescription": "Pulse میں شفٹ کی پیروی کریں، کارکردگی کا موازنہ Benchmarks کے ساتھ کریں، Insights میں تفتیش کریں اور Ask Sundae میں سوالات کریں۔ پیشگوئی اور بازار کے اشارے آپ کے پیکیج اور منتخب شدہ توسیعات کے مطابق دستیاب ہیں۔",
+    "workEyebrow": "کم دستی فالو اپ",
+    "workTitle": "جواب مرتب کرنے میں کم وقت صرف کریں۔",
+    "workDescription": "Sundae مربوط فروخت، لاگت اور ورک فورس ڈیٹا کو جوابات اور سفارشات میں بدلتا ہے۔ منتظمین ماخذ چیک کر سکتے ہیں، اگلا قدم تفویض کر سکتے ہیں اور جو تبدیل ہوا ہے اس کا سراغ رکھ سکتے ہیں۔",
+    "todayLabel": "جب کام منقطع ہو",
+    "todayItems": [
+      "ایک ہی فروخت اور لیبر رپورٹ کو بار بار دوبارہ بنانا",
+      "وجہ معلوم کرنے کے لیے علیحدہ نظام تلاش کرنا",
+      "شفٹ کے بعد اپ ڈیٹ کے پیچھے پڑنا",
+      "مقامات کے درمیان سیاق و سباق کھو دینا",
+      "موقع گزر جانے کے بعد مسئلے کا جائزہ لینا"
+    ],
+    "sundaeItems": [
+      "فروخت، لاگت اور اسٹافنگ ایک آپریٹنگ منظر میں",
+      "جوابات معاون ڈیٹا سے منسلک",
+      "اگلے عمل کے لیے ذمہ دار ایک فرد",
+      "ٹاسک اور ہینڈ اوورز جو سیاق و سباق برقرار رکھتے ہیں",
+      "آغاز نقطہ اور ایک ریکارڈ شدہ نتیجہ",
+      "مقامات کے درمیان مناسب تقابلات"
+    ],
+    "workClosing": "مفید نظام برقرار رکھیں۔ ان کے گرد کام کو جوڑیں۔",
+    "contextTitle": "تبدیلی اور اس کے اردگرد کے بازار کو سمجھیں۔",
+    "contextDescription": "فی الوقت شفٹ سگنلز، متعلقہ بازار کا سیاق و سباق اور گمنام پیئر تقابلات استعمال کریں تاکہ فیصلہ کریں کہ کس چیز کی تفتیش کرنی ہے۔ عمل کرنے سے پہلے شواہد کا جائزہ لیں۔",
+    "contextLayers": [
+      {
+        "title": "جیسے ہی شفٹ ہوتی ہے تبدیلی",
+        "why": "شفٹ کے دوران فروخت کی رفتار، لیبر، ویوڈز اور سروس استثناؤں کا جائزہ لیں۔"
+      },
+      {
+        "title": "ہر مقام کے ارد گرد کا بازار",
+        "why": "متعلقہ حریفوں، ایونٹس اور موسم کے اشاروں پر اپنے ڈیٹا کے ساتھ غور کریں۔ Watchtower اہل Core پیکیج کے لیے ایک ادائیگی شدہ توسیع ہے۔"
+      },
+      {
+        "title": "ایک مناسب موازنہ",
+        "why": "کسی میٹرک کا مناسب گمنام پیئرز کے ساتھ موازنہ کریں۔ نتیجہ اخذ کرنے سے پہلے کوہورٹ اور ڈیٹا کوریج چیک کریں۔"
+      }
+    ],
+    "scenarioTitle": "ایک آپریٹنگ مسئلہ کی پوری پیروی کریں۔",
+    "scenarioDescription": "یہ مثال ایک منیجر کو فروخت کو پلان کے ساتھ موازنہ کرتے، ممکنہ وجوہات پر غور کرتے اور ایک ردعمل منتخب کرتے دکھاتی ہے۔ نتیجہ کو پھر بھی نقطہ آغاز کے مقابلے میں چیک کرنے کی ضرورت ہے۔",
+    "scenarioClosing": "تبدیلی کو سمجھیں۔ ایک ردعمل تفویض کریں۔ نتیجہ کا جائزہ لیں۔",
+    "scenarioDimensions": [
+      {
+        "title": "Covers میں 22% کمی ہے۔",
+        "body": "اس مثال میں اوسط چیک مستحکم ہے۔ منیجر ٹریفک میں تبدیلی کی تفتیش سے آغاز کرتا ہے۔"
+      },
+      {
+        "title": "فروخت پیش گوئی سے $3,800 پیچھے ہے۔",
+        "body": "ردعمل منتخب کرنے سے پہلے کم فروخت والی مقدار کے ساتھ اسٹافنگ اور لاگت کا موازنہ کریں۔"
+      },
+      {
+        "title": "فرق کی وضاحت کیا ہو سکتی ہے چیک کریں۔",
+        "body": "مقامی مقابلہ آفرز اور واقعات کو مقام کے اپنے آپریٹنگ ریکارڈز کے ساتھ دیکھیں۔"
+      },
+      {
+        "title": "کسی کو اگلا عمل دیں۔",
+        "body": "منیجر اسٹافنگ اور لنچ آفر کا جائزہ لیتا ہے، منتخب شدہ ردعمل ریکارڈ کرتا ہے اور شفٹ کے بعد کیا بدلا چیک کرتا ہے۔",
+        "shortLabel": "عمل اور جائزہ",
+        "eyebrow": "عمل اور جائزہ"
+      }
+    ],
+    "voiceEyebrow": "منیجر کا سوال",
+    "voiceText": "آپ شفٹ میں تبدیلی محسوس کر سکتے ہیں۔ *آپ وجہ کہاں چیک کرتے ہیں، اور کون اسے مکمل کرتا ہے؟*",
+    "voiceResolution": "فروخت اور اسٹافنگ سگنلز دیکھیں، ٹیم کے ساتھ اگلا قدم طے کریں اور ہینڈ اوور اور نتیجہ کو ساتھ رکھیں۔",
+    "voiceAttribution": "Sundae کا روزانہ آپریٹنگ چیلنج کا منظر",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "ایک آپریٹنگ سوال کے چار مناظر",
+    "scenarioNote": "مثالی منظر ڈیمو اعداد و شمار استعمال کرتا ہے۔ ہفتہ بہ ہفتہ covers اور پیش گوئی کے خلاف فرق مختلف موازنہ ہیں، جو ناپاۓ گئے صارف نتائج نہیں ہیں۔",
+    "scenarioVisual": {
+      "laborNote": "احاطہ تبدیل کرنے سے پہلے اس فروخت والی مقدار کے ساتھ شیڈیولڈ لیبر کا موازنہ کریں۔",
+      "watchtowerItem2": "ایک آفس ٹاور فائر ڈرل شیڈیول ہے 11-12, 2 بلاکس دور۔ چیک کریں کہ آیا یہ مقام متاثر کرتا ہے یا نہیں۔",
+      "coachBody": "کوریج کا جائزہ لیں قبل اس کے کہ 11-2 لائن کک شفٹ کو تبدیل کریں۔ اگر یہ آپریشن کے مطابق ہے تو $11.99 لنچ آفر پر غور کریں۔ منیجر ردعمل کا فیصلہ کرتا ہے۔",
+      "coachProjection": "مثالی سفارش۔ کسی بھی اثر کو عمل کے بعد ناپنے کی ضرورت ہے۔",
+      "illustrative": "مثالی مثال"
+    },
+    "manifesto": {
+      "statement": "قابلِ روک نقصان کو *ایک واضح جواب* چاہیے۔",
+      "coda": "Sundae آپریٹنگ سگنلز کو ردعمل کے لئے درکار کام کے ساتھ جوڑتا ہے۔ تبدیلی کو سمجھیں، کسی کو اگلا قدم دیں اور بعد میں جو ہوا اس کا موازنہ کریں۔"
+    },
+    "shiftMoment": {
+      "eyebrow": "ایک مثالی شفٹ",
+      "heading": "شفٹ چلتے ہوئے فرق دیکھیں۔",
+      "sub": "اس مثالی شام سے گزریں تاکہ فروخت اور لیبر سگنل، منیجر کا ردعمل اور بعد کا جائزہ دیکھ سکیں۔ یہ ڈیمو اعداد و شمار ہیں، حقیقی کسٹمر نتیجہ نہیں۔",
+      "withSundae": "ریکارڈ شدہ ردعمل کے ساتھ",
+      "oldWay": "بروقت فالو اپ کے بغیر",
+      "signalBody": "سیکشن 3 میں فروخت کی رفتار گری ہے اور لیبر 30% سے زیادہ ہے۔ اسائنمنٹ تبدیل کرنے کا فیصلہ کرنے سے پہلے سروس فلور اور کوریج چیک کریں۔",
+      "signalAction": "جائزہ لیں اور اگلا قدم تفویض کریں۔",
+      "oldBody": "اگلے دن کا جائزہ دکھاتا ہے کہ فروخت کی رفتار اور اسٹافنگ کہاں مختلف تھی۔ اگلی شفٹ کی منصوبہ بندی کے لیے ریکارڈ استعمال کریں، چاہے پہلے موقع گزر چکا ہو۔",
+      "oldAction": "اگلی شفٹ کی منصوبہ بندی کریں۔",
+      "savedTitle": "مثالی اختتامِ شفٹ منظر",
+      "savedBody": "یہ مثال پلان کے قریب ختم ہوتی ہے۔ حقیقی نتیجے کے لیے ایکشن ریکارڈ، متعلقہ بیس لائن اور دیگر تبدیلیوں کا جائزہ ضروری ہے۔",
+      "projectedClose": "مثالی متوقع بندش"
+    }
+  },
+  "it": {
+    "platformTitle": "Vedi cosa è cambiato. Scegli cosa fare dopo.",
+    "platformDescription": "Segui lo spostamento in Pulse, confronta le prestazioni con Benchmarks, indaga in Insights e poni domande in Ask Sundae. Previsioni e segnali di mercato sono disponibili in base al tuo pacchetto e alle estensioni selezionate.",
+    "workEyebrow": "MENO SEGUIMENTI MANUALI",
+    "workTitle": "Dedica meno tempo a mettere insieme la risposta.",
+    "workDescription": "Sundae trasforma i dati connessi di vendite, costi e personale in risposte e raccomandazioni. I manager possono verificare la fonte, assegnare il passo successivo e tracciare cosa è cambiato.",
+    "todayLabel": "Quando il lavoro è disconnesso",
+    "todayItems": [
+      "Ricostruire lo stesso report su vendite e personale",
+      "Cercare la causa in sistemi separati",
+      "Inseguire un aggiornamento dopo il turno",
+      "Perdere il contesto tra le sedi",
+      "Rivedere un problema dopo che l'opportunità è passata"
+    ],
+    "sundaeItems": [
+      "Vendite, costi e personale in un'unica vista operativa",
+      "Risposte collegate ai dati di supporto",
+      "Una persona responsabile della prossima azione",
+      "Compiti e passaggi di consegne che mantengono il contesto",
+      "Un punto di partenza e un risultato registrato",
+      "Confronti rilevanti tra le sedi"
+    ],
+    "workClosing": "Mantieni i sistemi utili. Connetti il lavoro attorno a essi.",
+    "contextTitle": "Comprendi lo spostamento e il mercato circostante.",
+    "contextDescription": "Usa segnali di turno in tempo reale, contesto di mercato rilevante e confronti anonimi con i pari per decidere cosa investigare. Rivedi le prove prima di agire.",
+    "contextLayers": [
+      {
+        "title": "Lo spostamento mentre avviene",
+        "why": "Controlla ritmo delle vendite, personale, resi e eccezioni di servizio mentre il turno è in corso."
+      },
+      {
+        "title": "Il mercato attorno a ogni sede",
+        "why": "Considera segnali pertinenti di concorrenti, eventi e meteo insieme ai tuoi dati. Watchtower è un'estensione a pagamento per pacchetti Core idonei."
+      },
+      {
+        "title": "Un confronto rilevante",
+        "why": "Confronta una metrica con pari anonimi adatti. Verifica la coorte e la copertura dei dati prima di trarre una conclusione."
+      }
+    ],
+    "scenarioTitle": "Segui un problema operativo fino alla revisione.",
+    "scenarioDescription": "Questo esempio mostra un manager che confronta le vendite con il piano, considera possibili cause e sceglie una risposta. Il risultato richiede ancora verifica rispetto al punto di partenza.",
+    "scenarioClosing": "Comprendi la variazione. Assegna una risposta. Rivedi il risultato.",
+    "scenarioDimensions": [
+      {
+        "title": "Le coperture sono diminuite del 22%.",
+        "body": "Lo scontrino medio è stabile in questo esempio. Il manager inizia investigando la variazione del traffico."
+      },
+      {
+        "title": "Le vendite sono $3,800 sotto le previsioni.",
+        "body": "Confronta personale e costi con il volume di vendite inferiore prima di scegliere una risposta."
+      },
+      {
+        "title": "Verifica cosa può spiegare il divario.",
+        "body": "Esamina le offerte dei concorrenti e gli eventi locali insieme ai registri operativi della sede."
+      },
+      {
+        "title": "Affida a qualcuno la prossima azione.",
+        "body": "Il manager rivede il personale e l'offerta pranzo, registra la risposta scelta e controlla cosa è cambiato dopo il turno.",
+        "shortLabel": "Azione e revisione",
+        "eyebrow": "AZIONE E REVISIONE"
+      }
+    ],
+    "voiceEyebrow": "LA DOMANDA DEL MANAGER",
+    "voiceText": "Senti il cambiamento del turno. *Dove controlli la causa e chi la segue fino in fondo?*",
+    "voiceResolution": "Guarda i segnali di vendite e personale, concorda il passo successivo con il team e conserva insieme il passaggio di consegna e il risultato.",
+    "voiceAttribution": "La visione di Sundae sulla sfida operativa quotidiana",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "QUATTRO VISIONI DI UNA DOMANDA OPERATIVA",
+    "scenarioNote": "Scenario illustrativo che usa cifre dimostrative. Confronti settimana-su-settimana delle coperture e varianza rispetto al forecast sono confronti diversi, non risultati misurati sui clienti.",
+    "scenarioVisual": {
+      "laborNote": "Confronta il lavoro programmato con questo volume di vendite prima di cambiare la copertura.",
+      "watchtowerItem2": "Una esercitazione antincendio per un edificio d'uffici è programmata 11-12, a 2 isolati di distanza. Verifica se influisce su questa sede.",
+      "coachBody": "Rivedi la copertura prima di cambiare il turno del cuoco di linea 11-2. Considera l'offerta pranzo $11.99 se si adatta all'operazione. Un manager decide la risposta.",
+      "coachProjection": "Raccomandazione esemplificativa. Qualsiasi impatto va misurato dopo l'azione.",
+      "illustrative": "Esempio illustrativo"
+    },
+    "manifesto": {
+      "statement": "La perdita prevenibile merita *una risposta chiara.*",
+      "coda": "Sundae collega i segnali operativi con il lavoro necessario per rispondere. Comprendi la variazione, assegna a qualcuno il passo successivo e confronta ciò che è successo dopo."
+    },
+    "shiftMoment": {
+      "eyebrow": "UN TURNO ILLUSTRATIVO",
+      "heading": "Vedi il divario mentre il turno è in corso.",
+      "sub": "Scorri questo esempio illustrativo serale per vedere un segnale di vendite e personale, una risposta del manager e la revisione successiva. Sono cifre dimostrative, non un risultato cliente.",
+      "withSundae": "Con una risposta registrata",
+      "oldWay": "Senza un follow-up tempestivo",
+      "signalBody": "Il ritmo delle vendite è calato nella Sezione 3 e il personale è oltre il 30%. Controlla il flusso del servizio e la copertura prima di decidere se cambiare un'assegnazione.",
+      "signalAction": "Rivedi e assegna il passo successivo.",
+      "oldBody": "La revisione del giorno successivo mostra dove ritmo vendite e personale differivano. Usa la registrazione per pianificare il turno successivo, anche se l'opportunità precedente è passata.",
+      "oldAction": "Pianifica il turno successivo.",
+      "savedTitle": "Vista illustrativa di fine turno",
+      "savedBody": "Questo esempio si conclude più vicino al piano. Un risultato reale necessita del registro delle azioni, di un baseline rilevante e della revisione di altri cambiamenti.",
+      "projectedClose": "Chiusura prevista esemplificativa"
+    }
+  },
+  "pl": {
+    "platformTitle": "Zobacz, co się zmieniło. Wybierz dalsze kroki.",
+    "platformDescription": "Śledź zmianę w Pulse, porównuj wyniki z Benchmarks, badaj w Insights i zadawaj pytania w Ask Sundae. Prognozy i sygnały rynkowe dostępne są zgodnie z Twoim pakietem i wybranymi rozszerzeniami.",
+    "workEyebrow": "MNIEJ RĘCZNEGO DOPILNOWYWANIA",
+    "workTitle": "Spędzaj mniej czasu na składaniu odpowiedzi.",
+    "workDescription": "Sundae łączy dane sprzedaży, kosztów i załogi, by generować odpowiedzi i rekomendacje. Menedżerowie mogą sprawdzić źródło, przypisać następny krok i śledzić, co się zmieniło.",
+    "todayLabel": "Kiedy praca jest rozłączona",
+    "todayItems": [
+      "Odtwarzanie tego samego raportu sprzedaży i pracy",
+      "Przeszukiwanie oddzielnych systemów w poszukiwaniu przyczyny",
+      "Ganianie aktualizacji po zmianie",
+      "Utrata kontekstu między lokalizacjami",
+      "Przegląd problemu po tym, jak przegapiono okazję"
+    ],
+    "sundaeItems": [
+      "Sprzedaż, koszty i personel w jednym widoku operacyjnym",
+      "Odpowiedzi powiązane ze wspierającymi danymi",
+      "Osoba odpowiedzialna za następne działanie",
+      "Zadania i przekazania zachowujące kontekst",
+      "Punkt startowy i zapisany rezultat",
+      "Istotne porównania między lokalizacjami"
+    ],
+    "workClosing": "Zachowaj przydatne systemy. Połącz pracę wokół nich.",
+    "contextTitle": "Zrozum zmianę i otoczenie rynkowe.",
+    "contextDescription": "Wykorzystaj sygnały zmiany w czasie rzeczywistym, istotny kontekst rynkowy i zanonimizowane porównania z rówieśnikami, by zdecydować, co badać. Przejrzyj dowody przed podjęciem działania.",
+    "contextLayers": [
+      {
+        "title": "Zmiana w czasie rzeczywistym",
+        "why": "Przejrzyj tempo sprzedaży, pracę, straty i wyjątki obsługi podczas trwania zmiany."
+      },
+      {
+        "title": "Rynek wokół każdej lokalizacji",
+        "why": "Rozważ istotne sygnały konkurencji, wydarzeń i pogody obok własnych danych lokalizacji. Watchtower jest płatnym rozszerzeniem dla kwalifikowalnych pakietów Core."
+      },
+      {
+        "title": "Istotne porównanie",
+        "why": "Porównaj miarę z odpowiednimi zanonimizowanymi peerami. Sprawdź kohortę i zasięg danych przed wyciągnięciem wniosku."
+      }
+    ],
+    "scenarioTitle": "Śledź jeden problem operacyjny aż do przeglądu.",
+    "scenarioDescription": "Ten przykład pokazuje menedżera porównującego sprzedaż z planem, rozważającego możliwe przyczyny i wybierającego reakcję. Rezultat nadal musi być sprawdzony względem punktu wyjścia.",
+    "scenarioClosing": "Zrozum zmianę. Przypisz reakcję. Przejrzyj rezultat.",
+    "scenarioDimensions": [
+      {
+        "title": "Liczba klientów spadła o 22%.",
+        "body": "Średni rachunek jest stabilny w tym przykładzie. Menedżer zaczyna od zbadania zmiany ruchu."
+      },
+      {
+        "title": "Sprzedaż jest $3,800 poniżej prognozy.",
+        "body": "Porównaj obsadę i koszty z niższą sprzedażą przed wyborem reakcji."
+      },
+      {
+        "title": "Sprawdź, co może wyjaśniać lukę.",
+        "body": "Przejrzyj oferty konkurentów i lokalne wydarzenia obok własnych zapisów operacyjnych lokalizacji."
+      },
+      {
+        "title": "Wyznacz komuś następne działanie.",
+        "body": "Menedżer przegląda obsadę i ofertę lunchową, zapisuje wybraną reakcję i sprawdza, co się zmieniło po zmianie.",
+        "shortLabel": "Działanie i przegląd",
+        "eyebrow": "DZIAŁANIE I PRZEGLĄD"
+      }
+    ],
+    "voiceEyebrow": "PYTANIE MENEDŻERA",
+    "voiceText": "Czujesz, że zmiana się dzieje. *Gdzie sprawdzasz przyczynę i kto doprowadza ją do końca?*",
+    "voiceResolution": "Spójrz na sygnały sprzedaży i obsady, uzgodnij następny krok z zespołem i zachowaj przekazanie i rezultat razem.",
+    "voiceAttribution": "Widok codziennego wyzwania operacyjnego Sundae",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "CZTERY WIDOKI JEDNEGO PYTANIA OPERACYJNEGO",
+    "scenarioNote": "Scenariusz poglądowy z użyciem danych demonstracyjnych. Tygodniowe porównanie liczby klientów i odchylenie od prognozy to różne porównania, nie są to mierzone wyniki klienta.",
+    "scenarioVisual": {
+      "laborNote": "Porównaj zaplanowaną pracę z tym wolumenem sprzedaży przed zmianą obsady.",
+      "watchtowerItem2": "Próba ewakuacji wieżowca biurowego jest zaplanowana 11-12, 2 przecznice dalej. Sprawdź, czy to wpływa na tę lokalizację.",
+      "coachBody": "Przejrzyj obsadę przed zmianą zmiany kucharza liniowego 11-2. Rozważ ofertę lunchową $11.99, jeśli pasuje do operacji. Menedżer decyduje o reakcji.",
+      "coachProjection": "Przykładowa rekomendacja. Wszelki wpływ trzeba zmierzyć po działaniu.",
+      "illustrative": "Przykład poglądowy"
+    },
+    "manifesto": {
+      "statement": "Straty możliwe do uniknięcia zasługują na *jasną reakcję.*",
+      "coda": "Sundae łączy sygnały operacyjne z pracą potrzebną do reagowania. Zrozum zmianę, przekaż komuś następny krok i porównaj, co się stało później."
+    },
+    "shiftMoment": {
+      "eyebrow": "PRZYKŁADOWA ZMIANA",
+      "heading": "Zobacz lukę, gdy trwa zmiana.",
+      "sub": "Przejdź przez ten poglądowy wieczór, aby zobaczyć sygnał sprzedaży i pracy, reakcję menedżera i późniejszy przegląd. To dane demonstracyjne, nie wynik klienta.",
+      "withSundae": "Z zapisanym działaniem",
+      "oldWay": "Bez terminowego dopilnowania",
+      "signalBody": "Tempo sprzedaży spadło w Sekcji 3 a praca jest powyżej 30%. Sprawdź przepływ obsługi i pokrycie przed podjęciem decyzji o zmianie przydziału.",
+      "signalAction": "Przejrzyj i przypisz następny krok.",
+      "oldBody": "Przegląd następnego dnia pokazuje, gdzie tempo sprzedaży i obsada różniły się. Użyj zapisu, by zaplanować kolejną zmianę, nawet jeśli wcześniejsza okazja minęła.",
+      "oldAction": "Zaplanuj następną zmianę.",
+      "savedTitle": "Poglądowy widok na koniec zmiany",
+      "savedBody": "Ten przykład kończy się bliżej planu. Rzeczywisty wynik wymaga zapisu działania, odpowiedniej linii bazowej i przeglądu innych zmian.",
+      "projectedClose": "Przykładowe zamknięcie"
+    }
+  },
+  "tr": {
+    "platformTitle": "Değişikliği görün. Sonraki adımı seçin.",
+    "platformDescription": "Pulse içindeki vardiya değişimini takip edin, performansı Benchmarks ile karşılaştırın, Insights içinde inceleyin ve Ask Sundae ile soru sorun. Tahminleme ve pazar sinyalleri paketinize ve seçili eklentilere göre kullanılabilir.",
+    "workEyebrow": "DAHA AZ MANUEL TAKİP",
+    "workTitle": "Cevabı derlemeye daha az zaman harcayın.",
+    "workDescription": "Sundae, bağlı satış, maliyet ve işgücü verilerini cevaplar ve önerilere dönüştürür. Yöneticiler kaynağı kontrol edebilir, bir sonraki adımı atayabilir ve ne değiştiğini izleyebilir.",
+    "todayLabel": "İş ayrık olduğunda",
+    "todayItems": [
+      "Aynı satış ve işgücü raporunu yeniden oluşturma",
+      "Sebebi için ayrı sistemleri arama",
+      "Vardiya değişiminden sonra bir güncelleme peşinde koşma",
+      "Konumuar arası bağlamı kaybetme",
+      "Fırsat geçtikten sonra bir konuyu inceleme"
+    ],
+    "sundaeItems": [
+      "Satış, maliyet ve personel tek bir işletme görünümünde",
+      "Cevaplar destekleyici veriye bağlı",
+      "Bir sonraki adımdan sorumlu bir kişi",
+      "Bağlamı taşıyan görevler ve devredişler",
+      "Bir başlangıç noktası ve kaydedilmiş sonuç",
+      "Konumlar arasında ilgili karşılaştırmalar"
+    ],
+    "workClosing": "Kullanışlı sistemleri koruyun. Çalışmayı onların etrafında bağlayın.",
+    "contextTitle": "Vardiya değişimini ve çevresindeki pazarı anlayın.",
+    "contextDescription": "Ne araştırılacağına karar vermek için canlı vardiya sinyallerini, ilgili pazar bağlamını ve anonimleştirilmiş emsal karşılaştırmaları kullanın. Hareket etmeden önce kanıtları gözden geçirin.",
+    "contextLayers": [
+      {
+        "title": "Vardiya gerçekleşirken değişim",
+        "why": "Vardiya devam ederken satış temposunu, işgücünü, atılan ürünleri ve hizmet istisnalarını gözden geçirin."
+      },
+      {
+        "title": "Her konumun çevresindeki pazar",
+        "why": "Kendi verilerinizle birlikte ilgili rakip, etkinlik ve hava durumu sinyallerini değerlendirin. Watchtower uygun Core paketleri için ücretli bir eklentidir."
+      },
+      {
+        "title": "İlgili bir karşılaştırma",
+        "why": "Bir metriği uygun anonimleştirilmiş emsallerle karşılaştırın. Bir sonuca varmadan önce kohortu ve veri kapsamını kontrol edin."
+      }
+    ],
+    "scenarioTitle": "Bir işletme sorununu inceleme ile gözdenirmeye kadar takip edin.",
+    "scenarioDescription": "Bu örnek, bir yöneticinin satışı plânla karşılaştırmasını, olası nedenleri değerlendirmesini ve bir yanıt seçmesini gösterir. Sonucun başlangıç noktasıyla kontrol edilmesi gerekir.",
+    "scenarioClosing": "Değişimi anlayın. Bir yanıt atayın. Sonucu gözden geçirin.",
+    "scenarioDimensions": [
+      {
+        "title": "Kişi sayıları 22% düştü.",
+        "body": "Bu örnekte ortalama hesap sabit. Yönetici trafiğindeki değişikliği inceleyerek başlıyor."
+      },
+      {
+        "title": "Satışlar tahmine $3,800 geride.",
+        "body": "Bir yanıt seçmeden önce düşük satış hacmiyle personel ve maliyetleri karşılaştırın."
+      },
+      {
+        "title": "Açığı açıklayabilecekleri kontrol edin.",
+        "body": "Rakip teklifleri ve yerel etkinlikleri konumun kendi işletme kayıtlarıyla birlikte gözden geçirin."
+      },
+      {
+        "title": "Birine sonraki adımı verin.",
+        "body": "Yönetici personeli ve öğle yemeği teklifini inceler, seçilen yanıtı kaydeder ve vardiyadan sonra ne değiştiğini kontrol eder.",
+        "shortLabel": "Eylem ve gözden geçirme",
+        "eyebrow": "EYLEM VE GÖZDEN GEÇİRME"
+      }
+    ],
+    "voiceEyebrow": "YÖNETİCİNİN SORUSU",
+    "voiceText": "Vardiyanın değiştiğini hissedebilirsiniz. *Nereye bakarsınız ve kim bunun peşinden gider?*",
+    "voiceResolution": "Satış ve personel sinyallerine bakın, ekiple bir sonraki adım üzerinde anlaşın ve devriyle birlikte sonucu saklayın.",
+    "voiceAttribution": "Günlük işletme zorluğuna Sundae bakışı",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "BİR İŞLETME SORUSUNA DÖRT GÖRÜNÜŞ",
+    "scenarioNote": "Demo rakamları kullanan açıklayıcı senaryo. Haftadan haftaya kişi sayıları ve tahmine göre sapma farklı karşılaştırmalardır, ölçülmüş müşteri sonuçları değildir.",
+    "scenarioVisual": {
+      "laborNote": "Kapsamı değiştirmeden önce planlı işgücünü bu satış hacmiyle karşılaştırın.",
+      "watchtowerItem2": "Bir ofis-kule yangın tatbikatı 11-12 tarihlerinde, 2 blok uzağında planlandı. Bunun bu konumu etkileyip etkilemediğini kontrol edin.",
+      "coachBody": "11-2 hatli aşçı vardiyasını değiştirmeden önce kapsama alanını gözden geçirin. İşletmeye uyuyorsa $11.99 öğle teklifini değerlendirin. Yanıtı yönetici belirler.",
+      "coachProjection": "Örnek öneri. Herhangi bir etkinin ölçülmesi, işlem sonrasında yapılmalıdır.",
+      "illustrative": "Açıklayıcı örnek"
+    },
+    "manifesto": {
+      "statement": "Önlenebilir kayıp *açık bir yanıt* hak eder.",
+      "coda": "Sundae, işletme sinyallerini yanıtlamak için gereken işlemlerle ilişkilendirir. Değişimi anlayın, birine bir sonraki adımı verin ve sonrasında ne olduğuyla karşılaştırın."
+    },
+    "shiftMoment": {
+      "eyebrow": "BİR AÇIKLAYICI VARDİYA",
+      "heading": "Vardiya devam ederken açığı görün.",
+      "sub": "Bu açıklayıcı akşamı ilerleyin; bir satış ve işgücü sinyalini, bir yönetici yanıtını ve sonraki gözden geçirmeyi görün. Bunlar demo rakamlardır, müşteri sonucu değildir.",
+      "withSundae": "Kaydedilmiş bir yanıtla",
+      "oldWay": "Zamanında takip olmadan",
+      "signalBody": "Satış temposu Bölüm 3'de düştü ve işgücü 30% üzerinde. Atamayı değiştirmeden önce servis akışını ve kapsama alanını kontrol edin.",
+      "signalAction": "Gözden geçirin ve sonraki adımı atayın.",
+      "oldBody": "Ertesi gün yapılan inceleme satış temposu ve personel farklılıklarını gösterir. Erken fırsat geçmiş olsa bile bir sonraki vardiyayı planlamak için kaydı kullanın.",
+      "oldAction": "Bir sonraki vardiyayı planlayın.",
+      "savedTitle": "Açıklayıcı vardiya sonu görünümü",
+      "savedBody": "Bu örnek plana daha yakın bir şekilde sona eriyor. Gerçek bir sonuç için işlem kaydı, ilgili bir temel çizgi ve diğer değişikliklerin gözden geçirilmesi gerekir.",
+      "projectedClose": "Örnek projeksiyon kapanışı"
+    }
+  },
+  "zh-Hans": {
+    "platformTitle": "看见变化。决定下一步。",
+    "platformDescription": "在 Pulse 中追踪班次变化，与 Benchmarks 比较表现，在 Insights 深入调查，并在 Ask Sundae 提问。预测和市场信号根据您的套餐与所选扩展提供。",
+    "workEyebrow": "减少手动跟进",
+    "workTitle": "用更少时间汇总答案。",
+    "workDescription": "Sundae 将连接的销售、成本和人力数据转为答案与建议。管理者可核查来源、指派后续步骤并跟踪变化。",
+    "todayLabel": "当工作脱节时",
+    "todayItems": [
+      "重复重建相同的销售与劳动力报告",
+      "在不同系统中寻找原因",
+      "在班次变动后追催更新",
+      "丢失不同门店间的上下文",
+      "在机会已过后才审查问题"
+    ],
+    "sundaeItems": [
+      "在一个运营视图中查看销售、成本与排班",
+      "答案与支撑数据相连",
+      "为下一步指派负责人",
+      "携带上下文的任务与交接",
+      "起点记录与结果存档",
+      "跨门店的相关对比"
+    ],
+    "workClosing": "保留有用系统。把工作在它们周围连接起来。",
+    "contextTitle": "了解班次变化及其市场环境。",
+    "contextDescription": "使用实时班次信号、相关市场上下文和匿名同行对比来决定调查方向。在行动前审查证据。",
+    "contextLayers": [
+      {
+        "title": "班次的实时表现",
+        "why": "在班次进行时复核销售节奏、劳动力、作废与服务异常。"
+      },
+      {
+        "title": "每个门店周边的市场",
+        "why": "将相关竞争、活动与天气信号与您的数据并列考虑。Watchtower 是针对符合条件 Core 套餐的付费扩展。"
+      },
+      {
+        "title": "相关的对比组",
+        "why": "将某指标与合适的匿名同行进行对比。在下结论前检查分组与数据覆盖。"
+      }
+    ],
+    "scenarioTitle": "追踪一个运营问题直到复盘。",
+    "scenarioDescription": "此示例展示一位管理者比较销售与计划、考虑可能原因并选择应对办法。结果仍需与起始点核对。",
+    "scenarioClosing": "弄清变化。指派应对。复核结果。",
+    "scenarioDimensions": [
+      {
+        "title": "客流下降 22%。",
+        "body": "在此示例中平均客单价保持稳定。管理者先从调查客流变化入手。"
+      },
+      {
+        "title": "销售比预测少 $3,800。",
+        "body": "在选择应对方案前，将排班与成本与较低的销售量对比。"
+      },
+      {
+        "title": "检查可能解释差距的因素。",
+        "body": "在查看门店自身运营记录的同时，复核竞争对手促销与本地活动。"
+      },
+      {
+        "title": "给出下一步负责人。",
+        "body": "管理者复核排班与午餐品项，记录选定的应对并在班次结束后检查变化。",
+        "shortLabel": "行动与复核",
+        "eyebrow": "行动与复核"
+      }
+    ],
+    "voiceEyebrow": "管理者的问题",
+    "voiceText": "您能感到班次正在改变。*您在哪儿查原因，谁来跟进？*",
+    "voiceResolution": "查看销售与排班信号，与团队商定下一步，并将交接与结果一并保存。",
+    "voiceAttribution": "Sundae 对日常运营挑战的视角",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "对同一运营问题的四种视角",
+    "scenarioNote": "示例使用演示数据。环比客流与相对预测的差异是不同的比较，非衡量的客户结果。",
+    "scenarioVisual": {
+      "laborNote": "在变更排班覆盖前，将排班与此销售量进行比较。",
+      "watchtowerItem2": "一场写字楼消防演习定于 11-12 举行，距此处 2 个街区。检查是否影响该门店。",
+      "coachBody": "在变更 11-2 炉灶线厨师班前复核排班。如果运营适配，可考虑 $11.99 的午餐品项。管理者决定应对。",
+      "coachProjection": "示例建议。任何影响需在行动后测量。",
+      "illustrative": "示例说明"
+    },
+    "manifesto": {
+      "statement": "可避免的损失应有*明确的回应。*",
+      "coda": "Sundae 将运营信号与需要的响应工作连接起来。了解变化，指派下一步，并比较事后的结果。"
+    },
+    "shiftMoment": {
+      "eyebrow": "示例班次",
+      "heading": "在班次进行时看到差距。",
+      "sub": "通过这个示例的晚班，查看销售与劳动力信号、管理者应对和后期复盘。这些为演示数据，非客户结果。",
+      "withSundae": "有记录的应对",
+      "oldWay": "缺乏及时跟进",
+      "signalBody": "第 3 区域销售节奏下降且劳动力高于 30%。在决定是否调整排班前，检查服务流程与覆盖情况。",
+      "signalAction": "复核并指派下一步。",
+      "oldBody": "次日复盘显示销售节奏与排班的差异。即便早期机会已过，也可用记录规划下一班次。",
+      "oldAction": "规划下一班次。",
+      "savedTitle": "示例班次结束视图",
+      "savedBody": "此例结束时更接近期望计划。真实结果需要行动记录、相关基线和对其他变化的复核。",
+      "projectedClose": "示例预计收盘"
+    }
+  },
+  "ja": {
+    "platformTitle": "変化を見て、次に取るべき行動を選ぶ。",
+    "platformDescription": "Pulseの変化を追い、Benchmarksで比較し、Insightsで調査し、Ask Sundaeで質問してください。Foresightや市場シグナルはお使いのパッケージと選択した拡張機能に応じて利用可能です。",
+    "workEyebrow": "手作業による追跡を減らす",
+    "workTitle": "解答をまとめる時間を短縮する。",
+    "workDescription": "Sundaeは接続された売上、コスト、労務データを解答と推奨に変えます。マネージャーは根拠を確認し、次のアクションを割り当て、何が変わったかを追跡できます。",
+    "todayLabel": "作業が切断されているとき",
+    "todayItems": [
+      "同じ売上・労務レポートを再作成する",
+      "理由を探して別のシステムを検索する",
+      "シフト後の更新を追いかける",
+      "店舗間の文脈を失う",
+      "機会が過ぎた後に問題を見直す"
+    ],
+    "sundaeItems": [
+      "売上、コスト、スタッフを一つの運営ビューで",
+      "根拠データに紐づく解答",
+      "次の行動に責任を持つ担当者",
+      "文脈を引き継ぐタスクと引き継ぎ",
+      "出発点と記録された結果",
+      "店舗間での関連比較"
+    ],
+    "workClosing": "有用なシステムは維持し、その周りで作業を接続する。",
+    "contextTitle": "変化とその周辺の市場を理解する。",
+    "contextDescription": "ライブのシフトシグナル、関連する市場文脈、匿名化された同業比較を使って調査対象を決めます。行動前に証拠を確認してください。",
+    "contextLayers": [
+      {
+        "title": "発生中のシフト",
+        "why": "シフト進行中に売上ペース、労務、無効注文、サービス例外を確認します。"
+      },
+      {
+        "title": "各店舗を取り巻く市場",
+        "why": "自社データと並べて関連する競合、イベント、天候シグナルを考慮します。Watchtowerは対象となるCoreパッケージ向けの有料拡張です。"
+      },
+      {
+        "title": "関連する比較",
+        "why": "指標を適切に匿名化された同業と比較します。結論を出す前にコホートとデータカバレッジを確認してください。"
+      }
+    ],
+    "scenarioTitle": "一つの運営課題を追ってレビューする。",
+    "scenarioDescription": "この例ではマネージャーが売上を計画と比較し、可能な原因を検討して対応を選びます。結果は出発点に照らして確認する必要があります。",
+    "scenarioClosing": "変化を理解し、対応を割り当て、結果を見直す。",
+    "scenarioDimensions": [
+      {
+        "title": "来店客数が22%減少しています。",
+        "body": "この例では平均単価は安定しています。マネージャーは交通量の変化を調査することから始めます。"
+      },
+      {
+        "title": "売上が予測より3,800ドル不足しています。",
+        "body": "対応を選ぶ前に、低下した売上量に対する人員とコストを比較してください。"
+      },
+      {
+        "title": "差分を説明しうる要因を確認する。",
+        "body": "競合のオファーや地域イベントを店舗の運営記録と並べて確認します。"
+      },
+      {
+        "title": "誰かに次のアクションを割り当てる。",
+        "body": "マネージャーは人員とランチのオファーを確認し、選んだ対応を記録してシフト後に何が変わったかをチェックします。",
+        "shortLabel": "アクションとレビュー",
+        "eyebrow": "アクションとレビュー"
+      }
+    ],
+    "voiceEyebrow": "マネージャーの問い",
+    "voiceText": "シフトが変化していると感じる。*どこで理由を確認し、誰が最後まで対応するか？*",
+    "voiceResolution": "売上と人員のシグナルを確認し、チームと次のステップを合意して、引き継ぎと結果を一緒に保つ。",
+    "voiceAttribution": "日々の運営課題に対するSundaeの見解",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "一つの運営課題の四つの視点",
+    "scenarioNote": "デモ数値を使った説明用シナリオ。週次の来店比較と予測との差分は異なる比較であり、顧客の測定された成果ではありません。",
+    "scenarioVisual": {
+      "laborNote": "カバレッジを変更する前に、この売上量に対する予定人員を比較してください。",
+      "watchtowerItem2": "オフィスタワーの避難訓練が11から12まで、2ブロック先で予定されています。この店舗に影響があるか確認してください。",
+      "coachBody": "11-2のライン調理担当のシフトを変更する前にカバレッジを確認してください。運用に合う場合は11.99のランチオファーも検討します。最終的な対応はマネージャーが決めます。",
+      "coachProjection": "例示的な推奨。影響は行動後に測定する必要があります。",
+      "illustrative": "例示的な例"
+    },
+    "manifesto": {
+      "statement": "防げる損失には*明確な対応*が必要だ。",
+      "coda": "Sundaeは運営上のシグナルと対応に必要な作業をつなげます。変化を理解し、誰かに次のステップを割り当て、後で何が起きたかを比較します。"
+    },
+    "shiftMoment": {
+      "eyebrow": "説明用シフト例",
+      "heading": "シフト進行中に差分を確認する。",
+      "sub": "この説明用の夕方の流れを通して、売上と労務のシグナル、マネージャーの対応、後日のレビューを確認します。これらはデモ数値であり顧客成果ではありません。",
+      "withSundae": "記録された対応あり",
+      "oldWay": "タイムリーなフォローがない場合",
+      "signalBody": "セクション3で売上ペースが低下し、労務が30%を上回っています。サービスフローとカバレッジを確認してから配置変更を決めてください。",
+      "signalAction": "レビューして次のステップを割り当てる。",
+      "oldBody": "翌日のレビューで売上ペースと人員がどこで差が出たかが分かります。記録を使って次のシフトを計画してください。たとえ以前の機会が過ぎていても役に立ちます。",
+      "oldAction": "次のシフトを計画する。",
+      "savedTitle": "シフト終了時の例示ビュー",
+      "savedBody": "この例は計画により近い終わり方を示します。実際の結果は行動記録、適切なベースライン、他の変化のレビューが必要です。",
+      "projectedClose": "予測される終了例"
+    }
+  },
+  "ko": {
+    "platformTitle": "변화된 내용을 확인하세요. 다음 조치를 선택하세요.",
+    "platformDescription": "Pulse의 변화를 추적하고 Benchmarks와 성과를 비교하세요. Insights에서 조사하고 Ask Sundae에 질문하세요. 예측과 시장 신호는 패키지 및 선택한 확장에 따라 제공됩니다.",
+    "workEyebrow": "후속 수작업 감소",
+    "workTitle": "답을 모으는 시간을 줄이세요.",
+    "workDescription": "Sundae는 연결된 매출, 비용, 인력 데이터를 답변과 권장사항으로 전환합니다. 관리자는 근거를 확인하고 다음 단계를 지정하며 변경 내용을 추적할 수 있습니다.",
+    "todayLabel": "업무가 분절될 때",
+    "todayItems": [
+      "같은 매출·노무 보고서를 다시 만드는 일",
+      "이유를 찾으려 여러 시스템을 조회하는 일",
+      "교대 후 업데이트를 계속 추적하는 일",
+      "지점 간 맥락을 잃는 일",
+      "기회가 지나간 뒤에 문제를 검토하는 일"
+    ],
+    "sundaeItems": [
+      "매출, 비용, 인력이 한 운영 뷰에 통합",
+      "지원 데이터에 연결된 답변",
+      "다음 조치에 책임 있는 담당자 지정",
+      "맥락을 유지하는 작업과 인수인계",
+      "출발점과 기록된 결과",
+      "지점 간 관련 비교"
+    ],
+    "workClosing": "유용한 시스템을 유지하세요. 그 주위에서 업무를 연결하세요.",
+    "contextTitle": "변화와 그 주변 시장을 이해하세요.",
+    "contextDescription": "실시간 교대 신호, 관련 시장 맥락, 익명화된 동료 비교를 사용해 조사 대상을 결정하세요. 행동하기 전에 근거를 검토하세요.",
+    "contextLayers": [
+      {
+        "title": "실시간으로 발생하는 변화",
+        "why": "교대가 진행되는 동안 매출 속도, 인력, 소진 및 서비스 예외를 검토하세요."
+      },
+      {
+        "title": "각 지점 주변의 시장",
+        "why": "자사 데이터와 함께 관련 경쟁사, 이벤트, 날씨 신호를 고려하세요. Watchtower는 일부 Core 패키지에서 유료 확장입니다."
+      },
+      {
+        "title": "관련 있는 비교",
+        "why": "적절한 익명화된 동료와 지표를 비교하세요. 결론을 내리기 전에 코호트와 데이터 커버리지를 확인하세요."
+      }
+    ],
+    "scenarioTitle": "한 운영 문제를 끝까지 따라 검토하세요.",
+    "scenarioDescription": "이 예시는 관리자가 매출을 계획과 비교하고 가능한 원인을 고려한 뒤 대응을 선택하는 과정을 보여줍니다. 결과는 출발점과 대조해 확인해야 합니다.",
+    "scenarioClosing": "변화를 이해하세요. 대응을 지정하세요. 결과를 검토하세요.",
+    "scenarioDimensions": [
+      {
+        "title": "커버 수가 22% 감소했습니다.",
+        "body": "이 예에서는 평균 계산액이 안정적입니다. 관리자는 먼저 트래픽 변화를 조사합니다."
+      },
+      {
+        "title": "매출이 예측보다 $3,800 부족합니다.",
+        "body": "대응을 선택하기 전에 낮은 매출량에 맞춘 인력 및 비용을 비교하세요."
+      },
+      {
+        "title": "격차를 설명할 만한 요소를 확인하세요.",
+        "body": "지점 자체 운영 기록과 함께 경쟁사 프로모션과 지역 행사를 검토하세요."
+      },
+      {
+        "title": "다음 조치를 담당할 사람을 지정하세요.",
+        "body": "관리자는 인력과 점심 메뉴를 검토하고 선택한 대응을 기록한 뒤 교대 이후 변화를 확인합니다.",
+        "shortLabel": "조치와 검토",
+        "eyebrow": "조치와 검토"
+      }
+    ],
+    "voiceEyebrow": "관리자의 질문",
+    "voiceText": "변화가 진행되는 것을 느낍니다. *어디에서 이유를 확인하고 누가 끝까지 책임지나요?*",
+    "voiceResolution": "매출과 인력 신호를 살펴보고 팀과 다음 단계를 합의한 뒤 인수인계와 결과를 함께 보관하세요.",
+    "voiceAttribution": "일일 운영 과제에 대한 Sundae의 관점",
+    "platformEyebrow": "Sundae Core",
+    "scenarioEyebrow": "한 운영 질문에 대한 네 가지 관점",
+    "scenarioNote": "데모 수치를 사용한 예시입니다. 주간 대비 커버와 예측 대비 분산은 서로 다른 비교이며 측정된 고객 결과가 아닙니다.",
+    "scenarioVisual": {
+      "laborNote": "커버를 변경하기 전에 예정된 인력을 이 매출 수준과 비교하세요.",
+      "watchtowerItem2": "사무실 빌딩 소방 훈련이 11-12일에, 2블록 떨어진 곳에서 예정되어 있습니다. 이 지점에 영향이 있는지 확인하세요.",
+      "coachBody": "11-2 라인쿡 교대 변경 전에 인력 커버리지를 검토하세요. 운영에 맞으면 $11.99 점심 프로모션을 고려하세요. 관리자가 대응을 결정합니다.",
+      "coachProjection": "권장 예시입니다. 영향은 조치 후 측정되어야 합니다.",
+      "illustrative": "예시적 사례"
+    },
+    "manifesto": {
+      "statement": "예방 가능한 손실에는 *명확한 대응*이 필요합니다.",
+      "coda": "Sundae는 운영 신호를 대응에 필요한 작업과 연결합니다. 변화를 이해하고, 다음 단계를 지정하며, 이후에 무슨 일이 있었는지 비교하세요."
+    },
+    "shiftMoment": {
+      "eyebrow": "예시 교대",
+      "heading": "교대 진행 중인 차이를 확인하세요.",
+      "sub": "이 예시 저녁 교대를 통해 매출·노무 신호, 관리자 대응, 이후 검토를 확인합니다. 이는 데모 수치이며 고객 결과가 아닙니다.",
+      "withSundae": "기록된 대응과 함께",
+      "oldWay": "시기적절한 후속이 없는 방식",
+      "signalBody": "섹션 3에서 매출 속도가 떨어졌고 인력은 30%를 초과했습니다. 배치 변경 여부를 결정하기 전에 서비스 흐름과 커버리지를 확인하세요.",
+      "signalAction": "검토하고 다음 단계를 지정하세요.",
+      "oldBody": "다음 날 검토에서 매출 속도와 인력이 어떻게 달랐는지 확인합니다. 이전 기회가 지났더라도 기록을 사용해 다음 교대를 계획하세요.",
+      "oldAction": "다음 교대를 계획하세요.",
+      "savedTitle": "예시적 교대 종료 뷰",
+      "savedBody": "이 예시는 계획에 더 근접한 상태로 끝납니다. 실제 결과는 조치 기록, 관련 기준선 및 다른 변경 사항의 검토가 필요합니다.",
+      "projectedClose": "예시 예상 마감"
+    }
+  },
+  "id": {
+    "platformTitle": "Lihat apa yang berubah. Pilih langkah selanjutnya.",
+    "platformDescription": "Ikuti pergeseran di Pulse, bandingkan kinerja dengan Benchmarks, selidiki di Insights dan ajukan pertanyaan di Ask Sundae. Peramalan dan sinyal pasar tersedia sesuai paket Anda dan ekstensi yang dipilih.",
+    "workEyebrow": "KURANG TINDAK LANJUT MANUAL",
+    "workTitle": "Kurangi waktu yang dihabiskan untuk menyusun jawaban.",
+    "workDescription": "Sundae mengubah data penjualan, biaya dan tenaga kerja yang terhubung menjadi jawaban dan rekomendasi. Manajer dapat memeriksa sumber, menetapkan langkah selanjutnya dan melacak apa yang berubah.",
+    "todayLabel": "Saat pekerjaan terputus-putus",
+    "todayItems": [
+      "Menyusun ulang laporan penjualan dan tenaga kerja yang sama",
+      "Mencari alasan di sistem yang terpisah",
+      "Mengejar pembaruan setelah shift",
+      "Kehilangan konteks antar lokasi",
+      "Meninjau masalah setelah peluang berlalu"
+    ],
+    "sundaeItems": [
+      "Penjualan, biaya dan staf dalam satu tampilan operasional",
+      "Jawaban yang terhubung ke data pendukung",
+      "Seseorang yang bertanggung jawab atas tindakan selanjutnya",
+      "Tugas dan serah-terima yang membawa konteks",
+      "Titik awal dan hasil yang tercatat",
+      "Perbandingan relevan antar lokasi"
+    ],
+    "workClosing": "Pertahankan sistem yang berguna. Sambungkan pekerjaan di sekitarnya.",
+    "contextTitle": "Pahami pergeseran dan pasar di sekitarnya.",
+    "contextDescription": "Gunakan sinyal shift langsung, konteks pasar yang relevan dan perbandingan rekan yang dianonimkan untuk memutuskan apa yang harus diselidiki. Tinjau bukti sebelum bertindak.",
+    "contextLayers": [
+      {
+        "title": "Perubahan saat terjadi",
+        "why": "Tinjau kecepatan penjualan, tenaga kerja, void dan pengecualian layanan saat shift berjalan."
+      },
+      {
+        "title": "Pasar di sekitar setiap lokasi",
+        "why": "Pertimbangkan sinyal pesaing, acara dan cuaca yang relevan bersamaan dengan data Anda. Watchtower adalah ekstensi berbayar untuk paket Core yang memenuhi syarat."
+      },
+      {
+        "title": "Perbandingan yang relevan",
+        "why": "Bandingkan metrik dengan rekan yang dianonimkan dan sesuai. Periksa kohort dan cakupan data sebelum membuat kesimpulan."
+      }
+    ],
+    "scenarioTitle": "Ikuti satu masalah operasional sampai tinjauan.",
+    "scenarioDescription": "Contoh ini menunjukkan seorang manajer membandingkan penjualan dengan rencana, mempertimbangkan kemungkinan penyebab dan memilih respons. Hasil masih perlu dicocokkan dengan titik awal.",
+    "scenarioClosing": "Pahami perubahan. Tetapkan respons. Tinjau hasilnya.",
+    "scenarioDimensions": [
+      {
+        "title": "Covers turun 22%.",
+        "body": "Rata-rata transaksi stabil dalam contoh ini. Manajer mulai dengan menyelidiki perubahan lalu lintas."
+      },
+      {
+        "title": "Penjualan tertinggal $3,800 dari perkiraan.",
+        "body": "Bandingkan tenaga kerja dan biaya dengan volume penjualan yang lebih rendah sebelum memilih respons."
+      },
+      {
+        "title": "Periksa apa yang mungkin menjelaskan celah.",
+        "body": "Tinjau penawaran pesaing dan acara lokal bersamaan dengan catatan operasi lokasi."
+      },
+      {
+        "title": "Berikan seseorang tindakan selanjutnya.",
+        "body": "Manajer meninjau tenaga kerja dan penawaran makan siang, mencatat respons yang dipilih dan memeriksa apa yang berubah setelah shift.",
+        "shortLabel": "Tindakan dan tinjauan",
+        "eyebrow": "TINDakan DAN TINJAUAN"
+      }
+    ],
+    "voiceEyebrow": "PERTANYAAN MANAJER",
+    "voiceText": "Anda bisa merasakan perubahan shift. *Di mana Anda memeriksa penyebabnya, dan siapa yang menindaklanjutinya?*",
+    "voiceResolution": "Lihat sinyal penjualan dan tenaga kerja, sepakati langkah selanjutnya dengan tim dan simpan serah-terima beserta hasilnya.",
+    "voiceAttribution": "Pandangan Sundae terhadap tantangan operasional harian",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "EMPAT TAMPILAN UNTUK SATU PERTANYAAN OPERASIONAL",
+    "scenarioNote": "Skenario ilustratif menggunakan angka demo. Perbandingan mingguan untuk covers dan varians terhadap perkiraan adalah perbandingan berbeda, bukan hasil yang diukur pelanggan.",
+    "scenarioVisual": {
+      "laborNote": "Bandingkan tenaga kerja yang dijadwalkan dengan volume penjualan ini sebelum mengubah cakupan.",
+      "watchtowerItem2": "Latihan kebakaran gedung kantor dijadwalkan 11-12, 2 blok jauhnya. Periksa apakah ini memengaruhi lokasi ini.",
+      "coachBody": "Tinjau cakupan sebelum mengubah shift juru masak jalur 11-2. Pertimbangkan penawaran makan siang $11.99 jika cocok untuk operasi. Seorang manajer memutuskan respons.",
+      "coachProjection": "Rekomendasi contoh. Dampak apa pun perlu diukur setelah tindakan.",
+      "illustrative": "Contoh ilustratif"
+    },
+    "manifesto": {
+      "statement": "Kerugian yang dapat dicegah pantas mendapat *respons yang jelas.*",
+      "coda": "Sundae menghubungkan sinyal operasional dengan pekerjaan yang diperlukan untuk merespons. Pahami perubahan, beri seseorang langkah selanjutnya dan bandingkan apa yang terjadi setelahnya."
+    },
+    "shiftMoment": {
+      "eyebrow": "SEBUAH SHIFT ILUSTRATIF",
+      "heading": "Lihat celah saat shift berjalan.",
+      "sub": "Lewati malam ilustratif ini untuk melihat sinyal penjualan dan tenaga kerja, respons manajer dan tinjauan selanjutnya. Ini adalah angka demo, bukan hasil pelanggan.",
+      "withSundae": "Dengan respons yang tercatat",
+      "oldWay": "Tanpa tindak lanjut tepat waktu",
+      "signalBody": "Kecepatan penjualan turun di Seksi 3 dan tenaga kerja di atas 30%. Periksa alur layanan dan cakupan sebelum memutuskan apakah akan mengubah penugasan.",
+      "signalAction": "Tinjau dan tetapkan langkah selanjutnya.",
+      "oldBody": "Tinjauan hari berikutnya menunjukkan di mana kecepatan penjualan dan staf berbeda. Gunakan catatan untuk merencanakan shift berikutnya, meskipun peluang sebelumnya telah berlalu.",
+      "oldAction": "Rencanakan shift berikutnya.",
+      "savedTitle": "Tampilan ilustratif akhir shift",
+      "savedBody": "Contoh ini berakhir lebih dekat ke rencana. Hasil nyata membutuhkan catatan tindakan, baseline yang relevan dan tinjauan perubahan lain.",
+      "projectedClose": "Perkiraan penutupan contoh"
+    }
+  },
+  "vi": {
+    "platformTitle": "Xem điều đã thay đổi. Chọn việc cần làm tiếp theo.",
+    "platformDescription": "Theo dõi thay đổi trong Pulse, so sánh hiệu suất với Benchmarks, điều tra trong Insights và đặt câu hỏi trong Ask Sundae. Dự báo và tín hiệu thị trường có sẵn tùy theo gói của bạn và các tiện ích mở rộng đã chọn.",
+    "workEyebrow": "ÍT THEO DÕI THỦ CÔNG HƠN",
+    "workTitle": "Dành ít thời gian hơn để tổng hợp câu trả lời.",
+    "workDescription": "Sundae biến dữ liệu doanh thu, chi phí và nhân sự kết nối thành câu trả lời và khuyến nghị. Quản lý có thể kiểm tra nguồn, giao bước tiếp theo và theo dõi những gì đã thay đổi.",
+    "todayLabel": "Khi công việc bị tách rời",
+    "todayItems": [
+      "Tái tạo cùng báo cáo doanh thu và lao động",
+      "Tìm nguyên nhân trong các hệ thống riêng biệt",
+      "Theo đuổi bản cập nhật sau ca làm việc",
+      "Mất bối cảnh giữa các địa điểm",
+      "Xem xét vấn đề khi cơ hội đã qua"
+    ],
+    "sundaeItems": [
+      "Doanh thu, chi phí và nhân sự trong một góc nhìn vận hành",
+      "Câu trả lời liên kết với dữ liệu hỗ trợ",
+      "Người chịu trách nhiệm cho bước tiếp theo",
+      "Nhiệm vụ và chuyển giao mang theo bối cảnh",
+      "Một điểm bắt đầu và kết quả được ghi lại",
+      "So sánh phù hợp giữa các địa điểm"
+    ],
+    "workClosing": "Giữ lại các hệ thống hữu ích. Kết nối công việc xung quanh chúng.",
+    "contextTitle": "Hiểu thay đổi và thị trường xung quanh nó.",
+    "contextDescription": "Sử dụng tín hiệu ca trực, bối cảnh thị trường liên quan và so sánh ẩn danh với đối thủ để quyết định điều gì cần điều tra. Xem bằng chứng trước khi hành động.",
+    "contextLayers": [
+      {
+        "title": "Ca làm việc khi nó đang diễn ra",
+        "why": "Xem tốc độ bán, lao động, hủy món và ngoại lệ dịch vụ trong khi ca vẫn đang chạy."
+      },
+      {
+        "title": "Thị trường xung quanh từng địa điểm",
+        "why": "Cân nhắc các tín hiệu đối thủ, sự kiện và thời tiết phù hợp cùng với dữ liệu của bạn. Watchtower là tiện ích trả phí cho các gói Core đủ điều kiện."
+      },
+      {
+        "title": "So sánh phù hợp",
+        "why": "So sánh một chỉ số với các địa điểm ẩn danh phù hợp. Kiểm tra nhóm đối chiếu và độ bao phủ dữ liệu trước khi kết luận."
+      }
+    ],
+    "scenarioTitle": "Theo dõi một vấn đề vận hành đến khi xem xét.",
+    "scenarioDescription": "Ví dụ này cho thấy một quản lý so sánh doanh thu với kế hoạch, xem xét các nguyên nhân có thể và chọn phản ứng. Kết quả vẫn cần đối chiếu với điểm khởi đầu.",
+    "scenarioClosing": "Hiểu thay đổi. Giao phản ứng. Xem lại kết quả.",
+    "scenarioDimensions": [
+      {
+        "title": "Số lượt khách giảm 22%.",
+        "body": "Mức chi trung bình ổn định trong ví dụ này. Người quản lý bắt đầu bằng việc điều tra sự thay đổi về lưu lượng."
+      },
+      {
+        "title": "Doanh thu hụt $3,800 so với dự báo.",
+        "body": "So sánh nhân sự và chi phí với khối lượng doanh thu thấp hơn trước khi chọn phản ứng."
+      },
+      {
+        "title": "Kiểm tra những gì có thể giải thích khoảng cách.",
+        "body": "Xem các ưu đãi của đối thủ và sự kiện địa phương cùng với hồ sơ vận hành của địa điểm."
+      },
+      {
+        "title": "Giao hành động tiếp theo cho một người.",
+        "body": "Người quản lý xem xét nhân sự và ưu đãi bữa trưa, ghi lại phản ứng được chọn và kiểm tra những gì đã thay đổi sau ca.",
+        "shortLabel": "Hành động và xem lại",
+        "eyebrow": "HÀNH ĐỘNG VÀ XEM LẠI"
+      }
+    ],
+    "voiceEyebrow": "CÂU HỎI CỦA NGƯỜI QUẢN LÝ",
+    "voiceText": "Bạn có cảm nhận ca đang thay đổi. *Bạn kiểm tra lý do ở đâu, và ai theo dõi đến cùng?*",
+    "voiceResolution": "Nhìn vào các tín hiệu doanh thu và nhân sự, thống nhất bước tiếp theo với đội và giữ nguyên chuyển giao cùng kết quả.",
+    "voiceAttribution": "Góc nhìn của Sundae về thách thức vận hành hàng ngày",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "BỐN GÓC NHÌN VỀ MỘT VẤN ĐỀ VẬN HÀNH",
+    "scenarioNote": "Tình huống minh họa dùng số liệu demo. So sánh tuần này với tuần trước về lượt khách và sai lệch so với dự báo là các phép so sánh khác nhau, không phải kết quả khách hàng được đo lường.",
+    "scenarioVisual": {
+      "laborNote": "So sánh lao động theo lịch với khối lượng doanh thu này trước khi thay đổi độ bao phủ.",
+      "watchtowerItem2": "Một diễn tập chữa cháy trong tòa nhà văn phòng được lên kế hoạch 11-12, cách 2 dãy nhà. Kiểm tra xem nó có ảnh hưởng đến địa điểm này không.",
+      "coachBody": "Xem lại độ bao phủ trước khi thay đổi ca bếp theo dòng 11-2. Cân nhắc ưu đãi bữa trưa $11.99 nếu phù hợp với vận hành. Người quản lý quyết định phản ứng.",
+      "coachProjection": "Gợi ý minh họa. Mọi tác động cần được đo sau khi hành động.",
+      "illustrative": "Ví dụ minh họa"
+    },
+    "manifesto": {
+      "statement": "Tổn thất có thể ngăn chặn xứng đáng nhận *một phản ứng rõ ràng.*",
+      "coda": "Sundae kết nối các tín hiệu vận hành với công việc cần thiết để phản ứng. Hiểu thay đổi, giao bước tiếp theo cho ai đó và so sánh những gì đã xảy ra sau đó."
+    },
+    "shiftMoment": {
+      "eyebrow": "MỘT CA MINH HỌA",
+      "heading": "Nhìn thấy khoảng cách trong khi ca đang chạy.",
+      "sub": "Đi qua buổi tối minh họa này để thấy tín hiệu doanh thu và lao động, phản ứng của quản lý và đánh giá sau đó. Đây là số liệu demo, không phải kết quả khách hàng.",
+      "withSundae": "Với phản ứng được ghi lại",
+      "oldWay": "Không theo dõi kịp thời",
+      "signalBody": "Tốc độ bán giảm ở Khu vực 3 và lao động cao hơn 30%. Kiểm tra quy trình dịch vụ và độ bao phủ trước khi quyết định thay đổi nhiệm vụ.",
+      "signalAction": "Xem xét và giao bước tiếp theo.",
+      "oldBody": "Đánh giá vào ngày hôm sau cho thấy nơi tốc độ bán và nhân sự khác biệt. Dùng bản ghi để lên kế hoạch ca tiếp theo, ngay cả khi cơ hội trước đó đã qua.",
+      "oldAction": "Lên kế hoạch ca tiếp theo.",
+      "savedTitle": "Góc nhìn minh họa kết thúc ca",
+      "savedBody": "Ví dụ này kết thúc gần hơn với kế hoạch. Kết quả thực tế cần bản ghi hành động, một đường cơ sở phù hợp và đánh giá các thay đổi khác.",
+      "projectedClose": "Dự báo đóng cửa ví dụ"
+    }
+  },
+  "ro": {
+    "platformTitle": "Vezi ce s-a schimbat. Alege ce faci mai departe.",
+    "platformDescription": "Urmează schimbarea în Pulse, compară performanța cu Benchmarks, investighează în Insights și pune întrebări în Ask Sundae. Prognozele și semnalele de piață sunt disponibile în funcție de pachetul și extensiile selectate.",
+    "workEyebrow": "MAI PUȚIN URMĂRIT MANUAL",
+    "workTitle": "Petrece mai puțin timp compilând răspunsul.",
+    "workDescription": "Sundae transformă datele conectate de vânzări, costuri și personal în răspunsuri și recomandări. Managerii pot verifica sursa, pot atribui pasul următor și pot urmări ce s-a schimbat.",
+    "todayLabel": "Când munca este deconectată",
+    "todayItems": [
+      "Reconstruirea aceluiași raport de vânzări și muncă",
+      "Căutarea motivului în sisteme separate",
+      "Urgența unui update după schimbare",
+      "Pierdere de context între locații",
+      "Revederea unei probleme după ce oportunitatea a trecut"
+    ],
+    "sundaeItems": [
+      "Vânzări, costuri și personal într-o singură vedere operațională",
+      "Răspunsuri legate de datele suport",
+      "O persoană responsabilă pentru pasul următor",
+      "Sarcini și predări care păstrează contextul",
+      "Un punct de pornire și un rezultat înregistrat",
+      "Comparații relevante între locații"
+    ],
+    "workClosing": "Păstrează sistemele utile. Conectează munca în jurul lor.",
+    "contextTitle": "Înțelege schimbarea și piața din jurul ei.",
+    "contextDescription": "Folosește semnale live ale schimbării, context de piață relevant și comparații anonimizate cu peer-ii pentru a decide ce investigați. Revizuiește dovezile înainte de a acționa.",
+    "contextLayers": [
+      {
+        "title": "Schimbarea în timp real",
+        "why": "Revizuiește ritmul vânzărilor, munca, void-urile și excepțiile de serviciu în timp ce tura este în desfășurare."
+      },
+      {
+        "title": "Piața în jurul fiecărei locații",
+        "why": "Ia în considerare semnalele relevante despre competitori, evenimente și vreme alături de datele tale. Watchtower este o extensie plătită pentru pachetele Core eligibile."
+      },
+      {
+        "title": "O comparație relevantă",
+        "why": "Compară un metric cu peer-i anonimizati potriviți. Verifică cohorța și acoperirea datelor înainte de a trage o concluzie."
+      }
+    ],
+    "scenarioTitle": "Urmărește o problemă operațională până la revizuire.",
+    "scenarioDescription": "Acest exemplu arată un manager comparând vânzările cu planul, considerând cauze posibile și alegând un răspuns. Rezultatul trebuie verificat în raport cu punctul de plecare.",
+    "scenarioClosing": "Înțelege schimbarea. Atribuie un răspuns. Revizuiește rezultatul.",
+    "scenarioDimensions": [
+      {
+        "title": "Numărul de clienți a scăzut cu 22%.",
+        "body": "În acest exemplu, nota medie este stabilă. Managerul începe investigând schimbarea traficului."
+      },
+      {
+        "title": "Vânzările sunt în urma prognozei cu $3,800.",
+        "body": "Compară personalul și costurile cu volumul redus de vânzări înainte de a alege un răspuns."
+      },
+      {
+        "title": "Verifică ce ar putea explica decalajul.",
+        "body": "Revizuiește ofertele competitorilor și evenimentele locale alături de înregistrările operaționale ale locației."
+      },
+      {
+        "title": "Dăcuiva următoarea acțiune.",
+        "body": "Managerul revizuiește personalul și oferta de prânz, înregistrează răspunsul ales și verifică ce s-a schimbat după tură.",
+        "shortLabel": "Acțiune și revizuire",
+        "eyebrow": "ACȚIUNE ȘI REVIZUIRE"
+      }
+    ],
+    "voiceEyebrow": "ÎNTREBAREA MANAGERULUI",
+    "voiceText": "Simți schimbarea în curs. *Unde verifici motivul și cine îl urmărește până la capăt?*",
+    "voiceResolution": "Privește semnalele de vânzări și personal, agrează pasul următor cu echipa și păstrează predarea și rezultatul împreună.",
+    "voiceAttribution": "Viziunea Sundae asupra provocării operaționale zilnice",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "PATRU VEDERI ALE UNEI ÎNTREBĂRI OPERAȚIONALE",
+    "scenarioNote": "Scenariu ilustrativ folosind cifre demo. Compararea săptămână la săptămână a numărului de clienți și abaterea față de prognoză sunt comparații diferite, nu rezultate măsurate pentru clienți.",
+    "scenarioVisual": {
+      "laborNote": "Compară muncă programată cu acest volum de vânzări înainte de a schimba acoperirea.",
+      "watchtowerItem2": "Un exercițiu de alarmă pentru o clădire de birouri este programat 11-12, la 2 blocuri distanță. Verifică dacă afectează această locație.",
+      "coachBody": "Revizuiește acoperirea înainte de a schimba tura de bucătar de linie 11-2. Ia în considerare oferta de prânz $11.99 dacă se potrivește operației. Un manager decide răspunsul.",
+      "coachProjection": "Recomandare exemplu. Orice impact trebuie măsurat după acțiune.",
+      "illustrative": "Exemplu ilustrativ"
+    },
+    "manifesto": {
+      "statement": "Pierderea prevenibilă merită *un răspuns clar.*",
+      "coda": "Sundae conectează semnalele operaționale cu munca necesară pentru a răspunde. Înțelege schimbarea, dăcuiva pasul următor și compară ce s-a întâmplat după aceea."
+    },
+    "shiftMoment": {
+      "eyebrow": "O TURĂ ILUSTRATIVĂ",
+      "heading": "Vezi decalajul în timp ce tura este în desfășurare.",
+      "sub": "Parcurge această seară ilustrativă pentru a vedea un semnal de vânzări și muncă, un răspuns al managerului și revizuirea ulterioară. Acestea sunt cifre demo, nu un rezultat de client.",
+      "withSundae": "Cu un răspuns înregistrat",
+      "oldWay": "Fără urmărire la timp",
+      "signalBody": "Ritmul vânzărilor a scăzut în Secțiunea 3 și munca este peste 30%. Verifică fluxul de servicii și acoperirea înainte de a decide o schimbare de atribuiri.",
+      "signalAction": "Revizuiește și atribuie pasul următor.",
+      "oldBody": "Revizuirea de a doua zi arată unde ritmul vânzărilor și personalul au diferit. Folosește înregistrarea pentru a planifica următoarea tură, chiar dacă oportunitatea anterioară a trecut.",
+      "oldAction": "Planifică următoarea tură.",
+      "savedTitle": "Vedere ilustrativă la sfârșitul turei",
+      "savedBody": "Acest exemplu se încheie mai aproape de plan. Un rezultat real necesită înregistrarea acțiunii, o bază relevantă și o revizuire a altor schimbări.",
+      "projectedClose": "Închidere proiectată exemplu"
+    }
+  },
+  "sv": {
+    "platformTitle": "Se vad som förändrats. Välj nästa steg.",
+    "platformDescription": "Följ skiftet i Pulse, jämför prestanda med Benchmarks, undersök i Insights och ställ frågor i Ask Sundae. Prognoser och marknadssignaler finns enligt ditt paket och valda tillägg.",
+    "workEyebrow": "MINDRE MANUELL UPPFÖLJNING",
+    "workTitle": "Lägg mindre tid på att sammanställa svaret.",
+    "workDescription": "Sundae omvandlar sammanlänkad försäljnings-, kostnads- och personaldata till svar och rekommendationer. Chefer kan kontrollera källan, tilldela nästa steg och följa vad som förändrats.",
+    "todayLabel": "När arbetet är frikopplat",
+    "todayItems": [
+      "Bygga om samma försäljnings- och personalrapport",
+      "Söka i separata system efter orsaken",
+      "Jaga en uppdatering efter skiftet",
+      "Tappa kontexten mellan enheter",
+      "Granska ett problem efter att möjligheten passerat"
+    ],
+    "sundaeItems": [
+      "Försäljning, kostnader och bemanning i en driftvy",
+      "Svar kopplade till underliggande data",
+      "En ansvarig person för nästa åtgärd",
+      "Uppgifter och överlämningar som bevarar kontexten",
+      "En startpunkt och ett inspelat resultat",
+      "Relevanta jämförelser över enheter"
+    ],
+    "workClosing": "Behåll användbara system. Koppla arbetet runt dem.",
+    "contextTitle": "Förstå skiftet och marknaden runtom.",
+    "contextDescription": "Använd live-skiftssignaler, relevant marknadskontext och anonymiserade jämförelser med peers för att avgöra vad som ska undersökas. Granska bevisen innan du agerar.",
+    "contextLayers": [
+      {
+        "title": "Skiftet medan det händer",
+        "why": "Granska försäljningstakt, personal, bortfall och serviceavvikelser medan skiftet pågår."
+      },
+      {
+        "title": "Marknaden runt varje enhet",
+        "why": "Ta hänsyn till relevanta konkurrent-, evenemangs- och vädersignaler tillsammans med dina egna data. Watchtower är ett betalt tillägg för berättigade Core-paket."
+      },
+      {
+        "title": "En relevant jämförelse",
+        "why": "Jämför en mätning med lämpliga anonymiserade peers. Kontrollera kohorten och datatäckningen innan du drar slutsatser."
+      }
+    ],
+    "scenarioTitle": "Följ ett driftsproblem fram till granskning.",
+    "scenarioDescription": "Detta exempel visar en chef som jämför försäljning med plan, överväger möjliga orsaker och väljer en åtgärd. Resultatet måste fortfarande kontrolleras mot startpunkten.",
+    "scenarioClosing": "Förstå förändringen. Tilldela ett svar. Granska resultatet.",
+    "scenarioDimensions": [
+      {
+        "title": "Covers är ner 22%.",
+        "body": "Genomsnittsnota är stabil i detta exempel. Chefen börjar med att undersöka trafiken."
+      },
+      {
+        "title": "Försäljningen ligger $3,800 under prognos.",
+        "body": "Jämför bemanning och kostnader med den lägre försäljningsvolymen innan du väljer en åtgärd."
+      },
+      {
+        "title": "Kontrollera vad som kan förklara gapet.",
+        "body": "Granska konkurrenters erbjudanden och lokala evenemang tillsammans med enhetens egna driftdata."
+      },
+      {
+        "title": "Ge någon nästa åtgärd.",
+        "body": "Chefen granskar bemanningen och lunchutbudet, registrerar den valda åtgärden och kontrollerar vad som förändrades efter skiftet.",
+        "shortLabel": "Åtgärd och granskning",
+        "eyebrow": "ÅTGÄRD OCH GRANSKNING"
+      }
+    ],
+    "voiceEyebrow": "CHEFENS FRÅGA",
+    "voiceText": "Du känner skiftet förändras. *Var kontrollerar du orsaken, och vem följer upp den?*",
+    "voiceResolution": "Titta på försäljnings- och bemanningssignalerna, enas om nästa steg med teamet och behåll överlämningen och resultatet tillsammans.",
+    "voiceAttribution": "Sundaes bild av den dagliga driftsutmaningen",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "FYRA VYER AV EN DRIFTSFRÅGA",
+    "scenarioNote": "Illustrativt scenario med demo­siffror. Veckotill-veckot covers och avvikelse mot prognos är olika jämförelser, inte uppmätta kundutfall.",
+    "scenarioVisual": {
+      "laborNote": "Jämför schemalagd personal med denna försäljningsvolym innan du ändrar bemanningen.",
+      "watchtowerItem2": "En kontorstornsbrandövning är schemalagd 11-12, 2 kvarter bort. Kontrollera om den påverkar denna enhet.",
+      "coachBody": "Granska täckningen innan du ändrar 11-2 line-cook-skiftet. Överväg $11.99 luncherbjudandet om det passar verksamheten. En chef beslutar om åtgärd.",
+      "coachProjection": "Exempel på rekommendation. Eventuell påverkan måste mätas efter åtgärden.",
+      "illustrative": "Illustrativt exempel"
+    },
+    "manifesto": {
+      "statement": "Förebyggbart förlust förtjänar *ett tydligt svar.*",
+      "coda": "Sundae kopplar driftssignalerna till arbetet som krävs för att reagera. Förstå förändringen, ge någon nästa steg och jämför vad som hände efteråt."
+    },
+    "shiftMoment": {
+      "eyebrow": "ETT ILLUSTRATIVT SKIFT",
+      "heading": "Se gapet medan skiftet pågår.",
+      "sub": "Gå igenom denna illustrativa kväll för att se en försäljnings- och personal­ssignal, en chefsåtgärd och senare granskning. Detta är demo­siffror, inte ett kundresultat.",
+      "withSundae": "Med en inspelad åtgärd",
+      "oldWay": "Utan snabb uppföljning",
+      "signalBody": "Försäljningstakten har fallit i Sektion 3 och personalen ligger över 30%. Kontrollera serviceflöde och täckning innan du beslutar om ändrad tilldelning.",
+      "signalAction": "Granska och tilldela nästa steg.",
+      "oldBody": "Nästa dags granskning visar var försäljningstakt och bemanning skiljde sig. Använd posten för att planera nästa skift, även om den tidigare möjligheten har passerat.",
+      "oldAction": "Planera nästa skift.",
+      "savedTitle": "Illustrativ slut- på-skift-vy",
+      "savedBody": "Exemplet avslutas närmare planen. Ett verkligt resultat kräver åtgärdsloggen, en relevant baslinje och en granskning av andra förändringar.",
+      "projectedClose": "Exempel på förväntat avslut"
+    }
+  },
+  "bn": {
+    "platformTitle": "কি পরিবর্তন হলো দেখুন। পরবর্তী কী করবেন ঠিক করুন।",
+    "platformDescription": "Pulse-এ রূপান্তর দেখুন, Benchmarks-এ কার্যকারিতা তুলনা করুন, Insights-এ তদন্ত করুন এবং Ask Sundae-এ প্রশ্ন করুন। Forecasting এবং বাজার সংকেত আপনার প্যাকেজ এবং নির্বাচিত এক্সটেনশন অনুযায়ী উপলব্ধ।",
+    "workEyebrow": "কম ম্যানুয়াল অনুসরণ",
+    "workTitle": "উত্তর তৈরি করতে সময় কম ব্যয় করুন।",
+    "workDescription": "Sundae সংযুক্ত বিক্রয়, খরচ ও কর্মী ডেটাকে উত্তর ও সুপারিশে বদলে দেয়। ম্যানেজাররা উৎস যাচাই করতে, পরবর্তী পদক্ষেপ নির্ধারণ করতে এবং কী পরিবর্তিত হলো ট্র্যাক করতে পারেন।",
+    "todayLabel": "যখন কাজ বিচ্ছিন্ন থাকে",
+    "todayItems": [
+      "একই বিক্রয় ও লেবার রিপোর্ট পুনর্নির্মাণ",
+      "কারণ জানতে আলাদা সিস্টেমগুলো খোঁজা",
+      "রূপান্তরের পরে আপডেট চাপানো",
+      "অবস্থানগুলোর মধ্যে প্রসঙ্গ হারানো",
+      "সুযোগ শেষ হওয়ার পরে কোনো ইস্যু দেখা"
+    ],
+    "sundaeItems": [
+      "একটি অপারেটিং ভিউতে বিক্রয়, খরচ ও স্টাফিং",
+      "সহায়ক ডেটার সঙ্গে লিঙ্ক করা উত্তর",
+      "পরবর্তী কাজের জন্য দায়িত্বপ্রাপ্ত একজন ব্যক্তি",
+      "প্রাসঙ্গিক প্রসঙ্গ বহন করে এমন টাস্ক ও হ্যান্ডওভার",
+      "শুরু করার বিন্দু এবং রেকর্ডকৃত ফলাফল",
+      "অবস্থানগুলোর মধ্যে প্রাসঙ্গিক তুলনা"
+    ],
+    "workClosing": "উপযোগী সিস্টেম রাখুন। তাদের চারপাশে কাজ সংযুক্ত করুন।",
+    "contextTitle": "রূপান্তর এবং তার পারিপার্শ্বিক বাজার বুঝুন।",
+    "contextDescription": "লাইভ শিফট সংকেত, প্রাসঙ্গিক বাজার প্রসঙ্গ এবং অ্যানোনিমাইজড পিয়ার তুলনা ব্যবহার করে তদন্তের সিদ্ধান্ত নিন। কাজ শুরু করার আগে প্রমাণপত্র পর্যালোচনা করুন।",
+    "contextLayers": [
+      {
+        "title": "ঘটনার সময় শিফট",
+        "why": "শিফট চলাকালীন বিক্রয় গতি, লেবার, ভয়েড এবং সার্ভিস ব্যতিক্রম পর্যালোচনা করুন।"
+      },
+      {
+        "title": "প্রতিটি অবস্থানের চারপাশের বাজার",
+        "why": "আপনার নিজস্ব ডেটার পাশাপাশিই প্রাসঙ্গিক প্রতিযোগী, ইভেন্ট এবং আবহাওয়ার সংকেত বিবেচনা করুন। Watchtower হল যোগ্য Core প্যাকেজগুলোর জন্য একটি পেইড এক্সটেনশন।"
+      },
+      {
+        "title": "একটি প্রাসঙ্গিক তুলনা",
+        "why": "একটি মেট্রিক উপযুক্ত অ্যানোনিমাইজড পিয়ারদের সঙ্গে তুলনা করুন। সিদ্ধান্ত নেওয়ার আগে কোহোর্ট ও ডেটা কভারেজ যাচাই করুন।"
+      }
+    ],
+    "scenarioTitle": "একটি অপারেটিং সমস্যা পর্যালোচনা পর্যন্ত অনুসরণ করুন।",
+    "scenarioDescription": "উদাহরণে একটি ম্যানেজার বিক্রয়কে পরিকল্পনার সঙ্গে তুলনা করছেন, সম্ভব কারণ বিবেচনা করছেন এবং একটি প্রতিক্রিয়া বেছে নিচ্ছেন। ফলাফলকে এখনও শুরুর বিন্দুর বিরুদ্ধে যাচাই করা দরকার।",
+    "scenarioClosing": "পরিবর্তন বুঝুন। প্রতিক্রিয়া দিন। ফলাফল পর্যালোচনা করুন।",
+    "scenarioDimensions": [
+      {
+        "title": "কভার 22% কমে গেছে।",
+        "body": "এই উদাহরণে গড় চেক স্থিতিশীল আছে। ম্যানেজার ট্রাফিক পরিবর্তন তদন্ত করে শুরু করেন।"
+      },
+      {
+        "title": "বিক্রয় পূর্বাভাসের থেকে $3,800 পিছিয়ে আছে।",
+        "body": "প্রতিক্রিয়া নির্ধারণের আগে কম বিক্রয় ভলিউমের সঙ্গে স্টাফিং ও খরচ তুলনা করুন।"
+      },
+      {
+        "title": "ফাঁক ব্যাখ্যা করতে কী থাকতে পারে তা যাচাই করুন।",
+        "body": "অবস্থার নিজস্ব অপারেটিং রেকর্ডগুলোর পাশাপাশি প্রতিযোগীর অফার ও লোকাল ইভেন্ট পর্যালোচনা করুন।"
+      },
+      {
+        "title": "কেউকে পরবর্তী কাজ দিন।",
+        "body": "ম্যানেজার স্টাফিং ও লাঞ্চ অফার পর্যালোচনা করেন, নির্বাচিত প্রতিক্রিয়া রেকর্ড করেন এবং শিফটের পরে কী পরিবর্তিত হলো দেখেন।",
+        "shortLabel": "করণীয় ও পর্যালোচনা",
+        "eyebrow": "করণীয় ও পর্যালোচনা"
+      }
+    ],
+    "voiceEyebrow": "ম্যানেজারের প্রশ্ন",
+    "voiceText": "আপনি শিফট পরিবর্তন হতে অনুভব করতে পারেন। *কোথায় কারণ যাচাই করবেন, এবং কে শেষ পর্যন্ত অনুসরণ করবে?*",
+    "voiceResolution": "বিক্রয় ও স্টাফিং সংকেত দেখুন, দলে পরবর্তী পদক্ষেপ নিয়ে সম্মত হন এবং হ্যান্ডওভার ও ফলাফল একসাথে রাখুন।",
+    "voiceAttribution": "দৈনন্দিন অপারেটিং চ্যালেঞ্জে Sundae এর দৃষ্টিভঙ্গি",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "একটি অপারেটিং প্রশ্নের চারটি ভিউ",
+    "scenarioNote": "ডেমো সংখ্যাসহ চিত্রণমূলক দৃশ্য। সপ্তাহ-অন-সপ্তাহ কভার এবং পূর্বাভাসের বিরুদ্ধে বৈচিত্র্য বিভিন্ন তুলনা, মাপা কাস্টমার ফলাফল নয়।",
+    "scenarioVisual": {
+      "laborNote": "কভারেজ পরিবর্তন করার আগে নির্ধারিত লেবারকে এই বিক্রয় ভলিউমের সঙ্গে তুলনা করুন।",
+      "watchtowerItem2": "একটি অফিস-টাওয়ার ফায়ার ড্রিল 11-12 তারিখে নির্ধারিত, 2 ব্লক দূরে। এটি কি এই অবস্থানকে প্রভাবিত করে তা পরীক্ষা করুন।",
+      "coachBody": "11-2 লাইন-কুক শিফট পরিবর্তন করার আগে কভারেজ পর্যালোচনা করুন। অপারেশনের সঙ্গে মানিয়ে গেলে $11.99 লাঞ্চ অফার বিবেচনা করুন। প্রতিক্রিয়া ম্যানেজার নির্ধারণ করবেন।",
+      "coachProjection": "উদাহরণ সুপারিশ। যে কোনো প্রভাব মাপতে কাজের পরে মূল্যায়ন প্রয়োজন।",
+      "illustrative": "চিত্রণমূলক উদাহরণ"
+    },
+    "manifesto": {
+      "statement": "প্রতিরোধযোগ্য ক্ষতিকে *স্পষ্ট প্রতিক্রিয়া* প্রয়োজন।",
+      "coda": "Sundae অপারেটিং সংকেতগুলোকে প্রতিক্রিয়া দেওয়ার জন্য দরকারি কাজের সঙ্গে সংযুক্ত করে। পরিবর্তন বুঝুন, কাউকে পরবর্তী পদক্ষেপ দিন এবং পরে কী ঘটেছিল তা তুলনা করুন।"
+    },
+    "shiftMoment": {
+      "eyebrow": "একটি চিত্রণমূলক শিফট",
+      "heading": "শিফট চলাকালীন গ্যাপ দেখুন।",
+      "sub": "এই চিত্রণমূলক সন্ধ্যাটি অনুসরণ করে বিক্রয় ও লেবার সংকেত, একটি ম্যানেজার প্রতিক্রিয়া এবং পরে পর্যালোচনা দেখুন। এগুলো ডেমো সংখ্যা, কোনো গ্রাহকের ফলাফল নয়।",
+      "withSundae": "রেকর্ডকৃত প্রতিক্রিয়ার সাথে",
+      "oldWay": "সময়ে টুকরো অনুসরণ না করে",
+      "signalBody": "সেকশন 3-এ বিক্রয় গতি কমেছে এবং লেবার 30% ছাড়িয়ে আছে। কোন অ্যাসাইনমেন্ট পরিবর্তন করবেন কিনা সিদ্ধান্ত নেওয়ার আগে সার্ভিস ফ্লো ও কভারেজ যাচাই করুন।",
+      "signalAction": "পর্যালোচনা করে পরবর্তী পদক্ষেপ নির্ধারণ করুন।",
+      "oldBody": "পরবর্তী-দিন পর্যালোচনায় দেখা যায় কোথায় বিক্রয় গতি ও স্টাফিং ভিন্ন ছিল। আগের সুযোগ পার হয়ে গেলেও পরবর্তী শিফট পরিকল্পনা করতে রেকর্ড ব্যবহার করুন।",
+      "oldAction": "পরবর্তী শিফট পরিকল্পনা করুন।",
+      "savedTitle": "চিত্রণমূলক শিফট-শেষ ভিউ",
+      "savedBody": "এই উদাহরণটি পরিকল্পনার কাছাকাছি শেষ হয়েছে। একটি বাস্তব ফলাফলের জন্য কাজের রেকর্ড, প্রাসঙ্গিক বেসলাইন এবং অন্য পরিবর্তনগুলোর পর্যালোচনা প্রয়োজন।",
+      "projectedClose": "উদাহরণ প্রজেক্টেড ক্লোজ"
+    }
+  },
+  "th": {
+    "platformTitle": "ดูสิ่งที่เปลี่ยน เลือกขั้นตอนต่อไป",
+    "platformDescription": "ติดตามการเปลี่ยนแปลงใน Pulse เปรียบเทียบประสิทธิภาพกับ Benchmarks สืบสวนใน Insights และตั้งคำถามใน Ask Sundae การพยากรณ์และสัญญาณตลาดมีให้ตามแพ็กเกจและส่วนขยายที่เลือก",
+    "workEyebrow": "ลดการติดตามด้วยมือ",
+    "workTitle": "ใช้เวลาน้อยลงกับการสรุปคำตอบ",
+    "workDescription": "Sundae เปลี่ยนข้อมูลการขาย ต้นทุน และกำลังคนที่เชื่อมต่อเป็นคำตอบและคำแนะนำ ผู้จัดการสามารถตรวจสอบแหล่งข้อมูล มอบหมายขั้นตอนถัดไป และติดตามสิ่งที่เปลี่ยนแปลงได้",
+    "todayLabel": "เมื่อการทำงานไม่เชื่อมกัน",
+    "todayItems": [
+      "สร้างรายงานการขายและแรงงานชุดเดิมซ้ำ",
+      "ค้นหาระบบแยกต่างหากเพื่อตามหาสาเหตุ",
+      "ตามหาการอัปเดตหลังการเปลี่ยนแปลง",
+      "สูญเสียบริบทระหว่างสาขา",
+      "ทบทวนปัญหาหลังโอกาสผ่านไปแล้ว"
+    ],
+    "sundaeItems": [
+      "ยอดขาย ต้นทุน และการจัดคนในมุมมองการปฏิบัติงานเดียว",
+      "คำตอบเชื่อมโยงกับข้อมูลสนับสนุน",
+      "มีผู้รับผิดชอบสำหรับการกระทำถัดไป",
+      "งานและการส่งต่องานที่รักษาบริบทไว้",
+      "จุดเริ่มต้นและผลลัพธ์ที่บันทึกไว้",
+      "การเปรียบเทียบที่เกี่ยวข้องระหว่างสาขา"
+    ],
+    "workClosing": "เก็บระบบที่มีประโยชน์ไว้ แล้วเชื่อมงานรอบๆ ระบบเหล่านั้น",
+    "contextTitle": "เข้าใจการเปลี่ยนแปลงและบริบทตลาดรอบๆ มัน",
+    "contextDescription": "ใช้สัญญาณการเปลี่ยนแปลงแบบสด บริบทตลาดที่เกี่ยวข้อง และการเปรียบเทียบเพื่อนร่วมกลุ่มที่ไม่ระบุตัวตนเพื่อตัดสินใจว่าจะสืบสวนอะไร ทบทวนหลักฐานก่อนลงมือ",
+    "contextLayers": [
+      {
+        "title": "การเปลี่ยนแปลงในขณะที่เกิดขึ้น",
+        "why": "ทบทวนจังหวะการขาย แรงงาน การทิ้งสินค้า และข้อยกเว้นการบริการขณะที่กะยังดำเนินอยู่"
+      },
+      {
+        "title": "สภาพตลาดรอบแต่ละสาขา",
+        "why": "พิจารณาสัญญาณคู่แข่ง เหตุการณ์ และสภาพอากาศที่เกี่ยวข้องควบคู่กับข้อมูลของคุณ Watchtower เป็นส่วนขยายแบบชำระเงินสำหรับแพ็กเกจ Core ที่มีสิทธิ์"
+      },
+      {
+        "title": "การเปรียบเทียบที่เกี่ยวข้อง",
+        "why": "เปรียบเทียบตัวชี้วัดกับเพื่อนร่วมกลุ่มที่ไม่ระบุตัวตนที่เหมาะสม ตรวจสอบกลุ่มเปรียบเทียบและความครอบคลุมของข้อมูลก่อนสรุป"
+      }
+    ],
+    "scenarioTitle": "ติดตามปัญหาการปฏิบัติงานจนถึงการทบทวน",
+    "scenarioDescription": "ตัวอย่างนี้แสดงผู้จัดการที่เปรียบเทียบยอดขายกับแผน พิจารณาสาเหตุที่เป็นไปได้ และเลือกการตอบสนอง ผลลัพธ์ยังต้องตรวจสอบกับจุดเริ่มต้น",
+    "scenarioClosing": "เข้าใจการเปลี่ยนแปลง มอบหมายการตอบสนอง และทบทวนผลลัพธ์",
+    "scenarioDimensions": [
+      {
+        "title": "จำนวนลูกค้าน้อยลง 22%",
+        "body": "ค่าเฉลี่ยบิลคงที่ในตัวอย่างนี้ ผู้จัดการเริ่มจากการสืบสวนการเปลี่ยนแปลงของจำนวนลูกค้า"
+      },
+      {
+        "title": "ยอดขายต่ำกว่าเป้าหมาย $3,800",
+        "body": "เปรียบเทียบการจัดคนและต้นทุนกับปริมาณยอดขายที่ลดลงก่อนเลือกการตอบสนอง"
+      },
+      {
+        "title": "ตรวจสอบสิ่งที่อาจอธิบายช่องว่างนี้",
+        "body": "ทบทวนข้อเสนอของคู่แข่งและเหตุการณ์ท้องถิ่นควบคู่กับบันทึกการปฏิบัติงานของสาขานั้น"
+      },
+      {
+        "title": "มอบหมายการกระทำถัดไปให้ใครสักคน",
+        "body": "ผู้จัดการทบทวนการจัดคนและข้อเสนอเมนูกลางวัน บันทึกการตอบสนองที่เลือก และตรวจสอบสิ่งที่เปลี่ยนหลังจากกะ",
+        "shortLabel": "การกระทำและการทบทวน",
+        "eyebrow": "การกระทำและการทบทวน"
+      }
+    ],
+    "voiceEyebrow": "คำถามของผู้จัดการ",
+    "voiceText": "คุณรู้สึกว่าการเปลี่ยนแปลงกำลังเกิดขึ้น *คุณตรวจสอบสาเหตุที่ไหน และใครติดตามจนจบ?*",
+    "voiceResolution": "ดูสัญญาณยอดขายและการจัดคน ตกลงขั้นตอนถัดไปกับทีม และเก็บการส่งต่องานและผลลัพธ์ไว้ด้วยกัน",
+    "voiceAttribution": "มุมมองของ Sundae ต่อความท้าทายการปฏิบัติงานประจำวัน",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "มุมมองสี่ด้านของคำถามการปฏิบัติงานเดียว",
+    "scenarioNote": "สถานการณ์เชิงสาธิตโดยใช้ตัวเลขตัวอย่าง การเปรียบเทียบสัปดาห์ต่อสัปดาห์ของจำนวนลูกค้าและความเบี่ยงเบนจากการพยากรณ์เป็นการเปรียบเทียบต่างประเภท มิใช่ผลลัพธ์ที่วัดจากลูกค้า",
+    "scenarioVisual": {
+      "laborNote": "เปรียบเทียบแรงงานตามตารางกับปริมาณยอดขายนี้ก่อนเปลี่ยนการครอบคลุม",
+      "watchtowerItem2": "มีการซ้อมดับเพลิงในอาคารสำนักงานกำหนดไว้ 11-12 ห่างออกไป 2 ช่วงตึก ตรวจสอบว่ามีผลต่อสาขานี้หรือไม่",
+      "coachBody": "ทบทวนการครอบคลุมก่อนเปลี่ยนกะเชฟเส้น 11-2 พิจารณาข้อเสนออาหารกลางวัน $11.99 หากเหมาะกับการปฏิบัติ ผู้จัดการตัดสินใจตอบสนอง",
+      "coachProjection": "คำแนะนำตัวอย่าง ผลกระทบใดๆ ต้องวัดหลังการดำเนินการ",
+      "illustrative": "ตัวอย่างประกอบ"
+    },
+    "manifesto": {
+      "statement": "ความสูญเสียที่ป้องกันได้สมควรได้รับ *การตอบสนองที่ชัดเจน*",
+      "coda": "Sundae เชื่อมสัญญาณการปฏิบัติงานกับงานที่จำเป็นต้องตอบสนอง เข้าใจการเปลี่ยนแปลง มอบหมายขั้นตอนถัดไปให้ใครสักคน และเปรียบเทียบสิ่งที่เกิดขึ้นหลังจากนั้น"
+    },
+    "shiftMoment": {
+      "eyebrow": "กะตัวอย่างประกอบ",
+      "heading": "เห็นช่องว่างขณะกะยังดำเนินอยู่",
+      "sub": "เดินผ่านค่ำคืนตัวอย่างนี้เพื่อดูสัญญาณยอดขายและแรงงาน การตอบสนองของผู้จัดการ และการทบทวนภายหลัง ตัวเลขเป็นข้อมูลสาธิต ไม่ใช่ผลลัพธ์ของลูกค้า",
+      "withSundae": "พร้อมการบันทึกการตอบสนอง",
+      "oldWay": "ไม่มีการติดตามที่ทันเวลา",
+      "signalBody": "จังหวะการขายลดลงในแถว 3 และแรงงานสูงกว่า 30% ตรวจสอบการไหลของการบริการและการครอบคลุมก่อนตัดสินใจเปลี่ยนมอบหมายงาน",
+      "signalAction": "ทบทวนและมอบหมายขั้นตอนถัดไป",
+      "oldBody": "การทบทวนวันถัดไปแสดงจุดที่จังหวะการขายและการจัดคนต่างกัน ใช้บันทึกเพื่อวางแผนกะถัดไป แม้โอกาสก่อนหน้าจะผ่านไปแล้ว",
+      "oldAction": "วางแผนกะถัดไป",
+      "savedTitle": "มุมมองตัวอย่างปลายกะ",
+      "savedBody": "ตัวอย่างนี้จบใกล้เคียงแผนมากขึ้น ผลลัพธ์จริงต้องการบันทึกการดำเนินการ เกณฑ์ฐานที่เกี่ยวข้อง และการทบทวนการเปลี่ยนแปลงอื่นๆ",
+      "projectedClose": "การปิดที่คาดการณ์ตัวอย่าง"
+    }
+  },
+  "ms": {
+    "platformTitle": "Lihat apa yang berubah. Pilih tindakan seterusnya.",
+    "platformDescription": "Ikuti pergeseran dalam Pulse, bandingkan prestasi dengan Benchmarks, selidik dalam Insights dan tanya di Ask Sundae. Unjuran dan isyarat pasaran tersedia mengikut pakej dan peluasan yang dipilih.",
+    "workEyebrow": "KURANG SUSULAN MANUAL",
+    "workTitle": "Luangkan lebih sedikit masa untuk menyusun jawapan.",
+    "workDescription": "Sundae menukar data jualan, kos dan tenaga kerja yang disambung menjadi jawapan dan cadangan. Pengurus boleh menyemak sumber, menetapkan langkah seterusnya dan menjejak apa yang berubah.",
+    "todayLabel": "Apabila kerja tidak berhubung",
+    "todayItems": [
+      "Membina semula laporan jualan dan buruh yang sama",
+      "Mencari sebab dalam sistem berasingan",
+      "Mengejar kemas kini selepas pergeseran",
+      "Kehilangan konteks antara lokasi",
+      "Mengkaji isu selepas peluang berlalu"
+    ],
+    "sundaeItems": [
+      "Jualan, kos dan kakitangan dalam satu paparan operasi",
+      "Jawapan dipautkan kepada data sokongan",
+      "Seorang bertanggungjawab untuk tindakan seterusnya",
+      "Tugasan dan serahan yang mengekalkan konteks",
+      "Titik mula dan hasil yang direkodkan",
+      "Perbandingan relevan merentasi lokasi"
+    ],
+    "workClosing": "Kekalkan sistem berguna. Sambungkan kerja di sekelilingnya.",
+    "contextTitle": "Fahami pergeseran dan pasaran di sekitarnya.",
+    "contextDescription": "Gunakan isyarat pergeseran langsung, konteks pasaran relevan dan perbandingan rakan sebaya tanpa nama untuk menentukan apa yang perlu disiasat. Semak bukti sebelum bertindak.",
+    "contextLayers": [
+      {
+        "title": "Pergeseran semasa ia berlaku",
+        "why": "Semak kadar jualan, buruh, void dan pengecualian perkhidmatan semasa pergeseran sedang berjalan."
+      },
+      {
+        "title": "Pasaran di sekitar setiap lokasi",
+        "why": "Pertimbangkan isyarat pesaing, acara dan cuaca yang relevan bersama data anda sendiri. Watchtower adalah peluasan berbayar untuk pakej Core yang layak."
+      },
+      {
+        "title": "Perbandingan yang relevan",
+        "why": "Bandingkan metrik dengan rakan sebaya tanpa nama yang sesuai. Periksa kohort dan liputan data sebelum membuat kesimpulan."
+      }
+    ],
+    "scenarioTitle": "Ikuti satu masalah operasi hingga semakan.",
+    "scenarioDescription": "Contoh ini menunjukkan seorang pengurus membandingkan jualan dengan rancangan, mempertimbangkan punca kemungkinan dan memilih tindak balas. Hasil masih perlu disemak berbanding titik mula.",
+    "scenarioClosing": "Fahami perubahan. Tugaskan tindak balas. Semak hasil.",
+    "scenarioDimensions": [
+      {
+        "title": "Jumlah pelanggan turun 22%.",
+        "body": "Purata bil kekal stabil dalam contoh ini. Pengurus mula dengan menyiasat perubahan trafik."
+      },
+      {
+        "title": "Jualan ketinggalan $3,800 daripada ramalan.",
+        "body": "Bandingkan kakitangan dan kos dengan jumlah jualan yang lebih rendah sebelum memilih tindak balas."
+      },
+      {
+        "title": "Periksa apa yang mungkin menerangkan jurang itu.",
+        "body": "Semak tawaran pesaing dan acara tempatan bersama rekod operasi lokasi."
+      },
+      {
+        "title": "Berikan seseorang tindakan seterusnya.",
+        "body": "Pengurus mengkaji kakitangan dan tawaran makan tengah hari, merekodkan tindak balas yang dipilih dan menyemak apa yang berubah selepas pergeseran.",
+        "shortLabel": "Tindakan dan semakan",
+        "eyebrow": "TINDAKAN DAN SEMAKAN"
+      }
+    ],
+    "voiceEyebrow": "SOALAN PENGURUS",
+    "voiceText": "Anda boleh merasakan pergeseran berubah. *Di mana anda menyemak sebabnya, dan siapa yang mengikutinya?*",
+    "voiceResolution": "Lihat isyarat jualan dan kakitangan, setujui langkah seterusnya dengan pasukan dan kekalkan serahan serta hasil bersama.",
+    "voiceAttribution": "Pandangan Sundae tentang cabaran operasi harian",
+    "platformEyebrow": "SUNDAE CORE",
+    "scenarioEyebrow": "EMPAT PAPARAN UNTUK SATU SOALAN OPERASI",
+    "scenarioNote": "Senario ilustratif menggunakan angka demo. Perbandingan minggu ke minggu bagi jumlah pelanggan dan varian terhadap ramalan adalah perbandingan berbeza, bukan hasil yang diukur daripada pelanggan.",
+    "scenarioVisual": {
+      "laborNote": "Bandingkan buruh yang dijadualkan dengan jumlah jualan ini sebelum menukar liputan.",
+      "watchtowerItem2": "Latihan kebakaran menara pejabat dijadualkan 11-12, 2 blok jauhnya. Semak sama ada ia menjejaskan lokasi ini.",
+      "coachBody": "Semak liputan sebelum menukar syif tukang barisan 11-2. Pertimbangkan tawaran makan tengah hari $11.99 jika sesuai dengan operasi. Pengurus membuat keputusan tindak balas.",
+      "coachProjection": "Cadangan contoh. Sebarang impak perlu diukur selepas tindakan.",
+      "illustrative": "Contoh ilustratif"
+    },
+    "manifesto": {
+      "statement": "Kerugian yang boleh dielakkan wajar mendapat *tindak balas yang jelas.*",
+      "coda": "Sundae menghubungkan isyarat operasi dengan kerja yang diperlukan untuk bertindak. Fahami perubahan, berikan seseorang langkah seterusnya dan bandingkan apa yang berlaku selepas itu."
+    },
+    "shiftMoment": {
+      "eyebrow": "SEBUAH PERGESERAN ILUSTRATIF",
+      "heading": "Lihat jurang semasa pergeseran sedang berjalan.",
+      "sub": "Ikuti malam ilustratif ini untuk melihat isyarat jualan dan buruh, tindak balas pengurus dan semakan kemudian. Ini adalah angka demo, bukan hasil pelanggan.",
+      "withSundae": "Dengan tindak balas yang direkodkan",
+      "oldWay": "Tanpa susulan tepat pada masanya",
+      "signalBody": "Kadar jualan menurun di Seksyen 3 dan buruh melebihi 30%. Semak aliran perkhidmatan dan liputan sebelum memutuskan sama ada menukar tugasan.",
+      "signalAction": "Semak dan tetapkan langkah seterusnya.",
+      "oldBody": "Semakan hari berikutnya menunjukkan di mana kadar jualan dan kakitangan berbeza. Gunakan rekod untuk merancang syif seterusnya, walaupun peluang awal telah berlalu.",
+      "oldAction": "Rancang syif seterusnya.",
+      "savedTitle": "Paparan penghujung syif ilustratif",
+      "savedBody": "Contoh ini berakhir lebih hampir kepada rancangan. Hasil sebenar memerlukan rekod tindakan, asas yang relevan dan semakan perubahan lain.",
+      "projectedClose": "Tutup projek dijangka contoh"
+    }
+  }
+}

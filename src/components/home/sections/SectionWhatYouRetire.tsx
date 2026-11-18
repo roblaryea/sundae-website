@@ -1,12 +1,14 @@
 "use client";
 
+import bodyCopy from '@/content/buyer-clarity/home.json';
+
+
 import { motion } from "framer-motion";
 import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionWhatYouRetire'
-import { getPositioningCopy } from '@/lib/positioningCopy';
 import { balanceSentences } from "@/lib/balanceSentences";
 
 type LocalizedCopy = {
@@ -119,13 +121,11 @@ export function SectionWhatYouRetire() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
   const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
-  const positioning = getPositioningCopy(locale).critical;
-  const copy: LocalizedCopy = {
-    ...sourceCopy,
-    withSundae: sourceCopy.withSundae.map((item, index) =>
-      index === 2 ? positioning.productCoreDescription : item,
-    ),
-  };
+  const deeper = bodyCopy[locale as keyof typeof bodyCopy];
+  const copy: LocalizedCopy = { ...sourceCopy, eyebrow: deeper.workEyebrow,
+    headline: deeper.workTitle, description: deeper.workDescription,
+    todaysStackLabel: deeper.todayLabel, todaysStack: deeper.todayItems,
+    withSundae: deeper.sundaeItems, closing: deeper.workClosing };
 
   return (
     <section aria-labelledby="retire-headline" className="relative py-20 px-4 sm:px-6 lg:px-8">

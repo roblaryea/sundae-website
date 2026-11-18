@@ -1,5 +1,8 @@
 'use client';
 
+import bodyCopy from '@/content/buyer-clarity/home.json';
+
+
 import { type ReactNode } from 'react';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { EditorialImage } from '@/components/ui/EditorialImage';
@@ -33,7 +36,10 @@ function renderQuote(quote: string): ReactNode {
 
 export function SectionOperatorVoice() {
   const { locale } = useWebsiteI18n();
-  const copy = operatorVoiceCopy[locale as keyof typeof operatorVoiceCopy] ?? operatorVoiceCopy.en;
+  const sourceCopy = operatorVoiceCopy[locale as keyof typeof operatorVoiceCopy] ?? operatorVoiceCopy.en;
+  const deeper = bodyCopy[locale as keyof typeof bodyCopy];
+  const copy = { ...sourceCopy, eyebrow: deeper.voiceEyebrow, quote: deeper.voiceText,
+    resolution: deeper.voiceResolution, attribution: deeper.voiceAttribution };
   const cta = useCta();
 
   return (
@@ -61,25 +67,16 @@ export function SectionOperatorVoice() {
               </span>
             </div>
 
-            {/* Oversized editorial quotation mark. */}
-            <span
-              aria-hidden
-              className="font-display block text-6xl leading-[0.6] sm:text-7xl"
-              style={{ color: 'var(--accent-warm)', opacity: 0.3 }}
-            >
-              &ldquo;
-            </span>
-
-            <blockquote className="font-display mt-1 text-2xl font-medium leading-[1.32] tracking-[-0.01em] text-[var(--text-primary)] text-balance sm:text-3xl lg:text-[2.1rem] lg:leading-[1.3]">
+            <p className="font-display mt-1 text-2xl font-medium leading-[1.32] tracking-[-0.01em] text-[var(--text-primary)] text-balance sm:text-3xl lg:text-[2.1rem] lg:leading-[1.3]">
               {renderQuote(copy.quote)}
-            </blockquote>
+            </p>
 
             <p className="mt-6 max-w-lg text-base leading-relaxed text-[var(--text-supporting)] sm:text-lg">
               {copy.resolution}
             </p>
 
             <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3">
-              <cite className="text-sm not-italic text-[var(--text-muted)]">- {copy.attribution}</cite>
+              <p className="text-sm not-italic text-[var(--text-muted)]">{copy.attribution}</p>
               <button
                 type="button"
                 onClick={() => cta('/demo', 'operator_voice_see_how', { page: '/home', section: 'operator_voice' })}

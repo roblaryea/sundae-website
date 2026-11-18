@@ -1,0 +1,178 @@
+{
+  "en": {
+    "currentCoreTitle": "Get started with Sundae Core",
+    "currentCrewTitle": "Explore Sundae Crew workflows",
+    "currentCoreDescription": "Understand package coverage, source connections, operating questions and the first review.",
+    "currentCrewDescription": "Explore scheduling, attendance, tasks, handovers, people records and payroll, with the relevant package scope.",
+    "ctaTitle": "Find the next step for your team.",
+    "ctaDescription": "Use the getting-started guide or book a walkthrough for your operation."
+  },
+  "ar": {
+    "currentCoreTitle": "ابدأ مع Sundae Core",
+    "currentCrewTitle": "استكشف سير عمل Sundae Crew",
+    "currentCoreDescription": "افهم تغطية الحزمة، وصلات المصادر، الأسئلة التشغيلية والمراجعة الأولى.",
+    "currentCrewDescription": "استكشف الجدولة، الحضور، المهام، التسليمات، سجلات الأشخاص والرواتب، مع نطاق الحزمة ذات الصلة.",
+    "ctaTitle": "اعثر على الخطوة التالية لفريقك.",
+    "ctaDescription": "استخدم دليل البدء أو احجز جولة تشغيلية لتشغيلك."
+  },
+  "fr": {
+    "currentCoreTitle": "Commencer avec Sundae Core",
+    "currentCrewTitle": "Explorer les flux Sundae Crew",
+    "currentCoreDescription": "Comprendre la couverture des packages, les connexions sources, les questions opérationnelles et la première revue.",
+    "currentCrewDescription": "Explorer la planification, la présence, les tâches, les transferts, les dossiers de personnes et la paie, avec la portée de package pertinente.",
+    "ctaTitle": "Trouver l’étape suivante pour votre équipe.",
+    "ctaDescription": "Utilisez le guide de démarrage ou réservez une démonstration pour votre exploitation."
+  },
+  "es": {
+    "currentCoreTitle": "Comience con Sundae Core",
+    "currentCrewTitle": "Explore los flujos de trabajo de Sundae Crew",
+    "currentCoreDescription": "Comprenda la cobertura del paquete, las conexiones de fuentes, las preguntas operativas y la primera revisión.",
+    "currentCrewDescription": "Explore programación, asistencia, tareas, transferencias, registros de personas y nómina, con el alcance de paquete relevante.",
+    "ctaTitle": "Encuentre el siguiente paso para su equipo.",
+    "ctaDescription": "Use la guía de inicio o reserve una demostración para su operación."
+  },
+  "de": {
+    "currentCoreTitle": "Mit Sundae Core einsteigen",
+    "currentCrewTitle": "Sundae Crew-Workflows erkunden",
+    "currentCoreDescription": "Verstehen Sie Paketabdeckung, Quellverbindungen, Betriebsfragen und die erste Überprüfung.",
+    "currentCrewDescription": "Erkunden Sie Planung, Anwesenheit, Aufgaben, Übergaben, Personenakten und Payroll mit dem relevanten Paketumfang.",
+    "ctaTitle": "Finden Sie den nächsten Schritt für Ihr Team.",
+    "ctaDescription": "Nutzen Sie den Getting-Started-Guide oder buchen Sie einen Walkthrough für Ihren Betrieb."
+  },
+  "nl": {
+    "currentCoreTitle": "Aan de slag met Sundae Core",
+    "currentCrewTitle": "Verken Sundae Crew-workflows",
+    "currentCoreDescription": "Begrijp pakketdekking, bronverbindingen, operationele vragen en de eerste beoordeling.",
+    "currentCrewDescription": "Verken planning, aanwezigheid, taken, overdrachten, personeelsdossiers en payroll, met de relevante pakketscope.",
+    "ctaTitle": "Vind de volgende stap voor uw team.",
+    "ctaDescription": "Gebruik de aan de slag-gids of boek een walkthrough voor uw operatie."
+  },
+  "pt": {
+    "currentCoreTitle": "Comece com o Sundae Core",
+    "currentCrewTitle": "Explore os fluxos do Sundae Crew",
+    "currentCoreDescription": "Perceba a cobertura do pacote, ligações de fontes, questões operacionais e a primeira revisão.",
+    "currentCrewDescription": "Explore programação, assiduidade, tarefas, passagens, registos de pessoas e folha de pagamento, com o âmbito de pacote relevante.",
+    "ctaTitle": "Encontre o próximo passo para a sua equipa.",
+    "ctaDescription": "Use o guia de início rápido ou agende uma sessão guiada para a sua operação."
+  },
+  "hi": {
+    "currentCoreTitle": "Sundae Core के साथ शुरू करें",
+    "currentCrewTitle": "Sundae Crew वर्कफ्लो एक्सप्लोर करें",
+    "currentCoreDescription": "पैकेज कवरेज, स्रोत कनेक्शन, ऑपरेटिंग प्रश्न और पहली समीक्षा को समझें।",
+    "currentCrewDescription": "शेड्यूलिंग, उपस्थिति, टास्क, हैंडओवर्स, लोग रिकॉर्ड और पेरोल का अन्वेषण करें, संबंधित पैकेज स्कोप के साथ।",
+    "ctaTitle": "आपकी टीम के लिए अगला कदम खोजें।",
+    "ctaDescription": "गेटिंग-स्टार्टेड गाइड का उपयोग करें या अपने ऑपरेशन के लिए वॉकथ्रू बुक करें।"
+  },
+  "ur": {
+    "currentCoreTitle": "Sundae Core کے ساتھ شروعات کریں",
+    "currentCrewTitle": "Sundae Crew ورک فلو دریافت کریں",
+    "currentCoreDescription": "پیکیج کوریج، سورس کنکشنز، آپریٹنگ سوالات اور پہلا جائزہ سمجھیں۔",
+    "currentCrewDescription": "شیڈولنگ، حاضری، ٹاسکس، ہینڈ اوورز، افراد کے ریکارڈ اور پے رول دیکھیں، متعلقہ پیکیج دائرہ کار کے ساتھ۔",
+    "ctaTitle": "اپنی ٹیم کے لیے اگلا قدم تلاش کریں۔",
+    "ctaDescription": "گِٹ اسٹارٹ گائیڈ استعمال کریں یا اپنے آپریشن کے لیے ایک واک تھرو بک کریں۔"
+  },
+  "it": {
+    "currentCoreTitle": "Inizia con Sundae Core",
+    "currentCrewTitle": "Esplora i workflow di Sundae Crew",
+    "currentCoreDescription": "Comprendi la copertura del pacchetto, le connessioni alle fonti, le domande operative e la prima revisione.",
+    "currentCrewDescription": "Esplora programmazione, presenze, compiti, passaggi di consegna, record delle persone e payroll, con l'ambito del pacchetto pertinente.",
+    "ctaTitle": "Trova il passo successivo per il tuo team.",
+    "ctaDescription": "Usa la guida di avvio o prenota una dimostrazione per la tua operazione."
+  },
+  "pl": {
+    "currentCoreTitle": "Rozpocznij z Sundae Core",
+    "currentCrewTitle": "Poznaj workflowy Sundae Crew",
+    "currentCoreDescription": "Zrozum zakres pakietu, połączenia źródeł, pytania operacyjne i pierwszy przegląd.",
+    "currentCrewDescription": "Poznaj planowanie, obecność, zadania, przekazania, zapisy osób i płace, z odpowiednim zakresem pakietu.",
+    "ctaTitle": "Znajdź następny krok dla Twojego zespołu.",
+    "ctaDescription": "Użyj przewodnika startowego lub umów demonstrację dla Twojej operacji."
+  },
+  "tr": {
+    "currentCoreTitle": "Sundae Core ile başlayın",
+    "currentCrewTitle": "Sundae Crew iş akışlarını keşfedin",
+    "currentCoreDescription": "Paket kapsamını, kaynak bağlantılarını, işletme sorularını ve ilk incelemeyi anlayın.",
+    "currentCrewDescription": "Çizelgeleme, devamlılık, görevler, devredişler, kişi kayıtları ve bordroyu ilgili paket kapsamıyla keşfedin.",
+    "ctaTitle": "Ekibiniz için sonraki adımı bulun.",
+    "ctaDescription": "Başlangıç kılavuzunu kullanın veya işletmeniz için bir yürütme oturumu ayarlayın."
+  },
+  "zh-Hans": {
+    "currentCoreTitle": "开始使用 Sundae Core",
+    "currentCrewTitle": "探索 Sundae Crew 工作流",
+    "currentCoreDescription": "了解套餐覆盖范围、数据源连接、运营问题与首次复核。",
+    "currentCrewDescription": "探索排班、出勤、任务、交接、人员记录与工资，以及相关的套餐范围。",
+    "ctaTitle": "为您的团队寻找下一步。",
+    "ctaDescription": "使用入门指南或预约针对您门店的演示。"
+  },
+  "ja": {
+    "currentCoreTitle": "Sundae Coreの導入を始める",
+    "currentCrewTitle": "Sundae Crewのワークフローを探索する",
+    "currentCoreDescription": "パッケージのカバレッジ、ソース接続、運営上の問い、最初のレビューを理解してください。",
+    "currentCrewDescription": "スケジューリング、出勤、タスク、引き継ぎ、人物記録、給与を関連パッケージ範囲とともに確認します。",
+    "ctaTitle": "チームの次の一手を見つける。",
+    "ctaDescription": "導入ガイドを使うか、貴社の運用に合わせたウォークスルーを予約してください。"
+  },
+  "ko": {
+    "currentCoreTitle": "Sundae Core 시작하기",
+    "currentCrewTitle": "Sundae Crew 워크플로 살펴보기",
+    "currentCoreDescription": "패키지 적용 범위, 소스 연결, 운영 질문 및 첫 검토를 이해하세요.",
+    "currentCrewDescription": "교대표, 출석, 작업, 인수인계, 인력 기록 및 급여를 관련 패키지 범위와 함께 살펴보세요.",
+    "ctaTitle": "팀을 위한 다음 단계를 찾으세요.",
+    "ctaDescription": "시작 가이드를 사용하거나 귀하 운영에 맞는 워크스루를 예약하세요."
+  },
+  "id": {
+    "currentCoreTitle": "Mulai dengan Sundae Core",
+    "currentCrewTitle": "Jelajahi alur kerja Sundae Crew",
+    "currentCoreDescription": "Pahami cakupan paket, koneksi sumber, pertanyaan operasional dan tinjauan pertama.",
+    "currentCrewDescription": "Jelajahi penjadwalan, kehadiran, tugas, serah-terima, catatan orang dan penggajian, dengan ruang lingkup paket yang relevan.",
+    "ctaTitle": "Temukan langkah berikutnya untuk tim Anda.",
+    "ctaDescription": "Gunakan panduan memulai atau pesan walkthrough untuk operasi Anda."
+  },
+  "vi": {
+    "currentCoreTitle": "Bắt đầu với Sundae Core",
+    "currentCrewTitle": "Khám phá quy trình Sundae Crew",
+    "currentCoreDescription": "Hiểu phạm vi gói, kết nối nguồn, câu hỏi vận hành và lần xem xét đầu tiên.",
+    "currentCrewDescription": "Khám phá lập lịch, điểm danh, nhiệm vụ, chuyển giao, hồ sơ nhân sự và trả lương, cùng phạm vi gói liên quan.",
+    "ctaTitle": "Tìm bước tiếp theo cho đội bạn.",
+    "ctaDescription": "Dùng hướng dẫn bắt đầu hoặc đặt lịch hướng dẫn cho hoạt động của bạn."
+  },
+  "ro": {
+    "currentCoreTitle": "Începe cu Sundae Core",
+    "currentCrewTitle": "Explorează fluxurile Sundae Crew",
+    "currentCoreDescription": "Înțelege acoperirea pachetului, conexiunile surselor, întrebările operaționale și prima revizuire.",
+    "currentCrewDescription": "Explorează programarea, prezența, sarcinile, predările, înregistrările de persoane și salarizarea, cu aria relevantă a pachetului.",
+    "ctaTitle": "Găsește pasul următor pentru echipa ta.",
+    "ctaDescription": "Folosește ghidul de pornire sau programează o prezentare pentru operația ta."
+  },
+  "sv": {
+    "currentCoreTitle": "Kom igång med Sundae Core",
+    "currentCrewTitle": "Utforska Sundae Crew-flöden",
+    "currentCoreDescription": "Förstå paketets täckning, källkopplingar, driftsfrågor och första granskning.",
+    "currentCrewDescription": "Utforska schemaläggning, närvaro, uppgifter, överlämningar, personalposter och lön med relevant paketomfattning.",
+    "ctaTitle": "Hitta nästa steg för ditt team.",
+    "ctaDescription": "Använd startguiden eller boka en genomgång för din verksamhet."
+  },
+  "bn": {
+    "currentCoreTitle": "Sundae Core দিয়ে শুরু করুন",
+    "currentCrewTitle": "Sundae Crew ওয়ার্কফ্লো অন্বেষণ করুন",
+    "currentCoreDescription": "প্যাকেজ কভারেজ, সোর্স কানেকশন, অপারেটিং প্রশ্ন এবং প্রথম পর্যালোচনা বুঝুন।",
+    "currentCrewDescription": "শিডিউলিং, এটেন্ডেন্স, টাস্ক, হ্যান্ডওভার, ব্যক্তির রেকর্ড এবং পে-রোল অন্বেষণ করুন, সঙ্গে প্রাসঙ্গিক প্যাকেজ সীমা।",
+    "ctaTitle": "আপনার দলের জন্য পরবর্তী ধাপ খুঁজুন।",
+    "ctaDescription": "গেটিং-স্টার্টেড গাইডটি ব্যবহার করুন অথবা আপনার অপারেশনের জন্য একটি ওয়াকথ্রু বুক করুন।"
+  },
+  "th": {
+    "currentCoreTitle": "เริ่มต้นกับ Sundae Core",
+    "currentCrewTitle": "สำรวจเวิร์กโฟลว์ Sundae Crew",
+    "currentCoreDescription": "เข้าใจความครอบคลุมแพ็กเกจ การเชื่อมต่อแหล่งข้อมูล คำถามการปฏิบัติงาน และการทบทวนครั้งแรก",
+    "currentCrewDescription": "สำรวจการจัดตารางเวลา การมา ปฏิบัติงานที่มอบหมาย การส่งต่อ ระเบียนบุคลากร และเงินเดือน พร้อมขอบเขตแพ็กเกจที่เกี่ยวข้อง",
+    "ctaTitle": "ค้นหาก้าวต่อไปสำหรับทีมของคุณ",
+    "ctaDescription": "ใช้คู่มือเริ่มต้นหรือจองการสาธิตสำหรับการปฏิบัติงานของคุณ"
+  },
+  "ms": {
+    "currentCoreTitle": "Mula dengan Sundae Core",
+    "currentCrewTitle": "Terokai aliran kerja Sundae Crew",
+    "currentCoreDescription": "Fahami liputan pakej, sambungan sumber, soalan operasi dan semakan pertama.",
+    "currentCrewDescription": "Terokai penjadualan, kehadiran, tugasan, serahan, rekod orang dan gaji, dengan skop pakej yang relevan.",
+    "ctaTitle": "Cari langkah seterusnya untuk pasukan anda.",
+    "ctaDescription": "Gunakan panduan memulakan atau tempah sesi tunjukcara untuk operasi anda."
+  }
+}
