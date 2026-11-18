@@ -1,5 +1,7 @@
 'use client';
 
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -171,7 +173,9 @@ const localizedBenchmarkCopy = {
 export default function BenchmarkingPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedBenchmarkCopy[locale as keyof typeof localizedBenchmarkCopy] ?? getGeneratedLocalCopy(localizedBenchmarkCopy, generatedLocalCopy.localizedBenchmarkCopy, locale) ?? localizedBenchmarkCopy.en;
+  const opening = getOperatorAudienceCopy(locale);
+  const sourceOpeningCopy = localizedBenchmarkCopy[locale as keyof typeof localizedBenchmarkCopy] ?? getGeneratedLocalCopy(localizedBenchmarkCopy, generatedLocalCopy.localizedBenchmarkCopy, locale) ?? localizedBenchmarkCopy.en;
+  const ui = { ...sourceOpeningCopy, description: opening.benchmarking };
   const cream = benchmarkingCreamCopy[locale as keyof typeof benchmarkingCreamCopy] ?? benchmarkingCreamCopy.en;
 
   return (

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getOperatorAudienceDescription } from '@/lib/operatorAudienceCopy';
 import {
   getLocalizedPathname,
   type WebsiteLocale,
@@ -84,9 +85,10 @@ export function buildResolvedPageMetadata({
   locale,
   pathname,
   title,
-  description,
+  description: fallbackDescription,
 }: BuildResolvedSolutionPageMetadataOptions): Metadata {
   const localizedPathname = getLocalizedPathname(pathname, locale);
+  const description = getOperatorAudienceDescription(locale, pathname) ?? fallbackDescription;
 
   return {
     title: title.includes('Sundae') ? { absolute: title } : title,

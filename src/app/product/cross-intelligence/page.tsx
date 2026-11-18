@@ -1,5 +1,7 @@
 'use client';
 
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
+
 import { Fragment } from "react";
 
 import { Button } from "@/components/ui/Button";
@@ -1151,7 +1153,9 @@ const crossIntelligenceCopy = {
 export default function CrossIntelligencePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = crossIntelligenceCopy[locale as keyof typeof crossIntelligenceCopy] ?? getGeneratedLocalCopy(crossIntelligenceCopy, generatedLocalCopy.crossIntelligenceCopy, locale) ?? crossIntelligenceCopy.en;
+  const opening = getOperatorAudienceCopy(locale);
+  const sourceOpeningCopy = crossIntelligenceCopy[locale as keyof typeof crossIntelligenceCopy] ?? getGeneratedLocalCopy(crossIntelligenceCopy, generatedLocalCopy.crossIntelligenceCopy, locale) ?? crossIntelligenceCopy.en;
+  const ui = { ...sourceOpeningCopy, heroDescription: opening.cross };
   const cream = crossIntelligenceCreamCopy[locale as keyof typeof crossIntelligenceCreamCopy] ?? crossIntelligenceCreamCopy.en;
   const components = localizedCrossIntelligenceComponents[locale as keyof typeof localizedCrossIntelligenceComponents] ?? getGeneratedLocalCopy(localizedCrossIntelligenceComponents, generatedLocalCopy.localizedCrossIntelligenceComponents, locale) ?? localizedCrossIntelligenceComponents.en;
   const tierComparison = localizedTierComparison[locale as keyof typeof localizedTierComparison] ?? getGeneratedLocalCopy(localizedTierComparison, generatedLocalCopy.localizedTierComparison, locale) ?? localizedTierComparison.en;

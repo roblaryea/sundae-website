@@ -1,5 +1,7 @@
 "use client";
 
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from 'framer-motion';
@@ -354,12 +356,13 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
 
 export default function ArchitecturePage() {
   const { locale } = useWebsiteI18n();
+  const opening = getOperatorAudienceCopy(locale);
   const sourceUi = localizedArchitectureCopy[locale as keyof typeof localizedArchitectureCopy] ?? getGeneratedLocalCopy(localizedArchitectureCopy, generatedLocalCopy.localizedArchitectureCopy, locale) ?? localizedArchitectureCopy.en;
   const positioning = getPositioningCopy(locale).critical;
   const ui = {
     ...sourceUi,
     title: positioning.productHeroTitle,
-    description: positioning.architectureDescription,
+    description: opening.architecture,
     securityDescription: positioning.soc2Description,
     layers: sourceUi.layers.map((layer, index) =>
       index === 1
