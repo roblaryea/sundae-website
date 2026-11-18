@@ -1,3 +1,6 @@
+import marketingBuyerCopy from '@/content/buyer-depth/marketing.json';
+import technologyBuyerCopy from '@/content/buyer-depth/technology.json';
+import franchiseBuyerCopy from '@/content/buyer-depth/franchises.json';
 import copy from '@/content/operator-audiences.json';
 import type { WebsiteLocale } from '@/lib/i18n';
 
@@ -25,6 +28,8 @@ const openingKeys = {
 } as const;
 
 export function getOperatorAudienceDescription(locale: WebsiteLocale, pathname: string) {
+  const updated = pathname === '/solutions/marketing-teams' ? marketingBuyerCopy : pathname === '/solutions/technology-teams' ? technologyBuyerCopy : pathname === '/solutions/franchises' ? franchiseBuyerCopy : undefined;
+  if (updated) return updated[locale as keyof typeof updated].description;
   const key = openingKeys[pathname as keyof typeof openingKeys];
   return key ? getOperatorAudienceCopy(locale)[key] : undefined;
 }

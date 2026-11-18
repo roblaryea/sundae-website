@@ -9,6 +9,7 @@ import { useSettledReducedMotion as useReducedMotion } from '@/lib/useSettledRed
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { SundaeWordmark } from './SundaeWordmark';
+import buyerBodyCopy from '@/content/buyer-depth/homeDepth.json';
 import { creamReliefCopy, type UnifyVisualCopy } from './creamReliefCopy';
 import { balanceEmphasisSentences } from '@/lib/balanceSentences';
 
@@ -84,7 +85,8 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
   const { locale } = useWebsiteI18n();
   const copy =
     creamReliefCopy[locale as keyof typeof creamReliefCopy] ?? creamReliefCopy.en;
-  const variantCopy = copy[variant];
+  const body = buyerBodyCopy[locale as keyof typeof buyerBodyCopy];
+  const variantCopy = variant === 'decisions' ? { ...copy.decisions, statement: body.creamStatement, lede: body.creamLede, eyebrow: body.creamEyebrow, proof: body.creamProof, causeLabel: body.creamCauseLabel } : copy.truth;
   const unifyCopy = copy.unify;
   // Which frame's receipt is pinned open (mobile tap). Desktop reveals on
   // hover / keyboard focus via CSS; tap pins it so touch users can read it.

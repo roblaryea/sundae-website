@@ -1,0 +1,722 @@
+{
+  "finance": {
+    "problemsDescription": "Separate sales, staffing and cost exports make it difficult to explain a change in margin.",
+    "howDescription": "Compare operating performance, investigate a variance and review planning assumptions alongside your accounting systems.",
+    "howSundaeHelps": [
+      {
+        "title": "Sales and cost in context",
+        "description": "Compare revenue, food cost, labor and contribution by location and period, using the sources available in your setup."
+      },
+      {
+        "title": "Investigate a margin change",
+        "description": "Use Ask Sundae to explore discounts, staffing, sales mix and other possible explanations. Check the supporting records before concluding what caused the change."
+      },
+      {
+        "title": "An operating view beside accounting",
+        "description": "Bring connected POS, workforce, inventory and accounting data into an operating review. Your accounting system remains responsible for its books and reconciliation."
+      },
+      {
+        "title": "Test the next plan",
+        "description": "Use Foresight where included or selected to compare forecasts and scenarios. Review the assumptions, confidence range and actual results."
+      }
+    ],
+    "outcomesDescription": "A clearer conversation about what changed, who will respond and what the next review should check.",
+    "outcomes": [
+      {
+        "title": "Prepare the operating review",
+        "description": "Start with comparable location and period views, then investigate the exceptions that need a finance discussion."
+      },
+      {
+        "title": "Give follow-up an owner",
+        "description": "Agree the next action with the location manager and keep the starting point available for comparison."
+      },
+      {
+        "title": "Check the supporting records",
+        "description": "Inspect the available source detail, definitions and coverage behind the metric you are discussing."
+      },
+      {
+        "title": "Keep uncertainty in the plan",
+        "description": "Review forecast assumptions and confidence ranges before making a staffing, purchasing or capital decision."
+      }
+    ],
+    "crewCallout": {
+      "title": "Bring approved workforce records into the review.",
+      "description": "Crew connects schedules, approved hours and payroll review. Confirm your country rules, supported outputs and provider handoff during scoping; calculation and export are distinct from payment or filing."
+    },
+    "ctaTitle": "Bring one variance you need to explain.",
+    "ctaDescription": "Compare the operating records, the likely explanations and a useful next step. We can use a sample operation."
+  },
+  "marketing": {
+    "description": "Compare campaign spend, sales and channel mix. Use the available attribution and market context to decide what to test next, then measure the result.",
+    "howDescription": "Campaign and channel comparisons that support a budget decision, with attribution limits kept visible.",
+    "howSundaeHelps": [
+      {
+        "title": "Compare spend with operating performance",
+        "description": "Review campaign spend alongside covers, average check and margin where the connected data supports them. Attributed revenue is not proof of incremental profit."
+      },
+      {
+        "title": "Review channel efficiency",
+        "description": "Compare available ROAS, acquisition cost and channel measures before changing the mix. Check the attribution window and data coverage."
+      },
+      {
+        "title": "Investigate combinations worth testing",
+        "description": "Explore relationships between campaigns, loyalty, sales mix and demand. Treat a relationship as a hypothesis to test, not proof one channel caused another to perform."
+      },
+      {
+        "title": "Plan with market context",
+        "description": "Use relevant competitor, event and weather signals from Watchtower alongside your own data. Watchtower is a paid extension for eligible Core packages."
+      }
+    ],
+    "outcomesDescription": "A practical basis for the next campaign test and the budget conversation.",
+    "outcomes": [
+      {
+        "title": "Choose the next budget test",
+        "description": "Identify a channel or audience to investigate, agree the change and define the comparison period."
+      },
+      {
+        "title": "Discuss the return with finance",
+        "description": "Bring campaign spend, attributed sales and margin assumptions into the same conversation with finance."
+      },
+      {
+        "title": "Compare channel combinations",
+        "description": "Compare channel patterns and operating conditions to choose the next test."
+      },
+      {
+        "title": "Keep the brief relevant",
+        "description": "Put local events and competitor activity beside your campaign plan where those signals are available."
+      }
+    ],
+    "ctaTitle": "Which campaign decision needs a clearer answer?",
+    "ctaDescription": "Walk through a campaign or sample, its available data and how you would assess the next test."
+  },
+  "technology": {
+    "description": "Connect operating sources, inspect data coverage and give teams a consistent basis for analysis. Review connector, access and refresh requirements for your environment.",
+    "secondaryCta": "Review data connections",
+    "problemsDescription": "Different source definitions, incomplete records and recurring reporting requests compete for your team’s time.",
+    "challenges": [
+      {},
+      {},
+      {},
+      {
+        "title": "Refresh requirements vary",
+        "description": "A live-shift question and a monthly review need different refresh and source coverage. The connection has to match the use case."
+      }
+    ],
+    "howDescription": "A shared operating view, with connection scope and controls agreed before rollout.",
+    "howSundaeHelps": [
+      {
+        "title": "Connect the operating picture",
+        "description": "Review your POS, workforce, inventory, delivery and accounting sources. Confirm which fields and locations can be connected and how they will be used."
+      },
+      {
+        "title": "Agree the integration boundary",
+        "description": "Check supported connection methods, exports and any required API access with Sundae. Confirm the work for your systems rather than assuming universal endpoints or webhooks."
+      },
+      {
+        "title": "Match refresh to the decision",
+        "description": "Review source availability and refresh timing for Pulse and other capabilities. Latency depends on the source and connection."
+      },
+      {
+        "title": "Inspect the answer and its access",
+        "description": "Review Ask Sundae outputs, supporting data and role permissions for the use cases your teams need."
+      }
+    ],
+    "outcomesDescription": "Connect the right records, align metric definitions and give each team the access it needs.",
+    "outcomes": [
+      {
+        "title": "Scope the connection work",
+        "description": "Document supported sources, required fields, owners and any gaps before implementation."
+      },
+      {
+        "title": "Compare metric definitions",
+        "description": "Check how sales, cost and workforce measures are defined before using them across teams."
+      },
+      {
+        "title": "Follow the available evidence",
+        "description": "Inspect the supporting records and coverage for a result instead of assuming every source exposes the same detail."
+      },
+      {
+        "title": "Evaluate AI with your controls",
+        "description": "Test useful operating questions, permissions and source support with the people who will use and govern the answers."
+      }
+    ],
+    "ctaTitle": "Bring your source and access requirements.",
+    "ctaDescription": "Review your systems, the connection scope and a representative question with the technical team."
+  },
+  "franchises": {
+    "description": "Compare franchise locations on a consistent basis, keep operating standards visible and investigate performance with each owner-operator.",
+    "howDescription": "Shared operating measures, relevant peer comparisons and follow-up across the franchise network.",
+    "howSundaeHelps": [
+      {
+        "title": "Compare relevant locations",
+        "description": "Use anonymized peer comparisons where suitable cohorts and data coverage are available. Review the basis of comparison with each operator."
+      },
+      {
+        "title": "Connect standards with daily work",
+        "description": "Use Crew tasks, checklists and handovers to record the required work. Compare relevant operating measures in Core to decide where a review is needed."
+      },
+      {
+        "title": "Share a useful operating practice",
+        "description": "Investigate what changed at a stronger location, agree what is transferable and assign a trial in another location."
+      },
+      {
+        "title": "Support the revenue review",
+        "description": "Use consistent connected revenue measures to investigate differences with a franchisee. Contract calculations and accounting reconciliation retain their agreed systems and rules."
+      }
+    ],
+    "outcomesDescription": "A clearer basis for coaching and reviewing standards with franchisees.",
+    "outcomes": [
+      {
+        "title": "Coach from a relevant comparison",
+        "description": "Discuss a location’s sales, staffing and service measures alongside suitable peers and its own history."
+      },
+      {
+        "title": "Keep standards inspectable",
+        "description": "Review assigned checks and recorded handovers rather than relying only on the next site visit."
+      },
+      {
+        "title": "Test a practice across locations",
+        "description": "Give the trial an owner, preserve the starting point and compare the result before extending it."
+      },
+      {
+        "title": "Resolve revenue questions with context",
+        "description": "Bring the relevant connected records to the discussion and investigate differences with the franchisee."
+      }
+    ],
+    "ctaTitle": "Bring one network standard or performance question.",
+    "ctaDescription": "See how a franchise team can compare locations, inspect the work and agree the next review."
+  },
+  "cloud": {
+    "challenges": [
+      {
+        "description": "Commission, promotions, packaging and food costs can make a busy channel less profitable than order volume suggests."
+      },
+      {},
+      {},
+      {
+        "title": "Changes without enough context",
+        "description": "When orders or conversion change, the team needs the channel records and operating context to decide what to investigate."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Compare connected orders, commissions, packaging and allocated costs by channel and brand. Check coverage and allocation assumptions before relying on the margin."
+      },
+      {
+        "description": "Review the cost allocation across brands sharing a kitchen, then compare contribution under the assumptions you use."
+      },
+      {
+        "title": "Review channel performance",
+        "description": "Investigate changes in available order, basket and acceptance measures. Confirm which platform fields and refresh timing your connections support."
+      },
+      {
+        "title": "Respond to a shift exception",
+        "description": "Review order volume, prep time and late orders where available, assign the response and compare what changed after the action."
+      }
+    ],
+    "outcomesDescription": "A clearer view of channel contribution and the next operating decision.",
+    "outcomes": [
+      {
+        "title": "Review channel economics",
+        "description": "Compare contribution, fees and capacity before choosing whether to rebalance, renegotiate or change a channel."
+      },
+      {
+        "title": "Compare the brand mix",
+        "description": "Review shared costs and contribution before deciding whether to expand, change or retire a virtual brand."
+      },
+      {
+        "title": "Investigate a channel change",
+        "description": "Use the available channel records and refresh timing. Confirm the cause before treating a platform change as the explanation."
+      },
+      {
+        "title": "Check the result of a change",
+        "description": "Keep the action record, starting point and other operating changes together when reviewing the result."
+      }
+    ],
+    "ctaTitle": "Which channel or brand needs a closer look?",
+    "ctaDescription": "Compare a real or sample kitchen, its available cost data and the next decision to investigate."
+  },
+  "executives": {
+    "howDescription": "Compare the group, identify the operating question and follow the response with the responsible manager.",
+    "crewCallout": {
+      "description": "Crew connects schedules, attendance, daily tasks, handovers and people records. Review the workforce and sales context together, with access and payroll/provider scope configured for your operation."
+    },
+    "ctaDescription": "Bring one group performance question. Compare locations, inspect the supporting records and agree what a useful follow-up would look like.",
+    "howSundaeHelps": [
+      {
+        "description": "Compare revenue, labor and available cost measures across the group. Open the location that needs attention and agree the next step with its manager."
+      },
+      {
+        "description": "Put relevant competitor, event and weather signals beside your operating review. Watchtower is a paid extension for eligible Core packages."
+      },
+      {
+        "title": "Ask a question across the group",
+        "description": "Ask which locations or brands differ and inspect the supporting operating records before choosing the response."
+      },
+      {
+        "title": "Compare the next plan",
+        "description": "Use Foresight where included or selected to review revenue, labor and profit forecasts. Test assumptions before committing resources."
+      }
+    ],
+    "outcomesDescription": "A group review that connects the operating question with the team responsible for responding.",
+    "outcomes": [
+      {
+        "title": "Focus the next operating conversation",
+        "description": "Identify the location or metric that needs attention and bring its context to the responsible manager."
+      },
+      {
+        "title": "Keep follow-up visible",
+        "description": "Agree who will act and what the next review should check, rather than stopping at the group summary."
+      },
+      {
+        "title": "Discuss the planning assumptions",
+        "description": "Review forecasts, scenarios and uncertainty alongside the operating evidence before committing capital."
+      },
+      {
+        "title": "Use a shared basis for review",
+        "description": "Compare the relevant location and group measures, with definitions and source coverage understood."
+      }
+    ],
+    "ctaTitle": "Bring the group question that needs a decision."
+  },
+  "multi": {
+    "howSundaeHelps": [
+      {},
+      {},
+      {
+        "title": "Test a practice across brands",
+        "description": "Investigate a pattern at one brand, identify what may transfer and give another team a defined trial and comparison period."
+      },
+      {
+        "description": "Use Foresight where included or selected to compare portfolio forecasts and scenarios. Review assumptions and confidence ranges before making a market, concept or capital decision."
+      }
+    ],
+    "outcomesDescription": "Comparable location views, coordinated follow-up and a clearer basis for group decisions.",
+    "crewCallout": {
+      "description": "Use Crew to coordinate workforce records and operating work across locations. Scope country rules, required payroll outputs and provider connections with Sundae; calculation and export do not establish payment or statutory filing.",
+      "title": "Coordinate people and daily work across locations."
+    },
+    "ctaDescription": "Bring a question across brands or regions. Compare the locations, agree who will respond and define what the next review should measure.",
+    "outcomes": [
+      {
+        "title": "Compare the group on a consistent basis",
+        "description": "Check source coverage and metric definitions before comparing brands or deciding where to focus resources."
+      },
+      {
+        "title": "Make brand reviews specific",
+        "description": "Use internal and suitable peer comparisons to choose the operating question for each brand."
+      },
+      {
+        "title": "Follow a practice through the trial",
+        "description": "Record the starting point, responsible team and result before extending a change across the group."
+      },
+      {
+        "title": "Review capital decisions with context",
+        "description": "Consider forecast assumptions, scenarios and operating conditions when deciding where to invest or slow expansion."
+      }
+    ],
+    "ctaTitle": "Which brand or location needs the next decision?"
+  },
+  "hospitality": {
+    "howSundaeHelps": [
+      {},
+      {
+        "description": "Bring connected restaurant, banquet and in-room dining records into a shared operating review. Confirm the source fields and accounting boundary for each outlet."
+      }
+    ],
+    "outcomesDescription": "Compare outlets, assign follow-up and review the result with the relevant team.",
+    "ctaDescription": "Choose an outlet, service period or food-and-beverage question. Review the available records and the next action in a real or sample operation.",
+    "howDescription": "Compare connected food-and-beverage outlets and give the next operating question to the relevant team.",
+    "outcomes": [
+      {
+        "title": "Investigate the outlet that differs",
+        "description": "Compare the restaurant, bar and other connected outlets, then agree a response with the manager responsible."
+      },
+      {
+        "title": "Review banquet contribution",
+        "description": "Bring available event revenue, food cost and labor records into the operating discussion, with allocation assumptions visible."
+      },
+      {
+        "title": "Compare productivity in context",
+        "description": "Check direct and allocated labor, service type and coverage before comparing productivity between outlets."
+      },
+      {
+        "title": "Understand guest activity across outlets",
+        "description": "Explore available guest and spend records across the connected outlets. Coverage depends on the sources and permissions in your setup."
+      }
+    ],
+    "ctaTitle": "Bring one food-and-beverage operating question."
+  },
+  "hr": {
+    "outcomes": [
+      {
+        "title": "Review overtime before the next shift",
+        "description": "Inspect scheduled and worked hours, discuss coverage with the manager and compare the result after the change."
+      },
+      {
+        "title": "Compare labor with plan",
+        "description": "Review staffing, approved hours and demand by location, then agree what to change for the next shift."
+      },
+      {
+        "title": "Coach from relevant measures",
+        "description": "Compare available sales and workload measures alongside role, shift and service conditions."
+      },
+      {
+        "title": "Build and review the staffing plan",
+        "description": "Use available demand forecasts and staff availability, then let managers check the schedule before publishing."
+      }
+    ],
+    "crewCallout": {
+      "title": "Keep shifts, people records and daily work together.",
+      "description": "Crew brings scheduling, attendance, people records and payroll review together with tasks and handovers. Confirm required capabilities, access and country/provider scope before rollout."
+    },
+    "ctaDescription": "Walk through a staffing, attendance or people question and the records your team would use to respond.",
+    "outcomesDescription": "Workforce records and operating context that support the next staffing decision.",
+    "ctaTitle": "Bring a workforce question your managers need to answer."
+  },
+  "regional": {
+    "howDescription": "Compare the locations on shift, understand the exception and agree the response with the manager responsible.",
+    "ctaDescription": "Choose one location or shift question. See the operating signals, the follow-up and how to review the result."
+  },
+  "roleBand": {
+    "statement": "Start with the question *your team needs to answer.*",
+    "lede": "Compare the relevant records, understand the recommendation and give the next action an owner. Use the same operating context at location and group level."
+  },
+  "workforce": {
+    "scheduling": {
+      "heroLine2": "ready for the shift.",
+      "heroProof": [
+        {
+          "value": "AI draft",
+          "label": "review before publishing"
+        },
+        {},
+        {},
+        {}
+      ],
+      "featuresDescription": "Draft and review the week, publish shifts and keep staff acknowledgments and cover requests together.",
+      "features": [
+        {
+          "body": "Draft a schedule from the available demand, roles and availability. Managers review and refine the proposal before publishing.",
+          "chips": [
+            "Demand-aware",
+            "Role mix",
+            "Manager review"
+          ]
+        },
+        {},
+        {
+          "body": "Review availability, qualification, clashes and overtime warnings while you build. Check the required settings and resolve issues before publishing."
+        }
+      ],
+      "loopLine": "Published schedules contribute workforce context alongside attendance and sales, according to your setup.",
+      "creamLede": "Staff can find their next shift and request a change from their phone. Managers review coverage and approvals in the same scheduling workflow.",
+      "ctaTitle": "Build and review a working week.",
+      "ctaDescription": "Use your operation or a sample to draft shifts, review warnings and see the staff acknowledgment and approval steps."
+    },
+    "attendance": {
+      "heroProof": [
+        {},
+        {
+          "value": "Location checks",
+          "label": "configured for each site"
+        },
+        {
+          "label": "verification at clock-in"
+        },
+        {}
+      ],
+      "featuresTitle": "Clock-ins, breaks and manager approval.",
+      "featuresDescription": "Record attendance on staff phones, review missed entries and approve the hours that will be used for payroll.",
+      "features": [
+        {},
+        {
+          "body": "Use configured location checks to help verify where a clock-in is made. Review exceptions and device requirements during setup.",
+          "chips": [
+            "Location checks",
+            "Review exceptions",
+            "Per location"
+          ]
+        },
+        {
+          "body": "Use supported device verification to help confirm who is clocking in. Check the device and verification requirements for your team."
+        },
+        {
+          "title": "Breaks recorded for review",
+          "body": "Staff record or confirm breaks so managers can review the timesheet against the applicable policy.",
+          "chips": [
+            "Breaks logged",
+            "Manager review",
+            "Policy checks"
+          ]
+        },
+        {},
+        {
+          "body": "Approved hours can feed the configured payroll workflow. Review overtime rules and exceptions before finalizing the run."
+        }
+      ],
+      "howSteps": [
+        {},
+        {
+          "body": "Staff record or confirm breaks, then managers review any missing or disputed entries."
+        },
+        {
+          "body": "Managers correct exceptions and approve the hours for the configured payroll process."
+        }
+      ],
+      "loopLine": "Attendance records contribute to workforce review alongside schedules and sales. Check sync status and data coverage before acting.",
+      "creamEyebrow": "Record. Review. Approve.",
+      "creamStatement": "Know which hours were approved.",
+      "creamLede": "Bring clock-ins, breaks and corrections into one approval workflow before payroll.",
+      "ctaDescription": "Walk through a clock-in, a missed entry, a recorded break and the manager approval before payroll."
+    },
+    "payroll": {
+      "heroProof": [
+        {},
+        {},
+        {
+          "value": "Country outputs",
+          "label": "confirm your required forms"
+        },
+        {
+          "value": "Team review",
+          "label": "before payment or filing"
+        }
+      ],
+      "featuresTitle": "Calculate, review and prepare the handoff.",
+      "featuresDescription": "Use versioned country rules to calculate a pay run and prepare supported outputs. Confirm your required jurisdiction, forms and provider path during setup.",
+      "features": [
+        {
+          "body": "Review the supported country and regional rules for your operation, including the US, Canada, UK, EU and GCC. Confirm local requirements and available outputs before rollout."
+        },
+        {
+          "body": "Calculate the run and prepare supported payslips, filing outputs and bank files. Your team checks the results and submits through the agreed provider or process."
+        },
+        {
+          "title": "Review required year-end outputs",
+          "body": "Confirm which annual forms your country configuration supports and how the team will review and submit them."
+        },
+        {
+          "body": "Review the export and field requirements of the payroll provider you keep. Agree the handoff and responsibilities before the first run."
+        },
+        {
+          "body": "Bring approved hours into the configured payroll workflow. Review rates, overtime rules and any exceptions before finalizing."
+        },
+        {
+          "body": "Review the calculated run, explanation and audit record before approval. Resolve missing setup or rule issues before handing it off."
+        }
+      ],
+      "howSteps": [
+        {},
+        {
+          "body": "Configured country rules calculate the run and prepare supported payslips and output files. Review rule versions and exceptions."
+        },
+        {
+          "title": "Approve and hand off",
+          "body": "Your team reviews and approves the run, then uses the agreed payment, provider and filing process. Calculation and export are separate from disbursement and submission."
+        }
+      ],
+      "loopLine": "Payroll records and overtime trends contribute cost context to workforce analysis, according to the configured sources.",
+      "creamEyebrow": "Country rules. Team review.",
+      "creamStatement": "Make the payroll handoff clear.",
+      "creamLede": "Confirm the country setup, inspect the calculation and prepare the supported outputs. Keep approval, provider responsibilities, payment and filing explicit.",
+      "ctaDescription": "Bring your countries and provider requirements. Review a sample calculation, the supported outputs and the approval and handoff steps."
+    },
+    "people": {
+      "featuresDescription": "Keep employee records, documents and people workflows together, with access configured for the roles that need them.",
+      "features": [
+        {
+          "body": "Coordinate onboarding, employee changes and offboarding on the employee record. Review the required checks and payroll steps for your operation."
+        },
+        {
+          "body": "Keep documents and signatures with the employee record, with reminders for configured expiry dates.",
+          "chips": [
+            "e-signature",
+            "Reminders",
+            "Expiry dates"
+          ]
+        },
+        {},
+        {},
+        {},
+        {
+          "body": "Staff access relevant shifts, leave, payslips and clock-in through their Sundae login, according to the Crew capabilities and permissions you configure."
+        }
+      ],
+      "loopLine": "Relevant workforce records contribute context to labor analysis according to the capabilities and sources in your setup.",
+      "creamLede": "Keep people records alongside the workforce work they support. Managers and HR use the same context while role permissions control access.",
+      "ctaDescription": "Review an employee’s onboarding, documents, leave and offboarding, with the access and package scope your team needs."
+    },
+    "peopleIntelligence": {
+      "heroProof": [
+        {},
+        {
+          "label": "based on the available records"
+        },
+        {},
+        {
+          "value": "Decision context",
+          "label": "recommendation and follow-up"
+        }
+      ],
+      "featuresDescription": "Use workforce records alongside sales and demand to decide which staffing or people question needs attention.",
+      "features": [
+        {},
+        {
+          "body": "Use no-show and turnover signals to decide where to investigate or speak with a manager. A risk score is an estimate, not a prediction about an individual."
+        },
+        {
+          "body": "Review labor cost using available pay rates, approved hours and payroll records. Check coverage and unresolved entries before relying on the total.",
+          "chips": [
+            "Pay rates",
+            "Approved hours",
+            "Cost review"
+          ]
+        },
+        {},
+        {},
+        {
+          "title": "Review workforce obligations",
+          "body": "Inspect overtime and other configured rule signals, then review the relevant records and local requirements. Alerts do not establish compliance.",
+          "chips": [
+            "Overtime",
+            "Rule signals",
+            "Review required"
+          ]
+        }
+      ],
+      "howSteps": [
+        {},
+        {},
+        {
+          "body": "Review the recommendation and its basis. Agree the response and retain the decision and follow-up context."
+        }
+      ],
+      "loopLine": "Crew activity supplies workforce context for analysis alongside sales, costs and demand.",
+      "ctaDescription": "Explore team health, risk signals and labor cost using a sample or your available data, then review the action a manager would take."
+    }
+  },
+  "onboarding": {
+    "description": "Start with the work you need to improve. Choose Core for operating analysis, Crew for workforce and daily execution, or both for a connected view.",
+    "journeyDescription": "From the first operating question to a scoped rollout and review.",
+    "steps": [
+      {
+        "title": "Choose the first operating question",
+        "subtitle": "Start with a workflow or a performance gap.",
+        "description": "Is the immediate need scheduling, attendance or handovers, or understanding sales, cost and demand? Bring that question to a walkthrough. The diagnostic can help organize a performance question.",
+        "actions": [
+          "Choose the team and workflow",
+          "Identify the operating question",
+          "Use your data or a sample operation",
+          "Agree what a useful first review would show"
+        ],
+        "timeline": "A first working session"
+      },
+      {
+        "title": "Choose Core, Crew or both",
+        "subtitle": "Select the capabilities your team needs.",
+        "description": "Core connects operating data with analysis and recommendations. Crew runs workforce and daily work. Review package coverage, prerequisites and your location count in the pricing calculator.",
+        "actions": [
+          "Core for performance and operating decisions",
+          "Crew for schedules, attendance, people and payroll",
+          "Tasks and logbook through Crew Operations",
+          "Tip workflows through Crew Payroll"
+        ]
+      },
+      {
+        "title": "Scope sources and workflow setup",
+        "subtitle": "Confirm the connections and the work.",
+        "description": "For Core, review the required sources, fields and refresh timing. For Crew, agree locations, staff access, schedules and approval rules. Confirm country and provider needs where payroll is involved.",
+        "actions": [
+          "Review sources and available records",
+          "Set locations, roles and access",
+          "Confirm approval and payroll/provider scope",
+          "Check the setup with the team"
+        ]
+      },
+      {
+        "title": "Review the first workflow or answer",
+        "subtitle": "Keep the team responsible for the decision.",
+        "description": "Walk through the task, handover, schedule or operating question. Check the recommendation and supporting records, then agree what the team will do next.",
+        "actions": [
+          "Inspect the workflow with its users",
+          "Check the source and any assumptions",
+          "Assign the next action",
+          "Choose the comparison for the next review"
+        ]
+      },
+      {
+        "title": "Review and extend deliberately",
+        "subtitle": "Measure the work before expanding.",
+        "description": "Review adoption, data coverage and the first operating results. Extend capabilities or locations where the next need is clear.",
+        "actions": [
+          "Check use by the intended teams",
+          "Resolve source and workflow gaps",
+          "Review actions and supported outcomes",
+          "Update the package estimate when scope changes"
+        ]
+      }
+    ],
+    "noForcedTitle": "Start with the work you need.",
+    "noForcedDescription": "Crew can be your starting point for workforce and daily operations. Core can work with connected sources you already use. Choose both when the workflow and operating analysis need to come together.",
+    "commonJourneysDescription": "Examples to discuss, rather than required packages for each size.",
+    "journeys": [
+      {
+        "items": [
+          "Crew for a schedule, hours or handover need",
+          "Core Foundation for a shared operating view",
+          "Review coverage before adding depth"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin or Growth according to the operating question",
+          "Crew Operating or Complete when tasks, logbook and payroll are needed",
+          "Review Foresight availability in your chosen package"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance for group analysis and consolidation",
+          "Scope Crew, access and country/provider requirements",
+          "Review integrations, extensions and rollout with Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Bring one workflow or operating question, use the pricing calculator or start with the diagnostic."
+  },
+  "faq": {
+    "overview": "Sundae is an operations management platform for hospitality and food-service. Core connects operating data with analysis, recommendations and result review. Crew supports workforce and daily work, including scheduling, attendance, tasks, handovers, people records and payroll. Choose Core, Crew or both according to your needs.",
+    "start": "Start with the work or question you need to improve. Explore Core, Crew or both in the pricing calculator at pricing.sundae.io, or book a walkthrough using your operation or a sample. The diagnostic is another way to organize a performance question.",
+    "noFree": "Sundae packages are paid. Book a walkthrough to review the relevant capabilities and discuss your operation before choosing a package. Your own data is optional."
+  },
+  "homeDepth": {
+    "creamStatement": "Every shift brings a choice. *Make it with context.*",
+    "creamLede": "Sundae helps teams connect the work on the floor with the signals behind the next decision.",
+    "personas": [
+      {
+        "outcome": "Know which shift needs attention."
+      },
+      {
+        "outcomeCopy": "Compare shift-level labor, food cost and voids with the supporting operating records. Investigate the change alongside your accounting review."
+      },
+      {
+        "outcome": "A clearer group operating review."
+      },
+      {
+        "outcome": "Campaign performance in context.",
+        "outcomeCopy": "Compare spend, covers, average check and available margin attribution. Check the coverage and assumptions before reallocating or testing the next campaign."
+      },
+      {
+        "outcome": "Review staffing before the next shift."
+      },
+      {
+        "outcome": "Give each team consistent operating answers.",
+        "outcomeCopy": "Connect your operating systems, align metric definitions and control who can see what. Confirm supported fields and refresh timing during setup."
+      }
+    ],
+    "creamEyebrow": "FROM SIGNAL TO RESPONSE",
+    "creamProof": "Illustrative shift examples. A manager checks the context before choosing a response.",
+    "creamCauseLabel": "Context to check"
+  }
+}

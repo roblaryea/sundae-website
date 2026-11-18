@@ -103,7 +103,7 @@ export function CrewModulePage({
             <motion.h1 {...fade} transition={{ duration: 0.8, ease, delay: 0.1 }} className="hero-h1 mb-6 text-balance">
               <span className="text-[var(--text-primary)]">
                 {copy.heroLine1}
-              </span>
+              </span>{" "}
               <br />
               <span className="italic text-[var(--text-warm)]">
                 {copy.heroLine2}

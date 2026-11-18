@@ -1,0 +1,420 @@
+{
+  "en": {
+    "blocks": [
+      {
+        "description": "Use sales history, seasonality and configured calendar events to set location targets. Review unusual periods and the assumptions behind the plan."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Review the target and its assumptions.",
+        "description": "Use sales history, patterns and relevant calendar events to plan targets. Mark unusual or recurring events and compare actual performance with the plan."
+      },
+      "server": {
+        "description": "Compare available sales and workload measures by shift, hour or service phase. Use the context of role, coverage and service conditions when coaching the team."
+      },
+      "cost": {
+        "description": "Compare staffing, hours and available cost records with shift revenue. Check rates, allocated costs and unresolved entries before using the comparison to change coverage."
+      }
+    }
+  },
+  "ar": {
+    "blocks": [
+      {
+        "description": "استخدم تاريخ المبيعات والموسمية والأحداث المجدولة لتحديد أهداف الموقع. راجع الفترات غير العادية والافتراضات وراء الخطة."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "راجع الهدف وافتراضاته.",
+        "description": "استخدم تاريخ المبيعات والأنماط والأحداث المجدولة ذات الصلة للتخطيط للأهداف. ضع علامة على الأحداث غير العادية أو المتكررة وقارن الأداء الفعلي بالخطة."
+      },
+      "server": {
+        "description": "قارن مقاييس المبيعات والعبء المتاحة حسب الوردية أو الساعة أو مرحلة الخدمة. استخدم سياق الدور والتغطية وظروف الخدمة عند توجيه الفريق."
+      },
+      "cost": {
+        "description": "قارن التوظيف والساعات وسجلات التكاليف المتاحة مع إيرادات الوردية. تحقق من المعدلات والتكاليف المخصصة والمدخلات غير المحلولة قبل استخدام المقارنة لتغيير التغطية."
+      }
+    }
+  },
+  "fr": {
+    "blocks": [
+      {
+        "description": "Servez-vous de l'historique des ventes, de la saisonnalité et des événements calendaires configurés pour fixer les objectifs d'emplacement. Passez en revue les périodes inhabituelles et les hypothèses derrière le plan."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Examinez l'objectif et ses hypothèses.",
+        "description": "Utilisez l'historique des ventes, les tendances et les événements calendaires pertinents pour planifier les objectifs. Signalez les événements inhabituels ou récurrents et comparez la performance réelle au plan."
+      },
+      "server": {
+        "description": "Comparez les mesures de ventes et de charge de travail disponibles par service, heure ou phase de service. Prenez en compte le rôle, la couverture et les conditions de service lors du coaching de l'équipe."
+      },
+      "cost": {
+        "description": "Comparez la dotation, les heures et les enregistrements de coûts disponibles avec le chiffre d'affaires par service. Vérifiez les taux, les coûts alloués et les écritures non résolues avant d'utiliser la comparaison pour modifier la couverture."
+      }
+    }
+  },
+  "es": {
+    "blocks": [
+      {
+        "description": "Use historial de ventas, estacionalidad y eventos de calendario configurados para establecer objetivos por ubicación. Revise periodos inusuales y los supuestos detrás del plan."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Revise el objetivo y sus supuestos.",
+        "description": "Use historial de ventas, patrones y eventos de calendario relevantes para planear objetivos. Señale eventos inusuales o recurrentes y compare el desempeño real con el plan."
+      },
+      "server": {
+        "description": "Compare las medidas disponibles de ventas y carga de trabajo por turno, hora o fase de servicio. Use el contexto de rol, cobertura y condiciones de servicio al entrenar al equipo."
+      },
+      "cost": {
+        "description": "Compare personal, horas y registros de costos disponibles con los ingresos por turno. Verifique tarifas, costos asignados y partidas sin resolver antes de usar la comparación para cambiar la cobertura."
+      }
+    }
+  },
+  "de": {
+    "blocks": [
+      {
+        "description": "Nutzen Sie Umsatzhistorie, Saisonalität und konfigurierte Kalenderevents, um Standortziele festzulegen. Prüfen Sie ungewöhnliche Perioden und die Annahmen hinter dem Plan."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Prüfen Sie das Ziel und seine Annahmen.",
+        "description": "Planen Sie Ziele anhand von Umsatzhistorie, Mustern und relevanten Kalenderevents. Markieren Sie ungewöhnliche oder wiederkehrende Ereignisse und vergleichen Sie Ist-Leistung mit dem Plan."
+      },
+      "server": {
+        "description": "Vergleichen Sie verfügbare Umsatz- und Arbeitslastkennzahlen nach Schicht, Stunde oder Servicephase. Berücksichtigen Sie Rolle, Besetzung und Servicebedingungen beim Coaching des Teams."
+      },
+      "cost": {
+        "description": "Vergleichen Sie Personal, Stunden und verfügbare Kostenaufzeichnungen mit dem Schichtumsatz. Prüfen Sie Sätze, zugewiesene Kosten und ungeklärte Positionen, bevor Sie die Besetzung ändern."
+      }
+    }
+  },
+  "nl": {
+    "blocks": [
+      {
+        "description": "Gebruik verkoopgeschiedenis, seizoenspatronen en geconfigureerde kalendergebeurtenissen om locatiedoelen vast te stellen. Bekijk ongewone perioden en de aannames achter het plan."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Beoordeel het doel en de aannames ervan.",
+        "description": "Gebruik verkoopgeschiedenis, patronen en relevante kalendergebeurtenissen om doelen te plannen. Markeer ongewone of terugkerende gebeurtenissen en vergelijk daadwerkelijke prestaties met het plan."
+      },
+      "server": {
+        "description": "Vergelijk beschikbare omzet- en werklastmetingen per dienst, uur of servicefase. Gebruik de context van rol, bezetting en servicecondities bij het coachen van het team."
+      },
+      "cost": {
+        "description": "Vergelijk personeelsbezetting, uren en beschikbare kostendossiers met omzet per dienst. Controleer tarieven, toegewezen kosten en onopgeloste posten voordat u de vergelijking gebruikt om bezetting te wijzigen."
+      }
+    }
+  },
+  "pt": {
+    "blocks": [
+      {
+        "description": "Use histórico de vendas, sazonalidade e eventos de calendário configurados para definir metas por local. Revise períodos incomuns e as pressuposições por trás do plano."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Revise a meta e suas pressuposições.",
+        "description": "Use histórico de vendas, padrões e eventos de calendário relevantes para planejar metas. Marque eventos incomuns ou recorrentes e compare o desempenho real com o planejado."
+      },
+      "server": {
+        "description": "Compare medidas disponíveis de vendas e carga de trabalho por turno, hora ou fase de serviço. Use o contexto de função, cobertura e condições de serviço ao orientar a equipe."
+      },
+      "cost": {
+        "description": "Compare pessoal, horas e registros de custo disponíveis com a receita por turno. Verifique tarifas, custos alocados e lançamentos não resolvidos antes de usar a comparação para alterar a cobertura."
+      }
+    }
+  },
+  "hi": {
+    "blocks": [
+      {
+        "description": "स्थान लक्ष्य सेट करने के लिए बिक्री इतिहास, मौसमीता और कॉन्फ़िगर कैलेंडर इवेंट का उपयोग करें। असामान्य अवधियों और योजना के पीछे की मान्यताओं की समीक्षा करें।"
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "लक्ष्य और इसकी मान्यताओं की समीक्षा करें।",
+        "description": "लक्ष्य योजना के लिए बिक्री इतिहास, पैटर्न और प्रासंगिक कैलेंडर घटनाओं का उपयोग करें। असामान्य या आवर्ती घटनाओं का चिह्नित करें और वास्तविक प्रदर्शन की तुलना योजना से करें।"
+      },
+      "server": {
+        "description": "शिफ्ट, घंटा या सेवा चरण द्वारा उपलब्ध बिक्री और कार्यभार मापों की तुलना करें। टीम को कोचिंग देते समय भूमिका, कवरेज और सेवा परिस्थितियों के संदर्भ का उपयोग करें।"
+      },
+      "cost": {
+        "description": "शिफ्ट राजस्व के साथ स्टाफिंग, घंटे और उपलब्ध लागत रिकॉर्ड की तुलना करें। कवायद बदलने से पहले दरों, आवंटित लागत और अनसुलझे प्रविष्टियों की जाँच करें।"
+      }
+    }
+  },
+  "ur": {
+    "blocks": [
+      {
+        "description": "مقام کے اہداف طے کرنے کے لیے فروخت کی تاریخ، سیزنل پیٹرنز اور کنفیگر کیے گئے کیلنڈر ایونٹس استعمال کریں۔ غیر معمولی ادوار اور منصوبے کے پیچھے مفروضات کا جائزہ لیں۔"
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "ہدف اور اس کے مفروضات کا جائزہ لیں۔",
+        "description": "اہداف کی منصوبہ بندی کے لیے فروخت کی تاریخ، پیٹرنز اور متعلقہ کیلنڈر واقعات استعمال کریں۔ غیر معمولی یا بار بار ہونے والے واقعات کو نشان زد کریں اور اصل کارکردگی کا منصوبے سے موازنہ کریں۔"
+      },
+      "server": {
+        "description": "شفٹ، گھنٹہ یا سروس فیز کے حساب سے دستیاب فروخت اور ورک لوڈ میٹرکس کا موازنہ کریں۔ ٹیم کو کوچنگ دیتے وقت رول، کوریج اور سروس کنڈیشنز کے سیاق و سباق کو استعمال کریں۔"
+      },
+      "cost": {
+        "description": "شفٹ ریونیو کے ساتھ اسٹافنگ، گھنٹے اور دستیاب لاگت کے ریکارڈز کا موازنہ کریں۔ کوریج تبدیل کرنے سے پہلے ریٹس، الاٹ شدہ اخراجات اور نامکمّل اندراجات چیک کریں۔"
+      }
+    }
+  },
+  "it": {
+    "blocks": [
+      {
+        "description": "Usa la storia delle vendite, la stagionalità e gli eventi di calendario configurati per impostare obiettivi per la location. Esamina i periodi insoliti e le ipotesi alla base del piano."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Esamina l'obiettivo e le sue ipotesi.",
+        "description": "Usa la storia delle vendite, i pattern e gli eventi di calendario rilevanti per pianificare gli obiettivi. Segna eventi insoliti o ricorrenti e confronta la performance reale con il piano."
+      },
+      "server": {
+        "description": "Confronta le misure disponibili di vendite e carico di lavoro per turno, ora o fase di servizio. Usa il contesto di ruolo, copertura e condizioni di servizio quando alleni il team."
+      },
+      "cost": {
+        "description": "Confronta staffing, ore e i record di costo disponibili con i ricavi del turno. Controlla tariffe, costi allocati e voci non risolte prima di usare il confronto per modificare la copertura."
+      }
+    }
+  },
+  "pl": {
+    "blocks": [
+      {
+        "description": "Użyj historii sprzedaży, sezonowości i skonfigurowanych wydarzeń kalendarzowych do ustalania celów dla lokalizacji. Sprawdź nietypowe okresy i założenia stojące za planem."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Przejrzyj cel i jego założenia.",
+        "description": "Wykorzystaj historię sprzedaży, wzorce i istotne wydarzenia kalendarzowe do planowania celów. Oznacz okresy nietypowe lub cykliczne i porównaj rzeczywistą wydajność z planem."
+      },
+      "server": {
+        "description": "Porównaj dostępne miary sprzedaży i obciążenia pracy według zmiany, godziny lub fazy obsługi. Uwzględnij rolę, obsadę i warunki serwisu podczas coachingu zespołu."
+      },
+      "cost": {
+        "description": "Porównaj zatrudnienie, godziny i dostępne zapisy kosztów z przychodami ze zmiany. Sprawdź stawki, koszty alokowane i nierozwiązane wpisy przed zmianą obsady."
+      }
+    }
+  },
+  "tr": {
+    "blocks": [
+      {
+        "description": "Konum hedeflerini belirlemek için satış geçmişi, mevsimsellik ve yapılandırılmış takvim etkinliklerini kullanın. Alışılmadık dönemleri ve planın arkasındaki varsayımları inceleyin."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Hedefi ve varsayımlarını gözden geçirin.",
+        "description": "Hedefleri planlamak için satış geçmişi, kalıplar ve ilgili takvim etkinliklerini kullanın. Alışılmadık veya tekrar eden etkinlikleri işaretleyin ve gerçek performansı planla karşılaştırın."
+      },
+      "server": {
+        "description": "Vardiya, saat veya servis aşamasına göre mevcut satış ve iş yükü ölçümlerini karşılaştırın. Ekibi koçluk ederken rol, kapsama ve servis koşulları bağlamını kullanın."
+      },
+      "cost": {
+        "description": "Vardiya gelirleriyle personel, saatler ve mevcut maliyet kayıtlarını karşılaştırın. Kapsamı değiştirmek için karşılaştırmayı kullanmadan önce oranları, tahsis edilmiş maliyetleri ve çözümlenmemiş girişleri kontrol edin."
+      }
+    }
+  },
+  "zh-Hans": {
+    "blocks": [
+      {
+        "description": "利用销售历史、季节性和配置的日历事件设定门店目标。审查异常期间和计划背后的假设。"
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "回顾目标及其假设。",
+        "description": "使用销售历史、模式和相关日历事件制定目标。标记异常或周期性事件，并将实际表现与计划比较。"
+      },
+      "server": {
+        "description": "按班次、小时或服务阶段比较可用的销售和工作量指标。辅导团队时参考岗位、覆盖和服务条件的背景。"
+      },
+      "cost": {
+        "description": "将人员配置、工时和可用成本记录与班次收入比较。在用比较来调整覆盖之前检查费率、分配成本和未解决项。"
+      }
+    }
+  },
+  "ja": {
+    "blocks": [
+      {
+        "description": "売上履歴、季節性、設定されたカレンダーイベントを使って拠点目標を設定します。異常な期間や計画の前提を確認してください。"
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "目標とその前提を確認する。",
+        "description": "売上履歴、パターン、関連するカレンダーイベントを使って目標を立てます。異常または定期的なイベントにマークを付け、実績を計画と比較してください。"
+      },
+      "server": {
+        "description": "シフト、時間帯、サービス段階別の利用可能な売上と作業量指標を比較します。チームの指導時には役割、カバレッジ、サービス条件の文脈を使ってください。"
+      },
+      "cost": {
+        "description": "スタッフ、稼働時間、利用可能なコスト記録をシフト収益と比較します。レート、配賦済みコスト、未解決の記録を確認してからカバレッジを変更してください。"
+      }
+    }
+  },
+  "ko": {
+    "blocks": [
+      {
+        "description": "판매 이력, 계절성 및 구성된 달력 이벤트를 사용해 지점 목표를 설정하세요. 특이 기간과 계획의 전제를 검토하세요."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "목표와 그 전제를 검토하세요.",
+        "description": "판매 이력, 패턴 및 관련 달력 이벤트를 사용해 목표를 계획하세요. 비정상적이거나 반복되는 이벤트를 표시하고 실제 성과를 계획과 비교하세요."
+      },
+      "server": {
+        "description": "교대조, 시간대 또는 서비스 단계별로 사용 가능한 판매 및 업무량 지표를 비교하세요. 팀 코칭 시 역할, 커버리지 및 서비스 조건의 문맥을 활용하세요."
+      },
+      "cost": {
+        "description": "교대 수익과 인력 배치, 근무 시간 및 사용 가능한 비용 기록을 비교하세요. 커버리지를 변경하기 전에 요율, 배분된 비용 및 미해결 항목을 확인하세요."
+      }
+    }
+  },
+  "id": {
+    "blocks": [
+      {
+        "description": "Gunakan riwayat penjualan, musiman, dan acara kalender yang dikonfigurasi untuk menetapkan target lokasi. Tinjau periode tidak biasa dan asumsi di balik rencana."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Tinjau target dan asumsinya.",
+        "description": "Gunakan riwayat penjualan, pola, dan acara kalender yang relevan untuk merencanakan target. Tandai acara tidak biasa atau berulang dan bandingkan kinerja aktual dengan rencana."
+      },
+      "server": {
+        "description": "Bandingkan ukuran penjualan dan beban kerja yang tersedia berdasarkan shift, jam, atau fase layanan. Gunakan konteks peran, cakupan, dan kondisi layanan saat membina tim."
+      },
+      "cost": {
+        "description": "Bandingkan staf, jam, dan catatan biaya yang tersedia dengan pendapatan shift. Periksa tarif, biaya yang dialokasikan, dan entri yang belum terselesaikan sebelum menggunakan perbandingan untuk mengubah cakupan."
+      }
+    }
+  },
+  "vi": {
+    "blocks": [
+      {
+        "description": "Sử dụng lịch sử doanh số, tính theo mùa và các sự kiện lịch được cấu hình để đặt mục tiêu cho địa điểm. Xem các giai đoạn bất thường và các giả định đằng sau kế hoạch."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Xem lại mục tiêu và các giả định của nó.",
+        "description": "Dùng lịch sử doanh số, các mẫu và các sự kiện lịch có liên quan để lên kế hoạch mục tiêu. Ghi chú các sự kiện bất thường hoặc lặp lại và so sánh hiệu suất thực tế với kế hoạch."
+      },
+      "server": {
+        "description": "So sánh các chỉ số doanh số và khối lượng công việc theo ca, theo giờ hoặc theo giai đoạn phục vụ. Dùng bối cảnh vai trò, bao phủ và điều kiện phục vụ khi huấn luyện đội ngũ."
+      },
+      "cost": {
+        "description": "So sánh nhân sự, giờ làm và hồ sơ chi phí có sẵn với doanh thu ca. Kiểm tra mức lương, chi phí phân bổ và các mục chưa giải quyết trước khi dùng so sánh để thay đổi bố trí."
+      }
+    }
+  },
+  "ro": {
+    "blocks": [
+      {
+        "description": "Folosiți istoricul vânzărilor, sezonalitatea și evenimentele calendaristice configurate pentru a stabili țintele pe locație. Verificați perioadele neobișnuite și ipotezele din spatele planului."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Revizuiți ținta și ipotezele sale.",
+        "description": "Folosiți istoricul vânzărilor, modele și evenimente calendaristice relevante pentru a planifica țintele. Marcați evenimentele neobișnuite sau recurente și comparați performanța reală cu planul."
+      },
+      "server": {
+        "description": "Comparați măsurile disponibile de vânzări și volum de muncă pe schimb, oră sau fază de serviciu. Folosiți contextul rolului, acoperirii și condițiilor de serviciu atunci când instruiți echipa."
+      },
+      "cost": {
+        "description": "Comparați personalul, orele și înregistrările de cost disponibile cu venitul pe schimb. Verificați tarifele, costurile alocate și intrările nerezolvate înainte de a folosi comparația pentru a modifica acoperirea."
+      }
+    }
+  },
+  "sv": {
+    "blocks": [
+      {
+        "description": "Använd försäljningshistorik, säsongsmönster och konfigurerade kalenderhändelser för att sätta mål per plats. Granska ovanliga perioder och antagandena bakom planen."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Granska målet och dess antaganden.",
+        "description": "Använd försäljningshistorik, mönster och relevanta kalenderhändelser för att planera mål. Markera ovanliga eller återkommande händelser och jämför faktiskt resultat med planen."
+      },
+      "server": {
+        "description": "Jämför tillgängliga försäljnings- och arbetsbelastningsmått per skift, timme eller servicefas. Använd kontexten av roll, bemanning och serviceförhållanden vid coachning av teamet."
+      },
+      "cost": {
+        "description": "Jämför bemanning, timmar och tillgängliga kostnadsposter med skiftintäkter. Kontrollera löner, allokerade kostnader och oavslutade poster innan du ändrar bemanningen utifrån jämförelsen."
+      }
+    }
+  },
+  "bn": {
+    "blocks": [
+      {
+        "description": "স্থান নির্ধারণের লক্ষ্যে বিক্রয় ইতিহাস, মৌসুমীয়তা এবং কনফিগার করা ক্যালেন্ডার ইভেন্ট ব্যবহার করুন। অস্বাভাবিক সময়গুলি এবং পরিকল্পনার পিছনের অনুমানগুলো পর্যালোচনা করুন।"
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "লক্ষ্য এবং তার অনুমানগুলো পর্যালোচনা করুন।",
+        "description": "লক্ষ্য পরিকল্পনা করতে বিক্রয় ইতিহাস, প্যাটার্ন এবং প্রাসঙ্গিক ক্যালেন্ডার ইভেন্ট ব্যবহার করুন। অস্বাভাবিক বা পুনরাবৃত্ত ঘটনা চিহ্নিত করুন এবং প্রকৃত কর্মক্ষমতাকে পরিকল্পনার সঙ্গে তুলনা করুন।"
+      },
+      "server": {
+        "description": "শিফট, ঘন্টা বা সার্ভিস পর্ব অনুযায়ী উপলব্ধ বিক্রয় ও ওয়ার্কলোড পরিমাপগুলো তুলনা করুন। দলের কোচিং করার সময় ভূমিকা, কাভারেজ এবং সার্ভিস শর্তাবলীর প্রেক্ষাপট ব্যবহার করুন।"
+      },
+      "cost": {
+        "description": "শিফট রাজস্বের সঙ্গে স্টাফিং, ঘন্টা এবং উপলব্ধ খরচ রেকর্ডগুলো তুলনা করুন। কভারেজ পরিবর্তন করার আগে রেট, বরাদ্দ খরচ এবং অপরিষ্কার এন্ট্রি পরীক্ষা করুন।"
+      }
+    }
+  },
+  "th": {
+    "blocks": [
+      {
+        "description": "ใช้ประวัติยอดขาย ฤดูกาล และเหตุการณ์ปฏิทินที่กำหนดเพื่อกำหนดเป้าหมายแต่ละโลเคชัน ทบทวนช่วงเวลาที่ผิดปกติและสมมติฐานเบื้องหลังแผน"
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "ทบทวนเป้าหมายและสมมติฐานของมัน",
+        "description": "ใช้ประวัติยอดขาย รูปแบบ และเหตุการณ์ปฏิทินที่เกี่ยวข้องเพื่อวางแผนเป้าหมาย ระบุเหตุการณ์ที่ผิดปกติหรือเกิดซ้ำ และเปรียบเทียบผลการปฏิบัติงานจริงกับแผน"
+      },
+      "server": {
+        "description": "เปรียบเทียบมาตรวัดยอดขายและปริมาณงานที่มีโดยกะ ชั่วโมง หรือช่วงการบริการ ใช้บริบทของบทบาท การครอบคลุม และสภาพการบริการเมื่อโค้ชทีม"
+      },
+      "cost": {
+        "description": "เปรียบเทียบการจัดพนักงาน ชั่วโมง และบันทึกต้นทุนที่มีอยู่กับรายได้ต่อกะ ตรวจสอบอัตรา ต้นทุนที่จัดสรร และรายการที่ยังไม่ได้แก้ไขก่อนใช้การเปรียบเทียบเพื่อเปลี่ยนการครอบคลุม"
+      }
+    }
+  },
+  "ms": {
+    "blocks": [
+      {
+        "description": "Gunakan sejarah jualan, musim dan acara kalendar yang dikonfigurasikan untuk menetapkan sasaran lokasi. Semak tempoh luar biasa dan andaian di sebalik pelan."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Semak sasaran dan andaian di sebaliknya.",
+        "description": "Gunakan sejarah jualan, corak dan acara kalendar yang berkaitan untuk merancang sasaran. Tandakan acara luar biasa atau berulang dan bandingkan prestasi sebenar dengan pelan."
+      },
+      "server": {
+        "description": "Bandingkan ukuran jualan dan beban kerja yang tersedia mengikut syif, jam atau fasa perkhidmatan. Gunakan konteks peranan, liputan dan keadaan perkhidmatan ketika membimbing pasukan."
+      },
+      "cost": {
+        "description": "Bandingkan penggajian, jam dan rekod kos yang tersedia dengan hasil syif. Semak kadar, kos yang diperuntukkan dan entri belum diselesaikan sebelum menggunakan perbandingan untuk menukar liputan."
+      }
+    }
+  }
+}

@@ -1,0 +1,948 @@
+{
+  "en": {
+    "description": "Compare campaign spend, sales and channel mix. Use the available attribution and market context to decide what to test next, then measure the result.",
+    "howDescription": "Campaign and channel comparisons that support a budget decision, with attribution limits kept visible.",
+    "howSundaeHelps": [
+      {
+        "title": "Compare spend with operating performance",
+        "description": "Review campaign spend alongside covers, average check and margin where the connected data supports them. Attributed revenue is not proof of incremental profit."
+      },
+      {
+        "title": "Review channel efficiency",
+        "description": "Compare available ROAS, acquisition cost and channel measures before changing the mix. Check the attribution window and data coverage."
+      },
+      {
+        "title": "Investigate combinations worth testing",
+        "description": "Explore relationships between campaigns, loyalty, sales mix and demand. Treat a relationship as a hypothesis to test, not proof one channel caused another to perform."
+      },
+      {
+        "title": "Plan with market context",
+        "description": "Use relevant competitor, event and weather signals from Watchtower alongside your own data. Watchtower is a paid extension for eligible Core packages."
+      }
+    ],
+    "outcomesDescription": "A practical basis for the next campaign test and the budget conversation.",
+    "outcomes": [
+      {
+        "title": "Choose the next budget test",
+        "description": "Identify a channel or audience to investigate, agree the change and define the comparison period."
+      },
+      {
+        "title": "Discuss the return with finance",
+        "description": "Bring campaign spend, attributed sales and margin assumptions into the same conversation with finance."
+      },
+      {
+        "title": "Compare channel combinations",
+        "description": "Compare channel patterns and operating conditions to choose the next test."
+      },
+      {
+        "title": "Keep the brief relevant",
+        "description": "Put local events and competitor activity beside your campaign plan where those signals are available."
+      }
+    ],
+    "ctaTitle": "Which campaign decision needs a clearer answer?",
+    "ctaDescription": "Walk through a campaign or sample, its available data and how you would assess the next test."
+  },
+  "ar": {
+    "description": "قارن إنفاق الحملة والمبيعات وتركيبة القنوات. استخدم نسب الإسناد وسياق السوق المتاح لتقرير ما يجب اختباره بعد ذلك، ثم قِس النتيجة.",
+    "howDescription": "مقارنات الحملة والقناة التي تدعم قرار الميزانية مع إبقاء حدود الإسناد مرئية.",
+    "howSundaeHelps": [
+      {
+        "title": "قارن الإنفاق مع الأداء التشغيلي",
+        "description": "راجع إنفاق الحملة إلى جانب أعداد الضيوف والمتوسط لكل فاتورة والهامش حيث تدعمها البيانات المتصلة. الإيرادات المنسوبة ليست دليلاً على الربح الإضافي."
+      },
+      {
+        "title": "راجع كفاءة القناة",
+        "description": "قارن ROAS وتكلفة الاكتساب وقياسات القناة المتاحة قبل تغيير التركيبة. تحقق من نافذة الإسناد وتغطية البيانات."
+      },
+      {
+        "title": "ابحث عن تركيبات تستحق الاختبار",
+        "description": "استكشف العلاقات بين الحملات والولاء وتركيبة المبيعات والطلب. اعتبر العلاقة فرضية للاختبار، لا دليلاً على أن قناة واحدة تسببت في أداء أخرى."
+      },
+      {
+        "title": "خطط بسياق السوق",
+        "description": "استخدم إشارات المنافسين والفعاليات والطقس ذات الصلة من Watchtower إلى جانب بياناتك. Watchtower امتداد مدفوع للحزم المؤهلة من Core."
+      }
+    ],
+    "outcomesDescription": "أساس عملي لاختبار الحملة التالية ومحادثة الميزانية.",
+    "outcomes": [
+      {
+        "title": "اختر اختبار الميزانية التالي",
+        "description": "حدد قناة أو جمهوراً للتحقيق، اتفق على التغيير وعرّف فترة المقارنة."
+      },
+      {
+        "title": "ناقش العائد مع المالية",
+        "description": "اجمع إنفاق الحملة والمبيعات المنسوبة وافتراضات الهامش في نفس النقاش مع المالية."
+      },
+      {
+        "title": "قارن تركيبات القنوات",
+        "description": "قارن أنماط القنوات والظروف التشغيلية لاختيار الاختبار التالي."
+      },
+      {
+        "title": "اجعل الموجز ذو صلة",
+        "description": "ضع الفعاليات المحلية ونشاط المنافسين جنب خطة حملتك حيثما تتوفر تلك الإشارات."
+      }
+    ],
+    "ctaTitle": "أي قرار في الحملة يحتاج إجابة أوضح؟",
+    "ctaDescription": "استعرض حملة أو عينة، والبيانات المتاحة لها وكيف ستقيّم الاختبار التالي."
+  },
+  "fr": {
+    "description": "Comparer dépenses de campagne, ventes et mix de canaux. Utilisez l'attribution disponible et le contexte marché pour décider quoi tester ensuite, puis mesurer le résultat.",
+    "howDescription": "Comparaisons de campagnes et de canaux qui soutiennent une décision budgétaire, en gardant visibles les limites d'attribution.",
+    "howSundaeHelps": [
+      {
+        "title": "Comparer les dépenses avec la performance opérationnelle",
+        "description": "Revoir les dépenses de campagne à côté des couverts, du ticket moyen et de la marge lorsque les données connectées les supportent. Le chiffre attribué n'est pas une preuve de profit additionnel."
+      },
+      {
+        "title": "Revoir l'efficacité des canaux",
+        "description": "Comparer ROAS disponibles, coût d'acquisition et mesures de canal avant de modifier le mix. Vérifiez la fenêtre d'attribution et la couverture des données."
+      },
+      {
+        "title": "Explorer des combinaisons à tester",
+        "description": "Explorer les relations entre campagnes, fidélité, mix de ventes et demande. Traitez une relation comme une hypothèse à tester, pas comme la preuve qu'un canal a causé la performance d'un autre."
+      },
+      {
+        "title": "Planifier avec le contexte marché",
+        "description": "Utilisez signaux pertinents de concurrents, événements et météo de Watchtower parallèlement à vos données. Watchtower est une extension payante pour les packages Core éligibles."
+      }
+    ],
+    "outcomesDescription": "Une base pratique pour le prochain test de campagne et la conversation budgétaire.",
+    "outcomes": [
+      {
+        "title": "Choisir le prochain test budgétaire",
+        "description": "Identifier un canal ou une audience à investiguer, convenir du changement et définir la période de comparaison."
+      },
+      {
+        "title": "Discuter du retour avec la finance",
+        "description": "Rassembler dépenses de campagne, ventes attribuées et hypothèses de marge dans la même conversation avec la finance."
+      },
+      {
+        "title": "Comparer les combinaisons de canaux",
+        "description": "Comparer les schémas de canal et les conditions opérationnelles pour choisir le prochain test."
+      },
+      {
+        "title": "Garder le brief pertinent",
+        "description": "Placer événements locaux et activité concurrentielle à côté de votre plan de campagne lorsque ces signaux sont disponibles."
+      }
+    ],
+    "ctaTitle": "Quelle décision de campagne a besoin d'une réponse plus claire ?",
+    "ctaDescription": "Parcourez une campagne ou un échantillon, ses données disponibles et comment vous évalueriez le prochain test."
+  },
+  "es": {
+    "description": "Compare gasto en campañas, ventas y mezcla de canales. Use la atribución disponible y el contexto de mercado para decidir qué probar a continuación y, después, mida el resultado.",
+    "howDescription": "Comparaciones de campañas y canales que respaldan una decisión presupuestaria, con límites de atribución visibles.",
+    "howSundaeHelps": [
+      {
+        "title": "Comparar gasto con rendimiento operativo",
+        "description": "Revise el gasto de campaña junto con cubiertos, ticket medio y margen cuando los datos conectados lo permitan. Los ingresos atribuidos no prueban beneficio incremental."
+      },
+      {
+        "title": "Revisar la eficiencia del canal",
+        "description": "Compare ROAS disponible, coste de adquisición y métricas de canal antes de cambiar la mezcla. Compruebe la ventana de atribución y la cobertura de datos."
+      },
+      {
+        "title": "Investigar combinaciones para probar",
+        "description": "Explore relaciones entre campañas, fidelidad, mezcla de ventas y demanda. Trate una relación como una hipótesis para probar, no como prueba de que un canal causó el rendimiento de otro."
+      },
+      {
+        "title": "Planificar con contexto de mercado",
+        "description": "Use señales relevantes de competidores, eventos y clima de Watchtower junto con sus propios datos. Watchtower es una extensión de pago para paquetes Core elegibles."
+      }
+    ],
+    "outcomesDescription": "Una base práctica para la siguiente prueba de campaña y la conversación presupuestaria.",
+    "outcomes": [
+      {
+        "title": "Elegir la siguiente prueba presupuestaria",
+        "description": "Identifique un canal o audiencia para investigar, acuerde el cambio y defina el periodo de comparación."
+      },
+      {
+        "title": "Discutir el retorno con finanzas",
+        "description": "Lleve el gasto de campaña, las ventas atribuidas y las suposiciones de margen a la misma conversación con finanzas."
+      },
+      {
+        "title": "Comparar combinaciones de canales",
+        "description": "Compare patrones de canal y condiciones operativas para escoger la siguiente prueba."
+      },
+      {
+        "title": "Mantener el alcance relevante",
+        "description": "Coloque eventos locales y actividad de competidores junto a su plan de campaña donde esas señales estén disponibles."
+      }
+    ],
+    "ctaTitle": "¿Qué decisión de campaña necesita una respuesta más clara?",
+    "ctaDescription": "Repase una campaña o muestra, sus datos disponibles y cómo evaluaría la siguiente prueba."
+  },
+  "de": {
+    "description": "Vergleichen Sie Kampagnenausgaben, Umsatz und Kanal-Mix. Nutzen Sie vorhandene Attribution und Marktkontext, um zu entscheiden, was als Nächstes getestet wird, und messen Sie dann das Ergebnis.",
+    "howDescription": "Kampagnen- und Kanalvergleiche, die eine Budgetentscheidung stützen, wobei Attributionseinschränkungen sichtbar bleiben.",
+    "howSundaeHelps": [
+      {
+        "title": "Ausgaben mit operativer Leistung vergleichen",
+        "description": "Prüfen Sie Kampagnenausgaben neben Covers, durchschnittlichem Bon und Marge, wo die verbundenen Daten dies unterstützen. Zugeordnete Umsätze sind kein Beweis für zusätzlichen Gewinn."
+      },
+      {
+        "title": "Kanaleffizienz überprüfen",
+        "description": "Vergleichen Sie verfügbare ROAS-, Akquisitionskosten- und Kanalkennzahlen, bevor Sie den Mix ändern. Prüfen Sie das Attributionsfenster und die Datenabdeckung."
+      },
+      {
+        "title": "Kombinationen untersuchen, die einen Test wert sind",
+        "description": "Untersuchen Sie Beziehungen zwischen Kampagnen, Loyalty, Sales-Mix und Nachfrage. Behandeln Sie eine Beziehung als zu testende Hypothese, nicht als Beweis, dass ein Kanal die Performance eines anderen verursacht hat."
+      },
+      {
+        "title": "Mit Marktkontext planen",
+        "description": "Nutzen Sie relevante Wettbewerber-, Event- und Wettersignale aus Watchtower neben Ihren eigenen Daten. Watchtower ist eine kostenpflichtige Erweiterung für geeignete Core-Pakete."
+      }
+    ],
+    "outcomesDescription": "Eine praktische Basis für den nächsten Kampagnentest und die Budgetdiskussion.",
+    "outcomes": [
+      {
+        "title": "Den nächsten Budgettest wählen",
+        "description": "Identifizieren Sie einen Kanal oder ein Publikum zur Untersuchung, vereinbaren Sie die Änderung und definieren Sie den Vergleichszeitraum."
+      },
+      {
+        "title": "Die Rendite mit der Finanzabteilung besprechen",
+        "description": "Bringen Sie Kampagnenausgaben, zugeordnete Umsätze und Margenannahmen in dasselbe Gespräch mit Finance."
+      },
+      {
+        "title": "Kanal-Kombinationen vergleichen",
+        "description": "Vergleichen Sie Kanalmuster und operative Bedingungen, um den nächsten Test zu wählen."
+      },
+      {
+        "title": "Das Briefing relevant halten",
+        "description": "Stellen Sie lokale Events und Wettbewerberaktivitäten neben Ihren Kampagnenplan, wo diese Signale verfügbar sind."
+      }
+    ],
+    "ctaTitle": "Welche Kampagnenentscheidung braucht eine klarere Antwort?",
+    "ctaDescription": "Gehen Sie eine Kampagne oder ein Sample durch, die verfügbaren Daten und wie Sie den nächsten Test bewerten würden."
+  },
+  "nl": {
+    "description": "Vergelijk campagne-uitgaven, omzet en kanaalmix. Gebruik de beschikbare attributie en markcontext om te bepalen wat u volgende wilt testen en meet het resultaat.",
+    "howDescription": "Campagne- en kanaalvergelijkingen die een budgetbeslissing ondersteunen, met zichtbare attributielimieten.",
+    "howSundaeHelps": [
+      {
+        "title": "Vergelijk uitgaven met operationele prestaties",
+        "description": "Beoordeel campagne-uitgaven naast covers, gemiddelde besteding en marge waar de verbonden data dat ondersteunt. Toegeschreven omzet is geen bewijs van incrementele winst."
+      },
+      {
+        "title": "Beoordeel kanaalefficiëntie",
+        "description": "Vergelijk beschikbare ROAS, acquisitiekosten en kanaalmetingen voordat u de mix verandert. Controleer het attributievenster en de datadekking."
+      },
+      {
+        "title": "Onderzoek combinaties die het testen waard zijn",
+        "description": "Verken relaties tussen campagnes, loyaliteit, salesmix en vraag. Beschouw een relatie als een hypothese om te testen, niet als bewijs dat het ene kanaal het andere heeft veroorzaakt."
+      },
+      {
+        "title": "Plan met marktcontext",
+        "description": "Gebruik relevante concurrentie-, evenement- en weersignalen uit Watchtower naast uw eigen data. Watchtower is een betaalde extensie voor in aanmerking komende Core-pakketten."
+      }
+    ],
+    "outcomesDescription": "Een praktisch uitgangspunt voor de volgende campagnetest en het budgetgesprek.",
+    "outcomes": [
+      {
+        "title": "Kies de volgende budgettest",
+        "description": "Identificeer een kanaal of doelgroep om te onderzoeken, kom overeen welke wijziging en definieer de vergelijkingsperiode."
+      },
+      {
+        "title": "Bespreek het rendement met Finance",
+        "description": "Breng campagne-uitgaven, toegeschreven omzet en margeaannames in hetzelfde gesprek met finance."
+      },
+      {
+        "title": "Vergelijk kanaalcombinaties",
+        "description": "Vergelijk kanaalpatronen en operationele omstandigheden om de volgende test te kiezen."
+      },
+      {
+        "title": "Houd de briefing relevant",
+        "description": "Zet lokale evenementen en concurrentie-activiteit naast uw campagneplan waar die signalen beschikbaar zijn."
+      }
+    ],
+    "ctaTitle": "Welke campanebeslissing vereist een duidelijker antwoord?",
+    "ctaDescription": "Loop een campagne of steekproef door, de beschikbare data en hoe u de volgende test zou beoordelen."
+  },
+  "pt": {
+    "description": "Compare gasto de campanha, vendas e mix de canais. Use a atribuição disponível e o contexto de mercado para decidir o que testar a seguir, depois meça o resultado.",
+    "howDescription": "Comparações de campanha e canal que suportam uma decisão orçamentária, com limites de atribuição mantidos visíveis.",
+    "howSundaeHelps": [
+      {
+        "title": "Compare gasto com desempenho operacional",
+        "description": "Revise gasto de campanha ao lado de covers, ticket médio e margem quando os dados conectados os suportarem. Receita atribuída não é prova de lucro incremental."
+      },
+      {
+        "title": "Reveja a eficiência do canal",
+        "description": "Compare ROAS disponível, custo de aquisição e métricas de canal antes de mudar o mix. Verifique a janela de atribuição e a cobertura dos dados."
+      },
+      {
+        "title": "Investigue combinações que valem testar",
+        "description": "Explore relações entre campanhas, fidelidade, mix de vendas e demanda. Trate uma relação como hipótese a testar, não como prova de que um canal fez outro performar."
+      },
+      {
+        "title": "Planejar com contexto de mercado",
+        "description": "Use sinais relevantes de concorrentes, eventos e clima do Watchtower junto aos seus próprios dados. Watchtower é uma extensão paga para pacotes elegíveis do Core."
+      }
+    ],
+    "outcomesDescription": "Uma base prática para o próximo teste de campanha e a conversa orçamentária.",
+    "outcomes": [
+      {
+        "title": "Escolher o próximo teste orçamentário",
+        "description": "Identifique um canal ou audiência para investigar, concorde a mudança e defina o período de comparação."
+      },
+      {
+        "title": "Discutir o retorno com finanças",
+        "description": "Traga gasto de campanha, vendas atribuídas e premissas de margem para a mesma conversa com finanças."
+      },
+      {
+        "title": "Comparar combinações de canais",
+        "description": "Compare padrões de canais e condições operacionais para escolher o próximo teste."
+      },
+      {
+        "title": "Manter o briefing relevante",
+        "description": "Coloque eventos locais e atividade de concorrentes ao lado do seu plano de campanha quando esses sinais estiverem disponíveis."
+      }
+    ],
+    "ctaTitle": "Qual decisão de campanha precisa de uma resposta mais clara?",
+    "ctaDescription": "Percorra uma campanha ou amostra, seus dados disponíveis e como você avaliaria o próximo teste."
+  },
+  "hi": {
+    "description": "कैम्पेन खर्च, बिक्री और चैनल मिक्स की तुलना करें। उपलब्ध एट्रीब्यूशन और मार्केट संदर्भ का उपयोग करके अगले परीक्षण का निर्णय लें और परिणाम मापें।",
+    "howDescription": "एक बजट निर्णय का समर्थन करने वाली कैम्पेन और चैनल तुलना, एट्रीब्यूशन सीमाओं को स्पष्ट रखा गया।",
+    "howSundaeHelps": [
+      {
+        "title": "खर्च और ऑपरेटिंग प्रदर्शन की तुलना करें",
+        "description": "जहाँ कनेक्टेड डेटा अनुमति देता है वहां कवर, औसत चेक और मार्जिन के साथ कैम्पेन खर्च की समीक्षा करें। एट्रिब्यूटेड राजस्व स्वत: वृद्धि का प्रमाण नहीं है।"
+      },
+      {
+        "title": "चैनल दक्षता की समीक्षा करें",
+        "description": "मिक्स बदलने से पहले उपलब्ध ROAS, अधिग्रहण लागत और चैनल मेट्रिक्स की तुलना करें। एट्रीब्यूशन विंडो और डेटा कवरेज की जांच करें।"
+      },
+      {
+        "title": "परीक्षण के लिए संयोजनों की जांच करें",
+        "description": "कैम्पेन, लॉयल्टी, सेल्स मिक्स और डिमांड के बीच संबंधों का पता लगाएँ। किसी संबंध को परीक्षण के लिए एक परिकल्पना मानें, न कि किसी चैनल ने दूसरे का प्रदर्शन बदलवाया इसका प्रमाण।"
+      },
+      {
+        "title": "मार्केट संदर्भ के साथ योजना बनाएं",
+        "description": "अपने डेटा के साथ Watchtower से प्रासंगिक प्रतिस्पर्धी, इवेंट और मौसम संकेतों का उपयोग करें। Watchtower योग्य Core पैकेजों के लिए एक भुगतान योग्य विस्तार है।"
+      }
+    ],
+    "outcomesDescription": "अगले कैम्पेन परीक्षण और बजट बातचीत के लिए व्यावहारिक आधार।",
+    "outcomes": [
+      {
+        "title": "अगला बजट परीक्षण चुनें",
+        "description": "जांचने के लिए एक चैनल या ऑडियंस पहचानें, परिवर्तन पर सहमति बनाएं और तुलना अवधि पर परिभाषा करें।"
+      },
+      {
+        "title": "वापसी पर फाइनेंस के साथ चर्चा करें",
+        "description": "कैम्पेन खर्च, एट्रीब्यूटेड बिक्री और मार्जिन अनुमानों को फाइनेंस के साथ एक ही बातचीत में लाएँ।"
+      },
+      {
+        "title": "चैनल संयोजनों की तुलना करें",
+        "description": "अगले परीक्षण का चयन करने के लिए चैनल पैटर्न और ऑपरेटिंग स्थितियों की तुलना करें।"
+      },
+      {
+        "title": "ब्रिफ प्रासंगिक रखें",
+        "description": "जहाँ संकेत उपलब्ध हों वहां स्थानीय घटनाओं और प्रतियोगी गतिविधि को अपने कैम्पेन प्लान के साथ रखें।"
+      }
+    ],
+    "ctaTitle": "कौन सा कैम्पेन निर्णय स्पष्ट उत्तर चाहता है?",
+    "ctaDescription": "एक कैम्पेन या नमूने के माध्यम से चलें, उसका उपलब्ध डेटा और आप अगले परीक्षण का मूल्यांकन कैसे करेंगे।"
+  },
+  "ur": {
+    "description": "مہم کے خرچ، سیلز اور چینل مکس کا موازنہ کریں۔ دستیاب ایٹری بیوشن اور مارکیٹ سیاق و سباق کو دیکھ کر اگلے ٹیسٹ کا فیصلہ کریں، پھر نتیجہ ناپیں۔",
+    "howDescription": "بجٹ کے فیصلے کی حمایت کے لیے مہم اور چینل موازنہ، جہاں ایٹری بیوشن کی حدود ظاہر رہیں۔",
+    "howSundaeHelps": [
+      {
+        "title": "خرچ کا آپریٹنگ کارکردگی کے ساتھ موازنہ کریں",
+        "description": "جہاں متصل ڈیٹا مدد کرتا ہے وہاں کورز، اوسط چیک اور مارجن کے ساتھ مہم خرچ کا جائزہ لیں۔ نسبت دی گئی آمدنی اضافی منافع کا ثبوت نہیں ہے۔"
+      },
+      {
+        "title": "چینل کی کارکردگی دیکھیں",
+        "description": "مکس بدلنے سے پہلے دستیاب ROAS، حصول لاگت اور چینل میٹرکس کا موازنہ کریں۔ ایٹری بیوشن ونڈو اور ڈیٹا کوریج چیک کریں۔"
+      },
+      {
+        "title": "ٹیسٹ کے لائق امتزاج تلاش کریں",
+        "description": "مہمات، لائلٹی، سیلز مکس اور ڈیمانڈ کے درمیان تعلقات دریافت کریں۔ تعلق کو ٹیسٹ کرنے کے لیے ایک مفروضہ سمجھیں، ثبوت نہ مانیں کہ ایک چینل نے دوسرے کی کارکردگی کا سبب بنا۔"
+      },
+      {
+        "title": "مارکیٹ سیاق و سباق کے ساتھ منصوبہ بنائیں",
+        "description": "متعلقہ حریف، ایونٹ اور موسم کے سگنلز Watchtower سے اپنے ڈیٹا کے ساتھ استعمال کریں۔ Watchtower اہل Core پیکجز کے لیے ایک معاوضہ والا اضافہ ہے۔"
+      }
+    ],
+    "outcomesDescription": "اگلے مہم ٹیسٹ اور بجٹ گفتگو کے لیے عملی بنیاد۔",
+    "outcomes": [
+      {
+        "title": "اگلا بجٹ ٹیسٹ منتخب کریں",
+        "description": "ایک چینل یا آڈینس شناخت کریں جسے جانچنا ہے، تبدیلی پر متفق ہوں اور موازنہ کی مدت طے کریں۔"
+      },
+      {
+        "title": "واپسی پر فنانس سے گفتگو کریں",
+        "description": "مہم خرچ، نسبت دی گئی سیلز اور مارجن مفروضات کو فنانس کے ساتھ ایک ہی گفتگو میں لائیں۔"
+      },
+      {
+        "title": "چینل امتزاج کا موازنہ کریں",
+        "description": "اگلے ٹیسٹ کے انتخاب کے لیے چینل پیٹرنز اور آپریٹنگ حالات کا موازنہ کریں۔"
+      },
+      {
+        "title": "بریف کو متعلقہ رکھیں",
+        "description": "جہاں وہ سگنلز دستیاب ہوں، مقامی ایونٹس اور حریف کی سرگرمی کو اپنی مہم پلان کے ساتھ ساتھ رکھیں۔"
+      }
+    ],
+    "ctaTitle": "کون سا مہم فیصلہ واضح جواب مانگتا ہے؟",
+    "ctaDescription": "ایک مہم یا نمونہ، اس کا دستیاب ڈیٹا اور آپ اگلے ٹیسٹ کو کیسے پرکھیں گے اس کا جائزہ لیں۔"
+  },
+  "it": {
+    "description": "Confronta spesa campagna, vendite e mix di canali. Usa l’attribuzione disponibile e il contesto di mercato per decidere cosa testare dopo, poi misura il risultato.",
+    "howDescription": "Confronti di campagne e canali che supportano una decisione di budget, con i limiti di attribuzione resi visibili.",
+    "howSundaeHelps": [
+      {
+        "title": "Confrontare la spesa con le prestazioni operative",
+        "description": "Rivedi la spesa della campagna insieme a coperti, scontrino medio e margine dove i dati collegati li supportano. Il ricavo attribuito non è prova di profitto incrementale."
+      },
+      {
+        "title": "Rivedere l’efficienza del canale",
+        "description": "Confronta ROAS disponibile, costo di acquisizione e misure di canale prima di cambiare il mix. Controlla la finestra di attribuzione e la copertura dei dati."
+      },
+      {
+        "title": "Indagare combinazioni da testare",
+        "description": "Esplora relazioni tra campagne, loyalty, mix di vendite e domanda. Tratta una relazione come un’ipotesi da testare, non come prova che un canale abbia causato il rendimento di un altro."
+      },
+      {
+        "title": "Pianificare con il contesto di mercato",
+        "description": "Usa segnali rilevanti di competitor, eventi e meteo da Watchtower insieme ai tuoi dati. Watchtower è un’estensione a pagamento per i pacchetti Core idonei."
+      }
+    ],
+    "outcomesDescription": "Una base pratica per il prossimo test di campagna e la conversazione di budget.",
+    "outcomes": [
+      {
+        "title": "Scegliere il prossimo test di budget",
+        "description": "Identifica un canale o un pubblico da investigare, concorda il cambiamento e definisci il periodo di confronto."
+      },
+      {
+        "title": "Discutere il ritorno con finance",
+        "description": "Porta spesa campagna, vendite attribuite e ipotesi di margine nella stessa conversazione con finance."
+      },
+      {
+        "title": "Confrontare combinazioni di canali",
+        "description": "Confronta pattern di canale e condizioni operative per scegliere il prossimo test."
+      },
+      {
+        "title": "Mantenere il brief rilevante",
+        "description": "Affianca eventi locali e attività dei competitor al piano campagna quando quei segnali sono disponibili."
+      }
+    ],
+    "ctaTitle": "Quale decisione di campagna necessita di una risposta più chiara?",
+    "ctaDescription": "Analizza una campagna o un campione, i dati disponibili e come valuteresti il prossimo test."
+  },
+  "pl": {
+    "description": "Porównaj wydatki kampanii, sprzedaż i miks kanałów. Wykorzystaj dostępną atrybucję i kontekst rynkowy, aby zdecydować, co testować dalej, a potem zmierz wynik.",
+    "howDescription": "Porównania kampanii i kanałów wspierające decyzję budżetową, z wyraźnym wskazaniem ograniczeń atrybucji.",
+    "howSundaeHelps": [
+      {
+        "title": "Porównaj wydatki z wynikami operacyjnymi",
+        "description": "Przejrzyj wydatki kampanii obok liczby gości, średniego rachunku i marży tam, gdzie połączone dane je obsługują. Przypisane przychody nie są dowodem przyrostowego zysku."
+      },
+      {
+        "title": "Przeanalizuj efektywność kanałów",
+        "description": "Porównaj dostępny ROAS, koszt pozyskania i miary kanału przed zmianą miksu. Sprawdź okno atrybucji i zakres danych."
+      },
+      {
+        "title": "Zbadaj kombinacje warte testu",
+        "description": "Zbadaj zależności między kampaniami, lojalnością, miksem sprzedaży i popytem. Traktuj związek jako hipotezę do testu, nie jako dowód, że jeden kanał spowodował wyniki innego."
+      },
+      {
+        "title": "Planuj z kontekstem rynkowym",
+        "description": "Wykorzystaj odpowiednie sygnały konkurencji, wydarzeń i pogody z Watchtower obok własnych danych. Watchtower jest płatnym rozszerzeniem dla kwalifikujących się pakietów Core."
+      }
+    ],
+    "outcomesDescription": "Praktyczna podstawa dla następnego testu kampanii i rozmowy budżetowej.",
+    "outcomes": [
+      {
+        "title": "Wybierz następny test budżetowy",
+        "description": "Zidentyfikuj kanał lub grupę odbiorców do zbadania, uzgodnij zmianę i zdefiniuj okres porównania."
+      },
+      {
+        "title": "Przedyskutuj zwrot z finansami",
+        "description": "Wprowadź wydatki kampanii, przypisane przychody i założenia dotyczące marży do tej samej rozmowy z finansami."
+      },
+      {
+        "title": "Porównaj kombinacje kanałów",
+        "description": "Porównaj wzorce kanałów i warunki operacyjne, aby wybrać następny test."
+      },
+      {
+        "title": "Utrzymaj briefy adekwatne",
+        "description": "Umieść lokalne wydarzenia i aktywność konkurencji obok planu kampanii tam, gdzie te sygnały są dostępne."
+      }
+    ],
+    "ctaTitle": "Która decyzja dotycząca kampanii potrzebuje jaśniejszej odpowiedzi?",
+    "ctaDescription": "Przejdź przez kampanię lub próbkę, dostępne dane i sposób oceny następnego testu."
+  },
+  "tr": {
+    "description": "Kampanya harcamasını, satışları ve kanal karmasını karşılaştırın. Kullanılabilecek atıf ve pazar bağlamını kullanarak bir sonraki testi belirleyin, sonra sonucu ölçün.",
+    "howDescription": "Bütçe kararını destekleyen kampanya ve kanal karşılaştırmaları, atıf sınırlamaları görünür tutulur.",
+    "howSundaeHelps": [
+      {
+        "title": "Harcamayı işletme performansıyla karşılaştırın",
+        "description": "Bağlı verilerin desteklediği yerlerde kampanya harcamasını kapak, ortalama hesap ve marj ile yan yana inceleyin. Atfedilen gelir artı karın kanıtı değildir."
+      },
+      {
+        "title": "Kanal verimliliğini gözden geçirin",
+        "description": "Miksi değiştirmeden önce mevcut ROAS, edinim maliyeti ve kanal ölçümlerini karşılaştırın. Atıf penceresini ve veri kapsamını kontrol edin."
+      },
+      {
+        "title": "Test etmeye değer kombinasyonları araştırın",
+        "description": "Kampanyalar, sadakat, satış karması ve talep arasındaki ilişkileri keşfedin. Bir ilişkiyi bir kanalın diğerini performans açısından etkilediğinin kanıtı değil, test edilecek bir hipotez olarak ele alın."
+      },
+      {
+        "title": "Pazar bağlamıyla plan yapın",
+        "description": "Kendi verilerinizin yanına Watchtower’dan ilgili rakip, etkinlik ve hava sinyallerini kullanın. Watchtower uygun Core paketleri için ücretli bir eklentidir."
+      }
+    ],
+    "outcomesDescription": "Bir sonraki kampanya testi ve bütçe konuşması için pratik bir temel.",
+    "outcomes": [
+      {
+        "title": "Bir sonraki bütçe testini seçin",
+        "description": "Araştırılacak bir kanal veya hedef kitleyi belirleyin, değişikliği kararlaştırın ve karşılaştırma dönemini tanımlayın."
+      },
+      {
+        "title": "Dönüşü finansla tartışın",
+        "description": "Kampanya harcamasını, atfedilen satışları ve marj varsayımlarını aynı finans konuşmasına getirin."
+      },
+      {
+        "title": "Kanal kombinasyonlarını karşılaştırın",
+        "description": "Bir sonraki testi seçmek için kanal desenlerini ve işletme koşullarını karşılaştırın."
+      },
+      {
+        "title": "Brifi ilgili tutun",
+        "description": "Yerel etkinlikleri ve rakip faaliyetini, bu sinyaller mevcutsa kampanya planınızın yanında bulundurun."
+      }
+    ],
+    "ctaTitle": "Hangi kampanya kararı daha net bir cevap gerektiriyor?",
+    "ctaDescription": "Bir kampanyayı veya örneği, mevcut verilerini ve bir sonraki testi nasıl değerlendireceğinizi birlikte inceleyin."
+  },
+  "zh-Hans": {
+    "description": "比较活动支出、销售和渠道构成。使用可用的归因和市场背景决定下次测试内容，然后衡量结果。",
+    "howDescription": "支持预算决策的活动与渠道比较，同时保持归因限制可见。",
+    "howSundaeHelps": [
+      {
+        "title": "将支出与运营表现并列比较",
+        "description": "在连接的数据支持时，将活动支出与翻台数、人均消费和利润率并列审查。归因的收入不是边际利润的证明。"
+      },
+      {
+        "title": "审查渠道效率",
+        "description": "在改变组合前比较可用的 ROAS、获客成本和渠道指标。检查归因窗口和数据覆盖。"
+      },
+      {
+        "title": "调查值得测试的组合",
+        "description": "探索活动、忠诚度、销售构成与需求之间的关系。将关系视为待测试的假设，而非证明某渠道导致另一个表现变化。"
+      },
+      {
+        "title": "以市场背景进行规划",
+        "description": "在 Watchtower 提供的相关竞争者、事件和天气信号与自身数据并列使用。Watchtower 是适用于合格 Core 套餐的付费扩展。"
+      }
+    ],
+    "outcomesDescription": "为下一次活动测试和预算讨论提供切实基础。",
+    "outcomes": [
+      {
+        "title": "选择下一个预算测试",
+        "description": "确定要调查的渠道或受众，同意变更并定义比较期间。"
+      },
+      {
+        "title": "与财务讨论回报",
+        "description": "将活动支出、归因销售和利润假设带入与财务同一讨论。"
+      },
+      {
+        "title": "比较渠道组合",
+        "description": "比较渠道模式和运营条件以选择下一个测试。"
+      },
+      {
+        "title": "保持任务书相关性",
+        "description": "在可用的信号旁将本地事件和竞争者活动放入您的活动计划。"
+      }
+    ],
+    "ctaTitle": "哪个活动决策需要更明确的答案？",
+    "ctaDescription": "带着一个活动或示例，审查其可用数据以及如何评估下一个测试。"
+  },
+  "ja": {
+    "description": "キャンペーン支出、売上、チャネルミックスを比較する。利用可能なアトリビューションと市場の文脈を使って次に試すことを決め、結果を計測する。",
+    "howDescription": "予算決定を支えるキャンペーンとチャネル比較。アトリビューションの限界は明示したまま。",
+    "howSundaeHelps": [
+      {
+        "title": "支出を稼働パフォーマンスと比較する",
+        "description": "接続されたデータがサポートする場合、キャンペーン支出をカバー数、平均チェック、マージンとともにレビューする。帰属された収益は増分利益の証明ではない。"
+      },
+      {
+        "title": "チャネル効率をレビューする",
+        "description": "ミックスを変更する前に、利用可能なROAS、獲得コスト、チャネル指標を比較する。アトリビューションウィンドウとデータカバレッジを確認する。"
+      },
+      {
+        "title": "テストする価値のある組合せを調査する",
+        "description": "キャンペーン、ロイヤルティ、売上ミックス、需要の関係を探る。関係は因果の証明ではなく、検証すべき仮説として扱う。"
+      },
+      {
+        "title": "市場文脈で計画する",
+        "description": "Watchtowerから関連する競合、イベント、天候の信号を自社データと並べて使う。Watchtowerは対象となるCoreパッケージの有料拡張である。"
+      }
+    ],
+    "outcomesDescription": "次のキャンペーンテストと予算議論の実務的な土台。",
+    "outcomes": [
+      {
+        "title": "次の予算テストを選ぶ",
+        "description": "調査するチャネルやオーディエンスを特定し、変更を合意し、比較期間を定義する。"
+      },
+      {
+        "title": "リターンをファイナンスと議論する",
+        "description": "キャンペーン支出、帰属売上、マージン前提をファイナンスと同じ議論に持ち込む。"
+      },
+      {
+        "title": "チャネルの組合せを比較する",
+        "description": "チャネルパターンと稼働条件を比較して次のテストを選ぶ。"
+      },
+      {
+        "title": "ブリーフを関連性あるものに保つ",
+        "description": "ローカルイベントや競合の活動を、利用可能な信号がある場合はキャンペーン計画のそばに置く。"
+      }
+    ],
+    "ctaTitle": "どのキャンペーン判断により明確な答えが必要か？",
+    "ctaDescription": "キャンペーンまたはサンプル、その利用可能なデータ、次のテストを評価する方法を一緒に確認する。"
+  },
+  "ko": {
+    "description": "캠페인 지출, 매출 및 채널 믹스를 비교하세요. 사용 가능한 귀속 및 시장 맥락을 활용해 다음에 테스트할 항목을 결정하고 결과를 측정하세요.",
+    "howDescription": "예산 결정을 뒷받침하는 캠페인 및 채널 비교, 귀속 한계는 투명하게 유지합니다.",
+    "howSundaeHelps": [
+      {
+        "title": "지출과 운영 성과 비교",
+        "description": "연결된 데이터가 지원하는 경우 커버수, 평균 체크 및 마진과 함께 캠페인 지출을 검토하세요. 귀속 매출은 추가 이익의 증거가 아닙니다."
+      },
+      {
+        "title": "채널 효율성 검토",
+        "description": "믹스를 변경하기 전에 사용 가능한 ROAS, 고객획득비용 및 채널 지표를 비교하세요. 귀속 창과 데이터 적용 범위를 확인하세요."
+      },
+      {
+        "title": "테스트할 조합 조사",
+        "description": "캠페인, 로열티, 판매 믹스 및 수요 간 관계를 탐색하세요. 관계는 가설로 취급하고 한 채널이 다른 채널 성과를 유발했다고 단정하지 마세요."
+      },
+      {
+        "title": "시장 맥락으로 계획하세요",
+        "description": "Watchtower의 관련 경쟁자, 이벤트 및 기상 신호를 자체 데이터와 함께 사용하세요. Watchtower는 적격 Core 패키지에 대한 유료 확장입니다."
+      }
+    ],
+    "outcomesDescription": "다음 캠페인 테스트와 예산 논의를 위한 실용적인 근거.",
+    "outcomes": [
+      {
+        "title": "다음 예산 테스트 선택",
+        "description": "조사할 채널이나 대상 그룹을 식별하고, 변경을 합의하며 비교 기간을 정의하세요."
+      },
+      {
+        "title": "재무와 수익 논의",
+        "description": "캠페인 지출, 귀속 매출 및 마진 가정을 재무와 함께 동일한 대화에 올리세요."
+      },
+      {
+        "title": "채널 조합 비교",
+        "description": "다음 테스트를 선택하기 위해 채널 패턴과 운영 조건을 비교하세요."
+      },
+      {
+        "title": "브리프의 관련성 유지",
+        "description": "현지 이벤트와 경쟁자 활동을 캠페인 계획 옆에 두세요. 해당 신호가 사용 가능할 때 참조합니다."
+      }
+    ],
+    "ctaTitle": "어떤 캠페인 결정에 더 명확한 답이 필요합니까?",
+    "ctaDescription": "캠페인 또는 샘플, 사용 가능한 데이터와 다음 테스트를 평가하는 방법을 함께 검토하세요."
+  },
+  "id": {
+    "description": "Bandingkan pengeluaran kampanye, penjualan dan komposisi saluran. Gunakan atribusi dan konteks pasar yang tersedia untuk memutuskan apa yang diuji berikutnya, lalu ukur hasilnya.",
+    "howDescription": "Perbandingan kampanye dan saluran yang mendukung keputusan anggaran, dengan batasan atribusi tetap terlihat.",
+    "howSundaeHelps": [
+      {
+        "title": "Bandingkan pengeluaran dengan kinerja operasional",
+        "description": "Tinjau pengeluaran kampanye berdampingan dengan covers, rata-rata check dan margin ketika data terhubung mendukungnya. Pendapatan yang diatribusikan bukan bukti profit tambahan."
+      },
+      {
+        "title": "Tinjau efisiensi saluran",
+        "description": "Bandingkan ROAS, biaya akuisisi dan ukuran saluran yang tersedia sebelum mengubah komposisi. Periksa jendela atribusi dan cakupan data."
+      },
+      {
+        "title": "Selidiki kombinasi yang layak diuji",
+        "description": "Jelajahi hubungan antara kampanye, loyalitas, komposisi penjualan dan permintaan. Perlakukan hubungan sebagai hipotesis yang perlu diuji, bukan bukti satu saluran menyebabkan yang lain bekerja."
+      },
+      {
+        "title": "Rencanakan dengan konteks pasar",
+        "description": "Gunakan sinyal pesaing, acara dan cuaca yang relevan dari Watchtower berdampingan dengan data Anda sendiri. Watchtower adalah ekstensi berbayar untuk paket Core yang memenuhi syarat."
+      }
+    ],
+    "outcomesDescription": "Dasar praktis untuk uji kampanye berikutnya dan percakapan anggaran.",
+    "outcomes": [
+      {
+        "title": "Pilih uji anggaran berikutnya",
+        "description": "Identifikasi saluran atau audiens untuk diselidiki, sepakati perubahan dan tentukan periode perbandingan."
+      },
+      {
+        "title": "Diskusikan return dengan keuangan",
+        "description": "Masukkan pengeluaran kampanye, penjualan yang diatribusikan dan asumsi margin ke dalam percakapan yang sama dengan tim keuangan."
+      },
+      {
+        "title": "Bandingkan kombinasi saluran",
+        "description": "Bandingkan pola saluran dan kondisi operasional untuk memilih uji berikutnya."
+      },
+      {
+        "title": "Jaga brief tetap relevan",
+        "description": "Letakkan acara lokal dan aktivitas pesaing berdampingan dengan rencana kampanye Anda ketika sinyal itu tersedia."
+      }
+    ],
+    "ctaTitle": "Keputusan kampanye mana yang membutuhkan jawaban lebih jelas?",
+    "ctaDescription": "Jalankan melalui satu kampanye atau sampel, data yang tersedia dan bagaimana Anda akan menilai uji berikutnya."
+  },
+  "vi": {
+    "description": "So sánh chi tiêu chiến dịch, doanh thu và cơ cấu kênh. Sử dụng dữ liệu attribution và bối cảnh thị trường có sẵn để quyết định thử gì tiếp theo, rồi đo kết quả.",
+    "howDescription": "So sánh chiến dịch và kênh hỗ trợ quyết định ngân sách, với giới hạn attribution được giữ rõ ràng.",
+    "howSundaeHelps": [
+      {
+        "title": "So sánh chi tiêu với hiệu suất vận hành",
+        "description": "Xem xét chi tiêu chiến dịch cùng số lượt phục vụ, hóa đơn trung bình và biên khi dữ liệu kết nối cho phép. Doanh thu được gán không phải là bằng chứng lợi nhuận gia tăng."
+      },
+      {
+        "title": "Xem xét hiệu quả kênh",
+        "description": "So sánh ROAS, chi phí thu khách và chỉ số kênh có sẵn trước khi thay đổi cơ cấu. Kiểm tra cửa sổ attribution và phạm vi dữ liệu."
+      },
+      {
+        "title": "Điều tra kết hợp đáng thử",
+        "description": "Khám phá mối quan hệ giữa chiến dịch, chương trình khách trung thành, cơ cấu doanh thu và nhu cầu. Xem mối quan hệ là giả thuyết để kiểm tra, không phải bằng chứng kênh này gây thay đổi kênh kia."
+      },
+      {
+        "title": "Lập kế hoạch với bối cảnh thị trường",
+        "description": "Dùng các tín hiệu đối thủ, sự kiện và thời tiết phù hợp từ Watchtower cùng dữ liệu của bạn. Watchtower là phần mở rộng trả phí cho các gói Core đủ điều kiện."
+      }
+    ],
+    "outcomesDescription": "Cơ sở thực tế cho thử nghiệm chiến dịch tiếp theo và cuộc thảo luận ngân sách.",
+    "outcomes": [
+      {
+        "title": "Chọn thử nghiệm ngân sách tiếp theo",
+        "description": "Xác định kênh hoặc đối tượng để điều tra, thống nhất thay đổi và định nghĩa kỳ so sánh."
+      },
+      {
+        "title": "Thảo luận lợi tức với tài chính",
+        "description": "Mang chi tiêu chiến dịch, doanh thu được gán và giả định biên vào cùng cuộc thảo luận với bộ phận tài chính."
+      },
+      {
+        "title": "So sánh kết hợp kênh",
+        "description": "So sánh mẫu kênh và điều kiện vận hành để chọn thử nghiệm tiếp theo."
+      },
+      {
+        "title": "Giữ bản tóm tắt phù hợp",
+        "description": "Đặt các sự kiện địa phương và hoạt động đối thủ cạnh tranh bên cạnh kế hoạch chiến dịch khi các tín hiệu đó có sẵn."
+      }
+    ],
+    "ctaTitle": "Quyết định chiến dịch nào cần câu trả lời rõ hơn?",
+    "ctaDescription": "Duyệt qua một chiến dịch hoặc mẫu, dữ liệu có sẵn và cách bạn sẽ đánh giá thử nghiệm tiếp theo."
+  },
+  "ro": {
+    "description": "Comparați cheltuielile campaniilor, vânzările și mixul de canale. Folosiți atribuirea și contextul de piață disponibile pentru a decide ce testați în continuare, apoi măsurați rezultatul.",
+    "howDescription": "Comparații de campanii și canale care susțin o decizie bugetară, cu limitele de atribuire păstrate vizibile.",
+    "howSundaeHelps": [
+      {
+        "title": "Comparați cheltuielile cu performanța operațională",
+        "description": "Revizuiți cheltuielile de campanie alături de acoperiri, tichet mediu și marjă acolo unde datele conectate le susțin. Venitul atribuit nu este dovadă pentru profitul incremental."
+      },
+      {
+        "title": "Revizuiți eficiența canalelor",
+        "description": "Comparați ROAS disponibile, costul de achiziție și măsurile de canal înainte de a schimba mixul. Verificați fereastra de atribuire și acoperirea datelor."
+      },
+      {
+        "title": "Investigați combinații demne de testat",
+        "description": "Explorați relațiile între campanii, loialitate, mixul de vânzări și cerere. Tratați o relație ca pe o ipoteză de testat, nu ca dovadă că un canal a cauzat performanța altuia."
+      },
+      {
+        "title": "Planificați cu contextul pieței",
+        "description": "Folosiți semnale relevante despre concurenți, evenimente și vreme din Watchtower alături de propriile date. Watchtower este o extensie plătită pentru pachetele Core eligibile."
+      }
+    ],
+    "outcomesDescription": "Un punct practic pentru următorul test de campanie și discuția bugetară.",
+    "outcomes": [
+      {
+        "title": "Alegeți următorul test de buget",
+        "description": "Identificați un canal sau o audiență de investigat, conveniți schimbarea și definiți perioada de comparație."
+      },
+      {
+        "title": "Discutați randamentul cu finanțele",
+        "description": "Aduceți cheltuielile de campanie, vânzările atribuite și ipotezele de marjă în aceeași discuție cu echipa financiară."
+      },
+      {
+        "title": "Comparați combinațiile de canale",
+        "description": "Comparați tiparele de canal și condițiile operaționale pentru a alege următorul test."
+      },
+      {
+        "title": "Mențineți brieful relevant",
+        "description": "Puneți evenimentele locale și activitatea concurenței alături de planul de campanie acolo unde aceste semnale sunt disponibile."
+      }
+    ],
+    "ctaTitle": "Ce decizie de campanie are nevoie de un răspuns mai clar?",
+    "ctaDescription": "Parcurgeți o campanie sau un eșantion, datele disponibile și cum ați evalua următorul test."
+  },
+  "sv": {
+    "description": "Jämför kampanjutgifter, försäljning och kanalblandning. Använd tillgänglig attribution och marknadskontext för att bestämma vad som ska testas nästa, och mät sedan resultatet.",
+    "howDescription": "Kampanj- och kanaljämförelser som stöder ett budgetbeslut, med begränsningar i attribution tydligt synliga.",
+    "howSundaeHelps": [
+      {
+        "title": "Jämför utgifter med driftprestanda",
+        "description": "Granska kampanjutgifter bredvid covers, genomsnittskvitto och marginal där de anslutna uppgifterna stöder dem. Attribuerade intäkter är inte bevis på inkrementell vinst."
+      },
+      {
+        "title": "Granska kanaleffektivitet",
+        "description": "Jämför tillgänglig ROAS, förvärvskostnad och kanalmått innan du ändrar mixen. Kontrollera attributionfönster och datatäckning."
+      },
+      {
+        "title": "Undersök kombinationer värda att testa",
+        "description": "Utforska relationer mellan kampanjer, lojalitet, försäljningsmix och efterfrågan. Behandla en relation som en hypotes att testa, inte som bevis för att en kanal orsakat en annan."
+      },
+      {
+        "title": "Planera med marknadskontext",
+        "description": "Använd relevanta konkurrent-, händelse- och vädersignaler från Watchtower tillsammans med dina egna data. Watchtower är en betald tilläggstjänst för berättigade Core-paket."
+      }
+    ],
+    "outcomesDescription": "En praktisk grund för nästa kampanjtest och budgetdiskussion.",
+    "outcomes": [
+      {
+        "title": "Välj nästa budgettest",
+        "description": "Identifiera en kanal eller målgrupp att undersöka, kom överens om förändringen och definiera jämförelseperioden."
+      },
+      {
+        "title": "Diskutera avkastningen med finans",
+        "description": "Ta med kampanjutgifter, attribuerad försäljning och marginalantaganden i samma samtal med finans."
+      },
+      {
+        "title": "Jämför kanal-kombinationer",
+        "description": "Jämför kanalpattern och driftförhållanden för att välja nästa test."
+      },
+      {
+        "title": "Håll briefen relevant",
+        "description": "Sätt lokala händelser och konkurrentaktivitet bredvid din kampanjplan där de signalerna finns tillgängliga."
+      }
+    ],
+    "ctaTitle": "Vilket kampanjbeslut behöver ett tydligare svar?",
+    "ctaDescription": "Gå igenom en kampanj eller ett prov, dess tillgängliga data och hur ni skulle bedöma nästa test."
+  },
+  "bn": {
+    "description": "ক্যাম্পেইন ব্যয়, বিক্রয় এবং চ্যানেল মিক্স তুলনা করুন। উপলব্ধ অ্যাট্রিবিউশন এবং বাজার প্রেক্ষাপট ব্যবহার করে কি পরবর্তী টেস্ট হবে তা নির্ধারণ করুন, তারপর ফলাফল মাপুন।",
+    "howDescription": "ক্যাম্পেইন এবং চ্যানেল তুলনা যা বাজেট সিদ্ধান্তকে সহায়তা করে, অ্যাট্রিবিউশন সীমাগুলো দৃশ্যমান রাখা হয়।",
+    "howSundaeHelps": [
+      {
+        "title": "ব্যয়কে অপারেটিং পারফরম্যান্সের সাথে তুলনা করুন",
+        "description": "সংযুক্ত ডেটা সমর্থন করলে কভার, গড় চেক এবং মার্জিনের পাশাপাশি ক্যাম্পেইন ব্যয় পর্যালোচনা করুন। অ্যাট্রিবিউটেড রাজস্ব স্বতন্ত্র লাভের প্রমাণ নয়।"
+      },
+      {
+        "title": "চ্যানেল দক্ষতা পর্যালোচনা করুন",
+        "description": "মিশ্রণ পরিবর্তন করার আগে উপলব্ধ ROAS, অ্যাকুইজিশন কস্ট এবং চ্যানেল মেট্রিক তুলনা করুন। অ্যাট্রিবিউশন উইন্ডো এবং ডেটা কভারেজ পরীক্ষা করুন।"
+      },
+      {
+        "title": "টেস্ট করার যোগ্য সমন্বয়গুলো তদন্ত করুন",
+        "description": "ক্যাম্পেইন, লয়্যালটি, বিক্রয় মিক্স এবং চাহিদার মধ্যে সম্পর্ক অন্বেষণ করুন। একটি সম্পর্ককে টেস্ট করার জন্য একটি হাইপোথেসিস হিসেবে বিবেচনা করুন, প্রমাণ হিসেবে নয় যে একটি চ্যানেল অন্যকে চালিত করেছে।"
+      },
+      {
+        "title": "বাজার প্রেক্ষাপটে পরিকল্পনা করুন",
+        "description": "আপনার নিজের ডেটার পাশাপাশি Watchtower থেকে প্রাসঙ্গিক প্রতিযোগী, ইভেন্ট এবং আবহাওয়া সংকেত ব্যবহার করুন। Watchtower যোগ্য Core প্যাকেজগুলোর জন্য একটি পেইড এক্সটেনশান।"
+      }
+    ],
+    "outcomesDescription": "পরবর্তী ক্যাম্পেইন টেস্ট এবং বাজেট আলোচনার জন্য একটি ব্যবহারিক ভিত্তি।",
+    "outcomes": [
+      {
+        "title": "পরবর্তী বাজেট টেস্ট নির্বাচন করুন",
+        "description": "একটি চ্যানেল বা অডিয়েন্স চিহ্নিত করুন, পরিবর্তনে সম্মতি দিন এবং তুলনা সময়কাল নির্ধারণ করুন।"
+      },
+      {
+        "title": "ফাইন্যান্সের সঙ্গে রিটার্ন আলোচনা করুন",
+        "description": "ক্যাম্পেইন ব্যয়, অ্যাট্রিবিউটেড বিক্রয় এবং মার্জিন অনুমানগুলো ফাইন্যান্সের সঙ্গে একযোগে আলোচনায় আনুন।"
+      },
+      {
+        "title": "চ্যানেল সমন্বয় তুলনা করুন",
+        "description": "পরবর্তী টেস্ট বেছে নিতে চ্যানেল প্যাটার্ন এবং অপারেটিং শর্তগুলো তুলনা করুন।"
+      },
+      {
+        "title": "ব্রিফ প্রাসঙ্গিক রাখুন",
+        "description": "স্থানীয় ইভেন্ট এবং প্রতিযোগীর কার্যক্রমকে আপনার ক্যাম্পেইন পরিকল্পনার পাশে রাখুন যেখানে সেই সংকেতগুলো উপলব্ধ।"
+      }
+    ],
+    "ctaTitle": "কোন ক্যাম্পেইন সিদ্ধান্তে পরিষ্কার উত্তর দরকার?",
+    "ctaDescription": "একটি ক্যাম্পেইন বা নমুনা দেখে তার উপলব্ধ ডেটা এবং কিভাবে আপনি পরবর্তী টেস্ট মূল্যায়ন করবেন তা আলোচনা করুন।"
+  },
+  "th": {
+    "description": "เปรียบเทียบค่าใช้จ่ายแคมเปญ ยอดขาย และสัดส่วนช่องทาง ใช้การอ้างอิงและบริบทตลาดที่มีเพื่อกำหนดว่าจะทดสอบอะไรต่อไป แล้ววัดผล",
+    "howDescription": "การเปรียบเทียบแคมเปญและช่องทางที่สนับสนุนการตัดสินใจงบประมาณ พร้อมแสดงข้อจำกัดการอ้างอิงให้ชัดเจน",
+    "howSundaeHelps": [
+      {
+        "title": "เปรียบเทียบค่าใช้จ่ายกับประสิทธิภาพการปฏิบัติงาน",
+        "description": "ทบทวนค่าใช้จ่ายแคมเปญควบคู่กับจำนวนลูกค้า ค่าเฉลี่ยใบเสร็จ และมาร์จิ้นเมื่อข้อมูลที่เชื่อมต่อรองรับ รายได้ที่อ้างอิงไม่ใช่หลักฐานของกำไรเชิงเพิ่ม"
+      },
+      {
+        "title": "ทบทวนประสิทธิภาพช่องทาง",
+        "description": "เปรียบเทียบ ROAS ต้นทุนการได้ลูกค้า และตัวชี้วัดช่องทางที่มี ก่อนเปลี่ยนสัดส่วน ตรวจสอบหน้าต่างการอ้างอิงและความครอบคลุมของข้อมูล"
+      },
+      {
+        "title": "สำรวจการผสมที่ควรทดสอบ",
+        "description": "สำรวจความสัมพันธ์ระหว่างแคมเปญ ความภักดี สัดส่วนการขาย และความต้องการ ปฏิบัติต่อความสัมพันธ์เป็นสมมติฐานที่ต้องทดสอบ ไม่ใช่หลักฐานว่าหนึ่งช่องทางเป็นสาเหตุให้ช่องทางอื่นทำงานดีขึ้น"
+      },
+      {
+        "title": "วางแผนโดยมีบริบทตลาด",
+        "description": "ใช้สัญญาณคู่แข่ง เหตุการณ์ และสภาพอากาศที่เกี่ยวข้องจาก Watchtower ควบคู่กับข้อมูลของคุณ Watchtower เป็นส่วนขยายที่มีค่าใช้จ่ายสำหรับแพ็กเกจ Core ที่มีสิทธิ์"
+      }
+    ],
+    "outcomesDescription": "พื้นฐานปฏิบัติได้สำหรับการทดสอบแคมเปญครั้งถัดไปและการสนทนาเรื่องงบประมาณ",
+    "outcomes": [
+      {
+        "title": "เลือกการทดสอบงบประมาณครั้งต่อไป",
+        "description": "ระบุช่องทางหรือลูกค้าเป้าหมายที่ต้องตรวจสอบ ตกลงการเปลี่ยนแปลง และกำหนดช่วงเวลาการเปรียบเทียบ"
+      },
+      {
+        "title": "หารือผลตอบแทนกับฝ่ายการเงิน",
+        "description": "นำค่าใช้จ่ายแคมเปญ ยอดขายที่อ้างอิง และสมมติฐานมาร์จิ้นเข้าสู่การสนทนาร่วมกับฝ่ายการเงิน"
+      },
+      {
+        "title": "เปรียบเทียบการผสมของช่องทาง",
+        "description": "เปรียบเทียบรูปแบบช่องทางและสภาพการปฏิบัติงานเพื่อเลือกการทดสอบครั้งต่อไป"
+      },
+      {
+        "title": "ทำให้คำสั่งงานเกี่ยวข้อง",
+        "description": "วางเหตุการณ์ท้องถิ่นและกิจกรรมคู่แข่งเคียงข้างแผนแคมเปญของคุณเมื่อมีสัญญาณเหล่านั้น"
+      }
+    ],
+    "ctaTitle": "การตัดสินใจแคมเปญใดที่ต้องการคำตอบที่ชัดเจนกว่า?",
+    "ctaDescription": "เดินผ่านแคมเปญหรือตัวอย่าง ข้อมูลที่มี และวิธีการที่คุณจะประเมินการทดสอบครั้งถัดไป"
+  },
+  "ms": {
+    "description": "Bandingkan perbelanjaan kempen, jualan dan campuran saluran. Gunakan atribusi dan konteks pasaran yang tersedia untuk memutuskan apa yang diuji seterusnya, kemudian ukur keputusan.",
+    "howDescription": "Perbandingan kempen dan saluran yang menyokong keputusan belanjawan, dengan had atribusi yang jelas.",
+    "howSundaeHelps": [
+      {
+        "title": "Bandingkan perbelanjaan dengan prestasi operasi",
+        "description": "Semak perbelanjaan kempen bersama jumlah pengunjung, cek purata dan margin apabila data bersambung menyokongnya. Hasil yang diberi atribusi bukan bukti keuntungan tambahan."
+      },
+      {
+        "title": "Semak kecekapan saluran",
+        "description": "Bandingkan ROAS, kos pemerolehan dan ukuran saluran yang tersedia sebelum mengubah campuran. Semak tetingkap atribusi dan liputan data."
+      },
+      {
+        "title": "Siasat gabungan yang patut diuji",
+        "description": "Terokai hubungan antara kempen, kesetiaan, campuran jualan dan permintaan. Anggap hubungan sebagai hipotesis untuk diuji, bukan bukti satu saluran menyebabkan saluran lain berprestasi."
+      },
+      {
+        "title": "Rancang dengan konteks pasaran",
+        "description": "Gunakan isyarat pesaing, acara dan cuaca yang relevan dari Watchtower bersama data anda sendiri. Watchtower ialah sambungan berbayar untuk pakej Core yang layak."
+      }
+    ],
+    "outcomesDescription": "Asas praktikal untuk ujian kempen seterusnya dan perbualan belanjawan.",
+    "outcomes": [
+      {
+        "title": "Pilih ujian belanjawan seterusnya",
+        "description": "Kenal pasti saluran atau audiens untuk disiasat, setujui perubahan dan takrif tempoh perbandingan."
+      },
+      {
+        "title": "Bincang pulangan dengan kewangan",
+        "description": "Bawa perbelanjaan kempen, jualan yang diberi atribusi dan andaian margin ke dalam perbualan yang sama dengan kewangan."
+      },
+      {
+        "title": "Bandingkan gabungan saluran",
+        "description": "Bandingkan corak saluran dan keadaan operasi untuk memilih ujian seterusnya."
+      },
+      {
+        "title": "Jaga tugasan tetap relevan",
+        "description": "Letakkan acara tempatan dan aktiviti pesaing di sebelah rancangan kempen anda apabila isyarat itu tersedia."
+      }
+    ],
+    "ctaTitle": "Keputusan kempen mana yang perlukan jawapan lebih jelas?",
+    "ctaDescription": "Terokai satu kempen atau sampel, data yang tersedia dan bagaimana anda akan menilai ujian seterusnya."
+  }
+}

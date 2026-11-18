@@ -1,0 +1,376 @@
+{
+  "en": {
+    "heroTitle": "Ask an operating question. Explore the answer.",
+    "responseDescription": "Explore answers through the supported data cards, charts and analysis views.",
+    "briefingDescription": "Use a personalized briefing to start the operating review.",
+    "differentiators": [
+      {
+        "description": "Ask a question in plain language and explore the answer with the supporting operating data."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Connect the records behind the question",
+        "description": "Use connected POS, workforce, inventory, reservation and delivery records according to your setup and access permissions."
+      }
+    ]
+  },
+  "ar": {
+    "heroTitle": "اطرح سؤالاً تشغيلياً. استكشف الإجابة.",
+    "responseDescription": "استكشف الإجابات من خلال بطاقات البيانات والرسوم والتحليلات المدعومة.",
+    "briefingDescription": "استخدم موجزاً مخصصاً لبدء مراجعة التشغيل.",
+    "differentiators": [
+      {
+        "description": "اطرح سؤالاً بلغة بسيطة واستكشف الإجابة مع بيانات التشغيل الداعمة."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "اربط السجلات وراء السؤال",
+        "description": "استخدم سجلات نقاط البيع والعمالة والمخزون والحجوزات والتوصيل الموصولة وفق إعدادك وصلاحيات الوصول."
+      }
+    ]
+  },
+  "fr": {
+    "heroTitle": "Posez une question opérationnelle. Explorez la réponse.",
+    "responseDescription": "Explorez les réponses via les fiches de données, graphiques et vues d'analyse prises en charge.",
+    "briefingDescription": "Utilisez un briefing personnalisé pour lancer la revue opérationnelle.",
+    "differentiators": [
+      {
+        "description": "Posez une question en langage naturel et explorez la réponse avec les données d'exploitation justificatives."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Reliez les enregistrements derrière la question",
+        "description": "Utilisez les enregistrements POS, workforce, inventaire, réservation et livraison connectés selon votre configuration et vos autorisations d'accès."
+      }
+    ]
+  },
+  "es": {
+    "heroTitle": "Formule una pregunta operativa. Explore la respuesta.",
+    "responseDescription": "Explore respuestas mediante las tarjetas de datos, gráficos y vistas de análisis compatibles.",
+    "briefingDescription": "Use un informe personalizado para comenzar la revisión operativa.",
+    "differentiators": [
+      {
+        "description": "Formule una pregunta en lenguaje natural y explore la respuesta con los datos operativos de soporte."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Conecte los registros detrás de la pregunta",
+        "description": "Use registros conectados de POS, personal, inventario, reservas y entregas según su configuración y permisos de acceso."
+      }
+    ]
+  },
+  "de": {
+    "heroTitle": "Stellen Sie eine betriebliche Frage. Erkunden Sie die Antwort.",
+    "responseDescription": "Erkunden Sie Antworten über unterstützte Datenkarten, Diagramme und Analyseansichten.",
+    "briefingDescription": "Nutzen Sie ein personalisiertes Briefing, um die betriebliche Durchsicht zu beginnen.",
+    "differentiators": [
+      {
+        "description": "Stellen Sie eine Frage in einfacher Sprache und erkunden Sie die Antwort mit den unterstützenden Betriebsdaten."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Verbinden Sie die Datensätze hinter der Frage",
+        "description": "Nutzen Sie verbundene POS-, Personal-, Inventar-, Reservierungs- und Lieferdaten gemäß Ihrer Einrichtung und Zugriffsrechte."
+      }
+    ]
+  },
+  "nl": {
+    "heroTitle": "Stel een operationele vraag. Verken het antwoord.",
+    "responseDescription": "Verken antwoorden via de ondersteunde datakaarten, grafieken en analysemiddelen.",
+    "briefingDescription": "Gebruik een gepersonaliseerde briefing om de operationele beoordeling te starten.",
+    "differentiators": [
+      {
+        "description": "Stel een vraag in gewone taal en verken het antwoord met de onderliggende operationele gegevens."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Verbind de dossiers achter de vraag",
+        "description": "Gebruik gekoppelde POS-, personeels-, voorraad-, reserverings- en bezorgdossiers volgens uw configuratie en toegangsrechten."
+      }
+    ]
+  },
+  "pt": {
+    "heroTitle": "Faça uma pergunta operacional. Explore a resposta.",
+    "responseDescription": "Explore respostas por meio dos cartões de dados, gráficos e vistas analíticas suportados.",
+    "briefingDescription": "Use um briefing personalizado para iniciar a revisão operacional.",
+    "differentiators": [
+      {
+        "description": "Faça uma pergunta em linguagem natural e explore a resposta com os dados operacionais de apoio."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Conecte os registros por trás da pergunta",
+        "description": "Use registros conectados de POS, workforce, inventário, reservas e entrega conforme sua configuração e permissões de acesso."
+      }
+    ]
+  },
+  "hi": {
+    "heroTitle": "एक परिचालन प्रश्न पूछें। उत्तर का अन्वेषण करें।",
+    "responseDescription": "समर्थित डेटा कार्ड, चार्ट और विश्लेषण दृश्य के माध्यम से उत्तरों का अन्वेषण करें।",
+    "briefingDescription": "परिचालन समीक्षा शुरू करने के लिए एक व्यक्तिगत briefing का उपयोग करें।",
+    "differentiators": [
+      {
+        "description": "साधारण भाषा में प्रश्न पूछें और सहायक परिचालन डेटा के साथ उत्तर का अन्वेषण करें।"
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "प्रश्न के पीछे रिकॉर्ड कनेक्ट करें",
+        "description": "अपने सेटअप और पहुँच अनुमतियों के अनुसार जुड़े POS, workforce, inventory, reservation और delivery रिकॉर्ड का उपयोग करें।"
+      }
+    ]
+  },
+  "ur": {
+    "heroTitle": "آپریٹنگ سوال پوچھیں۔ جواب کھوجیں۔",
+    "responseDescription": "معاون ڈیٹا کارڈز، چارٹس اور اینالیسس ویوز کے ذریعے جوابات دریافت کریں۔",
+    "briefingDescription": "آپریٹنگ جائزہ شروع کرنے کے لیے ذاتی نوعیت کی بریفنگ استعمال کریں۔",
+    "differentiators": [
+      {
+        "description": "سادہ زبان میں سوال پوچھیں اور معاون آپریٹنگ ڈیٹا کے ساتھ جواب کھوجیں۔"
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "سوال کے پیچھے ریکارڈز کو جوڑیں",
+        "description": "اپنی سیٹ اپ اور رسائی کی اجازتوں کے مطابق منسلک POS، ورک فورس، انوینٹری، ریزرویشن اور ڈلیوری ریکارڈز استعمال کریں۔"
+      }
+    ]
+  },
+  "it": {
+    "heroTitle": "Poni una domanda operativa. Esplora la risposta.",
+    "responseDescription": "Esplora le risposte attraverso schede dati, grafici e viste di analisi supportate.",
+    "briefingDescription": "Usa un briefing personalizzato per avviare la revisione operativa.",
+    "differentiators": [
+      {
+        "description": "Poni una domanda in linguaggio naturale ed esplora la risposta con i dati operativi di supporto."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Collega i record dietro la domanda",
+        "description": "Usa record POS, workforce, inventario, prenotazioni e consegne collegati in base alla tua configurazione e ai permessi di accesso."
+      }
+    ]
+  },
+  "pl": {
+    "heroTitle": "Zadaj pytanie operacyjne. Zbadaj odpowiedź.",
+    "responseDescription": "Analizuj odpowiedzi przez dostępne karty danych, wykresy i widoki analityczne.",
+    "briefingDescription": "Rozpocznij przegląd operacyjny od spersonalizowanego briefingu.",
+    "differentiators": [
+      {
+        "description": "Zadaj pytanie prostym językiem i przeanalizuj odpowiedź z użyciem powiązanych danych operacyjnych."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Połącz rekordy stojące za pytaniem",
+        "description": "Używaj powiązanych rekordów POS, zarządzania personelem, zapasów, rezerwacji i dostaw zgodnie z konfiguracją i uprawnieniami dostępu."
+      }
+    ]
+  },
+  "tr": {
+    "heroTitle": "Bir işletme sorusu sorun. Yanıtı keşfedin.",
+    "responseDescription": "Desteklenen veri kartları, grafikler ve analiz görünümleri aracılığıyla yanıtları keşfedin.",
+    "briefingDescription": "İşletme incelemesine başlamak için kişiselleştirilmiş bir brifing kullanın.",
+    "differentiators": [
+      {
+        "description": "Düz bir dille soru sorun ve destekleyici işletme verileriyle yanıtı keşfedin."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Soru arkasındaki kayıtları bağlayın",
+        "description": "Kurulumunuza ve erişim izinlerinize göre bağlı POS, işgücü, envanter, rezervasyon ve teslimat kayıtlarını kullanın."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "heroTitle": "提出运营问题。探索答案。",
+    "responseDescription": "通过支持的数据卡、图表和分析视图探索答案。",
+    "briefingDescription": "使用个性化简报开启运营复盘。",
+    "differentiators": [
+      {
+        "description": "用日常语言提问，并结合支持的运营数据探索答案。"
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "连接问题背后的记录",
+        "description": "根据您的设置和访问权限使用连接的 POS、劳动力、库存、预订和配送记录。"
+      }
+    ]
+  },
+  "ja": {
+    "heroTitle": "運用の問いを投げる。答えを探る。",
+    "responseDescription": "対応するデータカード、チャート、解析ビューを通じて答えを探ります。",
+    "briefingDescription": "個別のブリーフィングを使って運用レビューを始めます。",
+    "differentiators": [
+      {
+        "description": "自然な言葉で質問し、裏付けとなる運用データで答えを深掘りします。"
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "質問の背後にある記録を接続する",
+        "description": "設定とアクセス権に応じて、接続されたPOS、ワークフォース、在庫、予約、配達の記録を使用します。"
+      }
+    ]
+  },
+  "ko": {
+    "heroTitle": "운영 관련 질문을 하세요. 답을 탐색하세요.",
+    "responseDescription": "지원되는 데이터 카드, 차트 및 분석 뷰를 통해 답을 탐색하세요.",
+    "briefingDescription": "개인화된 브리핑을 사용해 운영 검토를 시작하세요.",
+    "differentiators": [
+      {
+        "description": "일상 언어로 질문하고 지원되는 운영 데이터를 통해 답을 탐색하세요."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "질문 뒤의 기록을 연결하세요",
+        "description": "설정 및 접근 권한에 따라 연결된 POS, 인력, 재고, 예약 및 배달 기록을 사용하세요."
+      }
+    ]
+  },
+  "id": {
+    "heroTitle": "Ajukan pertanyaan operasi. Jelajahi jawabannya.",
+    "responseDescription": "Jelajahi jawaban melalui kartu data, grafik, dan tampilan analisis yang didukung.",
+    "briefingDescription": "Gunakan pengarahan yang dipersonalisasi untuk memulai tinjauan operasi.",
+    "differentiators": [
+      {
+        "description": "Ajukan pertanyaan dengan bahasa biasa dan jelajahi jawabannya dengan data operasi pendukung."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Hubungkan catatan di balik pertanyaan",
+        "description": "Gunakan catatan POS, tenaga kerja, inventaris, reservasi, dan pengiriman yang terhubung sesuai pengaturan dan izin akses Anda."
+      }
+    ]
+  },
+  "vi": {
+    "heroTitle": "Đặt câu hỏi vận hành. Khám phá câu trả lời.",
+    "responseDescription": "Khám phá câu trả lời qua các thẻ dữ liệu, biểu đồ và chế độ phân tích được hỗ trợ.",
+    "briefingDescription": "Sử dụng một bản tóm tắt cá nhân hóa để bắt đầu đánh giá vận hành.",
+    "differentiators": [
+      {
+        "description": "Đặt câu hỏi bằng ngôn ngữ thông thường và khám phá câu trả lời cùng dữ liệu vận hành hỗ trợ."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Kết nối hồ sơ đằng sau câu hỏi",
+        "description": "Sử dụng hồ sơ POS, quản lý nhân sự, tồn kho, đặt chỗ và giao hàng được kết nối theo thiết lập và quyền truy cập của bạn."
+      }
+    ]
+  },
+  "ro": {
+    "heroTitle": "Puneți o întrebare operațională. Explorați răspunsul.",
+    "responseDescription": "Explorați răspunsuri prin cardurile de date suportate, grafice și vederi de analiză.",
+    "briefingDescription": "Folosiți un briefing personalizat pentru a porni revizuirea operațională.",
+    "differentiators": [
+      {
+        "description": "Formulați o întrebare în limbaj curent și explorați răspunsul cu datele operaționale suport."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Conectați înregistrările din spatele întrebării",
+        "description": "Utilizați înregistrările conectate POS, workforce, inventory, reservation și delivery conform configurării și permisiunilor de acces."
+      }
+    ]
+  },
+  "sv": {
+    "heroTitle": "Ställ en driftfråga. Utforska svaret.",
+    "responseDescription": "Utforska svar genom de stödjande datakorten, diagrammen och analysvyerna.",
+    "briefingDescription": "Använd en personlig briefing för att påbörja driftsgenomgången.",
+    "differentiators": [
+      {
+        "description": "Ställ en fråga i naturligt språk och utforska svaret med stöd av de driftsdata som finns."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Koppla posterna bakom frågan",
+        "description": "Använd anslutna POS-, arbetskrafts-, inventarie-, boknings- och leveransposter enligt din konfiguration och åtkomsträttigheter."
+      }
+    ]
+  },
+  "bn": {
+    "heroTitle": "একটি অপারেটিং প্রশ্ন জিজ্ঞেস করুন। উত্তর অন্বেষণ করুন।",
+    "responseDescription": "সমর্থিত ডেটা কার্ড, চার্ট এবং বিশ্লেষণ ভিউগুলোর মাধ্যমে উত্তরগুলি অন্বেষণ করুন।",
+    "briefingDescription": "অপারেটিং রিভিউ শুরু করতে একটি ব্যক্তিগতকৃত ব্রিফিং ব্যবহার করুন।",
+    "differentiators": [
+      {
+        "description": "সরাসরি ভাষায় প্রশ্ন করুন এবং সমর্থনকারী অপারেটিং ডেটার সঙ্গে উত্তর অন্বেষণ করুন।"
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "প্রশ্নের পেছনের রেকর্ডগুলো সংযুক্ত করুন",
+        "description": "আপনার সেটআপ ও অ্যাক্সেস অনুমতিসমূহ অনুযায়ী সংযুক্ত POS, workforce, inventory, reservation এবং delivery রেকর্ড ব্যবহার করুন।"
+      }
+    ]
+  },
+  "th": {
+    "heroTitle": "ตั้งคำถามด้านการปฏิบัติงาน ค้นหาคำตอบ",
+    "responseDescription": "สำรวจคำตอบผ่านการ์ดข้อมูล แผนภูมิ และมุมมองการวิเคราะห์ที่รองรับ",
+    "briefingDescription": "ใช้บรีฟส่วนบุคคลเพื่อเริ่มการทบทวนการปฏิบัติงาน",
+    "differentiators": [
+      {
+        "description": "ตั้งคำถามเป็นภาษาธรรมดาแล้วสำรวจคำตอบพร้อมข้อมูลการปฏิบัติงานที่สนับสนุน"
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "เชื่อมบันทึกเบื้องหลังคำถาม",
+        "description": "ใช้บันทึก POS แรงงาน คลังสินค้า การจอง และการส่งตามการตั้งค่าและสิทธิ์การเข้าถึงของคุณ"
+      }
+    ]
+  },
+  "ms": {
+    "heroTitle": "Ajukan soalan operasi. Terokai jawapannya.",
+    "responseDescription": "Terokai jawapan melalui kad data, carta dan pandangan analisis yang disokong.",
+    "briefingDescription": "Gunakan taklimat peribadi untuk memulakan semakan operasi.",
+    "differentiators": [
+      {
+        "description": "Ajukan soalan dalam bahasa ringkas dan terokai jawapan dengan data operasi sokongan."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Sambungkan rekod di sebalik soalan",
+        "description": "Gunakan rekod POS, tenaga kerja, inventori, tempahan dan penghantaran yang disambungkan mengikut tetapan dan kebenaran capaian anda."
+      }
+    ]
+  }
+}

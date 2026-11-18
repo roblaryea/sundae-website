@@ -1,0 +1,90 @@
+{
+  "en": {
+    "statement": "Start with the question *your team needs to answer.*",
+    "lede": "Compare the relevant records, understand the recommendation and give the next action an owner. Use the same operating context at location and group level."
+  },
+  "ar": {
+    "statement": "ابدأ بالسؤال *الذي يحتاج فريقك للإجابة عنه.*",
+    "lede": "قارن السجلات ذات الصلة، افهم التوصية ومنح الإجراء التالي مالكاً. استخدم نفس السياق التشغيلي على مستوى الموقع والمجموعة."
+  },
+  "fr": {
+    "statement": "Commencez par la question *que votre équipe doit répondre.*",
+    "lede": "Comparer les dossiers pertinents, comprendre la recommandation et donner un propriétaire à l'action suivante. Utilisez le même contexte opérationnel au niveau local et du groupe."
+  },
+  "es": {
+    "statement": "Comience con la pregunta *que su equipo necesita responder.*",
+    "lede": "Compare los registros relevantes, entienda la recomendación y asigne un responsable a la siguiente acción. Use el mismo contexto operativo a nivel de local y de grupo."
+  },
+  "de": {
+    "statement": "Starten Sie mit der Frage *die Ihr Team beantworten muss.*",
+    "lede": "Vergleichen Sie die relevanten Aufzeichnungen, verstehen Sie die Empfehlung und geben Sie der nächsten Maßnahme einen Verantwortlichen. Nutzen Sie denselben operativen Kontext auf Standort- und Gruppenebene."
+  },
+  "nl": {
+    "statement": "Begin met de vraag *die uw team moet beantwoorden.*",
+    "lede": "Vergelijk de relevante gegevens, begrijp de aanbeveling en geef de volgende actie een eigenaar. Gebruik dezelfde operationele context op locatie- en groepsniveau."
+  },
+  "pt": {
+    "statement": "Comece com a pergunta *que sua equipe precisa responder.*",
+    "lede": "Compare os registros relevantes, entenda a recomendação e dê um dono para a próxima ação. Use o mesmo contexto operacional em nível de local e grupo."
+  },
+  "hi": {
+    "statement": "*आपकी टीम को जिसका उत्तर देना है* से प्रश्न के साथ शुरू करें।",
+    "lede": "प्रासंगिक रिकॉर्ड की तुलना करें, सिफारिश समझें और अगले कार्रवाई का एक मालिक दें। स्थान और समूह स्तर पर वही ऑपरेटिंग संदर्भ उपयोग करें।"
+  },
+  "ur": {
+    "statement": "سوال سے شروع کریں *جس کا آپ کی ٹیم جواب دینے کی ضرورت رکھتی ہے.*",
+    "lede": "متعلقہ ریکارڈز کا موازنہ کریں، سفارش سمجھیں اور اگلے عمل کا مالک مقرر کریں۔ مقام اور گروپ سطح پر ایک ہی آپریٹنگ سیاق و سباق استعمال کریں۔"
+  },
+  "it": {
+    "statement": "Inizia con la domanda *che il tuo team deve rispondere.*",
+    "lede": "Confronta i record rilevanti, comprendi la raccomandazione e assegna un responsabile alla prossima azione. Usa lo stesso contesto operativo a livello di sede e di gruppo."
+  },
+  "pl": {
+    "statement": "Zacznij od pytania *które Twój zespół musi odpowiedzieć.*",
+    "lede": "Porównaj odpowiednie zapisy, zrozum rekomendację i nadaj następnemu działaniu właściciela. Używaj tego samego kontekstu operacyjnego na poziomie lokalnym i grupowym."
+  },
+  "tr": {
+    "statement": "Başlangıç sorusu *ekibinizin yanıtlaması gereken* soruyla olsun.",
+    "lede": "İlgili kayıtları karşılaştırın, öneriyi anlayın ve sonraki eyleğe bir sahip atayın. Aynı işletme bağlamını konum ve grup düzeyinde kullanın."
+  },
+  "zh-Hans": {
+    "statement": "从 *您的团队需要回答的* 问题开始。",
+    "lede": "比较相关记录、理解建议并为下一步行动指定负责人。在门店与集团层面使用相同的运营语境。"
+  },
+  "ja": {
+    "statement": "*チームが答える必要のある*質問から始める。",
+    "lede": "関連する記録を比較し、推奨を理解し、次のアクションに担当を付ける。ロケーションとグループレベルで同じ稼働文脈を使う。"
+  },
+  "ko": {
+    "statement": "팀이 *답해야 할 질문*으로 시작하세요.",
+    "lede": "관련 기록을 비교하고 권고를 이해한 뒤 다음 행동에 책임자를 지정하세요. 지점 및 그룹 수준에서 동일한 운영 맥락을 사용하세요."
+  },
+  "id": {
+    "statement": "Mulai dengan pertanyaan *yang tim Anda perlu jawab.*",
+    "lede": "Bandingkan catatan relevan, pahami rekomendasi dan beri tindakan berikutnya pemilik. Gunakan konteks operasional yang sama di tingkat lokasi dan grup."
+  },
+  "vi": {
+    "statement": "Bắt đầu với câu hỏi *đội của bạn cần trả lời.*",
+    "lede": "So sánh các hồ sơ liên quan, hiểu khuyến nghị và giao chủ sở hữu cho hành động tiếp theo. Dùng cùng bối cảnh vận hành ở cấp địa điểm và nhóm."
+  },
+  "ro": {
+    "statement": "Porniți de la întrebarea *pe care echipa dvs. trebuie s-o răspundă.*",
+    "lede": "Comparați registrele relevante, înțelegeți recomandarea și dați proprietarului acțiunea următoare. Folosiți același context operațional la nivel de locație și grup."
+  },
+  "sv": {
+    "statement": "Börja med frågan *ditt team behöver svara på.*",
+    "lede": "Jämför relevanta poster, förstå rekommendationen och ge nästa åtgärd en ägare. Använd samma driftkontext på plats- och koncernnivå."
+  },
+  "bn": {
+    "statement": "প্রশ্ন দিয়ে শুরু করুন *যা আপনার দলকে উত্তর দিতে হবে.*",
+    "lede": "প্রাসঙ্গিক রেকর্ডগুলো তুলনা করুন, সুপারিশটা বুঝুন এবং পরবর্তী কাজের জন্য একজন দায়িত্ব দিন। লোকেশন ও গ্রুপ স্তরে একই অপারেটিং কনটেক্সট ব্যবহার করুন।"
+  },
+  "th": {
+    "statement": "เริ่มด้วยคำถาม *ที่ทีมของคุณต้องตอบ*",
+    "lede": "เปรียบเทียบบันทึกที่เกี่ยวข้อง เข้าใจคำแนะนำ และมอบหมายผู้รับผิดชอบการดำเนินการครั้งต่อไป ใช้บริบทการปฏิบัติงายเดียวกันทั้งระดับสาขาและกลุ่ม"
+  },
+  "ms": {
+    "statement": "Mula dengan soalan *yang pasukan anda perlu jawab.*",
+    "lede": "Bandingkan rekod yang relevan, fahami cadangan dan berikan tindakan seterusnya seorang pemilik. Gunakan konteks operasi yang sama pada peringkat lokasi dan kumpulan."
+  }
+}

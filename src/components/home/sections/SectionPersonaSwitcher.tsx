@@ -6,7 +6,8 @@ import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledRed
 import { Button } from "@/components/ui/Button";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import buyerBodyCopy from '@/content/buyer-depth/homeDepth.json';
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionPersonaSwitcher'
 
 /**
@@ -131,7 +132,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedPersonaSwitcher>
 export function SectionPersonaSwitcher() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const currentCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const copy = mergeGeneratedCopy(currentCopy, { personas: buyerBodyCopy[locale as keyof typeof buyerBodyCopy].personas });
   const [activeIdx, setActiveIdx] = useState<number>(0);
   const active = copy.personas[activeIdx];
   const activeStructure = personaStructure[activeIdx];

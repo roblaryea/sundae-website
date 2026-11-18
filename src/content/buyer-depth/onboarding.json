@@ -1,0 +1,1960 @@
+{
+  "en": {
+    "description": "Start with the work you need to improve. Choose Core for operating analysis, Crew for workforce and daily execution, or both for a connected view.",
+    "journeyDescription": "From the first operating question to a scoped rollout and review.",
+    "steps": [
+      {
+        "title": "Choose the first operating question",
+        "subtitle": "Start with a workflow or a performance gap.",
+        "description": "Is the immediate need scheduling, attendance or handovers, or understanding sales, cost and demand? Bring that question to a walkthrough. The diagnostic can help organize a performance question.",
+        "actions": [
+          "Choose the team and workflow",
+          "Identify the operating question",
+          "Use your data or a sample operation",
+          "Agree what a useful first review would show"
+        ],
+        "timeline": "A first working session"
+      },
+      {
+        "title": "Choose Core, Crew or both",
+        "subtitle": "Select the capabilities your team needs.",
+        "description": "Core connects operating data with analysis and recommendations. Crew runs workforce and daily work. Review package coverage, prerequisites and your location count in the pricing calculator.",
+        "actions": [
+          "Core for performance and operating decisions",
+          "Crew for schedules, attendance, people and payroll",
+          "Tasks and logbook through Crew Operations",
+          "Tip workflows through Crew Payroll"
+        ]
+      },
+      {
+        "title": "Scope sources and workflow setup",
+        "subtitle": "Confirm the connections and the work.",
+        "description": "For Core, review the required sources, fields and refresh timing. For Crew, agree locations, staff access, schedules and approval rules. Confirm country and provider needs where payroll is involved.",
+        "actions": [
+          "Review sources and available records",
+          "Set locations, roles and access",
+          "Confirm approval and payroll/provider scope",
+          "Check the setup with the team"
+        ]
+      },
+      {
+        "title": "Review the first workflow or answer",
+        "subtitle": "Keep the team responsible for the decision.",
+        "description": "Walk through the task, handover, schedule or operating question. Check the recommendation and supporting records, then agree what the team will do next.",
+        "actions": [
+          "Inspect the workflow with its users",
+          "Check the source and any assumptions",
+          "Assign the next action",
+          "Choose the comparison for the next review"
+        ]
+      },
+      {
+        "title": "Review and extend deliberately",
+        "subtitle": "Measure the work before expanding.",
+        "description": "Review adoption, data coverage and the first operating results. Extend capabilities or locations where the next need is clear.",
+        "actions": [
+          "Check use by the intended teams",
+          "Resolve source and workflow gaps",
+          "Review actions and supported outcomes",
+          "Update the package estimate when scope changes"
+        ]
+      }
+    ],
+    "noForcedTitle": "Start with the work you need.",
+    "noForcedDescription": "Crew can be your starting point for workforce and daily operations. Core can work with connected sources you already use. Choose both when the workflow and operating analysis need to come together.",
+    "commonJourneysDescription": "Examples to discuss, rather than required packages for each size.",
+    "journeys": [
+      {
+        "items": [
+          "Crew for a schedule, hours or handover need",
+          "Core Foundation for a shared operating view",
+          "Review coverage before adding depth"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin or Growth according to the operating question",
+          "Crew Operating or Complete when tasks, logbook and payroll are needed",
+          "Review Foresight availability in your chosen package"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance for group analysis and consolidation",
+          "Scope Crew, access and country/provider requirements",
+          "Review integrations, extensions and rollout with Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Bring one workflow or operating question, use the pricing calculator or start with the diagnostic."
+  },
+  "ar": {
+    "description": "ابدأ بالعمل الذي تحتاج لتحسينه. اختر Core لتحليل التشغيل، Crew للقوى العاملة والتنفيذ اليومي، أو كليهما لرؤية متصلة.",
+    "journeyDescription": "من السؤال التشغيلي الأول إلى نطاق نشر محدد ومراجعة.",
+    "steps": [
+      {
+        "title": "اختر السؤال التشغيلي الأول",
+        "subtitle": "ابدأ بسير عمل أو فجوة أداء.",
+        "description": "هل الحاجة الفورية هي الجدولة أو الحضور أو التسليمات، أم فهم المبيعات والتكلفة والطلب؟ أحضر ذلك السؤال لجولة توضيحية. يمكن للتشخيص تنظيم سؤال الأداء.",
+        "actions": [
+          "اختر الفريق وسير العمل",
+          "حدد السؤال التشغيلي",
+          "استخدم بياناتك أو عملية نموذجية",
+          "اتفق ماذا ستعرض المراجعة الأولى المفيدة"
+        ],
+        "timeline": "جلسة عمل أولى"
+      },
+      {
+        "title": "اختر Core أو Crew أو كليهما",
+        "subtitle": "حدد القدرات التي يحتاجها فريقك.",
+        "description": "Core يربط بيانات التشغيل بالتحليل والتوصيات. Crew يدير القوى العاملة والعمل اليومي. راجع تغطية الحزمة والمتطلبات المسبقة وعدد المواقع في حاسبة التسعير.",
+        "actions": [
+          "Core للقرارات التشغيلية والأداء",
+          "Crew للجدولة والحضور والأشخاص والرواتب",
+          "المهام وسجل الأحداث عبر Crew Operations",
+          "سير العمل الضريبي عبر Crew Payroll"
+        ]
+      },
+      {
+        "title": "حدد المصادر وإعداد سير العمل",
+        "subtitle": "أكد الوصلات والعمل.",
+        "description": "بالنسبة لـ Core، راجع المصادر المطلوبة والحقول وتوقيت التحديث. بالنسبة لـ Crew، اتفق على المواقع، وصول الموظفين، الجداول وقواعد الموافقة. أكد متطلبات البلد والمزود حيث يُشمل الرواتب.",
+        "actions": [
+          "راجع المصادر والسجلات المتاحة",
+          "حدد المواقع والأدوار والوصول",
+          "أكد نطاق الموافقة والرواتب/المزود",
+          "تحقق من الإعداد مع الفريق"
+        ]
+      },
+      {
+        "title": "راجع سير العمل أو الجواب الأول",
+        "subtitle": "اجعل الفريق مسؤولاً عن القرار.",
+        "description": "استعرض المهمة أو التسليم أو الجدول أو السؤال التشغيلي. تحقق من التوصية والسجلات الداعمة، ثم اتفق ما الذي سيفعله الفريق تالياً.",
+        "actions": [
+          "افحص سير العمل مع مستخدميه",
+          "تحقق من المصدر وأي فروض",
+          "عيّن الإجراء التالي",
+          "اختر المقارنة للمراجعة التالية"
+        ]
+      },
+      {
+        "title": "راجع ووسّع بعناية",
+        "subtitle": "قِس العمل قبل التوسيع.",
+        "description": "راجع الاعتماد وتغطية البيانات والنتائج التشغيلية الأولى. وسّع القدرات أو المواقع حيث الحاجة التالية واضحة.",
+        "actions": [
+          "تحقق من الاستخدام من الفرق المقصودة",
+          "حل فجوات المصدر وسير العمل",
+          "راجع الإجراءات والنتائج المدعومة",
+          "حدّث تقدير الحزمة عند تغير النطاق"
+        ]
+      }
+    ],
+    "noForcedTitle": "ابدأ بالعمل الذي تحتاجه.",
+    "noForcedDescription": "يمكن أن تكون Crew نقطة انطلاقك للقوى العاملة والعمليات اليومية. يمكن لـ Core العمل مع المصادر المتصلة التي تستخدمها بالفعل. اختر كلاهما عندما تحتاج سير العمل والتحليل التشغيلي للاندماج.",
+    "commonJourneysDescription": "أمثلة للنقاش، وليست حزماً مطلوبة لكل حجم.",
+    "journeys": [
+      {
+        "items": [
+          "Crew لحاجة جدول أو ساعات أو تسليم",
+          "Core Foundation لرؤية تشغيلية مشتركة",
+          "راجع التغطية قبل إضافة العمق"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin أو Growth حسب السؤال التشغيلي",
+          "Crew Operating أو Complete عند الحاجة للمهام والسجل والرواتب",
+          "راجع توفر Foresight في الحزمة التي تختارها"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance لتحليل وتجميع المجموعة",
+          "حدد نطاق Crew والوصول ومتطلبات البلد/المزود",
+          "راجع التكاملات والامتدادات والنشر مع Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "أحضر سير عمل أو سؤال تشغيلي واحد، استخدم حاسبة التسعير أو ابدأ بالتشخيص."
+  },
+  "fr": {
+    "description": "Commencez par le travail que vous devez améliorer. Choisissez Core pour l'analyse opérationnelle, Crew pour la main-d'œuvre et l'exécution quotidienne, ou les deux pour une vue connectée.",
+    "journeyDescription": "De la première question opérationnelle à un déploiement cadré et une revue.",
+    "steps": [
+      {
+        "title": "Choisir la première question opérationnelle",
+        "subtitle": "Commencez par un workflow ou un écart de performance.",
+        "description": "Le besoin immédiat est-il la planification, la présence ou les handovers, ou comprendre ventes, coûts et demande ? Apportez cette question à une démonstration. Le diagnostic peut aider à organiser une question de performance.",
+        "actions": [
+          "Choisir l'équipe et le workflow",
+          "Identifier la question opérationnelle",
+          "Utiliser vos données ou une opération d'exemple",
+          "Convenir de ce qu'une première revue utile doit montrer"
+        ],
+        "timeline": "Une première session de travail"
+      },
+      {
+        "title": "Choisir Core, Crew ou les deux",
+        "subtitle": "Sélectionnez les capacités dont votre équipe a besoin.",
+        "description": "Core connecte les données opérationnelles avec l'analyse et les recommandations. Crew gère la main-d'œuvre et le travail quotidien. Revoir la couverture de package, les prérequis et le nombre de sites dans le calculateur de prix.",
+        "actions": [
+          "Core pour la performance et décisions opérationnelles",
+          "Crew pour plannings, présence, personnes et paie",
+          "Tâches et registre via Crew Operations",
+          "Workflows de tips via Crew Payroll"
+        ]
+      },
+      {
+        "title": "Cadrer sources et configuration du workflow",
+        "subtitle": "Confirmer les connexions et le travail.",
+        "description": "Pour Core, revoir sources requises, champs et timing de rafraîchissement. Pour Crew, convenir emplacements, accès du personnel, plannings et règles d'approbation. Confirmer besoins pays et provider lorsque la paie est impliquée.",
+        "actions": [
+          "Revoir sources et dossiers disponibles",
+          "Définir emplacements, rôles et accès",
+          "Confirmer périmètre d'approbation et paie/provider",
+          "Vérifier la configuration avec l'équipe"
+        ]
+      },
+      {
+        "title": "Revoir le premier workflow ou réponse",
+        "subtitle": "Garder l'équipe responsable de la décision.",
+        "description": "Parcourir la tâche, le handover, le planning ou la question opérationnelle. Vérifier la recommandation et les dossiers justificatifs, puis convenir de ce que l'équipe fera ensuite.",
+        "actions": [
+          "Inspecter le workflow avec ses utilisateurs",
+          "Vérifier la source et les hypothèses",
+          "Assigner l'action suivante",
+          "Choisir la comparaison pour la prochaine revue"
+        ]
+      },
+      {
+        "title": "Revoir et étendre délibérément",
+        "subtitle": "Mesurer le travail avant d'élargir.",
+        "description": "Revoir adoption, couverture des données et premiers résultats opérationnels. Étendre capacités ou emplacements lorsque le prochain besoin est clair.",
+        "actions": [
+          "Vérifier l'utilisation par les équipes ciblées",
+          "Résoudre les écarts de source et de workflow",
+          "Revoir actions et résultats supportés",
+          "Mettre à jour l'estimation de package lorsque le périmètre change"
+        ]
+      }
+    ],
+    "noForcedTitle": "Commencez par le travail dont vous avez besoin.",
+    "noForcedDescription": "Crew peut être votre point de départ pour workforce et opérations quotidiennes. Core peut fonctionner avec les sources connectées que vous utilisez déjà. Choisissez les deux lorsque le workflow et l'analyse opérationnelle doivent se rejoindre.",
+    "commonJourneysDescription": "Exemples à discuter, plutôt que des packages obligatoires pour chaque taille.",
+    "journeys": [
+      {
+        "items": [
+          "Crew pour un besoin de planning, d'heures ou de handover",
+          "Core Foundation pour une vue opérationnelle partagée",
+          "Revoir la couverture avant d'ajouter de la profondeur"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin ou Growth selon la question opérationnelle",
+          "Crew Operating ou Complete lorsque tâches, registre et paie sont nécessaires",
+          "Vérifier la disponibilité de Foresight dans le package choisi"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance pour analyse de groupe et consolidation",
+          "Cadrer Crew, accès et exigences pays/provider",
+          "Revoir intégrations, extensions et déploiement avec Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Apportez un workflow ou une question opérationnelle, utilisez le calculateur de prix ou commencez par le diagnostic."
+  },
+  "es": {
+    "description": "Comience con el trabajo que necesita mejorar. Elija Core para análisis operativo, Crew para plantilla y ejecución diaria, o ambos para una vista conectada.",
+    "journeyDescription": "Desde la primera pregunta operativa hasta un despliegue con alcance y revisión.",
+    "steps": [
+      {
+        "title": "Elija la primera pregunta operativa",
+        "subtitle": "Comience con un flujo de trabajo o una brecha de rendimiento.",
+        "description": "¿La necesidad inmediata es programación, asistencia o traspasos, o entender ventas, costes y demanda? Lleve esa pregunta a una sesión guiada. El diagnóstico puede ayudar a organizar la pregunta de rendimiento.",
+        "actions": [
+          "Elija el equipo y flujo de trabajo",
+          "Identifique la pregunta operativa",
+          "Use sus datos o una operación de muestra",
+          "Acepte qué mostraría una primera revisión útil"
+        ],
+        "timeline": "Una primera sesión de trabajo"
+      },
+      {
+        "title": "Elija Core, Crew o ambos",
+        "subtitle": "Seleccione las capacidades que su equipo necesita.",
+        "description": "Core conecta datos operativos con análisis y recomendaciones. Crew ejecuta plantilla y trabajo diario. Revise cobertura de paquete, prerrequisitos y su número de locales en la calculadora de precios.",
+        "actions": [
+          "Core para decisiones de rendimiento y operativas",
+          "Crew para horarios, asistencia, personas y nómina",
+          "Tareas y libro de registro mediante Crew Operations",
+          "Flujos de trabajo de propinas mediante Crew Payroll"
+        ]
+      },
+      {
+        "title": "Definir fuentes y configuración de flujo",
+        "subtitle": "Confirme las conexiones y el trabajo.",
+        "description": "Para Core, revise las fuentes requeridas, campos y cadencia de actualización. Para Crew, acuerde ubicaciones, acceso del personal, horarios y reglas de aprobación. Confirme requisitos de país y proveedor donde intervenga la nómina.",
+        "actions": [
+          "Revisar fuentes y registros disponibles",
+          "Configurar ubicaciones, roles y accesos",
+          "Confirmar alcance de aprobación y nómina/proveedor",
+          "Comprobar la configuración con el equipo"
+        ]
+      },
+      {
+        "title": "Revisar el primer flujo o respuesta",
+        "subtitle": "Mantenga al equipo responsable de la decisión.",
+        "description": "Revise la tarea, traspaso, horario o pregunta operativa. Compruebe la recomendación y los registros de soporte, luego acuerde qué hará el equipo a continuación.",
+        "actions": [
+          "Inspeccionar el flujo con sus usuarios",
+          "Comprobar la fuente y las suposiciones",
+          "Asignar la siguiente acción",
+          "Elegir la comparación para la próxima revisión"
+        ]
+      },
+      {
+        "title": "Revisar y ampliar con intención",
+        "subtitle": "Mida el trabajo antes de expandir.",
+        "description": "Revise adopción, cobertura de datos y los primeros resultados operativos. Extienda capacidades o ubicaciones donde la siguiente necesidad esté clara.",
+        "actions": [
+          "Verificar uso por los equipos previstos",
+          "Resolver brechas de fuente y flujo",
+          "Revisar acciones y resultados soportados",
+          "Actualizar la estimación de paquete cuando cambie el alcance"
+        ]
+      }
+    ],
+    "noForcedTitle": "Comience con el trabajo que necesita.",
+    "noForcedDescription": "Crew puede ser su punto de partida para plantilla y operaciones diarias. Core puede funcionar con fuentes conectadas que ya use. Elija ambos cuando el flujo de trabajo y el análisis operativo deban unirse.",
+    "commonJourneysDescription": "Ejemplos para discutir, no paquetes obligatorios por tamaño.",
+    "journeys": [
+      {
+        "items": [
+          "Crew para una necesidad de horario, horas o traspaso",
+          "Core Foundation para una vista operativa compartida",
+          "Revisar cobertura antes de añadir profundidad"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin o Growth según la pregunta operativa",
+          "Crew Operating o Complete cuando se necesiten tareas, libro de registro y nómina",
+          "Revisar disponibilidad de Foresight en su paquete elegido"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance para análisis de grupo y consolidación",
+          "Definir Crew, acceso y requisitos de país/proveedor",
+          "Revisar integraciones, extensiones y despliegue con Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Traiga un flujo o pregunta operativa, use la calculadora de precios o comience con el diagnóstico."
+  },
+  "de": {
+    "description": "Beginnen Sie mit der Arbeit, die Sie verbessern müssen. Wählen Sie Core für operative Analysen, Crew für Workforce und tägliche Ausführung oder beide für eine verbundene Sicht.",
+    "journeyDescription": "Von der ersten operativen Frage bis zu einem abgesteckten Rollout und Review.",
+    "steps": [
+      {
+        "title": "Wählen Sie die erste operative Frage",
+        "subtitle": "Starten Sie mit einem Workflow oder einer Leistungslücke.",
+        "description": "Ist der unmittelbare Bedarf Dienstplanung, Anwesenheit oder Übergaben, oder das Verständnis von Umsatz, Kosten und Nachfrage? Bringen Sie diese Frage in eine Walkthrough. Die Diagnose kann helfen, eine Leistungsfrage zu strukturieren.",
+        "actions": [
+          "Wählen Sie das Team und den Workflow",
+          "Identifizieren Sie die operative Frage",
+          "Nutzen Sie Ihre Daten oder einen Beispielbetrieb",
+          "Vereinbaren Sie, was eine nützliche erste Review zeigen würde"
+        ],
+        "timeline": "Eine erste Arbeitssitzung"
+      },
+      {
+        "title": "Wählen Sie Core, Crew oder beides",
+        "subtitle": "Wählen Sie die Fähigkeiten, die Ihr Team benötigt.",
+        "description": "Core verbindet operative Daten mit Analyse und Empfehlungen. Crew steuert Workforce und tägliche Arbeit. Prüfen Sie Paketabdeckung, Voraussetzungen und Ihre Standortanzahl im Preisrechner.",
+        "actions": [
+          "Core für Performance und operative Entscheidungen",
+          "Crew für Dienstpläne, Anwesenheit, Personen und Payroll",
+          "Aufgaben und Logbuch über Crew Operations",
+          "Tipp-Workflows über Crew Payroll"
+        ]
+      },
+      {
+        "title": "Quellen und Workflow-Setup festlegen",
+        "subtitle": "Bestätigen Sie die Verbindungen und die Arbeit.",
+        "description": "Für Core prüfen Sie die erforderlichen Quellen, Felder und Refresh-Zeiten. Für Crew einigen Sie sich auf Standorte, Mitarbeiterzugriff, Dienstpläne und Genehmigungsregeln. Bestätigen Sie Landes- und Provider-Bedürfnisse, wenn Payroll involviert ist.",
+        "actions": [
+          "Quellen und verfügbare Aufzeichnungen prüfen",
+          "Standorte, Rollen und Zugriffe setzen",
+          "Genehmigungs- und Payroll/Provider-Scope bestätigen",
+          "Setup mit dem Team prüfen"
+        ]
+      },
+      {
+        "title": "Den ersten Workflow oder die erste Antwort prüfen",
+        "subtitle": "Halten Sie das Team für die Entscheidung verantwortlich.",
+        "description": "Führen Sie den Task, die Übergabe, den Dienstplan oder die operative Frage durch. Prüfen Sie die Empfehlung und die unterstützenden Unterlagen, dann einigen Sie sich, was das Team als Nächstes tun wird.",
+        "actions": [
+          "Den Workflow mit seinen Nutzern prüfen",
+          "Quelle und Annahmen prüfen",
+          "Die nächste Maßnahme zuweisen",
+          "Den Vergleich für die nächste Review wählen"
+        ]
+      },
+      {
+        "title": "Bewusst prüfen und ausweiten",
+        "subtitle": "Messen Sie die Arbeit bevor Sie erweitern.",
+        "description": "Überprüfen Sie Adoption, Datenabdeckung und die ersten operativen Ergebnisse. Erweitern Sie Fähigkeiten oder Standorte, wo der nächste Bedarf klar ist.",
+        "actions": [
+          "Nutzung durch die vorgesehenen Teams prüfen",
+          "Quellen- und Workflow-Lücken beheben",
+          "Aktionen und unterstützte Ergebnisse prüfen",
+          "Paketschätzung aktualisieren, wenn sich der Scope ändert"
+        ]
+      }
+    ],
+    "noForcedTitle": "Beginnen Sie mit der Arbeit, die Sie brauchen.",
+    "noForcedDescription": "Crew kann Ihr Einstiegspunkt für Workforce und tägliche Abläufe sein. Core kann mit bereits genutzten verbundenen Quellen arbeiten. Wählen Sie beide, wenn Workflow und operative Analyse zusammengeführt werden müssen.",
+    "commonJourneysDescription": "Beispiele zur Diskussion, nicht verpflichtende Pakete für jede Größe.",
+    "journeys": [
+      {
+        "items": [
+          "Crew für Dienstplan-, Stunden- oder Übergabebedarf",
+          "Core Foundation für eine geteilte operative Sicht",
+          "Abdeckung prüfen, bevor Sie Tiefe hinzufügen"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin oder Growth je nach operativer Frage",
+          "Crew Operating oder Complete, wenn Aufgaben, Logbuch und Payroll benötigt werden",
+          "Foresight-Verfügbarkeit im gewählten Paket prüfen"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance für Gruppenanalyse und Konsolidierung",
+          "Crew, Zugriff und Landes/Provider-Anforderungen abstecken",
+          "Integrationen, Erweiterungen und Rollout mit Sundae prüfen"
+        ]
+      }
+    ],
+    "finalDescription": "Bringen Sie einen Workflow oder eine operative Frage, nutzen Sie den Preisrechner oder starten Sie mit der Diagnose."
+  },
+  "nl": {
+    "description": "Begin met het werk dat u wilt verbeteren. Kies Core voor operationele analyse, Crew voor workforce en dagelijkse uitvoering, of beide voor een verbonden beeld.",
+    "journeyDescription": "Van de eerste operationele vraag tot een gescopede uitrol en review.",
+    "steps": [
+      {
+        "title": "Kies de eerste operationele vraag",
+        "subtitle": "Begin met een workflow of een prestatiekloof.",
+        "description": "Is de onmiddellijke behoefte planning, aanwezigheid of overdrachten, of het begrijpen van omzet, kosten en vraag? Breng die vraag naar een walkthrough. De diagnose kan helpen een prestatievraag te structureren.",
+        "actions": [
+          "Kies het team en de workflow",
+          "Identificeer de operationele vraag",
+          "Gebruik uw data of een voorbeeldoperatie",
+          "Kom overeen wat een nuttige eerste review moet tonen"
+        ],
+        "timeline": "Een eerste werksessie"
+      },
+      {
+        "title": "Kies Core, Crew of beide",
+        "subtitle": "Selecteer de mogelijkheden die uw team nodig heeft.",
+        "description": "Core verbindt operationele data met analyse en aanbevelingen. Crew draait workforce en dagelijks werk. Beoordeel pakketdekking, vereisten en uw locatieaantal in de prijscalculator.",
+        "actions": [
+          "Core voor prestaties en operationele beslissingen",
+          "Crew voor roosters, aanwezigheid, personeels- en payroll",
+          "Taken en logboek via Crew Operations",
+          "Tip-workflows via Crew Payroll"
+        ]
+      },
+      {
+        "title": "Scope bronnen en workflowsetup",
+        "subtitle": "Bevestig de connecties en het werk.",
+        "description": "Voor Core: beoordeel de vereiste bronnen, velden en ververstiming. Voor Crew: kom locaties, medewerkersaccess, roosters en goedkeuringsregels overeen. Bevestig land- en providerbehoeften waar payroll betrokken is.",
+        "actions": [
+          "Beoordeel bronnen en beschikbare records",
+          "Stel locaties, rollen en toegang in",
+          "Bevestig goedkeurings- en payroll/provider-scope",
+          "Controleer de setup met het team"
+        ]
+      },
+      {
+        "title": "Beoordeel de eerste workflow of antwoord",
+        "subtitle": "Houd het team verantwoordelijk voor de beslissing.",
+        "description": "Loop de taak, overdracht, planning of operationele vraag door. Controleer de aanbeveling en ondersteunende records en kom daarna overeen wat het team vervolgens doet.",
+        "actions": [
+          "Inspecteer de workflow met de gebruikers",
+          "Controleer de bron en eventuele aannames",
+          "Wijs de volgende actie toe",
+          "Kies de vergelijking voor de volgende review"
+        ]
+      },
+      {
+        "title": "Beoordeel en breid bewust uit",
+        "subtitle": "Meet het werk voordat u uitbreidt.",
+        "description": "Beoordeel adoptie, datadekking en de eerste operationele resultaten. Breid mogelijkheden of locaties uit waar de volgende behoefte duidelijk is.",
+        "actions": [
+          "Controleer gebruik door de beoogde teams",
+          "Los bron- en workflowhiaten op",
+          "Beoordeel acties en ondersteunde uitkomsten",
+          "Werk de pakketraming bij bij scopewijzigingen"
+        ]
+      }
+    ],
+    "noForcedTitle": "Begin met het werk dat u nodig heeft.",
+    "noForcedDescription": "Crew kan uw startpunt zijn voor workforce en dagelijkse operatie. Core kan werken met verbonden bronnen die u al gebruikt. Kies beide wanneer workflow en operationele analyse samen moeten komen.",
+    "commonJourneysDescription": "Voorbeelden om te bespreken, geen verplichte pakketten per grootte.",
+    "journeys": [
+      {
+        "items": [
+          "Crew voor planning-, uren- of overdrachtbehoefte",
+          "Core Foundation voor een gedeeld operationeel beeld",
+          "Beoordeel dekking vóór het toevoegen van diepgang"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin of Growth afhankelijk van de operationele vraag",
+          "Crew Operating of Complete wanneer taken, logboek en payroll nodig zijn",
+          "Controleer Foresight-beschikbaarheid in uw gekozen pakket"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance voor groepsanalyse en consolidatie",
+          "Scope Crew, toegang en land/provider-vereisten",
+          "Beoordeel integraties, extensies en uitrol met Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Breng één workflow of operationele vraag, gebruik de prijscalculator of begin met de diagnose."
+  },
+  "pt": {
+    "description": "Comece com o trabalho que você precisa melhorar. Escolha Core para análise operacional, Crew para força de trabalho e execução diária, ou ambos para uma visão conectada.",
+    "journeyDescription": "Da primeira pergunta operacional a um rollout e revisão com escopo.",
+    "steps": [
+      {
+        "title": "Escolher a primeira pergunta operacional",
+        "subtitle": "Comece com um fluxo de trabalho ou uma lacuna de desempenho.",
+        "description": "A necessidade imediata é escala, presença ou handovers, ou entender vendas, custos e demanda? Traga essa pergunta para um walkthrough. O diagnóstico pode ajudar a organizar a questão de desempenho.",
+        "actions": [
+          "Escolher a equipe e o fluxo de trabalho",
+          "Identificar a pergunta operacional",
+          "Usar seus dados ou uma operação de amostra",
+          "Concordar o que uma primeira revisão útil deve mostrar"
+        ],
+        "timeline": "Uma primeira sessão de trabalho"
+      },
+      {
+        "title": "Escolher Core, Crew ou ambos",
+        "subtitle": "Selecione as capacidades que sua equipe precisa.",
+        "description": "Core conecta dados operacionais com análise e recomendações. Crew gerencia força de trabalho e trabalho diário. Reveja cobertura de pacote, pré-requisitos e sua contagem de locais na calculadora de preços.",
+        "actions": [
+          "Core para decisões de desempenho e operação",
+          "Crew para escalas, presença, pessoas e folha",
+          "Tarefas e registro através do Crew Operations",
+          "Fluxos de pagamento através do Crew Payroll"
+        ]
+      },
+      {
+        "title": "Delimitar fontes e configuração de fluxo",
+        "subtitle": "Confirmar as conexões e o trabalho.",
+        "description": "Para Core, reveja as fontes requeridas, campos e tempo de atualização. Para Crew, concorde locais, acesso da equipe, escalas e regras de aprovação. Confirme necessidades de país e provedor onde folha estiver envolvida.",
+        "actions": [
+          "Revisar fontes e registros disponíveis",
+          "Definir locais, funções e acesso",
+          "Confirmar aprovação e escopo de folha/provedor",
+          "Checar a configuração com a equipe"
+        ]
+      },
+      {
+        "title": "Revisar o primeiro fluxo ou resposta",
+        "subtitle": "Manter a equipe responsável pela decisão.",
+        "description": "Percorra a tarefa, handover, escala ou pergunta operacional. Verifique a recomendação e os registros de suporte, depois concorde o que a equipe fará a seguir.",
+        "actions": [
+          "Inspecionar o fluxo com seus usuários",
+          "Verificar a fonte e quaisquer premissas",
+          "Atribuir a próxima ação",
+          "Escolher a comparação para a próxima revisão"
+        ]
+      },
+      {
+        "title": "Revisar e expandir deliberadamente",
+        "subtitle": "Medir o trabalho antes de expandir.",
+        "description": "Revise adoção, cobertura de dados e os primeiros resultados operacionais. Estenda capacidades ou locais onde a próxima necessidade estiver clara.",
+        "actions": [
+          "Verificar uso pelas equipes pretendidas",
+          "Resolver lacunas de fonte e fluxo",
+          "Rever ações e resultados suportados",
+          "Atualizar a estimativa de pacote quando o escopo mudar"
+        ]
+      }
+    ],
+    "noForcedTitle": "Comece com o trabalho que você precisa.",
+    "noForcedDescription": "Crew pode ser seu ponto de partida para força de trabalho e operações diárias. Core pode funcionar com fontes conectadas que você já usa. Escolha ambos quando o fluxo e a análise operacional precisarem convergir.",
+    "commonJourneysDescription": "Exemplos para discutir, em vez de pacotes obrigatórios para cada tamanho.",
+    "journeys": [
+      {
+        "items": [
+          "Crew para uma necessidade de escala, horas ou handover",
+          "Core Foundation para uma visão operacional compartilhada",
+          "Revisar cobertura antes de adicionar profundidade"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin ou Growth conforme a pergunta operacional",
+          "Crew Operating ou Complete quando tarefas, registro e folha forem necessários",
+          "Revisar disponibilidade de Foresight no pacote escolhido"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance para análise de grupo e consolidação",
+          "Delimitar Crew, acesso e requisitos de país/provedor",
+          "Revisar integrações, extensões e rollout com Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Traga um fluxo de trabalho ou pergunta operacional, use a calculadora de preços ou comece com o diagnóstico."
+  },
+  "hi": {
+    "description": "उस काम से शुरू करें जिसे आपको सुधारने की ज़रूरत है। ऑपरेटिंग विश्लेषण के लिए Core चुनें, वर्कफोर्स और दैनिक निष्पादन के लिए Crew, या जुड़े दृष्टिकोण के लिए दोनों।",
+    "journeyDescription": "पहले ऑपरेटिंग प्रश्न से लेकर स्कोप्ड रोलआउट और समीक्षा तक।",
+    "steps": [
+      {
+        "title": "पहला ऑपरेटिंग प्रश्न चुनें",
+        "subtitle": "एक वर्कफ़्लो या प्रदर्शन अंतर से शुरू करें।",
+        "description": "क्या तत्काल आवश्यकता शेड्यूलिंग, उपस्थिति या हैंडओवर है, या बिक्री, लागत और मांग को समझना? उस प्रश्न को वॉकथ्रू में लाएँ। डायग्नोस्टिक प्रदर्शन प्रश्न को व्यवस्थित करने में मदद कर सकता है।",
+        "actions": [
+          "टीम और वर्कफ़्लो चुनें",
+          "ऑपरेटिंग प्रश्न पहचानें",
+          "अपना डेटा या एक नमूना ऑपरेशन उपयोग करें",
+          "सहमत करें कि एक उपयोगी पहली समीक्षा क्या दिखाएगी"
+        ],
+        "timeline": "एक पहली कार्य सत्र"
+      },
+      {
+        "title": "Core, Crew या दोनों चुनें",
+        "subtitle": "वे क्षमताएँ चुनें जिनकी आपकी टीम को ज़रूरत है।",
+        "description": "Core ऑपरेटिंग डेटा को विश्लेषण और सिफारिशों तथा परिणाम समीक्षा से जोड़ता है। Crew वर्कफोर्स और दैनिक काम चलाता है। प्राइसिंग कैलकुलेटर में पैकेज कवरेज, पूर्वापेक्षित आवश्यकताएँ और स्थान संख्या की समीक्षा करें।",
+        "actions": [
+          "ऑपरेशन और प्रदर्शन निर्णयों के लिए Core",
+          "शेड्यूल, उपस्थिति, लोग और पेरोल के लिए Crew",
+          "Crew Operations के माध्यम से कार्य और लॉगबुक",
+          "Crew Payroll के माध्यम से टिप वर्कफ़्लो"
+        ]
+      },
+      {
+        "title": "स्रोत और वर्कफ़्लो सेटअप का स्कोप करें",
+        "subtitle": "कनेक्शन और काम की पुष्टि करें।",
+        "description": "Core के लिए, आवश्यक स्रोत, फील्ड और रिफ्रेश समय की समीक्षा करें। Crew के लिए, स्थान, स्टाफ एक्सेस, शेड्यूल और अनुमोदन नियमों पर सहमति करें। पेरोल शामिल होने पर देश और प्रदाता आवश्यकताओं की पुष्टि करें।",
+        "actions": [
+          "स्रोत और उपलब्ध रिकॉर्ड समीक्षा करें",
+          "स्थान, भूमिका और एक्सेस सेट करें",
+          "अनुमोदन और पेरोल/प्रदाता स्कोप की पुष्टि करें",
+          "टीम के साथ सेटअप की जाँच करें"
+        ]
+      },
+      {
+        "title": "पहला वर्कफ़्लो या उत्तर समीक्षा करें",
+        "subtitle": "निर्णय के लिए टीम को जिम्मेदार रखें।",
+        "description": "टास्क, हैंडओवर, शेड्यूल या ऑपरेटिंग प्रश्न के माध्यम से जाएँ। सिफारिश और सहायक रिकॉर्ड जांचें, फिर अगला कदम क्या होगा इस पर सहमति बनाएं।",
+        "actions": [
+          "उपयोगकर्ताओं के साथ वर्कफ़्लो का निरीक्षण करें",
+          "स्रोत और किसी भी अनुमान की जाँच करें",
+          "अगला कार्रवाई सौंपें",
+          "अगली समीक्षा के लिए तुलना चुनें"
+        ]
+      },
+      {
+        "title": "जान-बूझकर समीक्षा और विस्तार करें",
+        "subtitle": "विस्तार करने से पहले काम को मापें।",
+        "description": "अपनाने, डेटा कवरेज और पहले ऑपरेटिंग परिणामों की समीक्षा करें। जहाँ अगली आवश्यकता स्पष्ट हो वहाँ क्षमताएँ या स्थान बढ़ाएँ।",
+        "actions": [
+          "उद्दिष्ट टीमों द्वारा उपयोग की जाँच करें",
+          "स्रोत और वर्कफ़्लो गैप्स हल करें",
+          "कार्यों और समर्थित परिणामों की समीक्षा करें",
+          "स्कोप बदलने पर पैकेज अनुमान अपडेट करें"
+        ]
+      }
+    ],
+    "noForcedTitle": "उस काम से शुरू करें जिसकी आपको ज़रूरत है।",
+    "noForcedDescription": "वर्कफोर्स और दैनिक संचालन के लिए Crew आपकी शुरुआत हो सकती है। Core उन कनेक्टेड स्रोतों के साथ काम कर सकता है जिनका आप पहले से उपयोग करते हैं। जब वर्कफ़्लो और ऑपरेटिंग विश्लेषण को मिलाना ज़रूरी हो तब दोनों चुनें।",
+    "commonJourneysDescription": "चर्चा के उदाहरण, न कि हर आकार के लिए अनिवार्य पैकेज।",
+    "journeys": [
+      {
+        "items": [
+          "शेड्यूल, घंटे या हैंडओवर जरूरत के लिए Crew",
+          "साझा ऑपरेटिंग दृश्य के लिए Core Foundation",
+          "गहराई जोड़ने से पहले कवरेज की समीक्षा करें"
+        ]
+      },
+      {
+        "items": [
+          "ऑपरेटिंग प्रश्न के अनुसार Core Margin या Growth",
+          "जब कार्य, लॉगबुक और पेरोल चाहिए तो Crew Operating या Complete",
+          "चुने हुए पैकेज में Foresight की उपलब्धता की समीक्षा करें"
+        ]
+      },
+      {
+        "items": [
+          "ग्रुप विश्लेषण और समेकन के लिए Core Performance",
+          "Crew, एक्सेस और देश/प्रदाता आवश्यकताओं का स्कोप करें",
+          "Sundae के साथ इंटीग्रेशन, विस्तार और रोलआउट की समीक्षा करें"
+        ]
+      }
+    ],
+    "finalDescription": "एक वर्कफ़्लो या ऑपरेटिंग प्रश्न लाएँ, प्राइसिंग कैलकुलेटर का उपयोग करें या डायग्नोस्टिक से शुरू करें।"
+  },
+  "ur": {
+    "description": "وہ کام سے شروع کریں جسے آپ بہتر کرنا چاہتے ہیں۔ آپریٹنگ تجزیے کے لیے Core منتخب کریں، ورک فورس اور روزمرہ کے اجرا کے لیے Crew، یا مربوط منظر کے لیے دونوں۔",
+    "journeyDescription": "پہلے آپریٹنگ سوال سے لے کر اسکوپ شدہ رول آؤٹ اور جائزے تک۔",
+    "steps": [
+      {
+        "title": "پہلا آپریٹنگ سوال منتخب کریں",
+        "subtitle": "کسی ورک فلو یا کارکردگی کے خلاء سے شروع کریں۔",
+        "description": "فوری ضرورت شیڈولنگ، حاضری یا ہینڈ اوورز ہے، یا سیلز، لاگت اور ڈیمانڈ کو سمجھنا؟ اس سوال کو واک تھرو میں لائیں۔ ڈائیگناسٹک کارکردگی کے سوال کو منظم کرنے میں مدد دے سکتا ہے۔",
+        "actions": [
+          "ٹیم اور ورک فلو منتخب کریں",
+          "آپریٹنگ سوال شناخت کریں",
+          "اپنا ڈیٹا یا نمونہ آپریشن استعمال کریں",
+          "اس بات پر اتفاق کریں کہ مفید پہلا جائزہ کیا دکھائے گا"
+        ],
+        "timeline": "پہلا ورکنگ سیشن"
+      },
+      {
+        "title": "Core، Crew یا دونوں منتخب کریں",
+        "subtitle": "وہ صلاحیتیں منتخب کریں جو آپ کی ٹیم کو درکار ہیں۔",
+        "description": "Core آپریٹنگ ڈیٹا کو تجزیے اور سفارشات سے جوڑتا ہے۔Crew ورک فورس اور روزمرہ کے کام چلاتا ہے۔ پیکج کوریج، پیشگی شرائط اور آپ کے مقام کی تعداد کو پرائسنگ کیلکولیٹر میں دیکھیں۔",
+        "actions": [
+          "کارکردگی اور آپریٹنگ فیصلوں کے لیے Core",
+          "شیڈولز، حاضری، لوگ اور پے رول کے لیے Crew",
+          "Crew Operations کے ذریعے ٹاسکس اور لاگ بک",
+          "Crew Payroll کے ذریعے ٹپ ورک فلو"
+        ]
+      },
+      {
+        "title": "سورسز اور ورک فلو سیٹ اپ کا اسکوپ کریں",
+        "subtitle": "کنکشنز اور کام کی تصدیق کریں۔",
+        "description": "Core کے لیے، مطلوبہ سورسز، فیلڈز اور ریفریش ٹائمنگ کا جائزہ لیں۔Crew کے لیے، مقامات، عملہ رسائی، شیڈولز اور منظوری قواعد طے کریں۔جب پے رول شامل ہو تو ملک اور پرووائیڈر کی ضروریات کی تصدیق کریں۔",
+        "actions": [
+          "سورسز اور دستیاب ریکارڈز کا جائزہ لیں",
+          "مقامات، رولز اور رسائی سیٹ کریں",
+          "منظوری اور پے رول/پرووائیڈر اسکوپ کی تصدیق کریں",
+          "ٹیم کے ساتھ سیٹ اپ چیک کریں"
+        ]
+      },
+      {
+        "title": "پہلے ورک فلو یا جواب کا جائزہ لیں",
+        "subtitle": "ٹیم کو فیصلہ کی ذمہ داری دیں۔",
+        "description": "ٹاسک، ہینڈ اوور، شیڈول یا آپریٹنگ سوال کا جائزہ لیں۔ سفارش اور معاون ریکارڈز چیک کریں، پھر طے کریں کہ ٹیم آگے کیا کرے گی۔",
+        "actions": [
+          "استعمال کرنے والوں کے ساتھ ورک فلو کا معائنہ کریں",
+          "سورس اور کسی بھی مفروضے چیک کریں",
+          "اگلا عمل تفویض کریں",
+          "اگلے جائزے کے لیے موازنہ منتخب کریں"
+        ]
+      },
+      {
+        "title": "سوچ سمجھ کر جائزہ اور توسیع کریں",
+        "subtitle": "پھیلانے سے پہلے کام کی پیمائش کریں۔",
+        "description": "اخترا، ڈیٹا کوریج اور پہلے آپریٹنگ نتائج کا جائزہ لیں۔ جب اگلی ضرورت واضح ہو تو صلاحیتیں یا مقامات بڑھائیں۔",
+        "actions": [
+          "مطلوبہ ٹیموں کی طرف سے استعمال چیک کریں",
+          "سورس اور ورک فلو خلاؤں کو حل کریں",
+          "عمل اور سپورٹڈ نتائج کا جائزہ لیں",
+          "اسکوپ تبدیل ہونے پر پیکیج تخمینہ اپ ڈیٹ کریں"
+        ]
+      }
+    ],
+    "noForcedTitle": "وہ کام سے شروع کریں جس کی آپ کو ضرورت ہے۔",
+    "noForcedDescription": "Crew آپ کی ورک فورس اور روزمرہ آپریشن کے لیے آغاز ہو سکتا ہے۔ Core ان مربوط سورسز کے ساتھ کام کر سکتا ہے جو آپ پہلے ہی استعمال کرتے ہیں۔ جب ورک فلو اور آپریٹنگ تجزیہ ایک ساتھ آنا ضروری ہو تو دونوں منتخب کریں۔",
+    "commonJourneysDescription": "بحث کے لیے مثالیں، نہ کہ ہر سائز کے لیے لازمی پیکجز۔",
+    "journeys": [
+      {
+        "items": [
+          "شیڈول، گھنٹے یا ہینڈ اوور کی ضرورت کے لیے Crew",
+          "مشترکہ آپریٹنگ منظر کے لیے Core Foundation",
+          "گہرائی شامل کرنے سے پہلے کوریج کا جائزہ لیں"
+        ]
+      },
+      {
+        "items": [
+          "آپریٹنگ سوال کے مطابق Core Margin یا Growth",
+          "جب ٹاسکس، لاگ بک اور پے رول درکار ہوں تو Crew Operating یا Complete",
+          "اپنے منتخب کردہ پیکج میں Foresight کی دستیابی کا جائزہ لیں"
+        ]
+      },
+      {
+        "items": [
+          "گروپ تجزیہ اور کنسولیڈیشن کے لیے Core Performance",
+          "Crew، رسائی اور ملک/پرووائیڈر ضروریات کا اسکوپ کریں",
+          "Sundae کے ساتھ انٹیگریشنز، ایکسٹینشنز اور رول آؤٹ کا جائزہ لیں"
+        ]
+      }
+    ],
+    "finalDescription": "ایک ورک فلو یا آپریٹنگ سوال لائیں، پرائسنگ کیلکولیٹر استعمال کریں یا ڈائیگناسٹک سے شروع کریں۔"
+  },
+  "it": {
+    "description": "Inizia dal lavoro che devi migliorare. Scegli Core per analisi operative, Crew per workforce ed esecuzione quotidiana, o entrambi per una vista connessa.",
+    "journeyDescription": "Dalla prima domanda operativa a un rollout definito e alla revisione.",
+    "steps": [
+      {
+        "title": "Scegli la prima domanda operativa",
+        "subtitle": "Inizia con un workflow o un gap di performance.",
+        "description": "La necessità immediata è pianificazione, presenze o handover, o capire vendite, costi e domanda? Porta quella domanda a una walkthrough. La diagnostica può aiutare a organizzare una domanda di performance.",
+        "actions": [
+          "Scegli il team e il workflow",
+          "Identifica la domanda operativa",
+          "Usa i tuoi dati o una operazione campione",
+          "Concorda cosa dovrebbe mostrare una prima revisione utile"
+        ],
+        "timeline": "Una prima sessione di lavoro"
+      },
+      {
+        "title": "Scegli Core, Crew o entrambi",
+        "subtitle": "Seleziona le capacità di cui il tuo team ha bisogno.",
+        "description": "Core collega dati operativi con analisi e raccomandazioni. Crew gestisce workforce e lavoro quotidiano. Rivedi copertura pacchetto, prerequisiti e numero di sedi nel calcolatore prezzi.",
+        "actions": [
+          "Core per decisioni su performance e operatività",
+          "Crew per turni, presenze, persone e payroll",
+          "Task e registro attraverso Crew Operations",
+          "Workflow tip tramite Crew Payroll"
+        ]
+      },
+      {
+        "title": "Definire fonti e configurazione workflow",
+        "subtitle": "Conferma le connessioni e il lavoro.",
+        "description": "Per Core, rivedi le fonti richieste, i campi e i tempi di refresh. Per Crew, concorda sedi, accesso del personale, turni e regole di approvazione. Conferma esigenze paese e provider dove coinvolto il payroll.",
+        "actions": [
+          "Rivedere fonti e record disponibili",
+          "Impostare sedi, ruoli e accessi",
+          "Confermare ambito approvazione e payroll/provider",
+          "Verificare la configurazione con il team"
+        ]
+      },
+      {
+        "title": "Rivedere il primo workflow o risposta",
+        "subtitle": "Mantenere il team responsabile della decisione.",
+        "description": "Esegui il walkthrough del task, handover, turno o domanda operativa. Controlla la raccomandazione e i record di supporto, poi concorda cosa farà il team dopo.",
+        "actions": [
+          "Ispezionare il workflow con i suoi utenti",
+          "Controllare la fonte e le eventuali ipotesi",
+          "Assegnare la prossima azione",
+          "Scegliere il confronto per la prossima revisione"
+        ]
+      },
+      {
+        "title": "Rivedere ed estendere con attenzione",
+        "subtitle": "Misura il lavoro prima di espandere.",
+        "description": "Rivedi adozione, copertura dati e i primi risultati operativi. Estendi capacità o sedi dove il prossimo bisogno è chiaro.",
+        "actions": [
+          "Controllare l’uso dai team previsti",
+          "Risolvere gap di fonte e workflow",
+          "Rivedere azioni e risultati supportati",
+          "Aggiornare la stima del pacchetto quando la portata cambia"
+        ]
+      }
+    ],
+    "noForcedTitle": "Inizia dal lavoro che ti serve.",
+    "noForcedDescription": "Crew può essere il tuo punto di partenza per workforce e operazioni quotidiane. Core può funzionare con fonti connesse che già usi. Scegli entrambi quando workflow e analisi operativa devono unirsi.",
+    "commonJourneysDescription": "Esempi da discutere, piuttosto che pacchetti obbligatori per ogni dimensione.",
+    "journeys": [
+      {
+        "items": [
+          "Crew per una necessità di programmazione, ore o handover",
+          "Core Foundation per una vista operativa condivisa",
+          "Rivedere copertura prima di aggiungere profondità"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin o Growth a seconda della domanda operativa",
+          "Crew Operating o Complete quando servono task, registro e payroll",
+          "Verificare la disponibilità di Foresight nel pacchetto scelto"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance per analisi di gruppo e consolidamento",
+          "Definire Crew, accessi e requisiti paese/provider",
+          "Rivedere integrazioni, estensioni e rollout con Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Porta un workflow o una domanda operativa, usa il calcolatore prezzi o inizia con la diagnostica."
+  },
+  "pl": {
+    "description": "Zacznij od pracy, którą musisz poprawić. Wybierz Core dla analiz operacyjnych, Crew dla zarządzania personelem i pracy codziennej, albo oba dla połączonego widoku.",
+    "journeyDescription": "Od pierwszego pytania operacyjnego do zakresowego wdrożenia i przeglądu.",
+    "steps": [
+      {
+        "title": "Wybierz pierwsze pytanie operacyjne",
+        "subtitle": "Zacznij od workflow lub luki w wydajności.",
+        "description": "Czy natychmiastowa potrzeba dotyczy grafiku, obecności lub przekazań, czy zrozumienia sprzedaży, kosztów i popytu? Przynieś to pytanie na walkthrough. Diagnostyka może pomóc zorganizować pytanie o wydajność.",
+        "actions": [
+          "Wybierz zespół i workflow",
+          "Zidentyfikuj pytanie operacyjne",
+          "Użyj swoich danych lub próbnej operacji",
+          "Uzgodnij, co pokaże użyteczny pierwszy przegląd"
+        ],
+        "timeline": "Pierwsza sesja robocza"
+      },
+      {
+        "title": "Wybierz Core, Crew lub oba",
+        "subtitle": "Wybierz funkcje, których potrzebuje Twój zespół.",
+        "description": "Core łączy dane operacyjne z analizą i rekomendacjami. Crew obsługuje zarządzanie personelem i pracę codzienną. Przejrzyj pokrycie pakietu, wymagania wstępne i liczbę lokalizacji w kalkulatorze cen.",
+        "actions": [
+          "Core dla decyzji wydajności i operacyjnych",
+          "Crew dla grafików, obecności, ludzi i płac",
+          "Zadania i dziennik przez Crew Operations",
+          "Workflowy płacowe przez Crew Payroll"
+        ]
+      },
+      {
+        "title": "Określ źródła i konfigurację workflow",
+        "subtitle": "Potwierdź połączenia i pracę.",
+        "description": "Dla Core przejrzyj wymagane źródła, pola i harmonogram odświeżania. Dla Crew uzgodnij lokalizacje, dostęp personelu, grafiki i zasady zatwierdzania. Potwierdź wymagania kraju i dostawcy tam, gdzie w grę wchodzi płacenie.",
+        "actions": [
+          "Przejrzyj źródła i dostępne zapisy",
+          "Ustaw lokalizacje, role i dostęp",
+          "Potwierdź zakres zatwierdzeń i płac/dostawcy",
+          "Sprawdź konfigurację z zespołem"
+        ]
+      },
+      {
+        "title": "Przejrzyj pierwszy workflow lub odpowiedź",
+        "subtitle": "Utrzymaj zespół odpowiedzialny za decyzję.",
+        "description": "Przejdź przez zadanie, przekazanie, grafik lub pytanie operacyjne. Sprawdź rekomendację i wspierające zapisy, potem uzgodnij, co zespół zrobi dalej.",
+        "actions": [
+          "Sprawdź workflow z jego użytkownikami",
+          "Sprawdź źródło i ewentualne założenia",
+          "Przypisz następne działanie",
+          "Wybierz porównanie dla następnego przeglądu"
+        ]
+      },
+      {
+        "title": "Przeglądaj i rozszerzaj z rozwagą",
+        "subtitle": "Mierz pracę przed rozszerzeniem.",
+        "description": "Przejrzyj adopcję, zakres danych i pierwsze wyniki operacyjne. Rozszerz funkcje lub lokalizacje tam, gdzie następna potrzeba jest jasna.",
+        "actions": [
+          "Sprawdź użycie przez docelowe zespoły",
+          "Rozwiąż luki w źródłach i workflow",
+          "Przejrzyj działania i wspierane wyniki",
+          "Zaktualizuj szacunek pakietu przy zmianie zakresu"
+        ]
+      }
+    ],
+    "noForcedTitle": "Zacznij od pracy, której potrzebujesz.",
+    "noForcedDescription": "Crew może być punktem startowym dla zatrudnienia i operacji codziennych. Core może pracować z połączonymi źródłami, których już używasz. Wybierz oba, gdy workflow i analiza operacyjna muszą iść razem.",
+    "commonJourneysDescription": "Przykłady do omówienia, a nie obowiązkowe pakiety dla każdego rozmiaru.",
+    "journeys": [
+      {
+        "items": [
+          "Crew dla potrzeby grafiku, godzin lub przekazania",
+          "Core Foundation dla wspólnego widoku operacyjnego",
+          "Przejrzyj zakres przed dodaniem głębi"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin lub Growth w zależności od pytania operacyjnego",
+          "Crew Operating lub Complete, gdy potrzebne są zadania, dziennik i płace",
+          "Sprawdź dostępność Foresight w wybranym pakiecie"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance dla analizy grupowej i konsolidacji",
+          "Określ zakres Crew, dostęp i wymagania kraju/dostawcy",
+          "Przejrzyj integracje, rozszerzenia i wdrożenie z Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Przynieś jedno workflow lub pytanie operacyjne, użyj kalkulatora cen lub zacznij od diagnostyki."
+  },
+  "tr": {
+    "description": "Geliştirmeniz gereken işleyle başlayın. İşletme analizi için Core, işgücü ve günlük yürütme için Crew veya bağlantılı görünüm için her ikisini seçin.",
+    "journeyDescription": "İlk işletme sorusundan kapsamlı bir dağıtıma ve incelemeye kadar.",
+    "steps": [
+      {
+        "title": "İlk işletme sorusunu seçin",
+        "subtitle": "Bir iş akışı veya performans boşluğuyla başlayın.",
+        "description": "Acil ihtiyaç çizelgeleme, katılım ya da devre teslimleri mi, yoksa satış, maliyet ve talebi anlamak mı? Bu soruyu bir yürütme oturumuna getirin. Tanı, bir performans sorusunu düzenlemeye yardımcı olabilir.",
+        "actions": [
+          "Ekip ve iş akışını seçin",
+          "İşletme sorusunu tanımlayın",
+          "Verilerinizi veya örnek bir operasyonu kullanın",
+          "Faydalı ilk incelemenin ne göstermesi gerektiği konusunda anlaşın"
+        ],
+        "timeline": "İlk çalışma oturumu"
+      },
+      {
+        "title": "Core, Crew veya her ikisini seçin",
+        "subtitle": "Ekiplerinizin ihtiyaç duyduğu yetenekleri seçin.",
+        "description": "Core işletme verilerini analiz ve önerilerle bağlar. Crew işgücü ve günlük işleri yürütür. Paket kapsamını, önkoşulları ve konum sayınızı fiyatlandırma hesaplayıcısında gözden geçirin.",
+        "actions": [
+          "Performans ve işletme kararları için Core",
+          "Çizelgeler, katılım, kişiler ve bordro için Crew",
+          "Crew Operations üzerinden görevler ve günlük kayıt",
+          "Crew Payroll ile iş akışı ipuçları"
+        ]
+      },
+      {
+        "title": "Kaynakları ve iş akışı kurulumunu kapsamlandırın",
+        "subtitle": "Bağlantıları ve işi doğrulayın.",
+        "description": "Core için gerekli kaynakları, alanları ve yenileme zamanlamasını inceleyin. Crew için konumları, personel erişimini, çizelgeleri ve onay kurallarını kararlaştırın. Bordro dahilse ülke ve sağlayıcı ihtiyaçlarını doğrulayın.",
+        "actions": [
+          "Kaynakları ve mevcut kayıtları gözden geçirin",
+          "Konumları, rolleri ve erişimi ayarlayın",
+          "Onay ve bordro/sağlayıcı kapsamını doğrulayın",
+          "Kurulumu ekip ile kontrol edin"
+        ]
+      },
+      {
+        "title": "İlk iş akışını veya yanıtı gözden geçirin",
+        "subtitle": "Karar için ekibi sorumlu tutun.",
+        "description": "Görevi, devre teslimini, çizelgeyi veya işletme sorusunu birlikte yürütün. Öneriyi ve destekleyici kayıtları kontrol edin, sonra ekibin sonraki adımda ne yapacağını kararlaştırın.",
+        "actions": [
+          "İş akışını kullanıcılarıyla inceleyin",
+          "Kaynağı ve varsayımları kontrol edin",
+          "Sonraki eylemi atayın",
+          "Bir sonraki inceleme için karşılaştırmayı seçin"
+        ]
+      },
+      {
+        "title": "Kasıtlı olarak gözden geçirin ve genişletin",
+        "subtitle": "Genişletmeden önce işi ölçün.",
+        "description": "Benimsenmeyi, veri kapsamını ve ilk işletme sonuçlarını gözden geçirin. Bir sonraki ihtiyaç belirgin olduğunda yetenekleri veya konumları genişletin.",
+        "actions": [
+          "Hedeflenen ekipler tarafından kullanımını kontrol edin",
+          "Kaynak ve iş akışı boşluklarını çözün",
+          "Eylemleri ve desteklenen sonuçları gözden geçirin",
+          "Kapsam değiştiğinde paket tahminini güncelleyin"
+        ]
+      }
+    ],
+    "noForcedTitle": "Gereken işleyle başlayın.",
+    "noForcedDescription": "İşgücü ve günlük operasyonlar için Crew başlangıç noktası olabilir. Core zaten kullandığınız bağlı kaynaklarla çalışabilir. İş akışı ve işletme analizi bir araya gelmeliyse her ikisini seçin.",
+    "commonJourneysDescription": "Her boyut için zorunlu paketler değil, tartışılacak örnekler.",
+    "journeys": [
+      {
+        "items": [
+          "Çizelge, saat veya devre teslimi ihtiyacı için Crew",
+          "Paylaşılan işletme görünümü için Core Foundation",
+          "Derinlik eklemeden önce kapsamı gözden geçirin"
+        ]
+      },
+      {
+        "items": [
+          "İşletme sorusuna göre Core Margin veya Growth",
+          "Görevler, günlük kayıt ve bordro gerektiğinde Crew Operating veya Complete",
+          "Seçtiğiniz pakette Foresight kullanılabilirliğini gözden geçirin"
+        ]
+      },
+      {
+        "items": [
+          "Grup analizi ve konsolidasyon için Core Performance",
+          "Crew, erişim ve ülke/sağlayıcı gereksinimlerini kapsamlandırın",
+          "Entegrasyonları, uzantıları ve dağıtımı Sundae ile gözden geçirin"
+        ]
+      }
+    ],
+    "finalDescription": "Bir iş akışı veya işletme sorusu getirin, fiyatlandırma hesaplayıcısını kullanın veya tanıyla başlayın."
+  },
+  "zh-Hans": {
+    "description": "从您需要改进的工作开始。选择 Core 以进行运营分析、Crew 以管理人员与日常执行，或同时选择以获得连接视图。",
+    "journeyDescription": "从首次运营问题到范围化上线与复盘。",
+    "steps": [
+      {
+        "title": "选择第一个运营问题",
+        "subtitle": "从一个工作流程或绩效差距开始。",
+        "description": "紧急需求是排班、考勤或交接，还是理解销售、成本与需求？把该问题带到演示中。诊断可以帮助组织绩效问题。",
+        "actions": [
+          "选择团队和工作流程",
+          "识别运营问题",
+          "使用您的数据或示例门店",
+          "商定一次有用的初次审查应显示的内容"
+        ],
+        "timeline": "首次工作会议"
+      },
+      {
+        "title": "选择 Core、Crew 或两者",
+        "subtitle": "选择团队需要的功能。",
+        "description": "Core 将运营数据与分析和建议连接。Crew 管理人员与日常工作。在定价计算器中审查套餐覆盖、前置条件与门店数量。",
+        "actions": [
+          "用于绩效与运营决策的 Core",
+          "用于排班、考勤、人员与工资的 Crew",
+          "通过 Crew Operations 提供任务与记录簿",
+          "通过 Crew Payroll 提供工资工作流提示"
+        ]
+      },
+      {
+        "title": "界定数据源与工作流程设置范围",
+        "subtitle": "确认连接与工作内容。",
+        "description": "对于 Core，审查所需的数据源、字段与刷新时序。对于 Crew，约定门店、员工访问、排班与审批规则。涉及工资时确认国家与供应商需求。",
+        "actions": [
+          "审查数据源与可用记录",
+          "设置门店、角色与访问权限",
+          "确认审批与工资/供应商范围",
+          "与团队检验设置"
+        ]
+      },
+      {
+        "title": "审查首个工作流程或答案",
+        "subtitle": "让团队对决策负责。",
+        "description": "演练任务、交接、排班或运营问题。检查建议与支持记录，然后确定团队的下一步行动。",
+        "actions": [
+          "与使用者一起检查工作流程",
+          "检查数据源与任何假设",
+          "分配下一步行动",
+          "为下一次审查选择比较项"
+        ]
+      },
+      {
+        "title": "有意地复盘与扩展",
+        "subtitle": "在扩展前衡量工作效果。",
+        "description": "审查采用情况、数据覆盖与首批运营结果。在下一个需求明确时扩展功能或门店。",
+        "actions": [
+          "检查目标团队的使用情况",
+          "解决数据源与工作流程差距",
+          "审查行动与支持的成果",
+          "当范围改变时更新套餐估算"
+        ]
+      }
+    ],
+    "noForcedTitle": "从您需要的工作开始。",
+    "noForcedDescription": "Crew 可以作为您在人员与日常运营方面的起点。Core 可与您已使用的连接来源配合工作。当工作流程与运营分析需要结合时选择两者。",
+    "commonJourneysDescription": "作为讨论的示例，而非针对每个规模的必选套餐。",
+    "journeys": [
+      {
+        "items": [
+          "因排班、工时或交接需求选择 Crew",
+          "用于共享运营视图的 Core 基础版",
+          "在增加深度前审查覆盖情况"
+        ]
+      },
+      {
+        "items": [
+          "根据运营问题选择 Core Margin 或 Growth",
+          "当需要任务、记录簿与工资时选择 Crew Operating 或 Complete",
+          "审查所选套餐中 Foresight 的可用性"
+        ]
+      },
+      {
+        "items": [
+          "用于集团分析与合并的 Core Performance",
+          "界定 Crew、访问与国家/供应商要求",
+          "与 Sundae 一起审查集成、扩展与推广"
+        ]
+      }
+    ],
+    "finalDescription": "带来一个工作流程或运营问题，使用定价计算器或从诊断开始。"
+  },
+  "ja": {
+    "description": "改善したい業務から始める。稼働分析にはCore、ワークフォースと日常運用にはCrew、両方で接続ビューを得られる。",
+    "journeyDescription": "最初の稼働質問からスコープされた展開とレビューまで。",
+    "steps": [
+      {
+        "title": "最初の稼働質問を選ぶ",
+        "subtitle": "ワークフローかパフォーマンスギャップから始める。",
+        "description": "直近のニーズはスケジューリング、出勤、引き継ぎか、あるいは売上、コスト、需要の理解か。ウォークスルーにその質問を持ち込む。診断はパフォーマンスの問いを整理する助けになる。",
+        "actions": [
+          "チームとワークフローを選ぶ",
+          "稼働質問を特定する",
+          "自社データまたはサンプル運用を使う",
+          "有用な最初のレビューが示すものを合意する"
+        ],
+        "timeline": "最初のワーキングセッション"
+      },
+      {
+        "title": "Core、Crew、または両方を選ぶ",
+        "subtitle": "チームが必要とする機能を選択する。",
+        "description": "Coreは稼働データを分析と推奨、結果レビューとつなげる。Crewはワークフォースと日常作業を運用する。価格計算機でパッケージのカバレッジ、前提条件、ロケーション数を確認する。",
+        "actions": [
+          "稼働と意思決定にはCore",
+          "シフト、出勤、人事、給与にはCrew",
+          "Crew Operationsでのタスクとログブック",
+          "Crew Payrollを通じた勤怠ワークフロー"
+        ]
+      },
+      {
+        "title": "ソースとワークフロー設定の範囲を決める",
+        "subtitle": "接続と作業を確認する。",
+        "description": "Coreについては必要なソース、フィールド、リフレッシュタイミングをレビューする。Crewについてはロケーション、スタッフアクセス、スケジュール、承認ルールを合意する。給与が関わる場合は国別とプロバイダの要件を確認する。",
+        "actions": [
+          "ソースと利用可能な記録をレビューする",
+          "ロケーション、役割、アクセスを設定する",
+          "承認と給与／プロバイダ範囲を確認する",
+          "チームと設定を確認する"
+        ]
+      },
+      {
+        "title": "最初のワークフローや回答をレビューする",
+        "subtitle": "決定に責任を持つチームを維持する。",
+        "description": "タスク、引き継ぎ、スケジュール、稼働質問を順に確認する。推奨と裏付け記録をチェックし、チームが次に行うことを合意する。",
+        "actions": [
+          "ユーザーとワークフローを点検する",
+          "ソースと前提を確認する",
+          "次のアクションを割り当てる",
+          "次のレビューの比較対象を選ぶ"
+        ]
+      },
+      {
+        "title": "意図的にレビューして拡張する",
+        "subtitle": "拡張前に作業を測定する。",
+        "description": "導入状況、データカバレッジ、最初の稼働結果をレビューする。次のニーズが明確な場合に機能やロケーションを拡張する。",
+        "actions": [
+          "対象チームによる利用状況を確認する",
+          "ソースとワークフローのギャップを解決する",
+          "アクションとサポートされる成果をレビューする",
+          "スコープが変わったらパッケージ見積りを更新する"
+        ]
+      }
+    ],
+    "noForcedTitle": "必要な作業から始める。",
+    "noForcedDescription": "ワークフォースと日常運用にはCrewから始められる。Coreは既に使用している接続ソースで動作する。ワークフローと稼働分析を統合する必要があるときは両方を選ぶ。",
+    "commonJourneysDescription": "各規模に必須のパッケージではなく、議論のための例。",
+    "journeys": [
+      {
+        "items": [
+          "スケジュール、時間、引き継ぎのニーズにはCrew",
+          "共有稼働ビューにはCore Foundation",
+          "深掘り前にカバレッジを確認する"
+        ]
+      },
+      {
+        "items": [
+          "稼働の問いに応じたCore MarginやGrowth",
+          "タスク、ログブック、給与が必要なときはCrew OperatingやComplete",
+          "選んだパッケージでのForesightの可用性を確認する"
+        ]
+      },
+      {
+        "items": [
+          "グループ分析と統合にはCore Performance",
+          "Crewの範囲、アクセス、国別／プロバイダ要件をスコープする",
+          "Sundaeと統合、拡張、展開をレビューする"
+        ]
+      }
+    ],
+    "finalDescription": "ワークフローまたは稼働質問を一つ持ってきて、価格計算機を使うか診断から始める。"
+  },
+  "ko": {
+    "description": "개선이 필요한 업무부터 시작하세요. 운영 분석에는 Core, 인력 및 일상 실행에는 Crew, 또는 연결된 뷰가 필요하면 둘 다를 선택하세요.",
+    "journeyDescription": "첫 운영 질문부터 범위가 정해진 롤아웃과 검토까지.",
+    "steps": [
+      {
+        "title": "첫 번째 운영 질문 선택",
+        "subtitle": "워크플로우나 성과 격차로 시작하세요.",
+        "description": "즉각적 필요가 근무표, 출석, 인수인지 아니면 매출, 비용 및 수요 이해인지 파악하세요. 그 질문을 워크스루에 가져오세요. 진단은 성과 질문을 정리하는 데 도움이 될 수 있습니다.",
+        "actions": [
+          "팀과 워크플로 선택",
+          "운영 질문 식별",
+          "귀하의 데이터 또는 샘플 운영 사용",
+          "유용한 첫 검토가 무엇을 보여야 할지 합의"
+        ],
+        "timeline": "첫 작업 세션"
+      },
+      {
+        "title": "Core, Crew 또는 둘 다 선택",
+        "subtitle": "팀이 필요한 기능을 선택하세요.",
+        "description": "Core는 운영 데이터를 분석과 권고로 연결합니다. Crew는 인력과 일상 작업을 운영합니다. 가격 계산기에서 패키지 적용 범위, 전제조건 및 지점 수를 검토하세요.",
+        "actions": [
+          "운영 및 의사결정을 위한 Core",
+          "근무표, 출석, 사람 및 급여를 위한 Crew",
+          "과제 및 로그북은 Crew Operations 통해",
+          "급여 관련 워크플로는 Crew Payroll을 통해"
+        ]
+      },
+      {
+        "title": "소스 및 워크플로 범위 설정",
+        "subtitle": "연결 및 작업을 확정하세요.",
+        "description": "Core의 경우 필요한 소스, 필드 및 새로고침 타이밍을 검토하세요. Crew의 경우 지점, 직원 접근, 근무표 및 승인 규칙을 합의하세요. 급여가 관여될 때 국가 및 공급자 요구사항을 확인하세요.",
+        "actions": [
+          "소스 및 사용 가능한 기록 검토",
+          "지점, 역할 및 접근 설정",
+          "승인 및 급여/공급자 범위 확인",
+          "팀과 설정 확인"
+        ]
+      },
+      {
+        "title": "첫 워크플로 또는 답변 검토",
+        "subtitle": "결정에 책임 있는 팀을 유지하세요.",
+        "description": "과제, 인수, 일정 또는 운영 질문을 함께 살펴보세요. 권고와 근거 기록을 확인한 뒤 팀이 다음에 무엇을 할지 합의하세요.",
+        "actions": [
+          "사용자와 워크플로 검사",
+          "소스 및 가정 확인",
+          "다음 행동 지정",
+          "다음 검토를 위한 비교 선택"
+        ]
+      },
+      {
+        "title": "의도적으로 검토하고 확장",
+        "subtitle": "확장 전에 작업을 측정하세요.",
+        "description": "도입률, 데이터 적용 범위 및 첫 운영 결과를 검토하세요. 다음 필요가 명확한 경우 기능이나 지점을 확장하세요.",
+        "actions": [
+          "대상 팀의 사용 확인",
+          "소스 및 워크플로 격차 해결",
+          "행동 및 지원 결과 검토",
+          "범위 변경 시 패키지 견적 업데이트"
+        ]
+      }
+    ],
+    "noForcedTitle": "필요한 작업부터 시작하세요.",
+    "noForcedDescription": "Crew는 인력 및 일상 운영의 출발점이 될 수 있습니다. Core는 이미 사용하는 연결된 소스와 함께 작동할 수 있습니다. 워크플로와 운영 분석이 결합되어야 할 때 둘 다를 선택하세요.",
+    "commonJourneysDescription": "필수 패키지가 아닌 논의할 예시입니다.",
+    "journeys": [
+      {
+        "items": [
+          "근무표, 시간 또는 인수 필요를 위한 Crew",
+          "공유 운영 뷰를 위한 Core Foundation",
+          "깊이를 추가하기 전에 적용 범위 검토"
+        ]
+      },
+      {
+        "items": [
+          "운영 질문에 따른 Core Margin 또는 Growth",
+          "과제, 로그북 및 급여가 필요할 때 Crew Operating 또는 Complete",
+          "선택한 패키지에서 Foresight 가용성 검토"
+        ]
+      },
+      {
+        "items": [
+          "그룹 분석과 통합을 위한 Core Performance",
+          "Crew, 접근 및 국가/공급자 요구사항 범위화",
+          "Sundae와 통합, 확장 및 롤아웃 검토"
+        ]
+      }
+    ],
+    "finalDescription": "워크플로나 운영 질문 하나를 가져오고 가격 계산기를 사용하거나 진단으로 시작하세요."
+  },
+  "id": {
+    "description": "Mulai dengan pekerjaan yang perlu Anda tingkatkan. Pilih Core untuk analisis operasional, Crew untuk tenaga kerja dan eksekusi harian, atau keduanya untuk pandangan yang terhubung.",
+    "journeyDescription": "Dari pertanyaan operasional pertama hingga peluncuran yang ditetapkan ruang lingkup dan tinjauan.",
+    "steps": [
+      {
+        "title": "Pilih pertanyaan operasional pertama",
+        "subtitle": "Mulai dengan alur kerja atau kesenjangan kinerja.",
+        "description": "Apakah kebutuhan langsung penjadwalan, kehadiran atau serah terima, atau memahami penjualan, biaya dan permintaan? Bawa pertanyaan itu ke sesi walkthrough. Diagnostik dapat membantu mengatur pertanyaan kinerja.",
+        "actions": [
+          "Pilih tim dan alur kerja",
+          "Identifikasi pertanyaan operasional",
+          "Gunakan data Anda atau operasi sampel",
+          "Sepakati apa yang akan ditunjukkan tinjauan pertama yang berguna"
+        ],
+        "timeline": "Sesi kerja pertama"
+      },
+      {
+        "title": "Pilih Core, Crew atau keduanya",
+        "subtitle": "Pilih kemampuan yang tim Anda butuhkan.",
+        "description": "Core menghubungkan data operasional dengan analisis dan rekomendasi. Crew menjalankan tenaga kerja dan pekerjaan harian. Tinjau cakupan paket, prasyarat dan jumlah lokasi Anda di kalkulator harga.",
+        "actions": [
+          "Core untuk keputusan kinerja dan operasional",
+          "Crew untuk jadwal, kehadiran, orang dan penggajian",
+          "Tugas dan buku log melalui Crew Operations",
+          "Alur kerja tip melalui Crew Payroll"
+        ]
+      },
+      {
+        "title": "Tetapkan sumber dan pengaturan alur kerja",
+        "subtitle": "Konfirmasi koneksi dan pekerjaan.",
+        "description": "Untuk Core, tinjau sumber, bidang dan waktu penyegaran yang diperlukan. Untuk Crew, sepakati lokasi, akses staf, jadwal dan aturan persetujuan. Konfirmasi kebutuhan negara dan penyedia ketika penggajian terlibat.",
+        "actions": [
+          "Tinjau sumber dan catatan yang tersedia",
+          "Tetapkan lokasi, peran dan akses",
+          "Konfirmasi cakupan persetujuan dan penggajian/penyedia",
+          "Periksa pengaturan dengan tim"
+        ]
+      },
+      {
+        "title": "Tinjau alur kerja atau jawaban pertama",
+        "subtitle": "Pertahankan tim yang bertanggung jawab untuk keputusan.",
+        "description": "Jalankan melalui tugas, serah terima, jadwal atau pertanyaan operasional. Periksa rekomendasi dan catatan pendukung, lalu sepakati apa yang tim akan lakukan selanjutnya.",
+        "actions": [
+          "Periksa alur kerja dengan para penggunanya",
+          "Periksa sumber dan asumsi apa pun",
+          "Tugaskan tindakan berikutnya",
+          "Pilih perbandingan untuk tinjauan berikutnya"
+        ]
+      },
+      {
+        "title": "Tinjau dan perluas dengan sengaja",
+        "subtitle": "Ukur pekerjaan sebelum memperluas.",
+        "description": "Tinjau adopsi, cakupan data dan hasil operasional pertama. Perluas kemampuan atau lokasi ketika kebutuhan berikutnya jelas.",
+        "actions": [
+          "Periksa penggunaan oleh tim yang dimaksudkan",
+          "Selesaikan kekurangan sumber dan alur kerja",
+          "Tinjau tindakan dan hasil yang didukung",
+          "Perbarui estimasi paket saat ruang lingkup berubah"
+        ]
+      }
+    ],
+    "noForcedTitle": "Mulai dengan pekerjaan yang Anda butuhkan.",
+    "noForcedDescription": "Crew bisa menjadi titik awal untuk tenaga kerja dan operasi harian. Core dapat bekerja dengan sumber terhubung yang sudah Anda gunakan. Pilih keduanya ketika alur kerja dan analisis operasional perlu digabungkan.",
+    "commonJourneysDescription": "Contoh untuk didiskusikan, bukan paket yang diwajibkan untuk setiap ukuran.",
+    "journeys": [
+      {
+        "items": [
+          "Crew untuk kebutuhan jadwal, jam atau serah terima",
+          "Core Foundation untuk pandangan operasional bersama",
+          "Tinjau cakupan sebelum menambah kedalaman"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin atau Growth sesuai pertanyaan operasional",
+          "Crew Operating atau Complete ketika tugas, buku log dan penggajian diperlukan",
+          "Tinjau ketersediaan Foresight dalam paket yang Anda pilih"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance untuk analisis grup dan konsolidasi",
+          "Tetapkan cakupan Crew, akses dan kebutuhan negara/penyedia",
+          "Tinjau integrasi, ekstensi dan peluncuran dengan Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Bawa satu alur kerja atau pertanyaan operasional, gunakan kalkulator harga atau mulai dengan diagnostik."
+  },
+  "vi": {
+    "description": "Bắt đầu với công việc bạn cần cải thiện. Chọn Core cho phân tích vận hành, Crew cho lực lượng lao động và thực thi hàng ngày, hoặc cả hai để có góc nhìn kết nối.",
+    "journeyDescription": "Từ câu hỏi vận hành đầu tiên đến triển khai có phạm vi và đánh giá.",
+    "steps": [
+      {
+        "title": "Chọn câu hỏi vận hành đầu tiên",
+        "subtitle": "Bắt đầu với một quy trình hoặc khoảng cách hiệu suất.",
+        "description": "Nhu cầu ngay lập tức là lập lịch, điểm danh hay bàn giao, hay hiểu doanh thu, chi phí và nhu cầu? Mang câu hỏi đó vào buổi hướng dẫn. Chẩn đoán có thể giúp tổ chức câu hỏi hiệu suất.",
+        "actions": [
+          "Chọn đội và quy trình",
+          "Xác định câu hỏi vận hành",
+          "Dùng dữ liệu của bạn hoặc một hoạt động mẫu",
+          "Thống nhất điều một đánh giá đầu tiên hữu ích sẽ hiển thị"
+        ],
+        "timeline": "Một buổi làm việc đầu tiên"
+      },
+      {
+        "title": "Chọn Core, Crew hoặc cả hai",
+        "subtitle": "Chọn các năng lực đội bạn cần.",
+        "description": "Core kết nối dữ liệu vận hành với phân tích và khuyến nghị. Crew quản lý lực lượng lao động và công việc hàng ngày. Xem phạm vi gói, tiền đề và số địa điểm của bạn trong công cụ tính giá.",
+        "actions": [
+          "Core cho quyết định hiệu suất và vận hành",
+          "Crew cho lập lịch, điểm danh, con người và bảng lương",
+          "Nhiệm vụ và nhật ký qua Crew Operations",
+          "Luồng tip qua Crew Payroll"
+        ]
+      },
+      {
+        "title": "Xác định nguồn và cấu hình quy trình",
+        "subtitle": "Xác nhận kết nối và khối công việc.",
+        "description": "Với Core, xem các nguồn, trường và thời gian làm mới cần thiết. Với Crew, thống nhất địa điểm, quyền truy cập nhân viên, lịch và quy tắc phê duyệt. Xác nhận yêu cầu quốc gia và nhà cung cấp khi liên quan đến bảng lương.",
+        "actions": [
+          "Xem nguồn và hồ sơ có sẵn",
+          "Đặt địa điểm, vai trò và quyền truy cập",
+          "Xác nhận phạm vi phê duyệt và bảng lương/nhà cung cấp",
+          "Kiểm tra cấu hình với đội"
+        ]
+      },
+      {
+        "title": "Xem xét quy trình hoặc câu trả lời đầu tiên",
+        "subtitle": "Giữ đội chịu trách nhiệm cho quyết định.",
+        "description": "Duyệt qua nhiệm vụ, bàn giao, lịch hoặc câu hỏi vận hành. Kiểm tra khuyến nghị và hồ sơ hỗ trợ, rồi thống nhất việc đội sẽ làm tiếp.",
+        "actions": [
+          "Kiểm tra quy trình với người dùng của nó",
+          "Kiểm tra nguồn và bất kỳ giả định nào",
+          "Giao hành động tiếp theo",
+          "Chọn so sánh cho đánh giá tiếp theo"
+        ]
+      },
+      {
+        "title": "Xem xét và mở rộng có chủ đích",
+        "subtitle": "Đo lường công việc trước khi mở rộng.",
+        "description": "Xem mức sử dụng, phạm vi dữ liệu và kết quả vận hành đầu tiên. Mở rộng năng lực hoặc địa điểm nơi nhu cầu tiếp theo rõ ràng.",
+        "actions": [
+          "Kiểm tra việc sử dụng bởi các đội mục tiêu",
+          "Giải quyết khoảng trống nguồn và quy trình",
+          "Xem lại hành động và kết quả được hỗ trợ",
+          "Cập nhật ước tính gói khi phạm vi thay đổi"
+        ]
+      }
+    ],
+    "noForcedTitle": "Bắt đầu với công việc bạn cần.",
+    "noForcedDescription": "Crew có thể là điểm khởi đầu cho lực lượng lao động và hoạt động hàng ngày. Core có thể hoạt động với các nguồn kết nối bạn đã dùng. Chọn cả hai khi quy trình và phân tích vận hành cần kết hợp.",
+    "commonJourneysDescription": "Ví dụ để thảo luận, không phải gói bắt buộc theo từng quy mô.",
+    "journeys": [
+      {
+        "items": [
+          "Crew cho nhu cầu lịch, giờ hoặc bàn giao",
+          "Core Foundation cho góc nhìn vận hành chung",
+          "Xem phạm vi trước khi thêm chiều sâu"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin hoặc Growth tùy câu hỏi vận hành",
+          "Crew Operating hoặc Complete khi cần nhiệm vụ, nhật ký và bảng lương",
+          "Xem Foresight có trong gói bạn chọn không"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance cho phân tích nhóm và hợp nhất",
+          "Xác định phạm vi Crew, quyền truy cập và yêu cầu quốc gia/nhà cung cấp",
+          "Xem tích hợp, phần mở rộng và triển khai với Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Mang một quy trình hoặc câu hỏi vận hành, dùng công cụ tính giá hoặc bắt đầu với chẩn đoán."
+  },
+  "ro": {
+    "description": "Porniți de la munca pe care trebuie s-o îmbunătățiți. Alegeți Core pentru analiza operațională, Crew pentru forța de muncă și execuția zilnică, sau ambele pentru o vedere conectată.",
+    "journeyDescription": "De la prima întrebare operațională la o implementare definită și revizuire.",
+    "steps": [
+      {
+        "title": "Alegeți prima întrebare operațională",
+        "subtitle": "Porniți de la un flux de lucru sau un deficit de performanță.",
+        "description": "Este nevoia imediată programarea, prezența sau predările, sau înțelegerea vânzărilor, costurilor și cererii? Aduceți acea întrebare la un walkthrough. Diagnosticul poate ajuta la organizarea unei întrebări de performanță.",
+        "actions": [
+          "Alegeți echipa și fluxul de lucru",
+          "Identificați întrebarea operațională",
+          "Folosirea datelor dvs. sau a unei operațiuni eșantion",
+          "Conveniți ce ar trebui să arate o primă revizuire utilă"
+        ],
+        "timeline": "O primă sesiune de lucru"
+      },
+      {
+        "title": "Alegeți Core, Crew sau ambele",
+        "subtitle": "Selectați capabilitățile de care echipa dvs. are nevoie.",
+        "description": "Core conectează date operaționale cu analiză și recomandări. Crew gestionează forța de muncă și munca zilnică. Revizuiți acoperirea pachetului, prerechizitele și numărul de locații în calculatorul de prețuri.",
+        "actions": [
+          "Core pentru performanță și decizii operaționale",
+          "Crew pentru programe, prezență, personal și salarizare",
+          "Sarcini și jurnal prin Crew Operations",
+          "Fluxuri tip sfat prin Crew Payroll"
+        ]
+      },
+      {
+        "title": "Defineți sursele și configurarea fluxului",
+        "subtitle": "Confirmați conexiunile și munca.",
+        "description": "Pentru Core, revizuiți sursele necesare, câmpurile și timpii de reîmprospătare. Pentru Crew, conveniți locațiile, accesul personalului, programele și regulile de aprobare. Confirmați nevoile de țară și furnizor unde implică salarizare.",
+        "actions": [
+          "Revizuiți sursele și evidențele disponibile",
+          "Stabiliți locațiile, rolurile și accesul",
+          "Confirmați domeniul aprobării și al salarizării/furnizorului",
+          "Verificați configurația cu echipa"
+        ]
+      },
+      {
+        "title": "Revizuiți primul flux sau răspuns",
+        "subtitle": "Păstrați echipa responsabilă pentru decizie.",
+        "description": "Parcurgeți sarcina, predarea, programul sau întrebarea operațională. Verificați recomandarea și evidențele suport, apoi conveniți ce va face echipa în continuare.",
+        "actions": [
+          "Inspectați fluxul cu utilizatorii săi",
+          "Verificați sursa și orice ipoteze",
+          "Atribuiți acțiunea următoare",
+          "Alegeți comparația pentru următoarea revizuire"
+        ]
+      },
+      {
+        "title": "Revizuiți și extindeți deliberat",
+        "subtitle": "Măsurați munca înainte de a extinde.",
+        "description": "Revizuiți adopția, acoperirea datelor și primele rezultate operaționale. Extindeți capabilitățile sau locațiile acolo unde următoarea nevoie este clară.",
+        "actions": [
+          "Verificați utilizarea de către echipele vizate",
+          "Rezolvați lacunele de sursă și flux",
+          "Revizuiți acțiunile și rezultatele suportate",
+          "Actualizați estimarea pachetului când se schimbă domeniul"
+        ]
+      }
+    ],
+    "noForcedTitle": "Porniți de la munca de care aveți nevoie.",
+    "noForcedDescription": "Crew poate fi punctul de plecare pentru forță de muncă și operațiuni zilnice. Core poate funcționa cu surse conectate pe care le folosiți deja. Alegeți ambele când fluxul de lucru și analiza operațională trebuie să vină împreună.",
+    "commonJourneysDescription": "Exemple de discutat, nu pachete obligatorii pentru fiecare dimensiune.",
+    "journeys": [
+      {
+        "items": [
+          "Crew pentru o nevoie de program, ore sau predare",
+          "Core Foundation pentru o vedere operațională partajată",
+          "Revizuiți acoperirea înainte de a adăuga profunzime"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin sau Growth în funcție de întrebarea operațională",
+          "Crew Operating sau Complete când sunt necesare sarcini, jurnal și salarizare",
+          "Revizuiți disponibilitatea Foresight în pachetul ales"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance pentru analiză de grup și consolidare",
+          "Stabiliți domeniul Crew, accesul și cerințele de țară/furnizor",
+          "Revizuiți integrările, extensiile și implementarea cu Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Aduceți un flux sau o întrebare operațională, folosiți calculatorul de prețuri sau porniți cu diagnosticul."
+  },
+  "sv": {
+    "description": "Börja med det arbete du behöver förbättra. Välj Core för driftanalys, Crew för workforce och daglig exekvering, eller båda för en sammanhängande bild.",
+    "journeyDescription": "Från första driftfrågan till en avgränsad utrullning och uppföljning.",
+    "steps": [
+      {
+        "title": "Välj första driftfrågan",
+        "subtitle": "Börja med ett arbetsflöde eller ett prestationsgap.",
+        "description": "Är det omedelbara behovet schemaläggning, närvaro eller överlämningar, eller att förstå försäljning, kostnad och efterfrågan? Ta med den frågan till en genomgång. Diagnosen kan hjälpa till att organisera en prestationsfråga.",
+        "actions": [
+          "Välj team och arbetsflöde",
+          "Identifiera driftfrågan",
+          "Använd dina data eller en provverksamhet",
+          "Kom överens om vad en användbar första granskning ska visa"
+        ],
+        "timeline": "Ett första arbetspass"
+      },
+      {
+        "title": "Välj Core, Crew eller båda",
+        "subtitle": "Välj funktionerna ditt team behöver.",
+        "description": "Core kopplar driftdata till analys och rekommendationer. Crew hanterar workforce och dagligt arbete. Granska paketets täckning, förutsättningar och antal platser i prisverktyget.",
+        "actions": [
+          "Core för prestanda och driftbeslut",
+          "Crew för scheman, närvaro, personal och lön",
+          "Uppgifter och loggbok via Crew Operations",
+          "Tipparbetsflöden via Crew Payroll"
+        ]
+      },
+      {
+        "title": "Avgränsa källor och arbetsflödesuppsättning",
+        "subtitle": "Bekräfta kopplingarna och arbetet.",
+        "description": "För Core, granska nödvändiga källor, fält och uppdateringsfrekvens. För Crew, kom överens om platser, personalåtkomst, scheman och godkännanderegler. Bekräfta lands- och leverantörsbehov där lön ingår.",
+        "actions": [
+          "Granska källor och tillgängliga poster",
+          "Ställ in platser, roller och åtkomst",
+          "Bekräfta godkännande- och lön/leverantörsomfång",
+          "Kontrollera uppsättningen med teamet"
+        ]
+      },
+      {
+        "title": "Granska första arbetsflödet eller svaret",
+        "subtitle": "Håll teamet ansvarigt för beslutet.",
+        "description": "Gå igenom uppgift, överlämning, schema eller driftfråga. Kontrollera rekommendationen och stödjande poster, och kom överens om vad teamet gör härnäst.",
+        "actions": [
+          "Inspektera arbetsflödet med dess användare",
+          "Kontrollera källa och eventuella antaganden",
+          "Tilldela nästa åtgärd",
+          "Välj jämförelsen för nästa granskning"
+        ]
+      },
+      {
+        "title": "Granska och utvidga med eftertanke",
+        "subtitle": "Mät arbetet innan du expanderar.",
+        "description": "Granska adoption, datatäckning och de första driftsresultaten. Utöka funktioner eller platser där nästa behov är tydligt.",
+        "actions": [
+          "Kontrollera användning av avsedda team",
+          "Åtgärda käll- och arbetsflödesluckor",
+          "Granska åtgärder och stödda utfall",
+          "Uppdatera paketuppskattningen när omfånget förändras"
+        ]
+      }
+    ],
+    "noForcedTitle": "Börja med det arbete du behöver.",
+    "noForcedDescription": "Crew kan vara din startpunkt för workforce och daglig drift. Core kan fungera med redan använda anslutna källor. Välj båda när arbetsflöde och driftanalys behöver hänga ihop.",
+    "commonJourneysDescription": "Exempel att diskutera, snarare än obligatoriska paket per storlek.",
+    "journeys": [
+      {
+        "items": [
+          "Crew för behov av schema, timmar eller överlämning",
+          "Core Foundation för en delad driftvy",
+          "Granska täckning innan du lägger till djup"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin eller Growth beroende på driftfrågan",
+          "Crew Operating eller Complete när uppgifter, loggbok och löner behövs",
+          "Granska Foresight-tillgänglighet i valt paket"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance för koncernanalys och konsolidering",
+          "Avgränsa Crew, åtkomst och lands/leverantörskrav",
+          "Granska integrationer, tillägg och utrullning med Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Ta med ett arbetsflöde eller en driftfråga, använd prisräknaren eller börja med diagnosen."
+  },
+  "bn": {
+    "description": "আপনি উন্নত করতে চাওয়া কাজ দিয়ে শুরু করুন। অপারেটিং বিশ্লেষণের জন্য Core, কর্মী ও দৈনন্দিন সম্পাদনার জন্য Crew বা সংযুক্ত ভিউর জন্য উভয় চয়ন করুন।",
+    "journeyDescription": "প্রথম অপারেটিং প্রশ্ন থেকে স্কোপড রোলআউট ও রিভিউ পর্যন্ত।",
+    "steps": [
+      {
+        "title": "প্রথম অপারেটিং প্রশ্ন নির্বাচন করুন",
+        "subtitle": "একটি ওয়ার্কফ্লো বা পারফরম্যান্স গ্যাপ দিয়ে শুরু করুন।",
+        "description": "তাত্ক্ষণিক চাহিদা কি শিডিউলিং, উপস্থিতি বা হ্যান্ডওভার, নাকি বিক্রয়, খরচ ও চাহিদা বোঝা? সেই প্রশ্ন নিয়ে একটি ওয়াকথ্রুতে আনুন। ডায়াগনস্টিক একটি পারফরম্যান্স প্রশ্ন সংগঠিত করতে সাহায্য করতে পারে।",
+        "actions": [
+          "টিম ও ওয়ার্কফ্লো বেছে নিন",
+          "অপারেটিং প্রশ্ন নির্ধারণ করুন",
+          "আপনার ডেটা বা একটি নমুনা অপারেশন ব্যবহার করুন",
+          "একটি ব্যবহারযোগ্য প্রথম রিভিউ কি দেখাবে সম্মত করুন"
+        ],
+        "timeline": "প্রথম কাজের সেশন"
+      },
+      {
+        "title": "Core, Crew বা উভয় বেছে নিন",
+        "subtitle": "আপনার টিমের প্রয়োজনীয় সক্ষমতাগুলো নির্বাচন করুন।",
+        "description": "Core অপারেটিং ডেটাকে বিশ্লেষণ ও সুপারিশের সঙ্গে সংযুক্ত করে। Crew কর্মী ও দৈনন্দিন কাজ চালায়। প্যাকেজ কভারেজ, পূর্বশর্ত ও লোকেশন সংখ্যা প্রাইসিং ক্যালকুলেটরে পর্যালোচনা করুন।",
+        "actions": [
+          "পারফরম্যান্স ও অপারেটিং সিদ্ধান্তের জন্য Core",
+          "শিডিউল, উপস্থিতি, লোক ও পে-রোলের জন্য Crew",
+          "Crew Operations-এর মাধ্যমে টাস্ক ও লগবুক",
+          "Crew Payroll-এর মাধ্যমে টিপ ওয়ার্কফ্লো"
+        ]
+      },
+      {
+        "title": "সূত্র ও ওয়ার্কফ্লো সেটআপ স্কোপ করুন",
+        "subtitle": "সংযোগ ও কাজ নিশ্চিত করুন।",
+        "description": "Core-র জন্য প্রয়োজনীয় সোর্স, ফিল্ড ও রিফ্রেশ টাইমিং পর্যালোচনা করুন। Crew-র জন্য লোকেশন, স্টাফ অ্যাক্সেস, শিডিউল ও অনুমোদন নিয়ম সম্মত করুন। পে-রোল জড়িত থাকলে দেশের ও প্রোভাইডার দরকার নিশ্চিত করুন।",
+        "actions": [
+          "উৎস এবং উপলব্ধ রেকর্ড পর্যালোচনা করুন",
+          "লোকেশন, রোল ও অ্যাক্সেস সেট করুন",
+          "অনুমোদন ও পে-রোল/প্রোভাইডার স্কোপ নিশ্চিত করুন",
+          "টিমের সঙ্গে সেটআপ পরীক্ষা করুন"
+        ]
+      },
+      {
+        "title": "প্রথম ওয়ার্কফ্লো বা উত্তরের রিভিউ করুন",
+        "subtitle": "ফলাফল সিদ্ধান্তের জন্য টিমকে দায়বদ্ধ রাখুন।",
+        "description": "টাস্ক, হ্যান্ডওভার, শিডিউল বা অপারেটিং প্রশ্নটি নিয়ে ওয়াকথ্রু করুন। সুপারিশ ও সমর্থনকারী রেকর্ড পরীক্ষা করে পরবর্তী কি করা হবে তা সম্মত করুন।",
+        "actions": [
+          "ব্যবহারকারীদের সঙ্গে ওয়ার্কফ্লো নিরীক্ষা করুন",
+          "সূত্র ও কোনো অনুমান পরীক্ষা করুন",
+          "পরবর্তী কাজ অর্পণ করুন",
+          "পরবর্তী রিভিউর তুলনা নির্ধারণ করুন"
+        ]
+      },
+      {
+        "title": "পরিকল্পিতভাবে পর্যালোচনা ও সম্প্রসারণ করুন",
+        "subtitle": "বিস্তৃত করার আগে কাজ পরিমাপ করুন।",
+        "description": "অ্যাডপশন, ডেটা কভারেজ ও প্রথম অপারেটিং ফলাফল পর্যালোচনা করুন। পরবর্তী চাহিদা স্পষ্ট হলে সক্ষমতা বা লোকেশন বাড়ান।",
+        "actions": [
+          "উল্লেখিত টিমগুলো দ্বারা ব্যবহারের পরীক্ষা করুন",
+          "সূত্র ও ওয়ার্কফ্লো গ্যাপ সমাধান করুন",
+          "কর্মগুলি ও সমর্থিত ফলাফল পর্যালোচনা করুন",
+          "স্কোপ পরিবর্তন হলে প্যাকেজ অনুমান হালনাগাদ করুন"
+        ]
+      }
+    ],
+    "noForcedTitle": "আপনি যে কাজটি করতে চান তাই দিয়ে শুরু করুন।",
+    "noForcedDescription": "Crew কর্মী ও দৈনিক অপারেশনের জন্য আপনার শুরু পয়েন্ট হতে পারে। Core আপনি ইতিমধ্যে ব্যবহার করা সংযুক্ত সোর্সগুলোর সঙ্গে কাজ করতে পারে। যখন ওয়ার্কফ্লো ও অপারেটিং বিশ্লেষণ একসাথে দরকার তখন উভয় নির্বাচন করুন।",
+    "commonJourneysDescription": "আলাপের জন্য উদাহরণগুলো, প্রত্যেক আকারের জন্য বাধ্যতামূলক প্যাকেজ নয়।",
+    "journeys": [
+      {
+        "items": [
+          "শিডিউল, ঘণ্টা বা হ্যান্ডওভার প্রয়োজনের জন্য Crew",
+          "একটি শেয়ারড অপারেটিং ভিউর জন্য Core Foundation",
+          "গভীরতা যোগ করার আগে কভারেজ পর্যালোচনা করুন"
+        ]
+      },
+      {
+        "items": [
+          "অপারেটিং প্রশ্ন অনুযায়ী Core Margin বা Growth",
+          "টাস্ক, লগবুক ও পে-রোল প্রয়োজন হলে Crew Operating বা Complete",
+          "আপনি যে প্যাকেজ পছন্দ করেছেন তাতে Foresight উপলব্ধতা পরীক্ষা করুন"
+        ]
+      },
+      {
+        "items": [
+          "গ্রুপ বিশ্লেষণ ও কনসোলিডেশনের জন্য Core Performance",
+          "Crew, অ্যাক্সেস ও দেশ/প্রোভাইডার প্রয়োজন নির্ধারণ করুন",
+          "Sundae-র সঙ্গে ইন্টিগ্রেশন, এক্সটেনশন ও রোলআউট পর্যালোচনা করুন"
+        ]
+      }
+    ],
+    "finalDescription": "একটি ওয়ার্কফ্লো বা অপারেটিং প্রশ্ন আনুন, প্রাইসিং ক্যালকুলেটর ব্যবহার করুন বা ডায়াগনস্টিক দিয়ে শুরু করুন।"
+  },
+  "th": {
+    "description": "เริ่มจากงานที่คุณต้องการปรับปรุง เลือก Core สำหรับการวิเคราะห์การปฏิบัติงาน Crew สำหรับแรงงานและการปฏิบัติงานประจำ หรือทั้งสองเพื่อมุมมองที่เชื่อมต่อ",
+    "journeyDescription": "จากคำถามการปฏิบัติงานครั้งแรกถึงการกำหนดขอบเขตเปิดตัวและการทบทวน",
+    "steps": [
+      {
+        "title": "เลือคำถามการปฏิบัติงานครั้งแรก",
+        "subtitle": "เริ่มจากเวิร์กโฟลว์หรือตำแหน่งที่ผลการดำเนินงานขาด",
+        "description": "ความต้องการทันทีคือการจัดตาราง เวลาเข้า หรือการส่งต่อ หรือคือการเข้าใจยอดขาย ต้นทุน และความต้องการ? นำคำถามนั้นมาสู่การสาธิต การวินิจฉัยช่วยจัดระเบียบคำถามการปฏิบัติงานได้",
+        "actions": [
+          "เลือทีมและเวิร์กโฟลว์",
+          "ระบุคำถามการปฏิบัติงาน",
+          "ใช้ข้อมูลของคุณหรือตัวอย่างการดำเนินงาน",
+          "ตกลงว่าสิ่งที่การทบทวนครั้งแรกควรแสดงคืออะไร"
+        ],
+        "timeline": "การประชุมทำงานครั้งแรก"
+      },
+      {
+        "title": "เลือก Core Crew หรือทั้งสอง",
+        "subtitle": "เลือกความสามารถที่ทีมคุณต้องการ",
+        "description": "Core เชื่อมข้อมูลการปฏิบัติงานกับการวิเคราะห์และคำแนะนำ Crew ดูแลแรงงานและงานประจำ ทบทวนความครอบคลุมของแพ็กเกจ เงื่อนไขเบื้องต้น และจำนวนสาขาในเครื่องคิดราคา",
+        "actions": [
+          "Core สำหรับการตัดสินใจด้านประสิทธิภาพและการปฏิบัติงาน",
+          "Crew สำหรับตารางเวลา การเข้าออกงาน บุคคล และเงินเดือน",
+          "งานและสมุดบันทึกผ่าน Crew Operations",
+          "เวิร์กโฟลว์คำแนะนำผ่าน Crew Payroll"
+        ]
+      },
+      {
+        "title": "กำหนดแหล่งข้อมูลและการตั้งค่าเวิร์กโฟลว์",
+        "subtitle": "ยืนยันการเชื่อมต่อและงานที่ต้องทำ",
+        "description": "สำหรับ Core ทบทวนแหล่ง ฟิลด์ และเวลาการรีเฟรชที่ต้องการ สำหรับ Crew ตกลงสาขา การเข้าถึงพนักงาน ตารางเวลา และกฎการอนุมัติ ยืนยันความต้องการประเทศและผู้ให้บริการเมื่อเกี่ยวข้องกับเงินเดือน",
+        "actions": [
+          "ทบทวนแหล่งและบันทึกที่มี",
+          "ตั้งค่าสาขา บทบาท และการเข้าถึง",
+          "ยืนยันขอบเขตกฎการอนุมัติและผู้ให้บริการ/เงินเดือน",
+          "ตรวจสอบการตั้งค่ากับทีม"
+        ]
+      },
+      {
+        "title": "ทบทวนเวิร์กโฟลว์หรือคำตอบครั้งแรก",
+        "subtitle": "ทำให้ทีมรับผิดชอบต่อการตัดสินใจ",
+        "description": "เดินผ่านงาน การส่งต่อ ตาราง หรือคำถามการปฏิบัติงาน ตรวจสอบคำแนะนำและบันทึกสนับสนุน จากนั้นตกลงว่าทีมจะทำอะไรต่อไป",
+        "actions": [
+          "ตรวจสอบเวิร์กโฟลว์กับผู้ใช้จริง",
+          "ตรวจสอบแหล่งและสมมติฐานใดๆ",
+          "มอบหมายการดำเนินการถัดไป",
+          "เลือการเปรียบเทียบสำหรับการทบทวนครั้งถัดไป"
+        ]
+      },
+      {
+        "title": "ขยายอย่างมีการวัดผล",
+        "subtitle": "วัดงานก่อนขยาย",
+        "description": "ทบทวนการนำไปใช้ ความครอบคลุมของข้อมูล และผลการปฏิบัติงานครั้งแรก ขยายความสามารถหรือสาขาที่จำเป็นเมื่อความต้องการถัดไปชัดเจน",
+        "actions": [
+          "ตรวจสอบการใช้งานโดยทีมที่ตั้งใจไว้",
+          "แก้ช่องว่างแหล่งและเวิร์กโฟลว์",
+          "ทบทวนการดำเนินการและผลลัพธ์ที่รองรับ",
+          "ปรับประมาณการแพ็กเกจเมื่อขอบเขตเปลี่ยน"
+        ]
+      }
+    ],
+    "noForcedTitle": "เริ่มจากงานที่คุณต้องการ",
+    "noForcedDescription": "Crew สามารถเป็นจุดเริ่มต้นสำหรับแรงงานและการปฏิบัติงานประจำ Core ทำงานกับแหล่งที่เชื่อมต่อที่คุณใช้อยู่แล้ว เลือกทั้งสองเมื่อเวิร์กโฟลว์และการวิเคราะห์การปฏิบัติงานต้องมารวมกัน",
+    "commonJourneysDescription": "ตัวอย่างเพื่อหารือ ไม่ใช่แพ็กเกจที่บังคับตามขนาด",
+    "journeys": [
+      {
+        "items": [
+          "Crew สำหรับความต้องการตาราง ชั่วโมง หรือการส่งต่อ",
+          "Core Foundation สำหรับมุมมองการปฏิบัติงานร่วม",
+          "ทบทวนความครอบคลังก่อนเพิ่มความลึก"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin หรือ Growth ขึ้นกับคำถามการปฏิบัติงาน",
+          "Crew Operating หรือ Complete เมื่อจำเป็นต้องใช้งาน สมุดบันทึก และเงินเดือน",
+          "ทบทวนการมี Foresight ในแพ็กเกจที่เลือก"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance สำหรับการวิเคราะห์กลุ่มและการรวบรวม",
+          "กำหนดขอบเขต Crew การเข้าถึง และความต้องการประเทศ/ผู้ให้บริการ",
+          "ทบทวนการรวม ขยาย และการเปิดตัวกับ Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "นำเวิร์กโฟลว์หรือคำถามการปฏิบัติงานหนึ่งข้อ ใช้เครื่องคิดราคา หรือเริ่มด้วยการวินิจฉัย"
+  },
+  "ms": {
+    "description": "Mula dengan kerja yang anda perlu tingkatkan. Pilih Core untuk analisis operasi, Crew untuk tenaga kerja dan pelaksanaan harian, atau kedua-duanya untuk pandangan bersambung.",
+    "journeyDescription": "Dari soalan operasi pertama kepada skop pelaksanaan dan ulasan.",
+    "steps": [
+      {
+        "title": "Pilih soalan operasi pertama",
+        "subtitle": "Mula dengan aliran kerja atau jurang prestasi.",
+        "description": "Adakah keperluan segera penjadualan, kehadiran atau penyerahan, atau memahami jualan, kos dan permintaan? Bawa soalan itu ke sesi peragaan. Diagnostik boleh membantu mengatur soalan prestasi.",
+        "actions": [
+          "Pilih pasukan dan aliran kerja",
+          "Kenal pasti soalan operasi",
+          "Gunakan data anda atau operasi sampel",
+          "Setuju apa yang ulasan pertama yang berguna akan tunjukkan"
+        ],
+        "timeline": "Sesi kerja pertama"
+      },
+      {
+        "title": "Pilih Core, Crew atau kedua-duanya",
+        "subtitle": "Pilih kebolehan yang pasukan anda perlukan.",
+        "description": "Core menghubungkan data operasi dengan analisis dan cadangan. Crew mengendalikan tenaga kerja dan kerja harian. Semak liputan pakej, prasyarat dan kiraan lokasi anda dalam kalkulator harga.",
+        "actions": [
+          "Core untuk keputusan prestasi dan operasi",
+          "Crew untuk jadual, kehadiran, orang dan payroll",
+          "Tugas dan logbook melalui Crew Operations",
+          "Aliran kerja tip melalui Crew Payroll"
+        ]
+      },
+      {
+        "title": "Skop sumber dan penyediaan aliran kerja",
+        "subtitle": "Sahkan sambungan dan kerja.",
+        "description": "Untuk Core, semak sumber yang diperlukan, medan dan masa penyegaran. Untuk Crew, setujui lokasi, akses kakitangan, jadual dan peraturan kelulusan. Sahkan keperluan negara dan penyedia apabila payroll terlibat.",
+        "actions": [
+          "Semak sumber dan rekod tersedia",
+          "Tetapkan lokasi, peranan dan akses",
+          "Sahkan skop kelulusan dan payroll/penyedia",
+          "Semak konfigurasi dengan pasukan"
+        ]
+      },
+      {
+        "title": "Semak aliran kerja atau jawapan pertama",
+        "subtitle": "Pastikan pasukan bertanggungjawab untuk keputusan.",
+        "description": "Terokai tugas, penyerahan, jadual atau soalan operasi. Semak cadangan dan rekod sokongan, kemudian setujui apa pasukan akan lakukan seterusnya.",
+        "actions": [
+          "Periksa aliran kerja dengan penggunanya",
+          "Periksa sumber dan sebarang andaian",
+          "Tugaskan tindakan seterusnya",
+          "Pilih perbandingan untuk ulasan seterusnya"
+        ]
+      },
+      {
+        "title": "Semak dan luaskan secara berhemah",
+        "subtitle": "Ukur kerja sebelum meluaskan.",
+        "description": "Semak penggunaan, liputan data dan hasil operasi pertama. Luaskan kebolehan atau lokasi apabila keperluan seterusnya jelas.",
+        "actions": [
+          "Periksa penggunaan oleh pasukan yang disasarkan",
+          "Selesaikan jurang sumber dan aliran kerja",
+          "Semak tindakan dan hasil yang disokong",
+          "Kemas kini anggaran pakej apabila skop berubah"
+        ]
+      }
+    ],
+    "noForcedTitle": "Mula dengan kerja yang anda perlukan.",
+    "noForcedDescription": "Crew boleh menjadi titik permulaan anda untuk tenaga kerja dan operasi harian. Core boleh berfungsi dengan sumber bersambung yang sudah anda gunakan. Pilih kedua-duanya apabila aliran kerja dan analisis operasi perlu digabungkan.",
+    "commonJourneysDescription": "Contoh untuk dibincangkan, bukan pakej wajib mengikut saiz.",
+    "journeys": [
+      {
+        "items": [
+          "Crew untuk keperluan jadual, jam atau penyerahan",
+          "Core Foundation untuk pandangan operasi kongsi",
+          "Semak liputan sebelum menambah kedalaman"
+        ]
+      },
+      {
+        "items": [
+          "Core Margin atau Growth mengikut soalan operasi",
+          "Crew Operating atau Complete apabila tugas, logbook dan payroll diperlukan",
+          "Semak ketersediaan Foresight dalam pakej yang dipilih"
+        ]
+      },
+      {
+        "items": [
+          "Core Performance untuk analisis kumpulan dan penggabungan",
+          "Skopkan Crew, akses dan keperluan negara/penyedia",
+          "Semak integrasi, sambungan dan pelaksanaan dengan Sundae"
+        ]
+      }
+    ],
+    "finalDescription": "Bawa satu aliran kerja atau soalan operasi, gunakan kalkulator harga atau mulakan dengan diagnostik."
+  }
+}

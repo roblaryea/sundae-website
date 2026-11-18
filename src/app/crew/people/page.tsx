@@ -1,5 +1,7 @@
 'use client';
 
+import buyerBodyCopy from '@/content/buyer-depth/workforce.json';
+
 import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
 
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
@@ -10,7 +12,7 @@ import { CrewProfileMobile } from '@/components/crew/CrewProfileMobile';
 import { CrewDocumentsMobile } from '@/components/crew/CrewDocumentsMobile';
 import { peopleCopy } from '@/components/crew/moduleCopies';
 
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy';
 import { generatedLocalCopy } from '@/generated-locales/app_crew_people_page';
 
 export default function Page() {
@@ -21,7 +23,7 @@ export default function Page() {
   return (
     <CrewModulePage
       slug="people"
-      copy={copy}
+      copy={mergeGeneratedCopy(copy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy].people)}
       heroVisual={
         <PhoneCarousel
           screenBg="#020617"

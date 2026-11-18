@@ -1,5 +1,7 @@
 'use client';
 
+import buyerFeatureCopy from '@/content/buyer-feature-details/insights.json';
+
 import depthCopy from '@/content/operator-depth.json'
 
 import { Button } from "@/components/ui/Button";
@@ -9,7 +11,7 @@ import { useCta } from "@/lib/cta";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
@@ -684,7 +686,8 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
 export default function InsightsPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedInsightsUi[locale as keyof typeof localizedInsightsUi] ?? getGeneratedLocalCopy(localizedInsightsUi, generatedLocalCopy.localizedInsightsUi, locale) ?? localizedInsightsUi.en;
+  const sourceFeatureCopy = localizedInsightsUi[locale as keyof typeof localizedInsightsUi] ?? getGeneratedLocalCopy(localizedInsightsUi, generatedLocalCopy.localizedInsightsUi, locale) ?? localizedInsightsUi.en;
+  const ui = mergeGeneratedCopy(sourceFeatureCopy, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy]);
   const commercial = getCommercialCopy(locale);
   const cream = insightsCreamCopy[locale as keyof typeof insightsCreamCopy] ?? insightsCreamCopy.en;
   const modules = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;

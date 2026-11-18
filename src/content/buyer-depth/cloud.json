@@ -1,0 +1,1102 @@
+{
+  "en": {
+    "challenges": [
+      {
+        "description": "Commission, promotions, packaging and food costs can make a busy channel less profitable than order volume suggests."
+      },
+      {},
+      {},
+      {
+        "title": "Changes without enough context",
+        "description": "When orders or conversion change, the team needs the channel records and operating context to decide what to investigate."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Compare connected orders, commissions, packaging and allocated costs by channel and brand. Check coverage and allocation assumptions before relying on the margin."
+      },
+      {
+        "description": "Review the cost allocation across brands sharing a kitchen, then compare contribution under the assumptions you use."
+      },
+      {
+        "title": "Review channel performance",
+        "description": "Investigate changes in available order, basket and acceptance measures. Confirm which platform fields and refresh timing your connections support."
+      },
+      {
+        "title": "Respond to a shift exception",
+        "description": "Review order volume, prep time and late orders where available, assign the response and compare what changed after the action."
+      }
+    ],
+    "outcomesDescription": "A clearer view of channel contribution and the next operating decision.",
+    "outcomes": [
+      {
+        "title": "Review channel economics",
+        "description": "Compare contribution, fees and capacity before choosing whether to rebalance, renegotiate or change a channel."
+      },
+      {
+        "title": "Compare the brand mix",
+        "description": "Review shared costs and contribution before deciding whether to expand, change or retire a virtual brand."
+      },
+      {
+        "title": "Investigate a channel change",
+        "description": "Use the available channel records and refresh timing. Confirm the cause before treating a platform change as the explanation."
+      },
+      {
+        "title": "Check the result of a change",
+        "description": "Keep the action record, starting point and other operating changes together when reviewing the result."
+      }
+    ],
+    "ctaTitle": "Which channel or brand needs a closer look?",
+    "ctaDescription": "Compare a real or sample kitchen, its available cost data and the next decision to investigate."
+  },
+  "ar": {
+    "challenges": [
+      {
+        "description": "العمولات والترقيات والتغليف وتكاليف الطعام قد تجعل قناة مزدحمة أقل ربحية مما يوحي حجم الطلب."
+      },
+      {},
+      {},
+      {
+        "title": "تغيرات دون سياق كافٍ",
+        "description": "عند تغير الطلب أو التحويل، يحتاج الفريق سجلات القناة والسياق التشغيلي ليقرر ما الذي يستحق التحقيق."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "قارن الطلبات المتصلة والعمولات والتغليف والتكاليف المخصصة حسب القناة والعلامة التجارية. تحقق من التغطية وافتراضات التخصيص قبل الاعتماد على الهامش."
+      },
+      {
+        "description": "راجع تخصيص التكاليف بين العلامات التجارية التي تشترك في مطبخ، ثم قارن المساهمة تحت الفروض التي تستخدمها."
+      },
+      {
+        "title": "راجع أداء القناة",
+        "description": "استقصِ التغيرات في طلب متاح ومقاييس السلة والقبول. أكد أي حقول في المنصة وتوقيت التحديث الذي تدعمه وصلاتك."
+      },
+      {
+        "title": "استجب لاستثناء تحوّل",
+        "description": "راجع حجم الطلب ووقت التحضير والطلبات المتأخرة حيثما كانت متاحة، عيّن الاستجابة وقارن ما تغير بعد الإجراء."
+      }
+    ],
+    "outcomesDescription": "رؤية أوضح لمساهمة القناة والقرار التشغيلي التالي.",
+    "outcomes": [
+      {
+        "title": "راجع اقتصاديات القناة",
+        "description": "قارن المساهمة والرسوم والقدرة قبل الاختيار بين إعادة التوازن أو إعادة التفاوض أو تغيير القناة."
+      },
+      {
+        "title": "قارن تركيبة العلامات",
+        "description": "راجع التكاليف المشتركة والمساهمة قبل تقرير توسيع أو تغيير أو إيقاف علامة افتراضية."
+      },
+      {
+        "title": "تحقق من تغيير القناة",
+        "description": "استخدم سجلات القناة المتاحة وتوقيت التحديث. أكد السبب قبل اعتبار تغيير المنصة تفسيراً."
+      },
+      {
+        "title": "تحقق من نتيجة التغيير",
+        "description": "احتفظ بسجل الإجراء ونقطة البداية والتغيرات التشغيلية الأخرى معاً عند مراجعة النتيجة."
+      }
+    ],
+    "ctaTitle": "أي قناة أو علامة تحتاج نظرة أقرب؟",
+    "ctaDescription": "قارن مطبخاً حقيقياً أو نموذجياً، بيانات التكلفة المتاحة له والقرار التالي للتحقيق."
+  },
+  "fr": {
+    "challenges": [
+      {
+        "description": "Commissions, promotions, emballages et coûts alimentaires peuvent rendre un canal occupé moins rentable que le volume de commandes ne le suggère."
+      },
+      {},
+      {},
+      {
+        "title": "Des changements sans contexte suffisant",
+        "description": "Quand les commandes ou la conversion changent, l'équipe a besoin des enregistrements du canal et du contexte opérationnel pour décider quoi investiguer."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Comparer commandes connectées, commissions, emballages et coûts alloués par canal et marque. Vérifiez la couverture et les hypothèses d'allocation avant de vous fier à la marge."
+      },
+      {
+        "description": "Revoir l'allocation des coûts entre marques partageant une cuisine, puis comparer la contribution selon les hypothèses que vous utilisez."
+      },
+      {
+        "title": "Revoir la performance du canal",
+        "description": "Analyser les changements dans les mesures disponibles d'ordre, panier et acceptation. Confirmez quels champs de plateforme et quel timing de rafraîchissement vos connexions supportent."
+      },
+      {
+        "title": "Réagir à une exception de changement",
+        "description": "Revoir volume de commandes, temps de préparation et commandes en retard lorsque disponibles, assigner la réponse et comparer ce qui a changé après l'action."
+      }
+    ],
+    "outcomesDescription": "Une vue plus claire de la contribution par canal et de la décision opérationnelle suivante.",
+    "outcomes": [
+      {
+        "title": "Revoir l'économie du canal",
+        "description": "Comparer contribution, frais et capacité avant de décider de rééquilibrer, renégocier ou changer un canal."
+      },
+      {
+        "title": "Comparer le mix de marques",
+        "description": "Revoir coûts partagés et contribution avant de décider d'étendre, modifier ou retirer une marque virtuelle."
+      },
+      {
+        "title": "Analyser un changement de canal",
+        "description": "Utiliser les enregistrements de canal disponibles et le timing de rafraîchissement. Confirmer la cause avant de traiter un changement de plateforme comme l'explication."
+      },
+      {
+        "title": "Vérifier le résultat d'un changement",
+        "description": "Conserver l'enregistrement d'action, le point de départ et les autres changements opérationnels ensemble lors de la revue du résultat."
+      }
+    ],
+    "ctaTitle": "Quel canal ou quelle marque mérite un examen plus approfondi ?",
+    "ctaDescription": "Comparer une cuisine réelle ou échantillon, ses données de coûts disponibles et la décision suivante à investiguer."
+  },
+  "es": {
+    "challenges": [
+      {
+        "description": "Comisiones, promociones, embalaje y costes de alimentos pueden hacer que un canal ocupado sea menos rentable de lo que sugiere el volumen de pedidos."
+      },
+      {},
+      {},
+      {
+        "title": "Cambios sin suficiente contexto",
+        "description": "Cuando cambian pedidos o conversiones, el equipo necesita los registros del canal y el contexto operativo para decidir qué investigar."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Compare pedidos conectados, comisiones, embalaje y costes asignados por canal y marca. Compruebe la cobertura y las suposiciones de asignación antes de fiarse del margen."
+      },
+      {
+        "description": "Revise la asignación de costes entre marcas que comparten cocina y luego compare la contribución bajo las suposiciones que use."
+      },
+      {
+        "title": "Revisar el rendimiento del canal",
+        "description": "Investigue cambios en pedidos disponibles, cesta y medidas de aceptación. Confirme qué campos de la plataforma y cadencia de actualización soportan sus conexiones."
+      },
+      {
+        "title": "Responder a una excepción por cambio",
+        "description": "Revise volumen de pedidos, tiempo de preparación y pedidos tardíos cuando estén disponibles, asigne la respuesta y compare qué cambió después de la acción."
+      }
+    ],
+    "outcomesDescription": "Una visión más clara de la contribución del canal y la siguiente decisión operativa.",
+    "outcomes": [
+      {
+        "title": "Revisar la economía del canal",
+        "description": "Compare contribución, comisiones y capacidad antes de decidir si reequilibrar, renegociar o cambiar un canal."
+      },
+      {
+        "title": "Comparar la mezcla de marcas",
+        "description": "Revise costes compartidos y contribución antes de decidir expandir, cambiar o retirar una marca virtual."
+      },
+      {
+        "title": "Investigar un cambio de canal",
+        "description": "Use los registros de canal disponibles y la cadencia de actualización. Confirme la causa antes de tratar un cambio de plataforma como explicación."
+      },
+      {
+        "title": "Comprobar el resultado de un cambio",
+        "description": "Mantenga el registro de la acción, el punto de partida y otros cambios operativos juntos al revisar el resultado."
+      }
+    ],
+    "ctaTitle": "¿Qué canal o marca necesita una mirada más cercana?",
+    "ctaDescription": "Compare una cocina real o de muestra, sus datos de costes disponibles y la siguiente decisión a investigar."
+  },
+  "de": {
+    "challenges": [
+      {
+        "description": "Provisionen, Promotions, Verpackung und Warenkosten können einen starken Kanal weniger profitabel machen, als das Bestellvolumen suggeriert."
+      },
+      {},
+      {},
+      {
+        "title": "Änderungen ohne ausreichenden Kontext",
+        "description": "Wenn Bestellungen oder Conversion sich ändern, braucht das Team die Kanalprotokolle und den operativen Kontext, um zu entscheiden, was zu untersuchen ist."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Vergleichen Sie verbundene Bestellungen, Provisionen, Verpackung und zugewiesene Kosten nach Kanal und Marke. Prüfen Sie Abdeckung und Zuweisungsannahmen, bevor Sie sich auf die Marge verlassen."
+      },
+      {
+        "description": "Überprüfen Sie die Kostenallokation über Marken, die eine Küche teilen, und vergleichen Sie dann den Beitrag unter den von Ihnen genutzten Annahmen."
+      },
+      {
+        "title": "Kanalperformance prüfen",
+        "description": "Untersuchen Sie Änderungen in verfügbaren Bestell-, Warenkorb- und Akzeptanzkennzahlen. Bestätigen Sie, welche Plattformfelder und Refresh-Zeiten Ihre Verbindungen unterstützen."
+      },
+      {
+        "title": "Auf eine Schichtabweichung reagieren",
+        "description": "Prüfen Sie Bestellvolumen, Vorbereitungszeit und verspätete Bestellungen, wo verfügbar, weisen Sie die Reaktion zu und vergleichen Sie, was sich nach der Maßnahme geändert hat."
+      }
+    ],
+    "outcomesDescription": "Eine klarere Sicht auf Kanalbeitrag und die nächste operative Entscheidung.",
+    "outcomes": [
+      {
+        "title": "Kanalökonomie prüfen",
+        "description": "Vergleichen Sie Contribution, Gebühren und Kapazität, bevor Sie entscheiden, ob Sie umverteilen, neu verhandeln oder einen Kanal ändern."
+      },
+      {
+        "title": "Den Markenmix vergleichen",
+        "description": "Überprüfen Sie geteilte Kosten und Contribution, bevor Sie entscheiden, ob Sie eine virtuelle Marke erweitern, ändern oder einstellen."
+      },
+      {
+        "title": "Eine Kanaländerung untersuchen",
+        "description": "Nutzen Sie die verfügbaren Kanalaufzeichnungen und Refresh-Zeiten. Bestätigen Sie die Ursache, bevor Sie eine Plattformänderung als Erklärung behandeln."
+      },
+      {
+        "title": "Das Ergebnis einer Änderung prüfen",
+        "description": "Bewahren Sie Aktionsprotokoll, Ausgangspunkt und andere operative Änderungen zusammen, wenn Sie das Ergebnis überprüfen."
+      }
+    ],
+    "ctaTitle": "Welcher Kanal oder welche Marke braucht einen genaueren Blick?",
+    "ctaDescription": "Vergleichen Sie eine reale oder Musterküche, ihre verfügbaren Kostendaten und die nächste zu untersuchende Entscheidung."
+  },
+  "nl": {
+    "challenges": [
+      {
+        "description": "Commissies, promoties, verpakking en voedselkosten kunnen een druk kanaal minder winstgevend maken dan het ordervolume suggereert."
+      },
+      {},
+      {},
+      {
+        "title": "Veranderingen zonder voldoende context",
+        "description": "Wanneer orders of conversie veranderen, heeft het team de kanaalrecords en operationele context nodig om te beslissen wat te onderzoeken."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Vergelijk verbonden orders, commissies, verpakking en toegewezen kosten per kanaal en merk. Controleer dekking en allocatieaannames voordat u op de marge vertrouwt."
+      },
+      {
+        "description": "Beoordeel de kostentoewijzing over merken die een keuken delen en vergelijk daarna de bijdrage onder de door u gebruikte aannames."
+      },
+      {
+        "title": "Beoordeel kanaalprestaties",
+        "description": "Onderzoek veranderingen in beschikbare order-, mand- en acceptatiemaatstaven. Bevestig welke platformvelden en verversmomenten uw verbindingen ondersteunen."
+      },
+      {
+        "title": "Reageer op een shift-uitschieter",
+        "description": "Beoordeel ordervolume, bereidingstijd en late bestellingen waar beschikbaar, wijs de respons toe en vergelijk wat veranderde na de actie."
+      }
+    ],
+    "outcomesDescription": "Een helderder beeld van kanaalbijdrage en de volgende operationele beslissing.",
+    "outcomes": [
+      {
+        "title": "Beoordeel kanaaleconomie",
+        "description": "Vergelijk bijdrage, kosten en capaciteit voordat u kiest om te herwegen, te heronderhandelen of een kanaal te wijzigen."
+      },
+      {
+        "title": "Vergelijk de merkensamenstelling",
+        "description": "Beoordeel gedeelde kosten en bijdrage voordat u besluit een virtueel merk uit te breiden, te wijzigen of stop te zetten."
+      },
+      {
+        "title": "Onderzoek een kanaalverandering",
+        "description": "Gebruik de beschikbare kanaalrecords en verversmomenten. Bevestig de oorzaak voordat u een platformwijziging als verklaring aanneemt."
+      },
+      {
+        "title": "Controleer het resultaat van een wijziging",
+        "description": "Houd het actierecord, het uitgangspunt en andere operationele wijzigingen bij wanneer u het resultaat beoordeelt."
+      }
+    ],
+    "ctaTitle": "Welk kanaal of merk vraagt om nadere blik?",
+    "ctaDescription": "Vergelijk een echte of voorbeeldkeuken, de beschikbare kostendata en de volgende beslissing om te onderzoeken."
+  },
+  "pt": {
+    "challenges": [
+      {
+        "description": "Comissões, promoções, embalagens e custos de alimentos podem tornar um canal movimentado menos lucrativo do que o volume de pedidos sugere."
+      },
+      {},
+      {},
+      {
+        "title": "Mudanças sem contexto suficiente",
+        "description": "Quando pedidos ou conversão mudam, a equipe precisa dos registros do canal e do contexto operacional para decidir o que investigar."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Compare pedidos conectados, comissões, embalagem e custos alocados por canal e marca. Verifique cobertura e premissas de alocação antes de confiar na margem."
+      },
+      {
+        "description": "Revise a alocação de custos entre marcas que compartilham uma cozinha, depois compare a contribuição segundo as premissas que você usa."
+      },
+      {
+        "title": "Rever desempenho do canal",
+        "description": "Investigue mudanças em medidas disponíveis de pedido, cesta e aceitação. Confirme quais campos da plataforma e tempos de atualização suas conexões suportam."
+      },
+      {
+        "title": "Responder a uma exceção de mudança",
+        "description": "Revise volume de pedidos, tempo de preparo e pedidos atrasados quando disponíveis, atribua a resposta e compare o que mudou após a ação."
+      }
+    ],
+    "outcomesDescription": "Uma visão mais clara da contribuição do canal e da próxima decisão operacional.",
+    "outcomes": [
+      {
+        "title": "Rever a economia do canal",
+        "description": "Compare contribuição, taxas e capacidade antes de decidir reequilibrar, renegociar ou mudar um canal."
+      },
+      {
+        "title": "Comparar o mix de marcas",
+        "description": "Revise custos compartilhados e contribuição antes de decidir expandir, mudar ou encerrar uma marca virtual."
+      },
+      {
+        "title": "Investigar uma mudança de canal",
+        "description": "Use os registros de canal disponíveis e tempos de atualização. Confirme a causa antes de tratar uma mudança de plataforma como explicação."
+      },
+      {
+        "title": "Verificar o resultado de uma mudança",
+        "description": "Mantenha o registro da ação, o ponto de partida e outras mudanças operacionais juntos ao revisar o resultado."
+      }
+    ],
+    "ctaTitle": "Qual canal ou marca precisa de uma análise mais aprofundada?",
+    "ctaDescription": "Compare uma cozinha real ou de amostra, seus dados de custo disponíveis e a próxima decisão a investigar."
+  },
+  "hi": {
+    "challenges": [
+      {
+        "description": "कमीशन, प्रमोशन, पैकेजिंग और फूड लागत किसी व्यस्त चैनल को ऑर्डर वॉल्यूम की तुलना में कम लाभदायक बना सकती हैं।"
+      },
+      {},
+      {},
+      {
+        "title": "पर्याप्त संदर्भ के बिना परिवर्तन",
+        "description": "जब ऑर्डर या रूपांतरण बदलते हैं, तो टीम को यह निर्णय लेने के लिए चैनल रिकॉर्ड और ऑपरेटिंग संदर्भ चाहिए कि क्या जांच करनी है।"
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "चैनल और ब्रांड के हिसाब से कनेक्टेड ऑर्डर, कमीशन, पैकेजिंग और आवंटित लागत की तुलना करें। मार्जिन पर भरोसा करने से पहले कवरेज और आवंटन अनुमानों की जाँच करें।"
+      },
+      {
+        "description": "एक साझा किचन में ब्रांड्स के बीच लागत आवंटन की समीक्षा करें, फिर आप जो अनुमान उपयोग करते हैं उनके अंतर्गत योगदान की तुलना करें।"
+      },
+      {
+        "title": "चैनल प्रदर्शन की समीक्षा करें",
+        "description": "उपलब्ध ऑर्डर, बास्केट और एक्सेप्टेंस मापों में परिवर्तनों की जांच करें। पुष्टि करें कि आपके कनेक्शन किस प्लेटफॉर्म फील्ड और रिफ्रेश टाइमिंग का समर्थन करते हैं।"
+      },
+      {
+        "title": "एक शिफ्ट अपवाद का जवाब दें",
+        "description": "जहाँ उपलब्ध हो वहां ऑर्डर वॉल्यूम, प्रेप समय और लेट ऑर्डर की समीक्षा करें, प्रतिक्रिया सौंपें और कार्रवाई के बाद क्या बदला इसकी तुलना करें।"
+      }
+    ],
+    "outcomesDescription": "चैनल योगदान और अगले ऑपरेटिंग निर्णय का एक स्पष्ट दृश्य।",
+    "outcomes": [
+      {
+        "title": "चैनल अर्थशास्त्र की समीक्षा करें",
+        "description": "पुनर्संतुलन, पुनर्विकल्पन या चैनल बदलने का निर्णय लेने से पहले योगदान, शुल्क और क्षमता की तुलना करें।"
+      },
+      {
+        "title": "ब्रांड मिक्स की तुलना करें",
+        "description": "विस्तार, परिवर्तन या किसी वर्चुअल ब्रांड को बंद करने का निर्णय लेने से पहले साझा लागत और योगदान की समीक्षा करें।"
+      },
+      {
+        "title": "चैनल परिवर्तन की जांच करें",
+        "description": "उपलब्ध चैनल रिकॉर्ड और रिफ्रेश समय का उपयोग करें। किसी प्लेटफॉर्म परिवर्तन को कारण मानने से पहले कारण की पुष्टि करें।"
+      },
+      {
+        "title": "परिवर्तन के परिणाम की जाँच करें",
+        "description": "परिणाम की समीक्षा करते समय कार्रवाई रिकॉर्ड, शुरुआती बिंदु और अन्य ऑपरेटिंग परिवर्तनों को साथ रखें।"
+      }
+    ],
+    "ctaTitle": "किस चैनल या ब्रांड को नज़दीकी जांच चाहिए?",
+    "ctaDescription": "एक वास्तविक या नमूना किचन, उसका उपलब्ध लागत डेटा और जांच के अगले निर्णय की तुलना करें।"
+  },
+  "ur": {
+    "challenges": [
+      {
+        "description": "کمیشن، پروموشنز، پیکیجنگ اور فوڈ لاگت ایک مصروف چینل کو آرڈر والیوم کے مقابلے میں کم منافع بخش بنا سکتی ہیں۔"
+      },
+      {},
+      {},
+      {
+        "title": "بغیر کافی سیاق و سباق کے تبدیلیاں",
+        "description": "جب آرڈرز یا کنورژن بدلیں تو ٹیم کو یہ فیصلہ کرنے کے لیے چینل ریکارڈز اور آپریٹنگ سیاق و سباق چاہیے کہ کیا تحقیق کرنی ہے۔"
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "متصل آرڈرز، کمیشن، پیکیجنگ اور مختص شدہ لاگت کو چینل اور برانڈ کی جانب سے موازنہ کریں۔ مارجن پر بھروسہ کرنے سے پہلے کوریج اور الاکیشن مفروضات چیک کریں۔"
+      },
+      {
+        "description": "ایک مشترکہ کچن میں برانڈز کے درمیان لاگت کی الاکیشن کا جائزہ لیں، پھر آپ کے مفروضات کے تحت کنٹریبیوشن کا موازنہ کریں۔"
+      },
+      {
+        "title": "چینل کارکردگی کا جائزہ لیں",
+        "description": "دستیاب آرڈر، باسکٹ اور قبولیت میجرز میں تبدیلیوں کی تحقیقات کریں۔ تصدیق کریں کہ آپ کے کنکشن کون سے پلیٹ فارم فیلڈز اور ریفریش ٹائمنگ کو سپورٹ کرتے ہیں۔"
+      },
+      {
+        "title": "شفٹ استثنا کا جواب دیں",
+        "description": "جہاں دستیاب ہوں آرڈر والیوم، پریپ ٹائم اور لیٹ آرڈرز کا جائزہ لیں، جواب تفویض کریں اور ایکشن کے بعد کیا بدلا اس کا موازنہ کریں۔"
+      }
+    ],
+    "outcomesDescription": "چینل کنٹریبیوشن اور اگلے آپریٹنگ فیصلے کا واضح منظر۔",
+    "outcomes": [
+      {
+        "title": "چینل اکنامکس کا جائزہ لیں",
+        "description": "کنٹریبیوشن، فیسز اور صلاحیت کا موازنہ کریں قبل اس کے کہ ری بیلنس، دوبارہ بات چیت یا چینل تبدیلی کا فیصلہ کریں۔"
+      },
+      {
+        "title": "برانڈ مکس کا موازنہ کریں",
+        "description": "شیئرڈ اخراجات اور کنٹریبیوشن کا جائزہ لیں قبل اس کے کہ ورچوئل برانڈ کو بڑھانے، تبدیل کرنے یا ریٹائر کرنے کا فیصلہ کریں۔"
+      },
+      {
+        "title": "چینل تبدیلی کی تحقیق کریں",
+        "description": "دستیاب چینل ریکارڈز اور ریفریش ٹائمنگ استعمال کریں۔ ایک پلیٹ فارم تبدیلی کو وضاحت ماننے سے پہلے سبب کی تصدیق کریں۔"
+      },
+      {
+        "title": "تبدیلی کے نتیجے کو چیک کریں",
+        "description": "نتیجہ کا جائزہ لیتے وقت ایکشن ریکارڈ، ابتدائی نقطہ اور دیگر آپریٹنگ تبدیلیاں ساتھ رکھیں۔"
+      }
+    ],
+    "ctaTitle": "کون سا چینل یا برانڈ قریب سے دیکھنے کا مستحق ہے؟",
+    "ctaDescription": "ایک حقیقی یا نمونہ کچن، اس کا دستیاب کوسٹ ڈیٹا اور اگلا فیصلہ موازنہ کریں۔"
+  },
+  "it": {
+    "challenges": [
+      {
+        "description": "Commissioni, promozioni, packaging e costi del cibo possono rendere un canale trafficato meno redditizio di quanto suggerisca il volume ordini."
+      },
+      {},
+      {},
+      {
+        "title": "Variazioni senza contesto sufficiente",
+        "description": "Quando ordini o conversioni cambiano, il team ha bisogno dei record del canale e del contesto operativo per decidere cosa indagare."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Confronta ordini collegati, commissioni, packaging e costi allocati per canale e brand. Controlla copertura e ipotesi di allocazione prima di fare affidamento sul margine."
+      },
+      {
+        "description": "Rivedi l’allocazione dei costi tra brand che condividono una cucina, poi confronta il contributo con le ipotesi che usi."
+      },
+      {
+        "title": "Rivedere le prestazioni del canale",
+        "description": "Indaga variazioni nelle misure disponibili di ordini, carrello e accettazione. Conferma quali campi della piattaforma e tempi di refresh supportano le tue connessioni."
+      },
+      {
+        "title": "Rispondere a un’eccezione di turno",
+        "description": "Rivedi volume ordini, tempi di preparazione e ordini in ritardo dove disponibili, assegna la risposta e confronta cosa è cambiato dopo l’azione."
+      }
+    ],
+    "outcomesDescription": "Una visione più chiara del contributo del canale e della prossima decisione operativa.",
+    "outcomes": [
+      {
+        "title": "Rivedere l’economia del canale",
+        "description": "Confronta contributo, commissioni e capacità prima di decidere se riequilibrare, rinegoziare o cambiare canale."
+      },
+      {
+        "title": "Confrontare il mix di brand",
+        "description": "Rivedi costi condivisi e contributo prima di decidere se espandere, cambiare o ritirare un brand virtuale."
+      },
+      {
+        "title": "Indagare una variazione di canale",
+        "description": "Usa i record di canale disponibili e i tempi di refresh. Conferma la causa prima di trattare un cambiamento di piattaforma come spiegazione."
+      },
+      {
+        "title": "Controllare il risultato di una modifica",
+        "description": "Conserva il record dell’azione, il punto di partenza e altri cambiamenti operativi insieme quando rivedi il risultato."
+      }
+    ],
+    "ctaTitle": "Quale canale o brand necessita di uno sguardo più attento?",
+    "ctaDescription": "Confronta una cucina reale o campione, i dati di costo disponibili e la prossima decisione da investigare."
+  },
+  "pl": {
+    "challenges": [
+      {
+        "description": "Prowizje, promocje, opakowania i koszty żywności mogą sprawić, że zajęty kanał będzie mniej zyskowny niż sugeruje wolumen zamówień."
+      },
+      {},
+      {},
+      {
+        "title": "Zmiany bez wystarczającego kontekstu",
+        "description": "Gdy zmieniają się zamówienia lub konwersje, zespół potrzebuje zapisów kanału i kontekstu operacyjnego, aby zdecydować, co zbadać."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Porównaj połączone zamówienia, prowizje, opakowania i przypisane koszty według kanału i marki. Sprawdź zasięg i założenia alokacji przed poleganiem na marży."
+      },
+      {
+        "description": "Przejrzyj alokację kosztów między markami współdzielącymi kuchnię, a następnie porównaj wkład według stosowanych założeń."
+      },
+      {
+        "title": "Przeglądaj wyniki kanału",
+        "description": "Badaj zmiany w dostępnych miarach zamówień, koszyka i akceptacji. Potwierdź, które pola platformy i harmonogramy odświeżania obsługują Twoje połączenia."
+      },
+      {
+        "title": "Zareaguj na wyjątek w przesunięciu",
+        "description": "Przejrzyj wolumen zamówień, czas przygotowania i spóźnione zamówienia tam, gdzie dostępne, przypisz reakcję i porównaj, co się zmieniło po działaniu."
+      }
+    ],
+    "outcomesDescription": "Jaśniejszy obraz wkładu kanału i następnej decyzji operacyjnej.",
+    "outcomes": [
+      {
+        "title": "Przejrzyj ekonomię kanału",
+        "description": "Porównaj wkład, opłaty i wydajność przed zdecydowaniem, czy zrównoważyć, renegocjować lub zmienić kanał."
+      },
+      {
+        "title": "Porównaj miks marek",
+        "description": "Przejrzyj wspólne koszty i wkład zanim zdecydujesz, czy rozszerzyć, zmienić czy wycofać markę wirtualną."
+      },
+      {
+        "title": "Zbadaj zmianę kanału",
+        "description": "Użyj dostępnych zapisów kanału i harmonogramu odświeżania. Potwierdź przyczynę przed uznaniem zmiany platformy za wyjaśnienie."
+      },
+      {
+        "title": "Sprawdź efekt zmiany",
+        "description": "Zachowaj zapis działania, punkt wyjścia i inne zmiany operacyjne razem podczas przeglądu wyniku."
+      }
+    ],
+    "ctaTitle": "Jaki kanał lub marka wymaga bliższego spojrzenia?",
+    "ctaDescription": "Porównaj realną lub przykładową kuchnię, dostępne dane kosztowe i kolejną decyzję do zbadania."
+  },
+  "tr": {
+    "challenges": [
+      {
+        "description": "Komisyon, promosyonlar, paketleme ve gıda maliyetleri yoğun bir kanalı sipariş hacminin gösterdiğinden daha az kârlı hale getirebilir."
+      },
+      {},
+      {},
+      {
+        "title": "Yeterli bağlam olmadan değişiklikler",
+        "description": "Siparişler veya dönüşüm değiştiğinde ekip hangi şeyi araştıracağını belirlemek için kanal kayıtlarına ve işletme bağlamına ihtiyaç duyar."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Bağlı siparişleri, komisyonları, paketleme ve dağıtılmış maliyetleri kanal ve marka bazında karşılaştırın. Marja güvenmeden önce kapsamı ve tahsis varsayımlarını kontrol edin."
+      },
+      {
+        "description": "Bir mutfağı paylaşan markalar arasında maliyet tahsisini gözden geçirin, sonra kullandığınız varsayımlar altında katkıyı karşılaştırın."
+      },
+      {
+        "title": "Kanal performansını inceleyin",
+        "description": "Mevcut sipariş, sepet ve kabul ölçülerindeki değişiklikleri araştırın. Bağlantılarınızın hangi platform alanlarını ve yenileme zamanlamasını desteklediğini doğrulayın."
+      },
+      {
+        "title": "Vardiya istisnasına yanıt verin",
+        "description": "Mevcutsa sipariş hacmini, hazırlama süresini ve geç siparişleri gözden geçirin, yanıtı atayın ve eylemden sonra ne değiştiğini karşılaştırın."
+      }
+    ],
+    "outcomesDescription": "Kanal katkısının ve bir sonraki işletme kararının daha net bir görünümü.",
+    "outcomes": [
+      {
+        "title": "Kanal ekonomilerini inceleyin",
+        "description": "Yeniden dengelemeye, yeniden pazarlığa ya da kanalı değiştirmeye karar vermeden önce katkıyı, ücretleri ve kapasiteyi karşılaştırın."
+      },
+      {
+        "title": "Marka karmasını karşılaştırın",
+        "description": "Sanal bir markayı genişletme, değiştirme veya sonlandırma kararı vermeden önce paylaşılan maliyetleri ve katkıyı gözden geçirin."
+      },
+      {
+        "title": "Kanal değişikliğini araştırın",
+        "description": "Mevcut kanal kayıtlarını ve yenileme zamanlamasını kullanın. Bir platform değişikliğini açıklama olarak ele almadan önce nedeni doğrulayın."
+      },
+      {
+        "title": "Bir değişikliğin sonucunu kontrol edin",
+        "description": "Sonucu gözden geçirirken eylem kaydını, başlangıç noktasını ve diğer işletme değişikliklerini bir arada tutun."
+      }
+    ],
+    "ctaTitle": "Hangi kanal veya marka daha yakından incelenmeli?",
+    "ctaDescription": "Gerçek veya örnek bir mutfağı, mevcut maliyet verilerini ve araştırılacak sonraki kararı karşılaştırın."
+  },
+  "zh-Hans": {
+    "challenges": [
+      {
+        "description": "佣金、促销、打包和餐食成本可能使繁忙的渠道比订单量显示的盈利性更低。"
+      },
+      {},
+      {},
+      {
+        "title": "在缺乏足够背景下的变化",
+        "description": "当订单或转化变化时，团队需要渠道记录和运营背景来决定调查方向。"
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "按渠道和品牌比较已连接的订单、佣金、打包和分配成本。在依赖利润率前检查覆盖与分配假设。"
+      },
+      {
+        "description": "审查共用厨房的品牌间成本分配，然后在您使用的假设下比较贡献。"
+      },
+      {
+        "title": "审查渠道表现",
+        "description": "调查可用的订单、购物篮和接单率等指标变化。确认您的连接支持哪些平台字段和刷新时序。"
+      },
+      {
+        "title": "对班次异常做出响应",
+        "description": "在可用时审查订单量、备餐时间和延迟订单，分配响应并在动作后比较变化。"
+      }
+    ],
+    "outcomesDescription": "更清晰的渠道贡献视图和下一步运营决策。",
+    "outcomes": [
+      {
+        "title": "审查渠道经济性",
+        "description": "在决定是否重新平衡、重新谈判或改变渠道前比较贡献、费用与产能。"
+      },
+      {
+        "title": "比较品牌构成",
+        "description": "在决定是否扩展、变更或下架虚拟品牌前审查共享成本与贡献。"
+      },
+      {
+        "title": "调查渠道变化",
+        "description": "使用可用的渠道记录与刷新时序。确认原因再将平台变化作为解释。"
+      },
+      {
+        "title": "检查变更结果",
+        "description": "在审查结果时保留操作记录、起始点和其他运营变化。"
+      }
+    ],
+    "ctaTitle": "哪个渠道或品牌需要更深入查看？",
+    "ctaDescription": "比较一个真实或示例厨房、其可用成本数据及要调查的下一步决策。"
+  },
+  "ja": {
+    "challenges": [
+      {
+        "description": "手数料、プロモーション、パッケージ、食品原価により、注文量だけでは収益性が低く見えることがある。"
+      },
+      {},
+      {},
+      {
+        "title": "十分な文脈のない変化",
+        "description": "注文やコンバージョンが変化したとき、チームは何を調査するかを決めるためにチャネルの記録と稼働文脈を必要とする。"
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "接続された注文、手数料、パッケージ、配賦コストをチャネルとブランドごとに比較する。マージンに依存する前にカバレッジと配賦前提を確認する。"
+      },
+      {
+        "description": "キッチンを共有するブランド間のコスト配賦をレビューし、その前提での貢献を比較する。"
+      },
+      {
+        "title": "チャネルパフォーマンスをレビューする",
+        "description": "利用可能な注文数、バスケット、受注率の変化を調査する。接続がサポートするプラットフォームのフィールドとリフレッシュタイミングを確認する。"
+      },
+      {
+        "title": "シフト例外に対応する",
+        "description": "利用可能な場合は注文量、調理時間、遅延注文をレビューし、対応を割り当て、対応後に何が変わったかを比較する。"
+      }
+    ],
+    "outcomesDescription": "チャネル貢献と次の稼働判断のより明確な見通し。",
+    "outcomes": [
+      {
+        "title": "チャネルの経済性をレビューする",
+        "description": "リバランス、再交渉、チャネル変更を選ぶ前に貢献、手数料、キャパシティを比較する。"
+      },
+      {
+        "title": "ブランドミックスを比較する",
+        "description": "仮想ブランドを拡大、変更、廃止する前に共有コストと貢献をレビューする。"
+      },
+      {
+        "title": "チャネル変化を調査する",
+        "description": "利用可能なチャネル記録とリフレッシュタイミングを使う。プラットフォームの変化を説明と扱う前に原因を確認する。"
+      },
+      {
+        "title": "変更の結果を確認する",
+        "description": "結果をレビューする際に、アクション記録、起点、他の稼働変更を一緒に保持する。"
+      }
+    ],
+    "ctaTitle": "どのチャネルやブランドを詳しく見る必要があるか？",
+    "ctaDescription": "実際またはサンプルのキッチン、その利用可能なコストデータ、調査する次の判断を比較する。"
+  },
+  "ko": {
+    "challenges": [
+      {
+        "description": "수수료, 프로모션, 포장 및 식자재비로 인해 주문량이 많아도 채널이 수익성이 낮을 수 있습니다."
+      },
+      {},
+      {},
+      {
+        "title": "맥락 부족의 변화",
+        "description": "주문이나 전환이 변할 때, 팀은 조사할 기록과 운영 맥락이 필요합니다."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "채널과 브랜드별로 연결된 주문, 수수료, 포장 및 배분 비용을 비교하세요. 마진에 의존하기 전에 적용 범위와 배분 가정을 확인하세요."
+      },
+      {
+        "description": "주방을 공유하는 브랜드 간 비용 배분을 검토한 후 사용하는 가정 하에 기여도를 비교하세요."
+      },
+      {
+        "title": "채널 성과 검토",
+        "description": "사용 가능한 주문, 바스켓 및 수락 지표의 변화를 조사하세요. 연결이 지원하는 플랫폼 필드와 새로고침 타이밍을 확인하세요."
+      },
+      {
+        "title": "교대 예외에 대응",
+        "description": "가능할 경우 주문량, 준비 시간 및 지연 주문을 검토하고 대응을 지정한 뒤 조치 후 무엇이 변했는지 비교하세요."
+      }
+    ],
+    "outcomesDescription": "채널 기여도와 다음 운영 결정을 위한 더 명확한 관점.",
+    "outcomes": [
+      {
+        "title": "채널 수익 구조 검토",
+        "description": "재배분, 재협상 또는 채널 변경을 결정하기 전에 기여도, 수수료 및 용량을 비교하세요."
+      },
+      {
+        "title": "브랜드 믹스 비교",
+        "description": "가상 브랜드를 확장, 변경 또는 폐지할지 결정하기 전에 공유 비용과 기여도를 검토하세요."
+      },
+      {
+        "title": "채널 변화를 조사",
+        "description": "사용 가능한 채널 기록과 새로고침 타이밍을 사용하세요. 플랫폼 변화를 원인으로 보기 전에 원인을 확인하세요."
+      },
+      {
+        "title": "변경 결과 확인",
+        "description": "결과를 검토할 때 행동 기록, 시작점 및 다른 운영 변화를 함께 보관하세요."
+      }
+    ],
+    "ctaTitle": "어떤 채널이나 브랜드를 더 자세히 볼까요?",
+    "ctaDescription": "실제 또는 샘플 주방, 사용 가능한 비용 데이터 및 조사할 다음 결정을 비교하세요."
+  },
+  "id": {
+    "challenges": [
+      {
+        "description": "Komisi, promosi, pengemasan dan biaya bahan dapat membuat saluran yang sibuk kurang menguntungkan daripada yang disarankan volume pesanan."
+      },
+      {},
+      {},
+      {
+        "title": "Perubahan tanpa konteks yang cukup",
+        "description": "Ketika pesanan atau konversi berubah, tim membutuhkan catatan saluran dan konteks operasional untuk memutuskan apa yang harus diselidiki."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Bandingkan pesanan terhubung, komisi, pengemasan dan biaya yang dialokasikan per saluran dan merek. Periksa cakupan dan asumsi alokasi sebelum mengandalkan margin."
+      },
+      {
+        "description": "Tinjau alokasi biaya antar merek yang berbagi dapur, lalu bandingkan kontribusi berdasarkan asumsi yang Anda gunakan."
+      },
+      {
+        "title": "Tinjau kinerja saluran",
+        "description": "Selidiki perubahan dalam pesanan yang tersedia, keranjang dan ukuran penerimaan. Konfirmasi bidang platform mana dan waktu penyegaran yang didukung koneksi Anda."
+      },
+      {
+        "title": "Respon terhadap pengecualian pergeseran",
+        "description": "Tinjau volume pesanan, waktu persiapan dan pesanan terlambat bila tersedia, tugaskan respons dan bandingkan apa yang berubah setelah tindakan."
+      }
+    ],
+    "outcomesDescription": "Pandangan yang lebih jelas tentang kontribusi saluran dan keputusan operasional berikutnya.",
+    "outcomes": [
+      {
+        "title": "Tinjau ekonomi saluran",
+        "description": "Bandingkan kontribusi, biaya dan kapasitas sebelum memilih apakah akan menyeimbangkan ulang, menegosiasi ulang atau mengubah saluran."
+      },
+      {
+        "title": "Bandingkan komposisi merek",
+        "description": "Tinjau biaya bersama dan kontribusi sebelum memutuskan apakah akan memperluas, mengubah atau menghentikan merek virtual."
+      },
+      {
+        "title": "Selidiki perubahan saluran",
+        "description": "Gunakan catatan saluran yang tersedia dan waktu penyegarannya. Konfirmasi penyebab sebelum menganggap perubahan platform sebagai penjelasan."
+      },
+      {
+        "title": "Periksa hasil perubahan",
+        "description": "Simpan catatan tindakan, titik awal dan perubahan operasional lain saat meninjau hasil."
+      }
+    ],
+    "ctaTitle": "Saluran atau merek mana yang perlu dilihat lebih dekat?",
+    "ctaDescription": "Bandingkan dapur nyata atau sampel, data biaya yang tersedia dan keputusan berikutnya untuk diselidiki."
+  },
+  "vi": {
+    "challenges": [
+      {
+        "description": "Hoa hồng, khuyến mãi, đóng gói và chi phí thực phẩm có thể khiến một kênh bận rộn kém sinh lợi hơn so với khối lượng đơn hàng gợi ý."
+      },
+      {},
+      {},
+      {
+        "title": "Thay đổi thiếu bối cảnh",
+        "description": "Khi đơn hàng hoặc tỷ lệ chuyển đổi thay đổi, đội cần hồ sơ kênh và bối cảnh vận hành để quyết định điều gì cần điều tra."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "So sánh đơn hàng kết nối, hoa hồng, đóng gói và chi phí phân bổ theo kênh và thương hiệu. Kiểm tra phạm vi và giả định phân bổ trước khi dựa vào biên."
+      },
+      {
+        "description": "Xem lại phân bổ chi phí giữa các thương hiệu chia sẻ bếp, rồi so sánh đóng góp theo giả định bạn sử dụng."
+      },
+      {
+        "title": "Xem xét hiệu suất kênh",
+        "description": "Điều tra thay đổi về đơn hàng khả dụng, giỏ hàng và các chỉ số chấp nhận. Xác nhận các trường nền tảng và thời gian làm mới mà kết nối của bạn hỗ trợ."
+      },
+      {
+        "title": "Ứng phó với ngoại lệ thay đổi",
+        "description": "Xem lượng đơn hàng, thời gian chuẩn bị và đơn hàng trễ khi có, phân công phản ứng và so sánh những gì thay đổi sau hành động."
+      }
+    ],
+    "outcomesDescription": "Một cái nhìn rõ hơn về đóng góp kênh và quyết định vận hành tiếp theo.",
+    "outcomes": [
+      {
+        "title": "Xem lại kinh tế kênh",
+        "description": "So sánh đóng góp, phí và công suất trước khi chọn tái cân bằng, tái đàm phán hoặc thay đổi kênh."
+      },
+      {
+        "title": "So sánh cơ cấu thương hiệu",
+        "description": "Xem chi phí chia sẻ và đóng góp trước khi quyết định mở rộng, thay đổi hoặc loại bỏ một thương hiệu ảo."
+      },
+      {
+        "title": "Điều tra thay đổi kênh",
+        "description": "Dùng hồ sơ kênh có sẵn và thời gian làm mới. Xác nhận nguyên nhân trước khi coi thay đổi nền tảng là lời giải thích."
+      },
+      {
+        "title": "Kiểm tra kết quả của một thay đổi",
+        "description": "Giữ hồ sơ hành động, điểm khởi đầu và các thay đổi vận hành khác cùng nhau khi xem xét kết quả."
+      }
+    ],
+    "ctaTitle": "Kênh hoặc thương hiệu nào cần xem kỹ hơn?",
+    "ctaDescription": "So sánh một bếp thực tế hoặc mẫu, dữ liệu chi phí có sẵn và quyết định tiếp theo để điều tra."
+  },
+  "ro": {
+    "challenges": [
+      {
+        "description": "Comisioanele, promoțiile, ambalajele și costurile alimentelor pot face un canal aglomerat mai puțin profitabil decât sugerează volumul comenzilor."
+      },
+      {},
+      {},
+      {
+        "title": "Schimbări fără suficient context",
+        "description": "Când comenzile sau rata de conversie se schimbă, echipa are nevoie de evidențele canalului și contextul operațional pentru a decide ce să investigheze."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Comparați comenzile conectate, comisioanele, ambalajele și costurile alocate pe canal și marcă. Verificați acoperirea și ipotezele de alocare înainte de a vă baza pe marjă."
+      },
+      {
+        "description": "Revizuiți alocarea costurilor între mărcile care partajează o bucătărie, apoi comparați contribuția sub ipotezele pe care le folosiți."
+      },
+      {
+        "title": "Revizuiți performanța canalului",
+        "description": "Investigați modificările din comenzile disponibile, coșul mediu și măsurile de acceptare. Confirmați ce câmpuri ale platformei și timpi de reîmprospătare suportă conexiunile dvs."
+      },
+      {
+        "title": "Răspundeți la o excepție de schimbare",
+        "description": "Revizuiți volumul comenzilor, timpul de pregătire și comenzile întârziate unde sunt disponibile, atribuiți răspunsul și comparați ce s-a schimbat după acțiune."
+      }
+    ],
+    "outcomesDescription": "O vedere mai clară a contribuției canalului și următoarea decizie operațională.",
+    "outcomes": [
+      {
+        "title": "Revizuiți economia canalului",
+        "description": "Comparați contribuția, taxele și capacitatea înainte de a decide să reechilibrați, renegociați sau schimbați un canal."
+      },
+      {
+        "title": "Comparați mixul de branduri",
+        "description": "Revizuiți costurile partajate și contribuția înainte de a decide să extindeți, modificați sau retrageți un brand virtual."
+      },
+      {
+        "title": "Investigați o schimbare de canal",
+        "description": "Folosiți evidențele de canal disponibile și timpii de reîmprospătare. Confirmați cauza înainte de a trata o schimbare de platformă ca explicație."
+      },
+      {
+        "title": "Verificați rezultatul unei schimbări",
+        "description": "Păstrați registrul acțiunii, punctul de plecare și celelalte schimbări operaționale împreună când revizuiți rezultatul."
+      }
+    ],
+    "ctaTitle": "Care canal sau marcă are nevoie de o privire mai atentă?",
+    "ctaDescription": "Comparați o bucătărie reală sau un eșantion, datele sale de cost disponibile și decizia următoare de investigat."
+  },
+  "sv": {
+    "challenges": [
+      {
+        "description": "Provisioner, kampanjer, förpackning och matkostnader kan göra en trafikstark kanal mindre lönsam än ordervolymen antyder."
+      },
+      {},
+      {},
+      {
+        "title": "Förändringar utan tillräcklig kontext",
+        "description": "När beställningar eller konvertering förändras behöver teamet kanalens poster och driftkontext för att avgöra vad som ska undersökas."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Jämför anslutna beställningar, provisioner, förpackning och allokerade kostnader per kanal och varumärke. Kontrollera täckning och allokeringsantaganden innan du litar på marginalen."
+      },
+      {
+        "description": "Granska kostnadsallokering mellan varumärken som delar kök, och jämför sedan bidrag under de antaganden ni använder."
+      },
+      {
+        "title": "Granska kanalförmåga",
+        "description": "Undersök förändringar i tillgängliga order-, korg- och acceptansmått. Bekräfta vilka plattformsfält och uppdateringstider dina anslutningar stödjer."
+      },
+      {
+        "title": "Svara på ett skiftesundantag",
+        "description": "Granska ordervolym, förberedelsetid och sena beställningar där det finns tillgängligt, tilldela åtgärd och jämför vad som förändrades efter insatsen."
+      }
+    ],
+    "outcomesDescription": "En tydligare bild av kanalbidrag och nästa driftbeslut.",
+    "outcomes": [
+      {
+        "title": "Granska kanalekonomi",
+        "description": "Jämför bidrag, avgifter och kapacitet innan du beslutar att ombalansera, omförhandla eller byta kanal."
+      },
+      {
+        "title": "Jämför varumix",
+        "description": "Granska delade kostnader och bidrag innan du beslutar om att expandera, ändra eller lägga ner ett virtuellt varumärke."
+      },
+      {
+        "title": "Undersök en kanaländring",
+        "description": "Använd tillgängliga kanalfiler och uppdateringstider. Bekräfta orsaken innan du behandlar en plattformsförändring som förklaring."
+      },
+      {
+        "title": "Kontrollera resultatet av en ändring",
+        "description": "Behåll åtgärdsposten, utgångspunkten och andra driftförändringar tillsammans när ni granskar resultatet."
+      }
+    ],
+    "ctaTitle": "Vilken kanal eller vilket varumärke behöver en närmare granskning?",
+    "ctaDescription": "Jämför ett verkligt eller provkök, dess tillgängliga kostnadsdata och nästa beslut att undersöka."
+  },
+  "bn": {
+    "challenges": [
+      {
+        "description": "কমিশন, প্রোমোশন, প্যাকেজিং এবং খাবারের খরচ একটি ব্যস্ত চ্যানেলকে অর্ডার ভলিউম অনুযায়ী লাভজনক না করেও ফেলতে পারে।"
+      },
+      {},
+      {},
+      {
+        "title": "প্রতুপাদনের জন্য পর্যাপ্ত কনটেক্সট ছাড়া পরিবর্তন",
+        "description": "অর্ডার বা কনভার্সন পরিবর্তন হলে দলে চ্যানেল রেকর্ড এবং অপারেটিং কনটেক্সট দরকার কি তদন্ত করতে।"
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "চ্যানেল ও ব্র্যান্ড অনুযায়ী সংযুক্ত অর্ডার, কমিশন, প্যাকেজিং এবং বরাদ্দ খরচ তুলনা করুন। মার্জিনে নির্ভর করার আগে কভারেজ ও বরাদ্দ অনুমান পরীক্ষা করুন।"
+      },
+      {
+        "description": "একই কিচেন শেয়ার করা ব্র্যান্ডগুলোর মধ্যে খরচ বরাদ্দ পর্যালোচনা করুন, তারপর আপনি যে অনুমান ব্যবহার করেন তার অধীনে কনট্রিবিউশন তুলনা করুন।"
+      },
+      {
+        "title": "চ্যানেল পারফরম্যান্স পর্যালোচনা করুন",
+        "description": "উপলব্ধ অর্ডার, বাস্কেট ও অ্যাকসেপ্টেন্স মেট্রিকগুলোর পরিবর্তন তদন্ত করুন। নিশ্চিত করুন আপনার সংযোগগুলো কোন প্ল্যাটফর্ম ফিল্ড ও রিফ্রেশ টাইমিং সাপোর্ট করে।"
+      },
+      {
+        "title": "একটি শিফট এক্সসেপশনে প্রতিক্রিয়া দিন",
+        "description": "উপলব্ধ হলে অর্ডার ভলিউম, প্রেপ সময় ও দেরিতে অর্ডারগুলো পর্যালোচনা করুন, প্রতিক্রিয়া নির্ধারণ করুন এবং কর্মটির পর কি পরিবর্তিত হয়েছে তা তুলনা করুন।"
+      }
+    ],
+    "outcomesDescription": "চ্যানেল কনট্রিবিউশন এবং পরবর্তী অপারেটিং সিদ্ধান্ত সম্পর্কে একটি পরিষ্কার চিত্র।",
+    "outcomes": [
+      {
+        "title": "চ্যানেল অর্থনীতি পর্যালোচনা করুন",
+        "description": "রিব্যালান্স, পুনর্নিগোশিয়েট বা চ্যানেল পরিবর্তন করার আগে কনট্রিবিউশন, ফি এবং ক্যাপাসিটি তুলনা করুন।"
+      },
+      {
+        "title": "ব্র্যান্ড মিক্স তুলনা করুন",
+        "description": "এক্সপ Wandel shared costs and contribution before deciding whether to expand, change or retire a virtual brand."
+      },
+      {
+        "title": "চ্যানেল পরিবর্তন তদন্ত করুন",
+        "description": "উপলব্ধ চ্যানেল রেকর্ড ও রিফ্রেশ টাইমিং ব্যবহার করুন। প্ল্যাটফর্ম পরিবর্তনকে কারণ ধরে নেওয়ার আগে কারণ নিশ্চিত করুন।"
+      },
+      {
+        "title": "একটি পরিবর্তনের ফলাফল পরীক্ষা করুন",
+        "description": "ফলাফল পর্যালোচনার সময় কর্মের রেকর্ড, আরম্ভিক পয়েন্ট এবং অন্যান্য অপারেটিং পরিবর্তনগুলো একসঙ্গে রাখুন।"
+      }
+    ],
+    "ctaTitle": "কোন চ্যানেল বা ব্র্যান্ডকে কাছ থেকে দেখা দরকার?",
+    "ctaDescription": "একটি বাস্তব বা নমুনা কিচেন, তার উপলব্ধ খরচ ডেটা এবং তদন্ত করার পরবর্তী সিদ্ধান্ত তুলনা করুন।"
+  },
+  "th": {
+    "challenges": [
+      {
+        "description": "ค่าคอมมิชชั่น โปรโมชั่น บรรจุภัณฑ์ และต้นทุนอาหารอาจทำให้ช่องทางที่มีคำสั่งซื้อมากไม่มีกำไรเท่าที่ปริมาณคำสั่งซื้อชี้"
+      },
+      {},
+      {},
+      {
+        "title": "การเปลี่ยนแปลงที่ไม่มีบริบทเพียงพอ",
+        "description": "เมื่อคำสั่งซื้อหรืออัตราการแปลงเปลี่ยน ทีมต้องใช้บันทึกช่องทางและบริบทการปฏิบัติงานเพื่อตัดสินใจว่าควรตรวจสอบอะไร"
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "เปรียบเทียบคำสั่งซื้อ ค่าคอมมิชชั่น บรรจุภัณฑ์ และต้นทุนที่จัดสรรตามช่องทางและแบรนด์ที่เชื่อมต่อ ตรวจสอบความครอบคลุมและสมมติฐานการจัดสรรก่อนพึ่งพามาร์จิ้น"
+      },
+      {
+        "description": "ทบทวนการจัดสรรต้นทุนข้ามแบรนด์ที่ใช้ครัวร่วม แล้วเปรียบเทียบส่วนต่างภายใต้สมมติฐานที่คุณใช้"
+      },
+      {
+        "title": "ทบทวนประสิทธิภาพช่องทาง",
+        "description": "ตรวจสอบการเปลี่ยนแปลงในคำสั่งซื้อ ตะกร้า และมาตรการการยอมรับที่มีอยู่ ยืนยันว่าฟิลด์แพลตฟอร์มและเวลาการรีเฟรชใดที่การเชื่อมต่อของคุณรองรับ"
+      },
+      {
+        "title": "ตอบสนองต่อข้อยกเว้นการเปลี่ยนแปลง",
+        "description": "ทบทวนปริมาณคำสั่ง เวลาเตรียม และคำสั่งล่าช้าตามที่มีมอบหมายการตอบสนอง และเปรียบเทียบสิ่งที่เปลี่ยนหลังการดำเนินการ"
+      }
+    ],
+    "outcomesDescription": "มุมมองที่ชัดเจนขึ้นของส่วนต่างช่องทางและการตัดสินใจการปฏิบัติงานต่อไป",
+    "outcomes": [
+      {
+        "title": "ทบทวนเศรษฐศาสตร์ช่องทาง",
+        "description": "เปรียบเทียบส่วนต่าง ค่าธรรมเนียม และความจุก่อนตัดสินใจว่าจะปรับสมดุล เจรจาใหม่ หรือลด/เปลี่ยนช่องทาง"
+      },
+      {
+        "title": "เปรียบเทียบสัดส่วนแบรนด์",
+        "description": "ทบทวนต้นทุนที่ใช้ร่วมกันและส่วนต่างก่อนตัดสินใจว่าจะขยาย เปลี่ยน หรือเลิกแบรนด์เสมือน"
+      },
+      {
+        "title": "ตรวจสอบการเปลี่ยนแปลงของช่องทาง",
+        "description": "ใช้บันทึกช่องทางและเวลาการรีเฟรชที่มี ยืนยันสาเหตุก่อนถือว่าการเปลี่ยนแพลตฟอร์มเป็นคำอธิบาย"
+      },
+      {
+        "title": "ตรวจสอบผลของการเปลี่ยนแปลง",
+        "description": "เก็บบันทึกการดำเนินการ จุดเริ่มต้น และการเปลี่ยนแปลงการปฏิบัติงานอื่นไว้พร้อมกันเมื่อทบทวนผล"
+      }
+    ],
+    "ctaTitle": "ช่องทางหรือแบรนด์ใดต้องดูใกล้ขึ้น?",
+    "ctaDescription": "เปรียบเทียบครัวจริงหรือตัวอย่าง ข้อมูลต้นทุนที่มี และการตัดสินใจถัดไปที่จะตรวจสอบ"
+  },
+  "ms": {
+    "challenges": [
+      {
+        "description": "Suruhanjaya, promosi, pembungkusan dan kos makanan boleh menjadikan saluran sibuk kurang menguntungkan daripada jumlah pesanan mencadangkan."
+      },
+      {},
+      {},
+      {
+        "title": "Perubahan tanpa konteks mencukupi",
+        "description": "Apabila pesanan atau penukaran berubah, pasukan memerlukan rekod saluran dan konteks operasi untuk memutuskan apa yang perlu disiasat."
+      }
+    ],
+    "howSundaeHelps": [
+      {
+        "description": "Bandingkan pesanan yang bersambung, suruhanjaya, pembungkusan dan kos yang diagihkan mengikut saluran dan jenama. Semak liputan dan andaian peruntukan sebelum bergantung pada margin."
+      },
+      {
+        "description": "Semak peruntukan kos merentas jenama yang berkongsi dapur, kemudian bandingkan sumbangan mengikut andaian yang anda gunakan."
+      },
+      {
+        "title": "Semak prestasi saluran",
+        "description": "Siasat perubahan dalam pesanan tersedia, bakul dan ukuran penerimaan. Sahkan medan platform dan masa penyegaran yang disokong oleh sambungan anda."
+      },
+      {
+        "title": "Bertindak terhadap pengecualian peralihan",
+        "description": "Semak jumlah pesanan, masa penyediaan dan pesanan lewat apabila ada, tugaskan tindak balas dan bandingkan apa yang berubah selepas tindakan."
+      }
+    ],
+    "outcomesDescription": "Pandangan yang lebih jelas tentang sumbangan saluran dan keputusan operasi seterusnya.",
+    "outcomes": [
+      {
+        "title": "Semak ekonomi saluran",
+        "description": "Bandingkan sumbangan, yuran dan kapasiti sebelum memilih untuk mengimbangkan semula, merunding semula atau menukar saluran."
+      },
+      {
+        "title": "Bandingkan campuran jenama",
+        "description": "Semak kos berkongsi dan sumbangan sebelum memutuskan untuk mengembangkan, menukar atau menamatkan jenama maya."
+      },
+      {
+        "title": "Siasat perubahan saluran",
+        "description": "Gunakan rekod saluran yang tersedia dan masa penyegaran. Sahkan punca sebelum menganggap perubahan platform sebagai penjelasan."
+      },
+      {
+        "title": "Semak hasil perubahan",
+        "description": "Simpan rekod tindakan, titik permulaan dan perubahan operasi lain bersama semasa menyemak hasil."
+      }
+    ],
+    "ctaTitle": "Saluran atau jenama mana yang perlu dilihat lebih dekat?",
+    "ctaDescription": "Bandingkan dapur sebenar atau sampel, data kos yang tersedia dan keputusan seterusnya untuk disiasat."
+  }
+}

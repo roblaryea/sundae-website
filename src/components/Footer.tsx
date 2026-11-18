@@ -9,6 +9,7 @@ import { usePathname } from 'next/navigation';
 import { Button } from './ui/Button';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
+import { appendCampaign } from '@/lib/campaign';
 import { getAccessRequestCopy } from '@/lib/accessRequestCopy';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
@@ -243,7 +244,7 @@ const Footer = () => {
                 </li>
               ))}
               <li>
-                <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                <a href={PRICING_URL} onClick={(event) => { event.currentTarget.href = appendCampaign(PRICING_URL); }} target="_blank" rel="noopener noreferrer" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                   {footer.pricing}
                 </a>
               </li>

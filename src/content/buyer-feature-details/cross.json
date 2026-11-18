@@ -1,0 +1,1014 @@
+{
+  "en": {
+    "ui": {
+      "heroSupport": "Understand how sales, labor, costs and demand move together. Cross-Intelligence connects the operating areas covered by your Core package.",
+      "componentsTitle": "Follow the connections worth investigating."
+    },
+    "components": [
+      {
+        "headline": "Compare campaign timing with sales.",
+        "description": "Review how sales and demand change around a campaign. Compare the timing, attribution window and other operating changes before drawing a conclusion."
+      },
+      {
+        "title": "Possible explanations",
+        "headline": "Investigate what may explain a metric change.",
+        "description": "Explore related movements in sales, labor and costs. Check the supporting records and other changes before deciding what caused the result.",
+        "capabilities": [
+          "Potential explanations across connected sources",
+          "Confidence for each hypothesis",
+          "Supporting records for review",
+          "Relevant historical patterns"
+        ]
+      },
+      {
+        "headline": "Explore relationships across operating measures."
+      },
+      {},
+      {
+        "headline": "Compare spend and operating performance.",
+        "description": "Put available marketing, labor and other cost measures beside revenue and contribution. Check allocation and attribution assumptions when discussing the return."
+      },
+      {},
+      {
+        "description": "Investigate whether a new item, offer or campaign coincides with changes in existing sales. Check mix, demand and the comparison period before treating it as cannibalization.",
+        "capabilities": [
+          "Potential cannibalization signals"
+        ]
+      },
+      {
+        "headline": "See what changed alongside the metric.",
+        "description": "Review related changes across connected sources to identify possible explanations. A correlation supports investigation; it does not establish causation.",
+        "capabilities": [
+          "Significant-movement alerts",
+          "Possible contributing factors"
+        ]
+      }
+    ]
+  },
+  "ar": {
+    "ui": {
+      "heroSupport": "افهم كيف تتحرك المبيعات والعمالة والتكاليف والطلب معاً. يربط Cross-Intelligence مجالات التشغيل المغطاة من قبل باقة Core الخاصة بك.",
+      "componentsTitle": "تابع الروابط التي تستحق التحقيق."
+    },
+    "components": [
+      {
+        "headline": "قارن توقيت الحملة مع المبيعات.",
+        "description": "راجع كيف تتغير المبيعات والطلب حول الحملة. قارن التوقيت، نافذة النسبة المئوية للانتساب والاختلافات التشغيلية الأخرى قبل استخلاص استنتاج."
+      },
+      {
+        "title": "تفسيرات محتملة",
+        "headline": "تحقق مما قد يفسر تغير مقياس.",
+        "description": "استكشف الحركات ذات الصلة في المبيعات والعمالة والتكاليف. افحص السجلات الداعمة والتغييرات الأخرى قبل تقرير سبب النتيجة.",
+        "capabilities": [
+          "تفسيرات محتملة عبر المصادر المرتبطة",
+          "ثقة لكل فرضية",
+          "سجلات داعمة للمراجعة",
+          "أنماط تاريخية ذات صلة"
+        ]
+      },
+      {
+        "headline": "استكشف العلاقات عبر مقاييس التشغيل."
+      },
+      {},
+      {
+        "headline": "قارن الإنفاق والأداء التشغيلي.",
+        "description": "ضع مقاييس التسويق والعمالة والتكاليف الأخرى المتاحة بجانب الإيرادات والمساهمة. تحقق من فروض التخصيص والانتساب عند مناقشة العائد."
+      },
+      {},
+      {
+        "description": "تحقق مما إذا كان عنصر جديد أو عرض أو حملة يتزامن مع تغييرات في المبيعات الحالية. افحص التشكيلة والطلب وفترة المقارنة قبل اعتبار ذلك استهلاكاً داخلياً.",
+        "capabilities": [
+          "إشارات محتملة للاستهلاك الداخلي"
+        ]
+      },
+      {
+        "headline": "شاهد ما تغير جنباً إلى جنب مع المقياس.",
+        "description": "راجع التغييرات ذات الصلة عبر المصادر المرتبطة لتحديد تفسيرات محتملة. الارتباط يدعم التحقيق؛ لكنه لا يثبت السببية.",
+        "capabilities": [
+          "تنبيهات الحركة الكبيرة",
+          "عوامل محتملة مساهمة"
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "ui": {
+      "heroSupport": "Comprenez comment les ventes, la main-d'œuvre, les coûts et la demande évoluent ensemble. Cross-Intelligence relie les zones d'exploitation couvertes par votre package Core.",
+      "componentsTitle": "Suivez les liens qui méritent d'être étudiés."
+    },
+    "components": [
+      {
+        "headline": "Comparez le calendrier des campagnes avec les ventes.",
+        "description": "Examinez comment les ventes et la demande évoluent autour d'une campagne. Comparez le calendrier, la fenêtre d'attribution et d'autres changements d'exploitation avant de tirer une conclusion."
+      },
+      {
+        "title": "Explications possibles",
+        "headline": "Examinez ce qui peut expliquer une variation de métrique.",
+        "description": "Explorez les mouvements connexes des ventes, de la main-d'œuvre et des coûts. Vérifiez les enregistrements de support et autres changements avant de décider de la cause du résultat.",
+        "capabilities": [
+          "Explications potentielles issues de sources connectées",
+          "Confiance pour chaque hypothèse",
+          "Enregistrements justificatifs à examiner",
+          "Schémas historiques pertinents"
+        ]
+      },
+      {
+        "headline": "Explorez les relations entre les mesures d'exploitation."
+      },
+      {},
+      {
+        "headline": "Comparez les dépenses et la performance opérationnelle.",
+        "description": "Placez les mesures marketing, de main-d'œuvre et autres coûts disponibles à côté des revenus et de la contribution. Vérifiez les hypothèses d'allocation et d'attribution lors de la discussion sur le rendement."
+      },
+      {},
+      {
+        "description": "Vérifiez si un nouvel article, une offre ou une campagne coïncide avec des changements dans les ventes existantes. Contrôlez le mix, la demande et la période de comparaison avant de l'interpréter comme de la cannibalisation.",
+        "capabilities": [
+          "Signaux potentiels de cannibalisation"
+        ]
+      },
+      {
+        "headline": "Voyez ce qui a changé en parallèle de la métrique.",
+        "description": "Examinez les changements connexes dans les sources reliées pour identifier des explications possibles. Une corrélation justifie une enquête ; elle n'établit pas la causalité.",
+        "capabilities": [
+          "Alertes sur mouvements significatifs",
+          "Facteurs contributifs possibles"
+        ]
+      }
+    ]
+  },
+  "es": {
+    "ui": {
+      "heroSupport": "Entienda cómo se mueven conjuntamente ventas, mano de obra, costos y demanda. Cross-Intelligence conecta las áreas operativas cubiertas por su paquete Core.",
+      "componentsTitle": "Siga las conexiones que vale la pena investigar."
+    },
+    "components": [
+      {
+        "headline": "Compare el momento de las campañas con las ventas.",
+        "description": "Revise cómo cambian las ventas y la demanda alrededor de una campaña. Compare el calendario, la ventana de atribución y otros cambios operativos antes de sacar conclusiones."
+      },
+      {
+        "title": "Posibles explicaciones",
+        "headline": "Investigue qué puede explicar un cambio de métrica.",
+        "description": "Explore movimientos relacionados en ventas, mano de obra y costos. Verifique los registros de soporte y otros cambios antes de decidir qué causó el resultado.",
+        "capabilities": [
+          "Explicaciones potenciales a través de fuentes conectadas",
+          "Confianza para cada hipótesis",
+          "Registros de soporte para revisión",
+          "Patrones históricos relevantes"
+        ]
+      },
+      {
+        "headline": "Explore relaciones entre medidas operativas."
+      },
+      {},
+      {
+        "headline": "Compare gasto y rendimiento operativo.",
+        "description": "Coloque las medidas disponibles de marketing, mano de obra y otros costos junto a ingresos y contribución. Verifique supuestos de asignación y atribución al debatir el rendimiento."
+      },
+      {},
+      {
+        "description": "Investigue si un nuevo producto, promoción o campaña coincide con cambios en ventas existentes. Compruebe la mezcla, la demanda y el periodo de comparación antes de considerarlo canibalización.",
+        "capabilities": [
+          "Señales potenciales de canibalización"
+        ]
+      },
+      {
+        "headline": "Vea qué cambió junto con la métrica.",
+        "description": "Revise cambios relacionados entre fuentes conectadas para identificar explicaciones posibles. Una correlación justifica investigar; no establece causalidad.",
+        "capabilities": [
+          "Alertas por movimientos significativos",
+          "Factores contribuyentes posibles"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "ui": {
+      "heroSupport": "Verstehen Sie, wie Umsatz, Personalaufwand, Kosten und Nachfrage zusammenwirken. Cross-Intelligence verbindet die Betriebsbereiche, die Ihr Core-Paket abdeckt.",
+      "componentsTitle": "Verfolgen Sie die Verbindungen, die eine Untersuchung lohnen."
+    },
+    "components": [
+      {
+        "headline": "Vergleichen Sie Kampagnenzeitpunkt mit dem Umsatz.",
+        "description": "Analysieren Sie, wie sich Umsatz und Nachfrage vor, während und nach einer Kampagne verändern. Vergleichen Sie Zeitpunkt, Attributionsfenster und weitere betriebliche Änderungen, bevor Sie eine Schlussfolgerung ziehen."
+      },
+      {
+        "title": "Mögliche Erklärungen",
+        "headline": "Untersuchen Sie, was eine Kennzahlenänderung erklären könnte.",
+        "description": "Untersuchen Sie zusammenhängende Bewegungen bei Umsatz, Personal und Kosten. Prüfen Sie unterstützende Aufzeichnungen und weitere Änderungen, bevor Sie eine Ursache annehmen.",
+        "capabilities": [
+          "Mögliche Erklärungen über verknüpfte Quellen hinweg",
+          "Konfidenz für jede Hypothese",
+          "Unterstützende Unterlagen zur Prüfung",
+          "Relevante historische Muster"
+        ]
+      },
+      {
+        "headline": "Untersuchen Sie Beziehungen zwischen betrieblichen Kennzahlen."
+      },
+      {},
+      {
+        "headline": "Vergleichen Sie Ausgaben und operative Leistung.",
+        "description": "Stellen Sie verfügbare Marketing-, Personal- und sonstige Kosten neben Umsatz und Deckungsbeitrag. Prüfen Sie Allokations- und Attributionsannahmen bei der Diskussion der Rendite."
+      },
+      {},
+      {
+        "description": "Prüfen Sie, ob ein neues Produkt, Angebot oder eine Kampagne mit Veränderungen bestehender Umsätze zusammenfällt. Kontrollieren Sie Mix, Nachfrage und den Vergleichszeitraum, bevor Sie dies als Kannibalisierung werten.",
+        "capabilities": [
+          "Mögliche Kannibalisierungssignale"
+        ]
+      },
+      {
+        "headline": "Sehen Sie, was sich parallel zur Kennzahl geändert hat.",
+        "description": "Prüfen Sie begleitende Veränderungen über verknüpfte Quellen, um mögliche Erklärungen zu finden. Eine Korrelation rechtfertigt weitere Untersuchung; sie beweist keine Kausalität.",
+        "capabilities": [
+          "Erkenntnisse bei signifikanten Bewegungen",
+          "Mögliche beitragende Faktoren"
+        ]
+      }
+    ]
+  },
+  "nl": {
+    "ui": {
+      "heroSupport": "Begrijp hoe omzet, personeel, kosten en vraag samen bewegen. Cross-Intelligence verbindt de operationele gebieden die onder uw Core-pakket vallen.",
+      "componentsTitle": "Volg de verbanden die het onderzoeken waard zijn."
+    },
+    "components": [
+      {
+        "headline": "Vergelijk campagnetiming met omzet.",
+        "description": "Bekijk hoe omzet en vraag veranderen rond een campagne. Vergelijk timing, toeschrijvingsvenster en andere operationele veranderingen voordat u een conclusie trekt."
+      },
+      {
+        "title": "Mogelijke verklaringen",
+        "headline": "Onderzoek wat een wijziging in een metric kan verklaren.",
+        "description": "Onderzoek verwante bewegingen in omzet, personeel en kosten. Controleer de ondersteunende dossiers en andere veranderingen voordat u bepaalt wat het resultaat heeft veroorzaakt.",
+        "capabilities": [
+          "Potentiële verklaringen over gekoppelde bronnen",
+          "Vertrouwensniveau voor elke hypothese",
+          "Ondersteunende dossiers voor beoordeling",
+          "Relevante historische patronen"
+        ]
+      },
+      {
+        "headline": "Onderzoek relaties tussen operationele maatstaven."
+      },
+      {},
+      {
+        "headline": "Vergelijk uitgaven en operationele prestaties.",
+        "description": "Zet beschikbare marketing-, personeels- en andere kostencijfers naast omzet en bijdrage. Controleer toerekenings- en toeschrijvingsaannames bij het bespreken van het rendement."
+      },
+      {},
+      {
+        "description": "Onderzoek of een nieuw item, aanbod of campagne samenvalt met veranderingen in bestaande verkopen. Controleer mix, vraag en de vergelijkingsperiode voordat u het als kannibalisatie beschouwt.",
+        "capabilities": [
+          "Potentiële kannibalisatiesignalen"
+        ]
+      },
+      {
+        "headline": "Zie wat er samen met de metric veranderde.",
+        "description": "Bekijk verwante veranderingen in gekoppelde bronnen om mogelijke verklaringen te identificeren. Een correlatie ondersteunt onderzoek; het bewijst geen causaliteit.",
+        "capabilities": [
+          "Waarschuwingen bij aanzienlijke beweging",
+          "Mogelijke bijdragende factoren"
+        ]
+      }
+    ]
+  },
+  "pt": {
+    "ui": {
+      "heroSupport": "Entenda como vendas, mão de obra, custos e procura se movimentam em conjunto. Cross-Intelligence conecta as áreas operacionais cobertas pelo seu pacote Core.",
+      "componentsTitle": "Siga as conexões que valem a investigação."
+    },
+    "components": [
+      {
+        "headline": "Compare o timing de campanhas com as vendas.",
+        "description": "Analise como vendas e procura mudam em torno de uma campanha. Compare o timing, a janela de atribuição e outras alterações operacionais antes de tirar conclusões."
+      },
+      {
+        "title": "Possíveis explicações",
+        "headline": "Investigue o que pode explicar uma mudança de métrica.",
+        "description": "Explore movimentos relacionados em vendas, mão de obra e custos. Verifique os registros de apoio e outras mudanças antes de decidir o que causou o resultado.",
+        "capabilities": [
+          "Explicações potenciais através de fontes conectadas",
+          "Confiança para cada hipótese",
+          "Registros de suporte para revisão",
+          "Padrões históricos relevantes"
+        ]
+      },
+      {
+        "headline": "Explore relações entre medidas operacionais."
+      },
+      {},
+      {
+        "headline": "Compare gastos e desempenho operacional.",
+        "description": "Coloque medidas disponíveis de marketing, mão de obra e outros custos ao lado de receita e contribuição. Verifique pressupostos de alocação e atribuição ao discutir o retorno."
+      },
+      {},
+      {
+        "description": "Investigue se um item, oferta ou campanha nova coincide com mudanças nas vendas existentes. Verifique mix, procura e o período de comparação antes de tratá‑lo como canibalização.",
+        "capabilities": [
+          "Sinais potenciais de canibalização"
+        ]
+      },
+      {
+        "headline": "Veja o que mudou junto com a métrica.",
+        "description": "Revise mudanças relacionadas entre fontes conectadas para identificar explicações possíveis. Uma correlação justifica investigação; não estabelece causalidade.",
+        "capabilities": [
+          "Alertas de movimentos significativos",
+          "Fatores contribuintes possíveis"
+        ]
+      }
+    ]
+  },
+  "hi": {
+    "ui": {
+      "heroSupport": "समझें कि बिक्री, श्रम, लागत और मांग एक साथ कैसे बदलती हैं। Cross-Intelligence उन परिचालन क्षेत्रों को जोड़ता है जिन्हें आपका Core पैकेज कवर करता है।",
+      "componentsTitle": "उन संबंधों का पालन करें जिन्हें जाँचना सार्थक है।"
+    },
+    "components": [
+      {
+        "headline": "अभियान के समय को बिक्री के साथ तुलना करें।",
+        "description": "जाँचें कि किसी अभियान के आसपास बिक्री और मांग कैसे बदलती है। निष्कर्ष पर पहुंचने से पहले समय, attribution विंडो और अन्य परिचालन परिवर्तनों की तुलना करें।"
+      },
+      {
+        "title": "संभावित व्याख्याएँ",
+        "headline": "किसी मीट्रिक परिवर्तन की व्याख्या क्या कर सकती है, जाँचें।",
+        "description": "बिक्री, श्रम और लागत में संबंधित चालों का अन्वेषण करें। परिणाम के कारण का निर्णय लेने से पहले सहायक रिकॉर्ड और अन्य परिवर्तनों की जाँच करें।",
+        "capabilities": [
+          "जुड़े स्रोतों में संभावित व्याख्याएँ",
+          "प्रत्येक परिकल्पना के लिए आत्मविश्वास",
+          "समीक्षा के लिए सहायक रिकॉर्ड",
+          "प्रासंगिक ऐतिहासिक पैटर्न"
+        ]
+      },
+      {
+        "headline": "परिचालन मापों के बीच संबंधों का अन्वेषण करें।"
+      },
+      {},
+      {
+        "headline": "खर्च और परिचालन प्रदर्शन की तुलना करें।",
+        "description": "उपलब्ध मार्केटिंग, श्रम और अन्य लागत मापों को राजस्व और योगदान के बगल में रखें। वापसी पर चर्चा करते समय आवंटन और attribution मान्यताओं की जाँच करें।"
+      },
+      {},
+      {
+        "description": "जाँचें कि क्या कोई नया आइटम, ऑफर या अभियान मौजूदा बिक्री में परिवर्तनों के साथ मेल खाता है। इसे cannibalization मानने से पहले मिश्रण, मांग और तुलना अवधि की जाँच करें।",
+        "capabilities": [
+          "संभावित cannibalization संकेत"
+        ]
+      },
+      {
+        "headline": "देखें कि मीट्रिक के साथ क्या बदला।",
+        "description": "संभावित व्याख्याएँ पहचानने के लिए जुड़े स्रोतों में संबंधित परिवर्तनों की समीक्षा करें। एक सहसंबंध जाँच का समर्थन करता है; यह कारण-प्रभाव स्थापित नहीं करता।",
+        "capabilities": [
+          "महत्वपूर्ण-चलन अलर्ट",
+          "संभावित योगदानकारक कारक"
+        ]
+      }
+    ]
+  },
+  "ur": {
+    "ui": {
+      "heroSupport": "سمجھیں کہ فروخت، مزدوری، اخراجات اور طلب کس طرح ایک ساتھ حرکت کرتے ہیں۔ Cross-Intelligence آپ کے Core پیکیج کے تحت آنے والے آپریٹنگ شعبوں کو جوڑتا ہے۔",
+      "componentsTitle": "ان تعلقات کی پیروی کریں جن کی جانچ ضروری ہے۔"
+    },
+    "components": [
+      {
+        "headline": "مہم کے وقت کو فروخت کے ساتھ موازنہ کریں۔",
+        "description": "دیکھیں کہ مہم کے اردگرد فروخت اور طلب کیسے بدلتی ہیں۔ نتیجہ اخذ کرنے سے پہلے وقت بندی، منسوبی ونڈو اور دیگر آپریٹنگ تبدیلیوں کا موازنہ کریں۔"
+      },
+      {
+        "title": "ممکنہ وضاحتیں",
+        "headline": "اس بات کی تحقیق کریں کہ میٹرک میں تبدیلی کی کیا وجہ ہو سکتی ہے۔",
+        "description": "فروخت، مزدوری اور اخراجات میں متعلقہ حرکات کو کھنگالیں۔ نتیجہ قرار دینے سے پہلے معاون ریکارڈز اور دیگر تبدیلیاں چیک کریں کہ کس چیز نے نتیجہ پیدا کیا۔",
+        "capabilities": [
+          "منسلک ذرائع میں ممکنہ وضاحتیں",
+          "ہر مفروضے کے لیے اعتماد کی سطح",
+          "جائزہ کے لیے معاون ریکارڈز",
+          "متعلقہ تاریخی پیٹرن"
+        ]
+      },
+      {
+        "headline": "آپریٹنگ پیمائشوں کے درمیان تعلقات کھوجیں۔"
+      },
+      {},
+      {
+        "headline": "اخراجات اور آپریٹنگ کارکردگی کا موازنہ کریں۔",
+        "description": "دستیاب مارکیٹنگ، مزدوری اور دیگر لاگتوں کو آمدنی اور کنٹریبیوشن کے ساتھ رکھیں۔ منافع پر بات کرتے وقت الاٹمنٹ اور منسوبی مفروضات چیک کریں۔"
+      },
+      {},
+      {
+        "description": "تحقیق کریں کہ آیا نیا آئٹم، آفر یا مہم موجودہ فروخت میں تبدیلیوں کے ساتھ یکسانی رکھتی ہے۔ اسے Cannibalization سمجھنے سے پہلے مکس، طلب اور موازنہ دورانیے کو چیک کریں۔",
+        "capabilities": [
+          "ممکنہ cannibalization کے اشارے"
+        ]
+      },
+      {
+        "headline": "دیکھیں کہ میٹرک کے ساتھ کیا تبدیل ہوا۔",
+        "description": "ممکنہ وضاحتیں شناخت کرنے کے لیے منسلک ذرائع میں متعلقہ تبدیلیاں دیکھیں۔ correlation تحقیق کو سہارا دیتا ہے؛ یہ causation ثابت نہیں کرتا۔",
+        "capabilities": [
+          "اہم حرکت کی اطلاعات",
+          "ممکنہ معاون عوامل"
+        ]
+      }
+    ]
+  },
+  "it": {
+    "ui": {
+      "heroSupport": "Comprendi come vendite, lavoro, costi e domanda si muovono insieme. L'intelligenza incrociata collega le aree operative coperte dal tuo pacchetto Core.",
+      "componentsTitle": "Segui le connessioni che vale la pena approfondire."
+    },
+    "components": [
+      {
+        "headline": "Confronta i tempi delle campagne con le vendite.",
+        "description": "Esamina come vendite e domanda cambiano intorno a una campagna. Confronta i tempi, la finestra di attribuzione e altri cambiamenti operativi prima di trarre una conclusione."
+      },
+      {
+        "title": "Possibili spiegazioni",
+        "headline": "Indaga cosa potrebbe spiegare una variazione di metrica.",
+        "description": "Esplora movimenti correlati in vendite, lavoro e costi. Controlla le registrazioni di supporto e altri cambiamenti prima di decidere cosa ha causato il risultato.",
+        "capabilities": [
+          "Spiegazioni potenziali tra fonti connesse",
+          "Livello di confidenza per ogni ipotesi",
+          "Registrazioni di supporto da esaminare",
+          "Pattern storici rilevanti"
+        ]
+      },
+      {
+        "headline": "Esplora relazioni tra misure operative."
+      },
+      {},
+      {
+        "headline": "Confronta spesa e performance operative.",
+        "description": "Metti a confronto le misure disponibili di marketing, lavoro e altri costi con ricavi e contributo. Verifica ipotesi di allocazione e attribuzione quando si discute il ritorno."
+      },
+      {},
+      {
+        "description": "Verifica se un nuovo prodotto, offerta o campagna coincide con cambiamenti nelle vendite esistenti. Controlla mix, domanda e il periodo di confronto prima di considerarlo cannibalizzazione.",
+        "capabilities": [
+          "Segnali potenziali di cannibalizzazione"
+        ]
+      },
+      {
+        "headline": "Vedi cosa è cambiato insieme alla metrica.",
+        "description": "Esamina i cambiamenti correlati tra le fonti connesse per identificare possibili spiegazioni. Una correlazione giustifica l'indagine; non stabilisce causalità.",
+        "capabilities": [
+          "Avvisi su movimenti significativi",
+          "Possibili fattori contributivi"
+        ]
+      }
+    ]
+  },
+  "pl": {
+    "ui": {
+      "heroSupport": "Zrozum, jak sprzedaż, personel, koszty i popyt zmieniają się razem. Cross-Intelligence łączy obszary operacyjne objęte pakietem Core.",
+      "componentsTitle": "Śledź powiązania warte sprawdzenia."
+    },
+    "components": [
+      {
+        "headline": "Porównaj harmonogram kampanii ze sprzedażą.",
+        "description": "Sprawdź, jak sprzedaż i popyt zmieniają się wokół kampanii. Porównaj czas, okno atrybucji i inne zmiany operacyjne przed wyciągnięciem wniosku."
+      },
+      {
+        "title": "Możliwe wyjaśnienia",
+        "headline": "Zbadaj, co może tłumaczyć zmianę wskaźnika.",
+        "description": "Przeanalizuj powiązane ruchy w sprzedaży, personelu i kosztach. Sprawdź dokumenty źródłowe i inne zmiany przed ustaleniem przyczyny.",
+        "capabilities": [
+          "Potencjalne wyjaśnienia z powiązanych źródeł",
+          "Pewność dla każdej hipotezy",
+          "Dokumenty źródłowe do przeglądu",
+          "Istotne historyczne wzorce"
+        ]
+      },
+      {
+        "headline": "Zbadaj związki między miarami operacyjnymi."
+      },
+      {},
+      {
+        "headline": "Porównaj wydatki i wyniki operacyjne.",
+        "description": "Postaw dostępne miary marketingu, pracy i innych kosztów obok przychodów i wkładu. Sprawdź założenia alokacji i atrybucji podczas omawiania zwrotu."
+      },
+      {},
+      {
+        "description": "Zbadaj, czy nowy produkt, oferta lub kampania zbiega się ze zmianami w istniejącej sprzedaży. Sprawdź mix, popyt i okres porównawczy przed uznaniem tego za kanibalizację.",
+        "capabilities": [
+          "Wskaźniki potencjalnej kanibalizacji"
+        ]
+      },
+      {
+        "headline": "Zobacz, co zmieniło się razem ze wskaźnikiem.",
+        "description": "Przejrzyj powiązane zmiany w źródłach, aby zidentyfikować możliwe wyjaśnienia. Korelacja uzasadnia dochodzenie; nie dowodzi przyczynowości.",
+        "capabilities": [
+          "Alerty o istotnych ruchach",
+          "Możliwe czynniki przyczyniające się"
+        ]
+      }
+    ]
+  },
+  "tr": {
+    "ui": {
+      "heroSupport": "Satış, işgücü, maliyetler ve talebin nasıl birlikte hareket ettiğini anlayın. Cross-Intelligence, Core paketinizin kapsadığı işletme alanlarını birbirine bağlar.",
+      "componentsTitle": "İncelemeye değer bağlantıları takip edin."
+    },
+    "components": [
+      {
+        "headline": "Kampanya zamanlamasını satışlarla karşılaştırın.",
+        "description": "Satışların ve talebin bir kampanya çevresinde nasıl değiştiğini gözden geçirin. Sonuca varmadan önce zamanlamayı, atıf penceresini ve diğer işletme değişikliklerini karşılaştırın."
+      },
+      {
+        "title": "Olası açıklamalar",
+        "headline": "Bir metriğeki değişikliği neyin açıklayabileceğini araştırın.",
+        "description": "Satış, işgücü ve maliyetlerdeki ilgili hareketleri keşfedin. Sonucun nedenini belirlemeden önce destekleyici kayıtları ve diğer değişiklikleri kontrol edin.",
+        "capabilities": [
+          "Bağlantılı kaynaklar genelinde potansiyel açıklamalar",
+          "Her hipotez için güven düzeyi",
+          "İnceleme için destekleyici kayıtlar",
+          "İlgili tarihsel kalıplar"
+        ]
+      },
+      {
+        "headline": "İşletme ölçümleri arasındaki ilişkileri keşfedin."
+      },
+      {},
+      {
+        "headline": "Harcamaları ve işletme performansını karşılaştırın.",
+        "description": "Mevcut pazarlama, işgücü ve diğer maliyet ölçümlerini gelir ve katkı ile yan yana koyun. Getiri tartışılırken tahsis ve atıf varsayımlarını kontrol edin."
+      },
+      {},
+      {
+        "description": "Yeni bir ürün, teklif veya kampanyanın mevcut satışlardaki değişikliklerle çakışıp çakışmadığını araştırın. Bunu kanibalizasyon olarak değerlendirmeden önce karışımı, talebi ve karşılaştırma dönemini kontrol edin.",
+        "capabilities": [
+          "Potansiyel kanibalizasyon sinyalleri"
+        ]
+      },
+      {
+        "headline": "Metriğin yanında nelerin değiştiğini görün.",
+        "description": "Olası açıklamaları belirlemek için bağlantılı kaynaklardaki ilgili değişiklikleri gözden geçirin. Bir korelasyon araştırmayı destekler; nedenselliği kanıtlamaz.",
+        "capabilities": [
+          "Önemli hareket uyarıları",
+          "Olası katkıda bulunan faktörler"
+        ]
+      }
+    ]
+  },
+  "zh-Hans": {
+    "ui": {
+      "heroSupport": "了解销售、劳动力、成本和需求如何共同变化。Cross-Intelligence 将您的 Core 套件覆盖的运营领域连接起来。",
+      "componentsTitle": "跟踪值得调查的关联。"
+    },
+    "components": [
+      {
+        "headline": "比较活动时间与销售表现。",
+        "description": "查看活动前后销售和需求如何变化。在下结论前比较时间点、归因窗口和其它运营变化。"
+      },
+      {
+        "title": "可能的解释",
+        "headline": "调查可能导致指标变化的原因。",
+        "description": "探索销售、劳动力和成本的相关变动。检查支持记录和其它变化，再决定是什么导致了结果。",
+        "capabilities": [
+          "跨相关来源的潜在解释",
+          "每个假设的可信度",
+          "供审查的支持记录",
+          "相关的历史模式"
+        ]
+      },
+      {
+        "headline": "探索运营度量间的关系。"
+      },
+      {},
+      {
+        "headline": "比较投入与运营表现。",
+        "description": "将可用的营销、劳动力和其它成本指标与收入和贡献并列。讨论回报时检查分配和归因假设。"
+      },
+      {},
+      {
+        "description": "调查新菜品、优惠或活动是否与现有销售变化同时发生。在视为自损之前核查组合、需求和比较时段。",
+        "capabilities": [
+          "潜在自损信号"
+        ]
+      },
+      {
+        "headline": "查看与该指标同时变化的因素。",
+        "description": "审查来自相关来源的并行变化以识别可能的解释。相关性支持进一步调查；但并不建立因果关系。",
+        "capabilities": [
+          "重大波动提醒",
+          "可能的促成因素"
+        ]
+      }
+    ]
+  },
+  "ja": {
+    "ui": {
+      "heroSupport": "販売、労働、コスト、需要がどのように連動するかを把握します。Cross-Intelligenceは、Coreパッケージで扱う運用領域を結びつけます。",
+      "componentsTitle": "調べる価値のあるつながりを追う。"
+    },
+    "components": [
+      {
+        "headline": "キャンペーンの時期と売上を比べる。",
+        "description": "キャンペーン前後で売上と需要がどのように変化したかを確認します。タイミング、帰属ウインドウ、その他の運用上の変化を比較してから結論を出してください。"
+      },
+      {
+        "title": "考えられる説明",
+        "headline": "指標変化の説明になり得る事項を調べる。",
+        "description": "売上、労働、コストの関連する動きを探索します。原因を決める前に、裏付けとなる記録やその他の変化を確認してください。",
+        "capabilities": [
+          "接続されたソース全体の潜在的な説明",
+          "各仮説の信頼度",
+          "レビュー用の裏付け記録",
+          "関連する過去のパターン"
+        ]
+      },
+      {
+        "headline": "運用指標間の関係を探る。"
+      },
+      {},
+      {
+        "headline": "支出と運用パフォーマンスを比較する。",
+        "description": "利用可能なマーケティング、労働、その他のコスト指標を収益と寄与の横に置いて比較します。リターンを議論する際は配分や帰属の前提を確認してください。"
+      },
+      {},
+      {
+        "description": "新商品、オファー、キャンペーンが既存の売上変化と同時に起きているかを調べます。ミックス、需要、比較期間を確認して、単純にカニバリゼーションと扱わないでください。",
+        "capabilities": [
+          "カニバリゼーションの潜在的シグナル"
+        ]
+      },
+      {
+        "headline": "指標とともに何が変わったかを見る。",
+        "description": "可能な説明を特定するために、接続されたソース全体の関連する変化を確認します。相関は調査を支持しますが、因果を立証するものではありません。",
+        "capabilities": [
+          "大きな変動のアラート",
+          "寄与し得る要因"
+        ]
+      }
+    ]
+  },
+  "ko": {
+    "ui": {
+      "heroSupport": "판매, 인력, 비용, 수요가 어떻게 함께 움직이는지 파악하세요. 크로스 인텔리전스는 Core 패키지에서 다루는 운영 영역을 연결합니다.",
+      "componentsTitle": "검토할 가치가 있는 연결을 따르세요."
+    },
+    "components": [
+      {
+        "headline": "캠페인 시기와 판매를 비교하세요.",
+        "description": "캠페인 전후로 판매와 수요가 어떻게 변하는지 검토하세요. 시기, 귀속 창구 및 기타 운영 변화를 비교한 뒤 결론을 내리세요."
+      },
+      {
+        "title": "가능한 설명",
+        "headline": "지표 변화의 원인이 될 수 있는 요소를 조사하세요.",
+        "description": "판매, 인력, 비용의 연관 움직임을 탐색하세요. 결과의 원인을 결정하기 전에 지원 기록과 다른 변화를 확인하세요.",
+        "capabilities": [
+          "연결된 출처 전반의 잠재적 설명",
+          "각 가설에 대한 신뢰도",
+          "검토용 지원 기록",
+          "관련 과거 패턴"
+        ]
+      },
+      {
+        "headline": "운영 지표 간의 관계를 탐색하세요."
+      },
+      {},
+      {
+        "headline": "지출과 운영 성과를 비교하세요.",
+        "description": "사용 가능한 마케팅, 인력 및 기타 비용 지표를 수익과 기여도 옆에 배열하세요. 수익률을 논의할 때 배분 및 귀속 가정을 확인하세요."
+      },
+      {},
+      {
+        "description": "신제품, 프로모션 또는 캠페인이 기존 판매 변화와 일치하는지 조사하세요. 혼선으로 판단하기 전에 구색, 수요 및 비교 기간을 확인하세요.",
+        "capabilities": [
+          "잠재적 카니발라이제이션 신호"
+        ]
+      },
+      {
+        "headline": "해당 지표와 함께 무엇이 변했는지 확인하세요.",
+        "description": "가능한 설명을 찾기 위해 연결된 출처 전반의 관련 변화를 검토하세요. 상관관계는 조사를 뒷받침하지만 인과관계를 확립하지는 않습니다.",
+        "capabilities": [
+          "유의미한 변화 알림",
+          "가능한 기여 요인"
+        ]
+      }
+    ]
+  },
+  "id": {
+    "ui": {
+      "heroSupport": "Pahami bagaimana penjualan, tenaga kerja, biaya, dan permintaan bergerak bersama. Cross-Intelligence menghubungkan area operasi yang tercakup dalam paket Core Anda.",
+      "componentsTitle": "Ikuti keterkaitan yang layak diselidiki."
+    },
+    "components": [
+      {
+        "headline": "Bandingkan waktu kampanye dengan penjualan.",
+        "description": "Tinjau bagaimana penjualan dan permintaan berubah di sekitar kampanye. Bandingkan waktu, jendela atribusi, dan perubahan operasi lain sebelum menarik kesimpulan."
+      },
+      {
+        "title": "Kemungkinan penjelasan",
+        "headline": "Selidiki apa yang mungkin menjelaskan perubahan metrik.",
+        "description": "Jelajahi pergerakan terkait pada penjualan, tenaga kerja, dan biaya. Periksa catatan pendukung dan perubahan lain sebelum memutuskan penyebab hasil.",
+        "capabilities": [
+          "Kemungkinan penjelasan dari sumber yang terhubung",
+          "Tingkat keyakinan untuk setiap hipotesis",
+          "Catatan pendukung untuk ditinjau",
+          "Pola historis yang relevan"
+        ]
+      },
+      {
+        "headline": "Jelajahi hubungan antar ukuran operasi."
+      },
+      {},
+      {
+        "headline": "Bandingkan pengeluaran dan kinerja operasi.",
+        "description": "Tempatkan ukuran pemasaran, tenaga kerja, dan biaya lain yang tersedia di samping pendapatan dan kontribusi. Periksa asumsi alokasi dan atribusi saat membahas pengembalian."
+      },
+      {},
+      {
+        "description": "Selidiki apakah item, penawaran, atau kampanye baru bertepatan dengan perubahan pada penjualan yang ada. Periksa campuran, permintaan, dan periode pembanding sebelum menganggapnya kanibalisasi.",
+        "capabilities": [
+          "Sinyal potensial kanibalisasi"
+        ]
+      },
+      {
+        "headline": "Lihat apa yang berubah bersamaan dengan metrik.",
+        "description": "Tinjau perubahan terkait di sumber yang terhubung untuk mengidentifikasi kemungkinan penjelasan. Korelasi mendukung penyelidikan; itu tidak membuktikan kausalitas.",
+        "capabilities": [
+          "Peringatan pergerakan signifikan",
+          "Faktor penyumbang yang mungkin"
+        ]
+      }
+    ]
+  },
+  "vi": {
+    "ui": {
+      "heroSupport": "Hiểu cách doanh số, nhân công, chi phí và nhu cầu chuyển động cùng nhau. Cross-Intelligence kết nối các lĩnh vực vận hành được bao phủ bởi gói Core của bạn.",
+      "componentsTitle": "Theo dõi những mối liên hệ đáng điều tra."
+    },
+    "components": [
+      {
+        "headline": "So sánh thời điểm chiến dịch với doanh số.",
+        "description": "Xem xét cách doanh số và nhu cầu thay đổi quanh một chiến dịch. So sánh thời điểm, cửa sổ phân bổ và các thay đổi vận hành khác trước khi kết luận."
+      },
+      {
+        "title": "Những giải thích có thể",
+        "headline": "Điều tra những gì có thể giải thích sự thay đổi chỉ số.",
+        "description": "Khám phá các chuyển động liên quan trong doanh số, nhân công và chi phí. Kiểm tra hồ sơ hỗ trợ và các thay đổi khác trước khi quyết định nguyên nhân.",
+        "capabilities": [
+          "Những giải thích khả dĩ từ các nguồn kết nối",
+          "Mức độ tin cậy cho từng giả thuyết",
+          "Hồ sơ hỗ trợ để xem xét",
+          "Các mẫu lịch sử liên quan"
+        ]
+      },
+      {
+        "headline": "Khám phá mối quan hệ giữa các chỉ số vận hành."
+      },
+      {},
+      {
+        "headline": "So sánh chi tiêu và hiệu suất vận hành.",
+        "description": "Đặt các chỉ số chi tiêu marketing, nhân công và chi phí khác cạnh doanh thu và đóng góp. Kiểm tra các giả định phân bổ và phân bổ công lao khi thảo luận về lợi tức."
+      },
+      {},
+      {
+        "description": "Điều tra xem một món mới, chương trình ưu đãi hay chiến dịch có trùng với thay đổi trong doanh số hiện tại hay không. Kiểm tra cơ cấu, nhu cầu và giai đoạn so sánh trước khi xem đó là ăn mòn doanh số.",
+        "capabilities": [
+          "Tín hiệu khả dĩ của ăn mòn doanh số"
+        ]
+      },
+      {
+        "headline": "Xem những gì thay đổi cùng với chỉ số.",
+        "description": "Xem xét các thay đổi liên quan qua các nguồn kết nối để xác định các giải thích khả dĩ. Tương quan hỗ trợ việc điều tra; nó không chứng minh quan hệ nhân quả.",
+        "capabilities": [
+          "Cảnh báo chuyển động đáng kể",
+          "Các yếu tố có thể đóng góp"
+        ]
+      }
+    ]
+  },
+  "ro": {
+    "ui": {
+      "heroSupport": "Înțelegeți cum se mișcă împreună vânzările, forța de muncă, costurile și cererea. Cross-Intelligence leagă ariile operaționale acoperite de pachetul dumneavoastră Core.",
+      "componentsTitle": "Urmăriți conexiunile care merită investigate."
+    },
+    "components": [
+      {
+        "headline": "Comparați momentul campaniei cu vânzările.",
+        "description": "Analizați cum se modifică vânzările și cererea în jurul unei campanii. Comparați momentul, fereastra de atribuire și alte modificări operaționale înainte de a trage o concluzie."
+      },
+      {
+        "title": "Explicații posibile",
+        "headline": "Investigați ce ar putea explica o schimbare de metrică.",
+        "description": "Explorați mișcările conexe din vânzări, forță de muncă și costuri. Verificați înregistrările suport și alte modificări înainte de a decide ce a cauzat rezultatul.",
+        "capabilities": [
+          "Explicații potențiale din surse conectate",
+          "Grad de încredere pentru fiecare ipoteză",
+          "Înregistrări suport pentru revizuire",
+          "Tipare istorice relevante"
+        ]
+      },
+      {
+        "headline": "Explorați relațiile între măsurile operaționale."
+      },
+      {},
+      {
+        "headline": "Comparați cheltuielile cu performanța operațională.",
+        "description": "Așezați măsurile disponibile de marketing, forță de muncă și alte costuri lângă venituri și contribuție. Verificați ipotezele de alocare și atribuire când discutați rentabilitatea."
+      },
+      {},
+      {
+        "description": "Investigați dacă un element nou, o ofertă sau o campanie coincide cu modificări în vânzările existente. Verificați mixul, cererea și perioada de comparație înainte de a interpreta ca fiind canibalizare.",
+        "capabilities": [
+          "Semnale posibile de canibalizare"
+        ]
+      },
+      {
+        "headline": "Vedeți ce s-a schimbat alături de metrică.",
+        "description": "Revizuiți modificările conexe din sursele interconectate pentru a identifica explicații posibile. O corelație susține investigarea; nu stabilește cauzalitate.",
+        "capabilities": [
+          "Alerte pentru mișcări semnificative",
+          "Factorii posibili contribuitori"
+        ]
+      }
+    ]
+  },
+  "sv": {
+    "ui": {
+      "heroSupport": "Förstå hur försäljning, personal, kostnader och efterfrågan rör sig tillsammans. Cross-Intelligence kopplar samman de driftsområden som ditt Core-paket täcker.",
+      "componentsTitle": "Följ de samband som är värda att undersöka."
+    },
+    "components": [
+      {
+        "headline": "Jämför kampanjens tidsplacering med försäljningen.",
+        "description": "Granska hur försäljning och efterfrågan förändras i samband med en kampanj. Jämför tidpunkt, attribueringsfönster och andra driftförändringar innan du drar en slutsats."
+      },
+      {
+        "title": "Möjliga förklaringar",
+        "headline": "Undersök vad som kan förklara ett mätvärdesförändring.",
+        "description": "Utforska relaterade rörelser i försäljning, personal och kostnader. Kontrollera underliggande poster och andra förändringar innan du bestämmer vad som orsakade resultatet.",
+        "capabilities": [
+          "Potentiella förklaringar över anslutna källor",
+          "Konfidensnivå för varje hypotes",
+          "Underlagsdokument för granskning",
+          "Relevanta historiska mönster"
+        ]
+      },
+      {
+        "headline": "Utforska relationer mellan driftsmått."
+      },
+      {},
+      {
+        "headline": "Jämför utgifter och driftprestanda.",
+        "description": "Placera tillgängliga marknadsförings-, personal- och andra kostnadsmått bredvid intäkter och bidrag. Kontrollera allokerings- och attribueringsantaganden när avkastningen diskuteras."
+      },
+      {},
+      {
+        "description": "Undersök om en ny rätt, erbjudande eller kampanj sammanfaller med förändringar i befintlig försäljning. Kontrollera mix, efterfrågan och jämförelseperiod innan du behandlar det som kannibalism.",
+        "capabilities": [
+          "Potentiella signaler för kannibalism"
+        ]
+      },
+      {
+        "headline": "Se vad som förändrades tillsammans med mätvärdet.",
+        "description": "Granska relaterade förändringar i anslutna källor för att identifiera möjliga förklaringar. En korrelation motiverar undersökning; den fastställer inte orsakssamband.",
+        "capabilities": [
+          "Larm för betydande rörelser",
+          "Möjliga bidragande faktorer"
+        ]
+      }
+    ]
+  },
+  "bn": {
+    "ui": {
+      "heroSupport": "বিক্রয়, শ্রম, খরচ এবং চাহিদা কীভাবে একসাথে পরিবর্তিত হয় তা বুঝুন। Cross-Intelligence আপনার Core প্যাকেজে কভার করা অপারেটিং ক্ষেত্রগুলোকে সংযুক্ত করে।",
+      "componentsTitle": "তদন্ত করার মতো সম্পর্ক অনুসরণ করুন।"
+    },
+    "components": [
+      {
+        "headline": "ক্যাম্পেইন টাইমিংকে বিক্রয়ের সঙ্গে তুলনা করুন।",
+        "description": "ক্যাম্পেইনের চারপাশে বিক্রয় এবং চাহিদা কীভাবে পরিবর্তিত হয়েছে তা পর্যালোচনা করুন। সিদ্ধান্ত নেওয়ার আগে টাইমিং, অ্যাট্রিবিউশন উইন্ডো এবং অন্যান্য অপারেটিং পরিবর্তনগুলি তুলনা করুন।"
+      },
+      {
+        "title": "সম্ভাব্য ব্যাখ্যা",
+        "headline": "যে কারণে কোনো মেট্রিক পরিবর্তিত হতে পারে তা তদন্ত করুন।",
+        "description": "বিক্রয়, শ্রম এবং খরচে সম্পর্কিত ওঠানামা অনুসন্ধান করুন। ফলাফলের কারণ নির্ধারণের আগে সমর্থনকারী রেকর্ড এবং অন্যান্য পরিবর্তনগুলো পরীক্ষা করুন।",
+        "capabilities": [
+          "সংযুক্ত সোর্স জুড়ে সম্ভাব্য ব্যাখ্যা",
+          "প্রতিটি হাইপোথেসিসের জন্য আস্থা",
+          "পর্যালোচনার জন্য সমর্থনকারী রেকর্ড",
+          "প্রাসঙ্গিক ইতিহাসগত প্যাটার্ন"
+        ]
+      },
+      {
+        "headline": "অপারেটিং পরিমাপ জুড়ে সম্পর্কগুলো অন্বেষণ করুন।"
+      },
+      {},
+      {
+        "headline": "খরচ এবং অপারেটিং কর্মক্ষমতা তুলনা করুন।",
+        "description": "উপলব্ধ মার্কেটিং, শ্রম এবং অন্যান্য খরচের পরিমাপগুলোকে রাজস্ব এবং কন্ট্রিবিউশনের পাশে রাখুন। রিটার্ন আলোচনা করার আগে ব্যয় বরাদ্দ এবং অ্যাট্রিবিউশন অনুমানগুলো পরীক্ষা করুন।"
+      },
+      {},
+      {
+        "description": "নতুন আইটেম, অফার বা ক্যাম্পেইনের ফলে বিদ্যমান বিক্রয়ে পরিবর্তন হয়েছে কি না তা তদন্ত করুন। এটিকে ক্যানিবালাইজেশন হিসেবে বিবেচনা করার আগে মিক্স, চাহিদা এবং তুলনা পিরিয়ড পরীক্ষা করুন।",
+        "capabilities": [
+          "সম্ভাব্য ক্যানিবালাইজেশন সিগনাল"
+        ]
+      },
+      {
+        "headline": "মেট্রিকের সঙ্গে কী পরিবর্তিত হয়েছে তা দেখুন।",
+        "description": "সম্ভাব্য ব্যাখ্যা নির্ধারণে সংযুক্ত সোর্স জুড়ে সম্পর্কিত পরিবর্তনগুলো পর্যালোচনা করুন। একটি সহসম্পর্ক তদন্তকে সমর্থন করে; এটি কারণ-ফল স্থাপন করে না।",
+        "capabilities": [
+          "গুরুত্বপূর্ণ-অবস্থার সতর্কতা",
+          "সম্ভাব্য অবদানকারী কারণসমূহ"
+        ]
+      }
+    ]
+  },
+  "th": {
+    "ui": {
+      "heroSupport": "ทำความเข้าใจว่าการขาย แรงงาน ต้นทุน และความต้องการขยับไปด้วยกันอย่างไร Cross-Intelligence เชื่อมพื้นที่ปฏิบัติงานที่ครอบคลุมโดยแพ็กเกจ Core ของคุณ",
+      "componentsTitle": "ติดตามความเชื่อมโยงที่ควรตรวจสอบ"
+    },
+    "components": [
+      {
+        "headline": "เปรียบเทียบช่วงเวลาดำเนินแคมเปญกับยอดขาย",
+        "description": "ทบทวนว่าการขายและความต้องการเปลี่ยนแปลงอย่างไรรอบๆ แคมเปญ เปรียบเทียบช่วงเวลา หน้าต่างการอ้างสิทธิ์ และการเปลี่ยนแปลงการปฏิบัติงานอื่นๆ ก่อนสรุปผล"
+      },
+      {
+        "title": "คำอธิบายที่เป็นไปได้",
+        "headline": "ตรวจสอบสิ่งที่อาจอธิบายการเปลี่ยนแปลงของเมตริก",
+        "description": "สำรวจการเคลื่อนไหวที่เกี่ยวข้องในยอดขาย แรงงาน และต้นทุน ตรวจสอบบันทึกสนับสนุนและการเปลี่ยนแปลงอื่นๆ ก่อนตัดสินใจว่าสาเหตุคืออะไร",
+        "capabilities": [
+          "คำอธิบายที่เป็นไปได้จากแหล่งข้อมูลที่เชื่อมต่อกัน",
+          "ความมั่นใจสำหรับสมมติฐานแต่ละข้อ",
+          "บันทึกสนับสนุนสำหรับการตรวจทาน",
+          "รูปแบบประวัติที่เกี่ยวข้อง"
+        ]
+      },
+      {
+        "headline": "สำรวจความสัมพันธ์ระหว่างมาตรวัดการปฏิบัติงาน"
+      },
+      {},
+      {
+        "headline": "เปรียบเทียบค่าใช้จ่ายกับประสิทธิภาพการปฏิบัติงาน",
+        "description": "วางมาตรวัดการตลาด แรงงาน และต้นทุนอื่นๆ ที่มีอยู่เคียงข้างรายได้และส่วนร่วม พิจารณาสมมติฐานการจัดสรรและการอ้างสิทธิ์เมื่อตรวจสอบผลตอบแทน"
+      },
+      {},
+      {
+        "description": "ตรวจสอบว่ารายการใหม่ ข้อเสนอ หรือแคมเปญตรงกับการเปลี่ยนแปลงยอดขายที่มีอยู่หรือไม่ ตรวจดูส่วนผสม ความต้องการ และช่วงเปรียบเทียบก่อนถือเป็นการแย่งยอดขาย",
+        "capabilities": [
+          "สัญญาณที่อาจบ่งชี้การแย่งยอดขาย"
+        ]
+      },
+      {
+        "headline": "ดูว่ามีอะไรเปลี่ยนไปพร้อมกับเมตริกบ้าง",
+        "description": "ทบทวนการเปลี่ยนแปลงที่เกี่ยวข้องจากแหล่งที่เชื่อมต่อเพื่อระบุคำอธิบายที่เป็นไปได้ ความสัมพันธ์สนับสนุนการตรวจสอบแต่ไม่ยืนยันสาเหตุ",
+        "capabilities": [
+          "การแจ้งเตือนการเคลื่อนไหวอย่างมีนัยสำคัญ",
+          "ปัจจัยที่อาจมีส่วนช่วย"
+        ]
+      }
+    ]
+  },
+  "ms": {
+    "ui": {
+      "heroSupport": "Fahami bagaimana jualan, tenaga kerja, kos dan permintaan bergerak bersama. Cross-Intelligence menghubungkan kawasan operasi yang diliputi oleh pakej Core anda.",
+      "componentsTitle": "Ikuti hubungan yang patut disiasat."
+    },
+    "components": [
+      {
+        "headline": "Bandingkan pemasa kempen dengan jualan.",
+        "description": "Semak bagaimana jualan dan permintaan berubah sekitar kempen. Bandingkan pemasa, tingkap atribusi dan perubahan operasi lain sebelum membuat kesimpulan."
+      },
+      {
+        "title": "Penjelasan mungkin",
+        "headline": "Siasat apa yang mungkin menerangkan perubahan metrik.",
+        "description": "Terokai pergerakan berkaitan dalam jualan, tenaga kerja dan kos. Semak rekod sokongan dan perubahan lain sebelum menentukan punca keputusan.",
+        "capabilities": [
+          "Penjelasan berpotensi merentasi sumber bersambung",
+          "Keyakinan untuk setiap hipotesis",
+          "Rekod sokongan untuk disemak",
+          "Corak sejarah yang berkaitan"
+        ]
+      },
+      {
+        "headline": "Terokai hubungan merentasi ukuran operasi."
+      },
+      {},
+      {
+        "headline": "Bandingkan perbelanjaan dan prestasi operasi.",
+        "description": "Letakkan ukuran pemasaran, tenaga kerja dan kos lain yang tersedia di sebelah hasil dan sumbangan. Semak andaian peruntukan dan atribusi apabila membincangkan pulangan."
+      },
+      {},
+      {
+        "description": "Siasat sama ada item, tawaran atau kempen baru bertepatan dengan perubahan dalam jualan sedia ada. Semak campuran, permintaan dan tempoh perbandingan sebelum menganggapnya sebagai kanibalisasi.",
+        "capabilities": [
+          "Isyarat kanibalisasi berpotensi"
+        ]
+      },
+      {
+        "headline": "Lihat apa yang berubah bersama metrik itu.",
+        "description": "Semak perubahan berkaitan merentasi sumber bersambung untuk mengenal pasti kemungkinan penjelasan. Korelasi menyokong penyiasatan; ia tidak membuktikan sebab-akibat.",
+        "capabilities": [
+          "Amaran pergerakan ketara",
+          "Faktor penyumbang yang mungkin"
+        ]
+      }
+    ]
+  }
+}

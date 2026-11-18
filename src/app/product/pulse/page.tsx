@@ -1,5 +1,7 @@
 'use client';
 
+import buyerFeatureCopy from '@/content/buyer-feature-details/pulse.json';
+
 import depthCopy from '@/content/operator-depth.json'
 
 import { Button } from "@/components/ui/Button";
@@ -19,7 +21,7 @@ import {
   MockupTable,
   MockupAlert,
 } from "@/components/ui/MockupFrame";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_pulse_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { pulseCreamCopy } from "./pulseCreamCopy";
@@ -1251,7 +1253,8 @@ function LocalizedPulseDashboardMockup() {
 export default function PulsePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? getGeneratedLocalCopy(localizedPulseCopy, generatedLocalCopy.localizedPulseCopy, locale) ?? localizedPulseCopy.en;
+  const sourceFeatureCopy = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? getGeneratedLocalCopy(localizedPulseCopy, generatedLocalCopy.localizedPulseCopy, locale) ?? localizedPulseCopy.en;
+  const ui = mergeGeneratedCopy(sourceFeatureCopy, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy]);
   const cream = pulseCreamCopy[locale as keyof typeof pulseCreamCopy] ?? pulseCreamCopy.en;
   const featureMockups = [
     AdaptiveTargetsMockup,

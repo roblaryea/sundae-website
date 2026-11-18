@@ -1,3 +1,4 @@
+import buyerBodyCopy from '@/content/buyer-depth/faq.json';
 import { getCommercialCopy, getCoreCoverageSummary } from '@/lib/pricing/commercialCopy';
 import type { SundaeIconName } from '@/components/icons';
 import type { RequiredEnglishLocalizedRecord, WebsiteLocale } from '@/lib/i18n';
@@ -1564,9 +1565,10 @@ export function getLocalizedFaqSections(
   const sections = localizedFaqSections[locale as keyof typeof localizedFaqSections] ?? getGeneratedLocalCopy(localizedFaqSections, generatedLocalCopy.localizedFaqSections, locale) ?? localizedFaqSections.en;
 
   const commercial = getCommercialCopy(locale);
+  const buyer = buyerBodyCopy[locale as keyof typeof buyerBodyCopy];
   const corrections: Record<string, Record<number, string>> = {
-    'getting-started': { 0: commercial.productOverview, 3: getCoreCoverageSummary(locale), 4: commercial.terms },
-    'products-tiers': { 0: commercial.productOverview, 1: getCoreCoverageSummary(locale), 3: commercial.packageScope },
+    'getting-started': { 0: buyer.overview, 1: buyer.start, 2: buyer.noFree, 3: getCoreCoverageSummary(locale), 4: commercial.terms },
+    'products-tiers': { 0: buyer.overview, 1: getCoreCoverageSummary(locale), 3: commercial.packageScope },
     modules: { 0: commercial.packageScope, 1: commercial.packageScope, 2: commercial.packageScope, 3: commercial.packageScope, 4: commercial.packageScope, 5: commercial.moduleAnswer },
     'pricing-billing': { 1: commercial.setup, 3: commercial.terms },
     watchtower: { 1: commercial.watchtowerEligibility, 3: commercial.watchtowerChoice, 4: commercial.watchtowerEligibility },

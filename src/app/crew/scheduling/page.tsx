@@ -1,5 +1,7 @@
 'use client';
 
+import buyerBodyCopy from '@/content/buyer-depth/workforce.json';
+
 import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
 
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
@@ -9,7 +11,7 @@ import { CrewSchedulingMobile } from '@/components/crew/CrewSchedulingMobile';
 import { CrewSchedulingManagerMobile } from '@/components/crew/CrewSchedulingManagerMobile';
 import { schedulingCopy } from './schedulingCopy';
 
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy';
 import { generatedLocalCopy } from '@/generated-locales/app_crew_scheduling_page';
 
 export default function CrewSchedulingPage() {
@@ -21,7 +23,7 @@ export default function CrewSchedulingPage() {
   return (
     <CrewModulePage
       slug="scheduling"
-      copy={copy}
+      copy={mergeGeneratedCopy(copy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy].scheduling)}
       heroVisual={
         // One full-length phone the visitor swipes through: the employee
         // "My Schedule" surface and the manager "Team Scheduling" surface.

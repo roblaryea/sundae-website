@@ -1,5 +1,7 @@
 'use client';
 
+import buyerFeatureCopy from '@/content/buyer-feature-details/intelligence.json';
+
 import depthCopy from '@/content/operator-depth.json'
 
 import { Button } from "@/components/ui/Button";
@@ -12,7 +14,7 @@ import { CreamBreak } from "@/components/ui/CreamBreak";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_intelligence_page'
 import { intelligenceCreamCopy } from './intelligenceCreamCopy'
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
@@ -326,7 +328,8 @@ const localizedChatCopy = {
 export default function ChatWithDataPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedChatCopy[locale as keyof typeof localizedChatCopy] ?? getGeneratedLocalCopy(localizedChatCopy, generatedLocalCopy.localizedChatCopy, locale) ?? localizedChatCopy.en;
+  const sourceFeatureCopy = localizedChatCopy[locale as keyof typeof localizedChatCopy] ?? getGeneratedLocalCopy(localizedChatCopy, generatedLocalCopy.localizedChatCopy, locale) ?? localizedChatCopy.en;
+  const ui = mergeGeneratedCopy(sourceFeatureCopy, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy]);
   const cream = intelligenceCreamCopy[locale as keyof typeof intelligenceCreamCopy] ?? intelligenceCreamCopy.en;
 
   return (

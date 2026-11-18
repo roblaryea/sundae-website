@@ -1,10 +1,12 @@
 "use client";
 
+import buyerBodyCopy from '@/content/buyer-depth/technology.json';
+
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_solutions_technology_teams_page'
 import { getPositioningCopy } from '@/lib/positioningCopy';
 
@@ -171,5 +173,5 @@ export default function TechnologyTeamsPage() {
         : item,
     ),
   };
-  return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/integrations-dark.png" light="/images/product/2026-fresh/integrations.png" alt="Data & Integrations - POS, labor, inventory, and delivery unified across dozens of governed connectors" />} gallery={<SectionProductGallery defaultPersona="tech" />} />;
+  return <SolutionPageLayout secondaryCtaHref="/integrations" copy={mergeGeneratedCopy(copy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy])} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/integrations-dark.png" light="/images/product/2026-fresh/integrations.png" alt="Data & Integrations - POS, labor, inventory, and delivery unified across dozens of governed connectors" />} gallery={<SectionProductGallery defaultPersona="tech" />} />;
 }

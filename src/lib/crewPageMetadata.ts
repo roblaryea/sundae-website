@@ -1,3 +1,4 @@
+import workforceBody from '@/content/buyer-depth/workforce.json';
 import type { Metadata } from "next";
 import type { WebsiteLocale } from "@/lib/i18n";
 import { buildResolvedPageMetadata } from "@/lib/solutionPageMetadata";
@@ -41,10 +42,11 @@ export function buildCrewPageMetadata({
   englishDescription,
   generatedLocalCopy,
 }: BuildCrewPageMetadataOptions): Metadata {
-  const localizedByLocale =
+  const originalLocalizedCopy =
     generatedLocalCopy && typeof generatedLocalCopy === "object"
       ? (generatedLocalCopy as Record<string, LocalizedCrewMetadataCopy>)[locale]
       : undefined;
+  const localizedByLocale = { ...originalLocalizedCopy, ...(pathname === '/crew/scheduling' ? workforceBody[locale as keyof typeof workforceBody].scheduling : {}) };
   const title =
     locale === "en" || !localizedByLocale
       ? englishTitle

@@ -1,0 +1,1036 @@
+{
+  "en": {
+    "problemsDescription": "Separate sales, staffing and cost exports make it difficult to explain a change in margin.",
+    "howDescription": "Compare operating performance, investigate a variance and review planning assumptions alongside your accounting systems.",
+    "howSundaeHelps": [
+      {
+        "title": "Sales and cost in context",
+        "description": "Compare revenue, food cost, labor and contribution by location and period, using the sources available in your setup."
+      },
+      {
+        "title": "Investigate a margin change",
+        "description": "Use Ask Sundae to explore discounts, staffing, sales mix and other possible explanations. Check the supporting records before concluding what caused the change."
+      },
+      {
+        "title": "An operating view beside accounting",
+        "description": "Bring connected POS, workforce, inventory and accounting data into an operating review. Your accounting system remains responsible for its books and reconciliation."
+      },
+      {
+        "title": "Test the next plan",
+        "description": "Use Foresight where included or selected to compare forecasts and scenarios. Review the assumptions, confidence range and actual results."
+      }
+    ],
+    "outcomesDescription": "A clearer conversation about what changed, who will respond and what the next review should check.",
+    "outcomes": [
+      {
+        "title": "Prepare the operating review",
+        "description": "Start with comparable location and period views, then investigate the exceptions that need a finance discussion."
+      },
+      {
+        "title": "Give follow-up an owner",
+        "description": "Agree the next action with the location manager and keep the starting point available for comparison."
+      },
+      {
+        "title": "Check the supporting records",
+        "description": "Inspect the available source detail, definitions and coverage behind the metric you are discussing."
+      },
+      {
+        "title": "Keep uncertainty in the plan",
+        "description": "Review forecast assumptions and confidence ranges before making a staffing, purchasing or capital decision."
+      }
+    ],
+    "crewCallout": {
+      "title": "Bring approved workforce records into the review.",
+      "description": "Crew connects schedules, approved hours and payroll review. Confirm your country rules, supported outputs and provider handoff during scoping; calculation and export are distinct from payment or filing."
+    },
+    "ctaTitle": "Bring one variance you need to explain.",
+    "ctaDescription": "Compare the operating records, the likely explanations and a useful next step. We can use a sample operation."
+  },
+  "ar": {
+    "problemsDescription": "تجعل صادرات المبيعات والموظفين والتكاليف المنفصلة من الصعب تفسير تغير الهامش.",
+    "howDescription": "قارن الأداء التشغيلي، تحقق من تباين ما وراجع فروض التخطيط بجانب أنظمة المحاسبة الخاصة بك.",
+    "howSundaeHelps": [
+      {
+        "title": "المبيعات والتكلفة في السياق",
+        "description": "قارن الإيرادات وتكلفة الطعام والعمالة والمساهمة حسب الموقع والفترة، باستخدام المصادر المتاحة في إعدادك."
+      },
+      {
+        "title": "تحقق من تغير الهامش",
+        "description": "استخدم Ask Sundae لاستكشاف التخفيضات والموظفين وتركيبة المبيعات وتفسيرات محتملة أخرى. راجع السجلات الداعمة قبل الاستنتاج بشأن سبب التغير."
+      },
+      {
+        "title": "رؤية تشغيلية بجانب المحاسبة",
+        "description": "اجمع بيانات نقاط البيع والموظفين والمخزون والمحاسبة المتصلة في مراجعة تشغيلية. يظل نظام المحاسبة مسؤولاً عن دفاتره والمطابقة."
+      },
+      {
+        "title": "اختبر الخطة التالية",
+        "description": "استخدم Foresight حيثما كان مشمولاً أو مختاراً لمقارنة التوقعات والسيناريوهات. راجع الفروض ونطاق الثقة والنتائج الفعلية."
+      }
+    ],
+    "outcomesDescription": "حوار أوضح حول ما تغير، من سيستجيب وما الذي يجب أن تراجعه المراجعة التالية.",
+    "outcomes": [
+      {
+        "title": "حضّر المراجعة التشغيلية",
+        "description": "ابدأ بعروض قابلة للمقارنة حسب الموقع والفترة، ثم تحقق من الاستثناءات التي تحتاج إلى نقاش مالي."
+      },
+      {
+        "title": "اجعل المتابعة مملوكة لشخص",
+        "description": "اتفق على الإجراء التالي مع مدير الموقع واحتفظ بنقطة البداية متاحة للمقارنة."
+      },
+      {
+        "title": "تحقق من السجلات الداعمة",
+        "description": "افحص تفاصيل المصدر المتاحة والتعاريف والتغطية وراء المقياس الذي تناقشه."
+      },
+      {
+        "title": "احتفظ بعدم اليقين في الخطة",
+        "description": "راجع فروض التوقعات ونطاقات الثقة قبل اتخاذ قرار بالتوظيف أو الشراء أو رأس المال."
+      }
+    ],
+    "crewCallout": {
+      "title": "أدرج سجلات قوة العمل المعتمَدة في المراجعة.",
+      "description": "تربط Crew الجداول والساعات المعتمدة ومراجعة الرواتب. أكد قواعد بلدك والمخرجات المدعومة وتسليم المزود أثناء تحديد النطاق؛ الحساب والتصدير يختلفان عن الدفع أو الإيداع."
+    },
+    "ctaTitle": "أحضر تبايناً واحداً تحتاج تفسيره.",
+    "ctaDescription": "قارن السجلات التشغيلية والتفسيرات المحتملة وخطوة مفيدة تالِية. يمكننا استخدام عملية نموذجية."
+  },
+  "fr": {
+    "problemsDescription": "Des exports séparés des ventes, du personnel et des coûts rendent difficile l'explication d'une variation de marge.",
+    "howDescription": "Comparer la performance opérationnelle, analyser une variance et revoir les hypothèses de planification aux côtés de vos systèmes comptables.",
+    "howSundaeHelps": [
+      {
+        "title": "Ventes et coûts en contexte",
+        "description": "Comparer chiffre d'affaires, coût alimentaire, main-d'œuvre et contribution par emplacement et période, en utilisant les sources disponibles dans votre configuration."
+      },
+      {
+        "title": "Analyser un changement de marge",
+        "description": "Utilisez Ask Sundae pour explorer remises, effectifs, mix de ventes et autres explications possibles. Vérifiez les dossiers justificatifs avant de conclure sur la cause du changement."
+      },
+      {
+        "title": "Une vue opérationnelle à côté de la comptabilité",
+        "description": "Rassemblez les données POS, workforce, inventaire et comptabilité connectées dans une revue opérationnelle. Votre système comptable reste responsable de sa tenue et de la réconciliation."
+      },
+      {
+        "title": "Tester le plan suivant",
+        "description": "Utilisez Foresight lorsqu'il est inclus ou sélectionné pour comparer prévisions et scénarios. Revuez les hypothèses, l'intervalle de confiance et les résultats réels."
+      }
+    ],
+    "outcomesDescription": "Une conversation plus claire sur ce qui a changé, qui réagira et ce que la prochaine revue doit vérifier.",
+    "outcomes": [
+      {
+        "title": "Préparer la revue opérationnelle",
+        "description": "Commencez par des vues comparables par emplacement et période, puis analysez les exceptions nécessitant une discussion finance."
+      },
+      {
+        "title": "Donner un responsable au suivi",
+        "description": "Convenir de l'action suivante avec le manager du site et conserver le point de départ disponible pour comparaison."
+      },
+      {
+        "title": "Vérifier les dossiers justificatifs",
+        "description": "Inspecter le détail source disponible, les définitions et la couverture derrière la métrique discutée."
+      },
+      {
+        "title": "Garder l'incertitude dans le plan",
+        "description": "Revuez les hypothèses de prévision et les intervalles de confiance avant de prendre une décision sur les effectifs, les achats ou les investissements."
+      }
+    ],
+    "crewCallout": {
+      "title": "Intégrer les dossiers de main-d'œuvre approuvés à la revue.",
+      "description": "Crew connecte plannings, heures approuvées et revue de paie. Confirmez les règles nationales, les sorties supportées et le transfert au provider lors du cadrage ; le calcul et l'export sont distincts du paiement ou du dépôt légal."
+    },
+    "ctaTitle": "Apportez une variance que vous devez expliquer.",
+    "ctaDescription": "Comparer les dossiers opérationnels, les explications probables et une étape suivante utile. Nous pouvons utiliser une opération d'exemple."
+  },
+  "es": {
+    "problemsDescription": "Las exportaciones separadas de ventas, personal y costes dificultan explicar un cambio en el margen.",
+    "howDescription": "Compare el rendimiento operativo, investigue una variación y revise las suposiciones del plan junto con sus sistemas contables.",
+    "howSundaeHelps": [
+      {
+        "title": "Ventas y costes en contexto",
+        "description": "Compare ingresos, coste de alimentos, mano de obra y contribución por local y periodo, usando las fuentes disponibles en su configuración."
+      },
+      {
+        "title": "Investigar un cambio de margen",
+        "description": "Use Ask Sundae para explorar descuentos, personal, mezcla de ventas y otras explicaciones posibles. Compruebe los registros de soporte antes de concluir qué causó el cambio."
+      },
+      {
+        "title": "Una vista operativa junto a la contabilidad",
+        "description": "Integre POS, personal, inventario y datos contables conectados en una revisión operativa. Su sistema contable sigue siendo responsable de sus libros y conciliación."
+      },
+      {
+        "title": "Probar el siguiente plan",
+        "description": "Use Foresight cuando esté incluido o seleccionado para comparar previsiones y escenarios. Revise las suposiciones, el rango de confianza y los resultados reales."
+      }
+    ],
+    "outcomesDescription": "Una conversación más clara sobre qué cambió, quién responderá y qué debe comprobar la próxima revisión.",
+    "outcomes": [
+      {
+        "title": "Preparar la revisión operativa",
+        "description": "Comience con vistas comparables por local y periodo, luego investigue las excepciones que necesitan discusión financiera."
+      },
+      {
+        "title": "Asignar un responsable al seguimiento",
+        "description": "Acepte la siguiente acción con el gerente del local y mantenga el punto de partida disponible para comparación."
+      },
+      {
+        "title": "Comprobar los registros de soporte",
+        "description": "Inspeccione el detalle de fuente disponible, definiciones y cobertura detrás de la métrica que está discutiendo."
+      },
+      {
+        "title": "Mantener la incertidumbre en el plan",
+        "description": "Revise las suposiciones de la previsión y los rangos de confianza antes de tomar una decisión sobre personal, compras o inversión de capital."
+      }
+    ],
+    "crewCallout": {
+      "title": "Incorpore los registros aprobados de personal en la revisión.",
+      "description": "Crew conecta horarios, horas aprobadas y revisión de nómina. Confirme sus reglas de país, salidas soportadas y el traspaso al proveedor durante el alcance; el cálculo y la exportación son distintos del pago o la presentación."
+    },
+    "ctaTitle": "Traiga una variación que necesite explicar.",
+    "ctaDescription": "Compare los registros operativos, las explicaciones probables y un siguiente paso útil. Podemos usar una operación de muestra."
+  },
+  "de": {
+    "problemsDescription": "Separierte Exporte für Umsatz, Personal und Kosten machen es schwer, eine Margenänderung zu erklären.",
+    "howDescription": "Vergleichen Sie die operative Leistung, untersuchen Sie eine Abweichung und prüfen Sie Planannahmen neben Ihren Buchhaltungssystemen.",
+    "howSundaeHelps": [
+      {
+        "title": "Umsatz und Kosten im Kontext",
+        "description": "Vergleichen Sie Umsatz, Warenkosten, Personal und Contribution nach Standort und Zeitraum unter Verwendung der in Ihrer Einrichtung verfügbaren Quellen."
+      },
+      {
+        "title": "Eine Margenänderung untersuchen",
+        "description": "Nutzen Sie Ask Sundae, um Rabatte, Personal, Sales-Mix und andere mögliche Erklärungen zu prüfen. Überprüfen Sie die unterstützenden Unterlagen, bevor Sie eine Ursache festlegen."
+      },
+      {
+        "title": "Eine operative Sicht neben der Buchhaltung",
+        "description": "Bringen Sie verbundene POS-, Workforce-, Inventar- und Buchhaltungsdaten in eine operative Überprüfung. Ihr Buchhaltungssystem bleibt zuständig für seine Bücher und Abstimmung."
+      },
+      {
+        "title": "Den nächsten Plan testen",
+        "description": "Verwenden Sie Foresight, falls enthalten oder gewählt, um Prognosen und Szenarien zu vergleichen. Prüfen Sie die Annahmen, Konfidenzbereiche und die tatsächlichen Ergebnisse."
+      }
+    ],
+    "outcomesDescription": "Eine klarere Gesprächsbasis darüber, was sich geändert hat, wer reagiert und was die nächste Überprüfung prüfen sollte.",
+    "outcomes": [
+      {
+        "title": "Die operative Review vorbereiten",
+        "description": "Beginnen Sie mit vergleichbaren Standort- und Periodenansichten, dann untersuchen Sie die Ausnahmen, die eine Finanzdiskussion benötigen."
+      },
+      {
+        "title": "Folgeaufgaben einem Verantwortlichen geben",
+        "description": "Vereinbaren Sie die nächste Maßnahme mit dem Standortmanager und halten Sie den Ausgangspunkt für einen Vergleich bereit."
+      },
+      {
+        "title": "Die unterstützenden Unterlagen prüfen",
+        "description": "Untersuchen Sie die verfügbaren Quelldaten, Definitionen und Abdeckung hinter der Kennzahl, die Sie besprechen."
+      },
+      {
+        "title": "Unsicherheit im Plan berücksichtigen",
+        "description": "Prüfen Sie Prognoseannahmen und Konfidenzbereiche, bevor Sie eine Personal-, Einkaufs- oder Investitionsentscheidung treffen."
+      }
+    ],
+    "crewCallout": {
+      "title": "Bringen Sie genehmigte Workforce-Aufzeichnungen in die Review.",
+      "description": "Crew verbindet Dienstpläne, genehmigte Stunden und die Payroll-Überprüfung. Bestätigen Sie während des Scopings Ihre Landesregeln, unterstützte Ausgaben und Provider-Übergaben; Berechnung und Export sind getrennt von Zahlung oder Einreichung."
+    },
+    "ctaTitle": "Bringen Sie eine Abweichung, die Sie erklären müssen.",
+    "ctaDescription": "Vergleichen Sie die operativen Aufzeichnungen, wahrscheinliche Erklärungen und einen sinnvollen nächsten Schritt. Wir können eine Beispielbetrieb nutzen."
+  },
+  "nl": {
+    "problemsDescription": "Gescheiden exports van omzet, personeelsgegevens en kosten maken het lastig om een verandering in marge uit te leggen.",
+    "howDescription": "Vergelijk operationele prestaties, onderzoek een afwijking en beoordeel planningsveronderstellingen naast uw boekhoudsystemen.",
+    "howSundaeHelps": [
+      {
+        "title": "Omzet en kosten in context",
+        "description": "Vergelijk omzet, voedselkosten, arbeid en bijdrage per locatie en periode, met de bronnen die in uw omgeving beschikbaar zijn."
+      },
+      {
+        "title": "Onderzoek een margeverandering",
+        "description": "Gebruik Ask Sundae om kortingen, personeelsinzet, salesmix en andere mogelijke verklaringen te onderzoeken. Controleer de onderliggende gegevens voordat u een oorzaak vaststelt."
+      },
+      {
+        "title": "Een operationeel perspectief naast de boekhouding",
+        "description": "Breng verbonden POS-, workforce-, voorraad- en boekhouddata in een operationele review. Uw boekhoudsysteem blijft verantwoordelijk voor de boeken en reconciliatie."
+      },
+      {
+        "title": "Test het volgende plan",
+        "description": "Gebruik Foresight wanneer inbegrepen of geselecteerd om prognoses en scenario's te vergelijken. Beoordeel de aannames, betrouwbaarheidsbereik en de werkelijke resultaten."
+      }
+    ],
+    "outcomesDescription": "Een helderder gesprek over wat veranderde, wie zal reageren en wat de volgende review moet controleren.",
+    "outcomes": [
+      {
+        "title": "Bereid de operationele review voor",
+        "description": "Begin met vergelijkbare locatie- en periodetabellen en onderzoek daarna de uitzonderingen die een financieel gesprek vereisen."
+      },
+      {
+        "title": "Geef opvolging een eigenaar",
+        "description": "Kom overeen welke actie de locatiemanager neemt en houd het uitgangspunt beschikbaar voor vergelijking."
+      },
+      {
+        "title": "Controleer de ondersteunende gegevens",
+        "description": "Inspecteer het beschikbare bronmateriaal, de definities en de dekking achter de metric die u bespreekt."
+      },
+      {
+        "title": "Houd onzekerheid in het plan",
+        "description": "Bekijk prognoseaannames en betrouwbaarheidsbereiken voordat u een personeels-, inkoop- of kapitaalbeslissing neemt."
+      }
+    ],
+    "crewCallout": {
+      "title": "Breng goedgekeurde personeelsgegevens in de review.",
+      "description": "Crew verbindt roosters, goedgekeurde uren en payroll-review. Bevestig uw landregels, ondersteunde outputs en provideroverdracht tijdens scopebepaling; berekening en export zijn distinct van betaling of indiening."
+    },
+    "ctaTitle": "Breng één afwijking die u moet verklaren.",
+    "ctaDescription": "Vergelijk de operationele gegevens, de waarschijnlijke verklaringen en een nuttige volgende stap. We kunnen een voorbeeldoperatie gebruiken."
+  },
+  "pt": {
+    "problemsDescription": "Exportações separadas de vendas, pessoal e custos dificultam explicar uma variação na margem.",
+    "howDescription": "Compare desempenho operacional, investigue uma variação e reveja as premissas de planejamento ao lado dos seus sistemas contábeis.",
+    "howSundaeHelps": [
+      {
+        "title": "Vendas e custos em contexto",
+        "description": "Compare receita, custo de alimentos, trabalho e contribuição por local e período, usando as fontes disponíveis na sua configuração."
+      },
+      {
+        "title": "Investigar uma mudança de margem",
+        "description": "Use Ask Sundae para explorar descontos, pessoal, mix de vendas e outras explicações possíveis. Verifique os registros de suporte antes de concluir o que causou a mudança."
+      },
+      {
+        "title": "Uma visão operacional ao lado da contabilidade",
+        "description": "Traga dados conectados de POS, pessoal, inventário e contabilidade para uma revisão operacional. Seu sistema contábil continua responsável pelos seus livros e conciliações."
+      },
+      {
+        "title": "Testar o próximo plano",
+        "description": "Use Foresight quando incluído ou selecionado para comparar previsões e cenários. Reveja as premissas, a faixa de confiança e os resultados reais."
+      }
+    ],
+    "outcomesDescription": "Uma conversa mais clara sobre o que mudou, quem vai responder e o que a próxima revisão deve verificar.",
+    "outcomes": [
+      {
+        "title": "Preparar a revisão operacional",
+        "description": "Comece com visões comparáveis por local e período, depois investigue as exceções que precisam de discussão financeira."
+      },
+      {
+        "title": "Atribuir dono ao acompanhamento",
+        "description": "Concorde a próxima ação com o gerente do local e mantenha o ponto de partida disponível para comparação."
+      },
+      {
+        "title": "Verificar os registros de suporte",
+        "description": "Inspecione o detalhe de origem disponível, definições e cobertura por trás da métrica que está sendo discutida."
+      },
+      {
+        "title": "Manter a incerteza no plano",
+        "description": "Revise as premissas da previsão e as faixas de confiança antes de tomar uma decisão sobre pessoal, compras ou capital."
+      }
+    ],
+    "crewCallout": {
+      "title": "Traga registros de força de trabalho aprovados para a revisão.",
+      "description": "Crew conecta escalas, horas aprovadas e revisão de folha de pagamento. Confirme suas regras de país, saídas suportadas e transferência ao provedor durante o escopo; cálculo e exportação são distintos de pagamento ou envio."
+    },
+    "ctaTitle": "Traga uma variação que você precise explicar.",
+    "ctaDescription": "Compare os registros operacionais, as explicações prováveis e um próximo passo útil. Podemos usar uma operação de amostra."
+  },
+  "hi": {
+    "problemsDescription": "बिक्री, स्टाफिंग और लागत के अलग-अलग एक्सपोर्ट एक मार्जिन परिवर्तन की व्याख्या करना कठिन बनाते हैं।",
+    "howDescription": "ऑपरेटिंग प्रदर्शन की तुलना करें, विचलन की जांच करें और अपनी अकाउंटिंग प्रणालियों के साथ प्लानिंग अनुमानों की समीक्षा करें।",
+    "howSundaeHelps": [
+      {
+        "title": "संदर्भ में बिक्री और लागत",
+        "description": "अपनी सेटअप में उपलब्ध स्रोतों का उपयोग करके स्थान और अवधि के हिसाब से राजस्व, फूड कॉस्ट, लेबर और योगदान की तुलना करें।"
+      },
+      {
+        "title": "मार्जिन परिवर्तन की जांच करें",
+        "description": "Ask Sundae का उपयोग करके छूट, स्टाफिंग, सेल्स मिक्स और अन्य संभावित कारणों का पता लगाएँ। परिवर्तन के कारण का निष्कर्ष निकालने से पहले सहायक रिकॉर्ड देखें।"
+      },
+      {
+        "title": "एकाउंटिंग के साथ साथ ऑपरेटिंग दृश्य",
+        "description": "कनेक्टेड POS, वर्कफोर्स, इन्वेंटरी और अकाउंटिंग डेटा को एक ऑपरेटिंग समीक्षा में लाएँ। आपकी अकाउंटिंग प्रणाली अपनी पुस्तकों और मिलान के लिए जिम्मेदार रहती है।"
+      },
+      {
+        "title": "अगले प्लान का परीक्षण करें",
+        "description": "Foresight का उपयोग जहाँ शामिल या चुना गया हो, पूर्वानुमानों और परिदृश्यों की तुलना करने के लिए करें। अनुमानों, आत्मविश्वास सीमा और वास्तविक परिणामों की समीक्षा करें।"
+      }
+    ],
+    "outcomesDescription": "क्या बदला, कौन प्रतिक्रिया देगा और अगले समीक्षा में क्या जांचा जाना चाहिए इस पर स्पष्ट बातचीत।",
+    "outcomes": [
+      {
+        "title": "ऑपरेटिंग समीक्षा तैयार करें",
+        "description": "तुलनीय स्थान और अवधि के दृश्यों से शुरू करें, फिर उन अपवादों की जांच करें जिन पर फाइनेंस चर्चा करनी है।"
+      },
+      {
+        "title": "फॉलो‑अप का एक मालिक दें",
+        "description": "स्थान प्रबंधक के साथ अगला कदम सहमत करें और तुलना के लिए शुरुआती बिंदु उपलब्ध रखें।"
+      },
+      {
+        "title": "सहायक रिकॉर्ड जाँचें",
+        "description": "उस मीट्रिक के पीछे उपलब्ध स्रोत विवरण, परिभाषाएँ और कवरेज का निरीक्षण करें जिस पर आप चर्चा कर रहे हैं।"
+      },
+      {
+        "title": "योजना में अनिश्चितता रखें",
+        "description": "स्टाफिंग, खरीद या पूंजी निर्णय लेने से पहले पूर्वानुमान अनुमान और आत्मविश्वास सीमाओं की समीक्षा करें।"
+      }
+    ],
+    "crewCallout": {
+      "title": "समीक्षा में अनुमोदित वर्कफोर्स रिकॉर्ड लाएँ।",
+      "description": "Crew शेड्यूल, अनुमोदित घंटे और पेरोल समीक्षा को जोड़ता है। स्कोपिंग के दौरान अपने देश नियम, समर्थित आउटपुट और प्रदाता हैंडऑफ की पुष्टि करें; गणना और एक्सपोर्ट भुगतान या फाइलिंग से अलग हैं।"
+    },
+    "ctaTitle": "एक ऐसा विचलन बताएं जिसे आपको समझाना है।",
+    "ctaDescription": "ऑपरेटिंग रिकॉर्ड, संभावित व्याख्याएँ और एक उपयोगी अगला कदम तुलना करें। हम एक नमूना ऑपरेशन का उपयोग कर सकते हैं।"
+  },
+  "ur": {
+    "problemsDescription": "الگ سیلز، اسٹافنگ اور لاگت کے ایکسپورٹس مارجن میں تبدیلی کی وضاحت مشکل بناتے ہیں۔",
+    "howDescription": "اپریٹنگ کارکردگی کا موازنہ کریں، فرق کی جانچ کریں اور اپنے اکاؤنٹنگ سسٹمز کے ساتھ منصوبہ بندی کے مفروضات کا جائزہ لیں۔",
+    "howSundaeHelps": [
+      {
+        "title": "سیلز اور لاگت کا تناظر",
+        "description": "جگہ اور مدت کے لحاظ سے آمدنی، فوڈ کوسٹ، لیبر اور کنٹریبیوشن کا موازنہ کریں، اپنے سیٹ اپ میں دستیاب سورسز استعمال کرتے ہوئے۔"
+      },
+      {
+        "title": "مارجن تبدیلی کی تحقیقات کریں",
+        "description": "Ask Sundae استعمال کریں تاکہ رعایتیں، اسٹافنگ، سیلز مکس اور دیگر ممکنہ وجوہات کو دریافت کریں۔ نتیجہ اخذ کرنے سے پہلے معاون ریکارڈز چیک کریں۔"
+      },
+      {
+        "title": "اکاؤنٹنگ کے ساتھ ایک آپریٹنگ منظر",
+        "description": "متصل POS، ورک فورس، انوینٹری اور اکاؤنٹنگ ڈیٹا کو آپریٹنگ ریویو میں لائیں۔ آپ کا اکاؤنٹنگ سسٹم اپنی بکس اور ری کنسیلی ایشن کے لیے ذمہ دار رہتا ہے۔"
+      },
+      {
+        "title": "اگلے پلان کا تجربہ کریں",
+        "description": "Foresight استعمال کریں جہاں شامل یا منتخب ہو کر پیشن گوئیاں اور منظرنامے موازنے کریں۔ مفروضات، اعتماد کی حد اور حقیقی نتائج کا جائزہ لیں۔"
+      }
+    ],
+    "outcomesDescription": "کیا بدلا، کون جواب دے گا اور اگلے جائزے میں کیا چیک ہونا چاہیے اس کے بارے میں واضح گفتگو۔",
+    "outcomes": [
+      {
+        "title": "آپریٹنگ ریویو کی تیاری کریں",
+        "description": "قابل موازنہ مقام اور مدت کے نظارے سے شروع کریں، پھر ان استثنیات کی تحقیقات کریں جن پر فنانس سے گفتگو درکار ہے۔"
+      },
+      {
+        "title": "فالو اپ کے لیے مالک مقرر کریں",
+        "description": "اگلہ عمل مقام کے مینیجر کے ساتھ طے کریں اور موازنہ کے لیے ابتدائی نقطہ دستیاب رکھیں۔"
+      },
+      {
+        "title": "معاون دستاویزات چیک کریں",
+        "description": "اس میٹرک کے پیچھے دستیاب سورس تفصیل، تعریفیں اور کوریج کا معائنہ کریں جس پر آپ بحث کر رہے ہیں۔"
+      },
+      {
+        "title": "منصوبے میں غیر یقینی برقرار رکھیں",
+        "description": "اسٹافنگ، خریداری یا سرمایہ کے فیصلے سے پہلے پیشن گوئی مفروضات اور اعتماد کی حدود کا جائزہ لیں۔"
+      }
+    ],
+    "crewCallout": {
+      "title": "منظور شدہ ورک فورس ریکارڈز کو ریویو میں لائیں۔",
+      "description": "Crew شیڈولز، منظور شدہ گھنٹے اور پے رول ریویو کو جوڑتا ہے۔ اسکوپنگ کے دوران اپنے ملک کے قوانین، سپورٹ شدہ آؤٹ پٹس اور پرووائیڈر ہینڈ آف کی تصدیق کریں؛ کیلکولیشن اور ایکسپورٹ ادائیگی یا فائلنگ سے الگ ہیں۔"
+    },
+    "ctaTitle": "ایک ایسا فرق لے آئیں جس کی آپ وضاحت کرنا چاہتے ہیں۔",
+    "ctaDescription": "آپریٹنگ ریکارڈز، ممکنہ وضاحتیں اور ایک مفید اگلا قدم موازنہ کریں۔ ہم نمونہ آپریشن استعمال کر سکتے ہیں۔"
+  },
+  "it": {
+    "problemsDescription": "Esportazioni separate di vendite, personale e costi rendono difficile spiegare una variazione del margine.",
+    "howDescription": "Confronta le prestazioni operative, indaga una variazione e rivedi le ipotesi di pianificazione insieme ai tuoi sistemi contabili.",
+    "howSundaeHelps": [
+      {
+        "title": "Vendite e costi nel contesto",
+        "description": "Confronta ricavi, costo del cibo, lavoro e contributo per sede e periodo, usando le fonti disponibili nella tua configurazione."
+      },
+      {
+        "title": "Indagare una variazione di margine",
+        "description": "Usa Ask Sundae per esplorare sconti, personale, mix di vendite e altre possibili spiegazioni. Verifica i record di supporto prima di concludere cosa ha causato la variazione."
+      },
+      {
+        "title": "Una vista operativa accanto alla contabilità",
+        "description": "Porta dati collegati di POS, workforce, inventario e contabilità in una revisione operativa. Il tuo sistema contabile resta responsabile dei libri e della riconciliazione."
+      },
+      {
+        "title": "Testare il piano successivo",
+        "description": "Usa Foresight dove incluso o selezionato per confrontare previsioni e scenari. Rivedi le ipotesi, l’intervallo di confidenza e i risultati effettivi."
+      }
+    ],
+    "outcomesDescription": "Una conversazione più chiara su cosa è cambiato, chi risponderà e cosa la prossima revisione dovrebbe controllare.",
+    "outcomes": [
+      {
+        "title": "Preparare la revisione operativa",
+        "description": "Inizia con viste comparabili per sede e periodo, poi indaga le eccezioni che richiedono una discussione finanziaria."
+      },
+      {
+        "title": "Assegnare un responsabile al follow-up",
+        "description": "Concorda la prossima azione con il responsabile della sede e conserva il punto di partenza disponibile per il confronto."
+      },
+      {
+        "title": "Controllare i record di supporto",
+        "description": "Ispeziona i dettagli delle fonti disponibili, le definizioni e la copertura dietro la metrica di cui stai discutendo."
+      },
+      {
+        "title": "Tenere conto dell’incertezza nel piano",
+        "description": "Rivedi le ipotesi e gli intervalli di confidenza delle previsioni prima di prendere decisioni su personale, acquisti o capitale."
+      }
+    ],
+    "crewCallout": {
+      "title": "Porta i record approvati della workforce nella revisione.",
+      "description": "Crew collega turni, ore approvate e revisione payroll. Conferma le regole del tuo Paese, gli output supportati e il passaggio al provider durante la definizione del progetto; il calcolo e l’esportazione sono distinti dal pagamento o dalla presentazione."
+    },
+    "ctaTitle": "Porta una variazione che devi spiegare.",
+    "ctaDescription": "Confronta i record operativi, le probabili spiegazioni e un prossimo passo utile. Possiamo usare una operazione campione."
+  },
+  "pl": {
+    "problemsDescription": "Oddzielne eksporty sprzedaży, zatrudnienia i kosztów utrudniają wyjaśnienie zmiany marży.",
+    "howDescription": "Porównaj wyniki operacyjne, przeanalizuj odchylenie i przeglądaj założenia planistyczne obok systemów księgowych.",
+    "howSundaeHelps": [
+      {
+        "title": "Sprzedaż i koszty w kontekście",
+        "description": "Porównaj przychody, koszt żywności, koszty pracy i wkład według lokalizacji i okresu, korzystając ze źródeł dostępnych w Twojej konfiguracji."
+      },
+      {
+        "title": "Zbadaj zmianę marży",
+        "description": "Użyj Ask Sundae, aby przeanalizować rabaty, obsadę, miks sprzedaży i inne możliwe wyjaśnienia. Sprawdź wspierające zapisy przed ustaleniem przyczyny zmiany."
+      },
+      {
+        "title": "Widok operacyjny obok księgowości",
+        "description": "Zintegruj połączone dane POS, workforce, inventory i accounting w przeglądzie operacyjnym. Twój system księgowy nadal odpowiada za księgi i uzgadnianie."
+      },
+      {
+        "title": "Przetestuj następny plan",
+        "description": "Skorzystaj z Foresight tam, gdzie jest w pakiecie lub wybrane, aby porównać prognozy i scenariusze. Przejrzyj założenia, zakres niepewności i wyniki rzeczywiste."
+      }
+    ],
+    "outcomesDescription": "Jaśniejsza rozmowa o tym, co się zmieniło, kto zareaguje i co powinien sprawdzić następny przegląd.",
+    "outcomes": [
+      {
+        "title": "Przygotuj przegląd operacyjny",
+        "description": "Zacznij od porównywalnych widoków lokalizacji i okresu, następnie zanalizuj wyjątki wymagające dyskusji finansowej."
+      },
+      {
+        "title": "Wyznacz właściciela działań następczych",
+        "description": "Uzgodnij kolejne działanie z kierownikiem lokalizacji i zachowaj punkt wyjścia do porównania."
+      },
+      {
+        "title": "Sprawdź wspierające zapisy",
+        "description": "Przejrzyj dostępne szczegóły źródłowe, definicje i zakres stojące za metryką, którą omawiacie."
+      },
+      {
+        "title": "Uwzględnij niepewność w planie",
+        "description": "Przejrzyj założenia prognoz i zakresy ufności przed podjęciem decyzji o zatrudnieniu, zakupie lub wydatku kapitałowym."
+      }
+    ],
+    "crewCallout": {
+      "title": "Uwzględnij zatwierdzone zapisy zatrudnienia w przeglądzie.",
+      "description": "Crew łączy harmonogramy, zatwierdzone godziny i przegląd płac. Potwierdź krajowe zasady, wspierane wyjścia i przekazanie do dostawcy podczas zakresu; kalkulacja i eksport są odrębne od płatności lub zgłoszeń."
+    },
+    "ctaTitle": "Przynieś jedno odchylenie, które musisz wyjaśnić.",
+    "ctaDescription": "Porównaj zapisy operacyjne, prawdopodobne wyjaśnienia i użyteczny następny krok. Możemy użyć próbnej operacji."
+  },
+  "tr": {
+    "problemsDescription": "Ayrı satış, personel ve maliyet dışa aktarımları marjdaki değişikliği açıklamayı zorlaştırıyor.",
+    "howDescription": "İşletme performansını karşılaştırın, bir sapmayı araştırın ve muhasebe sistemlerinizle birlikte planlama varsayımlarını gözden geçirin.",
+    "howSundaeHelps": [
+      {
+        "title": "Bağlam içinde satış ve maliyet",
+        "description": "Kurulumunuzda kullanılabilen kaynakları kullanarak konuma ve döneme göre gelir, gıda maliyeti, işçilik ve katkıyı karşılaştırın."
+      },
+      {
+        "title": "Marj değişikliğini araştırın",
+        "description": "Ask Sundae ile indirimleri, personeli, satış karmasını ve diğer olası açıklamaları keşfedin. Değişikliğe neyin neden olduğunu sonuçlandırmadan önce destekleyici kayıtları kontrol edin."
+      },
+      {
+        "title": "Muhasebenin yanında işletme görünümü",
+        "description": "Bağlı POS, işgücü, envanter ve muhasebe verilerini işletme incelemesine getirin. Muhasebe sisteminiz defterleri ve mutabakat için sorumludur."
+      },
+      {
+        "title": "Sonraki planı test edin",
+        "description": "Dahilse veya seçildiyse Foresight’i kullanarak tahminleri ve senaryoları karşılaştırın. Varsayımları, güven aralığını ve fiili sonuçları gözden geçirin."
+      }
+    ],
+    "outcomesDescription": "Ne değiştiğine, kimin yanıt vereceğine ve sonraki incelemenin neyi kontrol etmesi gerektiğine dair daha net bir konuşma.",
+    "outcomes": [
+      {
+        "title": "İşletme incelemesine hazırlanın",
+        "description": "Önce karşılaştırılabilir konum ve dönem görünümleriyle başlayın, sonra finans tartışması gerektiren istisnaları araştırın."
+      },
+      {
+        "title": "Takip için bir sahip atayın",
+        "description": "Bir sonraki eylemi konum yöneticisiyle kararlaştırın ve karşılaştırma için başlangıç noktasını erişilebilir tutun."
+      },
+      {
+        "title": "Destekleyici kayıtları kontrol edin",
+        "description": "Görüşülen metriğin arkasındaki mevcut kaynak ayrıntılarını, tanımları ve kapsamı inceleyin."
+      },
+      {
+        "title": "Planın belirsizliğini koruyun",
+        "description": "Personel, satınalma veya sermaye kararı vermeden önce tahmin varsayımlarını ve güven aralıklarını gözden geçirin."
+      }
+    ],
+    "crewCallout": {
+      "title": "Onaylanmış işgücü kayıtlarını incelemeye dahil edin.",
+      "description": "Crew çizelgeleri, onaylı saatleri ve bordro incelemesini bağlar. Kapsam belirleme sırasında ülke kurallarınızı, desteklenen çıktıları ve sağlayıcı devrini doğrulayın; hesaplama ve dışa aktarma ödeme veya dosyalamadan ayrıdır."
+    },
+    "ctaTitle": "Açıklamanız gereken bir sapma getirin.",
+    "ctaDescription": "İşletme kayıtlarını, olası açıklamaları ve faydalı bir sonraki adımı karşılaştırın. Bir örnek operasyon kullanabiliriz."
+  },
+  "zh-Hans": {
+    "problemsDescription": "分离的销售、排班和成本导出让解释利润率变化变得困难。",
+    "howDescription": "将营业表现进行比较、调查差异并在会计系统旁审查计划假设。",
+    "howSundaeHelps": [
+      {
+        "title": "在语境中查看销售与成本",
+        "description": "按地点和期间比较收入、餐食成本、人工和贡献，使用您设置中可用的数据源。"
+      },
+      {
+        "title": "调查利润率变化",
+        "description": "使用 Ask Sundae 探索折扣、人员配置、销售构成及其他可能解释。在得出结论前检查支持记录。"
+      },
+      {
+        "title": "在会计旁的运营视图",
+        "description": "将已连接的 POS、人员、库存和会计数据带入运营审查。您的会计系统仍负责账簿与对账。"
+      },
+      {
+        "title": "测试下一个计划",
+        "description": "在包含或选择时使用 Foresight 比较预测和情景。审查假设、置信区间和实际结果。"
+      }
+    ],
+    "outcomesDescription": "更清晰的讨论：发生了什么、谁来响应、下一次审查该检查什么。",
+    "outcomes": [
+      {
+        "title": "准备运营审查",
+        "description": "从可比的地点和期间视图开始，然后调查需要财务讨论的例外项。"
+      },
+      {
+        "title": "为后续行动指定负责人",
+        "description": "与门店经理达成下一步行动，并保留起始视图以便比较。"
+      },
+      {
+        "title": "检查支持记录",
+        "description": "检查您正在讨论的指标背后的可用源细节、定义和覆盖范围。"
+      },
+      {
+        "title": "将不确定性保留在计划中",
+        "description": "在做出人员、采购或资本决策前，审查预测假设和置信区间。"
+      }
+    ],
+    "crewCallout": {
+      "title": "在审查中引入已批准的人员记录。",
+      "description": "Crew 连接排班、已批准工时和工资审查。范围界定时请确认您的国家规则、支持的输出和供应商交接；计算与导出与支付或申报是分离的。"
+    },
+    "ctaTitle": "带来一个你需要解释的差异。",
+    "ctaDescription": "比较运营记录、可能的解释和有用的下一步。我们可以使用示例门店。"
+  },
+  "ja": {
+    "problemsDescription": "売上、スタッフ、コストのエクスポートが別々になっているため、マージン変動の説明が難しい。",
+    "howDescription": "稼働パフォーマンスを比較し、差異を調査し、会計システムと並べて計画の前提を見直す。",
+    "howSundaeHelps": [
+      {
+        "title": "文脈にある売上とコスト",
+        "description": "設定で利用可能なデータソースを使って、ロケーションと期間ごとに収益、食品原価、労務、貢献度を比較する。"
+      },
+      {
+        "title": "マージン変動を調査する",
+        "description": "Ask Sundaeを使って割引、人員、売上ミックスなどの可能性を探る。結論を出す前に裏付け記録を確認する。"
+      },
+      {
+        "title": "会計の横にある稼働ビュー",
+        "description": "接続されたPOS、ワークフォース、在庫、会計データを稼働レビューに持ち込む。会計システムは引き続き帳簿と突合作業の責任を負う。"
+      },
+      {
+        "title": "次の計画を検証する",
+        "description": "含まれるか選択された場合はForesightを使って予測とシナリオを比較する。前提、信頼区間、実績を見直す。"
+      }
+    ],
+    "outcomesDescription": "何が変わったか、誰が対応するか、次のレビューで何を確認すべきかが明確になる。",
+    "outcomes": [
+      {
+        "title": "稼働レビューを準備する",
+        "description": "比較可能なロケーションと期間のビューから始め、ファイナンスで議論が必要な例外を調査する。"
+      },
+      {
+        "title": "フォローアップに担当を付ける",
+        "description": "ロケーションマネージャーと次のアクションを合意し、比較用の起点を保持する。"
+      },
+      {
+        "title": "裏付け記録を確認する",
+        "description": "議論している指標の背後にある利用可能なソース詳細、定義、カバレッジを点検する。"
+      },
+      {
+        "title": "計画に不確実性を残す",
+        "description": "人員、購買、設備判断を行う前に予測の前提と信頼区間を見直す。"
+      }
+    ],
+    "crewCallout": {
+      "title": "承認されたワークフォース記録をレビューに持ち込む。",
+      "description": "Crewはシフト、承認時間、給与レビューを接続する。スコーピング時に国別ルール、サポートされる出力、プロバイダへの引き渡しを確認すること。計算とエクスポートは支払いや申告とは別物である。"
+    },
+    "ctaTitle": "説明が必要な差異を一つ持ってきてください。",
+    "ctaDescription": "稼働記録、考えられる説明、次に有効なステップを比較する。サンプルの運用を使うことができる。"
+  },
+  "ko": {
+    "problemsDescription": "판매, 인력 및 비용 내보내기가 분리되어 마진 변화 설명이 어렵습니다.",
+    "howDescription": "운영 성과를 비교하고, 변동을 조사하며, 회계 시스템과 함께 계획 가정을 검토하세요.",
+    "howSundaeHelps": [
+      {
+        "title": "맥락 속의 매출과 비용",
+        "description": "설정한 소스를 사용해 위치와 기간별 매출, 식자재비, 인건비 및 기여도를 비교하세요."
+      },
+      {
+        "title": "마진 변화를 조사하세요",
+        "description": "Ask Sundae를 사용해 할인, 인력, 판매 믹스 등 가능한 설명을 탐색하세요. 원인을 결론내리기 전에 근거 기록을 확인하세요."
+      },
+      {
+        "title": "회계 옆의 운영 관점",
+        "description": "연결된 POS, 인력, 재고 및 회계 데이터를 운영 검토로 가져오세요. 회계 시스템은 장부와 대조의 책임을 유지합니다."
+      },
+      {
+        "title": "다음 계획을 시험하세요",
+        "description": "포함되었거나 선택된 경우 Foresight를 사용해 예측과 시나리오를 비교하세요. 가정, 신뢰범위 및 실제 결과를 검토하세요."
+      }
+    ],
+    "outcomesDescription": "무엇이 왜 바뀌었는지, 누가 대응할지, 다음 검토에서 무엇을 확인해야 할지에 대한 명확한 대화.",
+    "outcomes": [
+      {
+        "title": "운영 검토 준비",
+        "description": "비교 가능한 위치와 기간 뷰로 시작한 후, 재무 논의가 필요한 예외를 조사하세요."
+      },
+      {
+        "title": "후속 조치의 책임자 지정",
+        "description": "위치 관리자와 다음 행동을 합의하고 비교를 위해 시작점을 유지하세요."
+      },
+      {
+        "title": "근거 기록 확인",
+        "description": "논의 중인 지표 뒤에 있는 사용 가능한 원본 상세, 정의 및 적용 범위를 검사하세요."
+      },
+      {
+        "title": "계획에 불확실성 반영",
+        "description": "인력, 구매 또는 자본 결정을 내리기 전에 예측 가정과 신뢰범위를 검토하세요."
+      }
+    ],
+    "crewCallout": {
+      "title": "승인된 인력 기록을 검토에 포함하세요.",
+      "description": "Crew는 근무표, 승인된 시간 및 급여 검토를 연결합니다. 범위를 정할 때 국가 규정, 지원되는 출력물 및 공급자 인계 방법을 확인하세요; 계산과 내보내기는 지급이나 제출과 별개입니다."
+    },
+    "ctaTitle": "설명해야 할 한 가지 변동을 가져오세요.",
+    "ctaDescription": "운영 기록, 가능한 설명 및 유용한 다음 단계를 비교하세요. 샘플 운영을 사용할 수 있습니다."
+  },
+  "id": {
+    "problemsDescription": "Ekspor penjualan, staf dan biaya yang terpisah membuat sulit menjelaskan perubahan margin.",
+    "howDescription": "Bandingkan kinerja operasional, selidiki varians dan tinjau asumsi perencanaan berdampingan dengan sistem akuntansi Anda.",
+    "howSundaeHelps": [
+      {
+        "title": "Penjualan dan biaya dalam konteks",
+        "description": "Bandingkan pendapatan, biaya bahan makanan, tenaga kerja dan kontribusi per lokasi dan periode, menggunakan sumber yang tersedia di pengaturan Anda."
+      },
+      {
+        "title": "Selidiki perubahan margin",
+        "description": "Gunakan Ask Sundae untuk mengeksplorasi diskon, penjadwalan staf, komposisi penjualan dan penjelasan lain yang mungkin. Periksa catatan pendukung sebelum menyimpulkan penyebab perubahan."
+      },
+      {
+        "title": "Pandangan operasional berdampingan dengan akuntansi",
+        "description": "Gabungkan data POS, tenaga kerja, inventaris dan akuntansi yang terhubung ke dalam tinjauan operasional. Sistem akuntansi Anda tetap bertanggung jawab atas pembukuan dan rekonsiliasinya."
+      },
+      {
+        "title": "Uji rencana berikutnya",
+        "description": "Gunakan Foresight bila termasuk atau dipilih untuk membandingkan prakiraan dan skenario. Tinjau asumsi, rentang keyakinan dan hasil aktual."
+      }
+    ],
+    "outcomesDescription": "Percakapan yang lebih jelas tentang apa yang berubah, siapa yang akan merespons dan apa yang harus diperiksa pada tinjauan berikutnya.",
+    "outcomes": [
+      {
+        "title": "Siapkan tinjauan operasional",
+        "description": "Mulai dengan tampilan lokasi dan periode yang dapat dibandingkan, lalu selidiki pengecualian yang membutuhkan diskusi keuangan."
+      },
+      {
+        "title": "Berikan tindak lanjut pemilik tugas",
+        "description": "Sepakati tindakan berikutnya dengan manajer lokasi dan simpan titik awal untuk perbandingan."
+      },
+      {
+        "title": "Periksa catatan pendukung",
+        "description": "Periksa detail sumber yang tersedia, definisi dan cakupan di balik metrik yang Anda diskusikan."
+      },
+      {
+        "title": "Jaga ketidakpastian dalam rencana",
+        "description": "Tinjau asumsi prakiraan dan rentang keyakinan sebelum mengambil keputusan staf, pembelian atau modal."
+      }
+    ],
+    "crewCallout": {
+      "title": "Masukkan catatan tenaga kerja yang disetujui ke dalam tinjauan.",
+      "description": "Crew menghubungkan jadwal, jam kerja yang disetujui dan tinjauan penggajian. Konfirmasi aturan negara Anda, keluaran yang didukung dan alih penyedia selama penentuan ruang lingkup; perhitungan dan ekspor terpisah dari pembayaran atau pelaporan."
+    },
+    "ctaTitle": "Bawa satu varians yang perlu Anda jelaskan.",
+    "ctaDescription": "Bandingkan catatan operasional, kemungkinan penjelasan dan langkah berikut yang berguna. Kami dapat menggunakan operasi sampel."
+  },
+  "vi": {
+    "problemsDescription": "Các báo xuất doanh thu, nhân sự và chi phí riêng lẻ khiến khó giải thích sự thay đổi biên lợi nhuận.",
+    "howDescription": "So sánh hiệu suất vận hành, điều tra sai khác và xem lại giả định kế hoạch bên cạnh hệ thống kế toán của bạn.",
+    "howSundaeHelps": [
+      {
+        "title": "Doanh thu và chi phí trong bối cảnh",
+        "description": "So sánh doanh thu, chi phí thực phẩm, nhân công và đóng góp theo địa điểm và kỳ, sử dụng các nguồn có sẵn trong cấu hình của bạn."
+      },
+      {
+        "title": "Điều tra thay đổi biên lợi nhuận",
+        "description": "Dùng Ask Sundae để khám phá các chiết khấu, nhân sự, cơ cấu doanh thu và các lời giải thích khả dĩ khác. Kiểm tra hồ sơ hỗ trợ trước khi kết luận nguyên nhân thay đổi."
+      },
+      {
+        "title": "Góc nhìn vận hành bên cạnh kế toán",
+        "description": "Kết nối dữ liệu POS, lực lượng lao động, tồn kho và kế toán vào một đánh giá vận hành. Hệ thống kế toán của bạn vẫn chịu trách nhiệm về sổ sách và đối chiếu."
+      },
+      {
+        "title": "Thử kế hoạch tiếp theo",
+        "description": "Sử dụng Foresight khi được bao gồm hoặc lựa chọn để so sánh dự báo và kịch bản. Xem lại giả định, khoảng tin cậy và kết quả thực tế."
+      }
+    ],
+    "outcomesDescription": "Một cuộc trao đổi rõ ràng hơn về điều gì đã thay đổi, ai sẽ phản hồi và cuộc đánh giá tiếp theo nên kiểm tra gì.",
+    "outcomes": [
+      {
+        "title": "Chuẩn bị đánh giá vận hành",
+        "description": "Bắt đầu bằng các nhìn nhận theo địa điểm và kỳ có thể so sánh, sau đó điều tra các ngoại lệ cần thảo luận với tài chính."
+      },
+      {
+        "title": "Giao chủ sở hữu cho hành động tiếp theo",
+        "description": "Thống nhất hành động tiếp theo với quản lý địa điểm và giữ điểm khởi đầu để so sánh."
+      },
+      {
+        "title": "Kiểm tra hồ sơ hỗ trợ",
+        "description": "Kiểm tra chi tiết nguồn có sẵn, định nghĩa và phạm vi bao phủ đằng sau chỉ số bạn đang thảo luận."
+      },
+      {
+        "title": "Giữ bất định trong kế hoạch",
+        "description": "Xem lại giả định dự báo và khoảng tin cậy trước khi ra quyết định nhân sự, mua hàng hoặc vốn."
+      }
+    ],
+    "crewCallout": {
+      "title": "Đưa hồ sơ lực lượng lao động đã phê duyệt vào buổi đánh giá.",
+      "description": "Crew kết nối lịch, giờ đã phê duyệt và kiểm tra bảng lương. Xác nhận quy định quốc gia, các đầu ra được hỗ trợ và bàn giao nhà cung cấp trong giai đoạn xác định phạm vi; việc tính toán và xuất dữ liệu khác với thanh toán hoặc khai báo."
+    },
+    "ctaTitle": "Mang đến một sai khác bạn cần giải thích.",
+    "ctaDescription": "So sánh hồ sơ vận hành, các lời giải thích khả dĩ và bước tiếp theo hữu ích. Chúng tôi có thể dùng một hoạt động mẫu."
+  },
+  "ro": {
+    "problemsDescription": "Exporturi separate pentru vânzări, personal și costuri îngreunează explicarea unei modificări a marjei.",
+    "howDescription": "Comparați performanța operațională, investigați o variație și revizuiți ipotezele de planificare alături de sistemele contabile.",
+    "howSundaeHelps": [
+      {
+        "title": "Vânzări și costuri în context",
+        "description": "Comparați venituri, costul alimentelor, forța de muncă și contribuția pe locație și perioadă, folosind sursele disponibile în configurația dvs."
+      },
+      {
+        "title": "Investigați o schimbare de marjă",
+        "description": "Folosiți Ask Sundae pentru a explora reducerile, personalul, mixul de vânzări și alte posibile explicații. Verificați evidențele suport înainte de a concluziona cauza schimbării."
+      },
+      {
+        "title": "O vedere operațională lângă contabilitate",
+        "description": "Aduceți date POS, de personal, inventar și contabile conectate într-o revizuire operațională. Sistemul dvs. contabil rămâne responsabil pentru registrele și reconcilierea sa."
+      },
+      {
+        "title": "Testați următorul plan",
+        "description": "Folosiți Foresight când este inclus sau selectat pentru a compara prognoze și scenarii. Revizuiți ipotezele, intervalul de încredere și rezultatele reale."
+      }
+    ],
+    "outcomesDescription": "O conversație mai clară despre ce s-a schimbat, cine va răspunde și ce ar trebui verificat la următoarea revizuire.",
+    "outcomes": [
+      {
+        "title": "Pregătiți revizuirea operațională",
+        "description": "Porniți de la vederi comparabile pe locație și perioadă, apoi investigați excepțiile care necesită discuție financiară."
+      },
+      {
+        "title": "Atribuiți proprietar pentru urmărire",
+        "description": "Stabiliți acțiunea următoare cu managerul locației și păstrați punctul de plecare disponibil pentru comparație."
+      },
+      {
+        "title": "Verificați evidențele suport",
+        "description": "Inspectați detaliile sursă disponibile, definițiile și acoperirea din spatele metricii discutate."
+      },
+      {
+        "title": "Păstrați incertitudinea în plan",
+        "description": "Revizuiți ipotezele și intervalele de încredere ale prognozei înainte de a decide asupra personalului, achizițiilor sau investițiilor de capital."
+      }
+    ],
+    "crewCallout": {
+      "title": "Aduceți în revizuire registrele aprobate de personal.",
+      "description": "Crew conectează programele, orele aprobate și revizuirea pentru salarizare. Confirmați regulile țării, outputurile acceptate și predarea către furnizor în faza de definire; calculul și exportul sunt distincte de plata sau depunere."
+    },
+    "ctaTitle": "Aduceți o variație pe care trebuie să o explicați.",
+    "ctaDescription": "Comparați evidențele operaționale, explicațiile probabile și un pas util următor. Putem folosi o operațiune eșantion."
+  },
+  "sv": {
+    "problemsDescription": "Separata exportfiler för försäljning, bemanning och kostnader gör det svårt att förklara en förändring i marginalen.",
+    "howDescription": "Jämför driftprestanda, undersök en avvikelse och granska planeringsantaganden tillsammans med ditt redovisningssystem.",
+    "howSundaeHelps": [
+      {
+        "title": "Försäljning och kostnad i sammanhang",
+        "description": "Jämför intäkter, matkostnad, arbetskostnad och bidrag per plats och period med de källor som finns i din miljö."
+      },
+      {
+        "title": "Undersök en marginalförändring",
+        "description": "Använd Ask Sundae för att utforska rabatter, bemanning, försäljningsmix och andra möjliga förklaringar. Kontrollera stödjande poster innan du drar slutsatser om orsaken."
+      },
+      {
+        "title": "En driftvy vid sidan av redovisningen",
+        "description": "Samla anslutna POS-, workforce-, lager- och redovisningsdata i en driftgranskning. Ditt redovisningssystem ansvarar fortsatt för bokföring och avstämning."
+      },
+      {
+        "title": "Testa nästa plan",
+        "description": "Använd Foresight där det ingår eller väljs för att jämföra prognoser och scenarier. Granska antaganden, konfidensintervall och faktiska resultat."
+      }
+    ],
+    "outcomesDescription": "Ett tydligare samtal om vad som förändrades, vem som ska agera och vad nästa granskning bör kontrollera.",
+    "outcomes": [
+      {
+        "title": "Förbered driftgranskningen",
+        "description": "Börja med jämförbara vyer per plats och period, och undersök sedan undantagen som behöver en finansdiskussion."
+      },
+      {
+        "title": "Ge uppföljningen en ägare",
+        "description": "Kom överens om nästa åtgärd med platschefen och bevara utgångspunkten för jämförelse."
+      },
+      {
+        "title": "Kontrollera stödjande poster",
+        "description": "Inspektera tillgängliga källdetaljer, definitioner och täckning bakom den mätare ni diskuterar."
+      },
+      {
+        "title": "Behåll osäkerhet i planen",
+        "description": "Granska prognosantaganden och konfidensintervall innan ni fattar beslut om bemanning, inköp eller investeringar."
+      }
+    ],
+    "crewCallout": {
+      "title": "Ta med godkända workforce-poster i granskningen.",
+      "description": "Crew kopplar scheman, godkända timmar och lönegranskning. Bekräfta era landsregler, stödda utdatat och leverantörsavstämning under avgränsning; beräkning och export är skilda från betalning eller inlämning."
+    },
+    "ctaTitle": "Ta med en avvikelse du behöver förklara.",
+    "ctaDescription": "Jämför driftposter, sannolika förklaringar och en användbar nästa åtgärd. Vi kan använda en exempelverksamhet."
+  },
+  "bn": {
+    "problemsDescription": "বিক্রয়, কর্মীশক্তি এবং খরচের আলাদা এক্সপোর্টগুলো মার্জিন পরিবর্তন ব্যাখ্যা করা কঠিন করে।",
+    "howDescription": "অপারেটিং পারফরম্যান্স তুলনা করুন, একটি বিচ্যুতির অনুসন্ধান করুন এবং আপনার অ্যাকাউন্টিং সিস্টেমের পাশে পরিকল্পনার অনুমানগুলো পর্যালোচনা করুন।",
+    "howSundaeHelps": [
+      {
+        "title": "প্রাসঙ্গিকভাবে বিক্রয় ও খরচ",
+        "description": "আপনার কনফিগারেশনে উপলব্ধ সোর্স ব্যবহার করে অবস্থান ও সময়ের ভিত্তিতে রাজস্ব, ফুড কস্ট, লেবার এবং কনট্রিবিউশন তুলনা করুন।"
+      },
+      {
+        "title": "একটি মার্জিন পরিবর্তন তদন্ত করুন",
+        "description": "Ask Sundae ব্যবহার করে ডিসকাউন্ট, স্টাফিং, বিক্রয় মিক্স এবং অন্যান্য সম্ভাব্য ব্যাখ্যা অন্বেষণ করুন। পরিবর্তনের কারণ নির্ধারণ করার আগে সমর্থনকারী রেকর্ডগুলো যাচাই করুন।"
+      },
+      {
+        "title": "অ্যাকাউন্টিংয়ের পাশে অপারেটিং ভিউ",
+        "description": "সংযুক্ত POS, কর্মী, ইনভেন্টরি এবং অ্যাকাউন্টিং ডেটা নিয়ে একটি অপারেটিং রিভিউ করুন। আপনার অ্যাকাউন্টিং সিস্টেম তার বই এবং রিকনসিলিয়েশনের জন্য দায়ীই থাকবে।"
+      },
+      {
+        "title": "পরবর্তী পরিকল্পনা পরীক্ষা করুন",
+        "description": "Foresight অন্তর্ভুক্ত বা নির্বাচিত থাকলে তা ব্যবহার করে পূর্বাভাস এবং সিনারিওগুলোর তুলনা করুন। অনুমান, নিশ্চিততা রেঞ্জ এবং বাস্তব ফলাফল পর্যালোচনা করুন।"
+      }
+    ],
+    "outcomesDescription": "কি পরিবর্তিত হয়েছে, কে প্রতিক্রিয়া দেবে এবং পরবর্তী রিভিউ কি যাচাই করবে সে সম্পর্কে পরিষ্কার যোগাযোগ।",
+    "outcomes": [
+      {
+        "title": "অপারেটিং রিভিউ প্রস্তুত করুন",
+        "description": "তুলনাযোগ্য অবস্থান এবং সময়ভিত্তিক ভিউ দিয়ে শুরু করুন, তারপর ব্যতিক্রমগুলো তদন্ত করুন যেগুলো ফাইন্যান্স আলোচনা দাবি করে।"
+      },
+      {
+        "title": "ফলো-আপের জন্য একজন দায়িত্ব দিন",
+        "description": "অবস্থান ম্যানেজারের সঙ্গে পরবর্তী কর্মসুচি ঠিক করুন এবং তুলনার জন্য আরম্ভিক পয়েন্টটি উপলব্ধ রাখুন।"
+      },
+      {
+        "title": "সমর্থনকারী রেকর্ড যাচাই করুন",
+        "description": "আপনি যে মেট্রিক আলোচনা করছেন তার পিছনে উপলব্ধ সোর্সের বিস্তারিত, সংজ্ঞা এবং কভারেজ পরিদর্শন করুন।"
+      },
+      {
+        "title": "পরিকল্পনায় অনিশ্চয়তা রাখুন",
+        "description": "স্টাফিং, ক্রয় বা পুঁজি সিদ্ধান্ত নেওয়ার আগে পূর্বাভাস অনুমান এবং নিশ্চিততার রেঞ্জ পর্যালোচনা করুন।"
+      }
+    ],
+    "crewCallout": {
+      "title": "অনুমোদিত কর্মী রেকর্ডগুলো রিভিউতে আনুন।",
+      "description": "Crew শিডিউল, অনুমোদিত ঘণ্টা এবং পে-রোল পর্যালোচনা সংযুক্ত করে। স্কোপিংয়ের সময় আপনার দেশের নিয়ম, সমর্থিত আউটপুট এবং প্রদানকারীর হ্যান্ডঅফ নিশ্চিত করুন; গণনা ও এক্সপোর্ট পেমেন্ট বা ফাইলিং থেকে আলাদা।"
+    },
+    "ctaTitle": "একটি বিচ্যুতি আনুন যেটা আপনাকে ব্যাখ্যা করতে হবে।",
+    "ctaDescription": "অপারেটিং রেকর্ড, সম্ভাব্য ব্যাখ্যা এবং একটি ব্যবহারযোগ্য পরবর্তী ধাপ তুলনা করুন। আমরা একটি নমুনা অপারেশন ব্যবহার করতে পারি।"
+  },
+  "th": {
+    "problemsDescription": "ไฟล์ส่งออกยอดขาย พนักงาน และต้นทุนแยกกัน ทำให้ยากจะอธิบายการเปลี่ยนแปลงของมาร์จิ้น",
+    "howDescription": "เปรียบเทียบประสิทธิภาพการปฏิบัติงาน ตรวจสอบความเบี่ยงเบน และทบทวนสมมติฐานการวางแผนควบคู่กับระบบบัญชีของคุณ",
+    "howSundaeHelps": [
+      {
+        "title": "ยอดขายและต้นทุนในบริบท",
+        "description": "เปรียบเทียบรายได้ ต้นทุนอาหาร ค่าแรง และส่วนต่างตามสาขาและช่วงเวลา โดยใช้แหล่งข้อมูลที่มีในระบบของคุณ"
+      },
+      {
+        "title": "ตรวจสอบการเปลี่ยนแปลงมาร์จิ้น",
+        "description": "ใช้ Ask Sundae สำรวจส่วนลด การจัดพนักงาน สัดส่วนการขาย และคำอธิบายอื่นที่เป็นไปได้ ตรวจสอบบันทึกสนับสนุนก่อนสรุปสาเหตุของการเปลี่ยนแปลง"
+      },
+      {
+        "title": "มุมมองการปฏิบัติงานเคียงข้างบัญชี",
+        "description": "นำข้อมูล POS Workforce สต็อก และบัญชีที่เชื่อมต่อมาทบทวนการปฏิบัติงาน ระบบบัญชีของคุณยังคงรับผิดชอบสมุดบัญชีและการกระทบยอด"
+      },
+      {
+        "title": "ทดสอบแผนถัดไป",
+        "description": "ใช้ Foresight เมื่อรวมไว้หรือเลือกใช้งานเพื่อเปรียบเทียบการพยากรณ์และสถานการณ์ ทบทวนสมมติฐาน ช่วงความเชื่อมั่น และผลจริง"
+      }
+    ],
+    "outcomesDescription": "การสนทนาที่ชัดเจนขึ้นเกี่ยวกับสิ่งที่เปลี่ยนไป ใครจะตอบสนอง และการตรวจสอบครั้งถัดไปควรเช็กอะไร",
+    "outcomes": [
+      {
+        "title": "เตรียมการทบทวนการปฏิบัติงาน",
+        "description": "เริ่มจากมุมมองสาขาและช่วงเวลาที่เทียบเคียงได้ แล้วตรวจสอบข้อยกเว้นที่ต้องหารือกับฝ่ายการเงิน"
+      },
+      {
+        "title": "มอบหมายผู้รับผิดชอบการติดตามผล",
+        "description": "ตกลงการดำเนินการถัดไปกับผู้จัดการสาขาและเก็บจุดเริ่มต้นไว้เพื่อการเปรียบเทียบ"
+      },
+      {
+        "title": "ตรวจสอบบันทึกสนับสนุน",
+        "description": "ตรวจดูรายละเอียดจากแหล่งที่มี คำจำกัดความ และขอบเขตที่อยู่เบื้องหลังเมตริกที่กำลังหารือ"
+      },
+      {
+        "title": "รักษาความไม่แน่นอนไว้ในแผน",
+        "description": "ทบทวนสมมติฐานการพยากรณ์และช่วงความเชื่อมั่นก่อนตัดสินใจด้านการจัดพนักงาน การซื้อ หรือการลงทุน"
+      }
+    ],
+    "crewCallout": {
+      "title": "นำบันทึกชั่วโมงที่อนุมัติเข้าในการทบทวน",
+      "description": "Crew เชื่อมตารางเวลา ชั่วโมงที่อนุมัติ และการทบทวนเงินเดือน ยืนยันกฎประเทศของคุณ ผลลัพธ์ที่รองรับ และการส่งมอบผู้ให้บริการระหว่างการกำหนดขอบเขต การคำนวณและการส่งออกแยกจากการจ่ายหรือการยื่นเอกสาร"
+    },
+    "ctaTitle": "นำความเบี่ยงเบนหนึ่งรายการที่คุณต้องอธิบายมา",
+    "ctaDescription": "เปรียบเทียบบันทึกการปฏิบัติงาน คำอธิบายที่เป็นไปได้ และขั้นตอนถัดไปที่มีประโยชน์ เราสามารถใช้ตัวอย่างการดำเนินงานได้"
+  },
+  "ms": {
+    "problemsDescription": "Eksport jualan, kakitangan dan kos yang berasingan menyukarkan penerangan perubahan margin.",
+    "howDescription": "Bandingkan prestasi operasi, siasat varians dan semak andaian perancangan bersama sistem perakaunan anda.",
+    "howSundaeHelps": [
+      {
+        "title": "Jualan dan kos dalam konteks",
+        "description": "Bandingkan hasil, kos makanan, buruh dan sumbangan mengikut lokasi dan tempoh, menggunakan sumber yang tersedia dalam konfigurasi anda."
+      },
+      {
+        "title": "Siasat perubahan margin",
+        "description": "Gunakan Ask Sundae untuk meneroka diskaun, kakitangan, campuran jualan dan penjelasan lain yang mungkin. Semak rekod sokongan sebelum membuat kesimpulan tentang punca perubahan."
+      },
+      {
+        "title": "Pandangan operasi di samping perakaunan",
+        "description": "Bawa data POS, tenaga kerja, inventori dan perakaunan yang bersambung ke dalam ulasan operasi. Sistem perakaunan anda kekal bertanggungjawab atas buku dan penyelarasan."
+      },
+      {
+        "title": "Uji pelan seterusnya",
+        "description": "Gunakan Foresight jika termasuk atau dipilih untuk membandingkan ramalan dan senario. Semak andaian, julat keyakinan dan keputusan sebenar."
+      }
+    ],
+    "outcomesDescription": "Perbualan yang lebih jelas tentang apa yang berubah, siapa yang akan bertindak balas dan apa yang perlu disemak dalam ulasan seterusnya.",
+    "outcomes": [
+      {
+        "title": "Sediakan ulasan operasi",
+        "description": "Mula dengan pandangan lokasi dan tempoh yang boleh dibandingkan, kemudian siasat pengecualian yang memerlukan perbincangan kewangan."
+      },
+      {
+        "title": "Berikan susulan pemilik",
+        "description": "Setujui tindakan seterusnya dengan pengurus lokasi dan simpan titik permulaan untuk perbandingan."
+      },
+      {
+        "title": "Semak rekod sokongan",
+        "description": "Periksa butiran sumber yang tersedia, definisi dan liputan di sebalik metrik yang anda bincangkan."
+      },
+      {
+        "title": "Simpan ketidakpastian dalam pelan",
+        "description": "Semak andaian ramalan dan julat keyakinan sebelum membuat keputusan tentang kakitangan, pembelian atau modal."
+      }
+    ],
+    "crewCallout": {
+      "title": "Bawa rekod tenaga kerja yang diluluskan ke dalam ulasan.",
+      "description": "Crew menyambungkan jadual, jam yang diluluskan dan semakan payroll. Sahkan peraturan negara anda, output yang disokong dan pemindahan penyedia semasa skop; pengiraan dan eksport berbeza daripada pembayaran atau pemfailan."
+    },
+    "ctaTitle": "Bawa satu varians yang perlu anda jelaskan.",
+    "ctaDescription": "Bandingkan rekod operasi, penjelasan yang mungkin dan langkah berguna seterusnya. Kami boleh menggunakan sampel operasi."
+  }
+}

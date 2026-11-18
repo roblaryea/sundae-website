@@ -1,0 +1,948 @@
+{
+  "en": {
+    "howDescription": "Compare the group, identify the operating question and follow the response with the responsible manager.",
+    "crewCallout": {
+      "description": "Crew connects schedules, attendance, daily tasks, handovers and people records. Review the workforce and sales context together, with access and payroll/provider scope configured for your operation."
+    },
+    "ctaDescription": "Bring one group performance question. Compare locations, inspect the supporting records and agree what a useful follow-up would look like.",
+    "howSundaeHelps": [
+      {
+        "description": "Compare revenue, labor and available cost measures across the group. Open the location that needs attention and agree the next step with its manager."
+      },
+      {
+        "description": "Put relevant competitor, event and weather signals beside your operating review. Watchtower is a paid extension for eligible Core packages."
+      },
+      {
+        "title": "Ask a question across the group",
+        "description": "Ask which locations or brands differ and inspect the supporting operating records before choosing the response."
+      },
+      {
+        "title": "Compare the next plan",
+        "description": "Use Foresight where included or selected to review revenue, labor and profit forecasts. Test assumptions before committing resources."
+      }
+    ],
+    "outcomesDescription": "A group review that connects the operating question with the team responsible for responding.",
+    "outcomes": [
+      {
+        "title": "Focus the next operating conversation",
+        "description": "Identify the location or metric that needs attention and bring its context to the responsible manager."
+      },
+      {
+        "title": "Keep follow-up visible",
+        "description": "Agree who will act and what the next review should check, rather than stopping at the group summary."
+      },
+      {
+        "title": "Discuss the planning assumptions",
+        "description": "Review forecasts, scenarios and uncertainty alongside the operating evidence before committing capital."
+      },
+      {
+        "title": "Use a shared basis for review",
+        "description": "Compare the relevant location and group measures, with definitions and source coverage understood."
+      }
+    ],
+    "ctaTitle": "Bring the group question that needs a decision."
+  },
+  "ar": {
+    "howDescription": "قارن المجموعة، حدّد السؤال التشغيلي وتابع الاستجابة مع المدير المسؤول.",
+    "crewCallout": {
+      "description": "تربط Crew الجداول والحضور والمهام اليومية والتسليمات وسجلات الأشخاص. راجع سياق القوى العاملة والمبيعات معاً، مع ضبط الوصول ونطاق الرواتب/المزود لعمليتك."
+    },
+    "ctaDescription": "أحضر سؤال أداء للمجموعة. قارن المواقع، افحص السجلات الداعمة واتفق على شكل متابعة مفيدة.",
+    "howSundaeHelps": [
+      {
+        "description": "قارن الإيرادات والعمالة ومقاييس التكلفة المتاحة عبر المجموعة. افتح الموقع الذي يحتاج الانتباه واتفق على الخطوة التالية مع مديره."
+      },
+      {
+        "description": "ضع إشارات المنافسين والفعاليات والطقس ذات الصلة بجانب مراجعتك التشغيلية. Watchtower امتداد مدفوع للحزم المؤهلة من Core."
+      },
+      {
+        "title": "اسأل سؤالاً عبر المجموعة",
+        "description": "اسأل أي المواقع أو العلامات تختلف وافحص السجلات التشغيلية الداعمة قبل اختيار الاستجابة."
+      },
+      {
+        "title": "قارن الخطة التالية",
+        "description": "استخدم Foresight حيثما كان مشمولاً أو مختاراً لمراجعة توقعات الإيراد والعمالة والربح. اختبر الفروض قبل تخصيص الموارد."
+      }
+    ],
+    "outcomesDescription": "مراجعة مجموعة تربط السؤال التشغيلي بالفريق المسؤول عن الاستجابة.",
+    "outcomes": [
+      {
+        "title": "ركّز المحادثة التشغيلية التالية",
+        "description": "حدد الموقع أو المقياس الذي يحتاج انتباه وقدم سياقه للمدير المسؤول."
+      },
+      {
+        "title": "اجعل المتابعة مرئية",
+        "description": "اتفق من سيتصرف وما الذي يجب أن تراجعه المراجعة التالية، بدلاً من التوقف عند ملخص المجموعة."
+      },
+      {
+        "title": "ناقش فروض التخطيط",
+        "description": "راجع التوقعات والسيناريوهات وعدم اليقين جنباً إلى جنب مع الأدلة التشغيلية قبل الالتزام برأس المال."
+      },
+      {
+        "title": "استخدم أساساً مشتركاً للمراجعة",
+        "description": "قارن مقاييس الموقع والمجموعة ذات الصلة، مع فهم التعاريف وتغطية المصادر."
+      }
+    ],
+    "ctaTitle": "أحضر سؤال المجموعة الذي يحتاج قراراً."
+  },
+  "fr": {
+    "howDescription": "Comparer le groupe, identifier la question opérationnelle et suivre la réponse avec le manager responsable.",
+    "crewCallout": {
+      "description": "Crew connecte plannings, présence, tâches quotidiennes, handovers et dossiers de personnes. Revoir le contexte workforce et ventes ensemble, avec accès et périmètre paie/provider configurés pour votre opération."
+    },
+    "ctaDescription": "Apportez une question de performance groupe. Comparer emplacements, inspecter les dossiers justificatifs et convenir de ce à quoi devrait ressembler un suivi utile.",
+    "howSundaeHelps": [
+      {
+        "description": "Comparer chiffre d'affaires, main-d'œuvre et mesures de coûts disponibles à travers le groupe. Ouvrir l'emplacement qui nécessite attention et convenir de la prochaine étape avec son manager."
+      },
+      {
+        "description": "Placer signaux pertinents de concurrents, événements et météo à côté de votre revue opérationnelle. Watchtower est une extension payante pour les packages Core éligibles."
+      },
+      {
+        "title": "Poser une question à travers le groupe",
+        "description": "Demandez quelles locations ou marques diffèrent et inspectez les dossiers opérationnels justificatifs avant de choisir la réponse."
+      },
+      {
+        "title": "Comparer le plan suivant",
+        "description": "Utilisez Foresight lorsqu'il est inclus ou sélectionné pour revoir prévisions de chiffre d'affaires, main-d'œuvre et profit. Tester les hypothèses avant d'engager des ressources."
+      }
+    ],
+    "outcomesDescription": "Une revue de groupe qui connecte la question opérationnelle à l'équipe responsable de la réponse.",
+    "outcomes": [
+      {
+        "title": "Cibler la prochaine conversation opérationnelle",
+        "description": "Identifier l'emplacement ou la métrique qui nécessite attention et apporter son contexte au manager responsable."
+      },
+      {
+        "title": "Garder le suivi visible",
+        "description": "Convenir qui agira et ce que la prochaine revue doit vérifier, plutôt que de s'arrêter au résumé groupe."
+      },
+      {
+        "title": "Discuter des hypothèses de planification",
+        "description": "Revoir prévisions, scénarios et incertitude aux côtés des preuves opérationnelles avant de s'engager sur du capital."
+      },
+      {
+        "title": "Utiliser une base partagée pour la revue",
+        "description": "Comparer les mesures pertinentes du site et du groupe, avec définitions et couverture source comprises."
+      }
+    ],
+    "ctaTitle": "Apportez la question de groupe qui nécessite une décision."
+  },
+  "es": {
+    "howDescription": "Compare el grupo, identifique la pregunta operativa y siga la respuesta con el gerente responsable.",
+    "crewCallout": {
+      "description": "Crew conecta horarios, asistencia, tareas diarias, traspasos y registros de personal. Revise el contexto de personal y ventas juntos, con acceso y alcance de nómina/proveedor configurado para su operación."
+    },
+    "ctaDescription": "Traiga una pregunta de rendimiento grupal. Compare ubicaciones, inspeccione los registros de soporte y acuerde cómo sería un seguimiento útil.",
+    "howSundaeHelps": [
+      {
+        "description": "Compare ingresos, mano de obra y medidas de coste disponibles en todo el grupo. Abra la ubicación que necesita atención y acuerde el siguiente paso con su gerente."
+      },
+      {
+        "description": "Coloque señales relevantes de competidores, eventos y clima junto a su revisión operativa. Watchtower es una extensión de pago para paquetes Core elegibles."
+      },
+      {
+        "title": "Preguntar a través del grupo",
+        "description": "Pregunte qué ubicaciones o marcas difieren e inspeccione los registros operativos de soporte antes de elegir la respuesta."
+      },
+      {
+        "title": "Comparar el siguiente plan",
+        "description": "Use Foresight cuando esté incluido o seleccionado para revisar previsiones de ingresos, mano de obra y beneficio. Pruebe suposiciones antes de comprometer recursos."
+      }
+    ],
+    "outcomesDescription": "Una revisión grupal que conecta la pregunta operativa con el equipo responsable de responder.",
+    "outcomes": [
+      {
+        "title": "Enfocar la próxima conversación operativa",
+        "description": "Identifique la ubicación o métrica que necesita atención y lleve su contexto al gerente responsable."
+      },
+      {
+        "title": "Mantener el seguimiento visible",
+        "description": "Acordar quién actuará y qué debe comprobar la próxima revisión, en lugar de detenerse en el resumen grupal."
+      },
+      {
+        "title": "Discutir las suposiciones de planificación",
+        "description": "Revise previsiones, escenarios e incertidumbre junto con la evidencia operativa antes de comprometer capital."
+      },
+      {
+        "title": "Usar una base compartida para la revisión",
+        "description": "Compare las medidas relevantes de ubicación y grupo, con definiciones y cobertura de fuentes entendidas."
+      }
+    ],
+    "ctaTitle": "Traiga la pregunta grupal que necesita decisión."
+  },
+  "de": {
+    "howDescription": "Vergleichen Sie die Gruppe, identifizieren Sie die operative Frage und verfolgen Sie die Reaktion mit dem verantwortlichen Manager.",
+    "crewCallout": {
+      "description": "Crew verbindet Dienstpläne, Anwesenheit, tägliche Aufgaben, Übergaben und Personenakten. Überprüfen Sie Workforce- und Umsatzkontext gemeinsam, mit Zugriff und Payroll/Provider-Scope konfiguriert für Ihren Betrieb."
+    },
+    "ctaDescription": "Bringen Sie eine Gruppenleistungsfrage. Vergleichen Sie Standorte, prüfen Sie die unterstützenden Unterlagen und einigen Sie sich, wie ein nützliches Follow-up aussehen würde.",
+    "howSundaeHelps": [
+      {
+        "description": "Vergleichen Sie Umsatz-, Personal- und verfügbare Kostenkennzahlen über die Gruppe. Öffnen Sie den Standort, der Aufmerksamkeit braucht, und einigen Sie sich mit seinem Manager auf den nächsten Schritt."
+      },
+      {
+        "description": "Stellen Sie relevante Wettbewerber-, Event- und Wettersignale neben Ihre operative Review. Watchtower ist eine kostenpflichtige Erweiterung für geeignete Core-Pakete."
+      },
+      {
+        "title": "Eine Frage über die Gruppe stellen",
+        "description": "Fragen Sie, welche Standorte oder Marken abweichen, und prüfen Sie die unterstützenden operativen Unterlagen, bevor Sie die Reaktion wählen."
+      },
+      {
+        "title": "Den nächsten Plan vergleichen",
+        "description": "Verwenden Sie Foresight, falls enthalten oder gewählt, um Umsatz-, Personal- und Gewinnerwartungen zu prüfen. Testen Sie Annahmen, bevor Sie Ressourcen festlegen."
+      }
+    ],
+    "outcomesDescription": "Eine Gruppenüberprüfung, die die operative Frage mit dem Team verbindet, das für die Reaktion verantwortlich ist.",
+    "outcomes": [
+      {
+        "title": "Das nächste operative Gespräch fokussieren",
+        "description": "Identifizieren Sie den Standort oder die Kennzahl, die Aufmerksamkeit braucht, und bringen Sie dessen Kontext zum verantwortlichen Manager."
+      },
+      {
+        "title": "Follow-up sichtbar halten",
+        "description": "Vereinbaren Sie, wer handelt und was die nächste Überprüfung prüfen soll, anstatt beim Gruppensummary zu stoppen."
+      },
+      {
+        "title": "Planannahmen besprechen",
+        "description": "Prüfen Sie Prognosen, Szenarien und Unsicherheit neben den operativen Belegen, bevor Sie Kapital zusagen."
+      },
+      {
+        "title": "Eine geteilte Review-Basis verwenden",
+        "description": "Vergleichen Sie die relevanten Standort- und Gruppenkennzahlen, mit verstandenen Definitionen und Quellabdeckung."
+      }
+    ],
+    "ctaTitle": "Bringen Sie die Gruppenfrage, die eine Entscheidung braucht."
+  },
+  "nl": {
+    "howDescription": "Vergelijk de groep, identificeer de operationele vraag en volg de reactie met de verantwoordelijke manager.",
+    "crewCallout": {
+      "description": "Crew verbindt roosters, aanwezigheid, dagelijkse taken, overdrachten en personeelsgegevens. Bekijk workforce- en omzetcontext samen, met toegang en payroll/provider-scope geconfigureerd voor uw operatie."
+    },
+    "ctaDescription": "Breng één groepsprestatievraag. Vergelijk locaties, inspecteer de ondersteunende records en kom overeen hoe een nuttige opvolging eruitziet.",
+    "howSundaeHelps": [
+      {
+        "description": "Vergelijk omzet, arbeid en beschikbare kostencijfers door de groep. Open de locatie die aandacht nodig heeft en kom het volgende stappenplan overeen met de manager."
+      },
+      {
+        "description": "Zet relevante concurrentie-, evenement- en weersignalen naast uw operationele review. Watchtower is een betaalde extensie voor in aanmerking komende Core-pakketten."
+      },
+      {
+        "title": "Stel een vraag over de hele groep",
+        "description": "Vraag welke locaties of merken afwijken en inspecteer de ondersteunende operationele records voordat u de reactie kiest."
+      },
+      {
+        "title": "Vergelijk het volgende plan",
+        "description": "Gebruik Foresight waar inbegrepen of geselecteerd om omzet-, arbeid- en winstprognoses te beoordelen. Test aannames voordat u middelen inzet."
+      }
+    ],
+    "outcomesDescription": "Een groepsreview die de operationele vraag verbindt met het team dat verantwoordelijk is voor de reactie.",
+    "outcomes": [
+      {
+        "title": "Focus het volgende operationele gesprek",
+        "description": "Identificeer de locatie of metric die aandacht vraagt en breng de context naar de verantwoordelijke manager."
+      },
+      {
+        "title": "Houd opvolging zichtbaar",
+        "description": "Kom overeen wie zal handelen en wat de volgende review moet controleren, in plaats van te stoppen bij de groepssamenvatting."
+      },
+      {
+        "title": "Bespreek de planningsaannames",
+        "description": "Beoordeel prognoses, scenario's en onzekerheid naast het operationele bewijs voordat u kapitaal vastlegt."
+      },
+      {
+        "title": "Gebruik een gedeelde basis voor review",
+        "description": "Vergelijk de relevante locatie- en groepsmaatstaven, met begrip van definities en brondekking."
+      }
+    ],
+    "ctaTitle": "Breng de groepsvraag die een beslissing nodig heeft."
+  },
+  "pt": {
+    "howDescription": "Compare o grupo, identifique a questão operacional e acompanhe a resposta com o gerente responsável.",
+    "crewCallout": {
+      "description": "Crew conecta escalas, presença, tarefas diárias, handovers e registros de pessoas. Reveja o contexto de pessoal e vendas juntos, com acesso e escopo de folha/provedor configurados para sua operação."
+    },
+    "ctaDescription": "Traga uma pergunta de desempenho do grupo. Compare locais, inspecione os registros de suporte e concorde como seria um acompanhamento útil.",
+    "howSundaeHelps": [
+      {
+        "description": "Compare receita, trabalho e medidas de custo disponíveis entre o grupo. Abra o local que precisa de atenção e concorde o próximo passo com seu gerente."
+      },
+      {
+        "description": "Coloque sinais relevantes de concorrentes, eventos e clima ao lado da sua revisão operacional. Watchtower é uma extensão paga para pacotes elegíveis do Core."
+      },
+      {
+        "title": "Fazer uma pergunta para o grupo",
+        "description": "Pergunte quais locais ou marcas diferem e inspecione os registros operacionais de suporte antes de escolher a resposta."
+      },
+      {
+        "title": "Comparar o próximo plano",
+        "description": "Use Foresight quando incluído ou selecionado para revisar previsões de receita, trabalho e lucro. Teste premissas antes de comprometer recursos."
+      }
+    ],
+    "outcomesDescription": "Uma revisão de grupo que conecta a questão operacional com a equipe responsável por responder.",
+    "outcomes": [
+      {
+        "title": "Focar a próxima conversa operacional",
+        "description": "Identifique o local ou métrica que precisa de atenção e leve seu contexto ao gerente responsável."
+      },
+      {
+        "title": "Manter o acompanhamento visível",
+        "description": "Concorde quem vai agir e o que a próxima revisão deve verificar, em vez de parar no resumo de grupo."
+      },
+      {
+        "title": "Discutir as premissas de planejamento",
+        "description": "Revise previsões, cenários e incerteza junto às evidências operacionais antes de comprometer capital."
+      },
+      {
+        "title": "Usar uma base compartilhada para revisão",
+        "description": "Compare as medidas relevantes por local e por grupo, com definições e cobertura de fonte compreendidas."
+      }
+    ],
+    "ctaTitle": "Traga a pergunta de grupo que precisa de decisão."
+  },
+  "hi": {
+    "howDescription": "ग्रुप की तुलना करें, ऑपरेटिंग प्रश्न पहचानें और उत्तर के साथ उत्तरदायी प्रबंधक का पालन करें।",
+    "crewCallout": {
+      "description": "Crew शेड्यूल, उपस्थित, दैनिक कार्य, हैंडओवर और लोग रिकॉर्ड जोड़ता है। कार्यबल और बिक्री संदर्भ को साथ में समीक्षा करें, एक्सेस और पेरोल/प्रदाता स्कोप को आपके ऑपरेशन के लिए कॉन्फ़िगर करें।"
+    },
+    "ctaDescription": "एक ग्रुप प्रदर्शन प्रश्न लाएँ। स्थानों की तुलना करें, सहायक रिकॉर्ड निरीक्षण करें और उपयोगी फॉलो‑अप कैसा होगा इस पर सहमति बनाएं।",
+    "howSundaeHelps": [
+      {
+        "description": "समूह में राजस्व, लेबर और उपलब्ध लागत मापों की तुलना करें। उस स्थान को खोलें जिसे ध्यान चाहिए और उसके प्रबंधक के साथ अगला कदम सहमत करें।"
+      },
+      {
+        "description": "अपने ऑपरेटिंग समीक्षा के पास प्रासंगिक प्रतिस्पर्धी, इवेंट और मौसम संकेत रखें। Watchtower योग्य Core पैकेजों के लिए एक भुगतान योग्य विस्तार है।"
+      },
+      {
+        "title": "ग्रुप भर एक प्रश्न पूछें",
+        "description": "पूछें कि कौन से स्थान या ब्रांड अलग हैं और प्रतिक्रिया चुनने से पहले सहायक ऑपरेटिंग रिकॉर्डों का निरीक्षण करें।"
+      },
+      {
+        "title": "अगले प्लान की तुलना करें",
+        "description": "Foresight का उपयोग जहाँ शामिल या चुना गया हो राजस्व, लेबर और प्रॉफिट पूर्वानुमानों की समीक्षा करने के लिए करें। संसाधन आवंटित करने से पहले अनुमानों का परीक्षण करें।"
+      }
+    ],
+    "outcomesDescription": "एक समूह समीक्षा जो ऑपरेटिंग प्रश्न को उस टीम से जोड़ती है जो जवाब देगी।",
+    "outcomes": [
+      {
+        "title": "अगली ऑपरेटिंग बातचीत को केंद्रित करें",
+        "description": "उस स्थान या मीट्रिक की पहचान करें जिसे ध्यान चाहिए और उसका संदर्भ जिम्मेदार प्रबंधक के पास लेकर जाएँ।"
+      },
+      {
+        "title": "फॉलो‑अप को दिखाई देने योग्य रखें",
+        "description": "कौन कार्रवाई करेगा और अगली समीक्षा में क्या जांचा जाना चाहिए इस पर सहमति बनाएं, न कि केवल समूह सारांश तक रुकें।"
+      },
+      {
+        "title": "योजना अनुमानों पर चर्चा करें",
+        "description": "पूंजी प्रतिबद्ध करने से पहले पूर्वानुमान, परिदृश्य और अनिश्चितता को ऑपरेटिंग साक्ष्यों के साथ समीक्षा करें।"
+      },
+      {
+        "title": "साझा समीक्षा के लिए आधार का उपयोग करें",
+        "description": "संबंधित स्थान और समूह मापों की तुलना करें, परिभाषाओं और स्रोत कवरेज को समझकर।"
+      }
+    ],
+    "ctaTitle": "वह समूह प्रश्न लाएँ जिसे निर्णय चाहिए।"
+  },
+  "ur": {
+    "howDescription": "گروپ کا موازنہ کریں، آپریٹنگ سوال شناخت کریں اور ذمہ دار مینیجر کے ساتھ ردعمل کی پیروی کریں۔",
+    "crewCallout": {
+      "description": "Crew شیڈولز، حاضری، روزانہ کے کام، ہینڈ اوورز اور لوگوں کے ریکارڈز کو جوڑتا ہے۔ ورک فورس اور سیلز سیاق و سباق کو ایک ساتھ دیکھیں، رسائی اور پے رول/پرووائیڈر اسکوپ کو آپریشن کے لیے کنفیگر کریں۔"
+    },
+    "ctaDescription": "ایک گروپ کارکردگی کا سوال لائیں۔ مقامات کا موازنہ کریں، معاون ریکارڈز کا معائنہ کریں اور طے کریں کہ مفید فالو اپ کیسا نظر آئے گا۔",
+    "howSundaeHelps": [
+      {
+        "description": "گروپ میں آمدنی، لیبر اور دستیاب لاگت کے میجرز کا موازنہ کریں۔ وہ مقام کھولیں جسے توجہ چاہیے اور اس کے مینیجر کے ساتھ اگلا قدم طے کریں۔"
+      },
+      {
+        "description": "متعلقہ حریف، ایونٹ اور موسم کے سگنلز کو اپنے آپریٹنگ ریویو کے پاس رکھیں۔Watchtower اہل Core پیکجز کے لیے ایک معاوضہ والا اضافہ ہے۔"
+      },
+      {
+        "title": "گروپ بھر میں سوال پوچھیں",
+        "description": "پوچھیں کون سے مقامات یا برانڈ مختلف ہیں اور ردِعمل منتخب کرنے سے پہلے معاون آپریٹنگ ریکارڈز کا معائنہ کریں۔"
+      },
+      {
+        "title": "اگلے پلان کا موازنہ کریں",
+        "description": "Foresight استعمال کریں جہاں شامل یا منتخب ہو کر آمدنی، لیبر اور منافع کی پیشن گوئیاں دیکھیں۔ وسائل مختص کرنے سے پہلے مفروضات کو ٹیسٹ کریں۔"
+      }
+    ],
+    "outcomesDescription": "ایک گروپ ریویو جو آپریٹنگ سوال کو اس ٹیم کے ساتھ جوڑتا ہے جو جواب دے گی۔",
+    "outcomes": [
+      {
+        "title": "اگلی آپریٹنگ گفتگو کو فوکس کریں",
+        "description": "وہ مقام یا میٹرک شناخت کریں جسے توجہ چاہیے اور اس کا سیاق و سباق ذمہ دار مینیجر کے سامنے لائیں۔"
+      },
+      {
+        "title": "فالو اپ کو مرئی رکھیں",
+        "description": "کون عمل کرے گا اور اگلے جائزے میں کیا چیک کرنا چاہیے اس پر اتفاق کریں، بجائے اس کے کہ گروپ سمری پر ہی روکا جائے۔"
+      },
+      {
+        "title": "منصوبہ بندی کے مفروضات پر بحث کریں",
+        "description": "وسائل مختص کرنے سے پہلے آپریٹنگ شواہد کے ساتھ پیشن گوئیاں، منظرنامے اور غیر یقینی کا جائزہ لیں۔"
+      },
+      {
+        "title": "جائزے کے لیے مشترکہ بنیاد استعمال کریں",
+        "description": "متعلقہ مقام اور گروپ میجرز کا موازنہ کریں، تعریفیں اور سورس کوریج سمجھ میں ہوں۔"
+      }
+    ],
+    "ctaTitle": "وہ گروپ سوال لائیں جسے فیصلہ درکار ہے۔"
+  },
+  "it": {
+    "howDescription": "Confronta il gruppo, identifica la domanda operativa e segui la risposta con il manager responsabile.",
+    "crewCallout": {
+      "description": "Crew collega turni, presenze, task giornalieri, handover e record persone. Rivedi il contesto workforce e vendite insieme, con accesso e ambito payroll/provider configurati per la tua operazione."
+    },
+    "ctaDescription": "Porta una domanda di performance del gruppo. Confronta sedi, ispeziona i record di supporto e concorda come dovrebbe essere un follow-up utile.",
+    "howSundaeHelps": [
+      {
+        "description": "Confronta ricavi, lavoro e misure di costo disponibili nel gruppo. Apri la sede che necessita attenzione e concorda il prossimo passo con il suo manager."
+      },
+      {
+        "description": "Affianca segnali rilevanti di competitor, eventi e meteo alla tua revisione operativa. Watchtower è un’estensione a pagamento per i pacchetti Core idonei."
+      },
+      {
+        "title": "Porre una domanda su tutto il gruppo",
+        "description": "Chiedi quali sedi o brand differiscono e ispeziona i record operativi di supporto prima di scegliere la risposta."
+      },
+      {
+        "title": "Confrontare il piano successivo",
+        "description": "Usa Foresight dove incluso o selezionato per rivedere previsioni di ricavo, lavoro e profitto. Testa le ipotesi prima di impegnare risorse."
+      }
+    ],
+    "outcomesDescription": "Una revisione di gruppo che collega la domanda operativa con il team responsabile della risposta.",
+    "outcomes": [
+      {
+        "title": "Focalizzare la prossima conversazione operativa",
+        "description": "Identifica la sede o la metrica che necessita attenzione e porta il suo contesto al manager responsabile."
+      },
+      {
+        "title": "Mantenere visibile il follow-up",
+        "description": "Concorda chi agirà e cosa la prossima revisione dovrebbe controllare, invece di fermarsi al sommario di gruppo."
+      },
+      {
+        "title": "Discutere le ipotesi di pianificazione",
+        "description": "Rivedi previsioni, scenari e incertezza insieme alle evidenze operative prima di impegnare capitale."
+      },
+      {
+        "title": "Usare una base condivisa per la revisione",
+        "description": "Confronta le misure rilevanti di sede e gruppo, con definizioni e copertura delle fonti comprese."
+      }
+    ],
+    "ctaTitle": "Porta la domanda di gruppo che richiede una decisione."
+  },
+  "pl": {
+    "howDescription": "Porównaj grupę, zidentyfikuj pytanie operacyjne i śledź odpowiedź z odpowiedzialnym managerem.",
+    "crewCallout": {
+      "description": "Crew łączy harmonogramy, obecność, zadania dzienne, przekazania i zapisy personalne. Przejrzyj kontekst zatrudnienia i sprzedaży razem, z dostępem i zakresem płac/dostawcy skonfigurowanym dla Twojej operacji."
+    },
+    "ctaDescription": "Przynieś jedno pytanie o wyniki grupy. Porównaj lokalizacje, sprawdź wspierające zapisy i uzgodnij, jak wyglądałby użyteczny follow-up.",
+    "howSundaeHelps": [
+      {
+        "description": "Porównaj przychody, koszty pracy i dostępne miary kosztów w całej grupie. Otwórz lokalizację wymagającą uwagi i uzgodnij następny krok z jej managerem."
+      },
+      {
+        "description": "Umieść odpowiednie sygnały konkurencji, wydarzeń i pogody obok przeglądu operacyjnego. Watchtower jest płatnym rozszerzeniem dla kwalifikujących się pakietów Core."
+      },
+      {
+        "title": "Zadaj pytanie w całej grupie",
+        "description": "Zapytaj, które lokalizacje lub marki się różnią i sprawdź wspierające zapisy operacyjne przed wyborem reakcji."
+      },
+      {
+        "title": "Porównaj następny plan",
+        "description": "Skorzystaj z Foresight tam, gdzie jest w pakiecie lub wybrane, aby przejrzeć prognozy przychodów, zatrudnienia i zysku. Przetestuj założenia przed zaangażowaniem zasobów."
+      }
+    ],
+    "outcomesDescription": "Przegląd grupowy łączący pytanie operacyjne z zespołem odpowiedzialnym za reakcję.",
+    "outcomes": [
+      {
+        "title": "Skoncentruj następną rozmowę operacyjną",
+        "description": "Zidentyfikuj lokalizację lub metrykę wymagającą uwagi i przekaż jej kontekst odpowiedzialnemu managerowi."
+      },
+      {
+        "title": "Utrzymuj widoczność follow-upu",
+        "description": "Uzgodnij, kto podejmie działanie i co powinien sprawdzić następny przegląd, zamiast zatrzymywać się na podsumowaniu grupowym."
+      },
+      {
+        "title": "Omów założenia planistyczne",
+        "description": "Przejrzyj prognozy, scenariusze i niepewność obok dowodów operacyjnych przed zaangażowaniem kapitału."
+      },
+      {
+        "title": "Użyj wspólnej bazy do przeglądu",
+        "description": "Porównaj odpowiednie miary lokalne i grupowe, ze zrozumieniem definicji i zakresu źródeł."
+      }
+    ],
+    "ctaTitle": "Przynieś pytanie grupowe, które wymaga decyzji."
+  },
+  "tr": {
+    "howDescription": "Grubu karşılaştırın, işletme sorusunu belirleyin ve yanıtı sorumlu yöneticiyle takip edin.",
+    "crewCallout": {
+      "description": "Crew çizelgeleri, katılım, günlük görevler, devre teslimleri ve kişi kayıtlarını bağlar. İşgücü ve satış bağlamını birlikte inceleyin, erişim ve bordro/sağlayıcı kapsamını operasyonunuza göre yapılandırın."
+    },
+    "ctaDescription": "Bir grup performans sorusu getirin. Konumları karşılaştırın, destekleyici kayıtları inceleyin ve faydalı bir takip için nasıl bir görünüm gerektiğinde anlaşın.",
+    "howSundaeHelps": [
+      {
+        "description": "Grup genelinde gelir, işçilik ve mevcut maliyet ölçülerini karşılaştırın. Dikkat gerektiren konumu açın ve sonraki adımı ilgili yöneticisiyle kararlaştırın."
+      },
+      {
+        "description": "İşletme incelemenizin yanına ilgili rakip, etkinlik ve hava sinyallerini koyun. Watchtower uygun Core paketleri için ücretli bir eklentidir."
+      },
+      {
+        "title": "Grup genelinde bir soru sorun",
+        "description": "Hangi konumların veya markaların farklı olduğunu sorun ve yanıtı seçmeden önce destekleyici işletme kayıtlarını inceleyin."
+      },
+      {
+        "title": "Sonraki planı karşılaştırın",
+        "description": "Dahilse veya seçildiyse Foresight’i kullanarak gelir, işçilik ve kâr tahminlerini gözden geçirin. Kaynak taahhüt etmeden önce varsayımları test edin."
+      }
+    ],
+    "outcomesDescription": "İşletme sorusunu yanıtlamakla sorumlu ekiple bağlayan bir grup incelemesi.",
+    "outcomes": [
+      {
+        "title": "Sonraki işletme konuşmasını odaklayın",
+        "description": "Dikkat gerektiren konumu veya metriği belirleyin ve bağlamını sorumlu yöneticiye iletin."
+      },
+      {
+        "title": "Takibi görünür tutun",
+        "description": "Kimin harekete geçeceğini ve bir sonraki incelemenin neyi kontrol edeceğini kararlaştırın; grup özetinde kalmayın."
+      },
+      {
+        "title": "Planlama varsayımlarını tartışın",
+        "description": "Sermaye taahhüdünde bulunmadan önce tahminleri, senaryoları ve belirsizliği işletme kanıtlarıyla birlikte gözden geçirin."
+      },
+      {
+        "title": "Gözden geçirme için paylaşılan bir temel kullanın",
+        "description": "İlgili konum ve grup ölçülerini tanımları ve kaynak kapsamı anlaşılmış şekilde karşılaştırın."
+      }
+    ],
+    "ctaTitle": "Karar gerektiren grup sorusunu getirin."
+  },
+  "zh-Hans": {
+    "howDescription": "比较集团，识别运营问题并与负责的经理跟进响应。",
+    "crewCallout": {
+      "description": "Crew 连接排班、考勤、日常任务、交接和人员记录。将人员与销售背景一并审查，并为您的运营配置访问与工资/供应商范围。"
+    },
+    "ctaDescription": "带来一个集团绩效问题。比较门店、检查支持记录并达成有用的后续方案。",
+    "howSundaeHelps": [
+      {
+        "description": "比较集团内的收入、人工和可用成本度量。打开需要注意的门店并与其经理约定下一步。"
+      },
+      {
+        "description": "在运营审查旁并列相关的竞争者、事件和天气信号。Watchtower 是适用于合格 Core 套餐的付费扩展。"
+      },
+      {
+        "title": "在集团范围内提问",
+        "description": "询问哪些门店或品牌有所不同，并在选择响应前检查支持的运营记录。"
+      },
+      {
+        "title": "比较下一个计划",
+        "description": "在包含或选择时使用 Foresight 审查收入、人工和利润预测。在投入资源前测试假设。"
+      }
+    ],
+    "outcomesDescription": "一次将运营问题与负责响应的团队连接起来的集团审查。",
+    "outcomes": [
+      {
+        "title": "聚焦下一次运营对话",
+        "description": "确定需要注意的门店或指标，并将其背景带给负责的经理。"
+      },
+      {
+        "title": "保持后续可见",
+        "description": "达成谁将采取行动以及下一次审查应检查什么，而不是止步于集团概要。"
+      },
+      {
+        "title": "讨论规划假设",
+        "description": "在承诺资本前，与运营证据并列审查预测、情景与不确定性。"
+      },
+      {
+        "title": "使用共享的审查基础",
+        "description": "比较相关的门店与集团度量，并理解定义与数据源覆盖范围。"
+      }
+    ],
+    "ctaTitle": "带来需要决策的集团问题。"
+  },
+  "ja": {
+    "howDescription": "グループを比較し、稼働の問いを特定し、担当マネージャーと共に対応を追跡する。",
+    "crewCallout": {
+      "description": "Crewはシフト、出勤、日次タスク、引き継ぎ、人事記録を接続する。ワークフォースと売上の文脈を合わせてレビューし、アクセスと給与／プロバイダ範囲を運用に合わせて設定する。"
+    },
+    "ctaDescription": "決定を要するグループの質問を一つ持ってきてください。ロケーションを比較し、裏付け記録を点検し、有用なフォローアップの姿を合意する。",
+    "howSundaeHelps": [
+      {
+        "description": "グループ全体で収益、労務、利用可能なコスト指標を比較する。注目が必要なロケーションを開き、そのマネージャーと次のステップを合意する。"
+      },
+      {
+        "description": "関連する競合、イベント、天候の信号を稼働レビューに並べる。Watchtowerは対象となるCoreパッケージの有料拡張である。"
+      },
+      {
+        "title": "グループ横断で質問する",
+        "description": "どのロケーションやブランドが異なるかを問い、対応を選ぶ前に裏付けとなる稼働記録を点検する。"
+      },
+      {
+        "title": "次の計画を比較する",
+        "description": "含まれるか選択された場合はForesightを使って収益、労務、利益の予測をレビューする。資源を投入する前に前提を検証する。"
+      }
+    ],
+    "outcomesDescription": "稼働の問いを対応責任者と結びつけるグループレビュー。",
+    "outcomes": [
+      {
+        "title": "次の稼働会話の焦点を定める",
+        "description": "注意が必要なロケーションや指標を特定し、その文脈を責任マネージャーに提示する。"
+      },
+      {
+        "title": "フォローアップを見える化する",
+        "description": "グループ要約で終わらせず、誰が行動し次のレビューで何を確認するかを合意する。"
+      },
+      {
+        "title": "計画前提を議論する",
+        "description": "資本投入を決める前に、予測、シナリオ、不確実性を稼働の証拠と並べてレビューする。"
+      },
+      {
+        "title": "共有のレビュー基盤を使う",
+        "description": "関連するロケーションとグループ指標を、定義とソースカバレッジを理解した上で比較する。"
+      }
+    ],
+    "ctaTitle": "決定を要するグループの質問を持ってきてください。"
+  },
+  "ko": {
+    "howDescription": "그룹을 비교하고 운영 질문을 식별한 후 책임 관리자의 대응을 추적하세요.",
+    "crewCallout": {
+      "description": "Crew는 근무표, 출석, 일일 과제, 인수 및 사람 기록을 연결합니다. 운영에 맞게 인력 및 매출 맥락을 함께 검토하고 접근 및 급여/공급자 범위를 구성하세요."
+    },
+    "ctaDescription": "결정이 필요한 그룹 성과 질문 하나를 가져오세요. 지점을 비교하고 근거 기록을 검사한 후 유용한 후속 조치 형태를 합의하세요.",
+    "howSundaeHelps": [
+      {
+        "description": "그룹 전체의 매출, 인력 및 사용 가능한 비용 지표를 비교하세요. 주의를 요하는 지점을 열어 관리자와 다음 단계를 합의하세요."
+      },
+      {
+        "description": "관련 경쟁자, 이벤트 및 기상 신호를 운영 검토 옆에 두세요. Watchtower는 적격 Core 패키지에 대한 유료 확장입니다."
+      },
+      {
+        "title": "그룹 전체 질문하기",
+        "description": "어떤 지점이나 브랜드가 다른지 묻고 대응을 선택하기 전에 지원 운영 기록을 검사하세요."
+      },
+      {
+        "title": "다음 계획 비교",
+        "description": "포함되었거나 선택된 경우 Foresight를 사용해 매출, 인력 및 이익 예측을 검토하세요. 자원을 투입하기 전에 가정을 시험하세요."
+      }
+    ],
+    "outcomesDescription": "운영 질문을 대응 책임 팀과 연결하는 그룹 검토.",
+    "outcomes": [
+      {
+        "title": "다음 운영 대화 집중",
+        "description": "주의가 필요한 위치나 지표를 식별하고 그 맥락을 책임 관리자에게 전달하세요."
+      },
+      {
+        "title": "후속 조치 가시성 유지",
+        "description": "그룹 요약에서 멈추지 말고 누가 행동할지와 다음 검토에서 무엇을 확인할지 합의하세요."
+      },
+      {
+        "title": "계획 가정 논의",
+        "description": "자본을 투입하기 전에 예측, 시나리오 및 불확실성을 운영 증거와 함께 검토하세요."
+      },
+      {
+        "title": "공유된 검토 기반 사용",
+        "description": "관련 위치 및 그룹 지표를 비교하고 정의와 소스 적용 범위를 이해하세요."
+      }
+    ],
+    "ctaTitle": "결정이 필요한 그룹 질문을 가져오세요."
+  },
+  "id": {
+    "howDescription": "Bandingkan grup, identifikasi pertanyaan operasional dan ikuti respons dengan manajer yang bertanggung jawab.",
+    "crewCallout": {
+      "description": "Crew menghubungkan jadwal, kehadiran, tugas harian, serah terima dan catatan orang. Tinjau konteks tenaga kerja dan penjualan bersama, dengan akses dan cakupan penggajian/penyedia dikonfigurasi untuk operasi Anda."
+    },
+    "ctaDescription": "Bawa satu pertanyaan kinerja grup. Bandingkan lokasi, periksa catatan pendukung dan sepakati seperti apa tindak lanjut yang berguna.",
+    "howSundaeHelps": [
+      {
+        "description": "Bandingkan pendapatan, tenaga kerja dan ukuran biaya yang tersedia di seluruh grup. Buka lokasi yang perlu perhatian dan sepakati langkah berikutnya dengan manajernya."
+      },
+      {
+        "description": "Letakkan sinyal pesaing, acara dan cuaca yang relevan di samping tinjauan operasional Anda. Watchtower adalah ekstensi berbayar untuk paket Core yang memenuhi syarat."
+      },
+      {
+        "title": "Ajukan pertanyaan di seluruh grup",
+        "description": "Tanyakan lokasi atau merek mana yang berbeda dan periksa catatan operasional pendukung sebelum memilih respons."
+      },
+      {
+        "title": "Bandingkan rencana berikutnya",
+        "description": "Gunakan Foresight bila termasuk atau dipilih untuk meninjau prakiraan pendapatan, tenaga kerja dan laba. Uji asumsi sebelum mengalokasikan sumber daya."
+      }
+    ],
+    "outcomesDescription": "Tinjauan grup yang menghubungkan pertanyaan operasional dengan tim yang bertanggung jawab untuk merespons.",
+    "outcomes": [
+      {
+        "title": "Fokuskan percakapan operasional berikutnya",
+        "description": "Identifikasi lokasi atau metrik yang perlu perhatian dan bawa konteksnya ke manajer yang bertanggung jawab."
+      },
+      {
+        "title": "Jaga tindak lanjut tetap terlihat",
+        "description": "Sepakati siapa yang akan bertindak dan apa yang harus diperiksa pada tinjauan berikutnya, bukan berhenti pada ringkasan grup."
+      },
+      {
+        "title": "Diskusikan asumsi perencanaan",
+        "description": "Tinjau prakiraan, skenario dan ketidakpastian bersama bukti operasional sebelum mengalokasikan modal."
+      },
+      {
+        "title": "Gunakan dasar bersama untuk tinjauan",
+        "description": "Bandingkan ukuran lokasi dan grup yang relevan, dengan definisi dan cakupan sumber yang dipahami."
+      }
+    ],
+    "ctaTitle": "Bawa pertanyaan grup yang membutuhkan keputusan."
+  },
+  "vi": {
+    "howDescription": "So sánh toàn nhóm, xác định câu hỏi vận hành và theo dõi phản hồi với quản lý chịu trách nhiệm.",
+    "crewCallout": {
+      "description": "Crew kết nối lịch, điểm danh, nhiệm vụ hàng ngày, bàn giao và hồ sơ con người. Xem xét bối cảnh lực lượng lao động và doanh thu cùng nhau, với quyền truy cập và phạm vi bảng lương/nhà cung cấp được cấu hình cho hoạt động của bạn."
+    },
+    "ctaDescription": "Mang một câu hỏi hiệu suất nhóm. So sánh địa điểm, kiểm tra hồ sơ hỗ trợ và thống nhất hình thức theo dõi hữu ích.",
+    "howSundaeHelps": [
+      {
+        "description": "So sánh doanh thu, nhân công và các chỉ số chi phí có sẵn trên toàn nhóm. Mở địa điểm cần chú ý và thống nhất bước tiếp theo với quản lý địa điểm đó."
+      },
+      {
+        "description": "Đặt các tín hiệu đối thủ, sự kiện và thời tiết liên quan bên cạnh đánh giá vận hành của bạn. Watchtower là phần mở rộng trả phí cho các gói Core đủ điều kiện."
+      },
+      {
+        "title": "Đặt câu hỏi cho toàn nhóm",
+        "description": "Hỏi địa điểm hoặc thương hiệu nào khác biệt và kiểm tra hồ sơ vận hành hỗ trợ trước khi chọn phản ứng."
+      },
+      {
+        "title": "So sánh kế hoạch tiếp theo",
+        "description": "Sử dụng Foresight khi được bao gồm hoặc lựa chọn để xem xét dự báo doanh thu, nhân công và lợi nhuận. Kiểm tra giả định trước khi phân bổ nguồn lực."
+      }
+    ],
+    "outcomesDescription": "Một đánh giá nhóm kết nối câu hỏi vận hành với đội chịu trách nhiệm phản hồi.",
+    "outcomes": [
+      {
+        "title": "Tập trung cuộc trò chuyện vận hành tiếp theo",
+        "description": "Xác định địa điểm hoặc chỉ số cần chú ý và đưa bối cảnh đó đến quản lý chịu trách nhiệm."
+      },
+      {
+        "title": "Giữ theo dõi hành động rõ ràng",
+        "description": "Thống nhất ai sẽ hành động và cuộc đánh giá tiếp theo nên kiểm tra gì, thay vì dừng ở tổng kết nhóm."
+      },
+      {
+        "title": "Thảo luận giả định lập kế hoạch",
+        "description": "Xem lại dự báo, kịch bản và bất định cùng bằng chứng vận hành trước khi cam kết vốn."
+      },
+      {
+        "title": "Dùng cơ sở chung để đánh giá",
+        "description": "So sánh các chỉ số địa điểm và nhóm liên quan, với định nghĩa và phạm vi nguồn được hiểu rõ."
+      }
+    ],
+    "ctaTitle": "Mang câu hỏi nhóm cần một quyết định."
+  },
+  "ro": {
+    "howDescription": "Comparați grupul, identificați întrebarea operațională și urmăriți răspunsul cu managerul responsabil.",
+    "crewCallout": {
+      "description": "Crew conectează programe, prezență, sarcini zilnice, predări și registrele de personal. Revizuiți contextul forței de muncă și al vânzărilor împreună, cu acces și domeniul de salarizare/furnizor configurate pentru operațiunea dvs."
+    },
+    "ctaDescription": "Aduceți o întrebare de performanță la nivel de grup. Comparați locațiile, inspectați evidențele suport și conveniți cum ar arăta o urmărire utilă.",
+    "howSundaeHelps": [
+      {
+        "description": "Comparați venituri, forța de muncă și măsurile de cost disponibile în cadrul grupului. Deschideți locația care necesită atenție și conveniți pasul următor cu managerul ei."
+      },
+      {
+        "description": "Puneți semnalele relevante despre concurenți, evenimente și vreme alături de revizuirea operațională. Watchtower este o extensie plătită pentru pachetele Core eligibile."
+      },
+      {
+        "title": "Adresați o întrebare la nivel de grup",
+        "description": "Întrebați care locații sau mărci diferă și inspectați evidențele operaționale suport înainte de a alege răspunsul."
+      },
+      {
+        "title": "Comparați următorul plan",
+        "description": "Folosiți Foresight când este inclus sau selectat pentru a revizui prognoze de venit, muncă și profit. Testați ipotezele înainte de a aloca resurse."
+      }
+    ],
+    "outcomesDescription": "O revizuire de grup care leagă întrebarea operațională de echipa responsabilă cu răspunsul.",
+    "outcomes": [
+      {
+        "title": "Concentrați următoarea conversație operațională",
+        "description": "Identificați locația sau metricul care necesită atenție și aduceți contextul către managerul responsabil."
+      },
+      {
+        "title": "Mențineți urmărirea vizibilă",
+        "description": "Conveniți cine va acționa și ce ar trebui verificat la următoarea revizuire, în loc să opriți la rezumatul de grup."
+      },
+      {
+        "title": "Discutați ipotezele de planificare",
+        "description": "Revizuiți prognozele, scenariile și incertitudinea alături de dovezile operaționale înainte de a angaja capital."
+      },
+      {
+        "title": "Folosiți o bază comună pentru revizuire",
+        "description": "Comparați măsurile relevante la nivel de locație și grup, cu definițiile și acoperirea surselor înțelese."
+      }
+    ],
+    "ctaTitle": "Aduceți întrebarea de grup care necesită o decizie."
+  },
+  "sv": {
+    "howDescription": "Jämför koncernen, identifiera driftfrågan och följ upp med ansvarig chef.",
+    "crewCallout": {
+      "description": "Crew kopplar scheman, närvaro, dagliga uppgifter, överlämningar och personalposter. Granska workforce- och försäljningskontext tillsammans, med åtkomst samt löne- och leverantörsomfång konfigurerat för din verksamhet."
+    },
+    "ctaDescription": "Ta med en gruppprestandafråga. Jämför platser, inspektera stödjande poster och kom överens om hur en användbar uppföljning skulle se ut.",
+    "howSundaeHelps": [
+      {
+        "description": "Jämför intäkter, arbetskostnad och tillgängliga kostnadmått över koncernen. Öppna den plats som behöver uppmärksamhet och kom överens om nästa steg med dess chef."
+      },
+      {
+        "description": "Sätt relevanta konkurrent-, händelse- och vädersignaler bredvid din driftgranskning. Watchtower är en betald tilläggstjänst för berättigade Core-paket."
+      },
+      {
+        "title": "Ställ en fråga över koncernen",
+        "description": "Fråga vilka platser eller varumärken som skiljer sig åt och inspektera de stödjande driftposterna innan ni väljer åtgärd."
+      },
+      {
+        "title": "Jämför nästa plan",
+        "description": "Använd Foresight där det ingår eller väljs för att granska intäkts-, arbets- och vinstprognoser. Testa antaganden innan ni tilldelar resurser."
+      }
+    ],
+    "outcomesDescription": "En gruppgranskning som kopplar driftfrågan till teamet som ansvarar för svaret.",
+    "outcomes": [
+      {
+        "title": "Fokusera nästa driftkonversation",
+        "description": "Identifiera platsen eller mätvärdet som behöver uppmärksamhet och ta fram dess kontext till ansvarig chef."
+      },
+      {
+        "title": "Håll uppföljning synlig",
+        "description": "Kom överens om vem som agerar och vad nästa granskning bör kontrollera i stället för att stanna vid en koncernsummering."
+      },
+      {
+        "title": "Diskutera planeringsantaganden",
+        "description": "Granska prognoser, scenarier och osäkerhet tillsammans med driftbevis innan ni binder kapital."
+      },
+      {
+        "title": "Använd en gemensam granskningsgrund",
+        "description": "Jämför relevanta plats- och koncernmått med förstådda definitioner och kältäckning."
+      }
+    ],
+    "ctaTitle": "Ta med gruppfrågan som behöver ett beslut."
+  },
+  "bn": {
+    "howDescription": "গ্রুপ তুলনা করুন, অপারেটিং প্রশ্ন নির্ধারণ করুন এবং দায়িত্বশীল ম্যানেজারের সঙ্গে প্রতিক্রিয়া অনুসরণ করুন।",
+    "crewCallout": {
+      "description": "Crew শিডিউল, উপস্থিতি, দৈনিক টাস্ক, হ্যান্ডওভার এবং লোকজনের রেকর্ড সংযুক্ত করে। অপারেটিং কনটেক্সটকেও একসাথে পর্যালোচনা করুন, আপনার অপারেশনের জন্য অ্যাক্সেস এবং পে-রোল/প্রোভাইডার স্কোপ কনফিগার করে।"
+    },
+    "ctaDescription": "একটি গ্রুপ পারফরম্যান্স প্রশ্ন আনুন। লোকেশনগুলো তুলনা করুন, সমর্থনকারী রেকর্ডগুলো পরিদর্শন করুন এবং একটি ব্যবহারযোগ্য ফলো-আপ কেমন হবে তা সম্মত করুন।",
+    "howSundaeHelps": [
+      {
+        "description": "গ্রুপ জুড়ে রাজস্ব, লেবার এবং উপলব্ধ খরচ মেট্রিকগুলো তুলনা করুন। যে লোকেশনটি মনোযোগ দাবি করে তা খুলে ম্যানেজারের সঙ্গে পরবর্তী পদক্ষেপ সম্মত করুন।"
+      },
+      {
+        "description": "আপনার অপারেটিং রিভিউয়ের পাশে প্রাসঙ্গিক প্রতিযোগী, ইভেন্ট এবং আবহাওয়া সংকেত রাখুন। Watchtower যোগ্য Core প্যাকেজগুলোর জন্য একটি পেইড এক্সটেনশান।"
+      },
+      {
+        "title": "গ্রুপ জুড়ে একটি প্রশ্ন করুন",
+        "description": "কোন লোকেশন বা ব্র্যান্ডগুলো আলাদা তা জিজ্ঞাসা করুন এবং প্রতিক্রিয়া বেছে নেওয়ার আগে সমর্থনকারী অপারেটিং রেকর্ডগুলো পরীক্ষা করুন।"
+      },
+      {
+        "title": "পরবর্তী পরিকল্পনা তুলনা করুন",
+        "description": "Foresight অন্তর্ভুক্ত বা নির্বাচিত থাকলে রাজস্ব, লেবার ও প্রফিট পূর্বাভাস পর্যালোচনা করতে তা ব্যবহার করুন। সম্পদ উৎসর্গ করার আগে অনুমান পরীক্ষা করুন।"
+      }
+    ],
+    "outcomesDescription": "একটি গ্রুপ রিভিউ যা অপারেটিং প্রশ্নকে উত্তরদায়ী টিমের সঙ্গে সংযুক্ত করে।",
+    "outcomes": [
+      {
+        "title": "পরবর্তী অপারেটিং কথোপকথনে ফোকাস দিন",
+        "description": "মনোযোগ প্রয়োজন এমন লোকেশন বা মেট্রিক চিহ্নিত করুন এবং তার কনটেক্সট দায়িত্বশীল ম্যানেজারের কাছে আনুন।"
+      },
+      {
+        "title": "ফলো-আপ দৃশ্যমান রাখুন",
+        "description": "কে কাজ করবে এবং পরবর্তী রিভিউ কী পরীক্ষা করবে তা সম্মত করুন, গ্রুপ সারাংশেই থেমে যাওয়া ঠিক নয়।"
+      },
+      {
+        "title": "পরিকল্পনা অনুমানের আলোচনা করুন",
+        "description": "পুঁজি উৎসর্গ করার আগে পূর্বাভাস, সিনারিও এবং অনিশ্চয়তা অপারেটিং প্রমাণের পাশে পর্যালোচনা করুন।"
+      },
+      {
+        "title": "রিভিউর জন্য একটি শেয়ারড ভিত্তি ব্যবহার করুন",
+        "description": "প্রাসঙ্গিক লোকেশন ও গ্রুপ মেট্রিকগুলো তুলনা করুন, সংজ্ঞা ও সোর্স কভারেজ বোঝা অবস্থায়।"
+      }
+    ],
+    "ctaTitle": "উক্তি আনার গ্রুপ প্রশ্নটি নিয়ে আসুন যেটাতে সিদ্ধান্ত দরকার।"
+  },
+  "th": {
+    "howDescription": "เปรียบเทียบกลุ่ม ระบุคำถามการปฏิบัติงาน และติดตามการตอบสนองกับผู้จัดการที่รับผิดชอบ",
+    "crewCallout": {
+      "description": "Crew เชื่อมตารางเวลา การเข้างาน งานประจำวัน การส่งต่อ และบันทึกบุคคล ทบทวนบริบทแรงงานและยอดขายร่วมกัน โดยตั้งค่าการเข้าถึงและขอบเขตเงินเดือน/ผู้ให้บริการให้สอดคล้องกับการดำเนินงานของคุณ"
+    },
+    "ctaDescription": "นำคำถามประสิทธิภาพกลุ่มหนึ่งข้อ มาเปรียบเทียบสาขา ตรวจสอบบันทึกสนับสนุน และตกลงว่าการติดตามผลที่มีประโยชน์ควรเป็นอย่างไร",
+    "howSundaeHelps": [
+      {
+        "description": "เปรียบเทียบรายได้ แรงงาน และมาตรการต้นทุนที่มีอยู่ข้ามกลุ่ม เปิดสาขาที่ต้องใส่ใจแล้วตกลงขั้นตอนถัดไปกับผู้จัดการของสาขานั้น"
+      },
+      {
+        "description": "วางสัญญาณคู่แข่ง เหตุการณ์ และสภาพอากาศที่เกี่ยวข้องเคียงข้างการทบทวนการปฏิบัติงานของคุณ Watchtower เป็นส่วนขยายที่มีค่าใช้จ่ายสำหรับแพ็กเกจ Core ที่มีสิทธิ์"
+      },
+      {
+        "title": "ถามคำถามข้ามกลุ่ม",
+        "description": "ถามว่าสาขาหรือแบรนด์ใดแตกต่างและตรวจดูบันทึกการปฏิบัติงานสนับสนุนก่อนเลือกการตอบสนอง"
+      },
+      {
+        "title": "เปรียบเทียบแผนถัดไป",
+        "description": "ใช้ Foresight เมื่อรวมไว้หรือเลือกใช้งานเพื่อทบทวนการพยากรณ์รายได้ แรงงาน และกำไร ทดสอบสมมติฐานก่อนจัดสรรทรัพยากร"
+      }
+    ],
+    "outcomesDescription": "การทบทวนกลุ่มที่เชื่อมคำถามการปฏิบัติงานกับทีมที่รับผิดชอบการตอบสนอง",
+    "outcomes": [
+      {
+        "title": "โฟกัสการสนทนาการปฏิบัติงานครั้งต่อไป",
+        "description": "ระบุสาขาหรือเมตริกที่ต้องใส่ใจและนำบริบทนั้นสู่ผู้จัดการที่รับผิดชอบ"
+      },
+      {
+        "title": "ทำให้การติดตามผลมองเห็นได้",
+        "description": "ตกลงว่าใครจะดำเนินการและการทบทวนครั้งถัดไปควรตรวจอะไร แทนที่จะหยุดที่สรุปกลุ่ม"
+      },
+      {
+        "title": "หารือสมมติฐานการวางแผน",
+        "description": "ทบทวนการพยากรณ์ สถานการณ์ และความไม่แน่นอนควบคู่กับหลักฐานการปฏิบัติงานก่อนจัดสรรทุน"
+      },
+      {
+        "title": "ใช้พื้นฐานร่วมกันสำหรับการทบทวน",
+        "description": "เปรียบเทียบมาตรการสาขาและกลุ่มที่เกี่ยวข้อง โดยเข้าใจคำนิยามและความครอบคลุมของแหล่งที่มา"
+      }
+    ],
+    "ctaTitle": "นำคำถามกลุ่มที่ต้องตัดสินใจมา"
+  },
+  "ms": {
+    "howDescription": "Bandingkan kumpulan, kenal pasti soalan operasi dan ikut tindak balas dengan pengurus yang bertanggungjawab.",
+    "crewCallout": {
+      "description": "Crew menyambungkan jadual, kehadiran, tugas harian, penyerahan dan rekod orang. Semak konteks tenaga kerja dan jualan bersama, dengan akses dan skop payroll/penyedia dikonfigurasi untuk operasi anda."
+    },
+    "ctaDescription": "Bawa satu soalan prestasi kumpulan. Bandingkan lokasi, periksa rekod sokongan dan setujui bagaimana susulan yang berguna sepatutnya.",
+    "howSundaeHelps": [
+      {
+        "description": "Bandingkan hasil, buruh dan ukuran kos tersedia merentas kumpulan. Buka lokasi yang memerlukan perhatian dan setujui langkah seterusnya dengan pengurusnya."
+      },
+      {
+        "description": "Letakkan isyarat pesaing, acara dan cuaca yang relevan di sebelah ulasan operasi anda. Watchtower ialah sambungan berbayar untuk pakej Core yang layak."
+      },
+      {
+        "title": "Tanya soalan merentas kumpulan",
+        "description": "Tanya lokasi atau jenama mana yang berbeza dan periksa rekod operasi sokongan sebelum memilih tindak balas."
+      },
+      {
+        "title": "Bandingkan pelan seterusnya",
+        "description": "Gunakan Foresight jika termasuk atau dipilih untuk menyemak ramalan hasil, buruh dan keuntungan. Uji andaian sebelum mengikat sumber."
+      }
+    ],
+    "outcomesDescription": "Ulasan kumpulan yang menghubungkan soalan operasi dengan pasukan yang bertanggungjawab untuk bertindak balas.",
+    "outcomes": [
+      {
+        "title": "Fokus perbualan operasi seterusnya",
+        "description": "Kenal pasti lokasi atau metrik yang memerlukan perhatian dan bawa konteksnya kepada pengurus bertanggungjawab."
+      },
+      {
+        "title": "Pastikan susulan kelihatan",
+        "description": "Setujui siapa yang akan bertindak dan apa yang ulasan seterusnya patut semak, bukan berhenti pada ringkasan kumpulan."
+      },
+      {
+        "title": "Bincangkan andaian perancangan",
+        "description": "Semak ramalan, senario dan ketidakpastian bersama bukti operasi sebelum meluluskan modal."
+      },
+      {
+        "title": "Gunakan asas kongsi untuk ulasan",
+        "description": "Bandingkan ukuran lokasi dan kumpulan yang relevan, dengan definisi dan liputan sumber difahami."
+      }
+    ],
+    "ctaTitle": "Bawa soalan kumpulan yang memerlukan keputusan."
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "cross": {
+    "ui": {
+      "heroSupport": "Understand how sales, labor, costs and demand move together. Cross-Intelligence connects the operating areas covered by your Core package.",
+      "componentsTitle": "Follow the connections worth investigating."
+    },
+    "components": [
+      {
+        "headline": "Compare campaign timing with sales.",
+        "description": "Review how sales and demand change around a campaign. Compare the timing, attribution window and other operating changes before drawing a conclusion."
+      },
+      {
+        "title": "Possible explanations",
+        "headline": "Investigate what may explain a metric change.",
+        "description": "Explore related movements in sales, labor and costs. Check the supporting records and other changes before deciding what caused the result.",
+        "capabilities": [
+          "Potential explanations across connected sources",
+          "Confidence for each hypothesis",
+          "Supporting records for review",
+          "Relevant historical patterns"
+        ]
+      },
+      {
+        "headline": "Explore relationships across operating measures."
+      },
+      {},
+      {
+        "headline": "Compare spend and operating performance.",
+        "description": "Put available marketing, labor and other cost measures beside revenue and contribution. Check allocation and attribution assumptions when discussing the return."
+      },
+      {},
+      {
+        "description": "Investigate whether a new item, offer or campaign coincides with changes in existing sales. Check mix, demand and the comparison period before treating it as cannibalization.",
+        "capabilities": [
+          "Potential cannibalization signals"
+        ]
+      },
+      {
+        "headline": "See what changed alongside the metric.",
+        "description": "Review related changes across connected sources to identify possible explanations. A correlation supports investigation; it does not establish causation.",
+        "capabilities": [
+          "Significant-movement alerts",
+          "Possible contributing factors"
+        ]
+      }
+    ]
+  },
+  "foresight": {
+    "howSteps": [
+      {},
+      {
+        "description": "Generate forecasts with confidence ranges from the operating data and configured assumptions. Review the available horizons and any market signals used."
+      },
+      {
+        "description": "Compare forecast with actual, review systematic bias and update the assumptions or model. Accuracy depends on data coverage and operating conditions."
+      }
+    ],
+    "componentsDescription": "Compare forecast timelines, scenarios, scheduling and purchasing assumptions, and executive planning views.",
+    "components": [
+      {},
+      {},
+      {},
+      {},
+      {
+        "headline": "Review forecast accuracy over time."
+      },
+      {
+        "description": "Use the executive briefing to review forecast risks, opportunities and proposed actions. Confirm delivery settings for your operation."
+      }
+    ]
+  },
+  "intelligence": {
+    "heroTitle": "Ask an operating question. Explore the answer.",
+    "responseDescription": "Explore answers through the supported data cards, charts and analysis views.",
+    "briefingDescription": "Use a personalized briefing to start the operating review.",
+    "differentiators": [
+      {
+        "description": "Ask a question in plain language and explore the answer with the supporting operating data."
+      },
+      {},
+      {},
+      {},
+      {
+        "title": "Connect the records behind the question",
+        "description": "Use connected POS, workforce, inventory, reservation and delivery records according to your setup and access permissions."
+      }
+    ]
+  },
+  "watchtower": {
+    "heroTitle": "Understand the market around each location.",
+    "introDescription": "Review relevant competitor, event, weather and market signals beside the operation. Use the context to investigate a change or plan the next response.",
+    "features": [
+      {
+        "description": "Bring relevant competitor activity, local events and weather beside your own operating data in a prioritized briefing. Review the sources and relevance before acting."
+      }
+    ],
+    "faqs": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "a": "Watchtower brings relevant external signals and operating context into a prioritized briefing. Review available delivery settings, market coverage and refresh timing with Sundae."
+      }
+    ]
+  },
+  "pulse": {
+    "blocks": [
+      {
+        "description": "Use sales history, seasonality and configured calendar events to set location targets. Review unusual periods and the assumptions behind the plan."
+      }
+    ],
+    "deepDives": {
+      "targets": {
+        "heading": "Review the target and its assumptions.",
+        "description": "Use sales history, patterns and relevant calendar events to plan targets. Mark unusual or recurring events and compare actual performance with the plan."
+      },
+      "server": {
+        "description": "Compare available sales and workload measures by shift, hour or service phase. Use the context of role, coverage and service conditions when coaching the team."
+      },
+      "cost": {
+        "description": "Compare staffing, hours and available cost records with shift revenue. Check rates, allocated costs and unresolved entries before using the comparison to change coverage."
+      }
+    }
+  },
+  "insights": {
+    "ctaDescription": "Choose the Core coverage your operating questions need, then review the relevant sources and capabilities in a walkthrough."
+  }
+}

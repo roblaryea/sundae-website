@@ -1,10 +1,12 @@
 "use client";
 
+import buyerBodyCopy from '@/content/buyer-depth/franchises.json';
+
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_solutions_franchises_page'
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
@@ -157,5 +159,5 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 export default function FranchisesPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
-  return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/topology-franchise-health-dark.png" light="/images/product/2026-fresh/topology-franchise-health.png" alt="Franchise Health - per-unit composite health ranking across the network with revenue and margin" />} gallery={<SectionProductGallery defaultPersona="multi_loc" />} />;
+  return <SolutionPageLayout copy={mergeGeneratedCopy(copy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy])} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/topology-franchise-health-dark.png" light="/images/product/2026-fresh/topology-franchise-health.png" alt="Franchise Health - per-unit composite health ranking across the network with revenue and margin" />} gallery={<SectionProductGallery defaultPersona="multi_loc" />} />;
 }
