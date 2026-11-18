@@ -96,7 +96,7 @@ export default function BrandPage() {
               </p>
             </div>
           </FadeUp>
-          <div className="grid gap-10 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
             <FadeUp>
               <div className="flex min-h-56 items-center justify-center rounded-2xl border border-[#d8cbbd] bg-[#FBF8F4] px-4">
                 <ApprovedWordmark tone="ink" className="h-24 w-96 max-w-full" />
