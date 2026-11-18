@@ -12,6 +12,8 @@ import {
 import { isProfileCardPath, isProfileHandle, isProfileHandleCandidate } from '@/lib/profileHandles'
 import { CARD_LOCALE_COOKIE, resolveCardLocale } from '@/lib/profileCardLocale'
 import { getLegacyMarketingDestination } from '@/lib/legacyMarketingRedirects'
+import { legacyPricingRedirect } from '@/lib/legacyPricingRedirect'
+import { PRICING_URL } from '@/lib/urls'
 import {
   getBlogEvidenceReviewRedirect,
 } from '@/lib/blogEvidence'
@@ -47,6 +49,11 @@ export async function proxy(request: NextRequest) {
 
   const { pathname, search } = request.nextUrl
   const { locale: localeFromPath, pathname: internalPathname } = parseWebsiteLocaleFromPathname(pathname)
+
+  // The calculator is the pricing authority in every marketing language.
+  // English aliases are handled by next.config; localized aliases reach here.
+  const pricingDestination = legacyPricingRedirect(internalPathname, localeFromPath, search, PRICING_URL)
+  if (pricingDestination) return NextResponse.redirect(pricingDestination, 308)
 
   // Retired module-shopping entry: preserve locale/query and land on package coverage.
   if (internalPathname.replace(/\/$/, '') === '/modules') {

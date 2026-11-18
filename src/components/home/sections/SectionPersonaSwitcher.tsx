@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState, type KeyboardEvent } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { Button } from "@/components/ui/Button";
@@ -135,8 +135,22 @@ export function SectionPersonaSwitcher() {
   const currentCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const copy = mergeGeneratedCopy(currentCopy, { personas: buyerBodyCopy[locale as keyof typeof buyerBodyCopy].personas });
   const [activeIdx, setActiveIdx] = useState<number>(0);
+  const tabRefs = useRef<Array<HTMLButtonElement | null>>([]);
   const active = copy.personas[activeIdx];
   const activeStructure = personaStructure[activeIdx];
+
+  function handleTabKey(event: KeyboardEvent<HTMLButtonElement>, index: number) {
+    const rtl = locale === 'ar' || locale === 'ur';
+    let next: number;
+    if (event.key === 'Home') next = 0;
+    else if (event.key === 'End') next = copy.personas.length - 1;
+    else if (event.key === 'ArrowRight') next = (index + (rtl ? -1 : 1) + copy.personas.length) % copy.personas.length;
+    else if (event.key === 'ArrowLeft') next = (index + (rtl ? 1 : -1) + copy.personas.length) % copy.personas.length;
+    else return;
+    event.preventDefault();
+    setActiveIdx(next);
+    tabRefs.current[next]?.focus();
+  }
 
   return (
     <section
@@ -162,7 +176,7 @@ export function SectionPersonaSwitcher() {
         {/* Tab list */}
         <div
           role="tablist"
-          aria-label="Choose your role"
+          aria-labelledby="persona-headline"
           className="flex flex-nowrap sm:flex-wrap sm:justify-center gap-2 mb-10 sm:mb-12 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 scroll-pl-4 snap-x snap-mandatory sm:snap-none [&>button]:snap-start"
         >
           {copy.personas.map((p, i) => {
@@ -176,6 +190,9 @@ export function SectionPersonaSwitcher() {
                 id={`persona-tab-${s.id}`}
                 aria-selected={isActive}
                 aria-controls={`persona-panel-${s.id}`}
+                ref={(element) => { tabRefs.current[i] = element; }}
+                tabIndex={isActive ? 0 : -1}
+                onKeyDown={(event) => handleTabKey(event, i)}
                 onClick={() => setActiveIdx(i)}
                 className={`
                   px-4 sm:px-5 py-2.5 rounded-full text-sm font-semibold
