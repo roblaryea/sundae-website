@@ -3,6 +3,7 @@ import { getOperatorAudienceDescription } from '@/lib/operatorAudienceCopy';
 import type { WebsiteLocale } from '@/lib/i18n';
 import { generatedLocalCopy } from '@/generated-locales/lib_page_titles';
 import { resolveLocalizedPageDescription } from '@/lib/localizedPageDescriptions';
+import supportPageOpenings from '@/content/support-page-openings.json';
 
 /**
  * Central per-route <title> map.
@@ -38,14 +39,14 @@ export const pageTitlesEn: Record<string, string> = {
   '/crew/payroll': 'Sundae Crew Payroll - Multi-Region Payroll Readiness',
   '/crew/people': 'Sundae Crew People - Hire-to-Retire HR Records',
   '/crew/people-intelligence': 'Sundae Crew People Intelligence - Workforce Analytics',
-  '/careers': 'Careers at Sundae - Build the Decision Layer for Restaurants',
+  '/careers': 'Careers at Sundae',
   '/security': 'Security at Sundae - How We Protect Your Data',
   '/privacy': 'Privacy Policy - Sundae',
   '/terms': 'Terms of Service - Sundae',
   '/resources': 'Resources - Guides, Tools & Playbooks from Sundae',
   '/docs': 'Sundae Docs - Product Documentation & Guides',
   '/diagnostic': 'Free Operations Diagnostic - See Where Sundae Helps',
-  '/blog': 'The Sundae Blog - Decision Intelligence & Operations',
+  '/blog': 'Hospitality Operations Insights | Sundae',
   '/tools': 'Free Restaurant Tools & Calculators - Sundae',
   '/tools/benchmark-readiness': 'Benchmark Readiness Score - Free Restaurant Tool',
   '/tools/breakeven-covers': 'Break-Even Covers Calculator - Free Restaurant Tool',
@@ -114,6 +115,9 @@ type PageTitleOverrides = Record<string, Partial<Record<string, string>>>;
  * route has no central entry (caller then keeps the generic default).
  */
 export function resolvePageTitle(path: string, locale: WebsiteLocale): string | null {
+  const support = supportPageOpenings[locale as keyof typeof supportPageOpenings];
+  if (path === '/careers') return support.careers.metaTitle;
+  if (path === '/blog') return support.blog.metaTitle;
   const brand = operatorNavigationCopy[locale].brand;
   if (path === '/product') return brand.productMetaTitle;
   if (path === '/core') return brand.coreMetaTitle;
@@ -125,6 +129,9 @@ export function resolvePageTitle(path: string, locale: WebsiteLocale): string | 
 }
 
 export function resolvePageDescription(path: string, locale: WebsiteLocale): string | null {
+  const support = supportPageOpenings[locale as keyof typeof supportPageOpenings];
+  if (path === '/careers') return support.careers.description;
+  if (path === '/blog') return support.blog.metaDescription;
   const opening = getOperatorAudienceDescription(locale, path);
   if (opening) return opening;
   const brand = operatorNavigationCopy[locale].brand;

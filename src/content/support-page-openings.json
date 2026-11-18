@@ -1,0 +1,288 @@
+{
+  "en": {
+    "careers": {
+      "title": "Build a better working day.",
+      "description": "Join Sundae to help hospitality and food-service teams run each day with clarity and make better decisions.",
+      "metaTitle": "Careers at Sundae"
+    },
+    "blog": {
+      "title": "Practical notes for better hospitality operations.",
+      "description": "Guides for the people running shifts, teams and locations across hospitality and food service.",
+      "metaTitle": "Hospitality Operations Insights | Sundae",
+      "metaDescription": "Practical guidance on workforce, daily operations, sales and cost decisions for hospitality and food-service teams."
+    }
+  },
+  "ar": {
+    "careers": {
+      "title": "ساهم في بناء يوم عمل أفضل.",
+      "description": "انضم إلى Sundae لمساعدة فرق الضيافة وخدمات الطعام على إدارة يومها بوضوح واتخاذ قرارات أفضل.",
+      "metaTitle": "فرص العمل في Sundae"
+    },
+    "blog": {
+      "title": "إرشادات عملية لتحسين عمليات الضيافة.",
+      "description": "أدلة لمن يديرون الورديات والفرق والفروع في قطاعي الضيافة وخدمات الطعام.",
+      "metaTitle": "رؤى عمليات الضيافة | Sundae",
+      "metaDescription": "إرشادات عملية لفرق الضيافة وخدمات الطعام حول القوى العاملة والعمليات اليومية وقرارات المبيعات والتكاليف."
+    }
+  },
+  "fr": {
+    "careers": {
+      "title": "Construisons de meilleures journées de travail.",
+      "description": "Rejoignez Sundae pour aider les équipes de l’hôtellerie et de la restauration à gérer leur quotidien avec clarté et à prendre de meilleures décisions.",
+      "metaTitle": "Carrières chez Sundae"
+    },
+    "blog": {
+      "title": "Des conseils pratiques pour mieux gérer l’hôtellerie et la restauration.",
+      "description": "Des guides pour les personnes qui gèrent les services, les équipes et les établissements de l’hôtellerie et de la restauration.",
+      "metaTitle": "Gestion hôtelière et restauration : analyses | Sundae",
+      "metaDescription": "Des conseils pratiques sur les équipes, les opérations quotidiennes et les décisions de vente et de coûts dans l’hôtellerie et la restauration."
+    }
+  },
+  "es": {
+    "careers": {
+      "title": "Ayuda a crear una mejor jornada de trabajo.",
+      "description": "Únete a Sundae para ayudar a los equipos de hostelería y restauración a gestionar cada día con claridad y tomar mejores decisiones.",
+      "metaTitle": "Trabaja en Sundae"
+    },
+    "blog": {
+      "title": "Consejos prácticos para mejorar la gestión en hostelería.",
+      "description": "Guías para quienes gestionan turnos, equipos y establecimientos de hostelería y restauración.",
+      "metaTitle": "Ideas para la gestión en hostelería | Sundae",
+      "metaDescription": "Orientación práctica sobre personal, operaciones diarias y decisiones de ventas y costes para equipos de hostelería y restauración."
+    }
+  },
+  "de": {
+    "careers": {
+      "title": "Gestalte einen besseren Arbeitsalltag.",
+      "description": "Hilf mit bei Sundae, damit Teams in Hotellerie und Gastronomie ihren Alltag mit Klarheit gestalten und bessere Entscheidungen treffen.",
+      "metaTitle": "Karriere bei Sundae"
+    },
+    "blog": {
+      "title": "Praxiswissen für bessere Abläufe im Gastgewerbe.",
+      "description": "Leitfäden für alle, die Schichten, Teams und Standorte in Hotellerie und Gastronomie leiten.",
+      "metaTitle": "Einblicke in den Betrieb im Gastgewerbe | Sundae",
+      "metaDescription": "Praktische Orientierung zu Personal, täglichen Abläufen sowie Umsatz- und Kostenentscheidungen für Teams in Hotellerie und Gastronomie."
+    }
+  },
+  "nl": {
+    "careers": {
+      "title": "Bouw mee aan een betere werkdag.",
+      "description": "Help bij Sundae teams in de horeca en foodservice om elke dag met overzicht te werken en betere beslissingen te nemen.",
+      "metaTitle": "Werken bij Sundae"
+    },
+    "blog": {
+      "title": "Praktische inzichten voor een betere horecabedrijfsvoering.",
+      "description": "Gidsen voor wie diensten, teams en vestigingen in de horeca en foodservice aanstuurt.",
+      "metaTitle": "Inzichten voor de horecabedrijfsvoering | Sundae",
+      "metaDescription": "Praktische handvatten voor personeel, dagelijkse werkzaamheden en omzet- en kostenbeslissingen voor teams in de horeca en foodservice."
+    }
+  },
+  "pt": {
+    "careers": {
+      "title": "Ajude a construir um dia de trabalho melhor.",
+      "description": "Junte-se à Sundae para ajudar as equipas de hotelaria e restauração a gerir cada dia com clareza e a tomar melhores decisões.",
+      "metaTitle": "Carreiras na Sundae"
+    },
+    "blog": {
+      "title": "Conselhos práticos para melhorar as operações de hotelaria e restauração.",
+      "description": "Guias para quem gere turnos, equipas e estabelecimentos de hotelaria e restauração.",
+      "metaTitle": "Perspetivas sobre operações de hotelaria e restauração | Sundae",
+      "metaDescription": "Orientações práticas sobre equipas, operações diárias e decisões de vendas e custos para a hotelaria e a restauração."
+    }
+  },
+  "hi": {
+    "careers": {
+      "title": "बेहतर कामकाजी दिन बनाने में साथ दें।",
+      "description": "Sundae से जुड़ें और आतिथ्य व खाद्य सेवा की टीमों को हर दिन स्पष्टता के साथ काम करने और बेहतर निर्णय लेने में मदद करें।",
+      "metaTitle": "Sundae में करियर"
+    },
+    "blog": {
+      "title": "आतिथ्य संचालन को बेहतर बनाने के व्यावहारिक सुझाव।",
+      "description": "आतिथ्य और खाद्य सेवा में शिफ़्ट, टीमों और प्रतिष्ठानों का प्रबंधन करने वालों के लिए मार्गदर्शिकाएँ।",
+      "metaTitle": "आतिथ्य संचालन की जानकारी | Sundae",
+      "metaDescription": "आतिथ्य और खाद्य सेवा की टीमों के लिए कार्यबल, दैनिक संचालन, बिक्री और लागत संबंधी निर्णयों पर व्यावहारिक मार्गदर्शन।"
+    }
+  },
+  "ur": {
+    "careers": {
+      "title": "کام کا بہتر دن بنانے میں ساتھ دیں۔",
+      "description": "Sundae میں شامل ہوں اور مہمان نوازی اور غذائی خدمات کی ٹیموں کو ہر دن واضح انداز میں کام کرنے اور بہتر فیصلے لینے میں مدد دیں۔",
+      "metaTitle": "Sundae میں ملازمت کے مواقع"
+    },
+    "blog": {
+      "title": "مہمان نوازی کے بہتر انتظام کے لیے عملی رہنمائی۔",
+      "description": "مہمان نوازی اور غذائی خدمات میں شفٹوں، ٹیموں اور مراکز کا انتظام کرنے والوں کے لیے رہنما مضامین۔",
+      "metaTitle": "مہمان نوازی کے انتظام سے متعلق بصیرت | Sundae",
+      "metaDescription": "مہمان نوازی اور غذائی خدمات کی ٹیموں کے لیے افرادی قوت، روزمرہ امور، فروخت اور لاگت کے فیصلوں پر عملی رہنمائی۔"
+    }
+  },
+  "it": {
+    "careers": {
+      "title": "Contribuisci a creare una giornata di lavoro migliore.",
+      "description": "Entra in Sundae per aiutare i team dell’ospitalità e della ristorazione a gestire ogni giornata con chiarezza e prendere decisioni migliori.",
+      "metaTitle": "Lavora con Sundae"
+    },
+    "blog": {
+      "title": "Spunti pratici per gestire meglio le attività dell’ospitalità.",
+      "description": "Guide per chi gestisce turni, team e sedi nell’ospitalità e nella ristorazione.",
+      "metaTitle": "Approfondimenti sulla gestione dell’ospitalità | Sundae",
+      "metaDescription": "Indicazioni pratiche su personale, attività quotidiane e decisioni relative a vendite e costi per i team dell’ospitalità e della ristorazione."
+    }
+  },
+  "pl": {
+    "careers": {
+      "title": "Pomóż tworzyć lepszy dzień pracy.",
+      "description": "Dołącz do Sundae i pomagaj zespołom hotelarskim i gastronomicznym sprawniej organizować codzienną pracę i podejmować lepsze decyzje.",
+      "metaTitle": "Kariera w Sundae"
+    },
+    "blog": {
+      "title": "Praktyczne wskazówki dla lepszej organizacji pracy w hotelarstwie i gastronomii.",
+      "description": "Poradniki dla osób zarządzających zmianami, zespołami i lokalami w hotelarstwie i gastronomii.",
+      "metaTitle": "Zarządzanie hotelarstwem i gastronomią: wiedza | Sundae",
+      "metaDescription": "Praktyczne wskazówki dotyczące personelu, codziennej pracy oraz decyzji o sprzedaży i kosztach dla zespołów hotelarskich i gastronomicznych."
+    }
+  },
+  "tr": {
+    "careers": {
+      "title": "Daha iyi bir iş günü oluşturmaya katkı verin.",
+      "description": "Konaklama ve yiyecek-içecek ekiplerinin her günü daha net yönetmesine ve daha iyi kararlar almasına yardımcı olmak için Sundae’ye katılın.",
+      "metaTitle": "Sundae’de Kariyer"
+    },
+    "blog": {
+      "title": "Konaklama operasyonlarını iyileştirmek için pratik notlar.",
+      "description": "Konaklama ve yiyecek-içecek sektörlerinde vardiyaları, ekipleri ve şubeleri yönetenler için rehberler.",
+      "metaTitle": "Konaklama Operasyonları Üzerine İçgörüler | Sundae",
+      "metaDescription": "Konaklama ve yiyecek-içecek ekipleri için iş gücü, günlük operasyonlar, satış ve maliyet kararlarına ilişkin pratik rehberlik."
+    }
+  },
+  "zh-Hans": {
+    "careers": {
+      "title": "共创更好的工作日常。",
+      "description": "加入 Sundae，帮助酒店与餐饮服务团队理清每日工作，做出更好的决策。",
+      "metaTitle": "加入 Sundae"
+    },
+    "blog": {
+      "title": "酒店与餐饮运营实用笔记。",
+      "description": "为酒店与餐饮服务行业中管理班次、团队和门店的人员提供实用指南。",
+      "metaTitle": "酒店与餐饮运营洞察 | Sundae",
+      "metaDescription": "为酒店与餐饮服务团队提供人员管理、日常运营、销售与成本决策方面的实用指导。"
+    }
+  },
+  "ja": {
+    "careers": {
+      "title": "よりよい働く毎日を、ともにつくる。",
+      "description": "Sundaeの一員として、宿泊・飲食サービスのチームが日々の業務を見通しよく進め、よりよい判断ができるよう支えませんか。",
+      "metaTitle": "Sundae 採用情報"
+    },
+    "blog": {
+      "title": "宿泊・飲食の運営をよりよくする実践ノート。",
+      "description": "宿泊・飲食サービスでシフト、チーム、拠点を管理する方のためのガイド。",
+      "metaTitle": "宿泊・飲食の運営インサイト | Sundae",
+      "metaDescription": "宿泊・飲食サービスのチームに向けた、人員管理、日常業務、売上・コストの判断に役立つ実践的なガイド。"
+    }
+  },
+  "ko": {
+    "careers": {
+      "title": "더 나은 업무의 하루를 함께 만드세요.",
+      "description": "Sundae에 합류해 숙박 및 외식 서비스 팀이 매일 명확하게 업무를 운영하고 더 나은 결정을 내릴 수 있도록 도와주세요.",
+      "metaTitle": "Sundae 채용"
+    },
+    "blog": {
+      "title": "숙박·외식 운영을 개선하는 실무 노트.",
+      "description": "숙박 및 외식 서비스 현장에서 근무조, 팀, 사업장을 관리하는 분들을 위한 가이드.",
+      "metaTitle": "숙박·외식 운영 인사이트 | Sundae",
+      "metaDescription": "숙박 및 외식 서비스 팀을 위한 인력 관리, 일상 운영, 매출 및 비용 결정에 관한 실무 가이드."
+    }
+  },
+  "id": {
+    "careers": {
+      "title": "Bantu wujudkan hari kerja yang lebih baik.",
+      "description": "Bergabunglah dengan Sundae untuk membantu tim perhotelan dan layanan makanan menjalani setiap hari dengan lebih terarah dan mengambil keputusan yang lebih baik.",
+      "metaTitle": "Karier di Sundae"
+    },
+    "blog": {
+      "title": "Catatan praktis untuk operasional perhotelan yang lebih baik.",
+      "description": "Panduan bagi pengelola sif, tim, dan lokasi di sektor perhotelan dan layanan makanan.",
+      "metaTitle": "Wawasan Operasional Perhotelan | Sundae",
+      "metaDescription": "Panduan praktis tentang tenaga kerja, operasional harian, serta keputusan penjualan dan biaya untuk tim perhotelan dan layanan makanan."
+    }
+  },
+  "vi": {
+    "careers": {
+      "title": "Cùng xây dựng một ngày làm việc tốt hơn.",
+      "description": "Gia nhập Sundae để giúp các đội ngũ lưu trú và dịch vụ ăn uống vận hành mỗi ngày rõ ràng hơn và đưa ra quyết định tốt hơn.",
+      "metaTitle": "Cơ hội nghề nghiệp tại Sundae"
+    },
+    "blog": {
+      "title": "Ghi chép thực tiễn để vận hành dịch vụ lưu trú và ăn uống tốt hơn.",
+      "description": "Hướng dẫn dành cho những người quản lý ca làm, đội ngũ và cơ sở trong ngành lưu trú và dịch vụ ăn uống.",
+      "metaTitle": "Góc nhìn vận hành dịch vụ lưu trú và ăn uống | Sundae",
+      "metaDescription": "Hướng dẫn thực tiễn về nhân sự, vận hành hằng ngày và quyết định liên quan đến doanh thu, chi phí cho đội ngũ lưu trú và dịch vụ ăn uống."
+    }
+  },
+  "ro": {
+    "careers": {
+      "title": "Ajută-ne să construim o zi de lucru mai bună.",
+      "description": "Alătură-te Sundae pentru a ajuta echipele din ospitalitate și alimentație publică să își organizeze fiecare zi cu claritate și să ia decizii mai bune.",
+      "metaTitle": "Cariere la Sundae"
+    },
+    "blog": {
+      "title": "Sfaturi practice pentru operațiuni mai bune în ospitalitate.",
+      "description": "Ghiduri pentru cei care gestionează ture, echipe și locații în ospitalitate și alimentație publică.",
+      "metaTitle": "Perspective asupra operațiunilor din ospitalitate | Sundae",
+      "metaDescription": "Îndrumări practice despre personal, operațiuni zilnice și decizii privind vânzările și costurile pentru echipele din ospitalitate și alimentație publică."
+    }
+  },
+  "sv": {
+    "careers": {
+      "title": "Var med och skapa en bättre arbetsdag.",
+      "description": "Bli en del av Sundae och hjälp team inom hotell och måltidsservice att få överblick över vardagen och fatta bättre beslut.",
+      "metaTitle": "Karriär på Sundae"
+    },
+    "blog": {
+      "title": "Praktiska råd för bättre drift i besöksnäringen.",
+      "description": "Guider för dig som leder arbetspass, team och verksamhetsställen inom hotell och måltidsservice.",
+      "metaTitle": "Insikter om drift i besöksnäringen | Sundae",
+      "metaDescription": "Praktisk vägledning om personal, daglig drift samt försäljnings- och kostnadsbeslut för team inom hotell och måltidsservice."
+    }
+  },
+  "bn": {
+    "careers": {
+      "title": "আরও ভালো কর্মদিবস গড়তে পাশে থাকুন।",
+      "description": "Sundae-তে যোগ দিয়ে আতিথেয়তা ও খাদ্যসেবা খাতের দলগুলোকে প্রতিদিন স্পষ্টভাবে কাজ পরিচালনা করতে এবং আরও ভালো সিদ্ধান্ত নিতে সাহায্য করুন।",
+      "metaTitle": "Sundae-তে কর্মজীবন"
+    },
+    "blog": {
+      "title": "আতিথেয়তা কার্যক্রম উন্নত করার ব্যবহারিক পরামর্শ।",
+      "description": "আতিথেয়তা ও খাদ্যসেবা খাতে যাঁরা শিফট, দল ও শাখা পরিচালনা করেন, তাঁদের জন্য নির্দেশিকা।",
+      "metaTitle": "আতিথেয়তা কার্যক্রম নিয়ে অন্তর্দৃষ্টি | Sundae",
+      "metaDescription": "আতিথেয়তা ও খাদ্যসেবা খাতের দলগুলোর জন্য কর্মী ব্যবস্থাপনা, দৈনন্দিন কার্যক্রম, বিক্রয় ও ব্যয়সংক্রান্ত সিদ্ধান্তের ব্যবহারিক নির্দেশনা।"
+    }
+  },
+  "th": {
+    "careers": {
+      "title": "ร่วมสร้างวันทำงานที่ดียิ่งขึ้น",
+      "description": "ร่วมงานกับ Sundae เพื่อช่วยทีมในธุรกิจการบริการและอาหารบริหารงานแต่ละวันได้ชัดเจนและตัดสินใจได้ดีขึ้น",
+      "metaTitle": "ร่วมงานกับ Sundae"
+    },
+    "blog": {
+      "title": "ข้อแนะนำที่ใช้ได้จริงเพื่อการดำเนินงานบริการที่ดีขึ้น",
+      "description": "คู่มือสำหรับผู้บริหารกะ ทีม และสาขาในธุรกิจการบริการและอาหาร",
+      "metaTitle": "มุมมองด้านการดำเนินงานธุรกิจบริการ | Sundae",
+      "metaDescription": "คำแนะนำที่ใช้ได้จริงด้านบุคลากร การดำเนินงานประจำวัน และการตัดสินใจเรื่องยอดขายและต้นทุนสำหรับทีมในธุรกิจการบริการและอาหาร"
+    }
+  },
+  "ms": {
+    "careers": {
+      "title": "Bantu membina hari bekerja yang lebih baik.",
+      "description": "Sertai Sundae untuk membantu pasukan hospitaliti dan perkhidmatan makanan mengurus setiap hari dengan lebih jelas dan membuat keputusan yang lebih baik.",
+      "metaTitle": "Kerjaya di Sundae"
+    },
+    "blog": {
+      "title": "Nota praktikal untuk operasi hospitaliti yang lebih baik.",
+      "description": "Panduan untuk mereka yang mengurus syif, pasukan dan cawangan dalam hospitaliti dan perkhidmatan makanan.",
+      "metaTitle": "Wawasan Operasi Hospitaliti | Sundae",
+      "metaDescription": "Panduan praktikal tentang tenaga kerja, operasi harian serta keputusan jualan dan kos untuk pasukan hospitaliti dan perkhidmatan makanan."
+    }
+  }
+}
