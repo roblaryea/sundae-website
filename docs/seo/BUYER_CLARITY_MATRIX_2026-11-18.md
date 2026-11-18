@@ -55,3 +55,7 @@ The approved English is in `src/content/buyer-depth/en.json`, `src/content/buyer
 Two source defects found during this deeper scan are removed: the retired Cross-Intelligence Base/Pro price/tier presentation and unsupported Cross/Foresight marketing stat grids. Actual sample numbers remain examples, with readable localized disclosure in the shared mockup frame. Real screenshots remain native demo proof with their separate disclosure. The current catalogue parity check passed against v1.8.2-policy-20261009; this does not certify unsupported capabilities or alter prices.
 
 A bounded campaign enhancement preserves consented public UTM slugs on canonical HTTPS pricing links, retaining quote, locale, explicit target tags and private-booking exclusions. Other external origins remain excluded. It is a continuity improvement, not a claim that prior first-touch analytics was definitively lost.
+
+## Published closeout
+
+The first finite cut shipped in PR245/main 25fcaa7; the second body/feature/CTA cut shipped in PR246/main cf9b2a7 on 18 November. Independent source, representative device/theme visual and public acceptance passed. Final preview and production route/locale readbacks each cover 616 journeys with the active Home role states checked after transition. See the existing completion matrix for exact source, checks, evidence limits and measurement windows. No parallel tracker, content calendar, prospect worktree or analytics stack was created.
