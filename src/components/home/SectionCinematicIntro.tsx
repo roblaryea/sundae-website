@@ -209,9 +209,10 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
               color: "rgba(251,248,244,0.86)",
               fontSize: subPx ? `${subPx}px` : "clamp(15.5px,1.55vw,18.5px)",
             }}
-            initial={{ opacity: 0, y: 16 }}
+            // This is the mobile LCP text: keep it readable in server HTML,
+            // while the headline, loop and action retain their entrance motion.
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7, duration: 0.9, ease: EASE }}
           >
             {/* Break the sentence at its clause dashes: each clause starts its own
                 line on desktop and wraps naturally within the column (no forced

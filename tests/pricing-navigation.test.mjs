@@ -31,6 +31,32 @@ const { crewWorkflowScope } = load('src/lib/crewWorkflowCoverage.ts')
 const catalogue = load('src/lib/pricing/catalogSnapshot.json')
 const { getLocalizedFaqSections } = load('src/content/faqContent.ts')
 const commercial = load('src/content/commercial-copy.json')
+const { legacyPricingRedirect } = load('src/lib/legacyPricingRedirect.ts')
+
+for (const locale of websiteLocales) test(`${locale}: retired pricing pages preserve language, quote and campaign at the calculator`, () => {
+  const cfg = new URL(buildCoreCoverageUrl('core_growth', false)).searchParams.get('cfg')
+  const query = new URLSearchParams({ cfg, lang: 'es', utm_source: 'linkedin', utm_medium: 'organic_social', utm_campaign: 'operator_workflows_2026q4' })
+  for (const pathname of ['/pricing', '/pricing/', '/pricing/simulator']) {
+    const target = legacyPricingRedirect(pathname, locale, `?${query}`, 'https://pricing.sundae.io')
+    assert.equal(target.origin, 'https://pricing.sundae.io')
+    assert.equal(target.pathname, pathname === '/pricing/simulator' ? '/simulator' : '/')
+    assert.equal(target.searchParams.get('lang'), locale)
+    assert.equal(target.searchParams.get('cfg'), cfg)
+    assert.equal(decodePricingIntent(target.searchParams.get('cfg')).corePackage, 'core_growth')
+    for (const name of ['utm_source', 'utm_medium', 'utm_campaign']) assert.equal(target.searchParams.get(name), query.get(name))
+  }
+})
+
+test('pricing consolidation leaves unrelated routes alone and respects configured calculator roots', () => {
+  for (const pathname of ['/core', '/pricing-help', '/p/pricing', '/book/pricing']) {
+    assert.equal(legacyPricingRedirect(pathname, 'de', '?cfg=test', 'https://pricing.sundae.io'), null)
+  }
+  const target = legacyPricingRedirect('/pricing/simulator', 'ar', '?cfg=unchanged', 'https://preview.example.test/calculator')
+  assert.equal(target.origin, 'https://preview.example.test')
+  assert.equal(target.pathname, '/calculator/simulator')
+  assert.equal(target.searchParams.get('cfg'), 'unchanged')
+  assert.equal(target.searchParams.get('lang'), 'ar')
+})
 test('Core coverage preserves distinct Margin/Growth domains and Delivery coverage', () => {
   const modules = Object.fromEntries(catalogue.tiers.map(t => [t.id, t.includedModuleIds]))
   assert.deepEqual(modules.foundation, ['labor', 'profit', 'revenue_assurance', 'pulse'])
