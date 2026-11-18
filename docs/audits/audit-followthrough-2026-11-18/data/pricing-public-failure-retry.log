@@ -1,0 +1,8 @@
+### Result
+{"errorGate":true,"noAutomaticRetry":true,"calls":2,"retryQuote":"$1,195/mo","noOverflow":true}
+### Ran Playwright code
+```js
+await (async (page) => { let calls=0; await page.route("**/api/pricing/catalog/active*",route=>++calls===1?route.fulfill({status:503,body:"Independent QA unavailable"}):route.continue()); await page.reload({waitUntil:"domcontentloaded"}); await page.getByRole("heading",{name:"Pricing is temporarily unavailable"}).waitFor({timeout:20000}); if(await page.getByTestId("decision-total").count()) throw Error("Quote escaped failed gate"); if(calls!==1)throw Error("Unexpected retry"); await page.getByRole("button",{name:"Try again",exact:true}).click(); await page.getByTestId("decision-total").waitFor({timeout:20000}); const total=await page.getByTestId("decision-total").innerText(); if(!total.includes("1,195"))throw Error(total); await page.unrouteAll(); return {errorGate:true,noAutomaticRetry:true,calls,retryQuote:total,noOverflow:await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)}; })(page);
+```
+### Events
+- New console entries: .playwright-cli/console-2026-11-18T13-48-53-591Z.log#L1
