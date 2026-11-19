@@ -33,7 +33,8 @@
     "corePerformanceCoverage": "Combines Margin and Growth coverage, with Foresight & Action included.",
     "foresightCoverage": "Foresight & Action is included in Core Performance. It is a separately priced optional extension for Core Foundation, Core Margin and Core Growth.",
     "coreLocationScope": "Your selected Core package determines capability coverage, whether you run one location or many. Confirm location-based pricing, AI allowances and any optional extensions in the calculator.",
-    "viewEstimate": "View estimate"
+    "viewEstimate": "View estimate",
+    "pricingScope": "Pricing depends on the products, locations and setup your operation needs. Choose Core, Crew or both in the pricing simulator to review current pricing and applicable terms."
   },
   "ar": {
     "packageScope": "تتضمن باقات Core قدرات مختلفة. راجع الباقة المختارة والإضافات المؤهلة في حاسبة الأسعار.",
@@ -69,7 +70,8 @@
     "corePerformanceCoverage": "تجمع نطاق Margin وGrowth، مع Foresight & Action.",
     "foresightCoverage": "تُشمَل Foresight & Action في Core Performance. وهي إضافة اختيارية بسعر منفصل لباقات Core Foundation وCore Margin وCore Growth.",
     "coreLocationScope": "تحدد باقة Core المختارة نطاق القدرات، سواء أدرت موقعاً واحداً أم عدة مواقع. تأكد من التسعير بحسب المواقع وحدود الذكاء الاصطناعي وأي إضافات اختيارية في الحاسبة.",
-    "viewEstimate": "عرض التقدير"
+    "viewEstimate": "عرض التقدير",
+    "pricingScope": "يعتمد السعر على المنتجات وعدد المواقع ونطاق الإعداد الذي يحتاجه نشاطك. اختر Core أو Crew أو كليهما في محاكي التسعير لمراجعة الأسعار الحالية والشروط المنطبقة."
   },
   "fr": {
     "packageScope": "Les offres Core comprennent des capacités différentes. Vérifiez l’offre choisie et les extensions éligibles dans le simulateur de prix.",
@@ -105,7 +107,8 @@
     "corePerformanceCoverage": "Réunit les périmètres Margin et Growth, avec Foresight & Action inclus.",
     "foresightCoverage": "Foresight & Action est inclus dans Core Performance. C’est une extension optionnelle facturée séparément pour Core Foundation, Core Margin et Core Growth.",
     "coreLocationScope": "L’offre Core choisie détermine les fonctions couvertes, pour un site comme pour plusieurs. Vérifiez les prix selon les sites, les limites IA et les extensions optionnelles dans le calculateur.",
-    "viewEstimate": "Voir l’estimation"
+    "viewEstimate": "Voir l’estimation",
+    "pricingScope": "Le prix dépend des produits, des établissements et de la mise en place nécessaires à votre activité. Choisissez Core, Crew ou les deux dans le simulateur pour consulter les tarifs en vigueur et les conditions applicables."
   },
   "es": {
     "packageScope": "Los paquetes Core incluyen capacidades diferentes. Revisa el paquete elegido y las extensiones disponibles en la calculadora de precios.",
@@ -141,7 +144,8 @@
     "corePerformanceCoverage": "Combina la cobertura de Margin y Growth, con Foresight & Action incluido.",
     "foresightCoverage": "Foresight & Action está incluido en Core Performance. Es una extensión opcional con precio independiente para Core Foundation, Core Margin y Core Growth.",
     "coreLocationScope": "El paquete Core elegido determina las funciones incluidas, tanto para un local como para varios. Confirma precios por locales, límites de IA y extensiones opcionales en la calculadora.",
-    "viewEstimate": "Ver estimación"
+    "viewEstimate": "Ver estimación",
+    "pricingScope": "El precio depende de los productos, los locales y la configuración que necesita su negocio. Elija Core, Crew o ambos en el simulador para consultar los precios vigentes y las condiciones aplicables."
   },
   "de": {
     "packageScope": "Die Core-Pakete enthalten unterschiedliche Funktionen. Prüfen Sie das gewählte Paket und verfügbare Erweiterungen im Preisrechner.",
@@ -177,7 +181,8 @@
     "corePerformanceCoverage": "Verbindet den Umfang von Margin und Growth, einschließlich Foresight & Action.",
     "foresightCoverage": "Foresight & Action ist in Core Performance enthalten. Für Core Foundation, Core Margin und Core Growth ist es eine separat berechnete optionale Erweiterung.",
     "coreLocationScope": "Das gewählte Core-Paket bestimmt den Funktionsumfang, ob für einen oder mehrere Standorte. Prüfen Sie standortabhängige Preise, KI-Kontingente und optionale Erweiterungen im Rechner.",
-    "viewEstimate": "Kostenschätzung ansehen"
+    "viewEstimate": "Kostenschätzung ansehen",
+    "pricingScope": "Der Preis richtet sich nach den Produkten, Standorten und dem Einführungsumfang, die Ihr Betrieb benötigt. Wählen Sie im Preissimulator Core, Crew oder beides, um aktuelle Preise und geltende Bedingungen zu prüfen."
   },
   "it": {
     "packageScope": "I pacchetti Core includono funzionalità diverse. Verifica il pacchetto scelto e le estensioni disponibili nel calcolatore dei prezzi.",
@@ -213,7 +218,8 @@
     "corePerformanceCoverage": "Combina la copertura di Margin e Growth, con Foresight & Action incluso.",
     "foresightCoverage": "Foresight & Action è incluso in Core Performance. È un’estensione opzionale con prezzo separato per Core Foundation, Core Margin e Core Growth.",
     "coreLocationScope": "Il pacchetto Core scelto determina le funzioni incluse, per una sede o per più sedi. Conferma prezzi per sede, limiti IA ed eventuali estensioni opzionali nel calcolatore.",
-    "viewEstimate": "Vedi stima"
+    "viewEstimate": "Vedi stima",
+    "pricingScope": "Il prezzo dipende dai prodotti, dalle sedi e dalla configurazione necessari alla tua attività. Nel simulatore scegli Core, Crew o entrambi per verificare i prezzi aggiornati e le condizioni applicabili."
   },
   "pt": {
     "packageScope": "Os pacotes Core incluem capacidades diferentes. Confirme o pacote escolhido e as extensões elegíveis no simulador de preços.",
@@ -249,7 +255,8 @@
     "corePerformanceCoverage": "Combina a cobertura de Margin e Growth, com Foresight & Action incluído.",
     "foresightCoverage": "Foresight & Action está incluído em Core Performance. É uma extensão opcional com preço separado para Core Foundation, Core Margin e Core Growth.",
     "coreLocationScope": "O pacote Core escolhido define as funcionalidades incluídas, para uma ou várias unidades. Confirme preços por unidade, limites de IA e extensões opcionais na calculadora.",
-    "viewEstimate": "Ver estimativa"
+    "viewEstimate": "Ver estimativa",
+    "pricingScope": "Os preços dependem dos produtos, das unidades e da implementação de que a sua operação precisa. Escolha Core, Crew ou ambos no simulador para consultar os preços em vigor e as condições aplicáveis."
   },
   "nl": {
     "packageScope": "Core-pakketten bevatten verschillende functies. Controleer het gekozen pakket en beschikbare uitbreidingen in de prijscalculator.",
@@ -285,7 +292,8 @@
     "corePerformanceCoverage": "Combineert de dekking van Margin en Growth, inclusief Foresight & Action.",
     "foresightCoverage": "Foresight & Action is inbegrepen in Core Performance. Voor Core Foundation, Core Margin en Core Growth is het een apart geprijsde optionele uitbreiding.",
     "coreLocationScope": "Je gekozen Core-pakket bepaalt de functies, of je nu één of meerdere locaties hebt. Controleer locatieafhankelijke prijzen, AI-limieten en optionele uitbreidingen in de calculator.",
-    "viewEstimate": "Bekijk schatting"
+    "viewEstimate": "Bekijk schatting",
+    "pricingScope": "De prijs hangt af van de producten, locaties en inrichting die uw bedrijf nodig heeft. Kies Core, Crew of beide in de prijssimulator om de actuele prijzen en toepasselijke voorwaarden te bekijken."
   },
   "pl": {
     "packageScope": "Pakiety Core obejmują różne funkcje. Sprawdź wybrany pakiet i dostępne rozszerzenia w kalkulatorze cen.",
@@ -321,7 +329,8 @@
     "corePerformanceCoverage": "Łączy zakres Margin i Growth, z Foresight & Action w cenie.",
     "foresightCoverage": "Foresight & Action jest zawarty w Core Performance. Dla Core Foundation, Core Margin i Core Growth jest opcjonalnym rozszerzeniem płatnym osobno.",
     "coreLocationScope": "Wybrany pakiet Core określa dostępne funkcje, dla jednego lub wielu lokali. Potwierdź ceny zależne od liczby lokali, limity AI i opcjonalne rozszerzenia w kalkulatorze.",
-    "viewEstimate": "Zobacz wycenę"
+    "viewEstimate": "Zobacz wycenę",
+    "pricingScope": "Cena zależy od produktów, lokalizacji i zakresu wdrożenia potrzebnych Twojej firmie. Wybierz Core, Crew lub oba rozwiązania w symulatorze, aby sprawdzić aktualne ceny i obowiązujące warunki."
   },
   "ro": {
     "packageScope": "Pachetele Core includ funcționalități diferite. Verificați pachetul ales și extensiile eligibile în calculatorul de prețuri.",
@@ -357,7 +366,8 @@
     "corePerformanceCoverage": "Combină acoperirea Margin și Growth, cu Foresight & Action inclus.",
     "foresightCoverage": "Foresight & Action este inclus în Core Performance. Este o extensie opțională cu preț separat pentru Core Foundation, Core Margin și Core Growth.",
     "coreLocationScope": "Pachetul Core ales stabilește funcțiile incluse, pentru una sau mai multe locații. Confirmați prețurile pe locații, limitele AI și extensiile opționale în calculator.",
-    "viewEstimate": "Vezi estimarea"
+    "viewEstimate": "Vezi estimarea",
+    "pricingScope": "Prețul depinde de produsele, locațiile și configurarea de care are nevoie afacerea dvs. Alegeți Core, Crew sau ambele în simulator pentru a vedea prețurile actuale și condițiile aplicabile."
   },
   "sv": {
     "packageScope": "Core-paketen innehåller olika funktioner. Kontrollera valt paket och tillgängliga tillägg i priskalkylatorn.",
@@ -393,7 +403,8 @@
     "corePerformanceCoverage": "Kombinerar innehållet i Margin och Growth, med Foresight & Action inkluderat.",
     "foresightCoverage": "Foresight & Action ingår i Core Performance. Det är ett separat prissatt valfritt tillägg för Core Foundation, Core Margin och Core Growth.",
     "coreLocationScope": "Det valda Core-paketet avgör funktionerna, oavsett om du har en eller flera enheter. Bekräfta enhetsbaserade priser, AI-gränser och valfria tillägg i kalkylatorn.",
-    "viewEstimate": "Visa prisberäkning"
+    "viewEstimate": "Visa prisberäkning",
+    "pricingScope": "Priset beror på vilka produkter, enheter och vilket införande verksamheten behöver. Välj Core, Crew eller båda i prissimulatorn för att se aktuella priser och villkor."
   },
   "tr": {
     "packageScope": "Core paketleri farklı özellikler içerir. Seçilen paketi ve uygun eklentileri fiyat hesaplayıcısında kontrol edin.",
@@ -429,7 +440,8 @@
     "corePerformanceCoverage": "Margin ve Growth kapsamlarını birleştirir; Foresight & Action dahildir.",
     "foresightCoverage": "Foresight & Action, Core Performance paketine dahildir. Core Foundation, Core Margin ve Core Growth için ayrıca fiyatlandırılan isteğe bağlı bir eklentidir.",
     "coreLocationScope": "Seçtiğiniz Core paketi, tek veya çok lokasyonda hangi yeteneklerin kapsandığını belirler. Lokasyon bazlı fiyatları, yapay zekâ limitlerini ve isteğe bağlı eklentileri hesaplayıcıda doğrulayın.",
-    "viewEstimate": "Fiyat tahminini gör"
+    "viewEstimate": "Fiyat tahminini gör",
+    "pricingScope": "Fiyat, işletmenizin ihtiyaç duyduğu ürünlere, lokasyonlara ve kurulum kapsamına bağlıdır. Güncel fiyatları ve geçerli koşulları görmek için fiyat simülatöründe Core, Crew veya her ikisini seçin."
   },
   "hi": {
     "packageScope": "Core पैकेजों में अलग-अलग क्षमताएँ शामिल हैं। चुने हुए पैकेज और उपलब्ध विस्तारों की जाँच मूल्य कैलकुलेटर में करें।",
@@ -465,7 +477,8 @@
     "corePerformanceCoverage": "Margin और Growth की सुविधाएँ एक साथ, Foresight & Action सहित।",
     "foresightCoverage": "Foresight & Action, Core Performance में शामिल है। Core Foundation, Core Margin और Core Growth के लिए यह अलग शुल्क वाला वैकल्पिक एक्सटेंशन है।",
     "coreLocationScope": "एक या कई लोकेशन हों, सुविधाएँ आपके चुने हुए Core पैकेज पर निर्भर करती हैं। कैलकुलेटर में लोकेशन-आधारित कीमत, AI सीमाओं और वैकल्पिक एक्सटेंशन की पुष्टि करें।",
-    "viewEstimate": "अनुमान देखें"
+    "viewEstimate": "अनुमान देखें",
+    "pricingScope": "कीमत आपके कारोबार के लिए ज़रूरी उत्पादों, स्थानों और सेटअप के दायरे पर निर्भर करती है। मौजूदा कीमत और लागू शर्तें देखने के लिए मूल्य सिम्युलेटर में Core, Crew या दोनों चुनें।"
   },
   "bn": {
     "packageScope": "Core প্যাকেজে ভিন্ন ভিন্ন সুবিধা রয়েছে। নির্বাচিত প্যাকেজ ও উপযুক্ত এক্সটেনশন মূল্য ক্যালকুলেটরে যাচাই করুন।",
@@ -501,7 +514,8 @@
     "corePerformanceCoverage": "Margin ও Growth-এর সুবিধা একসঙ্গে, Foresight & Action-সহ।",
     "foresightCoverage": "Core Performance-এ Foresight & Action অন্তর্ভুক্ত। Core Foundation, Core Margin ও Core Growth-এর জন্য এটি আলাদা মূল্যের ঐচ্ছিক এক্সটেনশন।",
     "coreLocationScope": "একটি বা একাধিক লোকেশন হোক, নির্বাচিত Core প্যাকেজই সুবিধার পরিধি নির্ধারণ করে। ক্যালকুলেটরে লোকেশনভিত্তিক মূল্য, AI সীমা ও ঐচ্ছিক এক্সটেনশন নিশ্চিত করুন।",
-    "viewEstimate": "আনুমানিক মূল্য দেখুন"
+    "viewEstimate": "আনুমানিক মূল্য দেখুন",
+    "pricingScope": "আপনার ব্যবসার জন্য প্রয়োজনীয় পণ্য, শাখা ও চালুর পরিধির ওপর মূল্য নির্ভর করে। বর্তমান মূল্য ও প্রযোজ্য শর্ত দেখতে মূল্য সিমুলেটরে Core, Crew অথবা দুটিই বেছে নিন।"
   },
   "ur": {
     "packageScope": "Core پیکیجز میں مختلف صلاحیتیں شامل ہیں۔ منتخب پیکیج اور اہل اضافوں کو قیمت کے کیلکولیٹر میں دیکھیں۔",
@@ -537,7 +551,8 @@
     "corePerformanceCoverage": "Margin اور Growth کی سہولتیں یکجا، Foresight & Action سمیت۔",
     "foresightCoverage": "Foresight & Action، Core Performance میں شامل ہے۔ Core Foundation، Core Margin اور Core Growth کے لیے یہ الگ قیمت والا اختیاری ایکسٹینشن ہے۔",
     "coreLocationScope": "ایک یا کئی مقامات ہوں، سہولتوں کا دائرہ آپ کے منتخب Core پیکیج سے طے ہوتا ہے۔ کیلکولیٹر میں مقام کے لحاظ سے قیمت، AI حدود اور اختیاری ایکسٹینشن کی تصدیق کریں۔",
-    "viewEstimate": "تخمینہ دیکھیں"
+    "viewEstimate": "تخمینہ دیکھیں",
+    "pricingScope": "قیمت کا انحصار ان مصنوعات، مقامات اور سیٹ اپ کے دائرے پر ہے جن کی آپ کے کاروبار کو ضرورت ہے۔ موجودہ قیمتیں اور قابلِ اطلاق شرائط دیکھنے کے لیے قیمت کے سمیولیٹر میں Core، Crew یا دونوں منتخب کریں۔"
   },
   "zh-Hans": {
     "packageScope": "Core 套餐包含不同的功能。请在价格计算器中核实所选套餐及可用扩展。",
@@ -573,7 +588,8 @@
     "corePerformanceCoverage": "汇集 Margin 和 Growth 的功能，并包含 Foresight & Action。",
     "foresightCoverage": "Core Performance 包含 Foresight & Action。对于 Core Foundation、Core Margin 和 Core Growth，它是单独收费的可选扩展。",
     "coreLocationScope": "无论运营一家还是多家门店，功能范围都由所选 Core 套餐决定。请在价格计算器中确认按门店计费、AI 额度及可选扩展。",
-    "viewEstimate": "查看估算"
+    "viewEstimate": "查看估算",
+    "pricingScope": "价格取决于您的业务所需的产品、门店和实施范围。在价格模拟器中选择 Core、Crew 或两者，查看当前价格及适用条款。"
   },
   "ja": {
     "packageScope": "Core の各プランに含まれる機能は異なります。選択したプランと利用可能な拡張機能を料金シミュレーターでご確認ください。",
@@ -609,7 +625,8 @@
     "corePerformanceCoverage": "Margin と Growth の機能を統合し、Foresight & Action も含まれます。",
     "foresightCoverage": "Foresight & Action は Core Performance に含まれます。Core Foundation、Core Margin、Core Growth では別料金の任意の拡張機能です。",
     "coreLocationScope": "1 拠点でも複数拠点でも、利用できる機能は選択した Core プランで決まります。拠点数に応じた料金、AI 利用枠、任意の拡張機能は料金計算ツールでご確認ください。",
-    "viewEstimate": "見積もりを見る"
+    "viewEstimate": "見積もりを見る",
+    "pricingScope": "料金は、運営に必要な製品、拠点、導入範囲によって異なります。料金シミュレーターで Core、Crew、または両方を選び、現在の料金と適用条件をご確認ください。"
   },
   "ko": {
     "packageScope": "Core 패키지마다 포함 기능이 다릅니다. 선택한 패키지와 이용 가능한 확장 기능을 요금 계산기에서 확인하세요.",
@@ -645,7 +662,8 @@
     "corePerformanceCoverage": "Margin과 Growth 범위를 통합하며 Foresight & Action을 포함합니다.",
     "foresightCoverage": "Foresight & Action은 Core Performance에 포함됩니다. Core Foundation, Core Margin, Core Growth에서는 별도 요금의 선택 확장 기능입니다.",
     "coreLocationScope": "사업장이 한 곳이든 여러 곳이든 기능 범위는 선택한 Core 패키지에 따라 결정됩니다. 계산기에서 사업장별 요금, AI 한도 및 선택 확장 기능을 확인하세요.",
-    "viewEstimate": "견적 보기"
+    "viewEstimate": "견적 보기",
+    "pricingScope": "요금은 운영에 필요한 제품, 사업장 수와 도입 범위에 따라 달라집니다. 요금 시뮬레이터에서 Core, Crew 또는 두 제품 모두를 선택해 현재 요금과 적용 조건을 확인하세요."
   },
   "id": {
     "packageScope": "Paket Core mencakup kemampuan yang berbeda. Periksa paket pilihan dan ekstensi yang memenuhi syarat di kalkulator harga.",
@@ -681,7 +699,8 @@
     "corePerformanceCoverage": "Menggabungkan cakupan Margin dan Growth, termasuk Foresight & Action.",
     "foresightCoverage": "Foresight & Action termasuk dalam Core Performance. Untuk Core Foundation, Core Margin, dan Core Growth, fitur ini merupakan ekstensi opsional dengan harga terpisah.",
     "coreLocationScope": "Paket Core yang dipilih menentukan cakupan fitur, untuk satu maupun banyak lokasi. Konfirmasikan harga berbasis lokasi, batas AI, dan ekstensi opsional di kalkulator.",
-    "viewEstimate": "Lihat estimasi"
+    "viewEstimate": "Lihat estimasi",
+    "pricingScope": "Harga bergantung pada produk, lokasi, dan cakupan penyiapan yang dibutuhkan usaha Anda. Pilih Core, Crew, atau keduanya di simulator untuk melihat harga terbaru dan ketentuan yang berlaku."
   },
   "ms": {
     "packageScope": "Pakej Core merangkumi keupayaan yang berbeza. Semak pakej pilihan dan sambungan yang layak dalam kalkulator harga.",
@@ -717,7 +736,8 @@
     "corePerformanceCoverage": "Menggabungkan liputan Margin dan Growth, termasuk Foresight & Action.",
     "foresightCoverage": "Foresight & Action termasuk dalam Core Performance. Bagi Core Foundation, Core Margin dan Core Growth, ia ialah tambahan pilihan dengan harga berasingan.",
     "coreLocationScope": "Pakej Core yang dipilih menentukan liputan fungsi, sama ada untuk satu atau banyak lokasi. Sahkan harga mengikut lokasi, had AI dan tambahan pilihan dalam kalkulator.",
-    "viewEstimate": "Lihat anggaran"
+    "viewEstimate": "Lihat anggaran",
+    "pricingScope": "Harga bergantung pada produk, lokasi dan skop persediaan yang diperlukan oleh perniagaan anda. Pilih Core, Crew atau kedua-duanya dalam simulator harga untuk melihat harga semasa serta syarat yang berkenaan."
   },
   "vi": {
     "packageScope": "Các gói Core bao gồm những tính năng khác nhau. Kiểm tra gói đã chọn và các tiện ích mở rộng phù hợp trong công cụ tính giá.",
@@ -753,7 +773,8 @@
     "corePerformanceCoverage": "Kết hợp phạm vi Margin và Growth, bao gồm Foresight & Action.",
     "foresightCoverage": "Foresight & Action được bao gồm trong Core Performance. Với Core Foundation, Core Margin và Core Growth, đây là phần mở rộng tùy chọn tính phí riêng.",
     "coreLocationScope": "Gói Core được chọn quyết định phạm vi tính năng, dù có một hay nhiều cơ sở. Xác nhận giá theo cơ sở, hạn mức AI và phần mở rộng tùy chọn trong công cụ tính giá.",
-    "viewEstimate": "Xem ước tính"
+    "viewEstimate": "Xem ước tính",
+    "pricingScope": "Chi phí phụ thuộc vào sản phẩm, số cơ sở và phạm vi triển khai mà doanh nghiệp cần. Chọn Core, Crew hoặc cả hai trong công cụ mô phỏng để xem giá hiện hành và các điều kiện áp dụng."
   },
   "th": {
     "packageScope": "แพ็กเกจ Core มีความสามารถต่างกัน โปรดตรวจสอบแพ็กเกจที่เลือกและส่วนเสริมที่ใช้ได้ในเครื่องคำนวณราคา",
@@ -789,6 +810,7 @@
     "corePerformanceCoverage": "รวมขอบเขต Margin และ Growth พร้อม Foresight & Action",
     "foresightCoverage": "Foresight & Action รวมอยู่ใน Core Performance สำหรับ Core Foundation, Core Margin และ Core Growth จะเป็นส่วนเสริมแบบเลือกได้ที่คิดราคาแยก",
     "coreLocationScope": "แพ็กเกจ Core ที่เลือกกำหนดขอบเขตฟีเจอร์ ไม่ว่าจะมีสาขาเดียวหรือหลายสาขา โปรดยืนยันราคาตามจำนวนสาขา โควตา AI และส่วนเสริมแบบเลือกได้ในเครื่องคำนวณราคา",
-    "viewEstimate": "ดูประมาณการ"
+    "viewEstimate": "ดูประมาณการ",
+    "pricingScope": "ราคาขึ้นอยู่กับผลิตภัณฑ์ จำนวนสาขา และขอบเขตการติดตั้งที่ธุรกิจของคุณต้องการ เลือก Core, Crew หรือทั้งสองอย่างในเครื่องมือจำลองราคาเพื่อตรวจสอบราคาปัจจุบันและเงื่อนไขที่ใช้บังคับ"
   }
 }

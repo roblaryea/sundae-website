@@ -5,13 +5,12 @@ import buyerFeatureCopy from '@/content/buyer-feature-details/foresight.json';
 import depthCopy from '@/content/operator-depth.json'
 
 import { Button } from "@/components/ui/Button";
-import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { MockupFrame, MockupKPI, MockupTable, MockupAlert } from "@/components/ui/MockupFrame";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
 import { CoreCoverageNote } from '@/components/seo/CoreCoverageNote';
-import { buildCoreCoverageUrl } from '@/lib/pricingNavigation';
+import { buildPricingSimulatorUrl } from '@/lib/pricingNavigation';
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
@@ -23,7 +22,6 @@ import { SectionConviction } from '@/components/home/sections/SectionConviction'
 import { foresightConviction } from '@/components/home/sections/routeConvictionCopy'
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreForesightMobile } from '@/components/core/CoreForesightMobile';
-import { FORESIGHT_AND_ACTION, usd } from '@/lib/pricing/priceBook'
 import { balanceSentences } from '@/lib/balanceSentences';
 import { AuthorityGuideCallout } from '@/components/seo/AuthorityGuideCallout';
 
@@ -622,7 +620,7 @@ export default function ForesightPage() {
         <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">{depthCopy[locale as keyof typeof depthCopy].foresightFacts}</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_hero", { page: "/product/foresight" })}>{ui.heroPrimary}</Button>
-          <Button variant="outline-light" size="lg" href={buildCoreCoverageUrl('core_foundation', true)}>{ui.heroSecondary}</Button>
+          <Button variant="outline-light" size="lg" href={buildPricingSimulatorUrl(locale)} trackingLabel="pricing_from_foresight_hero" trackingMetadata={{ page: "/product/foresight" }}>{ui.heroSecondary}</Button>
         </div>
       </PageHero>
 
@@ -698,62 +696,6 @@ export default function ForesightPage() {
               );
             })}
           </div>
-        </div>
-      </section>
-
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-5xl mx-auto">
-          <FadeUp className="text-center mb-12">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.pricingTitle}</h2>
-            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.pricingDescription}</p>
-          </FadeUp>
-          <FadeUp>
-            <Card variant="elevated" className="p-6 md:p-8">
-              <CardContent className="grid md:grid-cols-2 gap-8 items-start p-0">
-                <div>
-                  <p className="text-4xl font-bold text-[var(--text-primary)] tabular-nums">
-                    {usd(FORESIGHT_AND_ACTION.firstUnitMonthly)}
-                  </p>
-                  <p className="text-sm text-[var(--text-supporting)] mb-6">{ui.pricingFirstLocationLabel}</p>
-                  <ul className="space-y-2">
-                    {ui.pricingIncludes.map((item) => (
-                      <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
-                        <span className="text-[#FF5C4D] mt-0.5">&#10003;</span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)] mb-3">
-                    {ui.pricingBandsLabel}
-                  </p>
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="text-left text-xs uppercase tracking-wide text-[var(--text-muted)]">
-                          <th scope="col" className="pb-2 pe-4 font-medium">{ui.pricingBandHeaderLocations}</th>
-                          <th scope="col" className="pb-2 font-medium">{ui.pricingBandHeaderRate}</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {FORESIGHT_AND_ACTION.bands.map((band) => (
-                          <tr key={band.fromUnit} className="border-t border-[var(--border-default)]">
-                            <td className="py-2 pe-4 text-[var(--text-supporting)] tabular-nums">
-                              {band.fromUnit}-{band.toUnit}
-                            </td>
-                            <td className="py-2 text-[var(--text-secondary)] font-medium tabular-nums">
-                              {usd(band.monthlyPerUnit)}
-                            </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </FadeUp>
         </div>
       </section>
 

@@ -6,35 +6,16 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
-import { PRICING_URL } from "@/lib/urls";
+import { buildPricingSimulatorUrl } from "@/lib/pricingNavigation";
+import { localizeWebsiteHref } from "@/lib/i18n";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy, mergeGeneratedCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_getting_started_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
-import {
-  BANDED_UNIT_CEILING,
-  CORE_PACKAGES_BY_ID,
-  IMPLEMENTATION_CLASSES,
-  bandedMonthlyTotal,
-  usd,
-} from "@/lib/pricing/priceBook";
+import { BANDED_UNIT_CEILING } from "@/lib/pricing/priceBook";
 
-/**
- * The journey this page used to describe was "start free on Report Lite, prove
- * the value, upgrade to Report Plus/Pro or Core Lite/Pro". Price book v1.7
- * retires every SKU in that sentence, and with them the free entry point, so
- * the page is re-cut around what a v1.7 rollout actually looks like: size a
- * Core package, connect the data, add the parts you need.
- *
- * Prices are read from the price book — this page hand-types no number, and it
- * never renders a flat per-location rate for a banded SKU.
- */
-
-/** Worked example used in the hero: the smallest realistic multi-site footprint. */
-const EXAMPLE_LOCATIONS = 5;
-const EXAMPLE_PACKAGE = CORE_PACKAGES_BY_ID.core_foundation;
-const EXAMPLE_QUOTE = bandedMonthlyTotal(EXAMPLE_PACKAGE, EXAMPLE_LOCATIONS);
+/** Scope onboarding here; the live pricing simulator owns all quotes. */
 
 type Step = {
   number: number;
@@ -53,7 +34,6 @@ type GettingStartedCopy = {
   badge: string;
   title: string;
   description: string;
-  supporting: string;
   startFree: string;
   calculatePath: string;
   journeyTitle: string;
@@ -89,7 +69,6 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     badge: "Getting Started Guide",
     title: "Your Journey with Sundae",
     description: "Five steps from a first conversation to acting on your own numbers. Start at the depth you need, add the rest when it earns its place.",
-    supporting: `Every package is paid from your first location, then priced per additional location on a rate that steps down as you grow. ${EXAMPLE_LOCATIONS} ${EXAMPLE_PACKAGE.name} locations is ${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_PACKAGE.bands[0].monthlyPerUnit)} = ${usd(EXAMPLE_QUOTE.monthlyTotal)}/mo.`,
     startFree: "Run the Diagnostic",
     calculatePath: "Size Your Package",
     journeyTitle: "The Sundae Journey: 5 Steps",
@@ -193,7 +172,6 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     badge: "دليل البدء",
     title: "رحلتك مع Sundae",
     description: "خمس خطوات من المحادثة الأولى إلى التصرف بناءً على أرقامك. ابدأ بالعمق الذي تحتاجه، وأضف الباقي حين يستحق مكانه.",
-    supporting: `كل باقة مدفوعة ابتداءً من موقعك الأول، ثم تُسعَّر لكل موقع إضافي بسعر يتناقص مع النمو. ${EXAMPLE_LOCATIONS} مواقع ${EXAMPLE_PACKAGE.name} = ${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_PACKAGE.bands[0].monthlyPerUnit)} = ${usd(EXAMPLE_QUOTE.monthlyTotal)} شهريًا.`,
     startFree: "ابدأ التشخيص",
     calculatePath: "احسب باقتك",
     journeyTitle: "رحلة Sundae: 5 خطوات",
@@ -230,7 +208,6 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     badge: "Guide de démarrage",
     title: "Votre parcours avec Sundae",
     description: "Cinq étapes, de la première conversation à l'action sur vos propres chiffres. Commencez à la profondeur qu'il vous faut, ajoutez le reste quand il le mérite.",
-    supporting: `Chaque package est payant dès votre premier site, puis facturé par site additionnel à un tarif qui diminue à mesure que vous grandissez. ${EXAMPLE_LOCATIONS} sites ${EXAMPLE_PACKAGE.name} = ${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_PACKAGE.bands[0].monthlyPerUnit)} = ${usd(EXAMPLE_QUOTE.monthlyTotal)}/mois.`,
     startFree: "Lancer le diagnostic",
     calculatePath: "Dimensionner votre package",
     journeyTitle: "Le parcours Sundae : 5 étapes",
@@ -267,7 +244,6 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     badge: "Guía de inicio",
     title: "Tu viaje con Sundae",
     description: "Cinco pasos desde la primera conversación hasta actuar sobre tus propios números. Empieza con la profundidad que necesitas y añade el resto cuando se lo gane.",
-    supporting: `Cada paquete se paga desde tu primer local y luego se cobra por local adicional a una tarifa que baja a medida que creces. ${EXAMPLE_LOCATIONS} locales de ${EXAMPLE_PACKAGE.name} = ${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_PACKAGE.bands[0].monthlyPerUnit)} = ${usd(EXAMPLE_QUOTE.monthlyTotal)}/mes.`,
     startFree: "Ejecutar el diagnóstico",
     calculatePath: "Dimensiona tu paquete",
     journeyTitle: "El viaje Sundae: 5 pasos",
@@ -307,23 +283,15 @@ export default function GettingStartedPage() {
   const { locale } = useWebsiteI18n();
   const originalCopy = localizedGettingStartedCopy[locale as keyof typeof localizedGettingStartedCopy] ?? getGeneratedLocalCopy(localizedGettingStartedCopy, generatedLocalCopy.localizedGettingStartedCopy, locale) ?? localizedGettingStartedCopy.en;
   const commercial = getCommercialCopy(locale);
+  const simulatorUrl = buildPricingSimulatorUrl(locale);
   const commerciallyScopedCopy = {
     ...originalCopy,
     steps: originalCopy.steps.map((step, index) => index === 1 ? { ...step, description: commercial.packageScope } : index === 3 ? { ...step, actions: step.actions.map((action, actionIndex) => actionIndex === 3 ? commercial.watchtowerEligibility : action) } : step),
     journeys: originalCopy.journeys.map((journey, index) => index === 2 ? { ...journey, items: journey.items.map((item, itemIndex) => itemIndex === 2 ? commercial.watchtowerEligibility : item) } : journey),
   };
   const translatedCopy = mergeGeneratedCopy(commerciallyScopedCopy, buyerBodyCopy[locale as keyof typeof buyerBodyCopy]);
-  const copy = { ...translatedCopy, steps: translatedCopy.steps.map((step, index) => index === 1 ? { ...step, ctaLink: PRICING_URL } : step) };
+  const copy = { ...translatedCopy, steps: translatedCopy.steps.map((step, index) => index === 1 ? { ...step, ctaLink: simulatorUrl } : step) };
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
-
-  const handleFinalCardClick = (href?: string) => {
-    if (href) {
-      cta(href, `final_card_from_getting_started`, { page: "/getting-started" });
-      return;
-    }
-
-    window.open(PRICING_URL, "_blank", "noopener,noreferrer");
-  };
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -332,9 +300,6 @@ export default function GettingStartedPage() {
         title={copy.title}
         description={copy.description}
       >
-        <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
-          {copy.supporting}
-        </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             variant="primary"
@@ -346,7 +311,11 @@ export default function GettingStartedPage() {
           <Button
             variant="outline-light"
             size="lg"
-            onClick={() => window.open(PRICING_URL, "_blank", "noopener,noreferrer")}
+            href={simulatorUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            trackingLabel="pricing_from_getting_started"
+            trackingMetadata={{ page: "/getting-started" }}
           >
             {copy.calculatePath}
           </Button>
@@ -396,7 +365,9 @@ export default function GettingStartedPage() {
                         variant="primary"
                         size="lg"
                         className="w-full"
-                        onClick={() => cta(step.ctaLink, `step_${step.number}_cta`, { page: "/getting-started" })}
+                        href={localizeWebsiteHref(step.ctaLink, locale)}
+                        trackingLabel={`step_${step.number}_cta`}
+                        trackingMetadata={{ page: "/getting-started" }}
                       >
                         {step.cta} &rarr;
                       </Button>
@@ -451,36 +422,20 @@ export default function GettingStartedPage() {
         </div>
       </section>
 
-      {/* Implementation classes come straight from the price book. The one rule
-          that matters commercially is rendered as a note, not per-card copy:
-          implementation is charged ONCE at the highest class in the selection,
-          never summed across SKUs. */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-6xl mx-auto">
-          <FadeUp className="text-center mb-16">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-4xl mx-auto">
+          <FadeUp className="text-center">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.implementationTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.implementationDescription}</p>
-          </FadeUp>
-
-          <StaggerContainer className="grid grid-cols-2 lg:grid-cols-5 gap-6">
-            {IMPLEMENTATION_CLASSES.map((cls) => (
-              <StaggerItem key={cls.id}>
-                <Card variant="elevated" className="h-full text-center hover:shadow-xl transition-all duration-300">
-                  <CardHeader>
-                    <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{cls.name}</CardTitle>
-                    <div className="text-3xl font-bold bg-gradient-to-r from-[#FF8473] to-[#F2B45C] bg-clip-text text-transparent">
-                      {cls.from ? `${copy.implementationFromLabel} ${usd(cls.oneOff)}` : usd(cls.oneOff)}
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-
-          <FadeUp className="mt-10">
-            <p className="text-center text-sm text-[var(--text-muted)] max-w-3xl mx-auto">
-              {copy.implementationNote}
-            </p>
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{commercial.setup}</p>
+            <Button
+              variant="outline-light"
+              href={simulatorUrl}
+              trackingLabel="implementation_estimate_from_getting_started"
+              trackingMetadata={{ page: "/getting-started" }}
+              className="mt-6"
+            >
+              {commercial.viewEstimate} →
+            </Button>
           </FadeUp>
         </div>
       </section>
@@ -500,7 +455,11 @@ export default function GettingStartedPage() {
                     variant={card.color === "bg-green-600" ? "primary" : "outline-ink"}
                     size="md"
                     className="w-full"
-                    onClick={() => handleFinalCardClick(card.href)}
+                    href={card.href ? localizeWebsiteHref(card.href, locale) : simulatorUrl}
+                    target={card.href ? undefined : "_blank"}
+                    rel={card.href ? undefined : "noopener noreferrer"}
+                    trackingLabel="final_card_from_getting_started"
+                    trackingMetadata={{ page: "/getting-started" }}
                   >
                     {card.button}
                   </Button>
