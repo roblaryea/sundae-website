@@ -1,0 +1,318 @@
+{
+  "examples": [
+    [
+      "Oracle MICROS Simphony",
+      "Foodics",
+      "Lightspeed Restaurant (K-Series)",
+      "Square"
+    ],
+    [
+      "7shifts",
+      "Planday",
+      "Deputy"
+    ],
+    [
+      "MarketMan",
+      "Apicbase",
+      "BinWise"
+    ],
+    [
+      "MarketMan",
+      "Supy"
+    ],
+    [
+      "Deliverect",
+      "Talabat"
+    ],
+    [
+      "SevenRooms",
+      "OpenTable",
+      "TheFork"
+    ],
+    [
+      "Meta (Facebook/IG)",
+      "Google Ads",
+      "Mailchimp"
+    ],
+    [
+      "Google Reviews",
+      "Zendesk"
+    ],
+    [
+      "SevenRooms",
+      "Toast",
+      "Olo"
+    ],
+    [
+      "QuickBooks",
+      "Xero",
+      "Sage"
+    ]
+  ],
+  "labels": {
+    "en": [
+      "Point of sale (POS)",
+      "Workforce & scheduling",
+      "Inventory",
+      "Purchasing",
+      "Delivery",
+      "Reservations",
+      "Marketing",
+      "Guest feedback",
+      "Guest CRM",
+      "Accounting & finance"
+    ],
+    "ar": [
+      "نقطة البيع (POS)",
+      "العمالة والجدولة",
+      "المخزون والتوافر",
+      "الشراء والتوريد",
+      "التوصيل",
+      "الحجوزات وتدفق الضيوف",
+      "التسويق والحملات",
+      "تجربة الضيوف وملاحظاتهم",
+      "إدارة علاقات الضيوف (CRM)",
+      "المحاسبة والمالية"
+    ],
+    "es": [
+      "Punto de Venta (POS)",
+      "Personal y programación",
+      "Inventario y disponibilidad",
+      "Compras y adquisiciones",
+      "Reparto",
+      "Reservas y flujo de huéspedes",
+      "Marketing y campañas",
+      "Experiencia y comentarios de los huéspedes",
+      "CRM de huéspedes",
+      "Contabilidad y finanzas"
+    ],
+    "nl": [
+      "Verkooppunt (POS)",
+      "Personeel en planning",
+      "Voorraad",
+      "Inkoop",
+      "Bezorging",
+      "Reserveringen en gastenstroom",
+      "Marketing en campagnes",
+      "Feedback van gasten",
+      "Gast-CRM",
+      "Boekhouding en financiën"
+    ],
+    "pt": [
+      "Ponto de Venda (POS)",
+      "Mão de obra e escalas",
+      "Inventário e disponibilidade",
+      "Compras e aquisições",
+      "Entregas",
+      "Reservas e fluxo de hóspedes",
+      "Marketing e campanhas",
+      "Experiência e feedback dos hóspedes",
+      "CRM de hóspedes",
+      "Contabilidade e finanças"
+    ],
+    "fr": [
+      "Point de vente (POS)",
+      "Personnel et planning",
+      "Inventaire et disponibilité",
+      "Achats et approvisionnement",
+      "Livraison",
+      "Réservations et flux de clients",
+      "Marketing et campagnes",
+      "Expérience et commentaires des clients",
+      "CRM client",
+      "Comptabilité et finance"
+    ],
+    "de": [
+      "Point of Sale (POS)",
+      "Personal & Dienstplanung",
+      "Bestand und Verfügbarkeit",
+      "Einkauf & Beschaffung",
+      "Lieferung",
+      "Reservierungen und Gästefluss",
+      "Marketing & Kampagnen",
+      "Gästeerlebnis und Feedback",
+      "Gast-CRM",
+      "Buchhaltung und Finanzen"
+    ],
+    "ur": [
+      "پوائنٹ آف سیل (POS)",
+      "لیبر اور شیڈولنگ",
+      "انوینٹری اور دستیابی",
+      "خریداری اور حصولی",
+      "ڈیلیوری",
+      "ریزرویشنز اور گیسٹ فلو",
+      "مارکیٹنگ اور مہمات",
+      "مہمان کا تجربہ اور تاثرات",
+      "مہمان CRM",
+      "اکاؤنٹنگ اور فنانس"
+    ],
+    "it": [
+      "Punto vendita (POS)",
+      "Personale e pianificazione",
+      "Inventario e disponibilità",
+      "Acquisti e approvvigionamenti",
+      "Consegne",
+      "Prenotazioni e flusso degli ospiti",
+      "Marketing e campagne",
+      "Esperienza e feedback degli ospiti",
+      "CRM ospiti",
+      "Contabilità e finanza"
+    ],
+    "tr": [
+      "Satış Noktası (POS)",
+      "İşgücü ve Planlama",
+      "Envanter ve Kullanılabilirlik",
+      "Satın Alma ve Tedarik",
+      "Teslimat",
+      "Rezervasyonlar ve Misafir Akışı",
+      "Pazarlama ve Kampanyalar",
+      "Misafir Deneyimi ve Geri Bildirimi",
+      "Misafir CRM'si",
+      "Muhasebe ve Finans"
+    ],
+    "zh-Hans": [
+      "销售点 (POS)",
+      "用工与排班",
+      "库存与供货情况",
+      "采购与供应",
+      "配送",
+      "预订及客流",
+      "营销与活动",
+      "宾客体验与反馈",
+      "宾客 CRM",
+      "会计与财务"
+    ],
+    "hi": [
+      "बिक्री स्थल (POS)",
+      "श्रम एवं शेड्यूलिंग",
+      "सूची एवं उपलब्धता",
+      "क्रय एवं अधिप्राप्ति",
+      "डिलीवरी",
+      "आरक्षण एवं अतिथि प्रवाह",
+      "विपणन एवं अभियान",
+      "अतिथि अनुभव एवं प्रतिक्रिया",
+      "अतिथि CRM",
+      "लेखांकन एवं वित्त"
+    ],
+    "pl": [
+      "Punkt sprzedaży (POS)",
+      "Personel i grafik",
+      "Zapasy i dostępność",
+      "Zakupy i zaopatrzenie",
+      "Dostawy",
+      "Rezerwacje i przepływ gości",
+      "Marketing i kampanie",
+      "Doświadczenia i opinie gości",
+      "CRM gości",
+      "Rachunkowość i finanse"
+    ],
+    "ko": [
+      "POS(판매 시점)",
+      "인력 및 일정 관리",
+      "재고 및 가용성",
+      "구매 및 조달",
+      "배달",
+      "예약 및 고객 흐름",
+      "마케팅 및 캠페인",
+      "고객 경험 및 피드백",
+      "고객 CRM",
+      "회계 및 재무"
+    ],
+    "ja": [
+      "販売時点管理 (POS)",
+      "労働力とスケジュール管理",
+      "在庫と在庫状況",
+      "購買・調達",
+      "デリバリー",
+      "ご予約とゲストの流れ",
+      "マーケティングとキャンペーン",
+      "ゲストの体験とフィードバック",
+      "ゲストCRM",
+      "会計と財務"
+    ],
+    "ro": [
+      "Punct de vânzare (POS)",
+      "Personal și programare",
+      "Inventar și disponibilitate",
+      "Achiziții și aprovizionare",
+      "Livrare",
+      "Rezervări și flux de oaspeți",
+      "Marketing și campanii",
+      "Experiență și feedback pentru oaspeți",
+      "CRM pentru oaspeți",
+      "Contabilitate și finanțe"
+    ],
+    "id": [
+      "Tempat Penjualan (POS)",
+      "Tenaga Kerja & Penjadwalan",
+      "Inventaris & Ketersediaan",
+      "Pembelian & Pengadaan",
+      "Pengantaran",
+      "Reservasi & Alur Tamu",
+      "Pemasaran & Kampanye",
+      "Pengalaman & Umpan Balik Tamu",
+      "CRM Tamu",
+      "Akuntansi & Keuangan"
+    ],
+    "bn": [
+      "পয়েন্ট অফ সেল (POS)",
+      "শ্রম ও সময়সূচী",
+      "ইনভেন্টরি এবং উপলব্ধতা",
+      "ক্রয় এবং সংগ্রহ",
+      "ডেলিভারি",
+      "রিজার্ভেশন এবং গেস্ট ফ্লো",
+      "বিপণন এবং প্রচারাভিযান",
+      "অতিথি অভিজ্ঞতা এবং প্রতিক্রিয়া",
+      "অতিথি CRM",
+      "অ্যাকাউন্টিং এবং ফিনান্স"
+    ],
+    "vi": [
+      "Điểm bán hàng (POS)",
+      "Nhân sự & Lập lịch",
+      "Hàng tồn kho & sẵn có",
+      "Mua hàng & Mua sắm",
+      "Giao hàng",
+      "Đặt chỗ & Luồng khách",
+      "Tiếp thị & Chiến dịch",
+      "Trải nghiệm và phản hồi của khách",
+      "CRM khách",
+      "Kế toán & Tài chính"
+    ],
+    "th": [
+      "ระบบขายหน้าร้าน (POS)",
+      "แรงงานและการจัดตารางเวลา",
+      "สินค้าคงคลัง",
+      "การจัดซื้อและการจัดซื้อจัดจ้าง",
+      "การจัดส่ง",
+      "การจองและการไหลของแขก",
+      "การตลาดและแคมเปญ",
+      "ประสบการณ์แขกและข้อเสนอแนะ",
+      "CRM แขก",
+      "การบัญชีและการเงิน"
+    ],
+    "sv": [
+      "Försäljningsställe (POS)",
+      "Personal & schemaläggning",
+      "Inventering & tillgänglighet",
+      "Inköp & upphandling",
+      "Leverans",
+      "Bokningar och gästflöde",
+      "Marknadsföring och kampanjer",
+      "Gästupplevelse och feedback",
+      "Gäst-CRM",
+      "Redovisning & Finans"
+    ],
+    "ms": [
+      "Tempat Jualan (POS)",
+      "Tenaga Kerja & Penjadualan",
+      "Inventori & Ketersediaan",
+      "Pembelian & Perolehan",
+      "Penghantaran",
+      "Tempahan & Aliran Tetamu",
+      "Pemasaran & Kempen",
+      "Pengalaman & Maklum Balas Tetamu",
+      "CRM tetamu",
+      "Perakaunan & Kewangan"
+    ]
+  }
+}

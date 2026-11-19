@@ -5,6 +5,7 @@ import { generatedLocalCopy } from '@/generated-locales/lib_page_titles';
 import { resolveLocalizedPageDescription } from '@/lib/localizedPageDescriptions';
 import supportPageOpenings from '@/content/support-page-openings.json';
 import guidanceByLocale from '@/content/support-guidance.json';
+import systemByLocale from '@/content/support-system.json';
 
 /**
  * Central per-route <title> map.
@@ -131,6 +132,9 @@ export function resolvePageTitle(path: string, locale: WebsiteLocale): string | 
 }
 
 export function resolvePageDescription(path: string, locale: WebsiteLocale): string | null {
+  if (path === '/architecture') return systemByLocale[locale].aBody;
+  if (path === '/integrations') return systemByLocale[locale].iBody;
+  if (path === '/4d-intelligence') return systemByLocale[locale].dBody;
   if (path === '/getting-started') return guidanceByLocale[locale].startBody;
   if (path === '/docs') return guidanceByLocale[locale].docsBody;
   const support = supportPageOpenings[locale as keyof typeof supportPageOpenings];
