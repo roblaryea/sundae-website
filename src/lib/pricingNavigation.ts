@@ -1,6 +1,14 @@
 import { encodePricingIntent, type PricingIntent } from './pricingIntent'
 import { PRICING_URL } from './urls'
 import catalog from './pricing/catalogSnapshot.json'
+import type { WebsiteLocale } from './i18n'
+
+/** Open the live calculator in the visitor's language without fixing a selection. */
+export function buildPricingSimulatorUrl(locale: WebsiteLocale) {
+  const url = new URL('/simulator', PRICING_URL)
+  url.searchParams.set('lang', locale)
+  return url.toString()
+}
 
 export const WATCHTOWER_OPTIONS = ['competitive', 'events', 'trends', 'bundle'] as const
 

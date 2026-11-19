@@ -1,0 +1,358 @@
+[
+  {
+    "locale": "ar",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/getting-started",
+    "rect": {
+      "width": 1440,
+      "height": 303.59375
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "التنفيذ\n\nتعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.\n\nعرض التقدير →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 1440,
+      "height": 194
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "نطاق الباقة\n\nتُشمَل Foresight & Action في Core Performance. وهي إضافة اختيارية بسعر منفصل لباقات Core Foundation وCore Margin وCore Growth.\n\nقارن الباقات →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 92, 77)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/faq",
+    "rect": {
+      "width": 896,
+      "height": 591
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "الأسعار والفوترة\nكم تكلفة Sundae؟\n\nيعتمد السعر على المنتجات وعدد المواقع ونطاق الإعداد الذي يحتاجه نشاطك. اختر Core أو Crew أو كليهما في محاكي التسعير لمراجعة الأسعار الحالية والشروط المنطبقة.\n\nتعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.\n\nعرض التقدير\n\nهل توجد رسوم إعداد؟\nما العملات التي تقبلونها؟\nهل يوجد خصم سنوي؟\nما وسائل الدفع المقبولة؟",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "theme": "light",
+    "route": "/getting-started",
+    "rect": {
+      "width": 1440,
+      "height": 303.59375
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "التنفيذ\n\nتعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.\n\nعرض التقدير →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "theme": "light",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 1440,
+      "height": 194
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "نطاق الباقة\n\nتُشمَل Foresight & Action في Core Performance. وهي إضافة اختيارية بسعر منفصل لباقات Core Foundation وCore Margin وCore Growth.\n\nقارن الباقات →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(204, 58, 30)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "theme": "light",
+    "route": "/faq",
+    "rect": {
+      "width": 896,
+      "height": 591
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "الأسعار والفوترة\nكم تكلفة Sundae؟\n\nيعتمد السعر على المنتجات وعدد المواقع ونطاق الإعداد الذي يحتاجه نشاطك. اختر Core أو Crew أو كليهما في محاكي التسعير لمراجعة الأسعار الحالية والشروط المنطبقة.\n\nتعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.\n\nعرض التقدير\n\nهل توجد رسوم إعداد؟\nما العملات التي تقبلونها؟\nهل يوجد خصم سنوي؟\nما وسائل الدفع المقبولة؟",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/getting-started",
+    "rect": {
+      "width": 390,
+      "height": 297.1953125
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "التنفيذ\n\nتعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.\n\nعرض التقدير →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 390,
+      "height": 270
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "نطاق الباقة\n\nتُشمَل Foresight & Action في Core Performance. وهي إضافة اختيارية بسعر منفصل لباقات Core Foundation وCore Margin وCore Growth.\n\nقارن الباقات →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 92, 77)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/faq",
+    "rect": {
+      "width": 358,
+      "height": 643
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "الأسعار والفوترة\nكم تكلفة Sundae؟\n\nيعتمد السعر على المنتجات وعدد المواقع ونطاق الإعداد الذي يحتاجه نشاطك. اختر Core أو Crew أو كليهما في محاكي التسعير لمراجعة الأسعار الحالية والشروط المنطبقة.\n\nتعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.\n\nعرض التقدير\n\nهل توجد رسوم إعداد؟\nما العملات التي تقبلونها؟\nهل يوجد خصم سنوي؟\nما وسائل الدفع المقبولة؟",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "light",
+    "route": "/getting-started",
+    "rect": {
+      "width": 390,
+      "height": 297.1953125
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "التنفيذ\n\nتعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.\n\nعرض التقدير →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "light",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 390,
+      "height": 270
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "نطاق الباقة\n\nتُشمَل Foresight & Action في Core Performance. وهي إضافة اختيارية بسعر منفصل لباقات Core Foundation وCore Margin وCore Growth.\n\nقارن الباقات →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(204, 58, 30)"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "light",
+    "route": "/faq",
+    "rect": {
+      "width": 358,
+      "height": 643
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "الأسعار والفوترة\nكم تكلفة Sundae؟\n\nيعتمد السعر على المنتجات وعدد المواقع ونطاق الإعداد الذي يحتاجه نشاطك. اختر Core أو Crew أو كليهما في محاكي التسعير لمراجعة الأسعار الحالية والشروط المنطبقة.\n\nتعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.\n\nعرض التقدير\n\nهل توجد رسوم إعداد؟\nما العملات التي تقبلونها؟\nهل يوجد خصم سنوي؟\nما وسائل الدفع المقبولة؟",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  }
+]

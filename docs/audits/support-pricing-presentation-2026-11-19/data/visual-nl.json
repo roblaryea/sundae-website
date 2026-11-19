@@ -1,0 +1,358 @@
+[
+  {
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/getting-started",
+    "rect": {
+      "width": 1440,
+      "height": 333.9921875
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "Implementation\n\nImplementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.\n\nBekijk schatting →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 1440,
+      "height": 194
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "Pakketomvang\n\nForesight & Action is inbegrepen in Core Performance. Voor Core Foundation, Core Margin en Core Growth is het een apart geprijsde optionele uitbreiding.\n\nPakketten vergelijken →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 92, 77)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/faq",
+    "rect": {
+      "width": 896,
+      "height": 617
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "Prijzen & Facturering\nWat kost Sundae?\n\nDe prijs hangt af van de producten, locaties en inrichting die uw bedrijf nodig heeft. Kies Core, Crew of beide in de prijssimulator om de actuele prijzen en toepasselijke voorwaarden te bekijken.\n\nImplementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.\n\nBekijk schatting\n\nZijn er opstartkosten?\nWelke valuta accepteren jullie?\nIs er een jaarlijkse korting?\nWelke betaalmethoden accepteren jullie?",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 1440,
+    "theme": "light",
+    "route": "/getting-started",
+    "rect": {
+      "width": 1440,
+      "height": 333.9921875
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "Implementation\n\nImplementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.\n\nBekijk schatting →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 1440,
+    "theme": "light",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 1440,
+      "height": 194
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "Pakketomvang\n\nForesight & Action is inbegrepen in Core Performance. Voor Core Foundation, Core Margin en Core Growth is het een apart geprijsde optionele uitbreiding.\n\nPakketten vergelijken →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(204, 58, 30)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 1440,
+    "theme": "light",
+    "route": "/faq",
+    "rect": {
+      "width": 896,
+      "height": 617
+    },
+    "scrollWidth": 1440,
+    "viewport": 1440,
+    "text": "Prijzen & Facturering\nWat kost Sundae?\n\nDe prijs hangt af van de producten, locaties en inrichting die uw bedrijf nodig heeft. Kies Core, Crew of beide in de prijssimulator om de actuele prijzen en toepasselijke voorwaarden te bekijken.\n\nImplementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.\n\nBekijk schatting\n\nZijn er opstartkosten?\nWelke valuta accepteren jullie?\nIs er een jaarlijkse korting?\nWelke betaalmethoden accepteren jullie?",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 390,
+    "theme": "dark",
+    "route": "/getting-started",
+    "rect": {
+      "width": 390,
+      "height": 321.1953125
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "Implementation\n\nImplementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.\n\nBekijk schatting →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 390,
+    "theme": "dark",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 390,
+      "height": 296
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "Pakketomvang\n\nForesight & Action is inbegrepen in Core Performance. Voor Core Foundation, Core Margin en Core Growth is het een apart geprijsde optionele uitbreiding.\n\nPakketten vergelijken →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 92, 77)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 390,
+    "theme": "dark",
+    "route": "/faq",
+    "rect": {
+      "width": 358,
+      "height": 781
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "Prijzen & Facturering\nWat kost Sundae?\n\nDe prijs hangt af van de producten, locaties en inrichting die uw bedrijf nodig heeft. Kies Core, Crew of beide in de prijssimulator om de actuele prijzen en toepasselijke voorwaarden te bekijken.\n\nImplementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.\n\nBekijk schatting\n\nZijn er opstartkosten?\nWelke valuta accepteren jullie?\nIs er een jaarlijkse korting?\nWelke betaalmethoden accepteren jullie?",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 390,
+    "theme": "light",
+    "route": "/getting-started",
+    "rect": {
+      "width": 390,
+      "height": 321.1953125
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "Implementation\n\nImplementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.\n\nBekijk schatting →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 390,
+    "theme": "light",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 390,
+      "height": 296
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "Pakketomvang\n\nForesight & Action is inbegrepen in Core Performance. Voor Core Foundation, Core Margin en Core Growth is het een apart geprijsde optionele uitbreiding.\n\nPakketten vergelijken →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(204, 58, 30)"
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "width": 390,
+    "theme": "light",
+    "route": "/faq",
+    "rect": {
+      "width": 358,
+      "height": 781
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "text": "Prijzen & Facturering\nWat kost Sundae?\n\nDe prijs hangt af van de producten, locaties en inrichting die uw bedrijf nodig heeft. Kies Core, Crew of beide in de prijssimulator om de actuele prijzen en toepasselijke voorwaarden te bekijken.\n\nImplementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.\n\nBekijk schatting\n\nZijn er opstartkosten?\nWelke valuta accepteren jullie?\nIs er een jaarlijkse korting?\nWelke betaalmethoden accepteren jullie?",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  }
+]

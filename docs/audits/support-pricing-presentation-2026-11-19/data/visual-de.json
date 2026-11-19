@@ -1,0 +1,180 @@
+[
+  {
+    "locale": "de",
+    "width": 320,
+    "theme": "dark",
+    "route": "/getting-started",
+    "rect": {
+      "width": 320,
+      "height": 345.1953125
+    },
+    "scrollWidth": 320,
+    "viewport": 320,
+    "text": "Implementation\n\nDie Einführungskosten hängen von den gewählten Produkten und dem Einführungsumfang ab. Prüfen Sie diese in Ihrer Kalkulation.\n\nKostenschätzung ansehen →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "de",
+    "width": 320,
+    "theme": "dark",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 320,
+      "height": 322
+    },
+    "scrollWidth": 320,
+    "viewport": 320,
+    "text": "Paketumfang\n\nForesight & Action ist in Core Performance enthalten. Für Core Foundation, Core Margin und Core Growth ist es eine separat berechnete optionale Erweiterung.\n\nPakete vergleichen →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 92, 77)"
+      }
+    ]
+  },
+  {
+    "locale": "de",
+    "width": 320,
+    "theme": "dark",
+    "route": "/faq",
+    "rect": {
+      "width": 288,
+      "height": 997
+    },
+    "scrollWidth": 320,
+    "viewport": 320,
+    "text": "Preise & Abrechnung\nWas kostet Sundae?\n\nDer Preis richtet sich nach den Produkten, Standorten und dem Einführungsumfang, die Ihr Betrieb benötigt. Wählen Sie im Preissimulator Core, Crew oder beides, um aktuelle Preise und geltende Bedingungen zu prüfen.\n\nDie Einführungskosten hängen von den gewählten Produkten und dem Einführungsumfang ab. Prüfen Sie diese in Ihrer Kalkulation.\n\nKostenschätzung ansehen\n\nGibt es Einrichtungsgebühren?\nWelche Währungen akzeptieren Sie?\nGibt es einen jährlichen Rabatt?\nWelche Zahlungsmethoden akzeptieren Sie?",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(251, 248, 244)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(255, 255, 255, 0.65)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "locale": "de",
+    "width": 320,
+    "theme": "light",
+    "route": "/getting-started",
+    "rect": {
+      "width": 320,
+      "height": 345.1953125
+    },
+    "scrollWidth": 320,
+    "viewport": 320,
+    "text": "Implementation\n\nDie Einführungskosten hängen von den gewählten Produkten und dem Einführungsumfang ab. Prüfen Sie diese in Ihrer Kalkulation.\n\nKostenschätzung ansehen →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  },
+  {
+    "locale": "de",
+    "width": 320,
+    "theme": "light",
+    "route": "/product/foresight",
+    "rect": {
+      "width": 320,
+      "height": 322
+    },
+    "scrollWidth": 320,
+    "viewport": 320,
+    "text": "Paketumfang\n\nForesight & Action ist in Core Performance enthalten. Für Core Foundation, Core Margin und Core Growth ist es eine separat berechnete optionale Erweiterung.\n\nPakete vergleichen →",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(204, 58, 30)"
+      }
+    ]
+  },
+  {
+    "locale": "de",
+    "width": 320,
+    "theme": "light",
+    "route": "/faq",
+    "rect": {
+      "width": 288,
+      "height": 997
+    },
+    "scrollWidth": 320,
+    "viewport": 320,
+    "text": "Preise & Abrechnung\nWas kostet Sundae?\n\nDer Preis richtet sich nach den Produkten, Standorten und dem Einführungsumfang, die Ihr Betrieb benötigt. Wählen Sie im Preissimulator Core, Crew oder beides, um aktuelle Preise und geltende Bedingungen zu prüfen.\n\nDie Einführungskosten hängen von den gewählten Produkten und dem Einführungsumfang ab. Prüfen Sie diese in Ihrer Kalkulation.\n\nKostenschätzung ansehen\n\nGibt es Einrichtungsgebühren?\nWelche Währungen akzeptieren Sie?\nGibt es einen jährlichen Rabatt?\nWelche Zahlungsmethoden akzeptieren Sie?",
+    "colors": [
+      {
+        "tag": "H2",
+        "color": "rgb(30, 23, 17)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "P",
+        "color": "rgba(36, 29, 23, 0.74)"
+      },
+      {
+        "tag": "A",
+        "color": "rgb(36, 29, 23)"
+      }
+    ]
+  }
+]

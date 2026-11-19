@@ -2,11 +2,12 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { PRICING_URL } from '@/lib/urls';
 
 // Function to parse and render formatted text
 function renderFormattedText(text: string): React.ReactNode {
-  // Split by bold markers **text**
-  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  // Keep existing bold formatting and support the authored calculator links.
+  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\(https:\/\/[^)\s]+\))/g);
   
   return parts.map((part, index) => {
     if (part.startsWith('**') && part.endsWith('**')) {
@@ -16,6 +17,24 @@ function renderFormattedText(text: string): React.ReactNode {
           {part.slice(2, -2)}
         </strong>
       );
+    }
+    const pricingLink = part.match(/^\[([^\]]+)\]\((https:\/\/[^)\s]+)\)$/);
+    if (pricingLink) {
+      try {
+        const destination = new URL(pricingLink[2]);
+        if (destination.origin === new URL(PRICING_URL).origin &&
+          ['/', '/simulator'].includes(destination.pathname)) {
+          return (
+            <a
+              key={index}
+              href={destination.toString()}
+              className="font-medium text-[var(--text-primary)] underline underline-offset-4 hover:decoration-[var(--accent-warm)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-warm)]"
+            >
+              {pricingLink[1]}
+            </a>
+          );
+        }
+      } catch { /* Leave unsupported link syntax as plain text. */ }
     }
     return part;
   });
