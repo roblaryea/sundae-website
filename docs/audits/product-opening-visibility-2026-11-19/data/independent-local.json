@@ -1,0 +1,658 @@
+{
+  "nojs": [
+    {
+      "locale": "en",
+      "width": 412,
+      "route": "/core",
+      "status": 200,
+      "h1": "Know why sales and costs change. Decide what to do next.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Know why sales and costs change. Decide what to do next.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Core brings your operating data, peer comparisons and relevant market signals together to explain changes in sales, cost",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Explore Core Tiers",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Book a Demo",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 412,
+      "route": "/crew",
+      "status": 200,
+      "h1": "Manage your people. Run the shift.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Manage your people. Run the shift.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Workforce and daily operations for hospitality and food-service groups. Build schedules, track attendance and manage tas",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Book a Crew Walkthrough",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "See Sundae in practice",
+          "hidden": []
+        },
+        {
+          "tag": "IMG",
+          "text": "Reusable templates for the daily routine.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Native product view \u00b7 Demo data \u00b7 English interface. Figures are not customer results.",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Open full-size view \u2197",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 412,
+      "route": "/product",
+      "status": 200,
+      "h1": "People, shifts and performance. One connected platform.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "People, shifts and performance. One connected platform.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Use Crew for scheduling, attendance, tasks, handovers, people records and payroll. Use Core to connect operating data, u",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Pricing",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Book a Working Session",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "route": "/core",
+      "status": 200,
+      "h1": "Begrijp waarom verkoop en kosten veranderen. Kies de volgende stap.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Begrijp waarom verkoop en kosten veranderen. Kies de volgende stap.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Core brengt je bedrijfsgegevens, vergelijkingen met soortgelijke bedrijven en relevante marktsignalen samen om veranderi",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Ontdek Core Tiers",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Boek een Demo",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "route": "/crew",
+      "status": 200,
+      "h1": "Regel je team. Draai de shift.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Regel je team. Draai de shift.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Personeel en dagelijkse bedrijfsvoering voor horeca- en foodservicegroepen. Maak roosters, volg aanwezigheid en beheer t",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Boek een Crew Rondleiding",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Zie Sundae in de praktijk",
+          "hidden": []
+        },
+        {
+          "tag": "IMG",
+          "text": "Herbruikbare sjablonen voor het dagelijkse werk.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Werkelijke productweergave \u00b7 Demogegevens \u00b7 Engelstalige interface. De cijfers zijn geen klantresultaten.",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Open op volledig formaat \u2197",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "route": "/product",
+      "status": 200,
+      "h1": "Mensen, diensten en prestaties. E\u00e9n verbonden platform.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Mensen, diensten en prestaties. E\u00e9n verbonden platform.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Gebruik Crew voor roosters, aanwezigheid, taken, overdrachten, personeelsdossiers en salarisverwerking. Gebruik Core om ",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Prijzen",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Boek een demo",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "/core",
+      "status": 200,
+      "h1": "\u0627\u0639\u0631\u0641 \u0644\u0645\u0627\u0630\u0627 \u062a\u062a\u063a\u064a\u0631 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0648\u0627\u0644\u062a\u0643\u0627\u0644\u064a\u0641. \u0648\u062d\u062f\u062f \u0627\u0644\u062e\u0637\u0648\u0629 \u0627\u0644\u062a\u0627\u0644\u064a\u0629.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "\u0627\u0639\u0631\u0641 \u0644\u0645\u0627\u0630\u0627 \u062a\u062a\u063a\u064a\u0631 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0648\u0627\u0644\u062a\u0643\u0627\u0644\u064a\u0641. \u0648\u062d\u062f\u062f \u0627\u0644\u062e\u0637\u0648\u0629 \u0627\u0644\u062a\u0627\u0644\u064a\u0629.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "\u064a\u062c\u0645\u0639 Core \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0634\u063a\u064a\u0644 \u0648\u0645\u0642\u0627\u0631\u0646\u0627\u062a \u0627\u0644\u0645\u0634\u063a\u0651\u0644\u064a\u0646 \u0627\u0644\u0645\u0634\u0627\u0628\u0647\u064a\u0646 \u0648\u0625\u0634\u0627\u0631\u0627\u062a \u0627\u0644\u0633\u0648\u0642 \u0630\u0627\u062a \u0627\u0644\u0635\u0644\u0629 \u0644\u0634\u0631\u062d \u062a\u063a\u064a\u0631\u0627\u062a \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0648\u0627\u0644\u062a\u0643\u0627\u0644\u064a\u0641 \u0648\u0627\u0644\u0623\u0631\u0628\u0627\u062d. \u0627",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0627\u0633\u062a\u0639\u0631\u0636 \u0645\u0633\u062a\u0648\u064a\u0627\u062a Core",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "\u0627\u062d\u062c\u0632 \u0639\u0631\u0636\u0627\u064b",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "/crew",
+      "status": 200,
+      "h1": "\u0646\u0638\u0651\u0645 \u0637\u0627\u0642\u0645\u0643. \u0623\u062f\u0650\u0631 \u0627\u0644\u0634\u064a\u0641\u062a.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "\u0646\u0638\u0651\u0645 \u0637\u0627\u0642\u0645\u0643. \u0623\u062f\u0650\u0631 \u0627\u0644\u0634\u064a\u0641\u062a.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0643\u0648\u0627\u062f\u0631 \u0648\u0627\u0644\u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u064a\u0648\u0645\u064a\u0629 \u0644\u0645\u062c\u0645\u0648\u0639\u0627\u062a \u0627\u0644\u0636\u064a\u0627\u0641\u0629 \u0648\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0637\u0639\u0627\u0645. \u0623\u0646\u0634\u0626 \u0627\u0644\u062c\u062f\u0627\u0648\u0644 \u0648\u062a\u0627\u0628\u0639 \u0627\u0644\u062d\u0636\u0648\u0631 \u0648\u0623\u062f\u0650\u0631 \u0627\u0644\u0645\u0647\u0627\u0645 \u0648\u062a\u0633\u0644\u064a\u0645 \u0627\u0644\u0648\u0631\u062f\u064a\u0627\u062a \u0648",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0627\u062d\u062c\u0632 \u062c\u0648\u0644\u0629 Crew",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0634\u0627\u0647\u062f Sundae \u0641\u064a \u0627\u0644\u062a\u0637\u0628\u064a\u0642",
+          "hidden": []
+        },
+        {
+          "tag": "IMG",
+          "text": "\u0642\u0648\u0627\u0644\u0628 \u0642\u0627\u0628\u0644\u0629 \u0644\u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0644\u0644\u0639\u0645\u0644 \u0627\u0644\u064a\u0648\u0645\u064a.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "\u0639\u0631\u0636 \u0645\u0646 \u0627\u0644\u0645\u0646\u062a\u062c \u0646\u0641\u0633\u0647 \u00b7 \u0628\u064a\u0627\u0646\u0627\u062a \u062a\u062c\u0631\u064a\u0628\u064a\u0629 \u00b7 \u0648\u0627\u062c\u0647\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629. \u0627\u0644\u0623\u0631\u0642\u0627\u0645 \u0644\u064a\u0633\u062a \u0646\u062a\u0627\u0626\u062c \u0639\u0645\u0644\u0627\u0621.",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0639\u0631\u0636 \u0628\u0627\u0644\u062d\u062c\u0645 \u0627\u0644\u0643\u0627\u0645\u0644 \u2197",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "/product",
+      "status": 200,
+      "h1": "\u0627\u0644\u0623\u0641\u0631\u0627\u062f \u0648\u0627\u0644\u0648\u0631\u062f\u064a\u0627\u062a \u0648\u0627\u0644\u0623\u062f\u0627\u0621. \u0645\u0646\u0635\u0629 \u0648\u0627\u062d\u062f\u0629 \u0645\u062a\u0631\u0627\u0628\u0637\u0629.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "\u0627\u0644\u0623\u0641\u0631\u0627\u062f \u0648\u0627\u0644\u0648\u0631\u062f\u064a\u0627\u062a \u0648\u0627\u0644\u0623\u062f\u0627\u0621. \u0645\u0646\u0635\u0629 \u0648\u0627\u062d\u062f\u0629 \u0645\u062a\u0631\u0627\u0628\u0637\u0629.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "\u0627\u0633\u062a\u062e\u062f\u0645 Crew \u0644\u0644\u062c\u062f\u0648\u0644\u0629 \u0648\u0627\u0644\u062d\u0636\u0648\u0631 \u0648\u0627\u0644\u0645\u0647\u0627\u0645 \u0648\u062a\u0633\u0644\u064a\u0645 \u0627\u0644\u0648\u0631\u062f\u064a\u0627\u062a \u0648\u0633\u062c\u0644\u0627\u062a \u0627\u0644\u0645\u0648\u0638\u0641\u064a\u0646 \u0648\u0627\u0644\u0631\u0648\u0627\u062a\u0628. \u0648\u0627\u0633\u062a\u062e\u062f\u0645 Core \u0644\u0631\u0628\u0637 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0634\u063a\u064a\u0644 \u0648\u0641\u0647\u0645 \u062a\u063a\u064a\u0631",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0627\u0644\u0623\u0633\u0639\u0627\u0631",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "\u0627\u062d\u062c\u0632 \u0639\u0631\u0636\u0627\u064b",
+          "hidden": []
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "interactive": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "light": false,
+      "route": "/core",
+      "h1": "Know why sales and costs change. Decide what to do next.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Know why sales and costs change. Decide what to do next.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Core brings your operating data, peer comparisons and relevant market signals together to explain changes in sales, cost",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Explore Core Tiers",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Book a Demo",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "demoDestination": "/demo"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "light": false,
+      "route": "/crew",
+      "h1": "Manage your people. Run the shift.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Manage your people. Run the shift.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Workforce and daily operations for hospitality and food-service groups. Build schedules, track attendance and manage tas",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Book a Crew Walkthrough",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "See Sundae in practice",
+          "hidden": []
+        },
+        {
+          "tag": "IMG",
+          "text": "Reusable templates for the daily routine.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Native product view \u00b7 Demo data \u00b7 English interface. Figures are not customer results.",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Open full-size view \u2197",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "proofImage": {
+        "complete": true,
+        "naturalWidth": 792
+      },
+      "demoDestination": "/demo"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "light": false,
+      "route": "/product",
+      "h1": "People, shifts and performance. One connected platform.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "People, shifts and performance. One connected platform.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Use Crew for scheduling, attendance, tasks, handovers, people records and payroll. Use Core to connect operating data, u",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Pricing",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Book a Working Session",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "demoDestination": "/demo"
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "light": true,
+      "route": "/core",
+      "h1": "Begrijp waarom verkoop en kosten veranderen. Kies de volgende stap.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Begrijp waarom verkoop en kosten veranderen. Kies de volgende stap.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Core brengt je bedrijfsgegevens, vergelijkingen met soortgelijke bedrijven en relevante marktsignalen samen om veranderi",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Ontdek Core Tiers",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Boek een Demo",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "demoDestination": "/nl/demo"
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "light": true,
+      "route": "/crew",
+      "h1": "Regel je team. Draai de shift.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Regel je team. Draai de shift.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Personeel en dagelijkse bedrijfsvoering voor horeca- en foodservicegroepen. Maak roosters, volg aanwezigheid en beheer t",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Boek een Crew Rondleiding",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Zie Sundae in de praktijk",
+          "hidden": []
+        },
+        {
+          "tag": "IMG",
+          "text": "Herbruikbare sjablonen voor het dagelijkse werk.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Werkelijke productweergave \u00b7 Demogegevens \u00b7 Engelstalige interface. De cijfers zijn geen klantresultaten.",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Open op volledig formaat \u2197",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "proofImage": {
+        "complete": true,
+        "naturalWidth": 390
+      },
+      "demoDestination": "/nl/demo"
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "light": true,
+      "route": "/product",
+      "h1": "Mensen, diensten en prestaties. E\u00e9n verbonden platform.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "Mensen, diensten en prestaties. E\u00e9n verbonden platform.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "Gebruik Crew voor roosters, aanwezigheid, taken, overdrachten, personeelsdossiers en salarisverwerking. Gebruik Core om ",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "Prijzen",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Boek een demo",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "demoDestination": "/nl/demo"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "light": false,
+      "route": "/core",
+      "h1": "\u0627\u0639\u0631\u0641 \u0644\u0645\u0627\u0630\u0627 \u062a\u062a\u063a\u064a\u0631 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0648\u0627\u0644\u062a\u0643\u0627\u0644\u064a\u0641. \u0648\u062d\u062f\u062f \u0627\u0644\u062e\u0637\u0648\u0629 \u0627\u0644\u062a\u0627\u0644\u064a\u0629.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "\u0627\u0639\u0631\u0641 \u0644\u0645\u0627\u0630\u0627 \u062a\u062a\u063a\u064a\u0631 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0648\u0627\u0644\u062a\u0643\u0627\u0644\u064a\u0641. \u0648\u062d\u062f\u062f \u0627\u0644\u062e\u0637\u0648\u0629 \u0627\u0644\u062a\u0627\u0644\u064a\u0629.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "\u064a\u062c\u0645\u0639 Core \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0634\u063a\u064a\u0644 \u0648\u0645\u0642\u0627\u0631\u0646\u0627\u062a \u0627\u0644\u0645\u0634\u063a\u0651\u0644\u064a\u0646 \u0627\u0644\u0645\u0634\u0627\u0628\u0647\u064a\u0646 \u0648\u0625\u0634\u0627\u0631\u0627\u062a \u0627\u0644\u0633\u0648\u0642 \u0630\u0627\u062a \u0627\u0644\u0635\u0644\u0629 \u0644\u0634\u0631\u062d \u062a\u063a\u064a\u0631\u0627\u062a \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0648\u0627\u0644\u062a\u0643\u0627\u0644\u064a\u0641 \u0648\u0627\u0644\u0623\u0631\u0628\u0627\u062d. \u0627",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0627\u0633\u062a\u0639\u0631\u0636 \u0645\u0633\u062a\u0648\u064a\u0627\u062a Core",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "\u0627\u062d\u062c\u0632 \u0639\u0631\u0636\u0627\u064b",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "demoDestination": "/ar/demo"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "light": false,
+      "route": "/crew",
+      "h1": "\u0646\u0638\u0651\u0645 \u0637\u0627\u0642\u0645\u0643. \u0623\u062f\u0650\u0631 \u0627\u0644\u0634\u064a\u0641\u062a.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "\u0646\u0638\u0651\u0645 \u0637\u0627\u0642\u0645\u0643. \u0623\u062f\u0650\u0631 \u0627\u0644\u0634\u064a\u0641\u062a.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0643\u0648\u0627\u062f\u0631 \u0648\u0627\u0644\u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u064a\u0648\u0645\u064a\u0629 \u0644\u0645\u062c\u0645\u0648\u0639\u0627\u062a \u0627\u0644\u0636\u064a\u0627\u0641\u0629 \u0648\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0637\u0639\u0627\u0645. \u0623\u0646\u0634\u0626 \u0627\u0644\u062c\u062f\u0627\u0648\u0644 \u0648\u062a\u0627\u0628\u0639 \u0627\u0644\u062d\u0636\u0648\u0631 \u0648\u0623\u062f\u0650\u0631 \u0627\u0644\u0645\u0647\u0627\u0645 \u0648\u062a\u0633\u0644\u064a\u0645 \u0627\u0644\u0648\u0631\u062f\u064a\u0627\u062a \u0648",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0627\u062d\u062c\u0632 \u062c\u0648\u0644\u0629 Crew",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0634\u0627\u0647\u062f Sundae \u0641\u064a \u0627\u0644\u062a\u0637\u0628\u064a\u0642",
+          "hidden": []
+        },
+        {
+          "tag": "IMG",
+          "text": "\u0642\u0648\u0627\u0644\u0628 \u0642\u0627\u0628\u0644\u0629 \u0644\u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0644\u0644\u0639\u0645\u0644 \u0627\u0644\u064a\u0648\u0645\u064a.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "\u0639\u0631\u0636 \u0645\u0646 \u0627\u0644\u0645\u0646\u062a\u062c \u0646\u0641\u0633\u0647 \u00b7 \u0628\u064a\u0627\u0646\u0627\u062a \u062a\u062c\u0631\u064a\u0628\u064a\u0629 \u00b7 \u0648\u0627\u062c\u0647\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629. \u0627\u0644\u0623\u0631\u0642\u0627\u0645 \u0644\u064a\u0633\u062a \u0646\u062a\u0627\u0626\u062c \u0639\u0645\u0644\u0627\u0621.",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0639\u0631\u0636 \u0628\u0627\u0644\u062d\u062c\u0645 \u0627\u0644\u0643\u0627\u0645\u0644 \u2197",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "proofImage": {
+        "complete": true,
+        "naturalWidth": 390
+      },
+      "demoDestination": "/ar/demo"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "light": false,
+      "route": "/product",
+      "h1": "\u0627\u0644\u0623\u0641\u0631\u0627\u062f \u0648\u0627\u0644\u0648\u0631\u062f\u064a\u0627\u062a \u0648\u0627\u0644\u0623\u062f\u0627\u0621. \u0645\u0646\u0635\u0629 \u0648\u0627\u062d\u062f\u0629 \u0645\u062a\u0631\u0627\u0628\u0637\u0629.",
+      "opening": [
+        {
+          "tag": "H1",
+          "text": "\u0627\u0644\u0623\u0641\u0631\u0627\u062f \u0648\u0627\u0644\u0648\u0631\u062f\u064a\u0627\u062a \u0648\u0627\u0644\u0623\u062f\u0627\u0621. \u0645\u0646\u0635\u0629 \u0648\u0627\u062d\u062f\u0629 \u0645\u062a\u0631\u0627\u0628\u0637\u0629.",
+          "hidden": []
+        },
+        {
+          "tag": "P",
+          "text": "\u0627\u0633\u062a\u062e\u062f\u0645 Crew \u0644\u0644\u062c\u062f\u0648\u0644\u0629 \u0648\u0627\u0644\u062d\u0636\u0648\u0631 \u0648\u0627\u0644\u0645\u0647\u0627\u0645 \u0648\u062a\u0633\u0644\u064a\u0645 \u0627\u0644\u0648\u0631\u062f\u064a\u0627\u062a \u0648\u0633\u062c\u0644\u0627\u062a \u0627\u0644\u0645\u0648\u0638\u0641\u064a\u0646 \u0648\u0627\u0644\u0631\u0648\u0627\u062a\u0628. \u0648\u0627\u0633\u062a\u062e\u062f\u0645 Core \u0644\u0631\u0628\u0637 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0634\u063a\u064a\u0644 \u0648\u0641\u0647\u0645 \u062a\u063a\u064a\u0631",
+          "hidden": []
+        },
+        {
+          "tag": "A",
+          "text": "\u0627\u0644\u0623\u0633\u0639\u0627\u0631",
+          "hidden": []
+        },
+        {
+          "tag": "BUTTON",
+          "text": "\u0627\u062d\u062c\u0632 \u0639\u0631\u0636\u0627\u064b",
+          "hidden": []
+        }
+      ],
+      "overflow": false,
+      "demoDestination": "/ar/demo"
+    }
+  ],
+  "errors": []
+}

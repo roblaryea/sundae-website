@@ -84,12 +84,15 @@ export function PageHero({
   description,
   children,
   compactMobileTop = false,
+  visibleOnServer = false,
 }: {
   badge?: string;
   title: React.ReactNode;
   description: string;
   children?: React.ReactNode;
   compactMobileTop?: boolean;
+  /** Opt in for an opening that must remain readable before hydration. */
+  visibleOnServer?: boolean;
 }) {
   return (
     <section className="relative overflow-hidden bg-mesh">
@@ -99,7 +102,7 @@ export function PageHero({
       <div className={`relative z-10 max-w-5xl mx-auto px-6 pb-20 text-center ${compactMobileTop ? 'pt-[5.5rem] sm:pt-32' : 'pt-32'}`}>
         {badge && (
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={visibleOnServer ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
@@ -110,7 +113,7 @@ export function PageHero({
         )}
 
         <motion.h1
-          initial={{ opacity: 0, y: 30 }}
+          initial={visibleOnServer ? false : { opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.8,
@@ -123,7 +126,7 @@ export function PageHero({
         </motion.h1>
 
         <motion.p
-          initial={{ opacity: 0, y: 30 }}
+          initial={visibleOnServer ? false : { opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.8,
@@ -137,7 +140,7 @@ export function PageHero({
 
         {children && (
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={visibleOnServer ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               duration: 0.6,

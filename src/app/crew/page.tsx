@@ -651,20 +651,20 @@ export default function CrewPage() {
 
           <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-12 items-center">
             <div>
-              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
+              <motion.div initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
                 <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)]">
                   {copy.badge}
                 </span>
               </motion.div>
-              <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
+              <motion.h1 initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
                 <span className="text-[var(--text-primary)]">{copy.heroLine1}</span>{" "}
                 <br />
                 <span className="italic text-[var(--text-warm)]">{copy.heroLine2}</span>
               </motion.h1>
-              <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-8">
+              <motion.p initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-8">
                 {copy.description}
               </motion.p>
-              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
+              <motion.div initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
                   <Button href={getLocalizedPathname("/demo", locale)} variant="primary" size="lg" trackingLabel="crew_hub_hero_primary" trackingMetadata={{ destination: "/demo" }}>
                     {copy.primaryCta}
                   </Button>
@@ -675,7 +675,7 @@ export default function CrewPage() {
 
               {/* Hero proof strip - quantified depth of the multi-region payroll shipment */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.45 }}
                 className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-xl"
@@ -688,7 +688,7 @@ export default function CrewPage() {
                 ))}
               </motion.div>
             </div>
-            <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }} className="lg:pl-4" style={{ perspective: "1200px" }}>
+            <motion.div initial={false} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }} className="lg:pl-4" style={{ perspective: "1200px" }}>
               <motion.div initial={{ rotateX: 6 }} animate={{ rotateX: 1.5 }} transition={{ duration: 1.2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}>
                 <figure data-crew-hero-proof>
                   <div className="overflow-hidden rounded-2xl border brand-proof-frame bg-[#FAF7F2] shadow-[var(--shadow-xl)]">

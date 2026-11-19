@@ -1,0 +1,1778 @@
+[
+  {
+    "js": false,
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "Know why sales and costs change.\nDecide what to do next.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "Core brings your operating data, peer comparisons and relevant market signals together to explain changes in sales, costs and profit. Ask questions, explore forecasts, assign the next action and check whether it helped.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "Explore Core Tiers",
+        "painted": true,
+        "width": 216.109375,
+        "scrollWidth": 216,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Book a Demo",
+        "painted": true,
+        "width": 173.984375,
+        "scrollWidth": 172,
+        "href": null
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "Manage your people.\nRun the shift.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "description": {
+      "text": "Workforce and daily operations for hospitality and food-service groups. Build schedules, track attendance and manage tasks, handovers, people records and payroll across locations.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "actions": [
+      {
+        "text": "Book a Crew Walkthrough",
+        "painted": true,
+        "width": 277,
+        "scrollWidth": 277,
+        "href": "/demo"
+      },
+      {
+        "text": "See Sundae in practice",
+        "painted": true,
+        "width": 251.3203125,
+        "scrollWidth": 249,
+        "href": "/results#crew-workflows"
+      },
+      {
+        "text": "Open full-size view ↗",
+        "painted": true,
+        "width": 137.01300048828125,
+        "scrollWidth": 133,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/crew",
+    "proof": {
+      "text": "Native product view · Demo data · English interface. Figures are not customer results.\n\nOpen full-size view ↗",
+      "painted": true,
+      "width": 743.5859985351562,
+      "scrollWidth": 729,
+      "imageLoaded": true,
+      "caption": {
+        "text": "Native product view · Demo data · English interface. Figures are not customer results.\n\nOpen full-size view ↗",
+        "painted": true,
+        "width": 743.5859985351562,
+        "scrollWidth": 729
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "People, shifts and performance.\nOne connected platform.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "Use Crew for scheduling, attendance, tasks, handovers, people records and payroll. Use Core to connect operating data, understand changes in sales and costs, anticipate risks and check the results of your actions. Start with either family or bring them together.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "Pricing",
+        "painted": true,
+        "width": 119.0078125,
+        "scrollWidth": 119,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Book a Working Session",
+        "painted": true,
+        "width": 261.0390625,
+        "scrollWidth": 259,
+        "href": null
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "en",
+    "width": 390,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "Know why sales and costs change.\nDecide what to do next.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "description": {
+      "text": "Core brings your operating data, peer comparisons and relevant market signals together to explain changes in sales, costs and profit. Ask questions, explore forecasts, assign the next action and check whether it helped.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "actions": [
+      {
+        "text": "Explore Core Tiers",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 342,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Book a Demo",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 340,
+        "href": null
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "en",
+    "width": 390,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "Manage your people.\nRun the shift.",
+      "painted": true,
+      "width": 358,
+      "scrollWidth": 358
+    },
+    "description": {
+      "text": "Workforce and daily operations for hospitality and food-service groups. Build schedules, track attendance and manage tasks, handovers, people records and payroll across locations.",
+      "painted": true,
+      "width": 358,
+      "scrollWidth": 358
+    },
+    "actions": [
+      {
+        "text": "Book a Crew Walkthrough",
+        "painted": true,
+        "width": 358,
+        "scrollWidth": 358,
+        "href": "/demo"
+      },
+      {
+        "text": "See Sundae in practice",
+        "painted": true,
+        "width": 358,
+        "scrollWidth": 356,
+        "href": "/results#crew-workflows"
+      },
+      {
+        "text": "Open full-size view ↗",
+        "painted": true,
+        "width": 135.352294921875,
+        "scrollWidth": 133,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/crew",
+    "proof": {
+      "text": "Native product view · Demo data · English interface. Figures are not customer results.\n\nOpen full-size view ↗",
+      "painted": true,
+      "width": 362.63720703125,
+      "scrollWidth": 358,
+      "imageLoaded": true,
+      "caption": {
+        "text": "Native product view · Demo data · English interface. Figures are not customer results.\n\nOpen full-size view ↗",
+        "painted": true,
+        "width": 362.63720703125,
+        "scrollWidth": 358
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "en",
+    "width": 390,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "People, shifts and performance.\nOne connected platform.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "description": {
+      "text": "Use Crew for scheduling, attendance, tasks, handovers, people records and payroll. Use Core to connect operating data, understand changes in sales and costs, anticipate risks and check the results of your actions. Start with either family or bring them together.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "actions": [
+      {
+        "text": "Pricing",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 342,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Book a Working Session",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 340,
+        "href": null
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "Begrijp waarom verkoop en kosten veranderen.\nKies de volgende stap.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "Core brengt je bedrijfsgegevens, vergelijkingen met soortgelijke bedrijven en relevante marktsignalen samen om veranderingen in verkoop, kosten en winst te verklaren. Stel vragen, bekijk prognoses, wijs een actie toe en controleer of die hielp.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "Ontdek Core Tiers",
+        "painted": true,
+        "width": 213.4453125,
+        "scrollWidth": 213,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Boek een Demo",
+        "painted": true,
+        "width": 193.1171875,
+        "scrollWidth": 191,
+        "href": null
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "Regel je team.\nDraai de shift.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "description": {
+      "text": "Personeel en dagelijkse bedrijfsvoering voor horeca- en foodservicegroepen. Maak roosters, volg aanwezigheid en beheer taken, overdrachten, personeelsdossiers en salarisverwerking over vestigingen heen.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "actions": [
+      {
+        "text": "Boek een Crew Rondleiding",
+        "painted": true,
+        "width": 285.8984375,
+        "scrollWidth": 286,
+        "href": "/nl/demo"
+      },
+      {
+        "text": "Zie Sundae in de praktijk",
+        "painted": true,
+        "width": 266.8125,
+        "scrollWidth": 265,
+        "href": "/nl/results#crew-workflows"
+      },
+      {
+        "text": "Open op volledig formaat ↗",
+        "painted": true,
+        "width": 179.380615234375,
+        "scrollWidth": 175,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/crew",
+    "proof": {
+      "text": "Werkelijke productweergave · Demogegevens · Engelstalige interface. De cijfers zijn geen klantresultaten.\n\nOpen op volledig formaat ↗",
+      "painted": true,
+      "width": 743.5859985351562,
+      "scrollWidth": 729,
+      "imageLoaded": true,
+      "caption": {
+        "text": "Werkelijke productweergave · Demogegevens · Engelstalige interface. De cijfers zijn geen klantresultaten.\n\nOpen op volledig formaat ↗",
+        "painted": true,
+        "width": 743.5859985351562,
+        "scrollWidth": 729
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "Mensen, diensten en prestaties.\nEén verbonden platform.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "Gebruik Crew voor roosters, aanwezigheid, taken, overdrachten, personeelsdossiers en salarisverwerking. Gebruik Core om gegevens te verbinden, verkoop- en kostenveranderingen te begrijpen, risico’s te voorzien en resultaten van acties te controleren. Begin met één productfamilie of combineer beide.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "Prijzen",
+        "painted": true,
+        "width": 118.375,
+        "scrollWidth": 118,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Boek een demo",
+        "painted": true,
+        "width": 191.359375,
+        "scrollWidth": 189,
+        "href": null
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "nl",
+    "width": 320,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "Begrijp waarom verkoop en kosten veranderen.\nKies de volgende stap.",
+      "painted": true,
+      "width": 272,
+      "scrollWidth": 272
+    },
+    "description": {
+      "text": "Core brengt je bedrijfsgegevens, vergelijkingen met soortgelijke bedrijven en relevante marktsignalen samen om veranderingen in verkoop, kosten en winst te verklaren. Stel vragen, bekijk prognoses, wijs een actie toe en controleer of die hielp.",
+      "painted": true,
+      "width": 272,
+      "scrollWidth": 272
+    },
+    "actions": [
+      {
+        "text": "Ontdek Core Tiers",
+        "painted": true,
+        "width": 272,
+        "scrollWidth": 272,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Boek een Demo",
+        "painted": true,
+        "width": 272,
+        "scrollWidth": 270,
+        "href": null
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 320,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "nl",
+    "width": 320,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "Regel je team.\nDraai de shift.",
+      "painted": true,
+      "width": 288,
+      "scrollWidth": 288
+    },
+    "description": {
+      "text": "Personeel en dagelijkse bedrijfsvoering voor horeca- en foodservicegroepen. Maak roosters, volg aanwezigheid en beheer taken, overdrachten, personeelsdossiers en salarisverwerking over vestigingen heen.",
+      "painted": true,
+      "width": 288,
+      "scrollWidth": 288
+    },
+    "actions": [
+      {
+        "text": "Boek een Crew Rondleiding",
+        "painted": true,
+        "width": 288,
+        "scrollWidth": 288,
+        "href": "/nl/demo"
+      },
+      {
+        "text": "Zie Sundae in de praktijk",
+        "painted": true,
+        "width": 288,
+        "scrollWidth": 286,
+        "href": "/nl/results#crew-workflows"
+      },
+      {
+        "text": "Open op volledig formaat ↗",
+        "painted": true,
+        "width": 177.320556640625,
+        "scrollWidth": 175,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 320,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/crew",
+    "proof": {
+      "text": "Werkelijke productweergave · Demogegevens · Engelstalige interface. De cijfers zijn geen klantresultaten.\n\nOpen op volledig formaat ↗",
+      "painted": true,
+      "width": 291.58465576171875,
+      "scrollWidth": 288,
+      "imageLoaded": true,
+      "caption": {
+        "text": "Werkelijke productweergave · Demogegevens · Engelstalige interface. De cijfers zijn geen klantresultaten.\n\nOpen op volledig formaat ↗",
+        "painted": true,
+        "width": 291.58465576171875,
+        "scrollWidth": 288
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "nl",
+    "width": 320,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "Mensen, diensten en prestaties.\nEén verbonden platform.",
+      "painted": true,
+      "width": 272,
+      "scrollWidth": 272
+    },
+    "description": {
+      "text": "Gebruik Crew voor roosters, aanwezigheid, taken, overdrachten, personeelsdossiers en salarisverwerking. Gebruik Core om gegevens te verbinden, verkoop- en kostenveranderingen te begrijpen, risico’s te voorzien en resultaten van acties te controleren. Begin met één productfamilie of combineer beide.",
+      "painted": true,
+      "width": 272,
+      "scrollWidth": 272
+    },
+    "actions": [
+      {
+        "text": "Prijzen",
+        "painted": true,
+        "width": 272,
+        "scrollWidth": 272,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Boek een demo",
+        "painted": true,
+        "width": 272,
+        "scrollWidth": 270,
+        "href": null
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 320,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "ar",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "اعرف لماذا تتغير المبيعات والتكاليف.\nوحدد الخطوة التالية.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "يجمع Core بيانات التشغيل ومقارنات المشغّلين المشابهين وإشارات السوق ذات الصلة لشرح تغيرات المبيعات والتكاليف والأرباح. اطرح الأسئلة واستكشف التوقعات وعيّن الإجراء التالي وتحقق مما إذا كان قد ساعد.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "استعرض مستويات Core",
+        "painted": true,
+        "width": 217.703125,
+        "scrollWidth": 218,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "احجز عرضاً",
+        "painted": true,
+        "width": 140.5390625,
+        "scrollWidth": 139,
+        "href": null
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "ar",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "نظّم طاقمك.\nأدِر الشيفت.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "description": {
+      "text": "إدارة الكوادر والعمليات اليومية لمجموعات الضيافة وخدمات الطعام. أنشئ الجداول وتابع الحضور وأدِر المهام وتسليم الورديات وسجلات الموظفين والرواتب عبر المواقع.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "actions": [
+      {
+        "text": "احجز جولة Crew",
+        "painted": true,
+        "width": 176.3125,
+        "scrollWidth": 176,
+        "href": "/ar/demo"
+      },
+      {
+        "text": "شاهد Sundae في التطبيق",
+        "painted": true,
+        "width": 226.0078125,
+        "scrollWidth": 224,
+        "href": "/ar/results#crew-workflows"
+      },
+      {
+        "text": "عرض بالحجم الكامل ↗",
+        "painted": true,
+        "width": 111.617919921875,
+        "scrollWidth": 108,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/crew",
+    "proof": {
+      "text": "عرض من المنتج نفسه · بيانات تجريبية · واجهة إنجليزية. الأرقام ليست نتائج عملاء.\n\nعرض بالحجم الكامل ↗",
+      "painted": true,
+      "width": 743.5859375,
+      "scrollWidth": 729,
+      "imageLoaded": true,
+      "caption": {
+        "text": "عرض من المنتج نفسه · بيانات تجريبية · واجهة إنجليزية. الأرقام ليست نتائج عملاء.\n\nعرض بالحجم الكامل ↗",
+        "painted": true,
+        "width": 743.5859375,
+        "scrollWidth": 729
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "ar",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "الأفراد والورديات والأداء.\nمنصة واحدة مترابطة.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "استخدم Crew للجدولة والحضور والمهام وتسليم الورديات وسجلات الموظفين والرواتب. واستخدم Core لربط بيانات التشغيل وفهم تغيرات المبيعات والتكاليف واستباق المخاطر والتحقق من نتائج الإجراءات. ابدأ بإحدى عائلتي المنتجات أو اجمعهما.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "الأسعار",
+        "painted": true,
+        "width": 107.4921875,
+        "scrollWidth": 107,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "احجز عرضاً",
+        "painted": true,
+        "width": 140.5390625,
+        "scrollWidth": 139,
+        "href": null
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "اعرف لماذا تتغير المبيعات والتكاليف.\nوحدد الخطوة التالية.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "description": {
+      "text": "يجمع Core بيانات التشغيل ومقارنات المشغّلين المشابهين وإشارات السوق ذات الصلة لشرح تغيرات المبيعات والتكاليف والأرباح. اطرح الأسئلة واستكشف التوقعات وعيّن الإجراء التالي وتحقق مما إذا كان قد ساعد.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "actions": [
+      {
+        "text": "استعرض مستويات Core",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 342,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "احجز عرضاً",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 340,
+        "href": null
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "نظّم طاقمك.\nأدِر الشيفت.",
+      "painted": true,
+      "width": 358,
+      "scrollWidth": 358
+    },
+    "description": {
+      "text": "إدارة الكوادر والعمليات اليومية لمجموعات الضيافة وخدمات الطعام. أنشئ الجداول وتابع الحضور وأدِر المهام وتسليم الورديات وسجلات الموظفين والرواتب عبر المواقع.",
+      "painted": true,
+      "width": 358,
+      "scrollWidth": 358
+    },
+    "actions": [
+      {
+        "text": "احجز جولة Crew",
+        "painted": true,
+        "width": 358,
+        "scrollWidth": 358,
+        "href": "/ar/demo"
+      },
+      {
+        "text": "شاهد Sundae في التطبيق",
+        "painted": true,
+        "width": 358,
+        "scrollWidth": 356,
+        "href": "/ar/results#crew-workflows"
+      },
+      {
+        "text": "عرض بالحجم الكامل ↗",
+        "painted": true,
+        "width": 110.07122802734375,
+        "scrollWidth": 108,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/crew",
+    "proof": {
+      "text": "عرض من المنتج نفسه · بيانات تجريبية · واجهة إنجليزية. الأرقام ليست نتائج عملاء.\n\nعرض بالحجم الكامل ↗",
+      "painted": true,
+      "width": 362.63720703125,
+      "scrollWidth": 358,
+      "imageLoaded": true,
+      "caption": {
+        "text": "عرض من المنتج نفسه · بيانات تجريبية · واجهة إنجليزية. الأرقام ليست نتائج عملاء.\n\nعرض بالحجم الكامل ↗",
+        "painted": true,
+        "width": 362.63720703125,
+        "scrollWidth": 358
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": false,
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "الأفراد والورديات والأداء.\nمنصة واحدة مترابطة.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "description": {
+      "text": "استخدم Crew للجدولة والحضور والمهام وتسليم الورديات وسجلات الموظفين والرواتب. واستخدم Core لربط بيانات التشغيل وفهم تغيرات المبيعات والتكاليف واستباق المخاطر والتحقق من نتائج الإجراءات. ابدأ بإحدى عائلتي المنتجات أو اجمعهما.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "actions": [
+      {
+        "text": "الأسعار",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 342,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "احجز عرضاً",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 340,
+        "href": null
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "Know why sales and costs change.\nDecide what to do next.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "Core brings your operating data, peer comparisons and relevant market signals together to explain changes in sales, costs and profit. Ask questions, explore forecasts, assign the next action and check whether it helped.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "Explore Core Tiers",
+        "painted": true,
+        "width": 216.109375,
+        "scrollWidth": 216,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Book a Demo",
+        "painted": true,
+        "width": 173.984375,
+        "scrollWidth": 172,
+        "href": null
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "Manage your people.\nRun the shift.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "description": {
+      "text": "Workforce and daily operations for hospitality and food-service groups. Build schedules, track attendance and manage tasks, handovers, people records and payroll across locations.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "actions": [
+      {
+        "text": "Book a Crew Walkthrough",
+        "painted": true,
+        "width": 277,
+        "scrollWidth": 277,
+        "href": "/demo"
+      },
+      {
+        "text": "See Sundae in practice",
+        "painted": true,
+        "width": 251.3203125,
+        "scrollWidth": 249,
+        "href": "/results#crew-workflows"
+      },
+      {
+        "text": "Open full-size view ↗",
+        "painted": true,
+        "width": 137.01300048828125,
+        "scrollWidth": 133,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/crew",
+    "proof": {
+      "text": "Native product view · Demo data · English interface. Figures are not customer results.\n\nOpen full-size view ↗",
+      "painted": true,
+      "width": 743.5859985351562,
+      "scrollWidth": 729,
+      "imageLoaded": true,
+      "caption": {
+        "text": "Native product view · Demo data · English interface. Figures are not customer results.\n\nOpen full-size view ↗",
+        "painted": true,
+        "width": 743.5859985351562,
+        "scrollWidth": 729
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "People, shifts and performance.\nOne connected platform.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "Use Crew for scheduling, attendance, tasks, handovers, people records and payroll. Use Core to connect operating data, understand changes in sales and costs, anticipate risks and check the results of your actions. Start with either family or bring them together.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "Pricing",
+        "painted": true,
+        "width": 119.0078125,
+        "scrollWidth": 119,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Book a Working Session",
+        "painted": true,
+        "width": 261.0390625,
+        "scrollWidth": 259,
+        "href": null
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "en",
+    "width": 390,
+    "theme": "light",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "Know why sales and costs change.\nDecide what to do next.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "description": {
+      "text": "Core brings your operating data, peer comparisons and relevant market signals together to explain changes in sales, costs and profit. Ask questions, explore forecasts, assign the next action and check whether it helped.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "actions": [
+      {
+        "text": "Explore Core Tiers",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 342,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Book a Demo",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 340,
+        "href": null
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "en",
+    "width": 390,
+    "theme": "light",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "Manage your people.\nRun the shift.",
+      "painted": true,
+      "width": 358,
+      "scrollWidth": 358
+    },
+    "description": {
+      "text": "Workforce and daily operations for hospitality and food-service groups. Build schedules, track attendance and manage tasks, handovers, people records and payroll across locations.",
+      "painted": true,
+      "width": 358,
+      "scrollWidth": 358
+    },
+    "actions": [
+      {
+        "text": "Book a Crew Walkthrough",
+        "painted": true,
+        "width": 358,
+        "scrollWidth": 358,
+        "href": "/demo"
+      },
+      {
+        "text": "See Sundae in practice",
+        "painted": true,
+        "width": 358,
+        "scrollWidth": 356,
+        "href": "/results#crew-workflows"
+      },
+      {
+        "text": "Open full-size view ↗",
+        "painted": true,
+        "width": 135.352294921875,
+        "scrollWidth": 133,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/crew",
+    "proof": {
+      "text": "Native product view · Demo data · English interface. Figures are not customer results.\n\nOpen full-size view ↗",
+      "painted": true,
+      "width": 362.63720703125,
+      "scrollWidth": 358,
+      "imageLoaded": true,
+      "caption": {
+        "text": "Native product view · Demo data · English interface. Figures are not customer results.\n\nOpen full-size view ↗",
+        "painted": true,
+        "width": 362.63720703125,
+        "scrollWidth": 358
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "en",
+    "width": 390,
+    "theme": "light",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "People, shifts and performance.\nOne connected platform.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "description": {
+      "text": "Use Crew for scheduling, attendance, tasks, handovers, people records and payroll. Use Core to connect operating data, understand changes in sales and costs, anticipate risks and check the results of your actions. Start with either family or bring them together.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "actions": [
+      {
+        "text": "Pricing",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 342,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Book a Working Session",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 340,
+        "href": null
+      }
+    ],
+    "lang": "en",
+    "dir": "ltr",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "Begrijp waarom verkoop en kosten veranderen.\nKies de volgende stap.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "Core brengt je bedrijfsgegevens, vergelijkingen met soortgelijke bedrijven en relevante marktsignalen samen om veranderingen in verkoop, kosten en winst te verklaren. Stel vragen, bekijk prognoses, wijs een actie toe en controleer of die hielp.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "Ontdek Core Tiers",
+        "painted": true,
+        "width": 213.4453125,
+        "scrollWidth": 213,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Boek een Demo",
+        "painted": true,
+        "width": 193.1171875,
+        "scrollWidth": 191,
+        "href": null
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "Regel je team.\nDraai de shift.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "description": {
+      "text": "Personeel en dagelijkse bedrijfsvoering voor horeca- en foodservicegroepen. Maak roosters, volg aanwezigheid en beheer taken, overdrachten, personeelsdossiers en salarisverwerking over vestigingen heen.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "actions": [
+      {
+        "text": "Boek een Crew Rondleiding",
+        "painted": true,
+        "width": 285.8984375,
+        "scrollWidth": 286,
+        "href": "/nl/demo"
+      },
+      {
+        "text": "Zie Sundae in de praktijk",
+        "painted": true,
+        "width": 266.8125,
+        "scrollWidth": 265,
+        "href": "/nl/results#crew-workflows"
+      },
+      {
+        "text": "Open op volledig formaat ↗",
+        "painted": true,
+        "width": 179.380615234375,
+        "scrollWidth": 175,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/crew",
+    "proof": {
+      "text": "Werkelijke productweergave · Demogegevens · Engelstalige interface. De cijfers zijn geen klantresultaten.\n\nOpen op volledig formaat ↗",
+      "painted": true,
+      "width": 743.5859985351562,
+      "scrollWidth": 729,
+      "imageLoaded": true,
+      "caption": {
+        "text": "Werkelijke productweergave · Demogegevens · Engelstalige interface. De cijfers zijn geen klantresultaten.\n\nOpen op volledig formaat ↗",
+        "painted": true,
+        "width": 743.5859985351562,
+        "scrollWidth": 729
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "nl",
+    "width": 1440,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "Mensen, diensten en prestaties.\nEén verbonden platform.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "Gebruik Crew voor roosters, aanwezigheid, taken, overdrachten, personeelsdossiers en salarisverwerking. Gebruik Core om gegevens te verbinden, verkoop- en kostenveranderingen te begrijpen, risico’s te voorzien en resultaten van acties te controleren. Begin met één productfamilie of combineer beide.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "Prijzen",
+        "painted": true,
+        "width": 118.375,
+        "scrollWidth": 118,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Boek een demo",
+        "painted": true,
+        "width": 191.359375,
+        "scrollWidth": 189,
+        "href": null
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "nl",
+    "width": 320,
+    "theme": "light",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "Begrijp waarom verkoop en kosten veranderen.\nKies de volgende stap.",
+      "painted": true,
+      "width": 272,
+      "scrollWidth": 272
+    },
+    "description": {
+      "text": "Core brengt je bedrijfsgegevens, vergelijkingen met soortgelijke bedrijven en relevante marktsignalen samen om veranderingen in verkoop, kosten en winst te verklaren. Stel vragen, bekijk prognoses, wijs een actie toe en controleer of die hielp.",
+      "painted": true,
+      "width": 272,
+      "scrollWidth": 272
+    },
+    "actions": [
+      {
+        "text": "Ontdek Core Tiers",
+        "painted": true,
+        "width": 272,
+        "scrollWidth": 272,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Boek een Demo",
+        "painted": true,
+        "width": 272,
+        "scrollWidth": 270,
+        "href": null
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 320,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "nl",
+    "width": 320,
+    "theme": "light",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "Regel je team.\nDraai de shift.",
+      "painted": true,
+      "width": 288,
+      "scrollWidth": 288
+    },
+    "description": {
+      "text": "Personeel en dagelijkse bedrijfsvoering voor horeca- en foodservicegroepen. Maak roosters, volg aanwezigheid en beheer taken, overdrachten, personeelsdossiers en salarisverwerking over vestigingen heen.",
+      "painted": true,
+      "width": 288,
+      "scrollWidth": 288
+    },
+    "actions": [
+      {
+        "text": "Boek een Crew Rondleiding",
+        "painted": true,
+        "width": 288,
+        "scrollWidth": 288,
+        "href": "/nl/demo"
+      },
+      {
+        "text": "Zie Sundae in de praktijk",
+        "painted": true,
+        "width": 288,
+        "scrollWidth": 286,
+        "href": "/nl/results#crew-workflows"
+      },
+      {
+        "text": "Open op volledig formaat ↗",
+        "painted": true,
+        "width": 177.320556640625,
+        "scrollWidth": 175,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 320,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/crew",
+    "proof": {
+      "text": "Werkelijke productweergave · Demogegevens · Engelstalige interface. De cijfers zijn geen klantresultaten.\n\nOpen op volledig formaat ↗",
+      "painted": true,
+      "width": 291.58465576171875,
+      "scrollWidth": 288,
+      "imageLoaded": true,
+      "caption": {
+        "text": "Werkelijke productweergave · Demogegevens · Engelstalige interface. De cijfers zijn geen klantresultaten.\n\nOpen op volledig formaat ↗",
+        "painted": true,
+        "width": 291.58465576171875,
+        "scrollWidth": 288
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "nl",
+    "width": 320,
+    "theme": "light",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "Mensen, diensten en prestaties.\nEén verbonden platform.",
+      "painted": true,
+      "width": 272,
+      "scrollWidth": 272
+    },
+    "description": {
+      "text": "Gebruik Crew voor roosters, aanwezigheid, taken, overdrachten, personeelsdossiers en salarisverwerking. Gebruik Core om gegevens te verbinden, verkoop- en kostenveranderingen te begrijpen, risico’s te voorzien en resultaten van acties te controleren. Begin met één productfamilie of combineer beide.",
+      "painted": true,
+      "width": 272,
+      "scrollWidth": 272
+    },
+    "actions": [
+      {
+        "text": "Prijzen",
+        "painted": true,
+        "width": 272,
+        "scrollWidth": 272,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "Boek een demo",
+        "painted": true,
+        "width": 272,
+        "scrollWidth": 270,
+        "href": null
+      }
+    ],
+    "lang": "nl",
+    "dir": "ltr",
+    "scrollWidth": 320,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/nl/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "ar",
+    "width": 1440,
+    "theme": "light",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "اعرف لماذا تتغير المبيعات والتكاليف.\nوحدد الخطوة التالية.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "يجمع Core بيانات التشغيل ومقارنات المشغّلين المشابهين وإشارات السوق ذات الصلة لشرح تغيرات المبيعات والتكاليف والأرباح. اطرح الأسئلة واستكشف التوقعات وعيّن الإجراء التالي وتحقق مما إذا كان قد ساعد.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "استعرض مستويات Core",
+        "painted": true,
+        "width": 217.703125,
+        "scrollWidth": 218,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "احجز عرضاً",
+        "painted": true,
+        "width": 140.5390625,
+        "scrollWidth": 139,
+        "href": null
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "ar",
+    "width": 1440,
+    "theme": "light",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "نظّم طاقمك.\nأدِر الشيفت.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "description": {
+      "text": "إدارة الكوادر والعمليات اليومية لمجموعات الضيافة وخدمات الطعام. أنشئ الجداول وتابع الحضور وأدِر المهام وتسليم الورديات وسجلات الموظفين والرواتب عبر المواقع.",
+      "painted": true,
+      "width": 487.0625,
+      "scrollWidth": 487
+    },
+    "actions": [
+      {
+        "text": "احجز جولة Crew",
+        "painted": true,
+        "width": 176.3125,
+        "scrollWidth": 176,
+        "href": "/ar/demo"
+      },
+      {
+        "text": "شاهد Sundae في التطبيق",
+        "painted": true,
+        "width": 226.0078125,
+        "scrollWidth": 224,
+        "href": "/ar/results#crew-workflows"
+      },
+      {
+        "text": "عرض بالحجم الكامل ↗",
+        "painted": true,
+        "width": 109.1837158203125,
+        "scrollWidth": 108,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/crew",
+    "proof": {
+      "text": "عرض من المنتج نفسه · بيانات تجريبية · واجهة إنجليزية. الأرقام ليست نتائج عملاء.\n\nعرض بالحجم الكامل ↗",
+      "painted": true,
+      "width": 732.5514526367188,
+      "scrollWidth": 729,
+      "imageLoaded": true,
+      "caption": {
+        "text": "عرض من المنتج نفسه · بيانات تجريبية · واجهة إنجليزية. الأرقام ليست نتائج عملاء.\n\nعرض بالحجم الكامل ↗",
+        "painted": true,
+        "width": 732.5514526367188,
+        "scrollWidth": 729
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "ar",
+    "width": 1440,
+    "theme": "light",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "الأفراد والورديات والأداء.\nمنصة واحدة مترابطة.",
+      "painted": true,
+      "width": 976,
+      "scrollWidth": 976
+    },
+    "description": {
+      "text": "استخدم Crew للجدولة والحضور والمهام وتسليم الورديات وسجلات الموظفين والرواتب. واستخدم Core لربط بيانات التشغيل وفهم تغيرات المبيعات والتكاليف واستباق المخاطر والتحقق من نتائج الإجراءات. ابدأ بإحدى عائلتي المنتجات أو اجمعهما.",
+      "painted": true,
+      "width": 672,
+      "scrollWidth": 672
+    },
+    "actions": [
+      {
+        "text": "الأسعار",
+        "painted": true,
+        "width": 107.4921875,
+        "scrollWidth": 107,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "احجز عرضاً",
+        "painted": true,
+        "width": 140.5390625,
+        "scrollWidth": 139,
+        "href": null
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 1440,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/product",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/core",
+    "status": 200,
+    "title": {
+      "text": "اعرف لماذا تتغير المبيعات والتكاليف.\nوحدد الخطوة التالية.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "description": {
+      "text": "يجمع Core بيانات التشغيل ومقارنات المشغّلين المشابهين وإشارات السوق ذات الصلة لشرح تغيرات المبيعات والتكاليف والأرباح. اطرح الأسئلة واستكشف التوقعات وعيّن الإجراء التالي وتحقق مما إذا كان قد ساعد.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "actions": [
+      {
+        "text": "استعرض مستويات Core",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 342,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "احجز عرضاً",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 340,
+        "href": null
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/core",
+    "proof": null,
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/crew",
+    "status": 200,
+    "title": {
+      "text": "نظّم طاقمك.\nأدِر الشيفت.",
+      "painted": true,
+      "width": 358,
+      "scrollWidth": 358
+    },
+    "description": {
+      "text": "إدارة الكوادر والعمليات اليومية لمجموعات الضيافة وخدمات الطعام. أنشئ الجداول وتابع الحضور وأدِر المهام وتسليم الورديات وسجلات الموظفين والرواتب عبر المواقع.",
+      "painted": true,
+      "width": 358,
+      "scrollWidth": 358
+    },
+    "actions": [
+      {
+        "text": "احجز جولة Crew",
+        "painted": true,
+        "width": 358,
+        "scrollWidth": 358,
+        "href": "/ar/demo"
+      },
+      {
+        "text": "شاهد Sundae في التطبيق",
+        "painted": true,
+        "width": 358,
+        "scrollWidth": 356,
+        "href": "/ar/results#crew-workflows"
+      },
+      {
+        "text": "عرض بالحجم الكامل ↗",
+        "painted": true,
+        "width": 110.07122802734375,
+        "scrollWidth": 108,
+        "href": "/images/product/native-2026-11-16/tasks.png"
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/crew",
+    "proof": {
+      "text": "عرض من المنتج نفسه · بيانات تجريبية · واجهة إنجليزية. الأرقام ليست نتائج عملاء.\n\nعرض بالحجم الكامل ↗",
+      "painted": true,
+      "width": 362.63720703125,
+      "scrollWidth": 358,
+      "imageLoaded": true,
+      "caption": {
+        "text": "عرض من المنتج نفسه · بيانات تجريبية · واجهة إنجليزية. الأرقام ليست نتائج عملاء.\n\nعرض بالحجم الكامل ↗",
+        "painted": true,
+        "width": 362.63720703125,
+        "scrollWidth": 358
+      }
+    },
+    "errors": []
+  },
+  {
+    "js": true,
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "route": "/product",
+    "status": 200,
+    "title": {
+      "text": "الأفراد والورديات والأداء.\nمنصة واحدة مترابطة.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "description": {
+      "text": "استخدم Crew للجدولة والحضور والمهام وتسليم الورديات وسجلات الموظفين والرواتب. واستخدم Core لربط بيانات التشغيل وفهم تغيرات المبيعات والتكاليف واستباق المخاطر والتحقق من نتائج الإجراءات. ابدأ بإحدى عائلتي المنتجات أو اجمعهما.",
+      "painted": true,
+      "width": 342,
+      "scrollWidth": 342
+    },
+    "actions": [
+      {
+        "text": "الأسعار",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 342,
+        "href": "https://pricing.sundae.io"
+      },
+      {
+        "text": "احجز عرضاً",
+        "painted": true,
+        "width": 342,
+        "scrollWidth": 340,
+        "href": null
+      }
+    ],
+    "lang": "ar",
+    "dir": "rtl",
+    "scrollWidth": 390,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/ar/product",
+    "proof": null,
+    "errors": []
+  }
+]

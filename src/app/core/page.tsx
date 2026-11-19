@@ -668,6 +668,7 @@ export default function CoreProductPage() {
     <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero */}
       <PageHero
+        visibleOnServer
         badge={`${ui.hero.badge} · ${operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.eyebrow}`}
         title={<OperatorOpeningTitle text={openingCopy[locale as keyof typeof openingCopy].coreTitle} accent={openingCopy[locale as keyof typeof openingCopy].coreAccent} />}
         description={openingCopy[locale as keyof typeof openingCopy].coreDescription}
