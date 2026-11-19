@@ -1,7 +1,6 @@
 'use client';
 
 import bodyCopy from '@/content/buyer-clarity/home.json';
-import { OperatingContext } from '@/components/product/OperatingContext';
 import depthCopy from '@/content/operator-depth.json';
 import audienceCopy from '@/content/operator-audiences.json';
 
@@ -139,7 +138,6 @@ export default function HomeContent() {
             label: ["Sundae", "Core + Crew", "Core", proofCopy[locale as keyof typeof proofCopy].whySundae, (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[5], (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[6]][i],
           }))}
         />
-        <OperatingContext />
         {/* ════════════════════════════════════════════════
             1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
