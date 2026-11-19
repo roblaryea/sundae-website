@@ -1,0 +1,112 @@
+[
+  {
+    "locale": "de",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "fr",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "nl",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "ar",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "es",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "pt",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "ur",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "hi",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "tr",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "it",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "zh-Hans",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "pl",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "ja",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "ko",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "vi",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "id",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "ro",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "bn",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "th",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "sv",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "ms",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  },
+  {
+    "locale": "en",
+    "panelsInServerHtml": 6,
+    "roleDestinations": 6
+  }
+]
