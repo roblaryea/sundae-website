@@ -1,11 +1,11 @@
 [
   {
     "source": "/brand/favicon/apple-touch-icon-180.png",
-    "destination": "/brand/icons/wordmark-180.png"
+    "destination": "/brand/icons/mark-180.png"
   },
   {
     "source": "/brand/favicon/favicon-32.png",
-    "destination": "/brand/icons/wordmark-32.png"
+    "destination": "/brand/icons/mark-32.png"
   },
   {
     "source": "/brand/logo/sundae-lockup-dark.png",
@@ -17,19 +17,19 @@
   },
   {
     "source": "/brand/logo/sundae-logo-square-1024.png",
-    "destination": "/brand/icons/wordmark-512.png"
+    "destination": "/brand/icons/mark-512.png"
   },
   {
     "source": "/brand/logo/sundae-mark-1024.png",
-    "destination": "/brand/icons/wordmark-512.png"
+    "destination": "/brand/icons/mark-512.png"
   },
   {
     "source": "/brand/logo/sundae-mark-512.png",
-    "destination": "/brand/icons/wordmark-512.png"
+    "destination": "/brand/icons/mark-512.png"
   },
   {
     "source": "/brand/logo/sundae-mark.svg",
-    "destination": "/brand/icons/wordmark-512.png"
+    "destination": "/brand/marks/sundae-mark.svg"
   },
   {
     "source": "/brand/logo/sundae-wordmark-dark.png",
@@ -41,7 +41,7 @@
   },
   {
     "source": "/logos/apple-touch-icon.png",
-    "destination": "/brand/icons/wordmark-180.png"
+    "destination": "/brand/icons/mark-180.png"
   },
   {
     "source": "/logos/og-card.png",
@@ -49,11 +49,11 @@
   },
   {
     "source": "/logos/sundae-app-icon.png",
-    "destination": "/brand/icons/wordmark-512.png"
+    "destination": "/brand/icons/mark-512.png"
   },
   {
     "source": "/logos/sundae-icon.svg",
-    "destination": "/brand/icons/wordmark-512.png"
+    "destination": "/brand/marks/sundae-mark.svg"
   },
   {
     "source": "/logos/sundae-lockup-white.svg",
@@ -65,11 +65,11 @@
   },
   {
     "source": "/logos/sundae-mark-72.png",
-    "destination": "/brand/icons/wordmark-192.png"
+    "destination": "/brand/icons/mark-192.png"
   },
   {
     "source": "/logos/sundae-mark.svg",
-    "destination": "/brand/icons/wordmark-512.png"
+    "destination": "/brand/marks/sundae-mark.svg"
   },
   {
     "source": "/logos/sundae-wordmark-card-cream.svg",
@@ -102,5 +102,25 @@
   {
     "source": "/logos/sundae-wordmark.png",
     "destination": "/brand/wordmarks/sundae-wordmark-fraunces.png"
+  },
+  {
+    "source": "/brand/icons/wordmark-16.png",
+    "destination": "/brand/icons/mark-16.png"
+  },
+  {
+    "source": "/brand/icons/wordmark-32.png",
+    "destination": "/brand/icons/mark-32.png"
+  },
+  {
+    "source": "/brand/icons/wordmark-180.png",
+    "destination": "/brand/icons/mark-180.png"
+  },
+  {
+    "source": "/brand/icons/wordmark-192.png",
+    "destination": "/brand/icons/mark-192.png"
+  },
+  {
+    "source": "/brand/icons/wordmark-512.png",
+    "destination": "/brand/icons/mark-512.png"
   }
 ]

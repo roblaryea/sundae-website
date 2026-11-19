@@ -1,6 +1,6 @@
 'use client';
 
-import { ApprovedWordmark } from "@/components/ui/ApprovedWordmark";
+import { SundaeLogotype } from "@/components/ui/SundaeLogotype";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
@@ -70,7 +70,7 @@ export default function NotFound() {
             transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
             className="relative"
           >
-            <ApprovedWordmark className="h-16 w-64" />
+            <SundaeLogotype className="text-[36px]" />
             <div className="absolute inset-0 bg-gradient-to-br from-[#FF8473]/10 to-[#F2B45C]/10 rounded-[22px] blur-xl"></div>
           </motion.div>
         </motion.div>

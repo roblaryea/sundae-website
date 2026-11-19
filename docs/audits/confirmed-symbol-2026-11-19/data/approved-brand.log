@@ -1,0 +1,15 @@
+✔ current logo downloads retain the approved original artwork and dimensions (1.240292ms)
+✔ the active download kit contains the confirmed symbol and exact wordmark originals (1.893041ms)
+✔ the confirmed symbol originals match the July release and the owner confirmation (0.869875ms)
+✔ active identity producers use supplied artwork rather than reconstructed symbols or wordmarks (277.357625ms)
+✔ the saved-contact fallback uses the confirmed square symbol (0.525208ms)
+✔ legacy email and card image URLs resolve only to approved public artwork (0.610459ms)
+✔ file-based favicons use RGBA PNG payloads accepted by the Next.js decoder (1.094375ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 373.015417

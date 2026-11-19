@@ -1,0 +1,128 @@
+[
+  {
+    "file": "booking-desktop-dark.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 72157,
+    "sha256": "cde6ab0f338bad94cd9a187bd85c62b932e4bc52c24af5f83bbca5330c4048b3"
+  },
+  {
+    "file": "booking-desktop-light.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 72024,
+    "sha256": "3fc4fbb0f89fd76fe315da479e93a806704518fa14ab7f143a56566a49aed6e7"
+  },
+  {
+    "file": "booking-mobile-dark.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 144448,
+    "sha256": "787c1acd8929444de0c26a1796884717d7d431f885562a26e0ec07d8477fce7a"
+  },
+  {
+    "file": "booking-mobile-light.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 144519,
+    "sha256": "b132dce341f9a64249836ad9970447630c04f95ef873e041470817a32bf9afa6"
+  },
+  {
+    "file": "brand-dark-1440.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 759793,
+    "sha256": "614af82698dbc082ee902a79871ee8f78f885b34aca98fd81c4e245cd6242e7a"
+  },
+  {
+    "file": "brand-dark-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 477845,
+    "sha256": "3346fb9dc520200a60b100c510d364b450d7eef2ca272784cece51f0eebe5bfa"
+  },
+  {
+    "file": "brand-light-1440.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 719173,
+    "sha256": "4ef650be65f9fd17780041c02980dc0d5056a6aefc4c1ea53f747c355ebcd7f7"
+  },
+  {
+    "file": "brand-light-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 450954,
+    "sha256": "f79d64b70b967dd6fdd09baeb2eab5b5c181628f89c2798abcf329f771b4597c"
+  },
+  {
+    "file": "diagnostic-ar-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 32630,
+    "sha256": "dec81ed03d430d5d57d1ed865941f1d688cb5ceb0517952d397502f9ae36049b"
+  },
+  {
+    "file": "footer-dark-1440.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 121693,
+    "sha256": "88c5d27a06d952e0ac2a3baf21eb523f78827475765d9bca736889edef5ac291"
+  },
+  {
+    "file": "footer-light-1440.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 120112,
+    "sha256": "d71b55b344c407c359e02712ebbc463b01e72e1d2b6b275a12495be9e18f2643"
+  },
+  {
+    "file": "home-ar-dark-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 188274,
+    "sha256": "6b314637bebe04fd1ffac7f48dae72df1f245454f8ec15fb53e46a309c3fed20"
+  },
+  {
+    "file": "home-dark-1440.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 434345,
+    "sha256": "b7968baadfe68a0f340677f555b70344b6d68ee67b653bb58002602e93c8acba"
+  },
+  {
+    "file": "home-dark-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 205478,
+    "sha256": "5a0becd069ba4fc2850e0f0902b70ed819759a56b510f595dac8210f535ebfc9"
+  },
+  {
+    "file": "home-light-1440.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 431632,
+    "sha256": "c06c46fe0c14b01030ea955d36cc8dcb10eff1b19ed4effe90328ef264ee62f0"
+  },
+  {
+    "file": "home-light-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 205174,
+    "sha256": "e4dd8733f041de071c27837ef7c42f71238fe87a0e4414083b57d8783aa37ae6"
+  },
+  {
+    "file": "menu-dark-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 35706,
+    "sha256": "e42a5d82ff726bd4d624b7140fdafcc64179bf49add34041c1eb7dbe67199472"
+  },
+  {
+    "file": "menu-light-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 33188,
+    "sha256": "18e1b59382278a15d753728cdfe3e4e693e6a9ee083f33ef5144b1fc5506230a"
+  },
+  {
+    "file": "profile-dark-1440.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 298926,
+    "sha256": "8115940f63d43e17c024173e6adb8761307de3b3c8c02f9a4d1efcf4b6677ee4"
+  },
+  {
+    "file": "profile-dark-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 134007,
+    "sha256": "f055cf0dfe47954c739cfa3bae1fa43381259aba6d95c47c9c479d3420ef21f7"
+  },
+  {
+    "file": "profile-light-390.png",
+    "sourceApplication": "26fe93d",
+    "bytes": 138577,
+    "sha256": "0ca19277cbdf69384edd078da6fa068e0e471063d3ca9f57aba07e6e439bbf47"
+  }
+]

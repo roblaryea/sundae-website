@@ -16,7 +16,7 @@ test('current logo downloads retain the approved original artwork and dimensions
   }
 });
 
-test('the active download kit contains only the two approved original PNGs', () => {
+test('the active download kit contains the confirmed symbol and exact wordmark originals', () => {
   const zip = fs.readFileSync('public/brand/sundae-brand-assets.zip');
   const entries = new Map(); let offset = 0;
   while (zip.readUInt32LE(offset) === 0x04034b50) {
@@ -26,11 +26,21 @@ test('the active download kit contains only the two approved original PNGs', () 
     const start = offset + 30 + nameLength + extra;
     entries.set(name, zip.subarray(start, start + length)); offset = start + length;
   }
-  assert.equal(entries.size, 2);
+  assert.equal(entries.size, 4);
   for (const asset of Object.values(manifest.wordmarks)) assert.deepEqual(entries.get(path.basename(asset.path)), original(asset));
+  assert.deepEqual(entries.get('sundae-mark.svg'), original(manifest.symbol));
+  assert.deepEqual(entries.get('sundae-mark-512.png'), fs.readFileSync('public/brand/icons/mark-512.png'));
 });
 
-test('active identity producers cannot import retired marks or reconstructed wordmark files', () => {
+test('the confirmed symbol originals match the July release and the owner confirmation', () => {
+  assert.equal(manifest.symbol.confirmedByOwner, '2026-11-19');
+  assert.equal(manifest.symbol.sha256, 'dff75ed182b38965d4b4c066f41152b66e1c525b92d4aac40e458a0d1909ee05');
+  for (const [assetPath, asset] of Object.entries(manifest.symbolOriginals)) {
+    assert.equal(createHash('sha256').update(fs.readFileSync(path.join('public', assetPath))).digest('hex'), asset.sha256);
+  }
+});
+
+test('active identity producers use supplied artwork rather than reconstructed symbols or wordmarks', () => {
   const retired = /SundaeMark|WordmarkCherry|\/brand\/(?:logo|banners)\/|\/logos\/(?:sundae-(?:app-icon|mark|icon|lockup|wordmark)|apple-touch-icon)|M118,46/;
   function inspect(directory) {
     for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
@@ -45,18 +55,18 @@ test('active identity producers cannot import retired marks or reconstructed wor
   for (const { formerPath } of archive) if (!regenerated.has(formerPath)) assert.equal(fs.existsSync(formerPath), false, formerPath);
 });
 
-test('the saved-contact fallback uses the same complete-wordmark square composition', () => {
+test('the saved-contact fallback uses the confirmed square symbol', () => {
   const source = fs.readFileSync('src/lib/profileAvatar.ts', 'utf8');
   const encoded = source.match(/'([A-Za-z0-9+/=]+)'/)?.[1];
   assert.ok(encoded);
-  assert.deepEqual(Buffer.from(encoded, 'base64'), fs.readFileSync('public/brand/icons/wordmark-192.png'));
+  assert.deepEqual(Buffer.from(encoded, 'base64'), fs.readFileSync('public/brand/icons/mark-192.png'));
 });
 
 test('legacy email and card image URLs resolve only to approved public artwork', () => {
   const redirects = JSON.parse(fs.readFileSync('src/lib/retiredBrandRedirects.json', 'utf8'));
   assert.equal(new Set(redirects.map(entry => entry.source)).size, redirects.length);
   for (const entry of redirects) {
-    assert.ok(/^\/brand\/(?:wordmarks|icons)\/[a-z0-9.-]+\.png$/.test(entry.destination) || (entry.source === '/logos/og-card.png' && entry.destination === '/logos/og-operations.png'));
+    assert.ok(/^\/brand\/(?:wordmarks|icons)\/[a-z0-9.-]+\.png$/.test(entry.destination) || entry.destination === manifest.symbol.path || (entry.source === '/logos/og-card.png' && entry.destination === '/logos/og-operations.png'));
     assert.ok(fs.existsSync(path.join('public', entry.destination)), entry.destination);
     assert.ok(!entry.source.includes('/banners/'), 'no blanket banner replacement');
   }

@@ -5,3 +5,6 @@ export const SUNDAE_WORDMARK = {
 } as const;
 
 export const SUNDAE_WORDMARK_SIZE = { width: 480, height: 120 } as const;
+
+/** Released July symbol, explicitly confirmed by the owner on 19 November. */
+export const SUNDAE_MARK = '/brand/marks/sundae-mark.svg';

@@ -528,10 +528,10 @@ function LogoTile({ label, dark, children }: { label: string; dark?: boolean; ch
 function LogoLab() {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 22 }}>
-      <LogoTile label="Approved original PNG: white on dark" dark>
+      <LogoTile label="Approved signature: white wordmark on dark" dark>
         <SundaeLogotype tone="cream" style={{ fontSize: 30 }} />
       </LogoTile>
-      <LogoTile label="Approved original PNG: dark on light">
+      <LogoTile label="Approved signature: dark wordmark on light">
         <SundaeLogotype tone="ink" style={{ fontSize: 30 }} />
       </LogoTile>
     </div>
@@ -692,8 +692,8 @@ export function RedesignComparison() {
         {/* logos */}
         <SectionLabel>02 · Approved wordmark</SectionLabel>
         <div style={{ fontFamily: FONT.hanken, fontSize: 13, lineHeight: 1.55, color: '#6b6259', marginBottom: 18, maxWidth: 720 }}>
-          Use only the supplied Fraunces PNGs shown below. Earlier symbol, cherry-lockup and typed-logo
-          proposals are retired; the surrounding layout studies do not propose a different identity.
+          Use the confirmed gradient S-and-cherry symbol with the supplied Fraunces PNGs shown below.
+          The surrounding historical layout studies do not propose a different identity; old blue branding and recreated wordmarks remain excluded.
         </div>
         <div style={{ marginBottom: 56 }}>
           <LogoLab />
