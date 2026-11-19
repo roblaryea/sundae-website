@@ -148,7 +148,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     },
     band2: {
       eyebrow: 'Gemaakt voor de werkvloer, niet alleen voor de bestuurskamer',
-      headline: 'Uw team beweegt al snel. Sundae beweegt mee.',
+      headline: 'Uw team beweegt snel. Sundae beweegt mee.',
       sub: 'Live tempo, personeel en uitzonderingen over elke vestiging - zodat de oplossing die u om 19.00 uur kiest wordt toegewezen, uitgevoerd en bij sluitingstijd nagemeten.',
       alt: 'Een chef werkt aan de lijn, op de pass tijdens de service',
     },

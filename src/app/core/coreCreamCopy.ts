@@ -53,7 +53,7 @@ export const coreCreamCopy: Record<string, CoreCreamCopy> = {
   },
   nl: {
     eyebrow: 'HET COMMANDOCENTRUM',
-    statement: 'Een scherm voor de *hele* zaak.',
+    statement: 'Een scherm voor het *hele* bedrijf.',
     lede: 'Pulse, benchmarks, analytics en AI - de dagelijkse basis van de operator.',
   },
   pt: {

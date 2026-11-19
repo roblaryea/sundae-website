@@ -1,0 +1,101 @@
+{
+  "results": [
+    {
+      "route": "/nl",
+      "viewportWidth": 1440,
+      "theme": "dark",
+      "text": "Zie de dag zich ontwikkelen.",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/nl",
+      "viewportWidth": 1440,
+      "theme": "dark",
+      "text": "Uw team beweegt snel. Sundae beweegt mee.",
+      "width": 672,
+      "scrollWidth": 672
+    },
+    {
+      "route": "/nl/core",
+      "viewportWidth": 1440,
+      "theme": "dark",
+      "text": "Een scherm voor het hele bedrijf.",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/nl",
+      "viewportWidth": 1440,
+      "theme": "light",
+      "text": "Zie de dag zich ontwikkelen.",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/nl",
+      "viewportWidth": 1440,
+      "theme": "light",
+      "text": "Uw team beweegt snel. Sundae beweegt mee.",
+      "width": 672,
+      "scrollWidth": 672
+    },
+    {
+      "route": "/nl/core",
+      "viewportWidth": 1440,
+      "theme": "light",
+      "text": "Een scherm voor het hele bedrijf.",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/nl",
+      "viewportWidth": 390,
+      "theme": "dark",
+      "text": "Zie de dag zich ontwikkelen.",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "route": "/nl",
+      "viewportWidth": 390,
+      "theme": "dark",
+      "text": "Uw team beweegt snel. Sundae beweegt mee.",
+      "width": 308,
+      "scrollWidth": 308
+    },
+    {
+      "route": "/nl/core",
+      "viewportWidth": 390,
+      "theme": "dark",
+      "text": "Een scherm voor het hele bedrijf.",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "route": "/nl",
+      "viewportWidth": 390,
+      "theme": "light",
+      "text": "Zie de dag zich ontwikkelen.",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "route": "/nl",
+      "viewportWidth": 390,
+      "theme": "light",
+      "text": "Uw team beweegt snel. Sundae beweegt mee.",
+      "width": 308,
+      "scrollWidth": 308
+    },
+    {
+      "route": "/nl/core",
+      "viewportWidth": 390,
+      "theme": "light",
+      "text": "Een scherm voor het hele bedrijf.",
+      "width": 358,
+      "scrollWidth": 358
+    }
+  ],
+  "errors": []
+}
