@@ -56,6 +56,9 @@ export function SectionEditorialBand({
             light={light}
             alt={alt}
             ratio={ratio}
+            // Let localized copy set the mobile/tablet frame height. The photo
+            // remains behind it; desktop retains the cinematic aspect ratio.
+            className="max-lg:aspect-auto max-lg:[&>figcaption]:relative max-lg:[&>figcaption]:min-h-80"
             overlay="text"
             rounded="rounded-[24px]"
             priority={priority}

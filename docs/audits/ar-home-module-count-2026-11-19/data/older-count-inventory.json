@@ -6,9 +6,9 @@
     "field": "aboutCopy.ar.milestones[2].title",
     "literal": "أكثر من 30 وحدة نشطة",
     "meaning": "More than 30 live modules",
-    "context": "2026 milestone, unchanged by getAboutCopy and rendered by copy.milestones. English equivalent is Full Operational Coverage Live, without a module count.",
+    "context": "2026 milestone rendered by copy.milestones. English equivalent is Full Operational Coverage Live, without a module count.",
     "category": "module-count discrepancy",
-    "status": "inventoried only; not changed"
+    "status": "corrected in this localized-consistency cut to the current nonnumeric English meaning"
   },
   {
     "file": "src/app/about/page.tsx",
@@ -17,9 +17,9 @@
     "field": "aboutCopy.ar.values[1].proof",
     "literal": "أكثر من 30 وحدة عبر 12 مجالًا تشغيليًا - من الإيرادات إلى الحجوزات.",
     "meaning": "More than 30 modules across 12 operating domains",
-    "context": "Intelligence First proof. getAboutCopy overrides values[3] only; this proof is retained. English proof describes covered operating areas without a count.",
+    "context": "Source object retains this proof, but the current About principles section renders prose.principles instead (page.tsx486). This value is not present in the rendered page.",
     "category": "module-count discrepancy",
-    "status": "inventoried only; not changed"
+    "status": "source-only historical wording, unchanged"
   },
   {
     "file": "src/app/architecture/page.tsx",
