@@ -55,3 +55,9 @@ Application source: `a0a7488b00d2277b2b834e2f8172153fd2ab8d24` on `codex/website
 Local production previews do not serve Vercel's hosted analytics script. Its local-only 404/MIME console messages are excluded from page-error claims; no application hydration or runtime page errors were observed on the final production build.
 
 Evidence and receipts are adjacent. This is author-side verification, pending independent SEO/GEO review and publication. It does not close the separate performance, accessibility or customer-outcome evidence programme.
+
+## Independent review correction
+
+The independent reviewer accepted the content, package boundaries, representative composition and 76 search/navigation/handoff checks, then identified a light-theme hover contrast issue. Application successor `498d1b0aace84db65aae277eace8a800659aeb9c` changes only the new shared link interaction rule, new Solutions role-link interactions and new desktop overview interaction color. These now use the existing adaptive display token. The shared links retain hover motion and gain a visible keyboard focus outline. Unrelated navigation behavior is unchanged.
+
+The successor production build and scoped lint pass. Actual browser hover and keyboard focus checks pass for seven representative link types in both themes, 28 interaction cases with no application page errors. Contrast against each theme's base surface is at least 16.59:1. Receipts and four focus screenshots are adjacent. Earlier full-page and locale acceptance carries to this finite interaction-only correction; it is not a claim of a full-site accessibility audit.
