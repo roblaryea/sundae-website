@@ -29,7 +29,10 @@
     "docsCloseTitle": "Need help with a specific workflow?",
     "docsCloseBody": "Bring the question and the tools your team uses. We will walk through the relevant setup and next steps.",
     "faqCta": "Read common questions",
-    "diagnosticCta": "Run the diagnostic"
+    "diagnosticCta": "Run the diagnostic",
+    "coreGuideTitle": "Understand Core",
+    "crewGuideTitle": "Run daily work with Crew",
+    "connectionsCta": "Explore integrations"
   },
   "ar": {
     "startLabel": "البدء",
@@ -61,7 +64,10 @@
     "docsCloseTitle": "تحتاج إلى مساعدة في سير عمل محدد؟",
     "docsCloseBody": "أحضر السؤال والأدوات التي يستخدمها فريقك. سنراجع معك الإعداد المناسب والخطوات التالية.",
     "faqCta": "اقرأ الأسئلة الشائعة",
-    "diagnosticCta": "ابدأ التشخيص"
+    "diagnosticCta": "ابدأ التشخيص",
+    "coreGuideTitle": "افهم Core",
+    "crewGuideTitle": "أدر العمل اليومي مع Crew",
+    "connectionsCta": "استكشف التكاملات"
   },
   "fr": {
     "startLabel": "Bien démarrer",
@@ -93,7 +99,10 @@
     "docsCloseTitle": "Besoin d’aide sur un processus précis ?",
     "docsCloseBody": "Apportez votre question et les outils de votre équipe. Nous passerons en revue la configuration adaptée et les prochaines étapes.",
     "faqCta": "Lire les questions fréquentes",
-    "diagnosticCta": "Lancer le diagnostic"
+    "diagnosticCta": "Lancer le diagnostic",
+    "coreGuideTitle": "Comprendre Core",
+    "crewGuideTitle": "Gérer le travail quotidien avec Crew",
+    "connectionsCta": "Explorer les intégrations"
   },
   "es": {
     "startLabel": "Primeros pasos",
@@ -125,7 +134,10 @@
     "docsCloseTitle": "¿Necesita ayuda con un flujo de trabajo concreto?",
     "docsCloseBody": "Traiga la pregunta y las herramientas que utiliza su equipo. Revisaremos la configuración pertinente y los siguientes pasos.",
     "faqCta": "Leer preguntas frecuentes",
-    "diagnosticCta": "Ejecutar el diagnóstico"
+    "diagnosticCta": "Ejecutar el diagnóstico",
+    "coreGuideTitle": "Entender Core",
+    "crewGuideTitle": "Gestionar el trabajo diario con Crew",
+    "connectionsCta": "Explorar integraciones"
   },
   "de": {
     "startLabel": "Erste Schritte",
@@ -157,7 +169,10 @@
     "docsCloseTitle": "Brauchen Sie Hilfe bei einem konkreten Workflow?",
     "docsCloseBody": "Bringen Sie Ihre Frage und die Werkzeuge Ihres Teams mit. Wir gehen die passende Einrichtung und die nächsten Schritte gemeinsam durch.",
     "faqCta": "Häufige Fragen lesen",
-    "diagnosticCta": "Diagnose starten"
+    "diagnosticCta": "Diagnose starten",
+    "coreGuideTitle": "Core verstehen",
+    "crewGuideTitle": "Den Betriebsalltag mit Crew organisieren",
+    "connectionsCta": "Integrationen erkunden"
   },
   "nl": {
     "startLabel": "Aan de slag",
@@ -189,7 +204,10 @@
     "docsCloseTitle": "Hulp nodig bij een specifieke workflow?",
     "docsCloseBody": "Neem uw vraag en de hulpmiddelen van uw team mee. We lopen de relevante inrichting en volgende stappen met u door.",
     "faqCta": "Lees veelgestelde vragen",
-    "diagnosticCta": "Start de diagnose"
+    "diagnosticCta": "Start de diagnose",
+    "coreGuideTitle": "Begrijp Core",
+    "crewGuideTitle": "Beheer het dagelijkse werk met Crew",
+    "connectionsCta": "Verken integraties"
   },
   "it": {
     "startLabel": "Primi passi",
@@ -221,7 +239,10 @@
     "docsCloseTitle": "Serve aiuto con un flusso specifico?",
     "docsCloseBody": "Porta la domanda e gli strumenti usati dal team. Esamineremo la configurazione pertinente e i prossimi passi.",
     "faqCta": "Leggi le domande frequenti",
-    "diagnosticCta": "Avvia la diagnosi"
+    "diagnosticCta": "Avvia la diagnosi",
+    "coreGuideTitle": "Comprendere Core",
+    "crewGuideTitle": "Gestire il lavoro quotidiano con Crew",
+    "connectionsCta": "Esplora le integrazioni"
   },
   "pt": {
     "startLabel": "Primeiros passos",
@@ -253,7 +274,10 @@
     "docsCloseTitle": "Precisa de ajuda com um fluxo específico?",
     "docsCloseBody": "Traga a questão e as ferramentas da sua equipa. Vamos rever a configuração relevante e os próximos passos.",
     "faqCta": "Ler perguntas frequentes",
-    "diagnosticCta": "Iniciar o diagnóstico"
+    "diagnosticCta": "Iniciar o diagnóstico",
+    "coreGuideTitle": "Compreender Core",
+    "crewGuideTitle": "Gerir o trabalho diário com Crew",
+    "connectionsCta": "Explorar integrações"
   },
   "pl": {
     "startLabel": "Pierwsze kroki",
@@ -285,7 +309,10 @@
     "docsCloseTitle": "Potrzebujesz pomocy z konkretnym procesem?",
     "docsCloseBody": "Przygotuj pytanie i narzędzia używane przez zespół. Omówimy odpowiednią konfigurację i kolejne kroki.",
     "faqCta": "Przeczytaj częste pytania",
-    "diagnosticCta": "Uruchom diagnozę"
+    "diagnosticCta": "Uruchom diagnozę",
+    "coreGuideTitle": "Zrozum Core",
+    "crewGuideTitle": "Zarządzaj codzienną pracą z Crew",
+    "connectionsCta": "Poznaj integracje"
   },
   "ro": {
     "startLabel": "Primii pași",
@@ -317,7 +344,10 @@
     "docsCloseTitle": "Aveți nevoie de ajutor cu un flux concret?",
     "docsCloseBody": "Aduceți întrebarea și instrumentele echipei. Vom parcurge configurarea relevantă și pașii următori.",
     "faqCta": "Citiți întrebările frecvente",
-    "diagnosticCta": "Porniți diagnosticul"
+    "diagnosticCta": "Porniți diagnosticul",
+    "coreGuideTitle": "Înțelegeți Core",
+    "crewGuideTitle": "Gestionați activitatea zilnică prin Crew",
+    "connectionsCta": "Explorați integrările"
   },
   "sv": {
     "startLabel": "Kom igång",
@@ -349,7 +379,10 @@
     "docsCloseTitle": "Behöver ni hjälp med ett konkret arbetsflöde?",
     "docsCloseBody": "Ta med frågan och verktygen ert team använder. Vi går igenom relevant konfiguration och nästa steg.",
     "faqCta": "Läs vanliga frågor",
-    "diagnosticCta": "Starta diagnosen"
+    "diagnosticCta": "Starta diagnosen",
+    "coreGuideTitle": "Förstå Core",
+    "crewGuideTitle": "Hantera det dagliga arbetet med Crew",
+    "connectionsCta": "Utforska integrationer"
   },
   "tr": {
     "startLabel": "Başlarken",
@@ -381,7 +414,10 @@
     "docsCloseTitle": "Belirli bir iş akışında yardıma mı ihtiyacınız var?",
     "docsCloseBody": "Sorunuzu ve ekibinizin kullandığı araçları getirin. İlgili kurulumu ve sonraki adımları birlikte inceleyelim.",
     "faqCta": "Sık sorulan soruları okuyun",
-    "diagnosticCta": "Tanılamayı başlatın"
+    "diagnosticCta": "Tanılamayı başlatın",
+    "coreGuideTitle": "Core’u anlayın",
+    "crewGuideTitle": "Günlük işleri Crew ile yönetin",
+    "connectionsCta": "Entegrasyonları keşfedin"
   },
   "hi": {
     "startLabel": "शुरुआत करें",
@@ -413,7 +449,10 @@
     "docsCloseTitle": "किसी खास कार्यप्रवाह में मदद चाहिए?",
     "docsCloseBody": "अपना सवाल और टीम के इस्तेमाल किए जाने वाले टूल लेकर आएँ। हम संबंधित सेटअप और अगले कदम साथ देखेंगे।",
     "faqCta": "आम सवाल पढ़ें",
-    "diagnosticCta": "डायग्नोस्टिक शुरू करें"
+    "diagnosticCta": "डायग्नोस्टिक शुरू करें",
+    "coreGuideTitle": "Core को समझें",
+    "crewGuideTitle": "Crew के साथ रोज़ का काम चलाएँ",
+    "connectionsCta": "इंटीग्रेशन देखें"
   },
   "ur": {
     "startLabel": "آغاز کریں",
@@ -445,7 +484,10 @@
     "docsCloseTitle": "کسی مخصوص ورک فلو میں مدد چاہیے؟",
     "docsCloseBody": "اپنا سوال اور ٹیم کے استعمال کردہ ٹول لے کر آئیں۔ ہم متعلقہ سیٹ اپ اور اگلے مراحل ساتھ دیکھیں گے۔",
     "faqCta": "عام سوالات پڑھیں",
-    "diagnosticCta": "تشخیص شروع کریں"
+    "diagnosticCta": "تشخیص شروع کریں",
+    "coreGuideTitle": "Core کو سمجھیں",
+    "crewGuideTitle": "Crew کے ساتھ روزمرہ کام چلائیں",
+    "connectionsCta": "انٹیگریشن دیکھیں"
   },
   "bn": {
     "startLabel": "শুরু করুন",
@@ -477,7 +519,10 @@
     "docsCloseTitle": "নির্দিষ্ট কাজের ধারায় সাহায্য প্রয়োজন?",
     "docsCloseBody": "আপনার প্রশ্ন ও দলের ব্যবহৃত টুল নিয়ে আসুন। আমরা প্রাসঙ্গিক সেটআপ ও পরবর্তী পদক্ষেপ একসঙ্গে দেখব।",
     "faqCta": "সাধারণ প্রশ্ন পড়ুন",
-    "diagnosticCta": "ডায়াগনস্টিক শুরু করুন"
+    "diagnosticCta": "ডায়াগনস্টিক শুরু করুন",
+    "coreGuideTitle": "Core বুঝুন",
+    "crewGuideTitle": "Crew দিয়ে দৈনন্দিন কাজ পরিচালনা করুন",
+    "connectionsCta": "ইন্টিগ্রেশন দেখুন"
   },
   "zh-Hans": {
     "startLabel": "开始使用",
@@ -509,7 +554,10 @@
     "docsCloseTitle": "需要针对具体流程的帮助？",
     "docsCloseBody": "带着问题和团队使用的工具来交流。我们将一起梳理相关设置和后续步骤。",
     "faqCta": "阅读常见问题",
-    "diagnosticCta": "开始诊断"
+    "diagnosticCta": "开始诊断",
+    "coreGuideTitle": "了解 Core 的作用",
+    "crewGuideTitle": "用 Crew 管理日常工作",
+    "connectionsCta": "了解系统集成"
   },
   "ja": {
     "startLabel": "はじめに",
@@ -541,7 +589,10 @@
     "docsCloseTitle": "具体的な業務フローでお困りですか？",
     "docsCloseBody": "質問とチームが使うツールをお知らせください。関連する設定と次のステップを一緒に確認します。",
     "faqCta": "よくある質問を読む",
-    "diagnosticCta": "診断を始める"
+    "diagnosticCta": "診断を始める",
+    "coreGuideTitle": "Core を理解する",
+    "crewGuideTitle": "Crew で日常業務を管理する",
+    "connectionsCta": "連携機能を見る"
   },
   "ko": {
     "startLabel": "시작하기",
@@ -573,7 +624,10 @@
     "docsCloseTitle": "특정 업무 흐름에 도움이 필요하신가요?",
     "docsCloseBody": "질문과 팀에서 사용하는 도구를 알려주세요. 관련 설정과 다음 단계를 함께 살펴보겠습니다.",
     "faqCta": "자주 묻는 질문 읽기",
-    "diagnosticCta": "진단 시작하기"
+    "diagnosticCta": "진단 시작하기",
+    "coreGuideTitle": "Core 이해하기",
+    "crewGuideTitle": "Crew로 일상 업무 운영하기",
+    "connectionsCta": "연동 살펴보기"
   },
   "id": {
     "startLabel": "Mulai menggunakan",
@@ -605,7 +659,10 @@
     "docsCloseTitle": "Perlu bantuan untuk alur kerja tertentu?",
     "docsCloseBody": "Bawa pertanyaan dan alat yang digunakan tim Anda. Kami akan meninjau penyiapan yang relevan dan langkah berikutnya.",
     "faqCta": "Baca pertanyaan umum",
-    "diagnosticCta": "Mulai diagnostik"
+    "diagnosticCta": "Mulai diagnostik",
+    "coreGuideTitle": "Memahami Core",
+    "crewGuideTitle": "Jalankan pekerjaan harian dengan Crew",
+    "connectionsCta": "Jelajahi integrasi"
   },
   "vi": {
     "startLabel": "Bắt đầu",
@@ -637,7 +694,10 @@
     "docsCloseTitle": "Cần hỗ trợ về một quy trình cụ thể?",
     "docsCloseBody": "Mang theo câu hỏi và công cụ đội ngũ đang dùng. Chúng tôi sẽ cùng xem thiết lập phù hợp và các bước tiếp theo.",
     "faqCta": "Đọc câu hỏi thường gặp",
-    "diagnosticCta": "Bắt đầu chẩn đoán"
+    "diagnosticCta": "Bắt đầu chẩn đoán",
+    "coreGuideTitle": "Hiểu về Core",
+    "crewGuideTitle": "Quản lý công việc hằng ngày với Crew",
+    "connectionsCta": "Khám phá tích hợp"
   },
   "ms": {
     "startLabel": "Mula menggunakan",
@@ -669,7 +729,10 @@
     "docsCloseTitle": "Perlukan bantuan untuk aliran kerja tertentu?",
     "docsCloseBody": "Bawa soalan dan alat yang digunakan oleh pasukan anda. Kami akan meneliti persediaan berkaitan dan langkah seterusnya.",
     "faqCta": "Baca soalan lazim",
-    "diagnosticCta": "Mulakan diagnostik"
+    "diagnosticCta": "Mulakan diagnostik",
+    "coreGuideTitle": "Memahami Core",
+    "crewGuideTitle": "Urus kerja harian dengan Crew",
+    "connectionsCta": "Terokai integrasi"
   },
   "th": {
     "startLabel": "เริ่มต้นใช้งาน",
@@ -701,6 +764,9 @@
     "docsCloseTitle": "ต้องการความช่วยเหลือในเวิร์กโฟลว์เฉพาะหรือไม่",
     "docsCloseBody": "นำคำถามและเครื่องมือที่ทีมใช้งานมา เราจะร่วมทบทวนการตั้งค่าที่เกี่ยวข้องและขั้นตอนถัดไป",
     "faqCta": "อ่านคำถามที่พบบ่อย",
-    "diagnosticCta": "เริ่มการวินิจฉัย"
+    "diagnosticCta": "เริ่มการวินิจฉัย",
+    "coreGuideTitle": "ทำความเข้าใจ Core",
+    "crewGuideTitle": "จัดการงานประจำวันด้วย Crew",
+    "connectionsCta": "สำรวจการเชื่อมต่อระบบ"
   }
 }

@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
+import resourceCopy from '@/content/buyer-clarity/resources.json';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { GuidanceClose, GuidanceHero, GuidanceReveal } from '@/components/support/GuidanceLayout';
 import { getLocalizedPathname } from '@/lib/i18n';
@@ -15,7 +16,8 @@ import proofByLocale from '@/content/workflow-proof.json';
 import tasks from '../../../public/images/product/native-2026-11-16/tasks.png';
 
 export default function GettingStartedPage() {
-  const { locale, messages } = useWebsiteI18n();
+  const { locale } = useWebsiteI18n();
+  const walkthrough = resourceCopy[locale as keyof typeof resourceCopy].primaryCta;
   const copy = guidanceByLocale[locale as keyof typeof guidanceByLocale];
   const onboarding = onboardingByLocale[locale as keyof typeof onboardingByLocale];
   const proof = proofByLocale[locale as keyof typeof proofByLocale];
@@ -23,7 +25,7 @@ export default function GettingStartedPage() {
   const local = (path: string) => getLocalizedPathname(path, locale);
   const simulator = buildPricingSimulatorUrl(locale);
   const stepLinks = [
-    { href: local('/demo'), label: messages.navbar.bookDemo },
+    { href: local('/demo'), label: walkthrough },
     { href: simulator, label: commercial.viewEstimate },
     { href: local('/integrations'), label: copy.connectionsTitle },
   ];
@@ -36,7 +38,7 @@ export default function GettingStartedPage() {
   return (
     <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
       <GuidanceHero label={copy.startLabel} lead={copy.startLead} emphasis={copy.startEmphasis} description={copy.startBody}>
-        <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="book_demo_from_getting_started" className="max-w-full whitespace-normal! text-start">{messages.navbar.bookDemo}</Button>
+        <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="book_demo_from_getting_started" className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
         <Button variant="outline-light" size="lg" href={simulator} trackingLabel="pricing_from_getting_started" className="max-w-full whitespace-normal! text-start">{commercial.viewEstimate}</Button>
       </GuidanceHero>
 
@@ -61,7 +63,7 @@ export default function GettingStartedPage() {
                       <ul className="mt-6 space-y-3 border-s border-[var(--border-emphasis)] ps-5 text-base leading-relaxed text-[var(--text-supporting)]">
                         {step.actions.map(action => <li key={action}>{action}</li>)}
                       </ul>
-                      {stepLinks[index] && <a href={stepLinks[index].href} onClick={event => { event.currentTarget.href = appendCampaign(stepLinks[index].href); trackCta(`step_${index + 1}_cta`, { page: '/getting-started' }); }} className="brand-action-link mt-5 inline-flex min-h-11 items-center gap-3 font-semibold underline underline-offset-4">{stepLinks[index].label} <span aria-hidden="true">→</span></a>}
+                      {stepLinks[index] && <a href={stepLinks[index].href} onClick={event => { event.currentTarget.href = appendCampaign(stepLinks[index].href); trackCta(`step_${index + 1}_cta`, { page: '/getting-started' }); }} className="brand-action-link mt-5 inline-flex min-h-11 items-center gap-3 font-semibold underline underline-offset-4">{stepLinks[index].label} <span aria-hidden="true" className="rtl:rotate-180">→</span></a>}
                     </div>
                   </div>
                   {index === 3 && (
@@ -109,10 +111,10 @@ export default function GettingStartedPage() {
       <GuidanceClose title={copy.closeTitle} description={copy.closeBody}>
         <div className="flex flex-col items-start gap-6 sm:flex-row sm:gap-10">
           <div className="max-w-md">
-            <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="getting_started_close_walkthrough" className="max-w-full whitespace-normal! text-start">{messages.navbar.bookDemo}</Button>
+            <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="getting_started_close_walkthrough" className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
             <p className="mt-4 text-sm leading-relaxed text-[var(--text-muted)]">{commercial.sampleWalkthrough}</p>
           </div>
-          <a href={local('/diagnostic')} onClick={event => { event.currentTarget.href = appendCampaign(local('/diagnostic')); trackCta('final_card_from_getting_started', { page: '/getting-started' }); }} className="brand-action-link inline-flex min-h-14 items-center gap-3 font-semibold underline underline-offset-4">{copy.diagnosticCta} <span aria-hidden="true">→</span></a>
+          <a href={local('/diagnostic')} onClick={event => { event.currentTarget.href = appendCampaign(local('/diagnostic')); trackCta('final_card_from_getting_started', { page: '/getting-started' }); }} className="brand-action-link inline-flex min-h-14 items-center gap-3 font-semibold underline underline-offset-4">{copy.diagnosticCta} <span aria-hidden="true" className="rtl:rotate-180">→</span></a>
         </div>
       </GuidanceClose>
     </div>
