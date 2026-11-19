@@ -1,0 +1,62 @@
+{
+  "source": "sundae-app/src/lib/integrations/catalog.ts",
+  "sha256": "6b8d3e91068482a4f73df3279c7a04e73435ffe470d3a70e7a3cf831e48f321f",
+  "verifiedAt": "2026-11-19",
+  "grade": "Catalogue examples, not independently verified live connections",
+  "examples": [
+    [
+      "Oracle MICROS Simphony",
+      "Foodics",
+      "Lightspeed Restaurant (K-Series)",
+      "Square"
+    ],
+    [
+      "7shifts",
+      "Planday",
+      "Deputy"
+    ],
+    [
+      "MarketMan",
+      "Apicbase",
+      "BinWise"
+    ],
+    [
+      "MarketMan",
+      "Supy"
+    ],
+    [
+      "Deliverect",
+      "Talabat"
+    ],
+    [
+      "SevenRooms",
+      "OpenTable",
+      "TheFork"
+    ],
+    [
+      "Meta (Facebook/IG)",
+      "Google Ads",
+      "Mailchimp"
+    ],
+    [
+      "Google Reviews",
+      "Zendesk"
+    ],
+    [
+      "SevenRooms",
+      "Toast",
+      "Olo"
+    ],
+    [
+      "QuickBooks",
+      "Xero",
+      "Sage"
+    ]
+  ],
+  "statusDistinctions": [
+    "available",
+    "upcoming",
+    "demo",
+    "pending_authorization"
+  ]
+}

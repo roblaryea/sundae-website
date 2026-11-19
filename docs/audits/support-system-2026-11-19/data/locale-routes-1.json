@@ -1,0 +1,401 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "route": "/architecture",
+      "heading": "From operating records to decisions teams can act on.",
+      "description": "Connected records and Crew workflows feed shared metrics. Sundae uses those facts and relevant context to explain what needs attention, then helps teams own the next step and review the result.",
+      "canonical": "https://www.sundae.io/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "en",
+      "route": "/integrations",
+      "heading": "Keep the tools that work. Connect the records you need.",
+      "description": "Scope the POS, workforce, stock, purchasing and guest records your team needs. Confirm source availability, access and refresh timing before rollout.",
+      "canonical": "https://www.sundae.io/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "en",
+      "route": "/4d-intelligence",
+      "heading": "Know what changed. Decide what comes next.",
+      "description": "Review the past, compare it with your plan, add relevant peer and market context, then consider what could happen next. Sundae connects that understanding to a team-owned action and a check on the result.",
+      "canonical": "https://www.sundae.io/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "ar",
+      "route": "/architecture",
+      "heading": "من سجلات التشغيل إلى قرارات يستطيع الفريق تنفيذها.",
+      "description": "تغذي السجلات المتصلة وسير العمل في Crew مقاييس مشتركة. تستخدم Sundae هذه الحقائق والسياق المناسب لتوضيح ما يحتاج إلى انتباه، ثم تساعد الفرق على تولي الخطوة التالية ومراجعة النتيجة.",
+      "canonical": "https://www.sundae.io/ar/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "ar",
+      "route": "/integrations",
+      "heading": "احتفظ بالأدوات التي تناسبك. اربط السجلات التي تحتاجها.",
+      "description": "حدد سجلات نقاط البيع والموظفين والمخزون والمشتريات والضيوف التي يحتاجها فريقك. تأكد من توفر المصادر والصلاحيات وتوقيت التحديث قبل بدء الاستخدام.",
+      "canonical": "https://www.sundae.io/ar/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "ar",
+      "route": "/4d-intelligence",
+      "heading": "افهم ما تغيّر. حدد الخطوة التالية.",
+      "description": "راجع الماضي وقارنه بخطتك، وأضف سياق السوق والنظراء المناسب، ثم ادرس ما قد يحدث لاحقًا. تربط Sundae هذا الفهم بإجراء يتولاه الفريق ومراجعة للنتيجة.",
+      "canonical": "https://www.sundae.io/ar/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "fr",
+      "route": "/architecture",
+      "heading": "Des données d’exploitation aux décisions que l’équipe peut appliquer.",
+      "description": "Les données connectées et les processus Crew alimentent des indicateurs communs. Sundae utilise ces faits et le contexte pertinent pour expliquer les priorités, puis aide les équipes à prendre en charge la suite et à revoir le résultat.",
+      "canonical": "https://www.sundae.io/fr/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "fr",
+      "route": "/integrations",
+      "heading": "Gardez les outils qui vous conviennent. Reliez les données nécessaires.",
+      "description": "Définissez les données de caisse, d’effectifs, de stock, d’achats et de clients nécessaires. Confirmez les sources, les accès et la fréquence de mise à jour avant le déploiement.",
+      "canonical": "https://www.sundae.io/fr/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "fr",
+      "route": "/4d-intelligence",
+      "heading": "Comprenez ce qui a changé. Décidez de la suite.",
+      "description": "Revenez sur le passé, comparez-le au plan, ajoutez le contexte pertinent du marché et des pairs, puis étudiez la suite possible. Sundae relie cette compréhension à une action portée par l’équipe et à une vérification du résultat.",
+      "canonical": "https://www.sundae.io/fr/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "es",
+      "route": "/architecture",
+      "heading": "De los registros operativos a decisiones que el equipo puede ejecutar.",
+      "description": "Los registros conectados y los flujos de Crew alimentan métricas comunes. Sundae usa esos datos y el contexto pertinente para explicar qué necesita atención y ayudar al equipo a asumir el siguiente paso y revisar el resultado.",
+      "canonical": "https://www.sundae.io/es/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "es",
+      "route": "/integrations",
+      "heading": "Conserve las herramientas que funcionan. Conecte los registros que necesita.",
+      "description": "Defina los registros de TPV, personal, existencias, compras y clientes necesarios. Confirme las fuentes disponibles, los accesos y las actualizaciones antes de la puesta en marcha.",
+      "canonical": "https://www.sundae.io/es/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "es",
+      "route": "/4d-intelligence",
+      "heading": "Entienda qué ha cambiado. Decida qué viene después.",
+      "description": "Revise el pasado, compárelo con su plan, añada contexto pertinente de mercado y negocios similares, y valore qué podría ocurrir después. Sundae conecta ese conocimiento con una acción del equipo y una revisión del resultado.",
+      "canonical": "https://www.sundae.io/es/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "de",
+      "route": "/architecture",
+      "heading": "Von Betriebsdaten zu Entscheidungen, die Teams umsetzen können.",
+      "description": "Verbundene Daten und Crew-Abläufe fließen in gemeinsame Kennzahlen ein. Sundae erklärt anhand dieser Fakten und des passenden Kontexts, was Aufmerksamkeit braucht, und hilft Teams, nächste Schritte zu übernehmen und Ergebnisse zu prüfen.",
+      "canonical": "https://www.sundae.io/de/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "de",
+      "route": "/integrations",
+      "heading": "Behalten Sie bewährte Werkzeuge. Verbinden Sie die benötigten Daten.",
+      "description": "Klären Sie die benötigten Kassen-, Personal-, Bestands-, Einkaufs- und Gästedaten. Bestätigen Sie verfügbare Quellen, Zugriffe und Aktualisierung vor der Einführung.",
+      "canonical": "https://www.sundae.io/de/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "de",
+      "route": "/4d-intelligence",
+      "heading": "Verstehen Sie, was sich verändert hat. Entscheiden Sie über den nächsten Schritt.",
+      "description": "Prüfen Sie die Vergangenheit, vergleichen Sie mit dem Plan, ergänzen Sie passenden Markt- und Vergleichskontext und betrachten Sie mögliche Entwicklungen. Sundae verbindet dieses Verständnis mit einer vom Team getragenen Maßnahme und einer Ergebnisprüfung.",
+      "canonical": "https://www.sundae.io/de/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "nl",
+      "route": "/architecture",
+      "heading": "Van bedrijfsgegevens naar beslissingen die teams kunnen uitvoeren.",
+      "description": "Gekoppelde gegevens en Crew-processen voeden gezamenlijke kengetallen. Sundae gebruikt die feiten en relevante context om uit te leggen wat aandacht vraagt en helpt teams de volgende stap op zich te nemen en het resultaat te beoordelen.",
+      "canonical": "https://www.sundae.io/nl/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "nl",
+      "route": "/integrations",
+      "heading": "Behoud de tools die werken. Koppel de gegevens die u nodig heeft.",
+      "description": "Bepaal welke kassa-, personeels-, voorraad-, inkoop- en gastgegevens uw team nodig heeft. Bevestig bronbeschikbaarheid, toegang en bijwerkfrequentie vóór de invoering.",
+      "canonical": "https://www.sundae.io/nl/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "nl",
+      "route": "/4d-intelligence",
+      "heading": "Begrijp wat er veranderde. Bepaal wat er volgt.",
+      "description": "Bekijk het verleden, vergelijk het met uw plan, voeg relevante markt- en branchecontext toe en bekijk wat er kan volgen. Sundae koppelt dat inzicht aan een actie waarvoor het team verantwoordelijkheid neemt en een controle van het resultaat.",
+      "canonical": "https://www.sundae.io/nl/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "it",
+      "route": "/architecture",
+      "heading": "Dai dati operativi a decisioni che il team può attuare.",
+      "description": "I dati collegati e i processi Crew alimentano metriche comuni. Sundae usa questi fatti e il contesto pertinente per spiegare cosa richiede attenzione e aiutare i team a gestire il passo successivo e verificarne il risultato.",
+      "canonical": "https://www.sundae.io/it/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "it",
+      "route": "/integrations",
+      "heading": "Mantieni gli strumenti che funzionano. Collega i dati necessari.",
+      "description": "Definisci i dati POS, del personale, delle scorte, degli acquisti e degli ospiti necessari. Conferma fonti, accessi e aggiornamenti prima dell’avvio.",
+      "canonical": "https://www.sundae.io/it/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "it",
+      "route": "/4d-intelligence",
+      "heading": "Comprendi cosa è cambiato. Decidi il prossimo passo.",
+      "description": "Rivedi il passato, confrontalo con il piano, aggiungi il contesto pertinente di mercato e realtà simili e valuta cosa potrebbe accadere. Sundae collega questa comprensione a un’azione del team e alla verifica del risultato.",
+      "canonical": "https://www.sundae.io/it/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "pt",
+      "route": "/architecture",
+      "heading": "Dos registos operacionais a decisões que as equipas podem executar.",
+      "description": "Os registos ligados e os processos Crew alimentam métricas comuns. A Sundae usa esses factos e o contexto relevante para explicar o que precisa de atenção e ajudar as equipas a assumir o passo seguinte e rever o resultado.",
+      "canonical": "https://www.sundae.io/pt/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "pt",
+      "route": "/integrations",
+      "heading": "Mantenha as ferramentas que funcionam. Ligue os registos de que precisa.",
+      "description": "Defina os registos de POS, pessoal, stock, compras e clientes necessários. Confirme fontes, acessos e atualização antes da implementação.",
+      "canonical": "https://www.sundae.io/pt/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "pt",
+      "route": "/4d-intelligence",
+      "heading": "Compreenda o que mudou. Decida o próximo passo.",
+      "description": "Reveja o passado, compare com o plano, acrescente contexto pertinente de mercado e pares e considere o que poderá acontecer. A Sundae liga esta compreensão a uma ação da equipa e à verificação do resultado.",
+      "canonical": "https://www.sundae.io/pt/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "pl",
+      "route": "/architecture",
+      "heading": "Od danych operacyjnych do decyzji, które zespoły mogą wykonać.",
+      "description": "Połączone dane i procesy Crew zasilają wspólne wskaźniki. Sundae korzysta z tych faktów i kontekstu, aby wyjaśnić, co wymaga uwagi, oraz pomóc zespołom przejąć następny krok i ocenić wynik.",
+      "canonical": "https://www.sundae.io/pl/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "pl",
+      "route": "/integrations",
+      "heading": "Zachowaj narzędzia, które działają. Połącz potrzebne dane.",
+      "description": "Określ potrzebne dane POS, pracowników, zapasów, zakupów i gości. Przed wdrożeniem potwierdź źródła, dostęp i częstotliwość aktualizacji.",
+      "canonical": "https://www.sundae.io/pl/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "pl",
+      "route": "/4d-intelligence",
+      "heading": "Zrozum, co się zmieniło. Zdecyduj, co dalej.",
+      "description": "Sprawdź przeszłość, porównaj ją z planem, dodaj właściwy kontekst rynkowy i porównawczy, a następnie rozważ możliwy rozwój sytuacji. Sundae łączy to zrozumienie z działaniem zespołu i kontrolą wyniku.",
+      "canonical": "https://www.sundae.io/pl/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "ro",
+      "route": "/architecture",
+      "heading": "De la evidențe operaționale la decizii pe care echipele le pot aplica.",
+      "description": "Evidențele conectate și fluxurile Crew alimentează indicatori comuni. Sundae folosește aceste date și contextul relevant pentru a explica ce necesită atenție și a ajuta echipele să preia pasul următor și să evalueze rezultatul.",
+      "canonical": "https://www.sundae.io/ro/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "ro",
+      "route": "/integrations",
+      "heading": "Păstrați instrumentele care funcționează. Conectați evidențele necesare.",
+      "description": "Definiți evidențele POS, de personal, stocuri, achiziții și clienți necesare. Confirmați sursele, accesul și actualizarea înainte de implementare.",
+      "canonical": "https://www.sundae.io/ro/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "ro",
+      "route": "/4d-intelligence",
+      "heading": "Înțelegeți ce s-a schimbat. Decideți ce urmează.",
+      "description": "Analizați trecutul, comparați-l cu planul, adăugați context relevant de piață și afaceri similare, apoi evaluați ce ar putea urma. Sundae leagă această înțelegere de o acțiune a echipei și verificarea rezultatului.",
+      "canonical": "https://www.sundae.io/ro/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "sv",
+      "route": "/architecture",
+      "heading": "Från verksamhetsdata till beslut som teamen kan genomföra.",
+      "description": "Anslutna uppgifter och Crew-flöden ger gemensamma nyckeltal. Sundae använder dessa fakta och relevant kontext för att förklara vad som behöver uppmärksammas och hjälpa teamen att ta nästa steg och följa upp resultatet.",
+      "canonical": "https://www.sundae.io/sv/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "sv",
+      "route": "/integrations",
+      "heading": "Behåll verktygen som fungerar. Anslut uppgifterna ni behöver.",
+      "description": "Avgränsa nödvändiga kassa-, personal-, lager-, inköps- och gästuppgifter. Bekräfta källor, åtkomst och uppdatering före införandet.",
+      "canonical": "https://www.sundae.io/sv/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "sv",
+      "route": "/4d-intelligence",
+      "heading": "Förstå vad som har ändrats. Bestäm nästa steg.",
+      "description": "Granska det förflutna, jämför med planen, lägg till relevant marknads- och jämförelsekontext och överväg vad som kan hända härnäst. Sundae kopplar förståelsen till en åtgärd som teamet äger och en kontroll av resultatet.",
+      "canonical": "https://www.sundae.io/sv/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    }
+  ],
+  "pageErrors": []
+}

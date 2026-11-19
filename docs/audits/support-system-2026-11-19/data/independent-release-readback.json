@@ -1,0 +1,37 @@
+{
+  "time": "2026-11-19T12:57:47.660904+00:00",
+  "application": "683578901884d6b1a6aacb38adf9855eeeff71eb",
+  "receiver": "http://localhost:3154",
+  "routes": [
+    "/architecture",
+    "/integrations",
+    "/4d-intelligence"
+  ],
+  "independentNormalCases": 15,
+  "independentFreshReducedMotionCases": 7,
+  "locales": [
+    "en",
+    "nl",
+    "de",
+    "ar"
+  ],
+  "applicationErrors": 0,
+  "findingsResolved": [
+    "Visible4Dcanonical scope near dimensions",
+    "Inherited internal source labels and NL/Thai wording",
+    "Shared reveal visible base; actual reduced-motion fresh contexts pass"
+  ],
+  "passed": [
+    "SingleH1 and localized metadata/canonical23alternates",
+    "No heading/document overflow",
+    "Exact5stage+CoreCrew peer routes",
+    "10source domains andoneclearcoverage note",
+    "PAST/PLAN/PEERS/PREDICTED andexactcanonicalavailability",
+    "Localized links",
+    "Premium settled desktop/mobile/light/dark/RTL visualreview"
+  ],
+  "limits": [
+    "Complete no-JavaScript page readability not claimed: existing streaming/Suspense shell remains outside this bounded cut"
+  ],
+  "release": "Awaiting final frozen head and all hosted checks before exact-head merge"
+}

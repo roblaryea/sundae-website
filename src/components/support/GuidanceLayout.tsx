@@ -7,8 +7,8 @@ export function GuidanceReveal({ children, className = '' }: { children: ReactNo
   const reducedMotion = useReducedMotion();
   return (
     <motion.div
-      initial={reducedMotion ? false : { opacity: 0, y: 18 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={false}
+      whileInView={reducedMotion ? { opacity: 1, y: 0 } : { opacity: [0.92, 1], y: [12, 0] }}
       viewport={{ once: true, margin: '0px 0px 100px 0px' }}
       transition={{ duration: reducedMotion ? 0 : 0.45 }}
       className={className}
@@ -18,8 +18,8 @@ export function GuidanceReveal({ children, className = '' }: { children: ReactNo
   );
 }
 
-export function GuidanceHero({ label, lead, emphasis, description, children }: {
-  label: string; lead: string; emphasis: string; description: string; children: ReactNode;
+export function GuidanceHero({ label, lead, emphasis, description, children, compactDescription = false }: {
+  label: string; lead: string; emphasis: string; description: string; children: ReactNode; compactDescription?: boolean;
 }) {
   return (
     <section data-guidance-hero className="border-b border-[var(--border-default)] px-6 pb-14 pt-12 max-[400px]:pb-10 max-[400px]:pt-8 sm:px-8 sm:pb-20 lg:px-12 lg:pt-20">
@@ -30,7 +30,7 @@ export function GuidanceHero({ label, lead, emphasis, description, children }: {
             <span className="block">{lead}{' '}</span>
             <span className="brand-emphasis block">{emphasis}</span>
           </h1>
-          <p className="mt-7 max-w-2xl text-lg leading-relaxed text-[var(--text-supporting)] max-[400px]:mt-5 sm:text-xl">{description}</p>
+          <p className={`mt-7 max-w-2xl text-lg leading-relaxed text-[var(--text-supporting)] max-[400px]:mt-5 sm:text-xl ${compactDescription ? 'max-[400px]:text-base' : ''}`}>{description}</p>
           <div className="mt-8 flex max-w-2xl flex-col items-start gap-3 max-[400px]:mt-6 sm:flex-row sm:flex-wrap">{children}</div>
         </GuidanceReveal>
       </div>

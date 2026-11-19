@@ -54,9 +54,9 @@ Sundae connects live operations, forecasting, external context, cross-domain ana
 ## Data, trust, and platform design
 
 - [Integrations](https://www.sundae.io/integrations): Connection and data-health approach for POS, labour, inventory, purchasing, reservations, delivery, and other operating systems
-- [Platform architecture](https://www.sundae.io/architecture): How connected food-service data becomes governed decisions, owned actions, and measured recovery
+- [Platform architecture](https://www.sundae.io/architecture): How connected operating records and Crew workflows support shared metrics, explanations, team-owned action, and result review
 - [Security](https://www.sundae.io/security): Sundae's current security, privacy, access-control, and assurance posture
-- [4D Intelligence model](https://www.sundae.io/4d-intelligence): Framework for reading performance across time, location, operating domain, and external context
+- [4D Intelligence model](https://www.sundae.io/4d-intelligence): PAST, PLAN, PEERS and PREDICTED, connected to team-owned action and a review of the result
 
 ## Workforce operations for hospitality
 

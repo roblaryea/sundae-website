@@ -1,248 +1,54 @@
-"use client";
+'use client';
 
-import { SundaeIcon } from "@/components/icons";
-import { Button } from "@/components/ui/Button";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
-import { generatedLocalCopy } from '@/generated-locales/app_integrations_page'
-import { getPositioningCopy } from '@/lib/positioningCopy';
-
-const integrationCategoriesByLocale = {
-  en: [
-    { category: "Point of Sale (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (Direct DB)", "SQL Server / Azure SQL (Direct DB)"] },
-    { category: "Labor & Scheduling", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
-    { category: "Inventory & Availability", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
-    { category: "Purchasing & Procurement", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
-    { category: "Delivery & 3PD", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
-    { category: "Reservations & Guest Flow", icon: "reservations" as const, status: "Live" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
-    { category: "Marketing & Campaigns", icon: "marketing" as const, status: "Live" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
-    { category: "Guest Experience & Feedback", icon: "conversation" as const, status: "Live" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
-    { category: "Guest CRM", icon: "operators" as const, status: "Live" as const, systems: ["SevenRooms", "Toast", "Olo"] },
-    { category: "Accounting & Finance", icon: "finance" as const, status: "Live" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
-  ],
-  ar: [
-    { category: "نقاط البيع (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (DB مباشرة)", "SQL Server / Azure SQL (DB مباشرة)"] },
-    { category: "العمالة والجدولة", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
-    { category: "المخزون والتوفر", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
-    { category: "المشتريات والشراء", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
-    { category: "التوصيل والمنصات", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
-    { category: "الحجوزات ومسار الضيوف", icon: "reservations" as const, status: "Live" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
-    { category: "التسويق والحملات", icon: "marketing" as const, status: "Live" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
-    { category: "تجربة الضيف والتقييم", icon: "conversation" as const, status: "Live" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
-    { category: "CRM الضيوف", icon: "operators" as const, status: "Live" as const, systems: ["SevenRooms", "Toast", "Olo"] },
-    { category: "المحاسبة والمالية", icon: "finance" as const, status: "Live" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
-  ],
-  fr: [
-    { category: "Point de vente (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (DB directe)", "SQL Server / Azure SQL (DB directe)"] },
-    { category: "Main-d'œuvre et planning", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
-    { category: "Stock et disponibilite", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
-    { category: "Achats et approvisionnement", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
-    { category: "Livraison et 3PD", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
-    { category: "Reservations et flux clients", icon: "reservations" as const, status: "Live" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
-    { category: "Marketing et campagnes", icon: "marketing" as const, status: "Live" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
-    { category: "Experience et retours clients", icon: "conversation" as const, status: "Live" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
-    { category: "CRM clients", icon: "operators" as const, status: "Live" as const, systems: ["SevenRooms", "Toast", "Olo"] },
-    { category: "Comptabilite et finance", icon: "finance" as const, status: "Live" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
-  ],
-  es: [
-    { category: "Punto de venta (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (DB directa)", "SQL Server / Azure SQL (DB directa)"] },
-    { category: "Labor y programacion", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
-    { category: "Inventario y disponibilidad", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
-    { category: "Compras y aprovisionamiento", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
-    { category: "Delivery y 3PD", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
-    { category: "Reservas y flujo de invitados", icon: "reservations" as const, status: "Live" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
-    { category: "Marketing y campañas", icon: "marketing" as const, status: "Live" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
-    { category: "Experiencia y feedback", icon: "conversation" as const, status: "Live" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
-    { category: "CRM de invitados", icon: "operators" as const, status: "Live" as const, systems: ["SevenRooms", "Toast", "Olo"] },
-    { category: "Contabilidad y finanzas", icon: "finance" as const, status: "Live" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
-  ],
-} as const;
-
-const localizedIntegrationCopy = {
-  en: {
-    exploreProducts: 'Explore Products',
-    publicApiBullets: [
-      'Sales summary and exception endpoints',
-      'Pulse status and alert data',
-      'Configurable rate limits and scoped API keys',
-    ],
-  },
-  ar: {
-    exploreProducts: 'استعرض المنتجات',
-    publicApiBullets: [
-      'نقاط نهاية ملخص المبيعات والاستثناءات',
-      'بيانات حالة Pulse والتنبيهات',
-      'معدلات قابلة للتخصيص ومفاتيح API محددة النطاق',
-    ],
-  },
-  fr: {
-    exploreProducts: 'Découvrir les produits',
-    publicApiBullets: [
-      'Endpoints de résumé des ventes et des exceptions',
-      'Données d’état Pulse et d’alertes',
-      'Limites configurables et clés API à portée limitée',
-    ],
-  },
-  es: {
-    exploreProducts: 'Explorar productos',
-    publicApiBullets: [
-      'Endpoints de resumen de ventas y excepciones',
-      'Datos de estado y alertas de Pulse',
-      'Límites configurables y claves API acotadas',
-    ],
-  },
-} as const;
+import { Button } from '@/components/ui/Button';
+import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { GuidanceClose, GuidanceHero, GuidanceReveal } from '@/components/support/GuidanceLayout';
+import { SystemCloseActions } from '@/components/support/SystemPresentation';
+import { getLocalizedPathname } from '@/lib/i18n';
+import copyByLocale from '@/content/support-system.json';
+import guidanceByLocale from '@/content/support-guidance.json';
+import sources from '@/content/integration-source-examples.json';
 
 export default function IntegrationsPage() {
-  const { locale, messages } = useWebsiteI18n();
-  const copy = messages.pages.integrations;
-  const integrationCategories = integrationCategoriesByLocale[locale as keyof typeof integrationCategoriesByLocale] ?? getGeneratedLocalCopy(integrationCategoriesByLocale, generatedLocalCopy.integrationCategoriesByLocale, locale) ?? integrationCategoriesByLocale.en;
-  const ui = localizedIntegrationCopy[locale as keyof typeof localizedIntegrationCopy] ?? getGeneratedLocalCopy(localizedIntegrationCopy, generatedLocalCopy.localizedIntegrationCopy, locale) ?? localizedIntegrationCopy.en;
-  const positioning = getPositioningCopy(locale).critical;
-
+  const { locale } = useWebsiteI18n();
+  const copy = copyByLocale[locale as keyof typeof copyByLocale];
+  const guidance = guidanceByLocale[locale as keyof typeof guidanceByLocale];
+  const labels = sources.labels[locale as keyof typeof sources.labels];
+  const local = (path: string) => getLocalizedPathname(path, locale);
+  const steps = [{ title: copy.i1t, body: copy.i1b }, { title: copy.i2t, body: copy.i2b }, { title: copy.i3t, body: copy.i3b }, { title: copy.i4t, body: copy.i4b }];
   return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={copy.badge} title={copy.title} description={copy.description} />
-
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
-        <div className="max-w-5xl mx-auto">
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            {copy.process.map((item) => (
-              <StaggerItem key={item.step}>
-                <div className="p-6">
-                  <div className="w-10 h-10 bg-[#FF5C4D]/20 rounded-full flex items-center justify-center text-[#FF8473] font-bold text-lg mx-auto mb-4">
-                    {item.step}
-                  </div>
-                  <h3 className="text-lg font-semibold text-[var(--text-display)] mb-2">{item.title}</h3>
-                  <p className="text-sm text-[var(--text-supporting)]">{item.description}</p>
-                </div>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-20 border-b border-[var(--border-default)] bg-[var(--surface-faint)]">
-        <FadeUp className="mx-auto max-w-4xl">
-          <p className="eyebrow mb-4">{positioning.integrationsProofEyebrow}</p>
-          <h2 className="section-h2 text-[var(--text-primary)] text-balance">
-            {positioning.integrationsProofTitle}
-          </h2>
-          <p className="mt-5 body-lg max-w-3xl text-[var(--text-supporting)]">
-            {positioning.integrationsProofDescription}
-          </p>
-        </FadeUp>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.domainsTitle}</h2>
-            <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">{copy.domainsDescription}</p>
-          </FadeUp>
-
-          <div className="space-y-12">
-            {integrationCategories.map((cat) => (
-              <FadeUp key={cat.category}>
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-xl flex items-center justify-center text-white shadow">
-                    <SundaeIcon name={cat.icon} size="md" className="text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-[var(--text-display)]">{cat.category}</h3>
-                  <span
-                    className={`px-2.5 py-1 text-xs font-medium rounded-full ${
-                      cat.status === "Live"
-                        ? "bg-green-500/20 text-green-400"
-                        : "bg-amber-500/20 text-amber-400"
-                    }`}
-                  >
-                    {cat.status === "Live" ? copy.liveNow : copy.roadmap}
-                  </span>
-                </div>
-                <StaggerContainer className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-                  {cat.systems.map((system) => (
-                    <StaggerItem key={system}>
-                      <div className="px-4 py-3 rounded-xl border border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] text-center hover:border-[#FFB59E] transition-colors">
-                        {system}
-                      </div>
-                    </StaggerItem>
-                  ))}
-                </StaggerContainer>
-              </FadeUp>
-            ))}
-          </div>
-
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-5xl mx-auto">
-          <FadeUp className="text-center mb-12">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.webhooksTitle}</h2>
-            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.webhooksDescription}</p>
-          </FadeUp>
-
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <StaggerItem>
-              <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center mb-4">
-                  <SundaeIcon name="integration" size="lg" className="text-white" />
-                </div>
-                <h3 className="text-xl font-semibold text-[var(--text-display)] mb-3">{copy.customWebhooks}</h3>
-                <p className="text-[var(--text-supporting)] text-sm mb-4">{copy.customWebhooksDescription}</p>
-                <ul className="space-y-2 text-sm text-[var(--text-supporting)]">
-                  <li className="flex items-start space-x-2">
-                    <span className="text-green-500 mt-0.5">&#10003;</span>
-                    <span>{copy.signatureVerification}</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-green-500 mt-0.5">&#10003;</span>
-                    <span>{copy.testPayloads}</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-green-500 mt-0.5">&#10003;</span>
-                    <span>{copy.liveDomains}</span>
-                  </li>
-                </ul>
+    <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
+      <GuidanceHero label={copy.iLabel} lead={copy.iLead} emphasis={copy.iEm} description={copy.iBody} compactDescription>
+        <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="integrations_system_review" className="max-w-full whitespace-normal! text-start">{copy.discussCta}</Button>
+        <Button variant="outline-light" size="lg" href={local('/architecture')} trackingLabel="integrations_architecture" className="max-w-full whitespace-normal! text-start">{copy.architectureCta}</Button>
+      </GuidanceHero>
+      <section id="sources" className="bg-[#F7F2E9] px-6 py-16 text-[#241D17] sm:px-8 lg:px-12 lg:py-24" aria-labelledby="sources-title">
+        <div className="mx-auto max-w-7xl">
+          <GuidanceReveal className="max-w-4xl">
+            <h2 id="sources-title" className="font-display text-3xl leading-tight sm:text-5xl">{copy.iDirectory}</h2>
+            <p data-source-coverage className="mt-6 max-w-3xl text-base leading-relaxed text-[#241D17]/75">{copy.iNote}</p>
+          </GuidanceReveal>
+          <dl data-source-directory className="mt-12 grid border-t border-[#241D17]/20 lg:grid-cols-2 lg:gap-x-16">
+            {sources.examples.map((names, index) => (
+              <div key={labels[index]} className="min-w-0 border-b border-[#241D17]/20 py-7">
+                <dt className="font-display text-2xl leading-tight">{labels[index]}</dt>
+                <dd className="mt-3 text-base leading-relaxed text-[#241D17]/75">{names.join(' · ')}</dd>
               </div>
-            </StaggerItem>
-
-            <StaggerItem>
-              <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#F2B45C] to-[#C2410C] rounded-xl flex items-center justify-center mb-4">
-                  <SundaeIcon name="data" size="lg" className="text-white" />
-                </div>
-                <h3 className="text-xl font-semibold text-[var(--text-display)] mb-3">{copy.publicApi}</h3>
-                <p className="text-[var(--text-supporting)] text-sm mb-4">{copy.publicApiDescription}</p>
-                <ul className="space-y-2 text-sm text-[var(--text-supporting)]">
-                  <li className="flex items-start space-x-2">
-                    <span className="text-green-500 mt-0.5">&#10003;</span>
-                    <span>{ui.publicApiBullets[0]}</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-green-500 mt-0.5">&#10003;</span>
-                    <span>{ui.publicApiBullets[1]}</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-green-500 mt-0.5">&#10003;</span>
-                    <span>{ui.publicApiBullets[2]}</span>
-                  </li>
-                </ul>
-              </div>
-            </StaggerItem>
-          </StaggerContainer>
+            ))}
+          </dl>
         </div>
       </section>
-
-      <PageCTA title={copy.title} description={copy.description}>
-        <Button variant="cta" size="lg" href="/demo">
-          {messages.pages.demo.bookDemo}
-        </Button>
-          <Button variant="outline-ink" size="lg" href="/product">
-          {ui.exploreProducts}
-          </Button>
-      </PageCTA>
+      <section id="connection-scope" className="px-6 py-16 sm:px-8 lg:px-12 lg:py-24" aria-labelledby="connection-scope-title">
+        <div className="mx-auto max-w-7xl">
+          <GuidanceReveal><h2 id="connection-scope-title" className="mb-12 max-w-4xl font-display text-3xl leading-tight text-[var(--text-primary)] sm:text-5xl">{copy.iScopeTitle}</h2></GuidanceReveal>
+          <ol className="divide-y divide-[var(--border-default)] border-y border-[var(--border-default)]">
+            {steps.map((step, index) => <li key={step.title} className="py-8 sm:py-10"><GuidanceReveal className="grid gap-5 sm:grid-cols-[3rem_minmax(0,1fr)] lg:grid-cols-[4rem_minmax(0,0.8fr)_minmax(0,1.2fr)] lg:gap-12"><span aria-hidden="true" className="font-display text-4xl text-[var(--text-warm)]">{String(index + 1).padStart(2, '0')}</span><h3 className="min-w-0 font-display text-2xl text-[var(--text-primary)] sm:text-3xl">{step.title}</h3><p className="min-w-0 text-lg leading-relaxed text-[var(--text-supporting)] sm:col-start-2 lg:col-start-auto">{step.body}</p></GuidanceReveal></li>)}
+          </ol>
+        </div>
+      </section>
+      <GuidanceClose title={copy.iCloseTitle} description={copy.iCloseBody}>
+        <SystemCloseActions locale={locale} secondaryHref="/getting-started" secondaryLabel={guidance.planCta} prefix="integrations_close" />
+      </GuidanceClose>
     </div>
   );
 }
