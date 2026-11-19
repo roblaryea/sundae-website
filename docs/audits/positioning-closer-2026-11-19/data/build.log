@@ -1,0 +1,181 @@
+
+> sundae@0.1.0 prebuild
+> npm run qa:i18n && npm run qa:translation && npm run qa:diagnostic-i18n && npm run qa:positioning
+
+
+> sundae@0.1.0 qa:i18n
+> node scripts/qa-i18n-stack.mjs
+
+i18n stack QA passed for locales: en, ar, fr, es, de, nl, pt, hi, ur, it, pl, tr, zh-Hans, ja, ko, id, vi, ro, sv, bn, th, ms
+
+> sundae@0.1.0 qa:translation
+> node scripts/qa-translation-quality.mjs
+
+Translation quality QA passed
+
+> sundae@0.1.0 qa:diagnostic-i18n
+> node scripts/qa-diagnostic-i18n.mjs
+
+Diagnostic i18n QA passed for 22 locales
+
+> sundae@0.1.0 qa:positioning
+> node scripts/qa-positioning.mjs
+
+Positioning QA passed: claims are safe and all 22 flagship locales are complete.
+
+> sundae@0.1.0 build
+> next build
+
+▲ Next.js 16.4.6 (Turbopack)
+[@sentry/nextjs] Importing `withSentryConfig` from `@sentry/nextjs` is deprecated and will stop working in v11. Import it from `@sentry/nextjs/config` instead:
+  import { withSentryConfig } from '@sentry/nextjs/config';
+✓ Running next.config.ts took 1189ms
+- Experiments (use with caution):
+  · clientTraceMetadata
+  · optimizePackageImports
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 28.9s
+  Running next.config.js provided runAfterProductionCompile ...
+✓ Completed runAfterProductionCompile in 891ms
+  Running TypeScript ...
+  Finished TypeScript in 13.4s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/150) ...
+  Generating static pages using 11 workers (37/150) 
+  Generating static pages using 11 workers (74/150) 
+  Generating static pages using 11 workers (112/150) 
+✓ Generating static pages using 11 workers (150/150) in 3.5s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /[handle]
+├ ƒ /[handle]/contact.vcf
+├ ƒ /404
+├ ƒ /4d-intelligence
+├ ƒ /about
+├ ƒ /api/auth/meta/callback
+├ ƒ /api/auth/tiktok
+├ ƒ /api/auth/tiktok/callback
+├ ƒ /api/auth/tiktok/disconnect
+├ ƒ /api/auth/tiktok/publish
+├ ƒ /api/book
+├ ƒ /api/book/[id]/cancel
+├ ƒ /api/book/[id]/reschedule
+├ ƒ /api/book/context
+├ ƒ /api/book/slots
+├ ƒ /api/cta/submit
+├ ƒ /api/diagnostic
+├ ƒ /api/personal-book/[...path]
+├ ƒ /api/pricing/catalog
+├ ƒ /api/profile-card/connect
+├ ƒ /architecture
+├ ƒ /blog
+├ ƒ /blog/[slug]
+├ ƒ /book
+├ ƒ /book/[slug]/[[...event]]
+├ ƒ /book/manage
+├ ƒ /book/request
+├ ƒ /brand
+├ ƒ /careers
+├ ƒ /chat-with-data
+├ ƒ /contact
+├ ƒ /core
+├ ƒ /crew
+├ ƒ /crew/payroll
+├ ƒ /crew/people
+├ ƒ /crew/people-intelligence
+├ ƒ /crew/scheduling
+├ ƒ /crew/time-attendance
+├ ƒ /demo
+├ ƒ /diagnostic
+├ ƒ /diagnostic/report
+├ ƒ /docs
+├ ƒ /faq
+├ ƒ /get-started
+├ ƒ /getting-started
+├ ƒ /integrations
+├ ƒ /modules
+├ ƒ /p/[handle]
+├ ƒ /p/[handle]/contact.vcf
+├ ƒ /preview/elevated
+├ ƒ /preview/light
+├ ƒ /preview/redesign
+├ ƒ /preview/v2/home
+├ ƒ /pricing
+├ ƒ /privacy
+├ ƒ /product
+├ ƒ /product/benchmarking
+├ ƒ /product/cross-intelligence
+├ ƒ /product/foresight
+├ ƒ /product/insights
+├ ƒ /product/intelligence
+├ ƒ /product/pulse
+├ ƒ /product/recovery
+├ ƒ /product/watchtower
+├ ƒ /resources
+├ ƒ /restaurant-logbook
+├ ƒ /restaurant-management-platform
+├ ƒ /restaurant-task-management
+├ ƒ /restaurant-tip-management
+├ ƒ /restaurant365-alternative
+├ ƒ /results
+├ ○ /robots.txt
+├ ƒ /security
+├ ƒ /sign-in
+├ ƒ /signin
+├ ○ /sitemap.xml
+├ ƒ /solutions
+├ ƒ /solutions/c-suite-executives
+├ ƒ /solutions/cloud-kitchens
+├ ƒ /solutions/finance-teams
+├ ƒ /solutions/franchises
+├ ƒ /solutions/hospitality-operators
+├ ƒ /solutions/hr-teams
+├ ƒ /solutions/marketing-teams
+├ ƒ /solutions/multi-location-groups
+├ ƒ /solutions/regional-managers
+├ ƒ /solutions/technology-teams
+├ ƒ /terms
+├ ƒ /tiktok-review
+├ ƒ /tools
+├ ƒ /tools/benchmark-readiness
+├ ƒ /tools/breakeven-covers
+├ ƒ /tools/daypart-margin-leak
+├ ƒ /tools/labor-analyzer
+├ ƒ /tools/labor-cost
+├ ƒ /tools/menu-margin
+├ ƒ /tools/multi-location-uplift
+├ ƒ /tools/upsell-opportunity-index
+└ ƒ /why-sundae
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> sundae@0.1.0 postbuild
+> npm run test:runtime-security && node scripts/verify-production-trace.mjs && node scripts/audit-deployed-runtime.mjs
+
+
+> sundae@0.1.0 test:runtime-security
+> node --test tests/deployed-runtime-audit.test.mjs
+
+✔ runtime SDK advisories remain blocking regardless of dependency classification (0.711875ms)
+✔ moderate findings remain reported under the existing high/critical release policy (0.118833ms)
+✔ invalid or unbound registry responses cannot produce a successful audit (0.36875ms)
+✔ an empty inventory is refused before contacting the advisory service (0.633041ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 95.876167
+Production trace boundary passed: 106 traces retain Sentry runtime and exclude Rollup/glob matcher packages
+Deployed runtime audit: 50 packages, 0 high/critical findings, 0 total advisories

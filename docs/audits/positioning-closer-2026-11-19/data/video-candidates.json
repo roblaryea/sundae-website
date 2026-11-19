@@ -1,0 +1,38 @@
+[
+  {
+    "id": "my-sundae-daily-home",
+    "approvalPath": "/Users/robertlaryea/Documents/Dev/.claude-worktrees/sundae-remotion-blob-publisher/out/tutorials/my-sundae-daily-home/review/approval.json",
+    "approvedAt": "2026-08-25T07:17:46.000Z",
+    "sha256": "e9126204819cb72dda160d8aa18b51dc455a3ed88c5ec58da3caf582c60fe888",
+    "masterExists": true,
+    "digestMatches": true,
+    "publicReleaseVerified": false
+  },
+  {
+    "id": "my-sundae-assign-accountability",
+    "approvalPath": "/Users/robertlaryea/Documents/Dev/.claude-worktrees/sundae-remotion-blob-publisher/out/tutorials/my-sundae-assign-accountability/review/approval.json",
+    "approvedAt": "2026-08-25T07:17:46.000Z",
+    "sha256": "e66444c92894b07e19f043dff604e26563392e9ceef1e5cfce55a77799a0cbdb",
+    "masterExists": true,
+    "digestMatches": true,
+    "publicReleaseVerified": false
+  },
+  {
+    "id": "attendance-live-matrix",
+    "approvalPath": "/Users/robertlaryea/Documents/Dev/.claude-worktrees/sundae-remotion-blob-publisher/out/tutorials/attendance-live-matrix/review/approval.json",
+    "approvedAt": "2026-08-23T18:07:39.198Z",
+    "sha256": "2b3ef52ce1649e74f00aade3dbbaf71dc7d03bbcbe807740d71bff50447b4640",
+    "masterExists": true,
+    "digestMatches": true,
+    "publicReleaseVerified": false
+  },
+  {
+    "id": "sales-daypart-diagnosis",
+    "approvalPath": "/Users/robertlaryea/Documents/Dev/.claude-worktrees/sundae-remotion-blob-publisher/out/tutorials/sales-daypart-diagnosis/review/approval.json",
+    "approvedAt": "2026-08-25T07:17:46.000Z",
+    "sha256": "05c748f1254e5447af71116e8828728a86e26aaafa4459711ec3bfccf9be3613",
+    "masterExists": true,
+    "digestMatches": true,
+    "publicReleaseVerified": false
+  }
+]

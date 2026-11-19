@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "path": "/why-sundae",
+      "theme": "dark",
+      "width": 1440,
+      "title": "Spot the gap.\nGet the team on it.",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/solutions",
+      "theme": "dark",
+      "width": 1440,
+      "title": "One operation.\nA clear next step for every team.",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/why-sundae",
+      "theme": "dark",
+      "width": 390,
+      "title": "Spot the gap.\nGet the team on it.",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/solutions",
+      "theme": "dark",
+      "width": 390,
+      "title": "One operation.\nA clear next step for every team.",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/why-sundae",
+      "theme": "light",
+      "width": 1440,
+      "title": "Spot the gap.\nGet the team on it.",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/solutions",
+      "theme": "light",
+      "width": 1440,
+      "title": "One operation.\nA clear next step for every team.",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/why-sundae",
+      "theme": "light",
+      "width": 390,
+      "title": "Spot the gap.\nGet the team on it.",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "path": "/solutions",
+      "theme": "light",
+      "width": 390,
+      "title": "One operation.\nA clear next step for every team.",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "journey": "desktop Solutions overview",
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}
