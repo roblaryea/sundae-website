@@ -1,0 +1,16 @@
+{
+  "jump": {
+    "hash": "#crew",
+    "top": 111.96875,
+    "active": "<body class=\"relative antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300\"><div hidden=\"\"><!--$--><!--/$--></div><script id=\"sundae-global-structured-data\" type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.sundae.io/#organization\",\"name\":\"Sundae\",\"url\":\"https://www.sundae.io/\",\""
+  },
+  "afterTab": {
+    "tag": "BUTTON",
+    "text": "Wat is Sundae Crew?",
+    "expanded": "false",
+    "outline": "solid",
+    "outlineWidth": "3px"
+  },
+  "afterSpace": "true",
+  "walkthroughUrl": "http://localhost:3155/nl/demo"
+}

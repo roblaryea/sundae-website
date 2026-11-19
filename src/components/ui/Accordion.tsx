@@ -1,7 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useId, useState } from 'react';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { PRICING_URL } from '@/lib/urls';
 
 // Function to parse and render formatted text
@@ -197,6 +197,43 @@ function AccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) 
   );
 }
 
+function EditorialAccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) {
+  const id = useId();
+  const reducedMotion = useReducedMotion();
+  return (
+    <div className="border-b border-[var(--border-default)]">
+      <h3>
+        <button
+          id={`${id}-question`}
+          aria-controls={`${id}-answer`}
+          aria-expanded={isOpen}
+          onClick={onClick}
+          className="group flex min-h-14 w-full items-center justify-between gap-5 py-6 text-start text-lg leading-relaxed text-[var(--text-primary)] transition-colors hover:text-[var(--text-warm)] focus-visible:relative focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-warm)] sm:text-xl"
+        >
+          <span className="min-w-0 font-medium">{title}</span>
+          <motion.svg aria-hidden="true" animate={{ rotate: isOpen ? 45 : 0 }} transition={{ duration: reducedMotion ? 0 : 0.2 }} className="h-5 w-5 shrink-0 text-[var(--text-warm)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path d="M12 5v14M5 12h14" />
+          </motion.svg>
+        </button>
+      </h3>
+      <motion.div
+        id={`${id}-answer`}
+        aria-labelledby={`${id}-question`}
+        aria-hidden={!isOpen}
+        inert={!isOpen}
+        initial={false}
+        animate={{ height: isOpen ? 'auto' : 0, opacity: isOpen ? 1 : 0 }}
+        transition={{ duration: reducedMotion ? 0 : 0.2, ease: 'easeInOut' }}
+        className="overflow-hidden"
+      >
+        <div className="max-w-3xl pb-7 pe-4 text-base leading-relaxed text-[var(--text-supporting)] sm:pe-10 sm:text-lg [&_li]:me-0 [&_li]:ms-0 [&_li]:gap-2 [&_li>span]:m-0">
+          {renderContent(content)}
+        </div>
+      </motion.div>
+    </div>
+  );
+}
+
 interface AccordionProps {
   items: Array<{
     title: string;
@@ -204,9 +241,10 @@ interface AccordionProps {
   }>;
   defaultOpenIndex?: number;
   allowMultiple?: boolean;
+  variant?: 'default' | 'editorial';
 }
 
-export function Accordion({ items, defaultOpenIndex = -1, allowMultiple = false }: AccordionProps) {
+export function Accordion({ items, defaultOpenIndex = -1, allowMultiple = false, variant = 'default' }: AccordionProps) {
   const [openIndexes, setOpenIndexes] = useState<number[]>(
     defaultOpenIndex >= 0 ? [defaultOpenIndex] : []
   );
@@ -221,10 +259,11 @@ export function Accordion({ items, defaultOpenIndex = -1, allowMultiple = false 
     }
   };
 
+  const Item = variant === 'editorial' ? EditorialAccordionItem : AccordionItem;
   return (
-    <div className="bg-[var(--surface-subtle)] rounded-xl shadow-lg overflow-hidden border border-[var(--border-default)]">
+    <div className={variant === 'editorial' ? 'border-t border-[var(--border-default)]' : "bg-[var(--surface-subtle)] rounded-xl shadow-lg overflow-hidden border border-[var(--border-default)]"}>
       {items.map((item, index) => (
-        <AccordionItem
+        <Item
           key={index}
           title={item.title}
           content={item.content}

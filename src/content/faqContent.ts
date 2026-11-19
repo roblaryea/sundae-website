@@ -1,3 +1,5 @@
+import faqCopyByLocale from '@/content/support-faq.json';
+import systemCopyByLocale from '@/content/support-system.json';
 import buyerBodyCopy from '@/content/buyer-depth/faq.json';
 import { getCommercialCopy, getCoreCoverageSummary } from '@/lib/pricing/commercialCopy';
 import { buildPricingSimulatorUrl } from '@/lib/pricingNavigation';
@@ -1567,15 +1569,35 @@ export function getLocalizedFaqSections(
 
   const commercial = getCommercialCopy(locale);
   const buyer = buyerBodyCopy[locale as keyof typeof buyerBodyCopy];
+  const faqCopy = faqCopyByLocale[locale as keyof typeof faqCopyByLocale];
+  const system = systemCopyByLocale[locale as keyof typeof systemCopyByLocale];
+  const fourDimensions = [
+    system.dBody,
+    `**PAST:** ${system.d1q}`,
+    `**PLAN:** ${system.d2q}`,
+    `**PEERS:** ${system.d3q}`,
+    `**PREDICTED:** ${system.d4q}`,
+    commercial.coreUsageNote,
+    commercial.foresightCoverage,
+    commercial.watchtowerEligibility,
+  ].join('\n\n');
   const corrections: Record<string, Record<number, string>> = {
     'getting-started': { 0: buyer.overview, 1: buyer.start, 2: buyer.noFree, 3: getCoreCoverageSummary(locale), 4: commercial.terms },
-    'products-tiers': { 0: buyer.overview, 1: getCoreCoverageSummary(locale), 3: commercial.packageScope },
-    modules: { 0: commercial.packageScope, 1: commercial.packageScope, 2: commercial.packageScope, 3: commercial.packageScope, 4: commercial.packageScope, 5: commercial.moduleAnswer },
+    'products-tiers': { 0: buyer.overview, 1: getCoreCoverageSummary(locale), 3: fourDimensions },
+    'data-integration': { 0: faqCopy.dataNeed, 2: faqCopy.posProviders, 3: faqCopy.mixedPos, 4: faqCopy.rolloutTiming },
+    support: { 0: faqCopy.supportScope, 1: faqCopy.trainingScope },
+    enterprise: { 0: faqCopy.complexScope, 1: faqCopy.complexSize },
+    modules: { 0: commercial.packageScope, 1: commercial.packageScope, 2: commercial.packageScope, 3: commercial.packageScope, 4: faqCopy.firstModule, 5: commercial.moduleAnswer },
     'pricing-billing': { 0: `${commercial.pricingScope}\n\n${commercial.setup}\n\n[${commercial.viewEstimate}](${buildPricingSimulatorUrl(locale)})`, 1: commercial.setup, 3: commercial.terms },
     watchtower: { 1: commercial.watchtowerEligibility, 3: commercial.watchtowerChoice, 4: commercial.watchtowerEligibility },
-    comparisons: { 2: commercial.packageScope + ' ' + commercial.setup },
+    comparisons: { 0: faqCopy.posComparison, 1: faqCopy.spreadsheetComparison, 2: commercial.costComparison },
     'use-cases': { 0: commercial.coreLocationScope },
-    crew: { 1: commercial.payroll, 2: commercial.payroll, 4: commercial.firstLocation + ': [pricing.sundae.io](https://pricing.sundae.io). ' + commercial.extraLocations },
+    crew: {
+      0: faqCopy.crewOverview,
+      1: [faqCopy.crewCapabilities, commercial.crewOperationsCoverage, commercial.crewPayrollCoverage, commercial.crewCoverageExclusions, commercial.crewHandoverCoverage].join('\n\n'),
+      2: commercial.payroll,
+      4: `${faqCopy.crewPricing}\n\n[${commercial.viewEstimate}](${buildPricingSimulatorUrl(locale)})`,
+    },
   };
   return sections.map((section, index) => ({
     ...section,

@@ -1,0 +1,558 @@
+{
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "light": false,
+      "h1": "Frequently asked questions.",
+      "title": "FAQ - Sundae",
+      "description": "Find answers about Core, Crew, integrations, pricing and rollout. Choose a category below, or bring one operating question to a walkthrough.",
+      "canonical": "https://www.sundae.io/faq",
+      "hreflangs": 23,
+      "questionCount": 53,
+      "schemaCount": 26,
+      "answerReadbacks": [
+        {
+          "title": "What is Sundae?",
+          "answer": "Sundae is an operations management platform for hospitality and food-service. Core connects operating data with analysis, recommendations and result review. Crew supports workforce and daily work, including scheduling, attendance, tasks, handovers, people records and payroll. Choose Core, Crew or both according to your needs."
+        },
+        {
+          "title": "How do I get started?",
+          "answer": "Start with the work or question you need to improve. Explore Core, Crew or both in the pricing calculator at pricing.sundae.io, or book a walkthrough using your operation or a sample. The diagnostic is another way to organize a performance question."
+        },
+        {
+          "title": "Is there a free tier?",
+          "answer": "Sundae packages are paid. Book a walkthrough to review the relevant capabilities and discuss your operation before choosing a package. Your own data is optional."
+        },
+        {
+          "title": "What's the difference between the Core packages?",
+          "answer": "Pulse, Benchmarks, Ask Sundae and Profit Recovery, plus labor, profit and revenue assurance analysis. Core Foundation: The operating baseline: labor, profit, revenue assurance and Pulse. Core Margin: Foundation coverage plus inventory, purchasing and delivery economics. Core Growth: Foundation coverage plus marketing, reservations, guest experience, guest CRM and delivery economics. Inventory and purchasing are not included. Core Performance: Combines Margin and Growth coverage, with Foresight & Action included. Package AI seats and credit allowances apply. Peer benchmarks depend on sufficient privacy-protected data; premium benchmark access has separate eligibility."
+        },
+        {
+          "title": "Do I need a long-term contract?",
+          "answer": "Discounts depend on commitment, payment schedule and eligible scope. Confirm current terms in the pricing calculator."
+        },
+        {
+          "title": "What products does Sundae offer?",
+          "answer": "Sundae is an operations management platform for hospitality and food-service. Core connects operating data with analysis, recommendations and result review. Crew supports workforce and daily work, including scheduling, attendance, tasks, handovers, people records and payroll. Choose Core, Crew or both according to your needs."
+        },
+        {
+          "title": "Which Core package should I choose?",
+          "answer": "Pulse, Benchmarks, Ask Sundae and Profit Recovery, plus labor, profit and revenue assurance analysis. Core Foundation: The operating baseline: labor, profit, revenue assurance and Pulse. Core Margin: Foundation coverage plus inventory, purchasing and delivery economics. Core Growth: Foundation coverage plus marketing, reservations, guest experience, guest CRM and delivery economics. Inventory and purchasing are not included. Core Performance: Combines Margin and Growth coverage, with Foresight & Action included. Package AI seats and credit allowances apply. Peer benchmarks depend on sufficient privacy-protected data; premium benchmark access has separate eligibility."
+        },
+        {
+          "title": "Can I upgrade or downgrade later?",
+          "answer": "Yes. You can move between tiers at any time. Historical data is preserved and there are no penalties for changing plans."
+        },
+        {
+          "title": "What's the 4D Intelligence Model?",
+          "answer": "Review the past, compare it with your plan, add relevant peer and market context, then consider what could happen next. Sundae connects that understanding to a team-owned action and a check on the result. PAST: What happened? PLAN: Where are we against plan? PEERS: How do we compare? PREDICTED: What could happen next? Package AI seats and credit allowances apply. Peer benchmarks depend on sufficient privacy-protected data; premium benchmark access has separate eligibility. Foresight & Action is included in Core Performance. It is a separately priced optional extension for Core Foundation, Core Margin and Core Growth. Watchtower is a separately priced extension for Core Growth and Core Performance. It is not available with Core Foundation or Core Margin."
+        },
+        {
+          "title": "What data does Sundae need?",
+          "answer": "Start with the operating question and the capabilities you need. For Core, agree the relevant sales, workforce, cost or guest records and check their coverage. Crew can start with the workforce and daily workflows your team needs to run. Confirm required fields, locations, history and access before rollout."
+        },
+        {
+          "title": "How do I get my data into Sundae?",
+          "answer": "Through API connections to your POS and the rest of your operating stack. Where a system has no API, Sundae accepts structured file drops and smart-parsed uploads - PDF, Excel, screenshots - that you review before processing."
+        },
+        {
+          "title": "What POS systems do you integrate with?",
+          "answer": "Discuss the POS providers, locations and countries your operation uses with Sundae. Connection availability depends on the provider, permissions, records and supported connection method. Review the Integrations page with your team to confirm the available path and refresh timing for your setup."
+        },
+        {
+          "title": "Can I use Sundae with multiple POS systems?",
+          "answer": "Mixed POS estates can be scoped across the available connection paths. Agree the location mapping, comparable measures and data coverage before using records from different systems together. Your selected Core package determines the analysis available."
+        },
+        {
+          "title": "How long does implementation take?",
+          "answer": "Rollout timing depends on the selected products, source access, data coverage, countries and workflows. We will agree the first workflow, connection checks and review milestones with your team. Confirm implementation scope and any applicable fees in your estimate."
+        },
+        {
+          "title": "What happens to my data if I cancel?",
+          "answer": "Historical data stays available for export. If you return later, your prior data can still be restored according to your plan and retention terms."
+        },
+        {
+          "title": "What are modules?",
+          "answer": "Core packages include different capabilities. Check the selected package and any eligible extensions in the pricing calculator. 1. Foresight Intelligence - Forecasts and scenario planning, subject to selected package and data readiness. 2. Labor Intelligence - Schedule vs. actual, overtime leakage, productivity per labor hour. 3. Inventory Intelligence - Theoretical vs. actual usage, waste, shrinkage, par levels. 4. Purchasing Intelligence - Vendor price movement, contract adherence, order consolidation. 5. Marketing Performance - Promo ROI by channel, acquisition cost, campaign attribution. 6. Reservations Intelligence - Cover pacing, no-show risk, table turn and capacity yield. 7. Profit Intelligence - Item and outlet-level contribution, menu engineering, margin drag. 8. Revenue Assurance - Void, comp, discount and cash-variance pattern detection. 9. Delivery Intelligence - Channel margin after commission, prep time, order accuracy. 10. Guest Experience - Review and sentiment signal tied back to shift and outlet. 11. Pulse - Real-time shift pacing, exception flags and live leak surfacing. 12. Guest CRM Intelligence - Cohort retention, guest LTV, churn-at-risk segments."
+        },
+        {
+          "title": "Which module should I look at first?",
+          "answer": "Start with the operating problem you want to understand, then confirm the selected package includes the relevant capability. Labor, profit and revenue assurance are included across Core packages. Inventory and purchasing are covered by Margin and Performance; guest and marketing analysis by Growth and Performance. Bring one question to the walkthrough to choose a useful first view."
+        },
+        {
+          "title": "Are modules sold separately?",
+          "answer": "No. Modules are included in Core packages. Compare packages to see which capabilities each one includes."
+        },
+        {
+          "title": "What is Watchtower?",
+          "answer": "Watchtower is the external side of Sundae. It helps teams understand what is happening beyond the four walls: 1. Competitive Intelligence - Track up to 10 competitors per location 2. Event Intelligence - Weather, holidays, and local events 3. Market Intelligence - Category trends and economic indicators"
+        },
+        {
+          "title": "Do I need Watchtower?",
+          "answer": "Watchtower is a separately priced extension for Core Growth and Core Performance. It is not available with Core Foundation or Core Margin."
+        },
+        {
+          "title": "How many competitors can I track?",
+          "answer": "Up to 10 competitors per location. Each location can track a different competitor set. Example: 5 locations = up to 50 competitors monitored."
+        },
+        {
+          "title": "Can I use only one Watchtower component?",
+          "answer": "Choose Competitive Intelligence, Event & Calendar Signals, Market Trends or the full Watchtower bundle. Confirm your locations and current price in the calculator."
+        },
+        {
+          "title": "Does Watchtower require Core?",
+          "answer": "Watchtower is a separately priced extension for Core Growth and Core Performance. It is not available with Core Foundation or Core Margin."
+        },
+        {
+          "title": "How much does Sundae cost?",
+          "answer": "Pricing depends on the products, locations and setup your operation needs. Choose Core, Crew or both in the pricing simulator to review current pricing and applicable terms. Implementation fees depend on the selected products and onboarding scope. Confirm them in your estimate. View estimate"
+        },
+        {
+          "title": "Are there setup fees?",
+          "answer": "Implementation fees depend on the selected products and onboarding scope. Confirm them in your estimate."
+        },
+        {
+          "title": "What currencies do you accept?",
+          "answer": "Major billing currencies are supported, and pricing can be presented in the currency that best matches your operation."
+        },
+        {
+          "title": "Is there an annual discount?",
+          "answer": "Discounts depend on commitment, payment schedule and eligible scope. Confirm current terms in the pricing calculator."
+        },
+        {
+          "title": "What payment methods do you accept?",
+          "answer": "Credit card ACH or bank transfer Wire transfer for larger accounts Purchase orders for approved Enterprise customers"
+        },
+        {
+          "title": "How do intelligence credits work?",
+          "answer": "Intelligence credits power questions, analyses, and recommendations. Every Core package carries a monthly wallet: Core Foundation: 14,000 Core Margin: 16,000 Core Growth: 18,000 Core Performance: 24,000 If you run through it, you can top up on any package."
+        },
+        {
+          "title": "How much historical access do I get?",
+          "answer": "Every Core package keeps your full connected history with multi-year retention. Enterprise agreements can extend that with custom retention terms."
+        },
+        {
+          "title": "How often does data refresh?",
+          "answer": "Core refreshes through the shift rather than at end of day, so Pulse and the domain modules move while you can still act on them. Exact cadence depends on what your connected systems expose."
+        },
+        {
+          "title": "Do I get custom dashboards?",
+          "answer": "Yes. Every Core package includes custom dashboards on top of the prebuilt views that ship with each domain module."
+        },
+        {
+          "title": "What support do I get?",
+          "answer": "Confirm the support channels, coverage hours and any response-time commitments for your selected scope before rollout. Bring your team locations and support requirements to the walkthrough so they can be included in the plan."
+        },
+        {
+          "title": "Do you provide training?",
+          "answer": "Agree training and enablement around the people and workflows in your rollout. Confirm the sessions, materials, implementation scope and any applicable fees in your estimate."
+        },
+        {
+          "title": "What time zones do you support?",
+          "answer": "Sundae supports global teams across major time zones, and support coverage is aligned to the geography and support level in your plan."
+        },
+        {
+          "title": "Is my data secure?",
+          "answer": "Yes. Sundae uses enterprise-grade controls: AES-256 encryption at rest TLS encryption in transit Role-based access controls Regular security reviews GDPR-aligned handling Additional security controls for Enterprise customers"
+        },
+        {
+          "title": "Can I control who sees which data?",
+          "answer": "Yes. Role management supports admin, manager, and viewer permissions, with custom role patterns available for more complex Enterprise needs."
+        },
+        {
+          "title": "Do you offer SSO?",
+          "answer": "Yes. SSO and SAML are available for Enterprise deployments."
+        },
+        {
+          "title": "What makes Enterprise different?",
+          "answer": "Sundae’s standard Core packages are Foundation, Margin, Growth and Performance. For a complex deployment, discuss your access, integration, country and support requirements. Any additional capabilities or commitments must be confirmed in a written agreement."
+        },
+        {
+          "title": "Do I need 100+ locations for Enterprise?",
+          "answer": "Use your operating requirements to scope the deployment, including locations, access, integrations, countries and support. Core’s four named packages remain the standard options; confirm any bespoke requirements and commitments in a written agreement."
+        },
+        {
+          "title": "How do I get Enterprise pricing?",
+          "answer": "Enterprise pricing is scoped around features, location count, data requirements, security expectations, and support model. Contact sales for a custom quote."
+        },
+        {
+          "title": "How is Sundae different from POS reporting?",
+          "answer": "POS reports help you review the sales and transactions recorded in that system. Sundae Core brings the available operating sources into analysis, relevant comparisons and a review of what changed. Crew supports daily workforce and shift workflows. Foresight & Action adds forecasting and scenarios within its package or extension eligibility."
+        },
+        {
+          "title": "How is Sundae different from Excel?",
+          "answer": "Spreadsheets remain useful for flexible working and analysis. Sundae provides a shared place for the selected operating records, analysis and daily workflows. Compare the source coverage, responsibilities and follow-up your team needs when deciding what belongs in each tool."
+        },
+        {
+          "title": "How much can I save versus legacy analytics tools?",
+          "answer": "Compare the same locations, workforce, modules, implementation, integrations, taxes and support. Use Sundae’s current calculator and request a scoped Restaurant365 quote. A headline price alone does not establish better value."
+        },
+        {
+          "title": "I only have one location. Is Sundae still a fit?",
+          "answer": "Your selected Core package determines capability coverage, whether you run one location or many. Confirm location-based pricing, AI allowances and any optional extensions in the calculator."
+        },
+        {
+          "title": "I'm a franchise platform. Can Sundae help?",
+          "answer": "Yes. Sundae can support: Franchisor visibility across the network Franchisee-specific access controls White-label reporting Benchmarking across the system Territory and expansion analysis"
+        },
+        {
+          "title": "I run cloud kitchens. Does Sundae work for delivery-first operations?",
+          "answer": "Yes. Sundae connects delivery platforms and supports analytics for virtual brands, channel performance, labor efficiency, and attribution across delivery-heavy operations."
+        },
+        {
+          "title": "We're planning to expand. Can Sundae help?",
+          "answer": "Yes. Watchtower and market intelligence can support trade-area analysis, saturation review, competitor movement tracking, and prioritization of underserved territories."
+        },
+        {
+          "title": "What is Sundae Crew?",
+          "answer": "Crew supports workforce and daily operations, including scheduling, time and attendance, tasks, checklists, shift handovers, people records and payroll. Start with the individual capabilities or package your team needs; Crew can run on its own or alongside Core."
+        },
+        {
+          "title": "What can Crew do?",
+          "answer": "Scheduling plans shifts. Time and attendance records hours for review. People keeps employee records. Crew Operations supports daily task and handover work, while Crew Payroll supports payroll workflows. People Intelligence supports workforce analysis. Confirm the capabilities and prerequisites your team needs. Tasks, checklists and the digital shift logbook are part of Crew Operations (Crew Manage), included in Crew Operating and Crew Complete. Tip workflows are part of Crew Payroll (Crew Pay), included in Crew Operating and Crew Complete. Crew Pay requires Crew Operations. Crew Starter and Schedule & Time do not include these workflows. Scheduling includes viewing manager handovers. Creating handovers and using the operational logbook require Crew Operations."
+        },
+        {
+          "title": "Which regions does Crew payroll support?",
+          "answer": "Crew Pay calculates gross to net across 36+ ISO countries, with versioned country rules, payslips and reviewed statutory exports. Filing and payment handoffs depend on the country and provider."
+        },
+        {
+          "title": "Do I need Core to use Crew?",
+          "answer": "No. Crew can run on its own as your operational system, or alongside Core so its signal feeds Labor Intelligence, Pulse, and Foresight. You can also bring your own HR or payroll provider - Crew is optional by design."
+        },
+        {
+          "title": "How much does Crew cost?",
+          "answer": "Choose the Crew capabilities or package, locations and setup your team needs in the pricing simulator. Review the current estimate and applicable terms. View estimate"
+        }
+      ],
+      "colors": [
+        "rgb(255, 255, 255)",
+        "rgb(246, 198, 107)"
+      ],
+      "pricingLinks": [
+        "https://pricing.sundae.io/simulator?lang=en",
+        "https://pricing.sundae.io/simulator?lang=en",
+        "https://pricing.sundae.io/simulator?lang=en",
+        "https://pricing.sundae.io/simulator?lang=en"
+      ],
+      "sampleNoteBelowDemo": true,
+      "overflow": false,
+      "headingsClipped": []
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "light": true,
+      "h1": "Frequently asked questions.",
+      "title": "FAQ - Sundae",
+      "description": "Find answers about Core, Crew, integrations, pricing and rollout. Choose a category below, or bring one operating question to a walkthrough.",
+      "canonical": "https://www.sundae.io/faq",
+      "hreflangs": 23,
+      "questionCount": 53,
+      "schemaCount": 26,
+      "answerReadbacks": [],
+      "colors": [
+        "rgb(36, 29, 23)",
+        "rgb(152, 80, 28)"
+      ],
+      "pricingLinks": [
+        "https://pricing.sundae.io/simulator?lang=en",
+        "https://pricing.sundae.io/simulator?lang=en",
+        "https://pricing.sundae.io/simulator?lang=en",
+        "https://pricing.sundae.io/simulator?lang=en"
+      ],
+      "sampleNoteBelowDemo": true,
+      "overflow": false,
+      "headingsClipped": []
+    },
+    {
+      "locale": "nl",
+      "width": 320,
+      "light": true,
+      "h1": "Veelgestelde vragen.",
+      "title": "FAQ - Sundae",
+      "description": "Vind antwoorden over Core, Crew, integraties, prijzen en invoering. Kies hieronder een categorie of neem één operationele vraag mee naar een demonstratie.",
+      "canonical": "https://www.sundae.io/nl/faq",
+      "hreflangs": 23,
+      "questionCount": 53,
+      "schemaCount": 26,
+      "answerReadbacks": [
+        {
+          "title": "Wat is Sundae?",
+          "answer": "Sundae is een operations managementplatform voor hospitality en foodservice. Core verbindt operationele data met analyse, aanbevelingen en resultaatsreview. Crew ondersteunt workforce en dagelijkse werkzaamheden, inclusief planning, aanwezigheid, taken, overdrachten, personeelsgegevens en payroll. Kies Core, Crew of beide op basis van uw behoeften."
+        },
+        {
+          "title": "Hoe begin ik?",
+          "answer": "Begin met het werk of de vraag die u wilt verbeteren. Verken Core, Crew of beide in de prijscalculator op pricing.sundae.io, of plan een walkthrough met uw operatie of een voorbeeld. De diagnose is een andere manier om een prestatievraag te organiseren."
+        },
+        {
+          "title": "Welke producten biedt Sundae?",
+          "answer": "Sundae is een operations managementplatform voor hospitality en foodservice. Core verbindt operationele data met analyse, aanbevelingen en resultaatsreview. Crew ondersteunt workforce en dagelijkse werkzaamheden, inclusief planning, aanwezigheid, taken, overdrachten, personeelsgegevens en payroll. Kies Core, Crew of beide op basis van uw behoeften."
+        },
+        {
+          "title": "Welk Core-pakket moet ik kiezen?",
+          "answer": "Pulse, Benchmarks, Ask Sundae en Profit Recovery, plus analyses van personeel, winst en omzetbewaking. Core Foundation: De operationele basis: personeel, winst, omzetbewaking en Pulse. Core Margin: De dekking van Foundation plus voorraad, inkoop en bezorgrendement. Core Growth: De dekking van Foundation plus marketing, reserveringen, gastbeleving, gasten-CRM en bezorgrendement. Voorraad en inkoop zijn niet inbegrepen. Core Performance: Combineert de dekking van Margin en Growth, inclusief Foresight & Action. De AI-gebruikers- en kredietlimieten van het pakket gelden. Vergelijkingen vereisen voldoende privacybeschermde gegevens; voor premium benchmarks gelden aparte toegangsvoorwaarden."
+        },
+        {
+          "title": "Welke data heeft Sundae nodig?",
+          "answer": "Begin met de operationele vraag en de mogelijkheden die u nodig hebt. Spreek voor Core de relevante verkoop-, personeels-, kosten- of gastgegevens af en controleer de dekking. Crew kan beginnen met het personeel en de dagelijkse werkprocessen die uw team moet beheren. Bevestig velden, locaties, historie en toegang vóór de invoering."
+        },
+        {
+          "title": "Hoe krijg ik mijn data in Sundae?",
+          "answer": "Via API-koppelingen met je POS en de rest van je operationele stack. Waar een systeem geen API heeft, accepteert Sundae gestructureerde bestandsuploads en slim uitgelezen bestanden - PDF, Excel, screenshots - die je vóór verwerking controleert."
+        },
+        {
+          "title": "Wat zijn modules?",
+          "answer": "Core-pakketten bevatten verschillende functies. Controleer het gekozen pakket en beschikbare uitbreidingen in de prijscalculator. 1. Foresight Intelligence - Forecasts and scenario planning, subject to selected package and data readiness. 2. Labor Intelligence - Schedule vs. actual, overtime leakage, productivity per labor hour. 3. Inventory Intelligence - Theoretical vs. actual usage, waste, shrinkage, par levels. 4. Purchasing Intelligence - Vendor price movement, contract adherence, order consolidation. 5. Marketing Performance - Promo ROI by channel, acquisition cost, campaign attribution. 6. Reservations Intelligence - Cover pacing, no-show risk, table turn and capacity yield. 7. Profit Intelligence - Item and outlet-level contribution, menu engineering, margin drag. 8. Revenue Assurance - Void, comp, discount and cash-variance pattern detection. 9. Delivery Intelligence - Channel margin after commission, prep time, order accuracy. 10. Guest Experience - Review and sentiment signal tied back to shift and outlet. 11. Pulse - Real-time shift pacing, exception flags and live leak surfacing. 12. Guest CRM Intelligence - Cohort retention, guest LTV, churn-at-risk segments."
+        },
+        {
+          "title": "Naar welke module moet ik eerst kijken?",
+          "answer": "Begin met het operationele probleem en bevestig dat het pakket de juiste mogelijkheid bevat. Personeel, winst en omzetbewaking zijn in alle Core-pakketten opgenomen. Voorraad en inkoop vallen onder Margin en Performance; gasten en marketing onder Growth en Performance. Neem één vraag mee om een nuttige eerste weergave te kiezen."
+        },
+        {
+          "title": "Wat is Watchtower?",
+          "answer": "Watchtower is de externe kant van Sundae. Het helpt teams te begrijpen wat er buiten de vier muren gebeurt: 1. Concurrentie-informatie - Volg tot 10 concurrenten per locatie 2. Evenementeninformatie - Weer, feestdagen en lokale evenementen 3. Marktinformatie - Categorie-trends en economische indicatoren"
+        },
+        {
+          "title": "Heb ik Watchtower nodig?",
+          "answer": "Watchtower is een afzonderlijk geprijsde uitbreiding voor Core Growth en Core Performance. Het is niet beschikbaar bij Core Foundation of Core Margin."
+        },
+        {
+          "title": "Wat kost Sundae?",
+          "answer": "De prijs hangt af van de producten, locaties en inrichting die uw bedrijf nodig heeft. Kies Core, Crew of beide in de prijssimulator om de actuele prijzen en toepasselijke voorwaarden te bekijken. Implementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming. Bekijk schatting"
+        },
+        {
+          "title": "Zijn er opstartkosten?",
+          "answer": "Implementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming."
+        },
+        {
+          "title": "Hoe werken intelligence-credits?",
+          "answer": "Intelligence-credits voeden vragen, analyses en aanbevelingen. Elk Core-pakket heeft een maandelijkse wallet: Core Foundation: 14,000 Core Margin: 16,000 Core Growth: 18,000 Core Performance: 24,000 Raakt die op, dan kun je bij elk pakket bijladen."
+        },
+        {
+          "title": "Hoeveel historie krijg ik?",
+          "answer": "Elk Core-pakket bewaart je volledige gekoppelde historie met meerjarige retentie. Enterprise-afspraken kunnen dat uitbreiden met eigen bewaartermijnen."
+        },
+        {
+          "title": "Welke support krijg ik?",
+          "answer": "Bevestig vóór invoering de supportkanalen, bereikbaarheid en eventuele afspraken over reactietijden voor uw gekozen omvang. Neem teamlocaties en supportbehoeften mee zodat die in het plan komen."
+        },
+        {
+          "title": "Bieden jullie training?",
+          "answer": "Spreek training en begeleiding af rond de mensen en werkprocessen van uw invoering. Bevestig sessies, materiaal, implementatieomvang en eventuele kosten in de raming."
+        },
+        {
+          "title": "Is mijn data veilig?",
+          "answer": "Ja. Sundae gebruikt enterprise-grade controles: AES-256 encryptie in rust TLS encryptie tijdens verzending Rolgebaseerde toegangscontroles Regelmatige beveiligingsreviews GDPR-conforme verwerking Extra beveiligingscontroles voor Enterprise-klanten"
+        },
+        {
+          "title": "Kan ik controleren wie welke data ziet?",
+          "answer": "Ja. Rolbeheer ondersteunt admin-, manager- en kijkerrechten, met aangepaste rolpatronen beschikbaar voor complexere Enterprise-behoeften."
+        },
+        {
+          "title": "Wat maakt Enterprise anders?",
+          "answer": "De standaard Core-pakketten van Sundae zijn Foundation, Margin, Growth en Performance. Bespreek bij een complexe invoering de eisen aan toegang, integratie, landen en support. Extra mogelijkheden of toezeggingen moeten schriftelijk worden vastgelegd."
+        },
+        {
+          "title": "Heb ik 100+ locaties nodig voor Enterprise?",
+          "answer": "Bepaal de invoering op basis van operationele eisen zoals locaties, toegang, integraties, landen en support. De vier benoemde Core-pakketten blijven de standaardopties. Bevestig maatwerk en toezeggingen in een schriftelijke overeenkomst."
+        },
+        {
+          "title": "Waarin verschilt Sundae van POS-rapportage?",
+          "answer": "Kassarapporten tonen de verkopen en transacties in dat systeem. Sundae Core brengt beschikbare operationele bronnen samen voor analyse, relevante vergelijkingen en evaluatie van veranderingen. Crew ondersteunt dagelijkse personeels- en dienstprocessen. Foresight & Action voegt prognoses en scenario’s toe volgens de voorwaarden van pakket of uitbreiding."
+        },
+        {
+          "title": "Hoe verschilt Sundae van Excel?",
+          "answer": "Spreadsheets blijven nuttig voor flexibel werken en analyseren. Sundae biedt een gedeelde plek voor de gekozen operationele gegevens, analyses en dagelijkse processen. Vergelijk brondekking, verantwoordelijkheden en opvolging om te bepalen wat bij elk hulpmiddel hoort."
+        },
+        {
+          "title": "Ik heb maar één vestiging. Past Sundae dan toch?",
+          "answer": "Je gekozen Core-pakket bepaalt de functies, of je nu één of meerdere locaties hebt. Controleer locatieafhankelijke prijzen, AI-limieten en optionele uitbreidingen in de calculator."
+        },
+        {
+          "title": "Ik ben een franchiseplatform. Kan Sundae helpen?",
+          "answer": "Ja. Sundae kan ondersteunen: Zichtbaarheid voor franchisenemers in het netwerk Specifieke toegangscontroles voor franchisenemers White-label rapportage Benchmarking binnen het systeem Analyse van gebieden en uitbreiding"
+        },
+        {
+          "title": "Wat is Sundae Crew?",
+          "answer": "Crew ondersteunt personeel en dagelijkse bedrijfsvoering: roosters, tijd en aanwezigheid, taken, checklists, dienstoverdrachten, personeelsdossiers en salarisverwerking. Begin met de mogelijkheden of het pakket dat uw team nodig heeft. Crew werkt zelfstandig of naast Core."
+        },
+        {
+          "title": "Wat kan Crew?",
+          "answer": "Scheduling plant diensten. Time and Attendance legt uren vast voor controle. People beheert personeelsdossiers. Crew Operations ondersteunt dagelijkse taken en overdrachten; Crew Payroll ondersteunt salarisprocessen. People Intelligence ondersteunt personeelsanalyse. Bevestig de benodigde mogelijkheden en voorwaarden. Taken, checklists en het digitale dienstenlogboek horen bij Crew Operations (Crew Manage), opgenomen in Crew Operating en Crew Complete. Fooienbeheer hoort bij Crew Payroll (Crew Pay), opgenomen in Crew Operating en Crew Complete. Crew Pay vereist Crew Operations. Crew Starter en Schedule & Time bevatten deze functies niet. Planning omvat het bekijken van overdrachten door managers. Overdrachten maken en het operationele logboek gebruiken vereist Crew Operations."
+        }
+      ],
+      "colors": [
+        "rgb(36, 29, 23)",
+        "rgb(152, 80, 28)"
+      ],
+      "pricingLinks": [
+        "https://pricing.sundae.io/simulator?lang=nl",
+        "https://pricing.sundae.io/simulator?lang=nl",
+        "https://pricing.sundae.io/simulator?lang=nl",
+        "https://pricing.sundae.io/simulator?lang=nl"
+      ],
+      "sampleNoteBelowDemo": true,
+      "overflow": false,
+      "headingsClipped": []
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "light": true,
+      "h1": "Häufig gestellte Fragen.",
+      "title": "FAQ - Sundae",
+      "description": "Hier finden Sie Antworten zu Core, Crew, Integrationen, Preisen und Einführung. Wählen Sie eine Kategorie oder bringen Sie eine betriebliche Frage zu einer Produktvorführung mit.",
+      "canonical": "https://www.sundae.io/de/faq",
+      "hreflangs": 23,
+      "questionCount": 53,
+      "schemaCount": 26,
+      "answerReadbacks": [],
+      "colors": [
+        "rgb(36, 29, 23)",
+        "rgb(152, 80, 28)"
+      ],
+      "pricingLinks": [
+        "https://pricing.sundae.io/simulator?lang=de",
+        "https://pricing.sundae.io/simulator?lang=de",
+        "https://pricing.sundae.io/simulator?lang=de",
+        "https://pricing.sundae.io/simulator?lang=de"
+      ],
+      "sampleNoteBelowDemo": true,
+      "overflow": false,
+      "headingsClipped": []
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "light": false,
+      "h1": "الأسئلة الشائعة.",
+      "title": "الأسئلة الشائعة - Sundae",
+      "description": "اعثر على إجابات حول Core وCrew والتكاملات والتسعير وبدء الاستخدام. اختر فئة أدناه، أو أحضر سؤالًا تشغيليًا واحدًا إلى جولة توضيحية.",
+      "canonical": "https://www.sundae.io/ar/faq",
+      "hreflangs": 23,
+      "questionCount": 53,
+      "schemaCount": 26,
+      "answerReadbacks": [
+        {
+          "title": "ما هو Sundae؟",
+          "answer": "Sundae منصة لإدارة العمليات للضيافة وخدمات الطعام. يربط Core بيانات التشغيل بالتحليل والتوصيات ومراجعة النتائج. يدعم Crew القوى العاملة والعمل اليومي، بما في ذلك الجدولة والحضور والمهام والتسليمات وسجلات الأشخاص والرواتب. اختر Core أو Crew أو كليهما وفق حاجتك."
+        },
+        {
+          "title": "كيف أبدأ؟",
+          "answer": "ابدأ بالعمل أو السؤال الذي تحتاج لتحسينه. استكشف Core وCrew أو كليهما في حاسبة التسعير على pricing.sundae.io، أو احجز جولة توضيحية باستخدام عمليتك أو عينة. التشخيص طريقة أخرى لتنظيم سؤال الأداء."
+        },
+        {
+          "title": "ما المنتجات التي يقدمها Sundae؟",
+          "answer": "Sundae منصة لإدارة العمليات للضيافة وخدمات الطعام. يربط Core بيانات التشغيل بالتحليل والتوصيات ومراجعة النتائج. يدعم Crew القوى العاملة والعمل اليومي، بما في ذلك الجدولة والحضور والمهام والتسليمات وسجلات الأشخاص والرواتب. اختر Core أو Crew أو كليهما وفق حاجتك."
+        },
+        {
+          "title": "أي باقة Core أختار؟",
+          "answer": "Pulse وBenchmarks وAsk Sundae وProfit Recovery، إضافةً إلى تحليل العمالة والربح وضمان الإيرادات. Core Foundation: الأساس التشغيلي: العمالة والربح وضمان الإيرادات وPulse. Core Margin: نطاق Foundation مع المخزون والمشتريات واقتصاديات التوصيل. Core Growth: نطاق Foundation مع التسويق والحجوزات وتجربة الضيوف وإدارة علاقاتهم واقتصاديات التوصيل. لا يشمل المخزون والمشتريات. Core Performance: تجمع نطاق Margin وGrowth، مع Foresight & Action. تُطبَّق حدود مقاعد الذكاء الاصطناعي والأرصدة الخاصة بالباقة. تعتمد مقارنات الأقران على توافر بيانات كافية تحمي الخصوصية؛ ويخضع الوصول إلى المقارنات المتقدمة لشروط أهلية منفصلة."
+        },
+        {
+          "title": "ما البيانات التي يحتاجها Sundae؟",
+          "answer": "ابدأ بالسؤال التشغيلي والقدرات التي تحتاجها. بالنسبة إلى Core، اتفق على سجلات المبيعات أو الموظفين أو التكاليف أو الضيوف المناسبة وتحقق من تغطيتها. يمكن أن يبدأ Crew بالقوى العاملة وسير العمل اليومي الذي يحتاج فريقك إلى إدارته. تأكد من الحقول المطلوبة والمواقع والسجل التاريخي والصلاحيات قبل بدء الاستخدام."
+        },
+        {
+          "title": "كيف أوصل بياناتي إلى Sundae؟",
+          "answer": "عبر اتصالات API بنقاط البيع وبقية منظومتك التشغيلية. وحين لا يوفر نظام واجهة API، يقبل Sundae ملفات منظمة ورفعًا ذكيًا - PDF وExcel ولقطات الشاشة - تراجعها قبل المعالجة."
+        },
+        {
+          "title": "ما هي الوحدات؟",
+          "answer": "تتضمن باقات Core قدرات مختلفة. راجع الباقة المختارة والإضافات المؤهلة في حاسبة الأسعار. 1. Foresight Intelligence - Forecasts and scenario planning, subject to selected package and data readiness. 2. Labor Intelligence - Schedule vs. actual, overtime leakage, productivity per labor hour. 3. Inventory Intelligence - Theoretical vs. actual usage, waste, shrinkage, par levels. 4. Purchasing Intelligence - Vendor price movement, contract adherence, order consolidation. 5. Marketing Performance - Promo ROI by channel, acquisition cost, campaign attribution. 6. Reservations Intelligence - Cover pacing, no-show risk, table turn and capacity yield. 7. Profit Intelligence - Item and outlet-level contribution, menu engineering, margin drag. 8. Revenue Assurance - Void, comp, discount and cash-variance pattern detection. 9. Delivery Intelligence - Channel margin after commission, prep time, order accuracy. 10. Guest Experience - Review and sentiment signal tied back to shift and outlet. 11. Pulse - Real-time shift pacing, exception flags and live leak surfacing. 12. Guest CRM Intelligence - Cohort retention, guest LTV, churn-at-risk segments."
+        },
+        {
+          "title": "أي وحدة أنظر إليها أولاً؟",
+          "answer": "ابدأ بالمشكلة التشغيلية التي تريد فهمها، ثم تأكد من أن الباقة المختارة تشمل القدرة ذات الصلة. تتضمن باقات Core تحليل العمالة والربح وضمان الإيرادات. تشمل Margin وPerformance المخزون والمشتريات؛ وتشمل Growth وPerformance تحليل الضيوف والتسويق. أحضر سؤالًا واحدًا إلى الجولة لاختيار أول عرض مفيد."
+        },
+        {
+          "title": "ما هو Watchtower؟",
+          "answer": "Watchtower هو الطبقة الخارجية في Sundae، ويساعد الفرق على فهم ما يحدث خارج جدران المطعم: 1. الذكاء التنافسي - تتبع حتى 10 منافسين لكل موقع 2. ذكاء الأحداث - الطقس والعطل والفعاليات المحلية 3. ذكاء السوق - اتجاهات الفئات والمؤشرات الاقتصادية"
+        },
+        {
+          "title": "هل أحتاج إلى Watchtower؟",
+          "answer": "Watchtower إضافة تُسعَّر بشكل منفصل لباقتي Core Growth وCore Performance. وهي غير متاحة مع Core Foundation أو Core Margin."
+        },
+        {
+          "title": "كم تكلفة Sundae؟",
+          "answer": "يعتمد السعر على المنتجات وعدد المواقع ونطاق الإعداد الذي يحتاجه نشاطك. اختر Core أو Crew أو كليهما في محاكي التسعير لمراجعة الأسعار الحالية والشروط المنطبقة. تعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر. عرض التقدير"
+        },
+        {
+          "title": "هل توجد رسوم إعداد؟",
+          "answer": "تعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر."
+        },
+        {
+          "title": "كيف تعمل أرصدة الذكاء؟",
+          "answer": "تشغّل أرصدة الذكاء الأسئلة والتحليلات والتوصيات. وكل باقة Core تحمل رصيدًا شهريًا: Core Foundation: 14,000 Core Margin: 16,000 Core Growth: 18,000 Core Performance: 24,000 وإذا استنفدته يمكنك شراء رصيد إضافي على أي باقة."
+        },
+        {
+          "title": "كم مدة الوصول إلى البيانات التاريخية؟",
+          "answer": "كل باقة Core تحتفظ بتاريخك المتصل كاملًا مع احتفاظ لعدة سنوات. ويمكن لاتفاقيات Enterprise تمديد ذلك بشروط احتفاظ مخصصة."
+        },
+        {
+          "title": "ما نوع الدعم الذي أحصل عليه؟",
+          "answer": "تأكد قبل بدء الاستخدام من قنوات الدعم وساعات التغطية وأي التزامات بزمن الاستجابة للنطاق المختار. أحضر مواقع فريقك ومتطلبات الدعم إلى الجولة لتضمينها في الخطة."
+        },
+        {
+          "title": "هل توفرون تدريبًا؟",
+          "answer": "اتفق على التدريب والتمكين بما يناسب الموظفين وسير العمل في بدء الاستخدام. تأكد من الجلسات والمواد ونطاق التنفيذ وأي رسوم منطبقة في تقدير السعر."
+        },
+        {
+          "title": "هل بياناتي آمنة؟",
+          "answer": "نعم. يستخدم Sundae ضوابط على مستوى المؤسسات: تشفير AES-256 أثناء التخزين تشفير TLS أثناء النقل صلاحيات قائمة على الأدوار مراجعات أمنية دورية معالجة متوافقة مع GDPR ضوابط إضافية لعملاء Enterprise"
+        },
+        {
+          "title": "هل يمكنني التحكم في من يرى أي بيانات؟",
+          "answer": "نعم. يدعم النظام أدوار admin وmanager وviewer، مع أنماط صلاحيات مخصصة لاحتياجات Enterprise الأكثر تعقيدًا."
+        },
+        {
+          "title": "ما الذي يميز Enterprise؟",
+          "answer": "باقات Core القياسية لدى Sundae هي Foundation وMargin وGrowth وPerformance. للتنفيذ المعقد، ناقش متطلبات الوصول والتكامل والبلدان والدعم. يجب تأكيد أي قدرات أو التزامات إضافية في اتفاق مكتوب."
+        },
+        {
+          "title": "هل أحتاج إلى 100+ موقع لاستخدام Enterprise؟",
+          "answer": "حدد نطاق التنفيذ وفق متطلبات التشغيل، بما يشمل المواقع والوصول والتكاملات والبلدان والدعم. تبقى باقات Core الأربع المسماة الخيارات القياسية؛ أكد أي متطلبات مخصصة والتزامات في اتفاق مكتوب."
+        },
+        {
+          "title": "كيف يختلف Sundae عن تقارير POS؟",
+          "answer": "تساعد تقارير نقاط البيع على مراجعة المبيعات والمعاملات المسجلة في ذلك النظام. يجمع Sundae Core مصادر التشغيل المتاحة للتحليل والمقارنات المناسبة ومراجعة ما تغيّر. يدعم Crew العمل اليومي للموظفين والمناوبات. تضيف Foresight & Action التوقعات والسيناريوهات ضمن أهلية الباقة أو الإضافة."
+        },
+        {
+          "title": "كيف يختلف Sundae عن Excel؟",
+          "answer": "تبقى الجداول مفيدة للعمل والتحليل المرن. توفر Sundae مكانًا مشتركًا لسجلات التشغيل المختارة والتحليل وسير العمل اليومي. قارن تغطية المصادر والمسؤوليات والمتابعة التي يحتاجها فريقك لتحديد ما يناسب كل أداة."
+        },
+        {
+          "title": "لدي موقع واحد فقط. هل يناسبني Sundae؟",
+          "answer": "تحدد باقة Core المختارة نطاق القدرات، سواء أدرت موقعاً واحداً أم عدة مواقع. تأكد من التسعير بحسب المواقع وحدود الذكاء الاصطناعي وأي إضافات اختيارية في الحاسبة."
+        },
+        {
+          "title": "أنا منصة امتياز. هل يمكن أن يساعدني Sundae؟",
+          "answer": "نعم. يستطيع Sundae دعم: رؤية المانح عبر شبكة الامتياز صلاحيات منفصلة لكل صاحب امتياز تقارير white-label مقارنة مرجعية عبر الشبكة تحليل المناطق والتوسع"
+        },
+        {
+          "title": "ما هو Sundae Crew؟",
+          "answer": "يدعم Crew القوى العاملة والعمليات اليومية، بما يشمل الجداول والوقت والحضور والمهام وقوائم التحقق وتسليم المناوبات وسجلات الموظفين والرواتب. ابدأ بالقدرات أو الباقة التي يحتاجها فريقك؛ يمكن تشغيل Crew وحده أو إلى جانب Core."
+        },
+        {
+          "title": "ماذا يستطيع Crew أن يفعل؟",
+          "answer": "تخطط Scheduling للمناوبات. تسجل Time and Attendance الساعات للمراجعة. تحفظ People سجلات الموظفين. تدعم Crew Operations المهام اليومية وتسليم المناوبات، وتدعم Crew Payroll إجراءات الرواتب. تدعم People Intelligence تحليل القوى العاملة. تأكد من القدرات والمتطلبات التي يحتاجها فريقك. المهام وقوائم التحقق وسجل الورديات الرقمي جزء من Crew Operations ‏(Crew Manage)، ومشمولة في Crew Operating وCrew Complete. إجراءات الإكراميات جزء من Crew Payroll ‏(Crew Pay)، ومشمولة في Crew Operating وCrew Complete. تتطلب Crew Pay وجود Crew Operations. لا تشمل Crew Starter ولا Schedule & Time هذه الإجراءات. تشمل الجدولة عرض تسليمات المديرين. أما إنشاء التسليمات واستخدام سجل العمليات فيتطلبان Crew Operations."
+        }
+      ],
+      "colors": [
+        "rgb(255, 255, 255)",
+        "rgb(246, 198, 107)"
+      ],
+      "pricingLinks": [
+        "https://pricing.sundae.io/simulator?lang=ar",
+        "https://pricing.sundae.io/simulator?lang=ar",
+        "https://pricing.sundae.io/simulator?lang=ar",
+        "https://pricing.sundae.io/simulator?lang=ar"
+      ],
+      "sampleNoteBelowDemo": true,
+      "overflow": false,
+      "headingsClipped": []
+    }
+  ],
+  "errors": []
+}

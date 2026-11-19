@@ -1,126 +1,115 @@
 'use client';
 
-import { Button } from "@/components/ui/Button";
-import { Accordion } from "@/components/ui/Accordion";
-import { SundaeIcon } from "@/components/icons";
-import { FadeUp } from "@/components/ui/PageAnimations";
-import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { useCta } from "@/lib/cta";
-import { PRICING_URL } from "@/lib/urls";
-import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import './faq.css';
+
+import { Button } from '@/components/ui/Button';
+import { Accordion } from '@/components/ui/Accordion';
+import { GuidanceClose, GuidanceHero, GuidanceReveal } from '@/components/support/GuidanceLayout';
+import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { trackCta, useCta } from '@/lib/cta';
+import { appendCampaign } from '@/lib/campaign';
 import { getLocalizedPathname } from '@/lib/i18n';
-import { getLocalizedFaqSections } from "@/content/faqContent";
+import { buildPricingSimulatorUrl } from '@/lib/pricingNavigation';
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
+import { getLocalizedFaqSections } from '@/content/faqContent';
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+import resourceCopy from '@/content/buyer-clarity/resources.json';
+import faqCopyByLocale from '@/content/support-faq.json';
+import guidanceCopyByLocale from '@/content/support-guidance.json';
+import systemCopyByLocale from '@/content/support-system.json';
 
 export default function FAQPage() {
   const cta = useCta();
   const { locale, messages } = useWebsiteI18n();
   const copy = messages.pages.faq;
+  const faqCopy = faqCopyByLocale[locale as keyof typeof faqCopyByLocale];
+  const guidance = guidanceCopyByLocale[locale as keyof typeof guidanceCopyByLocale];
+  const system = systemCopyByLocale[locale as keyof typeof systemCopyByLocale];
+  const commercial = getCommercialCopy(locale);
+  const walkthrough = resourceCopy[locale as keyof typeof resourceCopy].primaryCta;
   const faqCategories = getLocalizedFaqSections(locale, copy.categories);
+  const local = (path: string) => getLocalizedPathname(path, locale);
+  const continuations: Record<string, { href: string; label: string }> = {
+    'getting-started': { href: '/getting-started', label: guidance.planCta },
+    'products-tiers': { href: '/core', label: guidance.coreCta },
+    'data-integration': { href: '/integrations', label: guidance.connectionsCta },
+    modules: { href: '/core', label: guidance.coreCta },
+    watchtower: { href: '/product/watchtower', label: 'Watchtower' },
+    'pricing-billing': { href: buildPricingSimulatorUrl(locale), label: commercial.viewEstimate },
+    features: { href: '/architecture', label: system.architectureCta },
+    support: { href: '/docs', label: guidance.docsLabel },
+    security: { href: '/security', label: system.securityCta },
+    enterprise: { href: '/contact', label: copy.contactUs },
+    comparisons: { href: '/restaurant365-alternative', label: 'Sundae / Restaurant365' },
+    'use-cases': { href: '/solutions', label: messages.navbar.solutions },
+    crew: { href: '/crew', label: guidance.crewCta },
+  };
 
   return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <FadeUp>
-            <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <SundaeIcon name="conversation" size="sm" />
-              <span>{copy.badge}</span>
-            </div>
-            <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
-              {copy.title}
-            </h1>
-            <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
-              {copy.description}
-            </p>
-          </FadeUp>
-        </div>
-      </section>
+    <div data-faq-page className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
+      <GuidanceHero label={copy.badge} lead={faqCopy.heroLead} emphasis={faqCopy.heroEm} description={faqCopy.heroBody} compactDescription>
+        <a href="#faq-topics" className="inline-flex min-h-11 items-center gap-4 font-semibold text-[var(--text-primary)] underline decoration-[var(--accent-warm)] underline-offset-4 transition-colors hover:text-[var(--text-warm)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-warm)]">
+          {faqCopy.browse}<span aria-hidden="true">↓</span>
+        </a>
+      </GuidanceHero>
 
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-center text-sm text-[var(--text-supporting)] mb-4">{copy.jumpToCategory}</p>
-          <div className="flex flex-wrap justify-center gap-3">
-            {faqCategories.map((category) => (
-              <button
-                key={category.id}
-                onClick={() => {
-                  const element = document.getElementById(category.id);
-                  element?.scrollIntoView({ behavior: 'smooth' });
-                }}
-                className="px-4 py-2 bg-[var(--surface-subtle)] hover:bg-[#FF5C4D]/20 text-[var(--text-secondary)] hover:text-[#FF8473] rounded-lg text-sm font-medium transition-colors duration-200 flex items-center space-x-2"
-              >
-                <SundaeIcon name={category.icon} size="sm" />
-                <span>{category.title}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
+      <section id="faq-topics" className="scroll-mt-28 px-6 py-12 sm:px-8 lg:px-12 lg:py-20" aria-label={faqCopy.allTopics}>
+        <div className="mx-auto grid max-w-7xl items-start gap-12 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,2fr)] lg:gap-20">
+          <nav aria-label={copy.jumpToCategory} className="min-w-0 lg:sticky lg:top-28">
+            <p className="mb-4 text-sm font-medium text-[var(--text-warm)]">{copy.jumpToCategory}</p>
+            <ul className="grid grid-cols-1 gap-x-5 min-[370px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-1">
+              {faqCategories.map(category => (
+                <li key={category.id} className="min-w-0">
+                  <a href={`#${category.id}`} className="inline-flex min-h-11 w-full items-center py-2 text-sm leading-relaxed text-[var(--text-supporting)] transition-colors hover:text-[var(--text-warm)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-warm)] lg:text-base">
+                    {category.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto space-y-16">
-          {faqCategories.map((category, index) => (
-            <FadeUp key={category.id} delay={index * 0.05}>
-              <div id={category.id} className="scroll-mt-24">
-                <div className="mb-8">
-                  <div className="flex items-center space-x-3 mb-3">
-                    <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={category.icon} size="lg" className="text-white" />
+          <div className="min-w-0 space-y-16 lg:space-y-20">
+            {faqCategories.map((category, index) => {
+              const continuation = continuations[category.id];
+              const destination = continuation.href.startsWith('https:') ? continuation.href : local(continuation.href);
+              return (
+                <GuidanceReveal key={category.id}>
+                  <section id={category.id} aria-labelledby={`${category.id}-title`} className="scroll-mt-28">
+                    <div className="mb-6 flex items-baseline gap-4 sm:gap-6">
+                      <span aria-hidden="true" className="font-display text-xl text-[var(--text-warm)]">{String(index + 1).padStart(2, '0')}</span>
+                      <h2 id={`${category.id}-title`} className="min-w-0 font-display text-3xl leading-tight text-[var(--text-primary)] sm:text-4xl">{category.title}</h2>
                     </div>
-                    <h2 className="text-3xl font-bold text-[var(--text-display)]">{category.title}</h2>
-                  </div>
-                  <div className="h-1 w-20 bg-gradient-to-r from-[#FF5C4D] to-purple-600 rounded-full"></div>
-                </div>
-                <Accordion items={category.faqs} />
-              </div>
-            </FadeUp>
-          ))}
+                    <Accordion items={category.faqs} variant="editorial" />
+                    <a
+                      href={destination}
+                      onClick={event => {
+                        event.currentTarget.href = appendCampaign(destination);
+                        trackCta('faq_category_continuation', { category: category.id, destination: continuation.href });
+                      }}
+                      className="group mt-4 inline-flex min-h-11 items-center gap-4 py-2 text-sm font-medium text-[var(--text-supporting)] underline decoration-[var(--accent-warm)] underline-offset-4 transition-colors hover:text-[var(--text-warm)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-warm)]"
+                    >
+                      {continuation.label}<span aria-hidden="true" className="transition-transform group-hover:translate-x-1 motion-reduce:transform-none rtl:rotate-180 rtl:group-hover:-translate-x-1">→</span>
+                    </a>
+                  </section>
+                </GuidanceReveal>
+              );
+            })}
+          </div>
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-[var(--text-primary)] mb-6">
-            {copy.stillHaveQuestions}
-          </h2>
-          <p className="body-xl mb-8 text-[var(--text-supporting)]">
-            {copy.helpDescription}
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <Button
-              variant="cta"
-              size="lg"
-              onClick={() => cta("/demo", "book_demo_from_faq", { page: "/faq" })}
-            >
-              {copy.bookDemo}
-            </Button>
-            <Button href={PRICING_URL} target="_blank" rel="noopener noreferrer" variant="outline-light" size="lg" className="w-full" trackingLabel="faq_pricing">
-              {copy.seePricing}
-            </Button>
-            <Button
-              variant="outline-light"
-              size="lg"
-              href={getLocalizedPathname("/results", locale)}
-              trackingLabel="faq_public_evidence"
-            >
-              {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
-            </Button>
-            <Button
-              variant="outline-light"
-              size="lg"
-              onClick={() => cta("/contact", "contact_from_faq", { page: "/faq" })}
-            >
-              {copy.contactUs}
-            </Button>
-          </div>
-          <p className="text-sm text-[var(--text-muted)] mt-6">
-            {copy.emailSupportPrefix}{" "}
-            <a href="mailto:support@sundae.io" className="text-[#FF8473] hover:underline">
-              support@sundae.io
-            </a>
-          </p>
+      <GuidanceClose title={guidance.closeTitle} description={faqCopy.closeBody}>
+        <Button variant="cta" size="lg" onClick={() => cta('/demo', 'book_demo_from_faq', { page: '/faq' })} className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[var(--text-supporting)]">{commercial.sampleWalkthrough}</p>
+        <div className="mt-6 flex flex-col items-start gap-x-8 sm:flex-row sm:flex-wrap">
+          <Button href={buildPricingSimulatorUrl(locale)} variant="ghost" trackingLabel="faq_pricing" className="max-w-full whitespace-normal! text-start">{commercial.viewEstimate}</Button>
+          <Button href={local('/results')} variant="ghost" trackingLabel="faq_public_evidence" className="max-w-full whitespace-normal! text-start">{sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}</Button>
+          <Button variant="ghost" onClick={() => cta('/contact', 'contact_from_faq', { page: '/faq' })} className="max-w-full whitespace-normal! text-start">{copy.contactUs}</Button>
         </div>
-      </section>
+        <p className="mt-6 text-sm leading-relaxed text-[var(--text-supporting)]">
+          {copy.emailSupportPrefix}{' '}<a href="mailto:support@sundae.io" className="inline-flex min-h-11 items-center underline underline-offset-4 hover:text-[var(--text-warm)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-warm)]">support@sundae.io</a>
+        </p>
+      </GuidanceClose>
     </div>
   );
 }
