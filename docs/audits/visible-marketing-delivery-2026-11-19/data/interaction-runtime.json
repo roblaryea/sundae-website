@@ -1,0 +1,1234 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "reduced": false,
+    "step": 0,
+    "lang": "en",
+    "dir": "ltr",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "stepNames": [
+      {
+        "name": "WHAT HAPPENED",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS ACTUAL",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKET CONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTION AND REVIEW",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Covers are down 22%.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCH COVERS - TODAY VS SAME DAY LAST WEEK\n−22% WoW"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "PLAN VS ACTUAL\n−$3,800 vs forecast\nForecast\n$18,620\nActual run-rate\n$14,820\nCompare scheduled labor with this sales volume before changing coverage."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 competitors within 2km dropped lunch combos to $9.99 yesterday\n· An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nReview coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response. Example recommendation. Any impact needs to be measured after the action."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "reduced": false,
+    "step": 1,
+    "lang": "en",
+    "dir": "ltr",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "stepNames": [
+      {
+        "name": "WHAT HAPPENED",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS ACTUAL",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKET CONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTION AND REVIEW",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Sales are $3,800 behind forecast.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCH COVERS - TODAY VS SAME DAY LAST WEEK\n−22% WoW"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "PLAN VS ACTUAL\n−$3,800 vs forecast\nForecast\n$18,620\nActual run-rate\n$14,820\nCompare scheduled labor with this sales volume before changing coverage."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 competitors within 2km dropped lunch combos to $9.99 yesterday\n· An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nReview coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response. Example recommendation. Any impact needs to be measured after the action."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "reduced": false,
+    "step": 2,
+    "lang": "en",
+    "dir": "ltr",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "stepNames": [
+      {
+        "name": "WHAT HAPPENED",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS ACTUAL",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKET CONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTION AND REVIEW",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Check what may explain the gap.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCH COVERS - TODAY VS SAME DAY LAST WEEK\n−22% WoW"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "PLAN VS ACTUAL\n−$3,800 vs forecast\nForecast\n$18,620\nActual run-rate\n$14,820\nCompare scheduled labor with this sales volume before changing coverage."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 competitors within 2km dropped lunch combos to $9.99 yesterday\n· An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nReview coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response. Example recommendation. Any impact needs to be measured after the action."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "reduced": false,
+    "step": 3,
+    "lang": "en",
+    "dir": "ltr",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "stepNames": [
+      {
+        "name": "WHAT HAPPENED",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS ACTUAL",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKET CONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTION AND REVIEW",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Give someone the next action.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCH COVERS - TODAY VS SAME DAY LAST WEEK\n−22% WoW"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "PLAN VS ACTUAL\n−$3,800 vs forecast\nForecast\n$18,620\nActual run-rate\n$14,820\nCompare scheduled labor with this sales volume before changing coverage."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 competitors within 2km dropped lunch combos to $9.99 yesterday\n· An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nReview coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response. Example recommendation. Any impact needs to be measured after the action."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "light",
+    "reduced": false,
+    "step": 0,
+    "lang": "en",
+    "dir": "ltr",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "stepNames": [
+      {
+        "name": "WHAT HAPPENED",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS ACTUAL",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKET CONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTION AND REVIEW",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Covers are down 22%.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCH COVERS - TODAY VS SAME DAY LAST WEEK\n−22% WoW"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "PLAN VS ACTUAL\n−$3,800 vs forecast\nForecast\n$18,620\nActual run-rate\n$14,820\nCompare scheduled labor with this sales volume before changing coverage."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 competitors within 2km dropped lunch combos to $9.99 yesterday\n· An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nReview coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response. Example recommendation. Any impact needs to be measured after the action."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "light",
+    "reduced": false,
+    "step": 1,
+    "lang": "en",
+    "dir": "ltr",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "stepNames": [
+      {
+        "name": "WHAT HAPPENED",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS ACTUAL",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKET CONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTION AND REVIEW",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Sales are $3,800 behind forecast.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCH COVERS - TODAY VS SAME DAY LAST WEEK\n−22% WoW"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "PLAN VS ACTUAL\n−$3,800 vs forecast\nForecast\n$18,620\nActual run-rate\n$14,820\nCompare scheduled labor with this sales volume before changing coverage."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 competitors within 2km dropped lunch combos to $9.99 yesterday\n· An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nReview coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response. Example recommendation. Any impact needs to be measured after the action."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "light",
+    "reduced": false,
+    "step": 2,
+    "lang": "en",
+    "dir": "ltr",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "stepNames": [
+      {
+        "name": "WHAT HAPPENED",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS ACTUAL",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKET CONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTION AND REVIEW",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Check what may explain the gap.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCH COVERS - TODAY VS SAME DAY LAST WEEK\n−22% WoW"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "PLAN VS ACTUAL\n−$3,800 vs forecast\nForecast\n$18,620\nActual run-rate\n$14,820\nCompare scheduled labor with this sales volume before changing coverage."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 competitors within 2km dropped lunch combos to $9.99 yesterday\n· An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nReview coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response. Example recommendation. Any impact needs to be measured after the action."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "light",
+    "reduced": false,
+    "step": 3,
+    "lang": "en",
+    "dir": "ltr",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "stepNames": [
+      {
+        "name": "WHAT HAPPENED",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS ACTUAL",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKET CONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTION AND REVIEW",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 54.796875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Give someone the next action.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCH COVERS - TODAY VS SAME DAY LAST WEEK\n−22% WoW"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "PLAN VS ACTUAL\n−$3,800 vs forecast\nForecast\n$18,620\nActual run-rate\n$14,820\nCompare scheduled labor with this sales volume before changing coverage."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 competitors within 2km dropped lunch combos to $9.99 yesterday\n· An office-tower fire drill is scheduled 11-12, 2 blocks away. Check whether it affects this location."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 126, 111, 0.65)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nReview coverage before changing the 11-2 line-cook shift. Consider the $11.99 lunch offer if it fits the operation. A manager decides the response. Example recommendation. Any impact needs to be measured after the action."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "nl",
+    "width": 320,
+    "theme": "light",
+    "reduced": true,
+    "step": 0,
+    "lang": "nl",
+    "dir": "ltr",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "stepNames": [
+      {
+        "name": "WAT IS ER GEBEURD",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS WERKELIJKE CIJFERS",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKTCONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTIE EN BEOORDELING",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Covers zijn gedaald met 22%.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCHGASTEN - VANDAAG VS DEZELFDE DAG VORIGE WEEK\n−22% t.o.v. vorige week"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "PLAN VS WERKELIJK\n−$3.800 vs prognose\nPrognose\n$18,620\nWerkelijke run-rate\n$14,820\nVergelijk gepland personeel met dit verkoopvolume voordat u de bezetting verandert."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 concurrenten binnen 2 km hebben gisteren lunchcombinaties verlaagd naar $9,99\n· Een ontruimingsoefening in een kantoortoren is gepland op 11-12, 2 blokken verderop. Controleer of dit invloed heeft op deze locatie."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nControleer de bezetting voordat u de 11-2 lijnkokshift wijzigt. Overweeg het $11.99 lunchaanbod als het bij de operatie past. Een manager beslist de reactie. Voorbeeldaanbeveling. Elke impact moet na de actie worden gemeten."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "nl",
+    "width": 320,
+    "theme": "light",
+    "reduced": true,
+    "step": 1,
+    "lang": "nl",
+    "dir": "ltr",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "stepNames": [
+      {
+        "name": "WAT IS ER GEBEURD",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS WERKELIJKE CIJFERS",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKTCONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTIE EN BEOORDELING",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Verkoop blijft $3,800 achter op de forecast.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCHGASTEN - VANDAAG VS DEZELFDE DAG VORIGE WEEK\n−22% t.o.v. vorige week"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "PLAN VS WERKELIJK\n−$3.800 vs prognose\nPrognose\n$18,620\nWerkelijke run-rate\n$14,820\nVergelijk gepland personeel met dit verkoopvolume voordat u de bezetting verandert."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 concurrenten binnen 2 km hebben gisteren lunchcombinaties verlaagd naar $9,99\n· Een ontruimingsoefening in een kantoortoren is gepland op 11-12, 2 blokken verderop. Controleer of dit invloed heeft op deze locatie."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nControleer de bezetting voordat u de 11-2 lijnkokshift wijzigt. Overweeg het $11.99 lunchaanbod als het bij de operatie past. Een manager beslist de reactie. Voorbeeldaanbeveling. Elke impact moet na de actie worden gemeten."
+      }
+    ],
+    "badge": {
+      "color": "rgba(36, 29, 23, 0.69)",
+      "bg": "rgba(42, 35, 32, 0.03)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "nl",
+    "width": 320,
+    "theme": "light",
+    "reduced": true,
+    "step": 2,
+    "lang": "nl",
+    "dir": "ltr",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "stepNames": [
+      {
+        "name": "WAT IS ER GEBEURD",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS WERKELIJKE CIJFERS",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKTCONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTIE EN BEOORDELING",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Controleer wat de kloof kan verklaren.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCHGASTEN - VANDAAG VS DEZELFDE DAG VORIGE WEEK\n−22% t.o.v. vorige week"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 241, 240, 0.21)",
+        "direction": "ltr",
+        "text": "PLAN VS WERKELIJK\n−$3.800 vs prognose\nPrognose\n$18,620\nWerkelijke run-rate\n$14,820\nVergelijk gepland personeel met dit verkoopvolume voordat u de bezetting verandert."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 concurrenten binnen 2 km hebben gisteren lunchcombinaties verlaagd naar $9,99\n· Een ontruimingsoefening in een kantoortoren is gepland op 11-12, 2 blokken verderop. Controleer of dit invloed heeft op deze locatie."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nControleer de bezetting voordat u de 11-2 lijnkokshift wijzigt. Overweeg het $11.99 lunchaanbod als het bij de operatie past. Een manager beslist de reactie. Voorbeeldaanbeveling. Elke impact moet na de actie worden gemeten."
+      }
+    ],
+    "badge": {
+      "color": "rgba(36, 29, 23, 0.69)",
+      "bg": "rgba(42, 35, 32, 0.03)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "nl",
+    "width": 320,
+    "theme": "light",
+    "reduced": true,
+    "step": 3,
+    "lang": "nl",
+    "dir": "ltr",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "stepNames": [
+      {
+        "name": "WAT IS ER GEBEURD",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "PLAN VS WERKELIJKE CIJFERS",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "MARKTCONTEXT",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      },
+      {
+        "name": "ACTIE EN BEOORDELING",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 105.1875,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "Geef iemand de volgende actie.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "ltr",
+        "text": "LUNCHGASTEN - VANDAAG VS DEZELFDE DAG VORIGE WEEK\n−22% t.o.v. vorige week"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 220, 217, 0.314)",
+        "direction": "ltr",
+        "text": "PLAN VS WERKELIJK\n−$3.800 vs prognose\nPrognose\n$18,620\nWerkelijke run-rate\n$14,820\nVergelijk gepland personeel met dit verkoopvolume voordat u de bezetting verandert."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 236, 234, 0.24)",
+        "direction": "ltr",
+        "text": "WATCHTOWER\n· 3 concurrenten binnen 2 km hebben gisteren lunchcombinaties verlaagd naar $9,99\n· Een ontruimingsoefening in een kantoortoren is gepland op 11-12, 2 blokken verderop. Controleer of dit invloed heeft op deze locatie."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "ltr",
+        "text": "SUNDAE COACH\n\nControleer de bezetting voordat u de 11-2 lijnkokshift wijzigt. Overweeg het $11.99 lunchaanbod als het bij de operatie past. Een manager beslist de reactie. Voorbeeldaanbeveling. Elke impact moet na de actie worden gemeten."
+      }
+    ],
+    "badge": {
+      "color": "rgba(36, 29, 23, 0.69)",
+      "bg": "rgba(42, 35, 32, 0.03)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "reduced": true,
+    "step": 0,
+    "lang": "ar",
+    "dir": "rtl",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "stepNames": [
+      {
+        "name": "ما حدث",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "الخطة مقابل الفعلي",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "سياق السوق",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "إجراء ومراجعة",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "عدد الجلوسات انخفض 22%.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "rtl",
+        "text": "ضيوف الغداء - اليوم مقابل نفس اليوم الأسبوع الماضي\n−22% أسبوعياً"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "الخطة مقابل الفعلي\n−3,800$ عن التوقع\nالتوقع\n$18,620\nالمعدل الفعلي\n$14,820\nقارن العمالة المجدولة مع حجم المبيعات هذا قبل تعديل التغطية."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "WATCHTOWER\n· 3 منافسين ضمن 2 كم خفضوا كومبو الغداء إلى 9.99$ أمس\n· تم جدولة تدريب إخلاء في برج مكاتب 11-12، على بعد 2 مبانٍ. تحقق مما إذا كان سيؤثر على هذا الموقع."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "SUNDAE COACH\n\nراجع التغطية قبل تغيير نوبة طباخ الخط 11-2. ضع في الحسبان عرض الغداء $11.99 إن كان ملائما للتشغيل. يقرّر المدير الاستجابة. توصية مثال. أي تأثير يحتاج أن يُقاس بعد الإجراء."
+      }
+    ],
+    "badge": {
+      "color": "rgb(26, 20, 15)",
+      "bg": "rgb(255, 92, 77)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "reduced": true,
+    "step": 1,
+    "lang": "ar",
+    "dir": "rtl",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "stepNames": [
+      {
+        "name": "ما حدث",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "الخطة مقابل الفعلي",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "سياق السوق",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "إجراء ومراجعة",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "المبيعات متأخرة $3,800 عن التوقع.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "rtl",
+        "text": "ضيوف الغداء - اليوم مقابل نفس اليوم الأسبوع الماضي\n−22% أسبوعياً"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "الخطة مقابل الفعلي\n−3,800$ عن التوقع\nالتوقع\n$18,620\nالمعدل الفعلي\n$14,820\nقارن العمالة المجدولة مع حجم المبيعات هذا قبل تعديل التغطية."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "WATCHTOWER\n· 3 منافسين ضمن 2 كم خفضوا كومبو الغداء إلى 9.99$ أمس\n· تم جدولة تدريب إخلاء في برج مكاتب 11-12، على بعد 2 مبانٍ. تحقق مما إذا كان سيؤثر على هذا الموقع."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "SUNDAE COACH\n\nراجع التغطية قبل تغيير نوبة طباخ الخط 11-2. ضع في الحسبان عرض الغداء $11.99 إن كان ملائما للتشغيل. يقرّر المدير الاستجابة. توصية مثال. أي تأثير يحتاج أن يُقاس بعد الإجراء."
+      }
+    ],
+    "badge": {
+      "color": "rgba(255, 255, 255, 0.5)",
+      "bg": "rgba(255, 255, 255, 0.04)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "reduced": true,
+    "step": 2,
+    "lang": "ar",
+    "dir": "rtl",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "stepNames": [
+      {
+        "name": "ما حدث",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "الخطة مقابل الفعلي",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "سياق السوق",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "إجراء ومراجعة",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "تحقق ممّا قد يفسّر الفجوة.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "rtl",
+        "text": "ضيوف الغداء - اليوم مقابل نفس اليوم الأسبوع الماضي\n−22% أسبوعياً"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 249, 248, 0.173)",
+        "direction": "rtl",
+        "text": "الخطة مقابل الفعلي\n−3,800$ عن التوقع\nالتوقع\n$18,620\nالمعدل الفعلي\n$14,820\nقارن العمالة المجدولة مع حجم المبيعات هذا قبل تعديل التغطية."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "WATCHTOWER\n· 3 منافسين ضمن 2 كم خفضوا كومبو الغداء إلى 9.99$ أمس\n· تم جدولة تدريب إخلاء في برج مكاتب 11-12، على بعد 2 مبانٍ. تحقق مما إذا كان سيؤثر على هذا الموقع."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "SUNDAE COACH\n\nراجع التغطية قبل تغيير نوبة طباخ الخط 11-2. ضع في الحسبان عرض الغداء $11.99 إن كان ملائما للتشغيل. يقرّر المدير الاستجابة. توصية مثال. أي تأثير يحتاج أن يُقاس بعد الإجراء."
+      }
+    ],
+    "badge": {
+      "color": "rgba(255, 255, 255, 0.5)",
+      "bg": "rgba(255, 255, 255, 0.04)"
+    },
+    "overflows": []
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "reduced": true,
+    "step": 3,
+    "lang": "ar",
+    "dir": "rtl",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "stepNames": [
+      {
+        "name": "ما حدث",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "الخطة مقابل الفعلي",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "سياق السوق",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      },
+      {
+        "name": "إجراء ومراجعة",
+        "ariaLabel": null,
+        "numeralHidden": "true",
+        "height": 71.59375,
+        "opacity": "1"
+      }
+    ],
+    "focus": {
+      "outline": "solid",
+      "width": "3px"
+    },
+    "h3": "كلّف شخصا بالإجراء التالي.",
+    "panels": [
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.08)",
+        "direction": "rtl",
+        "text": "ضيوف الغداء - اليوم مقابل نفس اليوم الأسبوع الماضي\n−22% أسبوعياً"
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 249, 248, 0.173)",
+        "direction": "rtl",
+        "text": "الخطة مقابل الفعلي\n−3,800$ عن التوقع\nالتوقع\n$18,620\nالمعدل الفعلي\n$14,820\nقارن العمالة المجدولة مع حجم المبيعات هذا قبل تعديل التغطية."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "WATCHTOWER\n· 3 منافسين ضمن 2 كم خفضوا كومبو الغداء إلى 9.99$ أمس\n· تم جدولة تدريب إخلاء في برج مكاتب 11-12، على بعد 2 مبانٍ. تحقق مما إذا كان سيؤثر على هذا الموقع."
+      },
+      {
+        "opacity": "1",
+        "border": "rgba(255, 255, 255, 0.14)",
+        "direction": "rtl",
+        "text": "SUNDAE COACH\n\nراجع التغطية قبل تغيير نوبة طباخ الخط 11-2. ضع في الحسبان عرض الغداء $11.99 إن كان ملائما للتشغيل. يقرّر المدير الاستجابة. توصية مثال. أي تأثير يحتاج أن يُقاس بعد الإجراء."
+      }
+    ],
+    "badge": {
+      "color": "rgba(255, 255, 255, 0.5)",
+      "bg": "rgba(255, 255, 255, 0.04)"
+    },
+    "overflows": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "project": 332239,
+  "dashboard": 2048486,
+  "existingInsightCount": 6,
+  "allSixSupportRoutesCovered": true,
+  "qaExclusionsRetained": [
+    "utm_source=internal_qa",
+    "utm_campaign=public_theme_retakes"
+  ],
+  "governedMetricCatalogueCount": 0,
+  "newReleaseAnnotation": 602780,
+  "annotationReadback": {
+    "count": 1,
+    "date": "2026-11-19T13:43:59Z",
+    "scope": "dashboard",
+    "dashboard": 2048486
+  },
+  "queryDefinitionChanges": null,
+  "newDashboardsOrSchedules": null,
+  "measurementLimit": "No uplift conclusion;19Novrelease complete UTC days begin20Nov. Existing23Nov/30Nov/7Dec/21Dec reviews retained."
+}

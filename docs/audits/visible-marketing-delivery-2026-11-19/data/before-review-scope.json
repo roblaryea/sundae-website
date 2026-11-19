@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-19T14:41:58.267641+00:00",
+  "productionBase": "16a9269f109988b08c4a467654fb472cc6a5608d",
+  "authorChat": "01a1c0f1-9d1b-72e1-b33b-fe77d707dee6",
+  "sourceCut": "Remove broad root loadingboundary retainingbook/profilefallbacks;4Daccessiblecontrols/readablepanelstates;criticalopeningvisiblebaseonlywherefailureproven;existingmeasurementrecordupdate",
+  "evidence": [
+    "crawler-delivery.json",
+    "nojs-ancestors-before.json",
+    "home-mobile-1.json",
+    "getting-started-accessibility.json",
+    "measurement-release-review.json"
+  ],
+  "findings": [
+    "9actualfreshnoJSbrowsercaseshave200H1presentbutvisiblemainLoading/breadcrumbonly",
+    "GettingStartedH1ancestorhiddenS:0despiteownopacity1",
+    "Twitterbotheadmetadatapresentbutcompletedbodyhidden",
+    "4activeHome4Dstepname/visiblenumbermismatches",
+    "Home4Dbadgeand3dimmedpanelsproduce14contrastfailures"
+  ],
+  "limits": [
+    "SpoofedcrawlerUAprofilesarenotactualindexstatus",
+    "LocalLighthouseperf35/LCP9.17s/TBT11.5sconfoundedbyhostload38/12cores;notbaselineuplift",
+    "RemotePageSpeedAPI429;noCrUXclaims",
+    "GettingStartedaccessibilityandSEOautomatedauditspass100"
+  ],
+  "discardedDiagnostic": {
+    "file": "home-nojs-desktop-heading.json",
+    "reason": "Receiverassetreadinesschangedwhileauthorrebuilt.Next;unstyledCSS,notacceptedlayoutorproductfailure"
+  }
+}

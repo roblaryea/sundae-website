@@ -1,0 +1,232 @@
+[
+  {
+    "profile": "Chrome-noJS",
+    "route": "/",
+    "status": 200,
+    "h1": "See every layer.\nAct in time.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a demo",
+        "href": "/demo",
+        "painted": true
+      },
+      {
+        "text": "SCROLL",
+        "href": "#home-main",
+        "painted": true
+      }
+    ],
+    "mainLength": 13507,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/",
+    "alternates": 23
+  },
+  {
+    "profile": "Chrome-noJS",
+    "route": "/getting-started",
+    "status": 200,
+    "h1": "Start with the work\nyou need to improve.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a walkthrough",
+        "href": "/demo",
+        "painted": true
+      },
+      {
+        "text": "View estimate",
+        "href": "https://pricing.sundae.io/simulator?lang=en",
+        "painted": true
+      }
+    ],
+    "mainLength": 3307,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/getting-started",
+    "alternates": 23
+  },
+  {
+    "profile": "Chrome-noJS",
+    "route": "/restaurant-management-platform",
+    "status": 200,
+    "h1": "Restaurant management software for every shift and every location.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a walkthrough",
+        "href": "/demo?workflow=restaurant-management-platform",
+        "painted": true
+      },
+      {
+        "text": "See Sundae Crew",
+        "href": "/crew",
+        "painted": true
+      }
+    ],
+    "mainLength": 3163,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/restaurant-management-platform",
+    "alternates": 23
+  },
+  {
+    "profile": "Googlebot-noJS",
+    "route": "/",
+    "status": 200,
+    "h1": "See every layer.\nAct in time.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a demo",
+        "href": "/demo",
+        "painted": true
+      },
+      {
+        "text": "SCROLL",
+        "href": "#home-main",
+        "painted": true
+      }
+    ],
+    "mainLength": 13507,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/",
+    "alternates": 23
+  },
+  {
+    "profile": "Googlebot-noJS",
+    "route": "/getting-started",
+    "status": 200,
+    "h1": "Start with the work\nyou need to improve.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a walkthrough",
+        "href": "/demo",
+        "painted": true
+      },
+      {
+        "text": "View estimate",
+        "href": "https://pricing.sundae.io/simulator?lang=en",
+        "painted": true
+      }
+    ],
+    "mainLength": 3307,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/getting-started",
+    "alternates": 23
+  },
+  {
+    "profile": "Googlebot-noJS",
+    "route": "/restaurant-management-platform",
+    "status": 200,
+    "h1": "Restaurant management software for every shift and every location.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a walkthrough",
+        "href": "/demo?workflow=restaurant-management-platform",
+        "painted": true
+      },
+      {
+        "text": "See Sundae Crew",
+        "href": "/crew",
+        "painted": true
+      }
+    ],
+    "mainLength": 3163,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/restaurant-management-platform",
+    "alternates": 23
+  },
+  {
+    "profile": "GPTBot-noJS",
+    "route": "/",
+    "status": 200,
+    "h1": "See every layer.\nAct in time.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a demo",
+        "href": "/demo",
+        "painted": true
+      },
+      {
+        "text": "SCROLL",
+        "href": "#home-main",
+        "painted": true
+      }
+    ],
+    "mainLength": 13507,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/",
+    "alternates": 23
+  },
+  {
+    "profile": "GPTBot-noJS",
+    "route": "/getting-started",
+    "status": 200,
+    "h1": "Start with the work\nyou need to improve.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a walkthrough",
+        "href": "/demo",
+        "painted": true
+      },
+      {
+        "text": "View estimate",
+        "href": "https://pricing.sundae.io/simulator?lang=en",
+        "painted": true
+      }
+    ],
+    "mainLength": 3307,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/getting-started",
+    "alternates": 23
+  },
+  {
+    "profile": "GPTBot-noJS",
+    "route": "/restaurant-management-platform",
+    "status": 200,
+    "h1": "Restaurant management software for every shift and every location.",
+    "h1Painted": true,
+    "h1ChildPainted": true,
+    "primaryLinks": [
+      {
+        "text": "Book a walkthrough",
+        "href": "/demo?workflow=restaurant-management-platform",
+        "painted": true
+      },
+      {
+        "text": "See Sundae Crew",
+        "href": "/crew",
+        "painted": true
+      }
+    ],
+    "mainLength": 3163,
+    "hiddenStreams": 0,
+    "canonical": "https://www.sundae.io/restaurant-management-platform",
+    "alternates": 23
+  },
+  {
+    "profile": "translated-noJS",
+    "locale": "de",
+    "text": "Jede Ebene sehen. Rechtzeitig handeln.",
+    "overflow": 0,
+    "whiteSpace": "normal"
+  },
+  {
+    "profile": "translated-noJS",
+    "locale": "nl",
+    "text": "Zie elke laag. Kom op tijd in actie.",
+    "overflow": 0,
+    "whiteSpace": "normal"
+  }
+]

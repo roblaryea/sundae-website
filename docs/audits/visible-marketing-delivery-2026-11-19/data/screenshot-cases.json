@@ -1,0 +1,26 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "cookieDialogAbsent": true
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "light",
+    "cookieDialogAbsent": true
+  },
+  {
+    "locale": "nl",
+    "width": 320,
+    "theme": "light",
+    "cookieDialogAbsent": true
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "dark",
+    "cookieDialogAbsent": true
+  }
+]

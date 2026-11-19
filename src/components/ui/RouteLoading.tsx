@@ -10,7 +10,7 @@ const loadingMessages: RequiredEnglishLocalizedRecord<string> = {
   es: "Cargando...",
 };
 
-export default async function Loading() {
+export default async function RouteLoading() {
   const locale = resolveWebsiteLocale(await cookies());
   const message = loadingMessages[locale as keyof typeof loadingMessages] ?? getGeneratedLocalCopy(loadingMessages, generatedLocalCopy.loadingMessages, locale) ?? loadingMessages.en;
 

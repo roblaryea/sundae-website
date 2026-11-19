@@ -1,0 +1,3442 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "h1": {
+      "text": "See every layer. Act in time.",
+      "ancestors": [
+        {
+          "tag": "H1",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "grid",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "SECTION",
+          "opacity": "1",
+          "display": "flex",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden auto",
+          "hidden": false
+        },
+        {
+          "tag": "MAIN",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden auto",
+          "hidden": false
+        },
+        {
+          "tag": "BODY",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden auto",
+          "hidden": false
+        },
+        {
+          "tag": "HTML",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        }
+      ]
+    },
+    "h1Children": [
+      {
+        "text": "See every layer.",
+        "ancestors": [
+          {
+            "tag": "SPAN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden",
+            "hidden": false
+          },
+          {
+            "tag": "H1",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Act in time.",
+        "ancestors": [
+          {
+            "tag": "SPAN",
+            "opacity": "0",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 16)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "H1",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      }
+    ],
+    "mainText": "OPERATIONS MANAGEMENT FOR HOSPITALITY AND FOOD-SERVICE\nSee every layer.\nAct in time.\n\nManage people and daily work with the same facts on sales, costs and demand. Sundae turns your operating data and relevant market context into intelligence that explains what needs attention, helps each team act and tracks the result across locations.\n\nBook a demo\nTHE RECOVERY LOOP\nDetect\nDecide\nExecute\nMeasure\nL",
+    "hiddenStream": 0,
+    "heroLinks": [
+      {
+        "text": "Book a demo",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 16)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Scroll",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Pulse",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Benchmarks",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Watchtower",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Insights",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Ask Sundae",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Foresight",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Profit Recovery",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Sundae Core",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Scheduling",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Time & Attendance",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Payroll",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "People & HR",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "People Intelligence",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Tasks and checklists",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Digital logbook and shift handover",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Tip workflows",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "LI",
+            "opacity": "1",
+            "display": "list-item",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "UL",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Sundae Crew",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "ARTICLE",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Pulse \u2192",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Insights \u2192",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "Sundae Crew \u00b7 Tasks and checklists \u2192",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/getting-started",
+    "status": 200,
+    "h1": {
+      "text": "Start with the work you need to improve.",
+      "ancestors": [
+        {
+          "tag": "H1",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "SECTION",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "MAIN",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden auto",
+          "hidden": false
+        },
+        {
+          "tag": "BODY",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden auto",
+          "hidden": false
+        },
+        {
+          "tag": "HTML",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        }
+      ]
+    },
+    "h1Children": [
+      {
+        "text": "Start with the work",
+        "ancestors": [
+          {
+            "tag": "SPAN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "H1",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "you need to improve.",
+        "ancestors": [
+          {
+            "tag": "SPAN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "H1",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      }
+    ],
+    "mainText": "Home\n/\nGetting Started\n\nSUNDAE / GETTING STARTED\n\nStart with the work\nyou need to improve.\n\nChoose Core for operating analysis, Crew for workforce and daily execution, or both. We will help you scope the first workflow, the setup it needs and what to review next.\n\nBook a walkthrough\nView estimate\nYour first workflow, in five steps.\n\nFrom the first operating question to a scoped rollout and review.",
+    "hiddenStream": 0,
+    "heroLinks": [
+      {
+        "text": "Book a walkthrough",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "View estimate",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/restaurant-management-platform",
+    "status": 200,
+    "h1": {
+      "text": "Restaurant management software for every shift and every location.",
+      "ancestors": [
+        {
+          "tag": "H1",
+          "opacity": "0",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "matrix(1, 0, 0, 1, 0, 20)",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "grid",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        },
+        {
+          "tag": "SECTION",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden",
+          "hidden": false
+        },
+        {
+          "tag": "DIV",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden auto",
+          "hidden": false
+        },
+        {
+          "tag": "MAIN",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden auto",
+          "hidden": false
+        },
+        {
+          "tag": "BODY",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "hidden auto",
+          "hidden": false
+        },
+        {
+          "tag": "HTML",
+          "opacity": "1",
+          "display": "block",
+          "visibility": "visible",
+          "transform": "none",
+          "overflow": "visible",
+          "hidden": false
+        }
+      ]
+    },
+    "h1Children": [
+      {
+        "text": "every shift and every location",
+        "ancestors": [
+          {
+            "tag": "SPAN",
+            "opacity": "1",
+            "display": "inline",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "H1",
+            "opacity": "0",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 20)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      }
+    ],
+    "mainText": "Home\n/\nOperations management\n\nSUNDAE \u00b7 HOSPITALITY AND FOOD-SERVICE OPERATING PLATFORM\n\nRestaurant management software for every shift and every location.\n\nSundae brings scheduling, attendance, tasks, handovers and connected operating data into one platform for multi-location hospitality and food-service groups. Run daily work with clear ownership, use intelligence to guide decisions and measure w",
+    "hiddenStream": 0,
+    "heroLinks": [
+      {
+        "text": "Book a walkthrough",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 20)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "text": "See Sundae Crew",
+        "ancestors": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0",
+            "display": "flex",
+            "visibility": "visible",
+            "transform": "matrix(1, 0, 0, 1, 0, 20)",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "grid",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          },
+          {
+            "tag": "SECTION",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden",
+            "hidden": false
+          },
+          {
+            "tag": "DIV",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "MAIN",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "BODY",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "hidden auto",
+            "hidden": false
+          },
+          {
+            "tag": "HTML",
+            "opacity": "1",
+            "display": "block",
+            "visibility": "visible",
+            "transform": "none",
+            "overflow": "visible",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+]

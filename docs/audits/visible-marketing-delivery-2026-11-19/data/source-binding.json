@@ -1,0 +1,14 @@
+{
+  "applicationCommit": "5f31992d559ad8f7098193d32b597ced99e09d9b",
+  "files": {
+    "docs/seo/MEASUREMENT_AUTHORITY_AND_MONITORING_2026-08-30.md": "868839170507518adebc9de8de8638b65f5444574ffe71033c7f091f57bdbdc4",
+    "src/app/[handle]/loading.tsx": "4e4f9eb47c8c30e886bfd959a958c0c07a0779984bb2ade8a660d2e6520776ee",
+    "src/app/book/loading.tsx": "4e4f9eb47c8c30e886bfd959a958c0c07a0779984bb2ade8a660d2e6520776ee",
+    "src/app/p/loading.tsx": "4e4f9eb47c8c30e886bfd959a958c0c07a0779984bb2ade8a660d2e6520776ee",
+    "src/components/home/RecoveryLoop.tsx": "c00b9d2cb9e662996bc87ce24e82b4caa7aedfadeeda854b60e394df2b3f424d",
+    "src/components/home/SectionCinematicIntro.tsx": "c6670327aaa02db00e3eaeadb9b1ade32859129ac16db1657bcb6f5d13211bb0",
+    "src/components/home/sections/Section4DScene.tsx": "1ecc48b4995a7019b3d525174baf082717ecbc4756d3e26c68321c16b4fb1b02",
+    "src/components/seo/OperatorWorkflowPage.tsx": "997a3741ea20da0714c206ee94c4189d96ab3b3ba0d15e2456f1803aa399c63e",
+    "src/components/ui/RouteLoading.tsx": "160ec61bb9774d4223a7030e537de43a9b1a1dc6fe5939eff40b53163ebc3f0f"
+  }
+}

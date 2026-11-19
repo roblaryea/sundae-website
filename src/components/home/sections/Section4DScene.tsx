@@ -272,23 +272,23 @@ export function Section4DScene() {
                       setActiveIdx(i);
                       setPaused(true);
                     }}
-                    className="group flex flex-col items-center gap-2 px-1 focus:outline-none"
-                    aria-label={d.shortLabel}
+                    className="group flex min-h-14 min-w-0 flex-col items-center gap-2 rounded-lg px-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-warm)]"
                     aria-current={isActive}
                   >
                     <span
+                      aria-hidden="true"
                       className={`grid h-[30px] w-[30px] place-items-center rounded-full font-mono text-[11px] font-semibold transition-all duration-300 ${
                         isActive
-                          ? "bg-[var(--warm-coral)] text-white shadow-[0_0_0_4px_rgba(255,92,77,0.16),0_6px_18px_-6px_rgba(255,92,77,0.7)]"
+                          ? "bg-[var(--warm-coral)] text-[#1A140F] shadow-[0_0_0_4px_rgba(255,92,77,0.16),0_6px_18px_-6px_rgba(255,92,77,0.7)]"
                           : isPast
-                            ? "border border-[rgba(255,92,77,0.36)] bg-[rgba(255,92,77,0.18)] text-[#FF7E6F]"
+                            ? "border border-[rgba(255,92,77,0.36)] bg-[rgba(255,92,77,0.18)] text-[var(--text-primary)]"
                             : "border border-[var(--border-default)] bg-[var(--surface-subtle)] text-[var(--text-muted)] group-hover:text-[var(--text-primary)]"
                       }`}
                     >
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <span
-                      className={`hidden text-center font-mono text-[10.5px] font-semibold uppercase tracking-[0.12em] transition-colors sm:block ${
+                      className={`block max-w-full break-words text-center font-mono text-[10.5px] font-semibold uppercase tracking-[0.04em] transition-colors sm:tracking-[0.12em] ${
                         isActive ? "text-[var(--text-primary)]" : "text-[var(--text-muted)] group-hover:text-[var(--text-supporting)]"
                       }`}
                     >
@@ -367,9 +367,9 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
       {/* Fixed "screen": all four panels are ALWAYS present (constant height) in
           a 2×2 grid (half the height of a 1×4 stack, so the section fits one
           view); the active context lights up as the scenario advances 1 → 4. */}
-      <div className="grid grid-cols-2 items-start gap-3 p-5">
+      <div className="grid grid-cols-1 items-start gap-3 p-4 min-[480px]:grid-cols-2 sm:p-5">
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
-          <div className="flex items-center justify-between mb-3">
+          <div className="mb-3 flex flex-wrap items-start justify-between gap-2">
             <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
               {labels.coversChart}
             </div>
@@ -394,11 +394,11 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 2: forecast variance */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 1 ? 1 : 0.22 }}
-          transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+          animate={{ borderColor: activeIdx >= 1 ? 'rgba(255,126,111,0.65)' : 'rgba(255,255,255,0.14)' }}
+          transition={{ duration: 0.25 }}
           className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4"
         >
-          <div className="flex items-center justify-between mb-2">
+          <div className="mb-2 flex flex-wrap items-start justify-between gap-2">
             <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
               {labels.planVsActual}
             </div>
@@ -424,12 +424,12 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 3: market context */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 2 ? 1 : 0.22 }}
-          transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-          className="rounded-lg p-4"
+          animate={{ borderColor: activeIdx >= 2 ? 'rgba(255,126,111,0.65)' : 'rgba(255,255,255,0.14)' }}
+          transition={{ duration: 0.25 }}
+          className="rounded-lg border p-4"
           style={{
             background: "rgba(245,158,11,0.08)",
-            borderLeft: "3px solid #F59E0B",
+            borderInlineStart: "3px solid #F59E0B",
           }}
         >
           <div className="flex items-center gap-2 mb-2">
@@ -450,12 +450,12 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 4: Sundae Coach recommendation */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 3 ? 1 : 0.22 }}
-          transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-          className="rounded-lg p-4"
+          animate={{ borderColor: activeIdx >= 3 ? 'rgba(255,126,111,0.65)' : 'rgba(255,255,255,0.14)' }}
+          transition={{ duration: 0.25 }}
+          className="rounded-lg border p-4"
           style={{
             background: "rgba(255,92,77,0.08)",
-            borderLeft: "3px solid #FF5C4D",
+            borderInlineStart: "3px solid #FF5C4D",
           }}
         >
           <div className="text-[12px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
