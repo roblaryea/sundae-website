@@ -1,0 +1,512 @@
+[
+  {
+    "locale": "en",
+    "width": 390,
+    "theme": "dark",
+    "hierarchy": {
+      "main": {
+        "left": 22,
+        "right": 90.59375
+      },
+      "parent": {
+        "left": 38,
+        "right": 139.8125
+      },
+      "child": {
+        "left": 59,
+        "right": 127.421875
+      },
+      "dir": "ltr",
+      "linkTargets": [
+        {
+          "text": "Scheduling",
+          "height": 48,
+          "y": 305,
+          "bottom": 353,
+          "href": "/crew/scheduling"
+        },
+        {
+          "text": "Time & Attendance",
+          "height": 48,
+          "y": 353,
+          "bottom": 401,
+          "href": "/crew/time-attendance"
+        },
+        {
+          "text": "Payroll",
+          "height": 48,
+          "y": 401,
+          "bottom": 449,
+          "href": "/crew/payroll"
+        },
+        {
+          "text": "People & HR",
+          "height": 48,
+          "y": 449,
+          "bottom": 497,
+          "href": "/crew/people"
+        },
+        {
+          "text": "People Intelligence",
+          "height": 48,
+          "y": 497,
+          "bottom": 545,
+          "href": "/crew/people-intelligence"
+        },
+        {
+          "text": "Tasks and checklists",
+          "height": 48,
+          "y": 545,
+          "bottom": 593,
+          "href": "/restaurant-task-management"
+        },
+        {
+          "text": "Digital logbook and shift handover",
+          "height": 48,
+          "y": 593,
+          "bottom": 641,
+          "href": "/restaurant-logbook"
+        },
+        {
+          "text": "Tip workflows",
+          "height": 48,
+          "y": 641,
+          "bottom": 689,
+          "href": "/restaurant-tip-management"
+        }
+      ],
+      "overflow": false
+    },
+    "firstStep": 16,
+    "secondStep": 21,
+    "focusRestored": true,
+    "clicked": "/crew/scheduling",
+    "menuClosed": true,
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "theme": "light",
+    "hierarchy": {
+      "main": {
+        "left": 22,
+        "right": 90.59375
+      },
+      "parent": {
+        "left": 38,
+        "right": 139.8125
+      },
+      "child": {
+        "left": 59,
+        "right": 127.421875
+      },
+      "dir": "ltr",
+      "linkTargets": [
+        {
+          "text": "Scheduling",
+          "height": 48,
+          "y": 305,
+          "bottom": 353,
+          "href": "/crew/scheduling"
+        },
+        {
+          "text": "Time & Attendance",
+          "height": 48,
+          "y": 353,
+          "bottom": 401,
+          "href": "/crew/time-attendance"
+        },
+        {
+          "text": "Payroll",
+          "height": 48,
+          "y": 401,
+          "bottom": 449,
+          "href": "/crew/payroll"
+        },
+        {
+          "text": "People & HR",
+          "height": 48,
+          "y": 449,
+          "bottom": 497,
+          "href": "/crew/people"
+        },
+        {
+          "text": "People Intelligence",
+          "height": 48,
+          "y": 497,
+          "bottom": 545,
+          "href": "/crew/people-intelligence"
+        },
+        {
+          "text": "Tasks and checklists",
+          "height": 48,
+          "y": 545,
+          "bottom": 593,
+          "href": "/restaurant-task-management"
+        },
+        {
+          "text": "Digital logbook and shift handover",
+          "height": 48,
+          "y": 593,
+          "bottom": 641,
+          "href": "/restaurant-logbook"
+        },
+        {
+          "text": "Tip workflows",
+          "height": 48,
+          "y": 641,
+          "bottom": 689,
+          "href": "/restaurant-tip-management"
+        }
+      ],
+      "overflow": false
+    },
+    "firstStep": 16,
+    "secondStep": 21,
+    "focusRestored": true,
+    "clicked": "/crew/scheduling",
+    "menuClosed": true,
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "theme": "dark",
+    "hierarchy": {
+      "main": {
+        "left": 16,
+        "right": 84.59375
+      },
+      "parent": {
+        "left": 32,
+        "right": 133.8125
+      },
+      "child": {
+        "left": 53,
+        "right": 121.421875
+      },
+      "dir": "ltr",
+      "linkTargets": [
+        {
+          "text": "Scheduling",
+          "height": 48,
+          "y": 305,
+          "bottom": 353,
+          "href": "/crew/scheduling"
+        },
+        {
+          "text": "Time & Attendance",
+          "height": 48,
+          "y": 353,
+          "bottom": 401,
+          "href": "/crew/time-attendance"
+        },
+        {
+          "text": "Payroll",
+          "height": 48,
+          "y": 401,
+          "bottom": 449,
+          "href": "/crew/payroll"
+        },
+        {
+          "text": "People & HR",
+          "height": 48,
+          "y": 449,
+          "bottom": 497,
+          "href": "/crew/people"
+        },
+        {
+          "text": "People Intelligence",
+          "height": 48,
+          "y": 497,
+          "bottom": 545,
+          "href": "/crew/people-intelligence"
+        },
+        {
+          "text": "Tasks and checklists",
+          "height": 48,
+          "y": 545,
+          "bottom": 593,
+          "href": "/restaurant-task-management"
+        },
+        {
+          "text": "Digital logbook and shift handover",
+          "height": 48,
+          "y": 593,
+          "bottom": 641,
+          "href": "/restaurant-logbook"
+        },
+        {
+          "text": "Tip workflows",
+          "height": 48,
+          "y": 641,
+          "bottom": 689,
+          "href": "/restaurant-tip-management"
+        }
+      ],
+      "overflow": false
+    },
+    "firstStep": 16,
+    "secondStep": 21,
+    "focusRestored": true,
+    "clicked": "/crew/scheduling",
+    "menuClosed": true,
+    "errors": []
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "light",
+    "hierarchy": {
+      "main": {
+        "left": 351.921875,
+        "right": 374
+      },
+      "parent": {
+        "left": 256.1875,
+        "right": 358
+      },
+      "child": {
+        "left": 304.5625,
+        "right": 337
+      },
+      "dir": "rtl",
+      "linkTargets": [
+        {
+          "text": "الجدولة",
+          "height": 48,
+          "y": 305,
+          "bottom": 353,
+          "href": "/ar/crew/scheduling"
+        },
+        {
+          "text": "الوقت والحضور",
+          "height": 48,
+          "y": 353,
+          "bottom": 401,
+          "href": "/ar/crew/time-attendance"
+        },
+        {
+          "text": "الرواتب",
+          "height": 48,
+          "y": 401,
+          "bottom": 449,
+          "href": "/ar/crew/payroll"
+        },
+        {
+          "text": "الموظفون والموارد البشرية",
+          "height": 48,
+          "y": 449,
+          "bottom": 497,
+          "href": "/ar/crew/people"
+        },
+        {
+          "text": "People Intelligence",
+          "height": 48,
+          "y": 497,
+          "bottom": 545,
+          "href": "/ar/crew/people-intelligence"
+        },
+        {
+          "text": "المهام وقوائم التحقق",
+          "height": 48,
+          "y": 545,
+          "bottom": 593,
+          "href": "/ar/restaurant-task-management"
+        },
+        {
+          "text": "دفتر السجل الرقمي وتسليم الشفت",
+          "height": 48,
+          "y": 593,
+          "bottom": 641,
+          "href": "/ar/restaurant-logbook"
+        },
+        {
+          "text": "سير عمل الإكراميات",
+          "height": 48,
+          "y": 641,
+          "bottom": 689,
+          "href": "/ar/restaurant-tip-management"
+        }
+      ],
+      "overflow": false
+    },
+    "firstStep": 16,
+    "secondStep": 21,
+    "focusRestored": true,
+    "clicked": "/ar/crew/scheduling",
+    "menuClosed": true,
+    "errors": []
+  },
+  {
+    "locale": "de",
+    "width": 390,
+    "theme": "dark",
+    "hierarchy": {
+      "main": {
+        "left": 22,
+        "right": 90.265625
+      },
+      "parent": {
+        "left": 38,
+        "right": 139.8125
+      },
+      "child": {
+        "left": 59,
+        "right": 148.578125
+      },
+      "dir": "ltr",
+      "linkTargets": [
+        {
+          "text": "Dienstplanung",
+          "height": 48,
+          "y": 305,
+          "bottom": 353,
+          "href": "/de/crew/scheduling"
+        },
+        {
+          "text": "Zeiterfassung",
+          "height": 48,
+          "y": 353,
+          "bottom": 401,
+          "href": "/de/crew/time-attendance"
+        },
+        {
+          "text": "Lohnabrechnung",
+          "height": 48,
+          "y": 401,
+          "bottom": 449,
+          "href": "/de/crew/payroll"
+        },
+        {
+          "text": "Personal & HR",
+          "height": 48,
+          "y": 449,
+          "bottom": 497,
+          "href": "/de/crew/people"
+        },
+        {
+          "text": "People Intelligence",
+          "height": 48,
+          "y": 497,
+          "bottom": 545,
+          "href": "/de/crew/people-intelligence"
+        },
+        {
+          "text": "Aufgaben und Checklisten",
+          "height": 48,
+          "y": 545,
+          "bottom": 593,
+          "href": "/de/restaurant-task-management"
+        },
+        {
+          "text": "Digitales Logbuch und Schichtübergabe",
+          "height": 48,
+          "y": 593,
+          "bottom": 641,
+          "href": "/de/restaurant-logbook"
+        },
+        {
+          "text": "Tip‑Workflows",
+          "height": 48,
+          "y": 641,
+          "bottom": 689,
+          "href": "/de/restaurant-tip-management"
+        }
+      ],
+      "overflow": false
+    },
+    "firstStep": 16,
+    "secondStep": 21,
+    "focusRestored": true,
+    "clicked": "/de/crew/scheduling",
+    "menuClosed": true,
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "theme": "light",
+    "hierarchy": {
+      "main": {
+        "left": 656,
+        "right": 724.59375
+      },
+      "parent": {
+        "left": 672,
+        "right": 773.8125
+      },
+      "child": {
+        "left": 693,
+        "right": 761.421875
+      },
+      "dir": "ltr",
+      "linkTargets": [
+        {
+          "text": "Scheduling",
+          "height": 48,
+          "y": 305,
+          "bottom": 353,
+          "href": "/crew/scheduling"
+        },
+        {
+          "text": "Time & Attendance",
+          "height": 48,
+          "y": 353,
+          "bottom": 401,
+          "href": "/crew/time-attendance"
+        },
+        {
+          "text": "Payroll",
+          "height": 48,
+          "y": 401,
+          "bottom": 449,
+          "href": "/crew/payroll"
+        },
+        {
+          "text": "People & HR",
+          "height": 48,
+          "y": 449,
+          "bottom": 497,
+          "href": "/crew/people"
+        },
+        {
+          "text": "People Intelligence",
+          "height": 48,
+          "y": 497,
+          "bottom": 545,
+          "href": "/crew/people-intelligence"
+        },
+        {
+          "text": "Tasks and checklists",
+          "height": 48,
+          "y": 545,
+          "bottom": 593,
+          "href": "/restaurant-task-management"
+        },
+        {
+          "text": "Digital logbook and shift handover",
+          "height": 48,
+          "y": 593,
+          "bottom": 641,
+          "href": "/restaurant-logbook"
+        },
+        {
+          "text": "Tip workflows",
+          "height": 48,
+          "y": 641,
+          "bottom": 689,
+          "href": "/restaurant-tip-management"
+        }
+      ],
+      "overflow": false
+    },
+    "firstStep": 16,
+    "secondStep": 21,
+    "focusRestored": true,
+    "clicked": "/crew/scheduling",
+    "menuClosed": true,
+    "errors": []
+  }
+]

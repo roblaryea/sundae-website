@@ -70,7 +70,7 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
         type="button"
         id={headerId}
         onClick={onToggle}
-        className="w-full flex items-center justify-between py-3 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#FF5C4D]"
+        className="w-full flex items-center justify-between py-3 px-4 text-start focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#FF5C4D]"
         aria-expanded={isExpanded}
         aria-controls={contentId}
       >
@@ -92,7 +92,7 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
         inert={!isExpanded}
       >
         <div className="overflow-hidden">
-          <div className="pb-2">{children}</div>
+          <div className="pb-2 ps-4">{children}</div>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ const MobileNavLink = ({ href, children, onClick, isHighlighted = false, dataAtt
   <Link
     href={href}
     onClick={onClick}
-    className={`block py-2.5 px-4 text-sm font-medium transition-colors duration-150 ${
+    className={`block min-h-11 w-full break-words px-4 py-2.5 text-start text-sm font-medium leading-6 transition-colors duration-150 ${
       isHighlighted
         ? 'text-[#FF8473] hover:bg-[var(--surface-hover)]'
         : 'text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]'
@@ -645,7 +645,7 @@ const Navbar = () => {
                       <ChevronIcon isOpen={expandedSections[group.id]} />
                     </button>
                   </div>
-                  <div id={`accordion-content-${group.id}`} hidden={!expandedSections[group.id]} inert={!expandedSections[group.id]}>
+                  <div id={`accordion-content-${group.id}`} className="ms-4 border-s border-[var(--border-default)] pb-2 ps-1" hidden={!expandedSections[group.id]} inert={!expandedSections[group.id]}>
                     {group.links.map(link => <MobileNavLink key={link.href} href={localizeHref(link.href)} onClick={handleMobileNavClick}>{link.name}</MobileNavLink>)}
                   </div>
                 </div>
@@ -665,6 +665,7 @@ const Navbar = () => {
               <div className="px-4 pt-1 pb-1">
                 <span className="eyebrow text-[var(--text-muted)]">{nav.bySegment}</span>
               </div>
+              <div className="ms-4 border-s border-[var(--border-default)] ps-1">
               {solutionsSegments.map((solution) => (
                 <MobileNavLink
                   key={solution.name}
@@ -674,10 +675,12 @@ const Navbar = () => {
                   {solution.name}
                 </MobileNavLink>
               ))}
+              </div>
               <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
               <div className="px-4 pt-1 pb-1">
                 <span className="eyebrow text-[var(--text-muted)]">{nav.byRole}</span>
               </div>
+              <div className="ms-4 border-s border-[var(--border-default)] ps-1">
               {solutionsRoles.map((solution) => (
                 <MobileNavLink
                   key={solution.name}
@@ -687,9 +690,10 @@ const Navbar = () => {
                   {solution.name}
                 </MobileNavLink>
               ))}
+              </div>
             </AccordionSection>
 
-            <a href={PRICING_URL} data-pricing-link="mobile" onClick={(event) => { event.currentTarget.href = appendCampaign(PRICING_URL); trackCta('nav_pricing', { destination: PRICING_URL, placement: 'mobile' }); handleMobileNavClick(); }} className="block py-2.5 px-4 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)]">
+            <a href={PRICING_URL} data-pricing-link="mobile" onClick={(event) => { event.currentTarget.href = appendCampaign(PRICING_URL); trackCta('nav_pricing', { destination: PRICING_URL, placement: 'mobile' }); handleMobileNavClick(); }} className="block min-h-11 w-full px-4 py-2.5 text-start text-sm font-medium leading-6 text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)]">
               {nav.pricing}
             </a>
 

@@ -1,0 +1,226 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "dark",
+    "initialRequests": 0,
+    "requests": [
+      "http://127.0.0.1:3160/videos/manifesto-room.webm"
+    ],
+    "video": {
+      "src": "http://127.0.0.1:3160/videos/manifesto-room.webm",
+      "duration": 22.417,
+      "loop": true,
+      "muted": true,
+      "inline": true,
+      "poster": "http://127.0.0.1:3160/videos/manifesto-room-poster.jpg",
+      "opacity": "0.920775",
+      "rect": {
+        "width": 1800,
+        "height": 1000
+      }
+    },
+    "button": {
+      "label": "Pause background video",
+      "box": {
+        "x": 1372,
+        "y": 116,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "errors": [],
+    "heading": "See the shift as it unfolds. Know what to do next.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "dir": "ltr",
+    "posterLoaded": true
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "light",
+    "initialRequests": 0,
+    "requests": [
+      "http://127.0.0.1:3160/videos/manifesto-room.webm"
+    ],
+    "video": {
+      "src": "http://127.0.0.1:3160/videos/manifesto-room.webm",
+      "duration": 22.417,
+      "loop": true,
+      "muted": true,
+      "inline": true,
+      "poster": "http://127.0.0.1:3160/videos/manifesto-room-poster.jpg",
+      "opacity": "0.988019",
+      "rect": {
+        "width": 1800,
+        "height": 1000
+      }
+    },
+    "button": {
+      "label": "Pause background video",
+      "box": {
+        "x": 1372,
+        "y": 116,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "errors": [],
+    "heading": "See the shift as it unfolds. Know what to do next.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable light",
+    "dir": "ltr",
+    "posterLoaded": true
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "theme": "dark",
+    "initialRequests": 0,
+    "requests": [
+      "http://127.0.0.1:3160/videos/manifesto-room.webm"
+    ],
+    "video": {
+      "src": "http://127.0.0.1:3160/videos/manifesto-room.webm",
+      "duration": 22.417,
+      "loop": true,
+      "muted": true,
+      "inline": true,
+      "poster": "http://127.0.0.1:3160/videos/manifesto-room-poster.jpg",
+      "opacity": "0.944849",
+      "rect": {
+        "width": 487.5,
+        "height": 500
+      }
+    },
+    "button": {
+      "label": "Pause background video",
+      "box": {
+        "x": 330,
+        "y": 116,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "errors": [],
+    "heading": "See the shift as it unfolds. Know what to do next.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "dir": "ltr",
+    "posterLoaded": true
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "theme": "light",
+    "initialRequests": 0,
+    "requests": [
+      "http://127.0.0.1:3160/videos/manifesto-room.webm"
+    ],
+    "video": {
+      "src": "http://127.0.0.1:3160/videos/manifesto-room.webm",
+      "duration": 22.417,
+      "loop": true,
+      "muted": true,
+      "inline": true,
+      "poster": "http://127.0.0.1:3160/videos/manifesto-room-poster.jpg",
+      "opacity": "0.872164",
+      "rect": {
+        "width": 487.5,
+        "height": 500
+      }
+    },
+    "button": {
+      "label": "Pause background video",
+      "box": {
+        "x": 330,
+        "y": 116,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "errors": [],
+    "heading": "See the shift as it unfolds. Know what to do next.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable light",
+    "dir": "ltr",
+    "posterLoaded": true
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "light",
+    "initialRequests": 0,
+    "requests": [
+      "http://127.0.0.1:3160/videos/manifesto-room.webm"
+    ],
+    "video": {
+      "src": "http://127.0.0.1:3160/videos/manifesto-room.webm",
+      "duration": 22.417,
+      "loop": true,
+      "muted": true,
+      "inline": true,
+      "poster": "http://127.0.0.1:3160/videos/manifesto-room-poster.jpg",
+      "opacity": "1",
+      "rect": {
+        "width": 487.5,
+        "height": 500
+      }
+    },
+    "button": {
+      "label": "إيقاف فيديو الخلفية مؤقتًا",
+      "box": {
+        "x": 16,
+        "y": 116,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "errors": [],
+    "heading": "شاهد الوردية وهي تتكشف. اعرف ما الخطوة التالية.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable light",
+    "dir": "rtl",
+    "posterLoaded": true
+  },
+  {
+    "locale": "de",
+    "width": 1024,
+    "theme": "dark",
+    "initialRequests": 0,
+    "requests": [
+      "http://127.0.0.1:3160/videos/manifesto-room.webm",
+      "http://127.0.0.1:3160/videos/manifesto-room.webm",
+      "http://127.0.0.1:3160/videos/manifesto-room.webm"
+    ],
+    "video": {
+      "src": "http://127.0.0.1:3160/videos/manifesto-room.webm",
+      "duration": 22.417,
+      "loop": true,
+      "muted": true,
+      "inline": true,
+      "poster": "http://127.0.0.1:3160/videos/manifesto-room-poster.jpg",
+      "opacity": "0",
+      "rect": {
+        "width": 1280,
+        "height": 1000
+      }
+    },
+    "button": {
+      "label": "Hintergrundvideo pausieren",
+      "box": {
+        "x": 956,
+        "y": 116,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "errors": [],
+    "heading": "Die Schicht im Verlauf sehen. Den nächsten Schritt kennen.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "dir": "ltr",
+    "posterLoaded": true
+  }
+]
