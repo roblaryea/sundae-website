@@ -736,7 +736,7 @@ const Navbar = () => {
               <Button
                 variant="primary"
                 size="sm"
-                className="h-auto min-h-11 min-w-0 whitespace-normal px-3 py-2.5 leading-snug"
+                className="h-auto min-h-11 min-w-0 whitespace-normal! px-3 py-2.5 leading-snug"
                 onClick={() => {
                   cta(localizeHref("/demo"), "book_demo_mobile_nav", { location: "mobile-nav" });
                   setIsMenuOpen(false);

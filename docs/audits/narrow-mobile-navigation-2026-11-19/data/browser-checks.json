@@ -1,0 +1,639 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 1000,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "Language (en)",
+          "x": 16,
+          "y": 886.75,
+          "width": 71.7578125,
+          "height": 44,
+          "scrollWidth": 72,
+          "clientWidth": 72,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 260,
+          "y": 886.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "Sign In",
+          "x": 16,
+          "y": 942.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 136,
+          "clientWidth": 136,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Book a Demo",
+          "x": 166,
+          "y": 942.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 138,
+          "clientWidth": 138,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "Language (en)",
+          "x": 22,
+          "y": 730.75,
+          "width": 71.7578125,
+          "height": 44,
+          "scrollWidth": 72,
+          "clientWidth": 72,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 330,
+          "y": 730.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "Sign In",
+          "x": 22,
+          "y": 786.75,
+          "width": 170,
+          "height": 45.25,
+          "scrollWidth": 168,
+          "clientWidth": 168,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Book a Demo",
+          "x": 204,
+          "y": 786.75,
+          "width": 170,
+          "height": 45.25,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "nl",
+      "width": 320,
+      "height": 1000,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "Taal (nl)",
+          "x": 16,
+          "y": 886.75,
+          "width": 70.7421875,
+          "height": 44,
+          "scrollWidth": 71,
+          "clientWidth": 71,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 260,
+          "y": 886.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "Inloggen",
+          "x": 16,
+          "y": 942.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 136,
+          "clientWidth": 136,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Boek Demo",
+          "x": 166,
+          "y": 942.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 138,
+          "clientWidth": 138,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/nl/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "height": 844,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "Taal (nl)",
+          "x": 22,
+          "y": 730.75,
+          "width": 70.7421875,
+          "height": 44,
+          "scrollWidth": 71,
+          "clientWidth": 71,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 330,
+          "y": 730.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "Inloggen",
+          "x": 22,
+          "y": 786.75,
+          "width": 170,
+          "height": 45.25,
+          "scrollWidth": 168,
+          "clientWidth": 168,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Boek Demo",
+          "x": 204,
+          "y": 786.75,
+          "width": 170,
+          "height": 45.25,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/nl/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "height": 1000,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "Sprache (de)",
+          "x": 16,
+          "y": 886.75,
+          "width": 71.7421875,
+          "height": 44,
+          "scrollWidth": 72,
+          "clientWidth": 72,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 260,
+          "y": 886.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "Anmelden",
+          "x": 16,
+          "y": 942.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 136,
+          "clientWidth": 136,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Demo buchen",
+          "x": 166,
+          "y": 942.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 138,
+          "clientWidth": 138,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/de/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "de",
+      "width": 390,
+      "height": 844,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "Sprache (de)",
+          "x": 22,
+          "y": 730.75,
+          "width": 71.7421875,
+          "height": 44,
+          "scrollWidth": 72,
+          "clientWidth": 72,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 330,
+          "y": 730.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "Anmelden",
+          "x": 22,
+          "y": 786.75,
+          "width": 170,
+          "height": 45.25,
+          "scrollWidth": 168,
+          "clientWidth": 168,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Demo buchen",
+          "x": 204,
+          "y": 786.75,
+          "width": 170,
+          "height": 45.25,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/de/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "height": 1000,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "اللغة (ar)",
+          "x": 232.375,
+          "y": 886.75,
+          "width": 71.625,
+          "height": 44,
+          "scrollWidth": 72,
+          "clientWidth": 72,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 16,
+          "y": 886.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "تسجيل الدخول",
+          "x": 166,
+          "y": 942.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 136,
+          "clientWidth": 136,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "احجز جلسة عمل",
+          "x": 16,
+          "y": 942.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 138,
+          "clientWidth": 138,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/ar/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "اللغة (ar)",
+          "x": 302.375,
+          "y": 730.75,
+          "width": 71.625,
+          "height": 44,
+          "scrollWidth": 72,
+          "clientWidth": 72,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 22,
+          "y": 730.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "تسجيل الدخول",
+          "x": 204,
+          "y": 786.75,
+          "width": 170,
+          "height": 45.25,
+          "scrollWidth": 168,
+          "clientWidth": 168,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "احجز جلسة عمل",
+          "x": 22,
+          "y": 786.75,
+          "width": 170,
+          "height": 45.25,
+          "scrollWidth": 170,
+          "clientWidth": 170,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/ar/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "nl",
+      "width": 320,
+      "height": 568,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "Taal (nl)",
+          "x": 16,
+          "y": 454.75,
+          "width": 70.7421875,
+          "height": 44,
+          "scrollWidth": 71,
+          "clientWidth": 71,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 260,
+          "y": 454.75,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "Inloggen",
+          "x": 16,
+          "y": 510.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 136,
+          "clientWidth": 136,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Boek Demo",
+          "x": 166,
+          "y": 510.75,
+          "width": 138,
+          "height": 45.25,
+          "scrollWidth": 138,
+          "clientWidth": 138,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/nl/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "height": 844,
+      "bounds": [
+        {
+          "tag": "SELECT",
+          "text": "Langue (fr)",
+          "x": 16,
+          "y": 717.5,
+          "width": 70.5859375,
+          "height": 44,
+          "scrollWidth": 71,
+          "clientWidth": 71,
+          "whiteSpace": "pre"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Switch to dark mode",
+          "x": 260,
+          "y": 717.5,
+          "width": 44,
+          "height": 44,
+          "scrollWidth": 44,
+          "clientWidth": 44,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "A",
+          "text": "Se connecter",
+          "x": 16,
+          "y": 773.5,
+          "width": 138,
+          "height": 58.5,
+          "scrollWidth": 136,
+          "clientWidth": 136,
+          "whiteSpace": "normal"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Réserver une démo",
+          "x": 166,
+          "y": 773.5,
+          "width": 138,
+          "height": 58.5,
+          "scrollWidth": 138,
+          "clientWidth": 138,
+          "whiteSpace": "normal"
+        }
+      ],
+      "themeToggleBothWays": true,
+      "localeRouteChanged": true,
+      "signInHref": "/fr/sign-in",
+      "signInNavigation": true,
+      "demoNavigation": true,
+      "tabOrder": true,
+      "focusContained": true,
+      "escapeCloses": true,
+      "localeFocus": {
+        "outlineWidth": "2px",
+        "outlineStyle": "solid"
+      }
+    },
+    {
+      "desktop": 1440,
+      "mobileTriggerHidden": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,7 @@
+# Narrow mobile navigation controls
+
+The mobile drawer previously squeezed language, theme, sign-in and demo actions into one row. At320px the theme control could collapse to zero width. Preferences now use their own row, with non-shrinking44px language/theme touch targets. Sign-in and demo actions use two full-width columns beneath them; longer labels can wrap. The language selector has a visible focus outline around its actual hit area. Desktop navigation and wording are unchanged.
+
+Validation: production build with all required locale/positioning/runtime gates;222SEO checks;scoped lint. Actual interactions cover EN/NL/DE/AR320/390,NL320x568andFR320. Every control stays inside the viewport with at least44pxheight; Theme is44×44, Locale approximately71×44, action columns138px at320. Theme toggles both ways, actual locale selection changes the route, sign-in/demo navigate to their localized destinations, Tab order and focus containment work, and Escape closes the drawer. Desktop1440retains the inline navigation. All page-error checks pass. Screenshots wait for the theme's color transition to settle.
+
+A separate settled probe observed an English route/lang with the prior Dutch preference cookie after switching NLtoEN. It is recorded in data/locale-follow-up.json and reported for independent reproduction; this cut does not claim to repair or certify durable language-preference persistence. Per-case cookie fixtures are reset on a blank page before checking each localized destination.
