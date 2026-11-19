@@ -14,6 +14,7 @@ const destinations = [
   ['tips', '/restaurant-tip-management'],
   ['scheduling', '/crew/scheduling'],
   ['attendance', '/crew/time-attendance'],
+  ['comparison', '/restaurant365-alternative'],
 ] as const
 
 /** A restrained editorial index, shared by the platform and workforce journeys. */
