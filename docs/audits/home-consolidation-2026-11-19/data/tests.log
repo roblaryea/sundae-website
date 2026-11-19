@@ -1,0 +1,35 @@
+✔ Home and About alignment is authored for every marketing locale (1.582291ms)
+✔ brand accents match authored phrases in every supported language (7.671541ms)
+✔ en: every workflow, FAQ, table, CTA and metadata entry is complete (1.028333ms)
+✔ ar: every workflow, FAQ, table, CTA and metadata entry is complete (1.672917ms)
+✔ fr: every workflow, FAQ, table, CTA and metadata entry is complete (0.803041ms)
+✔ es: every workflow, FAQ, table, CTA and metadata entry is complete (0.613083ms)
+✔ de: every workflow, FAQ, table, CTA and metadata entry is complete (0.540292ms)
+✔ nl: every workflow, FAQ, table, CTA and metadata entry is complete (0.728917ms)
+✔ pt: every workflow, FAQ, table, CTA and metadata entry is complete (0.404292ms)
+✔ hi: every workflow, FAQ, table, CTA and metadata entry is complete (0.700917ms)
+✔ ur: every workflow, FAQ, table, CTA and metadata entry is complete (0.658333ms)
+✔ it: every workflow, FAQ, table, CTA and metadata entry is complete (0.408083ms)
+✔ pl: every workflow, FAQ, table, CTA and metadata entry is complete (0.512708ms)
+✔ tr: every workflow, FAQ, table, CTA and metadata entry is complete (0.641333ms)
+✔ zh-Hans: every workflow, FAQ, table, CTA and metadata entry is complete (0.510042ms)
+✔ ja: every workflow, FAQ, table, CTA and metadata entry is complete (0.885709ms)
+✔ ko: every workflow, FAQ, table, CTA and metadata entry is complete (0.664917ms)
+✔ id: every workflow, FAQ, table, CTA and metadata entry is complete (0.342125ms)
+✔ vi: every workflow, FAQ, table, CTA and metadata entry is complete (0.55175ms)
+✔ ro: every workflow, FAQ, table, CTA and metadata entry is complete (0.364166ms)
+✔ sv: every workflow, FAQ, table, CTA and metadata entry is complete (0.310708ms)
+✔ bn: every workflow, FAQ, table, CTA and metadata entry is complete (1.599292ms)
+✔ th: every workflow, FAQ, table, CTA and metadata entry is complete (0.509667ms)
+✔ ms: every workflow, FAQ, table, CTA and metadata entry is complete (1.163125ms)
+✔ shared task proof does not replace the broad management proposition (5.58825ms)
+✔ specific workflow continuations stay attached to their exact page in all locales (0.310583ms)
+✔ every published locale has the Foresight facts without a Spanish fallback (0.160833ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1388.816416

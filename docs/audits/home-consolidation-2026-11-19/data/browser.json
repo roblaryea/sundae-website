@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "intro": "See every layer.\nAct in time.",
+      "support": [
+        "Manage people and daily work with the same facts on sales, costs and demand. Sundae turns your operating data and relevant market context into intelligence that explains what needs attention, helps each team act and tracks the result across locations."
+      ],
+      "overflow": false,
+      "liveOrder": "chapter-overview"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "intro": "See every layer.\nAct in time.",
+      "support": [
+        "Manage people and daily work with the same facts on sales, costs and demand. Sundae turns your operating data and relevant market context into intelligence that explains what needs attention, helps each team act and tracks the result across locations."
+      ],
+      "overflow": false,
+      "liveOrder": "chapter-overview"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "intro": "See every layer.\nAct in time.",
+      "support": [
+        "Manage people and daily work with the same facts on sales, costs and demand. Sundae turns your operating data and relevant market context into intelligence that explains what needs attention, helps each team act and tracks the result across locations."
+      ],
+      "overflow": false,
+      "liveOrder": "chapter-overview"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "intro": "See every layer.\nAct in time.",
+      "support": [
+        "Manage people and daily work with the same facts on sales, costs and demand. Sundae turns your operating data and relevant market context into intelligence that explains what needs attention, helps each team act and tracks the result across locations."
+      ],
+      "overflow": false,
+      "liveOrder": "chapter-overview"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "intro": "شاهد كل طبقة.\nتحرّك في الوقت المناسب.",
+      "support": [
+        "أدر الفرق والعمل اليومي انطلاقًا من الحقائق نفسها عن المبيعات والتكاليف والطلب. تحوّل Sundae بيانات التشغيل وسياق السوق ذي الصلة إلى ذكاء يوضح ما يحتاج إلى اهتمام، ويساعد كل فريق على التحرك ويتابع النتيجة عبر المواقع."
+      ],
+      "overflow": false,
+      "liveOrder": "chapter-overview"
+    },
+    {
+      "locale": "de",
+      "width": 390,
+      "theme": "dark",
+      "intro": "Jede Ebene sehen.\nRechtzeitig handeln.",
+      "support": [
+        "Organisieren Sie Personal und Tagesgeschäft mit derselben Faktenbasis zu Umsatz, Kosten und Nachfrage. Sundae macht aus Ihren Betriebsdaten und relevantem Marktgeschehen intelligente Einblicke: Was braucht Aufmerksamkeit, wie kann jedes Team handeln und was hat sich an den Standorten verändert?"
+      ],
+      "overflow": false,
+      "liveOrder": "chapter-overview"
+    }
+  ],
+  "pageErrors": []
+}
