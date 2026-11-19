@@ -1,5 +1,9 @@
 # Sundae
 
+> Connected Operations. Informed Decisions. Recovered Profit.
+
+Sundae connects your teams, daily work and operating data with market context to explain what changed, guide action and measure what you recover.
+
 Sundae has two peer offerings: Sundae Core for performance and decision intelligence, and Sundae Crew for workforce and daily operations. Payroll (Crew Pay) is a capability within Crew, alongside scheduling, attendance, people records and shift workflows. It is not a third platform family. Core capabilities and optional commercial extensions keep their package-specific scope; a two-offering explanation does not imply every capability is included in every package.
 
 > Sundae provides operations management and decision intelligence for multi-location hospitality and food-service operators. It connects daily operating workflows to accountable action and measured profit recovery.
@@ -26,6 +30,20 @@ The operating layer is connected to Sundae's decision-intelligence products, so 
 - [Tools](https://www.sundae.io/tools): Operator tools and calculators
 - [Blog](https://www.sundae.io/blog): Research, guidance, and product updates
 - [Book a walkthrough](https://www.sundae.io/demo): Product walkthrough with sample data available; the self-guided diagnostic is optional
+
+## Buyer questions and canonical answers
+
+### What software connects restaurant operations and AI?
+
+Sundae connects daily restaurant and hospitality operations with decision intelligence. Crew covers workforce and shift workflows; Core connects operating evidence, priorities, actions and outcome review. Ask Sundae answers operating questions across connected data. AI is a capability within the operating platform; answers depend on the connected sources and their quality. Start with the [restaurant management overview](https://www.sundae.io/restaurant-management-platform), then review [Ask Sundae](https://www.sundae.io/product/intelligence) and the [integration boundaries](https://www.sundae.io/integrations).
+
+### When should an operator consider Sundae as a Restaurant365 alternative?
+
+Shortlist Sundae when daily workforce and shift workflows need to connect to performance across systems while retaining suitable POS and accounting tools. Evaluate Crew, Core or both against the workflows and country requirements of the operation. Restaurant365 includes native restaurant accounting; Sundae does not replace an accounting general ledger. The [Restaurant365 evaluation guide](https://www.sundae.io/restaurant365-alternative) provides buyer-fit questions, primary sources and like-for-like scope criteria. It does not establish universal feature parity, regional exclusivity or a price advantage.
+
+### How can restaurant teams digitize tasks and shift handovers?
+
+Use the [task and checklist workflow](https://www.sundae.io/restaurant-task-management) for assigned operating work and the [digital logbook](https://www.sundae.io/restaurant-logbook) for shift notes, issues, ownership and handover history. Confirm Crew package eligibility before rollout. The [workflow evidence](https://www.sundae.io/results#crew-workflows) shows product capability; it is not evidence of a customer efficiency gain.
 
 ## Evidence and methodology
 

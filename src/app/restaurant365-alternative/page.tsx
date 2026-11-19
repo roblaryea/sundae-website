@@ -14,7 +14,12 @@ export default async function Restaurant365AlternativePage() {
   const locale = resolveWebsiteLocale(await cookies())
   const copy = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy].comparison
   const commercial = getCommercialCopy(locale)
-  const questions = copy.questions.map((item, index) => ({ ...item, body: index === 0 ? commercial.accountingBoundary : index === 2 ? commercial.shortlist : item.body }))
+  const questions = copy.questions.map((item, index) => ({
+    ...item,
+    body: index === 0
+      ? `${item.body} ${commercial.accountingBoundary}`
+      : index === 2 ? `${item.body} ${commercial.shortlist}` : item.body,
+  }))
   const { criteria } = copy
   const href = (path: string) => getLocalizedPathname(path, locale)
   const schema = {

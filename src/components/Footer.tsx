@@ -100,6 +100,7 @@ const Footer = () => {
     ...nav.resourcesList.slice(0, 4).map((item) => ({ name: item.name, href: item.href })),
     { name: nav.resourcesList[4].name, href: nav.resourcesList[4].href, tracked: true },
     ...footer.extraResources,
+    { name: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links.comparison, href: '/restaurant365-alternative' },
   ];
 
   const companyLinks: ReadonlyArray<FooterLink> = [{ name: proofCopy[locale as keyof typeof proofCopy].whySundae, href: '/why-sundae' }, ...footer.companyLinks.filter(item => item.href !== '/why-sundae')];
@@ -214,6 +215,7 @@ const Footer = () => {
               </svg>
             </button>
             <div className={openSections.has('product') ? 'block' : 'hidden md:block'}>
+            <Link href={localizeHref('/restaurant-management-platform')} className="mb-3 block text-sm font-semibold text-[var(--text-primary)] hover:underline">{operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links.platform} →</Link>
             <Link href={localizeHref('/core')} className="mb-3 block text-sm font-semibold text-[var(--text-primary)] hover:underline">Sundae Core →</Link>
             <ul className="space-y-2">
               {pillarLinks.map((link) => (

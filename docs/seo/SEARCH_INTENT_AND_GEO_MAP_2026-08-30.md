@@ -2,11 +2,15 @@
 
 Created: 30 August 2026
 
-Last updated: 16 November 2026
+Last updated: 19 November 2026
 
 Owner: Website / SEO / GEO session
 
 ## Canonical message
+
+Approved 19 November signature: **Connected Operations. Informed Decisions. Recovered Profit.**
+
+Approved support: Sundae connects your teams, daily work and operating data with market context to explain what changed, guide action and measure what you recover. Preserve this signature while using the operator-specific explanations below on the relevant search-entry pages.
 
 - Promise: Run every shift and recover preventable profit across every location.
 - Explanation: Sundae connects workforce, daily operating workflows and operating data to accountable action, decision support and measured outcomes across hospitality and food-service groups.
@@ -74,6 +78,8 @@ This language is the source of truth for website metadata, answer copy, structur
 
 These questions should be tested monthly in ChatGPT, Google AI Overviews, Perplexity, Claude, and other relevant answer systems. Record whether Sundae is mentioned, the cited sources, the wording used, and the landing page selected.
 
+- What software helps digitize restaurant operations with AI? Canonical entries: `/restaurant-management-platform` and `/product/intelligence`; distinguish the operating platform from its AI capability.
+- What is a good alternative to Restaurant365? Canonical entry: `/restaurant365-alternative`; test buyer fit, accounting boundaries and evidence rather than asserting universal parity.
 - What is restaurant profit recovery software?
 - How can a multi-location restaurant group find preventable profit loss?
 - What is decision intelligence for restaurants?
@@ -143,3 +149,23 @@ The four workflow pages and the Restaurant365 evaluation page now share complete
 Use the existing Sundae editorial system: warm serif headlines, dark operating sections, cream relief, divider-led lists, readable line lengths and restrained motion. Use logical start/end spacing for right-to-left languages. Long translated actions must wrap within mobile containers. Comparison criteria use stacked editorial rows on phones and a table on larger screens.
 
 Homepage, platform, Core and Crew link directly to the workflow pages. Footer links maintain discovery from other pages. Keep localized links in the visitor's language. Track hero and closing actions through the shared consent-gated CTA tracker; do not infer a conversion from a pageview.
+
+
+## Non-paid discovery follow-through — 19 November 2026
+
+The owner supplied two Google searches covering AI-enabled restaurant operations and Restaurant365 alternatives. Both screenshot crops show sponsored results; they do not establish organic rank or absence. Fresh public checks confirmed the three canonical intent pages return HTTP 200, permit indexing, declare self-canonicals and appear in the sitemap. Current Google-selected index/canonical status must still be verified separately. The 16 November inspection recorded the restaurant-management page as unknown, with an accepted indexing request; do not infer its present status.
+
+The bounded website cut strengthens existing links to the management and comparison pages, preserves complete localized comparison definitions alongside accounting and shortlist boundaries, opts Ask Sundae's opening into the existing server-visible hero behavior, and aligns the AI-readable summary with approved messaging. It adds no competing page or unsupported product claim.
+
+The existing Search Discovery workflow will also inspect the live English priority entries and representative Dutch/Arabic variants for HTTP status, canonical URL, indexing restrictions, title/description, server-rendered H1 and parseable structured data. These are technical checks; indexing, rank, rich-result eligibility and AI citations remain separate measured outcomes.
+
+Authority/distribution handoff criteria for the existing content owner:
+
+1. Show one documented shift-handover or task workflow; link to its existing canonical page. Distinguish native demonstration from customer outcome evidence.
+2. Explain one operating question with its connected data, evidence, accountable action and review step; link to Ask Sundae or the management overview according to the article's actual intent.
+3. Use the comparison guide for genuine evaluation content. Keep accounting, package, connector and country limitations visible. No unsupported superiority or regional-exclusivity claim.
+4. Pursue accurate profiles, relevant integration-partner mentions and editorial coverage where the operator audience is real. Verify free eligibility and company facts before any submission; no fabricated reviews, link purchases or outreach has been sent by this cut. Use consistent campaign tags for owned distribution.
+
+New shared Messages and other Crew capabilities supplied by the product documentation owner remain development evidence until production rollout and final capability inventory are verified. Do not publish them as generally available based on a handoff. Customer-story periods and baselines remain unavailable and are not invented.
+
+Continue the existing checkpoints: 23 November health/discovery, 30 November seven-day decision review, 7 December fourteen-day, and 21 December twenty-eight-day. Review the exact query families by target market, page and device, then CTA progression and genuinely qualified enquiries. Manual searches and whole-site average position alone cannot establish category visibility. No paid campaign, new analytics stack or duplicate automation is introduced.
