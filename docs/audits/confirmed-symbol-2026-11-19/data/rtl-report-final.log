@@ -1,0 +1,12 @@
+### Result
+{"ar":{"path":"/ar","lang":"ar","dir":"rtl","width":390,"scrollWidth":390,"lockupDirection":"ltr"},"report":{"path":"/ar/diagnostic/report","width":390,"scrollWidth":390,"identityCount":4}}
+### Ran Playwright code
+```js
+await (async (page) => { await page.goto("http://localhost:3139/ar"); await page.setViewportSize({width:390,height:844}); await page.waitForTimeout(1000); await page.screenshot({path:"output/playwright/confirmed-symbol-20261119/home-ar-dark-390.png"}); const ar=await page.evaluate(()=>({path:location.pathname,lang:document.documentElement.lang,dir:document.documentElement.dir,width:innerWidth,scrollWidth:document.documentElement.scrollWidth,lockupDirection:getComputedStyle(document.querySelector("nav [data-approved-identity]")).direction})); await page.goto("http://localhost:3139/ar/diagnostic/report"); await page.waitForTimeout(500); await page.screenshot({path:"output/playwright/confirmed-symbol-20261119/diagnostic-ar-390.png"});return {ar,report:await page.evaluate(()=>({path:location.pathname,width:innerWidth,scrollWidth:document.documentElement.scrollWidth,identityCount:document.querySelectorAll("[data-approved-identity]").length}))}; })(page);
+```
+### Page
+- Page URL: http://localhost:3139/ar/diagnostic/report
+- Page Title: Your Operations Diagnostic · Sundae | Sundae
+- Console: 2 errors, 0 warnings
+### Events
+- New console entries: .playwright-cli/console-2026-11-19T07-27-26-294Z.log#L4-L9

@@ -1,0 +1,88 @@
+
+> sundae@0.1.0 test:profile-card
+> node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs tests/public-profiles.test.mjs
+
+(node:9294) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/robertlaryea/Documents/Dev/.codex-worktrees/sundae-website-confirmed-symbol-20261119/src/lib/vcard.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/robertlaryea/Documents/Dev/.codex-worktrees/sundae-website-confirmed-symbol-20261119/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ vCard carries a structured name, not an empty N field (6.957833ms)
+✔ vCard has the required properties and CRLF framing (15.596ms)
+✔ vCard title and address follow the requested language, name stays as written (37.829375ms)
+✔ escapes vCard text so a value cannot inject properties (0.501667ms)
+✔ folds lines at 75 octets without splitting multibyte characters (0.249875ms)
+✔ embeds the contact photo when provided and omits it otherwise (0.51425ms)
+✔ a person's portrait is embedded as a JPEG and replaces the brand mark (0.319959ms)
+✔ every portrait has a public image and a valid 192 px JPEG for the contact file (0.405291ms)
+✔ download filename is safe (0.246ms)
+✔ profile handles are lowercase url-safe and resolve to chrome-free paths (0.322542ms)
+✔ every handle has exactly one well-formed profile (70.403458ms)
+✔ every job title and city is localized into every website locale (6.703375ms)
+✔ role and location render in the visitor's language and script (1.970166ms)
+✔ a card owner's grammatical form is respected and never defaulted from a name (0.115667ms)
+✔ profile card copy exists for every website locale and every key (2.386917ms)
+✔ non-English copy is actually translated, not copied from English (0.364083ms)
+✔ localized strings avoid em dashes (2.446167ms)
+✔ every profile has a 1200x630 link-preview image (0.399541ms)
+✔ the new convenience strings are translated in every locale (0.304625ms)
+✔ the phone field is no longer labelled optional in any language (0.756417ms)
+✔ the phone country strings are translated in every locale (0.296541ms)
+✔ the invalid-for-country message names the country exactly once, in every locale (1.191333ms)
+✔ Papiamento phone strings use the Aruban spelling without accents (0.148417ms)
+✔ country names come from the card language, with Papiamento overrides and an English fallback (79.00575ms)
+✔ the selector starts on the visitor's country, then the card language's, then the owner's (4.204958ms)
+✔ a card owner's country comes from the catalogue city, else the directory country code (0.594917ms)
+✔ the country list has flags, calling codes and accent-folded search text (1.015375ms)
+✔ the country search matches names in the card language and English, ISO codes and calling codes (27.824792ms)
+✔ browser code never imports the full phone metadata (23.626208ms)
+✔ an international number typed, pasted or AutoFilled into the national box moves the selector (9.6895ms)
+✔ the exchange prompt names the card owner in every locale and never hard-codes a gender (0.250541ms)
+✔ the share sheet, exchange sheet and card page are wired together (0.659334ms)
+✔ the lead form is off unless explicitly switched on (0.264959ms)
+✔ the card supports exactly the 25 booking languages (0.089917ms)
+✔ Russian, Azerbaijani and Papiamento render natively (0.378083ms)
+✔ the visitor's language is chosen explicit first, then the browser (0.761375ms)
+✔ a booking slug, when set, is a valid personal booking page slug (0.207542ms)
+✔ a retired profile is inactive only when explicitly marked, and every language explains it (0.572791ms)
+✔ numbers handed over by a phone's contact card split correctly whatever their formatting (7.983125ms)
+✔ the selected country's calling code is never repeated in the number box (79.591041ms)
+✔ cleaned phone text only ever contains characters the server accepts (0.539833ms)
+✔ the exchange sheet leads with one prefill action and hands the visitor on to consent and Send (0.946333ms)
+✔ the prefill strings are translated and the iPhone hint stays a single sentence (2.526625ms)
+(node:9295) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/robertlaryea/Documents/Dev/.codex-worktrees/sundae-website-confirmed-symbol-20261119/src/lib/profileConnect.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/robertlaryea/Documents/Dev/.codex-worktrees/sundae-website-confirmed-symbol-20261119/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ accepts a valid submission and normalises it (25.194041ms)
+✔ name, email, phone and consent are required; company and message are optional (7.601083ms)
+✔ rejects missing consent, bad email, short name, unknown handle, bad phone (3.26925ms)
+✔ a honeypot or missing timestamp is ignored silently; odd timing asks for a retry (0.300542ms)
+✔ non-object bodies are invalid, never throw (0.128291ms)
+✔ control characters are stripped and non-strings are rejected (0.277333ms)
+✔ lead payload carries source, owner and consent evidence for the CRM (8.257667ms)
+✔ empty optional fields become null, not empty strings (1.494166ms)
+✔ national numbers are validated for the chosen country and stored as E.164 (56.880208ms)
+✔ a number that is not valid for the chosen country is flagged as the phone field (16.627459ms)
+✔ an international number is accepted when it matches the chosen country, and rejected when it does not (28.331375ms)
+✔ phone validation does not change the spam controls (0.28025ms)
+✔ name placeholders split cleanly for bidi isolation (0.742875ms)
+✔ every locale has the name placeholder in the four owner-addressed sentences (1.941834ms)
+✔ consent wording names Sundae in every locale (0.171292ms)
+✔ saved consent evidence is the wording shown in the visitor's language (0.388917ms)
+✔ request bodies are limited by bytes actually read, with or without Content-Length (92.120167ms)
+✔ a submission id separates a retry from a second message (5.142791ms)
+✔ only supported languages are treated as explicit (2.638375ms)
+(node:9296) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/robertlaryea/Documents/Dev/.codex-worktrees/sundae-website-confirmed-symbol-20261119/src/lib/publicProfileClient.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/robertlaryea/Documents/Dev/.codex-worktrees/sundae-website-confirmed-symbol-20261119/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ runtime directory: whitelisted profile, tombstone, missing handle and unavailable service (145.0095ms)
+✔ runtime directory rejects mismatched identity and unsafe public links (6.342708ms)
+ℹ tests 64
+ℹ suites 0
+ℹ pass 64
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 930.342375

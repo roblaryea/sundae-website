@@ -1,0 +1,6 @@
+### Result
+[{"theme":"pc-root","width":390,"scrollWidth":390},{"width":1440,"scrollWidth":1440}]
+### Ran Playwright code
+```js
+await (async (page) => { const out=[]; await page.waitForTimeout(500); await page.screenshot({path:"output/playwright/confirmed-symbol-20261119/profile-light-390.png",fullPage:true}); out.push(await page.evaluate(()=>({theme:document.querySelector(".pc-root").className,width:innerWidth,scrollWidth:document.documentElement.scrollWidth}))); await page.getByRole("button",{name:"Switch between light and dark",exact:true}).click(); await page.waitForTimeout(400); await page.screenshot({path:"output/playwright/confirmed-symbol-20261119/profile-dark-390.png",fullPage:true}); await page.setViewportSize({width:1440,height:1000}); await page.waitForTimeout(400); await page.screenshot({path:"output/playwright/confirmed-symbol-20261119/profile-dark-1440.png",fullPage:true});out.push(await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}))); return out; })(page);
+```
