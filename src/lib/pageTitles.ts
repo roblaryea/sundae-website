@@ -1,3 +1,4 @@
+import videoCopy from '@/content/product-walkthroughs.json';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { getOperatorAudienceDescription } from '@/lib/operatorAudienceCopy';
 import type { WebsiteLocale } from '@/lib/i18n';
@@ -117,6 +118,7 @@ type PageTitleOverrides = Record<string, Partial<Record<string, string>>>;
  * route has no central entry (caller then keeps the generic default).
  */
 export function resolvePageTitle(path: string, locale: WebsiteLocale): string | null {
+  if (path === '/resources/product-walkthroughs') return `${videoCopy[locale].label} | Sundae`;
   if (path === '/getting-started') return `${guidanceByLocale[locale].startLabel} | Sundae`;
   const support = supportPageOpenings[locale as keyof typeof supportPageOpenings];
   if (path === '/careers') return support.careers.metaTitle;
@@ -132,6 +134,7 @@ export function resolvePageTitle(path: string, locale: WebsiteLocale): string | 
 }
 
 export function resolvePageDescription(path: string, locale: WebsiteLocale): string | null {
+  if (path === '/resources/product-walkthroughs') return `${videoCopy[locale].intro} ${videoCopy[locale].language}`;
   if (path === '/architecture') return systemByLocale[locale].aBody;
   if (path === '/integrations') return systemByLocale[locale].iBody;
   if (path === '/4d-intelligence') return systemByLocale[locale].dBody;

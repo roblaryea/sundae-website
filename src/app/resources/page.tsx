@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { WalkthroughTeaser } from '@/components/resources/WalkthroughTeaser';
 import { Button } from '@/components/ui/Button';
 import resourceHeading from '@/content/buyer-proof-labels/resources.json';
 import { PageHero, PageCTA } from '@/components/ui/PageAnimations';
@@ -25,6 +26,7 @@ export default function ResourcesPage() {
           <Button variant="outline-light" size="lg" href={local('/results')} trackingLabel="resources_results_hero">{copy.secondaryCta}</Button>
         </div>
       </PageHero>
+      <WalkthroughTeaser />
       <section className="px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-6xl">
           <p className="eyebrow mb-4">{labels.caseStudies}</p>

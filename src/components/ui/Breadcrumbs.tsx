@@ -1,5 +1,7 @@
 'use client';
 
+import videoCopy from '@/content/product-walkthroughs.json';
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { SITE_URL } from '@/lib/urls';
@@ -154,6 +156,7 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
     ...(unlocalizedPathname.startsWith('/solutions/') ? Object.fromEntries([...messages.navbar.solutionsSegments, ...messages.navbar.solutionsRoles].map(link => [link.href.split('/').pop()!, link.name])) : {}),
     ...(unlocalizedPathname.startsWith('/crew/') ? Object.fromEntries(crewNavLocales[locale as keyof typeof crewNavLocales].crewList.map(link => [link.href.split('/').pop()!, link.name])) : {}),
     results: buyerCopy[locale as keyof typeof buyerCopy].resultsLabel,
+    'product-walkthroughs': videoCopy[locale as keyof typeof videoCopy].label,
     'why-sundae': proofCopy[locale as keyof typeof proofCopy].whySundae,
     'restaurant-management-platform': workflow.platform,
     'restaurant-task-management': workflow.tasks,

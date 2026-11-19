@@ -1,0 +1,58 @@
+{
+  "media": [
+    {
+      "id": "sales",
+      "duration": 43,
+      "captions": 14,
+      "mode": "showing",
+      "controls": true,
+      "inline": true,
+      "paused": false,
+      "source": "http://localhost:3166/media/product-walkthroughs/sales-ee51866a2498.mp4"
+    },
+    {
+      "id": "action",
+      "duration": 45.7,
+      "captions": 15,
+      "mode": "showing",
+      "controls": true,
+      "inline": true,
+      "paused": false,
+      "source": "http://localhost:3166/media/product-walkthroughs/action-3c10b064798e.mp4"
+    },
+    {
+      "id": "attendance",
+      "duration": 48.033333,
+      "captions": 14,
+      "mode": "showing",
+      "controls": true,
+      "inline": true,
+      "paused": false,
+      "source": "http://localhost:3166/media/product-walkthroughs/attendance-9185132ab965.mp4"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "theme": "KcsgxG_variable piKetq_variable _8Li5zG_variable light"
+    },
+    {
+      "name": "Arabic mobile",
+      "width": 390,
+      "scroll": 390,
+      "dir": "rtl",
+      "lang": "ar"
+    }
+  ],
+  "errors": [],
+  "errorRetryPassed": true,
+  "preloadBeforeWatch": false,
+  "keyboardWatch": true,
+  "oneFilmAtATime": true,
+  "transcripts": true,
+  "canonicalAndVideoSchema": true,
+  "resourcesTeaserAndMobileNavigation": true,
+  "consoleNote": "Only local Vercel analytics 404/MIME messages and the intentionally blocked media request; no application page errors."
+}
