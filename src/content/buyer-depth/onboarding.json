@@ -472,7 +472,7 @@
         ]
       },
       {
-        "title": "Scope bronnen en workflowsetup",
+        "title": "Breng bronnen en werkprocessen in kaart",
         "subtitle": "Bevestig de connecties en het werk.",
         "description": "Voor Core: beoordeel de vereiste bronnen, velden en ververstiming. Voor Crew: kom locaties, medewerkersaccess, roosters en goedkeuringsregels overeen. Bevestig land- en providerbehoeften waar payroll betrokken is.",
         "actions": [
@@ -483,7 +483,7 @@
         ]
       },
       {
-        "title": "Beoordeel de eerste workflow of antwoord",
+        "title": "Beoordeel de eerste workflow of het eerste antwoord",
         "subtitle": "Houd het team verantwoordelijk voor de beslissing.",
         "description": "Loop de taak, overdracht, planning of operationele vraag door. Controleer de aanbeveling en ondersteunende records en kom daarna overeen wat het team vervolgens doet.",
         "actions": [
