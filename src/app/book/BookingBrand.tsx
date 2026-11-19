@@ -1,6 +1,6 @@
 import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
 
-/** The same approved Fraunces PNG used in the website navigation. */
+/** The confirmed symbol and original Fraunces wordmark used in website navigation. */
 export function BookingBrand({ centered = false }: { centered?: boolean }) {
   return (
     <span

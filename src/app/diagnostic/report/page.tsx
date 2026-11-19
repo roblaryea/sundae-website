@@ -2,7 +2,7 @@
 // Server-fetches the report from the backend by signed token, then hands off
 // to the app-styled client view (light/dark, collapsible sections).
 
-import { ApprovedWordmark } from '@/components/ui/ApprovedWordmark';
+import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
 import Link from "next/link";
 import type { Metadata } from "next";
 import { DiagnosticReportView, type DiagnosticReport } from "./DiagnosticReportView";
@@ -43,7 +43,7 @@ function NotFound({ locale }: { locale: WebsiteLocale }) {
   return (
     <div className="min-h-screen bg-[#020617] text-stone-100 grid place-items-center px-6" dir={copy.dir}>
       <div className="text-center max-w-md">
-        <ApprovedWordmark tone="cream" className="h-12 w-48" />
+        <SundaeLogotype tone="cream" className="text-[30px]" />
         <h1 className="text-xl font-bold mt-6">{copy.share.notFoundTitle}</h1>
         <p className="text-sm text-stone-400 mt-2">
           {copy.share.notFoundBody}

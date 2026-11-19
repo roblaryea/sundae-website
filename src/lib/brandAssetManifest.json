@@ -20,5 +20,29 @@
       "path": "/brand/wordmarks/sundae-wordmark-fraunces-white.png",
       "sha256": "cc7489eacda4d63e1af03f6dfbab29ab443a1659bffba7350b6644baafbf2f1b"
     }
+  },
+  "symbol": {
+    "path": "/brand/marks/sundae-mark.svg",
+    "sha256": "dff75ed182b38965d4b4c066f41152b66e1c525b92d4aac40e458a0d1909ee05",
+    "sourceCommit": "d926935d78d330f9cec98dc5d4d081355a2175fd",
+    "confirmedByOwner": "2026-11-19"
+  },
+  "symbolOriginals": {
+    "/brand/marks/sundae-mark.svg": {
+      "source": "public/logos/sundae-mark.svg",
+      "sha256": "dff75ed182b38965d4b4c066f41152b66e1c525b92d4aac40e458a0d1909ee05"
+    },
+    "/brand/icons/mark-512.png": {
+      "source": "public/logos/sundae-app-icon.png",
+      "sha256": "450d9eb46bdd6dd381783697287b5059313716f4a9b3094bfa5f1013a562c65c"
+    },
+    "/brand/icons/mark-180.png": {
+      "source": "public/logos/apple-touch-icon.png",
+      "sha256": "5a32f34e2f68a60e82ceaf214c1f3e8e8fe7d246c6ed85906ac824fee8e71e52"
+    },
+    "/brand/icons/sundae-favicon.ico": {
+      "source": "public/favicon.ico",
+      "sha256": "57738fa33dff423eca8e3f6d320dd149e1b2cefac70e84f9eccebd28c988a5bc"
+    }
   }
 }

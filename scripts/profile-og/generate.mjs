@@ -25,6 +25,7 @@ try {
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const font = (file) => readFileSync(path.join(root, 'scripts/profile-og/fonts', file)).toString('base64')
 const wordmark = readFileSync(path.join(root, 'public/brand/wordmarks/sundae-wordmark-fraunces-white.png')).toString('base64')
+const symbol = readFileSync(path.join(root, 'public/brand/marks/sundae-mark.svg')).toString('base64')
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c])
 
 function html(profile) {
@@ -35,7 +36,7 @@ function html(profile) {
 *{box-sizing:border-box;margin:0}
 body{width:1200px;height:630px;background:#171210;color:#fbf8f4;font-family:H,sans-serif;position:relative;overflow:hidden}
 .glow{position:absolute;inset:0;background:radial-gradient(620px 520px at 82% 46%,rgba(255,92,77,.22),transparent 65%),radial-gradient(460px 380px at 96% 8%,rgba(233,162,74,.18),transparent 66%)}
-.wm{position:absolute;left:84px;top:70px;width:200px}.wm img{width:100%;height:auto;display:block}
+.wm{position:absolute;left:84px;top:70px;display:flex;align-items:center;direction:ltr}.wm .symbol{width:40px;height:40px}.wm .wordmark{width:200px;height:50px;margin-left:-20px;display:block}
 .txt{position:absolute;left:84px;bottom:84px;width:720px}
 .name{font:560 84px/1.02 F,serif;font-variation-settings:'opsz' 72,'SOFT' 0,'WONK' 0;letter-spacing:-.028em}
 .role{margin-top:18px;font-size:34px;font-weight:600;color:#ff5c4d}
@@ -43,7 +44,7 @@ body{width:1200px;height:630px;background:#171210;color:#fbf8f4;font-family:H,sa
 .url{margin-top:34px;font-size:24px;font-weight:600;letter-spacing:.02em;color:#fbf8f4;display:inline-block;border-top:3px solid #ff5c4d;padding-top:14px}
 </style><body><div class="glow"></div>
 
-<div class="wm"><img src="data:image/png;base64,${wordmark}" alt="Sundae"></div>
+<div class="wm"><img class="symbol" src="data:image/svg+xml;base64,${symbol}" alt=""><img class="wordmark" src="data:image/png;base64,${wordmark}" alt="Sundae"></div>
 <div class="txt"><div class="name">${esc(name)}</div><div class="role">${esc(roleTitle(profile.roleKey, profile.titleForm, 'en'))}</div><div class="meta">${esc(profile.company)} · ${esc(locationText(profile.cityKey, 'en'))}</div><div class="url">sundae.io/${esc(profile.handle)}</div></div></body>`
 }
 

@@ -7,9 +7,9 @@ test('approved Sundae PNG wordmark appears on public and unavailable booking sur
     await expect(brand).toHaveCount(1);
     await expect(brand).toBeVisible();
     await expect(brand.locator('svg')).toHaveCount(0);
-    await expect(brand.locator('img')).toHaveCount(2);
+    await expect(brand.locator('img')).toHaveCount(3);
     for (const image of await brand.locator('img').all()) {
-      await expect(image).toHaveAttribute('src', /\/brand\/wordmarks\/sundae-wordmark-fraunces(?:-white)?\.png$/);
+      await expect(image).toHaveAttribute('src', /\/brand\/(?:wordmarks\/sundae-wordmark-fraunces(?:-white)?\.png|marks\/sundae-mark\.svg)$/);
     }
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }

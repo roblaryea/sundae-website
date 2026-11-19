@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { ApprovedWordmark } from "@/components/ui/ApprovedWordmark";
+import { ApprovedMark } from "@/components/ui/ApprovedMark";
+import { SundaeLogotype } from "@/components/ui/SundaeLogotype";
 import { SUNDAE_WORDMARK } from "@/lib/brandAssets";
 import { Button } from "@/components/ui/Button";
 import { FadeUp } from "@/components/ui/PageAnimations";
@@ -8,12 +10,12 @@ import { ColorSwatches } from "./ColorSwatches";
 export const metadata: Metadata = {
   title: "Brand Assets",
   description:
-    "The approved Sundae Fraunces wordmarks, colors and typography. Download the original PNG artwork for light and dark backgrounds.",
+    "The approved Sundae symbol, Fraunces wordmarks, colors and typography. Download the original artwork for light and dark backgrounds.",
   alternates: { canonical: "/brand" },
   openGraph: {
     title: "Sundae Brand Assets",
     description:
-      "The approved Sundae Fraunces wordmarks, colors and typography, in one place.",
+      "The approved Sundae symbol, Fraunces wordmarks, colors and typography, in one place.",
     url: "/brand",
   },
 };
@@ -40,16 +42,16 @@ function DownloadChip({ href, label }: { href: string; label: string }) {
 }
 
 const DOS = [
-  "Use the supplied Fraunces PNG wordmark without changing its proportions.",
+  "Use the supplied gradient S-and-cherry symbol with the original Fraunces PNG wordmark for the main brand signature.",
   "Choose the dark wordmark on light backgrounds and the white wordmark on dark backgrounds.",
-  "Keep the clear space included in the original file.",
+  "Keep the artwork proportional and give the symbol and wordmark room to breathe.",
   "Write Sundae as ordinary text within sentences.",
 ];
 
 const DONTS = [
-  "Do not use retired symbols, layered-S marks or mark-plus-wordmark lockups.",
+  "Do not use the retired blue orb, blue wordmarks or old blue lockups.",
   "Do not redraw, retype, recolor, stretch or crop the lettering.",
-  "Do not combine the wordmark with a separate mark.",
+  "Do not substitute a different symbol or a recreated wordmark.",
   "Do not rebuild the logo with a font or an image generator.",
 ];
 
@@ -60,19 +62,19 @@ export default function BrandPage() {
       <section className="relative overflow-hidden bg-mesh px-6 pt-32 pb-24 text-center">
         <div className="mx-auto max-w-4xl">
           <div className="mb-8 flex justify-center">
-            <ApprovedWordmark className="h-20 w-80 max-w-full" />
+            <SundaeLogotype className="text-[36px] sm:text-[50px]" />
           </div>
           <span className="eyebrow">Brand</span>
           <h1 className="hero-h1 mt-3 text-[var(--text-display)]">
             Sundae brand assets
           </h1>
           <p className="body-xl mx-auto mt-5 max-w-2xl text-[var(--text-supporting)]">
-            The approved wordmark, colors and typography to represent Sundae
+            The approved symbol, wordmarks, colors and typography to represent Sundae
             consistently across your materials.
           </p>
           <div className="mt-9 flex flex-wrap justify-center gap-3">
             <Button href="/brand/sundae-brand-assets.zip" variant="cta" size="lg">
-              Download approved wordmarks
+              Download brand assets
             </Button>
             <Button href="#logo" variant="outline-light" size="lg">
               Browse the kit
@@ -89,11 +91,24 @@ export default function BrandPage() {
           <FadeUp>
             <div className="mb-14 max-w-3xl">
               <span className="eyebrow">The approved logo</span>
-              <h2 className="section-h2 mt-2 text-[var(--text-primary)]">One wordmark. Two backgrounds.</h2>
+              <h2 className="section-h2 mt-2 text-[var(--text-primary)]">The symbol. The wordmark. One identity.</h2>
               <p className="body-lg mt-4 text-[var(--text-supporting)]">
-                Use these original Fraunces PNGs. Earlier marks, reconstructed lettering
-                and mark-plus-wordmark lockups are retired.
+                Use the original gradient S and cherry beside the Fraunces wordmark in headers and brand signatures.
+                The symbol also works on its own in square icon slots; the wordmark can stand alone in editorial artwork.
               </p>
+            </div>
+          </FadeUp>
+          <FadeUp>
+            <div className="mb-10 grid grid-cols-1 items-center gap-8 rounded-2xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-6 sm:grid-cols-[160px_1fr] sm:p-8">
+              <ApprovedMark decorative={false} className="mx-auto h-36 w-36" />
+              <div>
+                <h3 className="section-h4 text-[var(--text-primary)]">The Sundae symbol</h3>
+                <p className="body-sm mb-4 mt-2 text-[var(--text-supporting)]">The original smooth cream-to-clay S with its red cherry on an espresso tile. Use the supplied file without redrawing or recoloring it.</p>
+                <div className="flex flex-wrap gap-3">
+                  <DownloadChip href="/brand/marks/sundae-mark.svg" label="Download symbol SVG" />
+                  <DownloadChip href="/brand/icons/mark-512.png" label="Download symbol PNG" />
+                </div>
+              </div>
             </div>
           </FadeUp>
           <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
@@ -240,7 +255,7 @@ export default function BrandPage() {
         <div className="mx-auto max-w-3xl text-center">
           <FadeUp>
             <div className="mb-6 flex justify-center">
-              <ApprovedWordmark className="h-16 w-64 max-w-full" />
+            <SundaeLogotype className="text-[36px] sm:text-[40px]" />
             </div>
             <h2 className="section-h2 text-[var(--text-primary)]">
               Everything, in one link
@@ -251,7 +266,7 @@ export default function BrandPage() {
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Button href="/brand/sundae-brand-assets.zip" variant="cta" size="lg">
-                Download approved wordmarks
+                Download brand assets
               </Button>
               <Button href="/contact" variant="outline-light" size="lg">
                 Contact us
