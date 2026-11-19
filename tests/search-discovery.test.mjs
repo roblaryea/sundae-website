@@ -133,8 +133,21 @@ test('localized solution routes derive metadata from their translated page copy'
     assert.doesNotMatch(source, /export const metadata/)
     assert.match(source, /export async function generateMetadata/)
     assert.match(source, /resolveWebsiteLocale\(await cookies\(\)\)/)
-    assert.match(source, /buildSolutionPageMetadata/)
-    assert.match(source, /generatedLocalCopy: generatedLocalCopy\.localizedCopy/)
+    if (route === '') {
+      // The overview uses the same reviewed audience dictionary as its visible opening.
+      assert.match(source, /buildResolvedPageMetadata/)
+      assert.match(source, /title: getWebsiteMessages\(locale\)\.navbar\.solutions/)
+      assert.match(source, /description: getOperatorAudienceCopy\(locale\)\.solutions/)
+      const audiences = JSON.parse(fs.readFileSync(path.join(root, 'src/content/operator-audiences.json'), 'utf8'))
+      assert.equal(Object.keys(audiences).length, 22)
+      for (const [locale, copy] of Object.entries(audiences)) {
+        assert.ok(copy.solutions?.trim(), locale)
+        if (locale !== 'en') assert.notEqual(copy.solutions, audiences.en.solutions, locale)
+      }
+    } else {
+      assert.match(source, /buildSolutionPageMetadata/)
+      assert.match(source, /generatedLocalCopy: generatedLocalCopy\.localizedCopy/)
+    }
   }
 })
 

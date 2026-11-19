@@ -1,0 +1,398 @@
+{
+  "en": {
+    "overview": "Explore all solutions",
+    "whyTop": "Spot the gap.",
+    "whyAccent": "Get the team on it.",
+    "reasonsTitle": "The difference is what happens next.",
+    "reasonLabels": [
+      "The work and the numbers, together",
+      "Context before the next move",
+      "Follow-through you can check"
+    ],
+    "truthTitle": "One source of truth. A useful view for every team.",
+    "truthBody": "Sales, costs, staffing and daily work are the layers of your operation. Sundae connects their data so every team works from the same facts, with intelligence to explain changes and guide action. Peer comparisons and market context add perspective where your package supports them.",
+    "solutionsTop": "One operation.",
+    "solutionsAccent": "A clear next step for every team.",
+    "proofTitle": "See the work behind the decision.",
+    "freshness": "Refresh timing depends on the connected source. Confirm coverage and timing during setup.",
+    "attribution": "A better result is not automatic proof of cause. Sundae keeps measured change separate from verified attribution."
+  },
+  "ar": {
+    "overview": "استكشف كل الحلول",
+    "whyTop": "اكتشف موضع الخلل.",
+    "whyAccent": "وحرّك الفريق لمعالجته.",
+    "reasonsTitle": "الفرق في الخطوة التالية.",
+    "reasonLabels": [
+      "العمل والأرقام معًا",
+      "السياق قبل القرار التالي",
+      "متابعة يمكنك التحقق منها"
+    ],
+    "truthTitle": "مصدر واحد للحقيقة. ورؤية مفيدة لكل فريق.",
+    "truthBody": "المبيعات والتكاليف والكوادر والعمل اليومي هي طبقات عملياتك. تربط Sundae بياناتها ليعمل كل فريق انطلاقًا من الحقائق نفسها، مع ذكاء يفسّر التغيّرات ويوجّه العمل. وتضيف مقارنات النظراء وسياق السوق منظورًا أوسع حيث تدعمهما باقتك.",
+    "solutionsTop": "عملية واحدة.",
+    "solutionsAccent": "خطوة تالية واضحة لكل فريق.",
+    "proofTitle": "شاهد العمل الذي يدعم القرار.",
+    "freshness": "يتوقف توقيت تحديث البيانات على المصدر المتصل. تأكد من التغطية والتوقيت أثناء الإعداد.",
+    "attribution": "تحسّن النتيجة لا يثبت السبب تلقائيًا. تفصل Sundae التغيّر المقاس عن الإسناد المتحقق منه."
+  },
+  "fr": {
+    "overview": "Explorer toutes les solutions",
+    "whyTop": "Repérez l’écart.",
+    "whyAccent": "Mobilisez l’équipe.",
+    "reasonsTitle": "La différence se joue dans la suite.",
+    "reasonLabels": [
+      "Le travail et les chiffres, ensemble",
+      "Le contexte avant la prochaine décision",
+      "Un suivi que vous pouvez vérifier"
+    ],
+    "truthTitle": "Une même référence. Une vue utile à chaque équipe.",
+    "truthBody": "Ventes, coûts, effectifs et travail quotidien sont les facettes de votre activité. Sundae relie leurs données pour que chaque équipe parte des mêmes faits, avec une intelligence qui explique les évolutions et guide l’action. Les comparaisons entre pairs et le contexte de marché complètent cette vue selon votre offre.",
+    "solutionsTop": "Une même activité.",
+    "solutionsAccent": "Une prochaine étape claire pour chaque équipe.",
+    "proofTitle": "Voyez le travail derrière la décision.",
+    "freshness": "La fréquence de mise à jour dépend de la source connectée. Confirmez couverture et délais lors de la configuration.",
+    "attribution": "Un meilleur résultat ne prouve pas automatiquement sa cause. Sundae distingue variation mesurée et attribution vérifiée."
+  },
+  "es": {
+    "overview": "Explorar todas las soluciones",
+    "whyTop": "Detecta el desvío.",
+    "whyAccent": "Pon al equipo en marcha.",
+    "reasonsTitle": "La diferencia está en lo que pasa después.",
+    "reasonLabels": [
+      "El trabajo y los números, juntos",
+      "Contexto antes del siguiente paso",
+      "Un seguimiento que puedes comprobar"
+    ],
+    "truthTitle": "Una fuente de verdad. Una vista útil para cada equipo.",
+    "truthBody": "Ventas, costos, personal y trabajo diario son las capas de tu operación. Sundae conecta sus datos para que cada equipo parta de los mismos hechos, con inteligencia que explica cambios y orienta la acción. Las comparaciones con pares y el contexto de mercado aportan perspectiva según tu plan.",
+    "solutionsTop": "Una operación.",
+    "solutionsAccent": "Un siguiente paso claro para cada equipo.",
+    "proofTitle": "Ve el trabajo detrás de la decisión.",
+    "freshness": "La frecuencia de actualización depende de la fuente conectada. Confirma cobertura y tiempos durante la configuración.",
+    "attribution": "Un mejor resultado no demuestra automáticamente su causa. Sundae separa el cambio medido de la atribución verificada."
+  },
+  "de": {
+    "overview": "Alle Lösungen entdecken",
+    "whyTop": "Die Abweichung erkennen.",
+    "whyAccent": "Das Team ins Handeln bringen.",
+    "reasonsTitle": "Der Unterschied liegt im nächsten Schritt.",
+    "reasonLabels": [
+      "Arbeitsabläufe und Zahlen zusammen",
+      "Kontext vor der nächsten Entscheidung",
+      "Nachverfolgung, die sich prüfen lässt"
+    ],
+    "truthTitle": "Eine verlässliche Datenbasis. Die passende Sicht für jedes Team.",
+    "truthBody": "Umsatz, Kosten, Personal und tägliche Arbeit sind die Ebenen Ihres Betriebs. Sundae verbindet ihre Daten, damit jedes Team mit denselben Fakten arbeitet. Intelligente Analysen erklären Veränderungen und leiten Maßnahmen ab. Vergleiche mit ähnlichen Betrieben und Marktinformationen ergänzen die Sicht, sofern Ihr Paket sie umfasst.",
+    "solutionsTop": "Ein Betrieb.",
+    "solutionsAccent": "Ein klarer nächster Schritt für jedes Team.",
+    "proofTitle": "Die Arbeit hinter der Entscheidung sehen.",
+    "freshness": "Die Aktualisierung hängt von der verbundenen Quelle ab. Bestätigen Sie Abdeckung und Taktung bei der Einrichtung.",
+    "attribution": "Ein besseres Ergebnis beweist nicht automatisch die Ursache. Sundae trennt gemessene Veränderung von bestätigter Attribution."
+  },
+  "nl": {
+    "overview": "Ontdek alle oplossingen",
+    "whyTop": "Zie de afwijking.",
+    "whyAccent": "Laat het team ermee aan de slag gaan.",
+    "reasonsTitle": "Het verschil zit in wat er daarna gebeurt.",
+    "reasonLabels": [
+      "Het werk en de cijfers samen",
+      "Context vóór de volgende stap",
+      "Opvolging die je kunt controleren"
+    ],
+    "truthTitle": "Eén betrouwbare gegevensbasis. Een bruikbaar beeld voor elk team.",
+    "truthBody": "Omzet, kosten, bezetting en dagelijks werk zijn de lagen van je operatie. Sundae verbindt die gegevens zodat elk team met dezelfde feiten werkt, met intelligentie die veranderingen verklaart en helpt handelen. Vergelijkingen met vergelijkbare bedrijven en marktcontext voegen perspectief toe waar je pakket dat ondersteunt.",
+    "solutionsTop": "Eén operatie.",
+    "solutionsAccent": "Een duidelijke volgende stap voor elk team.",
+    "proofTitle": "Bekijk het werk achter de beslissing.",
+    "freshness": "De verversing hangt af van de gekoppelde bron. Bevestig dekking en timing bij de inrichting.",
+    "attribution": "Een beter resultaat bewijst niet automatisch de oorzaak. Sundae houdt gemeten verandering en geverifieerde toeschrijving gescheiden."
+  },
+  "pt": {
+    "overview": "Explore todas as soluções",
+    "whyTop": "Identifique o desvio.",
+    "whyAccent": "Coloque a equipe em ação.",
+    "reasonsTitle": "A diferença está no que acontece depois.",
+    "reasonLabels": [
+      "O trabalho e os números, juntos",
+      "Contexto antes do próximo passo",
+      "Acompanhamento que você pode conferir"
+    ],
+    "truthTitle": "Uma fonte de verdade. Uma visão útil para cada equipe.",
+    "truthBody": "Vendas, custos, equipe e trabalho diário são as camadas da sua operação. A Sundae conecta esses dados para todos trabalharem com os mesmos fatos, com inteligência que explica mudanças e orienta ações. Comparações com operações semelhantes e contexto de mercado ampliam a perspectiva conforme o seu plano.",
+    "solutionsTop": "Uma operação.",
+    "solutionsAccent": "Um próximo passo claro para cada equipe.",
+    "proofTitle": "Veja o trabalho por trás da decisão.",
+    "freshness": "A frequência de atualização depende da fonte conectada. Confirme cobertura e prazos na configuração.",
+    "attribution": "Um resultado melhor não comprova automaticamente a causa. A Sundae separa a mudança medida da atribuição verificada."
+  },
+  "it": {
+    "overview": "Esplora tutte le soluzioni",
+    "whyTop": "Individua lo scostamento.",
+    "whyAccent": "Metti il team in azione.",
+    "reasonsTitle": "La differenza è nel passo successivo.",
+    "reasonLabels": [
+      "Il lavoro e i numeri, insieme",
+      "Il contesto prima della prossima scelta",
+      "Un seguito che puoi verificare"
+    ],
+    "truthTitle": "Un’unica fonte affidabile. Una vista utile per ogni team.",
+    "truthBody": "Vendite, costi, personale e lavoro quotidiano sono i livelli della tua attività. Sundae collega i dati perché ogni team parta dagli stessi fatti, con analisi intelligenti che spiegano i cambiamenti e guidano l’azione. Confronti con attività simili e contesto di mercato aggiungono prospettiva secondo il tuo piano.",
+    "solutionsTop": "Un’unica attività.",
+    "solutionsAccent": "Un passo successivo chiaro per ogni team.",
+    "proofTitle": "Guarda il lavoro dietro la decisione.",
+    "freshness": "La frequenza di aggiornamento dipende dalla fonte collegata. Conferma copertura e tempi durante la configurazione.",
+    "attribution": "Un risultato migliore non dimostra automaticamente la causa. Sundae distingue il cambiamento misurato dall’attribuzione verificata."
+  },
+  "pl": {
+    "overview": "Poznaj wszystkie rozwiązania",
+    "whyTop": "Znajdź odchylenie.",
+    "whyAccent": "Zaangażuj zespół w działanie.",
+    "reasonsTitle": "Różnica tkwi w tym, co dzieje się dalej.",
+    "reasonLabels": [
+      "Praca i liczby w jednym miejscu",
+      "Kontekst przed kolejną decyzją",
+      "Dalsze działania, które można sprawdzić"
+    ],
+    "truthTitle": "Jedno źródło prawdy. Przydatny widok dla każdego zespołu.",
+    "truthBody": "Sprzedaż, koszty, obsada i codzienna praca to warstwy Twojej działalności. Sundae łączy ich dane, aby każdy zespół pracował na tych samych faktach, z inteligentną analizą wyjaśniającą zmiany i wskazującą działania. Porównania z podobnymi firmami i kontekst rynkowy uzupełniają obraz w ramach wybranego pakietu.",
+    "solutionsTop": "Jedna działalność.",
+    "solutionsAccent": "Jasny kolejny krok dla każdego zespołu.",
+    "proofTitle": "Zobacz pracę stojącą za decyzją.",
+    "freshness": "Częstotliwość aktualizacji zależy od połączonego źródła. Potwierdź zakres i terminy podczas konfiguracji.",
+    "attribution": "Lepszy wynik nie jest automatycznym dowodem przyczyny. Sundae oddziela zmierzoną zmianę od zweryfikowanego przypisania przyczynowego."
+  },
+  "ro": {
+    "overview": "Explorează toate soluțiile",
+    "whyTop": "Identifică abaterea.",
+    "whyAccent": "Pune echipa în mișcare.",
+    "reasonsTitle": "Diferența este în ce urmează.",
+    "reasonLabels": [
+      "Munca și cifrele, împreună",
+      "Context înaintea următoarei decizii",
+      "O urmărire pe care o poți verifica"
+    ],
+    "truthTitle": "O singură sursă de adevăr. O perspectivă utilă fiecărei echipe.",
+    "truthBody": "Vânzările, costurile, personalul și munca zilnică sunt straturile operațiunii tale. Sundae le conectează datele pentru ca fiecare echipă să lucreze cu aceleași fapte, cu analiză inteligentă care explică schimbările și ghidează acțiunea. Comparațiile cu operatori similari și contextul pieței adaugă perspectivă în funcție de pachet.",
+    "solutionsTop": "O singură operațiune.",
+    "solutionsAccent": "Un pas următor clar pentru fiecare echipă.",
+    "proofTitle": "Vezi munca din spatele deciziei.",
+    "freshness": "Frecvența actualizării depinde de sursa conectată. Confirmați acoperirea și intervalele la configurare.",
+    "attribution": "Un rezultat mai bun nu dovedește automat cauza. Sundae separă schimbarea măsurată de atribuirea verificată."
+  },
+  "sv": {
+    "overview": "Utforska alla lösningar",
+    "whyTop": "Upptäck avvikelsen.",
+    "whyAccent": "Få teamet att agera.",
+    "reasonsTitle": "Skillnaden ligger i vad som händer sedan.",
+    "reasonLabels": [
+      "Arbetet och siffrorna tillsammans",
+      "Sammanhang före nästa beslut",
+      "Uppföljning som går att kontrollera"
+    ],
+    "truthTitle": "En gemensam källa. En användbar vy för varje team.",
+    "truthBody": "Försäljning, kostnader, bemanning och dagligt arbete är lagren i din verksamhet. Sundae kopplar samman uppgifterna så att varje team arbetar utifrån samma fakta, med intelligens som förklarar förändringar och vägleder handling. Jämförelser med liknande verksamheter och marknadskontext ger perspektiv där ditt paket stöder det.",
+    "solutionsTop": "En verksamhet.",
+    "solutionsAccent": "Ett tydligt nästa steg för varje team.",
+    "proofTitle": "Se arbetet bakom beslutet.",
+    "freshness": "Uppdateringstakten beror på den anslutna källan. Bekräfta omfattning och intervall vid konfigureringen.",
+    "attribution": "Ett bättre resultat bevisar inte automatiskt orsaken. Sundae skiljer uppmätt förändring från verifierad tillskrivning."
+  },
+  "tr": {
+    "overview": "Tüm çözümleri keşfedin",
+    "whyTop": "Sapmayı görün.",
+    "whyAccent": "Ekibi harekete geçirin.",
+    "reasonsTitle": "Fark, sonraki adımda ortaya çıkar.",
+    "reasonLabels": [
+      "İş ve rakamlar bir arada",
+      "Sonraki karardan önce bağlam",
+      "Kontrol edebileceğiniz takip"
+    ],
+    "truthTitle": "Tek bir güvenilir veri kaynağı. Her ekip için yararlı bir görünüm.",
+    "truthBody": "Satış, maliyet, personel ve günlük işler operasyonunuzun katmanlarıdır. Sundae bu verileri birleştirir; her ekip aynı gerçeklerden hareket ederken akıllı analiz değişimleri açıklar ve eyleme yön verir. Benzer işletmelerle karşılaştırmalar ve pazar bağlamı, paketinizin kapsamı dahilinde bakış açısını genişletir.",
+    "solutionsTop": "Tek bir operasyon.",
+    "solutionsAccent": "Her ekip için net bir sonraki adım.",
+    "proofTitle": "Kararın arkasındaki işi görün.",
+    "freshness": "Güncelleme sıklığı bağlı kaynağa göre değişir. Kapsamı ve zamanlamayı kurulum sırasında doğrulayın.",
+    "attribution": "Daha iyi bir sonuç, nedeni otomatik olarak kanıtlamaz. Sundae ölçülen değişimi doğrulanmış neden atfından ayrı tutar."
+  },
+  "id": {
+    "overview": "Jelajahi semua solusi",
+    "whyTop": "Temukan penyimpangannya.",
+    "whyAccent": "Gerakkan tim untuk menanganinya.",
+    "reasonsTitle": "Perbedaannya ada pada langkah berikutnya.",
+    "reasonLabels": [
+      "Pekerjaan dan angka, bersama",
+      "Konteks sebelum langkah berikutnya",
+      "Tindak lanjut yang bisa diperiksa"
+    ],
+    "truthTitle": "Satu sumber kebenaran. Tampilan berguna untuk setiap tim.",
+    "truthBody": "Penjualan, biaya, staf, dan pekerjaan harian adalah lapisan operasi Anda. Sundae menghubungkan datanya agar setiap tim bekerja dari fakta yang sama, dengan kecerdasan yang menjelaskan perubahan dan memandu tindakan. Perbandingan dengan usaha sejenis dan konteks pasar menambah perspektif sesuai cakupan paket Anda.",
+    "solutionsTop": "Satu operasi.",
+    "solutionsAccent": "Langkah berikutnya yang jelas untuk setiap tim.",
+    "proofTitle": "Lihat pekerjaan di balik keputusan.",
+    "freshness": "Waktu pembaruan bergantung pada sumber terhubung. Konfirmasikan cakupan dan waktunya saat penyiapan.",
+    "attribution": "Hasil yang membaik tidak otomatis membuktikan penyebabnya. Sundae memisahkan perubahan terukur dari atribusi terverifikasi."
+  },
+  "ms": {
+    "overview": "Terokai semua penyelesaian",
+    "whyTop": "Kenal pasti jurangnya.",
+    "whyAccent": "Gerakkan pasukan untuk bertindak.",
+    "reasonsTitle": "Bezanya pada langkah seterusnya.",
+    "reasonLabels": [
+      "Kerja dan angka, bersama",
+      "Konteks sebelum langkah seterusnya",
+      "Susulan yang boleh disemak"
+    ],
+    "truthTitle": "Satu sumber kebenaran. Paparan berguna untuk setiap pasukan.",
+    "truthBody": "Jualan, kos, kakitangan dan kerja harian ialah lapisan operasi anda. Sundae menghubungkan datanya supaya setiap pasukan bekerja berdasarkan fakta yang sama, dengan kecerdasan yang menerangkan perubahan dan memandu tindakan. Perbandingan dengan perniagaan setara dan konteks pasaran menambah perspektif mengikut pakej anda.",
+    "solutionsTop": "Satu operasi.",
+    "solutionsAccent": "Langkah seterusnya yang jelas untuk setiap pasukan.",
+    "proofTitle": "Lihat kerja di sebalik keputusan.",
+    "freshness": "Masa kemas kini bergantung pada sumber yang disambungkan. Sahkan liputan dan masa semasa persediaan.",
+    "attribution": "Hasil yang lebih baik tidak membuktikan puncanya secara automatik. Sundae memisahkan perubahan terukur daripada atribusi yang disahkan."
+  },
+  "vi": {
+    "overview": "Khám phá mọi giải pháp",
+    "whyTop": "Nhận ra chênh lệch.",
+    "whyAccent": "Đưa đội ngũ vào hành động.",
+    "reasonsTitle": "Khác biệt nằm ở bước tiếp theo.",
+    "reasonLabels": [
+      "Công việc và số liệu cùng nhau",
+      "Hiểu bối cảnh trước khi quyết định",
+      "Theo dõi kết quả có thể kiểm tra"
+    ],
+    "truthTitle": "Một nguồn dữ liệu thống nhất. Góc nhìn hữu ích cho từng đội ngũ.",
+    "truthBody": "Doanh thu, chi phí, nhân sự và công việc hằng ngày là các lớp trong hoạt động của bạn. Sundae kết nối dữ liệu để mọi đội ngũ dùng cùng một cơ sở thực tế, với phân tích thông minh giải thích thay đổi và định hướng hành động. So sánh với đơn vị tương đồng và bối cảnh thị trường bổ sung góc nhìn theo gói của bạn.",
+    "solutionsTop": "Một hoạt động chung.",
+    "solutionsAccent": "Bước tiếp theo rõ ràng cho từng đội ngũ.",
+    "proofTitle": "Xem công việc đằng sau quyết định.",
+    "freshness": "Tần suất cập nhật tùy thuộc nguồn được kết nối. Hãy xác nhận phạm vi và thời gian khi thiết lập.",
+    "attribution": "Kết quả tốt hơn không tự chứng minh nguyên nhân. Sundae tách biệt thay đổi đo được với quy kết đã được xác minh."
+  },
+  "hi": {
+    "overview": "सभी समाधान देखें",
+    "whyTop": "अंतर पहचानें।",
+    "whyAccent": "टीम को कार्रवाई में जुटाएँ।",
+    "reasonsTitle": "फर्क अगले कदम से पड़ता है।",
+    "reasonLabels": [
+      "काम और आँकड़े, एक साथ",
+      "अगले कदम से पहले पूरा संदर्भ",
+      "ऐसा फ़ॉलो-अप जिसे जाँच सकें"
+    ],
+    "truthTitle": "सत्य का एक स्रोत। हर टीम के लिए उपयोगी नज़रिया।",
+    "truthBody": "बिक्री, लागत, कर्मचारी और रोज़मर्रा का काम आपके संचालन की परतें हैं। Sundae उनके डेटा को जोड़ता है ताकि हर टीम समान तथ्यों से काम करे, और बुद्धिमान विश्लेषण बदलाव समझाए व कार्रवाई सुझाए। समान व्यवसायों से तुलना और बाज़ार का संदर्भ आपके पैकेज के अनुसार अतिरिक्त नज़रिया देते हैं।",
+    "solutionsTop": "एक संचालन।",
+    "solutionsAccent": "हर टीम के लिए स्पष्ट अगला कदम।",
+    "proofTitle": "निर्णय के पीछे का काम देखें।",
+    "freshness": "अपडेट का समय जुड़े स्रोत पर निर्भर है। सेटअप के दौरान कवरेज और समय की पुष्टि करें।",
+    "attribution": "बेहतर परिणाम अपने आप कारण का प्रमाण नहीं है। Sundae मापे गए बदलाव और सत्यापित कारण-संबंध को अलग रखता है।"
+  },
+  "bn": {
+    "overview": "সব সমাধান দেখুন",
+    "whyTop": "ব্যবধানটি ধরুন।",
+    "whyAccent": "দলকে কাজে নামান।",
+    "reasonsTitle": "পার্থক্যটা পরের পদক্ষেপে।",
+    "reasonLabels": [
+      "কাজ ও সংখ্যা, একসঙ্গে",
+      "পরের সিদ্ধান্তের আগে প্রেক্ষাপট",
+      "যে ফলো-আপ যাচাই করা যায়"
+    ],
+    "truthTitle": "একটি নির্ভরযোগ্য তথ্যসূত্র। প্রতিটি দলের জন্য কার্যকর দৃশ্য।",
+    "truthBody": "বিক্রি, খরচ, কর্মী ও দৈনন্দিন কাজ আপনার পরিচালনার স্তর। Sundae এগুলোর তথ্য যুক্ত করে যাতে প্রতিটি দল একই তথ্যের ভিত্তিতে কাজ করে, আর বুদ্ধিমান বিশ্লেষণ পরিবর্তন বুঝিয়ে পদক্ষেপের দিশা দেয়। আপনার প্যাকেজ অনুযায়ী সমজাতীয় প্রতিষ্ঠানের তুলনা ও বাজারের প্রেক্ষাপট বাড়তি দৃষ্টিভঙ্গি যোগ করে।",
+    "solutionsTop": "একটি পরিচালনা।",
+    "solutionsAccent": "প্রতিটি দলের জন্য স্পষ্ট পরবর্তী পদক্ষেপ।",
+    "proofTitle": "সিদ্ধান্তের পেছনের কাজ দেখুন।",
+    "freshness": "হালনাগাদের সময় সংযুক্ত উৎসের ওপর নির্ভর করে। সেটআপের সময় পরিধি ও সময় নিশ্চিত করুন।",
+    "attribution": "ভালো ফল নিজে থেকেই কারণের প্রমাণ নয়। Sundae মাপা পরিবর্তন ও যাচাইকৃত কারণ-সম্পর্ক আলাদা রাখে।"
+  },
+  "ur": {
+    "overview": "تمام حل دیکھیں",
+    "whyTop": "فرق پہچانیں۔",
+    "whyAccent": "ٹیم کو عمل میں لائیں۔",
+    "reasonsTitle": "فرق اگلے قدم سے پڑتا ہے۔",
+    "reasonLabels": [
+      "کام اور اعداد، ایک ساتھ",
+      "اگلے فیصلے سے پہلے سیاق",
+      "ایسی پیروی جسے جانچ سکیں"
+    ],
+    "truthTitle": "حقائق کا ایک معتبر ذریعہ۔ ہر ٹیم کے لیے مفید منظر۔",
+    "truthBody": "فروخت، اخراجات، عملہ اور روزمرہ کام آپ کے آپریشن کی تہیں ہیں۔ Sundae ان کے ڈیٹا کو جوڑتا ہے تاکہ ہر ٹیم ایک ہی حقائق پر کام کرے، اور ذہین تجزیہ تبدیلی سمجھا کر عمل کی رہنمائی کرے۔ آپ کے پیکیج کے مطابق ملتے جلتے کاروباروں سے موازنہ اور مارکیٹ کا سیاق مزید تناظر دیتے ہیں۔",
+    "solutionsTop": "ایک آپریشن۔",
+    "solutionsAccent": "ہر ٹیم کے لیے واضح اگلا قدم۔",
+    "proofTitle": "فیصلے کے پیچھے کا کام دیکھیں۔",
+    "freshness": "اپ ڈیٹ کا وقت منسلک ذریعہ طے کرتا ہے۔ سیٹ اپ کے دوران دائرہ کار اور وقت کی تصدیق کریں۔",
+    "attribution": "بہتر نتیجہ خود بخود وجہ کا ثبوت نہیں۔ Sundae ناپی گئی تبدیلی اور تصدیق شدہ سبب کو الگ رکھتا ہے۔"
+  },
+  "zh-Hans": {
+    "overview": "探索所有解决方案",
+    "whyTop": "发现差距。",
+    "whyAccent": "让团队行动起来。",
+    "reasonsTitle": "区别在于下一步。",
+    "reasonLabels": [
+      "工作与数字，连在一起",
+      "先理解背景，再决定行动",
+      "可核查的后续跟进"
+    ],
+    "truthTitle": "同一份可信数据。每个团队各得所需。",
+    "truthBody": "销售、成本、人员和日常工作构成运营的各个层面。Sundae 将这些数据连接起来，让每个团队基于同一事实工作，并以智能分析解释变化、指导行动。在套餐支持的范围内，同类对比与市场背景可补充判断依据。",
+    "solutionsTop": "同一套运营。",
+    "solutionsAccent": "每个团队都有明确的下一步。",
+    "proofTitle": "看看决策背后的工作。",
+    "freshness": "更新频率取决于已连接的数据源。请在设置时确认覆盖范围和更新时间。",
+    "attribution": "结果改善并不自动证明因果关系。Sundae 将测得的变化与经核实的归因分开。"
+  },
+  "ja": {
+    "overview": "すべてのソリューションを見る",
+    "whyTop": "差に気づく。",
+    "whyAccent": "チームを動かす。",
+    "reasonsTitle": "違いは、その次の行動にあります。",
+    "reasonLabels": [
+      "業務と数字をひとつに",
+      "次の判断の前に背景を把握",
+      "確認できるフォローアップ"
+    ],
+    "truthTitle": "信頼できる共通のデータ。各チームに役立つ視点。",
+    "truthBody": "売上、コスト、人員、日々の業務が運営の各層です。Sundae はそれらのデータをつなぎ、全チームが同じ事実に基づいて働けるようにし、インテリジェンスで変化を説明して行動を導きます。ご契約の範囲に応じて、類似事業との比較や市場の背景も判断材料になります。",
+    "solutionsTop": "ひとつの運営。",
+    "solutionsAccent": "各チームに明確な次の一手。",
+    "proofTitle": "判断を支える業務を見る。",
+    "freshness": "更新間隔は接続先のデータソースによって異なります。設定時に対象範囲と更新間隔を確認します。",
+    "attribution": "結果が良くなっただけでは原因の証明になりません。Sundae は測定した変化と検証済みの因果関係を区別します。"
+  },
+  "ko": {
+    "overview": "모든 솔루션 살펴보기",
+    "whyTop": "차이를 발견하세요.",
+    "whyAccent": "팀이 행동하게 하세요.",
+    "reasonsTitle": "차이는 다음 행동에서 시작됩니다.",
+    "reasonLabels": [
+      "업무와 숫자를 함께",
+      "다음 결정 전에 맥락 파악",
+      "확인할 수 있는 후속 조치"
+    ],
+    "truthTitle": "신뢰할 수 있는 하나의 데이터. 각 팀에 유용한 관점.",
+    "truthBody": "매출, 비용, 인력, 일상 업무는 운영의 각 층을 이룹니다. Sundae는 이 데이터를 연결해 모든 팀이 같은 사실을 바탕으로 일하게 하고, 인텔리전스로 변화를 설명하고 행동을 안내합니다. 요금제에서 지원하는 범위에 따라 유사 사업장 비교와 시장 맥락이 판단을 돕습니다.",
+    "solutionsTop": "하나의 운영.",
+    "solutionsAccent": "모든 팀에 명확한 다음 단계.",
+    "proofTitle": "결정 뒤의 업무를 살펴보세요.",
+    "freshness": "갱신 주기는 연결된 데이터 소스에 따라 다릅니다. 설정할 때 범위와 주기를 확인하세요.",
+    "attribution": "결과가 좋아졌다고 원인이 자동으로 입증되지는 않습니다. Sundae는 측정된 변화와 검증된 인과 관계를 구분합니다."
+  },
+  "th": {
+    "overview": "สำรวจโซลูชันทั้งหมด",
+    "whyTop": "เห็นจุดที่คลาดเคลื่อน",
+    "whyAccent": "ให้ทีมลงมือจัดการ",
+    "reasonsTitle": "ความต่างอยู่ที่ก้าวถัดไป",
+    "reasonLabels": [
+      "งานและตัวเลขเชื่อมกัน",
+      "เข้าใจบริบทก่อนตัดสินใจ",
+      "ติดตามผลที่ตรวจสอบได้"
+    ],
+    "truthTitle": "แหล่งข้อมูลเดียวที่เชื่อถือได้ มุมมองที่ใช้ได้จริงสำหรับทุกทีม",
+    "truthBody": "ยอดขาย ต้นทุน บุคลากร และงานประจำวันคือแต่ละชั้นของการดำเนินงาน Sundae เชื่อมข้อมูลเหล่านี้ให้ทุกทีมทำงานจากข้อเท็จจริงเดียวกัน พร้อมระบบอัจฉริยะที่อธิบายการเปลี่ยนแปลงและแนะนำการลงมือทำ การเปรียบเทียบกับธุรกิจใกล้เคียงและบริบทตลาดช่วยเพิ่มมุมมองตามขอบเขตแพ็กเกจของคุณ",
+    "solutionsTop": "การดำเนินงานเดียวกัน",
+    "solutionsAccent": "ก้าวถัดไปที่ชัดเจนสำหรับทุกทีม",
+    "proofTitle": "ดูงานที่อยู่เบื้องหลังการตัดสินใจ",
+    "freshness": "ความถี่การอัปเดตขึ้นอยู่กับแหล่งข้อมูลที่เชื่อมต่อ โปรดยืนยันขอบเขตและเวลาระหว่างตั้งค่า",
+    "attribution": "ผลที่ดีขึ้นไม่ได้พิสูจน์สาเหตุโดยอัตโนมัติ Sundae แยกการเปลี่ยนแปลงที่วัดได้ออกจากการระบุสาเหตุที่ตรวจสอบแล้ว"
+  }
+}

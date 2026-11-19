@@ -1,47 +1,20 @@
-import type { Metadata } from "next";
-import { cookies } from "next/headers";
-import { resolveWebsiteLocale } from "@/lib/i18n";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
-import { generatedLocalCopy } from '@/generated-locales/app_why_sundae_layout'
-import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
-
-const copy = {
-  en: {
-    title: "Why Sundae",
-    description:
-      "See why leading restaurant groups choose Sundae for Decision Intelligence - unified data, 4D insights, and real-time operational visibility.",
-  },
-  ar: {
-    title: "لماذا Sundae",
-    description:
-      "اكتشف لماذا تختار مجموعات المطاعم الرائدة Sundae لذكاء القرار: بيانات موحدة، ورؤى رباعية الأبعاد، ووضوح تشغيلي لحظي.",
-  },
-  fr: {
-    title: "Pourquoi Sundae",
-    description:
-      "Découvrez pourquoi les grands groupes de restauration choisissent Sundae pour la Decision Intelligence : données unifiées, insights 4D et visibilité opérationnelle en temps réel.",
-  },
-  es: {
-    title: "Por qué Sundae",
-    description:
-      "Descubre por qué los principales grupos de restauración eligen Sundae para Decision Intelligence: datos unificados, insights 4D y visibilidad operativa en tiempo real.",
-  },
-} as const;
+import type { Metadata } from 'next'
+import { cookies } from 'next/headers'
+import { resolveWebsiteLocale } from '@/lib/i18n'
+import { buildResolvedPageMetadata } from '@/lib/solutionPageMetadata'
+import openingCopy from '@/content/operator-openings.json'
+import proofCopy from '@/content/workflow-proof.json'
 
 export async function generateMetadata(): Promise<Metadata> {
-  const locale = resolveWebsiteLocale(await cookies());
-  const localized = copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
-  return {
-    ...localized,
-    title: { absolute: localized.title },
-    description: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.description,
-  };
+  const locale = resolveWebsiteLocale(await cookies())
+  return buildResolvedPageMetadata({
+    locale,
+    pathname: '/why-sundae',
+    title: proofCopy[locale as keyof typeof proofCopy].whySundae,
+    description: openingCopy[locale as keyof typeof openingCopy].whyDescription,
+  })
 }
 
-export default function WhySundaeLayout({
- children,
-}: {
- children: React.ReactNode;
-}) {
- return children;
+export default function WhySundaeLayout({ children }: { children: React.ReactNode }) {
+  return children
 }

@@ -1,0 +1,618 @@
+[
+  {
+    "locale": "en",
+    "path": "/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "en",
+    "path": "/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "en",
+    "path": "/",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "en",
+    "path": "/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ar",
+    "path": "/ar/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ar",
+    "path": "/ar/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ar",
+    "path": "/ar",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ar",
+    "path": "/ar/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "fr",
+    "path": "/fr",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "es",
+    "path": "/es/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "es",
+    "path": "/es/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "es",
+    "path": "/es",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "es",
+    "path": "/es/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "de",
+    "path": "/de/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "de",
+    "path": "/de/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "de",
+    "path": "/de",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "de",
+    "path": "/de/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "nl",
+    "path": "/nl",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "pt",
+    "path": "/pt/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "pt",
+    "path": "/pt/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "pt",
+    "path": "/pt",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "pt",
+    "path": "/pt/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "it",
+    "path": "/it/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "it",
+    "path": "/it/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "it",
+    "path": "/it",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "it",
+    "path": "/it/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "pl",
+    "path": "/pl",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ro",
+    "path": "/ro/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ro",
+    "path": "/ro/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ro",
+    "path": "/ro",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ro",
+    "path": "/ro/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "sv",
+    "path": "/sv/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "sv",
+    "path": "/sv/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "sv",
+    "path": "/sv",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "sv",
+    "path": "/sv/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "tr",
+    "path": "/tr/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "tr",
+    "path": "/tr/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "tr",
+    "path": "/tr",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "tr",
+    "path": "/tr/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "id",
+    "path": "/id/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "id",
+    "path": "/id/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "id",
+    "path": "/id",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "id",
+    "path": "/id/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ms",
+    "path": "/ms/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ms",
+    "path": "/ms/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ms",
+    "path": "/ms",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ms",
+    "path": "/ms/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "vi",
+    "path": "/vi/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "vi",
+    "path": "/vi/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "vi",
+    "path": "/vi",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "vi",
+    "path": "/vi/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "hi",
+    "path": "/hi/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "hi",
+    "path": "/hi/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "hi",
+    "path": "/hi",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "hi",
+    "path": "/hi/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "bn",
+    "path": "/bn/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "bn",
+    "path": "/bn/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "bn",
+    "path": "/bn",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "bn",
+    "path": "/bn/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ur",
+    "path": "/ur/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ur",
+    "path": "/ur/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ur",
+    "path": "/ur",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ur",
+    "path": "/ur/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "zh-Hans",
+    "path": "/zh-Hans/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "zh-Hans",
+    "path": "/zh-Hans/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "zh-Hans",
+    "path": "/zh-Hans",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "zh-Hans",
+    "path": "/zh-Hans/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ja",
+    "path": "/ja/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ja",
+    "path": "/ja/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ja",
+    "path": "/ja",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ja",
+    "path": "/ja/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ko",
+    "path": "/ko/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ko",
+    "path": "/ko/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ko",
+    "path": "/ko",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "ko",
+    "path": "/ko/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "th",
+    "path": "/th/why-sundae",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "th",
+    "path": "/th/solutions",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "th",
+    "path": "/th",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  },
+  {
+    "locale": "th",
+    "path": "/th/product/recovery",
+    "status": 200,
+    "localizedCopy": true,
+    "solutionsOverview": true
+  }
+]

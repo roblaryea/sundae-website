@@ -1,0 +1,285 @@
+{
+  "cases": [
+    {
+      "name": "why-context",
+      "theme": "light",
+      "state": "hover",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 16.59
+    },
+    {
+      "name": "why-context",
+      "theme": "light",
+      "state": "keyboard",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 16.59
+    },
+    {
+      "name": "why-workflow",
+      "theme": "light",
+      "state": "hover",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 16.59
+    },
+    {
+      "name": "why-workflow",
+      "theme": "light",
+      "state": "keyboard",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 16.59
+    },
+    {
+      "name": "why-family",
+      "theme": "light",
+      "state": "hover",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 16.59
+    },
+    {
+      "name": "why-family",
+      "theme": "light",
+      "state": "keyboard",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 16.59
+    },
+    {
+      "name": "solutions-family",
+      "theme": "light",
+      "state": "hover",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 16.59
+    },
+    {
+      "name": "solutions-family",
+      "theme": "light",
+      "state": "keyboard",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 16.59
+    },
+    {
+      "name": "solutions-role",
+      "theme": "light",
+      "state": "hover",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 16.59
+    },
+    {
+      "name": "solutions-role",
+      "theme": "light",
+      "state": "keyboard",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 16.59
+    },
+    {
+      "name": "solutions-format",
+      "theme": "light",
+      "state": "hover",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 16.59
+    },
+    {
+      "name": "solutions-format",
+      "theme": "light",
+      "state": "keyboard",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 16.59
+    },
+    {
+      "name": "nav-overview",
+      "theme": "light",
+      "state": "hover",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 16.59
+    },
+    {
+      "name": "nav-overview",
+      "theme": "light",
+      "state": "keyboard",
+      "color": "rgb(30, 23, 17)",
+      "background": "#fbf7f1",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 16.59
+    },
+    {
+      "name": "why-context",
+      "theme": "dark",
+      "state": "hover",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 17.74
+    },
+    {
+      "name": "why-context",
+      "theme": "dark",
+      "state": "keyboard",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 17.74
+    },
+    {
+      "name": "why-workflow",
+      "theme": "dark",
+      "state": "hover",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 17.74
+    },
+    {
+      "name": "why-workflow",
+      "theme": "dark",
+      "state": "keyboard",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 17.74
+    },
+    {
+      "name": "why-family",
+      "theme": "dark",
+      "state": "hover",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 17.74
+    },
+    {
+      "name": "why-family",
+      "theme": "dark",
+      "state": "keyboard",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 17.74
+    },
+    {
+      "name": "solutions-family",
+      "theme": "dark",
+      "state": "hover",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 17.74
+    },
+    {
+      "name": "solutions-family",
+      "theme": "dark",
+      "state": "keyboard",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 17.74
+    },
+    {
+      "name": "solutions-role",
+      "theme": "dark",
+      "state": "hover",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 17.74
+    },
+    {
+      "name": "solutions-role",
+      "theme": "dark",
+      "state": "keyboard",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 17.74
+    },
+    {
+      "name": "solutions-format",
+      "theme": "dark",
+      "state": "hover",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 17.74
+    },
+    {
+      "name": "solutions-format",
+      "theme": "dark",
+      "state": "keyboard",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 17.74
+    },
+    {
+      "name": "nav-overview",
+      "theme": "dark",
+      "state": "hover",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "contrast": 17.74
+    },
+    {
+      "name": "nav-overview",
+      "theme": "dark",
+      "state": "keyboard",
+      "color": "rgb(251, 248, 244)",
+      "background": "#15110d",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "contrast": 17.74
+    }
+  ],
+  "pageErrors": []
+}

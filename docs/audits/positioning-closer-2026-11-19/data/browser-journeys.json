@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "journey": "Mobile menu to Solutions overview",
+      "passed": true
+    },
+    {
+      "journey": "Home explanation precedes live example and links Core/Crew",
+      "passed": true
+    },
+    {
+      "journey": "/ar/why-sundae",
+      "passed": true,
+      "overflow": false
+    },
+    {
+      "journey": "/ar/solutions",
+      "passed": true,
+      "overflow": false
+    },
+    {
+      "journey": "/de/why-sundae",
+      "passed": true,
+      "overflow": false
+    },
+    {
+      "journey": "/fr/solutions",
+      "passed": true,
+      "overflow": false
+    },
+    {
+      "journey": "Reduced motion and visible closing CTA",
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}

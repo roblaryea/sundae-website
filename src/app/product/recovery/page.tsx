@@ -1,6 +1,7 @@
 "use client";
 
 import depthCopy from '@/content/operator-depth.json'
+import closerCopy from '@/content/positioning-closer.json'
 
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
@@ -199,6 +200,7 @@ export default function RecoveryPage() {
               </StaggerItem>
             ))}
           </StaggerContainer>
+          <p className="mt-7 max-w-3xl border-s-2 border-[var(--trust-border)] ps-5 text-sm leading-relaxed text-[var(--text-supporting)]" data-attribution-boundary>{closerCopy[locale as keyof typeof closerCopy].attribution}</p>
         </div>
       </section>
 

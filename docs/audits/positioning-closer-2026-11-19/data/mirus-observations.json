@@ -1,0 +1,13 @@
+{
+  "reviewed": "2026-11-19",
+  "source": "https://www.mirus.com/",
+  "observations": [
+    "Leads with conflicting numbers from separate systems and a shared coherent data foundation.",
+    "Names POS, labor, inventory, loyalty, ordering and accounting systems and explicitly preserves existing tools.",
+    "Shows an actual product view, role-specific questions and a four-step operating process.",
+    "Qualifies data refresh by source capability, customer results by customer, and AI by limited-release or coming status."
+  ],
+  "adopt": ["Concrete operating language", "Shared data explained as a useful foundation", "Visible product evidence", "Clear scope and source-dependent timing"],
+  "doNotImport": ["Reporting-led architecture", "Their customer figures and proof", "Universal superiority claims", "Their brand vocabulary or visual system"],
+  "sundaeEmphasis": "Crew manages workforce and daily work; Core explains performance and guides decisions, accountable action and result review."
+}
