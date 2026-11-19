@@ -24,11 +24,11 @@
       },
       {
         "shortLabel": "HR / Personal",
-        "pluralLabel": "HR- und Personalverantwortliche"
+        "pluralLabel": "HR- und Personal­verantwortliche"
       },
       {
         "shortLabel": "Technologie",
-        "pluralLabel": "Technologie- und Datenverantwortliche"
+        "pluralLabel": "Technologie- und Daten­verantwortliche"
       }
     ]
   },
@@ -101,33 +101,33 @@
   "ar": {
     "eyebrow": "منصة واحدة. لكل دور.",
     "headlineSee": "شاهد",
-    "headlineFor": "لـ",
+    "headlineFor": "",
     "todayLabel": "اليوم",
     "withSundaeLabel": "مع Sundae",
     "personas": [
       {
         "shortLabel": "COO",
-        "pluralLabel": "قادة العمليات"
+        "pluralLabel": "لقادة العمليات"
       },
       {
         "shortLabel": "CFO",
-        "pluralLabel": "قادة المالية و FP&A"
+        "pluralLabel": "لقادة المالية و FP&A"
       },
       {
         "shortLabel": "CEO",
-        "pluralLabel": "الرؤساء التنفيذيون والمالكون"
+        "pluralLabel": "للرؤساء التنفيذيين والمالكين"
       },
       {
         "shortLabel": "التسويق",
-        "pluralLabel": "قادة التسويق"
+        "pluralLabel": "لقادة التسويق"
       },
       {
         "shortLabel": "الموارد البشرية",
-        "pluralLabel": "قادة الموارد البشرية"
+        "pluralLabel": "لقادة الموارد البشرية"
       },
       {
         "shortLabel": "التقنية",
-        "pluralLabel": "قادة التقنية والبيانات"
+        "pluralLabel": "لقادة التقنية والبيانات"
       }
     ]
   },

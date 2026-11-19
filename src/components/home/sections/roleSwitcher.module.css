@@ -1,4 +1,5 @@
 .section :is(h2,h3,h4) { hyphens: none; }
+.section h2.headline { overflow-wrap: anywhere; word-break: normal; hyphens: manual; }
 .tab:focus-visible, .roleLink:focus-visible, .panel:focus-visible { outline: 2px solid var(--text-display); outline-offset: 4px; }
 .panel:not([hidden]) { animation: panel-in 220ms ease-out; }
 .croppedProof { position: relative; overflow: hidden; aspect-ratio: 2600 / 1740; border: 1px solid var(--border-default); border-radius: 0.75rem; background: var(--navy); }

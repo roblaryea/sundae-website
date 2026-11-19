@@ -42,7 +42,7 @@ export function SectionPersonaSwitcher({ placement = 'home' }: { placement?: 'ho
       <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 sm:py-20 lg:py-24">
         <div className="mx-auto mb-9 max-w-4xl text-center">
           <p className="eyebrow mb-4">{placement === 'solutions' ? messages.navbar.byRole : copy.eyebrow}</p>
-          <h2 id={`${prefix}-headline`} className="section-h2 text-balance">{copy.headlineSee} Sundae {copy.headlineFor} <span className="text-[var(--text-warm)]">{active.pluralLabel}.</span></h2>
+          <h2 id={`${prefix}-headline`} className={`${styles.headline} section-h2 text-balance`}>{copy.headlineSee} Sundae {locale === 'ar' ? '' : copy.headlineFor + ' '}<span className="text-[var(--text-warm)]">{active.pluralLabel}.</span></h2>
         </div>
         <div role="tablist" aria-labelledby={`${prefix}-headline`} className="mb-8 flex gap-2 overflow-x-auto pb-3 sm:flex-wrap sm:justify-center" data-role-tabs>
           {copy.personas.map((role, i) => <button key={role.id} type="button" role="tab" id={`${prefix}-tab-${role.id}`} aria-selected={i === activeIdx} aria-controls={`${prefix}-panel-${role.id}`} tabIndex={i === activeIdx ? 0 : -1} ref={el => { refs.current[i] = el }} onKeyDown={event => handleTabKey(event, i)} onClick={() => setActiveIdx(i)} className={`${styles.tab} shrink-0 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors motion-reduce:transition-none ${i === activeIdx ? 'border-[var(--text-display)] bg-[var(--text-display)] text-[var(--navy-deep)]' : 'border-[var(--border-default)] bg-[var(--surface-subtle)] text-[var(--text-supporting)] hover:border-[var(--border-emphasis)] hover:text-[var(--text-primary)]'}`}>{role.shortLabel}</button>)}

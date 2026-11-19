@@ -1,0 +1,162 @@
+[
+  {
+    "locale": "de",
+    "placement": "home",
+    "id": "hr",
+    "text": "Siehe Sundae für HR- und Personal­verantwortliche.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "de",
+    "placement": "home",
+    "id": "tech",
+    "text": "Siehe Sundae für Technologie- und Daten­verantwortliche.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "de",
+    "placement": "solutions",
+    "id": "hr",
+    "text": "Siehe Sundae für HR- und Personal­verantwortliche.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "de",
+    "placement": "solutions",
+    "id": "tech",
+    "text": "Siehe Sundae für Technologie- und Daten­verantwortliche.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "home",
+    "id": "coo",
+    "text": "شاهد Sundae لقادة العمليات.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "home",
+    "id": "cfo",
+    "text": "شاهد Sundae لقادة المالية و FP&A.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "home",
+    "id": "ceo",
+    "text": "شاهد Sundae للرؤساء التنفيذيين والمالكين.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "home",
+    "id": "marketing",
+    "text": "شاهد Sundae لقادة التسويق.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "home",
+    "id": "hr",
+    "text": "شاهد Sundae لقادة الموارد البشرية.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "home",
+    "id": "tech",
+    "text": "شاهد Sundae لقادة التقنية والبيانات.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "solutions",
+    "id": "coo",
+    "text": "شاهد Sundae لقادة العمليات.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "solutions",
+    "id": "cfo",
+    "text": "شاهد Sundae لقادة المالية و FP&A.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "solutions",
+    "id": "ceo",
+    "text": "شاهد Sundae للرؤساء التنفيذيين والمالكين.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "solutions",
+    "id": "marketing",
+    "text": "شاهد Sundae لقادة التسويق.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "solutions",
+    "id": "hr",
+    "text": "شاهد Sundae لقادة الموارد البشرية.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  },
+  {
+    "locale": "ar",
+    "placement": "solutions",
+    "id": "tech",
+    "text": "شاهد Sundae لقادة التقنية والبيانات.",
+    "clientWidth": 272,
+    "scrollWidth": 272,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal"
+  }
+]
