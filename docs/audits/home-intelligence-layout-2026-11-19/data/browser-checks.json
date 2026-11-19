@@ -1,0 +1,459 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "box": {
+        "x": 0,
+        "y": 4898.234375,
+        "width": 1440,
+        "height": 1216.765625
+      },
+      "height": 1216.765625,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Benchmarks",
+          "width": 1150,
+          "height": 97.75
+        },
+        {
+          "name": "Watchtower",
+          "width": 1150,
+          "height": 146.5
+        },
+        {
+          "name": "Insights",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Foresight",
+          "width": 1150,
+          "height": 96.75
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "box": {
+        "x": 0,
+        "y": 4898.234375,
+        "width": 1440,
+        "height": 1216.765625
+      },
+      "height": 1216.765625,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Benchmarks",
+          "width": 1150,
+          "height": 97.75
+        },
+        {
+          "name": "Watchtower",
+          "width": 1150,
+          "height": 146.5
+        },
+        {
+          "name": "Insights",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Foresight",
+          "width": 1150,
+          "height": 96.75
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "box": {
+        "x": 0,
+        "y": 6181.625,
+        "width": 390,
+        "height": 1824.390625
+      },
+      "height": 1824.390625,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 356,
+          "height": 212.75
+        },
+        {
+          "name": "Benchmarks",
+          "width": 356,
+          "height": 190
+        },
+        {
+          "name": "Watchtower",
+          "width": 356,
+          "height": 303.75
+        },
+        {
+          "name": "Insights",
+          "width": 356,
+          "height": 212.75
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 356,
+          "height": 212.75
+        },
+        {
+          "name": "Foresight",
+          "width": 356,
+          "height": 189
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "box": {
+        "x": 0,
+        "y": 6181.625,
+        "width": 390,
+        "height": 1824.390625
+      },
+      "height": 1824.390625,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 356,
+          "height": 212.75
+        },
+        {
+          "name": "Benchmarks",
+          "width": 356,
+          "height": 190
+        },
+        {
+          "name": "Watchtower",
+          "width": 356,
+          "height": 303.75
+        },
+        {
+          "name": "Insights",
+          "width": 356,
+          "height": 212.75
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 356,
+          "height": 212.75
+        },
+        {
+          "name": "Foresight",
+          "width": 356,
+          "height": 189
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "theme": "light",
+      "box": {
+        "x": 0,
+        "y": 6348.703125,
+        "width": 320,
+        "height": 2107.0859375
+      },
+      "height": 2107.0859375,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 286,
+          "height": 235.5
+        },
+        {
+          "name": "Benchmarks",
+          "width": 286,
+          "height": 235.5
+        },
+        {
+          "name": "Watchtower",
+          "width": 286,
+          "height": 349.25
+        },
+        {
+          "name": "Insights",
+          "width": 286,
+          "height": 258.25
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 286,
+          "height": 258.25
+        },
+        {
+          "name": "Foresight",
+          "width": 286,
+          "height": 211.75
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "theme": "light",
+      "box": {
+        "x": 0,
+        "y": 5189.9296875,
+        "width": 768,
+        "height": 1483.4453125
+      },
+      "height": 1483.4453125,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 718,
+          "height": 144.5
+        },
+        {
+          "name": "Benchmarks",
+          "width": 718,
+          "height": 144.5
+        },
+        {
+          "name": "Watchtower",
+          "width": 718,
+          "height": 190
+        },
+        {
+          "name": "Insights",
+          "width": 718,
+          "height": 167.25
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 718,
+          "height": 144.5
+        },
+        {
+          "name": "Foresight",
+          "width": 718,
+          "height": 143.5
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "theme": "dark",
+      "box": {
+        "x": 0,
+        "y": 4841.5390625,
+        "width": 1024,
+        "height": 1363.015625
+      },
+      "height": 1363.015625,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 958,
+          "height": 122.125
+        },
+        {
+          "name": "Benchmarks",
+          "width": 958,
+          "height": 122.125
+        },
+        {
+          "name": "Watchtower",
+          "width": 958,
+          "height": 195.25
+        },
+        {
+          "name": "Insights",
+          "width": 958,
+          "height": 146.5
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 958,
+          "height": 146.5
+        },
+        {
+          "name": "Foresight",
+          "width": 958,
+          "height": 121.125
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "theme": "dark",
+      "box": {
+        "x": 0,
+        "y": 4898.234375,
+        "width": 1920,
+        "height": 1216.765625
+      },
+      "height": 1216.765625,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Benchmarks",
+          "width": 1150,
+          "height": 97.75
+        },
+        {
+          "name": "Watchtower",
+          "width": 1150,
+          "height": 146.5
+        },
+        {
+          "name": "Insights",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 1150,
+          "height": 122.125
+        },
+        {
+          "name": "Foresight",
+          "width": 1150,
+          "height": 96.75
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "box": {
+        "x": 0,
+        "y": 5886.2265625,
+        "width": 390,
+        "height": 1494.9453125
+      },
+      "height": 1494.9453125,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 356,
+          "height": 167.25
+        },
+        {
+          "name": "Benchmarks",
+          "width": 356,
+          "height": 167.25
+        },
+        {
+          "name": "Watchtower",
+          "width": 356,
+          "height": 235.5
+        },
+        {
+          "name": "Insights",
+          "width": 356,
+          "height": 167.25
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 356,
+          "height": 167.25
+        },
+        {
+          "name": "Foresight",
+          "width": 356,
+          "height": 166.25
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "theme": "light",
+      "box": {
+        "x": 0,
+        "y": 6669.15625,
+        "width": 320,
+        "height": 2253.28125
+      },
+      "height": 2253.28125,
+      "rows": [
+        {
+          "name": "Pulse",
+          "width": 286,
+          "height": 235.5
+        },
+        {
+          "name": "Benchmarks",
+          "width": 286,
+          "height": 258.25
+        },
+        {
+          "name": "Watchtower",
+          "width": 286,
+          "height": 394.75
+        },
+        {
+          "name": "Insights",
+          "width": 286,
+          "height": 258.25
+        },
+        {
+          "name": "Ask Sundae",
+          "width": 286,
+          "height": 258.25
+        },
+        {
+          "name": "Foresight",
+          "width": 286,
+          "height": 234.5
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "navigation": "Pulse keyboard activation",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
