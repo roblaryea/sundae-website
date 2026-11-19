@@ -158,7 +158,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
           <motion.div
             className="text-[11.5px] font-semibold uppercase tracking-[0.24em]"
             style={{ color: "#FF5C4D" }}
-            initial={{ opacity: 0, y: 14 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15, duration: 0.8, ease: EASE }}
           >
@@ -175,9 +175,9 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
             <span className="block overflow-hidden">
               <motion.span
                 ref={headlineRef}
-                className="block whitespace-normal [overflow-wrap:anywhere] lg:whitespace-nowrap"
-                style={{ fontSize: headlinePx ? `${headlinePx}px` : "clamp(44px,7.1vw,104px)" }}
-                initial={{ y: "110%" }}
+                className="block whitespace-normal [overflow-wrap:anywhere]"
+                style={{ fontSize: headlinePx ? `${headlinePx}px` : "clamp(44px,7.1vw,104px)", whiteSpace: headlinePx ? "nowrap" : undefined }}
+                initial={false}
                 animate={{ y: 0 }}
                 transition={{ duration: 1.1, ease: EASE }}
               >
@@ -191,7 +191,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
             <motion.span
               className="mt-[0.1em] block italic"
               style={{ color: "#F6C66B", fontSize: "clamp(30px,5vw,62px)" }}
-              initial={{ opacity: 0, y: 16 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{
                 opacity: { delay: 0.5, duration: 0.9, ease: EASE },
@@ -210,7 +210,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
               fontSize: subPx ? `${subPx}px` : "clamp(15.5px,1.55vw,18.5px)",
             }}
             // This is the mobile LCP text: keep it readable in server HTML,
-            // while the headline, loop and action retain their entrance motion.
+            // together with the headline, loop and opening action.
             initial={false}
             animate={{ opacity: 1, y: 0 }}
           >
@@ -228,7 +228,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
 
           <motion.div
             className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4"
-            initial={{ opacity: 0, y: 16 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.9, ease: EASE }}
           >
@@ -253,7 +253,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
         // the bottom (Revenue) band. Swiping is natural on touch; show it from sm up.
         className="absolute bottom-7 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-[10.5px] uppercase tracking-[0.22em] sm:flex"
         style={{ color: "var(--text-muted)" }}
-        initial={{ opacity: 0 }}
+        initial={false}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
       >

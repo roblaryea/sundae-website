@@ -78,15 +78,15 @@ export function OperatorWorkflowPage({
       <section className="search-hero relative overflow-hidden px-4 pb-20 pt-28 sm:px-6 lg:px-8 lg:pt-32">
         <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.8fr)]">
           <div>
-            <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55 }} className="eyebrow search-hero-eyebrow mb-5">{eyebrow}</motion.p>
-            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.08 }} className="hero-h1 max-w-4xl text-balance"><BrandEmphasis text={title} phrase={emphasis} /></motion.h1>
-            <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.16 }} className="body-xl mt-7 max-w-2xl text-[var(--text-supporting)]">{description}</motion.p>
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.24 }} className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <motion.p initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55 }} className="eyebrow search-hero-eyebrow mb-5">{eyebrow}</motion.p>
+            <motion.h1 initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.08 }} className="hero-h1 max-w-4xl text-balance"><BrandEmphasis text={title} phrase={emphasis} /></motion.h1>
+            <motion.p initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.16 }} className="body-xl mt-7 max-w-2xl text-[var(--text-supporting)]">{description}</motion.p>
+            <motion.div initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.24 }} className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Button href={demoHref} variant="primary" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_hero_primary" trackingMetadata={{ destination: demoHref }}>{shared.primaryCta}</Button>
               <Button href={href('/crew')} variant="outline-light" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="operator_workflow_hero_crew" trackingMetadata={{ destination: href('/crew') }}>{shared.secondaryCta}</Button>
             </motion.div>
           </div>
-          <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="border-s border-[var(--border-default)] ps-7 lg:ps-10">
+          <motion.div initial={false} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="border-s border-[var(--border-default)] ps-7 lg:ps-10">
             <p className="eyebrow mb-6">{shared.rhythmEyebrow}</p>
             <ol className="space-y-6">
               {shared.steps.map((step, index) => (

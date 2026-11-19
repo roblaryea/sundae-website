@@ -214,3 +214,10 @@ Dashboard 2048486 in project 332239 retains its six insights and annotations 598
 The existing Monday checkpoint is 23 November. Assess health and discovery then; it is an early checkpoint. Complete post-18 November UTC windows start 19 November: seven days through 25 November, fourteen through 2 December and 28 through 16 December. Corresponding scheduled decision reviews are 30 November, 7 December and 21 December, using finalized Search Console dates and complete analytics days. Keep the earlier 16 November release comparison separate.
 
 Activation belongs to the existing content owner and approval process. The restart packet uses practical operator questions, native demo proof, one canonical tagged workflow destination and clear claim limits. Measure tagged workflow visits, useful CTA progression and accepted enquiries, then establish operator relevance separately. Repeated low traffic without meaningful distribution is not evidence that the form needs redesign.
+
+
+## 19 November support-release measurement receipt
+
+PR264–267 completed the Getting Started, Docs, Architecture, Integrations, 4D and FAQ refinements. In existing PostHog project `332239`, dashboard `2048486` retains its six saved insights. The read-only 19 November review confirmed all six include the six support routes and retain the `internal_qa` and `public_theme_retakes` exclusions. Release annotation `602780` records this support release at **19 November 2026 13:43:59 UTC**; its readback count is one. No new insight, query, dashboard or schedule was introduced.
+
+Keep this release cohort separate from the 18 November refinement cohort and earlier baselines. Complete post-19 November UTC periods begin 20 November: seven days through 26 November, fourteen through 3 December and 28 through 17 December. Use finalized Search Console dates and the existing review cadence; an early checkpoint is not a complete post-release result. This receipt records release and measurement scope, not a business-uplift claim. Historical pending statements remain evidence of their earlier check.

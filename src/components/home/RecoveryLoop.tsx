@@ -1,6 +1,6 @@
 "use client";
 
-import { animate, motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { recoveryLoopCopy } from "./recoveryLoopCopy";
@@ -17,7 +17,7 @@ import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
  * fast; the 3D "sundae glass" now
  * lives deeper in the page as a brand motif.
  *
- * Alive by design: the recovered figure counts up on load, the four stages light
+ * Alive by design: the illustrative figure stays readable, the four stages light
  * in sequence with the travelling comet, so the loop reads as running. The figure
  * is an illustrative, locale-currency demo value (consistent with the second
  * hero's Pulse strip) - never a claimed customer result. Reduced motion settles
@@ -68,20 +68,9 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
   const finalStr = fmt.format(fig.amount);
   const numFontSize = finalStr.length <= 8 ? 44 : finalStr.length <= 10 ? 38 : finalStr.length <= 12 ? 32 : 27;
 
-  // Count-up. Reduced motion renders the final value directly (see `shown`), so
-  // the effect never sets state synchronously.
-  const [value, setValue] = useState(0);
-  useEffect(() => {
-    if (rm) return;
-    const controls = animate(0, fig.amount, {
-      duration: 1.4,
-      delay: 0.7,
-      ease: [0.16, 1, 0.3, 1],
-      onUpdate: (v) => setValue(Math.round(v)),
-    });
-    return () => controls.stop();
-  }, [rm, fig.amount]);
-  const shown = rm ? fig.amount : value;
+  // Keep the illustrative amount identical in server HTML and after hydration.
+  // The travelling stage highlight supplies motion without hiding the value.
+  const shown = fig.amount;
 
   // Sequential stage highlight, in step with the comet (one lap = five stages).
   const [active, setActive] = useState(0);
@@ -94,7 +83,7 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
   return (
     <motion.div
       className="surface-always-dark relative w-full max-w-[560px]"
-      initial={{ opacity: 0, y: 18 }}
+      initial={false}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.9, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
     >
