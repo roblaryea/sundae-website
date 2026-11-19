@@ -6,7 +6,6 @@ import depthCopy from '@/content/operator-depth.json'
 
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
-import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
@@ -326,7 +325,6 @@ const localizedChatCopy = {
 } as const;
 
 export default function ChatWithDataPage() {
-  const cta = useCta();
   const { locale } = useWebsiteI18n();
   const sourceFeatureCopy = localizedChatCopy[locale as keyof typeof localizedChatCopy] ?? getGeneratedLocalCopy(localizedChatCopy, generatedLocalCopy.localizedChatCopy, locale) ?? localizedChatCopy.en;
   const ui = mergeGeneratedCopy(sourceFeatureCopy, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy]);
@@ -336,7 +334,7 @@ export default function ChatWithDataPage() {
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero visibleOnServer badge={ui.heroBadge} title={ui.heroTitle} description={depthCopy[locale as keyof typeof depthCopy].intelligence}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_intelligence", { page: "/intelligence" })}>
+          <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="book_demo_intelligence" trackingMetadata={{ page: '/intelligence', destination: getLocalizedPathname('/demo', locale) }}>
             {ui.heroSecondary}
           </Button>
         </div>
@@ -580,7 +578,7 @@ export default function ChatWithDataPage() {
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)}>{ui.heroSecondary}</Button>
+        <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="book_demo_intelligence_closing" trackingMetadata={{ page: '/intelligence', destination: getLocalizedPathname('/demo', locale) }}>{ui.heroSecondary}</Button>
       </PageCTA>
     </div>
   );
