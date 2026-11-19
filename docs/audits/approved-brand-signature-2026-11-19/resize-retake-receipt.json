@@ -1,0 +1,690 @@
+[
+  {
+    "locale": "nl",
+    "width": 1440,
+    "index": 0,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "reduce",
+    "heading": "Verbonden processen. Weloverwogen beslissingen. Teruggewonnen winst.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 60,
+      "right": 704.625
+    },
+    "bounds": [
+      {
+        "text": "Verbonden processen.",
+        "left": 60,
+        "right": 637.390625,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Weloverwogen beslissingen.",
+        "left": 60,
+        "right": 453.6875,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Teruggewonnen winst.",
+        "left": 60,
+        "right": 610.046875,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      }
+    ],
+    "ctaBottom": 802.96875,
+    "footer": "Verbonden processen. Weloverwogen beslissingen. Teruggewonnen winst.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "nl",
+    "width": 390,
+    "index": 1,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "reduce",
+    "heading": "Verbonden processen. Weloverwogen beslissingen. Teruggewonnen winst.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 24,
+      "right": 366
+    },
+    "bounds": [
+      {
+        "text": "Verbonden processen.",
+        "left": 24,
+        "right": 329.015625,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "Weloverwogen beslissingen.",
+        "left": 24,
+        "right": 231.140625,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "Teruggewonnen winst.",
+        "left": 24,
+        "right": 315.25,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      }
+    ],
+    "ctaBottom": 551.90625,
+    "footer": "Verbonden processen. Weloverwogen beslissingen. Teruggewonnen winst.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "nl",
+    "width": 1024,
+    "index": 2,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "reduce",
+    "heading": "Verbonden processen. Weloverwogen beslissingen. Teruggewonnen winst.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 40,
+      "right": 492.875
+    },
+    "bounds": [
+      {
+        "text": "Verbonden processen.",
+        "left": 40,
+        "right": 472.421875,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      },
+      {
+        "text": "Weloverwogen beslissingen.",
+        "left": 40,
+        "right": 334,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      },
+      {
+        "text": "Teruggewonnen winst.",
+        "left": 40,
+        "right": 452.625,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      }
+    ],
+    "ctaBottom": 766.6875,
+    "footer": "Verbonden processen. Weloverwogen beslissingen. Teruggewonnen winst.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "nl",
+    "width": 1440,
+    "index": 3,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "reduce",
+    "heading": "Verbonden processen. Weloverwogen beslissingen. Teruggewonnen winst.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 60,
+      "right": 704.625
+    },
+    "bounds": [
+      {
+        "text": "Verbonden processen.",
+        "left": 60,
+        "right": 637.390625,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Weloverwogen beslissingen.",
+        "left": 60,
+        "right": 453.6875,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Teruggewonnen winst.",
+        "left": 60,
+        "right": 610.046875,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      }
+    ],
+    "ctaBottom": 802.96875,
+    "footer": "Verbonden processen. Weloverwogen beslissingen. Teruggewonnen winst.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "index": 0,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 60,
+      "right": 704.625
+    },
+    "bounds": [
+      {
+        "text": "Connected Operations.",
+        "left": 60,
+        "right": 660.953125,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Informed Decisions.",
+        "left": 60,
+        "right": 582.953125,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Recovered Profit.",
+        "left": 60,
+        "right": 476.390625,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      }
+    ],
+    "ctaBottom": 702.046875,
+    "footer": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "index": 1,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 24,
+      "right": 366
+    },
+    "bounds": [
+      {
+        "text": "Connected Operations.",
+        "left": 24,
+        "right": 340.609375,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "Informed Decisions.",
+        "left": 24,
+        "right": 300.5625,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "Recovered Profit.",
+        "left": 24,
+        "right": 244.125,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      }
+    ],
+    "ctaBottom": 503.65625,
+    "footer": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "index": 2,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 40,
+      "right": 492.875
+    },
+    "bounds": [
+      {
+        "text": "Connected Operations.",
+        "left": 40,
+        "right": 489.21875,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      },
+      {
+        "text": "Informed Decisions.",
+        "left": 40,
+        "right": 431.96875,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      },
+      {
+        "text": "Recovered Profit.",
+        "left": 40,
+        "right": 352,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      }
+    ],
+    "ctaBottom": 678.28125,
+    "footer": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "index": 3,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 60,
+      "right": 704.625
+    },
+    "bounds": [
+      {
+        "text": "Connected Operations.",
+        "left": 60,
+        "right": 660.953125,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Informed Decisions.",
+        "left": 60,
+        "right": 582.953125,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Recovered Profit.",
+        "left": 60,
+        "right": 476.390625,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      }
+    ],
+    "ctaBottom": 702.046875,
+    "footer": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "de",
+    "width": 1440,
+    "index": 0,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 60,
+      "right": 704.625
+    },
+    "bounds": [
+      {
+        "text": "Vernetzte Abläufe.",
+        "left": 60,
+        "right": 529.046875,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Fundierte Entscheidungen.",
+        "left": 60,
+        "right": 493.328125,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Zurückgewonnener Gewinn.",
+        "left": 60,
+        "right": 543.859375,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      }
+    ],
+    "ctaBottom": 788.90625,
+    "footer": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "de",
+    "width": 390,
+    "index": 1,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 24,
+      "right": 366
+    },
+    "bounds": [
+      {
+        "text": "Vernetzte Abläufe.",
+        "left": 24,
+        "right": 273.09375,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "Fundierte Entscheidungen.",
+        "left": 24,
+        "right": 252.828125,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "Zurückgewonnener Gewinn.",
+        "left": 24,
+        "right": 278.953125,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      }
+    ],
+    "ctaBottom": 599.328125,
+    "footer": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "de",
+    "width": 1024,
+    "index": 2,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 40,
+      "right": 492.875
+    },
+    "bounds": [
+      {
+        "text": "Vernetzte Abläufe.",
+        "left": 40,
+        "right": 392.609375,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      },
+      {
+        "text": "Fundierte Entscheidungen.",
+        "left": 40,
+        "right": 364.4375,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      },
+      {
+        "text": "Zurückgewonnener Gewinn.",
+        "left": 40,
+        "right": 401.71875,
+        "whiteSpace": "normal",
+        "fontSize": "49.152px"
+      }
+    ],
+    "ctaBottom": 742.234375,
+    "footer": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "de",
+    "width": 1440,
+    "index": 3,
+    "theme": "dark",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 60,
+      "right": 704.625
+    },
+    "bounds": [
+      {
+        "text": "Vernetzte Abläufe.",
+        "left": 60,
+        "right": 529.046875,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Fundierte Entscheidungen.",
+        "left": 60,
+        "right": 493.328125,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Zurückgewonnener Gewinn.",
+        "left": 60,
+        "right": 543.859375,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      }
+    ],
+    "ctaBottom": 788.90625,
+    "footer": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "index": 0,
+    "theme": "light",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "عمليات مترابطة. قرارات مدروسة. أرباح مستردة.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 24,
+      "right": 366
+    },
+    "bounds": [
+      {
+        "text": "عمليات مترابطة.",
+        "left": 162.78125,
+        "right": 366,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "قرارات مدروسة.",
+        "left": 159.5625,
+        "right": 366,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "أرباح مستردة.",
+        "left": 196.796875,
+        "right": 366,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      }
+    ],
+    "ctaBottom": 450.625,
+    "footer": "عمليات مترابطة. قرارات مدروسة. أرباح مستردة.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable light",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "index": 0,
+    "theme": "light",
+    "js": true,
+    "reducedMotion": "no-preference",
+    "heading": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 24,
+      "right": 366
+    },
+    "bounds": [
+      {
+        "text": "Connected Operations.",
+        "left": 24,
+        "right": 340.609375,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "Informed Decisions.",
+        "left": 24,
+        "right": 300.5625,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "Recovered Profit.",
+        "left": 24,
+        "right": 244.125,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      }
+    ],
+    "ctaBottom": 503.65625,
+    "footer": "Connected Operations. Informed Decisions. Recovered Profit.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable light",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "de",
+    "width": 1440,
+    "index": 0,
+    "theme": "dark",
+    "js": false,
+    "reducedMotion": "no-preference",
+    "heading": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 60,
+      "right": 704.625
+    },
+    "bounds": [
+      {
+        "text": "Vernetzte Abläufe.",
+        "left": 60,
+        "right": 529.046875,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Fundierte Entscheidungen.",
+        "left": 60,
+        "right": 493.328125,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      },
+      {
+        "text": "Zurückgewonnener Gewinn.",
+        "left": 60,
+        "right": 543.859375,
+        "whiteSpace": "normal",
+        "fontSize": "69.12px"
+      }
+    ],
+    "ctaBottom": 788.90625,
+    "footer": "Vernetzte Abläufe. Fundierte Entscheidungen. Zurückgewonnener Gewinn.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "index": 0,
+    "theme": "dark",
+    "js": false,
+    "reducedMotion": "no-preference",
+    "heading": "عمليات مترابطة. قرارات مدروسة. أرباح مستردة.",
+    "style": "font-family:var(--font-display);color:#FBF8F4",
+    "column": {
+      "left": 24,
+      "right": 366
+    },
+    "bounds": [
+      {
+        "text": "عمليات مترابطة.",
+        "left": 162.78125,
+        "right": 366,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "قرارات مدروسة.",
+        "left": 159.5625,
+        "right": 366,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      },
+      {
+        "text": "أرباح مستردة.",
+        "left": 196.796875,
+        "right": 366,
+        "whiteSpace": "normal",
+        "fontSize": "33.93px"
+      }
+    ],
+    "ctaBottom": 450.625,
+    "footer": "عمليات مترابطة. قرارات مدروسة. أرباح مستردة.",
+    "overflow": false,
+    "htmlClass": "KcsgxG_variable piKetq_variable _8Li5zG_variable",
+    "errors": [],
+    "status": 200
+  }
+]

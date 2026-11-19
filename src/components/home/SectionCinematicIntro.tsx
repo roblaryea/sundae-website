@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
-import { useState, useRef, useLayoutEffect, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getHomeAboutAlignment } from '@/lib/homeAboutAlignment';
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
@@ -12,49 +12,6 @@ import type { RecoveryFigure } from "@/lib/recovery-figure";
 // Fine film-grain tile (feTurbulence) - the premium cinematic "noise" layer.
 const GRAIN =
   "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")";
-
-// useLayoutEffect on the client, useEffect on the server (avoids the SSR warning).
-const useIsoLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
-
-// Give all three clauses one shared size. Restore measurement styles so server
-// wrapping and narrow layouts never depend on a previous desktop measurement.
-function fitHeadlinePx(heading: HTMLElement): number | null {
-  const avail = heading.clientWidth;
-  const clauses = Array.from(heading.querySelectorAll<HTMLElement>("[data-brand-clause]"));
-  if (!avail || !clauses.length) return null;
-  const previousHeadingStyle = heading.getAttribute("style");
-  const previousClauseStyles = clauses.map(clause => clause.getAttribute("style"));
-  try {
-    clauses.forEach(clause => {
-      clause.style.whiteSpace = "nowrap";
-      clause.style.width = "max-content";
-    });
-    // Fraunces changes its glyph widths with optical size. Measure each actual
-    // candidate instead of scaling the width of a reference font size.
-    const fits = (size: number) => {
-      heading.style.fontSize = `${size}px`;
-      return clauses.every(clause => clause.getBoundingClientRect().width <= avail - 2);
-    };
-    let lower = 42;
-    let upper = Math.min(72, window.innerWidth * 0.048);
-    if (fits(upper)) return upper;
-    if (!fits(lower)) return null;
-    for (let i = 0; i < 8; i++) {
-      const candidate = (lower + upper) / 2;
-      if (fits(candidate)) lower = candidate;
-      else upper = candidate;
-    }
-    return Math.floor(lower * 10) / 10;
-  } finally {
-    if (previousHeadingStyle === null) heading.removeAttribute("style");
-    else heading.setAttribute("style", previousHeadingStyle);
-    clauses.forEach((clause, index) => {
-      const previous = previousClauseStyles[index];
-      if (previous === null) clause.removeAttribute("style");
-      else clause.setAttribute("style", previous);
-    });
-  }
-}
 
 /**
  * Cinematic brand intro - the opening moment of the homepage. Operations
@@ -78,7 +35,6 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
   const alignment = getHomeAboutAlignment(locale);
   const copy = { ...cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy], headline: alignment.primaryHeadline, tagline: alignment.primaryTagline, outcome: alignment.primaryOutcome, eyebrow: alignment.eyebrow, sub: alignment.primarySupport };
   const sectionRef = useRef<HTMLElement>(null);
-  const headlineRef = useRef<HTMLHeadingElement>(null);
 
   // Theatrical hand-off: as the glass scene scrolls away the content dissolves
   // and the glass pushes in + lifts, so the restaurant DI section waiting below
@@ -86,19 +42,6 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
   const sceneOpacity = useTransform(scrollYProgress, [0, 0.62], [1, 0]);
   const sceneY = useTransform(scrollYProgress, [0, 1], [0, -56]);
-  const [headlinePx, setHeadlinePx] = useState<number | null>(null);
-
-  useIsoLayoutEffect(() => {
-    const el = headlineRef.current;
-    if (!el) return;
-    const fit = () => setHeadlinePx(window.innerWidth < 1024 ? null : fitHeadlinePx(el));
-    fit();
-    let active = true;
-    void document.fonts.ready.then(() => { if (active) fit(); });
-    const ro = new ResizeObserver(fit);
-    ro.observe(document.documentElement);
-    return () => { active = false; ro.disconnect(); };
-  }, [copy.headline, copy.tagline, copy.outcome]);
 
   return (
     <section
@@ -164,17 +107,15 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
           </motion.div>
 
           <h1
-            ref={headlineRef}
             className="mt-5 text-[clamp(32px,8.7vw,44px)] font-light leading-[1.04] tracking-[-0.04em] lg:text-[clamp(44px,4.8vw,72px)]"
             // Warm off-white (#FBF8F4), matching the subhead + wordmark - not clinical
             // pure white. The hero is surface-always-dark, so this is correct in both themes.
-            style={{ fontFamily: "var(--font-display)", color: "#FBF8F4", fontSize: headlinePx ? `${headlinePx}px` : undefined }}
+            style={{ fontFamily: "var(--font-display)", color: "#FBF8F4" }}
             aria-label={`${copy.headline} ${copy.tagline} ${copy.outcome}`}
           >
             <motion.span
               data-brand-clause
               className="block whitespace-normal [overflow-wrap:anywhere]"
-              style={{ whiteSpace: headlinePx ? "nowrap" : undefined }}
               initial={false}
               animate={{ y: 0 }}
               transition={{ duration: 1.1, ease: EASE }}
@@ -184,7 +125,6 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
             <motion.span
               data-brand-clause
               className="mt-[0.06em] block whitespace-normal [overflow-wrap:anywhere]"
-              style={{ whiteSpace: headlinePx ? "nowrap" : undefined }}
               initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{
@@ -197,7 +137,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
             <motion.span
               data-brand-clause
               className="mt-[0.06em] block whitespace-normal italic [overflow-wrap:anywhere]"
-              style={{ color: "#F6C66B", whiteSpace: headlinePx ? "nowrap" : undefined }}
+              style={{ color: "#F6C66B" }}
               initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.65, duration: 0.9, ease: EASE }}
