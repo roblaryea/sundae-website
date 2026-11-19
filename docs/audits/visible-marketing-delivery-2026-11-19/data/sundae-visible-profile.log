@@ -1,0 +1,88 @@
+
+> sundae@0.1.0 test:profile-card
+> node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs tests/public-profiles.test.mjs
+
+(node:19985) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/sundae-visible-delivery-20261119-author/src/lib/vcard.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /private/tmp/sundae-visible-delivery-20261119-author/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ vCard carries a structured name, not an empty N field (1.714625ms)
+✔ vCard has the required properties and CRLF framing (0.456042ms)
+✔ vCard title and address follow the requested language, name stays as written (16.895917ms)
+✔ escapes vCard text so a value cannot inject properties (0.369791ms)
+✔ folds lines at 75 octets without splitting multibyte characters (0.185125ms)
+✔ embeds the contact photo when provided and omits it otherwise (0.430875ms)
+✔ a person's portrait is embedded as a JPEG and replaces the brand mark (0.281125ms)
+✔ every portrait has a public image and a valid 192 px JPEG for the contact file (0.320958ms)
+✔ download filename is safe (0.210333ms)
+✔ profile handles are lowercase url-safe and resolve to chrome-free paths (0.308959ms)
+✔ every handle has exactly one well-formed profile (0.778833ms)
+✔ every job title and city is localized into every website locale (0.206667ms)
+✔ role and location render in the visitor's language and script (1.318291ms)
+✔ a card owner's grammatical form is respected and never defaulted from a name (0.099375ms)
+✔ profile card copy exists for every website locale and every key (1.329042ms)
+✔ non-English copy is actually translated, not copied from English (0.162541ms)
+✔ localized strings avoid em dashes (0.601792ms)
+✔ every profile has a 1200x630 link-preview image (0.613958ms)
+✔ the new convenience strings are translated in every locale (0.766625ms)
+✔ the phone field is no longer labelled optional in any language (0.541083ms)
+✔ the phone country strings are translated in every locale (0.144583ms)
+✔ the invalid-for-country message names the country exactly once, in every locale (0.509333ms)
+✔ Papiamento phone strings use the Aruban spelling without accents (0.086791ms)
+✔ country names come from the card language, with Papiamento overrides and an English fallback (9.37075ms)
+✔ the selector starts on the visitor's country, then the card language's, then the owner's (0.711208ms)
+✔ a card owner's country comes from the catalogue city, else the directory country code (0.490833ms)
+✔ the country list has flags, calling codes and accent-folded search text (1.785041ms)
+✔ the country search matches names in the card language and English, ISO codes and calling codes (7.791125ms)
+✔ browser code never imports the full phone metadata (0.769833ms)
+✔ an international number typed, pasted or AutoFilled into the national box moves the selector (7.386833ms)
+✔ the exchange prompt names the card owner in every locale and never hard-codes a gender (0.125958ms)
+✔ the share sheet, exchange sheet and card page are wired together (0.434166ms)
+✔ the lead form is off unless explicitly switched on (0.092084ms)
+✔ the card supports exactly the 25 booking languages (0.060291ms)
+✔ Russian, Azerbaijani and Papiamento render natively (0.124875ms)
+✔ the visitor's language is chosen explicit first, then the browser (0.284291ms)
+✔ a booking slug, when set, is a valid personal booking page slug (0.077792ms)
+✔ a retired profile is inactive only when explicitly marked, and every language explains it (0.228708ms)
+✔ numbers handed over by a phone's contact card split correctly whatever their formatting (2.274875ms)
+✔ the selected country's calling code is never repeated in the number box (1.059458ms)
+✔ cleaned phone text only ever contains characters the server accepts (0.338084ms)
+✔ the exchange sheet leads with one prefill action and hands the visitor on to consent and Send (0.854958ms)
+✔ the prefill strings are translated and the iPhone hint stays a single sentence (0.482041ms)
+(node:19986) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/sundae-visible-delivery-20261119-author/src/lib/profileConnect.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /private/tmp/sundae-visible-delivery-20261119-author/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ accepts a valid submission and normalises it (4.385334ms)
+✔ name, email, phone and consent are required; company and message are optional (1.308ms)
+✔ rejects missing consent, bad email, short name, unknown handle, bad phone (1.184333ms)
+✔ a honeypot or missing timestamp is ignored silently; odd timing asks for a retry (0.214708ms)
+✔ non-object bodies are invalid, never throw (0.104292ms)
+✔ control characters are stripped and non-strings are rejected (0.220708ms)
+✔ lead payload carries source, owner and consent evidence for the CRM (1.208834ms)
+✔ empty optional fields become null, not empty strings (0.264584ms)
+✔ national numbers are validated for the chosen country and stored as E.164 (3.096375ms)
+✔ a number that is not valid for the chosen country is flagged as the phone field (1.189583ms)
+✔ an international number is accepted when it matches the chosen country, and rejected when it does not (0.913667ms)
+✔ phone validation does not change the spam controls (0.095625ms)
+✔ name placeholders split cleanly for bidi isolation (0.179709ms)
+✔ every locale has the name placeholder in the four owner-addressed sentences (0.844083ms)
+✔ consent wording names Sundae in every locale (0.156583ms)
+✔ saved consent evidence is the wording shown in the visitor's language (0.380916ms)
+✔ request bodies are limited by bytes actually read, with or without Content-Length (22.811ms)
+✔ a submission id separates a retry from a second message (2.390792ms)
+✔ only supported languages are treated as explicit (1.881125ms)
+(node:19987) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/sundae-visible-delivery-20261119-author/src/lib/publicProfileClient.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /private/tmp/sundae-visible-delivery-20261119-author/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ runtime directory: whitelisted profile, tombstone, missing handle and unavailable service (24.550208ms)
+✔ runtime directory rejects mismatched identity and unsafe public links (1.489042ms)
+ℹ tests 64
+ℹ suites 0
+ℹ pass 64
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 258.231167

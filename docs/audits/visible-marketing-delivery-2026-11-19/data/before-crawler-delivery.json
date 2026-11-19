@@ -1,0 +1,110 @@
+[
+  {
+    "profile": "Chrome-noJS",
+    "route": "/",
+    "status": 200,
+    "h1": [
+      "See every layer. Act in time."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Loading...",
+    "mainTextLength": 10,
+    "canonical": "https://www.sundae.io"
+  },
+  {
+    "profile": "Chrome-noJS",
+    "route": "/getting-started",
+    "status": 200,
+    "h1": [
+      "Start with the work you need to improve."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Home\n/\nGetting Started\n\nLoading...",
+    "mainTextLength": 34,
+    "canonical": "https://www.sundae.io/getting-started"
+  },
+  {
+    "profile": "Chrome-noJS",
+    "route": "/restaurant-management-platform",
+    "status": 200,
+    "h1": [
+      "Restaurant management software for every shift and every location."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Home\n/\nOperations management\n\nLoading...",
+    "mainTextLength": 40,
+    "canonical": "https://www.sundae.io/restaurant-management-platform"
+  },
+  {
+    "profile": "Googlebot-noJS",
+    "route": "/",
+    "status": 200,
+    "h1": [
+      "See every layer. Act in time."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Loading...",
+    "mainTextLength": 10,
+    "canonical": "https://www.sundae.io"
+  },
+  {
+    "profile": "Googlebot-noJS",
+    "route": "/getting-started",
+    "status": 200,
+    "h1": [
+      "Start with the work you need to improve."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Home\n/\nGetting Started\n\nLoading...",
+    "mainTextLength": 34,
+    "canonical": "https://www.sundae.io/getting-started"
+  },
+  {
+    "profile": "Googlebot-noJS",
+    "route": "/restaurant-management-platform",
+    "status": 200,
+    "h1": [
+      "Restaurant management software for every shift and every location."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Home\n/\nOperations management\n\nLoading...",
+    "mainTextLength": 40,
+    "canonical": "https://www.sundae.io/restaurant-management-platform"
+  },
+  {
+    "profile": "GPTBot-noJS",
+    "route": "/",
+    "status": 200,
+    "h1": [
+      "See every layer. Act in time."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Loading...",
+    "mainTextLength": 10,
+    "canonical": "https://www.sundae.io"
+  },
+  {
+    "profile": "GPTBot-noJS",
+    "route": "/getting-started",
+    "status": 200,
+    "h1": [
+      "Start with the work you need to improve."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Home\n/\nGetting Started\n\nLoading...",
+    "mainTextLength": 34,
+    "canonical": "https://www.sundae.io/getting-started"
+  },
+  {
+    "profile": "GPTBot-noJS",
+    "route": "/restaurant-management-platform",
+    "status": 200,
+    "h1": [
+      "Restaurant management software for every shift and every location."
+    ],
+    "h1Visible": false,
+    "visibleMain": "Home\n/\nOperations management\n\nLoading...",
+    "mainTextLength": 40,
+    "canonical": "https://www.sundae.io/restaurant-management-platform"
+  }
+]

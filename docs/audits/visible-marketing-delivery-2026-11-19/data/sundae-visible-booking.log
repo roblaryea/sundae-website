@@ -1,0 +1,44 @@
+
+> sundae@0.1.0 test:booking
+> node --test tests/booking-timezones.test.mjs tests/booking-date-format.test.mjs tests/booking-verification.test.mjs
+
+(node:19963) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/sundae-visible-delivery-20261119-author/src/lib/booking/date-format.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /private/tmp/sundae-visible-delivery-20261119-author/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Papiamento uses native calendar labels even when Intl lacks its locale (31.214459ms)
+✔ supported locales retain Intl calendar formatting (1.194959ms)
+✔ Azerbaijani calendar never depends on embedded-browser root locale data (0.687917ms)
+(node:19964) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/sundae-visible-delivery-20261119-author/src/lib/booking/timezones.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /private/tmp/sundae-visible-delivery-20261119-author/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ booking timezone options include required zones, UTC, and remove invalid duplicates (34.000334ms)
+✔ timezone labels are readable and retain the canonical IANA identity (0.302708ms)
+✔ timezone validation and detection always return a usable IANA zone (0.725667ms)
+(node:19965) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/sundae-visible-delivery-20261119-author/src/lib/booking/verification.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /private/tmp/sundae-visible-delivery-20261119-author/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ a 202 yields the id and the server cooldown, defaulting to 45s on an older backend (1.062458ms)
+✔ 429 carries the real wait from the body, else the header, else null (0.1665ms)
+✔ 503, a vanished challenge and unknown shapes map to distinct outcomes (0.101083ms)
+✔ cooldown arithmetic never goes negative and rounds up (0.08225ms)
+✔ waits use the locale unit patterns and number system (20.581375ms)
+✔ template helpers substitute known tokens only and split once for element insertion (0.243458ms)
+✔ only a plain mailbox can reach a mailto link (0.231542ms)
+✔ mailto encodes the multi-line body and subject (0.095209ms)
+✔ a request is only "sent" on a 202 with an id; every other answer maps to a distinct outcome (0.17375ms)
+✔ the host decision page maps every backend answer, shape-checks the free times and never invents a success (0.358541ms)
+✔ copy templates split into text and placeholders in order (0.164333ms)
+✔ every new verification string exists in all 25 locales with its placeholders intact (1.41225ms)
+✔ non-English locales do not silently inherit English for the new sentences (0.418333ms)
+✔ Papiamento keeps the Aruban spelling of the existing catalogue (0.117666ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 171.857583
