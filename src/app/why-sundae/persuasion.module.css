@@ -1,0 +1,17 @@
+.page :is(h1, h2, h3) { hyphens: none; overflow-wrap: normal; }
+.entrance { animation: entrance 650ms ease-out both; }
+.productReveal { animation: entrance 850ms 120ms ease-out both; }
+.link { transition: color 180ms ease, transform 180ms ease; }
+.link:hover { color: var(--warm-coral); transform: translateY(-2px); }
+.reason { position: relative; }
+.reason::before { content: ''; position: absolute; top: -1px; inset-inline-start: 0; width: 2.5rem; height: 2px; background: var(--warm-coral); transform-origin: left; }
+@supports (animation-timeline: view()) {
+  .reason::before { animation: rail linear both; animation-timeline: view(); animation-range: entry 0% entry 100%; }
+}
+@keyframes entrance { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes rail { from { transform: scaleX(0.15); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) {
+  .entrance, .productReveal, .reason::before { animation: none; }
+  .link { transition: none; }
+  .link:hover { transform: none; }
+}

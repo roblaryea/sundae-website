@@ -1,493 +1,114 @@
-"use client";
+'use client'
 
-import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
-
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import { motion, AnimatePresence, MotionConfig } from "framer-motion";
-import { Button } from "@/components/ui/Button";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
-import { getLocalizedPathname } from '@/lib/i18n';
-import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { ThemedShot } from "@/components/ui/ThemedShot";
-import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
-import { generatedLocalCopy } from '@/generated-locales/app_solutions_page'
-
-/* ─── Structure: slugs, icons, accents (no translation) ─── */
-
-type PersonaStructure = {
-  slug: string;
-  icon: SundaeIconName;
-  accent: string;
-};
-
-const groupStructure: { personas: PersonaStructure[] }[] = [
-  {
-    personas: [
-      { slug: "c-suite-executives", icon: "owners", accent: "from-[#FF5C4D] to-[#E9A24A]" },
-      { slug: "finance-teams", icon: "finance", accent: "from-[#0EA5E9] to-[#0284C7]" },
-      { slug: "multi-location-groups", icon: "benchmarking", accent: "from-[#6366F1] to-[#4F46E5]" },
-    ],
-  },
-  {
-    personas: [
-      { slug: "regional-managers", icon: "operators", accent: "from-[#EF4444] to-[#DC2626]" },
-      { slug: "hr-teams", icon: "support", accent: "from-[#F59E0B] to-[#D97706]" },
-      { slug: "hospitality-operators", icon: "regional", accent: "from-[#A855F7] to-[#7C3AED]" },
-    ],
-  },
-  {
-    personas: [
-      { slug: "marketing-teams", icon: "marketing", accent: "from-[#EC4899] to-[#BE185D]" },
-      { slug: "technology-teams", icon: "data", accent: "from-[#0EA5E9] to-[#FF7E6F]" },
-    ],
-  },
-  {
-    personas: [
-      { slug: "cloud-kitchens", icon: "delivery", accent: "from-[#22C55E] to-[#16A34A]" },
-      { slug: "franchises", icon: "network", accent: "from-[#F59E0B] to-[#EF4444]" },
-    ],
-  },
-];
-
-/* ─── i18n copy ─── */
-
-type LocalizedHub = {
-  badge: string;
-  titleLine1: string;
-  titleLine2: string;
-  description: string;
-  nowShowingPrefix: string;
-  primaryCta: string;
-  secondaryCta: string;
-  shapedByLabel: string;
-  formats: string[];
-  closingEyebrow: string;
-  closingTitle: string;
-  closingDescription: string;
-  closingPrimaryCta: string;
-  closingSecondaryCta: string;
-  rotatingLabels: string[];
-  groups: Array<{
-    eyebrow: string;
-    title: string;
-    description: string;
-    seeSolutionPrefix: string;
-    personas: Array<{ title: string; tagline: string }>;
-  }>;
-};
-
-const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
-  en: {
-    badge: "SOLUTIONS · BY ROLE",
-    titleLine1: "One platform.",
-    titleLine2: "Every role you run.",
-    description: "The same closed-loop profit recovery, framed for the person reading it - every role sees the leak found, the fix owned, and the margin measured back, from the executive office to the floor.",
-    nowShowingPrefix: "Now showing:",
-    primaryCta: "Book a Working Session",
-    secondaryCta: "See plans",
-    shapedByLabel: "Shaped by operators across",
-    formats: ["QSR", "Casual Dining", "Fine Dining", "Cloud Kitchens", "Hospitality Groups", "Multi-Brand Operators"],
-    closingEyebrow: "NOT SURE WHICH ONE",
-    closingTitle: "We'll tailor the session to your team.",
-    closingDescription: "30 minutes. Your data. The view that would matter most to the people in the room.",
-    closingPrimaryCta: "Book a Guided Tour",
-    closingSecondaryCta: "See Platform Overview",
-    rotatingLabels: ["C-Suite & Owners", "Finance & FP&A", "Operations", "Marketing", "People & HR", "Tech & Data", "Multi-brand groups"],
-    groups: [
-      {
-        eyebrow: "LEADERSHIP & STRATEGY",
-        title: "Run the portfolio with one source of truth.",
-        description: "Decision intelligence built for the executive office, the finance function, and the group that owns the brands.",
-        seeSolutionPrefix: "See",
-        personas: [
-          { title: "C-Suite & Owners", tagline: "Daily AI briefings across every brand. Margin variance found, owned, and measured back." },
-          { title: "Finance & FP&A", tagline: "Close in hours. Trace every dollar to the event that moved it." },
-          { title: "Multi-Location Groups", tagline: "Portfolio rollup, brand-vs-brand benchmarks, group-level strategic signal." },
-        ],
-      },
-      {
-        eyebrow: "OPERATIONS & PEOPLE",
-        title: "Steer the floor, own the fix, measure the margin back.",
-        description: "Live operational intelligence for the people closest to the guest, the schedule, and the service - every leak routed to an owner and measured back against baseline.",
-        seeSolutionPrefix: "See",
-        personas: [
-          { title: "Regional & Area Managers", tagline: "Run twelve outlets like you're standing in one. Pacing flags the site, the fix gets an owner, the recovered margin is measured back." },
-          { title: "HR & People", tagline: "Live labor variance, routed to a named manager and measured back to margin. OT risk flagged before it lands." },
-          { title: "Hospitality Operators", tagline: "Every F&B outlet - restaurant, banquet, IRD, lobby - each leak found, owned, and measured back to margin." },
-        ],
-      },
-      {
-        eyebrow: "GROWTH & TECHNOLOGY",
-        title: "Build, market, and govern at scale.",
-        description: "Tightly-defined intelligence layers for the teams that grow the brand and own the data.",
-        seeSolutionPrefix: "See",
-        personas: [
-          { title: "Marketing Leads", tagline: "Campaign ROI tied to net margin in 24h. Reallocate budget while it still matters." },
-          { title: "Technology & Data", tagline: "12 sources, one governed schema. RBAC, audit trails, public API, webhooks." },
-        ],
-      },
-      {
-        eyebrow: "SPECIALIZED FORMATS",
-        title: "Built for the formats that do not fit the standard shape.",
-        description: "Format-specific intelligence for cloud kitchens, virtual brands, and franchise networks.",
-        seeSolutionPrefix: "See",
-        personas: [
-          { title: "Cloud Kitchens & Virtual Brands", tagline: "Net margin per platform, per brand. Six dashboards collapsed into one ledger." },
-          { title: "Franchises & Franchisors", tagline: "Brand standards measured live. Royalty reconciliation automated. Peer benchmarks anonymous." },
-        ],
-      },
-    ],
-  },
-  ar: {
-    badge: "الحلول · حسب الدور",
-    titleLine1: "منصة واحدة.",
-    titleLine2: "لكل دور تديره.",
-    description: "الاستعادة نفسها للأرباح ضمن حلقة مغلقة، معروضة بلغة الشخص الذي يقرأها - كل دور يرى التسرب وقد رُصد، والحل وقد أُسند، والهامش وقد قِيس مجدداً، من المكتب التنفيذي إلى الموقع.",
-    nowShowingPrefix: "نعرض الآن:",
-    primaryCta: "احجز جلسة عمل",
-    secondaryCta: "اطّلع على الباقات",
-    shapedByLabel: "صاغه مشغلون في",
-    formats: ["الوجبات السريعة", "المطاعم العائلية", "المطاعم الراقية", "المطابخ السحابية", "مجموعات الضيافة", "المشغّلين متعددي العلامات"],
-    closingEyebrow: "غير متأكد أيها يناسبك",
-    closingTitle: "سنصمم الجلسة لفريقك.",
-    closingDescription: "30 دقيقة. بياناتك. العرض الأهم للأشخاص في الاجتماع.",
-    closingPrimaryCta: "احجز جولة موجهة",
-    closingSecondaryCta: "شاهد نظرة عامة على المنصة",
-    rotatingLabels: ["القيادة التنفيذية والمالكون", "المالية و FP&A", "العمليات", "التسويق", "الموارد البشرية", "التقنية والبيانات", "المجموعات متعددة العلامات"],
-    groups: [
-      {
-        eyebrow: "القيادة والاستراتيجية",
-        title: "أدر المحفظة بمصدر حقيقة واحد.",
-        description: "ذكاء قرار مصمم للمكتب التنفيذي والإدارة المالية والمجموعة التي تملك العلامات.",
-        seeSolutionPrefix: "شاهد",
-        personas: [
-          { title: "القيادة التنفيذية والمالكون", tagline: "إحاطات AI يومية عبر كل علامة. تباين الهامش يُرصد، ويُسنَد، ويُقاس مجدداً." },
-          { title: "المالية و FP&A", tagline: "أقفل في ساعات. تتبع كل دولار إلى الحدث الذي حركه." },
-          { title: "المجموعات متعددة المواقع", tagline: "تجميع محفظة، معايير علامة بعلامة، إشارة استراتيجية على مستوى المجموعة." },
-        ],
-      },
-      {
-        eyebrow: "العمليات والكوادر",
-        title: "وجّه الموقع، تولَّ الإصلاح، وقِس الهامش مجدداً.",
-        description: "ذكاء تشغيلي حي للأشخاص الأقرب إلى الضيف والجدول والخدمة - كل تسرب يُسنَد إلى مسؤول ويُقاس مجدداً مقابل خط الأساس.",
-        seeSolutionPrefix: "شاهد",
-        personas: [
-          { title: "المدراء الإقليميون", tagline: "أدر اثني عشر موقعاً وكأنك في واحد. الوتيرة تنبه للموقع، والإصلاح يجد مسؤولاً، والهامش المستعاد يُقاس مجدداً." },
-          { title: "الموارد البشرية", tagline: "تباين عمالة حي، يُسنَد إلى مدير محدد ويُقاس مجدداً على الهامش. خطر OT يُرصد قبل وقوعه." },
-          { title: "مشغّلو الضيافة", tagline: "كل منفذ F&B - مطعم، بانكيت، خدمة غرف، لوبي - كل تسرب يُرصد، ويُسنَد، ويُقاس مجدداً على الهامش." },
-        ],
-      },
-      {
-        eyebrow: "النمو والتقنية",
-        title: "ابنِ وسوّق وأحكم على نطاق واسع.",
-        description: "طبقات ذكاء محكمة التعريف للفِرَق التي تنمي العلامة وتملك البيانات.",
-        seeSolutionPrefix: "شاهد",
-        personas: [
-          { title: "قادة التسويق", tagline: "ROI حملة مرتبط بصافي الهامش خلال 24 ساعة. أعد توزيع الميزانية وهي لا تزال تؤثر." },
-          { title: "التقنية والبيانات", tagline: "12 مصدراً، مخطط محكوم واحد. RBAC، تتبع، API عامة، webhooks." },
-        ],
-      },
-      {
-        eyebrow: "الصيغ المتخصصة",
-        title: "مصمم للصيغ التي لا تنطبق عليها القوالب المعتادة.",
-        description: "ذكاء حسب الصيغة للمطابخ السحابية والعلامات الافتراضية وشبكات الامتياز.",
-        seeSolutionPrefix: "شاهد",
-        personas: [
-          { title: "المطابخ السحابية والعلامات الافتراضية", tagline: "صافي هامش لكل منصة ولكل علامة. ست لوحات تنهار في دفتر واحد." },
-          { title: "الامتيازات وأصحاب الامتياز", tagline: "معايير علامة مقاسة حياً. تسوية إتاوة آلية. معايير نظراء مجهولة." },
-        ],
-      },
-    ],
-  },
-  fr: {
-    badge: "SOLUTIONS · PAR RÔLE",
-    titleLine1: "Une plateforme.",
-    titleLine2: "Chaque rôle que vous pilotez.",
-    description: "La même récupération de marge en boucle fermée, formulée pour la personne qui la lit - chaque rôle voit la fuite repérée, la correction prise en charge et la marge remesurée, du bureau exécutif jusqu'à la salle.",
-    nowShowingPrefix: "Affiché maintenant :",
-    primaryCta: "Réserver une session de travail",
-    secondaryCta: "Voir les offres",
-    shapedByLabel: "Façonné par des opérateurs",
-    formats: ["QSR", "Restauration décontractée", "Gastronomie", "Cuisines virtuelles", "Groupes hôteliers", "Opérateurs multi-marques"],
-    closingEyebrow: "PAS SÛR DU CHOIX",
-    closingTitle: "Nous adaptons la session à votre équipe.",
-    closingDescription: "30 minutes. Vos données. La vue qui compte le plus pour les personnes présentes.",
-    closingPrimaryCta: "Réserver une visite guidée",
-    closingSecondaryCta: "Voir l'aperçu plateforme",
-    rotatingLabels: ["Dirigeants & propriétaires", "Finance & FP&A", "Opérations", "Marketing", "RH & People", "Tech & Data", "Groupes multi-marques"],
-    groups: [
-      {
-        eyebrow: "DIRECTION & STRATÉGIE",
-        title: "Pilotez le portefeuille avec une seule source de vérité.",
-        description: "Intelligence décisionnelle pour la direction, la finance, et le groupe qui possède les marques.",
-        seeSolutionPrefix: "Voir",
-        personas: [
-          { title: "Dirigeants & propriétaires", tagline: "Briefings IA quotidiens sur chaque marque. Écart de marge repéré, pris en charge et remesuré." },
-          { title: "Finance & FP&A", tagline: "Clôture en heures. Tracez chaque euro à l'événement qui l'a déplacé." },
-          { title: "Groupes multi-sites", tagline: "Rollup portefeuille, benchmarks marque-vs-marque, signal stratégique groupe." },
-        ],
-      },
-      {
-        eyebrow: "OPÉRATIONS & PEOPLE",
-        title: "Pilotez la salle, prenez en charge la correction, remesurez la marge.",
-        description: "Intelligence opérationnelle en direct pour les gens les plus proches du client, du planning et du service - chaque fuite confiée à un responsable et remesurée face au point de référence.",
-        seeSolutionPrefix: "Voir",
-        personas: [
-          { title: "Managers régionaux", tagline: "Pilotez douze sites comme si vous y étiez. Le rythme signale le site, la correction trouve un responsable, la marge récupérée est remesurée." },
-          { title: "RH & People", tagline: "Variance main-d'œuvre live, confiée à un manager nommé et remesurée sur la marge. Risque heures sup' signalé avant qu'il ne tombe." },
-          { title: "Opérateurs hôtellerie", tagline: "Chaque point F&B - restaurant, banqueting, room service, lobby - chaque fuite repérée, prise en charge et remesurée sur la marge." },
-        ],
-      },
-      {
-        eyebrow: "CROISSANCE & TECHNOLOGIE",
-        title: "Construisez, marketez, gouvernez à l'échelle.",
-        description: "Couches d'intelligence pour les équipes qui font grandir la marque et possèdent les données.",
-        seeSolutionPrefix: "Voir",
-        personas: [
-          { title: "Responsables marketing", tagline: "ROI campagne lié à la marge nette en 24h. Réallouez pendant que ça compte." },
-          { title: "Tech & Data", tagline: "12 sources, un schéma gouverné. RBAC, audit, API publique, webhooks." },
-        ],
-      },
-      {
-        eyebrow: "FORMATS SPÉCIALISÉS",
-        title: "Conçu pour les formats qui sortent du modèle standard.",
-        description: "Intelligence par format pour cuisines virtuelles, marques virtuelles et réseaux de franchise.",
-        seeSolutionPrefix: "Voir",
-        personas: [
-          { title: "Cuisines virtuelles & dark kitchens", tagline: "Marge nette par plateforme, par marque. Six dashboards en un livre." },
-          { title: "Franchises & franchiseurs", tagline: "Standards de marque mesurés live. Royalties automatisées. Benchmarks pairs anonymes." },
-        ],
-      },
-    ],
-  },
-  es: {
-    badge: "SOLUCIONES · POR ROL",
-    titleLine1: "Una plataforma.",
-    titleLine2: "Cada rol que diriges.",
-    description: "La misma recuperación de margen en ciclo cerrado, formulada para la persona que la lee - cada rol ve la fuga detectada, la corrección asignada y el margen vuelto a medir, desde la dirección hasta el local.",
-    nowShowingPrefix: "Mostrando ahora:",
-    primaryCta: "Reservar sesión de trabajo",
-    secondaryCta: "Ver paquetes",
-    shapedByLabel: "Forjada por operadores en",
-    formats: ["QSR", "Casual", "Alta cocina", "Cocinas en la nube", "Grupos de hospitalidad", "Operadores multi-marca"],
-    closingEyebrow: "¿NO SABES CUÁL ELEGIR?",
-    closingTitle: "Adaptamos la sesión a tu equipo.",
-    closingDescription: "30 minutos. Tus datos. La vista que más importa para las personas en la sala.",
-    closingPrimaryCta: "Reservar tour guiado",
-    closingSecondaryCta: "Ver vista de plataforma",
-    rotatingLabels: ["Alta dirección y propietarios", "Finanzas y FP&A", "Operaciones", "Marketing", "RR.HH. y People", "Tech y Data", "Grupos multi-marca"],
-    groups: [
-      {
-        eyebrow: "LIDERAZGO Y ESTRATEGIA",
-        title: "Lidera el portafolio con una sola fuente de verdad.",
-        description: "Inteligencia de decisión para la dirección, finanzas y el grupo dueño de las marcas.",
-        seeSolutionPrefix: "Ver",
-        personas: [
-          { title: "Alta dirección y propietarios", tagline: "Briefings de IA diarios en cada marca. Varianza de margen detectada, asumida y vuelta a medir." },
-          { title: "Finanzas y FP&A", tagline: "Cierra en horas. Traza cada dólar al evento que lo movió." },
-          { title: "Grupos multi-marca", tagline: "Rollup de portafolio, benchmarks marca contra marca, señal estratégica de grupo." },
-        ],
-      },
-      {
-        eyebrow: "OPERACIONES Y PEOPLE",
-        title: "Dirige el local, asume la corrección, vuelve a medir el margen.",
-        description: "Inteligencia operativa en vivo para quienes están más cerca del huésped, del horario y del servicio - cada fuga asignada a un responsable y vuelta a medir contra la línea base.",
-        seeSolutionPrefix: "Ver",
-        personas: [
-          { title: "Gerentes regionales", tagline: "Opera doce locales como si estuvieras en uno. El ritmo señala el local, la corrección recibe un responsable, el margen recuperado se vuelve a medir." },
-          { title: "RR.HH. y People", tagline: "Varianza de personal en vivo, asignada a un gerente concreto y vuelta a medir sobre el margen. Riesgo OT señalado antes de que ocurra." },
-          { title: "Operadores de hospitalidad", tagline: "Cada punto A&B - restaurante, banquetes, room service, lobby - cada fuga detectada, asumida y vuelta a medir sobre el margen." },
-        ],
-      },
-      {
-        eyebrow: "CRECIMIENTO Y TECNOLOGÍA",
-        title: "Construye, comercializa y gobierna a escala.",
-        description: "Capas de inteligencia para los equipos que hacen crecer la marca y son dueños de los datos.",
-        seeSolutionPrefix: "Ver",
-        personas: [
-          { title: "Responsables de marketing", tagline: "ROI de campaña ligado al margen neto en 24h. Reasigna mientras importa." },
-          { title: "Tech y Data", tagline: "12 fuentes, un esquema gobernado. RBAC, auditoría, API pública, webhooks." },
-        ],
-      },
-      {
-        eyebrow: "FORMATOS ESPECIALIZADOS",
-        title: "Diseñado para los formatos que no encajan en el modelo estándar.",
-        description: "Inteligencia por formato para cocinas en la nube, marcas virtuales y redes de franquicia.",
-        seeSolutionPrefix: "Ver",
-        personas: [
-          { title: "Cocinas en la nube y marcas virtuales", tagline: "Margen neto por plataforma, por marca. Seis dashboards en un libro." },
-          { title: "Franquicias y franquiciadores", tagline: "Estándares de marca medidos en vivo. Conciliación de regalías automatizada. Benchmarks anónimos." },
-        ],
-      },
-    ],
-  },
-};
-
-/* ─── Rotating hero mockup ─── */
-
-// Real Sundae surface per rotating persona (order matches copy.rotatingLabels:
-// C-Suite / Finance / Operations / Marketing / People & HR / Tech / Multi-brand)
-const IMG = "/images/product/2026-fresh";
-const ROTATING_SHOTS = [
-  { t: "insights-exec-summary", alt: "Executive Summary - portfolio health, alerts, and module scorecards" },
-  { t: "insights-revenue", alt: "Revenue Intelligence - net revenue, average check, RevPASH, and covers" },
-  { t: "pulse-leaderboard", alt: "Pulse Portfolio Leaderboard - every outlet ranked live by revenue vs target" },
-  { t: "marketing-channels", alt: "Marketing Intelligence - channel ROAS and spend efficiency frontier" },
-  { t: "insights-labor", alt: "Labor Intelligence - labor cost %, sales per labor hour, and productivity index" },
-  { t: "integrations", alt: "Data & Integrations - POS, labor, inventory, and delivery unified" },
-  { t: "benchmark-overview", alt: "Benchmark - RevPASH index and peer-cohort comparison across brands and markets" },
-];
-const ROTATION_MS = 5000;
+import Image from 'next/image'
+import Link from 'next/link'
+import { ArrowUpRight } from 'lucide-react'
+import { Button } from '@/components/ui/Button'
+import { OperatingCTA } from '@/components/product/OperatingCTA'
+import { useWebsiteI18n } from '@/components/i18n/LocaleProvider'
+import { getLocalizedPathname } from '@/lib/i18n'
+import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy'
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
+import closerCopy from '@/content/positioning-closer.json'
+import openingCopy from '@/content/operator-openings.json'
+import storyCopy from '@/content/platform-story.json'
+import sharedCopy from '@/content/buyer-clarity/shared.json'
+import proofCopy from '@/content/workflow-proof.json'
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
+import logbook from '../../../public/images/product/native-2026-11-16/logbook.png'
+import depthCopy from '@/content/operator-depth.json'
+import styles from '../why-sundae/persuasion.module.css'
 
 export default function SolutionsHubPage() {
-  const { locale } = useWebsiteI18n();
-  const opening = getOperatorAudienceCopy(locale);
-  const sourceOpeningCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
-  const copy = { ...sourceOpeningCopy, description: opening.solutions };
-  const [activeIdx, setActiveIdx] = useState(0);
-  const activeShot = ROTATING_SHOTS[activeIdx];
-  const activeLabel = copy.rotatingLabels[activeIdx] ?? "";
+  const { locale, messages } = useWebsiteI18n()
+  const copy = closerCopy[locale as keyof typeof closerCopy]
+  const opening = openingCopy[locale as keyof typeof openingCopy]
+  const story = storyCopy[locale as keyof typeof storyCopy]
+  const shared = sharedCopy[locale as keyof typeof sharedCopy]
+  const proof = proofCopy[locale as keyof typeof proofCopy]
+  const workflow = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy]
+  const commercial = getCommercialCopy(locale)
+  const audience = getOperatorAudienceCopy(locale)
+  const depth = depthCopy[locale as keyof typeof depthCopy]
+  const nav = messages.navbar
+  const href = (path: string) => getLocalizedPathname(path, locale)
+  const offerings = [
+    { name: 'Crew', title: story.crewRole, body: opening.crewDescription },
+    { name: 'Core', title: story.coreRole, body: opening.coreDescription },
+  ]
 
-  useEffect(() => {
-    const id = setInterval(() => {
-      setActiveIdx((i) => (i + 1) % ROTATING_SHOTS.length);
-    }, ROTATION_MS);
-    return () => clearInterval(id);
-  }, []);
 
   return (
-    <MotionConfig reducedMotion="user">
-      <div className="min-h-screen bg-[var(--navy-deep)] overflow-x-hidden">
-        {/* HERO */}
-        <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.12),transparent_60%)]" />
+    <div className={`search-brand-page min-h-screen overflow-x-clip bg-[var(--navy-deep)] ${styles.page}`}>
+      <section className="brand-editorial-wash px-6 pb-16 pt-16 sm:pt-20 lg:px-8" data-solutions-opening>
+        <div className={`${styles.entrance} mx-auto max-w-6xl`}>
+          <p className="eyebrow mb-5">{nav.solutions} · Sundae Core + Sundae Crew</p>
+          <h1 className="max-w-4xl font-display text-[clamp(2.6rem,5vw,4.5rem)] font-semibold leading-[1.07] tracking-[-0.035em] text-[var(--text-primary)] text-balance">{copy.solutionsTop}<br /><em className="text-[var(--text-warm)]">{copy.solutionsAccent}</em></h1>
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-[var(--text-supporting)] sm:text-lg">{audience.solutions}</p>
+          <div className="mt-7 flex flex-wrap gap-4">
+            <Button href={href('/demo')} variant="cta" size="lg" trackingLabel="solutions_primaryCta">{nav.bookDemo}</Button>
+            <Button href="#by-role" variant="outline-light" size="lg">{nav.byRole}</Button>
+          </div>
+        </div>
+      </section>
 
-          <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-10 lg:gap-16 items-center">
-            <div>
-              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
-                <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)]">
-                  {copy.badge}
-                </span>
-              </motion.div>
+      <section className="px-6 py-16 lg:px-8" data-solutions-work>
+        <div className="mx-auto max-w-6xl">
+          <h2 className="section-h2 max-w-3xl">{workflow.links.title}</h2>
+          <div className="mt-10 grid gap-10 md:grid-cols-2 md:gap-16">
+            {offerings.map((item, index) => <article key={item.name} className={`${styles.reason} border-t border-[var(--border-emphasis)] pt-5`} data-offering={item.name.toLowerCase()}>
+              <p className="eyebrow">Sundae {item.name}</p>
+              <h3 className="mt-4 font-display text-3xl font-semibold leading-tight text-[var(--text-primary)]">{item.title}</h3>
+              <p className="mt-4 text-base leading-relaxed text-[var(--text-supporting)]">{item.body}</p>
+              <Link href={href(`/${item.name.toLowerCase()}`)} className={`${styles.link} brand-action-link mt-5 inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4`}>Sundae {item.name}<ArrowUpRight aria-hidden className="h-4 w-4 rtl:-scale-x-100" /></Link>
+              {index === 0 && <div className="mt-5 flex flex-wrap gap-x-5 gap-y-3">
+                {[[workflow.links.tasks, '/restaurant-task-management'], [workflow.links.logbook, '/restaurant-logbook'], [workflow.links.tips, '/restaurant-tip-management']].map(([label, path]) => <Link key={path} href={href(path)} className={`${styles.link} text-sm text-[var(--text-supporting)] underline underline-offset-4`}>{label}</Link>)}
+              </div>}
+            </article>)}
+          </div>
+          <p className="mt-7 max-w-3xl text-xs leading-relaxed text-[var(--text-muted)]">{commercial.packageScope}</p>
+        </div>
+      </section>
 
-              <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
-                <span className="text-[var(--text-primary)]">{copy.titleLine1}</span>
-                <br />
-                <span className="italic text-[var(--text-warm)]">{copy.titleLine2}</span>
-              </motion.h1>
+      <section className="brand-editorial-wash px-6 py-14 lg:px-8" data-solutions-product-proof>
+        <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-[0.7fr_1.3fr] lg:items-center lg:gap-16">
+          <div>
+            <p className="eyebrow mb-4">Sundae Crew</p>
+            <h2 className="section-h2">{depth.logbookTitle}</h2>
+            <p className="mt-5 text-base leading-relaxed text-[var(--text-supporting)]">{depth.logbookBody}</p>
+            <Link href={href('/restaurant-logbook')} className={`${styles.link} brand-action-link mt-5 inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4`}>{workflow.links.logbook}<ArrowUpRight aria-hidden className="h-4 w-4 rtl:-scale-x-100" /></Link>
+          </div>
+          <figure className="min-w-0">
+            <a href="/images/product/native-2026-11-16/logbook.png" target="_blank" rel="noreferrer" aria-label={`${proof.logbook} · ${proof.openImage}`} className="block overflow-hidden rounded-xl border border-[var(--border-default)]">
+              <Image src={logbook} alt={proof.logbook} sizes="(max-width: 1024px) 100vw, 700px" className="h-auto w-full" />
+            </a>
+            <figcaption className="mt-4 text-xs leading-relaxed text-[var(--text-muted)]">{proof.disclosure}</figcaption>
+          </figure>
+        </div>
+      </section>
 
-              <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-3">
-                {copy.description}
-              </motion.p>
-
-              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.4 }} className="text-sm uppercase tracking-[0.2em] text-[#FF8473]/80 mb-10 font-semibold">
-                {copy.nowShowingPrefix} <span className="text-[#FF8473]">{activeLabel}</span>
-              </motion.p>
-
-              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
-                <Button href={getLocalizedPathname("/demo", locale)} variant="primary" size="lg" trackingLabel="solutions_primaryCta">{copy.primaryCta}</Button>
-                <Button href={getLocalizedPathname("/results", locale)} variant="outline-light" size="lg" trackingLabel="solutions_public_evidence">{sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}</Button>
-              </motion.div>
+      <section id="by-role" className="scroll-mt-28 px-6 py-16 lg:px-8" data-solutions-roles>
+        <div className="mx-auto max-w-6xl">
+          <p className="eyebrow mb-4">{nav.byRole}</p>
+          <h2 className="section-h2 max-w-3xl">{shared.roleContextTitle}</h2>
+          <div className="mt-9 grid md:grid-cols-2 md:gap-x-14">
+            {nav.solutionsRoles.map(role => <Link key={role.href} href={href(role.href)} className="group flex items-center justify-between gap-6 border-t border-[var(--border-default)] py-6 text-[var(--text-primary)] transition-colors hover:text-[var(--warm-coral)]">
+              <span><span className="block font-display text-xl font-semibold sm:text-2xl">{role.name}</span></span>
+              <ArrowUpRight aria-hidden className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 rtl:-scale-x-100" />
+            </Link>)}
+          </div>
+          <div className="mt-14 border-t border-[var(--border-emphasis)] pt-7">
+            <h3 className="eyebrow mb-5">{nav.bySegment}</h3>
+            <div className="flex flex-wrap gap-x-8 gap-y-5">
+              {nav.solutionsSegments.map(segment => <Link key={segment.href} href={href(segment.href)} className={`${styles.link} inline-flex items-center gap-2 text-base font-medium text-[var(--text-primary)] underline decoration-[var(--border-emphasis)] underline-offset-4`}>{segment.name}<ArrowUpRight aria-hidden className="h-4 w-4 rtl:-scale-x-100" /></Link>)}
             </div>
-
-            <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }} className="lg:pl-4" style={{ perspective: "1200px" }}>
-              <motion.div initial={{ rotateX: 6 }} animate={{ rotateX: 1.5 }} transition={{ duration: 1.2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}>
-                <AnimatePresence mode="wait">
-                  <motion.div key={activeIdx} initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.97 }} transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}>
-                    <ThemedShot
-                      framed
-                      priority
-                      width={1600}
-                      height={1000}
-                      dark={`${IMG}/${activeShot.t}-dark.png`}
-                      light={`${IMG}/${activeShot.t}.png`}
-                      alt={activeShot.alt}
-                    />
-                  </motion.div>
-                </AnimatePresence>
-              </motion.div>
-            </motion.div>
           </div>
-        </section>
-
-        {/* SHAPED BY */}
-        <section aria-label="Operator coverage" className="relative border-y border-[var(--border-default)] py-8 px-4 sm:px-6 lg:px-8 bg-white/[0.015]">
-          <div className="relative z-10 max-w-6xl mx-auto text-center">
-            <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--text-muted)] font-semibold mb-3">
-              {copy.shapedByLabel}
-            </p>
-            <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm sm:text-base text-[var(--text-secondary)]">
-              {copy.formats.map((f, i) => (
-                <span key={f} className="flex items-center gap-x-3">
-                  <span className="font-medium">{f}</span>
-                  {i < copy.formats.length - 1 && <span aria-hidden className="text-[var(--text-faint)]">·</span>}
-                </span>
-              ))}
-            </p>
-          </div>
-        </section>
-
-        {/* GROUPS */}
-        {copy.groups.map((group, gi) => {
-          const structure = groupStructure[gi];
-          return (
-            <section key={gi} className="relative py-20 px-4 sm:px-6 lg:px-8">
-              <div className={`absolute inset-0 ${gi % 2 === 0 ? "bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.04),transparent_60%)]" : "bg-mesh"}`} />
-              <div className="relative z-10 max-w-7xl mx-auto">
-                <FadeUp className="text-center max-w-3xl mx-auto mb-12">
-                  <p className="eyebrow mb-4">{group.eyebrow}</p>
-                  <h2 className="section-h2 text-[var(--text-primary)] mb-4 text-balance">{group.title}</h2>
-                  <p className="body-lg text-[var(--text-supporting)]">{group.description}</p>
-                </FadeUp>
-
-                <StaggerContainer
-                  className={`grid gap-5 ${group.personas.length === 2 ? "grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}`}
-                >
-                  {group.personas.map((p, pi) => {
-                    const s = structure.personas[pi];
-                    return (
-                      <StaggerItem key={s.slug}>
-                        <Link href={`/solutions/${s.slug}`} className="group block h-full">
-                          <div className="h-full p-6 sm:p-7 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.3)] hover:shadow-[0_0_40px_rgba(255,92,77,0.10)] transition-all duration-300 hover:-translate-y-1">
-                            <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${s.accent} flex items-center justify-center text-white shadow-lg mb-5`}>
-                              <SundaeIcon name={s.icon} size="md" className="text-white" />
-                            </div>
-                            <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-2 leading-snug">{p.title}</h3>
-                            <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-6">{p.tagline}</p>
-                            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors">
-                              {group.seeSolutionPrefix} {p.title}
-                              <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
-                            </span>
-                          </div>
-                        </Link>
-                      </StaggerItem>
-                    );
-                  })}
-                </StaggerContainer>
-              </div>
-            </section>
-          );
-        })}
-
-        {/* CLOSING CTA */}
-        <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-grad-deep">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
-          <div className="relative z-10 max-w-3xl mx-auto text-center">
-            <FadeUp>
-              <p className="eyebrow mb-4">{copy.closingEyebrow}</p>
-              <h2 className="section-h2 mb-4">{copy.closingTitle}</h2>
-              <p className="body-lg mb-10 max-w-xl mx-auto">{copy.closingDescription}</p>
-              <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                <Button href={getLocalizedPathname("/demo", locale)} variant="cta" size="lg" trackingLabel="solutions_closingPrimaryCta">{copy.closingPrimaryCta}</Button>
-                <Button href={getLocalizedPathname("/product", locale)} variant="outline-light" size="lg" trackingLabel="solutions_closingSecondaryCta">{copy.closingSecondaryCta}</Button>
-              </div>
-            </FadeUp>
-          </div>
-        </section>
-      </div>
-    </MotionConfig>
-  );
+        </div>
+      </section>
+      <OperatingCTA title={opening.demoTitle} description={shared.roleCtaDescription}>
+        <Button href={href('/demo')} variant="cta" size="lg" trackingLabel="solutions_closingPrimaryCta">{nav.bookDemo}</Button>
+        <Button href={href('/why-sundae')} variant="outline-ink" size="lg">{proof.whySundae}</Button>
+      </OperatingCTA>
+    </div>
+  )
 }

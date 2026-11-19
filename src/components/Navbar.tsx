@@ -16,6 +16,7 @@ import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import storyCopy from '@/content/platform-story.json';
+import closerCopy from '@/content/positioning-closer.json';
 import proofCopy from '@/content/workflow-proof.json';
 import { getCoreNavigation } from '@/lib/coreNavigation';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
@@ -382,6 +383,9 @@ const Navbar = () => {
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                 <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
+                  <Link href={localizeHref('/solutions')} onClick={() => setActiveDropdown(null)} className="mb-5 flex items-center justify-between gap-4 border-b border-[var(--border-default)] pb-4 text-base font-semibold text-[var(--text-primary)] transition-colors hover:text-[var(--warm-coral)]" data-solutions-overview="desktop">
+                    {closerCopy[locale as keyof typeof closerCopy].overview}<span aria-hidden className="rtl:-scale-x-100">↗</span>
+                  </Link>
                   {/* Segments */}
                   <div className="mb-4">
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
@@ -653,6 +657,9 @@ const Navbar = () => {
               isExpanded={expandedSections.solutions}
               onToggle={() => toggleSection('solutions')}
             >
+              <MobileNavLink href={localizeHref('/solutions')} onClick={handleMobileNavClick}>
+                {closerCopy[locale as keyof typeof closerCopy].overview}
+              </MobileNavLink>
               <div className="px-4 pt-1 pb-1">
                 <span className="eyebrow text-[var(--text-muted)]">{nav.bySegment}</span>
               </div>
