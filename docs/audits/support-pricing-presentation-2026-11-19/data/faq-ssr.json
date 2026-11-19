@@ -1,0 +1,354 @@
+[
+  {
+    "locale": "en",
+    "url": "http://localhost:3152/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "How much does Sundae cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pricing depends on the products, locations and setup your operation needs. Choose Core, Crew or both in the pricing simulator to review current pricing and applicable terms. Implementation fees depend on the selected products and onboarding scope. Confirm them in your estimate. View estimate"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "ar",
+    "url": "http://localhost:3152/ar/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/ar/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "كم تكلفة Sundae؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "يعتمد السعر على المنتجات وعدد المواقع ونطاق الإعداد الذي يحتاجه نشاطك. اختر Core أو Crew أو كليهما في محاكي التسعير لمراجعة الأسعار الحالية والشروط المنطبقة. تعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر. عرض التقدير"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "fr",
+    "url": "http://localhost:3152/fr/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/fr/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Combien coûte Sundae ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le prix dépend des produits, des établissements et de la mise en place nécessaires à votre activité. Choisissez Core, Crew ou les deux dans le simulateur pour consulter les tarifs en vigueur et les conditions applicables. Les frais de mise en œuvre dépendent des produits choisis et du périmètre de déploiement. Confirmez-les dans votre estimation. Voir l’estimation"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "es",
+    "url": "http://localhost:3152/es/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/es/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El precio depende de los productos, los locales y la configuración que necesita su negocio. Elija Core, Crew o ambos en el simulador para consultar los precios vigentes y las condiciones aplicables. Los costes de implementación dependen de los productos elegidos y del alcance de la puesta en marcha. Confírmalos en tu estimación. Ver estimación"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "de",
+    "url": "http://localhost:3152/de/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/de/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Was kostet Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Der Preis richtet sich nach den Produkten, Standorten und dem Einführungsumfang, die Ihr Betrieb benötigt. Wählen Sie im Preissimulator Core, Crew oder beides, um aktuelle Preise und geltende Bedingungen zu prüfen. Die Einführungskosten hängen von den gewählten Produkten und dem Einführungsumfang ab. Prüfen Sie diese in Ihrer Kalkulation. Kostenschätzung ansehen"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "it",
+    "url": "http://localhost:3152/it/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/it/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Quanto costa Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il prezzo dipende dai prodotti, dalle sedi e dalla configurazione necessari alla tua attività. Nel simulatore scegli Core, Crew o entrambi per verificare i prezzi aggiornati e le condizioni applicabili. I costi di implementazione dipendono dai prodotti scelti e dall’ambito di avvio. Confermali nel preventivo. Vedi stima"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "pt",
+    "url": "http://localhost:3152/pt/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/pt/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Quanto custa o Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os preços dependem dos produtos, das unidades e da implementação de que a sua operação precisa. Escolha Core, Crew ou ambos no simulador para consultar os preços em vigor e as condições aplicáveis. Os custos de implementação dependem dos produtos escolhidos e do âmbito da configuração. Confirme-os na estimativa. Ver estimativa"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "nl",
+    "url": "http://localhost:3152/nl/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/nl/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Wat kost Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "De prijs hangt af van de producten, locaties en inrichting die uw bedrijf nodig heeft. Kies Core, Crew of beide in de prijssimulator om de actuele prijzen en toepasselijke voorwaarden te bekijken. Implementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming. Bekijk schatting"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "pl",
+    "url": "http://localhost:3152/pl/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/pl/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Ile kosztuje Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cena zależy od produktów, lokalizacji i zakresu wdrożenia potrzebnych Twojej firmie. Wybierz Core, Crew lub oba rozwiązania w symulatorze, aby sprawdzić aktualne ceny i obowiązujące warunki. Koszty wdrożenia zależą od wybranych produktów i zakresu uruchomienia. Potwierdź je w wycenie. Zobacz wycenę"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "ro",
+    "url": "http://localhost:3152/ro/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/ro/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Cât costă Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prețul depinde de produsele, locațiile și configurarea de care are nevoie afacerea dvs. Alegeți Core, Crew sau ambele în simulator pentru a vedea prețurile actuale și condițiile aplicabile. Costurile de implementare depind de produsele alese și de amploarea configurării. Confirmați-le în estimare. Vezi estimarea"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "sv",
+    "url": "http://localhost:3152/sv/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/sv/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Vad kostar Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Priset beror på vilka produkter, enheter och vilket införande verksamheten behöver. Välj Core, Crew eller båda i prissimulatorn för att se aktuella priser och villkor. Implementeringskostnader beror på valda produkter och införandets omfattning. Bekräfta dem i prisberäkningen. Visa prisberäkning"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "tr",
+    "url": "http://localhost:3152/tr/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/tr/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae ne kadar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fiyat, işletmenizin ihtiyaç duyduğu ürünlere, lokasyonlara ve kurulum kapsamına bağlıdır. Güncel fiyatları ve geçerli koşulları görmek için fiyat simülatöründe Core, Crew veya her ikisini seçin. Uygulama ücretleri seçilen ürünlere ve kurulum kapsamına bağlıdır. Tahmininizde bunları doğrulayın. Fiyat tahminini gör"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "hi",
+    "url": "http://localhost:3152/hi/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/hi/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae की लागत कितनी है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "कीमत आपके कारोबार के लिए ज़रूरी उत्पादों, स्थानों और सेटअप के दायरे पर निर्भर करती है। मौजूदा कीमत और लागू शर्तें देखने के लिए मूल्य सिम्युलेटर में Core, Crew या दोनों चुनें। कार्यान्वयन शुल्क चुने हुए उत्पादों और सेटअप के दायरे पर निर्भर करता है। अपने अनुमान में इसकी पुष्टि करें। अनुमान देखें"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "bn",
+    "url": "http://localhost:3152/bn/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/bn/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae-র খরচ কত?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "আপনার ব্যবসার জন্য প্রয়োজনীয় পণ্য, শাখা ও চালুর পরিধির ওপর মূল্য নির্ভর করে। বর্তমান মূল্য ও প্রযোজ্য শর্ত দেখতে মূল্য সিমুলেটরে Core, Crew অথবা দুটিই বেছে নিন। বাস্তবায়ন ফি নির্বাচিত পণ্য ও সেটআপের পরিসরের ওপর নির্ভর করে। আপনার মূল্যায়নে তা নিশ্চিত করুন। আনুমানিক মূল্য দেখুন"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "ur",
+    "url": "http://localhost:3152/ur/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/ur/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae کی قیمت کتنی ہے؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "قیمت کا انحصار ان مصنوعات، مقامات اور سیٹ اپ کے دائرے پر ہے جن کی آپ کے کاروبار کو ضرورت ہے۔ موجودہ قیمتیں اور قابلِ اطلاق شرائط دیکھنے کے لیے قیمت کے سمیولیٹر میں Core، Crew یا دونوں منتخب کریں۔ نفاذ کی فیس منتخب مصنوعات اور ابتدائی سیٹ اپ کے دائرۂ کار پر منحصر ہے۔ اپنے تخمینے میں اس کی تصدیق کریں۔ تخمینہ دیکھیں"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "zh-Hans",
+    "url": "http://localhost:3152/zh-Hans/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/zh-Hans/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae 多少钱？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "价格取决于您的业务所需的产品、门店和实施范围。在价格模拟器中选择 Core、Crew 或两者，查看当前价格及适用条款。 实施费用取决于所选产品和上线范围。请在估算中确认。 查看估算"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "ja",
+    "url": "http://localhost:3152/ja/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/ja/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae の費用はどれくらいですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "料金は、運営に必要な製品、拠点、導入範囲によって異なります。料金シミュレーターで Core、Crew、または両方を選び、現在の料金と適用条件をご確認ください。 導入費用は選択した製品と導入範囲によって異なります。見積もりでご確認ください。 見積もりを見る"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "ko",
+    "url": "http://localhost:3152/ko/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/ko/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae 비용은 얼마인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "요금은 운영에 필요한 제품, 사업장 수와 도입 범위에 따라 달라집니다. 요금 시뮬레이터에서 Core, Crew 또는 두 제품 모두를 선택해 현재 요금과 적용 조건을 확인하세요. 도입 비용은 선택한 제품과 구축 범위에 따라 달라집니다. 견적에서 확인하세요. 견적 보기"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "id",
+    "url": "http://localhost:3152/id/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/id/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Berapa biaya Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Harga bergantung pada produk, lokasi, dan cakupan penyiapan yang dibutuhkan usaha Anda. Pilih Core, Crew, atau keduanya di simulator untuk melihat harga terbaru dan ketentuan yang berlaku. Biaya implementasi bergantung pada produk pilihan dan cakupan penyiapan. Konfirmasikan dalam estimasi Anda. Lihat estimasi"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "ms",
+    "url": "http://localhost:3152/ms/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/ms/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Berapakah kos Sundae?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Harga bergantung pada produk, lokasi dan skop persediaan yang diperlukan oleh perniagaan anda. Pilih Core, Crew atau kedua-duanya dalam simulator harga untuk melihat harga semasa serta syarat yang berkenaan. Yuran pelaksanaan bergantung pada produk pilihan dan skop persediaan. Sahkan dalam anggaran anda. Lihat anggaran"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "vi",
+    "url": "http://localhost:3152/vi/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/vi/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae có giá bao nhiêu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chi phí phụ thuộc vào sản phẩm, số cơ sở và phạm vi triển khai mà doanh nghiệp cần. Chọn Core, Crew hoặc cả hai trong công cụ mô phỏng để xem giá hiện hành và các điều kiện áp dụng. Phí triển khai phụ thuộc vào sản phẩm đã chọn và phạm vi thiết lập. Xác nhận trong dự toán của bạn. Xem ước tính"
+      }
+    },
+    "priceQuoteAbsent": true
+  },
+  {
+    "locale": "th",
+    "url": "http://localhost:3152/th/faq",
+    "status": 200,
+    "canonical": "https://www.sundae.io/th/faq",
+    "hreflangCount": 23,
+    "costQuestion": {
+      "@type": "Question",
+      "name": "Sundae ราคาเท่าไร",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ราคาขึ้นอยู่กับผลิตภัณฑ์ จำนวนสาขา และขอบเขตการติดตั้งที่ธุรกิจของคุณต้องการ เลือก Core, Crew หรือทั้งสองอย่างในเครื่องมือจำลองราคาเพื่อตรวจสอบราคาปัจจุบันและเงื่อนไขที่ใช้บังคับ ค่าติดตั้งใช้งานขึ้นอยู่กับผลิตภัณฑ์ที่เลือกและขอบเขตการเริ่มใช้งาน โปรดยืนยันในประมาณการราคา ดูประมาณการ"
+      }
+    },
+    "priceQuoteAbsent": true
+  }
+]

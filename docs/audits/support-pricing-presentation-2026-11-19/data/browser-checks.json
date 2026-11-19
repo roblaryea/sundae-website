@@ -1,0 +1,47 @@
+{
+  "applicationHead": "b71c7bd13def149eed789688b8bd4a1890079306",
+  "browserSession": "support-pricing",
+  "routes": [
+    "/getting-started",
+    "/product/foresight",
+    "/faq"
+  ],
+  "locales": [
+    "en",
+    "ar",
+    "fr",
+    "es",
+    "de",
+    "it",
+    "pt",
+    "nl",
+    "pl",
+    "ro",
+    "sv",
+    "tr",
+    "hi",
+    "bn",
+    "ur",
+    "zh-Hans",
+    "ja",
+    "ko",
+    "id",
+    "ms",
+    "vi",
+    "th"
+  ],
+  "checks": 66,
+  "result": "passed",
+  "checksCovered": [
+    "one H1",
+    "scope copy rendered",
+    "Getting Started has no worked quote or setup grid",
+    "Foresight single exact entitlement and all eight existing component examples retained",
+    "real unpreset simulator anchors carry correct lang",
+    "opened FAQ matches pricingScope and setup",
+    "opened FAQ anchor has correct lang and no cfg",
+    "FAQ JSON-LD exactly matches normalized visible cost answer",
+    "no application page errors"
+  ],
+  "notes": "Local Vercel Analytics script 404/MIME messages are excluded from application page-error evidence."
+}
