@@ -1,0 +1,401 @@
+{
+  "results": [
+    {
+      "locale": "tr",
+      "route": "/architecture",
+      "heading": "Operasyon kayıtlarından ekiplerin uygulayabileceği kararlara.",
+      "description": "Bağlı kayıtlar ve Crew iş akışları ortak ölçümleri besler. Sundae bu veriler ve ilgili bağlamla neye dikkat edilmesi gerektiğini açıklar; ekiplerin sonraki adımı sahiplenmesine ve sonucu değerlendirmesine yardımcı olur.",
+      "canonical": "https://www.sundae.io/tr/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "tr",
+      "route": "/integrations",
+      "heading": "İşe yarayan araçları koruyun. Gereken kayıtları bağlayın.",
+      "description": "Gerekli POS, personel, stok, satın alma ve misafir kayıtlarını belirleyin. Devreye almadan önce kaynakları, erişimi ve güncellemeyi doğrulayın.",
+      "canonical": "https://www.sundae.io/tr/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "tr",
+      "route": "/4d-intelligence",
+      "heading": "Neyin değiştiğini anlayın. Sonraki adımı belirleyin.",
+      "description": "Geçmişi inceleyin, planla karşılaştırın, ilgili pazar ve benzer işletme bağlamını ekleyin; sonra neler olabileceğini değerlendirin. Sundae bu anlayışı ekibin sahiplendiği bir eyleme ve sonuç kontrolüne bağlar.",
+      "canonical": "https://www.sundae.io/tr/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "zh-Hans",
+      "route": "/architecture",
+      "heading": "从运营记录 到团队能够执行的决策。",
+      "description": "已连接的记录与 Crew 工作流程汇入共同指标。Sundae 利用这些事实和相关背景解释需要关注的问题，帮助团队负责下一步行动并复盘结果。",
+      "canonical": "https://www.sundae.io/zh-Hans/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "zh-Hans",
+      "route": "/integrations",
+      "heading": "保留好用的工具。 连接需要的记录。",
+      "description": "明确团队需要的 POS、员工、库存、采购和宾客记录。上线前确认数据源可用性、访问权限和更新频率。",
+      "canonical": "https://www.sundae.io/zh-Hans/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "zh-Hans",
+      "route": "/4d-intelligence",
+      "heading": "看清发生的变化。 决定下一步行动。",
+      "description": "回顾过去、对照计划、加入相关同行与市场背景，再考虑未来可能发生什么。Sundae 将这种理解连接到团队负责的行动和结果复盘。",
+      "canonical": "https://www.sundae.io/zh-Hans/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "ja",
+      "route": "/architecture",
+      "heading": "業務記録から チームが実行できる判断へ。",
+      "description": "接続した記録と Crew の業務フローを共通の指標にまとめます。Sundae は事実と関連する背景から注意すべき点を説明し、担当者の次の行動と結果の確認を支援します。",
+      "canonical": "https://www.sundae.io/ja/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "ja",
+      "route": "/integrations",
+      "heading": "役立つツールはそのままに。 必要な記録をつなぎましょう。",
+      "description": "必要な POS、人員、在庫、購買、ゲストの記録を整理します。導入前にデータソースの利用可否、アクセス、更新頻度を確認します。",
+      "canonical": "https://www.sundae.io/ja/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "ja",
+      "route": "/4d-intelligence",
+      "heading": "何が変わったかを把握し、 次の行動を決める。",
+      "description": "過去を振り返り、計画と比較し、関連する同業他社や市場の背景を加え、今後の可能性を検討します。Sundae はこの理解を、チームが担う行動と結果の確認につなげます。",
+      "canonical": "https://www.sundae.io/ja/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "ko",
+      "route": "/architecture",
+      "heading": "운영 기록에서 팀이 실행할 수 있는 결정으로.",
+      "description": "연결된 기록과 Crew 업무 흐름이 공통 지표로 모입니다. Sundae는 이 사실과 관련 맥락으로 주의할 부분을 설명하고 팀이 다음 행동을 맡고 결과를 검토하도록 돕습니다.",
+      "canonical": "https://www.sundae.io/ko/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "ko",
+      "route": "/integrations",
+      "heading": "잘 쓰는 도구는 유지하세요. 필요한 기록을 연결하세요.",
+      "description": "필요한 POS, 인력, 재고, 구매, 고객 기록의 범위를 정합니다. 도입 전 소스 가용성, 접근 권한, 갱신 주기를 확인하세요.",
+      "canonical": "https://www.sundae.io/ko/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "ko",
+      "route": "/4d-intelligence",
+      "heading": "무엇이 바뀌었는지 파악하고, 다음 행동을 결정하세요.",
+      "description": "과거를 검토하고 계획과 비교한 뒤 관련 동종 업체 및 시장 맥락을 더해 앞으로의 가능성을 살펴봅니다. Sundae는 이 이해를 팀이 맡는 행동과 결과 점검으로 연결합니다.",
+      "canonical": "https://www.sundae.io/ko/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "id",
+      "route": "/architecture",
+      "heading": "Dari catatan operasional ke keputusan yang dapat dijalankan tim.",
+      "description": "Catatan terhubung dan alur Crew membentuk metrik bersama. Sundae memakai fakta dan konteks yang relevan untuk menjelaskan hal yang perlu diperhatikan, lalu membantu tim mengambil tanggung jawab atas langkah berikutnya dan meninjau hasil.",
+      "canonical": "https://www.sundae.io/id/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "id",
+      "route": "/integrations",
+      "heading": "Pertahankan alat yang bekerja baik. Hubungkan catatan yang dibutuhkan.",
+      "description": "Tentukan catatan POS, tenaga kerja, stok, pembelian, dan tamu yang diperlukan. Pastikan sumber, akses, dan pembaruan sebelum penerapan.",
+      "canonical": "https://www.sundae.io/id/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "id",
+      "route": "/4d-intelligence",
+      "heading": "Pahami apa yang berubah. Tentukan langkah berikutnya.",
+      "description": "Tinjau masa lalu, bandingkan dengan rencana, tambahkan konteks pasar dan usaha sejenis yang relevan, lalu pertimbangkan kemungkinan berikutnya. Sundae menghubungkan pemahaman ini dengan tindakan yang menjadi tanggung jawab tim dan pemeriksaan hasil.",
+      "canonical": "https://www.sundae.io/id/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "ms",
+      "route": "/architecture",
+      "heading": "Daripada rekod operasi kepada keputusan yang boleh dilaksanakan pasukan.",
+      "description": "Rekod bersambung dan aliran Crew membentuk metrik bersama. Sundae menggunakan fakta dan konteks berkaitan untuk menjelaskan perkara yang perlu diberi perhatian, kemudian membantu pasukan memikul langkah seterusnya dan menyemak hasil.",
+      "canonical": "https://www.sundae.io/ms/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "ms",
+      "route": "/integrations",
+      "heading": "Kekalkan alat yang berfungsi baik. Sambungkan rekod yang diperlukan.",
+      "description": "Tentukan rekod POS, tenaga kerja, stok, pembelian dan tetamu yang diperlukan. Sahkan sumber, akses dan kemas kini sebelum pelaksanaan.",
+      "canonical": "https://www.sundae.io/ms/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "ms",
+      "route": "/4d-intelligence",
+      "heading": "Fahami perkara yang berubah. Tentukan langkah seterusnya.",
+      "description": "Semak masa lalu, bandingkan dengan rancangan, tambah konteks pasaran dan perniagaan setara yang relevan, kemudian pertimbangkan kemungkinan seterusnya. Sundae menghubungkan pemahaman ini dengan tindakan milik pasukan dan semakan hasil.",
+      "canonical": "https://www.sundae.io/ms/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "vi",
+      "route": "/architecture",
+      "heading": "Từ dữ liệu vận hành đến quyết định đội ngũ có thể thực hiện.",
+      "description": "Dữ liệu kết nối và quy trình Crew tạo nên các chỉ số chung. Sundae dùng dữ kiện và bối cảnh liên quan để giải thích điều cần chú ý, rồi giúp đội ngũ chịu trách nhiệm cho bước tiếp theo và đánh giá kết quả.",
+      "canonical": "https://www.sundae.io/vi/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "vi",
+      "route": "/integrations",
+      "heading": "Giữ các công cụ đang hiệu quả. Kết nối dữ liệu cần thiết.",
+      "description": "Xác định dữ liệu POS, nhân sự, tồn kho, mua hàng và khách cần thiết. Xác nhận nguồn, quyền truy cập và cập nhật trước triển khai.",
+      "canonical": "https://www.sundae.io/vi/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "vi",
+      "route": "/4d-intelligence",
+      "heading": "Hiểu điều đã thay đổi. Quyết định bước tiếp theo.",
+      "description": "Xem lại quá khứ, so với kế hoạch, thêm bối cảnh thị trường và đơn vị tương đồng, rồi cân nhắc điều có thể xảy ra. Sundae kết nối hiểu biết này với hành động do đội ngũ chịu trách nhiệm và việc kiểm tra kết quả.",
+      "canonical": "https://www.sundae.io/vi/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "hi",
+      "route": "/architecture",
+      "heading": "परिचालन रिकॉर्ड से टीम के अमल करने योग्य निर्णय तक।",
+      "description": "जुड़े रिकॉर्ड और Crew के कार्यप्रवाह साझा मापदंड बनाते हैं। Sundae इन तथ्यों और संबंधित संदर्भ से समझाता है कि कहाँ ध्यान चाहिए, फिर टीम को अगला कदम लेने और नतीजा जाँचने में मदद करता है।",
+      "canonical": "https://www.sundae.io/hi/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "hi",
+      "route": "/integrations",
+      "heading": "काम के टूल बनाए रखें। ज़रूरी रिकॉर्ड जोड़ें।",
+      "description": "ज़रूरी POS, कर्मचारी, स्टॉक, खरीद और अतिथि रिकॉर्ड का दायरा तय करें। शुरू करने से पहले स्रोतों की उपलब्धता, पहुँच और अपडेट का समय पक्का करें।",
+      "canonical": "https://www.sundae.io/hi/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "hi",
+      "route": "/4d-intelligence",
+      "heading": "समझें कि क्या बदला। अगला कदम तय करें।",
+      "description": "पिछले नतीजे देखें, योजना से तुलना करें, समान कारोबार और बाज़ार का संदर्भ जोड़ें, फिर आगे की संभावनाएँ समझें। Sundae इस समझ को टीम की ज़िम्मेदारी वाली कार्रवाई और नतीजे की जाँच से जोड़ता है।",
+      "canonical": "https://www.sundae.io/hi/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "ur",
+      "route": "/architecture",
+      "heading": "آپریشنل ریکارڈ سے ایسے فیصلوں تک جن پر ٹیم عمل کر سکے۔",
+      "description": "منسلک ریکارڈ اور Crew کے ورک فلو مشترکہ پیمانے بناتے ہیں۔ Sundae ان حقائق اور متعلقہ سیاق سے بتاتا ہے کہ کہاں توجہ چاہیے، پھر ٹیم کو اگلا قدم سنبھالنے اور نتیجہ جانچنے میں مدد دیتا ہے۔",
+      "canonical": "https://www.sundae.io/ur/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "ur",
+      "route": "/integrations",
+      "heading": "مفید ٹول برقرار رکھیں۔ مطلوبہ ریکارڈ جوڑیں۔",
+      "description": "ضروری POS، افرادی قوت، اسٹاک، خریداری اور مہمانوں کے ریکارڈ کا دائرہ طے کریں۔ آغاز سے پہلے ذرائع، رسائی اور اپ ڈیٹ کی دستیابی کی تصدیق کریں۔",
+      "canonical": "https://www.sundae.io/ur/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "ur",
+      "route": "/4d-intelligence",
+      "heading": "سمجھیں کہ کیا بدلا۔ اگلا قدم طے کریں۔",
+      "description": "ماضی دیکھیں، منصوبے سے مقابلہ کریں، متعلقہ ہم نوع کاروبار اور مارکیٹ کا سیاق شامل کریں، پھر آگے کے امکانات پر غور کریں۔ Sundae اس فہم کو ٹیم کی ذمہ داری والی کارروائی اور نتیجے کی جانچ سے جوڑتا ہے۔",
+      "canonical": "https://www.sundae.io/ur/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "bn",
+      "route": "/architecture",
+      "heading": "পরিচালন রেকর্ড থেকে দলের বাস্তবায়নযোগ্য সিদ্ধান্তে।",
+      "description": "সংযুক্ত রেকর্ড ও Crew-এর কাজের ধারা থেকে অভিন্ন সূচক তৈরি হয়। Sundae সেই তথ্য ও প্রাসঙ্গিক প্রেক্ষাপট দিয়ে কোথায় মনোযোগ প্রয়োজন বোঝায় এবং দলকে পরের পদক্ষেপের দায়িত্ব নিতে ও ফল পর্যালোচনায় সাহায্য করে।",
+      "canonical": "https://www.sundae.io/bn/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "bn",
+      "route": "/integrations",
+      "heading": "কার্যকর টুলগুলো রাখুন। প্রয়োজনীয় রেকর্ড যুক্ত করুন।",
+      "description": "প্রয়োজনীয় POS, কর্মী, মজুত, ক্রয় ও অতিথি রেকর্ডের পরিধি ঠিক করুন। চালুর আগে উৎস, প্রবেশাধিকার ও হালনাগাদ নিশ্চিত করুন।",
+      "canonical": "https://www.sundae.io/bn/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "bn",
+      "route": "/4d-intelligence",
+      "heading": "কী বদলেছে বুঝুন। পরের পদক্ষেপ ঠিক করুন।",
+      "description": "অতীত দেখুন, পরিকল্পনার সঙ্গে তুলনা করুন, প্রাসঙ্গিক সমজাতীয় ব্যবসা ও বাজারের প্রেক্ষাপট যোগ করুন, তারপর পরের সম্ভাবনা বিবেচনা করুন। Sundae এই বোঝাপড়াকে দলের দায়িত্বে থাকা কাজ ও ফল যাচাইয়ের সঙ্গে যুক্ত করে।",
+      "canonical": "https://www.sundae.io/bn/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    },
+    {
+      "locale": "th",
+      "route": "/architecture",
+      "heading": "จากบันทึกการดำเนินงาน สู่การตัดสินใจที่ทีมลงมือทำได้",
+      "description": "บันทึกที่เชื่อมต่อและเวิร์กโฟลว์ Crew เป็นฐานของตัวชี้วัดร่วมกัน Sundae ใช้ข้อเท็จจริงและบริบทที่เกี่ยวข้องอธิบายสิ่งที่ต้องใส่ใจ แล้วช่วยให้ทีมรับผิดชอบขั้นตอนต่อไปและทบทวนผล",
+      "canonical": "https://www.sundae.io/th/architecture",
+      "alternates": 23,
+      "stages": 5,
+      "sourceInputs": 2
+    },
+    {
+      "locale": "th",
+      "route": "/integrations",
+      "heading": "เก็บเครื่องมือที่ใช้ได้ดีไว้ เชื่อมบันทึกที่คุณต้องการ",
+      "description": "กำหนดบันทึก POS บุคลากร สต็อก การจัดซื้อ และลูกค้าที่จำเป็น ยืนยันแหล่งข้อมูล การเข้าถึง และการอัปเดตก่อนเริ่มใช้งาน",
+      "canonical": "https://www.sundae.io/th/integrations",
+      "alternates": 23,
+      "domains": 10,
+      "coverageNotes": 1,
+      "steps": 4
+    },
+    {
+      "locale": "th",
+      "route": "/4d-intelligence",
+      "heading": "เข้าใจสิ่งที่เปลี่ยนไป ตัดสินใจขั้นตอนต่อไป",
+      "description": "ทบทวนอดีต เปรียบเทียบกับแผน เพิ่มบริบทตลาดและธุรกิจใกล้เคียงที่เกี่ยวข้อง แล้วพิจารณาสิ่งที่อาจเกิดขึ้น Sundae เชื่อมความเข้าใจนี้กับงานที่ทีมรับผิดชอบและการตรวจสอบผล",
+      "canonical": "https://www.sundae.io/th/4d-intelligence",
+      "alternates": 23,
+      "taxonomy": [
+        "PAST",
+        "PLAN",
+        "PEERS",
+        "PREDICTED"
+      ],
+      "visibleScope": true
+    }
+  ],
+  "pageErrors": []
+}

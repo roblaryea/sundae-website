@@ -1,0 +1,66 @@
+[
+  {
+    "case": "Visible canonical scope and keyboard package continuation",
+    "display": "block",
+    "opacity": "1",
+    "hasHiddenAncestor": false,
+    "focused": true,
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(251, 247, 241) 0px 0px 0px 2px, rgb(255, 92, 77) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "href": "/core#packages",
+    "landed": "http://localhost:3154/core#packages"
+  },
+  {
+    "case": "Reduced motion",
+    "opacity": "1",
+    "transform": "none"
+  },
+  {
+    "case": "RTL source order and visual direction",
+    "dir": "rtl",
+    "titles": [
+      "اربط السجلات",
+      "كوّن مقاييس مشتركة",
+      "افهم ما يحتاج إلى انتباه",
+      "حدد مسؤولًا عن الخطوة التالية",
+      "راجع ما تغيّر"
+    ],
+    "positions": [
+      1126.40625,
+      864.8046875,
+      603.203125,
+      341.6015625,
+      80
+    ],
+    "arrowRotate": "180deg"
+  },
+  {
+    "case": "Mobile linear reading order",
+    "positions": [
+      {
+        "x": 24,
+        "y": -0.1484375
+      },
+      {
+        "x": 24,
+        "y": 270.4453125
+      },
+      {
+        "x": 24,
+        "y": 473.0390625
+      },
+      {
+        "x": 24,
+        "y": 675.6328125
+      },
+      {
+        "x": 24,
+        "y": 878.2265625
+      }
+    ]
+  },
+  {
+    "case": "Declared AI discovery feed",
+    "status": 200,
+    "modelAligned": true
+  }
+]

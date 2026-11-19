@@ -1,0 +1,57 @@
+{
+  "hydrated": [
+    {
+      "style": "opacity: 1; transform: none;",
+      "opacity": "1",
+      "transform": "none",
+      "reduce": true,
+      "rect": {
+        "x": 24,
+        "y": 164,
+        "width": 272,
+        "height": 638.0859375,
+        "top": 164,
+        "right": 296,
+        "bottom": 802.0859375,
+        "left": 24
+      }
+    },
+    {
+      "style": "opacity: 1; transform: none;",
+      "opacity": "1",
+      "transform": "none",
+      "reduce": true,
+      "rect": {
+        "x": 24,
+        "y": 164,
+        "width": 272,
+        "height": 638.0859375,
+        "top": 164,
+        "right": 296,
+        "bottom": 802.0859375,
+        "left": 24
+      }
+    },
+    {
+      "style": "opacity: 1; transform: none;",
+      "opacity": "1",
+      "transform": "none",
+      "reduce": true,
+      "rect": {
+        "x": 24,
+        "y": 164,
+        "width": 272,
+        "height": 638.0859375,
+        "top": 164,
+        "right": 296,
+        "bottom": 802.0859375,
+        "left": 24
+      }
+    }
+  ],
+  "noJavaScript": {
+    "style": "opacity:0;transform:translateY(18px)",
+    "opacity": "0",
+    "h1": "Van bedrijfsgegevens naar beslissingen die teams kunnen uitvoeren."
+  }
+}

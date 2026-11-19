@@ -1,0 +1,51 @@
+[
+  {
+    "locale": "nl",
+    "route": "/getting-started",
+    "motion": true,
+    "h1": "Begin met het werk\ndat u wilt verbeteren.",
+    "opacity": "1"
+  },
+  {
+    "locale": "nl",
+    "route": "/docs",
+    "motion": true,
+    "h1": "Vind het juiste startpunt\nvoor uw team.",
+    "opacity": "1"
+  },
+  {
+    "locale": "nl",
+    "route": "/architecture",
+    "motion": true,
+    "h1": "Van bedrijfsgegevens\nnaar beslissingen die teams kunnen uitvoeren.",
+    "opacity": "1"
+  },
+  {
+    "locale": "nl",
+    "route": "/integrations",
+    "motion": true,
+    "h1": "Behoud de tools die werken.\nKoppel de gegevens die u nodig heeft.",
+    "opacity": "1"
+  },
+  {
+    "locale": "nl",
+    "route": "/4d-intelligence",
+    "motion": true,
+    "h1": "Begrijp wat er veranderde.\nBepaal wat er volgt.",
+    "opacity": "1"
+  },
+  {
+    "locale": "de",
+    "route": "/architecture",
+    "motion": true,
+    "h1": "Von Betriebsdaten\nzu Entscheidungen, die Teams umsetzen können.",
+    "opacity": "1"
+  },
+  {
+    "locale": "ar",
+    "route": "/4d-intelligence",
+    "motion": true,
+    "h1": "افهم ما تغيّر.\nحدد الخطوة التالية.",
+    "opacity": "1"
+  }
+]

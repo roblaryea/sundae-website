@@ -1,0 +1,1817 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "route": "/architecture",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 594.453125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 726.453125,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Check your connections",
+          "width": 262.921875,
+          "height": 62
+        },
+        {
+          "text": "Explore Core\n→",
+          "width": 169.3515625,
+          "height": 50
+        },
+        {
+          "text": "Explore Crew\n→",
+          "width": 172.140625,
+          "height": 50
+        },
+        {
+          "text": "Explore the platform\n→",
+          "width": 224,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Security and data access",
+          "width": 269.3515625,
+          "height": 62
+        },
+        {
+          "text": "Read the GDPR guide\n→",
+          "width": 224.1796875,
+          "height": 48
+        }
+      ],
+      "h1": "From operating records\nto decisions teams can act on.",
+      "headings": [
+        {
+          "text": "From operating records\nto decisions teams can act on.",
+          "width": 1152,
+          "scrollWidth": 1152
+        },
+        {
+          "text": "The same facts, shaped for each team’s work.",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Connect the records",
+          "width": 233.59375,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Build shared metrics",
+          "width": 233.6015625,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Explain what needs attention",
+          "width": 233.6015625,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Give the next step an owner",
+          "width": 233.6015625,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Review what changed",
+          "width": 233.6015625,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Choose Core, Crew or both",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Sundae Core",
+          "width": 591,
+          "scrollWidth": 591
+        },
+        {
+          "text": "Sundae Crew",
+          "width": 592,
+          "scrollWidth": 592
+        },
+        {
+          "text": "Walk through the records behind one decision.",
+          "width": 896,
+          "scrollWidth": 896
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(246, 198, 107)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "route": "/integrations",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 561.953125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 693.953125,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Discuss your systems",
+          "width": 237.6796875,
+          "height": 60
+        },
+        {
+          "text": "See how Sundae connects the work",
+          "width": 354.6953125,
+          "height": 62
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Plan your rollout",
+          "width": 201.4921875,
+          "height": 62
+        }
+      ],
+      "h1": "Keep the tools that work.\nConnect the records you need.",
+      "headings": [
+        {
+          "text": "Keep the tools that work.\nConnect the records you need.",
+          "width": 1152,
+          "scrollWidth": 1152
+        },
+        {
+          "text": "Start with the systems behind your operating question.",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Agree the connection before the rollout.",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Systems and locations",
+          "width": 448,
+          "scrollWidth": 448
+        },
+        {
+          "text": "Records and access",
+          "width": 448,
+          "scrollWidth": 448
+        },
+        {
+          "text": "Refresh and checks",
+          "width": 448,
+          "scrollWidth": 448
+        },
+        {
+          "text": "Capability and scope",
+          "width": 448,
+          "scrollWidth": 448
+        },
+        {
+          "text": "Tell us what your team runs on.",
+          "width": 896,
+          "scrollWidth": 896
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(246, 198, 107)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.75)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "route": "/4d-intelligence",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 594.453125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 726.453125,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Explore Core",
+          "width": 173.09375,
+          "height": 62
+        },
+        {
+          "text": "Compare packages\n→",
+          "width": 213.1875,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Explore Core",
+          "width": 173.09375,
+          "height": 62
+        }
+      ],
+      "h1": "Know what changed.\nDecide what comes next.",
+      "headings": [
+        {
+          "text": "Know what changed.\nDecide what comes next.",
+          "width": 1152,
+          "scrollWidth": 1152
+        },
+        {
+          "text": "What happened?",
+          "width": 591,
+          "scrollWidth": 591
+        },
+        {
+          "text": "Where are we against plan?",
+          "width": 592,
+          "scrollWidth": 592
+        },
+        {
+          "text": "How do we compare?",
+          "width": 591,
+          "scrollWidth": 591
+        },
+        {
+          "text": "What could happen next?",
+          "width": 592,
+          "scrollWidth": 592
+        },
+        {
+          "text": "Package coverage",
+          "width": 1280,
+          "scrollWidth": 1280
+        },
+        {
+          "text": "Turn the explanation into work someone owns.",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Put one operating question through all four views.",
+          "width": 896,
+          "scrollWidth": 896
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(246, 198, 107)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "route": "/architecture",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 594.453125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 726.453125,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Check your connections",
+          "width": 262.921875,
+          "height": 62
+        },
+        {
+          "text": "Explore Core\n→",
+          "width": 169.3515625,
+          "height": 50
+        },
+        {
+          "text": "Explore Crew\n→",
+          "width": 172.140625,
+          "height": 50
+        },
+        {
+          "text": "Explore the platform\n→",
+          "width": 224,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Security and data access",
+          "width": 269.3515625,
+          "height": 62
+        },
+        {
+          "text": "Read the GDPR guide\n→",
+          "width": 224.1796875,
+          "height": 48
+        }
+      ],
+      "h1": "From operating records\nto decisions teams can act on.",
+      "headings": [
+        {
+          "text": "From operating records\nto decisions teams can act on.",
+          "width": 1152,
+          "scrollWidth": 1152
+        },
+        {
+          "text": "The same facts, shaped for each team’s work.",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Connect the records",
+          "width": 233.59375,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Build shared metrics",
+          "width": 233.6015625,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Explain what needs attention",
+          "width": 233.6015625,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Give the next step an owner",
+          "width": 233.6015625,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Review what changed",
+          "width": 233.6015625,
+          "scrollWidth": 234
+        },
+        {
+          "text": "Choose Core, Crew or both",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Sundae Core",
+          "width": 591,
+          "scrollWidth": 591
+        },
+        {
+          "text": "Sundae Crew",
+          "width": 592,
+          "scrollWidth": 592
+        },
+        {
+          "text": "Walk through the records behind one decision.",
+          "width": 896,
+          "scrollWidth": 896
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(152, 80, 28)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "route": "/integrations",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 561.953125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 693.953125,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Discuss your systems",
+          "width": 237.6796875,
+          "height": 60
+        },
+        {
+          "text": "See how Sundae connects the work",
+          "width": 354.6953125,
+          "height": 62
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Plan your rollout",
+          "width": 201.4921875,
+          "height": 62
+        }
+      ],
+      "h1": "Keep the tools that work.\nConnect the records you need.",
+      "headings": [
+        {
+          "text": "Keep the tools that work.\nConnect the records you need.",
+          "width": 1152,
+          "scrollWidth": 1152
+        },
+        {
+          "text": "Start with the systems behind your operating question.",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Agree the connection before the rollout.",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Systems and locations",
+          "width": 448,
+          "scrollWidth": 448
+        },
+        {
+          "text": "Records and access",
+          "width": 448,
+          "scrollWidth": 448
+        },
+        {
+          "text": "Refresh and checks",
+          "width": 448,
+          "scrollWidth": 448
+        },
+        {
+          "text": "Capability and scope",
+          "width": 448,
+          "scrollWidth": 448
+        },
+        {
+          "text": "Tell us what your team runs on.",
+          "width": 896,
+          "scrollWidth": 896
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(152, 80, 28)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.75)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "route": "/4d-intelligence",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 594.453125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 726.453125,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Explore Core",
+          "width": 173.09375,
+          "height": 62
+        },
+        {
+          "text": "Compare packages\n→",
+          "width": 213.1875,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Explore Core",
+          "width": 173.09375,
+          "height": 62
+        }
+      ],
+      "h1": "Know what changed.\nDecide what comes next.",
+      "headings": [
+        {
+          "text": "Know what changed.\nDecide what comes next.",
+          "width": 1152,
+          "scrollWidth": 1152
+        },
+        {
+          "text": "What happened?",
+          "width": 591,
+          "scrollWidth": 591
+        },
+        {
+          "text": "Where are we against plan?",
+          "width": 592,
+          "scrollWidth": 592
+        },
+        {
+          "text": "How do we compare?",
+          "width": 591,
+          "scrollWidth": 591
+        },
+        {
+          "text": "What could happen next?",
+          "width": 592,
+          "scrollWidth": 592
+        },
+        {
+          "text": "Package coverage",
+          "width": 1280,
+          "scrollWidth": 1280
+        },
+        {
+          "text": "Turn the explanation into work someone owns.",
+          "width": 896,
+          "scrollWidth": 896
+        },
+        {
+          "text": "Put one operating question through all four views.",
+          "width": 896,
+          "scrollWidth": 896
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(152, 80, 28)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "route": "/architecture",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 556.46875,
+        "top": 132,
+        "right": 390,
+        "bottom": 688.46875,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Check your connections",
+          "width": 262.921875,
+          "height": 62
+        },
+        {
+          "text": "Explore Core\n→",
+          "width": 169.3515625,
+          "height": 50
+        },
+        {
+          "text": "Explore Crew\n→",
+          "width": 172.140625,
+          "height": 50
+        },
+        {
+          "text": "Explore the platform\n→",
+          "width": 224,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Security and data access",
+          "width": 269.3515625,
+          "height": 62
+        },
+        {
+          "text": "Read the GDPR guide\n→",
+          "width": 224.1796875,
+          "height": 48
+        }
+      ],
+      "h1": "From operating records\nto decisions teams can act on.",
+      "headings": [
+        {
+          "text": "From operating records\nto decisions teams can act on.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "The same facts, shaped for each team’s work.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Connect the records",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Build shared metrics",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Explain what needs attention",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Give the next step an owner",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Review what changed",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Choose Core, Crew or both",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Sundae Core",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Sundae Crew",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Walk through the records behind one decision.",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(246, 198, 107)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "route": "/integrations",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 558.46875,
+        "top": 132,
+        "right": 390,
+        "bottom": 690.46875,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Discuss your systems",
+          "width": 237.6796875,
+          "height": 60
+        },
+        {
+          "text": "See how Sundae connects the work",
+          "width": 342,
+          "height": 90
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Plan your rollout",
+          "width": 201.4921875,
+          "height": 62
+        }
+      ],
+      "h1": "Keep the tools that work.\nConnect the records you need.",
+      "headings": [
+        {
+          "text": "Keep the tools that work.\nConnect the records you need.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Start with the systems behind your operating question.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Agree the connection before the rollout.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Systems and locations",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Records and access",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Refresh and checks",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Capability and scope",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Tell us what your team runs on.",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(246, 198, 107)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.75)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "route": "/4d-intelligence",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 485.234375,
+        "top": 132,
+        "right": 390,
+        "bottom": 617.234375,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Explore Core",
+          "width": 173.09375,
+          "height": 62
+        },
+        {
+          "text": "Compare packages\n→",
+          "width": 213.1875,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Explore Core",
+          "width": 173.09375,
+          "height": 62
+        }
+      ],
+      "h1": "Know what changed.\nDecide what comes next.",
+      "headings": [
+        {
+          "text": "Know what changed.\nDecide what comes next.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "What happened?",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Where are we against plan?",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "How do we compare?",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "What could happen next?",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Package coverage",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Turn the explanation into work someone owns.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Put one operating question through all four views.",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(246, 198, 107)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "route": "/architecture",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 556.46875,
+        "top": 132,
+        "right": 390,
+        "bottom": 688.46875,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Check your connections",
+          "width": 262.921875,
+          "height": 62
+        },
+        {
+          "text": "Explore Core\n→",
+          "width": 169.3515625,
+          "height": 50
+        },
+        {
+          "text": "Explore Crew\n→",
+          "width": 172.140625,
+          "height": 50
+        },
+        {
+          "text": "Explore the platform\n→",
+          "width": 224,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Security and data access",
+          "width": 269.3515625,
+          "height": 62
+        },
+        {
+          "text": "Read the GDPR guide\n→",
+          "width": 224.1796875,
+          "height": 48
+        }
+      ],
+      "h1": "From operating records\nto decisions teams can act on.",
+      "headings": [
+        {
+          "text": "From operating records\nto decisions teams can act on.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "The same facts, shaped for each team’s work.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Connect the records",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Build shared metrics",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Explain what needs attention",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Give the next step an owner",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Review what changed",
+          "width": 317,
+          "scrollWidth": 317
+        },
+        {
+          "text": "Choose Core, Crew or both",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Sundae Core",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Sundae Crew",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Walk through the records behind one decision.",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(152, 80, 28)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "route": "/integrations",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 558.46875,
+        "top": 132,
+        "right": 390,
+        "bottom": 690.46875,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Discuss your systems",
+          "width": 237.6796875,
+          "height": 60
+        },
+        {
+          "text": "See how Sundae connects the work",
+          "width": 342,
+          "height": 90
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Plan your rollout",
+          "width": 201.4921875,
+          "height": 62
+        }
+      ],
+      "h1": "Keep the tools that work.\nConnect the records you need.",
+      "headings": [
+        {
+          "text": "Keep the tools that work.\nConnect the records you need.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Start with the systems behind your operating question.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Agree the connection before the rollout.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Systems and locations",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Records and access",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Refresh and checks",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Capability and scope",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Tell us what your team runs on.",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(152, 80, 28)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.75)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "route": "/4d-intelligence",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "dir": "ltr",
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 485.234375,
+        "top": 132,
+        "right": 390,
+        "bottom": 617.234375,
+        "left": 0
+      },
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Explore Core",
+          "width": 173.09375,
+          "height": 62
+        },
+        {
+          "text": "Compare packages\n→",
+          "width": 213.1875,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Explore Core",
+          "width": 173.09375,
+          "height": 62
+        }
+      ],
+      "h1": "Know what changed.\nDecide what comes next.",
+      "headings": [
+        {
+          "text": "Know what changed.\nDecide what comes next.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "What happened?",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Where are we against plan?",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "How do we compare?",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "What could happen next?",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Package coverage",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Turn the explanation into work someone owns.",
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "text": "Put one operating question through all four views.",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "colors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "SPAN",
+          "color": "rgb(152, 80, 28)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "P",
+          "color": "rgb(132, 81, 40)"
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}
