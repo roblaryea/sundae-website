@@ -7,8 +7,8 @@ export function GuidanceReveal({ children, className = '' }: { children: ReactNo
   const reducedMotion = useReducedMotion();
   return (
     <motion.div
-      initial={reducedMotion ? false : { opacity: 0, y: 18 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={false}
+      whileInView={reducedMotion ? { opacity: 1, y: 0 } : { opacity: [0.92, 1], y: [12, 0] }}
       viewport={{ once: true, margin: '0px 0px 100px 0px' }}
       transition={{ duration: reducedMotion ? 0 : 0.45 }}
       className={className}
