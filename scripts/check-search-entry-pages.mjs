@@ -55,7 +55,7 @@ async function check(path) {
     const h1Markup = (headings[0]?.[1] || '').trim()
     if (headings.length !== 1 || !h1Markup) failures.push('Expected one nonempty server-rendered H1')
     let structuredDataCount = 0
-    for (const match of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)) {
+    for (const match of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\b[^>]*>/gi)) {
       if (attributes(match[1]).type !== 'application/ld+json') continue
       structuredDataCount += 1
       try { JSON.parse(match[2]) } catch { failures.push('Invalid structured-data JSON') }
