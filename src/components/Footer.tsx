@@ -46,6 +46,7 @@ type FooterResourceLink = FooterLink & {
 const Footer = () => {
   const { locale, messages } = useWebsiteI18n();
   const footer = messages.footer;
+  const brand = operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand;
   const nav = messages.navbar;
   const cta = useCta();
   const currentYear = new Date().getFullYear();
@@ -149,8 +150,10 @@ const Footer = () => {
                 <SundaeLogotype className="text-[24px] text-[var(--text-primary)]" />
               </span>
             </Link>
-            <p className="text-[var(--text-muted)] mb-5 max-w-xs text-sm leading-relaxed">
-              {operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.description}
+            <p className="text-[var(--text-muted)] mb-5 max-w-xs text-sm font-medium leading-relaxed">
+              <span className="block">{brand.homeHeadline}</span>{' '}
+              <span className="block">{brand.homeTagline}</span>{' '}
+              <span className="block">{brand.homeOutcome}</span>
             </p>
             <div className="flex items-center gap-3 text-[var(--text-muted)] text-xs mb-5">
               <span>{footer.global}</span>

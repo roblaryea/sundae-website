@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Manajemen Operasi untuk Hospitality dan Layanan Makanan",
-    "description": "Kelola shift, tenaga kerja, tugas, dan kinerja di seluruh operasi hospitality dan layanan makanan multi-lokasi. Hubungkan pekerjaan harian ke keputusan dan pemulihan profit yang terukur.",
+    "description": "Sundae menghubungkan tim, pekerjaan sehari-hari, dan data operasional Anda dengan konteks pasar untuk menjelaskan perubahan, memandu tindakan, dan mengukur laba yang Anda pulihkan.",
     "eyebrow": "Manajemen operasi untuk hospitality dan layanan makanan",
-    "sub": "Kelola staf dan pekerjaan harian dengan fakta yang sama tentang penjualan, biaya, dan permintaan. Sundae mengubah data operasi dan konteks pasar yang relevan menjadi kecerdasan yang menjelaskan prioritas, membantu setiap tim bertindak, dan melacak hasil di seluruh lokasi.",
+    "sub": "Sundae menghubungkan tim, pekerjaan sehari-hari, dan data operasional Anda dengan konteks pasar untuk menjelaskan perubahan, memandu tindakan, dan mengukur laba yang Anda pulihkan.",
     "productTitle": "Satu platform. Pekerjaan harian ke keputusan yang terukur.",
     "productDescription": "Satukan tenaga kerja, pelaksanaan shift, dan data operasi yang terhubung ke dalam satu gambaran operasi. Crew membantu tim menjalankan pekerjaan; Core membantu mereka memahami kinerja, memutuskan langkah selanjutnya dan mengukur hasilnya.",
     "coreDescription": "Ruang kerja keputusan untuk tim hospitality dan layanan makanan multi-lokasi. Hubungkan data operasi, periksa bukti, tugaskan tindakan berikutnya dan ukur hasilnya.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitality dan Layanan Makanan",
     "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
     "illustrationDisclosure": "Contoh ilustratif, bukan hasil pelanggan.",
-    "homeHeadline": "Lihat setiap lapisan.",
-    "homeTagline": "Bertindak tepat waktu.",
+    "homeHeadline": "Operasional terhubung.",
+    "homeTagline": "Keputusan berbasis informasi.",
     "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
     "crewHeadline": "Kelola tim Anda.",
     "crewTagline": "Jalankan shift.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Lihat shift berjalan.",
     "homeLiveTitleBottom": "Tahu langkah berikutnya.",
     "homeLiveSupport": "Sinyal penjualan, tenaga kerja, dan kebocoran secara langsung menunjukkan area perhatian saat shift masih berlangsung.",
-    "editorialSupport": "Satukan catatan shift, penjualan, dan biaya agar tim memahami perhatian, bertindak, dan memeriksa hasil."
+    "editorialSupport": "Satukan catatan shift, penjualan, dan biaya agar tim memahami perhatian, bertindak, dan memeriksa hasil.",
+    "homeOutcome": "Laba yang dipulihkan."
   },
   "shared": {
     "primaryCta": "Jadwalkan demo",

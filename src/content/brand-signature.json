@@ -1,0 +1,134 @@
+{
+  "en": {
+    "headline": "Connected Operations.",
+    "decision": "Informed Decisions.",
+    "outcome": "Recovered Profit.",
+    "support": "Sundae connects your teams, daily work and operating data with market context to explain what changed, guide action and measure what you recover."
+  },
+  "ar": {
+    "headline": "عمليات مترابطة.",
+    "decision": "قرارات مدروسة.",
+    "outcome": "أرباح مستردة.",
+    "support": "تربط Sundae فرقك والعمل اليومي وبيانات التشغيل بسياق السوق لتوضيح ما تغيّر، وتوجيه العمل وقياس ما تسترده من أرباح."
+  },
+  "fr": {
+    "headline": "Des opérations connectées.",
+    "decision": "Des décisions éclairées.",
+    "outcome": "Des profits récupérés.",
+    "support": "Sundae relie vos équipes, le travail quotidien et vos données opérationnelles au contexte du marché pour expliquer ce qui a changé, guider l’action et mesurer les profits récupérés."
+  },
+  "es": {
+    "headline": "Operaciones conectadas.",
+    "decision": "Decisiones informadas.",
+    "outcome": "Beneficios recuperados.",
+    "support": "Sundae conecta a tus equipos, el trabajo diario y los datos operativos con el contexto del mercado para explicar qué ha cambiado, orientar la acción y medir los beneficios que recuperas."
+  },
+  "de": {
+    "headline": "Vernetzte Abläufe.",
+    "decision": "Fundierte Entscheidungen.",
+    "outcome": "Zurückgewonnener Gewinn.",
+    "support": "Sundae verknüpft Ihre Teams, die tägliche Arbeit und Ihre Betriebsdaten mit dem Marktumfeld, um Veränderungen zu erklären, Maßnahmen zu leiten und zurückgewonnenen Gewinn zu messen."
+  },
+  "nl": {
+    "headline": "Verbonden processen.",
+    "decision": "Weloverwogen beslissingen.",
+    "outcome": "Teruggewonnen winst.",
+    "support": "Sundae verbindt je teams, het dagelijkse werk en je bedrijfsgegevens met de marktcontext om uit te leggen wat er is veranderd, acties te sturen en te meten hoeveel winst je terugwint."
+  },
+  "pt": {
+    "headline": "Operações conectadas.",
+    "decision": "Decisões informadas.",
+    "outcome": "Lucro recuperado.",
+    "support": "A Sundae conecta as suas equipas, o trabalho diário e os dados operacionais ao contexto do mercado para explicar o que mudou, orientar a ação e medir o lucro recuperado."
+  },
+  "hi": {
+    "headline": "जुड़े हुए संचालन।",
+    "decision": "जानकारी पर आधारित निर्णय।",
+    "outcome": "वापस पाया मुनाफ़ा।",
+    "support": "Sundae आपकी टीमों, रोज़ के काम और संचालन के डेटा को बाज़ार के संदर्भ से जोड़ता है, ताकि बदलावों को समझाया जा सके, कार्रवाई को दिशा मिले और वापस पाए मुनाफ़े को मापा जा सके।"
+  },
+  "ur": {
+    "headline": "مربوط آپریشنز۔",
+    "decision": "باخبر فیصلے۔",
+    "outcome": "واپس حاصل شدہ منافع۔",
+    "support": "Sundae آپ کی ٹیموں، روزمرہ کام اور آپریشنل ڈیٹا کو مارکیٹ کے تناظر سے جوڑتا ہے تاکہ واضح ہو کہ کیا بدلا، عملی اقدامات کی رہنمائی ہو اور واپس حاصل ہونے والے منافع کی پیمائش کی جا سکے۔"
+  },
+  "it": {
+    "headline": "Operazioni connesse.",
+    "decision": "Decisioni informate.",
+    "outcome": "Profitti recuperati.",
+    "support": "Sundae collega i tuoi team, il lavoro quotidiano e i dati operativi al contesto di mercato per spiegare cosa è cambiato, guidare l’azione e misurare i profitti recuperati."
+  },
+  "pl": {
+    "headline": "Połączone operacje.",
+    "decision": "Świadome decyzje.",
+    "outcome": "Odzyskany zysk.",
+    "support": "Sundae łączy Twoje zespoły, codzienną pracę i dane operacyjne z kontekstem rynkowym, aby wyjaśniać zmiany, wskazywać działania i mierzyć odzyskany zysk."
+  },
+  "tr": {
+    "headline": "Bağlantılı operasyonlar.",
+    "decision": "Bilgiye dayalı kararlar.",
+    "outcome": "Geri kazanılan kâr.",
+    "support": "Sundae, neyin değiştiğini açıklamak, eylemlere yön vermek ve geri kazandığınız kârı ölçmek için ekiplerinizi, günlük işleri ve operasyonel verileri pazar bağlamıyla birleştirir."
+  },
+  "zh-Hans": {
+    "headline": "运营互联。",
+    "decision": "决策有据。",
+    "outcome": "挽回利润。",
+    "support": "Sundae 将您的团队、日常工作和运营数据与市场背景相结合，解释变化、指导行动，并衡量挽回的利润。"
+  },
+  "ja": {
+    "headline": "つながる現場。",
+    "decision": "根拠ある判断。",
+    "outcome": "取り戻す利益。",
+    "support": "Sundaeは、チーム、日々の業務、運営データを市場の動向と結び付け、何が変わったかを説明し、行動を導き、取り戻した利益を測定します。"
+  },
+  "ko": {
+    "headline": "연결된 운영.",
+    "decision": "근거 있는 의사결정.",
+    "outcome": "되찾은 이익.",
+    "support": "Sundae는 팀, 일상 업무, 운영 데이터를 시장 상황과 연결해 무엇이 달라졌는지 설명하고, 실행 방향을 제시하며, 되찾은 이익을 측정합니다."
+  },
+  "id": {
+    "headline": "Operasional terhubung.",
+    "decision": "Keputusan berbasis informasi.",
+    "outcome": "Laba yang dipulihkan.",
+    "support": "Sundae menghubungkan tim, pekerjaan sehari-hari, dan data operasional Anda dengan konteks pasar untuk menjelaskan perubahan, memandu tindakan, dan mengukur laba yang Anda pulihkan."
+  },
+  "vi": {
+    "headline": "Vận hành kết nối.",
+    "decision": "Quyết định có cơ sở.",
+    "outcome": "Lợi nhuận được khôi phục.",
+    "support": "Sundae kết nối đội ngũ, công việc hằng ngày và dữ liệu vận hành của bạn với bối cảnh thị trường để giải thích những thay đổi, định hướng hành động và đo lường lợi nhuận khôi phục được."
+  },
+  "ro": {
+    "headline": "Operațiuni conectate.",
+    "decision": "Decizii informate.",
+    "outcome": "Profit recuperat.",
+    "support": "Sundae conectează echipele, activitatea zilnică și datele operaționale cu contextul pieței pentru a explica ce s-a schimbat, a ghida acțiunile și a măsura profitul recuperat."
+  },
+  "sv": {
+    "headline": "Sammanlänkad drift.",
+    "decision": "Välgrundade beslut.",
+    "outcome": "Återvunnen vinst.",
+    "support": "Sundae kopplar samman dina team, det dagliga arbetet och driftdata med marknadsläget för att förklara vad som har förändrats, vägleda insatser och mäta den vinst du återvinner."
+  },
+  "bn": {
+    "headline": "সংযুক্ত কার্যক্রম।",
+    "decision": "তথ্যভিত্তিক সিদ্ধান্ত।",
+    "outcome": "পুনরুদ্ধার করা মুনাফা।",
+    "support": "কী বদলেছে তা ব্যাখ্যা করতে, পদক্ষেপের দিকনির্দেশ দিতে এবং পুনরুদ্ধার করা মুনাফা পরিমাপ করতে Sundae আপনার দল, দৈনন্দিন কাজ ও পরিচালনগত ডেটাকে বাজারের প্রেক্ষাপটের সঙ্গে যুক্ত করে।"
+  },
+  "th": {
+    "headline": "การดำเนินงานที่เชื่อมถึงกัน",
+    "decision": "การตัดสินใจบนข้อมูล",
+    "outcome": "กำไรที่กู้คืนได้",
+    "support": "Sundae เชื่อมทีม งานประจำวัน และข้อมูลการดำเนินงานเข้ากับบริบทตลาด เพื่ออธิบายสิ่งที่เปลี่ยนไป ชี้แนวทางลงมือทำ และวัดกำไรที่คุณกู้คืนได้"
+  },
+  "ms": {
+    "headline": "Operasi yang terhubung.",
+    "decision": "Keputusan berasaskan maklumat.",
+    "outcome": "Keuntungan yang dipulihkan.",
+    "support": "Sundae menghubungkan pasukan, kerja harian dan data operasi anda dengan konteks pasaran untuk menjelaskan perubahan, membimbing tindakan dan mengukur keuntungan yang anda pulihkan."
+  }
+}

@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Zarządzanie operacjami w gastronomii i usługach żywieniowych",
-    "description": "Zarządzaj zmianami, personelem, zadaniami i wynikami w wielolokalnych operacjach gastronomicznych i żywieniowych. Połącz codzienną pracę z decyzjami i mierzalnym odzyskiem zysku.",
+    "description": "Sundae łączy Twoje zespoły, codzienną pracę i dane operacyjne z kontekstem rynkowym, aby wyjaśniać zmiany, wskazywać działania i mierzyć odzyskany zysk.",
     "eyebrow": "Zarządzanie operacyjne dla gastronomii i food service",
-    "sub": "Zarządzaj ludźmi i codzienną pracą na wspólnej podstawie danych o sprzedaży, kosztach i popycie. Sundae zmienia dane operacyjne i istotny kontekst rynkowy w inteligentną analizę, która wyjaśnia priorytety, pomaga zespołom działać i śledzi wyniki w lokalach.",
+    "sub": "Sundae łączy Twoje zespoły, codzienną pracę i dane operacyjne z kontekstem rynkowym, aby wyjaśniać zmiany, wskazywać działania i mierzyć odzyskany zysk.",
     "productTitle": "Jedna platforma. Codzienna praca do mierzalnych decyzji.",
     "productDescription": "Złącz zasoby ludzkie, realizację zmian i powiązane dane operacyjne w jeden obraz operacyjny. Crew pomaga zespołom wykonać pracę; Core pomaga zrozumieć wyniki, zdecydować, co dalej, i zmierzyć rezultat.",
     "coreDescription": "Przestrzeń decyzyjna dla wielolokalnych zespołów gastronomii i usług żywieniowych. Połącz dane operacyjne, zbadaj dowody, przypisz kolejne działanie i zmierz wynik.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Przestrzeń decyzyjna dla gastronomii i usług żywieniowych",
     "crewMetaTitle": "Sundae Crew | Zarządzanie personelem i codzienne operacje",
     "illustrationDisclosure": "Przykład ilustracyjny, nie wynik klienta.",
-    "homeHeadline": "Zobacz każdą warstwę.",
-    "homeTagline": "Działaj na czas.",
+    "homeHeadline": "Połączone operacje.",
+    "homeTagline": "Świadome decyzje.",
     "coreHeadline": "Lepsze decyzje. Namierzalne efekty.",
     "crewHeadline": "Zarządzaj zespołem.",
     "crewTagline": "Prowadź zmianę.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Zobacz przebieg zmiany.",
     "homeLiveTitleBottom": "Wiedz, co zrobić dalej.",
     "homeLiveSupport": "Sygnały sprzedaży, personelu i strat na żywo pokazują, gdzie potrzebna jest uwaga podczas trwającej zmiany.",
-    "editorialSupport": "Połącz zapisy zmian, sprzedaż i koszty, by zespoły rozumiały, co wymaga uwagi, działały i sprawdzały wynik."
+    "editorialSupport": "Połącz zapisy zmian, sprzedaż i koszty, by zespoły rozumiały, co wymaga uwagi, działały i sprawdzały wynik.",
+    "homeOutcome": "Odzyskany zysk."
   },
   "shared": {
     "primaryCta": "Umów prezentację",

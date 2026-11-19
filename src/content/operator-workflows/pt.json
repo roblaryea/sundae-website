@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Gestão de Operações para Hospitalidade e Food-Service",
-    "description": "Gerencie turnos, equipe, tarefas e desempenho em operações de hospitalidade e food-service com várias unidades. Conecte o trabalho diário às decisões e à recuperação de lucro mensurável.",
+    "description": "A Sundae conecta as suas equipas, o trabalho diário e os dados operacionais ao contexto do mercado para explicar o que mudou, orientar a ação e medir o lucro recuperado.",
     "eyebrow": "Gestão de operações para hotelaria e restauração",
-    "sub": "Gerencie pessoas e trabalho diário com os mesmos dados de vendas, custos e demanda. A Sundae transforma seus dados operacionais e o contexto de mercado relevante em inteligência que explica o que precisa de atenção, ajuda cada equipe a agir e acompanha os resultados entre unidades.",
+    "sub": "A Sundae conecta as suas equipas, o trabalho diário e os dados operacionais ao contexto do mercado para explicar o que mudou, orientar a ação e medir o lucro recuperado.",
     "productTitle": "Uma plataforma. Do trabalho diário às decisões mensuráveis.",
     "productDescription": "Reúna equipe, execução de turno e dados operacionais conectados em uma única visão operacional. Crew ajuda as equipes a executar o trabalho; Core ajuda a entender o desempenho, decidir o próximo passo e medir o resultado.",
     "coreDescription": "O espaço de decisão para equipes de hospitalidade e food-service com várias unidades. Conecte dados operacionais, inspecione as evidências, atribua a próxima ação e meça o resultado.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Espaço de Decisão para Hospitalidade e Food-Service",
     "crewMetaTitle": "Sundae Crew | Equipe e Operações Diárias",
     "illustrationDisclosure": "Exemplo ilustrativo, não um resultado de cliente.",
-    "homeHeadline": "Veja cada camada.",
-    "homeTagline": "Aja a tempo.",
+    "homeHeadline": "Operações conectadas.",
+    "homeTagline": "Decisões informadas.",
     "coreHeadline": "Decisões melhores. Resultados mensuráveis.",
     "crewHeadline": "Cuide da sua equipe.",
     "crewTagline": "Execute o turno.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Veja o turno a acontecer.",
     "homeLiveTitleBottom": "Saiba o próximo passo.",
     "homeLiveSupport": "Sinais ao vivo de vendas, pessoal e perdas mostram onde é preciso atenção enquanto o turno decorre.",
-    "editorialSupport": "Junte registos de turnos, vendas e custos para entender o que precisa de atenção, agir e verificar o resultado."
+    "editorialSupport": "Junte registos de turnos, vendas e custos para entender o que precisa de atenção, agir e verificar o resultado.",
+    "homeOutcome": "Lucro recuperado."
   },
   "shared": {
     "primaryCta": "Agendar demonstração",

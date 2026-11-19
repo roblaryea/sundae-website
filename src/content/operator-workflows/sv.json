@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Verksamhetsstyrning för hotell- och matservice",
-    "description": "Hantera scheman, personal, uppgifter och resultat över flerlokala hotell- och matserviceverksamheter. Knyt dagligt arbete till beslut och mätbar återvunnen vinst.",
+    "description": "Sundae kopplar samman dina team, det dagliga arbetet och driftdata med marknadsläget för att förklara vad som har förändrats, vägleda insatser och mäta den vinst du återvinner.",
     "eyebrow": "Operativ styrning för hotell, restaurang och foodservice",
-    "sub": "Led personal och dagligt arbete med samma fakta om försäljning, kostnader och efterfrågan. Sundae omvandlar driftdata och relevant marknadskontext till intelligens som förklarar vad som behöver uppmärksamhet, hjälper varje team att agera och följer resultatet mellan enheter.",
+    "sub": "Sundae kopplar samman dina team, det dagliga arbetet och driftdata med marknadsläget för att förklara vad som har förändrats, vägleda insatser och mäta den vinst du återvinner.",
     "productTitle": "En plattform. Dagligt arbete till mätbara beslut.",
     "productDescription": "Samla personal, skiftsgenomförande och kopplade driftdata i en gemensam driftbild. Crew hjälper teamen att utföra arbetet; Core hjälper dem att förstå prestationen, besluta vad som ska göras härnäst och mäta resultatet.",
     "coreDescription": "Beslutsarbetsytan för flerlokala hotell- och matserviceteam. Koppla driftdata, granska bevisen, tilldela nästa åtgärd och mäta utfallet.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Beslutsarbetsyta för hotell- och matservice",
     "crewMetaTitle": "Sundae Crew | Personal och daglig drift",
     "illustrationDisclosure": "Illustrativt exempel, inte ett kundresultat.",
-    "homeHeadline": "Se varje lager.",
-    "homeTagline": "Agera i tid.",
+    "homeHeadline": "Sammanlänkad drift.",
+    "homeTagline": "Välgrundade beslut.",
     "coreHeadline": "Bättre beslut. Mätbara resultat.",
     "crewHeadline": "Hantera ditt team.",
     "crewTagline": "Kör passet.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Se skiftet utvecklas.",
     "homeLiveTitleBottom": "Vet vad som händer sedan.",
     "homeLiveSupport": "Live-signaler för försäljning, personal och svinn visar var uppmärksamhet behövs medan skiftet pågår.",
-    "editorialSupport": "Samla skiftanteckningar, försäljning och kostnader så att team förstår vad som kräver uppmärksamhet, agerar och kontrollerar resultatet."
+    "editorialSupport": "Samla skiftanteckningar, försäljning och kostnader så att team förstår vad som kräver uppmärksamhet, agerar och kontrollerar resultatet.",
+    "homeOutcome": "Återvunnen vinst."
   },
   "shared": {
     "primaryCta": "Boka en genomgång",
