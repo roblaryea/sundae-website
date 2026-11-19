@@ -1,0 +1,1021 @@
+{
+  "rows": [
+    {
+      "locale": "nl",
+      "width": 1440,
+      "theme": "dark",
+      "route": "/getting-started",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "height": 5022.59375,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 594.453125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 726.453125,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Thuis",
+          "width": 65.28125,
+          "height": 44
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Bekijk schatting",
+          "width": 194.140625,
+          "height": 62
+        },
+        {
+          "text": "Boek een walkthrough\n→",
+          "width": 189.3671875,
+          "height": 44
+        },
+        {
+          "text": "Bekijk schatting\n→",
+          "width": 142.0546875,
+          "height": 44
+        },
+        {
+          "text": "Controleer uw koppelingen\n→",
+          "width": 224.078125,
+          "height": 44
+        },
+        {
+          "text": "Open op volledig formaat ↗",
+          "width": 175.140625,
+          "height": 44
+        },
+        {
+          "text": "Verken Core →",
+          "width": 160.78125,
+          "height": 50
+        },
+        {
+          "text": "Verken Crew →",
+          "width": 163.5703125,
+          "height": 50
+        },
+        {
+          "text": "Verken het platform →",
+          "width": 215.3828125,
+          "height": 50
+        },
+        {
+          "text": "Bekijk schatting →",
+          "width": 184.2109375,
+          "height": 50
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Start de diagnose\n→",
+          "width": 154.453125,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "theme": "dark",
+      "route": "/docs",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "height": 2315.703125,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 561.953125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 693.953125,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Thuis",
+          "width": 65.28125,
+          "height": 44
+        },
+        {
+          "text": "Plan uw invoering",
+          "width": 206.4765625,
+          "height": 60
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 247.359375,
+          "height": 62
+        },
+        {
+          "text": "Aan de slag\n→",
+          "width": 115.546875,
+          "height": 44
+        },
+        {
+          "text": "Verken Core\n→",
+          "width": 122.625,
+          "height": 44
+        },
+        {
+          "text": "Verken Crew\n→",
+          "width": 125.4140625,
+          "height": 44
+        },
+        {
+          "text": "Verken integraties\n→",
+          "width": 163.5234375,
+          "height": 44
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Lees veelgestelde vragen",
+          "width": 269.9765625,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "theme": "light",
+      "route": "/getting-started",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "height": 5022.59375,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 594.453125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 726.453125,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Thuis",
+          "width": 65.28125,
+          "height": 44
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Bekijk schatting",
+          "width": 194.140625,
+          "height": 62
+        },
+        {
+          "text": "Boek een walkthrough\n→",
+          "width": 189.3671875,
+          "height": 44
+        },
+        {
+          "text": "Bekijk schatting\n→",
+          "width": 142.0546875,
+          "height": 44
+        },
+        {
+          "text": "Controleer uw koppelingen\n→",
+          "width": 224.078125,
+          "height": 44
+        },
+        {
+          "text": "Open op volledig formaat ↗",
+          "width": 175.140625,
+          "height": 44
+        },
+        {
+          "text": "Verken Core →",
+          "width": 160.78125,
+          "height": 50
+        },
+        {
+          "text": "Verken Crew →",
+          "width": 163.5703125,
+          "height": 50
+        },
+        {
+          "text": "Verken het platform →",
+          "width": 215.3828125,
+          "height": 50
+        },
+        {
+          "text": "Bekijk schatting →",
+          "width": 184.2109375,
+          "height": 50
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Start de diagnose\n→",
+          "width": 154.453125,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        }
+      ]
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "theme": "light",
+      "route": "/docs",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "height": 2315.703125,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 561.953125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 693.953125,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Thuis",
+          "width": 65.28125,
+          "height": 44
+        },
+        {
+          "text": "Plan uw invoering",
+          "width": 206.4765625,
+          "height": 60
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 247.359375,
+          "height": 62
+        },
+        {
+          "text": "Aan de slag\n→",
+          "width": 115.546875,
+          "height": 44
+        },
+        {
+          "text": "Verken Core\n→",
+          "width": 122.625,
+          "height": 44
+        },
+        {
+          "text": "Verken Crew\n→",
+          "width": 125.4140625,
+          "height": 44
+        },
+        {
+          "text": "Verken integraties\n→",
+          "width": 163.5234375,
+          "height": 44
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Lees veelgestelde vragen",
+          "width": 269.9765625,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "theme": "dark",
+      "route": "/getting-started",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "height": 6892.984375,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 501.484375,
+        "top": 132,
+        "right": 390,
+        "bottom": 633.484375,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Thuis",
+          "width": 65.28125,
+          "height": 44
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Bekijk schatting",
+          "width": 194.140625,
+          "height": 62
+        },
+        {
+          "text": "Boek een walkthrough\n→",
+          "width": 189.3671875,
+          "height": 44
+        },
+        {
+          "text": "Bekijk schatting\n→",
+          "width": 142.0546875,
+          "height": 44
+        },
+        {
+          "text": "Controleer uw koppelingen\n→",
+          "width": 224.078125,
+          "height": 44
+        },
+        {
+          "text": "Open op volledig formaat ↗",
+          "width": 175.140625,
+          "height": 44
+        },
+        {
+          "text": "Verken Core →",
+          "width": 160.78125,
+          "height": 50
+        },
+        {
+          "text": "Verken Crew →",
+          "width": 163.5703125,
+          "height": 50
+        },
+        {
+          "text": "Verken het platform →",
+          "width": 215.3828125,
+          "height": 50
+        },
+        {
+          "text": "Bekijk schatting →",
+          "width": 184.2109375,
+          "height": 50
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Start de diagnose\n→",
+          "width": 154.453125,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "theme": "dark",
+      "route": "/docs",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "height": 2862.3515625,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 507.8515625,
+        "top": 132,
+        "right": 390,
+        "bottom": 639.8515625,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Thuis",
+          "width": 65.28125,
+          "height": 44
+        },
+        {
+          "text": "Plan uw invoering",
+          "width": 206.4765625,
+          "height": 60
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 247.359375,
+          "height": 62
+        },
+        {
+          "text": "Aan de slag\n→",
+          "width": 115.546875,
+          "height": 44
+        },
+        {
+          "text": "Verken Core\n→",
+          "width": 122.625,
+          "height": 44
+        },
+        {
+          "text": "Verken Crew\n→",
+          "width": 125.4140625,
+          "height": 44
+        },
+        {
+          "text": "Verken integraties\n→",
+          "width": 163.5234375,
+          "height": 44
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Lees veelgestelde vragen",
+          "width": 269.9765625,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "theme": "light",
+      "route": "/getting-started",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "height": 6892.984375,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 501.484375,
+        "top": 132,
+        "right": 390,
+        "bottom": 633.484375,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Thuis",
+          "width": 65.28125,
+          "height": 44
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Bekijk schatting",
+          "width": 194.140625,
+          "height": 62
+        },
+        {
+          "text": "Boek een walkthrough\n→",
+          "width": 189.3671875,
+          "height": 44
+        },
+        {
+          "text": "Bekijk schatting\n→",
+          "width": 142.0546875,
+          "height": 44
+        },
+        {
+          "text": "Controleer uw koppelingen\n→",
+          "width": 224.078125,
+          "height": 44
+        },
+        {
+          "text": "Open op volledig formaat ↗",
+          "width": 175.140625,
+          "height": 44
+        },
+        {
+          "text": "Verken Core →",
+          "width": 160.78125,
+          "height": 50
+        },
+        {
+          "text": "Verken Crew →",
+          "width": 163.5703125,
+          "height": 50
+        },
+        {
+          "text": "Verken het platform →",
+          "width": 215.3828125,
+          "height": 50
+        },
+        {
+          "text": "Bekijk schatting →",
+          "width": 184.2109375,
+          "height": 50
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Start de diagnose\n→",
+          "width": 154.453125,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        }
+      ]
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "theme": "light",
+      "route": "/docs",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "height": 2862.3515625,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 507.8515625,
+        "top": 132,
+        "right": 390,
+        "bottom": 639.8515625,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Thuis",
+          "width": 65.28125,
+          "height": 44
+        },
+        {
+          "text": "Plan uw invoering",
+          "width": 206.4765625,
+          "height": 60
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 247.359375,
+          "height": 62
+        },
+        {
+          "text": "Aan de slag\n→",
+          "width": 115.546875,
+          "height": 44
+        },
+        {
+          "text": "Verken Core\n→",
+          "width": 122.625,
+          "height": 44
+        },
+        {
+          "text": "Verken Crew\n→",
+          "width": 125.4140625,
+          "height": 44
+        },
+        {
+          "text": "Verken integraties\n→",
+          "width": 163.5234375,
+          "height": 44
+        },
+        {
+          "text": "Boek een walkthrough",
+          "width": 245.359375,
+          "height": 60
+        },
+        {
+          "text": "Lees veelgestelde vragen",
+          "width": 269.9765625,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}

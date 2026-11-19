@@ -1,0 +1,28 @@
+[
+  {
+    "case": "Keyboard guide navigation",
+    "isFocused": true,
+    "outline": "solid",
+    "width": "2.5px",
+    "href": "/core",
+    "landed": "http://localhost:3153/core"
+  },
+  {
+    "case": "Reduced motion",
+    "opacity": "1",
+    "transform": "none"
+  },
+  {
+    "case": "Mobile proof keyboard pan",
+    "scrollLeft": 40,
+    "scrollWidth": 900,
+    "clientWidth": 340,
+    "focusable": true
+  },
+  {
+    "case": "RTL direction",
+    "dir": "rtl",
+    "transform": "none",
+    "rotate": "180deg"
+  }
+]

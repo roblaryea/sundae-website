@@ -1,0 +1,513 @@
+{
+  "rows": [
+    {
+      "locale": "de",
+      "width": 320,
+      "theme": "dark",
+      "route": "/getting-started",
+      "scrollWidth": 320,
+      "viewport": 320,
+      "height": 8187.96875,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 320,
+        "height": 687.21875,
+        "top": 132,
+        "right": 320,
+        "bottom": 819.21875,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Startseite",
+          "width": 91.9765625,
+          "height": 44
+        },
+        {
+          "text": "Einen Walkthrough buchen",
+          "width": 272,
+          "height": 88
+        },
+        {
+          "text": "Kostenschätzung ansehen",
+          "width": 272,
+          "height": 90
+        },
+        {
+          "text": "Einen Walkthrough buchen\n→",
+          "width": 222.1953125,
+          "height": 44
+        },
+        {
+          "text": "Kostenschätzung ansehen\n→",
+          "width": 215.625,
+          "height": 44
+        },
+        {
+          "text": "Verbindungen prüfen\n→",
+          "width": 179.8046875,
+          "height": 44
+        },
+        {
+          "text": "In voller Größe öffnen ↗",
+          "width": 153.4609375,
+          "height": 44
+        },
+        {
+          "text": "Core erkunden →",
+          "width": 178.734375,
+          "height": 50
+        },
+        {
+          "text": "Crew erkunden →",
+          "width": 181.5234375,
+          "height": 50
+        },
+        {
+          "text": "Plattform erkunden →",
+          "width": 211.3203125,
+          "height": 50
+        },
+        {
+          "text": "Kostenschätzung ansehen →",
+          "width": 257.78125,
+          "height": 50
+        },
+        {
+          "text": "Einen Walkthrough buchen",
+          "width": 272,
+          "height": 88
+        },
+        {
+          "text": "Diagnose starten\n→",
+          "width": 150.203125,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "theme": "dark",
+      "route": "/docs",
+      "scrollWidth": 320,
+      "viewport": 320,
+      "height": 3232.96875,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 320,
+        "height": 600.71875,
+        "top": 132,
+        "right": 320,
+        "bottom": 732.71875,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Startseite",
+          "width": 91.9765625,
+          "height": 44
+        },
+        {
+          "text": "Einführung planen",
+          "width": 211.7734375,
+          "height": 60
+        },
+        {
+          "text": "Einen Walkthrough buchen",
+          "width": 272,
+          "height": 90
+        },
+        {
+          "text": "Erste Schritte\n→",
+          "width": 130.84375,
+          "height": 44
+        },
+        {
+          "text": "Core erkunden\n→",
+          "width": 140.578125,
+          "height": 44
+        },
+        {
+          "text": "Crew erkunden\n→",
+          "width": 143.3671875,
+          "height": 44
+        },
+        {
+          "text": "Integrationen erkunden\n→",
+          "width": 201.296875,
+          "height": 44
+        },
+        {
+          "text": "Einen Walkthrough buchen",
+          "width": 272,
+          "height": 88
+        },
+        {
+          "text": "Häufige Fragen lesen",
+          "width": 234.671875,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "theme": "light",
+      "route": "/getting-started",
+      "scrollWidth": 320,
+      "viewport": 320,
+      "height": 8187.96875,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 320,
+        "height": 687.21875,
+        "top": 132,
+        "right": 320,
+        "bottom": 819.21875,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Startseite",
+          "width": 91.9765625,
+          "height": 44
+        },
+        {
+          "text": "Einen Walkthrough buchen",
+          "width": 272,
+          "height": 88
+        },
+        {
+          "text": "Kostenschätzung ansehen",
+          "width": 272,
+          "height": 90
+        },
+        {
+          "text": "Einen Walkthrough buchen\n→",
+          "width": 222.1953125,
+          "height": 44
+        },
+        {
+          "text": "Kostenschätzung ansehen\n→",
+          "width": 215.625,
+          "height": 44
+        },
+        {
+          "text": "Verbindungen prüfen\n→",
+          "width": 179.8046875,
+          "height": 44
+        },
+        {
+          "text": "In voller Größe öffnen ↗",
+          "width": 153.4609375,
+          "height": 44
+        },
+        {
+          "text": "Core erkunden →",
+          "width": 178.734375,
+          "height": 50
+        },
+        {
+          "text": "Crew erkunden →",
+          "width": 181.5234375,
+          "height": 50
+        },
+        {
+          "text": "Plattform erkunden →",
+          "width": 211.3203125,
+          "height": 50
+        },
+        {
+          "text": "Kostenschätzung ansehen →",
+          "width": 257.78125,
+          "height": 50
+        },
+        {
+          "text": "Einen Walkthrough buchen",
+          "width": 272,
+          "height": 88
+        },
+        {
+          "text": "Diagnose starten\n→",
+          "width": 150.203125,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        }
+      ]
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "theme": "light",
+      "route": "/docs",
+      "scrollWidth": 320,
+      "viewport": 320,
+      "height": 3232.96875,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 320,
+        "height": 600.71875,
+        "top": 132,
+        "right": 320,
+        "bottom": 732.71875,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Startseite",
+          "width": 91.9765625,
+          "height": 44
+        },
+        {
+          "text": "Einführung planen",
+          "width": 211.7734375,
+          "height": 60
+        },
+        {
+          "text": "Einen Walkthrough buchen",
+          "width": 272,
+          "height": 90
+        },
+        {
+          "text": "Erste Schritte\n→",
+          "width": 130.84375,
+          "height": 44
+        },
+        {
+          "text": "Core erkunden\n→",
+          "width": 140.578125,
+          "height": 44
+        },
+        {
+          "text": "Crew erkunden\n→",
+          "width": 143.3671875,
+          "height": 44
+        },
+        {
+          "text": "Integrationen erkunden\n→",
+          "width": 201.296875,
+          "height": 44
+        },
+        {
+          "text": "Einen Walkthrough buchen",
+          "width": 272,
+          "height": 88
+        },
+        {
+          "text": "Häufige Fragen lesen",
+          "width": 234.671875,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}
