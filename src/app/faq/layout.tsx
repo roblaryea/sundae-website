@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { buildResolvedPageMetadata } from '@/lib/solutionPageMetadata';
+import faqCopyByLocale from '@/content/support-faq.json';
 import { cookies } from "next/headers";
 import { getWebsiteMessages, resolveWebsiteLocale, type WebsiteMessages } from "@/lib/i18n";
 import { getLocalizedFaqSections } from "@/content/faqContent";
@@ -7,10 +9,12 @@ export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = await cookies();
   const locale = resolveWebsiteLocale(cookieStore);
   const messages = (getWebsiteMessages(locale) as WebsiteMessages).pages.faq;
-  return {
-    title: messages.metadataTitle.replace(/\s*-\s*Sundae$/i, ""),
-    description: messages.metadataDescription,
-  };
+  return buildResolvedPageMetadata({
+    locale,
+    pathname: '/faq',
+    title: messages.metadataTitle,
+    description: faqCopyByLocale[locale as keyof typeof faqCopyByLocale].heroBody,
+  });
 }
 
 function toPlainText(value: string): string {

@@ -1,0 +1,6 @@
+/* Keep native fragment navigation, without smooth scrolling when motion is reduced. */
+@media (prefers-reduced-motion: reduce) {
+  html:has([data-faq-page]) {
+    scroll-behavior: auto;
+  }
+}
