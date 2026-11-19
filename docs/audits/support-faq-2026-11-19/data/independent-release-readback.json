@@ -1,0 +1,31 @@
+{
+  "time": "2026-11-19T13:34:23.513057+00:00",
+  "receiver": "http://localhost:3155",
+  "independentVisualThemeDeviceCases": 5,
+  "locales": [
+    "en",
+    "nl",
+    "de",
+    "ar"
+  ],
+  "expandedAnswerReadbacks": 105,
+  "UIQuestions": 53,
+  "selectedSchemaQuestions": 26,
+  "applicationErrors": 0,
+  "passed": [
+    "Unchanged53Englishquestiontitleinventory",
+    "26selectedvisible/schemaanswerparityinEN/NL/AR",
+    "SingleH1/localizednormalandsocialmetadata/canonical23alternates",
+    "Purposefulwarmbrandcolorhierarchyandbothactualthemes",
+    "Noheading/documentoverflow",
+    "Language-onlysimulatoranchors/norawpricequotes",
+    "Sample-operationnotebelowclosingdemo",
+    "RealNLkeyboardcategoryjump,112pxheaderoffset,3pxvisiblefocus,Spaceexpand",
+    "Actualclosingdemoroutes/nl/demo",
+    "DefaultAccordionItemsourceuntouched"
+  ],
+  "sourceFingerprintFile": "accepted-source-fingerprints.json",
+  "release": "Awaiting exact frozen source/PR and required hosted checks",
+  "application": "eed6ed8a7ae8456c597a83ddbbdaaa00a9a6c814",
+  "sourceBinding": "All6committedsourcefilesSHA256identicaltoindependentlyacceptedreceiver;noadditionalsourcefiles"
+}
