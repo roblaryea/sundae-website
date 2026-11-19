@@ -1,0 +1,11 @@
+{
+  "applicationCommit": "eed6ed8a7ae8456c597a83ddbbdaaa00a9a6c814",
+  "sourceFiles": {
+    "src/app/faq/page.tsx": "950cc4d2884b45f5f1b35d4796f21f47697d212a173626269b04bbfe69082431",
+    "src/app/faq/layout.tsx": "8577892f913af717d803529769c5aba94688c2f1b82ab933d991efbc1e7f2ce3",
+    "src/app/faq/faq.css": "81cfa6139e665dbcc6413dc1553a27cbd7dc3fd7c66bab4b905eecbe972911af",
+    "src/content/faqContent.ts": "af999957487bd52d7ed883e25b76845b259c5765171e14b2533ab8ad00fc19ec",
+    "src/content/support-faq.json": "0714b88bdc0b1eb9858cac1509480168fd7584cdf8735cb779ef8dd819e5ad3c",
+    "src/components/ui/Accordion.tsx": "be3dbfba3e5e382794bc6d5f7769687c0d479bb33cdbf05adfd5ab73b33dc408"
+  }
+}
