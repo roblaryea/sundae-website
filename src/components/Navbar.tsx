@@ -1,5 +1,7 @@
 'use client';
 
+import videoCopy from '@/content/product-walkthroughs.json';
+
 // Mobile nav overlay: full-viewport scrim + scroll lock, consistent on all pages
 // Refined mobile drawer with accordion sections, slide animation, and sticky CTA bar
 
@@ -268,7 +270,7 @@ const Navbar = () => {
 
   const solutionsRoles: ReadonlyArray<NavbarLink> = nav.solutionsRoles;
 
-  const resources: ReadonlyArray<NavbarLink> = [{ name: nav.about, href: '/about' }, ...nav.resourcesList.filter(item => item.href !== '/about')];
+  const resources: ReadonlyArray<NavbarLink> = [{ name: videoCopy[locale as keyof typeof videoCopy].label, href: '/resources/product-walkthroughs' }, { name: nav.about, href: '/about' }, ...nav.resourcesList.filter(item => item.href !== '/about')];
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
 
   return (

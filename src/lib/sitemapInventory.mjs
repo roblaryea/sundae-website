@@ -15,6 +15,7 @@ export const sitemapRouteGroups = {
     '/faq',
     '/tools',
     '/resources',
+    '/resources/product-walkthroughs',
     '/results',
     '/getting-started',
     '/core',

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sales",
+    "family": "Core",
+    "source": "/media/product-walkthroughs/sales-ee51866a2498.mp4",
+    "poster": "/media/product-walkthroughs/sales-ee51866a2498.jpg",
+    "captions": "/media/product-walkthroughs/sales-ee51866a2498.vtt",
+    "durationSeconds": 43.0,
+    "publishedAt": "2026-11-19T16:19:57+00:00",
+    "productPath": "/product/insights",
+    "transcript": [
+      "At the sales review, the question is where to look next. In Sundae, start in Revenue Intelligence and check the selected outlet and period. Open Daypart. Here, breakfast, lunch and dinner appear together, so you can compare the sales mix. Scroll down to Revenue Opportunity Slots. In this demonstration, five p.m. has the largest estimated gap. That is a signal to investigate. The manager can test a focused change, then return to the same view for the next comparable period.",
+      "Sundae. See every layer, act in time."
+    ],
+    "sha256": "ee51866a2498218b86677b8eb22363fc2e7f146f4ce5611b0bfb93cae6015713"
+  },
+  {
+    "id": "action",
+    "family": "Core",
+    "source": "/media/product-walkthroughs/action-3c10b064798e.mp4",
+    "poster": "/media/product-walkthroughs/action-3c10b064798e.jpg",
+    "captions": "/media/product-walkthroughs/action-3c10b064798e.vtt",
+    "durationSeconds": 45.7,
+    "publishedAt": "2026-11-19T16:19:57+00:00",
+    "productPath": "/product/recovery",
+    "transcript": [
+      "An issue needs more than attention. It needs a clear next step. Start in My Sundae. This demonstration flags voids, discounts and refunds above normal. The amount shown is an estimate. Open View source to follow the issue into its existing tracked action. The panel brings together what happened, the recommended response and the completion window. Scroll to Owner and timing. Responsibility and the due date are visible together. After the work, use the action to record what changed. Then return here to review the outcome.",
+      "Sundae. See every layer, act in time."
+    ],
+    "sha256": "3c10b064798e8a318a12057c9477426d3cb4621c62512b0a3befbfa9d0144f8c"
+  },
+  {
+    "id": "attendance",
+    "family": "Crew",
+    "source": "/media/product-walkthroughs/attendance-9185132ab965.mp4",
+    "poster": "/media/product-walkthroughs/attendance-9185132ab965.jpg",
+    "captions": "/media/product-walkthroughs/attendance-9185132ab965.vtt",
+    "durationSeconds": 48.033333,
+    "publishedAt": "2026-11-19T16:19:57+00:00",
+    "productPath": "/crew/time-attendance",
+    "transcript": [
+      "Before payroll close, a manager needs a clear view of the week. In Sundae Crew, start in Attendance with the matrix selected. Check the outlet and the date range first. Each row keeps one person's week together. Use the status key to understand recorded activity, missing punches and exceptions. Now switch on Exceptions. The matrix narrows the review to people with flagged days, while keeping the rest of their week visible. Inspect the flagged day before choosing a correction. The manager follows the correction process, then rechecks the week before payroll.",
+      "Sundae. See every layer, act in time."
+    ],
+    "sha256": "9185132ab9658e6f36cb43c64f261b7c986d1ce04a0ce391ca2771848f2abfd8"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "reviewer": "Robert Laryea",
+  "approvalText": "approved to use on the site",
+  "scope": "Public Sundae website only",
+  "recordedAt": "2026-11-19T16:19:57+00:00",
+  "canonicalChat": "01a1f33c-13c3-7971-8a67-09fcb62dc772",
+  "approvedVideos": [
+    {
+      "id": "sales",
+      "sha256": "ee51866a2498218b86677b8eb22363fc2e7f146f4ce5611b0bfb93cae6015713",
+      "durationSeconds": 43.0
+    },
+    {
+      "id": "action",
+      "sha256": "3c10b064798e8a318a12057c9477426d3cb4621c62512b0a3befbfa9d0144f8c",
+      "durationSeconds": 45.7
+    },
+    {
+      "id": "attendance",
+      "sha256": "9185132ab9658e6f36cb43c64f261b7c986d1ce04a0ce391ca2771848f2abfd8",
+      "durationSeconds": 48.033333
+    }
+  ],
+  "sourceDisclosure": "Recorded August 2026 demonstration",
+  "youtubeReleaseAuthorized": false
+}
