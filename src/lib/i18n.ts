@@ -859,7 +859,7 @@ export const websiteMessages = {
           { name: 'Pulse', subtitle: 'العمليات الفورية', description: 'وتيرة حية، أهداف تكيفية، أداء الموظفين، اكتشاف التسرب - وردية بوردية.', href: '/product/pulse' },
           { name: 'Benchmarks', subtitle: 'الذكاء التنافسي', description: 'مقارنات نظراء مجهولة عبر أكثر من 30 مقياساً. اعرف موقعك بدقة.', href: '/product/benchmarking' },
           { name: 'Watchtower', subtitle: 'ذكاء السوق', description: 'المنافسون، الطقس، الأحداث - قبل أن تصل إلى أرقامك.', href: '/product/watchtower' },
-          { name: 'Insights', subtitle: 'أكثر من 30 وحدة تحليلية', description: 'الإيرادات، العمالة، المخزون، التسويق، التوصيل - وكل منها مع توصيات ذكية.', href: '/product/insights' },
+          { name: 'Insights', subtitle: '12 وحدة تحليلية', description: 'الإيرادات، العمالة، المخزون، التسويق، التوصيل - وكل منها مع توصيات ذكية.', href: '/product/insights' },
           { name: 'Ask Sundae', subtitle: 'ذكاء محادثي', description: 'اسأل بياناتك أي شيء - إجابات موثّقة المصدر في ثوانٍ على الويب وWhatsApp وTelegram وSlack وTeams.', href: '/product/intelligence' },
           { name: 'Foresight', subtitle: 'ذكاء استباقي', description: 'توقعات وميزانيات وسيناريوهات ماذا لو - مع إحاطات تنفيذية تصحّح نفسها.', href: '/product/foresight' },
         ],

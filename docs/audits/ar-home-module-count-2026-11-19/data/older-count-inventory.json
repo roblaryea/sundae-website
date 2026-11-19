@@ -1,0 +1,46 @@
+[
+  {
+    "file": "src/app/about/page.tsx",
+    "line": 146,
+    "locale": "ar",
+    "field": "aboutCopy.ar.milestones[2].title",
+    "literal": "أكثر من 30 وحدة نشطة",
+    "meaning": "More than 30 live modules",
+    "context": "2026 milestone, unchanged by getAboutCopy and rendered by copy.milestones. English equivalent is Full Operational Coverage Live, without a module count.",
+    "category": "module-count discrepancy",
+    "status": "inventoried only; not changed"
+  },
+  {
+    "file": "src/app/about/page.tsx",
+    "line": 152,
+    "locale": "ar",
+    "field": "aboutCopy.ar.values[1].proof",
+    "literal": "أكثر من 30 وحدة عبر 12 مجالًا تشغيليًا - من الإيرادات إلى الحجوزات.",
+    "meaning": "More than 30 modules across 12 operating domains",
+    "context": "Intelligence First proof. getAboutCopy overrides values[3] only; this proof is retained. English proof describes covered operating areas without a count.",
+    "category": "module-count discrepancy",
+    "status": "inventoried only; not changed"
+  },
+  {
+    "file": "src/app/architecture/page.tsx",
+    "line": 189,
+    "locale": "ar",
+    "field": "localizedArchitectureCopy.ar.steps[0].description",
+    "literal": "يرتبط Sundae Core بأكثر من 30 نظامًا للمطاعم عبر 12 مجال بيانات ومصادر خارجية",
+    "meaning": "More than 30 systems across 12 data domains",
+    "context": "Data collection step. Runtime maps step[1] only, so this source text is retained.",
+    "category": "integration-system count, not analytics modules",
+    "status": "separate integration-catalogue verification needed; not changed"
+  },
+  {
+    "file": "src/app/architecture/page.tsx",
+    "line": 199,
+    "locale": "ar",
+    "field": "localizedArchitectureCopy.ar.modules[0].description",
+    "literal": "طبقة تكامل بيانات موحدة تربط أكثر من 30 نظامًا عبر 12 مجالًا",
+    "meaning": "More than 30 systems across 12 domains",
+    "context": "Sundae Core module description. ui.modules is passed through and mapped directly into the module cards.",
+    "category": "integration-system count, not analytics modules",
+    "status": "separate integration-catalogue verification needed; not changed"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "locale": "ar",
+    "width": 1440,
+    "theme": "dark",
+    "text": "04 من ٦Insights12 وحدة تحليليةاختر الجزء الذي تحتاج إلى فهمه، من الإيرادات والعمالة إلى المخزون والمشتريات والتوصيل وتجربة الضيوف. تساعد كل وحدة على شرح ما تغيّر ولماذا يهم وما يستطيع الفريق فعله تاليًا.اعرف المزيد →→اختر الجزء الذي تحتاج إلى فهمه، من الإيرادات والعمالة إلى المخزون والمشتريات والتوصيل وتجربة الضيوف. تساعد كل وحدة على شرح ما تغيّر ولماذا يهم وما يستطيع الفريق فعله تاليًا.",
+    "rows": 6,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "theme": "light",
+    "text": "04 من ٦Insights12 وحدة تحليليةاختر الجزء الذي تحتاج إلى فهمه، من الإيرادات والعمالة إلى المخزون والمشتريات والتوصيل وتجربة الضيوف. تساعد كل وحدة على شرح ما تغيّر ولماذا يهم وما يستطيع الفريق فعله تاليًا.اعرف المزيد →→اختر الجزء الذي تحتاج إلى فهمه، من الإيرادات والعمالة إلى المخزون والمشتريات والتوصيل وتجربة الضيوف. تساعد كل وحدة على شرح ما تغيّر ولماذا يهم وما يستطيع الفريق فعله تاليًا.",
+    "rows": 6,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "theme": "light",
+    "text": "04 of 6Insights12 analytics modulesChoose the part of the operation you need to understand, from revenue and labor to inventory, purchasing, delivery and guest experience. Each module helps explain what changed, why it matters and what the team can do next.Learn more →→Choose the part of the operation you need to understand, from revenue and labor to inventory, purchasing, delivery and guest experience. Each module helps explain what changed, why it matters and what the team can do next.",
+    "rows": 6,
+    "overflow": false
+  }
+]
