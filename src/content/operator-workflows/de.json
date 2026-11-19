@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Betriebssteuerung für Gastronomie und Food-Service",
-    "description": "Schichten, Personal, Aufgaben und Leistung über Multi‑Location‑Betriebe in Gastronomie und Food‑Service verwalten. Tagesgeschäft mit Entscheidungen und messbarer Profit‑Wiederherstellung verbinden.",
+    "description": "Sundae verknüpft Ihre Teams, die tägliche Arbeit und Ihre Betriebsdaten mit dem Marktumfeld, um Veränderungen zu erklären, Maßnahmen zu leiten und zurückgewonnenen Gewinn zu messen.",
     "eyebrow": "Betriebsmanagement für Gastronomie und Foodservice",
-    "sub": "Organisieren Sie Personal und Tagesgeschäft mit derselben Faktenbasis zu Umsatz, Kosten und Nachfrage. Sundae macht aus Ihren Betriebsdaten und relevantem Marktgeschehen intelligente Einblicke: Was braucht Aufmerksamkeit, wie kann jedes Team handeln und was hat sich an den Standorten verändert?",
+    "sub": "Sundae verknüpft Ihre Teams, die tägliche Arbeit und Ihre Betriebsdaten mit dem Marktumfeld, um Veränderungen zu erklären, Maßnahmen zu leiten und zurückgewonnenen Gewinn zu messen.",
     "productTitle": "Eine Plattform. Tägliche Arbeit bis zur messbaren Entscheidung.",
     "productDescription": "Personal, Schichtausführung und verknüpfte Betriebsdaten in ein einheitliches Lagebild bringen. Crew hilft Teams, die Arbeit auszuführen; Core hilft, Leistung zu verstehen, nächste Schritte zu entscheiden und das Ergebnis zu messen.",
     "coreDescription": "Der Entscheidungsarbeitsbereich für Multi‑Location‑Teams in Gastronomie und Food‑Service. Betriebsdaten verbinden, Beweise prüfen, nächste Aktion zuweisen und das Ergebnis messen.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Entscheidungsarbeitsbereich für Gastronomie und Lebensmittelservice",
     "crewMetaTitle": "Sundae Crew | Personal und täglicher Betrieb",
     "illustrationDisclosure": "Illustratives Beispiel, kein Kundenergebnis.",
-    "homeHeadline": "Jede Ebene sehen.",
-    "homeTagline": "Rechtzeitig handeln.",
+    "homeHeadline": "Vernetzte Abläufe.",
+    "homeTagline": "Fundierte Entscheidungen.",
     "coreHeadline": "Bessere Entscheidungen. Messbare Ergebnisse.",
     "crewHeadline": "Führe dein Team.",
     "crewTagline": "Die Schicht managen.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Die Schicht im Verlauf sehen.",
     "homeLiveTitleBottom": "Den nächsten Schritt kennen.",
     "homeLiveSupport": "Live-Signale zu Umsatz, Personal und Verlusten zeigen, wo während der laufenden Schicht Aufmerksamkeit nötig ist.",
-    "editorialSupport": "Führen Sie Schichtprotokolle, Umsatz- und Kostendaten zusammen. Teams verstehen, was Aufmerksamkeit braucht, handeln und prüfen das Ergebnis."
+    "editorialSupport": "Führen Sie Schichtprotokolle, Umsatz- und Kostendaten zusammen. Teams verstehen, was Aufmerksamkeit braucht, handeln und prüfen das Ergebnis.",
+    "homeOutcome": "Zurückgewonnener Gewinn."
   },
   "shared": {
     "primaryCta": "Demo buchen",

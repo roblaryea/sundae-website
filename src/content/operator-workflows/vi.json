@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Quản lý vận hành cho nhà hàng và dịch vụ ăn uống",
-    "description": "Quản lý ca, nhân sự, công việc và hiệu suất trên các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Kết nối công việc hàng ngày với quyết định và việc đo lường thu hồi lợi nhuận.",
+    "description": "Sundae kết nối đội ngũ, công việc hằng ngày và dữ liệu vận hành của bạn với bối cảnh thị trường để giải thích những thay đổi, định hướng hành động và đo lường lợi nhuận khôi phục được.",
     "eyebrow": "Quản lý vận hành cho dịch vụ ăn uống và lưu trú",
-    "sub": "Quản lý nhân sự và công việc hằng ngày dựa trên cùng dữ liệu về doanh thu, chi phí và nhu cầu. Sundae biến dữ liệu vận hành cùng bối cảnh thị trường phù hợp thành phân tích thông minh để giải thích ưu tiên, giúp từng đội ngũ hành động và theo dõi kết quả giữa các địa điểm.",
+    "sub": "Sundae kết nối đội ngũ, công việc hằng ngày và dữ liệu vận hành của bạn với bối cảnh thị trường để giải thích những thay đổi, định hướng hành động và đo lường lợi nhuận khôi phục được.",
     "productTitle": "Một nền tảng. Từ công việc hàng ngày tới quyết định được đo lường.",
     "productDescription": "Kết hợp nhân sự, thực thi ca và dữ liệu vận hành được nối kết vào một bức tranh vận hành duy nhất. Crew giúp đội thực hiện công việc; Core giúp họ hiểu hiệu suất, quyết định việc tiếp theo và đo lường kết quả.",
     "coreDescription": "Không gian ra quyết định cho các đội đa địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Kết nối dữ liệu vận hành, kiểm tra bằng chứng, phân công hành động tiếp theo và đo lường kết quả.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Không gian ra quyết định cho nhà hàng và dịch vụ ăn uống",
     "crewMetaTitle": "Sundae Crew | Nhân sự và vận hành hàng ngày",
     "illustrationDisclosure": "Ví dụ minh họa, không phải kết quả thực tế của khách hàng.",
-    "homeHeadline": "Thấy mọi lớp dữ liệu.",
-    "homeTagline": "Hành động đúng lúc.",
+    "homeHeadline": "Vận hành kết nối.",
+    "homeTagline": "Quyết định có cơ sở.",
     "coreHeadline": "Quyết định thông minh. Kết quả rõ ràng.",
     "crewHeadline": "Quản lý đội ngũ.",
     "crewTagline": "Điều hành ca.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Thấy ca làm việc diễn ra.",
     "homeLiveTitleBottom": "Biết bước tiếp theo.",
     "homeLiveSupport": "Tín hiệu trực tiếp về doanh thu, nhân sự và thất thoát cho biết nơi cần chú ý khi ca vẫn đang chạy.",
-    "editorialSupport": "Gộp nhật ký ca, doanh thu và chi phí để đội hiểu điểm cần chú ý, hành động và kiểm tra kết quả."
+    "editorialSupport": "Gộp nhật ký ca, doanh thu và chi phí để đội hiểu điểm cần chú ý, hành động và kiểm tra kết quả.",
+    "homeOutcome": "Lợi nhuận được khôi phục."
   },
   "shared": {
     "primaryCta": "Đặt lịch hướng dẫn",

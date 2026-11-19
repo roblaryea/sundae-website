@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Operations Management for Hospitality and Food-Service",
-    "description": "Manage shifts, workforce, tasks and performance across multi-location hospitality and food-service operations. Connect daily work to decisions and measured profit recovery.",
+    "description": "Sundae connects your teams, daily work and operating data with market context to explain what changed, guide action and measure what you recover.",
     "eyebrow": "Operations management for hospitality and food-service",
-    "sub": "Manage people and daily work with the same facts on sales, costs and demand. Sundae turns your operating data and relevant market context into intelligence that explains what needs attention, helps each team act and tracks the result across locations.",
+    "sub": "Sundae connects your teams, daily work and operating data with market context to explain what changed, guide action and measure what you recover.",
     "productTitle": "One platform. Daily work to measured decisions.",
     "productDescription": "Bring workforce, shift execution and connected operating data into one operating picture. Crew helps teams run the work; Core helps them understand performance, decide what to do next and measure the result.",
     "coreDescription": "The decision workspace for multi-location hospitality and food-service teams. Connect operating data, inspect the evidence, assign the next action and measure the outcome.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Decision Workspace for Hospitality and Food-Service",
     "crewMetaTitle": "Sundae Crew | Workforce and Daily Operations",
     "illustrationDisclosure": "Illustrative example. Not a customer result.",
-    "homeHeadline": "See every layer.",
-    "homeTagline": "Act in time.",
+    "homeHeadline": "Connected Operations.",
+    "homeTagline": "Informed Decisions.",
     "coreHeadline": "Better decisions. Measured outcomes.",
     "crewHeadline": "Manage your people.",
     "crewTagline": "Run the shift.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "See the shift as it unfolds.",
     "homeLiveTitleBottom": "Know what to do next.",
     "homeLiveSupport": "Live sales, labor and leakage signals show where attention is needed while the shift is still running.",
-    "editorialSupport": "Bring shift records, sales and cost data together so teams can understand what needs attention, act on it and check the result."
+    "editorialSupport": "Bring shift records, sales and cost data together so teams can understand what needs attention, act on it and check the result.",
+    "homeOutcome": "Recovered Profit."
   },
   "shared": {
     "primaryCta": "Book a walkthrough",

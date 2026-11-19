@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Pengurusan Operasi untuk Hospitaliti dan Perkhidmatan Makanan",
-    "description": "Urus syif, tenaga kerja, tugas dan prestasi merentasi operasi hospitaliti dan perkhidmatan makanan berbilang lokasi. Sambungkan kerja harian kepada keputusan dan pemulihan keuntungan yang diukur.",
+    "description": "Sundae menghubungkan pasukan, kerja harian dan data operasi anda dengan konteks pasaran untuk menjelaskan perubahan, membimbing tindakan dan mengukur keuntungan yang anda pulihkan.",
     "eyebrow": "Pengurusan operasi untuk hospitaliti dan perkhidmatan makanan",
-    "sub": "Urus kakitangan dan kerja harian dengan fakta yang sama tentang jualan, kos dan permintaan. Sundae menukar data operasi dan konteks pasaran yang relevan menjadi kecerdasan yang menerangkan keutamaan, membantu setiap pasukan bertindak dan menjejaki hasil merentas lokasi.",
+    "sub": "Sundae menghubungkan pasukan, kerja harian dan data operasi anda dengan konteks pasaran untuk menjelaskan perubahan, membimbing tindakan dan mengukur keuntungan yang anda pulihkan.",
     "productTitle": "Satu platform. Kerja harian kepada keputusan yang diukur.",
     "productDescription": "Satukan tenaga kerja, pelaksanaan syif dan data operasi yang bersambung ke dalam satu gambaran operasi. Crew membantu pasukan menjalankan kerja; Core membantu mereka memahami prestasi, memutuskan langkah seterusnya dan mengukur hasilnya.",
     "coreDescription": "Ruang kerja keputusan untuk pasukan hospitaliti dan perkhidmatan makanan berbilang lokasi. Sambungkan data operasi, periksa bukti, tugaskan tindakan seterusnya dan ukur hasilnya.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitaliti dan Perkhidmatan Makanan",
     "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
     "illustrationDisclosure": "Contoh ilustrasi, bukan hasil sebenar pelanggan.",
-    "homeHeadline": "Lihat setiap lapisan.",
-    "homeTagline": "Bertindak tepat pada masanya.",
+    "homeHeadline": "Operasi yang terhubung.",
+    "homeTagline": "Keputusan berasaskan maklumat.",
     "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
     "crewHeadline": "Urus pasukan anda.",
     "crewTagline": "Jalankan syif.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Lihat syif yang sedang berjalan.",
     "homeLiveTitleBottom": "Tahu langkah seterusnya.",
     "homeLiveSupport": "Isyarat langsung jualan, tenaga kerja dan kebocoran menunjukkan perkara yang memerlukan perhatian ketika syif masih berjalan.",
-    "editorialSupport": "Satukan rekod syif, jualan dan kos supaya pasukan memahami perkara yang perlu diberi perhatian, bertindak dan menyemak hasil."
+    "editorialSupport": "Satukan rekod syif, jualan dan kos supaya pasukan memahami perkara yang perlu diberi perhatian, bertindak dan menyemak hasil.",
+    "homeOutcome": "Keuntungan yang dipulihkan."
   },
   "shared": {
     "primaryCta": "Tempah sesi tunjuk cara",

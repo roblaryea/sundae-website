@@ -8,6 +8,7 @@ export function getHomeAboutAlignment(locale: WebsiteLocale) {
   return {
     primaryHeadline: brand.homeHeadline,
     primaryTagline: brand.homeTagline,
+    primaryOutcome: brand.homeOutcome,
     eyebrow: brand.eyebrow,
     primarySupport: brand.sub,
     liveTitleTop: brand.homeLiveTitleTop,

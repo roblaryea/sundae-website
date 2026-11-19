@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Gestión de operaciones para hostelería y servicios de alimentación",
-    "description": "Gestione turnos, personal, tareas y rendimiento en operaciones multi‑localización de hostelería y servicios de alimentación. Conecte el trabajo diario con las decisiones y la recuperación de beneficio medida.",
+    "description": "Sundae conecta a tus equipos, el trabajo diario y los datos operativos con el contexto del mercado para explicar qué ha cambiado, orientar la acción y medir los beneficios que recuperas.",
     "eyebrow": "Gestión operativa para hostelería y restauración",
-    "sub": "Gestiona personas y trabajo diario con los mismos datos de ventas, costos y demanda. Sundae transforma tus datos operativos y el contexto de mercado relevante en inteligencia que explica qué necesita atención, ayuda a cada equipo a actuar y sigue los resultados entre locales.",
+    "sub": "Sundae conecta a tus equipos, el trabajo diario y los datos operativos con el contexto del mercado para explicar qué ha cambiado, orientar la acción y medir los beneficios que recuperas.",
     "productTitle": "Una plataforma. Trabajo diario hacia decisiones medidas.",
     "productDescription": "Reúna personal, ejecución de turnos y datos operativos conectados en una sola visión operativa. Crew ayuda a los equipos a ejecutar el trabajo; Core les ayuda a entender el rendimiento, decidir el siguiente paso y medir el resultado.",
     "coreDescription": "El espacio de decisiones para equipos multi‑localización de hostelería y servicios de alimentación. Conecte datos operativos, examine la evidencia, asigne la siguiente acción y mida el resultado.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Espacio de decisiones para hostelería y servicios de alimentación",
     "crewMetaTitle": "Sundae Crew | Personal y operaciones diarias",
     "illustrationDisclosure": "Ejemplo ilustrativo. No es un resultado de cliente.",
-    "homeHeadline": "Ve cada capa.",
-    "homeTagline": "Actúa a tiempo.",
+    "homeHeadline": "Operaciones conectadas.",
+    "homeTagline": "Decisiones informadas.",
     "coreHeadline": "Mejores decisiones. Resultados medibles.",
     "crewHeadline": "Gestiona a tu equipo.",
     "crewTagline": "Lleva el turno.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Ve cómo avanza el turno.",
     "homeLiveTitleBottom": "Sabe qué hacer después.",
     "homeLiveSupport": "Las señales en vivo de ventas, personal y fugas muestran dónde actuar mientras el turno sigue en marcha.",
-    "editorialSupport": "Reúne registros de turnos, ventas y costes para entender qué necesita atención, actuar y comprobar el resultado."
+    "editorialSupport": "Reúne registros de turnos, ventas y costes para entender qué necesita atención, actuar y comprobar el resultado.",
+    "homeOutcome": "Beneficios recuperados."
   },
   "shared": {
     "primaryCta": "Solicitar una demostración",

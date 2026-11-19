@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Management operațional pentru ospitalitate și servicii alimentare",
-    "description": "Gestionează schimburile, forța de muncă, sarcinile și performanța în operațiuni multi-locație de ospitalitate și servicii alimentare. Conectează munca zilnică la decizii și la recuperarea profitului măsurată.",
+    "description": "Sundae conectează echipele, activitatea zilnică și datele operaționale cu contextul pieței pentru a explica ce s-a schimbat, a ghida acțiunile și a măsura profitul recuperat.",
     "eyebrow": "Management operațional pentru ospitalitate și servicii alimentare",
-    "sub": "Gestionează oamenii și munca zilnică folosind aceleași date despre vânzări, costuri și cerere. Sundae transformă datele operaționale și contextul de piață relevant în analiză inteligentă care explică prioritățile, ajută fiecare echipă să acționeze și urmărește rezultatele între locații.",
+    "sub": "Sundae conectează echipele, activitatea zilnică și datele operaționale cu contextul pieței pentru a explica ce s-a schimbat, a ghida acțiunile și a măsura profitul recuperat.",
     "productTitle": "O platformă. Munca zilnică până la decizii măsurate.",
     "productDescription": "Adună forța de muncă, execuția schimburilor și datele operaționale conectate într-o singură imagine operațională. Crew ajută echipele să desfășoare activitatea; Core le ajută să înțeleagă performanța, să decidă ce urmează și să măsoare rezultatul.",
     "coreDescription": "Spațiul decizional pentru echipele multi-locație din ospitalitate și servicii alimentare. Conectează datele operaționale, inspectează dovezile, atribuie următoarea acțiune și măsoară rezultatul.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Spațiu decizional pentru ospitalitate și servicii alimentare",
     "crewMetaTitle": "Sundae Crew | Forța de muncă și operațiuni zilnice",
     "illustrationDisclosure": "Exemplu ilustrativ, nu un rezultat al unui client.",
-    "homeHeadline": "Vezi fiecare nivel.",
-    "homeTagline": "Acționează la timp.",
+    "homeHeadline": "Operațiuni conectate.",
+    "homeTagline": "Decizii informate.",
     "coreHeadline": "Decizii mai bune. Rezultate măsurabile.",
     "crewHeadline": "Gestionează-ți echipa.",
     "crewTagline": "Conduceți tura.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Vezi tura pe măsură ce se desfășoară.",
     "homeLiveTitleBottom": "Știi ce urmează.",
     "homeLiveSupport": "Semnalele live pentru vânzări, personal și pierderi arată unde este nevoie de atenție cât timp tura continuă.",
-    "editorialSupport": "Adu împreună înregistrările turei, vânzările și costurile pentru ca echipele să înțeleagă ce necesită atenție, să acționeze și să verifice rezultatul."
+    "editorialSupport": "Adu împreună înregistrările turei, vânzările și costurile pentru ca echipele să înțeleagă ce necesită atenție, să acționeze și să verifice rezultatul.",
+    "homeOutcome": "Profit recuperat."
   },
   "shared": {
     "primaryCta": "Programează o demonstrație",

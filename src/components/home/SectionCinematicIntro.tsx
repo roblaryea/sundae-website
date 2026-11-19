@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
-import { useState, useRef, useLayoutEffect, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getHomeAboutAlignment } from '@/lib/homeAboutAlignment';
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
@@ -13,48 +13,11 @@ import type { RecoveryFigure } from "@/lib/recovery-figure";
 const GRAIN =
   "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")";
 
-// useLayoutEffect on the client, useEffect on the server (avoids the SSR warning).
-const useIsoLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
-
-// Measure the largest font (px) at which the hero headline still fits the column
-// on ONE row, so every language stays single-line (English at the cap, longer
-// locales scaled down). Mutates fontSize as a side effect of measuring.
-function fitHeadlinePx(el: HTMLElement): number | null {
-  const h1 = el.closest("h1");
-  if (!h1) return null;
-  const avail = h1.clientWidth;
-  const REF = 100;
-  el.style.fontSize = `${REF}px`;
-  const natural = el.scrollWidth;
-  if (!natural || !avail) return null;
-  const cap = Math.min(104, window.innerWidth * 0.071); // mirrors clamp(_, 7.1vw, 104)
-  const fitted = Math.min(cap, (REF * avail) / natural);
-  el.style.fontSize = `${fitted}px`;
-  return fitted;
-}
-
-// Largest font (px) at which the sub-paragraph's WIDEST clause fits the column on
-// one row (desktop only) - keeps the clause-per-line wrap identical across locales.
-function fitSubPx(el: HTMLElement): number | null {
-  if (window.innerWidth < 1024) return null; // mobile: let the sentence flow naturally
-  const avail = el.clientWidth;
-  const REF = 100;
-  el.style.fontSize = `${REF}px`;
-  let maxW = 0;
-  el.querySelectorAll(":scope > span").forEach((s) => {
-    maxW = Math.max(maxW, (s as HTMLElement).scrollWidth);
-  });
-  el.style.fontSize = "";
-  if (!maxW || !avail) return null;
-  const cap = Math.min(18.5, window.innerWidth * 0.0155); // mirrors clamp(_, 1.55vw, 18.5)
-  return Math.max(15.5, Math.min(cap, (REF * avail) / maxW));
-}
-
 /**
  * Cinematic brand intro - the opening moment of the homepage. Operations
  * management leads; the RecoveryLoop illustrates how teams can follow through.
- * The live Pulse section below explains the in-shift job. The 3D "sundae glass" now appears deeper in the page
- * as a brand motif. Fraunces (--font-display) + warm tokens.
+ * The live Pulse section below explains the in-shift job.
+ * Fraunces (--font-display) + warm tokens.
  */
 
 const EASE = [0.16, 1, 0.3, 1] as const;
@@ -70,9 +33,8 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
   useEffect(() => setMounted(true), []);
   const rm = mounted && reduceMotion;
   const alignment = getHomeAboutAlignment(locale);
-  const copy = { ...cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy], headline: alignment.primaryHeadline, tagline: alignment.primaryTagline, eyebrow: alignment.eyebrow, sub: alignment.primarySupport };
+  const copy = { ...cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy], headline: alignment.primaryHeadline, tagline: alignment.primaryTagline, outcome: alignment.primaryOutcome, eyebrow: alignment.eyebrow, sub: alignment.primarySupport };
   const sectionRef = useRef<HTMLElement>(null);
-  const headlineRef = useRef<HTMLSpanElement>(null);
 
   // Theatrical hand-off: as the glass scene scrolls away the content dissolves
   // and the glass pushes in + lifts, so the restaurant DI section waiting below
@@ -80,29 +42,6 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
   const sceneOpacity = useTransform(scrollYProgress, [0, 0.62], [1, 0]);
   const sceneY = useTransform(scrollYProgress, [0, 1], [0, -56]);
-  const [headlinePx, setHeadlinePx] = useState<number | null>(null);
-  const subRef = useRef<HTMLParagraphElement>(null);
-  const [subPx, setSubPx] = useState<number | null>(null);
-
-  useIsoLayoutEffect(() => {
-    const el = headlineRef.current;
-    if (!el) return;
-    const fit = () => setHeadlinePx(window.innerWidth < 1024 ? null : fitHeadlinePx(el));
-    fit();
-    const ro = new ResizeObserver(fit);
-    ro.observe(document.documentElement);
-    return () => ro.disconnect();
-  }, [copy.headline]);
-
-  useIsoLayoutEffect(() => {
-    const el = subRef.current;
-    if (!el) return;
-    const fit = () => setSubPx(fitSubPx(el));
-    fit();
-    const ro = new ResizeObserver(fit);
-    ro.observe(document.documentElement);
-    return () => ro.disconnect();
-  }, [copy.sub]);
 
   return (
     <section
@@ -112,7 +51,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
         background:
           "radial-gradient(115% 75% at 82% 14%, rgba(255,92,77,.16), transparent 55%), radial-gradient(80% 60% at 8% 92%, rgba(233,162,74,.12), transparent 55%), var(--navy-deep)",
       }}
-      aria-label={`Sundae - ${copy.headline} ${copy.tagline}`}
+      aria-label={`Sundae - ${copy.headline} ${copy.tagline} ${copy.outcome}`}
     >
       {/* drifting warm light - two large blurred fields that slowly cross, giving
           the flat navy real depth and motion behind the content. */}
@@ -152,45 +91,40 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
         className="relative z-10 mx-auto grid w-full max-w-[1320px] items-center gap-8 sm:gap-10 lg:gap-14 lg:grid-cols-[minmax(0,1.02fr)_minmax(0,0.98fr)]"
         style={rm ? undefined : { opacity: sceneOpacity, y: sceneY }}
       >
-        {/* min-w-0 so the nowrap headline can't expand this grid track past its
-            fr share (lets the fit-to-width hook measure the real column width). */}
+        {/* Keep the text within its grid track, including before hydration. */}
         <div className="min-w-0">
           <motion.div
-            className="text-[11.5px] font-semibold uppercase tracking-[0.24em]"
+            className="text-[12px] font-semibold uppercase tracking-[0.24em]"
             style={{ color: "#FF5C4D" }}
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15, duration: 0.8, ease: EASE }}
           >
-            {copy.eyebrow}
+            <span className="block">SUNDAE</span>
+            <span className="mt-2 block text-[10.5px] leading-relaxed tracking-[0.14em]" style={{ color: "rgba(251,248,244,0.72)" }}>
+              {copy.eyebrow}
+            </span>
           </motion.div>
 
           <h1
-            className="mt-5 font-light leading-[0.94] tracking-[-0.04em]"
+            className="mt-5 text-[clamp(32px,8.7vw,44px)] font-light leading-[1.04] tracking-[-0.04em] lg:text-[clamp(44px,4.8vw,72px)]"
             // Warm off-white (#FBF8F4), matching the subhead + wordmark - not clinical
             // pure white. The hero is surface-always-dark, so this is correct in both themes.
             style={{ fontFamily: "var(--font-display)", color: "#FBF8F4" }}
-            aria-label={`${copy.headline} ${copy.tagline}`}
+            aria-label={`${copy.headline} ${copy.tagline} ${copy.outcome}`}
           >
-            <span className="block overflow-hidden">
-              <motion.span
-                ref={headlineRef}
-                className="block whitespace-normal [overflow-wrap:anywhere]"
-                style={{ fontSize: headlinePx ? `${headlinePx}px` : "clamp(44px,7.1vw,104px)", whiteSpace: headlinePx ? "nowrap" : undefined }}
-                initial={false}
-                animate={{ y: 0 }}
-                transition={{ duration: 1.1, ease: EASE }}
-              >
-                {copy.headline}
-              </motion.span>
-            </span>{" "}
-            {/* The tagline settles once and holds. It previously carried an
-                infinite glow-pulse loop (textShadow, repeat: Infinity) - a
-                forever-animating headline reads as a flashy demo rather than an
-                established brand. A single, quiet entrance is more confident. */}
             <motion.span
-              className="mt-[0.1em] block italic"
-              style={{ color: "#F6C66B", fontSize: "clamp(30px,5vw,62px)" }}
+              data-brand-clause
+              className="block whitespace-normal [overflow-wrap:anywhere]"
+              initial={false}
+              animate={{ y: 0 }}
+              transition={{ duration: 1.1, ease: EASE }}
+            >
+              {copy.headline}
+            </motion.span>{" "}
+            <motion.span
+              data-brand-clause
+              className="mt-[0.06em] block whitespace-normal [overflow-wrap:anywhere]"
               initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{
@@ -199,31 +133,30 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
               }}
             >
               {copy.tagline}
+            </motion.span>{" "}
+            <motion.span
+              data-brand-clause
+              className="mt-[0.06em] block whitespace-normal italic [overflow-wrap:anywhere]"
+              style={{ color: "#F6C66B" }}
+              initial={false}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.65, duration: 0.9, ease: EASE }}
+            >
+              {copy.outcome}
             </motion.span>
           </h1>
 
           <motion.p
-            ref={subRef}
-            className="mt-7 leading-[1.62]"
+            className="mt-7 text-[clamp(15.5px,1.55vw,18.5px)] leading-[1.62]"
             style={{
               color: "rgba(251,248,244,0.86)",
-              fontSize: subPx ? `${subPx}px` : "clamp(15.5px,1.55vw,18.5px)",
             }}
             // This is the mobile LCP text: keep it readable in server HTML,
             // together with the headline, loop and opening action.
             initial={false}
             animate={{ opacity: 1, y: 0 }}
           >
-            {/* Break the sentence at its clause dashes: each clause starts its own
-                line on desktop and wraps naturally within the column (no forced
-                nowrap - that shrank the copy to fit and, in the narrower two-column
-                hero, overflowed into the loop). The \u00A0 before the dash glues it to
-                the preceding word so the dash never wraps onto a line by itself. */}
-            {copy.sub.split(" - ").map((part, i, arr) => (
-              <span key={i} className="lg:block">
-                {i < arr.length - 1 ? `${part}\u00A0- ` : part}
-              </span>
-            ))}
+            {copy.sub}
           </motion.p>
 
           <motion.div

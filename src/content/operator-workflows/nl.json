@@ -1,9 +1,9 @@
 {
   "brand": {
     "title": "Sundae | Operations Management voor hospitality en foodservice",
-    "description": "Beheer shifts, personeel, taken en prestaties over multi-locatie hospitality- en foodservice-operaties. Verbind dagelijks werk met beslissingen en gemeten winstterugvordering.",
+    "description": "Sundae verbindt je teams, het dagelijkse werk en je bedrijfsgegevens met de marktcontext om uit te leggen wat er is veranderd, acties te sturen en te meten hoeveel winst je terugwint.",
     "eyebrow": "Operationeel management voor horeca en foodservice",
-    "sub": "Stuur mensen en dagelijks werk aan met dezelfde feiten over omzet, kosten en vraag. Sundae zet je bedrijfsgegevens en relevante marktcontext om in intelligentie die uitlegt wat aandacht vraagt, elk team helpt handelen en het resultaat over locaties volgt.",
+    "sub": "Sundae verbindt je teams, het dagelijkse werk en je bedrijfsgegevens met de marktcontext om uit te leggen wat er is veranderd, acties te sturen en te meten hoeveel winst je terugwint.",
     "productTitle": "Één platform. Dagelijks werk naar gemeten beslissingen.",
     "productDescription": "Breng personeel, shiftuitvoering en verbonden operationele data samen in één operationeel overzicht. Crew helpt teams het werk uit te voeren; Core helpt hen prestaties te begrijpen, te beslissen wat te doen en het resultaat te meten.",
     "coreDescription": "De beslissingswerkruimte voor multi-locatie hospitality- en foodservice-teams. Verbind operationele data, controleer het bewijs, wijs de volgende actie toe en meet het resultaat.",
@@ -12,8 +12,8 @@
     "coreMetaTitle": "Sundae Core | Decision Workspace voor hospitality en foodservice",
     "crewMetaTitle": "Sundae Crew | Personeel en dagelijkse operaties",
     "illustrationDisclosure": "Illustratief voorbeeld, geen klantresultaat.",
-    "homeHeadline": "Zie elke laag.",
-    "homeTagline": "Kom op tijd in actie.",
+    "homeHeadline": "Verbonden processen.",
+    "homeTagline": "Weloverwogen beslissingen.",
     "coreHeadline": "Betere keuzes. Meetbare resultaten.",
     "crewHeadline": "Regel je team.",
     "crewTagline": "Draai de shift.",
@@ -21,7 +21,8 @@
     "homeLiveTitleTop": "Zie de dag zich ontwikkelen.",
     "homeLiveTitleBottom": "Weet wat de volgende stap is.",
     "homeLiveSupport": "Live signalen voor omzet, personeel en verlies tonen waar aandacht nodig is terwijl de dienst nog loopt.",
-    "editorialSupport": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren."
+    "editorialSupport": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren.",
+    "homeOutcome": "Teruggewonnen winst."
   },
   "shared": {
     "primaryCta": "Plan een walkthrough",

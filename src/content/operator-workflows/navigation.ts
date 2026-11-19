@@ -3,9 +3,9 @@ export const operatorNavigationCopy = {
   "en": {
     "brand": {
       "title": "Sundae | Operations Management for Hospitality and Food-Service",
-      "description": "Manage shifts, workforce, tasks and performance across multi-location hospitality and food-service operations. Connect daily work to decisions and measured profit recovery.",
+      "description": "Sundae connects your teams, daily work and operating data with market context to explain what changed, guide action and measure what you recover.",
       "eyebrow": "Operations management for hospitality and food-service",
-      "sub": "Manage people and daily work with the same facts on sales, costs and demand. Sundae turns your operating data and relevant market context into intelligence that explains what needs attention, helps each team act and tracks the result across locations.",
+      "sub": "Sundae connects your teams, daily work and operating data with market context to explain what changed, guide action and measure what you recover.",
       "productTitle": "One platform. Daily work to measured decisions.",
       "productDescription": "Bring workforce, shift execution and connected operating data into one operating picture. Crew helps teams run the work; Core helps them understand performance, decide what to do next and measure the result.",
       "coreDescription": "The decision workspace for multi-location hospitality and food-service teams. Connect operating data, inspect the evidence, assign the next action and measure the outcome.",
@@ -14,8 +14,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Decision Workspace for Hospitality and Food-Service",
       "crewMetaTitle": "Sundae Crew | Workforce and Daily Operations",
       "illustrationDisclosure": "Illustrative example. Not a customer result.",
-      "homeHeadline": "See every layer.",
-      "homeTagline": "Act in time.",
+      "homeHeadline": "Connected Operations.",
+      "homeTagline": "Informed Decisions.",
       "coreHeadline": "Better decisions. Measured outcomes.",
       "crewHeadline": "Manage your people.",
       "crewTagline": "Run the shift.",
@@ -23,7 +23,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "See the shift as it unfolds.",
       "homeLiveTitleBottom": "Know what to do next.",
       "homeLiveSupport": "Live sales, labor and leakage signals show where attention is needed while the shift is still running.",
-      "editorialSupport": "Bring shift records, sales and cost data together so teams can understand what needs attention, act on it and check the result."
+      "editorialSupport": "Bring shift records, sales and cost data together so teams can understand what needs attention, act on it and check the result.",
+      "homeOutcome": "Recovered Profit."
     },
     "links": {
       "eyebrow": "DAILY OPERATIONS",
@@ -46,9 +47,9 @@ export const operatorNavigationCopy = {
   "ar": {
     "brand": {
       "title": "Sundae | إدارة العمليات للضيافة وخدمات الطعام",
-      "description": "إدارة الشفتات والكوادر والمهام والأداء عبر عمليات ضيافة وخدمات طعام متعددة المواقع. ربط العمل اليومي بالقرارات واسترداد الأرباح المقاسة.",
+      "description": "تربط Sundae فرقك والعمل اليومي وبيانات التشغيل بسياق السوق لتوضيح ما تغيّر، وتوجيه العمل وقياس ما تسترده من أرباح.",
       "eyebrow": "إدارة العمليات للضيافة وخدمات الطعام",
-      "sub": "أدر الفرق والعمل اليومي انطلاقًا من الحقائق نفسها عن المبيعات والتكاليف والطلب. تحوّل Sundae بيانات التشغيل وسياق السوق ذي الصلة إلى ذكاء يوضح ما يحتاج إلى اهتمام، ويساعد كل فريق على التحرك ويتابع النتيجة عبر المواقع.",
+      "sub": "تربط Sundae فرقك والعمل اليومي وبيانات التشغيل بسياق السوق لتوضيح ما تغيّر، وتوجيه العمل وقياس ما تسترده من أرباح.",
       "productTitle": "منصة واحدة. العمل اليومي إلى قرارات مقاسة.",
       "productDescription": "جمع الكوادر وتنفيذ الشفت والبيانات التشغيلية المتصلة في صورة تشغيلية واحدة. Crew يساعد الفرق على تنفيذ العمل؛ Core يساعدهم على فهم الأداء، اتخاذ القرار التالي وقياس النتيجة.",
       "coreDescription": "مساحة اتخاذ القرار لفرق الضيافة وخدمات الطعام متعددة المواقع. ربط بيانات التشغيل، فحص الأدلة، تعيين الإجراء التالي وقياس النتيجة.",
@@ -57,8 +58,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | مساحة القرار للضيافة وخدمات الطعام",
       "crewMetaTitle": "Sundae Crew | الكوادر والعمليات اليومية",
       "illustrationDisclosure": "مثال توضيحي، وليس نتيجة فعلية لعميل.",
-      "homeHeadline": "شاهد كل طبقة.",
-      "homeTagline": "تحرّك في الوقت المناسب.",
+      "homeHeadline": "عمليات مترابطة.",
+      "homeTagline": "قرارات مدروسة.",
       "coreHeadline": "قرارات أفضل. نتائج قابلة للقياس.",
       "crewHeadline": "نظّم طاقمك.",
       "crewTagline": "أدِر الشيفت.",
@@ -66,7 +67,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "شاهد الوردية وهي تتكشف.",
       "homeLiveTitleBottom": "اعرف ما الخطوة التالية.",
       "homeLiveSupport": "توضح إشارات المبيعات والعمالة والتسرّب المباشرة أين يلزم الاهتمام أثناء استمرار الوردية.",
-      "editorialSupport": "اجمع سجلات الوردية وبيانات المبيعات والتكاليف حتى تفهم الفرق ما يحتاج إلى اهتمام، وتتحرك، وتتحقق من النتيجة."
+      "editorialSupport": "اجمع سجلات الوردية وبيانات المبيعات والتكاليف حتى تفهم الفرق ما يحتاج إلى اهتمام، وتتحرك، وتتحقق من النتيجة.",
+      "homeOutcome": "أرباح مستردة."
     },
     "links": {
       "eyebrow": "العمليات اليومية",
@@ -89,9 +91,9 @@ export const operatorNavigationCopy = {
   "fr": {
     "brand": {
       "title": "Sundae | Gestion des opérations pour l'hôtellerie et la restauration",
-      "description": "Gérez les services, les équipes, les tâches et la performance sur des établissements multi-sites en hôtellerie et restauration. Reliez le travail quotidien aux décisions et à la récupération de bénéfices mesurée.",
+      "description": "Sundae relie vos équipes, le travail quotidien et vos données opérationnelles au contexte du marché pour expliquer ce qui a changé, guider l’action et mesurer les profits récupérés.",
       "eyebrow": "Gestion des opérations pour l’hôtellerie et la restauration",
-      "sub": "Gérez les équipes et le travail quotidien à partir des mêmes faits sur les ventes, les coûts et la demande. Sundae transforme vos données opérationnelles et le contexte de marché pertinent en intelligence qui explique les priorités, aide chaque équipe à agir et suit les résultats entre établissements.",
+      "sub": "Sundae relie vos équipes, le travail quotidien et vos données opérationnelles au contexte du marché pour expliquer ce qui a changé, guider l’action et mesurer les profits récupérés.",
       "productTitle": "Une plateforme. Du travail quotidien aux décisions mesurées.",
       "productDescription": "Regroupez effectifs, exécution des services et données opérationnelles connectées dans une même vision opérationnelle. Crew aide les équipes à exécuter le travail ; Core leur permet de comprendre la performance, décider des actions suivantes et mesurer le résultat.",
       "coreDescription": "L’espace décisionnel pour les équipes hôtelières et de restauration multi-sites. Connectez les données opérationnelles, vérifiez les preuves, assignez l’action suivante et mesurez le résultat.",
@@ -100,8 +102,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Espace décisionnel pour l'hôtellerie et la restauration",
       "crewMetaTitle": "Sundae Crew | Effectifs et opérations quotidiennes",
       "illustrationDisclosure": "Exemple illustratif, pas un résultat client.",
-      "homeHeadline": "Voyez chaque couche.",
-      "homeTagline": "Agissez à temps.",
+      "homeHeadline": "Des opérations connectées.",
+      "homeTagline": "Des décisions éclairées.",
       "coreHeadline": "Meilleures décisions. Résultats mesurables.",
       "crewHeadline": "Gérez vos équipes.",
       "crewTagline": "Conduisez le service.",
@@ -109,7 +111,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Voyez le service se dérouler.",
       "homeLiveTitleBottom": "Sachez quoi faire ensuite.",
       "homeLiveSupport": "Les signaux live de ventes, de main-d’œuvre et de pertes indiquent où agir pendant que le service continue.",
-      "editorialSupport": "Rassemblez les relevés de service, les ventes et les coûts pour comprendre ce qui mérite attention, agir et vérifier le résultat."
+      "editorialSupport": "Rassemblez les relevés de service, les ventes et les coûts pour comprendre ce qui mérite attention, agir et vérifier le résultat.",
+      "homeOutcome": "Des profits récupérés."
     },
     "links": {
       "eyebrow": "OPÉRATIONS QUOTIDIENNES",
@@ -132,9 +135,9 @@ export const operatorNavigationCopy = {
   "es": {
     "brand": {
       "title": "Sundae | Gestión de operaciones para hostelería y servicios de alimentación",
-      "description": "Gestione turnos, personal, tareas y rendimiento en operaciones multi‑localización de hostelería y servicios de alimentación. Conecte el trabajo diario con las decisiones y la recuperación de beneficio medida.",
+      "description": "Sundae conecta a tus equipos, el trabajo diario y los datos operativos con el contexto del mercado para explicar qué ha cambiado, orientar la acción y medir los beneficios que recuperas.",
       "eyebrow": "Gestión operativa para hostelería y restauración",
-      "sub": "Gestiona personas y trabajo diario con los mismos datos de ventas, costos y demanda. Sundae transforma tus datos operativos y el contexto de mercado relevante en inteligencia que explica qué necesita atención, ayuda a cada equipo a actuar y sigue los resultados entre locales.",
+      "sub": "Sundae conecta a tus equipos, el trabajo diario y los datos operativos con el contexto del mercado para explicar qué ha cambiado, orientar la acción y medir los beneficios que recuperas.",
       "productTitle": "Una plataforma. Trabajo diario hacia decisiones medidas.",
       "productDescription": "Reúna personal, ejecución de turnos y datos operativos conectados en una sola visión operativa. Crew ayuda a los equipos a ejecutar el trabajo; Core les ayuda a entender el rendimiento, decidir el siguiente paso y medir el resultado.",
       "coreDescription": "El espacio de decisiones para equipos multi‑localización de hostelería y servicios de alimentación. Conecte datos operativos, examine la evidencia, asigne la siguiente acción y mida el resultado.",
@@ -143,8 +146,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Espacio de decisiones para hostelería y servicios de alimentación",
       "crewMetaTitle": "Sundae Crew | Personal y operaciones diarias",
       "illustrationDisclosure": "Ejemplo ilustrativo. No es un resultado de cliente.",
-      "homeHeadline": "Ve cada capa.",
-      "homeTagline": "Actúa a tiempo.",
+      "homeHeadline": "Operaciones conectadas.",
+      "homeTagline": "Decisiones informadas.",
       "coreHeadline": "Mejores decisiones. Resultados medibles.",
       "crewHeadline": "Gestiona a tu equipo.",
       "crewTagline": "Lleva el turno.",
@@ -152,7 +155,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Ve cómo avanza el turno.",
       "homeLiveTitleBottom": "Sabe qué hacer después.",
       "homeLiveSupport": "Las señales en vivo de ventas, personal y fugas muestran dónde actuar mientras el turno sigue en marcha.",
-      "editorialSupport": "Reúne registros de turnos, ventas y costes para entender qué necesita atención, actuar y comprobar el resultado."
+      "editorialSupport": "Reúne registros de turnos, ventas y costes para entender qué necesita atención, actuar y comprobar el resultado.",
+      "homeOutcome": "Beneficios recuperados."
     },
     "links": {
       "eyebrow": "OPERACIONES DIARIAS",
@@ -175,9 +179,9 @@ export const operatorNavigationCopy = {
   "de": {
     "brand": {
       "title": "Sundae | Betriebssteuerung für Gastronomie und Food-Service",
-      "description": "Schichten, Personal, Aufgaben und Leistung über Multi‑Location‑Betriebe in Gastronomie und Food‑Service verwalten. Tagesgeschäft mit Entscheidungen und messbarer Profit‑Wiederherstellung verbinden.",
+      "description": "Sundae verknüpft Ihre Teams, die tägliche Arbeit und Ihre Betriebsdaten mit dem Marktumfeld, um Veränderungen zu erklären, Maßnahmen zu leiten und zurückgewonnenen Gewinn zu messen.",
       "eyebrow": "Betriebsmanagement für Gastronomie und Foodservice",
-      "sub": "Organisieren Sie Personal und Tagesgeschäft mit derselben Faktenbasis zu Umsatz, Kosten und Nachfrage. Sundae macht aus Ihren Betriebsdaten und relevantem Marktgeschehen intelligente Einblicke: Was braucht Aufmerksamkeit, wie kann jedes Team handeln und was hat sich an den Standorten verändert?",
+      "sub": "Sundae verknüpft Ihre Teams, die tägliche Arbeit und Ihre Betriebsdaten mit dem Marktumfeld, um Veränderungen zu erklären, Maßnahmen zu leiten und zurückgewonnenen Gewinn zu messen.",
       "productTitle": "Eine Plattform. Tägliche Arbeit bis zur messbaren Entscheidung.",
       "productDescription": "Personal, Schichtausführung und verknüpfte Betriebsdaten in ein einheitliches Lagebild bringen. Crew hilft Teams, die Arbeit auszuführen; Core hilft, Leistung zu verstehen, nächste Schritte zu entscheiden und das Ergebnis zu messen.",
       "coreDescription": "Der Entscheidungsarbeitsbereich für Multi‑Location‑Teams in Gastronomie und Food‑Service. Betriebsdaten verbinden, Beweise prüfen, nächste Aktion zuweisen und das Ergebnis messen.",
@@ -186,8 +190,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Entscheidungsarbeitsbereich für Gastronomie und Lebensmittelservice",
       "crewMetaTitle": "Sundae Crew | Personal und täglicher Betrieb",
       "illustrationDisclosure": "Illustratives Beispiel, kein Kundenergebnis.",
-      "homeHeadline": "Jede Ebene sehen.",
-      "homeTagline": "Rechtzeitig handeln.",
+      "homeHeadline": "Vernetzte Abläufe.",
+      "homeTagline": "Fundierte Entscheidungen.",
       "coreHeadline": "Bessere Entscheidungen. Messbare Ergebnisse.",
       "crewHeadline": "Führe dein Team.",
       "crewTagline": "Die Schicht managen.",
@@ -195,7 +199,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Die Schicht im Verlauf sehen.",
       "homeLiveTitleBottom": "Den nächsten Schritt kennen.",
       "homeLiveSupport": "Live-Signale zu Umsatz, Personal und Verlusten zeigen, wo während der laufenden Schicht Aufmerksamkeit nötig ist.",
-      "editorialSupport": "Führen Sie Schichtprotokolle, Umsatz- und Kostendaten zusammen. Teams verstehen, was Aufmerksamkeit braucht, handeln und prüfen das Ergebnis."
+      "editorialSupport": "Führen Sie Schichtprotokolle, Umsatz- und Kostendaten zusammen. Teams verstehen, was Aufmerksamkeit braucht, handeln und prüfen das Ergebnis.",
+      "homeOutcome": "Zurückgewonnener Gewinn."
     },
     "links": {
       "eyebrow": "TÄGLICHE BETRIEBE",
@@ -218,9 +223,9 @@ export const operatorNavigationCopy = {
   "nl": {
     "brand": {
       "title": "Sundae | Operations Management voor hospitality en foodservice",
-      "description": "Beheer shifts, personeel, taken en prestaties over multi-locatie hospitality- en foodservice-operaties. Verbind dagelijks werk met beslissingen en gemeten winstterugvordering.",
+      "description": "Sundae verbindt je teams, het dagelijkse werk en je bedrijfsgegevens met de marktcontext om uit te leggen wat er is veranderd, acties te sturen en te meten hoeveel winst je terugwint.",
       "eyebrow": "Operationeel management voor horeca en foodservice",
-      "sub": "Stuur mensen en dagelijks werk aan met dezelfde feiten over omzet, kosten en vraag. Sundae zet je bedrijfsgegevens en relevante marktcontext om in intelligentie die uitlegt wat aandacht vraagt, elk team helpt handelen en het resultaat over locaties volgt.",
+      "sub": "Sundae verbindt je teams, het dagelijkse werk en je bedrijfsgegevens met de marktcontext om uit te leggen wat er is veranderd, acties te sturen en te meten hoeveel winst je terugwint.",
       "productTitle": "Één platform. Dagelijks werk naar gemeten beslissingen.",
       "productDescription": "Breng personeel, shiftuitvoering en verbonden operationele data samen in één operationeel overzicht. Crew helpt teams het werk uit te voeren; Core helpt hen prestaties te begrijpen, te beslissen wat te doen en het resultaat te meten.",
       "coreDescription": "De beslissingswerkruimte voor multi-locatie hospitality- en foodservice-teams. Verbind operationele data, controleer het bewijs, wijs de volgende actie toe en meet het resultaat.",
@@ -229,8 +234,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Decision Workspace voor hospitality en foodservice",
       "crewMetaTitle": "Sundae Crew | Personeel en dagelijkse operaties",
       "illustrationDisclosure": "Illustratief voorbeeld, geen klantresultaat.",
-      "homeHeadline": "Zie elke laag.",
-      "homeTagline": "Kom op tijd in actie.",
+      "homeHeadline": "Verbonden processen.",
+      "homeTagline": "Weloverwogen beslissingen.",
       "coreHeadline": "Betere keuzes. Meetbare resultaten.",
       "crewHeadline": "Regel je team.",
       "crewTagline": "Draai de shift.",
@@ -238,7 +243,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Zie de dag zich ontwikkelen.",
       "homeLiveTitleBottom": "Weet wat de volgende stap is.",
       "homeLiveSupport": "Live signalen voor omzet, personeel en verlies tonen waar aandacht nodig is terwijl de dienst nog loopt.",
-      "editorialSupport": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren."
+      "editorialSupport": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren.",
+      "homeOutcome": "Teruggewonnen winst."
     },
     "links": {
       "eyebrow": "DAGELIJKSE OPERATIES",
@@ -261,9 +267,9 @@ export const operatorNavigationCopy = {
   "pt": {
     "brand": {
       "title": "Sundae | Gestão de Operações para Hospitalidade e Food-Service",
-      "description": "Gerencie turnos, equipe, tarefas e desempenho em operações de hospitalidade e food-service com várias unidades. Conecte o trabalho diário às decisões e à recuperação de lucro mensurável.",
+      "description": "A Sundae conecta as suas equipas, o trabalho diário e os dados operacionais ao contexto do mercado para explicar o que mudou, orientar a ação e medir o lucro recuperado.",
       "eyebrow": "Gestão de operações para hotelaria e restauração",
-      "sub": "Gerencie pessoas e trabalho diário com os mesmos dados de vendas, custos e demanda. A Sundae transforma seus dados operacionais e o contexto de mercado relevante em inteligência que explica o que precisa de atenção, ajuda cada equipe a agir e acompanha os resultados entre unidades.",
+      "sub": "A Sundae conecta as suas equipas, o trabalho diário e os dados operacionais ao contexto do mercado para explicar o que mudou, orientar a ação e medir o lucro recuperado.",
       "productTitle": "Uma plataforma. Do trabalho diário às decisões mensuráveis.",
       "productDescription": "Reúna equipe, execução de turno e dados operacionais conectados em uma única visão operacional. Crew ajuda as equipes a executar o trabalho; Core ajuda a entender o desempenho, decidir o próximo passo e medir o resultado.",
       "coreDescription": "O espaço de decisão para equipes de hospitalidade e food-service com várias unidades. Conecte dados operacionais, inspecione as evidências, atribua a próxima ação e meça o resultado.",
@@ -272,8 +278,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Espaço de Decisão para Hospitalidade e Food-Service",
       "crewMetaTitle": "Sundae Crew | Equipe e Operações Diárias",
       "illustrationDisclosure": "Exemplo ilustrativo, não um resultado de cliente.",
-      "homeHeadline": "Veja cada camada.",
-      "homeTagline": "Aja a tempo.",
+      "homeHeadline": "Operações conectadas.",
+      "homeTagline": "Decisões informadas.",
       "coreHeadline": "Decisões melhores. Resultados mensuráveis.",
       "crewHeadline": "Cuide da sua equipe.",
       "crewTagline": "Execute o turno.",
@@ -281,7 +287,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Veja o turno a acontecer.",
       "homeLiveTitleBottom": "Saiba o próximo passo.",
       "homeLiveSupport": "Sinais ao vivo de vendas, pessoal e perdas mostram onde é preciso atenção enquanto o turno decorre.",
-      "editorialSupport": "Junte registos de turnos, vendas e custos para entender o que precisa de atenção, agir e verificar o resultado."
+      "editorialSupport": "Junte registos de turnos, vendas e custos para entender o que precisa de atenção, agir e verificar o resultado.",
+      "homeOutcome": "Lucro recuperado."
     },
     "links": {
       "eyebrow": "OPERAÇÕES DIÁRIAS",
@@ -304,9 +311,9 @@ export const operatorNavigationCopy = {
   "hi": {
     "brand": {
       "title": "Sundae | हॉस्पिटैलिटी और फूड-सर्विस के लिए संचालन प्रबंधन",
-      "description": "मल्टी-लोकेशन हॉस्पिटैलिटी और फूड-सर्विस संचालन में शिफ्ट, वर्कफोर्स, कार्य और प्रदर्शन का प्रबंधन करें। दैनिक कामों को निर्णयों और मापे गए प्रॉफिट रिकवरी से जोड़ें।",
+      "description": "Sundae आपकी टीमों, रोज़ के काम और संचालन के डेटा को बाज़ार के संदर्भ से जोड़ता है, ताकि बदलावों को समझाया जा सके, कार्रवाई को दिशा मिले और वापस पाए मुनाफ़े को मापा जा सके।",
       "eyebrow": "हॉस्पिटैलिटी और फ़ूड-सर्विस के लिए संचालन प्रबंधन",
-      "sub": "बिक्री, लागत और माँग के समान तथ्यों से लोगों और रोज़मर्रा के काम का प्रबंधन करें। Sundae आपके संचालन डेटा और प्रासंगिक बाज़ार संदर्भ को बुद्धिमान विश्लेषण में बदलता है, जो बताता है किस पर ध्यान देना है, हर टीम को कार्रवाई में मदद करता है और सभी लोकेशन के परिणाम देखता है।",
+      "sub": "Sundae आपकी टीमों, रोज़ के काम और संचालन के डेटा को बाज़ार के संदर्भ से जोड़ता है, ताकि बदलावों को समझाया जा सके, कार्रवाई को दिशा मिले और वापस पाए मुनाफ़े को मापा जा सके।",
       "productTitle": "एक प्लेटफ़ॉर्म। दैनिक काम से मापे गए निर्णय।",
       "productDescription": "वर्कफोर्स, शिफ्ट निष्पादन और जुड़े ऑपरेटिंग डेटा को एक ऑपरेटिंग चित्र में लाएँ। Crew टीमों को काम चलाने में मदद करता है; Core उन्हें प्रदर्शन समझने, अगले कदम का निर्णय लेने और परिणाम मापने में मदद करता है।",
       "coreDescription": "मल्टी-लोकेशन हॉस्पिटैलिटी और फूड-सर्विस टीमों के लिए निर्णय कार्यस्थान। ऑपरेटिंग डेटा जोड़ें, सबूत निरीक्षित करें, अगला कार्य सौंपें और परिणाम मापें।",
@@ -315,8 +322,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | हॉस्पिटैलिटी और फूड-सर्विस के लिए निर्णय कार्यस्थान",
       "crewMetaTitle": "Sundae Crew | वर्कफोर्स और दैनिक संचालन",
       "illustrationDisclosure": "उदाहरण मात्र। किसी ग्राहक का वास्तविक परिणाम नहीं।",
-      "homeHeadline": "हर परत देखें।",
-      "homeTagline": "समय पर कार्रवाई करें।",
+      "homeHeadline": "जुड़े हुए संचालन।",
+      "homeTagline": "जानकारी पर आधारित निर्णय।",
       "coreHeadline": "बेहतर फैसले। परखा गया नतीजा।",
       "crewHeadline": "अपनी टीम संभालें।",
       "crewTagline": "शिफ्ट चलाएं।",
@@ -324,7 +331,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "शिफ्ट को चलते हुए देखें।",
       "homeLiveTitleBottom": "अगला कदम जानें।",
       "homeLiveSupport": "बिक्री, श्रम और रिसाव के लाइव संकेत दिखाते हैं कि शिफ्ट चलने के दौरान कहाँ ध्यान चाहिए।",
-      "editorialSupport": "शिफ्ट रिकॉर्ड, बिक्री और लागत डेटा साथ लाएँ ताकि टीम ध्यान की जगह समझे, कार्रवाई करे और परिणाम जाँचे।"
+      "editorialSupport": "शिफ्ट रिकॉर्ड, बिक्री और लागत डेटा साथ लाएँ ताकि टीम ध्यान की जगह समझे, कार्रवाई करे और परिणाम जाँचे।",
+      "homeOutcome": "वापस पाया मुनाफ़ा।"
     },
     "links": {
       "eyebrow": "दैनिक संचालन",
@@ -347,9 +355,9 @@ export const operatorNavigationCopy = {
   "ur": {
     "brand": {
       "title": "Sundae | آپریٹنگ مینجمنٹ برائے ہاسپیٹالٹی اور خوراکی خدمات",
-      "description": "ملٹی لوکیشن ہاسپیٹالٹی اور خوراکی خدمات کے آپریشنز میں شفٹیں، ورک فورس، ٹاسکس اور کارکردگی منظم کریں۔ روزمرہ کے کام کو فیصلوں اور ناپے جانے والے منافع کی بازیابی سے جوڑیں۔",
+      "description": "Sundae آپ کی ٹیموں، روزمرہ کام اور آپریشنل ڈیٹا کو مارکیٹ کے تناظر سے جوڑتا ہے تاکہ واضح ہو کہ کیا بدلا، عملی اقدامات کی رہنمائی ہو اور واپس حاصل ہونے والے منافع کی پیمائش کی جا سکے۔",
       "eyebrow": "ہاسپیٹیلٹی اور فوڈ سروس کے لیے آپریشنز مینجمنٹ",
-      "sub": "فروخت، اخراجات اور طلب کے ایک ہی حقائق سے عملے اور روزمرہ کام کا انتظام کریں۔ Sundae آپ کے آپریشن ڈیٹا اور متعلقہ مارکیٹ سیاق کو ذہین تجزیے میں بدلتا ہے، جو ترجیحات واضح کرتا ہے، ہر ٹیم کو عمل میں مدد دیتا ہے اور تمام مقامات پر نتائج کی پیروی کرتا ہے۔",
+      "sub": "Sundae آپ کی ٹیموں، روزمرہ کام اور آپریشنل ڈیٹا کو مارکیٹ کے تناظر سے جوڑتا ہے تاکہ واضح ہو کہ کیا بدلا، عملی اقدامات کی رہنمائی ہو اور واپس حاصل ہونے والے منافع کی پیمائش کی جا سکے۔",
       "productTitle": "ایک پلیٹ فارم۔ روزمرہ کا کام سے ناپے جانے والے فیصلے تک۔",
       "productDescription": "ورک فورس، شفٹ نفاذ اور مربوط آپریٹنگ ڈیٹا کو ایک آپریٹنگ تصویر میں لائیں۔ Crew ٹیموں کو کام چلانے میں مدد دیتا ہے؛ Core انہیں کارکردگی سمجھنے، اگلا قدم طے کرنے اور نتیجہ ناپنے میں مدد دیتا ہے۔",
       "coreDescription": "ملٹی لوکیشن ہاسپیٹالٹی اور خوراکی خدمات ٹیموں کے لیے فیصلہ سازی کی ورک اسپیس۔ آپریٹنگ ڈیٹا کو جوڑیں، شواہد کا معائنہ کریں، اگلا عمل تفویض کریں اور نتیجہ ناپیں۔",
@@ -358,8 +366,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | ہاسپیٹالٹی اور خوراکی خدمات کے لیے فیصلہ ورک اسپیس",
       "crewMetaTitle": "Sundae Crew | ورک فورس اور روزمرہ آپریشنز",
       "illustrationDisclosure": "صرف وضاحتی مثال، کسی گاہک کا حقیقی نتیجہ نہیں۔",
-      "homeHeadline": "ہر پرت دیکھیں۔",
-      "homeTagline": "وقت پر قدم اٹھائیں۔",
+      "homeHeadline": "مربوط آپریشنز۔",
+      "homeTagline": "باخبر فیصلے۔",
       "coreHeadline": "بہتر فیصلے۔ واضح نتائج۔",
       "crewHeadline": "اپنی ٹیم سنبھالیں۔",
       "crewTagline": "شفٹ چلائیں۔",
@@ -367,7 +375,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "شفٹ کو ہوتے ہوئے دیکھیں۔",
       "homeLiveTitleBottom": "اگلا قدم جانیں۔",
       "homeLiveSupport": "فروخت، عملے اور رساؤ کے لائیو اشارے جاری شفٹ میں توجہ کی جگہ دکھاتے ہیں۔",
-      "editorialSupport": "شفٹ ریکارڈ، فروخت اور اخراجات کا ڈیٹا ساتھ لائیں تاکہ ٹیم سمجھ سکے، عمل کرے اور نتیجہ جانچے۔"
+      "editorialSupport": "شفٹ ریکارڈ، فروخت اور اخراجات کا ڈیٹا ساتھ لائیں تاکہ ٹیم سمجھ سکے، عمل کرے اور نتیجہ جانچے۔",
+      "homeOutcome": "واپس حاصل شدہ منافع۔"
     },
     "links": {
       "eyebrow": "روزمرہ آپریشنز",
@@ -390,9 +399,9 @@ export const operatorNavigationCopy = {
   "it": {
     "brand": {
       "title": "Sundae | Gestione operativa per l'ospitalità e la ristorazione",
-      "description": "Gestisci turni, personale, attività e performance su operazioni multi-sede nel settore dell'ospitalità e della ristorazione. Collega il lavoro quotidiano alle decisioni e al recupero di profitto misurato.",
+      "description": "Sundae collega i tuoi team, il lavoro quotidiano e i dati operativi al contesto di mercato per spiegare cosa è cambiato, guidare l’azione e misurare i profitti recuperati.",
       "eyebrow": "Gestione operativa per ospitalità e ristorazione",
-      "sub": "Gestisci persone e lavoro quotidiano con gli stessi dati su vendite, costi e domanda. Sundae trasforma i dati operativi e il contesto di mercato pertinente in intelligenza che spiega cosa richiede attenzione, aiuta ogni team ad agire e segue i risultati tra le sedi.",
+      "sub": "Sundae collega i tuoi team, il lavoro quotidiano e i dati operativi al contesto di mercato per spiegare cosa è cambiato, guidare l’azione e misurare i profitti recuperati.",
       "productTitle": "Una piattaforma. Dal lavoro quotidiano alle decisioni misurate.",
       "productDescription": "Riunisci forza lavoro, esecuzione dei turni e dati operativi connessi in un'unica visione operativa. Crew aiuta i team a svolgere il lavoro; Core li aiuta a capire le performance, decidere la prossima azione e misurarne il risultato.",
       "coreDescription": "Lo spazio decisionale per team multi-sede dell'ospitalità e della ristorazione. Collega i dati operativi, ispeziona le evidenze, assegna la prossima azione e misura l'esito.",
@@ -401,8 +410,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Spazio decisionale per l'ospitalità e la ristorazione",
       "crewMetaTitle": "Sundae Crew | Forza lavoro e operazioni quotidiane",
       "illustrationDisclosure": "Esempio illustrativo, non un risultato di un cliente.",
-      "homeHeadline": "Vedi ogni livello.",
-      "homeTagline": "Agisci in tempo.",
+      "homeHeadline": "Operazioni connesse.",
+      "homeTagline": "Decisioni informate.",
       "coreHeadline": "Decisioni migliori. Risultati misurabili.",
       "crewHeadline": "Gestisci il personale.",
       "crewTagline": "Dirigi il turno.",
@@ -410,7 +419,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Vedi il turno mentre procede.",
       "homeLiveTitleBottom": "Sai cosa fare dopo.",
       "homeLiveSupport": "I segnali live di vendite, personale e perdite mostrano dove intervenire mentre il turno è ancora in corso.",
-      "editorialSupport": "Riunisci registri del turno, vendite e costi per capire cosa richiede attenzione, agire e verificare il risultato."
+      "editorialSupport": "Riunisci registri del turno, vendite e costi per capire cosa richiede attenzione, agire e verificare il risultato.",
+      "homeOutcome": "Profitti recuperati."
     },
     "links": {
       "eyebrow": "OPERAZIONI QUOTIDIANE",
@@ -433,9 +443,9 @@ export const operatorNavigationCopy = {
   "pl": {
     "brand": {
       "title": "Sundae | Zarządzanie operacjami w gastronomii i usługach żywieniowych",
-      "description": "Zarządzaj zmianami, personelem, zadaniami i wynikami w wielolokalnych operacjach gastronomicznych i żywieniowych. Połącz codzienną pracę z decyzjami i mierzalnym odzyskiem zysku.",
+      "description": "Sundae łączy Twoje zespoły, codzienną pracę i dane operacyjne z kontekstem rynkowym, aby wyjaśniać zmiany, wskazywać działania i mierzyć odzyskany zysk.",
       "eyebrow": "Zarządzanie operacyjne dla gastronomii i food service",
-      "sub": "Zarządzaj ludźmi i codzienną pracą na wspólnej podstawie danych o sprzedaży, kosztach i popycie. Sundae zmienia dane operacyjne i istotny kontekst rynkowy w inteligentną analizę, która wyjaśnia priorytety, pomaga zespołom działać i śledzi wyniki w lokalach.",
+      "sub": "Sundae łączy Twoje zespoły, codzienną pracę i dane operacyjne z kontekstem rynkowym, aby wyjaśniać zmiany, wskazywać działania i mierzyć odzyskany zysk.",
       "productTitle": "Jedna platforma. Codzienna praca do mierzalnych decyzji.",
       "productDescription": "Złącz zasoby ludzkie, realizację zmian i powiązane dane operacyjne w jeden obraz operacyjny. Crew pomaga zespołom wykonać pracę; Core pomaga zrozumieć wyniki, zdecydować, co dalej, i zmierzyć rezultat.",
       "coreDescription": "Przestrzeń decyzyjna dla wielolokalnych zespołów gastronomii i usług żywieniowych. Połącz dane operacyjne, zbadaj dowody, przypisz kolejne działanie i zmierz wynik.",
@@ -444,8 +454,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Przestrzeń decyzyjna dla gastronomii i usług żywieniowych",
       "crewMetaTitle": "Sundae Crew | Zarządzanie personelem i codzienne operacje",
       "illustrationDisclosure": "Przykład ilustracyjny, nie wynik klienta.",
-      "homeHeadline": "Zobacz każdą warstwę.",
-      "homeTagline": "Działaj na czas.",
+      "homeHeadline": "Połączone operacje.",
+      "homeTagline": "Świadome decyzje.",
       "coreHeadline": "Lepsze decyzje. Namierzalne efekty.",
       "crewHeadline": "Zarządzaj zespołem.",
       "crewTagline": "Prowadź zmianę.",
@@ -453,7 +463,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Zobacz przebieg zmiany.",
       "homeLiveTitleBottom": "Wiedz, co zrobić dalej.",
       "homeLiveSupport": "Sygnały sprzedaży, personelu i strat na żywo pokazują, gdzie potrzebna jest uwaga podczas trwającej zmiany.",
-      "editorialSupport": "Połącz zapisy zmian, sprzedaż i koszty, by zespoły rozumiały, co wymaga uwagi, działały i sprawdzały wynik."
+      "editorialSupport": "Połącz zapisy zmian, sprzedaż i koszty, by zespoły rozumiały, co wymaga uwagi, działały i sprawdzały wynik.",
+      "homeOutcome": "Odzyskany zysk."
     },
     "links": {
       "eyebrow": "CODZIENNE OPERACJE",
@@ -476,9 +487,9 @@ export const operatorNavigationCopy = {
   "tr": {
     "brand": {
       "title": "Sundae | Konaklama ve Gıda-Servis için Operasyon Yönetimi",
-      "description": "Çok lokasyonlu konaklama ve gıda-servis operasyonlarında vardiyeleri, işgücünü, görevleri ve performansı yönetin. Günlük işleri kararlara ve ölçülen kazanç kurtarımına bağlayın.",
+      "description": "Sundae, neyin değiştiğini açıklamak, eylemlere yön vermek ve geri kazandığınız kârı ölçmek için ekiplerinizi, günlük işleri ve operasyonel verileri pazar bağlamıyla birleştirir.",
       "eyebrow": "Konaklama ve yiyecek hizmetleri için operasyon yönetimi",
-      "sub": "İnsanları ve günlük işleri satış, maliyet ve talebe ilişkin aynı verilere dayanarak yönetin. Sundae operasyon verilerinizi ve ilgili pazar bağlamını akıllı analize dönüştürür; neyin dikkat gerektirdiğini açıklar, her ekibin harekete geçmesine yardımcı olur ve lokasyonlardaki sonuçları izler.",
+      "sub": "Sundae, neyin değiştiğini açıklamak, eylemlere yön vermek ve geri kazandığınız kârı ölçmek için ekiplerinizi, günlük işleri ve operasyonel verileri pazar bağlamıyla birleştirir.",
       "productTitle": "Tek platform. Günlük işten ölçülen kararlara.",
       "productDescription": "İşgücünü, vardiya yürütmeyi ve bağlanmış işletme verilerini tek bir işletme görünümüne getirin. Crew ekiplerin işi yürütmesine yardımcı olur; Core performansı anlamalarına, sonraki adımı belirlemelerine ve sonucu ölçmelerine yardımcı olur.",
       "coreDescription": "Çok lokasyonlu konaklama ve gıda-servis ekipleri için karar çalışma alanı. İşletme verilerini bağlayın, kanıtı inceleyin, sonraki eylemi atayın ve sonucu ölçün.",
@@ -487,8 +498,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Konaklama ve Gıda-Servis için Karar Çalışma Alanı",
       "crewMetaTitle": "Sundae Crew | İşgücü ve Günlük Operasyonlar",
       "illustrationDisclosure": "Temsili örnektir, bir müşteri sonucu değildir.",
-      "homeHeadline": "Her katmanı görün.",
-      "homeTagline": "Zamanında harekete geçin.",
+      "homeHeadline": "Bağlantılı operasyonlar.",
+      "homeTagline": "Bilgiye dayalı kararlar.",
       "coreHeadline": "Daha iyi kararlar. Ölçülebilir sonuçlar.",
       "crewHeadline": "Ekibini yönet.",
       "crewTagline": "Vardiyayı yürüt.",
@@ -496,7 +507,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Vardiyanın akışını görün.",
       "homeLiveTitleBottom": "Sonraki adımı bilin.",
       "homeLiveSupport": "Canlı satış, personel ve kayıp sinyalleri vardiya sürerken nerede dikkat gerektiğini gösterir.",
-      "editorialSupport": "Vardiya kayıtlarını, satış ve maliyet verilerini birleştirerek ekiplerin neye dikkat edeceğini anlamasını, harekete geçmesini ve sonucu kontrol etmesini sağlayın."
+      "editorialSupport": "Vardiya kayıtlarını, satış ve maliyet verilerini birleştirerek ekiplerin neye dikkat edeceğini anlamasını, harekete geçmesini ve sonucu kontrol etmesini sağlayın.",
+      "homeOutcome": "Geri kazanılan kâr."
     },
     "links": {
       "eyebrow": "GÜNLÜK OPERASYONLAR",
@@ -519,9 +531,9 @@ export const operatorNavigationCopy = {
   "zh-Hans": {
     "brand": {
       "title": "Sundae | 酒店与餐饮运营管理",
-      "description": "管理多门店酒店与餐饮运营的班次、人员、任务与绩效。将日常工作与决策及可度量的利润恢复挂钩。",
+      "description": "Sundae 将您的团队、日常工作和运营数据与市场背景相结合，解释变化、指导行动，并衡量挽回的利润。",
       "eyebrow": "面向餐饮与食品服务的运营管理",
-      "sub": "让人员管理和日常工作基于同一份销售、成本与需求数据。Sundae 将运营数据与相关市场背景转化为智能分析，解释哪些事项需要关注，帮助每个团队采取行动，并跨门店跟踪结果。",
+      "sub": "Sundae 将您的团队、日常工作和运营数据与市场背景相结合，解释变化、指导行动，并衡量挽回的利润。",
       "productTitle": "一个平台。将日常工作转为可衡量决策。",
       "productDescription": "把人员、班次执行与关联的运营数据整合为单一运营视图。Crew 帮助团队执行工作；Core 帮助他们理解绩效、决定下一步并衡量结果。",
       "coreDescription": "面向多门店酒店与餐饮团队的决策工作空间。连接运营数据、审查证据、分配后续行动并衡量结果。",
@@ -530,8 +542,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | 面向酒店与餐饮的决策工作空间",
       "crewMetaTitle": "Sundae Crew | 人员与日常运营",
       "illustrationDisclosure": "示意示例，非客户实际成果。",
-      "homeHeadline": "看清每一层。",
-      "homeTagline": "及时行动。",
+      "homeHeadline": "运营互联。",
+      "homeTagline": "决策有据。",
       "coreHeadline": "更好决策，可量化成效。",
       "crewHeadline": "管理你的团队。",
       "crewTagline": "掌控班次运作。",
@@ -539,7 +551,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "看见班次如何展开。",
       "homeLiveTitleBottom": "知道下一步做什么。",
       "homeLiveSupport": "销售、人力和损耗的实时信号显示班次进行中哪里需要关注。",
-      "editorialSupport": "汇集班次记录、销售和成本数据，让团队理解重点、采取行动并检查结果。"
+      "editorialSupport": "汇集班次记录、销售和成本数据，让团队理解重点、采取行动并检查结果。",
+      "homeOutcome": "挽回利润。"
     },
     "links": {
       "eyebrow": "日常运营",
@@ -562,9 +575,9 @@ export const operatorNavigationCopy = {
   "ja": {
     "brand": {
       "title": "Sundae | ホスピタリティとフードサービスのオペレーション管理",
-      "description": "マルチロケーションのホスピタリティおよびフードサービスの現場で、シフト、労働力、タスク、パフォーマンスを管理します。日々の業務を意思決定と測定された利益回復につなげます。",
+      "description": "Sundaeは、チーム、日々の業務、運営データを市場の動向と結び付け、何が変わったかを説明し、行動を導き、取り戻した利益を測定します。",
       "eyebrow": "ホスピタリティとフードサービスの運営管理",
-      "sub": "売上、コスト、需要の共通のデータに基づいて、人員と日々の業務を管理します。Sundae は運営データと関連する市場の背景をインテリジェンスに変え、注目すべき点を説明し、各チームの行動を支え、店舗を横断して結果を追跡します。",
+      "sub": "Sundaeは、チーム、日々の業務、運営データを市場の動向と結び付け、何が変わったかを説明し、行動を導き、取り戻した利益を測定します。",
       "productTitle": "1つのプラットフォーム。日々の業務から測定された意思決定へ。",
       "productDescription": "労働力、シフト実行、連結された運用データを一つの運用図に統合します。Crewは業務の遂行を支援し、Coreはパフォーマンスの理解、次の行動の決定、結果の測定を助けます。",
       "coreDescription": "マルチロケーションのホスピタリティとフードサービスチームのための意思決定ワークスペース。運用データを接続し、証拠を検査し、次のアクションを割り当て、その結果を測定します。",
@@ -573,8 +586,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | ホスピタリティとフードサービスの意思決定ワークスペース",
       "crewMetaTitle": "Sundae Crew | 労働力と日々のオペレーション",
       "illustrationDisclosure": "説明用の例であり、顧客の実績ではありません。",
-      "homeHeadline": "すべての層を見る。",
-      "homeTagline": "間に合ううちに動く。",
+      "homeHeadline": "つながる現場。",
+      "homeTagline": "根拠ある判断。",
       "coreHeadline": "判断を改善し、結果を可視化する。",
       "crewHeadline": "スタッフを管理する。",
       "crewTagline": "シフトを運営する。",
@@ -582,7 +595,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "シフトの進み方を見る。",
       "homeLiveTitleBottom": "次に何をするか知る。",
       "homeLiveSupport": "売上、人員、ロスのライブ信号が、シフト中に注意すべき場所を示します。",
-      "editorialSupport": "シフト記録、売上、コストをまとめ、チームが注意点を理解し、行動し、結果を確認できるようにします。"
+      "editorialSupport": "シフト記録、売上、コストをまとめ、チームが注意点を理解し、行動し、結果を確認できるようにします。",
+      "homeOutcome": "取り戻す利益。"
     },
     "links": {
       "eyebrow": "日次オペレーション",
@@ -605,9 +619,9 @@ export const operatorNavigationCopy = {
   "ko": {
     "brand": {
       "title": "Sundae | 호스피탈리티 및 푸드서비스 운영 관리",
-      "description": "다지점 호스피탈리티 및 푸드서비스 운영 전반의 근무교대, 인력, 업무와 성과를 관리합니다. 일상 업무를 의사결정과 측정된 이익 회복으로 연결합니다.",
+      "description": "Sundae는 팀, 일상 업무, 운영 데이터를 시장 상황과 연결해 무엇이 달라졌는지 설명하고, 실행 방향을 제시하며, 되찾은 이익을 측정합니다.",
       "eyebrow": "호스피탈리티와 푸드서비스를 위한 운영 관리",
-      "sub": "매출, 비용, 수요에 대한 같은 사실을 바탕으로 인력과 일상 업무를 관리하세요. Sundae는 운영 데이터와 관련 시장 맥락을 인텔리전스로 전환해 주의가 필요한 부분을 설명하고, 각 팀의 행동을 돕고, 여러 매장의 결과를 추적합니다.",
+      "sub": "Sundae는 팀, 일상 업무, 운영 데이터를 시장 상황과 연결해 무엇이 달라졌는지 설명하고, 실행 방향을 제시하며, 되찾은 이익을 측정합니다.",
       "productTitle": "하나의 플랫폼. 일상 업무에서 측정된 의사결정까지.",
       "productDescription": "인력, 근무 실행 및 연결된 운영 데이터를 하나의 운영 화면으로 집약합니다. Crew는 팀이 업무를 수행하도록 돕고; Core는 성과를 이해하고 다음 행동을 결정하며 결과를 측정합니다.",
       "coreDescription": "다지점 호스피탈리티 및 푸드서비스 팀을 위한 의사결정 작업공간입니다. 운영 데이터를 연결하고 근거를 검토하며 다음 조치를 지정하고 결과를 측정합니다.",
@@ -616,8 +630,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | 호스피탈리티 및 푸드서비스용 의사결정 작업공간",
       "crewMetaTitle": "Sundae Crew | 인력 및 일상 운영",
       "illustrationDisclosure": "설명을 위한 예시이며 고객의 실제 성과가 아닙니다.",
-      "homeHeadline": "모든 계층을 보세요.",
-      "homeTagline": "제때 행동하세요.",
+      "homeHeadline": "연결된 운영.",
+      "homeTagline": "근거 있는 의사결정.",
       "coreHeadline": "더 나은 판단. 측정된 성과.",
       "crewHeadline": "직원을 관리하세요.",
       "crewTagline": "교대를 운영하세요.",
@@ -625,7 +639,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "교대가 진행되는 모습을 보세요.",
       "homeLiveTitleBottom": "다음 행동을 아세요.",
       "homeLiveSupport": "매출, 인력, 누수의 실시간 신호가 교대 중 어디에 주의가 필요한지 보여줍니다.",
-      "editorialSupport": "교대 기록, 매출, 비용 데이터를 모아 팀이 주의할 점을 이해하고 행동한 뒤 결과를 확인하게 하세요."
+      "editorialSupport": "교대 기록, 매출, 비용 데이터를 모아 팀이 주의할 점을 이해하고 행동한 뒤 결과를 확인하게 하세요.",
+      "homeOutcome": "되찾은 이익."
     },
     "links": {
       "eyebrow": "일상 운영",
@@ -648,9 +663,9 @@ export const operatorNavigationCopy = {
   "id": {
     "brand": {
       "title": "Sundae | Manajemen Operasi untuk Hospitality dan Layanan Makanan",
-      "description": "Kelola shift, tenaga kerja, tugas, dan kinerja di seluruh operasi hospitality dan layanan makanan multi-lokasi. Hubungkan pekerjaan harian ke keputusan dan pemulihan profit yang terukur.",
+      "description": "Sundae menghubungkan tim, pekerjaan sehari-hari, dan data operasional Anda dengan konteks pasar untuk menjelaskan perubahan, memandu tindakan, dan mengukur laba yang Anda pulihkan.",
       "eyebrow": "Manajemen operasi untuk hospitality dan layanan makanan",
-      "sub": "Kelola staf dan pekerjaan harian dengan fakta yang sama tentang penjualan, biaya, dan permintaan. Sundae mengubah data operasi dan konteks pasar yang relevan menjadi kecerdasan yang menjelaskan prioritas, membantu setiap tim bertindak, dan melacak hasil di seluruh lokasi.",
+      "sub": "Sundae menghubungkan tim, pekerjaan sehari-hari, dan data operasional Anda dengan konteks pasar untuk menjelaskan perubahan, memandu tindakan, dan mengukur laba yang Anda pulihkan.",
       "productTitle": "Satu platform. Pekerjaan harian ke keputusan yang terukur.",
       "productDescription": "Satukan tenaga kerja, pelaksanaan shift, dan data operasi yang terhubung ke dalam satu gambaran operasi. Crew membantu tim menjalankan pekerjaan; Core membantu mereka memahami kinerja, memutuskan langkah selanjutnya dan mengukur hasilnya.",
       "coreDescription": "Ruang kerja keputusan untuk tim hospitality dan layanan makanan multi-lokasi. Hubungkan data operasi, periksa bukti, tugaskan tindakan berikutnya dan ukur hasilnya.",
@@ -659,8 +674,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitality dan Layanan Makanan",
       "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
       "illustrationDisclosure": "Contoh ilustratif, bukan hasil pelanggan.",
-      "homeHeadline": "Lihat setiap lapisan.",
-      "homeTagline": "Bertindak tepat waktu.",
+      "homeHeadline": "Operasional terhubung.",
+      "homeTagline": "Keputusan berbasis informasi.",
       "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
       "crewHeadline": "Kelola tim Anda.",
       "crewTagline": "Jalankan shift.",
@@ -668,7 +683,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Lihat shift berjalan.",
       "homeLiveTitleBottom": "Tahu langkah berikutnya.",
       "homeLiveSupport": "Sinyal penjualan, tenaga kerja, dan kebocoran secara langsung menunjukkan area perhatian saat shift masih berlangsung.",
-      "editorialSupport": "Satukan catatan shift, penjualan, dan biaya agar tim memahami perhatian, bertindak, dan memeriksa hasil."
+      "editorialSupport": "Satukan catatan shift, penjualan, dan biaya agar tim memahami perhatian, bertindak, dan memeriksa hasil.",
+      "homeOutcome": "Laba yang dipulihkan."
     },
     "links": {
       "eyebrow": "OPERASI HARIAN",
@@ -691,9 +707,9 @@ export const operatorNavigationCopy = {
   "vi": {
     "brand": {
       "title": "Sundae | Quản lý vận hành cho nhà hàng và dịch vụ ăn uống",
-      "description": "Quản lý ca, nhân sự, công việc và hiệu suất trên các chuỗi nhiều địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Kết nối công việc hàng ngày với quyết định và việc đo lường thu hồi lợi nhuận.",
+      "description": "Sundae kết nối đội ngũ, công việc hằng ngày và dữ liệu vận hành của bạn với bối cảnh thị trường để giải thích những thay đổi, định hướng hành động và đo lường lợi nhuận khôi phục được.",
       "eyebrow": "Quản lý vận hành cho dịch vụ ăn uống và lưu trú",
-      "sub": "Quản lý nhân sự và công việc hằng ngày dựa trên cùng dữ liệu về doanh thu, chi phí và nhu cầu. Sundae biến dữ liệu vận hành cùng bối cảnh thị trường phù hợp thành phân tích thông minh để giải thích ưu tiên, giúp từng đội ngũ hành động và theo dõi kết quả giữa các địa điểm.",
+      "sub": "Sundae kết nối đội ngũ, công việc hằng ngày và dữ liệu vận hành của bạn với bối cảnh thị trường để giải thích những thay đổi, định hướng hành động và đo lường lợi nhuận khôi phục được.",
       "productTitle": "Một nền tảng. Từ công việc hàng ngày tới quyết định được đo lường.",
       "productDescription": "Kết hợp nhân sự, thực thi ca và dữ liệu vận hành được nối kết vào một bức tranh vận hành duy nhất. Crew giúp đội thực hiện công việc; Core giúp họ hiểu hiệu suất, quyết định việc tiếp theo và đo lường kết quả.",
       "coreDescription": "Không gian ra quyết định cho các đội đa địa điểm trong ngành nhà hàng và dịch vụ ăn uống. Kết nối dữ liệu vận hành, kiểm tra bằng chứng, phân công hành động tiếp theo và đo lường kết quả.",
@@ -702,8 +718,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Không gian ra quyết định cho nhà hàng và dịch vụ ăn uống",
       "crewMetaTitle": "Sundae Crew | Nhân sự và vận hành hàng ngày",
       "illustrationDisclosure": "Ví dụ minh họa, không phải kết quả thực tế của khách hàng.",
-      "homeHeadline": "Thấy mọi lớp dữ liệu.",
-      "homeTagline": "Hành động đúng lúc.",
+      "homeHeadline": "Vận hành kết nối.",
+      "homeTagline": "Quyết định có cơ sở.",
       "coreHeadline": "Quyết định thông minh. Kết quả rõ ràng.",
       "crewHeadline": "Quản lý đội ngũ.",
       "crewTagline": "Điều hành ca.",
@@ -711,7 +727,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Thấy ca làm việc diễn ra.",
       "homeLiveTitleBottom": "Biết bước tiếp theo.",
       "homeLiveSupport": "Tín hiệu trực tiếp về doanh thu, nhân sự và thất thoát cho biết nơi cần chú ý khi ca vẫn đang chạy.",
-      "editorialSupport": "Gộp nhật ký ca, doanh thu và chi phí để đội hiểu điểm cần chú ý, hành động và kiểm tra kết quả."
+      "editorialSupport": "Gộp nhật ký ca, doanh thu và chi phí để đội hiểu điểm cần chú ý, hành động và kiểm tra kết quả.",
+      "homeOutcome": "Lợi nhuận được khôi phục."
     },
     "links": {
       "eyebrow": "VẬN HÀNH HÀNG NGÀY",
@@ -734,9 +751,9 @@ export const operatorNavigationCopy = {
   "ro": {
     "brand": {
       "title": "Sundae | Management operațional pentru ospitalitate și servicii alimentare",
-      "description": "Gestionează schimburile, forța de muncă, sarcinile și performanța în operațiuni multi-locație de ospitalitate și servicii alimentare. Conectează munca zilnică la decizii și la recuperarea profitului măsurată.",
+      "description": "Sundae conectează echipele, activitatea zilnică și datele operaționale cu contextul pieței pentru a explica ce s-a schimbat, a ghida acțiunile și a măsura profitul recuperat.",
       "eyebrow": "Management operațional pentru ospitalitate și servicii alimentare",
-      "sub": "Gestionează oamenii și munca zilnică folosind aceleași date despre vânzări, costuri și cerere. Sundae transformă datele operaționale și contextul de piață relevant în analiză inteligentă care explică prioritățile, ajută fiecare echipă să acționeze și urmărește rezultatele între locații.",
+      "sub": "Sundae conectează echipele, activitatea zilnică și datele operaționale cu contextul pieței pentru a explica ce s-a schimbat, a ghida acțiunile și a măsura profitul recuperat.",
       "productTitle": "O platformă. Munca zilnică până la decizii măsurate.",
       "productDescription": "Adună forța de muncă, execuția schimburilor și datele operaționale conectate într-o singură imagine operațională. Crew ajută echipele să desfășoare activitatea; Core le ajută să înțeleagă performanța, să decidă ce urmează și să măsoare rezultatul.",
       "coreDescription": "Spațiul decizional pentru echipele multi-locație din ospitalitate și servicii alimentare. Conectează datele operaționale, inspectează dovezile, atribuie următoarea acțiune și măsoară rezultatul.",
@@ -745,8 +762,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Spațiu decizional pentru ospitalitate și servicii alimentare",
       "crewMetaTitle": "Sundae Crew | Forța de muncă și operațiuni zilnice",
       "illustrationDisclosure": "Exemplu ilustrativ, nu un rezultat al unui client.",
-      "homeHeadline": "Vezi fiecare nivel.",
-      "homeTagline": "Acționează la timp.",
+      "homeHeadline": "Operațiuni conectate.",
+      "homeTagline": "Decizii informate.",
       "coreHeadline": "Decizii mai bune. Rezultate măsurabile.",
       "crewHeadline": "Gestionează-ți echipa.",
       "crewTagline": "Conduceți tura.",
@@ -754,7 +771,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Vezi tura pe măsură ce se desfășoară.",
       "homeLiveTitleBottom": "Știi ce urmează.",
       "homeLiveSupport": "Semnalele live pentru vânzări, personal și pierderi arată unde este nevoie de atenție cât timp tura continuă.",
-      "editorialSupport": "Adu împreună înregistrările turei, vânzările și costurile pentru ca echipele să înțeleagă ce necesită atenție, să acționeze și să verifice rezultatul."
+      "editorialSupport": "Adu împreună înregistrările turei, vânzările și costurile pentru ca echipele să înțeleagă ce necesită atenție, să acționeze și să verifice rezultatul.",
+      "homeOutcome": "Profit recuperat."
     },
     "links": {
       "eyebrow": "OPERAȚIUNI ZILNICE",
@@ -777,9 +795,9 @@ export const operatorNavigationCopy = {
   "sv": {
     "brand": {
       "title": "Sundae | Verksamhetsstyrning för hotell- och matservice",
-      "description": "Hantera scheman, personal, uppgifter och resultat över flerlokala hotell- och matserviceverksamheter. Knyt dagligt arbete till beslut och mätbar återvunnen vinst.",
+      "description": "Sundae kopplar samman dina team, det dagliga arbetet och driftdata med marknadsläget för att förklara vad som har förändrats, vägleda insatser och mäta den vinst du återvinner.",
       "eyebrow": "Operativ styrning för hotell, restaurang och foodservice",
-      "sub": "Led personal och dagligt arbete med samma fakta om försäljning, kostnader och efterfrågan. Sundae omvandlar driftdata och relevant marknadskontext till intelligens som förklarar vad som behöver uppmärksamhet, hjälper varje team att agera och följer resultatet mellan enheter.",
+      "sub": "Sundae kopplar samman dina team, det dagliga arbetet och driftdata med marknadsläget för att förklara vad som har förändrats, vägleda insatser och mäta den vinst du återvinner.",
       "productTitle": "En plattform. Dagligt arbete till mätbara beslut.",
       "productDescription": "Samla personal, skiftsgenomförande och kopplade driftdata i en gemensam driftbild. Crew hjälper teamen att utföra arbetet; Core hjälper dem att förstå prestationen, besluta vad som ska göras härnäst och mäta resultatet.",
       "coreDescription": "Beslutsarbetsytan för flerlokala hotell- och matserviceteam. Koppla driftdata, granska bevisen, tilldela nästa åtgärd och mäta utfallet.",
@@ -788,8 +806,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Beslutsarbetsyta för hotell- och matservice",
       "crewMetaTitle": "Sundae Crew | Personal och daglig drift",
       "illustrationDisclosure": "Illustrativt exempel, inte ett kundresultat.",
-      "homeHeadline": "Se varje lager.",
-      "homeTagline": "Agera i tid.",
+      "homeHeadline": "Sammanlänkad drift.",
+      "homeTagline": "Välgrundade beslut.",
       "coreHeadline": "Bättre beslut. Mätbara resultat.",
       "crewHeadline": "Hantera ditt team.",
       "crewTagline": "Kör passet.",
@@ -797,7 +815,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Se skiftet utvecklas.",
       "homeLiveTitleBottom": "Vet vad som händer sedan.",
       "homeLiveSupport": "Live-signaler för försäljning, personal och svinn visar var uppmärksamhet behövs medan skiftet pågår.",
-      "editorialSupport": "Samla skiftanteckningar, försäljning och kostnader så att team förstår vad som kräver uppmärksamhet, agerar och kontrollerar resultatet."
+      "editorialSupport": "Samla skiftanteckningar, försäljning och kostnader så att team förstår vad som kräver uppmärksamhet, agerar och kontrollerar resultatet.",
+      "homeOutcome": "Återvunnen vinst."
     },
     "links": {
       "eyebrow": "DAGLIG DRIFT",
@@ -820,9 +839,9 @@ export const operatorNavigationCopy = {
   "bn": {
     "brand": {
       "title": "Sundae | আতিথ্য ও খাদ্য-পরিবেশনা পরিচালনার জন্য অপারেশন ম্যানেজমেন্ট",
-      "description": "একাধিক লোকেশনের আতিথ্য ও খাদ্য-পরিবেশনা অপারেশনে শিফট, কর্মী, কাজ ও কর্মক্ষমতা পরিচালনা করুন। দৈনন্দিন কাজকে সিদ্ধান্ত এবং পরিমাপযোগ্য লাভ পুনরুদ্ধারের সঙ্গে যুক্ত করুন।",
+      "description": "কী বদলেছে তা ব্যাখ্যা করতে, পদক্ষেপের দিকনির্দেশ দিতে এবং পুনরুদ্ধার করা মুনাফা পরিমাপ করতে Sundae আপনার দল, দৈনন্দিন কাজ ও পরিচালনগত ডেটাকে বাজারের প্রেক্ষাপটের সঙ্গে যুক্ত করে।",
       "eyebrow": "হসপিটালিটি ও ফুড-সার্ভিসের জন্য অপারেশন ম্যানেজমেন্ট",
-      "sub": "বিক্রি, খরচ ও চাহিদার একই তথ্যের ভিত্তিতে কর্মী ও দৈনন্দিন কাজ পরিচালনা করুন। Sundae পরিচালনার তথ্য ও প্রাসঙ্গিক বাজার প্রেক্ষাপটকে বুদ্ধিমান বিশ্লেষণে রূপ দেয়, যা অগ্রাধিকার বোঝায়, প্রতিটি দলকে পদক্ষেপ নিতে সাহায্য করে এবং সব লোকেশনের ফল অনুসরণ করে।",
+      "sub": "কী বদলেছে তা ব্যাখ্যা করতে, পদক্ষেপের দিকনির্দেশ দিতে এবং পুনরুদ্ধার করা মুনাফা পরিমাপ করতে Sundae আপনার দল, দৈনন্দিন কাজ ও পরিচালনগত ডেটাকে বাজারের প্রেক্ষাপটের সঙ্গে যুক্ত করে।",
       "productTitle": "একটি প্ল্যাটফর্ম। দৈনন্দিন কাজ থেকে পরিমাপযোগ্য সিদ্ধান্ত।",
       "productDescription": "কর্মী, শিফট সম্পাদন এবং সংযুক্ত অপারেটিং ডেটা এক অপারেটিং চিত্রে আনুন। Crew টিমকে কাজ পরিচালনায় সাহায্য করে; Core তাদের কর্মক্ষমতা বুঝতে, পরবর্তী কাজ নির্ধারণ করতে এবং ফলাফল মাপতে সহায়তা করে।",
       "coreDescription": "একাধিক লোকেশনের আতিথ্য ও খাদ্য-পরিবেশন টিমদের জন্য সিদ্ধান্ত কর্মস্থল। অপারেটিং ডেটা সংযুক্ত করুন, প্রমাণ পরিদর্শন করুন, পরবর্তী কার্যভার বরাদ্দ করুন এবং ফলাফল পরিমাপ করুন।",
@@ -831,8 +850,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | আতিথ্য ও খাদ্য-পরিবেশনার জন্য সিদ্ধান্ত কর্মস্থল",
       "crewMetaTitle": "Sundae Crew | কর্মশক্তি এবং দৈনন্দিন অপারেশন",
       "illustrationDisclosure": "শুধু উদাহরণ, কোনো গ্রাহকের প্রকৃত ফলাফল নয়।",
-      "homeHeadline": "প্রতিটি স্তর দেখুন।",
-      "homeTagline": "সময়মতো পদক্ষেপ নিন।",
+      "homeHeadline": "সংযুক্ত কার্যক্রম।",
+      "homeTagline": "তথ্যভিত্তিক সিদ্ধান্ত।",
       "coreHeadline": "ভাল সিদ্ধান্ত। পরিমাপযোগ্য ফলাফল।",
       "crewHeadline": "আপনার কর্মী পরিচালনা করুন।",
       "crewTagline": "শিফট চালান।",
@@ -840,7 +859,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "শিফট চলতে দেখুন।",
       "homeLiveTitleBottom": "পরের কাজ জানুন।",
       "homeLiveSupport": "বিক্রি, শ্রম ও ক্ষতির লাইভ সংকেত চলমান শিফটে কোথায় নজর দরকার দেখায়।",
-      "editorialSupport": "শিফট রেকর্ড, বিক্রি ও খরচের তথ্য একত্র করুন যাতে দল বুঝতে, কাজ করতে এবং ফল পরীক্ষা করতে পারে।"
+      "editorialSupport": "শিফট রেকর্ড, বিক্রি ও খরচের তথ্য একত্র করুন যাতে দল বুঝতে, কাজ করতে এবং ফল পরীক্ষা করতে পারে।",
+      "homeOutcome": "পুনরুদ্ধার করা মুনাফা।"
     },
     "links": {
       "eyebrow": "দৈনন্দিন অপারেশন",
@@ -863,9 +883,9 @@ export const operatorNavigationCopy = {
   "th": {
     "brand": {
       "title": "Sundae | การจัดการปฏิบัติการสำหรับธุรกิจบริการอาหารและการบริการ",
-      "description": "จัดการกะงาน กำลังคน งานประจำ และประสิทธิภาพข้ามหลายสาขาของธุรกิจบริการอาหารและการบริการ เชื่อมงานประจำกับการตัดสินใจและการวัดการฟื้นคืนกำไร",
+      "description": "Sundae เชื่อมทีม งานประจำวัน และข้อมูลการดำเนินงานเข้ากับบริบทตลาด เพื่ออธิบายสิ่งที่เปลี่ยนไป ชี้แนวทางลงมือทำ และวัดกำไรที่คุณกู้คืนได้",
       "eyebrow": "การจัดการปฏิบัติการสำหรับฮอสพิทาลิตี้และบริการอาหาร",
-      "sub": "จัดการบุคลากรและงานประจำวันจากข้อเท็จจริงเดียวกันเรื่องยอดขาย ต้นทุน และความต้องการ Sundae เปลี่ยนข้อมูลการดำเนินงานและบริบทตลาดที่เกี่ยวข้องเป็นข้อมูลเชิงลึกอัจฉริยะ อธิบายสิ่งที่ต้องใส่ใจ ช่วยทุกทีมลงมือทำ และติดตามผลข้ามสาขา",
+      "sub": "Sundae เชื่อมทีม งานประจำวัน และข้อมูลการดำเนินงานเข้ากับบริบทตลาด เพื่ออธิบายสิ่งที่เปลี่ยนไป ชี้แนวทางลงมือทำ และวัดกำไรที่คุณกู้คืนได้",
       "productTitle": "แพลตฟอร์มเดียว งานประจำสู่การตัดสินใจที่วัดผลได้",
       "productDescription": "รวบรวมกำลังคน การปฏิบัติงานประจำกะ และข้อมูลการดำเนินงานที่เชื่อมต่อเป็นภาพปฏิบัติการเดียว Crew ช่วยทีมบริหารงาน Core ช่วยให้เข้าใจผลงาน ตัดสินใจว่าจะทำอะไรต่อ และวัดผลลัพธ์",
       "coreDescription": "พื้นที่ทำงานเพื่อตัดสินใจสำหรับทีมธุรกิจบริการอาหารและการบริการข้ามสาขา เชื่อมข้อมูลการดำเนินงาน ตรวจสอบหลักฐาน กำหนดการกระทำถัดไป และวัดผลลัพธ์",
@@ -874,8 +894,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | พื้นที่ทำงานเพื่อตัดสินใจสำหรับธุรกิจบริการอาหารและการบริการ",
       "crewMetaTitle": "Sundae Crew | กำลังคนและการปฏิบัติงานประจำ",
       "illustrationDisclosure": "ตัวอย่างประกอบ ไม่ใช่ผลลัพธ์จริงของลูกค้า",
-      "homeHeadline": "เห็นทุกชั้นของการดำเนินงาน",
-      "homeTagline": "ลงมือให้ทันเวลา",
+      "homeHeadline": "การดำเนินงานที่เชื่อมถึงกัน",
+      "homeTagline": "การตัดสินใจบนข้อมูล",
       "coreHeadline": "ตัดสินใจดีกว่า ผลลัพธ์ชัดเจน",
       "crewHeadline": "จัดการทีมงาน",
       "crewTagline": "บริหารกะงาน",
@@ -883,7 +903,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "เห็นกะที่กำลังดำเนินไป",
       "homeLiveTitleBottom": "รู้ว่าต้องทำอะไรต่อ",
       "homeLiveSupport": "สัญญาณสดของยอดขาย แรงงาน และการสูญเสียแสดงจุดที่ต้องใส่ใจขณะกะยังดำเนินอยู่",
-      "editorialSupport": "รวมบันทึกกะ ยอดขาย และต้นทุน เพื่อให้ทีมเข้าใจจุดสำคัญ ลงมือ และตรวจสอบผลลัพธ์"
+      "editorialSupport": "รวมบันทึกกะ ยอดขาย และต้นทุน เพื่อให้ทีมเข้าใจจุดสำคัญ ลงมือ และตรวจสอบผลลัพธ์",
+      "homeOutcome": "กำไรที่กู้คืนได้"
     },
     "links": {
       "eyebrow": "การปฏิบัติงานประจำ",
@@ -906,9 +927,9 @@ export const operatorNavigationCopy = {
   "ms": {
     "brand": {
       "title": "Sundae | Pengurusan Operasi untuk Hospitaliti dan Perkhidmatan Makanan",
-      "description": "Urus syif, tenaga kerja, tugas dan prestasi merentasi operasi hospitaliti dan perkhidmatan makanan berbilang lokasi. Sambungkan kerja harian kepada keputusan dan pemulihan keuntungan yang diukur.",
+      "description": "Sundae menghubungkan pasukan, kerja harian dan data operasi anda dengan konteks pasaran untuk menjelaskan perubahan, membimbing tindakan dan mengukur keuntungan yang anda pulihkan.",
       "eyebrow": "Pengurusan operasi untuk hospitaliti dan perkhidmatan makanan",
-      "sub": "Urus kakitangan dan kerja harian dengan fakta yang sama tentang jualan, kos dan permintaan. Sundae menukar data operasi dan konteks pasaran yang relevan menjadi kecerdasan yang menerangkan keutamaan, membantu setiap pasukan bertindak dan menjejaki hasil merentas lokasi.",
+      "sub": "Sundae menghubungkan pasukan, kerja harian dan data operasi anda dengan konteks pasaran untuk menjelaskan perubahan, membimbing tindakan dan mengukur keuntungan yang anda pulihkan.",
       "productTitle": "Satu platform. Kerja harian kepada keputusan yang diukur.",
       "productDescription": "Satukan tenaga kerja, pelaksanaan syif dan data operasi yang bersambung ke dalam satu gambaran operasi. Crew membantu pasukan menjalankan kerja; Core membantu mereka memahami prestasi, memutuskan langkah seterusnya dan mengukur hasilnya.",
       "coreDescription": "Ruang kerja keputusan untuk pasukan hospitaliti dan perkhidmatan makanan berbilang lokasi. Sambungkan data operasi, periksa bukti, tugaskan tindakan seterusnya dan ukur hasilnya.",
@@ -917,8 +938,8 @@ export const operatorNavigationCopy = {
       "coreMetaTitle": "Sundae Core | Ruang Kerja Keputusan untuk Hospitaliti dan Perkhidmatan Makanan",
       "crewMetaTitle": "Sundae Crew | Tenaga Kerja dan Operasi Harian",
       "illustrationDisclosure": "Contoh ilustrasi, bukan hasil sebenar pelanggan.",
-      "homeHeadline": "Lihat setiap lapisan.",
-      "homeTagline": "Bertindak tepat pada masanya.",
+      "homeHeadline": "Operasi yang terhubung.",
+      "homeTagline": "Keputusan berasaskan maklumat.",
       "coreHeadline": "Keputusan lebih baik. Hasil terukur.",
       "crewHeadline": "Urus pasukan anda.",
       "crewTagline": "Jalankan syif.",
@@ -926,7 +947,8 @@ export const operatorNavigationCopy = {
       "homeLiveTitleTop": "Lihat syif yang sedang berjalan.",
       "homeLiveTitleBottom": "Tahu langkah seterusnya.",
       "homeLiveSupport": "Isyarat langsung jualan, tenaga kerja dan kebocoran menunjukkan perkara yang memerlukan perhatian ketika syif masih berjalan.",
-      "editorialSupport": "Satukan rekod syif, jualan dan kos supaya pasukan memahami perkara yang perlu diberi perhatian, bertindak dan menyemak hasil."
+      "editorialSupport": "Satukan rekod syif, jualan dan kos supaya pasukan memahami perkara yang perlu diberi perhatian, bertindak dan menyemak hasil.",
+      "homeOutcome": "Keuntungan yang dipulihkan."
     },
     "links": {
       "eyebrow": "OPERASI HARIAN",
@@ -946,4 +968,4 @@ export const operatorNavigationCopy = {
       "sundae": "Tugaskan kerja pembukaan, penutupan, berulang dan pengecualian kepada orang yang betul, jejak penyelesaian merentasi lokasi dan bawa bukti ke dalam keputusan operasi seterusnya."
     }
   }
-} as const
+} as const;
