@@ -1,0 +1,369 @@
+{
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "role": "coo",
+      "href": "/solutions/regional-managers",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "role": "cfo",
+      "href": "/solutions/finance-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "role": "ceo",
+      "href": "/solutions/c-suite-executives",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "role": "marketing",
+      "href": "/solutions/marketing-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "role": "hr",
+      "href": "/solutions/hr-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "role": "tech",
+      "href": "/solutions/technology-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "role": "coo",
+      "href": "/solutions/regional-managers",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "role": "cfo",
+      "href": "/solutions/finance-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "role": "ceo",
+      "href": "/solutions/c-suite-executives",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "role": "marketing",
+      "href": "/solutions/marketing-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "role": "hr",
+      "href": "/solutions/hr-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "role": "tech",
+      "href": "/solutions/technology-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "role": "coo",
+      "href": "/solutions/regional-managers",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "role": "cfo",
+      "href": "/solutions/finance-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "role": "ceo",
+      "href": "/solutions/c-suite-executives",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "role": "marketing",
+      "href": "/solutions/marketing-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "role": "hr",
+      "href": "/solutions/hr-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "role": "tech",
+      "href": "/solutions/technology-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(21, 17, 13)",
+        "background": "rgb(251, 248, 244)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "role": "coo",
+      "href": "/solutions/regional-managers",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "role": "cfo",
+      "href": "/solutions/finance-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "role": "ceo",
+      "href": "/solutions/c-suite-executives",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "role": "marketing",
+      "href": "/solutions/marketing-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "role": "hr",
+      "href": "/solutions/hr-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "role": "tech",
+      "href": "/solutions/technology-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "role": "coo",
+      "href": "/ar/solutions/regional-managers",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "role": "cfo",
+      "href": "/ar/solutions/finance-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "role": "ceo",
+      "href": "/ar/solutions/c-suite-executives",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "role": "marketing",
+      "href": "/ar/solutions/marketing-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "role": "hr",
+      "href": "/ar/solutions/hr-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "role": "tech",
+      "href": "/ar/solutions/technology-teams",
+      "overflow": false,
+      "activeColor": {
+        "color": "rgb(251, 247, 241)",
+        "background": "rgb(30, 23, 17)"
+      }
+    },
+    {
+      "journey": "Shared Home treatment and reduced motion",
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}
