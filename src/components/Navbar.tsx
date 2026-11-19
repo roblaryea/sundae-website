@@ -716,14 +716,18 @@ const Navbar = () => {
 
           {/* Sticky Bottom CTA Bar */}
           <div className="flex-shrink-0 sticky bottom-0 bg-[var(--navy)]/90 backdrop-blur border-t border-[var(--border-default)] px-4 py-3">
-            <div className="flex items-center gap-3">
-              <LocaleSwitcher />
-              <ThemeToggle />
-              <div className="flex flex-1 gap-3">
+            <div className="grid gap-3">
+              <div className="flex items-center justify-between gap-3">
+                <div className="inline-flex min-h-11 shrink-0 rounded-lg focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[var(--text-display)] [&>label]:min-h-11">
+                  <LocaleSwitcher />
+                </div>
+                <ThemeToggle className="min-h-11 min-w-11 shrink-0" />
+              </div>
+              <div className="grid min-w-0 grid-cols-2 gap-3">
               <Link
                 href={localizeHref('/sign-in')}
                 onClick={handleMobileNavClick}
-                className="flex-1 py-2.5 px-4 text-center text-sm font-medium border border-[var(--border-emphasis)] rounded-lg text-[var(--text-secondary)] hover:bg-[var(--surface-hover)] transition-colors"
+                className="flex min-h-11 min-w-0 items-center justify-center rounded-lg border border-[var(--border-emphasis)] px-3 py-2.5 text-center text-sm font-medium leading-snug text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)]"
                 data-cta="sign_in_mobile_nav"
                 data-source="mobile-nav"
               >
@@ -732,7 +736,7 @@ const Navbar = () => {
               <Button
                 variant="primary"
                 size="sm"
-                className="flex-1"
+                className="h-auto min-h-11 min-w-0 whitespace-normal! px-3 py-2.5 leading-snug"
                 onClick={() => {
                   cta(localizeHref("/demo"), "book_demo_mobile_nav", { location: "mobile-nav" });
                   setIsMenuOpen(false);

@@ -1,0 +1,8 @@
+{
+  "scope": "separate pre-existing preference observation, not a Navbar source change",
+  "probe": "NL to English at320, observed650msafter route change",
+  "url": "/",
+  "htmlLang": "en",
+  "localeCookie": "nl",
+  "status": "reported to independent reviewer for reproduction; durable preference is not claimed by the layout tests"
+}
