@@ -6,7 +6,6 @@ import audienceCopy from '@/content/operator-audiences.json';
 
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { motion, MotionConfig } from "framer-motion";
 import { useCta } from "@/lib/cta";
@@ -15,6 +14,7 @@ import { MockupFrame } from "@/components/ui/MockupFrame";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { HeroLiveDashboard } from "./HeroLiveDashboard";
+import { ServiceBackdrop } from "./ServiceBackdrop";
 import { SectionEditorialBand } from "./sections/SectionEditorialBand";
 import { SectionEditorialSplit } from "./sections/SectionEditorialSplit";
 import { SectionCreamRelief } from "./sections/SectionCreamRelief";
@@ -149,65 +149,7 @@ export default function HomeContent() {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.13),transparent_60%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_45%_at_82%_28%,rgba(242,166,90,0.10),transparent_55%)]" />
 
-          {/* Editorial backdrop - grounds the product hero in the restaurant world.
-              Heavily darkened, blurred and vignetted into the page bg so it reads as
-              atmosphere, never as a stock photo; the dashboard (z-20) floats over it. */}
-          <div aria-hidden className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-            {/* light mode: a BRIGHT editorial photo under a warm-cream wash, so the
-                hero has real depth + warmth (not a flat cream panel). The central
-                white-ish scrim keeps the dark hero copy fully legible. */}
-            <Image
-              src="/images/editorial/dining-room.jpg"
-              alt=""
-              fill
-              sizes="100vw"
-              className="object-cover object-center hidden [html.light_&]:block opacity-[0.7]"
-            />
-            <div
-              className="absolute inset-0 hidden [html.light_&]:block"
-              style={{
-                background:
-                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.22) 0%, transparent 54%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.30) 0%, transparent 56%), radial-gradient(ellipse 56% 46% at 50% 38%, rgba(255,250,245,0.62) 0%, rgba(255,246,239,0.26) 48%, transparent 72%), linear-gradient(180deg, rgba(255,246,239,0.18) 0%, rgba(255,251,247,0.4) 62%, #FBF7F1 96%)',
-              }}
-            />
-            <Image
-              src="/images/editorial/atmosphere.jpg"
-              alt=""
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover object-center scale-105 opacity-[0.7] [html.light_&]:opacity-0"
-            />
-            {/* warm grade - strong caramel/coral so the room reads unmistakably warm.
-                Kept ON in light too (was disabled) at reduced strength, so the photo
-                reads as an intentional warm room, not a washed-out beige panel. */}
-            <div
-              className="absolute inset-0 mix-blend-soft-light opacity-90 [html.light_&]:opacity-[0.55]"
-              style={{
-                background:
-                  'radial-gradient(ellipse 85% 75% at 64% 30%, rgba(233,162,74,0.65) 0%, transparent 62%), radial-gradient(ellipse 70% 60% at 18% 88%, rgba(255,92,77,0.5) 0%, transparent 60%)',
-              }}
-            />
-            {/* soft radial scrim ONLY behind the centered copy - keeps the photo visible */}
-            <div
-              className="absolute inset-0"
-              style={{
-                background:
-                  'radial-gradient(ellipse 64% 52% at 50% 36%, color-mix(in srgb, var(--navy-deep) 80%, transparent) 0%, color-mix(in srgb, var(--navy-deep) 30%, transparent) 55%, transparent 75%)',
-              }}
-            />
-            {/* light top + bottom grounding into the page bg */}
-            <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[var(--navy-deep)] to-transparent" />
-            <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[var(--navy-deep)] via-[var(--navy-deep)]/80 to-transparent" />
-            {/* gentle side feathers */}
-            <div
-              className="absolute inset-0"
-              style={{
-                background:
-                  'linear-gradient(90deg, var(--navy-deep) 0%, transparent 18%, transparent 82%, var(--navy-deep) 100%)',
-              }}
-            />
-          </div>
+          <ServiceBackdrop />
 
           <div className="max-w-5xl mx-auto text-center relative z-20">
             {/* Eyebrow - the site's own editorial eyebrow (uppercase, tracked),

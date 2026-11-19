@@ -1,0 +1,122 @@
+{
+  "fullLoop": {
+    "observations": [
+      {
+        "time": 2.0397,
+        "paused": false,
+        "ready": 4,
+        "duration": 22.417
+      },
+      {
+        "time": 7.5478,
+        "paused": false,
+        "ready": 4,
+        "duration": 22.417
+      },
+      {
+        "time": 17.0584,
+        "paused": false,
+        "ready": 4,
+        "duration": 22.417
+      },
+      {
+        "time": 1.4761,
+        "paused": false,
+        "ready": 4,
+        "duration": 22.417
+      },
+      {
+        "time": 8.3429,
+        "paused": false,
+        "ready": 4,
+        "duration": 22.417
+      },
+      {
+        "time": 5.1993,
+        "paused": false,
+        "ready": 4,
+        "duration": 22.417
+      },
+      {
+        "time": 7.734,
+        "paused": false,
+        "ready": 4,
+        "duration": 22.417
+      }
+    ],
+    "nativeWrapObserved": true
+  },
+  "keyboardPause": {
+    "pausedAt": 0.0056,
+    "stillAt": 0.0056,
+    "focus": {
+      "outline": "3px",
+      "width": 44,
+      "height": 44
+    }
+  },
+  "userPausePersists": true,
+  "offscreenPaused": true,
+  "visibleResumed": true,
+  "nativeTabHidden": false,
+  "preferenceChange": {
+    "videoRemoved": true,
+    "oldVideoPaused": true,
+    "controlAbsent": true,
+    "resumed": true
+  },
+  "errors": [],
+  "fallbacks": [
+    {
+      "mode": "reduced",
+      "requests": [],
+      "state": {
+        "poster": true,
+        "video": null,
+        "control": false
+      },
+      "errors": []
+    },
+    {
+      "mode": "nojs",
+      "requests": [],
+      "state": {
+        "poster": true,
+        "video": null,
+        "control": false
+      },
+      "errors": []
+    },
+    {
+      "mode": "webm-error",
+      "requests": [
+        "http://127.0.0.1:3160/videos/manifesto-room.webm",
+        "http://127.0.0.1:3160/videos/manifesto-room.mp4"
+      ],
+      "state": {
+        "poster": true,
+        "video": {
+          "src": "http://127.0.0.1:3160/videos/manifesto-room.mp4",
+          "ready": 4,
+          "paused": false,
+          "opacity": "1"
+        },
+        "control": true
+      },
+      "errors": []
+    },
+    {
+      "mode": "all-errors",
+      "requests": [
+        "http://127.0.0.1:3160/videos/manifesto-room.webm",
+        "http://127.0.0.1:3160/videos/manifesto-room.mp4"
+      ],
+      "state": {
+        "poster": true,
+        "video": null,
+        "control": false
+      },
+      "errors": []
+    }
+  ]
+}
