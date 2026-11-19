@@ -36,7 +36,7 @@ function html(profile) {
 *{box-sizing:border-box;margin:0}
 body{width:1200px;height:630px;background:#171210;color:#fbf8f4;font-family:H,sans-serif;position:relative;overflow:hidden}
 .glow{position:absolute;inset:0;background:radial-gradient(620px 520px at 82% 46%,rgba(255,92,77,.22),transparent 65%),radial-gradient(460px 380px at 96% 8%,rgba(233,162,74,.18),transparent 66%)}
-.wm{position:absolute;left:84px;top:70px;display:flex;align-items:center;direction:ltr}.wm .symbol{width:40px;height:40px}.wm .wordmark{width:200px;height:50px;margin-left:-20px;display:block}
+.wm{position:absolute;left:84px;top:70px;display:flex;align-items:center;direction:ltr}.wm .symbol{width:46.875px;height:46.875px;position:relative;top:.891px}.wm .wordmark{width:200px;height:50px;margin-left:-18.75px;display:block}
 .txt{position:absolute;left:84px;bottom:84px;width:720px}
 .name{font:560 84px/1.02 F,serif;font-variation-settings:'opsz' 72,'SOFT' 0,'WONK' 0;letter-spacing:-.028em}
 .role{margin-top:18px;font-size:34px;font-weight:600;color:#ff5c4d}
