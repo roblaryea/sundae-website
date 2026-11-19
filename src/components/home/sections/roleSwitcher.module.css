@@ -1,0 +1,7 @@
+.section :is(h2,h3,h4) { hyphens: none; }
+.tab:focus-visible, .roleLink:focus-visible, .panel:focus-visible { outline: 2px solid var(--text-display); outline-offset: 4px; }
+.panel:not([hidden]) { animation: panel-in 220ms ease-out; }
+.croppedProof { position: relative; overflow: hidden; aspect-ratio: 2600 / 1740; border: 1px solid var(--border-default); border-radius: 0.75rem; background: var(--navy); }
+.croppedProof img { position: absolute; width: 123.077%; height: 114.943%; max-width: none; left: -20.769%; top: -10.345%; }
+@keyframes panel-in { from { opacity: 0.6; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .panel:not([hidden]) { animation: none; } }

@@ -1,0 +1,728 @@
+{
+  "de": {
+    "eyebrow": "EINE PLATTFORM. JEDE ROLLE.",
+    "headlineSee": "Siehe",
+    "headlineFor": "für",
+    "todayLabel": "Heute",
+    "withSundaeLabel": "Mit Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Betriebsleiter"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Finanz- & FP&A-Leiter"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEOs und Eigentümer"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Marketing-Leads"
+      },
+      {
+        "shortLabel": "HR / Personal",
+        "pluralLabel": "HR- und Personalverantwortliche"
+      },
+      {
+        "shortLabel": "Technologie",
+        "pluralLabel": "Technologie- und Datenverantwortliche"
+      }
+    ]
+  },
+  "fr": {
+    "eyebrow": "UNE PLATEFORME. CHAQUE RÔLE.",
+    "headlineSee": "Voyez",
+    "headlineFor": "pour",
+    "todayLabel": "Aujourd'hui",
+    "withSundaeLabel": "Avec Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Responsables opérations"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Responsables finance & FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "Dirigeants et propriétaires"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Responsables marketing"
+      },
+      {
+        "shortLabel": "RH",
+        "pluralLabel": "Responsables RH & People"
+      },
+      {
+        "shortLabel": "Tech",
+        "pluralLabel": "Responsables Tech & Data"
+      }
+    ]
+  },
+  "nl": {
+    "eyebrow": "ÉÉN PLATFORM. ELKE ROL.",
+    "headlineSee": "Bekijk",
+    "headlineFor": "voor",
+    "todayLabel": "Vandaag",
+    "withSundaeLabel": "Met Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Operationele Leiders"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Financiën & FP&A Leiders"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO's en Eigenaren"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Marketing Leads"
+      },
+      {
+        "shortLabel": "HR / Personeel",
+        "pluralLabel": "HR en Personeelsleiders"
+      },
+      {
+        "shortLabel": "Technologie",
+        "pluralLabel": "Technologie en Gegevensleiders"
+      }
+    ]
+  },
+  "ar": {
+    "eyebrow": "منصة واحدة. لكل دور.",
+    "headlineSee": "شاهد",
+    "headlineFor": "لـ",
+    "todayLabel": "اليوم",
+    "withSundaeLabel": "مع Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "قادة العمليات"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "قادة المالية و FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "الرؤساء التنفيذيون والمالكون"
+      },
+      {
+        "shortLabel": "التسويق",
+        "pluralLabel": "قادة التسويق"
+      },
+      {
+        "shortLabel": "الموارد البشرية",
+        "pluralLabel": "قادة الموارد البشرية"
+      },
+      {
+        "shortLabel": "التقنية",
+        "pluralLabel": "قادة التقنية والبيانات"
+      }
+    ]
+  },
+  "es": {
+    "eyebrow": "UNA PLATAFORMA. CADA ROL.",
+    "headlineSee": "Ver",
+    "headlineFor": "para",
+    "todayLabel": "Hoy",
+    "withSundaeLabel": "Con Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Líderes de operaciones"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Líderes de finanzas y FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEOs y propietarios"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Líderes de marketing"
+      },
+      {
+        "shortLabel": "RR.HH.",
+        "pluralLabel": "Líderes de RR.HH. & People"
+      },
+      {
+        "shortLabel": "Tech",
+        "pluralLabel": "Líderes de Tech y Data"
+      }
+    ]
+  },
+  "pt": {
+    "eyebrow": "UMA PLATAFORMA. CADA PAPEL.",
+    "headlineSee": "Ver",
+    "headlineFor": "para",
+    "todayLabel": "Hoje",
+    "withSundaeLabel": "Com Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Líderes de Operações"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Líderes de Finanças e FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEOs e Proprietários"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Leads de Marketing"
+      },
+      {
+        "shortLabel": "RH / Pessoas",
+        "pluralLabel": "Líderes de RH e Pessoas"
+      },
+      {
+        "shortLabel": "Tecnologia",
+        "pluralLabel": "Líderes de Tecnologia e Dados"
+      }
+    ]
+  },
+  "ur": {
+    "eyebrow": "ایک پلیٹ فارم۔ ہر کردار۔",
+    "headlineSee": "دیکھیں",
+    "headlineFor": "کے لئے",
+    "todayLabel": "آج",
+    "withSundaeLabel": "Sundae کے ساتھ",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "آپریشنز کے رہنما"
+      },
+      {
+        "shortLabel": "سی ایف او",
+        "pluralLabel": "مالی اور ایف پی اینڈ اے لیڈز"
+      },
+      {
+        "shortLabel": "سی ای او",
+        "pluralLabel": "سی ای اوز اور مالکان"
+      },
+      {
+        "shortLabel": "مارکیٹنگ",
+        "pluralLabel": "مارکیٹنگ لیڈز"
+      },
+      {
+        "shortLabel": "ایچ آر / لوگ",
+        "pluralLabel": "ایچ آر اور لوگوں کے رہنما"
+      },
+      {
+        "shortLabel": "ٹیک",
+        "pluralLabel": "ٹیک اور ڈیٹا لیڈز"
+      }
+    ]
+  },
+  "hi": {
+    "eyebrow": "एक प्लेटफ़ॉर्म। हर भूमिका।",
+    "headlineSee": "देखें",
+    "headlineFor": "के लिए",
+    "todayLabel": "आज",
+    "withSundaeLabel": "Sundae के साथ",
+    "personas": [
+      {
+        "shortLabel": "सीओओ",
+        "pluralLabel": "ऑपरेशंस लीडर्स"
+      },
+      {
+        "shortLabel": "सीएफओ",
+        "pluralLabel": "वित्त और एफपी एंड ए लीड्स"
+      },
+      {
+        "shortLabel": "सीईओ",
+        "pluralLabel": "सीईओ और मालिक"
+      },
+      {
+        "shortLabel": "मार्केटिंग",
+        "pluralLabel": "मार्केटिंग लीड्स"
+      },
+      {
+        "shortLabel": "एचआर / लोग",
+        "pluralLabel": "एचआर और लोग लीड"
+      },
+      {
+        "shortLabel": "तकनीक",
+        "pluralLabel": "तकनीक और डेटा लीड्स"
+      }
+    ]
+  },
+  "tr": {
+    "eyebrow": "BİR PLATFORM. HER ROL.",
+    "headlineSee": "Gör",
+    "headlineFor": "için",
+    "todayLabel": "Bugün",
+    "withSundaeLabel": "Sundae ile",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Operasyon Liderleri"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Finans & FP&A Liderleri"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO'lar ve Sahipler"
+      },
+      {
+        "shortLabel": "Pazarlama",
+        "pluralLabel": "Pazarlama Liderleri"
+      },
+      {
+        "shortLabel": "İK / İnsan Kaynakları",
+        "pluralLabel": "İK ve İnsan Kaynakları Liderleri"
+      },
+      {
+        "shortLabel": "Teknoloji",
+        "pluralLabel": "Teknoloji ve Veri Liderleri"
+      }
+    ]
+  },
+  "it": {
+    "eyebrow": "UN'UNICA PIATTAFORMA. OGNI RUOLO.",
+    "headlineSee": "Vedi",
+    "headlineFor": "per",
+    "todayLabel": "Oggi",
+    "withSundaeLabel": "Con Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Leader delle Operazioni"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Responsabili Finanza & FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO e Proprietari"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Lead di Marketing"
+      },
+      {
+        "shortLabel": "HR / Persone",
+        "pluralLabel": "Responsabili HR e Persone"
+      },
+      {
+        "shortLabel": "Tecnologia",
+        "pluralLabel": "Responsabili Tecnologici e Dati"
+      }
+    ]
+  },
+  "zh-Hans": {
+    "eyebrow": "一个平台。每个角色。",
+    "headlineSee": "查看",
+    "headlineFor": "为",
+    "todayLabel": "今天",
+    "withSundaeLabel": "与Sundae一起",
+    "personas": [
+      {
+        "shortLabel": "首席运营官",
+        "pluralLabel": "运营领导"
+      },
+      {
+        "shortLabel": "首席财务官",
+        "pluralLabel": "财务与财务规划与分析负责人"
+      },
+      {
+        "shortLabel": "首席执行官",
+        "pluralLabel": "首席执行官和所有者"
+      },
+      {
+        "shortLabel": "市场营销",
+        "pluralLabel": "市场营销线索"
+      },
+      {
+        "shortLabel": "人力资源 / 人员",
+        "pluralLabel": "人力资源和人员负责人"
+      },
+      {
+        "shortLabel": "技术",
+        "pluralLabel": "技术和数据负责人"
+      }
+    ]
+  },
+  "pl": {
+    "eyebrow": "JEDNA PLATFORMA. KAŻDA ROLA.",
+    "headlineSee": "Zobacz",
+    "headlineFor": "dla",
+    "todayLabel": "Dziś",
+    "withSundaeLabel": "Z Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Liderzy Operacji"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Liderzy Finansów i FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO i Właściciele"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Leady Marketingowe"
+      },
+      {
+        "shortLabel": "HR / Ludzie",
+        "pluralLabel": "Liderzy HR i Ludzi"
+      },
+      {
+        "shortLabel": "Technologia",
+        "pluralLabel": "Liderzy Technologii i Danych"
+      }
+    ]
+  },
+  "ja": {
+    "eyebrow": "1つのプラットフォーム。すべての役割。",
+    "headlineSee": "見る",
+    "headlineFor": "のため",
+    "todayLabel": "今日",
+    "withSundaeLabel": "Sundaeと共に",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "オペレーションリーダー"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "財務およびFP&Aリーダー"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEOとオーナー"
+      },
+      {
+        "shortLabel": "マーケティング",
+        "pluralLabel": "マーケティングリード"
+      },
+      {
+        "shortLabel": "人事 / 人々",
+        "pluralLabel": "人事および人々のリーダー"
+      },
+      {
+        "shortLabel": "テクノロジー",
+        "pluralLabel": "テクノロジーとデータリード"
+      }
+    ]
+  },
+  "ko": {
+    "eyebrow": "하나의 플랫폼. 모든 역할.",
+    "headlineSee": "보기",
+    "headlineFor": "을 위한",
+    "todayLabel": "오늘",
+    "withSundaeLabel": "Sundae와 함께",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "운영 리더"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "재무 및 FP&A 리드"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO 및 소유자"
+      },
+      {
+        "shortLabel": "마케팅",
+        "pluralLabel": "마케팅 리드"
+      },
+      {
+        "shortLabel": "인사 / 인력",
+        "pluralLabel": "인사 및 인력 리더"
+      },
+      {
+        "shortLabel": "기술",
+        "pluralLabel": "기술 및 데이터 리드"
+      }
+    ]
+  },
+  "vi": {
+    "eyebrow": "MỘT NỀN TẢNG. MỌI VAI TRÒ.",
+    "headlineSee": "Xem",
+    "headlineFor": "cho",
+    "todayLabel": "Hôm nay",
+    "withSundaeLabel": "Với Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Lãnh đạo Vận hành"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Lãnh đạo Tài chính & FP&A"
+      },
+      {
+        "shortLabel": "Giám đốc điều hành",
+        "pluralLabel": "Giám đốc điều hành và Chủ sở hữu"
+      },
+      {
+        "shortLabel": "Tiếp thị",
+        "pluralLabel": "Lãnh đạo Tiếp thị"
+      },
+      {
+        "shortLabel": "Nhân sự / Con người",
+        "pluralLabel": "Lãnh đạo Nhân sự và Con người"
+      },
+      {
+        "shortLabel": "Công nghệ",
+        "pluralLabel": "Lãnh đạo Công nghệ và Dữ liệu"
+      }
+    ]
+  },
+  "id": {
+    "eyebrow": "SATU PLATFORM. SETIAP PERAN.",
+    "headlineSee": "Lihat",
+    "headlineFor": "untuk",
+    "todayLabel": "Hari Ini",
+    "withSundaeLabel": "Dengan Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Pemimpin Operasi"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Pemimpin Keuangan & FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO dan Pemilik"
+      },
+      {
+        "shortLabel": "Pemasaran",
+        "pluralLabel": "Pimpinan Pemasaran"
+      },
+      {
+        "shortLabel": "HR / Orang",
+        "pluralLabel": "Pemimpin HR dan Orang"
+      },
+      {
+        "shortLabel": "Teknologi",
+        "pluralLabel": "Pemimpin Teknologi dan Data"
+      }
+    ]
+  },
+  "ro": {
+    "eyebrow": "O PLATFORMĂ. FIECARE ROL.",
+    "headlineSee": "Vezi",
+    "headlineFor": "pentru",
+    "todayLabel": "Astăzi",
+    "withSundaeLabel": "Cu Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Lideri de Operațiuni"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Responsabili Finanțe & FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO și Proprietari"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Lead-uri de Marketing"
+      },
+      {
+        "shortLabel": "HR / Oameni",
+        "pluralLabel": "Responsabili HR și Oameni"
+      },
+      {
+        "shortLabel": "Tehnologie",
+        "pluralLabel": "Responsabili Tehnologie și Date"
+      }
+    ]
+  },
+  "bn": {
+    "eyebrow": "একটি প্ল্যাটফর্ম। প্রতিটি ভূমিকা।",
+    "headlineSee": "দেখুন",
+    "headlineFor": "জন্য",
+    "todayLabel": "আজ",
+    "withSundaeLabel": "Sundae-এর সাথে",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "অপারেশন নেতারা"
+      },
+      {
+        "shortLabel": "সিএফও",
+        "pluralLabel": "অর্থ ও এফপি অ্যান্ড এ লিডস"
+      },
+      {
+        "shortLabel": "সিইও",
+        "pluralLabel": "সিইও এবং মালিকরা"
+      },
+      {
+        "shortLabel": "মার্কেটিং",
+        "pluralLabel": "মার্কেটিং লিডস"
+      },
+      {
+        "shortLabel": "এইচআর / মানুষ",
+        "pluralLabel": "এইচআর এবং মানুষ লিড"
+      },
+      {
+        "shortLabel": "প্রযুক্তি",
+        "pluralLabel": "প্রযুক্তি এবং ডেটা লিডস"
+      }
+    ]
+  },
+  "th": {
+    "eyebrow": "แพลตฟอร์มเดียว ทุกบทบาท.",
+    "headlineSee": "ดู",
+    "headlineFor": "สำหรับ",
+    "todayLabel": "วันนี้",
+    "withSundaeLabel": "กับ Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "ผู้นำฝ่ายปฏิบัติการ"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "ผู้นำด้านการเงินและการวางแผนทางการเงิน"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO และเจ้าของ"
+      },
+      {
+        "shortLabel": "การตลาด",
+        "pluralLabel": "ลีดการตลาด"
+      },
+      {
+        "shortLabel": "HR / บุคคล",
+        "pluralLabel": "ผู้นำด้าน HR และบุคคล"
+      },
+      {
+        "shortLabel": "เทคโนโลยี",
+        "pluralLabel": "ผู้นำด้านเทคโนโลยีและข้อมูล"
+      }
+    ]
+  },
+  "sv": {
+    "eyebrow": "EN PLATTFORM. VARJE ROLL.",
+    "headlineSee": "Se",
+    "headlineFor": "för",
+    "todayLabel": "Idag",
+    "withSundaeLabel": "Med Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Operationsledare"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Ekonomi- och FP&A-chefer"
+      },
+      {
+        "shortLabel": "VD",
+        "pluralLabel": "VD:ar och Ägare"
+      },
+      {
+        "shortLabel": "Marknadsföring",
+        "pluralLabel": "Marknadsföringsledare"
+      },
+      {
+        "shortLabel": "HR / Personal",
+        "pluralLabel": "HR och Personalansvariga"
+      },
+      {
+        "shortLabel": "Teknik",
+        "pluralLabel": "Teknik- och dataledare"
+      }
+    ]
+  },
+  "ms": {
+    "eyebrow": "SATU PLATFORM. SETIAP PERANAN.",
+    "headlineSee": "Lihat",
+    "headlineFor": "untuk",
+    "todayLabel": "Hari Ini",
+    "withSundaeLabel": "Dengan Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Pemimpin Operasi"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Ketua Kewangan & FP&A"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEO dan Pemilik"
+      },
+      {
+        "shortLabel": "Pemasaran",
+        "pluralLabel": "Ketua Pemasaran"
+      },
+      {
+        "shortLabel": "HR / Orang",
+        "pluralLabel": "Ketua HR dan Orang"
+      },
+      {
+        "shortLabel": "Teknologi",
+        "pluralLabel": "Ketua Teknologi dan Data"
+      }
+    ]
+  },
+  "en": {
+    "eyebrow": "ONE PLATFORM. EVERY ROLE.",
+    "headlineSee": "See",
+    "headlineFor": "for",
+    "todayLabel": "Today",
+    "withSundaeLabel": "With Sundae",
+    "personas": [
+      {
+        "shortLabel": "COO",
+        "pluralLabel": "Operations Leaders"
+      },
+      {
+        "shortLabel": "CFO",
+        "pluralLabel": "Finance & FP&A Leads"
+      },
+      {
+        "shortLabel": "CEO",
+        "pluralLabel": "CEOs and Owners"
+      },
+      {
+        "shortLabel": "Marketing",
+        "pluralLabel": "Marketing Leads"
+      },
+      {
+        "shortLabel": "HR / People",
+        "pluralLabel": "HR and People Leads"
+      },
+      {
+        "shortLabel": "Tech",
+        "pluralLabel": "Tech and Data Leads"
+      }
+    ]
+  }
+}

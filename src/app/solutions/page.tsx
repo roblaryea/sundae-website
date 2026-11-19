@@ -18,6 +18,7 @@ import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import logbook from '../../../public/images/product/native-2026-11-16/logbook.png'
 import depthCopy from '@/content/operator-depth.json'
 import styles from '../why-sundae/persuasion.module.css'
+import { SectionPersonaSwitcher } from '@/components/home/sections/SectionPersonaSwitcher'
 
 export default function SolutionsHubPage() {
   const { locale, messages } = useWebsiteI18n()
@@ -87,16 +88,9 @@ export default function SolutionsHubPage() {
         </div>
       </section>
 
-      <section id="by-role" className="scroll-mt-28 px-6 py-16 lg:px-8" data-solutions-roles>
+      <SectionPersonaSwitcher placement="solutions" />
+      <section className="px-6 pb-16 lg:px-8" data-solutions-formats>
         <div className="mx-auto max-w-6xl">
-          <p className="eyebrow mb-4">{nav.byRole}</p>
-          <h2 className="section-h2 max-w-3xl">{shared.roleContextTitle}</h2>
-          <div className="mt-9 grid md:grid-cols-2 md:gap-x-14">
-            {nav.solutionsRoles.map(role => <Link key={role.href} href={href(role.href)} className="group flex items-center justify-between gap-6 border-t border-[var(--border-default)] py-6 text-[var(--text-primary)] transition-colors hover:text-[var(--text-display)] focus-visible:text-[var(--text-display)]">
-              <span><span className="block font-display text-xl font-semibold sm:text-2xl">{role.name}</span></span>
-              <ArrowUpRight aria-hidden className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 rtl:-scale-x-100" />
-            </Link>)}
-          </div>
           <div className="mt-14 border-t border-[var(--border-emphasis)] pt-7">
             <h3 className="eyebrow mb-5">{nav.bySegment}</h3>
             <div className="flex flex-wrap gap-x-8 gap-y-5">
