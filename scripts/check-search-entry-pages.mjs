@@ -46,21 +46,22 @@ async function check(path) {
     const meta = [...html.matchAll(/<meta\b[^>]*>/gi)].map(match => attributes(match[0]))
     const robots = [response.headers.get('x-robots-tag') || '', ...meta.filter(tag => /^(robots|googlebot|bingbot)$/i.test(tag.name || '')).map(tag => tag.content || '')].join(', ')
     if (/\b(noindex|none|nofollow)\b/i.test(robots)) failures.push('Priority page restricts indexing or link following')
-    const titles = [...html.matchAll(/<title\b[^>]*>([\s\S]*?)<\/title>/gi)]
+    const titles = [...html.matchAll(/<title\b[^>]*>([\s\S]*?)<\/title\s*>/gi)]
     const title = decode(titles[0]?.[1] || '').trim()
     if (titles.length !== 1 || !title) failures.push('Expected one nonempty title')
     if (!meta.some(tag => tag.name?.toLowerCase() === 'description' && tag.content?.trim())) failures.push('Missing meta description')
-    const headings = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)]
-    const h1 = decode((headings[0]?.[1] || '').replace(/<[^>]*>/g, '')).trim()
-    if (headings.length !== 1 || !h1) failures.push('Expected one nonempty server-rendered H1')
+    const headings = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1\s*>/gi)]
+    // Retain source markup as JSON evidence. This audit does not sanitize or render HTML.
+    const h1Markup = (headings[0]?.[1] || '').trim()
+    if (headings.length !== 1 || !h1Markup) failures.push('Expected one nonempty server-rendered H1')
     let structuredDataCount = 0
-    for (const match of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) {
+    for (const match of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)) {
       if (attributes(match[1]).type !== 'application/ld+json') continue
       structuredDataCount += 1
       try { JSON.parse(match[2]) } catch { failures.push('Invalid structured-data JSON') }
     }
     if (!structuredDataCount) failures.push('Missing structured data')
-    return { path, status: response.status, canonical, title, h1, structuredDataCount, failures }
+    return { path, status: response.status, canonical, title, h1Markup, structuredDataCount, failures }
   } catch (error) {
     return { path, failures: [error.message] }
   }

@@ -43,6 +43,11 @@ type FooterResourceLink = FooterLink & {
   tracked?: boolean;
 };
 
+// Keep dense desktop columns while giving mobile navigation clear hierarchy and touch targets.
+const footerNavLinkClass = 'flex! min-h-11! w-full items-center py-2! text-start text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--text-primary)] md:inline-block! md:min-h-[30px]! md:w-auto md:py-1!';
+const footerParentLinkClass = 'mb-1 flex! min-h-11! items-center py-2! text-base font-semibold text-[var(--text-primary)] hover:underline md:mb-3 md:inline-block! md:min-h-[30px]! md:py-1! md:text-sm';
+const footerChildGroupClass = 'space-y-0 border-s border-[var(--border-default)] ps-4 md:space-y-2 md:border-0 md:ps-0';
+
 const Footer = () => {
   const { locale, messages } = useWebsiteI18n();
   const footer = messages.footer;
@@ -202,12 +207,12 @@ const Footer = () => {
           </div>
 
           {/* Products Column - collapsible on mobile, expanded on md+ */}
-          <div className="footer-section">
+          <div className="footer-section border-t border-[var(--border-default)] pt-4 md:border-0 md:pt-0">
             <button
               type="button"
               onClick={() => toggleSection('product')}
               aria-expanded={openSections.has('product')}
-              className="flex items-center justify-between w-full text-left cursor-pointer md:cursor-default md:pointer-events-none"
+              className="flex min-h-11 w-full items-center justify-between text-start cursor-pointer md:min-h-0 md:cursor-default md:pointer-events-none"
             >
               <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionProduct}</h3>
               <svg className={`w-4 h-4 text-[var(--text-muted)] transition-transform md:hidden -mt-3 ${openSections.has('product') ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -215,39 +220,39 @@ const Footer = () => {
               </svg>
             </button>
             <div className={openSections.has('product') ? 'block' : 'hidden md:block'}>
-            <Link href={localizeHref('/restaurant-management-platform')} className="mb-3 block text-sm font-semibold text-[var(--text-primary)] hover:underline">{operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links.platform} →</Link>
-            <Link href={localizeHref('/core')} className="mb-3 block text-sm font-semibold text-[var(--text-primary)] hover:underline">Sundae Core →</Link>
-            <ul className="space-y-2">
+            <Link href={localizeHref('/restaurant-management-platform')} className={footerParentLinkClass}>{operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].links.platform} →</Link>
+            <Link href={localizeHref('/core')} className={footerParentLinkClass}>Sundae Core →</Link>
+            <ul className={footerChildGroupClass}>
               {pillarLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className={footerNavLinkClass}>
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
             <div className="border-t border-[var(--border-default)] my-3"></div>
-            <Link href={localizeHref('/crew')} className="mb-3 block text-sm font-semibold text-[var(--text-primary)] hover:underline">Sundae Crew →</Link>
-            <ul className="space-y-2">
+            <Link href={localizeHref('/crew')} className={footerParentLinkClass}>Sundae Crew →</Link>
+            <ul className={footerChildGroupClass}>
               {crewLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className={footerNavLinkClass}>
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
             <div className="border-t border-[var(--border-default)] my-3"></div>
-            <ul className="space-y-2">
+            <ul className="space-y-0 md:space-y-2">
               {planLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className={footerNavLinkClass}>
                     {link.name}
                   </Link>
                 </li>
               ))}
               <li>
-                <a href={PRICING_URL} onClick={(event) => { event.currentTarget.href = appendCampaign(PRICING_URL); }} target="_blank" rel="noopener noreferrer" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                <a href={PRICING_URL} onClick={(event) => { event.currentTarget.href = appendCampaign(PRICING_URL); }} target="_blank" rel="noopener noreferrer" className={footerNavLinkClass}>
                   {footer.pricing}
                 </a>
               </li>
@@ -256,33 +261,33 @@ const Footer = () => {
           </div>
 
           {/* Solutions Column */}
-          <div className="footer-section">
+          <div className="footer-section border-t border-[var(--border-default)] pt-4 md:border-0 md:pt-0">
             <button
               type="button"
               onClick={() => toggleSection('solutions')}
               aria-expanded={openSections.has('solutions')}
-              className="flex items-center justify-between w-full text-left cursor-pointer md:cursor-default md:pointer-events-none"
+              className="flex min-h-11 w-full items-center justify-between text-start cursor-pointer md:min-h-0 md:cursor-default md:pointer-events-none"
             >
               <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionSolutions}</h3>
               <svg className={`w-4 h-4 text-[var(--text-muted)] transition-transform md:hidden -mt-3 ${openSections.has('solutions') ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
-            <div className={openSections.has('solutions') ? 'block' : 'hidden md:block'}>
-            <ul className="space-y-2">
+            <div className={`${openSections.has('solutions') ? 'block' : 'hidden md:block'} ps-4 md:ps-0`}>
+            <ul className="space-y-0 md:space-y-2">
               {solutionsBySegment.map((link) => (
                 <li key={link.name}>
-                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className={footerNavLinkClass}>
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
             <div className="border-t border-[var(--border-default)] my-3"></div>
-            <ul className="space-y-2">
+            <ul className="space-y-0 md:space-y-2">
               {solutionsByRole.map((link) => (
                 <li key={link.name}>
-                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className={footerNavLinkClass}>
                     {link.name}
                   </Link>
                 </li>
@@ -292,31 +297,31 @@ const Footer = () => {
           </div>
 
           {/* Resources & Company */}
-          <div className="footer-section">
+          <div className="footer-section border-t border-[var(--border-default)] pt-4 md:border-0 md:pt-0">
             <button
               type="button"
               onClick={() => toggleSection('resources')}
               aria-expanded={openSections.has('resources')}
-              className="flex items-center justify-between w-full text-left cursor-pointer md:cursor-default md:pointer-events-none"
+              className="flex min-h-11 w-full items-center justify-between text-start cursor-pointer md:min-h-0 md:cursor-default md:pointer-events-none"
             >
               <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionResources}</h3>
               <svg className={`w-4 h-4 text-[var(--text-muted)] transition-transform md:hidden -mt-3 ${openSections.has('resources') ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
-            <div className={openSections.has('resources') ? 'block' : 'hidden md:block'}>
-            <ul className="space-y-2">
+            <div className={`${openSections.has('resources') ? 'block' : 'hidden md:block'} ps-4 md:ps-0`}>
+            <ul className="space-y-0 md:space-y-2">
               {resourceLinks.map((link) => (
                 <li key={link.name}>
                   {link.tracked ? (
                     <button
                       onClick={() => cta(localizeHref(link.href), "view_tools_footer", { location: "footer" })}
-                      className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm bg-transparent border-none cursor-pointer p-0 text-left"
+                      className={`${footerNavLinkClass} bg-transparent border-none cursor-pointer px-0`}
                     >
                       {link.name}
                     </button>
                   ) : (
-                    <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                    <Link href={localizeHref(link.href)} className={footerNavLinkClass}>
                       {link.name}
                     </Link>
                   )}
@@ -325,10 +330,10 @@ const Footer = () => {
             </ul>
             <div className="border-t border-[var(--border-default)] my-3"></div>
             <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionCompany}</h3>
-            <ul className="space-y-2">
+            <ul className="space-y-0 md:space-y-2">
               {companyLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className={footerNavLinkClass}>
                     {link.name}
                   </Link>
                 </li>
