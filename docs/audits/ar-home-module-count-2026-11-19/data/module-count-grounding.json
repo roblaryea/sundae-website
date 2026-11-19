@@ -1,0 +1,20 @@
+{
+  "applicationHead": "130d4c583326e9a0a40f0c58e2ad7343a90c661c",
+  "source": "src/lib/generated/msot.json:892",
+  "definition": "12 standard deep analytics modules, one Hotel F&B concept module, and 6 cross-cutting views",
+  "standardRoutes": [
+    "revenue-intelligence",
+    "labor-intelligence",
+    "inventory-intelligence",
+    "purchasing-intelligence",
+    "marketing-performance",
+    "reservations-intelligence",
+    "profit-intelligence",
+    "revenue-assurance",
+    "delivery-intelligence",
+    "guest-experience",
+    "guest-crm-intelligence",
+    "item-profitability"
+  ],
+  "separateConceptRoute": "hotel-fb"
+}

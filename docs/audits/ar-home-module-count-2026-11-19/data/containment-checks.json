@@ -1,0 +1,1227 @@
+{
+  "results": [
+    {
+      "locale": "nl",
+      "width": 320,
+      "theme": "dark",
+      "band": 0,
+      "frame": {
+        "top": 309.6512145996094,
+        "bottom": 631.6512451171875,
+        "height": 322.0000305175781
+      },
+      "caption": {
+        "top": 310.6512145996094,
+        "bottom": 630.6512451171875,
+        "height": 320.0000305175781
+      },
+      "items": [
+        {
+          "text": "Van de pass naar de P&L",
+          "top": 387.4324645996094,
+          "bottom": 405.0262145996094,
+          "left": 79,
+          "right": 260.859375,
+          "clientWidth": 182,
+          "scrollWidth": 182
+        },
+        {
+          "text": "Maak van dagelijks werk de volgende beslissing.",
+          "top": 419.0262145996094,
+          "bottom": 499.6512145996094,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren.",
+          "top": 515.6512451171875,
+          "bottom": 606.6512451171875,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 320,
+      "theme": "dark",
+      "band": 1,
+      "frame": {
+        "top": 293.7507629394531,
+        "bottom": 647.781982421875,
+        "height": 354.0312194824219
+      },
+      "caption": {
+        "top": 294.7507629394531,
+        "bottom": 646.781982421875,
+        "height": 352.0312194824219
+      },
+      "items": [
+        {
+          "text": "Gemaakt voor de werkvloer, niet alleen voor de bestuurskamer",
+          "top": 318.7507629394531,
+          "bottom": 371.5320129394531,
+          "left": 63.078125,
+          "right": 279,
+          "clientWidth": 216,
+          "scrollWidth": 216
+        },
+        {
+          "text": "Uw team beweegt snel. Sundae beweegt mee.",
+          "top": 385.5320129394531,
+          "bottom": 493.03204345703125,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Uw team beweegt snel. ",
+          "top": 385.5320129394531,
+          "bottom": 439.28204345703125,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Sundae beweegt mee.",
+          "top": 439.28204345703125,
+          "bottom": 493.03204345703125,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Live tempo, personeel en uitzonderingen over elke vestiging - zodat de oplossing die u om 19.00 uur kiest wordt toegewezen, uitgevoerd en bij sluitingstijd nagemeten.",
+          "top": 509.03204345703125,
+          "bottom": 622.781982421875,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 320,
+      "theme": "light",
+      "band": 0,
+      "frame": {
+        "top": 309.6441345214844,
+        "bottom": 631.6441650390625,
+        "height": 322.0000305175781
+      },
+      "caption": {
+        "top": 310.6441345214844,
+        "bottom": 630.6441650390625,
+        "height": 320.0000305175781
+      },
+      "items": [
+        {
+          "text": "Van de pass naar de P&L",
+          "top": 387.42535400390625,
+          "bottom": 405.01910400390625,
+          "left": 79,
+          "right": 260.859375,
+          "clientWidth": 182,
+          "scrollWidth": 182
+        },
+        {
+          "text": "Maak van dagelijks werk de volgende beslissing.",
+          "top": 419.01910400390625,
+          "bottom": 499.64410400390625,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren.",
+          "top": 515.6441040039062,
+          "bottom": 606.6441650390625,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 320,
+      "theme": "light",
+      "band": 1,
+      "frame": {
+        "top": 293.7300109863281,
+        "bottom": 647.76123046875,
+        "height": 354.0312194824219
+      },
+      "caption": {
+        "top": 294.7300109863281,
+        "bottom": 646.76123046875,
+        "height": 352.0312194824219
+      },
+      "items": [
+        {
+          "text": "Gemaakt voor de werkvloer, niet alleen voor de bestuurskamer",
+          "top": 318.7300109863281,
+          "bottom": 371.51129150390625,
+          "left": 63.078125,
+          "right": 279,
+          "clientWidth": 216,
+          "scrollWidth": 216
+        },
+        {
+          "text": "Uw team beweegt snel. Sundae beweegt mee.",
+          "top": 385.51129150390625,
+          "bottom": 493.01129150390625,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Uw team beweegt snel. ",
+          "top": 385.51129150390625,
+          "bottom": 439.26129150390625,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Sundae beweegt mee.",
+          "top": 439.26129150390625,
+          "bottom": 493.01129150390625,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Live tempo, personeel en uitzonderingen over elke vestiging - zodat de oplossing die u om 19.00 uur kiest wordt toegewezen, uitgevoerd en bij sluitingstijd nagemeten.",
+          "top": 509.01129150390625,
+          "bottom": 622.76123046875,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "theme": "dark",
+      "band": 0,
+      "frame": {
+        "top": 309.37860107421875,
+        "bottom": 631.3786010742188,
+        "height": 322
+      },
+      "caption": {
+        "top": 310.37860107421875,
+        "bottom": 630.3786010742188,
+        "height": 320
+      },
+      "items": [
+        {
+          "text": "Van de pass naar de P&L",
+          "top": 436.78485107421875,
+          "bottom": 454.37860107421875,
+          "left": 79,
+          "right": 260.859375,
+          "clientWidth": 182,
+          "scrollWidth": 182
+        },
+        {
+          "text": "Maak van dagelijks werk de volgende beslissing.",
+          "top": 468.37860107421875,
+          "bottom": 522.1286010742188,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren.",
+          "top": 538.1286010742188,
+          "bottom": 606.3786010742188,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "theme": "dark",
+      "band": 1,
+      "frame": {
+        "top": 309.83026123046875,
+        "bottom": 631.8302612304688,
+        "height": 322
+      },
+      "caption": {
+        "top": 310.83026123046875,
+        "bottom": 630.8302612304688,
+        "height": 320
+      },
+      "items": [
+        {
+          "text": "Gemaakt voor de werkvloer, niet alleen voor de bestuurskamer",
+          "top": 396.89276123046875,
+          "bottom": 432.08026123046875,
+          "left": 66.7890625,
+          "right": 349,
+          "clientWidth": 282,
+          "scrollWidth": 282
+        },
+        {
+          "text": "Uw team beweegt snel. Sundae beweegt mee.",
+          "top": 446.08026123046875,
+          "bottom": 499.83026123046875,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "Uw team beweegt snel. ",
+          "top": 446.08026123046875,
+          "bottom": 472.95526123046875,
+          "left": 41,
+          "right": 300.15625,
+          "clientWidth": 259,
+          "scrollWidth": 259
+        },
+        {
+          "text": "Sundae beweegt mee.",
+          "top": 472.95526123046875,
+          "bottom": 499.83026123046875,
+          "left": 41,
+          "right": 282.296875,
+          "clientWidth": 241,
+          "scrollWidth": 241
+        },
+        {
+          "text": "Live tempo, personeel en uitzonderingen over elke vestiging - zodat de oplossing die u om 19.00 uur kiest wordt toegewezen, uitgevoerd en bij sluitingstijd nagemeten.",
+          "top": 515.8302612304688,
+          "bottom": 606.8302612304688,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "theme": "light",
+      "band": 0,
+      "frame": {
+        "top": 309.4566345214844,
+        "bottom": 631.4566650390625,
+        "height": 322.0000305175781
+      },
+      "caption": {
+        "top": 310.4566345214844,
+        "bottom": 630.4566650390625,
+        "height": 320.0000305175781
+      },
+      "items": [
+        {
+          "text": "Van de pass naar de P&L",
+          "top": 436.86285400390625,
+          "bottom": 454.45660400390625,
+          "left": 79,
+          "right": 260.859375,
+          "clientWidth": 182,
+          "scrollWidth": 182
+        },
+        {
+          "text": "Maak van dagelijks werk de volgende beslissing.",
+          "top": 468.45660400390625,
+          "bottom": 522.2066040039062,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren.",
+          "top": 538.2066040039062,
+          "bottom": 606.4566650390625,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 390,
+      "theme": "light",
+      "band": 1,
+      "frame": {
+        "top": 309.8679504394531,
+        "bottom": 631.867919921875,
+        "height": 321.9999694824219
+      },
+      "caption": {
+        "top": 310.8679504394531,
+        "bottom": 630.867919921875,
+        "height": 319.9999694824219
+      },
+      "items": [
+        {
+          "text": "Gemaakt voor de werkvloer, niet alleen voor de bestuurskamer",
+          "top": 396.9304504394531,
+          "bottom": 432.1179504394531,
+          "left": 66.7890625,
+          "right": 349,
+          "clientWidth": 282,
+          "scrollWidth": 282
+        },
+        {
+          "text": "Uw team beweegt snel. Sundae beweegt mee.",
+          "top": 446.11798095703125,
+          "bottom": 499.86798095703125,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "Uw team beweegt snel. ",
+          "top": 446.11798095703125,
+          "bottom": 472.99298095703125,
+          "left": 41,
+          "right": 300.15625,
+          "clientWidth": 259,
+          "scrollWidth": 259
+        },
+        {
+          "text": "Sundae beweegt mee.",
+          "top": 472.99298095703125,
+          "bottom": 499.86798095703125,
+          "left": 41,
+          "right": 282.296875,
+          "clientWidth": 241,
+          "scrollWidth": 241
+        },
+        {
+          "text": "Live tempo, personeel en uitzonderingen over elke vestiging - zodat de oplossing die u om 19.00 uur kiest wordt toegewezen, uitgevoerd en bij sluitingstijd nagemeten.",
+          "top": 515.8679809570312,
+          "bottom": 606.867919921875,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "band": 0,
+      "frame": {
+        "top": 309.79473876953125,
+        "bottom": 631.7947387695312,
+        "height": 322
+      },
+      "caption": {
+        "top": 310.79473876953125,
+        "bottom": 630.7947387695312,
+        "height": 320
+      },
+      "items": [
+        {
+          "text": "From the pass to the P&L",
+          "top": 437.20098876953125,
+          "bottom": 454.79473876953125,
+          "left": 79,
+          "right": 270.5546875,
+          "clientWidth": 192,
+          "scrollWidth": 192
+        },
+        {
+          "text": "Turn daily work into the next decision.",
+          "top": 468.79473876953125,
+          "bottom": 522.5447387695312,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "Bring shift records, sales and cost data together so teams can understand what needs attention, act on it and check the result.",
+          "top": 538.5447387695312,
+          "bottom": 606.7947387695312,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "band": 1,
+      "frame": {
+        "top": 309.4382629394531,
+        "bottom": 631.438232421875,
+        "height": 321.9999694824219
+      },
+      "caption": {
+        "top": 310.4382629394531,
+        "bottom": 630.438232421875,
+        "height": 319.9999694824219
+      },
+      "items": [
+        {
+          "text": "Built for the front-line, not only the boardroom",
+          "top": 392.3757629394531,
+          "bottom": 427.5632629394531,
+          "left": 71.2265625,
+          "right": 349,
+          "clientWidth": 278,
+          "scrollWidth": 278
+        },
+        {
+          "text": "Your team is already moving fast. Sundae moves with them.",
+          "top": 441.56329345703125,
+          "bottom": 522.1882934570312,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "Your team is already moving fast. ",
+          "top": 441.56329345703125,
+          "bottom": 495.31329345703125,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "Sundae moves with them.",
+          "top": 495.31329345703125,
+          "bottom": 522.1882934570312,
+          "left": 41,
+          "right": 329.2578125,
+          "clientWidth": 288,
+          "scrollWidth": 288
+        },
+        {
+          "text": "Live pacing, labor, and exceptions across every outlet - so the fix you make at 7pm is owned, executed, and measured back by close.",
+          "top": 538.1882934570312,
+          "bottom": 606.438232421875,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "theme": "light",
+      "band": 0,
+      "frame": {
+        "top": 309.4229431152344,
+        "bottom": 631.4229736328125,
+        "height": 322.0000305175781
+      },
+      "caption": {
+        "top": 310.4229431152344,
+        "bottom": 630.4229736328125,
+        "height": 320.0000305175781
+      },
+      "items": [
+        {
+          "text": "Vom Pass zur P&L",
+          "top": 337.5791931152344,
+          "bottom": 355.1729431152344,
+          "left": 79,
+          "right": 208.6875,
+          "clientWidth": 130,
+          "scrollWidth": 130
+        },
+        {
+          "text": "Tägliche Arbeit in die nächste Entscheidung verwandeln.",
+          "top": 369.1729431152344,
+          "bottom": 476.6729431152344,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Führen Sie Schichtprotokolle, Umsatz- und Kostendaten zusammen. Teams verstehen, was Aufmerksamkeit braucht, handeln und prüfen das Ergebnis.",
+          "top": 492.6729431152344,
+          "bottom": 606.4229736328125,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "de",
+      "width": 320,
+      "theme": "light",
+      "band": 1,
+      "frame": {
+        "top": 293.6101379394531,
+        "bottom": 647.641357421875,
+        "height": 354.0312194824219
+      },
+      "caption": {
+        "top": 294.6101379394531,
+        "bottom": 646.641357421875,
+        "height": 352.0312194824219
+      },
+      "items": [
+        {
+          "text": "Für die Front gemacht, nicht nur für den Sitzungssaal",
+          "top": 318.6101379394531,
+          "bottom": 371.3913879394531,
+          "left": 65.0390625,
+          "right": 279,
+          "clientWidth": 214,
+          "scrollWidth": 214
+        },
+        {
+          "text": "Ihr Team ist längst in Bewegung. Sundae bewegt sich mit.",
+          "top": 385.3913879394531,
+          "bottom": 492.89141845703125,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Ihr Team ist längst in Bewegung. ",
+          "top": 385.3913879394531,
+          "bottom": 439.14141845703125,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Sundae bewegt sich mit.",
+          "top": 439.14141845703125,
+          "bottom": 492.89141845703125,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        },
+        {
+          "text": "Live-Tempo, Personal und Ausnahmen über jeden Standort - damit die Korrektur um 19 Uhr verantwortet, umgesetzt und bis zum Feierabend nachgemessen wird.",
+          "top": 508.89141845703125,
+          "bottom": 622.641357421875,
+          "left": 41,
+          "right": 279,
+          "clientWidth": 238,
+          "scrollWidth": 238
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "band": 0,
+      "frame": {
+        "top": 309.4617004394531,
+        "bottom": 631.461669921875,
+        "height": 321.9999694824219
+      },
+      "caption": {
+        "top": 310.4617004394531,
+        "bottom": 630.461669921875,
+        "height": 319.9999694824219
+      },
+      "items": [
+        {
+          "text": "من ممر التقديم إلى P&L",
+          "top": 486.49298095703125,
+          "bottom": 504.08673095703125,
+          "left": 210.4375,
+          "right": 311,
+          "clientWidth": 101,
+          "scrollWidth": 101
+        },
+        {
+          "text": "حوّل العمل اليومي إلى القرار التالي.",
+          "top": 518.0867309570312,
+          "bottom": 544.9617309570312,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "اجمع سجلات الوردية وبيانات المبيعات والتكاليف حتى تفهم الفرق ما يحتاج إلى اهتمام، وتتحرك، وتتحقق من النتيجة.",
+          "top": 560.9617309570312,
+          "bottom": 606.461669921875,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "light",
+      "band": 1,
+      "frame": {
+        "top": 309.5467834472656,
+        "bottom": 631.5467529296875,
+        "height": 321.9999694824219
+      },
+      "caption": {
+        "top": 310.5467834472656,
+        "bottom": 630.5467529296875,
+        "height": 319.9999694824219
+      },
+      "items": [
+        {
+          "text": "صُمم لخط الخدمة الأمامي، لا لغرفة الاجتماعات وحدها",
+          "top": 436.9530334472656,
+          "bottom": 454.5467834472656,
+          "left": 105.1171875,
+          "right": 311,
+          "clientWidth": 206,
+          "scrollWidth": 206
+        },
+        {
+          "text": "فريقك يتحرك بسرعة بالفعل. Sundae يتحرك معه.",
+          "top": 468.5467834472656,
+          "bottom": 522.2967529296875,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "فريقك يتحرك بسرعة بالفعل. ",
+          "top": 468.5467834472656,
+          "bottom": 495.4217834472656,
+          "left": 103.3046875,
+          "right": 349,
+          "clientWidth": 246,
+          "scrollWidth": 246
+        },
+        {
+          "text": "Sundae يتحرك معه.",
+          "top": 495.4217834472656,
+          "bottom": 522.2967529296875,
+          "left": 158,
+          "right": 349,
+          "clientWidth": 191,
+          "scrollWidth": 191
+        },
+        {
+          "text": "إيقاع حي وعمالة واستثناءات عبر كل فرع - ليكون الإجراء الذي تتخذه في السابعة مساءً مُسنَداً إلى مسؤول، ومنفّذاً، ومقيساً عند الإغلاق.",
+          "top": 538.2967529296875,
+          "bottom": 606.5467529296875,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "dark",
+      "band": 0,
+      "frame": {
+        "top": 309.4722595214844,
+        "bottom": 631.4722900390625,
+        "height": 322.0000305175781
+      },
+      "caption": {
+        "top": 310.4722595214844,
+        "bottom": 630.4722900390625,
+        "height": 320.0000305175781
+      },
+      "items": [
+        {
+          "text": "من ممر التقديم إلى P&L",
+          "top": 486.50347900390625,
+          "bottom": 504.09722900390625,
+          "left": 210.4375,
+          "right": 311,
+          "clientWidth": 101,
+          "scrollWidth": 101
+        },
+        {
+          "text": "حوّل العمل اليومي إلى القرار التالي.",
+          "top": 518.0972290039062,
+          "bottom": 544.9722290039062,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "اجمع سجلات الوردية وبيانات المبيعات والتكاليف حتى تفهم الفرق ما يحتاج إلى اهتمام، وتتحرك، وتتحقق من النتيجة.",
+          "top": 560.9722290039062,
+          "bottom": 606.4722900390625,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "theme": "dark",
+      "band": 1,
+      "frame": {
+        "top": 309.5945129394531,
+        "bottom": 631.594482421875,
+        "height": 321.9999694824219
+      },
+      "caption": {
+        "top": 310.5945129394531,
+        "bottom": 630.594482421875,
+        "height": 319.9999694824219
+      },
+      "items": [
+        {
+          "text": "صُمم لخط الخدمة الأمامي، لا لغرفة الاجتماعات وحدها",
+          "top": 437.00079345703125,
+          "bottom": 454.59454345703125,
+          "left": 105.1171875,
+          "right": 311,
+          "clientWidth": 206,
+          "scrollWidth": 206
+        },
+        {
+          "text": "فريقك يتحرك بسرعة بالفعل. Sundae يتحرك معه.",
+          "top": 468.59454345703125,
+          "bottom": 522.3445434570312,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        },
+        {
+          "text": "فريقك يتحرك بسرعة بالفعل. ",
+          "top": 468.59454345703125,
+          "bottom": 495.46954345703125,
+          "left": 103.3046875,
+          "right": 349,
+          "clientWidth": 246,
+          "scrollWidth": 246
+        },
+        {
+          "text": "Sundae يتحرك معه.",
+          "top": 495.46954345703125,
+          "bottom": 522.3445434570312,
+          "left": 158,
+          "right": 349,
+          "clientWidth": 191,
+          "scrollWidth": 191
+        },
+        {
+          "text": "إيقاع حي وعمالة واستثناءات عبر كل فرع - ليكون الإجراء الذي تتخذه في السابعة مساءً مُسنَداً إلى مسؤول، ومنفّذاً، ومقيساً عند الإغلاق.",
+          "top": 538.3445434570312,
+          "bottom": 606.594482421875,
+          "left": 41,
+          "right": 349,
+          "clientWidth": 308,
+          "scrollWidth": 308
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "theme": "dark",
+      "band": 0,
+      "frame": {
+        "top": 223.75277709960938,
+        "bottom": 717.4637451171875,
+        "height": 493.7109680175781
+      },
+      "caption": {
+        "top": 224.75277709960938,
+        "bottom": 716.4637451171875,
+        "height": 491.7109680175781
+      },
+      "items": [
+        {
+          "text": "Van de pass naar de P&L",
+          "top": 485.2762145996094,
+          "bottom": 501.2762145996094,
+          "left": 223,
+          "right": 421.3984375,
+          "clientWidth": 198,
+          "scrollWidth": 198
+        },
+        {
+          "text": "Maak van dagelijks werk de volgende beslissing.",
+          "top": 515.2762451171875,
+          "bottom": 608.4637451171875,
+          "left": 185,
+          "right": 857,
+          "clientWidth": 672,
+          "scrollWidth": 672
+        },
+        {
+          "text": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren.",
+          "top": 624.4637451171875,
+          "bottom": 676.4637451171875,
+          "left": 185,
+          "right": 761,
+          "clientWidth": 576,
+          "scrollWidth": 576
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "theme": "dark",
+      "band": 1,
+      "frame": {
+        "top": 223.7664031982422,
+        "bottom": 717.4772796630859,
+        "height": 493.71087646484375
+      },
+      "caption": {
+        "top": 224.7664031982422,
+        "bottom": 716.4772796630859,
+        "height": 491.71087646484375
+      },
+      "items": [
+        {
+          "text": "Gemaakt voor de werkvloer, niet alleen voor de bestuurskamer",
+          "top": 459.28985595703125,
+          "bottom": 475.28985595703125,
+          "left": 223,
+          "right": 768.890625,
+          "clientWidth": 546,
+          "scrollWidth": 546
+        },
+        {
+          "text": "Uw team beweegt snel. Sundae beweegt mee.",
+          "top": 489.2898254394531,
+          "bottom": 582.477294921875,
+          "left": 185,
+          "right": 857,
+          "clientWidth": 672,
+          "scrollWidth": 672
+        },
+        {
+          "text": "Uw team beweegt snel. ",
+          "top": 489.2898254394531,
+          "bottom": 535.883544921875,
+          "left": 185,
+          "right": 626.0390625,
+          "clientWidth": 441,
+          "scrollWidth": 441
+        },
+        {
+          "text": "Sundae beweegt mee.",
+          "top": 535.883544921875,
+          "bottom": 582.477294921875,
+          "left": 185,
+          "right": 596.125,
+          "clientWidth": 411,
+          "scrollWidth": 411
+        },
+        {
+          "text": "Live tempo, personeel en uitzonderingen over elke vestiging - zodat de oplossing die u om 19.00 uur kiest wordt toegewezen, uitgevoerd en bij sluitingstijd nagemeten.",
+          "top": 598.477294921875,
+          "bottom": 676.477294921875,
+          "left": 185,
+          "right": 761,
+          "clientWidth": 576,
+          "scrollWidth": 576
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "theme": "light",
+      "band": 0,
+      "frame": {
+        "top": 223.7456817626953,
+        "bottom": 717.4566802978516,
+        "height": 493.71099853515625
+      },
+      "caption": {
+        "top": 224.7456817626953,
+        "bottom": 716.4566802978516,
+        "height": 491.71099853515625
+      },
+      "items": [
+        {
+          "text": "Van de pass naar de P&L",
+          "top": 485.2691345214844,
+          "bottom": 501.2691345214844,
+          "left": 223,
+          "right": 421.3984375,
+          "clientWidth": 198,
+          "scrollWidth": 198
+        },
+        {
+          "text": "Maak van dagelijks werk de volgende beslissing.",
+          "top": 515.2691650390625,
+          "bottom": 608.4566650390625,
+          "left": 185,
+          "right": 857,
+          "clientWidth": 672,
+          "scrollWidth": 672
+        },
+        {
+          "text": "Breng dienstregistraties, omzet en kosten samen zodat teams begrijpen wat aandacht vraagt, handelen en het resultaat controleren.",
+          "top": 624.4566650390625,
+          "bottom": 676.4566650390625,
+          "left": 185,
+          "right": 761,
+          "clientWidth": 576,
+          "scrollWidth": 576
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "nl",
+      "width": 1440,
+      "theme": "light",
+      "band": 1,
+      "frame": {
+        "top": 223.7664031982422,
+        "bottom": 717.4772796630859,
+        "height": 493.71087646484375
+      },
+      "caption": {
+        "top": 224.7664031982422,
+        "bottom": 716.4772796630859,
+        "height": 491.71087646484375
+      },
+      "items": [
+        {
+          "text": "Gemaakt voor de werkvloer, niet alleen voor de bestuurskamer",
+          "top": 459.28985595703125,
+          "bottom": 475.28985595703125,
+          "left": 223,
+          "right": 768.890625,
+          "clientWidth": 546,
+          "scrollWidth": 546
+        },
+        {
+          "text": "Uw team beweegt snel. Sundae beweegt mee.",
+          "top": 489.2898254394531,
+          "bottom": 582.477294921875,
+          "left": 185,
+          "right": 857,
+          "clientWidth": 672,
+          "scrollWidth": 672
+        },
+        {
+          "text": "Uw team beweegt snel. ",
+          "top": 489.2898254394531,
+          "bottom": 535.883544921875,
+          "left": 185,
+          "right": 626.0390625,
+          "clientWidth": 441,
+          "scrollWidth": 441
+        },
+        {
+          "text": "Sundae beweegt mee.",
+          "top": 535.883544921875,
+          "bottom": 582.477294921875,
+          "left": 185,
+          "right": 596.125,
+          "clientWidth": 411,
+          "scrollWidth": 411
+        },
+        {
+          "text": "Live tempo, personeel en uitzonderingen over elke vestiging - zodat de oplossing die u om 19.00 uur kiest wordt toegewezen, uitgevoerd en bij sluitingstijd nagemeten.",
+          "top": 598.477294921875,
+          "bottom": 676.477294921875,
+          "left": 185,
+          "right": 761,
+          "clientWidth": 576,
+          "scrollWidth": 576
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "band": 0,
+      "frame": {
+        "top": 223.75277709960938,
+        "bottom": 717.4637451171875,
+        "height": 493.7109680175781
+      },
+      "caption": {
+        "top": 224.75277709960938,
+        "bottom": 716.4637451171875,
+        "height": 491.7109680175781
+      },
+      "items": [
+        {
+          "text": "From the pass to the P&L",
+          "top": 485.2762145996094,
+          "bottom": 501.2762145996094,
+          "left": 223,
+          "right": 431.96875,
+          "clientWidth": 209,
+          "scrollWidth": 209
+        },
+        {
+          "text": "Turn daily work into the next decision.",
+          "top": 515.2762451171875,
+          "bottom": 608.4637451171875,
+          "left": 185,
+          "right": 857,
+          "clientWidth": 672,
+          "scrollWidth": 672
+        },
+        {
+          "text": "Bring shift records, sales and cost data together so teams can understand what needs attention, act on it and check the result.",
+          "top": 624.4637451171875,
+          "bottom": 676.4637451171875,
+          "left": 185,
+          "right": 761,
+          "clientWidth": 576,
+          "scrollWidth": 576
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "band": 1,
+      "frame": {
+        "top": 223.66221618652344,
+        "bottom": 717.3731536865234,
+        "height": 493.7109375
+      },
+      "caption": {
+        "top": 224.66221618652344,
+        "bottom": 716.3731536865234,
+        "height": 491.7109375
+      },
+      "items": [
+        {
+          "text": "Built for the front-line, not only the boardroom",
+          "top": 485.1856689453125,
+          "bottom": 501.1856689453125,
+          "left": 223,
+          "right": 642.4296875,
+          "clientWidth": 419,
+          "scrollWidth": 419
+        },
+        {
+          "text": "Your team is already moving fast. Sundae moves with them.",
+          "top": 515.1856689453125,
+          "bottom": 608.3731689453125,
+          "left": 185,
+          "right": 857,
+          "clientWidth": 672,
+          "scrollWidth": 672
+        },
+        {
+          "text": "Your team is already moving fast. ",
+          "top": 515.1856689453125,
+          "bottom": 561.7794189453125,
+          "left": 185,
+          "right": 827.953125,
+          "clientWidth": 643,
+          "scrollWidth": 643
+        },
+        {
+          "text": "Sundae moves with them.",
+          "top": 561.7794189453125,
+          "bottom": 608.3731689453125,
+          "left": 185,
+          "right": 675.4921875,
+          "clientWidth": 490,
+          "scrollWidth": 490
+        },
+        {
+          "text": "Live pacing, labor, and exceptions across every outlet - so the fix you make at 7pm is owned, executed, and measured back by close.",
+          "top": 624.3731689453125,
+          "bottom": 676.3731689453125,
+          "left": 185,
+          "right": 761,
+          "clientWidth": 576,
+          "scrollWidth": 576
+        }
+      ],
+      "contained": true
+    },
+    {
+      "locale": "ar",
+      "route": "/about",
+      "width": 390,
+      "text": "تغطية تشغيلية شاملة متاحة الآن"
+    },
+    {
+      "locale": "ar",
+      "route": "/about",
+      "width": 1440,
+      "text": "تغطية تشغيلية شاملة متاحة الآن"
+    }
+  ],
+  "errors": []
+}
