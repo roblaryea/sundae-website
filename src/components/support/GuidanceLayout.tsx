@@ -22,16 +22,16 @@ export function GuidanceHero({ label, lead, emphasis, description, children }: {
   label: string; lead: string; emphasis: string; description: string; children: ReactNode;
 }) {
   return (
-    <section data-guidance-hero className="border-b border-[var(--border-default)] px-6 pb-14 pt-12 sm:px-8 sm:pb-20 lg:px-12 lg:pt-20">
+    <section data-guidance-hero className="border-b border-[var(--border-default)] px-6 pb-14 pt-12 max-[400px]:pb-10 max-[400px]:pt-8 sm:px-8 sm:pb-20 lg:px-12 lg:pt-20">
       <div className="mx-auto max-w-7xl">
         <GuidanceReveal>
-          <p className="eyebrow mb-7 text-[var(--text-warm)]">Sundae / {label}</p>
-          <h1 className="max-w-6xl font-display text-[clamp(2.4rem,5.6vw,5.6rem)] leading-[1.06] tracking-[-0.025em] text-[var(--text-primary)]">
+          <p className="eyebrow mb-7 text-[var(--text-warm)] max-[400px]:mb-5">Sundae / {label}</p>
+          <h1 className="max-w-6xl font-display text-[clamp(2.4rem,5.6vw,5.6rem)] leading-[1.06] tracking-[-0.025em] text-[var(--text-primary)] max-[400px]:text-[2.1rem]">
             <span className="block">{lead}{' '}</span>
             <span className="brand-emphasis block">{emphasis}</span>
           </h1>
-          <p className="mt-7 max-w-2xl text-lg leading-relaxed text-[var(--text-supporting)] sm:text-xl">{description}</p>
-          <div className="mt-8 flex max-w-2xl flex-col items-start gap-3 sm:flex-row sm:flex-wrap">{children}</div>
+          <p className="mt-7 max-w-2xl text-lg leading-relaxed text-[var(--text-supporting)] max-[400px]:mt-5 sm:text-xl">{description}</p>
+          <div className="mt-8 flex max-w-2xl flex-col items-start gap-3 max-[400px]:mt-6 sm:flex-row sm:flex-wrap">{children}</div>
         </GuidanceReveal>
       </div>
     </section>
