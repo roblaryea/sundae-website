@@ -1,0 +1,1021 @@
+{
+  "rows": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "route": "/getting-started",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "height": 4970.59375,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 594.453125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 726.453125,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "View estimate",
+          "width": 180.078125,
+          "height": 62
+        },
+        {
+          "text": "Book a walkthrough\n→",
+          "width": 172.3515625,
+          "height": 44
+        },
+        {
+          "text": "View estimate\n→",
+          "width": 129.5625,
+          "height": 44
+        },
+        {
+          "text": "Check your connections\n→",
+          "width": 203.203125,
+          "height": 44
+        },
+        {
+          "text": "Open full-size view ↗",
+          "width": 133.4453125,
+          "height": 44
+        },
+        {
+          "text": "Explore Core →",
+          "width": 165.5078125,
+          "height": 50
+        },
+        {
+          "text": "Explore Crew →",
+          "width": 168.296875,
+          "height": 50
+        },
+        {
+          "text": "Explore the platform →",
+          "width": 220.15625,
+          "height": 50
+        },
+        {
+          "text": "View estimate →",
+          "width": 171.71875,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Run the diagnostic\n→",
+          "width": 161,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "dark",
+      "route": "/docs",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "height": 2286.453125,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 561.953125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 693.953125,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Plan your rollout",
+          "width": 199.4921875,
+          "height": 60
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 228.2265625,
+          "height": 62
+        },
+        {
+          "text": "Getting started\n→",
+          "width": 141.484375,
+          "height": 44
+        },
+        {
+          "text": "Explore Core\n→",
+          "width": 127.3515625,
+          "height": 44
+        },
+        {
+          "text": "Explore Crew\n→",
+          "width": 130.140625,
+          "height": 44
+        },
+        {
+          "text": "Explore integrations\n→",
+          "width": 177.71875,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Read common questions",
+          "width": 264.421875,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "route": "/getting-started",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "height": 4970.59375,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 594.453125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 726.453125,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "View estimate",
+          "width": 180.078125,
+          "height": 62
+        },
+        {
+          "text": "Book a walkthrough\n→",
+          "width": 172.3515625,
+          "height": 44
+        },
+        {
+          "text": "View estimate\n→",
+          "width": 129.5625,
+          "height": 44
+        },
+        {
+          "text": "Check your connections\n→",
+          "width": 203.203125,
+          "height": 44
+        },
+        {
+          "text": "Open full-size view ↗",
+          "width": 133.4453125,
+          "height": 44
+        },
+        {
+          "text": "Explore Core →",
+          "width": 165.5078125,
+          "height": 50
+        },
+        {
+          "text": "Explore Crew →",
+          "width": 168.296875,
+          "height": 50
+        },
+        {
+          "text": "Explore the platform →",
+          "width": 220.15625,
+          "height": 50
+        },
+        {
+          "text": "View estimate →",
+          "width": 171.71875,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Run the diagnostic\n→",
+          "width": 161,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "route": "/docs",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "height": 2286.453125,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 1440,
+        "height": 561.953125,
+        "top": 132,
+        "right": 1440,
+        "bottom": 693.953125,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Plan your rollout",
+          "width": 199.4921875,
+          "height": 60
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 228.2265625,
+          "height": 62
+        },
+        {
+          "text": "Getting started\n→",
+          "width": 141.484375,
+          "height": 44
+        },
+        {
+          "text": "Explore Core\n→",
+          "width": 127.3515625,
+          "height": 44
+        },
+        {
+          "text": "Explore Crew\n→",
+          "width": 130.140625,
+          "height": 44
+        },
+        {
+          "text": "Explore integrations\n→",
+          "width": 177.71875,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Read common questions",
+          "width": 264.421875,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "route": "/getting-started",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "height": 6695.484375,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 501.484375,
+        "top": 132,
+        "right": 390,
+        "bottom": 633.484375,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "View estimate",
+          "width": 180.078125,
+          "height": 62
+        },
+        {
+          "text": "Book a walkthrough\n→",
+          "width": 172.3515625,
+          "height": 44
+        },
+        {
+          "text": "View estimate\n→",
+          "width": 129.5625,
+          "height": 44
+        },
+        {
+          "text": "Check your connections\n→",
+          "width": 203.203125,
+          "height": 44
+        },
+        {
+          "text": "Open full-size view ↗",
+          "width": 133.4453125,
+          "height": 44
+        },
+        {
+          "text": "Explore Core →",
+          "width": 165.5078125,
+          "height": 50
+        },
+        {
+          "text": "Explore Crew →",
+          "width": 168.296875,
+          "height": 50
+        },
+        {
+          "text": "Explore the platform →",
+          "width": 220.15625,
+          "height": 50
+        },
+        {
+          "text": "View estimate →",
+          "width": 171.71875,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Run the diagnostic\n→",
+          "width": 161,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.5)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "dark",
+      "route": "/docs",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "height": 2728.8515625,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 478.6015625,
+        "top": 132,
+        "right": 390,
+        "bottom": 610.6015625,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Plan your rollout",
+          "width": 199.4921875,
+          "height": 60
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 228.2265625,
+          "height": 62
+        },
+        {
+          "text": "Getting started\n→",
+          "width": 141.484375,
+          "height": 44
+        },
+        {
+          "text": "Explore Core\n→",
+          "width": 127.3515625,
+          "height": 44
+        },
+        {
+          "text": "Explore Crew\n→",
+          "width": 130.140625,
+          "height": 44
+        },
+        {
+          "text": "Explore integrations\n→",
+          "width": 177.71875,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Read common questions",
+          "width": 264.421875,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(246, 241, 232, 0.62)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "route": "/getting-started",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "height": 6695.484375,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 501.484375,
+        "top": 132,
+        "right": 390,
+        "bottom": 633.484375,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "View estimate",
+          "width": 180.078125,
+          "height": 62
+        },
+        {
+          "text": "Book a walkthrough\n→",
+          "width": 172.3515625,
+          "height": 44
+        },
+        {
+          "text": "View estimate\n→",
+          "width": 129.5625,
+          "height": 44
+        },
+        {
+          "text": "Check your connections\n→",
+          "width": 203.203125,
+          "height": 44
+        },
+        {
+          "text": "Open full-size view ↗",
+          "width": 133.4453125,
+          "height": 44
+        },
+        {
+          "text": "Explore Core →",
+          "width": 165.5078125,
+          "height": 50
+        },
+        {
+          "text": "Explore Crew →",
+          "width": 168.296875,
+          "height": 50
+        },
+        {
+          "text": "Explore the platform →",
+          "width": 220.15625,
+          "height": 50
+        },
+        {
+          "text": "View estimate →",
+          "width": 171.71875,
+          "height": 50
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Run the diagnostic\n→",
+          "width": 161,
+          "height": 44
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "route": "/docs",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "height": 2728.8515625,
+      "hero": {
+        "x": 0,
+        "y": 132,
+        "width": 390,
+        "height": 478.6015625,
+        "top": 132,
+        "right": 390,
+        "bottom": 610.6015625,
+        "left": 0
+      },
+      "brokenImages": [],
+      "targets": [
+        {
+          "text": "Home",
+          "width": 68.7265625,
+          "height": 44
+        },
+        {
+          "text": "Plan your rollout",
+          "width": 199.4921875,
+          "height": 60
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 228.2265625,
+          "height": 62
+        },
+        {
+          "text": "Getting started\n→",
+          "width": 141.484375,
+          "height": 44
+        },
+        {
+          "text": "Explore Core\n→",
+          "width": 127.3515625,
+          "height": 44
+        },
+        {
+          "text": "Explore Crew\n→",
+          "width": 130.140625,
+          "height": 44
+        },
+        {
+          "text": "Explore integrations\n→",
+          "width": 177.71875,
+          "height": 44
+        },
+        {
+          "text": "Book a walkthrough",
+          "width": 226.2265625,
+          "height": 60
+        },
+        {
+          "text": "Read common questions",
+          "width": 264.421875,
+          "height": 62
+        }
+      ],
+      "textColors": [
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.69)"
+        },
+        {
+          "tag": "H1",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "rgba(36, 29, 23, 0.74)"
+        },
+        {
+          "tag": "H2",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        },
+        {
+          "tag": "H3",
+          "color": "rgb(36, 29, 23)"
+        },
+        {
+          "tag": "P",
+          "color": "lab(11.4511 2.63127 5.48451 / 0.8)"
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,203 @@
+{
+  "results": [
+    {
+      "locale": "tr",
+      "route": "/getting-started",
+      "heading": "İyileştirmek istediğiniz işten başlayın.",
+      "description": "Operasyon analizi için Core, ekip ve günlük işler için Crew veya her ikisini seçin. İlk iş akışını, gereken kurulumu ve sonraki değerlendirmeyi belirlemenize yardımcı oluruz.",
+      "canonical": "https://www.sundae.io/tr/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "tr",
+      "route": "/docs",
+      "heading": "Ekibiniz için doğru başlangıç noktasını bulun.",
+      "description": "Core ve Crew ürünlerini keşfedin, kurulum ihtiyaçlarınızı inceleyin veya belirli bir iş akışını Sundae tanıtımında ele alın.",
+      "canonical": "https://www.sundae.io/tr/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "hi",
+      "route": "/getting-started",
+      "heading": "उस काम से शुरू करें जिसे आप बेहतर बनाना चाहते हैं।",
+      "description": "परिचालन विश्लेषण के लिए Core, कर्मचारियों और रोज़ के काम के लिए Crew, या दोनों चुनें। हम पहला कार्यप्रवाह, ज़रूरी सेटअप और अगली समीक्षा तय करने में आपकी मदद करेंगे।",
+      "canonical": "https://www.sundae.io/hi/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "hi",
+      "route": "/docs",
+      "heading": "अपनी टीम के लिए सही शुरुआत खोजें।",
+      "description": "Core और Crew देखें, सेटअप की ज़रूरत समझें या Sundae डेमो में कोई खास कार्यप्रवाह लेकर आएँ।",
+      "canonical": "https://www.sundae.io/hi/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ur",
+      "route": "/getting-started",
+      "heading": "اس کام سے شروع کریں جسے آپ بہتر بنانا چاہتے ہیں۔",
+      "description": "آپریشنل تجزیے کے لیے Core، عملے اور روزمرہ کام کے لیے Crew، یا دونوں منتخب کریں۔ ہم پہلے ورک فلو، مطلوبہ سیٹ اپ اور اگلے جائزے کا دائرہ طے کرنے میں مدد کریں گے۔",
+      "canonical": "https://www.sundae.io/ur/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ur",
+      "route": "/docs",
+      "heading": "اپنی ٹیم کے لیے درست نقطۂ آغاز تلاش کریں۔",
+      "description": "Core اور Crew دیکھیں، سیٹ اپ کی ضروریات جانچیں یا Sundae کے عملی مظاہرے میں کوئی مخصوص ورک فلو لے کر آئیں۔",
+      "canonical": "https://www.sundae.io/ur/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "bn",
+      "route": "/getting-started",
+      "heading": "যে কাজ উন্নত করতে চান, সেখান থেকেই শুরু করুন।",
+      "description": "পরিচালন বিশ্লেষণের জন্য Core, কর্মী ও দৈনন্দিন কাজের জন্য Crew অথবা দুটিই বেছে নিন। প্রথম কাজের ধারা, প্রয়োজনীয় সেটআপ ও পরবর্তী পর্যালোচনার পরিধি নির্ধারণে আমরা সাহায্য করব।",
+      "canonical": "https://www.sundae.io/bn/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "bn",
+      "route": "/docs",
+      "heading": "আপনার দলের জন্য সঠিক শুরুর জায়গা খুঁজুন।",
+      "description": "Core ও Crew দেখুন, সেটআপে কী প্রয়োজন যাচাই করুন অথবা Sundae প্রদর্শনীতে নির্দিষ্ট কাজের ধারা নিয়ে আসুন।",
+      "canonical": "https://www.sundae.io/bn/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "zh-Hans",
+      "route": "/getting-started",
+      "heading": "从需要改善的 工作开始。",
+      "description": "选择 Core 进行运营分析，选择 Crew 管理员工与日常工作，或同时使用两者。我们帮助您明确首个工作流程、所需设置及下一次复盘内容。",
+      "canonical": "https://www.sundae.io/zh-Hans/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "zh-Hans",
+      "route": "/docs",
+      "heading": "为您的团队 找到合适的起点。",
+      "description": "了解 Core 和 Crew，核实设置需求，或带着具体工作流程参加 Sundae 演示。",
+      "canonical": "https://www.sundae.io/zh-Hans/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ja",
+      "route": "/getting-started",
+      "heading": "改善したい業務から 始めましょう。",
+      "description": "業務分析には Core、人員管理と日常業務には Crew、または両方を選べます。最初の業務フロー、必要な設定、次回の確認内容を一緒に整理します。",
+      "canonical": "https://www.sundae.io/ja/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ja",
+      "route": "/docs",
+      "heading": "チームに合った 始め方を見つけましょう。",
+      "description": "Core と Crew を確認し、設定要件を整理するか、具体的な業務フローを Sundae のデモでご相談ください。",
+      "canonical": "https://www.sundae.io/ja/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ko",
+      "route": "/getting-started",
+      "heading": "개선이 필요한 업무부터 시작하세요.",
+      "description": "운영 분석에는 Core, 인력과 일상 업무에는 Crew를 선택하거나 둘 다 사용하세요. 첫 업무 흐름, 필요한 설정, 다음 검토 내용을 함께 정리합니다.",
+      "canonical": "https://www.sundae.io/ko/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ko",
+      "route": "/docs",
+      "heading": "팀에 맞는 시작 지점을 찾으세요.",
+      "description": "Core와 Crew를 살펴보고 설정 요건을 확인하거나 구체적인 업무 흐름을 Sundae 시연에서 상담하세요.",
+      "canonical": "https://www.sundae.io/ko/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "id",
+      "route": "/getting-started",
+      "heading": "Mulai dari pekerjaan yang ingin Anda perbaiki.",
+      "description": "Pilih Core untuk analisis operasional, Crew untuk tenaga kerja dan pekerjaan harian, atau keduanya. Kami membantu menentukan alur kerja pertama, penyiapan yang dibutuhkan, dan tinjauan berikutnya.",
+      "canonical": "https://www.sundae.io/id/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "id",
+      "route": "/docs",
+      "heading": "Temukan titik awal yang tepat untuk tim Anda.",
+      "description": "Jelajahi Core dan Crew, periksa kebutuhan penyiapan, atau bawa alur kerja tertentu ke demo Sundae.",
+      "canonical": "https://www.sundae.io/id/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "vi",
+      "route": "/getting-started",
+      "heading": "Bắt đầu từ công việc bạn muốn cải thiện.",
+      "description": "Chọn Core để phân tích vận hành, Crew để quản lý nhân sự và công việc hằng ngày, hoặc cả hai. Chúng tôi giúp xác định quy trình đầu tiên, thiết lập cần thiết và nội dung đánh giá tiếp theo.",
+      "canonical": "https://www.sundae.io/vi/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "vi",
+      "route": "/docs",
+      "heading": "Tìm điểm bắt đầu phù hợp cho đội ngũ của bạn.",
+      "description": "Khám phá Core và Crew, kiểm tra nhu cầu thiết lập hoặc trao đổi về một quy trình cụ thể trong buổi demo Sundae.",
+      "canonical": "https://www.sundae.io/vi/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ms",
+      "route": "/getting-started",
+      "heading": "Mulakan dengan kerja yang mahu anda perbaiki.",
+      "description": "Pilih Core untuk analisis operasi, Crew untuk tenaga kerja dan kerja harian, atau kedua-duanya. Kami membantu menentukan aliran kerja pertama, persediaan yang diperlukan dan semakan seterusnya.",
+      "canonical": "https://www.sundae.io/ms/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ms",
+      "route": "/docs",
+      "heading": "Cari titik permulaan yang sesuai untuk pasukan anda.",
+      "description": "Terokai Core dan Crew, semak keperluan persediaan atau bawa aliran kerja tertentu ke demonstrasi Sundae.",
+      "canonical": "https://www.sundae.io/ms/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "th",
+      "route": "/getting-started",
+      "heading": "เริ่มจากงาน ที่คุณต้องการปรับปรุง",
+      "description": "เลือก Core สำหรับการวิเคราะห์การดำเนินงาน Crew สำหรับบุคลากรและงานประจำวัน หรือทั้งสองอย่าง เราจะช่วยกำหนดเวิร์กโฟลว์แรก การตั้งค่าที่จำเป็น และสิ่งที่จะทบทวนครั้งถัดไป",
+      "canonical": "https://www.sundae.io/th/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "th",
+      "route": "/docs",
+      "heading": "ค้นหาจุดเริ่มต้นที่เหมาะสม สำหรับทีมของคุณ",
+      "description": "สำรวจ Core และ Crew ตรวจสอบสิ่งที่ต้องตั้งค่า หรือนำเวิร์กโฟลว์เฉพาะมาให้เราสาธิตด้วย Sundae",
+      "canonical": "https://www.sundae.io/th/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    }
+  ],
+  "pageErrors": []
+}

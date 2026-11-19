@@ -1,0 +1,203 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "route": "/getting-started",
+      "heading": "Start with the work you need to improve.",
+      "description": "Choose Core for operating analysis, Crew for workforce and daily execution, or both. We will help you scope the first workflow, the setup it needs and what to review next.",
+      "canonical": "https://www.sundae.io/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "en",
+      "route": "/docs",
+      "heading": "Find the right starting point for your team.",
+      "description": "Explore Core and Crew, check what your setup needs, or bring a specific workflow to a Sundae walkthrough.",
+      "canonical": "https://www.sundae.io/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ar",
+      "route": "/getting-started",
+      "heading": "ابدأ بالعمل الذي تريد تحسينه.",
+      "description": "اختر Core للتحليل التشغيلي، أو Crew لإدارة القوى العاملة والعمل اليومي، أو كليهما. نساعدك على تحديد أول سير عمل، والإعداد المطلوب، وما ستراجعه بعد ذلك.",
+      "canonical": "https://www.sundae.io/ar/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ar",
+      "route": "/docs",
+      "heading": "اعثر على نقطة البداية المناسبة لفريقك.",
+      "description": "استكشف Core وCrew، وتحقق من متطلبات الإعداد، أو أحضر سير عمل محددًا إلى جولة مع Sundae.",
+      "canonical": "https://www.sundae.io/ar/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "fr",
+      "route": "/getting-started",
+      "heading": "Commencez par le travail que vous souhaitez améliorer.",
+      "description": "Choisissez Core pour l’analyse opérationnelle, Crew pour les équipes et le travail quotidien, ou les deux. Nous vous aidons à définir le premier processus, sa configuration et la prochaine revue.",
+      "canonical": "https://www.sundae.io/fr/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "fr",
+      "route": "/docs",
+      "heading": "Trouvez le bon point de départ pour votre équipe.",
+      "description": "Explorez Core et Crew, vérifiez vos besoins de configuration ou apportez un processus précis à une démonstration Sundae.",
+      "canonical": "https://www.sundae.io/fr/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "es",
+      "route": "/getting-started",
+      "heading": "Empiece por el trabajo que necesita mejorar.",
+      "description": "Elija Core para el análisis operativo, Crew para el personal y el trabajo diario, o ambos. Le ayudamos a definir el primer flujo de trabajo, su configuración y la siguiente revisión.",
+      "canonical": "https://www.sundae.io/es/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "es",
+      "route": "/docs",
+      "heading": "Encuentre el punto de partida adecuado para su equipo.",
+      "description": "Explore Core y Crew, compruebe qué necesita su configuración o traiga un flujo de trabajo concreto a una demostración de Sundae.",
+      "canonical": "https://www.sundae.io/es/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "de",
+      "route": "/getting-started",
+      "heading": "Beginnen Sie mit der Arbeit, die Sie verbessern möchten.",
+      "description": "Wählen Sie Core für Betriebsanalysen, Crew für Personal und tägliche Abläufe oder beides. Wir klären mit Ihnen den ersten Workflow, die nötige Einrichtung und die nächste Auswertung.",
+      "canonical": "https://www.sundae.io/de/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "de",
+      "route": "/docs",
+      "heading": "Finden Sie den passenden Einstieg für Ihr Team.",
+      "description": "Erkunden Sie Core und Crew, prüfen Sie die nötige Einrichtung oder bringen Sie einen konkreten Workflow zu einer Sundae-Demonstration mit.",
+      "canonical": "https://www.sundae.io/de/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "nl",
+      "route": "/getting-started",
+      "heading": "Begin met het werk dat u wilt verbeteren.",
+      "description": "Kies Core voor operationele analyse, Crew voor personeel en dagelijks werk, of beide. We helpen u de eerste workflow, de benodigde inrichting en de volgende evaluatie af te bakenen.",
+      "canonical": "https://www.sundae.io/nl/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "nl",
+      "route": "/docs",
+      "heading": "Vind het juiste startpunt voor uw team.",
+      "description": "Verken Core en Crew, bekijk wat uw inrichting nodig heeft of neem een specifieke workflow mee naar een Sundae-demonstratie.",
+      "canonical": "https://www.sundae.io/nl/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "it",
+      "route": "/getting-started",
+      "heading": "Inizia dal lavoro che vuoi migliorare.",
+      "description": "Scegli Core per l’analisi operativa, Crew per il personale e il lavoro quotidiano, oppure entrambi. Ti aiutiamo a definire il primo flusso, la configurazione necessaria e la prossima verifica.",
+      "canonical": "https://www.sundae.io/it/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "it",
+      "route": "/docs",
+      "heading": "Trova il punto di partenza giusto per il tuo team.",
+      "description": "Esplora Core e Crew, verifica le esigenze di configurazione o porta un flusso specifico a una dimostrazione Sundae.",
+      "canonical": "https://www.sundae.io/it/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "pt",
+      "route": "/getting-started",
+      "heading": "Comece pelo trabalho que precisa de melhorar.",
+      "description": "Escolha Core para análise operacional, Crew para as equipas e o trabalho diário, ou ambos. Ajudamos a definir o primeiro fluxo, a configuração necessária e a próxima revisão.",
+      "canonical": "https://www.sundae.io/pt/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "pt",
+      "route": "/docs",
+      "heading": "Encontre o ponto de partida certo para a sua equipa.",
+      "description": "Explore Core e Crew, verifique as necessidades de configuração ou traga um fluxo específico para uma demonstração da Sundae.",
+      "canonical": "https://www.sundae.io/pt/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "pl",
+      "route": "/getting-started",
+      "heading": "Zacznij od pracy, którą chcesz usprawnić.",
+      "description": "Wybierz Core do analizy operacyjnej, Crew do zarządzania personelem i codzienną pracą lub oba rozwiązania. Pomożemy określić pierwszy proces, potrzebną konfigurację i kolejny przegląd.",
+      "canonical": "https://www.sundae.io/pl/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "pl",
+      "route": "/docs",
+      "heading": "Znajdź właściwy punkt wyjścia dla swojego zespołu.",
+      "description": "Poznaj Core i Crew, sprawdź potrzeby konfiguracji lub omów konkretny proces podczas prezentacji Sundae.",
+      "canonical": "https://www.sundae.io/pl/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ro",
+      "route": "/getting-started",
+      "heading": "Începeți cu activitatea pe care doriți să o îmbunătățiți.",
+      "description": "Alegeți Core pentru analiza operațională, Crew pentru echipe și activitatea zilnică sau ambele. Vă ajutăm să definiți primul flux, configurarea necesară și următoarea evaluare.",
+      "canonical": "https://www.sundae.io/ro/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "ro",
+      "route": "/docs",
+      "heading": "Găsiți punctul de pornire potrivit pentru echipa dumneavoastră.",
+      "description": "Explorați Core și Crew, verificați necesarul de configurare sau discutați un flux concret într-o demonstrație Sundae.",
+      "canonical": "https://www.sundae.io/ro/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "sv",
+      "route": "/getting-started",
+      "heading": "Börja med arbetet som du vill förbättra.",
+      "description": "Välj Core för verksamhetsanalys, Crew för personal och dagligt arbete eller båda. Vi hjälper er att avgränsa det första arbetsflödet, nödvändig konfiguration och nästa uppföljning.",
+      "canonical": "https://www.sundae.io/sv/getting-started",
+      "hreflangs": 23,
+      "h1s": 1
+    },
+    {
+      "locale": "sv",
+      "route": "/docs",
+      "heading": "Hitta rätt startpunkt för ert team.",
+      "description": "Utforska Core och Crew, se vilken konfiguration som behövs eller ta med ett konkret arbetsflöde till en Sundae-genomgång.",
+      "canonical": "https://www.sundae.io/sv/docs",
+      "hreflangs": 23,
+      "h1s": 1
+    }
+  ],
+  "pageErrors": []
+}

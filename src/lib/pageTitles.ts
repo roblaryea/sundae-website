@@ -4,6 +4,7 @@ import type { WebsiteLocale } from '@/lib/i18n';
 import { generatedLocalCopy } from '@/generated-locales/lib_page_titles';
 import { resolveLocalizedPageDescription } from '@/lib/localizedPageDescriptions';
 import supportPageOpenings from '@/content/support-page-openings.json';
+import guidanceByLocale from '@/content/support-guidance.json';
 
 /**
  * Central per-route <title> map.
@@ -115,6 +116,7 @@ type PageTitleOverrides = Record<string, Partial<Record<string, string>>>;
  * route has no central entry (caller then keeps the generic default).
  */
 export function resolvePageTitle(path: string, locale: WebsiteLocale): string | null {
+  if (path === '/getting-started') return `${guidanceByLocale[locale].startLabel} | Sundae`;
   const support = supportPageOpenings[locale as keyof typeof supportPageOpenings];
   if (path === '/careers') return support.careers.metaTitle;
   if (path === '/blog') return support.blog.metaTitle;
@@ -129,6 +131,8 @@ export function resolvePageTitle(path: string, locale: WebsiteLocale): string | 
 }
 
 export function resolvePageDescription(path: string, locale: WebsiteLocale): string | null {
+  if (path === '/getting-started') return guidanceByLocale[locale].startBody;
+  if (path === '/docs') return guidanceByLocale[locale].docsBody;
   const support = supportPageOpenings[locale as keyof typeof supportPageOpenings];
   if (path === '/careers') return support.careers.description;
   if (path === '/blog') return support.blog.metaDescription;
