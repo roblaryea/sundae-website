@@ -109,14 +109,14 @@ export default function HomeContent() {
   useEffect(() => setMotionReady(true), []);
 
   // The six Intelligence Layers, rendered as one stacked operating layer
-  // (the glass metaphor). Keyed by layer.name (brand names stay constant
+  // across the platform. Keyed by layer.name (brand names stay constant
   // across locales, so the icon/accent lookup holds).
   const layerIcons: Record<string, SundaeIconName> = {
     Pulse: "pulse",
     Benchmarks: "benchmarking",
     Watchtower: "watchtower",
     Insights: "insights",
-    "Sundae Intelligence": "intelligence",
+    "Ask Sundae": "intelligence",
     Foresight: "forecasting",
   };
 
@@ -125,7 +125,7 @@ export default function HomeContent() {
     Benchmarks: "from-[#84A35C] to-[#5E7E3A]",
     Watchtower: "from-[#F59E0B] to-[#D97706]",
     Insights: "from-[#A8567E] to-[#7E3A5C]",
-    "Sundae Intelligence": "from-[#EC6A89] to-[#C9456A]",
+    "Ask Sundae": "from-[#EC6A89] to-[#C9456A]",
     Foresight: "from-[#5E9E96] to-[#3D7A70]",
   };
 
@@ -329,11 +329,11 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             3. SIX LAYERS - Platform pillars
         ════════════════════════════════════════════════ */}
-        <section id="chapter-platform" aria-labelledby="platform-heading" className="scroll-mt-24 py-20 px-4 sm:px-6 lg:px-8 relative">
+        <section id="chapter-platform" aria-labelledby="platform-heading" className="scroll-mt-24 py-16 sm:py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-mesh" />
 
           <div className="max-w-7xl mx-auto relative z-10">
-            <FadeUp className="text-center mb-14">
+            <FadeUp className="text-center mb-10 sm:mb-12">
               <p className="eyebrow mb-4">{platform.eyebrow}</p>
               <h2 id="platform-heading" className="section-h2 mb-5">
                 {platform.heading}
@@ -343,56 +343,24 @@ export default function HomeContent() {
               </p>
             </FadeUp>
 
-            {/* One vessel, six layers - the sundae glass sits beside the six
-                modules it stands for (its strata ARE the layers), so the metaphor
-                reads as connected, not a decorative object floating above the
-                table. Static poster (no WebGL) keeps it light. Mobile-first: the
-                glass caps the stack on phones; from lg it moves alongside and
-                shares the row height. */}
             <FadeUp>
-              <div className="mx-auto grid max-w-4xl gap-6 lg:grid-cols-[auto_minmax(0,1fr)] lg:items-center lg:gap-7">
-                {/* Glass - the vessel that holds every layer. Sized to itself (auto
-                    column) and set right against the stack with a tight gap, so the
-                    two read as one unit instead of a glass floating in the margin. */}
-                <div className="relative mx-auto flex justify-center lg:mx-0">
-                  <div
-                    aria-hidden
-                    className="pointer-events-none absolute left-1/2 top-1/2 h-[380px] w-[320px] -translate-x-1/2 -translate-y-1/2 rounded-full"
-                    style={{ background: "radial-gradient(circle, rgba(255,92,77,.15), rgba(233,162,74,.06) 46%, transparent 72%)", filter: "blur(48px)" }}
+              <div className="mx-auto max-w-6xl overflow-hidden rounded-2xl border border-[var(--border-default)] divide-y divide-[var(--border-default)] bg-[var(--surface-subtle)]">
+                {platform.layers.map((layer, i) => (
+                  <LayerCard
+                    key={layer.name}
+                    layer={layer}
+                    icon={layerIcons[layer.name]}
+                    accent={layerAccents[layer.name]}
+                    learnMoreLabel={platform.learnMore}
+                    indexLabel={`0${i + 1}`}
+                    countLabel={platform.countLabel}
+                    cta={cta}
                   />
-                  {/* The PNG carries ~19.5% transparent padding each side, so the
-                      visible glass floats far from the stack. On desktop a negative
-                      right margin (~the right transparent band) pulls the list up
-                      against the visible bowl so the two read as one unit. */}
-                  <Image
-                    src="/images/hero/sundae-glass.png"
-                    alt="The Sundae glass - every layer of the business in one vessel"
-                    width={232}
-                    height={416}
-                    className="relative h-auto w-[150px] sm:w-[186px] lg:w-[236px] lg:-mx-[46px]"
-                    style={{ filter: "drop-shadow(0 26px 46px rgba(0,0,0,0.5))" }}
-                  />
-                </div>
-
-                {/* The six layers */}
-                <div className="relative rounded-3xl border border-[var(--border-default)] overflow-hidden divide-y divide-[var(--border-default)] bg-[var(--navy-deep)]/40 backdrop-blur shadow-[0_40px_90px_-50px_rgba(0,0,0,0.7)]">
-                  {platform.layers.map((layer, i) => (
-                    <LayerCard
-                      key={layer.name}
-                      layer={layer}
-                      icon={layerIcons[layer.name]}
-                      accent={layerAccents[layer.name]}
-                      learnMoreLabel={platform.learnMore}
-                      indexLabel={`0${i + 1}`}
-                      countLabel={platform.countLabel}
-                      cta={cta}
-                    />
-                  ))}
-                </div>
+                ))}
               </div>
             </FadeUp>
 
-            <FadeUp delay={0.2} className="text-center mt-14">
+            <FadeUp delay={0.2} className="text-center mt-10">
               <Button
                 variant="outline-light"
                 size="lg"
@@ -565,9 +533,9 @@ function LayerCard({ layer, icon, accent, learnMoreLabel, indexLabel, countLabel
       {/* Meniscus rail - this layer's colour, the edge of the stratum */}
       <div className={`w-1.5 flex-shrink-0 bg-gradient-to-b ${accent} opacity-70 group-hover:w-2.5 group-hover:opacity-100 transition-all duration-300`} aria-hidden />
 
-      <div className="flex-1 grid grid-cols-[1fr_auto] md:grid-cols-[2.5rem_minmax(11rem,15rem)_1fr_auto] items-center gap-x-5 gap-y-2 px-5 md:px-7 py-5 md:py-6">
+      <div className="flex-1 grid grid-cols-[1fr_auto] lg:grid-cols-[2rem_minmax(11rem,14rem)_minmax(0,1fr)_auto] items-center gap-x-5 gap-y-3 px-5 lg:px-7 py-5 lg:py-6">
         {/* Index - the stratum number */}
-        <div className="hidden md:block font-mono text-[11px] tracking-widest text-[var(--text-muted)]/70 tabular-nums">
+        <div className="hidden lg:block font-mono text-[11px] tracking-widest text-[var(--text-muted)]/70 tabular-nums">
           {indexLabel}<span className="opacity-40"> {countLabel}</span>
         </div>
 
@@ -577,24 +545,24 @@ function LayerCard({ layer, icon, accent, learnMoreLabel, indexLabel, countLabel
             <SundaeIcon name={icon} size="sm" className="text-white" />
           </div>
           <div className="min-w-0">
-            <h3 className="text-[15px] font-semibold text-[var(--text-primary)] leading-tight truncate">{layer.name}</h3>
-            <p className="text-xs text-[var(--text-muted)] font-medium truncate">{layer.subtitle}</p>
+            <h3 className="text-lg font-semibold text-[var(--text-primary)] leading-snug">{layer.name}</h3>
+            <p className="mt-0.5 text-sm text-[var(--text-muted)] font-medium leading-snug">{layer.subtitle}</p>
           </div>
         </div>
 
         {/* Description - hidden on mobile, shown full-width below instead */}
-        <p className="hidden md:block text-sm text-[var(--text-muted)] leading-relaxed">{layer.description}</p>
+        <p className="hidden lg:block text-[15px] text-[var(--text-supporting)] leading-relaxed">{layer.description}</p>
 
         {/* Learn more */}
-        <span className="hidden md:inline-flex items-center gap-1.5 text-sm font-medium text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors whitespace-nowrap justify-self-end">
+        <span className="hidden lg:inline-flex items-center gap-1.5 text-sm font-medium text-[var(--text-warm)] group-hover:text-[var(--text-primary)] transition-colors whitespace-nowrap justify-self-end">
           {learnMoreLabel} <span className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
         </span>
 
         {/* Mobile arrow */}
-        <span className="md:hidden text-[#FF8473] group-hover:translate-x-1 transition-transform justify-self-end" aria-hidden>&rarr;</span>
+        <span className="lg:hidden text-[var(--text-warm)] group-hover:translate-x-1 transition-transform justify-self-end" aria-hidden>&rarr;</span>
 
         {/* Mobile description - spans full row */}
-        <p className="md:hidden col-span-2 text-sm text-[var(--text-muted)] leading-relaxed">{layer.description}</p>
+        <p className="lg:hidden col-span-2 text-sm text-[var(--text-supporting)] leading-relaxed">{layer.description}</p>
       </div>
     </div>
   );
