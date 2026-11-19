@@ -383,7 +383,7 @@ const Navbar = () => {
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                 <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
-                  <Link href={localizeHref('/solutions')} onClick={() => setActiveDropdown(null)} className="mb-5 flex items-center justify-between gap-4 border-b border-[var(--border-default)] pb-4 text-base font-semibold text-[var(--text-primary)] transition-colors hover:text-[var(--warm-coral)]" data-solutions-overview="desktop">
+                  <Link href={localizeHref('/solutions')} onClick={() => setActiveDropdown(null)} className="mb-5 flex items-center justify-between gap-4 border-b border-[var(--border-default)] pb-4 text-base font-semibold text-[var(--text-primary)] transition-colors hover:text-[var(--text-display)] focus-visible:text-[var(--text-display)]" data-solutions-overview="desktop">
                     {closerCopy[locale as keyof typeof closerCopy].overview}<span aria-hidden className="rtl:-scale-x-100">↗</span>
                   </Link>
                   {/* Segments */}

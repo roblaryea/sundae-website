@@ -2,7 +2,9 @@
 .entrance { animation: entrance 650ms ease-out both; }
 .productReveal { animation: entrance 850ms 120ms ease-out both; }
 .link { transition: color 180ms ease, transform 180ms ease; }
-.link:hover { color: var(--warm-coral); transform: translateY(-2px); }
+.link:hover, .link:focus-visible { color: var(--text-display); }
+.link:hover { transform: translateY(-2px); }
+.link:focus-visible { outline: 2px solid var(--text-display); outline-offset: 5px; border-radius: 2px; }
 .reason { position: relative; }
 .reason::before { content: ''; position: absolute; top: -1px; inset-inline-start: 0; width: 2.5rem; height: 2px; background: var(--warm-coral); transform-origin: left; }
 @supports (animation-timeline: view()) {

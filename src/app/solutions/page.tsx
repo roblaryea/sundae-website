@@ -92,7 +92,7 @@ export default function SolutionsHubPage() {
           <p className="eyebrow mb-4">{nav.byRole}</p>
           <h2 className="section-h2 max-w-3xl">{shared.roleContextTitle}</h2>
           <div className="mt-9 grid md:grid-cols-2 md:gap-x-14">
-            {nav.solutionsRoles.map(role => <Link key={role.href} href={href(role.href)} className="group flex items-center justify-between gap-6 border-t border-[var(--border-default)] py-6 text-[var(--text-primary)] transition-colors hover:text-[var(--warm-coral)]">
+            {nav.solutionsRoles.map(role => <Link key={role.href} href={href(role.href)} className="group flex items-center justify-between gap-6 border-t border-[var(--border-default)] py-6 text-[var(--text-primary)] transition-colors hover:text-[var(--text-display)] focus-visible:text-[var(--text-display)]">
               <span><span className="block font-display text-xl font-semibold sm:text-2xl">{role.name}</span></span>
               <ArrowUpRight aria-hidden className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 rtl:-scale-x-100" />
             </Link>)}
