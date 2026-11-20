@@ -1,5 +1,8 @@
 'use client';
 
+import Link from 'next/link';
+import discoveryCopy from '@/content/discovery-navigation.json';
+
 import buyerFeatureCopy from '@/content/buyer-feature-details/intelligence.json';
 
 import depthCopy from '@/content/operator-depth.json'
@@ -576,6 +579,22 @@ export default function ChatWithDataPage() {
         hideFilter
         headingOverride={galleryHeading("intelligence", locale)}
       />
+
+      <section aria-labelledby="answer-context-title" className="px-6 py-14 sm:px-8 lg:px-12 bg-[var(--navy-deep)]">
+        <FadeUp className="max-w-5xl mx-auto border-y border-[var(--border-default)] py-10">
+          <h2 id="answer-context-title" className="section-h2 text-[var(--text-primary)] mb-6">{discoveryCopy[locale as keyof typeof discoveryCopy].contextTitle}</h2>
+          <div className="grid gap-6 md:grid-cols-2">
+            <Link href={getLocalizedPathname('/4d-intelligence', locale)} className="group block focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--coral)]">
+              <span className="block text-sm font-semibold text-[var(--text-primary)]">4D Intelligence</span>
+              <span className="mt-2 block text-[var(--text-supporting)] underline decoration-[var(--border-default)] underline-offset-4 group-hover:text-[var(--text-primary)]">{discoveryCopy[locale as keyof typeof discoveryCopy].dimensionsLink}</span>
+            </Link>
+            <Link href={getLocalizedPathname('/product/cross-intelligence', locale)} className="group block focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--coral)]">
+              <span className="block text-sm font-semibold text-[var(--text-primary)]">Cross-Intelligence</span>
+              <span className="mt-2 block text-[var(--text-supporting)] underline decoration-[var(--border-default)] underline-offset-4 group-hover:text-[var(--text-primary)]">{discoveryCopy[locale as keyof typeof discoveryCopy].crossLink}</span>
+            </Link>
+          </div>
+        </FadeUp>
+      </section>
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="book_demo_intelligence_closing" trackingMetadata={{ page: '/intelligence', destination: getLocalizedPathname('/demo', locale) }}>{ui.heroSecondary}</Button>

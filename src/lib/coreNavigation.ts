@@ -1,5 +1,6 @@
 import type { WebsiteLocale } from '@/lib/i18n'
 import storyCopy from '@/content/platform-story.json'
+import discoveryCopy from '@/content/discovery-navigation.json'
 
 export const CORE_CAPABILITY_PATHS = [
   '/product/pulse', '/product/benchmarking', '/product/watchtower',
@@ -18,6 +19,10 @@ export function getCoreNavigation(localizedLayers: readonly CoreLink[], locale: 
       href: path,
     }]
     const link = layers.get(path)
-    return link ? [link] : []
+    if (!link) return []
+    const copy = discoveryCopy[locale]
+    if (path === '/product/benchmarking') return [{ ...link, description: copy.benchmarks }]
+    if (path === '/product/insights') return [{ ...link, description: copy.insights }]
+    return [link]
   })
 }

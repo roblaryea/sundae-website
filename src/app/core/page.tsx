@@ -1,5 +1,8 @@
 'use client';
 
+import discoveryCopy from '@/content/discovery-navigation.json';
+import { PRICING_URL } from '@/lib/urls';
+
 import bodyCopy from '@/content/buyer-clarity/core.json';
 import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
 import { getLocalizedPathname } from '@/lib/i18n';
@@ -15,7 +18,6 @@ import { MessagingFeature } from '@/components/seo/MessagingFeature';
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
-import { PRICING_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -682,7 +684,7 @@ export default function CoreProductPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {ui.hero.primary}
+            {discoveryCopy[locale as keyof typeof discoveryCopy].compareCore}
           </Button>
           <Button
             variant="outline-light"
@@ -946,7 +948,7 @@ export default function CoreProductPage() {
         description={ui.cta.description}
       >
         <Button variant="cta" size="lg" href={PRICING_URL} target="_blank" rel="noopener noreferrer">
-          {ui.cta.primary}
+          {discoveryCopy[locale as keyof typeof discoveryCopy].compareCore}
         </Button>
         <Button
           variant="outline-ink"

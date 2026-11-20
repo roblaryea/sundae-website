@@ -1,5 +1,9 @@
 'use client';
 
+import discoveryCopy from '@/content/discovery-navigation.json';
+import guidanceCopy from '@/content/support-guidance.json';
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
+
 import videoCopy from '@/content/product-walkthroughs.json';
 
 // Mobile nav overlay: full-viewport scrim + scroll lock, consistent on all pages
@@ -256,9 +260,14 @@ const Navbar = () => {
   const pillars: ReadonlyArray<NavbarLink> = getCoreNavigation(nav.pillars, locale);
 
   // Sundae Crew operational modules (Product → Sundae Crew group)
-  const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList.map(link =>
-    link.href === '/crew/payroll' ? { ...link, description: undefined } : link,
-  );
+  const crewFunctions: Record<string, string> = {
+    '/crew/scheduling': discoveryCopy[locale as keyof typeof discoveryCopy].scheduling,
+    '/crew/time-attendance': discoveryCopy[locale as keyof typeof discoveryCopy].attendance,
+    '/crew/payroll': discoveryCopy[locale as keyof typeof discoveryCopy].payroll,
+    '/crew/people': discoveryCopy[locale as keyof typeof discoveryCopy].people,
+    '/crew/people-intelligence': discoveryCopy[locale as keyof typeof discoveryCopy].workforce,
+  };
+  const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList.map(link => ({ ...link, description: crewFunctions[link.href] ?? link.description }));
   const workflowLinks = [
     { name: workflow.tasks, href: '/restaurant-task-management' },
     { name: workflow.logbook, href: '/restaurant-logbook' },
@@ -270,7 +279,7 @@ const Navbar = () => {
 
   const solutionsRoles: ReadonlyArray<NavbarLink> = nav.solutionsRoles;
 
-  const resources: ReadonlyArray<NavbarLink> = [{ name: videoCopy[locale as keyof typeof videoCopy].label, href: '/resources/product-walkthroughs' }, { name: nav.about, href: '/about' }, ...nav.resourcesList.filter(item => item.href !== '/about')];
+  const resources: ReadonlyArray<NavbarLink> = [{ name: videoCopy[locale as keyof typeof videoCopy].label, href: '/resources/product-walkthroughs' }, { name: nav.about, href: '/about' }, ...nav.resourcesList.filter(item => item.href !== '/about').map(item => item.href === '/resources' ? { name: sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].resultsLabel, href: '/results' } : item.href === '/docs' ? { ...item, name: guidanceCopy[locale as keyof typeof guidanceCopy].docsLabel } : item)];
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
 
   return (

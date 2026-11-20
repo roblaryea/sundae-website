@@ -22,6 +22,8 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { getLocalizedPathname } from "@/lib/i18n";
+import { getLegacyMarketingDestination } from "@/lib/legacyMarketingRedirects";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, X, Maximize2, ChevronLeft, ChevronRight } from "lucide-react";
 import { FadeUp } from "@/components/ui/PageAnimations";
@@ -150,7 +152,7 @@ export function SectionProductPreview() {
                   {p.whatYouSee}
                 </p>
                 <Link
-                  href={p.productHref}
+                  href={getLocalizedPathname(getLegacyMarketingDestination(p.productHref) ?? p.productHref, locale)}
                   className="inline-flex items-center gap-1.5 text-xs font-bold text-[var(--warm-coral)] hover:underline"
                 >
                   {p.productLabel}
