@@ -15,6 +15,15 @@ let personalEmail = '';
 let resends = 0;
 const requestBodies = [];
 const decisions = [];
+// Marketing lead intake (guided booking). Mirrors the backend contract: 201 with
+// an optional short-lived bookingToken only for a NEW lead that carries
+// metadata.convo and a work email. Idempotency keys return the original lead.
+const FREE_MAIL = new Set(['gmail.com', 'googlemail.com', 'hotmail.com', 'hotmail.co.uk', 'hotmail.fr', 'outlook.com', 'live.com', 'msn.com',
+  'yahoo.com', 'yahoo.co.uk', 'ymail.com', 'icloud.com', 'me.com', 'mac.com', 'aol.com', 'proton.me', 'protonmail.com', 'gmx.com', 'gmx.de',
+  'yandex.com', 'mail.ru', 'qq.com', '163.com']);
+let leads = [];
+let leadAttempts = 0;
+let flakyServed = false;
 const personalContext = { name: '', email: '', company: 'QA Host', displayName: 'QA Host', headline: 'Sundae team', bio: 'A conversation about your business.',
   slug: 'qa-host', durationMinutes: 60, durationOptions: [30, 60, 90], offering: 'Introduction', teamTimezone: 'UTC', eventTypeId: 'intro',
   events: [{ id: 'intro', name: 'Introduction', durationMinutes: 60, durationOptions: [30, 60, 90] }, { id: 'demo', name: 'Demo', durationMinutes: 30, durationOptions: [30] }],
@@ -27,6 +36,25 @@ const server = createServer(async (req, res) => {
   if (url.pathname === '/captured') return json(captured);
   if (url.pathname === '/resends') return json({ resends });
   if (url.pathname === '/requests') return json({ requests: requestBodies, decisions });
+  if (url.pathname === '/leads') return json({ leads, attempts: leadAttempts });
+  if (url.pathname === '/leads/reset') { leads = []; leadAttempts = 0; flakyServed = false; return json({ ok: true }); }
+  if (url.pathname === '/api/v1/public/marketing/leads' && req.method === 'POST') {
+    let raw = ''; for await (const chunk of req) raw += chunk;
+    leadAttempts++;
+    if (!req.headers['x-sundae-lead-signature'] || !req.headers['x-sundae-lead-timestamp']) return json({ error: 'invalid_signature' }, 401);
+    const body = JSON.parse(raw);
+    const key = req.headers['idempotency-key'];
+    // Scenario addresses: a backend outage for the first attempt, then success.
+    if (body.email === 'flaky@harborgroup.test' && !flakyServed) { flakyServed = true; return json({ error: 'unavailable' }, 503); }
+    const replay = leads.find((lead) => lead.idempotencyKey === key);
+    if (replay) return json({ ok: true, leadId: replay.leadId, leadNumber: replay.leadNumber }, 201);
+    const duplicate = leads.some((lead) => lead.body.email === body.email);
+    const lead = { idempotencyKey: key, body, leadId: `fixture-lead-${leads.length + 1}`, leadNumber: `SL-${1001 + leads.length}` };
+    leads.push(lead);
+    const domain = String(body.email || '').split('@')[1]?.toLowerCase() || '';
+    const bookingToken = !duplicate && body.metadata?.convo && !FREE_MAIL.has(domain) ? 'guided-fixture-token' : undefined;
+    return json({ ok: true, leadId: lead.leadId, leadNumber: lead.leadNumber, ...(bookingToken ? { bookingToken } : {}) }, 201);
+  }
   if (url.pathname.startsWith('/api/v1/public/scheduling/')) {
     const parts = url.pathname.split('/').slice(5);
     const managed = parts[0] === 'manage';

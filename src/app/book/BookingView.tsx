@@ -116,7 +116,17 @@ type Mode = 'select' | 'reschedule' | 'confirmed' | 'existing' | 'canceled';
 /** `wait` fills {wait} (seconds); `contact` appends the "email the host" fallback link. */
 type ActionError = { tone: 'warn' | 'error'; key: BookingUiKey; wait?: number; contact?: boolean };
 
-type BookingViewProps = { token: string; locale: BookingLocale; ctx: BookingContext; personal?: PersonalBookingContext };
+type BookingViewProps = {
+  token: string;
+  locale: BookingLocale;
+  ctx: BookingContext;
+  personal?: PersonalBookingContext;
+  /** Embedded hand-off (guided booking on the website): show a close control in the top bar. */
+  onClose?: () => void;
+  closeLabel?: string;
+  /** Embedded hand-off: called after a booking is created or rescheduled. */
+  onBooked?: (booking: BookingSummary) => void;
+};
 
 export function BookingView(props: BookingViewProps) {
   // Each public context has a fresh form nonce. A return from a private canceled
@@ -129,6 +139,9 @@ function BookingState({
   locale: initialLocale,
   ctx,
   personal,
+  onClose,
+  closeLabel,
+  onBooked,
 }: BookingViewProps) {
   const router = useRouter();
   const [locale, setLocale] = useState(initialLocale);
@@ -485,6 +498,7 @@ function BookingState({
         setActionError(null);
         setMode('confirmed');
         setReviewSlot(null);
+        onBooked?.(json.booking);
         return;
       }
       if (personal && json.error === 'invalid_or_expired_code') {
@@ -524,6 +538,7 @@ function BookingState({
         setActionError(null);
         setMode('confirmed');
         setReviewSlot(null);
+        onBooked?.(json.booking);
         return;
       }
       handleBookingError(res.status, json.error);
@@ -1043,6 +1058,20 @@ function BookingState({
           >
             {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </button>
+          {onClose && (
+            <button
+              type="button"
+              onClick={onClose}
+              data-booking-close
+              className={`inline-flex h-11 items-center gap-1.5 rounded-lg border px-3 text-xs font-semibold transition-colors ${
+                dark ? 'border-white/10 hover:bg-white/5 text-stone-200' : 'border-gray-200 hover:bg-gray-100 text-gray-700'
+              }`}
+              aria-label={closeLabel}
+            >
+              <X className="h-4 w-4" aria-hidden="true" />
+              <span className="hidden sm:inline">{closeLabel}</span>
+            </button>
+          )}
           </div>
         </div>
       </header>

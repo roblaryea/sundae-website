@@ -1,7 +1,7 @@
-import { cookies } from 'next/headers';
+import { cookies, headers } from 'next/headers';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
+import { LeadCaptureSurface } from '@/components/marketing/LeadCaptureSurface';
 import { getAccessRequestCopy } from '@/lib/accessRequestCopy';
 import { getWebsiteMessages, resolveWebsiteLocale } from '@/lib/i18n';
 import { decodePricingIntent } from '@/lib/pricingIntent';
@@ -25,6 +25,8 @@ export default async function GetStartedPage({ searchParams }: {
   const copy = getAccessRequestCopy(locale);
   const signIn = getWebsiteMessages(locale).pages.signIn;
   const pricingIntent = typeof params.cfg === 'string' ? decodePricingIntent(params.cfg) : null;
+  // Guided booking suggests the visitor's country; Vercel sets this per request.
+  const ipCountry = (await headers()).get('x-vercel-ip-country');
   return (
     <section className="min-h-screen bg-[var(--navy-deep)] px-6 pb-20 pt-32">
       <div className="mx-auto max-w-3xl">
@@ -33,7 +35,14 @@ export default async function GetStartedPage({ searchParams }: {
           <p className="body-lg text-[var(--text-supporting)]">{copy.description}</p>
           <Link href={SIGNIN_URL} className="mt-5 inline-flex min-h-11 items-center font-semibold text-[var(--text-primary)] underline underline-offset-4">{signIn.headingTitle}</Link>
         </header>
-        <LeadCaptureForm ctaLabel={copy.title} defaultMessage={copy.title} pricingIntent={pricingIntent ?? undefined} />
+        <LeadCaptureSurface
+          surface="get-started"
+          mode="get-started"
+          ctaLabel={copy.title}
+          defaultMessage={copy.title}
+          pricingIntent={pricingIntent}
+          suggestedCountryIso={ipCountry}
+        />
       </div>
     </section>
   );

@@ -1,9 +1,9 @@
 import { BookDemoButton } from '@/components/ui/BookDemoButton';
 import type { Metadata } from "next";
 import Link from "next/link";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { Button } from "@/components/ui/Button";
-import { LeadCaptureForm } from "@/components/marketing/LeadCaptureForm";
+import { LeadCaptureSurface } from "@/components/marketing/LeadCaptureSurface";
 import { SundaeIcon } from "@/components/icons";
 import { PRICING_URL } from "@/lib/links";
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
@@ -119,6 +119,8 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function ContactPage() {
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getContactCopy(locale);
+  // Guided booking suggests the visitor's country; Vercel sets this per request.
+  const ipCountry = (await headers()).get("x-vercel-ip-country");
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -129,7 +131,13 @@ export default async function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <FadeUp>
               <h2 className="section-h3 text-[var(--text-primary)] mb-6">{copy.formTitle}</h2>
-              <LeadCaptureForm ctaLabel={copy.ctaLabel} defaultMessage={copy.defaultMessage} />
+              <LeadCaptureSurface
+                surface="contact"
+                mode="contact"
+                ctaLabel={copy.ctaLabel}
+                defaultMessage={copy.defaultMessage}
+                suggestedCountryIso={ipCountry}
+              />
             </FadeUp>
 
             <FadeUp delay={0.15} className="space-y-8">
