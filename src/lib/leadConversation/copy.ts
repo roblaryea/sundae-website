@@ -195,6 +195,7 @@ export interface GuidedBookingCopy {
   };
   errors: {
     nameShort: string;
+    nameInvalid: string;
     emailInvalid: string;
     companyRequired: string;
     roleRequired: string;
@@ -207,6 +208,7 @@ export interface GuidedBookingCopy {
     unavailable: string;
     retry: string;
   };
+  demoHeading: string;
   reassurance: {
     data: string;
     answers: string;
@@ -395,6 +397,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Enter your name",
+      nameInvalid: "Enter your name, not an email or a number",
       emailInvalid: "That doesn't look like an email yet",
       companyRequired: "Enter a company name",
       roleRequired: "Enter your role",
@@ -407,6 +410,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "I couldn't send that just now. Your answers are kept - try again in a moment.",
       retry: "Try again",
     },
+    demoHeading: "Tell us about your operation",
     reassurance: {
       data: "Your own data is optional - we can start with a sample operation.",
       answers: "The walkthrough is built around the answers you give here.",
@@ -593,6 +597,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "أدخل اسمك",
+      nameInvalid: "أدخل اسمك، وليس بريدًا إلكترونيًا أو رقمًا",
       emailInvalid: "لا يبدو هذا بريدًا إلكترونيًا صحيحًا بعد",
       companyRequired: "أدخل اسم الشركة",
       roleRequired: "أدخل دورك",
@@ -605,6 +610,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "تعذّر عليّ الإرسال الآن. إجاباتك محفوظة - حاول مرة أخرى بعد لحظات.",
       retry: "إعادة المحاولة",
     },
+    demoHeading: "أخبرنا عن عملياتك",
     reassurance: {
       data: "مشاركة بياناتك اختيارية - يمكننا البدء بعملية نموذجية.",
       answers: "تُبنى الجولة التوضيحية حول الإجابات التي تقدمها هنا.",
@@ -791,6 +797,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Saisissez votre nom",
+      nameInvalid: "Saisissez votre nom, pas une adresse email ni un numéro",
       emailInvalid: "Cela ne ressemble pas encore à une adresse email",
       companyRequired: "Saisissez un nom d’entreprise",
       roleRequired: "Saisissez votre rôle",
@@ -803,6 +810,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Je n’ai pas pu envoyer cela pour le moment. Vos réponses sont conservées - réessayez dans un instant.",
       retry: "Réessayer",
     },
+    demoHeading: "Parlez-nous de votre activité",
     reassurance: {
       data: "Vos propres données sont facultatives - nous pouvons commencer avec un exemple d’établissement.",
       answers: "La démonstration est construite à partir des réponses que vous donnez ici.",
@@ -989,6 +997,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Escribe tu nombre",
+      nameInvalid: "Escribe tu nombre, no un correo ni un número",
       emailInvalid: "Eso aún no parece un correo electrónico",
       companyRequired: "Escribe el nombre de la empresa",
       roleRequired: "Escribe tu rol",
@@ -1001,6 +1010,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "No he podido enviarlo ahora mismo. Tus respuestas se conservan - inténtalo de nuevo en un momento.",
       retry: "Intentar de nuevo",
     },
+    demoHeading: "Cuéntanos sobre tu operación",
     reassurance: {
       data: "Tus propios datos son opcionales - podemos empezar con una operación de ejemplo.",
       answers: "El recorrido se basa en las respuestas que des aquí.",
@@ -1187,6 +1197,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Geben Sie Ihren Namen ein",
+      nameInvalid: "Geben Sie Ihren Namen ein, keine E-Mail-Adresse oder Nummer",
       emailInvalid: "Das sieht noch nicht nach einer E-Mail-Adresse aus",
       companyRequired: "Geben Sie einen Firmennamen ein",
       roleRequired: "Geben Sie Ihre Rolle ein",
@@ -1199,6 +1210,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Das konnte ich gerade nicht senden. Ihre Antworten bleiben erhalten - versuchen Sie es gleich noch einmal.",
       retry: "Erneut versuchen",
     },
+    demoHeading: "Erzählen Sie uns von Ihrem Betrieb",
     reassurance: {
       data: "Eigene Daten sind optional - wir können mit einem Beispielbetrieb starten.",
       answers: "Der Rundgang basiert auf Ihren Antworten hier.",
@@ -1385,6 +1397,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Vul je naam in",
+      nameInvalid: "Vul je naam in, geen e-mailadres of nummer",
       emailInvalid: "Dat lijkt nog geen e-mailadres",
       companyRequired: "Vul een bedrijfsnaam in",
       roleRequired: "Vul je rol in",
@@ -1397,6 +1410,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Ik kon dat nu niet versturen. Je antwoorden zijn bewaard - probeer het zo opnieuw.",
       retry: "Opnieuw proberen",
     },
+    demoHeading: "Vertel ons over je bedrijf",
     reassurance: {
       data: "Je eigen data is optioneel - we kunnen starten met een voorbeeldoperatie.",
       answers: "De walkthrough is gebaseerd op de antwoorden die je hier geeft.",
@@ -1583,6 +1597,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Digite seu nome",
+      nameInvalid: "Digite seu nome, não um e-mail ou número",
       emailInvalid: "Isso ainda não parece um e-mail",
       companyRequired: "Digite o nome da empresa",
       roleRequired: "Digite sua função",
@@ -1595,6 +1610,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Não consegui enviar agora. Suas respostas foram mantidas - tente de novo em instantes.",
       retry: "Tentar de novo",
     },
+    demoHeading: "Conte-nos sobre a sua operação",
     reassurance: {
       data: "Seus próprios dados são opcionais - podemos começar com uma operação de exemplo.",
       answers: "A demonstração é montada com base nas respostas que você der aqui.",
@@ -1781,6 +1797,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "अपना नाम दर्ज करें",
+      nameInvalid: "अपना नाम दर्ज करें, ईमेल या नंबर नहीं",
       emailInvalid: "यह अभी ईमेल जैसा नहीं लगता",
       companyRequired: "कंपनी का नाम दर्ज करें",
       roleRequired: "अपनी भूमिका दर्ज करें",
@@ -1793,6 +1810,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "मैं अभी इसे भेज नहीं सका। आपके जवाब सुरक्षित हैं - थोड़ी देर में फिर कोशिश करें।",
       retry: "फिर कोशिश करें",
     },
+    demoHeading: "हमें अपने संचालन के बारे में बताएं",
     reassurance: {
       data: "अपना डेटा देना वैकल्पिक है - हम एक सैंपल ऑपरेशन से शुरुआत कर सकते हैं।",
       answers: "वॉकथ्रू यहां दिए गए आपके जवाबों के आधार पर तैयार किया जाता है।",
@@ -1979,6 +1997,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "اپنا نام درج کریں",
+      nameInvalid: "اپنا نام درج کریں، ای میل یا نمبر نہیں",
       emailInvalid: "یہ ابھی ای میل جیسا نہیں لگتا",
       companyRequired: "کمپنی کا نام درج کریں",
       roleRequired: "اپنا کردار درج کریں",
@@ -1991,6 +2010,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "میں ابھی یہ نہیں بھیج سکا۔ آپ کے جوابات محفوظ ہیں - ذرا دیر میں دوبارہ کوشش کریں۔",
       retry: "دوبارہ کوشش کریں",
     },
+    demoHeading: "ہمیں اپنے کاروبار کے بارے میں بتائیں",
     reassurance: {
       data: "اپنا ڈیٹا دینا اختیاری ہے - ہم ایک نمونہ آپریشن سے شروع کر سکتے ہیں۔",
       answers: "واک تھرو یہاں دیے گئے آپ کے جوابات کی بنیاد پر تیار کیا جاتا ہے۔",
@@ -2177,6 +2197,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Inserisci il tuo nome",
+      nameInvalid: "Inserisci il tuo nome, non un indirizzo email o un numero",
       emailInvalid: "Non sembra ancora un indirizzo email",
       companyRequired: "Inserisci il nome dell'azienda",
       roleRequired: "Inserisci il tuo ruolo",
@@ -2189,6 +2210,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Non riesco a inviarlo in questo momento. Le tue risposte sono salvate - riprova tra un attimo.",
       retry: "Riprova",
     },
+    demoHeading: "Raccontaci la tua attività",
     reassurance: {
       data: "I tuoi dati sono facoltativi - possiamo partire da un'attività di esempio.",
       answers: "La dimostrazione si basa sulle risposte che dai qui.",
@@ -2375,6 +2397,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Wpisz swoje imię",
+      nameInvalid: "Wpisz swoje imię, a nie adres e-mail lub numer",
       emailInvalid: "To jeszcze nie wygląda na adres e-mail",
       companyRequired: "Wpisz nazwę firmy",
       roleRequired: "Wpisz swoją rolę",
@@ -2387,6 +2410,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Nie udało mi się teraz tego wysłać. Twoje odpowiedzi są zachowane - spróbuj ponownie za chwilę.",
       retry: "Spróbuj ponownie",
     },
+    demoHeading: "Opowiedz nam o swojej działalności",
     reassurance: {
       data: "Własne dane są opcjonalne - możemy zacząć od przykładowej działalności.",
       answers: "Prezentacja opiera się na odpowiedziach, które tu podasz.",
@@ -2573,6 +2597,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Adınızı girin",
+      nameInvalid: "Adınızı girin; e-posta adresi veya numara değil",
       emailInvalid: "Bu henüz bir e-posta adresine benzemiyor",
       companyRequired: "Bir şirket adı girin",
       roleRequired: "Rolünüzü girin",
@@ -2585,6 +2610,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Bunu şu anda gönderemedim. Yanıtlarınız saklandı - birazdan tekrar deneyin.",
       retry: "Tekrar dene",
     },
+    demoHeading: "Bize işletmenizden bahsedin",
     reassurance: {
       data: "Kendi verilerinizi paylaşmanız isteğe bağlı - örnek bir işletmeyle başlayabiliriz.",
       answers: "Tanıtım, burada verdiğiniz yanıtlara göre hazırlanır.",
@@ -2771,6 +2797,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "填写您的姓名",
+      nameInvalid: "填写您的姓名，而不是邮箱或号码",
       emailInvalid: "这看起来还不像邮箱地址",
       companyRequired: "填写公司名称",
       roleRequired: "填写您的职务",
@@ -2783,6 +2810,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "我暂时无法发送。您的回答已保留 - 稍后再试一次。",
       retry: "重试",
     },
+    demoHeading: "介绍一下您的经营情况",
     reassurance: {
       data: "自有数据可选 - 我们可以先从示例运营开始。",
       answers: "演示将围绕您在这里的回答来安排。",
@@ -2969,6 +2997,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "お名前を入力してください",
+      nameInvalid: "メールアドレスや番号ではなく、お名前を入力してください",
       emailInvalid: "メールアドレスの形式ではないようです",
       companyRequired: "会社名を入力してください",
       roleRequired: "役割を入力してください",
@@ -2981,6 +3010,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "今は送信できませんでした。回答は保存されています - 少し待ってから再度お試しいただけます。",
       retry: "再試行",
     },
+    demoHeading: "お店の運営について教えてください",
     reassurance: {
       data: "自社データの提供は任意です - サンプルの運営データから始めることもできます。",
       answers: "ウォークスルーは、ここでのご回答に合わせて構成します。",
@@ -3167,6 +3197,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "이름을 입력하세요",
+      nameInvalid: "이메일이나 번호가 아닌 이름을 입력하세요",
       emailInvalid: "아직 이메일 형식이 아닌 것 같아요",
       companyRequired: "회사 이름을 입력하세요",
       roleRequired: "역할을 입력하세요",
@@ -3179,6 +3210,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "지금은 보내지 못했어요. 답변은 그대로 저장되어 있어요 - 잠시 후 다시 시도하세요.",
       retry: "다시 시도",
     },
+    demoHeading: "운영 중인 매장에 대해 알려주세요",
     reassurance: {
       data: "자체 데이터는 선택 사항이에요 - 운영 샘플로 시작할 수 있어요.",
       answers: "데모는 여기서 주신 답변을 바탕으로 구성됩니다.",
@@ -3365,6 +3397,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Masukkan nama Anda",
+      nameInvalid: "Masukkan nama Anda, bukan email atau nomor",
       emailInvalid: "Itu belum terlihat seperti alamat email",
       companyRequired: "Masukkan nama perusahaan",
       roleRequired: "Masukkan peran Anda",
@@ -3377,6 +3410,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Saya tidak bisa mengirimnya saat ini. Jawaban Anda tetap tersimpan - coba lagi sebentar lagi.",
       retry: "Coba lagi",
     },
+    demoHeading: "Ceritakan tentang operasional bisnis Anda",
     reassurance: {
       data: "Data Anda sendiri bersifat opsional - kami bisa mulai dengan contoh operasi.",
       answers: "Demo disusun berdasarkan jawaban yang Anda berikan di sini.",
@@ -3563,6 +3597,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Nhập tên của bạn",
+      nameInvalid: "Nhập tên của bạn, không phải email hay số",
       emailInvalid: "Có vẻ đây chưa phải là email",
       companyRequired: "Nhập tên công ty",
       roleRequired: "Nhập vai trò của bạn",
@@ -3575,6 +3610,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Tôi chưa gửi được lúc này. Câu trả lời của bạn vẫn được giữ - thử lại sau giây lát.",
       retry: "Thử lại",
     },
+    demoHeading: "Hãy cho chúng tôi biết về hoạt động kinh doanh của bạn",
     reassurance: {
       data: "Dữ liệu của riêng bạn là không bắt buộc - chúng tôi có thể bắt đầu với một mô hình vận hành mẫu.",
       answers: "Buổi hướng dẫn được xây dựng dựa trên câu trả lời bạn đưa ra ở đây.",
@@ -3761,6 +3797,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Introdu numele",
+      nameInvalid: "Introdu numele, nu un email sau un număr",
       emailInvalid: "Nu pare încă o adresă de email",
       companyRequired: "Introdu numele companiei",
       roleRequired: "Introdu rolul",
@@ -3773,6 +3810,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Nu am putut trimite acum. Răspunsurile tale sunt păstrate - încearcă din nou într-o clipă.",
       retry: "Încearcă din nou",
     },
+    demoHeading: "Spune-ne despre afacerea ta",
     reassurance: {
       data: "Datele tale sunt opționale - putem începe cu o operațiune exemplu.",
       answers: "Demonstrația este construită pe baza răspunsurilor tale de aici.",
@@ -3959,6 +3997,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Ange ditt namn",
+      nameInvalid: "Ange ditt namn, inte en e-postadress eller ett nummer",
       emailInvalid: "Det ser inte ut som en e-postadress än",
       companyRequired: "Ange ett företagsnamn",
       roleRequired: "Ange din roll",
@@ -3971,6 +4010,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Jag kunde inte skicka det just nu. Dina svar finns kvar - försök igen om en stund.",
       retry: "Försök igen",
     },
+    demoHeading: "Berätta om er verksamhet",
     reassurance: {
       data: "Din egen data är valfri - vi kan börja med en exempelverksamhet.",
       answers: "Genomgången byggs kring svaren du ger här.",
@@ -4157,6 +4197,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "আপনার নাম লিখুন",
+      nameInvalid: "আপনার নাম লিখুন, ইমেল বা নম্বর নয়",
       emailInvalid: "এটি এখনো ইমেলের মতো দেখাচ্ছে না",
       companyRequired: "কোম্পানির নাম লিখুন",
       roleRequired: "আপনার ভূমিকা লিখুন",
@@ -4169,6 +4210,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "এই মুহূর্তে পাঠাতে পারিনি। আপনার উত্তরগুলো সংরক্ষিত আছে - একটু পরে আবার চেষ্টা করুন।",
       retry: "আবার চেষ্টা করুন",
     },
+    demoHeading: "আপনার ব্যবসার কার্যক্রম সম্পর্কে আমাদের বলুন",
     reassurance: {
       data: "নিজের ডেটা দেওয়া ঐচ্ছিক - আমরা একটি নমুনা অপারেশন দিয়ে শুরু করতে পারি।",
       answers: "এখানে দেওয়া আপনার উত্তরের ভিত্তিতেই ওয়াকথ্রু সাজানো হয়।",
@@ -4355,6 +4397,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "ใส่ชื่อของคุณ",
+      nameInvalid: "ใส่ชื่อของคุณ ไม่ใช่อีเมลหรือหมายเลข",
       emailInvalid: "ยังดูไม่เหมือนอีเมล",
       companyRequired: "ใส่ชื่อบริษัท",
       roleRequired: "ใส่บทบาทของคุณ",
@@ -4367,6 +4410,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "ยังส่งไม่ได้ในขณะนี้ คำตอบของคุณยังอยู่ครบ - ลองอีกครั้งในอีกสักครู่",
       retry: "ลองอีกครั้ง",
     },
+    demoHeading: "เล่าให้เราฟังเกี่ยวกับธุรกิจของคุณ",
     reassurance: {
       data: "ข้อมูลของคุณเองไม่บังคับ - เราเริ่มจากการดำเนินงานตัวอย่างได้",
       answers: "การสาธิตจะออกแบบตามคำตอบที่คุณให้ไว้ที่นี่",
@@ -4553,6 +4597,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
     },
     errors: {
       nameShort: "Masukkan nama anda",
+      nameInvalid: "Masukkan nama anda, bukan email atau nombor",
       emailInvalid: "Itu belum nampak seperti alamat email",
       companyRequired: "Masukkan nama syarikat",
       roleRequired: "Masukkan peranan anda",
@@ -4565,6 +4610,7 @@ export const guidedBookingCopy: Record<WebsiteLocale, GuidedBookingCopy> = {
       unavailable: "Saya tidak dapat menghantarnya buat masa ini. Jawapan anda disimpan - cuba lagi sebentar nanti.",
       retry: "Cuba lagi",
     },
+    demoHeading: "Ceritakan kepada kami tentang operasi anda",
     reassurance: {
       data: "Data anda sendiri adalah pilihan - kami boleh mula dengan contoh operasi.",
       answers: "Sesi tunjuk cara dibina berdasarkan jawapan yang anda berikan di sini.",

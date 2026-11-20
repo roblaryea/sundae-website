@@ -146,6 +146,7 @@ export interface AnswerInputs {
 
 export type ValidationError =
   | 'nameShort'
+  | 'nameInvalid'
   | 'emailInvalid'
   | 'companyRequired'
   | 'roleRequired'
@@ -160,6 +161,15 @@ export type AnswerResult = { ok: true; state: ConversationState } | { ok: false;
 
 const clip = (value: string, max = MAX_TEXT) => value.trim().replace(/\s+/g, ' ').slice(0, max);
 
+/**
+ * A name must not be an email address (ASCII or full-width at sign) or a
+ * phone-style string of digits, which people paste into the first box.
+ */
+export function isPlausibleName(name: string): boolean {
+  if (/[@\uFF20]/.test(name)) return false;
+  return !/^[\d\s+().\-\uFF10-\uFF19]+$/.test(name);
+}
+
 /** Answers that appear in the brief; changing any of them asks for the brief again. */
 const BRIEF_FIELDS: readonly (keyof Answers)[] = ['company', 'role', 'locations', 'topic', 'focus', 'note', 'message', 'pos', 'country'];
 
@@ -168,6 +178,7 @@ function applyAnswer<S extends StepId>(context: ConversationContext, prev: Answe
   switch (step) {
     case 'name': {
       const name = clip(input as string);
+      if (name && !isPlausibleName(name)) return 'nameInvalid';
       if (name.length < 2) return 'nameShort';
       next.name = name;
       break;

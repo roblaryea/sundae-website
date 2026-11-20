@@ -11,6 +11,7 @@ import {
   composeMessage,
   contextSignature,
   edit,
+  isPlausibleName,
   nextPosition,
   previousStep,
   restore,
@@ -193,6 +194,23 @@ test('golden path visits every step in order and validates each answer', () => {
   s = must(answer(s, 'phone', { dialCode: '+44', number: '20 7946 0958' }));
   assert.equal(s.answers.phone.value, '+442079460958');
   assert.equal(s.position, 'ready');
+});
+
+test('the name step rejects email addresses and digit-only input with nameInvalid', () => {
+  const context = buildContext({ mode: 'contact' });
+  const s = start(context, NOW);
+  for (const value of ['omar@harborgroup.com', 'omar\uFF20harborgroup.com', 'Omar @ Harbor', '0501234567', '+971 50 123 4567', '(050) 123-4567', '\uFF10\uFF15\uFF10']) {
+    assert.deepEqual(answer(s, 'name', value), { ok: false, error: 'nameInvalid' }, value);
+  }
+  for (const value of ['Sara Haddad', "Anne-Marie O'Neil", 'محمد', '李雷', 'Sara 2']) {
+    assert.equal(answer(s, 'name', value).ok, true, value);
+  }
+  assert.deepEqual(answer(s, 'name', 'S'), { ok: false, error: 'nameShort' });
+  assert.equal(isPlausibleName('omar@x'), false);
+  // The same rule guards refresh-resume: a stored email-as-name is dropped.
+  const raw = JSON.stringify({ v: 1, sig: contextSignature(context), startedAt: NOW, answerCount: 1, answers: { name: 'omar@harborgroup.com' } });
+  assert.equal(restore(raw, context).answers.name, undefined);
+  assert.equal(restore(raw, context).position, 'name');
 });
 
 test('free-mail email asks to confirm; "Add a work email" re-asks and drops the address', () => {

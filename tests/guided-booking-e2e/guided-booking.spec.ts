@@ -74,7 +74,13 @@ test('golden path (default context): brief, optional phone, one lead with the cl
   await prepare(page);
   await page.goto('/demo?guided=1');
   await expect(panel(page).getByText("Hi, I'm Sundae. I'll set up a walkthrough around your operation. First, what should I call you?")).toBeVisible();
-  // Inline, announced error; never colour-only.
+  // The guided variant has its own sentence-case section heading.
+  await expect(page.getByRole('heading', { level: 2, name: 'Tell us about your operation' })).toBeVisible();
+  // Inline, announced errors; never colour-only. An email or a number is not a name.
+  await say(page, 'Your name', 'sara@harborgroup.com');
+  await expect(panel(page).getByRole('alert')).toHaveText('Enter your name, not an email or a number');
+  await say(page, 'Your name', '0501234567');
+  await expect(panel(page).getByRole('alert')).toHaveText('Enter your name, not an email or a number');
   await say(page, 'Your name', 'S');
   await expect(panel(page).getByRole('alert')).toHaveText('Enter your name');
   await answerToBrief(page);
@@ -288,6 +294,10 @@ test('contact mode: pricing question gets a summary and a team reply; support ge
   await prepare(page);
   await page.goto('/contact?guided=1');
   await expect(panel(page).getByText("Hi, I'm Sundae. I'll make sure your message reaches the right people. First, what should I call you?")).toBeVisible();
+  // Review repro: an email typed at the name prompt is refused, not greeted.
+  await say(page, 'Your name', 'omar@harborgroup.com');
+  await expect(panel(page).getByRole('alert')).toHaveText('Enter your name, not an email or a number');
+  await expect(panel(page).getByText(/Nice to meet you, omar/)).toHaveCount(0);
   await say(page, 'Your name', 'Ana');
   await expect(panel(page).getByText('Nice to meet you, Ana. Which email should the team reply to?')).toBeVisible();
   await say(page, 'Work email', 'ana@harborgroup.com');
@@ -363,6 +373,11 @@ test('split: one variant per visitor across visits, ?guided overrides without to
   if (cookie?.value === 'guided') await expect(page.locator('#demo-form form #name')).toBeVisible();
   else await expect(panel(page)).toBeVisible();
   expect((await page.context().cookies()).find((item) => item.name === 'sundae_lead_variant')?.value).toBe(cookie?.value);
+
+  // The classic variant keeps its existing /demo heading.
+  await page.goto('/demo?guided=0');
+  await expect(page.getByRole('heading', { level: 2, name: 'Request Your Demo' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Tell us about your operation' })).toHaveCount(0);
 
   // The classic variant submits on every surface, unchanged (phone required, no token returned).
   for (const path of ['/demo', '/contact', '/get-started']) {

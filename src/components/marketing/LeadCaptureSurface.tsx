@@ -38,7 +38,7 @@ export interface LeadCaptureSurfaceProps {
   workflowKey?: string | null;
   /** `x-vercel-ip-country`, read on the server. */
   suggestedCountryIso?: string | null;
-  /** /demo: the section heading shown above the classic form and beside guided booking. */
+  /** /demo: the classic form's section heading (guided booking has its own). */
   heading?: string;
 }
 
@@ -112,7 +112,7 @@ export function LeadCaptureSurface(props: LeadCaptureSurfaceProps) {
       pricingIntent={pricingIntent ?? null}
       workflowKey={workflowKey ?? null}
       suggestedCountryIso={suggestedCountryIso ?? null}
-      heading={surface === 'demo' ? heading : undefined}
+      layout={surface === 'demo' ? 'demo' : undefined}
       onSwitchToClassic={setClassicValues}
     />
   );

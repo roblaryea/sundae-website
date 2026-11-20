@@ -45,6 +45,20 @@ test('English copy matches the stored English labels and package facts', () => {
   for (const key of TOPIC_KEYS) assert.equal(en.topic.options[key], TOPIC_LABELS_EN[key], key);
 });
 
+test('the name error and the guided /demo heading exist in every locale', () => {
+  assert.equal(guidedBookingCopy.en.errors.nameInvalid, 'Enter your name, not an email or a number');
+  assert.equal(guidedBookingCopy.en.demoHeading, 'Tell us about your operation');
+  for (const locale of LOCALES) {
+    const copy = guidedBookingCopy[locale];
+    assert.ok(copy.errors.nameInvalid.trim(), locale);
+    assert.ok(copy.demoHeading.trim(), locale);
+    if (locale !== 'en') {
+      assert.notEqual(copy.errors.nameInvalid, guidedBookingCopy.en.errors.nameInvalid, locale);
+      assert.notEqual(copy.demoHeading, guidedBookingCopy.en.demoHeading, locale);
+    }
+  }
+});
+
 test('Sundae is labelled as guided booking and never as a person', () => {
   for (const locale of LOCALES) {
     const copy = guidedBookingCopy[locale];

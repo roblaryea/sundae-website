@@ -77,8 +77,8 @@ export interface ConversationalLeadCaptureProps {
   pricingIntent: PricingIntent | null;
   workflowKey: string | null;
   suggestedCountryIso: string | null;
-  /** /demo only: heading for the two-column layout. */
-  heading?: string;
+  /** /demo only: the two-column layout with its own heading and reassurance rows. */
+  layout?: 'demo';
   onSwitchToClassic: (values: Partial<LeadFormValues>) => void;
 }
 
@@ -115,7 +115,7 @@ function makeIdempotencyKey(): string {
 }
 
 export default function ConversationalLeadCapture(props: ConversationalLeadCaptureProps) {
-  const { mode, surface, ctaLabel, pricingIntent, workflowKey, suggestedCountryIso, heading, onSwitchToClassic } = props;
+  const { mode, surface, ctaLabel, pricingIntent, workflowKey, suggestedCountryIso, layout, onSwitchToClassic } = props;
   const { locale: rawLocale, dir } = useWebsiteI18n();
   const locale = normalizeWebsiteLocale(rawLocale);
   const copy = getGuidedBookingCopy(locale);
@@ -712,13 +712,13 @@ export default function ConversationalLeadCapture(props: ConversationalLeadCaptu
     </section>
   );
 
-  if (!heading) return panel;
+  if (layout !== 'demo') return panel;
 
   return (
     <div className={styles.demoGrid}>
       <div className={styles.demoIntro}>
         <p className="eyebrow">{copy.header.title}</p>
-        <h2 className={`section-h2 ${styles.demoHeading}`}>{heading}</h2>
+        <h2 className={`section-h2 ${styles.demoHeading}`}>{copy.demoHeading}</h2>
         <ul className={styles.reassure} role="list">
           <li><Database aria-hidden="true" strokeWidth={1.7} />{copy.reassurance.data}</li>
           <li><Activity aria-hidden="true" strokeWidth={1.7} />{copy.reassurance.answers}</li>
