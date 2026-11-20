@@ -73,7 +73,7 @@ export function SectionEcosystemStrip() {
   const rowB = CONNECTORS.slice(mid);
 
   return (
-    <section aria-label={copy.eyebrow} className="relative px-4 pt-16 pb-24 sm:px-6 sm:pt-20 sm:pb-28 lg:px-8">
+    <section aria-label={copy.eyebrow} className="home-ecosystem-strip relative px-4 pt-16 pb-24 sm:px-6 sm:pt-20 sm:pb-28 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <FadeUp className="text-center">
           <p className="mb-7 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--text-muted)]">
@@ -86,7 +86,7 @@ export function SectionEcosystemStrip() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#22C55E] opacity-60" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[#22C55E]" />
             </span>
-            <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-[#7FB98A]">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--ecosystem-live-ink,#7FB98A)]">
               {copy.liveLabel}
             </span>
           </div>

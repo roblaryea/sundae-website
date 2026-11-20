@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from 'next/image';
-import { useEffect, useState, type ReactNode } from 'react';
+import { useEffect, useId, useState, type ReactNode } from 'react';
 import { useRef } from 'react';
 import { motion, animate, useMotionValue, useMotionValueEvent } from 'framer-motion';
 import { useSettledReducedMotion as useReducedMotion } from '@/lib/useSettledReducedMotion';
@@ -16,7 +16,7 @@ import { balanceEmphasisSentences } from '@/lib/balanceSentences';
 // Semantic delta colour on the cream surface: + = trust-green, - = cherry-red,
 // anything else ("on target") = neutral ink. Positives must never read as alarms.
 const deltaColor = (d: string) =>
-  /^\s*\+/.test(d) ? '#0F8A5E' : /^\s*-/.test(d) ? '#D23241' : 'rgba(26,20,15,0.5)';
+  /^\s*\+/.test(d) ? '#146B43' : /^\s*-/.test(d) ? '#B42332' : '#62564A';
 
 /**
  * Cream "relief" zone - a deliberately light, warm break in the dark scroll.
@@ -91,6 +91,7 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
   // Which frame's receipt is pinned open (mobile tap). Desktop reveals on
   // hover / keyboard focus via CSS; tap pins it so touch users can read it.
   const [openCard, setOpenCard] = useState<number | null>(null);
+  const signalId = useId();
 
   const trio: TrioItem[] =
     variant === 'decisions'
@@ -204,13 +205,13 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
                   type="button"
                   onClick={() => setOpenCard(isOpen ? null : i)}
                   aria-expanded={isOpen}
-                  aria-label={`${t.label} - ${t.signal}. ${variantCopy.viewSignal ?? ''}`}
+                  aria-describedby={`${signalId}-${i}-detail`}
                   className="group block w-full text-left"
                 >
                   <figure className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-[0_24px_48px_-24px_rgba(26,20,15,0.5)] outline-none ring-2 ring-transparent transition-[box-shadow,transform] duration-300 group-hover:-translate-y-0.5 group-focus-visible:ring-[var(--warm-coral)]">
                     <Image
                       src={t.src}
-                      alt={`${t.label} - ${t.signal}`}
+                      alt=""
                       fill
                       loading="lazy"
                       sizes="(max-width: 640px) 100vw, 33vw"
@@ -260,6 +261,7 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
                         Cream text on a dark panel; coral only for the flag + dot;
                         green only for the "on pace" (good) status headline. */}
                     <div
+                      aria-hidden="true"
                       className={`absolute inset-0 z-30 flex flex-col justify-end p-4 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
                     >
                       <div aria-hidden className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(14,9,6,0.93) 0%, rgba(14,9,6,0.8) 46%, rgba(14,9,6,0.42) 100%)' }} />
@@ -286,6 +288,7 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
                     </div>
                   </figure>
                 </button>
+                <span id={`${signalId}-${i}-detail`} className="sr-only">{variantCopy.causeLabel}: {t.cause} {variantCopy.moveLabel}: {t.move}</span>
               </FadeUp>
               );
             })}
@@ -338,7 +341,7 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
   return (
     <div className="mx-auto mt-14 w-full max-w-xl">
       {/* scattered inputs */}
-      <p className="mb-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>
+      <p className="mb-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: '#62564A' }}>
         {copy.scattered}
       </p>
       <div className="flex flex-wrap items-center justify-center gap-2">
@@ -390,21 +393,21 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
           <span className="ml-2 inline-flex items-center" style={{ color: 'var(--ink)' }}>
             <SundaeWordmark className="h-3.5 w-auto" />
           </span>
-          <span className="ml-auto inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider" style={{ color: 'var(--warm-cherry)' }}>
+          <span className="ml-auto inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider" style={{ color: '#B42332' }}>
             <motion.span className="h-1.5 w-1.5 rounded-full" style={{ background: '#22C55E' }} animate={{ opacity: [1, 0.3, 1] }} transition={{ duration: 1.6, repeat: Infinity }} />
             {copy.live}
           </span>
         </div>
         <div className="p-4">
           <div className="mb-2.5 flex items-center justify-between">
-            <span className="text-[11px] font-semibold uppercase tracking-[0.14em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>{copy.decisionSurface}</span>
-            <span className="text-[10px] font-semibold" style={{ color: 'var(--warm-coral)' }}>{copy.allOutlets}</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.14em]" style={{ color: '#62564A' }}>{copy.decisionSurface}</span>
+            <span className="text-[10px] font-semibold" style={{ color: '#AD3324' }}>{copy.allOutlets}</span>
           </div>
           <LiveTrendLine reduceMotion={!!reduceMotion} />
           <div className="grid grid-cols-3 gap-2.5 text-center">
             {kpiConfig.map(({ label, value, fmt, delta }) => (
               <div key={label} className="rounded-xl py-3" style={{ background: 'rgba(233,162,74,0.1)' }}>
-                <div className="text-[10px] uppercase tracking-wider" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>{label}</div>
+                <div className="text-[10px] uppercase tracking-wider" style={{ color: '#62564A' }}>{label}</div>
                 <div className="font-display text-xl font-semibold tabular-nums" style={{ color: 'var(--ink)' }}>
                   <LiveNumber value={value} format={fmt} />
                 </div>
@@ -416,7 +419,7 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
       </motion.div>
 
       {/* whole team trusts it */}
-      <p className="mb-2 mt-6 text-center text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>
+      <p className="mb-2 mt-6 text-center text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: '#62564A' }}>
         {copy.oneTruth}
       </p>
       <div className="flex flex-wrap items-center justify-center gap-2">

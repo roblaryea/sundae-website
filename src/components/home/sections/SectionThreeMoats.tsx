@@ -137,9 +137,9 @@ function BenchmarkThumb() {
 
 /* Layer structure - badge labels and colors stay product-name (untranslated brand) */
 const layerStructure = [
-  { badge: "Pulse", badgeColor: "var(--color-pulse)", Thumb: PulseThumb },
-  { badge: "Watchtower", badgeColor: "var(--color-watchtower)", Thumb: WatchtowerThumb },
-  { badge: "Benchmarks", badgeColor: "var(--color-benchmarks)", Thumb: BenchmarkThumb },
+  { badge: "Pulse", badgeColor: "var(--color-pulse)", badgeInk: "var(--moat-pulse-ink, var(--color-pulse))", Thumb: PulseThumb },
+  { badge: "Watchtower", badgeColor: "var(--color-watchtower)", badgeInk: "var(--moat-watchtower-ink, var(--color-watchtower))", Thumb: WatchtowerThumb },
+  { badge: "Benchmarks", badgeColor: "var(--color-benchmarks)", badgeInk: "var(--moat-benchmarks-ink, var(--color-benchmarks))", Thumb: BenchmarkThumb },
 ];
 
 type LocalizedMoats = {
@@ -211,7 +211,7 @@ export function SectionThreeMoats() {
     layers: deeper.contextLayers, closing: deeper.workClosing };
 
   return (
-    <section aria-labelledby="moats-headline" className="relative">
+    <section aria-labelledby="moats-headline" className="home-context-signals relative">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
           <div className="eyebrow mb-4">{copy.eyebrow}</div>
@@ -235,7 +235,7 @@ export function SectionThreeMoats() {
                   className="text-[10px] uppercase tracking-wider font-bold mb-3 inline-flex px-2.5 py-1 rounded-md"
                   style={{
                     backgroundColor: `color-mix(in oklab, ${s.badgeColor} 18%, transparent)`,
-                    color: s.badgeColor,
+                    color: s.badgeInk,
                   }}
                 >
                   {copy.layerWord} {i + 1} - {s.badge}

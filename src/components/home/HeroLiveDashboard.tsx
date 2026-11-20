@@ -50,7 +50,7 @@ const CAT_COLOR: Record<Category, string> = {
   labor: "#FBBF24",
   inventory: "#9FB8FF",
   service: "#22C55E",
-  marketing: "#FF5C4D",
+  marketing: "#FF8473",
 };
 
 function hexToRgba(hex: string, a: number): string {
@@ -572,7 +572,6 @@ function CoachCard({
               padding: "14px 15px",
               background: "rgba(255,255,255,0.03)",
               border: "1px solid var(--border-default)",
-              opacity: 0.66,
             }
       }
     >

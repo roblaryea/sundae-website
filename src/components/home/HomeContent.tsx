@@ -231,7 +231,7 @@ export default function HomeContent() {
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
             >
-              <MockupFrame label={heroDash.frameLabel} glow>
+              <MockupFrame label={heroDash.frameLabel} glow className="mockup-dark">
                 <HeroLiveDashboard />
               </MockupFrame>
               <p className="mt-4 text-center text-xs leading-relaxed text-[var(--text-supporting)]">
@@ -398,7 +398,7 @@ export default function HomeContent() {
           headline={
             <>
               {editorial.closer.headlineLead}{" "}
-              <span className="text-[var(--warm-coral)]">{editorial.closer.headlineEmphasis}</span>
+              <span className="text-[#B43829]">{editorial.closer.headlineEmphasis}</span>
             </>
           }
           sub={editorial.closer.sub}
