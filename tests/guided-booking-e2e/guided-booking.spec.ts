@@ -125,9 +125,34 @@ test('phase 2: Choose a time opens BookingView with the token and the conversati
   const { leads: stored } = await leads(request);
   expect(stored[0].body.phone).toBe('+971501234567');
 
-  await panel(page).getByRole('button', { name: 'Choose a time' }).click();
+  const chooseTime = panel(page).getByRole('button', { name: 'Choose a time' });
   const dialog = page.getByRole('dialog', { name: 'Choose a time' });
+  const focusInDialog = () => page.evaluate(() => !!document.activeElement?.closest('[role="dialog"]'));
+
+  // Focus moves into the dialog when it opens and stays there while open.
+  await chooseTime.click();
   await expect(dialog).toBeVisible();
+  await expect.poll(focusInDialog).toBe(true);
+  await dialog.getByLabel('Your time zone').waitFor();
+  for (let i = 0; i < 40; i++) {
+    await page.keyboard.press('Tab');
+    expect(await focusInDialog(), `Tab ${i + 1}`).toBe(true);
+  }
+  for (let i = 0; i < 40; i++) {
+    await page.keyboard.press('Shift+Tab');
+    expect(await focusInDialog(), `Shift+Tab ${i + 1}`).toBe(true);
+  }
+  // Escape closes it and returns focus to "Choose a time" (the offer stays open).
+  await page.keyboard.press('Escape');
+  await expect(dialog).toHaveCount(0);
+  await expect(chooseTime).toBeFocused();
+  // So does "Back to the conversation" without booking.
+  await chooseTime.click();
+  await dialog.getByRole('button', { name: 'Back to the conversation' }).click();
+  await expect(dialog).toHaveCount(0);
+  await expect(chooseTime).toBeFocused();
+
+  await chooseTime.click();
   await dialog.getByLabel('Your time zone').selectOption('UTC');
   await dialog.getByRole('button', { name: '10:00 AM', exact: true }).click();
   await dialog.getByRole('button', { name: 'Confirm booking', exact: true }).click();
@@ -138,7 +163,10 @@ test('phase 2: Choose a time opens BookingView with the token and the conversati
   expect(stores).not.toContain('guided-fixture-token');
   await dialog.getByRole('button', { name: 'Back to the conversation' }).click();
   await expect(dialog).toHaveCount(0);
-  await expect(panel(page).getByText(/^Booked for .+\. The confirmation is on its way to sara@harborgroup\.com\.$/)).toBeVisible();
+  // After a booking the control is gone, so focus lands on the confirmation line.
+  const booked = panel(page).getByText(/^Booked for .+\. The confirmation is on its way to sara@harborgroup\.com\.$/);
+  await expect(booked).toBeVisible();
+  await expect(booked).toBeFocused();
   const captured = await events(page);
   if (!PRODUCTION) expect(captured.map((item) => item.event)).toEqual(expect.arrayContaining(['guided_booking_booking_opened', 'guided_booking_booked']));
   expect(JSON.stringify(captured)).not.toContain('guided-fixture-token');
@@ -464,4 +492,9 @@ test('keyboard-only completion and reduced motion', async ({ page, request }) =>
   await page.keyboard.press('Enter');
   await expect(panel(page).getByRole('button', { name: 'Choose a time' })).toBeFocused();
   expect((await leads(request)).leads).toHaveLength(1);
+  // "I'll use the email link later" removes that control; focus moves to the next one.
+  await page.keyboard.press('Tab');
+  await expect(panel(page).getByRole('button', { name: "I'll use the email link later" })).toBeFocused();
+  await page.keyboard.press('Enter');
+  await expect(panel(page).getByRole('link', { name: 'Explore pricing while you wait' })).toBeFocused();
 });

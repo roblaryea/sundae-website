@@ -18,6 +18,8 @@ import { normalizeBookingLocale } from '@/lib/booking/locales';
 import { setBookingOverlayOpen } from '@/lib/posthog';
 import type { BookingContext, BookingSummary } from '@/lib/sundaeBookingClient';
 
+const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
 export interface GuidedBookingHandoffProps {
   token: string;
   locale: string;
@@ -84,7 +86,30 @@ export default function GuidedBookingHandoff({
       inerted.push(child);
     }
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') callbacks.current.onClose();
+      if (event.key === 'Escape') {
+        callbacks.current.onClose();
+        return;
+      }
+      // Keep Tab and Shift+Tab inside the dialog (the page behind is inert too).
+      if (event.key !== 'Tab' || !container) return;
+      const focusables = Array.from(container.querySelectorAll<HTMLElement>(FOCUSABLE))
+        .filter((element) => !element.closest('[inert]') && element.getClientRects().length > 0);
+      if (!focusables.length) {
+        event.preventDefault();
+        container.focus();
+        return;
+      }
+      const first = focusables[0];
+      const last = focusables[focusables.length - 1];
+      const active = document.activeElement;
+      const outside = !active || !container.contains(active);
+      if (event.shiftKey && (outside || active === first || active === container)) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && (outside || active === last)) {
+        event.preventDefault();
+        first.focus();
+      }
     };
     document.addEventListener('keydown', onKeyDown);
     return () => {
@@ -97,9 +122,11 @@ export default function GuidedBookingHandoff({
     };
   }, []);
 
+  // Focus moves into the dialog as it opens; the dialog is labelled, so screen
+  // readers announce it, and the booking screen loads inside it.
   useEffect(() => {
-    if (!context) containerRef.current?.focus();
-  }, [context]);
+    containerRef.current?.focus();
+  }, []);
 
   return createPortal(
     <div ref={containerRef} role="dialog" aria-modal="true" aria-label={dialogLabel} tabIndex={-1} data-guided-booking-handoff className="fixed inset-0 z-50 outline-none">

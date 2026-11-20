@@ -189,12 +189,16 @@ export default function ConversationalLeadCapture(props: ConversationalLeadCaptu
 
   // Focus follows the conversation once the visitor has started answering
   // (never on page load, so arriving visitors keep their place on the page).
+  // It also lands somewhere sensible when the booking screen closes: back on
+  // "Choose a time", or on the newest line when that control is gone. While
+  // the booking screen is open, the dialog owns focus.
   useEffect(() => {
-    if (!interactedRef.current || typing) return;
+    if (!interactedRef.current || typing || booking === 'opening') return;
     const area = answerRef.current;
     const focusTarget = area?.querySelector<HTMLElement>('[data-autofocus]')
-      ?? area?.querySelector<HTMLElement>('input:not([type=hidden]):not([tabindex="-1"]), select, textarea, button')
-      ?? logRef.current?.querySelector<HTMLElement>('[data-autofocus]');
+      ?? area?.querySelector<HTMLElement>('input:not([type=hidden]):not([tabindex="-1"]), select, textarea, button:not([disabled]), a[href]')
+      ?? logRef.current?.querySelector<HTMLElement>('[data-autofocus]')
+      ?? logRef.current;
     focusTarget?.focus();
   }, [revealed, typing, status, booking]);
 
@@ -503,7 +507,12 @@ export default function ConversationalLeadCapture(props: ConversationalLeadCaptu
     }
     const items: ReactNode[] = [];
     if (booking === 'booked' && bookedAt) {
-      items.push(sundaeLine(fill(copy.booking.booked, { time: formatBooking(bookedAt, intlLocale), email: <span dir="ltr">{email}</span> }, ['time']), 'booked'));
+      // Focusable so keyboard and screen-reader users land on the confirmation.
+      items.push(
+        <p key="booked" className={`${styles.line} ${styles.enter}`} tabIndex={-1} data-autofocus>
+          {fill(copy.booking.booked, { time: formatBooking(bookedAt, intlLocale), email: <span dir="ltr">{email}</span> }, ['time'])}
+        </p>,
+      );
       return items;
     }
     if (booking === 'failed') items.push(sundaeLine(fill(copy.booking.failed), 'booking-failed'));
@@ -705,7 +714,9 @@ export default function ConversationalLeadCapture(props: ConversationalLeadCaptu
           closeLabel={copy.booking.close}
           loadingLabel={copy.booking.opening}
           onBooked={(summary) => setBookedAt(summary)}
-          onClose={() => setBooking((current) => (current === 'opening' ? (bookedAt ? 'booked' : 'later') : current))}
+          // Closing without booking keeps the offer (the token is still valid), so
+          // focus returns to "Choose a time"; after a booking it lands on the confirmation.
+          onClose={() => setBooking((current) => (current === 'opening' ? (bookedAt ? 'booked' : 'offer') : current))}
           onFailed={() => setBooking('failed')}
         />
       )}

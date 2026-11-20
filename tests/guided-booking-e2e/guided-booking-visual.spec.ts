@@ -179,14 +179,13 @@ test('screens: key states (chips, personal email error, ending, booking hand-off
     await expect(panel(page).getByRole('button', { name: copy.booking.choose })).toBeVisible();
     await page.locator('#demo-form').screenshot({ path: `${OUT}/${locale}-${theme}-${width}-handoff.png` });
     if (locale === 'en' && width === 1440) {
-      // Open the booking screen, then close it without booking (ends on the Phase 1 card).
+      // Open the booking screen, then close it without booking (the offer stays).
       await panel(page).getByRole('button', { name: copy.booking.choose }).click();
       await page.getByRole('dialog').getByLabel('Your time zone').waitFor();
       await page.screenshot({ path: `${OUT}/en-${theme}-${width}-booking-view.png` });
       await page.getByRole('dialog').getByRole('button', { name: 'Back to the conversation' }).click();
-    } else {
-      await panel(page).getByRole('button', { name: copy.booking.later }).click();
     }
+    await panel(page).getByRole('button', { name: copy.booking.later }).click();
     await expect(panel(page).getByText(copy.done.explore)).toBeVisible();
     await page.locator('#demo-form').screenshot({ path: `${OUT}/${locale}-${theme}-${width}-done.png` });
     await page.context().close();
