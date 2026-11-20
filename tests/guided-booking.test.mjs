@@ -522,3 +522,60 @@ test('lead client passes bookingToken through only when the backend sends one', 
     if (original.secret === undefined) delete process.env.MARKETING_LEAD_HMAC_SECRET; else process.env.MARKETING_LEAD_HMAC_SECRET = original.secret;
   }
 });
+
+test('booking overlay pause drops every event and replay, resumes after, and never bypasses consent', async () => {
+  const { registerHooks } = await import('node:module');
+  const savedEnv = { key: process.env.NEXT_PUBLIC_POSTHOG_KEY, mode: process.env.NODE_ENV };
+  process.env.NEXT_PUBLIC_POSTHOG_KEY = 'qa-public-project-key';
+  process.env.NODE_ENV = 'production';
+  let consent = 'accepted';
+  let config;
+  const calls = { capture: 0, stop: 0, start: 0 };
+  globalThis.__guidedSdkMock = {
+    init(_key, value) { config = value; },
+    has_opted_out_capturing() { return false; },
+    sessionRecordingStarted() { return true; },
+    stopSessionRecording() { calls.stop += 1; },
+    startSessionRecording() { calls.start += 1; },
+    capture() { calls.capture += 1; },
+  };
+  globalThis.window = { location: new URL('https://www.sundae.io/demo'), localStorage: { getItem() { return consent; } } };
+  globalThis.document = { cookie: '' };
+  const hooks = registerHooks({ resolve(specifier, context, nextResolve) {
+    if (specifier === 'posthog-js') return { url: 'data:text/javascript,export default globalThis.__guidedSdkMock', shortCircuit: true };
+    try { return nextResolve(specifier, context); } catch (error) {
+      if (error.code !== 'ERR_MODULE_NOT_FOUND' || !specifier.startsWith('.') || /\.[a-z]+$/i.test(specifier)) throw error;
+      return nextResolve(`${specifier}.ts`, context);
+    }
+  } });
+  try {
+    const { initPostHog, setBookingOverlayOpen, trackEvent } = await import('../src/lib/posthog.ts');
+    initPostHog();
+    const event = { uuid: 'qa', event: 'guided_booking_step_answered', properties: { stepId: 'name', $current_url: 'https://www.sundae.io/demo' } };
+    const vitals = { uuid: 'qa-v', event: '$web_vitals', properties: { $current_url: 'https://www.sundae.io/demo', $web_vitals_LCP_value: 900 } };
+    assert.equal(config.before_send(event), event);
+    trackEvent('guided_booking_started', { variant: 'guided' });
+    assert.equal(calls.capture, 1);
+
+    setBookingOverlayOpen(true);
+    assert.equal(config.before_send(event), null, 'autocapture and custom events are dropped while the booking screen is open');
+    assert.equal(config.before_send(vitals), null, 'web vitals are dropped too');
+    trackEvent('guided_booking_booked', { variant: 'guided' });
+    assert.equal(calls.capture, 1, 'trackEvent is a no-op while open');
+    assert.equal(calls.stop, 1, 'session replay is paused');
+
+    setBookingOverlayOpen(false);
+    assert.equal(calls.start, 1, 'replay resumes only because it was running before');
+    assert.equal(config.before_send(event), event);
+    assert.ok(config.before_send(vitals), 'consented vitals flow again after the pause');
+    consent = 'declined';
+    assert.equal(config.before_send(event), null, 'closing the overlay never re-admits events without consent');
+  } finally {
+    hooks.deregister();
+    delete globalThis.__guidedSdkMock;
+    delete globalThis.window;
+    delete globalThis.document;
+    if (savedEnv.key === undefined) delete process.env.NEXT_PUBLIC_POSTHOG_KEY; else process.env.NEXT_PUBLIC_POSTHOG_KEY = savedEnv.key;
+    if (savedEnv.mode === undefined) delete process.env.NODE_ENV; else process.env.NODE_ENV = savedEnv.mode;
+  }
+});
