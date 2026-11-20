@@ -6,10 +6,15 @@ import { getAccessRequestCopy } from '@/lib/accessRequestCopy';
 import { getWebsiteMessages, resolveWebsiteLocale } from '@/lib/i18n';
 import { decodePricingIntent } from '@/lib/pricingIntent';
 import { SIGNIN_URL } from '@/lib/urls';
+import { buildResolvedPageMetadata } from '@/lib/solutionPageMetadata';
 
 export async function generateMetadata(): Promise<Metadata> {
-  const copy = getAccessRequestCopy(resolveWebsiteLocale(await cookies()));
-  return { title: `${copy.title} | Sundae`, description: copy.description };
+  const locale = resolveWebsiteLocale(await cookies());
+  const copy = getAccessRequestCopy(locale);
+  return {
+    ...buildResolvedPageMetadata({ locale, pathname: '/get-started', title: copy.title, description: copy.description }),
+    robots: { index: false, follow: false },
+  };
 }
 
 export default async function GetStartedPage({ searchParams }: {

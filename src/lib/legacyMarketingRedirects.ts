@@ -3,6 +3,7 @@
 const destinations: Readonly<Record<string, string>> = {
   '/insights': '/product/insights',
   '/intelligence': '/product/intelligence',
+  '/chat-with-data': '/product/intelligence',
   '/benchmarking': '/product/benchmarking',
   '/report': '/product/benchmarking',
   '/report-vs-core': '/product',

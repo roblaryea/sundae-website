@@ -8,7 +8,12 @@ const intents = [
 ]
 const paths = [
   '/', ...intents, '/restaurant-task-management', '/restaurant-logbook',
+  '/product', '/core', '/crew', '/results', '/getting-started', '/resources/product-walkthroughs',
   ...['nl', 'ar'].flatMap(locale => intents.map(path => `/${locale}${path}`)),
+]
+const excludedPaths = [
+  '/get-started', '/sign-in', '/diagnostic/report', '/book', '/book/manage', '/book/request',
+  '/tiktok-review', '/preview/light', '/preview/elevated', '/preview/redesign', '/preview/v2/home',
 ]
 
 function decode(value) {
@@ -67,11 +72,29 @@ async function check(path) {
   }
 }
 
+async function checkExcluded(path) {
+  try {
+    const response = await fetch(new URL(path, fetchOrigin), { redirect: 'manual', signal: AbortSignal.timeout(30_000) })
+    if (response.status !== 200) return { path, status: response.status, failures: ['Expected the excluded utility page to remain available without a redirect'] }
+    const html = await response.text()
+    const meta = [...html.matchAll(/<meta\b[^>]*>/gi)].map(match => attributes(match[0]))
+    const robots = [response.headers.get('x-robots-tag') || '', ...meta.filter(tag => tag.name?.toLowerCase() === 'robots').map(tag => tag.content || '')].join(', ')
+    const failures = /\b(noindex|none)\b/i.test(robots) ? [] : ['Utility or design-review page must remain excluded from search with noindex']
+    return { path, status: response.status, robots, failures }
+  } catch (error) {
+    return { path, failures: [error.message] }
+  }
+}
+
 const pages = []
 // Bound concurrency so the audit stays lightweight on production.
 for (let start = 0; start < paths.length; start += 3) {
   pages.push(...await Promise.all(paths.slice(start, start + 3).map(check)))
 }
-const failures = pages.flatMap(page => page.failures.map(message => `${page.path}: ${message}`))
-console.log(JSON.stringify({ checkedAt: new Date().toISOString(), fetchOrigin, scope: 'Live technical availability only; does not establish indexing, rank, rich-result eligibility or AI citations', pages, failures }, null, 2))
+const excludedPages = []
+for (let start = 0; start < excludedPaths.length; start += 3) {
+  excludedPages.push(...await Promise.all(excludedPaths.slice(start, start + 3).map(checkExcluded)))
+}
+const failures = [...pages, ...excludedPages].flatMap(page => page.failures.map(message => `${page.path}: ${message}`))
+console.log(JSON.stringify({ checkedAt: new Date().toISOString(), fetchOrigin, scope: 'Live technical availability and intended search exclusions only; does not establish indexing, rank, rich-result eligibility or AI citations', pages, excludedPages, failures }, null, 2))
 if (failures.length) process.exitCode = 1

@@ -1,4 +1,5 @@
 import { cookies } from 'next/headers'
+import type { Metadata } from 'next'
 import {
   ArrowRight,
   CheckCircle2,
@@ -27,6 +28,9 @@ import {
 } from '@/lib/tiktok'
 
 export const dynamic = 'force-dynamic'
+
+// Publicly reachable for connector approval, rather than a buyer search entry.
+export const metadata: Metadata = { robots: { index: false, follow: false } }
 
 type PostingMode = 'direct' | 'draft'
 

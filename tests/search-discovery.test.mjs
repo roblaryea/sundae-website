@@ -1,12 +1,58 @@
 import assert from 'node:assert/strict'
-import { execFileSync } from 'node:child_process'
+import { execFile, execFileSync } from 'node:child_process'
 import fs from 'node:fs'
+import { createServer } from 'node:http'
 import path from 'node:path'
 import test from 'node:test'
 import { getLegacyMarketingDestination } from '../src/lib/legacyMarketingRedirects.ts'
 
 const root = process.cwd()
 const indexNowKey = '408c48955561055aa412e31d996a7526'
+
+async function runHealthFixture(drift = false) {
+  const excluded = new Set([
+    '/get-started', '/sign-in', '/diagnostic/report', '/book', '/book/manage', '/book/request',
+    '/tiktok-review', '/preview/light', '/preview/elevated', '/preview/redesign', '/preview/v2/home',
+  ])
+  const server = createServer((request, response) => {
+    const pathname = new URL(request.url, 'http://fixture.local').pathname
+    let noindex = excluded.has(pathname)
+    if (drift && ['/core', '/tiktok-review'].includes(pathname)) noindex = !noindex
+    response.writeHead(200, { 'content-type': 'text/html; charset=utf-8' })
+    response.end(`<html><head><title>${pathname} fixture</title><meta name="description" content="An operator page fixture"><meta name="robots" content="${noindex ? 'noindex, nofollow' : 'index, follow'}"><link rel="canonical" href="https://www.sundae.io${pathname}"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage"}</script></head><body><h1>${pathname} fixture</h1></body></html>`)
+  })
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve))
+  try {
+    const { port } = server.address()
+    return await new Promise(resolve => execFile(process.execPath, ['scripts/check-search-entry-pages.mjs'], {
+      cwd: root,
+      env: { ...process.env, SEARCH_HEALTH_SITE_URL: `http://127.0.0.1:${port}` },
+      timeout: 20_000,
+    }, (error, stdout, stderr) => resolve({ code: error?.code ?? 0, report: JSON.parse(stdout), stderr })))
+  } finally {
+    await new Promise(resolve => server.close(resolve))
+  }
+}
+
+test('live health checks preserve discoverable buyer pages and available excluded utility pages', async () => {
+  const result = await runHealthFixture()
+  assert.equal(result.code, 0)
+  assert.deepEqual(result.report.failures, [])
+  for (const pathname of ['/product', '/core', '/crew', '/results', '/getting-started', '/resources/product-walkthroughs']) {
+    assert.ok(result.report.pages.some(page => page.path === pathname), pathname)
+  }
+  for (const pathname of ['/get-started', '/tiktok-review', '/book/manage', '/preview/light']) {
+    assert.ok(result.report.excludedPages.some(page => page.path === pathname && page.status === 200), pathname)
+  }
+})
+
+test('live health checks fail when a buyer page is hidden or a review screen becomes indexable', async () => {
+  const result = await runHealthFixture(true)
+  assert.equal(result.code, 1)
+  assert.equal(result.report.failures.length, 2)
+  assert.ok(result.report.failures.some(failure => failure.startsWith('/core:') && failure.includes('restricts indexing')))
+  assert.ok(result.report.failures.some(failure => failure.startsWith('/tiktok-review:') && failure.includes('noindex')))
+})
 
 test('retired marketing aliases resolve to explicit successors without swallowing unknown URLs', () => {
   assert.equal(getLegacyMarketingDestination('/report'), '/product/benchmarking')
