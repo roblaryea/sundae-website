@@ -35,7 +35,7 @@ function renderQuote(quote: string): ReactNode {
 }
 
 export function SectionOperatorVoice() {
-  const { locale } = useWebsiteI18n();
+  const { locale, messages } = useWebsiteI18n();
   const sourceCopy = operatorVoiceCopy[locale as keyof typeof operatorVoiceCopy] ?? operatorVoiceCopy.en;
   const deeper = bodyCopy[locale as keyof typeof bodyCopy];
   const copy = { ...sourceCopy, eyebrow: deeper.voiceEyebrow, quote: deeper.voiceText,
@@ -82,7 +82,7 @@ export function SectionOperatorVoice() {
                 onClick={() => cta('/demo', 'operator_voice_see_how', { page: '/home', section: 'operator_voice' })}
                 className="group inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent-warm)] transition-colors hover:text-[var(--text-primary)]"
               >
-                {copy.cta}
+                {messages.navbar.bookDemo}
                 <span aria-hidden className="inline-block transition-transform group-hover:translate-x-1">
                   &rarr;
                 </span>

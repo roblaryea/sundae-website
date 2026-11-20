@@ -78,7 +78,7 @@ export function SolutionPageLayout({
   ctaButtonHref = "/demo",
   gallery,
 }: Props) {
-  const { locale } = useWebsiteI18n();
+  const { locale, messages } = useWebsiteI18n();
   const secondaryHref = localizeWebsiteHref(secondaryCtaHref ?? '/results', locale);
   const secondaryLabel = secondaryCtaHref ? copy.secondaryCta : sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink;
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
@@ -113,7 +113,7 @@ export function SolutionPageLayout({
                     trackingLabel="solution_hero_primary"
                     trackingMetadata={{ section: "hero", destination: primaryCtaHref }}
                   >
-                    {copy.primaryCta}
+                    {primaryCtaHref === "/demo" ? messages.navbar.bookDemo : copy.primaryCta}
                   </Button>
                   <Button
                     variant="outline-light"
@@ -297,7 +297,7 @@ export function SolutionPageLayout({
                   trackingLabel="solution_closing_primary"
                   trackingMetadata={{ section: "closing", destination: ctaButtonHref }}
                 >
-                  {copy.ctaButton}
+                  {ctaButtonHref === "/demo" ? messages.navbar.bookDemo : copy.ctaButton}
                 </Button>
             </FadeUp>
           </div>

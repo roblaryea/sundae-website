@@ -1,10 +1,11 @@
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
 import Link from "next/link";
 import { cookies } from "next/headers";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { resolveWebsiteLocale } from "@/lib/i18n";
+import { getLocalizedPathname, resolveWebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_careers_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
@@ -182,9 +183,7 @@ export default async function CareersPage() {
           <Link href="#open-positions">
             <Button variant="primary" size="lg">{ui.heroPrimary}</Button>
           </Link>
-          <Link href="/demo">
-            <Button variant="outline-light" size="lg">{ui.heroSecondary}</Button>
-          </Link>
+          <BookDemoButton href={getLocalizedPathname("/demo", locale)} variant="outline-light" size="lg" />
         </div>
       </PageHero>
 
@@ -283,7 +282,7 @@ export default async function CareersPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Link href="mailto:careers@sundae.io"><Button variant="primary" size="lg">{ui.ctaPrimary}</Button></Link>
-        <Link href="/demo"><Button variant="outline-ink" size="lg">{ui.ctaSecondary}</Button></Link>
+        <BookDemoButton href={getLocalizedPathname("/demo", locale)} variant="outline-ink" size="lg" />
       </PageCTA>
     </div>
   );

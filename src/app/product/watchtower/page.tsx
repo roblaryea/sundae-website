@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import buyerFeatureCopy from '@/content/buyer-feature-details/watchtower.json';
 
 import depthCopy from '@/content/operator-depth.json'
@@ -499,7 +501,7 @@ const localizedWatchtowerCopy = {
 
 export default function WatchtowerPage() {
   const cta = useCta();
-  const { locale } = useWebsiteI18n();
+  const { locale, messages } = useWebsiteI18n();
   const previousFeatureCopy = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? getGeneratedLocalCopy(localizedWatchtowerCopy, generatedLocalCopy.localizedWatchtowerCopy, locale) ?? localizedWatchtowerCopy.en;
   const story = storyCopy[locale as keyof typeof storyCopy];
   const sourceCopy = mergeGeneratedCopy(previousFeatureCopy, buyerFeatureCopy[locale as keyof typeof buyerFeatureCopy]);
@@ -520,13 +522,11 @@ export default function WatchtowerPage() {
           <Button variant="cta" size="lg" href={pricingHref}>
             {ui.heroPrimary}
           </Button>
-          <Button
+          <BookDemoButton
             variant="outline-light"
             size="lg"
             onClick={() => cta("/demo", "book_demo_watchtower", { page: "/product/watchtower" })}
-          >
-            {ui.heroSecondary}
-          </Button>
+          />
         </div>
         <div className="max-w-4xl mx-auto">
           <ThemedShot
@@ -537,7 +537,7 @@ export default function WatchtowerPage() {
             dark="/images/product/2026-fresh/watchtower-command-center-dark.png"
             light="/images/product/2026-fresh/watchtower-command-center.png"
             alt="Watchtower command center - live competitor, event, weather, and market signals with daily actions across the portfolio"
-          />
+         />
         </div>
       </PageHero>
 
@@ -679,7 +679,7 @@ export default function WatchtowerPage() {
           eyebrow="Market intelligence guide"
           title="How to use competitor and local-market signals responsibly"
           description="Learn how to select relevant competitors, interpret public ratings, reviews, menu and pricing context, and combine events and weather with internal operating evidence."
-        />
+       />
       ) : null}
 
       {/* Product gallery - Watchtower surfaces in detail */}
@@ -687,7 +687,7 @@ export default function WatchtowerPage() {
         productFilter="/product/watchtower"
         hideFilter
         headingOverride={galleryHeading("watchtower", locale)}
-      />
+     />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -705,16 +705,14 @@ export default function WatchtowerPage() {
             <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="visibility" size="lg" className="text-white" />
             </div>
-            <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{ui.ctaDemo}</h3>
-            <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{labels.watchWatchtowerDemo}</p>
-            <Button
+            <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{messages.navbar.bookDemo}</h3>
+            <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{commercial.sampleWalkthrough}</p>
+            <BookDemoButton
               variant="outline-ink"
               size="md"
               className="w-full"
               onClick={() => cta("/demo", "watch_watchtower_demo", { page: "/product/watchtower" })}
-            >
-              {ui.ctaDemo} →
-            </Button>
+            />
           </StaggerItem>
           <StaggerItem className="p-6 border border-[rgba(26,20,15,0.12)] rounded-xl">
             <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">

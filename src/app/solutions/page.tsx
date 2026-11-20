@@ -1,5 +1,7 @@
 'use client'
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
@@ -47,7 +49,7 @@ export default function SolutionsHubPage() {
           <h1 className="max-w-4xl font-display text-[clamp(2.6rem,5vw,4.5rem)] font-semibold leading-[1.07] tracking-[-0.035em] text-[var(--text-primary)] text-balance">{copy.solutionsTop}<br /><em className="text-[var(--text-warm)]">{copy.solutionsAccent}</em></h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-[var(--text-supporting)] sm:text-lg">{audience.solutions}</p>
           <div className="mt-7 flex flex-wrap gap-4">
-            <Button href={href('/demo')} variant="cta" size="lg" trackingLabel="solutions_primaryCta">{nav.bookDemo}</Button>
+            <BookDemoButton href={href('/demo')} variant="cta" size="lg" trackingLabel="solutions_primaryCta" />
             <Button href="#by-role" variant="outline-light" size="lg">{nav.byRole}</Button>
           </div>
         </div>
@@ -100,7 +102,7 @@ export default function SolutionsHubPage() {
         </div>
       </section>
       <OperatingCTA title={opening.demoTitle} description={shared.roleCtaDescription}>
-        <Button href={href('/demo')} variant="cta" size="lg" trackingLabel="solutions_closingPrimaryCta">{nav.bookDemo}</Button>
+        <BookDemoButton href={href('/demo')} variant="cta" size="lg" trackingLabel="solutions_closingPrimaryCta" />
         <Button href={href('/why-sundae')} variant="outline-ink" size="lg">{proof.whySundae}</Button>
       </OperatingCTA>
     </div>

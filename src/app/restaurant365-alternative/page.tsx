@@ -1,3 +1,4 @@
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
 import Link from 'next/link'
 import { BrandEmphasis } from '@/components/ui/BrandEmphasis'
 import brandEmphasis from '@/content/brand-emphasis.json'
@@ -43,7 +44,7 @@ export default async function Restaurant365AlternativePage() {
             {copy.description}
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <Button href={href('/demo')} variant="primary" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="platform_comparison_hero" trackingMetadata={{ destination: href('/demo') }}>{copy.primaryCta}</Button>
+            <BookDemoButton href={href('/demo')} variant="primary" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="platform_comparison_hero" trackingMetadata={{ destination: href('/demo') }} />
             <Button href={href('/restaurant-management-platform')} variant="outline-light" size="lg" className="max-w-full whitespace-normal! text-center break-words">{copy.secondaryCta}</Button>
           </div>
         </div>
@@ -137,7 +138,7 @@ export default async function Restaurant365AlternativePage() {
       <section className="bg-[var(--cream)] px-4 py-20 text-center text-[var(--ink)] sm:px-6 lg:px-8">
         <h2 className="section-h2 mx-auto mb-5 max-w-3xl" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
         <p className="body-lg mx-auto mb-8 max-w-2xl text-black/65">{copy.ctaDescription}</p>
-        <Button href={href('/demo')} variant="cta" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="platform_comparison_closing" trackingMetadata={{ destination: href('/demo') }}>{copy.ctaLabel}</Button>
+        <BookDemoButton href={href('/demo')} variant="cta" size="lg" className="max-w-full whitespace-normal! text-center break-words" trackingLabel="platform_comparison_closing" trackingMetadata={{ destination: href('/demo') }} />
       </section>
     </div>
   )

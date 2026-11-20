@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import './faq.css';
 
 import { Button } from '@/components/ui/Button';
@@ -13,7 +15,6 @@ import { buildPricingSimulatorUrl } from '@/lib/pricingNavigation';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { getLocalizedFaqSections } from '@/content/faqContent';
 import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
-import resourceCopy from '@/content/buyer-clarity/resources.json';
 import faqCopyByLocale from '@/content/support-faq.json';
 import guidanceCopyByLocale from '@/content/support-guidance.json';
 import systemCopyByLocale from '@/content/support-system.json';
@@ -26,7 +27,6 @@ export default function FAQPage() {
   const guidance = guidanceCopyByLocale[locale as keyof typeof guidanceCopyByLocale];
   const system = systemCopyByLocale[locale as keyof typeof systemCopyByLocale];
   const commercial = getCommercialCopy(locale);
-  const walkthrough = resourceCopy[locale as keyof typeof resourceCopy].primaryCta;
   const faqCategories = getLocalizedFaqSections(locale, copy.categories);
   const local = (path: string) => getLocalizedPathname(path, locale);
   const continuations: Record<string, { href: string; label: string }> = {
@@ -99,7 +99,7 @@ export default function FAQPage() {
       </section>
 
       <GuidanceClose title={guidance.closeTitle} description={faqCopy.closeBody}>
-        <Button variant="cta" size="lg" onClick={() => cta('/demo', 'book_demo_from_faq', { page: '/faq' })} className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
+        <BookDemoButton variant="cta" size="lg" onClick={() => cta('/demo', 'book_demo_from_faq', { page: '/faq' })} className="max-w-full whitespace-normal! text-start" />
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[var(--text-supporting)]">{commercial.sampleWalkthrough}</p>
         <div className="mt-6 flex flex-col items-start gap-x-8 sm:flex-row sm:flex-wrap">
           <Button href={buildPricingSimulatorUrl(locale)} variant="ghost" trackingLabel="faq_pricing" className="max-w-full whitespace-normal! text-start">{commercial.viewEstimate}</Button>

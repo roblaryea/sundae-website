@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { Button } from '@/components/ui/Button';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { GuidanceClose, GuidanceHero, GuidanceReveal } from '@/components/support/GuidanceLayout';
@@ -8,13 +10,11 @@ import { getLocalizedPathname } from '@/lib/i18n';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import copyByLocale from '@/content/support-system.json';
 import guidanceByLocale from '@/content/support-guidance.json';
-import resourcesByLocale from '@/content/buyer-clarity/resources.json';
 
 export default function FourDIntelligencePage() {
   const { locale } = useWebsiteI18n();
   const copy = copyByLocale[locale as keyof typeof copyByLocale];
   const guidance = guidanceByLocale[locale as keyof typeof guidanceByLocale];
-  const walkthrough = resourcesByLocale[locale as keyof typeof resourcesByLocale].primaryCta;
   const commercial = getCommercialCopy(locale);
   const local = (path: string) => getLocalizedPathname(path, locale);
   const dimensions = [
@@ -26,7 +26,7 @@ export default function FourDIntelligencePage() {
   return (
     <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
       <GuidanceHero label="4D Intelligence" lead={copy.dLead} emphasis={copy.dEm} description={copy.dBody} compactDescription>
-        <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="four_d_hero_walkthrough" className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
+        <BookDemoButton variant="cta" size="lg" href={local('/demo')} trackingLabel="four_d_hero_walkthrough" className="max-w-full whitespace-normal! text-start" />
         <Button variant="outline-light" size="lg" href={local('/core')} trackingLabel="four_d_explore_core" className="max-w-full whitespace-normal! text-start">{guidance.coreCta}</Button>
       </GuidanceHero>
       <section id="dimensions" data-four-d-model className="bg-[#F7F2E9] px-6 py-16 text-[#241D17] sm:px-8 lg:px-12 lg:py-24" aria-label="4D Intelligence">

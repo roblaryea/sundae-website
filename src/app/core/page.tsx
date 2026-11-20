@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import discoveryCopy from '@/content/discovery-navigation.json';
 import { PRICING_URL } from '@/lib/urls';
 
@@ -686,13 +688,11 @@ export default function CoreProductPage() {
           >
             {discoveryCopy[locale as keyof typeof discoveryCopy].compareCore}
           </Button>
-          <Button
+          <BookDemoButton
             variant="outline-light"
             size="lg"
             onClick={() => cta("/demo", "book_demo_core_hero", { page: "/core" })}
-          >
-            {ui.hero.secondary}
-          </Button>
+          />
         </div>
       </PageHero>
 
@@ -708,7 +708,7 @@ export default function CoreProductPage() {
               dark="/images/product/2026-fresh/my-sundae-dark.png"
               light="/images/product/2026-fresh/my-sundae.png"
               alt="My Sundae: the personalised daily home, showing what needs attention today, the shift spine with what is open and what is still to come, and the estate broken down by concept"
-            />
+           />
           </FadeUp>
         </div>
       </section>
@@ -837,7 +837,7 @@ export default function CoreProductPage() {
               dark="/images/product/2026-fresh/pulse-sales-dark.png"
               light="/images/product/2026-fresh/pulse-sales.png"
               alt="Pulse - live shift command center: actual vs target pacing, end-of-day projection, and net sales, covers, and average check"
-            />
+           />
           </div>
 
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -939,7 +939,7 @@ export default function CoreProductPage() {
         productFilter="/core"
         hideFilter
         headingOverride={galleryHeading("core", locale)}
-      />
+     />
 
       {/* CTA */}
       <OperatorWorkflowLinks />
@@ -950,13 +950,11 @@ export default function CoreProductPage() {
         <Button variant="cta" size="lg" href={PRICING_URL} target="_blank" rel="noopener noreferrer">
           {discoveryCopy[locale as keyof typeof discoveryCopy].compareCore}
         </Button>
-        <Button
+        <BookDemoButton
           variant="outline-ink"
           size="lg"
           onClick={() => cta("/demo", "book_demo_from_core", { page: "/core" })}
-        >
-          {ui.cta.secondary}
-        </Button>
+        />
       </PageCTA>
     </div>
   );

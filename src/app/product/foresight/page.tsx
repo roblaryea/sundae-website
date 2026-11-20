@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import buyerFeatureCopy from '@/content/buyer-feature-details/foresight.json';
 
 import depthCopy from '@/content/operator-depth.json'
@@ -422,7 +424,7 @@ function ScenarioComparisonMockup({ copy }: { copy: ForesightMockupCopy }) {
               ["Avg Check", "$42.50", "$50.00", "+17.6%"],
               ["Labor Cost %", "28.4%", "26.1%", "-2.3pp"],
             ]}
-          />
+         />
         </div>
         <MockupAlert type="info">{copy.scenario.alert}</MockupAlert>
       </div>
@@ -619,7 +621,7 @@ export default function ForesightPage() {
       <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={depthCopy[locale as keyof typeof depthCopy].foresight}>
         <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">{depthCopy[locale as keyof typeof depthCopy].foresightFacts}</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_hero", { page: "/product/foresight" })}>{ui.heroPrimary}</Button>
+          <BookDemoButton variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_hero", { page: "/product/foresight" })} />
           <Button variant="outline-light" size="lg" href={buildPricingSimulatorUrl(locale)} trackingLabel="pricing_from_foresight_hero" trackingMetadata={{ page: "/product/foresight" }}>{ui.heroSecondary}</Button>
         </div>
       </PageHero>
@@ -707,7 +709,7 @@ export default function ForesightPage() {
           eyebrow="Planning guide"
           title="How to evaluate restaurant demand forecasting"
           description="Learn how data quality, forecast horizons, confidence ranges, scenarios, and forecast-versus-actual review should shape labor, purchasing, inventory, and margin decisions."
-        />
+       />
       ) : null}
 
       {/* Product gallery - Foresight surfaces in detail */}
@@ -715,10 +717,10 @@ export default function ForesightPage() {
         productFilter="/product/foresight"
         hideFilter
         headingOverride={galleryHeading("foresight", locale)}
-      />
+     />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_cta", { page: "/product/foresight" })}>{ui.ctaPrimary}</Button>
+        <BookDemoButton variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_cta", { page: "/product/foresight" })} />
         <Button variant="outline-ink" size="lg" href="/product">{ui.ctaSecondary}</Button>
       </PageCTA>
     </div>

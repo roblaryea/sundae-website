@@ -1,3 +1,4 @@
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
 import type { Metadata } from "next";
 import Link from "next/link";
 import { cookies } from "next/headers";
@@ -6,7 +7,7 @@ import { LeadCaptureForm } from "@/components/marketing/LeadCaptureForm";
 import { SundaeIcon } from "@/components/icons";
 import { PRICING_URL } from "@/lib/links";
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
-import { resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
+import { getLocalizedPathname, getWebsiteMessages, resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_contact_page'
 
@@ -182,7 +183,7 @@ export default async function ContactPage() {
               <div className="p-5 rounded-xl border border-[var(--border-default)] bg-[var(--navy-deep)]">
                 <p className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{copy.quickLinksTitle}</p>
                 <div className="space-y-2.5">
-                  <Link href="/demo" className="block text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">{copy.links[0]} &rarr;</Link>
+                  <Link href={getLocalizedPathname("/demo", locale)} className="block text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">{getWebsiteMessages(locale).navbar.bookDemo} &rarr;</Link>
                   <a href={PRICING_URL} className="block text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">{copy.links[1]} &rarr;</a>
                   <Link href="/product" className="block text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">{copy.links[2]} &rarr;</Link>
                   <Link href="/about" className="block text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">{copy.links[3]} &rarr;</Link>
@@ -194,7 +195,7 @@ export default async function ContactPage() {
       </section>
 
       <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Link href="/demo"><Button variant="cta" size="lg">{copy.ctaPrimary}</Button></Link>
+        <BookDemoButton href={getLocalizedPathname("/demo", locale)} variant="cta" size="lg" />
         <Link href="/product"><Button variant="outline-ink" size="lg">{copy.ctaSecondary}</Button></Link>
       </PageCTA>
     </div>

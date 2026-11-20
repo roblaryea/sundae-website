@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { Button } from '@/components/ui/Button';
 import { PageHero, PageCTA } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
@@ -17,7 +19,7 @@ export function ResultsContent() {
     <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
       <PageHero badge={copy.eyebrow} title={copy.title} description={copy.description} compactMobileTop>
         <div className="flex flex-col justify-center gap-3 sm:flex-row">
-          <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="results_walkthrough_hero">{copy.primaryCta}</Button>
+          <BookDemoButton variant="cta" size="lg" href={local('/demo')} trackingLabel="results_walkthrough_hero" />
           <Button variant="outline-light" size="lg" href="#crew-workflows" trackingLabel="results_workflows_hero">{copy.secondaryCta}</Button>
         </div>
       </PageHero>
@@ -47,7 +49,7 @@ export function ResultsContent() {
       </section>
       <CustomerStoryDetails />
       <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="results_walkthrough_closing">{copy.primaryCta}</Button>
+        <BookDemoButton variant="cta" size="lg" href={local('/demo')} trackingLabel="results_walkthrough_closing" />
       </PageCTA>
     </div>
   );

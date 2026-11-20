@@ -1,13 +1,13 @@
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
 import type { Metadata } from 'next'
 import { cookies } from 'next/headers'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
-import { resolveWebsiteLocale, getWebsiteMessages, getLocalizedPathname } from '@/lib/i18n'
+import { resolveWebsiteLocale, getLocalizedPathname } from '@/lib/i18n'
 import { buildResolvedPageMetadata } from '@/lib/solutionPageMetadata'
 import { getWalkthroughSchema, productWalkthroughs, PRODUCT_WALKTHROUGHS_PATH } from '@/lib/productWalkthroughs'
 import { WalkthroughPlayer } from '@/components/resources/WalkthroughPlayer'
 import { OperatingCTA } from '@/components/product/OperatingCTA'
-import { Button } from '@/components/ui/Button'
 import openingCopy from '@/content/operator-openings.json'
 import videoCopy from '@/content/product-walkthroughs.json'
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
@@ -22,7 +22,6 @@ export default async function ProductWalkthroughsPage() {
   const locale = resolveWebsiteLocale(await cookies())
   const copy = videoCopy[locale as keyof typeof videoCopy]
   const opening = openingCopy[locale as keyof typeof openingCopy]
-  const messages = getWebsiteMessages(locale)
   const local = (path: string) => getLocalizedPathname(path, locale)
 
   return (
@@ -56,7 +55,7 @@ export default async function ProductWalkthroughsPage() {
         </article>)}
       </div>
       <OperatingCTA title={opening.demoTitle} description={getCommercialCopy(locale).sampleWalkthrough}>
-        <Button href={local('/demo')} variant="cta" size="lg" trackingLabel="product_walkthroughs_demo">{messages.navbar.bookDemo}</Button>
+        <BookDemoButton href={local('/demo')} variant="cta" size="lg" trackingLabel="product_walkthroughs_demo" />
       </OperatingCTA>
     </div>
   )

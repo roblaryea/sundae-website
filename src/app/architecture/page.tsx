@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { Button } from '@/components/ui/Button';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { GuidanceClose, GuidanceHero, GuidanceReveal } from '@/components/support/GuidanceLayout';
@@ -7,13 +9,11 @@ import { CoreCrewScope, SystemCloseActions, SystemSequence } from '@/components/
 import { getLocalizedPathname } from '@/lib/i18n';
 import copyByLocale from '@/content/support-system.json';
 import guidanceByLocale from '@/content/support-guidance.json';
-import resourcesByLocale from '@/content/buyer-clarity/resources.json';
 
 export default function ArchitecturePage() {
   const { locale } = useWebsiteI18n();
   const copy = copyByLocale[locale as keyof typeof copyByLocale];
   const guidance = guidanceByLocale[locale as keyof typeof guidanceByLocale];
-  const walkthrough = resourcesByLocale[locale as keyof typeof resourcesByLocale].primaryCta;
   const local = (path: string) => getLocalizedPathname(path, locale);
   const stages = [
     { title: copy.a1t, body: copy.a1b }, { title: copy.a2t, body: copy.a2b },
@@ -23,7 +23,7 @@ export default function ArchitecturePage() {
   return (
     <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
       <GuidanceHero label={copy.aLabel} lead={copy.aLead} emphasis={copy.aEm} description={copy.aBody} compactDescription>
-        <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="architecture_hero_walkthrough" className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
+        <BookDemoButton variant="cta" size="lg" href={local('/demo')} trackingLabel="architecture_hero_walkthrough" className="max-w-full whitespace-normal! text-start" />
         <Button variant="outline-light" size="lg" href={local('/integrations')} trackingLabel="architecture_connections" className="max-w-full whitespace-normal! text-start">{guidance.connectionsTitle}</Button>
       </GuidanceHero>
       <section id="operating-flow" className="px-6 py-16 sm:px-8 lg:px-12 lg:py-24" aria-labelledby="operating-flow-title">

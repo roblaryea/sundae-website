@@ -1,12 +1,13 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { Button } from '@/components/ui/Button';
 import { GuidanceReveal } from '@/components/support/GuidanceLayout';
 import { getLocalizedPathname, type WebsiteLocale } from '@/lib/i18n';
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import guidanceByLocale from '@/content/support-guidance.json';
 import systemByLocale from '@/content/support-system.json';
-import resourcesByLocale from '@/content/buyer-clarity/resources.json';
 import onboardingByLocale from '@/content/buyer-depth/onboarding.json';
 
 export function SystemSequence({ stages, inputs }: {
@@ -34,11 +35,10 @@ export function SystemCloseActions({ locale, secondaryHref, secondaryLabel, pref
   locale: WebsiteLocale; secondaryHref: string; secondaryLabel: string; prefix: string; sample?: boolean;
 }) {
   const commercial = getCommercialCopy(locale);
-  const walkthrough = resourcesByLocale[locale as keyof typeof resourcesByLocale].primaryCta;
   return (
     <div className="flex flex-col items-start gap-5 sm:flex-row sm:gap-8">
       <div className="max-w-md">
-        <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel={`${prefix}_walkthrough`} className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
+        <BookDemoButton variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel={`${prefix}_walkthrough`} className="max-w-full whitespace-normal! text-start" />
         {sample && <p className="mt-4 text-sm leading-relaxed text-[var(--text-muted)]">{commercial.sampleWalkthrough}</p>}
       </div>
       <Button variant="outline-light" size="lg" href={getLocalizedPathname(secondaryHref, locale)} trackingLabel={`${prefix}_continuation`} className="max-w-full whitespace-normal! text-start">{secondaryLabel}</Button>

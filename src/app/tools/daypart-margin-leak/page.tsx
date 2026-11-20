@@ -1,5 +1,7 @@
 "use client";
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 /**
  * Daypart Margin Leak Estimator - depth-grade replacement for the shallow
  * labor-cost calculator. Computes daypart-level overstaffing leakage by
@@ -22,7 +24,6 @@
 
 import { useState, useMemo, type ReactNode } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/Button";
 import { SundaeIcon } from "@/components/icons";
 import { CURRENCIES, CURRENCY_REGIONS, getCurrencySymbol } from "@/lib/currencies";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -350,7 +351,7 @@ export default function DaypartMarginLeakPage() {
                       value={dailyRevenue}
                       onChange={(e) => setDailyRevenue(e.target.value)}
                       className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
-                    />
+                   />
                   </div>
                 </div>
                 <div>
@@ -367,7 +368,7 @@ export default function DaypartMarginLeakPage() {
                       value={hourlyLaborCost}
                       onChange={(e) => setHourlyLaborCost(e.target.value)}
                       className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
-                    />
+                   />
                   </div>
                 </div>
                 <div>
@@ -381,7 +382,7 @@ export default function DaypartMarginLeakPage() {
                     value={outletCount}
                     onChange={(e) => setOutletCount(e.target.value)}
                     className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
-                  />
+                 />
                 </div>
               </div>
             </div>
@@ -416,7 +417,7 @@ export default function DaypartMarginLeakPage() {
                           }}
                           className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                           placeholder={copy.placeholders.revPct}
-                        />
+                       />
                         <span className="bg-white/[0.04] border border-[var(--border-default)] border-l-0 rounded-r-lg px-2 py-2 text-xs text-[var(--text-muted)]">
                           %
                         </span>
@@ -436,7 +437,7 @@ export default function DaypartMarginLeakPage() {
                           }}
                           className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                           placeholder={copy.placeholders.fte}
-                        />
+                       />
                         <span className="bg-white/[0.04] border border-[var(--border-default)] border-l-0 rounded-r-lg px-2 py-2 text-xs text-[var(--text-muted)]">
                           FTE
                         </span>
@@ -497,7 +498,7 @@ export default function DaypartMarginLeakPage() {
                                 isWorst ? "bg-red-400" : "bg-[var(--warm-coral)]/70"
                               }`}
                               style={{ width: `${Math.max(2, widthPct)}%` }}
-                            />
+                           />
                           </div>
                         </div>
                       );
@@ -529,15 +530,13 @@ export default function DaypartMarginLeakPage() {
                   </div>
                 )}
 
-                <Button
+                <BookDemoButton
                   href="/demo"
                   variant="primary"
                   className="w-full"
                   trackingLabel="book_demo_daypart_margin_tool"
                   trackingMetadata={{ location: "tool_results" }}
-                >
-                  {copy.cta}
-                </Button>
+                />
               </div>
             )}
           </div>

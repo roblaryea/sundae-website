@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -113,9 +115,7 @@ export function CrewModulePage({
               {copy.description}
             </motion.p>
             <motion.div {...fade} transition={{ duration: 0.8, ease, delay: 0.3 }} className="flex flex-col gap-3 sm:flex-row">
-                <Button href={getLocalizedPathname('/demo', locale)} variant="primary" size="lg" trackingLabel="crew_module_hero_primary" trackingMetadata={{ module: slug, destination: "/demo" }}>
-                  {copy.primaryCta}
-                </Button>
+                <BookDemoButton href={getLocalizedPathname('/demo', locale)} variant="primary" size="lg" trackingLabel="crew_module_hero_primary" trackingMetadata={{ module: slug, destination: "/demo" }} />
                 <Button href={getLocalizedPathname("/results", locale) + "#crew-workflows"} variant="outline-light" size="lg" trackingLabel="crew_module_hero_secondary" trackingMetadata={{ module: slug, destination: "/results#crew-workflows" }}>
                   {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
                 </Button>
@@ -235,9 +235,7 @@ export function CrewModulePage({
           <h2 className="section-h2 mb-5 text-balance" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
           <p className="body-lg mx-auto mb-8 max-w-2xl" style={{ color: 'rgba(26,20,15,0.66)' }}>{copy.ctaDescription}</p>
           <div className="flex flex-col justify-center gap-3 sm:flex-row">
-              <Button href={getLocalizedPathname('/demo', locale)} variant="cta" size="lg" trackingLabel="crew_module_closing_primary" trackingMetadata={{ module: slug, destination: "/demo" }}>
-                {copy.ctaPrimary}
-              </Button>
+              <BookDemoButton href={getLocalizedPathname('/demo', locale)} variant="cta" size="lg" trackingLabel="crew_module_closing_primary" trackingMetadata={{ module: slug, destination: "/demo" }} />
               <Button href={getLocalizedPathname('/crew', locale)} variant="outline-ink" size="lg" trackingLabel="crew_module_closing_secondary" trackingMetadata={{ module: slug, destination: "/crew" }}>
                 {copy.ctaSecondary}
               </Button>

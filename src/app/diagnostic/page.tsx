@@ -9,6 +9,7 @@ import { Sparkles, Clock, FileText, ShieldCheck, RotateCcw } from "lucide-react"
 import { DiagnosticFlow } from "@/components/diagnostic/DiagnosticFlow";
 import { DiagnosticReport } from "@/components/diagnostic/DiagnosticReport";
 import { DiagnosticGenerating } from "@/components/diagnostic/DiagnosticGenerating";
+import { getLocalizedPathname } from "@/lib/i18n";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { runDiagnostic, type DiagnosticResponses, type DiagnosticReport as DiagnosticReportType } from "@/lib/diagnostic/engine";
 import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
@@ -20,7 +21,7 @@ import { queueDiagnosticLead, startDiagnosticLeadOutbox } from "@/lib/diagnostic
 type Stage = "intro" | "flow" | "generating" | "report";
 
 export default function DiagnosticPage() {
-  const { locale } = useWebsiteI18n();
+  const { locale, messages } = useWebsiteI18n();
   const copy = getDiagnosticCopy(locale);
   const catalog = getDiagnosticCatalogCopy(locale);
   const [stage, setStage] = useState<Stage>("intro");
@@ -330,8 +331,8 @@ export default function DiagnosticPage() {
         <div className="text-center mt-10">
           <p className="text-sm text-[var(--text-muted)]">
             {copy.intro.classicDemoLead}{" "}
-            <Link href="/demo" className="text-[var(--warm-coral)] hover:underline font-semibold">
-              {copy.intro.classicDemoLink}
+            <Link href={getLocalizedPathname("/demo", locale)} className="text-[var(--warm-coral)] hover:underline font-semibold">
+              {messages.navbar.bookDemo}
             </Link>
             .
           </p>

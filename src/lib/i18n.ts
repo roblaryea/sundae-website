@@ -2932,6 +2932,7 @@ export function getWebsiteMessages(locale: WebsiteLocale): WebsiteMessages {
       foresight: messages.navbar.pillars.find(link => link.href === '/product/foresight')?.description ?? '',
     }) },
     home: { ...messages.home, platform: { ...messages.home.platform, layers: messages.home.platform.layers.map(layer => layer.href === '/product/benchmarking' ? { ...layer, subtitle: discoveryCopy[locale].benchmarks } : layer.href === '/product/insights' ? { ...layer, subtitle: discoveryCopy[locale].insights } : layer) } },
+    footer: { ...messages.footer, bookDemo: messages.navbar.bookDemo },
     metadata: { ...messages.metadata, title: operatorNavigationCopy[locale].brand.title, description: operatorNavigationCopy[locale].brand.description },
     pages: messages.home.pages,
   }

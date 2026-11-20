@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import discoveryCopy from '@/content/discovery-navigation.json';
 
 import bodyCopy from '@/content/buyer-clarity/product.json';
@@ -246,7 +248,7 @@ export default function ProductPage() {
       <PageHero visibleOnServer compactMobileTop badge={`${ui.heroBadge} · ${operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.eyebrow}`} title={<OperatorOpeningTitle text={openingCopy[locale as keyof typeof openingCopy].productTitle} accent={openingCopy[locale as keyof typeof openingCopy].productAccent} />} description={openingCopy[locale as keyof typeof openingCopy].productDescription}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" href={PRICING_URL} trackingLabel="see_pricing_product_hero" trackingMetadata={{ page: "/product", destination: PRICING_URL }}>{messages.navbar.pricing}</Button>
-          <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_product_hero", { page: "/product" })}>{ui.heroSecondary}</Button>
+          <BookDemoButton variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_product_hero", { page: "/product" })} />
         </div>
       </PageHero>
 
@@ -350,7 +352,7 @@ export default function ProductPage() {
       </section>
 
       <PageCTA title={openingCopy[locale as keyof typeof openingCopy].sharedTitle} description={getCommercialCopy(locale).sampleWalkthrough}>
-        <Button href={getLocalizedPathname('/demo', locale)} variant="cta" size="lg" trackingLabel="product_closing_walkthrough" trackingMetadata={{ destination: getLocalizedPathname('/demo', locale) }}>{messages.navbar.bookDemo}</Button>
+        <BookDemoButton href={getLocalizedPathname('/demo', locale)} variant="cta" size="lg" trackingLabel="product_closing_walkthrough" trackingMetadata={{ destination: getLocalizedPathname('/demo', locale) }} />
         <Button variant="outline-ink" size="lg" href={PRICING_URL} trackingLabel="see_pricing_product_closing" trackingMetadata={{ page: "/product", destination: PRICING_URL }}>{messages.navbar.pricing}</Button>
       </PageCTA>
     </div>

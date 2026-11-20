@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import Link from 'next/link';
 import discoveryCopy from '@/content/discovery-navigation.json';
 
@@ -7,7 +9,6 @@ import buyerFeatureCopy from '@/content/buyer-feature-details/intelligence.json'
 
 import depthCopy from '@/content/operator-depth.json'
 
-import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { ThemedShot } from "@/components/ui/ThemedShot";
@@ -337,9 +338,7 @@ export default function ChatWithDataPage() {
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero visibleOnServer badge={ui.heroBadge} title={ui.heroTitle} description={depthCopy[locale as keyof typeof depthCopy].intelligence}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="book_demo_intelligence" trackingMetadata={{ page: '/intelligence', destination: getLocalizedPathname('/demo', locale) }}>
-            {ui.heroSecondary}
-          </Button>
+          <BookDemoButton variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="book_demo_intelligence" trackingMetadata={{ page: '/intelligence', destination: getLocalizedPathname('/demo', locale) }} />
         </div>
         <div className="flex flex-wrap gap-2 justify-center mt-4">
           {ui.platforms.map((platform) => (
@@ -361,7 +360,7 @@ export default function ChatWithDataPage() {
               height={1000}
               className="w-full h-auto"
               priority
-            />
+           />
           </div>
         </FadeUp>
       </section>
@@ -578,7 +577,7 @@ export default function ChatWithDataPage() {
         productFilter="/intelligence"
         hideFilter
         headingOverride={galleryHeading("intelligence", locale)}
-      />
+     />
 
       <section aria-labelledby="answer-context-title" className="px-6 py-14 sm:px-8 lg:px-12 bg-[var(--navy-deep)]">
         <FadeUp className="max-w-5xl mx-auto border-y border-[var(--border-default)] py-10">
@@ -597,7 +596,7 @@ export default function ChatWithDataPage() {
       </section>
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="book_demo_intelligence_closing" trackingMetadata={{ page: '/intelligence', destination: getLocalizedPathname('/demo', locale) }}>{ui.heroSecondary}</Button>
+        <BookDemoButton variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="book_demo_intelligence_closing" trackingMetadata={{ page: '/intelligence', destination: getLocalizedPathname('/demo', locale) }} />
       </PageCTA>
     </div>
   );

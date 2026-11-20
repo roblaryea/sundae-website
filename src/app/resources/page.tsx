@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import Link from 'next/link';
 import { WalkthroughTeaser } from '@/components/resources/WalkthroughTeaser';
 import { Button } from '@/components/ui/Button';
@@ -22,7 +24,7 @@ export default function ResourcesPage() {
     <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
       <PageHero compactMobileTop badge={labels.badge} title={resourceHeading[locale as keyof typeof resourceHeading].title} description={copy.description}>
         <div className="flex flex-col justify-center gap-3 sm:flex-row">
-          <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="resources_walkthrough_hero">{copy.primaryCta}</Button>
+          <BookDemoButton variant="cta" size="lg" href={local('/demo')} trackingLabel="resources_walkthrough_hero" />
           <Button variant="outline-light" size="lg" href={local('/results')} trackingLabel="resources_results_hero">{copy.secondaryCta}</Button>
         </div>
       </PageHero>

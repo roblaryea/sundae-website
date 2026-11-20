@@ -1,5 +1,7 @@
 "use client";
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
@@ -231,15 +233,13 @@ export default function ToolsPage() {
       </section>
 
       <PageCTA title={copy.cta.title} description={copy.cta.description}>
-        <Button
+        <BookDemoButton
           variant="cta"
           size="lg"
           href="/demo"
           trackingLabel="book_demo_tools_hub"
           trackingMetadata={{ location: "tools_footer" }}
-        >
-          {copy.cta.primary}
-        </Button>
+        />
         <Button variant="outline-ink" size="lg" href="/product">
           {copy.cta.secondary}
         </Button>

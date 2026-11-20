@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { Button } from '@/components/ui/Button';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { GuidanceClose, GuidanceHero, GuidanceReveal } from '@/components/support/GuidanceLayout';
@@ -19,7 +21,7 @@ export default function IntegrationsPage() {
   return (
     <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
       <GuidanceHero label={copy.iLabel} lead={copy.iLead} emphasis={copy.iEm} description={copy.iBody} compactDescription>
-        <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="integrations_system_review" className="max-w-full whitespace-normal! text-start">{copy.discussCta}</Button>
+        <BookDemoButton variant="cta" size="lg" href={local('/demo')} trackingLabel="integrations_system_review" className="max-w-full whitespace-normal! text-start" />
         <Button variant="outline-light" size="lg" href={local('/architecture')} trackingLabel="integrations_architecture" className="max-w-full whitespace-normal! text-start">{copy.architectureCta}</Button>
       </GuidanceHero>
       <section id="sources" className="bg-[#F7F2E9] px-6 py-16 text-[#241D17] sm:px-8 lg:px-12 lg:py-24" aria-labelledby="sources-title">
