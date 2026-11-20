@@ -364,6 +364,11 @@ They are listed as "relevant to your operation, priced in the calculator", not a
 | Q8 | Recommend Crew Starter for very small teams? | Yes, under the caps in 4.2. |
 | Q9 | Two mappings to confirm with product: menu and item margins → Margin; delivery alone → Margin. | Confirm or correct. |
 
+**Follow-up decisions (20 Nov 2026, after reviewing PR #288):**
+- **Crew Manage may be recommended** when it is the cheapest option covering the needs. The shared notes become "Tasks and the logbook are in Crew Manage, Crew Operating and Crew Complete." and "Tip workflows are in Crew Operating and Crew Complete, or with Crew Pay."
+- **The backend report email loses its savings / EBITDA "what it's worth" section** and preheader promise (a separate backend PR).
+- **Phase A merges only once all 21 non-English locales are native transcreations**, not machine drafts.
+
 ## 12. Out of scope
 - Fixing the inconsistent Foresight horizons elsewhere on the website (flagged for the website backlog).
 - Changing the report email design.

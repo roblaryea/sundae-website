@@ -7,7 +7,7 @@ import { FOCUS_FACTS, FOCUS_KEYS, FOCUS_KEYS_WITH_NOTES } from '../src/lib/leadC
 import { ROLE_KEYS, ROLE_LABELS_EN, TOPIC_KEYS, TOPIC_LABELS_EN } from '../src/lib/leadConversation/script.ts';
 
 const LOCALES = ['en', 'ar', 'fr', 'es', 'de', 'nl', 'pt', 'hi', 'ur', 'it', 'pl', 'tr', 'zh-Hans', 'ja', 'ko', 'id', 'vi', 'ro', 'sv', 'bn', 'th', 'ms'];
-const PROTECTED = ['Sundae', 'Crew Operating', 'Crew Complete', 'Crew Payroll', 'Core Performance', 'Core Growth', 'Foresight', 'Watchtower', 'POS'];
+const PROTECTED = ['Sundae', 'Crew Manage', 'Crew Operating', 'Crew Complete', 'Crew Pay', 'Core Performance', 'Core Growth', 'Foresight', 'Watchtower', 'POS'];
 
 function strings(value, at = '') {
   if (typeof value === 'string') return [[at, value]];

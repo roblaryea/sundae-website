@@ -267,8 +267,8 @@ test('rules: Crew notes reuse the shared package wording', () => {
   const { report } = run({ paper_processes: ['tips', 'logbook', 'payroll_prep'], team_costs: ['none'], payroll_countries: ['AE'], other_systems: ['hr_payroll'] });
   assert.deepEqual(report.crew.notes, [
     'Payroll availability is confirmed for your country before setup.',
-    'Tip workflows are in Crew Operating and Crew Complete, or with Crew Payroll.',
-    'Tasks and the logbook are in Crew Operating and Crew Complete.',
+    'Tip workflows are in Crew Operating and Crew Complete, or with Crew Pay.',
+    'Tasks and the logbook are in Crew Manage, Crew Operating and Crew Complete.',
     'Crew is optional - you can keep your HR system.',
   ]);
   assert.match(report.startingPackage.notes.join(' '), /standard staff allowance per location/);
@@ -333,4 +333,10 @@ test('rules: a quoted priority never ends in a doubled full stop', () => {
   const { report } = run({ priority: 'Get overtime under control.' });
   assert.match(report.summary, /"Get overtime under control" - sets the first step\./);
   assert.doesNotMatch(report.quickWins[0].detail, /\.\"\./);
+});
+
+test('rules: the tasks note is true whichever Crew option covers it, including Crew Manage', () => {
+  const { report } = run({ locations: '1', paper_processes: ['checklists'], team_costs: ['none'] });
+  assert.equal(report.crew.packageName, 'Crew Manage');
+  assert.ok(report.crew.notes.includes('Tasks and the logbook are in Crew Manage, Crew Operating and Crew Complete.'));
 });

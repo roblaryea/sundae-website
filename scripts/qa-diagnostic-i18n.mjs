@@ -60,11 +60,14 @@ const failures = []
 const { pack: en, error: enError } = loadPack('en')
 if (enError) throw new Error(enError)
 
+// Kept literal in every locale (owner, 20 Nov 2026): Sundae, Pulse, POS, P&L,
+// EBITDA and every product and package name. Longest first.
 const PRODUCT_NAMES = [
   'Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance',
-  'Crew Operating', 'Crew Complete', 'Crew Payroll', 'Crew Starter',
+  'Crew Starter', 'Crew Schedule', 'Crew Manage', 'Crew Time', 'Crew People',
+  'Crew Operating', 'Crew Complete', 'Schedule & Time', 'Crew Pay',
   'Foresight & Action', 'Profit Recovery', 'Ask Sundae', 'Benchmarks',
-  'Watchtower', 'Pulse', 'Sundae', 'Crew', 'Core',
+  'Watchtower', 'Pulse', 'Sundae', 'Crew', 'Core', 'POS', 'P&L', 'EBITDA',
 ]
 const BANNED = [
   { pattern: /[\u2014\u2013]/, reason: 'em or en dash (use a spaced hyphen " - ")' },
@@ -94,8 +97,9 @@ function compare(reference, candidate, locale, trail) {
       failures.push(`${where} numbers differ from English ("${candidate}")`)
     }
     for (const name of PRODUCT_NAMES) {
-      if (reference.includes(name) && !candidate.includes(name)) {
-        failures.push(`${where} must keep the product name "${name}" untranslated`)
+      const count = (text) => text.split(name).length - 1
+      if (count(candidate) < count(reference)) {
+        failures.push(`${where} must keep "${name}" literal (${count(reference)} in English, ${count(candidate)} here)`)
         break
       }
     }

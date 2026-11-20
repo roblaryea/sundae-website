@@ -246,12 +246,7 @@ function buildReport(
     }
     if (rec.payrollNeeded) notes.push(pack.facts.notes.payroll);
     if (rec.crewSignals.includes("tips")) notes.push(pack.facts.notes.tips);
-    if (
-      (rec.crewSignals.includes("checklists") || rec.crewSignals.includes("logbook")) &&
-      rec.crew.products.some((id) => id === "crew_operating" || id === "crew_complete")
-    ) {
-      notes.push(pack.facts.notes.tasks_logbook);
-    }
+    if (rec.crewSignals.includes("checklists") || rec.crewSignals.includes("logbook")) notes.push(pack.facts.notes.tasks_logbook);
     if (rec.hasHrSystem) notes.push(pack.rules.crewOptional);
     // Staff turnover adds no module, so it is flagged but never "covered".
     const covered = rec.crewSignals

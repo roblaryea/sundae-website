@@ -86,7 +86,7 @@ test('golden path (default context): brief, optional phone, one lead with the cl
   await answerToBrief(page);
   const brief = panel(page).locator('ol li');
   await expect(brief).toHaveText(['Opening checklist, shift logbook and handoverCrew', 'A live shift, a margin leak, and the measured recoveryCore']);
-  await expect(panel(page).getByText('Tasks and the logbook are in Crew Operating and Crew Complete.')).toBeVisible();
+  await expect(panel(page).getByText('Tasks and the logbook are in Crew Manage, Crew Operating and Crew Complete.')).toBeVisible();
   await choose(page, 'Looks right');
   await expect(panel(page).getByText("Want a phone number on file for a reminder? It's optional.")).toBeVisible();
   await choose(page, 'No thanks');

@@ -365,7 +365,7 @@ test('payload matches the classic form fields plus source and metadata.convo', (
     'Opening checklist, shift logbook and handover',
     'A live shift, a margin leak, and the measured recovery',
   ]);
-  assert.deepEqual(convo.brief.notes, ['Tasks and the logbook are in Crew Operating and Crew Complete.']);
+  assert.deepEqual(convo.brief.notes, ['Tasks and the logbook are in Crew Manage, Crew Operating and Crew Complete.']);
   assert.equal(convo.brief.pos, 'Oracle MICROS Simphony');
   // No tokens or keys ever travel in the payload.
   assert.doesNotMatch(JSON.stringify(payload), /token|idempotency/i);

@@ -226,8 +226,8 @@ export const CONCEPT_MODULE_NAMES: Record<ConceptModuleId, string> = Object.from
 // ─── Shared notes (same wording as the guided booking) ──────────────
 
 export const SHARED_PACKAGE_NOTES = {
-  tasks_logbook: "Tasks and the logbook are in Crew Operating and Crew Complete.",
-  tips: "Tip workflows are in Crew Operating and Crew Complete, or with Crew Payroll.",
+  tasks_logbook: "Tasks and the logbook are in Crew Manage, Crew Operating and Crew Complete.",
+  tips: "Tip workflows are in Crew Operating and Crew Complete, or with Crew Pay.",
   payroll: "Payroll availability is confirmed for your country before setup.",
   watchtower: "Watchtower is available with Core Growth and Core Performance.",
   foresight: "Foresight is included in Core Performance and available with the other packages.",
