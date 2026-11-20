@@ -1,0 +1,310 @@
+{
+  "en": {
+    "eyebrow": "TEAM MESSAGING",
+    "titleLead": "Work conversations.",
+    "titleEmphasis": "One inbox.",
+    "description": "Sundae brings one-to-one colleague messages, team conversations, work threads and announcements into one personal inbox across Core and Crew.",
+    "features": [
+      "One-to-one colleague messages",
+      "Team conversations",
+      "Work threads",
+      "Announcements"
+    ],
+    "scope": "Access depends on your organization’s subscription, setup, enabled features and conversation permissions.",
+    "faqQuestion": "Can teams message each other inside Sundae?"
+  },
+  "ar": {
+    "eyebrow": "مراسلة الفريق",
+    "titleLead": "محادثات العمل.",
+    "titleEmphasis": "صندوق وارد واحد.",
+    "description": "تجمع Sundae الرسائل الفردية بين الزملاء، ومحادثات الفرق، ونقاشات العمل، والإعلانات في صندوق وارد شخصي واحد عبر Core وCrew.",
+    "features": [
+      "رسائل فردية بين الزملاء",
+      "محادثات الفرق",
+      "نقاشات العمل",
+      "الإعلانات"
+    ],
+    "scope": "يعتمد الوصول على اشتراك مؤسستك وإعداداتها والميزات المفعّلة وصلاحيات المحادثات.",
+    "faqQuestion": "هل يمكن للفرق تبادل الرسائل داخل Sundae؟"
+  },
+  "fr": {
+    "eyebrow": "MESSAGERIE D’ÉQUIPE",
+    "titleLead": "Les échanges de travail.",
+    "titleEmphasis": "Une seule boîte de réception.",
+    "description": "Sundae réunit les messages individuels entre collègues, les conversations d’équipe, les fils de travail et les annonces dans une boîte de réception personnelle commune à Core et Crew.",
+    "features": [
+      "Messages individuels entre collègues",
+      "Conversations d’équipe",
+      "Fils de travail",
+      "Annonces"
+    ],
+    "scope": "Les accès dépendent de l’abonnement, de la configuration, des fonctionnalités activées et des autorisations de conversation de votre organisation.",
+    "faqQuestion": "Les équipes peuvent-elles échanger des messages dans Sundae ?"
+  },
+  "es": {
+    "eyebrow": "MENSAJERÍA DE EQUIPO",
+    "titleLead": "Conversaciones de trabajo.",
+    "titleEmphasis": "Una sola bandeja de entrada.",
+    "description": "Sundae reúne mensajes individuales entre compañeros, conversaciones de equipo, hilos de trabajo y anuncios en una bandeja de entrada personal para Core y Crew.",
+    "features": [
+      "Mensajes individuales entre compañeros",
+      "Conversaciones de equipo",
+      "Hilos de trabajo",
+      "Anuncios"
+    ],
+    "scope": "El acceso depende de la suscripción, la configuración, las funciones activadas y los permisos de conversación de su organización.",
+    "faqQuestion": "¿Pueden los equipos enviarse mensajes dentro de Sundae?"
+  },
+  "de": {
+    "eyebrow": "TEAMNACHRICHTEN",
+    "titleLead": "Arbeitsgespräche.",
+    "titleEmphasis": "Ein Posteingang.",
+    "description": "Sundae vereint Direktnachrichten zwischen Kollegen, Teamgespräche, Arbeits-Threads und Ankündigungen in einem persönlichen Posteingang für Core und Crew.",
+    "features": [
+      "Direktnachrichten zwischen Kollegen",
+      "Teamgespräche",
+      "Arbeits-Threads",
+      "Ankündigungen"
+    ],
+    "scope": "Der Zugriff richtet sich nach Abonnement, Einrichtung, aktivierten Funktionen und Gesprächsberechtigungen Ihrer Organisation.",
+    "faqQuestion": "Können Teams innerhalb von Sundae Nachrichten austauschen?"
+  },
+  "nl": {
+    "eyebrow": "TEAMBERICHTEN",
+    "titleLead": "Werkgesprekken.",
+    "titleEmphasis": "Eén inbox.",
+    "description": "Sundae brengt één-op-éénberichten tussen collega’s, teamgesprekken, werkthreads en aankondigingen samen in één persoonlijke inbox voor Core en Crew.",
+    "features": [
+      "Eén-op-éénberichten tussen collega’s",
+      "Teamgesprekken",
+      "Werkthreads",
+      "Aankondigingen"
+    ],
+    "scope": "Toegang hangt af van het abonnement, de inrichting, ingeschakelde functies en gespreksrechten van uw organisatie.",
+    "faqQuestion": "Kunnen teams elkaar binnen Sundae berichten sturen?"
+  },
+  "pt": {
+    "eyebrow": "MENSAGENS DE EQUIPA",
+    "titleLead": "Conversas de trabalho.",
+    "titleEmphasis": "Uma caixa de entrada.",
+    "description": "O Sundae reúne mensagens individuais entre colegas, conversas de equipa, tópicos de trabalho e comunicados numa caixa de entrada pessoal no Core e no Crew.",
+    "features": [
+      "Mensagens individuais entre colegas",
+      "Conversas de equipa",
+      "Tópicos de trabalho",
+      "Comunicados"
+    ],
+    "scope": "O acesso depende da subscrição, da configuração, das funcionalidades ativadas e das permissões de conversa da sua organização.",
+    "faqQuestion": "As equipas podem trocar mensagens dentro do Sundae?"
+  },
+  "hi": {
+    "eyebrow": "टीम संदेश",
+    "titleLead": "काम की बातचीत।",
+    "titleEmphasis": "एक इनबॉक्स।",
+    "description": "Sundae सहकर्मियों के बीच व्यक्तिगत संदेशों, टीम की बातचीत, काम से जुड़ी चर्चाओं और घोषणाओं को Core और Crew के एक निजी इनबॉक्स में लाता है।",
+    "features": [
+      "सहकर्मियों के बीच व्यक्तिगत संदेश",
+      "टीम की बातचीत",
+      "काम से जुड़ी चर्चाएँ",
+      "घोषणाएँ"
+    ],
+    "scope": "पहुँच आपके संगठन की सदस्यता, सेटअप, सक्षम सुविधाओं और बातचीत की अनुमतियों पर निर्भर करती है।",
+    "faqQuestion": "क्या टीमें Sundae के भीतर एक-दूसरे को संदेश भेज सकती हैं?"
+  },
+  "ur": {
+    "eyebrow": "ٹیم پیغام رسانی",
+    "titleLead": "کام کی گفتگو۔",
+    "titleEmphasis": "ایک ان باکس۔",
+    "description": "Sundae ساتھیوں کے درمیان انفرادی پیغامات، ٹیم کی گفتگو، کام سے متعلق تھریڈز اور اعلانات کو Core اور Crew میں ایک ذاتی ان باکس میں یکجا کرتا ہے۔",
+    "features": [
+      "ساتھیوں کے درمیان انفرادی پیغامات",
+      "ٹیم کی گفتگو",
+      "کام سے متعلق تھریڈز",
+      "اعلانات"
+    ],
+    "scope": "رسائی آپ کی تنظیم کی سبسکرپشن، ترتیب، فعال فیچرز اور گفتگو کی اجازتوں پر منحصر ہے۔",
+    "faqQuestion": "کیا ٹیمیں Sundae کے اندر ایک دوسرے کو پیغامات بھیج سکتی ہیں؟"
+  },
+  "it": {
+    "eyebrow": "MESSAGGISTICA DEL TEAM",
+    "titleLead": "Conversazioni di lavoro.",
+    "titleEmphasis": "Un’unica casella.",
+    "description": "Sundae riunisce messaggi individuali tra colleghi, conversazioni del team, thread di lavoro e annunci in una casella personale condivisa tra Core e Crew.",
+    "features": [
+      "Messaggi individuali tra colleghi",
+      "Conversazioni del team",
+      "Thread di lavoro",
+      "Annunci"
+    ],
+    "scope": "L’accesso dipende dall’abbonamento, dalla configurazione, dalle funzionalità abilitate e dai permessi delle conversazioni della vostra organizzazione.",
+    "faqQuestion": "I team possono scambiarsi messaggi all’interno di Sundae?"
+  },
+  "pl": {
+    "eyebrow": "WIADOMOŚCI ZESPOŁOWE",
+    "titleLead": "Rozmowy o pracy.",
+    "titleEmphasis": "Jedna skrzynka.",
+    "description": "Sundae łączy wiadomości indywidualne między współpracownikami, rozmowy zespołowe, wątki robocze i ogłoszenia w jednej osobistej skrzynce dla Core i Crew.",
+    "features": [
+      "Wiadomości indywidualne między współpracownikami",
+      "Rozmowy zespołowe",
+      "Wątki robocze",
+      "Ogłoszenia"
+    ],
+    "scope": "Dostęp zależy od subskrypcji organizacji, konfiguracji, włączonych funkcji i uprawnień do rozmów.",
+    "faqQuestion": "Czy zespoły mogą wymieniać wiadomości w Sundae?"
+  },
+  "tr": {
+    "eyebrow": "EKİP MESAJLAŞMASI",
+    "titleLead": "İş yazışmaları.",
+    "titleEmphasis": "Tek bir gelen kutusu.",
+    "description": "Sundae, iş arkadaşları arasındaki bire bir mesajları, ekip görüşmelerini, iş konulu ileti dizilerini ve duyuruları Core ile Crew genelinde tek bir kişisel gelen kutusunda birleştirir.",
+    "features": [
+      "İş arkadaşları arasında bire bir mesajlar",
+      "Ekip görüşmeleri",
+      "İş konulu ileti dizileri",
+      "Duyurular"
+    ],
+    "scope": "Erişim, kuruluşunuzun aboneliğine, kurulumuna, etkin özelliklerine ve görüşme izinlerine bağlıdır.",
+    "faqQuestion": "Ekipler Sundae içinde birbirlerine mesaj gönderebilir mi?"
+  },
+  "zh-Hans": {
+    "eyebrow": "团队消息",
+    "titleLead": "工作沟通。",
+    "titleEmphasis": "一个收件箱。",
+    "description": "Sundae 将同事间的一对一消息、团队会话、工作讨论串和公告汇集到贯通 Core 与 Crew 的个人收件箱中。",
+    "features": [
+      "同事间的一对一消息",
+      "团队会话",
+      "工作讨论串",
+      "公告"
+    ],
+    "scope": "访问权限取决于您组织的订阅、配置、已启用功能及会话权限。",
+    "faqQuestion": "团队能否在 Sundae 内互相发送消息？"
+  },
+  "ja": {
+    "eyebrow": "チームメッセージ",
+    "titleLead": "業務のやり取りを。",
+    "titleEmphasis": "ひとつの受信トレイに。",
+    "description": "Sundae は、同僚との1対1メッセージ、チームの会話、業務スレッド、お知らせを、Core と Crew 共通の個人用受信トレイにまとめます。",
+    "features": [
+      "同僚との1対1メッセージ",
+      "チームの会話",
+      "業務スレッド",
+      "お知らせ"
+    ],
+    "scope": "アクセスできる内容は、組織の契約、設定、有効な機能、会話ごとの権限によって異なります。",
+    "faqQuestion": "Sundae 内でチーム同士がメッセージをやり取りできますか？"
+  },
+  "ko": {
+    "eyebrow": "팀 메시지",
+    "titleLead": "업무 대화.",
+    "titleEmphasis": "하나의 받은편지함.",
+    "description": "Sundae는 동료 간 일대일 메시지, 팀 대화, 업무 스레드와 공지를 Core와 Crew 전반의 하나의 개인 받은편지함에 모읍니다.",
+    "features": [
+      "동료 간 일대일 메시지",
+      "팀 대화",
+      "업무 스레드",
+      "공지"
+    ],
+    "scope": "접근 권한은 조직의 구독, 설정, 활성화된 기능과 대화별 권한에 따라 달라집니다.",
+    "faqQuestion": "팀이 Sundae 안에서 서로 메시지를 보낼 수 있나요?"
+  },
+  "id": {
+    "eyebrow": "PESAN TIM",
+    "titleLead": "Percakapan kerja.",
+    "titleEmphasis": "Satu kotak masuk.",
+    "description": "Sundae menyatukan pesan langsung antar rekan kerja, percakapan tim, utas kerja, dan pengumuman dalam satu kotak masuk pribadi di Core dan Crew.",
+    "features": [
+      "Pesan langsung antar rekan kerja",
+      "Percakapan tim",
+      "Utas kerja",
+      "Pengumuman"
+    ],
+    "scope": "Akses bergantung pada langganan, pengaturan, fitur yang diaktifkan, dan izin percakapan organisasi Anda.",
+    "faqQuestion": "Bisakah tim saling berkirim pesan di dalam Sundae?"
+  },
+  "vi": {
+    "eyebrow": "NHẮN TIN NỘI BỘ",
+    "titleLead": "Trao đổi công việc.",
+    "titleEmphasis": "Một hộp thư.",
+    "description": "Sundae tập hợp tin nhắn riêng giữa đồng nghiệp, hội thoại của nhóm, luồng trao đổi công việc và thông báo vào một hộp thư cá nhân dùng chung cho Core và Crew.",
+    "features": [
+      "Tin nhắn riêng giữa đồng nghiệp",
+      "Hội thoại của nhóm",
+      "Luồng trao đổi công việc",
+      "Thông báo"
+    ],
+    "scope": "Quyền truy cập phụ thuộc vào gói đăng ký, cách thiết lập, tính năng được bật và quyền tham gia hội thoại của tổ chức.",
+    "faqQuestion": "Các nhóm có thể nhắn tin cho nhau ngay trong Sundae không?"
+  },
+  "ro": {
+    "eyebrow": "MESAJE PENTRU ECHIPĂ",
+    "titleLead": "Discuții de lucru.",
+    "titleEmphasis": "O singură căsuță.",
+    "description": "Sundae reunește mesajele individuale între colegi, conversațiile echipei, firele de discuție de lucru și anunțurile într-o singură căsuță personală pentru Core și Crew.",
+    "features": [
+      "Mesaje individuale între colegi",
+      "Conversații ale echipei",
+      "Fire de discuție de lucru",
+      "Anunțuri"
+    ],
+    "scope": "Accesul depinde de abonamentul organizației, configurare, funcțiile activate și permisiunile conversațiilor.",
+    "faqQuestion": "Echipele își pot trimite mesaje în Sundae?"
+  },
+  "sv": {
+    "eyebrow": "TEAMMEDDELANDEN",
+    "titleLead": "Arbetskonversationer.",
+    "titleEmphasis": "En inkorg.",
+    "description": "Sundae samlar direktmeddelanden mellan kollegor, teamkonversationer, arbetstrådar och anslag i en personlig inkorg för Core och Crew.",
+    "features": [
+      "Direktmeddelanden mellan kollegor",
+      "Teamkonversationer",
+      "Arbetstrådar",
+      "Anslag"
+    ],
+    "scope": "Åtkomst beror på organisationens abonnemang, inställningar, aktiverade funktioner och behörigheter för konversationer.",
+    "faqQuestion": "Kan team skicka meddelanden till varandra i Sundae?"
+  },
+  "bn": {
+    "eyebrow": "টিম মেসেজিং",
+    "titleLead": "কাজের কথোপকথন।",
+    "titleEmphasis": "একটি ইনবক্স।",
+    "description": "Sundae সহকর্মীদের মধ্যে একান্ত বার্তা, টিমের কথোপকথন, কাজের আলোচনার থ্রেড ও ঘোষণাকে Core ও Crew জুড়ে একটি ব্যক্তিগত ইনবক্সে একত্র করে।",
+    "features": [
+      "সহকর্মীদের মধ্যে একান্ত বার্তা",
+      "টিমের কথোপকথন",
+      "কাজের আলোচনার থ্রেড",
+      "ঘোষণা"
+    ],
+    "scope": "প্রবেশাধিকার আপনার প্রতিষ্ঠানের সাবস্ক্রিপশন, সেটআপ, চালু থাকা ফিচার ও কথোপকথনের অনুমতির ওপর নির্ভর করে।",
+    "faqQuestion": "টিমগুলো কি Sundae-এর ভেতরে একে অপরকে বার্তা পাঠাতে পারে?"
+  },
+  "th": {
+    "eyebrow": "ข้อความสำหรับทีม",
+    "titleLead": "บทสนทนาเรื่องงาน",
+    "titleEmphasis": "ในกล่องข้อความเดียว",
+    "description": "Sundae รวมข้อความตัวต่อตัวระหว่างเพื่อนร่วมงาน บทสนทนาในทีม เธรดงาน และประกาศไว้ในกล่องข้อความส่วนตัวเดียวที่ใช้ร่วมกันระหว่าง Core และ Crew",
+    "features": [
+      "ข้อความตัวต่อตัวกับเพื่อนร่วมงาน",
+      "บทสนทนาในทีม",
+      "เธรดงาน",
+      "ประกาศ"
+    ],
+    "scope": "สิทธิ์การเข้าถึงขึ้นอยู่กับแพ็กเกจ การตั้งค่า ฟีเจอร์ที่เปิดใช้งาน และสิทธิ์ในบทสนทนาขององค์กรคุณ",
+    "faqQuestion": "ทีมสามารถส่งข้อความหากันภายใน Sundae ได้หรือไม่"
+  },
+  "ms": {
+    "eyebrow": "MESEJ PASUKAN",
+    "titleLead": "Perbualan kerja.",
+    "titleEmphasis": "Satu peti masuk.",
+    "description": "Sundae menghimpunkan mesej individu antara rakan sekerja, perbualan pasukan, bebenang kerja dan pengumuman dalam satu peti masuk peribadi merentas Core dan Crew.",
+    "features": [
+      "Mesej individu antara rakan sekerja",
+      "Perbualan pasukan",
+      "Bebenang kerja",
+      "Pengumuman"
+    ],
+    "scope": "Akses bergantung pada langganan, tetapan, ciri yang diaktifkan dan kebenaran perbualan organisasi anda.",
+    "faqQuestion": "Bolehkah pasukan saling menghantar mesej dalam Sundae?"
+  }
+}

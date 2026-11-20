@@ -80,6 +80,12 @@ Sundae connects live operations, forecasting, external context, cross-domain ana
 
 Sundae Crew connects workforce execution to the same decision-intelligence layer used for restaurant and hospitality performance. It covers scheduling, time and attendance, people and HR records, payroll calculation and review, employee self-service, and workforce intelligence. Customers can use Crew directly or connect an existing HR or payroll provider.
 
+### Team messaging across Core and Crew
+
+Sundae brings one-to-one colleague messages, team conversations, work threads and announcements into one personal inbox across Core and Crew. Access depends on your organization’s subscription, setup, enabled features and conversation permissions.
+
+People see only the conversations they are permitted to access. See [messaging in Crew](https://www.sundae.io/crew#messaging), the [Core workspace](https://www.sundae.io/core#messaging), the [platform overview](https://www.sundae.io/product#messaging) and the matching [team messaging answer](https://www.sundae.io/faq#crew).
+
 - [Crew overview](https://www.sundae.io/crew): Workforce operations, HR, payroll calculation and review, and employee self-service
 - [Staff scheduling](https://www.sundae.io/crew/scheduling): Demand-aware scheduling, availability, shift swaps, and approvals
 - [Time and attendance](https://www.sundae.io/crew/time-attendance): Mobile clock-in, break records, verification, and payroll-ready hours

@@ -8,6 +8,7 @@ import depthCopy from '@/content/operator-depth.json'
 import openingCopy from '@/content/operator-openings.json'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
+import { MessagingFeature } from '@/components/seo/MessagingFeature';
 
 import Image from 'next/image';
 import { motion, MotionConfig } from "framer-motion";
@@ -729,6 +730,8 @@ export default function CrewPage() {
             <p className="mx-auto mt-10 max-w-3xl text-center text-lg leading-relaxed text-[var(--text-supporting)]">{depth.crewBridge}</p>
           </div>
         </section>
+
+        <MessagingFeature locale={locale} />
 
         {/* Cream relief - early warm break BEFORE the long dark payroll/pillars/retires stretch (the volume system) */}
         <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />

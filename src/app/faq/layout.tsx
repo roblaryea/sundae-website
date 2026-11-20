@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { buildResolvedPageMetadata } from '@/lib/solutionPageMetadata';
 import faqCopyByLocale from '@/content/support-faq.json';
+import messagingCopy from '@/content/messaging-feature.json';
 import { cookies } from "next/headers";
 import { getWebsiteMessages, resolveWebsiteLocale, type WebsiteMessages } from "@/lib/i18n";
 import { getLocalizedFaqSections } from "@/content/faqContent";
@@ -30,11 +31,12 @@ export default async function FAQLayout({ children }: { children: React.ReactNod
   const locale = resolveWebsiteLocale(await cookies());
   const messages = (getWebsiteMessages(locale) as WebsiteMessages).pages.faq;
   const sections = getLocalizedFaqSections(locale, messages.categories);
+  const messaging = messagingCopy[locale as keyof typeof messagingCopy];
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: sections.flatMap((section) =>
-      section.faqs.slice(0, 2).map((faq) => ({
+      section.faqs.filter((faq, index) => index < 2 || (section.id === 'crew' && faq.title === messaging.faqQuestion)).map((faq) => ({
         "@type": "Question",
         name: toPlainText(faq.title),
         acceptedAnswer: {
