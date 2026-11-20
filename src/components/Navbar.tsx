@@ -1,8 +1,6 @@
 'use client';
 
 import discoveryCopy from '@/content/discovery-navigation.json';
-import guidanceCopy from '@/content/support-guidance.json';
-import sharedBuyerCopy from '@/content/buyer-clarity/shared.json';
 
 import videoCopy from '@/content/product-walkthroughs.json';
 
@@ -279,7 +277,7 @@ const Navbar = () => {
 
   const solutionsRoles: ReadonlyArray<NavbarLink> = nav.solutionsRoles;
 
-  const resources: ReadonlyArray<NavbarLink> = [{ name: videoCopy[locale as keyof typeof videoCopy].label, href: '/resources/product-walkthroughs' }, { name: nav.about, href: '/about' }, ...nav.resourcesList.filter(item => item.href !== '/about').map(item => item.href === '/resources' ? { name: sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].resultsLabel, href: '/results' } : item.href === '/docs' ? { ...item, name: guidanceCopy[locale as keyof typeof guidanceCopy].docsLabel } : item)];
+  const resources: ReadonlyArray<NavbarLink> = [{ name: videoCopy[locale as keyof typeof videoCopy].label, href: '/resources/product-walkthroughs' }, { name: nav.about, href: '/about' }, ...nav.resourcesList.filter(item => item.href !== '/about')];
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
 
   return (

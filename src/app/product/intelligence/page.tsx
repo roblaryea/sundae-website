@@ -586,11 +586,11 @@ export default function ChatWithDataPage() {
           <div className="grid gap-6 md:grid-cols-2">
             <Link href={getLocalizedPathname('/4d-intelligence', locale)} className="group block focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--coral)]">
               <span className="block text-sm font-semibold text-[var(--text-primary)]">4D Intelligence</span>
-              <span className="mt-2 block text-[var(--text-supporting)] underline decoration-[var(--border-default)] underline-offset-4 group-hover:text-[var(--text-primary)]">{discoveryCopy[locale as keyof typeof discoveryCopy].dimensionsLink}</span>
+              <span className="mt-2 block text-[var(--text-secondary)] underline decoration-[var(--border-default)] underline-offset-4 group-hover:text-[var(--text-primary)]">{discoveryCopy[locale as keyof typeof discoveryCopy].dimensionsLink}</span>
             </Link>
             <Link href={getLocalizedPathname('/product/cross-intelligence', locale)} className="group block focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--coral)]">
               <span className="block text-sm font-semibold text-[var(--text-primary)]">Cross-Intelligence</span>
-              <span className="mt-2 block text-[var(--text-supporting)] underline decoration-[var(--border-default)] underline-offset-4 group-hover:text-[var(--text-primary)]">{discoveryCopy[locale as keyof typeof discoveryCopy].crossLink}</span>
+              <span className="mt-2 block text-[var(--text-secondary)] underline decoration-[var(--border-default)] underline-offset-4 group-hover:text-[var(--text-primary)]">{discoveryCopy[locale as keyof typeof discoveryCopy].crossLink}</span>
             </Link>
           </div>
         </FadeUp>
