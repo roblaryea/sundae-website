@@ -7,6 +7,19 @@ import { FOCUS_FACTS, FOCUS_KEYS, FOCUS_KEYS_WITH_NOTES } from '../src/lib/leadC
 import { ROLE_KEYS, ROLE_LABELS_EN, TOPIC_KEYS, TOPIC_LABELS_EN } from '../src/lib/leadConversation/script.ts';
 
 const LOCALES = ['en', 'ar', 'fr', 'es', 'de', 'nl', 'pt', 'hi', 'ur', 'it', 'pl', 'tr', 'zh-Hans', 'ja', 'ko', 'id', 'vi', 'ro', 'sv', 'bn', 'th', 'ms'];
+
+// Phase A's Operations Diagnostic packs: the same markets, written the same day.
+// The booking follows their register, location word and package notes.
+const DIAGNOSTIC = Object.fromEntries(await Promise.all(LOCALES.filter((locale) => locale !== 'en').map(async (locale) => {
+  const mod = await import(`../src/lib/diagnostic/copy/${locale}.ts`);
+  return [locale, mod[locale.replace('-', '')]];
+})));
+
+const LOCATION_WORD = {
+  ar: /فرع|فروع/, ur: /برانچ/, hi: /आउटलेट/, bn: /লোকেশন/, fr: /sites?\b/i, es: /locales?\b/i, de: /Standort/, nl: /locatie/i,
+  pt: /unidade/i, it: /sed[ei]\b/i, pl: /lokalizac/i, tr: /lokasyon/i, 'zh-Hans': /门店/, ja: /店舗/, ko: /매장/, id: /outlet/i,
+  vi: /địa điểm/i, ro: /locați/i, sv: /enhet/i, th: /สาขา/, ms: /outlet/i,
+};
 const PROTECTED = ['Sundae', 'Crew Manage', 'Crew Operating', 'Crew Complete', 'Crew Pay', 'Core Performance', 'Core Growth', 'Foresight', 'Watchtower', 'POS'];
 
 function strings(value, at = '') {
@@ -65,4 +78,30 @@ test('Sundae is labelled as guided booking and never as a person', () => {
     for (const opening of Object.values(copy.openings)) assert.match(opening, /Sundae/, `${locale} opening names Sundae`);
   }
   assert.match(guidedBookingCopy.en.header.subline, /^Guided booking/);
+});
+
+test('package notes are word-for-word the Operations Diagnostic notes in every locale', () => {
+  for (const [locale, pack] of Object.entries(DIAGNOSTIC)) {
+    const notes = guidedBookingCopy[locale].focus.notes;
+    const diag = pack.facts.notes;
+    assert.equal(notes.tasks_logbook, diag.tasks_logbook, `${locale} tasks_logbook`);
+    assert.equal(notes.tips, diag.tips, `${locale} tips`);
+    assert.equal(notes.payroll, diag.payroll, `${locale} payroll`);
+    assert.equal(notes.forecasting, diag.foresight, `${locale} forecasting`);
+    assert.equal(notes.competitors_market, diag.watchtower, `${locale} competitors_market`);
+  }
+});
+
+test('locations use the Operations Diagnostic word for a location in every locale', () => {
+  for (const [locale, word] of Object.entries(LOCATION_WORD)) {
+    const copy = guidedBookingCopy[locale];
+    for (const [key, value] of Object.entries({ prompt: copy.locations.prompt, label: copy.locations.label, one: copy.locations.one, many: copy.locations.many, known: copy.locations.known, pricing: copy.openings.pricing })) {
+      assert.match(value, word, `${locale} ${key}: "${value}"`);
+    }
+  }
+});
+
+test('Romanian uses the formal dumneavoastră register, like the diagnostic', () => {
+  const informal = /(^|[^\p{L}])(tu|tău|ta|tale|tine|ți|îți|te rog|ai|poți|vrei|alege|introdu|scrie)([^\p{L}]|$)/iu;
+  for (const [path, text] of strings(guidedBookingCopy.ro)) assert.doesNotMatch(text, informal, `ro.${path}: "${text}"`);
 });
