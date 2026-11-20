@@ -16,9 +16,8 @@ test('web vitals only allow public production marketing routes', () => {
 
 test('sanitization keeps metric scalars while removing query strings, entries and DOM data', () => {
   const result = sanitizeWebVitalsProperties({
-    '$current_url': 'https://www.sundae.io/demo?email=private@example.com#form',
+    '$current_url': 'https://www.sundae.io/demo?email=private@example.com&utm_source=internal_qa#form',
     '$referrer': 'https://search.example/?q=private',
-    utm_source: 'internal_qa',
     '$web_vitals_LCP_value': 1820,
     '$web_vitals_LCP_event': {
       name: 'LCP', value: 1820, delta: 120, timestamp: 12, rating: 'good',
@@ -32,8 +31,8 @@ test('sanitization keeps metric scalars while removing query strings, entries an
   }, 'website');
   assert.deepEqual(result, {
     '$current_url': 'https://www.sundae.io/demo',
-    '$referrer': 'https://search.example/',
     utm_source: 'internal_qa',
+    '$referrer': 'https://search.example/',
     '$web_vitals_LCP_value': 1820,
     '$web_vitals_LCP_event': { name: 'LCP', value: 1820, delta: 120, timestamp: 12, rating: 'good', '$current_url': 'https://www.sundae.io/demo' },
     '$web_vitals_FCP_value': 0,
