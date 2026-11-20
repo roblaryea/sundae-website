@@ -240,3 +240,22 @@ The [20 November follow-through](SEARCH_CONSOLE_REVIEW_2026-11-20.md) records th
 The subsequent Ask Sundae inspection is also complete: Google reports it indexed with the inspected canonical, successful/allowed smartphone crawling, and a stored 19 November crawl. Its refresh request was accepted after the later refinements. Review processing of the three accepted priority requests and the newly available Bing indexing/search/AI reports at the existing checkpoints. Keep the 16 November complete-period baseline and existing 23 November, 30 November, 7 December and 21 December reviews. No new scheduler, dashboard, paid activity or ranking promise was introduced.
 
 The same follow-through extends the existing Search Discovery guard to 18 canonical buyer pages and 11 intentionally excluded utilities/previews, alongside the sitemap and catalogue checks. The access-request and connector-review utilities are kept available with `noindex`; the old chat-with-data alias resolves permanently to localized Ask Sundae while retaining queries. This is technical hygiene, not a whole-site authority, ranking or qualified-demand certification. Source and public release validation are recorded in the focused release receipt.
+
+## 20 November follow-through: demand readback and reporting correction
+
+Project 332239, dashboard 2048486, all six existing reports retained. The metric catalog was empty; these remain the existing operational event definitions, not governed business measures or automatically qualified leads. Complete UTC-day acquisition-funnel readback:
+
+| Period | Consented pageview entrants | People progressing to CTA | Accepted forms in the ordered funnel |
+| --- | ---: | ---: | ---: |
+| 13–19 November | 5 | 0 | 0 |
+| 6–12 November | 5 | 0 | 0 |
+| 23 October–19 November | 23 | 2 | 0 |
+| 25 September–22 October | 30 | 3 | 0 |
+
+The existing weekly event report records 65 pageviews and no accepted forms, diagnostic contact steps or acknowledged diagnostic deliveries over 23 October–19 November. Do not add its weekly unique-visitor buckets to obtain a distinct 28-day audience: returning people can occur in multiple buckets. The acquisition-funnel entrant count above is the period-wide measure. The friction report contains the known earlier empty-form QA validation row; its raw `count: 0` / `aggregated_value: 1` shape is not evidence of a new genuine failure. Preserve the existing QA annotation and exclusions.
+
+The newest complete week is unchanged at this small consented sample; the rolling 28-day audience is lower than its previous comparable period. These mixed-release periods do not establish the effect of the 18–20 November changes. Recent entrants also have not had a complete 14-day funnel window. Preserve the separate complete-window decision dates rather than claiming conversion or search uplift early.
+
+The published product-walkthrough hub was missing from the exact marketing allowlist. Added only `/resources/product-walkthroughs` to all six saved insight definitions and dashboard scope, retaining supported locale prefixes, production host, existing QA exclusions, series, windows and visual settings. Readback verified the complete non-property definitions plus normalized AND-filter leaf sets; dashboard readback adds inherited nested AND groups, so raw structural equality is not claimed. Recomputed 23 October–19 November acquisition remains 23 / 2 / 0. Annotation **604809** records this reporting correction. Raw events were not deleted; no new dashboard, lead record or test email was created.
+
+Receipts: `output/seo/followthrough-posthog-20261120.json` and `followthrough-reporting-scope-plan-20261120.json`, with exact dates, saved definitions and source links. Google now also confirms the Restaurant365 comparison indexed with the inspected canonical; see the [current portal review](SEARCH_CONSOLE_REVIEW_2026-11-20.md). Continue 23 November health/discovery and the existing 30 November, 7 December and 21 December finalized-period reviews.

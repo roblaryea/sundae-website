@@ -204,7 +204,7 @@ Present messaging as lightweight work coordination: one personal inbox across Co
 
 ## Current discovery and content handoff — 20 November 2026
 
-The [current Google/Bing follow-through](SEARCH_CONSOLE_REVIEW_2026-11-20.md) supersedes earlier account-access and per-page unknown statements where it records a fresh result. Management and Ask Sundae are indexed with Google's selected canonical matching the inspected URL. The comparison is discovered but not yet indexed; all three accepted refresh/crawl requests remain subject to Google's processing. Bing's imported sitemap is successful; its initial reports are processing. Do not certify query rank or AI citation from those facts.
+The [current Google/Bing follow-through](SEARCH_CONSOLE_REVIEW_2026-11-20.md) supersedes earlier account-access and per-page unknown statements where it records a fresh result. Management, Ask Sundae and, on the later 20 November follow-through, the Restaurant365 comparison are indexed with Google's selected canonical matching the inspected URL. The comparison's earlier waiting state is closed; no duplicate request was submitted. Bing's imported sitemap is successful; its initial reports are processing. Do not certify query rank or AI citation from those facts.
 
 Use the existing canonical pages and approved distribution programme. The existing content owner can support three concrete operator questions with source evidence:
 
@@ -215,3 +215,19 @@ Use the existing canonical pages and approved distribution programme. The existi
 Choose one canonical destination per piece and retain the content owner's approved public campaign tags. Use `/resources/product-walkthroughs` for the approved product films and transcripts when video proof is needed. The four owner-confirmed stories remain available with their stated evidence limits; missing methods cannot be manufactured. For free third-party listings, first verify an existing profile, free eligibility, accountable business ownership and approved facts. Official-profile wording, directory publication and editorial outreach remain with their owners; they are not certified by the website checks or an inconclusive public search.
 
 The later 20 November product-documentation handoff describes additional messaging coordination work and explicitly says its development release is still in full gates. Preserve the already approved public foundation. Do not turn the new handoff alone into detailed production, provider-delivery, media, SKU, retention or private-message-access promises. Incorporate verified successor details through the existing source/review process when the development revisions and relevant rollout evidence are supplied.
+
+### External authority follow-through and ready content inputs
+
+Reuse the established [ExploreTECH company profile](https://www.exploretech.io/en/vendor/sundae), [Core record](https://www.exploretech.io/en/product/sundae-sundae-core) and [Crew record](https://www.exploretech.io/en/product/sundae-sundae-crew). The existing listing owner saved the refined company descriptions in English and Arabic on 18 November. The 20 November signed-out company check confirms the operations-first visible opening, both product links, an index/follow policy, the company canonical and a direct website link. Do not call its partially verified status a certification. Provider-generated title/description still emphasize AI analytics and appear twice in its HTML; supply that precise observation to the existing listing owner for available-field/provider follow-up, without inventing access to provider-controlled SEO settings or sending unsolicited messages.
+
+G2 and Capterra remain unverified: their public access challenges prevented verification, so do not claim that Sundae has no listing or that submission is complete. Before creating or changing any additional listing, match the existing company/product identity, verify the free plan and editable fields, and use the same approved Core/Crew scope. No review solicitation, fabricated reviews, bulk submission or paid promotion is part of this work.
+
+The next approved content/distribution pieces should meet these acceptance criteria:
+
+| Operator question | Canonical destination | Required proof and practical next action |
+| --- | --- | --- |
+| Who owns an unresolved issue when the shift changes? | `/restaurant-logbook` | Show the disclosed native handover/task demonstration; distinguish viewing a handover from creating/managing one and preserve Crew package scope. Link to that one workflow, then a working demo. |
+| Which location needs attention, and what should the manager do next? | `/solutions/multi-location-groups` | Use a real permitted comparison or explicitly illustrative example; name the inputs, responsible action and review step. Support the recorded multi-location analytics/benchmarking query opportunity without invented savings. |
+| What should an operator compare when shortlisting Sundae and Restaurant365? | `/restaurant365-alternative` | Use the current qualified comparison criteria, accounting boundary, catalogue coverage and supported-market/provider limits. Avoid universal parity or superiority. The page is now indexed. |
+
+Each approved piece gets one canonical destination and the existing campaign tags. Use the walkthrough hub for captioned/transcribed native product evidence; it is now included in all six saved marketing reports. Measure relevant destination visits, CTA progression and accepted enquiries, then establish operator qualification separately. Existing content/LinkedIn owners retain their publication work and approvals; this website lane does not publish duplicate social posts or contact prospects.
