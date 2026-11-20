@@ -22,6 +22,19 @@ The management inspection's Discovery section showed a temporary sitemap process
 
 The complete 7/14/28-day comparison in [16 November's review](SEARCH_CONSOLE_REVIEW_2026-11-16.md) remains the measured baseline. This follow-through establishes current access and specific indexing outcomes; it does not establish traffic uplift or attribution to the latest releases.
 
+## Bing Webmaster import completed
+
+The same business Google account was used to sign in to Bing's free Webmaster Tools and authorize the official **view-only** Search Console import. Bing found exactly one importable site and one sitemap. Only `https://www.sundae.io/` was selected; the import listed its role as Administrator. No personal Google account was selected and no advertising offer was activated.
+
+After importing and reloading, the authenticated Bing Home report opened for Sundae. Its initial reports are being processed, with Bing stating they may take up to 48 hours to appear. The site's Sitemaps report independently confirmed:
+
+- one known sitemap: `https://www.sundae.io/sitemap.xml`;
+- submitted/imported and last crawled **20 November 2026**;
+- status **Success**, with **zero errors** and **zero warnings**;
+- **1.6K URLs discovered**, as rounded by Bing. This is discovery, not a count of indexed URLs or rankings.
+
+This closes the previously pending Bing Webmaster account import and verification step. The imported property and successful sitemap readback are separate evidence from the existing IndexNow notifications. Keep the Google verification files and the authorized view-only connection available for Bing's periodic ownership/sitemap validation. No Bing meta token or DNS modification was required by this import.
+
 ## Website release and free discovery checks
 
 [PR276](https://github.com/roblaryea/sundae-website/pull/276) presents team messaging within the existing Core/Crew story, with a detailed Crew section, compact Core/Product summaries, and matching localized FAQ, JSON-LD and `llms.txt` wording. It covers all 22 website locales and retains subscription, setup, enabled-feature and conversation-permission limits. This website publication does not establish app production rollout or universal account enablement.
@@ -35,9 +48,9 @@ No paid campaign, paid listing, new dashboard or new automation was introduced. 
 ## Remaining decisions and existing checkpoints
 
 1. On **23 November**, inspect the comparison page after Google's accepted request, complete the Ask Sundae per-page inspection, and review current sitemap/indexing cohorts. Do not repeatedly request the same URL: Google explicitly says this does not improve queue position or priority.
-2. Complete Bing Webmaster import/verification through its authenticated portal. This remains open; the deployed IndexNow key and accepted notifications do not close it.
+2. Review the newly imported Bing property after its initial processing window. Confirm the successful sitemap remains healthy, then inspect indexing, relevant queries and AI-performance data where Bing supplies them. Do not treat initial processing or unavailable early metrics as failure or invent a baseline.
 3. Review qualified non-branded discovery, canonical commercial-page visits and useful CTA progression using finalized Google dates and the existing scoped PostHog dashboard. Assess relevant external evidence/distribution with the existing content owner, preserving claim limits and campaign attribution.
 
 Keep the existing decision reviews on **30 November**, **7 December** and **21 December** for complete seven-, fourteen- and twenty-eight-day post-release periods. Preserve the earlier release cohorts, QA exclusions and original PostHog annotation marker. Search availability, actual indexing, query ranking, AI citations and qualified enquiries remain distinct outcomes.
 
-Raw portal readbacks, release receipts and browser captures are retained in the local ignored `output/seo` and `output/playwright` directories for this chat. The main records include `google-ownership-confirmed-20261120.jsonl`, `google-management-index-20261120.jsonl`, `google-management-request-20261120.jsonl`, `google-comparison-index-20261120.jsonl`, `google-comparison-request-20261120.jsonl` and `messaging-delivery-receipt-20261120.json`. These were obtained through the signed-in visible interface and public website checks; no hidden account APIs or copied authentication data were used.
+Raw portal readbacks, release receipts and browser captures are retained in the local ignored `output/seo` and `output/playwright` directories for this chat. The main records include `google-ownership-confirmed-20261120.jsonl`, `google-management-index-20261120.jsonl`, `google-management-request-20261120.jsonl`, `google-comparison-index-20261120.jsonl`, `google-comparison-request-20261120.jsonl`, `bing-selected-site-20261120.jsonl`, `bing-home-confirmed-20261120.jsonl`, `bing-sitemap-confirmed-20261120.jsonl` and `messaging-delivery-receipt-20261120.json`. These were obtained through the signed-in visible interface and public website checks; no hidden account APIs or copied authentication data were used.
