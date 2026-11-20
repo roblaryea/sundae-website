@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guided walkthrough booking - design reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Tokens mirror sundae-website src/styles/tokens.css (origin/main f6edb98). Theme classes stand in for html.light. */
+.t-dark{--page:#15110D;--panel:#1F1A15;--raised:#29221B;--field:rgba(255,255,255,.04);--text:#FFFFFF;--text-2:rgba(255,255,255,.75);--muted:rgba(255,255,255,.62);--display:#FBF8F4;--eyebrow:rgba(246,241,232,.62);--border:rgba(255,255,255,.08);--border-strong:rgba(255,255,255,.16);--accent:#FF5C4D;--on-accent:#1A140F;--on-tint:#FF5C4D;--tint:rgba(255,92,77,.14);--cream:#F6F1E8;--cream-edge:#EAE0CE;--ink:#1A140F;--warm:#F6C66B;--trust:#A9B86B;--danger:#FF6B66;--shadow:0 25px 50px -12px rgba(0,0,0,.55);--glow:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(255,92,77,.12) 0%,transparent 60%),radial-gradient(ellipse 50% 40% at 82% 30%,rgba(242,166,90,.08) 0%,transparent 55%),#15110D;--card-action:#CC3A1E;--card-on-action:#FFFFFF;color-scheme:dark}
+.t-light{--page:#FBF7F1;--panel:#FFFFFF;--raised:#FFFFFF;--field:rgba(42,35,32,.03);--text:#241D17;--text-2:rgba(36,29,23,.78);--muted:rgba(36,29,23,.69);--display:#1E1711;--eyebrow:rgba(36,29,23,.69);--border:rgba(42,35,32,.14);--border-strong:rgba(42,35,32,.24);--accent:#CC3A1E;--on-accent:#FFFFFF;--on-tint:#B23A1E;--tint:rgba(204,58,30,.08);--cream:#F6E4C4;--cream-edge:#EAD3A8;--ink:#1A140F;--warm:#98501C;--trust:#6E7C3A;--danger:#B42318;--shadow:0 1px 2px rgba(74,49,32,.06),0 14px 30px -12px rgba(74,49,32,.20),0 36px 66px -28px rgba(74,49,32,.18);--glow:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(255,92,77,.07) 0%,transparent 60%),#FBF7F1;--card-action:#CC3A1E;--card-on-action:#FFFFFF;color-scheme:light}
+*{box-sizing:border-box}
+body.board{margin:0;background:#EDE7DE;color:#241D17;font:16px/1.6 "Hanken Grotesk",system-ui,sans-serif}
+.wrap{max-width:1360px;margin:0 auto;padding:48px 40px 96px}
+.board h1{font:500 40px/1.15 Fraunces,Georgia,serif;margin:0 0 8px;letter-spacing:-.01em}
+.board h2{font:500 26px/1.25 Fraunces,Georgia,serif;margin:64px 0 6px}
+.board h3{font:600 15px/1.4 "Hanken Grotesk";margin:28px 0 10px}
+.lead{max-width:860px;color:rgba(36,29,23,.78);margin:0 0 8px}
+.note{font-size:13px;color:rgba(36,29,23,.69)}
+.row{display:flex;gap:28px;flex-wrap:wrap;align-items:flex-start}
+.cap{font-size:13px;color:rgba(36,29,23,.69);margin:10px 2px 0;max-width:640px}
+.cap b{color:#241D17;font-weight:600}
+code{font:13px/1.4 ui-monospace,Menlo,monospace;background:rgba(42,35,32,.06);padding:1px 5px;border-radius:5px}
+table.spec{border-collapse:collapse;font-size:14px;width:100%;max-width:1100px;background:#fff;border-radius:12px;overflow:hidden}
+table.spec td,table.spec th{padding:10px 14px;border-bottom:1px solid rgba(42,35,32,.08);text-align:left;vertical-align:top}
+table.spec th{font-weight:600;background:#F6F1E8}
+
+/* Frames */
+.frame{position:relative;overflow:hidden;border-radius:18px;background:var(--glow);color:var(--text);font:16px/1.6 "Hanken Grotesk",system-ui,sans-serif;box-shadow:0 30px 60px -30px rgba(40,25,15,.45)}
+.f-desk{width:1280px;height:800px}
+.f-mob{width:390px;height:844px;border-radius:40px;border:10px solid #0d0a08}
+.f-crop{width:620px}
+.site-nav{height:68px;display:flex;align-items:center;gap:28px;padding:0 48px;border-bottom:1px solid var(--border);font-size:14px;color:var(--text-2)}
+.site-nav .brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.site-nav .brand img{height:28px}
+.site-nav .cta{background:var(--accent);color:var(--on-accent);padding:9px 16px;border-radius:10px;font-weight:600}
+.mob-bar{height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;border-bottom:1px solid var(--border)}
+.mob-bar img{height:26px}
+.desk-grid{display:grid;grid-template-columns:minmax(0,1fr) 560px;gap:64px;padding:56px 64px 0 72px;align-items:start}
+.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--eyebrow);font-weight:600}
+.hero-h{font:500 52px/1.08 Fraunces,Georgia,serif;color:var(--display);letter-spacing:-.015em;margin:14px 0 18px}
+.hero-h em{font-style:italic;color:var(--warm)}
+.intro{color:var(--text-2);max-width:470px;margin:0 0 28px}
+.reassure{display:grid;gap:14px;max-width:460px}
+.reassure div{display:flex;gap:12px;align-items:flex-start;color:var(--text-2);font-size:15px}
+.ico{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.trust{color:var(--trust)}
+
+/* Conversation panel */
+.cv{background:var(--panel);border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden}
+.cv-head{display:flex;align-items:center;gap:12px;padding:16px 20px 14px}
+.cv-head img{width:32px;height:32px;border-radius:9px}
+.cv-title{font-weight:600;font-size:15px;line-height:1.3}
+.cv-sub{font-size:13px;color:var(--muted)}
+.cv-link{margin-left:auto;font-size:13px;color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.cv-prog{display:flex;gap:4px;padding:0 20px 14px;border-bottom:1px solid var(--border)}
+.cv-prog i{flex:1;height:3px;border-radius:3px;background:var(--border-strong)}
+.cv-prog i.done{background:var(--warm)}
+.cv-prog i.now{background:linear-gradient(90deg,var(--warm) 50%,var(--border-strong) 50%)}
+.cv-log{padding:22px 22px 8px;display:flex;flex-direction:column;gap:14px;flex:1;min-height:0}
+.who{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);font-weight:500;margin-bottom:-6px}
+.who img{width:18px;height:18px;border-radius:5px}
+.s-greet{font:400 23px/1.35 Fraunces,Georgia,serif;color:var(--display);max-width:94%;letter-spacing:-.005em}
+.s-msg{max-width:88%;color:var(--text);font-size:16px;line-height:1.6}
+.s-msg b{font-weight:600}
+.u-msg{align-self:flex-end;max-width:100%;background:var(--cream);color:var(--ink);padding:10px 15px;border-radius:18px 18px 6px 18px;font-size:15px;line-height:1.45}
+.u-wrap{align-self:flex-end;max-width:80%;display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+.u-edit{font-size:12px;color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+.typing{display:inline-flex;gap:5px;padding:6px 0}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--warm);opacity:.9}
+.typing i:nth-child(2){opacity:.6}.typing i:nth-child(3){opacity:.35}
+.cv-ans{border-top:1px solid var(--border);padding:16px 20px 12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{height:40px;display:inline-flex;align-items:center;gap:8px;padding:0 16px;border-radius:999px;border:1px solid var(--border-strong);background:transparent;color:var(--text);font:500 15px "Hanken Grotesk";cursor:pointer}
+.chip.on{background:var(--tint);border-color:var(--accent);color:var(--on-tint)}
+.chip.hov{border-color:var(--accent)}
+.chip.foc{outline:2px solid var(--accent);outline-offset:2px}
+.chip.done{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.chip .ico{width:16px;height:16px;stroke-width:2.2}
+.field-row{display:flex;gap:10px;align-items:center}
+.field{flex:1;height:50px;border-radius:14px;border:1px solid var(--border-strong);background:var(--field);display:flex;align-items:center;padding:0 16px;font-size:16px;color:var(--text)}
+.field.ph{color:var(--muted)}
+.field.foc{border-color:var(--accent);box-shadow:0 0 0 3px var(--tint)}
+.field.err{border-color:var(--danger);box-shadow:0 0 0 3px color-mix(in srgb,var(--danger) 18%,transparent)}
+.field .caret{width:1.5px;height:20px;background:var(--accent);margin-left:2px}
+.send{width:50px;height:50px;border-radius:14px;background:var(--accent);color:var(--on-accent);display:flex;align-items:center;justify-content:center;flex:none}
+.send .ico{width:22px;height:22px;stroke-width:2.2}
+.err-msg{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--danger);margin-top:8px}
+.err-msg .ico{width:16px;height:16px}
+.cv-foot{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);padding:2px 20px 14px}
+.cv-foot .ico{width:15px;height:15px}
+.cv-foot u{text-underline-offset:2px}
+.hint{font-size:12px;color:var(--muted);margin-top:8px}
+
+/* Brief card (cream relief surface; ink pinned in both themes) */
+.brief{background:var(--cream);color:var(--ink);border:1px solid var(--cream-edge);border-radius:18px;padding:18px 20px 16px;align-self:stretch}
+.brief h4{font:500 21px/1.25 Fraunces,Georgia,serif;margin:0 0 2px;color:#1A140F}
+.brief .meta{font-size:13px;color:rgba(26,20,15,.72);margin-bottom:12px}
+.brief ol{margin:0;padding:0;list-style:none;counter-reset:a;display:grid;gap:9px}
+.brief li{counter-increment:a;display:grid;grid-template-columns:24px 1fr auto;gap:10px;align-items:start;font-size:14.5px;line-height:1.45}
+.brief li::before{content:counter(a);width:22px;height:22px;border-radius:50%;border:1px solid rgba(26,20,15,.35);font:500 12px/20px "Hanken Grotesk";text-align:center}
+.tag{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:1px solid rgba(26,20,15,.28);border-radius:6px;padding:1px 7px;color:rgba(26,20,15,.78);margin-top:1px}
+.pnote{display:flex;gap:8px;font-size:13px;color:rgba(26,20,15,.78);margin-top:12px;padding-top:12px;border-top:1px solid rgba(26,20,15,.14)}
+.pnote .ico{width:16px;height:16px;margin-top:2px;flex:none}
+.brief-actions{display:flex;gap:10px;margin-top:14px}
+.btn-p{height:42px;padding:0 18px;border-radius:12px;background:var(--card-action);color:var(--card-on-action);font:600 15px "Hanken Grotesk";display:inline-flex;align-items:center;gap:8px}
+.btn-g{height:42px;padding:0 16px;border-radius:12px;border:1px solid rgba(26,20,15,.3);color:#1A140F;font:500 15px "Hanken Grotesk";display:inline-flex;align-items:center}
+.done-card{border:1px solid var(--border);background:var(--raised);border-radius:18px;padding:18px 20px;align-self:stretch}
+.done-card .big{font:500 20px/1.3 Fraunces,Georgia,serif;color:var(--display);margin:6px 0 4px}
+.done-card .ico{color:var(--trust)}
+.btn-a{height:48px;padding:0 20px;border-radius:14px;background:var(--accent);color:var(--on-accent);font:600 16px "Hanken Grotesk";display:inline-flex;align-items:center;gap:10px}
+.lnk{color:var(--accent);font-size:14px;text-decoration:underline;text-underline-offset:3px}
+
+/* Component sheet */
+.sheet{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:1240px}
+.sheet .frame{padding:22px 24px;border-radius:16px}
+.st{display:grid;grid-template-columns:150px 1fr;gap:14px 18px;align-items:center}
+.st .l{font-size:12px;color:var(--muted)}
+.sw{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;max-width:1240px}
+.sw div{border-radius:12px;overflow:hidden;background:#fff;font-size:12px;border:1px solid rgba(42,35,32,.08)}
+.sw span{display:block;height:56px}
+.sw p{margin:0;padding:8px 10px;line-height:1.4}
+[dir=rtl] .u-msg{border-radius:18px 18px 18px 6px}
+[dir=rtl] .cv-link{margin-left:0;margin-right:auto}
+[dir=rtl]{font-family:system-ui,"Geeza Pro","Segoe UI",sans-serif}
+[dir=rtl] .cv-prog i.now{background:linear-gradient(270deg,var(--warm) 50%,var(--border-strong) 50%)}
+</style>
+</head>
+<body class="board">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.5v.01"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.5v.01"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2.5"/><path d="M4 7l8 6 8-6"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M4 12h3l2-6 4 12 2-6h5"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="6.5" rx="7" ry="2.8"/><path d="M5 6.5v11c0 1.6 3.1 2.8 7 2.8s7-1.2 7-2.8v-11M5 12c0 1.6 3.1 2.8 7 2.8s7-1.2 7-2.8"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+</svg>
+<div class="wrap">
+  <div class="eyebrow" style="color:rgba(36,29,23,.69)">Design reference · v1 · 20 Nov 2026</div>
+  <h1>Guided walkthrough booking</h1>
+  <p class="lead">Visual and interaction reference for the spec in <code>SPEC-conversational-walkthrough-booking.md</code>. Tokens mirror the website's <code>src/styles/tokens.css</code> and follow <code>docs/COLOR_SYSTEM.md</code>: coral only for action and selection, cream for the visitor's own words (the "human moment"), olive for trust and privacy, caramel for progress, muted eyebrows. Brand mark and wordmark are the current assets from <code>public/brand/</code>.</p>
+  <p class="note">Copy is English reference copy; every string ships through the locale pipeline. Frames are static mockups at real sizes (1280 desktop, 390 phone). The last section is a clickable prototype using the same styles.</p>
+
+  <h2>1 · Design principles</h2>
+  <table class="spec">
+    <tr><th style="width:230px">Principle</th><th>What it means on screen</th></tr>
+    <tr><td>Editorial, not chatbot</td><td>Sundae speaks in typography, not in bubbles. Its first line is set in Fraunces like a page headline; later lines are plain body text on the panel. Only the visitor's answers sit in bubbles - cream pills, the warm "human moment" surface.</td></tr>
+    <tr><td>One decision at a time</td><td>The answer area holds exactly one input or one set of choices. Nothing else competes for attention; the log scrolls above it.</td></tr>
+    <tr><td>Coral means "act"</td><td>Coral appears only on the send button, selected choices, the focus ring and the final primary action. Progress uses caramel; trust and privacy use olive.</td></tr>
+    <tr><td>Honest and fast</td><td>Labelled "Guided booking". Typing indicator never longer than 400 ms, none with reduced motion. No human names, avatars or fake delays.</td></tr>
+    <tr><td>Always reversible</td><td>Every answer can be edited, the classic form is one tap away, and progress survives a refresh.</td></tr>
+  </table>
+
+  <h2>2 · Tokens used</h2>
+  <p class="cap">Hex values are the website's live tokens per theme. Do not add new colours; reference the tokens.</p>
+  <h3>Dark (default first visit)</h3>
+  <div class="sw">
+    <div><span style="background:#15110D"></span><p><b>Page</b><br>--navy-deep #15110D</p></div>
+    <div><span style="background:#1F1A15"></span><p><b>Panel</b><br>--navy #1F1A15</p></div>
+    <div><span style="background:#FF5C4D"></span><p><b>Action</b><br>--warm-coral #FF5C4D<br>text on it: --ink</p></div>
+    <div><span style="background:#F6F1E8"></span><p><b>Visitor answer</b><br>--cream #F6F1E8 + --ink</p></div>
+    <div><span style="background:#F6C66B"></span><p><b>Progress</b><br>--text-warm #F6C66B</p></div>
+    <div><span style="background:#A9B86B"></span><p><b>Trust / privacy</b><br>--trust #A9B86B</p></div>
+    <div><span style="background:#FBF8F4"></span><p><b>Sundae greeting</b><br>--text-display #FBF8F4</p></div>
+  </div>
+  <h3>Light</h3>
+  <div class="sw">
+    <div><span style="background:#FBF7F1"></span><p><b>Page</b><br>--navy-deep #FBF7F1</p></div>
+    <div><span style="background:#FFFFFF"></span><p><b>Panel</b><br>--navy #FFFFFF</p></div>
+    <div><span style="background:#CC3A1E"></span><p><b>Action</b><br>--accent-warm #CC3A1E<br>text on it: white</p></div>
+    <div><span style="background:#B23A1E"></span><p><b>Selected on tint</b><br>--action-on-tint #B23A1E</p></div>
+    <div><span style="background:#F6E4C4"></span><p><b>Visitor answer</b><br>--cream #F6E4C4 + --ink</p></div>
+    <div><span style="background:#98501C"></span><p><b>Progress</b><br>--text-warm #98501C</p></div>
+    <div><span style="background:#6E7C3A"></span><p><b>Trust / privacy</b><br>--trust #6E7C3A</p></div>
+  </div>
+  <p class="cap"><b>Contrast:</b> dark send button uses ink on coral (6.0:1), never white on coral (3.1:1). Light uses white on #CC3A1E (5.0:1). Selected choices: coral on its tint 4.7:1 (dark), #B23A1E on its tint 5.3:1 (light). Muted text stays at the governance minimum (cream 62% / ink 69%); don't go lighter.</p>
+
+  <h2>3 · Key screens</h2>
+
+  <h3>3.1 Desktop, dark - opening, email step (focus)</h3>
+  <div class="frame f-desk t-dark" id="frame-desktop-dark">
+    <div class="site-nav"><div class="brand"><img src="assets/sundae-mark.svg" alt=""><img src="assets/sundae-wordmark-white.png" alt="Sundae" style="height:22px"></div><span>Products</span><span>Solutions</span><span>Pricing</span><span>Why Sundae</span><span>Resources</span><span class="cta">Book a Demo</span></div>
+    <div class="desk-grid">
+      <div>
+        <div class="eyebrow">Book a walkthrough</div>
+        <div class="hero-h">See Sundae on an operation <em>like yours.</em></div>
+        <p class="intro">Bring workforce, shift execution and connected operating data into one operating picture. Crew helps teams run the work; Core helps them understand performance, decide what to do next and measure the result.</p>
+        <div class="reassure">
+          <div><svg class="ico trust"><use href="#i-db"/></svg>Your own data is optional - we can start with a sample operation.</div>
+          <div><svg class="ico trust"><use href="#i-spark"/></svg>The walkthrough is built around the answers you give here.</div>
+          <div><svg class="ico trust"><use href="#i-clock"/></svg>About a minute. Switch to the classic form at any time.</div>
+        </div>
+      </div>
+      <div class="cv" style="height:640px">
+        <div class="cv-head"><img src="assets/sundae-mark.svg" alt=""><div><div class="cv-title">Book a walkthrough</div><div class="cv-sub">Guided booking · about a minute</div></div><span class="cv-link">Use the classic form</span></div>
+        <div class="cv-prog" aria-hidden="true"><i class="done"></i><i class="now"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="cv-log">
+          <div class="who"><img src="assets/sundae-mark.svg" alt="">Sundae</div>
+          <div class="s-greet">Hi, I'm Sundae. I'll set up a walkthrough around your operation. First, what should I call you?</div>
+          <div class="u-wrap"><div class="u-msg">Sara Haddad</div><span class="u-edit">Edit</span></div>
+          <div class="s-msg">Nice to meet you, Sara. Which work email should the invite go to?</div>
+        </div>
+        <div class="cv-ans">
+          <div class="field-row"><div class="field foc">sara@harbor<span class="caret"></span></div><div class="send"><svg class="ico"><use href="#i-send"/></svg></div></div>
+          <div class="hint">Press Enter to send</div>
+        </div>
+        <div class="cv-foot"><svg class="ico trust"><use href="#i-lock"/></svg>Only used to arrange your walkthrough · <u>Privacy</u></div>
+      </div>
+    </div>
+  </div>
+  <p class="cap"><b>Layout:</b> the page intro keeps the existing /demo copy (heading shown is a proposal - keep the current H1 if preferred). Panel 560 px wide, 24 px radius, <code>--shadow-xl</code>-style shadow, sits where the form card sits today. The Sundae greeting is Fraunces 23/1.35; everything after is Hanken Grotesk 16/1.6.</p>
+
+  <h3>3.2 Desktop, light - walkthrough brief before submit</h3>
+  <div class="frame f-desk t-light" id="frame-desktop-light">
+    <div class="site-nav"><div class="brand"><img src="assets/sundae-mark.svg" alt=""><img src="assets/sundae-wordmark-ink.png" alt="Sundae" style="height:22px"></div><span>Products</span><span>Solutions</span><span>Pricing</span><span>Why Sundae</span><span>Resources</span><span class="cta">Book a Demo</span></div>
+    <div class="desk-grid">
+      <div>
+        <div class="eyebrow">Book a walkthrough</div>
+        <div class="hero-h">See Sundae on an operation <em>like yours.</em></div>
+        <p class="intro">Bring workforce, shift execution and connected operating data into one operating picture. Crew helps teams run the work; Core helps them understand performance, decide what to do next and measure the result.</p>
+        <div class="reassure">
+          <div><svg class="ico trust"><use href="#i-db"/></svg>Your own data is optional - we can start with a sample operation.</div>
+          <div><svg class="ico trust"><use href="#i-spark"/></svg>The walkthrough is built around the answers you give here.</div>
+          <div><svg class="ico trust"><use href="#i-clock"/></svg>About a minute. Switch to the classic form at any time.</div>
+        </div>
+      </div>
+      <div class="cv" style="height:676px">
+        <div class="cv-head"><img src="assets/sundae-mark.svg" alt=""><div><div class="cv-title">Book a walkthrough</div><div class="cv-sub">Guided booking · about a minute</div></div><span class="cv-link">Use the classic form</span></div>
+        <div class="cv-prog" aria-hidden="true"><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="now"></i></div>
+        <div class="cv-log" style="gap:12px">
+          <div class="u-wrap"><div class="u-msg">Yes, United Arab Emirates</div><span class="u-edit">Edit</span></div>
+          <div class="s-msg">Here's the walkthrough I'll share with the team:</div>
+          <div class="brief">
+            <h4>Your walkthrough</h4>
+            <div class="meta">Harbor Group · 11-25 locations · Operations · Oracle MICROS Simphony</div>
+            <ol>
+              <li><span>Opening checklist, shift logbook and handover</span><span class="tag">Crew</span></li>
+              <li><span>Build a week's schedule and approve hours</span><span class="tag">Crew</span></li>
+              <li><span>A live shift, a margin leak, and the measured recovery</span><span class="tag">Core</span></li>
+            </ol>
+            <div class="pnote"><svg class="ico"><use href="#i-info"/></svg>Tasks and the logbook are in Crew Operating and Crew Complete.</div>
+            <div class="brief-actions"><span class="btn-p">Looks right <svg class="ico" style="width:18px;height:18px"><use href="#i-send"/></svg></span><span class="btn-g">Change something</span></div>
+          </div>
+        </div>
+        <div class="cv-foot" style="padding-top:12px"><svg class="ico trust"><use href="#i-lock"/></svg>Only used to arrange your walkthrough · <u>Privacy</u></div>
+      </div>
+    </div>
+  </div>
+  <p class="cap"><b>Brief card:</b> cream relief surface with ink text pinned in both themes (governance rule 7). Fraunces 21 title; numbered agenda with neutral Crew/Core tags (never module taxonomy colours); package notes come from the shared constants file. The answer area is replaced by the card's own actions at this step.</p>
+
+  <div class="row" style="margin-top:40px">
+    <div>
+      <h3>3.3 Phone, dark - multi-select focus</h3>
+      <div class="frame f-mob t-dark" id="frame-mobile-dark-chips">
+        <div class="mob-bar"><img src="assets/sundae-wordmark-white.png" alt="Sundae" style="height:20px"><svg class="ico" style="color:var(--text-2)" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></div>
+        <div class="cv" style="border-radius:0;border:0;box-shadow:none;height:768px;background:transparent">
+          <div class="cv-head"><img src="assets/sundae-mark.svg" alt=""><div><div class="cv-title">Book a walkthrough</div><div class="cv-sub">Guided booking</div></div><span class="cv-link">Classic form</span></div>
+          <div class="cv-prog"><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="now"></i><i></i><i></i></div>
+          <div class="cv-log" style="padding:18px 18px 6px">
+            <div class="s-msg">What's your role?</div>
+            <div class="u-wrap"><div class="u-msg">Operations</div></div>
+            <div class="s-msg">How many locations do you run?</div>
+            <div class="u-wrap"><div class="u-msg">11-25</div></div>
+            <div class="s-msg">What would you like to see? <span style="color:var(--muted)">Pick any.</span></div>
+          </div>
+          <div class="cv-ans" style="padding:14px 16px 10px">
+            <div class="chips">
+              <span class="chip on"><svg class="ico"><use href="#i-check"/></svg>Tasks and logbook</span>
+              <span class="chip">Scheduling and attendance</span>
+              <span class="chip">Payroll</span>
+              <span class="chip">Tips</span>
+              <span class="chip on"><svg class="ico"><use href="#i-check"/></svg>Margin and performance</span>
+              <span class="chip">Forecasting</span>
+              <span class="chip">Competitors and market</span>
+              <span class="chip done">Done · 2 selected</span>
+            </div>
+          </div>
+          <div class="cv-foot" style="padding:0 16px 12px"><svg class="ico trust"><use href="#i-lock"/></svg>Only used to arrange your walkthrough</div>
+        </div>
+      </div>
+      <p class="cap" style="max-width:390px"><b>Phone:</b> the panel becomes the page (no card chrome). Choices wrap; 40 px tall, 8 px gaps. "Done" is the only solid coral element and shows the count.</p>
+    </div>
+    <div>
+      <h3>3.4 Phone, light - personal email and error</h3>
+      <div class="frame f-mob t-light" id="frame-mobile-light-email">
+        <div class="mob-bar"><img src="assets/sundae-wordmark-ink.png" alt="Sundae" style="height:20px"><svg class="ico" style="color:var(--text-2)" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></div>
+        <div class="cv" style="border-radius:0;border:0;box-shadow:none;height:768px;background:transparent">
+          <div class="cv-head"><img src="assets/sundae-mark.svg" alt=""><div><div class="cv-title">Book a walkthrough</div><div class="cv-sub">Guided booking</div></div><span class="cv-link">Classic form</span></div>
+          <div class="cv-prog"><i class="done"></i><i class="now"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="cv-log" style="padding:18px 18px 6px">
+            <div class="who"><img src="assets/sundae-mark.svg" alt="">Sundae</div>
+            <div class="s-greet" style="font-size:21px">Hi, I'm Sundae. You priced Core Foundation for 10 locations. I'll bring that into the walkthrough. What should I call you?</div>
+            <div class="u-wrap"><div class="u-msg">Omar</div><span class="u-edit">Edit</span></div>
+            <div class="s-msg">Nice to meet you, Omar. Which work email should the invite go to?</div>
+            <div class="u-wrap"><div class="u-msg">omar.k@gmail.com</div><span class="u-edit">Edit</span></div>
+            <div class="s-msg">That looks like a personal address. Use it anyway, or add a work one?</div>
+          </div>
+          <div class="cv-ans" style="padding:14px 16px 10px">
+            <div class="chips"><span class="chip">Use it anyway</span><span class="chip foc">Add a work email</span></div>
+            <div style="height:14px"></div>
+            <div class="field-row"><div class="field err">omar@harbor</div><div class="send"><svg class="ico"><use href="#i-send"/></svg></div></div>
+            <div class="err-msg"><svg class="ico"><use href="#i-alert"/></svg>That doesn't look like an email yet</div>
+          </div>
+        </div>
+      </div>
+      <p class="cap" style="max-width:390px"><b>States shown together for reference:</b> the keyboard focus ring on a choice (2 px coral, 2 px offset) and the inline error (danger border, icon plus text, announced). In the live flow only one of these appears at a time.</p>
+    </div>
+    <div>
+      <h3>3.5 Phone, dark - Arabic (RTL) opening</h3>
+      <div class="frame f-mob t-dark" id="frame-mobile-dark-rtl" dir="rtl" lang="ar">
+        <div class="mob-bar"><img src="assets/sundae-wordmark-white.png" alt="Sundae" style="height:20px"><svg class="ico" style="color:var(--text-2)" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></div>
+        <div class="cv" style="border-radius:0;border:0;box-shadow:none;height:768px;background:transparent">
+          <div class="cv-head"><img src="assets/sundae-mark.svg" alt=""><div><div class="cv-title">احجز جولة تعريفية</div><div class="cv-sub">حجز موجَّه · حوالي دقيقة</div></div><span class="cv-link">النموذج التقليدي</span></div>
+          <div class="cv-prog"><i class="now"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="cv-log" style="padding:18px 18px 6px">
+            <div class="who"><img src="assets/sundae-mark.svg" alt="">Sundae</div>
+            <div class="s-greet" style="font-family:inherit;font-size:22px;line-height:1.6">مرحباً، أنا <bdi>Sundae</bdi>. كنت تطّلع على السجل الرقمي للمطعم، لذا سأركّز الجولة على تسليم الورديات والمهام. بماذا أناديك؟</div>
+          </div>
+          <div class="cv-ans" style="padding:14px 16px 10px">
+            <div class="field-row"><div class="field ph">اسمك</div><div class="send"><svg class="ico" style="transform:scaleX(-1)"><use href="#i-send"/></svg></div></div>
+          </div>
+          <div class="cv-foot" style="padding:0 16px 12px"><svg class="ico trust"><use href="#i-lock"/></svg>تُستخدم فقط لترتيب جولتك</div>
+        </div>
+      </div>
+      <p class="cap" style="max-width:390px"><b>RTL:</b> mirror the layout with logical properties (<code>margin-inline</code>, <code>padding-inline</code>), flip directional icons, keep the brand name in Latin script and wrap it in <code>&lt;bdi&gt;</code> so surrounding punctuation stays on the correct side. Fraunces has no Arabic glyphs, so the greeting uses the body font at a larger size. Arabic text here is reference only; final copy comes from the locale pipeline.</p>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top:40px">
+    <div>
+      <h3>3.6 Phone, dark - Phase 1 ending</h3>
+      <div class="frame f-mob t-dark" id="frame-mobile-dark-done">
+        <div class="mob-bar"><img src="assets/sundae-wordmark-white.png" alt="Sundae" style="height:20px"><svg class="ico" style="color:var(--text-2)" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></div>
+        <div class="cv" style="border-radius:0;border:0;box-shadow:none;height:768px;background:transparent">
+          <div class="cv-head"><img src="assets/sundae-mark.svg" alt=""><div><div class="cv-title">Book a walkthrough</div><div class="cv-sub">Request sent</div></div></div>
+          <div class="cv-prog"><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i></div>
+          <div class="cv-log" style="padding:18px 18px 6px">
+            <div class="u-wrap"><div class="u-msg">Looks right</div></div>
+            <div class="done-card">
+              <svg class="ico" style="width:26px;height:26px"><use href="#i-mail"/></svg>
+              <div class="big">Thanks, Sara. Check your inbox to pick a time.</div>
+              <div style="color:var(--text-2);font-size:15px">I've sent a booking link to <b style="color:var(--text)">sara@harborgroup.com</b>. The team has your walkthrough brief and will be in touch too.</div>
+            </div>
+            <span class="lnk" style="margin-top:4px">Explore pricing while you wait</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3>3.7 Desktop crop, dark - Phase 2 inline booking hand-off</h3>
+      <div class="frame f-crop t-dark" id="frame-phase2-handoff" style="padding:28px;background:var(--page)">
+        <div class="cv">
+          <div class="cv-head"><img src="assets/sundae-mark.svg" alt=""><div><div class="cv-title">Book a walkthrough</div><div class="cv-sub">Guided booking · last step</div></div></div>
+          <div class="cv-prog"><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="done"></i><i class="now"></i></div>
+          <div class="cv-log">
+            <div class="u-wrap"><div class="u-msg">Looks right</div></div>
+            <div class="s-msg">Your request is in. Pick a time that suits you - it takes a few seconds.</div>
+            <div class="done-card" style="display:flex;gap:16px;align-items:center">
+              <svg class="ico" style="width:28px;height:28px;color:var(--warm)"><use href="#i-cal"/></svg>
+              <div style="flex:1"><div style="font-weight:600">Times shown in your time zone</div><div style="font-size:14px;color:var(--text-2)">Opens Sundae's booking screen. You can reschedule from the confirmation email.</div></div>
+            </div>
+          </div>
+          <div class="cv-ans" style="display:flex;gap:14px;align-items:center">
+            <span class="btn-a"><svg class="ico" style="width:20px;height:20px"><use href="#i-cal"/></svg>Choose a time</span>
+            <span class="lnk">I'll use the email link later</span>
+          </div>
+        </div>
+      </div>
+      <p class="cap" style="max-width:620px"><b>Hand-off:</b> "Choose a time" opens the existing full-screen <code>BookingView</code> with the short-lived token. When it closes, the conversation adds "Booked for {time}" as a final Sundae line. No new slot picker is built.</p>
+    </div>
+  </div>
+
+  <h2>4 · Components and states</h2>
+  <p class="cap">Every interactive element shown in both themes. Sizes are CSS pixels.</p>
+  <div class="sheet">
+    <div class="frame t-dark" id="sheet-dark">
+      <div class="st">
+        <span class="l">Choice · default</span><span><span class="chip">Operations</span></span>
+        <span class="l">Choice · hover</span><span><span class="chip hov">Operations</span></span>
+        <span class="l">Choice · focus</span><span><span class="chip foc">Operations</span></span>
+        <span class="l">Choice · selected</span><span><span class="chip on"><svg class="ico"><use href="#i-check"/></svg>Operations</span></span>
+        <span class="l">Done (multi)</span><span><span class="chip done">Done · 2 selected</span></span>
+        <span class="l">Input · focus</span><span class="field-row"><span class="field foc">sara@harbor<span class="caret"></span></span><span class="send"><svg class="ico"><use href="#i-send"/></svg></span></span>
+        <span class="l">Input · error</span><span><span class="field-row"><span class="field err">sara@harbor</span><span class="send"><svg class="ico"><use href="#i-send"/></svg></span></span><span class="err-msg"><svg class="ico"><use href="#i-alert"/></svg>That doesn't look like an email yet</span></span>
+        <span class="l">Sundae typing</span><span class="typing" aria-label="Sundae is typing"><i></i><i></i><i></i></span>
+        <span class="l">Visitor answer</span><span style="display:flex"><span class="u-wrap" style="align-self:flex-start;align-items:flex-start"><span class="u-msg">11-25</span><span class="u-edit">Edit</span></span></span>
+        <span class="l">Progress</span><span class="cv-prog" style="padding:0;border:0"><i class="done"></i><i class="done"></i><i class="done"></i><i class="now"></i><i></i><i></i><i></i><i></i></span>
+      </div>
+    </div>
+    <div class="frame t-light" id="sheet-light">
+      <div class="st">
+        <span class="l">Choice · default</span><span><span class="chip">Operations</span></span>
+        <span class="l">Choice · hover</span><span><span class="chip hov">Operations</span></span>
+        <span class="l">Choice · focus</span><span><span class="chip foc">Operations</span></span>
+        <span class="l">Choice · selected</span><span><span class="chip on"><svg class="ico"><use href="#i-check"/></svg>Operations</span></span>
+        <span class="l">Done (multi)</span><span><span class="chip done">Done · 2 selected</span></span>
+        <span class="l">Input · focus</span><span class="field-row"><span class="field foc">sara@harbor<span class="caret"></span></span><span class="send"><svg class="ico"><use href="#i-send"/></svg></span></span>
+        <span class="l">Input · error</span><span><span class="field-row"><span class="field err">sara@harbor</span><span class="send"><svg class="ico"><use href="#i-send"/></svg></span></span><span class="err-msg"><svg class="ico"><use href="#i-alert"/></svg>That doesn't look like an email yet</span></span>
+        <span class="l">Sundae typing</span><span class="typing" aria-label="Sundae is typing"><i></i><i></i><i></i></span>
+        <span class="l">Visitor answer</span><span style="display:flex"><span class="u-wrap" style="align-self:flex-start;align-items:flex-start"><span class="u-msg">11-25</span><span class="u-edit">Edit</span></span></span>
+        <span class="l">Progress</span><span class="cv-prog" style="padding:0;border:0"><i class="done"></i><i class="done"></i><i class="done"></i><i class="now"></i><i></i><i></i><i></i><i></i></span>
+      </div>
+    </div>
+  </div>
+
+  <h3>Measurements</h3>
+  <table class="spec">
+    <tr><th style="width:230px">Element</th><th>Spec</th></tr>
+    <tr><td>Panel (desktop)</td><td>560 px wide; radius 24; 1 px <code>--border-default</code>; shadow <code>--shadow-xl</code> (dark) / <code>--shadow-card</code> (light); background <code>--navy</code>. Height fills the hero row (min 600, max 720); the log scrolls, the answer area never moves.</td></tr>
+    <tr><td>Header</td><td>Mark 32 px (radius 9) · title Hanken 15/600 · subline 13 muted · classic-form link 13, <code>--accent-warm</code>, underlined. Padding 16/20.</td></tr>
+    <tr><td>Progress</td><td>8 segments, 3 px tall, 4 px gaps; done = <code>--text-warm</code>; current half-filled; rest = strong border. Hidden from assistive tech; the text "Step 3 of 8" is announced instead.</td></tr>
+    <tr><td>Sundae greeting</td><td>Fraunces 23/1.35 (21 on phone), <code>--text-display</code>, preceded by a 12 px "Sundae" label with an 18 px mark. Only the first line of the conversation uses Fraunces.</td></tr>
+    <tr><td>Sundae line</td><td>Hanken 16/1.6, <code>--text-primary</code>, max 88% width, no bubble. 14 px gap between messages.</td></tr>
+    <tr><td>Visitor answer</td><td>Cream pill (<code>--cream</code>, ink text), Hanken 15/1.45, padding 10/15, radius 18 18 6 18 (mirrored in RTL). "Edit" link 12 muted under it.</td></tr>
+    <tr><td>Choice</td><td>Height 40 (44 on touch), radius pill, padding 0 16, Hanken 15/500, 1 px strong border. Selected: <code>--tint</code> fill, coral border, check icon, <code>--action-on-tint</code> text, <code>aria-pressed="true"</code>.</td></tr>
+    <tr><td>Input + send</td><td>Field 50 tall, radius 14, 16 px text (prevents iOS zoom). Focus: coral border + 3 px tint ring. Send 50×50, radius 14, coral; arrow icon ink (dark) / white (light). Proper <code>autocomplete</code> on every field.</td></tr>
+    <tr><td>Brief card</td><td>Cream surface, ink pinned, radius 18, padding 18/20. Title Fraunces 21. Agenda items 14.5/1.45 with 22 px numbered rings and neutral Crew/Core tags. Primary button 42 tall, <code>#CC3A1E</code> with white text in both themes (cream background).</td></tr>
+    <tr><td>Privacy line</td><td>12 muted with a 15 px olive lock; links to the privacy policy.</td></tr>
+  </table>
+
+  <h2>5 · Motion and behaviour</h2>
+  <table class="spec">
+    <tr><th style="width:230px">Moment</th><th>Behaviour</th><th style="width:250px">Reduced motion</th></tr>
+    <tr><td>New Sundae line</td><td>Typing dots for 250-400 ms (never longer), then the line fades in and rises 6 px over 180 ms, <code>cubic-bezier(.2,.7,.2,1)</code>.</td><td>No dots, no movement; appears instantly.</td></tr>
+    <tr><td>Visitor answer</td><td>Pill appears from the answer area: 160 ms fade plus 8 px rise. The answer area swaps to the next control after the Sundae line lands.</td><td>Instant.</td></tr>
+    <tr><td>Choice press</td><td>Scale 0.98 for 90 ms; selected state transitions colour over 120 ms.</td><td>Colour change only.</td></tr>
+    <tr><td>Progress</td><td>Segment fills left to right over 240 ms.</td><td>Instant.</td></tr>
+    <tr><td>Log scroll</td><td>Keep the newest Sundae line and the answer area in view; smooth scroll 200 ms. Never move focus away from the answer control.</td><td>Jump scroll.</td></tr>
+    <tr><td>Brief card</td><td>Fades in over 220 ms; agenda items stagger 40 ms each.</td><td>Instant, no stagger.</td></tr>
+    <tr><td>Errors</td><td>Field border and message appear together; no shake.</td><td>Same.</td></tr>
+  </table>
+
+  <h2>6 · Clickable prototype</h2>
+  <p class="cap">Same styles, scripted flow, nothing sent. Use the toggles to switch theme and entry context.</p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 16px" id="pt-controls">
+    <button class="chip" data-theme="t-dark" style="color:#241D17;border-color:rgba(42,35,32,.3)">Dark</button>
+    <button class="chip" data-theme="t-light" style="color:#241D17;border-color:rgba(42,35,32,.3)">Light</button>
+    <span style="width:18px"></span>
+    <button class="chip" data-ctx="home" style="color:#241D17;border-color:rgba(42,35,32,.3)">From homepage</button>
+    <button class="chip" data-ctx="logbook" style="color:#241D17;border-color:rgba(42,35,32,.3)">From logbook page</button>
+    <button class="chip" data-ctx="pricing" style="color:#241D17;border-color:rgba(42,35,32,.3)">From pricing estimate</button>
+  </div>
+  <div class="frame t-dark" id="pt" style="width:640px;padding:28px;background:var(--page)">
+    <div class="cv" style="height:660px">
+      <div class="cv-head"><img src="assets/sundae-mark.svg" alt=""><div><div class="cv-title">Book a walkthrough</div><div class="cv-sub">Guided booking · about a minute</div></div><button class="cv-link" id="pt-classic" style="background:none;border:0;cursor:pointer">Use the classic form</button></div>
+      <div class="cv-prog" id="pt-prog" aria-hidden="true"></div>
+      <div class="cv-log" id="pt-log" role="log" aria-live="polite" style="overflow:auto"></div>
+      <div class="cv-ans" id="pt-ans"></div>
+      <div class="cv-foot"><svg class="ico trust"><use href="#i-lock"/></svg>Only used to arrange your walkthrough · <u>Privacy</u></div>
+    </div>
+  </div>
+  <p class="note" id="pt-status" style="margin-top:8px"></p>
+</div>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const log = $('pt-log'), ans = $('pt-ans'), prog = $('pt-prog'), frame = $('pt');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const FREE = ['gmail','hotmail','outlook','live','yahoo','icloud','proton'];
+  const TOP = [['tasks','Tasks and logbook'],['sched','Scheduling and attendance'],['pay','Payroll'],['tips','Tips'],['margin','Margin and performance'],['fore','Forecasting'],['market','Competitors and market']];
+  const AG = {tasks:['Opening checklist, shift logbook and handover','Crew'],sched:["Build a week's schedule and approve hours",'Crew'],pay:['Preview a pay cycle for your country','Crew'],tips:['Tip rules through to payroll handoff','Crew'],margin:['A live shift, a margin leak, and the measured recovery','Core'],fore:['The next 14 days and one what-if','Core'],market:['Competitor and local event signals','Core']};
+  const NOTE = {tasks:'Tasks and the logbook are in Crew Operating and Crew Complete.',tips:'Tip workflows are in Crew Operating and Crew Complete, or with Crew Payroll.',fore:'Foresight is included in Core Performance and available with the other packages.',market:'Watchtower is available with Core Growth and Core Performance.',pay:'Payroll availability is confirmed for your country before setup.'};
+  let ctx = 'home', S, step;
+  const icon = id => `<svg class="ico"><use href="#${id}"/></svg>`;
+  const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  function setProg(n){prog.innerHTML=Array.from({length:8},(_,i)=>`<i class="${i<n?'done':i===n?'now':''}"></i>`).join('')}
+  function add(html){log.insertAdjacentHTML('beforeend',html);log.scrollTop=log.scrollHeight}
+  function sundae(text, greet, then){
+    ans.innerHTML='';
+    const t=document.createElement('span');t.className='typing';t.innerHTML='<i></i><i></i><i></i>';
+    if(!reduce) log.appendChild(t);
+    setTimeout(()=>{t.remove();if(greet)add('<div class="who"><img src="assets/sundae-mark.svg" alt="">Sundae</div>');add(`<div class="${greet?'s-greet':'s-msg'}">${text}</div>`);then&&then()},reduce?0:340);
+  }
+  function you(text){add(`<div class="u-wrap"><div class="u-msg">${esc(text)}</div></div>`)}
+  function input(label, ph, type, validate, cb){
+    ans.innerHTML=`<div class="field-row"><input aria-label="${label}" type="${type}" placeholder="${ph}" autocomplete="${type==='email'?'email':'name'}" class="field" style="font:16px 'Hanken Grotesk';outline:none"><button class="send" aria-label="Send" style="border:0;cursor:pointer">${icon('i-send')}</button></div><div class="err-msg" hidden></div>`;
+    const i=ans.querySelector('input'),b=ans.querySelector('button'),e=ans.querySelector('.err-msg');
+    i.onfocus=()=>i.classList.add('foc');i.onblur=()=>i.classList.remove('foc');i.focus();
+    const go=()=>{const v=i.value.trim(),m=validate(v);if(m){e.hidden=false;e.innerHTML=icon('i-alert')+m;i.classList.add('err');return}cb(v)};
+    b.onclick=go;i.onkeydown=k=>{if(k.key==='Enter')go()};i.oninput=()=>{e.hidden=true;i.classList.remove('err')};
+  }
+  function choices(opts, multi, pre, cb){
+    const sel=new Set(pre||[]);
+    ans.innerHTML='<div class="chips"></div><div class="err-msg" hidden></div>';
+    const w=ans.querySelector('.chips'),e=ans.querySelector('.err-msg');
+    const draw=()=>{w.innerHTML='';opts.forEach(([k,l])=>{const b=document.createElement('button');const on=sel.has(k);b.className='chip'+(on?' on':'');b.setAttribute('aria-pressed',on);b.innerHTML=(on?icon('i-check'):'')+l;b.onclick=()=>{if(!multi)return cb(k,l);sel.has(k)?sel.delete(k):sel.add(k);e.hidden=true;draw()};w.appendChild(b)});
+      if(multi){const d=document.createElement('button');d.className='chip done';d.textContent=sel.size?`Done · ${sel.size} selected`:'Done';d.onclick=()=>{if(!sel.size){e.hidden=false;e.innerHTML=icon('i-alert')+'Pick at least one';return}cb([...sel])};w.appendChild(d)}};
+    draw();w.querySelector('button')?.focus();
+  }
+  const steps=[
+    ()=>{const o={home:"Hi, I'm Sundae. I'll set up a walkthrough around your operation. First, what should I call you?",logbook:"Hi, I'm Sundae. You were looking at the digital logbook, so I'll centre the walkthrough on shift handover and tasks. What should I call you?",pricing:"Hi, I'm Sundae. You priced Core Foundation for 10 locations. I'll bring that into the walkthrough. What should I call you?"};
+      sundae(o[ctx],true,()=>input('Your name','Your name','text',v=>v.length<2?'Enter your name':'',v=>{S.name=v.split(' ')[0];you(v);next()}))},
+    ()=>sundae(`Nice to meet you, ${esc(S.name)}. Which work email should the invite go to?`,false,()=>input('Work email','name@company.com','email',v=>/^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(v)?'':"That doesn't look like an email yet",v=>{S.email=v;you(v);const d=v.split('@')[1].split('.')[0].toLowerCase();if(FREE.includes(d)){sundae('That looks like a personal address. Use it anyway, or add a work one?',false,()=>choices([['use','Use it anyway'],['work','Add a work email']],false,0,(k,l)=>{you(l);if(k==='use'){S.co='';next()}else{step--;next()}}))}else{S.co=d.charAt(0).toUpperCase()+d.slice(1);next()}})),
+    ()=>S.co?sundae(`Are you with <b>${esc(S.co)}</b>?`,false,()=>choices([['y','Yes'],['n','Different name']],false,0,(k,l)=>{you(l);k==='y'?next():input('Company','Company or group','text',v=>v?'':'Enter a company name',v=>{S.co=v;you(v);next()})})):sundae("What's the company or group called?",false,()=>input('Company','Company or group','text',v=>v?'':'Enter a company name',v=>{S.co=v;you(v);next()})),
+    ()=>sundae("What's your role?",false,()=>choices([['owner','Owner or CEO'],['ops','Operations'],['fin','Finance'],['hr','HR and people'],['tech','Tech and data'],['other','Other']],false,0,(k,l)=>{S.role=l;you(l);next()})),
+    ()=>ctx==='pricing'?(S.locs='10',sundae("I've got <b>10 locations</b> from your estimate.",false,next)):sundae('How many locations do you run?',false,()=>choices([['1','1'],['2-5','2-5'],['6-10','6-10'],['11-25','11-25'],['26-50','26-50'],['51-100','51-100'],['101-200','101-200'],['200+','200+']],false,0,(k,l)=>{S.locs=l;you(l);next()})),
+    ()=>sundae('What would you like to see? <span style="color:var(--muted)">Pick any.</span>',false,()=>choices(TOP,true,ctx==='logbook'?['tasks']:ctx==='pricing'?['margin']:[],ks=>{S.top=ks;you(ks.map(k=>TOP.find(t=>t[0]===k)[1]).join(', '));next()})),
+    ()=>sundae('Which POS do you use? Your own data is optional; we can start with a sample operation like yours.',false,()=>choices([['sim','Oracle MICROS Simphony'],['sq','Square'],['toast','Toast'],['clover','Clover'],['other','Other'],['ns','Not sure']],false,0,(k,l)=>{S.pos=l;you(l);next()})),
+    ()=>sundae("Looks like you're in the <b>United Arab Emirates</b>. Right?",false,()=>choices([['y','Yes'],['n','Somewhere else']],false,0,(k,l)=>{you(l);S.country=k==='y'?'United Arab Emirates':'(country select)';next()})),
+    ()=>{const order=[...S.top].sort((a,b)=>(AG[a][1]==='Crew'?0:1)-(AG[b][1]==='Crew'?0:1));const notes=order.map(k=>NOTE[k]).filter(Boolean);
+      sundae("Here's the walkthrough I'll share with the team:",false,()=>{add(`<div class="brief"><h4>Your walkthrough</h4><div class="meta">${esc(S.co||'Your group')} · ${esc(S.locs)} locations · ${esc(S.role)} · ${esc(S.pos)}</div><ol>${order.map(k=>`<li><span>${AG[k][0]}</span><span class="tag">${AG[k][1]}</span></li>`).join('')}</ol>${notes.map(n=>`<div class="pnote">${icon('i-info')}${n}</div>`).join('')}<div class="brief-actions"><button class="btn-p" id="pt-ok" style="border:0;cursor:pointer">Looks right ${icon('i-send')}</button><button class="btn-g" id="pt-change" style="background:none;cursor:pointer">Change something</button></div></div>`);
+        $('pt-ok').onclick=()=>{you('Looks right');setProg(8);sundae(`Thanks, ${esc(S.name)}. I've sent a booking link to <b>${esc(S.email)}</b> so you can pick a time. The team has your brief too.`,false,()=>{ans.innerHTML='<button class="chip" id="pt-again">Start again</button>';$('pt-again').onclick=start;$('pt-status').textContent='Prototype only: nothing is sent or booked.'})};
+        $('pt-change').onclick=()=>{step=4;next()};
+      })}
+  ];
+  function next(){step++;setProg(step);if(step<steps.length)steps[step]()}
+  function start(){S={top:[]};step=0;log.innerHTML='';$('pt-status').textContent='';setProg(0);steps[0]()}
+  document.querySelectorAll('#pt-controls [data-theme]').forEach(b=>b.onclick=()=>{frame.className='frame '+b.dataset.theme});
+  document.querySelectorAll('#pt-controls [data-ctx]').forEach(b=>b.onclick=()=>{ctx=b.dataset.ctx;start()});
+  $('pt-classic').onclick=()=>{$('pt-status').textContent='In the product this swaps to the classic form with answers carried over.'};
+  start();
+})();
+</script>
+</body>
+</html>
