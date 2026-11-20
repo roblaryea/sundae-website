@@ -54,14 +54,14 @@ export const FOCUS_FACTS: Record<FocusKey, FocusFact> = {
     layer: 'crew',
     label: 'Tasks and logbook',
     agenda: 'Opening checklist, shift logbook and handover',
-    note: 'Tasks and the logbook are in Crew Operating and Crew Complete.',
+    note: 'Tasks and the logbook are in Crew Manage, Crew Operating and Crew Complete.',
   },
   tips: {
     key: 'tips',
     layer: 'crew',
     label: 'Tips',
     agenda: 'Tip rules through to payroll handoff',
-    note: 'Tip workflows are in Crew Operating and Crew Complete, or with Crew Payroll.',
+    note: 'Tip workflows are in Crew Operating and Crew Complete, or with Crew Pay.',
   },
   margin_performance: {
     key: 'margin_performance',

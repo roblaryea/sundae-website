@@ -1,66 +1,58 @@
 /**
- * Builds a deep-link from a completed diagnostic into the pricing simulator
- * (the separate `sundae-pricing` Vite app at pricing.sundae.io) with the
- * operator's configuration PRE-FILLED — so "Open pricing simulator" lands them
- * on a populated cost summary instead of restarting the whole questionnaire.
+ * Deep link from a finished diagnostic into the pricing calculator
+ * (pricing.sundae.io) with the report's selection prefilled, so the operator
+ * sees the same list price there as in the report (spec 4.4).
  *
- * The simulator reads the `cfg` param (see Simulator.tsx in sundae-pricing),
- * seeds its Zustand store, and jumps straight to the Review & Launch summary.
- * Keep `SimPrefill` in sync with the reader on the simulator side.
+ * The link carries the headline selection only: the Core package, the Crew
+ * modules and the exact location count. Optional add-ons (Foresight &
+ * Action, Watchtower, concept modules) stay out of it, exactly as they stay
+ * out of the report's price. Concept answers travel as operating models,
+ * which only suggest relevant modules in the calculator and add no cost.
+ * Contact details never go into the URL.
  */
 
-import type { DiagnosticResponses, DiagnosticReport } from "./engine";
-import { encodePricingIntent, type PricingIntent } from "../pricingIntent";
+import { encodePricingIntent, PAYROLL_COUNTRY_CODES, type PricingIntent } from "../pricingIntent";
+import type { DiagnosticResponses } from "./questions";
+import type { Recommendation } from "./rules";
 
 const SIM_BASE = "https://pricing.sundae.io";
 
-const OUTLET_TO_LOCATIONS: Record<string, number> = {
-  "1": 1, "2_5": 4, "6_15": 10, "16_50": 33, "51_150": 100, "150_plus": 200,
+const OPERATING_MODEL_FOR_CONCEPT: Record<string, PricingIntent["operatingModels"][number]> = {
+  franchise: "franchise",
+  hotel_fb: "hotel_fb",
+  cloud_kitchen: "cloud_kitchen",
+  catering: "catering",
+  central_kitchen: "production",
 };
 
-export type SimPrefill = PricingIntent;
+const values = (value: string | string[] | undefined): string[] =>
+  Array.isArray(value) ? value : value ? [value] : [];
 
-function crewSkusFromStack(report: DiagnosticReport): string[] {
-  const crew = report.recommendedStack.find((s) => s.layer === "crew");
-  if (!crew) return [];
-  // Match the v1.7 Crew names the engine now emits (Crew Operating /
-  // Schedule & Time / Crew Schedule). The emitted IDS below are the
-  // simulator's wire format, NOT sellable SKU keys — see the note above.
-  if (/crew operating/i.test(crew.label)) {
-    return ["crew_operations", "crew_scheduling", "crew_tna", "crew_payroll"];
-  }
-  if (/schedule & time/i.test(crew.label)) return ["crew_scheduling", "crew_tna"];
-  return ["crew_scheduling"];
-}
-
-export function buildSimPrefill(
-  responses: DiagnosticResponses,
-  report: DiagnosticReport,
-): SimPrefill {
-  const outletKey = String(
-    Array.isArray(responses.outlets) ? responses.outlets[0] : responses.outlets ?? "",
-  );
-  const locations = OUTLET_TO_LOCATIONS[outletKey] ?? 1;
-
-  const core = report.recommendedStack.find((s) => s.layer === 'core');
-  const label = core?.label ?? '';
-  const corePackage = /performance/i.test(label) ? 'core_performance'
-    : /growth/i.test(label) ? 'core_growth' : /margin/i.test(label) ? 'core_margin' : 'core_foundation';
-  const crewSkus = crewSkusFromStack(report) as PricingIntent['crewSkus'];
-  const watchtower = report.recommendedStack.some((s) => s.layer === 'watchtower') && ['core_growth','core_performance'].includes(corePackage);
+export function buildSimPrefill(rec: Recommendation, responses: DiagnosticResponses): PricingIntent {
+  const crewSkus = (rec.crew?.selection ?? []) as PricingIntent["crewSkus"];
+  const operatingModels = [
+    ...new Set(values(responses.concepts).map((concept) => OPERATING_MODEL_FOR_CONCEPT[concept]).filter(Boolean)),
+  ];
+  const payrollCountry = rec.crew
+    ? values(responses.payroll_countries).find((code) => (PAYROLL_COUNTRY_CODES as readonly string[]).includes(code)) ?? ""
+    : "";
   return {
-    v: 2, layer: crewSkus.length ? (core ? 'both' : 'crew') : 'core', corePackage,
-    locations, addOns: [], crewSkus, watchtowerModules: watchtower ? ['bundle'] : [],
-    crossIntelligence: 'none', billingCycle: 'monthly', operatingModels: [], employees: null, payrollCountry: '',
+    v: 2,
+    layer: crewSkus.length ? "both" : "core",
+    corePackage: rec.corePackage,
+    locations: rec.locations,
+    addOns: [],
+    crewSkus,
+    watchtowerModules: [],
+    crossIntelligence: "none",
+    billingCycle: "monthly",
+    operatingModels,
+    employees: null,
+    payrollCountry,
   };
 }
 
-export function buildPricingSimUrl(
-  responses: DiagnosticResponses,
-  report: DiagnosticReport,
-  ..._unusedLeadContext: [{ email: string; name: string; company: string; country: string }]
-): string {
-  void _unusedLeadContext; // Contact details belong in the lead record, never the simulator URL.
-  const params = new URLSearchParams({ cfg: encodePricingIntent(buildSimPrefill(responses, report)) });
+export function buildPricingSimUrl(rec: Recommendation, responses: DiagnosticResponses): string {
+  const params = new URLSearchParams({ cfg: encodePricingIntent(buildSimPrefill(rec, responses)) });
   return `${SIM_BASE}/simulator?${params.toString()}`;
 }

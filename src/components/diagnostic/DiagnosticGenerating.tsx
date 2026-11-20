@@ -15,6 +15,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, CheckCircle2 } from 'lucide-react';
 import type { WebsiteLocale } from '@/lib/i18n';
 import { getDiagnosticCopy } from '@/lib/diagnostic/i18n';
+import { fill } from '@/lib/diagnostic/copy';
 
 interface DiagnosticGeneratingProps {
   name: string;
@@ -44,7 +45,7 @@ export function DiagnosticGenerating({ name, locale }: DiagnosticGeneratingProps
   const finalIndex = steps.length - 1;
   const [activeStep, setActiveStep] = useState(0);
   const [showReassure, setShowReassure] = useState(false);
-  const firstName = name.split(' ')[0] || 'there';
+  const firstName = name.trim().split(/\s+/)[0] ?? '';
 
   useEffect(() => {
     let cumulative = 0;
@@ -82,7 +83,7 @@ export function DiagnosticGenerating({ name, locale }: DiagnosticGeneratingProps
             </span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-display)] mb-3 text-balance">
-            {copy.generating.title(firstName)}
+            {firstName ? fill(copy.generating.title, { name: firstName }) : copy.generating.eyebrow}
           </h1>
           <p className="text-base sm:text-lg text-[var(--text-supporting)]">
             {copy.generating.body}

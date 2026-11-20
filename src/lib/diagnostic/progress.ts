@@ -1,42 +1,57 @@
 /**
- * Save & resume for the Operations Diagnostic.
+ * Save and resume for the Operations Diagnostic.
  *
- * The flow is a focused questionnaire + a contact step — long enough that a refresh, an
- * accidental back-swipe, or a "let me finish this later" used to wipe every
- * answer. We persist progress to localStorage so the visitor can pick up
- * exactly where they left off. Cleared on successful completion.
+ * Progress is kept in localStorage under the same key as before, so a
+ * refresh or "finish later" never wipes the answers. Each draft carries the
+ * question-bank version; a draft saved against an older bank (different ids
+ * and options) is discarded cleanly instead of being half-read. Cleared on a
+ * successful submission.
  */
 
-import type { DiagnosticResponses } from "./engine";
+import { QUESTION_BANK_VERSION, type DiagnosticResponses } from "./questions";
 
 const KEY = "sundae-diagnostic-progress";
 const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 
-export interface CaptureDraft {
-  name: string;
-  email: string;
-  company: string;
-  phone: string;
-  role: string;
-  country: string;
-}
-
 export interface DiagnosticProgress {
+  version: number;
   responses: DiagnosticResponses;
-  step: number;
-  /** Stable across future question-bank reordering; absent on older drafts. */
-  questionId?: string;
-  showCapture: boolean;
-  capture: CaptureDraft;
+  /** The question the visitor was on; stable across reordering. */
+  questionId: string;
   savedAt: number;
 }
 
-export function saveProgress(p: Omit<DiagnosticProgress, "savedAt">): void {
+export function saveProgress(progress: Omit<DiagnosticProgress, "savedAt" | "version">): void {
   if (typeof window === "undefined") return;
   try {
-    window.localStorage.setItem(KEY, JSON.stringify({ ...p, savedAt: Date.now() }));
+    window.localStorage.setItem(
+      KEY,
+      JSON.stringify({ ...progress, version: QUESTION_BANK_VERSION, savedAt: Date.now() }),
+    );
   } catch {
-    /* quota / private mode — non-fatal */
+    /* quota / private mode - non-fatal */
+  }
+}
+
+export function parseProgress(raw: string | null, now = Date.now()): DiagnosticProgress | null {
+  if (!raw) return null;
+  try {
+    const progress = JSON.parse(raw) as Partial<DiagnosticProgress> | null;
+    if (
+      !progress ||
+      progress.version !== QUESTION_BANK_VERSION ||
+      typeof progress.savedAt !== "number" ||
+      now - progress.savedAt > MAX_AGE_MS ||
+      typeof progress.questionId !== "string" ||
+      !progress.responses ||
+      typeof progress.responses !== "object" ||
+      Array.isArray(progress.responses)
+    ) {
+      return null;
+    }
+    return progress as DiagnosticProgress;
+  } catch {
+    return null;
   }
 }
 
@@ -44,13 +59,10 @@ export function loadProgress(): DiagnosticProgress | null {
   if (typeof window === "undefined") return null;
   try {
     const raw = window.localStorage.getItem(KEY);
-    if (!raw) return null;
-    const p = JSON.parse(raw) as DiagnosticProgress;
-    if (!p || typeof p.savedAt !== "number" || Date.now() - p.savedAt > MAX_AGE_MS) {
-      clearProgress();
-      return null;
-    }
-    return p;
+    const progress = parseProgress(raw);
+    // Old-bank, expired or malformed drafts are removed, not resumed.
+    if (raw && !progress) clearProgress();
+    return progress;
   } catch {
     return null;
   }
@@ -65,15 +77,10 @@ export function clearProgress(): void {
   }
 }
 
-/** Cheap existence check for the intro screen (Start vs Resume). */
-export function hasProgress(): boolean {
-  return loadProgress() !== null;
-}
-
-/** Count of answered questions — used to decide when resume is worth offering. */
+/** Count of answered questions - used to decide when resume is worth offering. */
 export function answeredCount(responses: DiagnosticResponses | undefined): number {
   if (!responses) return 0;
-  return Object.values(responses).filter((v) =>
-    Array.isArray(v) ? v.length > 0 : typeof v === "string" ? v.trim().length > 0 : false,
+  return Object.values(responses).filter((value) =>
+    Array.isArray(value) ? value.length > 0 : typeof value === "string" ? value.trim().length > 0 : false,
   ).length;
 }
