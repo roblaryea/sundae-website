@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import bodyCopy from '@/content/buyer-clarity/home.json';
 import depthCopy from '@/content/operator-depth.json';
 import audienceCopy from '@/content/operator-audiences.json';
@@ -137,7 +139,7 @@ export default function HomeContent() {
             ...c,
             label: ["Sundae", "Core + Crew", "Core", proofCopy[locale as keyof typeof proofCopy].whySundae, (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[5], (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[6]][i],
           }))}
-        />
+       />
         {/* ════════════════════════════════════════════════
             1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
@@ -257,7 +259,7 @@ export default function HomeContent() {
           headline={editorial.band1.headline}
           sub={editorial.band1.sub}
           priority
-        />
+       />
 
         {/* ════════════════════════════════════════════════
             2b-relief. CREAM RELIEF - early warm/light break so the dark run never builds
@@ -297,7 +299,7 @@ export default function HomeContent() {
                     indexLabel={`0${i + 1}`}
                     countLabel={platform.countLabel}
                     cta={cta}
-                  />
+                 />
                 ))}
               </div>
             </FadeUp>
@@ -324,7 +326,7 @@ export default function HomeContent() {
           eyebrow={editorial.band2.eyebrow}
           headline={editorial.band2.headline}
           sub={editorial.band2.sub}
-        />
+       />
 
         {/* ════════════════════════════════════════════════
             3a-retire. WHAT YOU RETIRE - BI-replacement positioning, grouped with the moats
@@ -403,7 +405,7 @@ export default function HomeContent() {
           }
           sub={editorial.closer.sub}
           imageSide="right"
-        />
+       />
 
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA
@@ -419,7 +421,7 @@ export default function HomeContent() {
             aria-hidden
             className="absolute inset-0"
             style={{ background: 'radial-gradient(ellipse 60% 75% at 50% 0%, rgba(233,162,74,0.22) 0%, transparent 62%)' }}
-          />
+         />
 
           {/* the mark as a layout device - bleeds into the corner, ink at low opacity */}
           <div aria-hidden className="absolute -right-16 -bottom-24 w-[420px] sm:w-[520px] opacity-[0.06] pointer-events-none" style={{ color: 'var(--ink)' }}>
@@ -434,13 +436,11 @@ export default function HomeContent() {
                 <span className="mt-2 block italic">{signoffBefore}<span style={{ color: 'var(--brand-main)' }}>Sundae</span>{signoffAfter}</span>
               </h2>
               <div className="flex flex-col items-center">
-                <Button
+                <BookDemoButton
                   variant="cta"
                   size="lg"
                   onClick={() => cta("/demo", "book_demo_footer_cta", { page: "/home" })}
-                >
-                  {messages.navbar.bookDemo}
-                </Button>
+                />
                 <p className="mt-4 max-w-sm text-sm leading-relaxed" style={{ color: 'rgba(26,20,15,0.74)' }}>
                   {getCommercialCopy(locale).sampleWalkthrough}
                 </p>

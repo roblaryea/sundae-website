@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import resourceCopy from '@/content/buyer-clarity/resources.json';
@@ -38,7 +40,7 @@ export default function GettingStartedPage() {
   return (
     <div className="search-brand-page min-h-screen bg-[var(--navy-deep)]">
       <GuidanceHero label={copy.startLabel} lead={copy.startLead} emphasis={copy.startEmphasis} description={copy.startBody}>
-        <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="book_demo_from_getting_started" className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
+        <BookDemoButton variant="cta" size="lg" href={local('/demo')} trackingLabel="book_demo_from_getting_started" className="max-w-full whitespace-normal! text-start" />
         <Button variant="outline-light" size="lg" href={simulator} trackingLabel="pricing_from_getting_started" className="max-w-full whitespace-normal! text-start">{commercial.viewEstimate}</Button>
       </GuidanceHero>
 
@@ -111,7 +113,7 @@ export default function GettingStartedPage() {
       <GuidanceClose title={copy.closeTitle} description={copy.closeBody}>
         <div className="flex flex-col items-start gap-6 sm:flex-row sm:gap-10">
           <div className="max-w-md">
-            <Button variant="cta" size="lg" href={local('/demo')} trackingLabel="getting_started_close_walkthrough" className="max-w-full whitespace-normal! text-start">{walkthrough}</Button>
+            <BookDemoButton variant="cta" size="lg" href={local('/demo')} trackingLabel="getting_started_close_walkthrough" className="max-w-full whitespace-normal! text-start" />
             <p className="mt-4 text-sm leading-relaxed text-[var(--text-muted)]">{commercial.sampleWalkthrough}</p>
           </div>
           <a href={local('/diagnostic')} onClick={event => { event.currentTarget.href = appendCampaign(local('/diagnostic')); trackCta('final_card_from_getting_started', { page: '/getting-started' }); }} className="brand-action-link inline-flex min-h-14 items-center gap-3 font-semibold underline underline-offset-4">{copy.diagnosticCta} <span aria-hidden="true" className="rtl:rotate-180">→</span></a>

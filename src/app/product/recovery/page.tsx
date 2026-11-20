@@ -1,5 +1,7 @@
 "use client";
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import depthCopy from '@/content/operator-depth.json'
 import closerCopy from '@/content/positioning-closer.json'
 
@@ -36,14 +38,12 @@ export default function RecoveryPage() {
         description={depthCopy[locale as keyof typeof depthCopy].recovery}
       >
         <div className="mt-8 flex flex-wrap gap-3">
-          <Button
+          <BookDemoButton
             href={href("/demo")}
             size="lg"
             trackingLabel="book_demo_profit_recovery_hero"
             trackingMetadata={{ location: "hero" }}
-          >
-            {copy.ctaPrimary}
-          </Button>
+          />
           <Link href={href("/core")}>
             <Button size="lg" variant="secondary">
               {copy.ctaSecondary}
@@ -64,7 +64,7 @@ export default function RecoveryPage() {
               dark="/images/product/2026-fresh/recovery-brief-dark.png"
               light="/images/product/2026-fresh/recovery-brief.png"
               alt={copy.briefAlt}
-            />
+           />
           </FadeUp>
         </div>
       </section>
@@ -117,7 +117,7 @@ export default function RecoveryPage() {
               dark="/images/product/2026-fresh/recovery-decisions-dark.png"
               light="/images/product/2026-fresh/recovery-decisions.png"
               alt={copy.decisionsAlt}
-            />
+           />
           </FadeUp>
         </div>
       </section>
@@ -167,7 +167,7 @@ export default function RecoveryPage() {
                 dark="/images/product/2026-fresh/recovery-what-works-dark.png"
                 light="/images/product/2026-fresh/recovery-what-works.png"
                 alt={copy.proofAlt}
-              />
+             />
             </FadeUp>
           </div>
         </div>
@@ -205,14 +205,12 @@ export default function RecoveryPage() {
       </section>
 
       <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Button
+        <BookDemoButton
           href={href("/demo")}
           size="lg"
           trackingLabel="book_demo_profit_recovery_footer"
           trackingMetadata={{ location: "footer" }}
-        >
-          {copy.ctaPrimary}
-        </Button>
+        />
       </PageCTA>
     </main>
   );

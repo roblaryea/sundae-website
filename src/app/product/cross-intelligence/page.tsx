@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import buyerFeatureCopy from '@/content/buyer-feature-details/cross.json';
 
 import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
@@ -472,7 +474,7 @@ function RevenueWaterfallMockup({ copy }: { copy: CrossIntelligenceMockupCopy })
               <div
                 className={`w-full rounded-sm ${bar.color}`}
                 style={{ height: `${Math.abs(bar.h)}%`, marginTop: bar.h < 0 ? 'auto' : undefined }}
-              />
+             />
               <span className="text-[8px] text-[var(--text-muted)]">{bar.label}</span>
             </div>
           ))}
@@ -525,7 +527,7 @@ function CampaignPulseMockup({ copy }: { copy: CrossIntelligenceMockupCopy }) {
         <MockupTable
           headers={copy.campaignPulse.headers}
           rows={copy.campaignPulse.rows}
-        />
+       />
         <MockupAlert type="warning">{copy.campaignPulse.warning}</MockupAlert>
       </div>
     </MockupFrame>
@@ -1112,13 +1114,11 @@ export default function CrossIntelligencePage() {
           {ui.heroSupport}
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button
+          <BookDemoButton
             variant="cta"
             size="lg"
             onClick={() => cta("/demo", "book_demo_cross_intel_hero", { page: "/product/cross-intelligence" })}
-          >
-            {ui.heroPrimary}
-          </Button>
+          />
           <Button variant="outline-light" size="lg" href={PRICING_URL}>
             {ui.heroSecondary}
           </Button>
@@ -1205,13 +1205,11 @@ export default function CrossIntelligencePage() {
         title={ui.ctaTitle}
         description={ui.ctaDescription}
       >
-        <Button
+        <BookDemoButton
           variant="cta"
           size="lg"
           onClick={() => cta("/demo", "book_demo_cross_intel_cta", { page: "/product/cross-intelligence" })}
-        >
-          {ui.ctaPrimary}
-        </Button>
+        />
         <Button variant="outline-ink" size="lg" href={PRICING_URL}>
           {ui.ctaSecondary}
         </Button>

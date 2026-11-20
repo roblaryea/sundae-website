@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { getOperatorAudienceCopy } from '@/lib/operatorAudienceCopy';
 
 import { Button } from "@/components/ui/Button";
@@ -183,9 +185,7 @@ export default function BenchmarkingPage() {
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero badge={ui.badge} title={ui.title} description={ui.description}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" onClick={() => cta("/demo", "try_benchmarks_hero", { page: "/benchmarking" })}>
-            {ui.heroSecondary}
-          </Button>
+          <BookDemoButton variant="cta" size="lg" onClick={() => cta("/demo", "try_benchmarks_hero", { page: "/benchmarking" })} />
           <Button variant="outline-light" size="lg" href={getLocalizedPathname("/results", locale)} trackingLabel="book_demo_benchmarks">
             {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
           </Button>
@@ -304,12 +304,10 @@ export default function BenchmarkingPage() {
         productFilter="/benchmarking"
         hideFilter
         headingOverride={galleryHeading("benchmarking", locale)}
-      />
+     />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Button variant="cta" size="lg" onClick={() => cta("/demo", "start_free_benchmarks_cta", { page: "/benchmarking" })}>
-          {ui.heroSecondary}
-        </Button>
+        <BookDemoButton variant="cta" size="lg" onClick={() => cta("/demo", "start_free_benchmarks_cta", { page: "/benchmarking" })} />
         <Button variant="outline-ink" size="lg" href={getLocalizedPathname("/results", locale)} trackingLabel="book_demo_benchmarks_cta">
           {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
         </Button>

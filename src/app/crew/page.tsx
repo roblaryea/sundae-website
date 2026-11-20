@@ -1,5 +1,7 @@
 "use client";
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import bodyCopy from '@/content/buyer-clarity/crew.json';
 import audienceCopy from '@/content/operator-audiences.json';
 
@@ -666,9 +668,7 @@ export default function CrewPage() {
                 {copy.description}
               </motion.p>
               <motion.div initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
-                  <Button href={getLocalizedPathname("/demo", locale)} variant="primary" size="lg" trackingLabel="crew_hub_hero_primary" trackingMetadata={{ destination: "/demo" }}>
-                    {copy.primaryCta}
-                  </Button>
+                  <BookDemoButton href={getLocalizedPathname("/demo", locale)} variant="primary" size="lg" trackingLabel="crew_hub_hero_primary" trackingMetadata={{ destination: "/demo" }} />
                   <Button href={getLocalizedPathname("/results", locale) + "#crew-workflows"} variant="outline-light" size="lg" trackingLabel="crew_hub_hero_secondary" trackingMetadata={{ destination: "/results#crew-workflows" }}>
                     {sharedBuyerCopy[locale as keyof typeof sharedBuyerCopy].proofLink}
                   </Button>
@@ -1020,9 +1020,7 @@ export default function CrewPage() {
               <h2 className="section-h2 mb-4">{depth.crewCtaTitle}</h2>
               <p className="body-lg mb-10 max-w-xl mx-auto">{copy.ctaDescription}</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  <Button href={getLocalizedPathname("/demo", locale)} variant="cta" size="lg" trackingLabel="crew_hub_closing_primary" trackingMetadata={{ destination: "/demo" }}>
-                    {copy.ctaPrimary}
-                  </Button>
+                  <BookDemoButton href={getLocalizedPathname("/demo", locale)} variant="cta" size="lg" trackingLabel="crew_hub_closing_primary" trackingMetadata={{ destination: "/demo" }} />
                   <Button href={getLocalizedPathname("/", locale)} variant="outline-light" size="lg" trackingLabel="crew_hub_closing_secondary" trackingMetadata={{ destination: "/" }}>
                     {copy.ctaSecondary}
                   </Button>

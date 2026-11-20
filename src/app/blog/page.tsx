@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { useState } from 'react';
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
@@ -161,7 +163,7 @@ export default function BlogPage() {
         badge={copy.badge}
         title={opening.title}
         description={opening.description}
-      />
+     />
 
       {/* Category Filter */}
       <section className="py-8 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
@@ -257,7 +259,7 @@ export default function BlogPage() {
         title={copy.stayInTheLoop}
         description={copy.ctaDescription}
       >
-        <Button variant="cta" size="lg" href={demoHref}>{copy.bookDemo}</Button>
+        <BookDemoButton variant="cta" size="lg" href={demoHref} />
         <Button variant="outline-ink" size="lg" href={contactHref}>{copy.contactUs}</Button>
       </PageCTA>
     </div>

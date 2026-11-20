@@ -1,5 +1,7 @@
 "use client";
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 /**
  * Upsell Opportunity Index - depth-grade replacement for the shallow
  * menu-margin calculator. Quantifies the revenue Sundae's Guest Experience
@@ -19,7 +21,6 @@
 
 import { useState, useMemo, type ReactNode } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/Button";
 import { SundaeIcon } from "@/components/icons";
 import { CURRENCIES, CURRENCY_REGIONS, getCurrencySymbol } from "@/lib/currencies";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -259,18 +260,18 @@ export default function UpsellOpportunityIndexPage() {
                             setCategories(next);
                           }}
                           className="w-20 bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
-                        />
+                       />
                         <span className="text-xs text-[var(--text-muted)]">%</span>
                         {/* Mini gauge */}
                         <div className="relative flex-1 h-2 bg-white/[0.04] rounded-full overflow-hidden">
                           <div
                             className="absolute h-full bg-emerald-500/30 rounded-full"
                             style={{ left: `${cat.healthyMin}%`, width: `${cat.healthyMax - cat.healthyMin}%` }}
-                          />
+                         />
                           <div
                             className="absolute top-0 w-1 h-full bg-[var(--warm-coral)]"
                             style={{ left: `${Math.min(100, parseFloat(cat.currentAttach) || 0)}%` }}
-                          />
+                         />
                         </div>
                       </div>
                     </div>
@@ -346,15 +347,13 @@ export default function UpsellOpportunityIndexPage() {
                   </div>
                 )}
 
-                <Button
+                <BookDemoButton
                   href="/demo"
                   variant="primary"
                   className="w-full"
                   trackingLabel="book_demo_upsell_opportunity_tool"
                   trackingMetadata={{ location: "tool_results" }}
-                >
-                  {copy.cta}
-                </Button>
+                />
               </div>
             )}
           </div>

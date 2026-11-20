@@ -1,5 +1,7 @@
 "use client";
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
@@ -278,7 +280,7 @@ export default function LaborCostCalculator() {
                   className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-600 focus:border-transparent"
                   min="0"
                   step="0.01"
-                />
+               />
                 <p id="laborCost-hint" className="text-xs text-[var(--text-muted)] mt-1">
                   {copy.form.laborHint}
                 </p>
@@ -298,7 +300,7 @@ export default function LaborCostCalculator() {
                   className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-600 focus:border-transparent"
                   min="0"
                   step="0.01"
-                />
+               />
                 <p id="totalSales-hint" className="text-xs text-[var(--text-muted)] mt-1">
                   {copy.form.salesHint}
                 </p>
@@ -340,15 +342,13 @@ export default function LaborCostCalculator() {
       </div>
 
       <PageCTA title={copy.cta.title} description={copy.cta.description}>
-        <Button
+        <BookDemoButton
           variant="cta"
           size="lg"
           href="/demo"
           trackingLabel="book_demo_labor_cost_tool"
           trackingMetadata={{ location: "tool_footer" }}
-        >
-          {copy.cta.button}
-        </Button>
+        />
       </PageCTA>
     </div>
   );

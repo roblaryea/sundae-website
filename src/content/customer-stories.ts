@@ -1,3 +1,5 @@
+import capabilityCopy from '@/content/customer-story-capabilities.json';
+
 import type { SundaeIconName } from '@/components/icons';
 import type { WebsiteLocale } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
@@ -46,5 +48,16 @@ export function getCustomerStories(locale: WebsiteLocale) {
   const stories = localizedCaseStudies[locale as keyof typeof localizedCaseStudies]
     ?? getGeneratedLocalCopy(localizedCaseStudies, generatedLocalCopy.localizedCaseStudies, locale)
     ?? localizedCaseStudies.en;
-  return stories.map((story, index) => ({ ...story, id: customerStoryIds[index] }));
+  // These labels describe the capabilities named in each original story, not package eligibility.
+  // Keep the reported results and evidence limitations separate from product naming.
+  const labels = capabilityCopy[locale as keyof typeof capabilityCopy];
+  const products = [
+    ['Sundae Core', 'Sundae Core', 'Benchmarks'],
+    ['Sundae Core', 'Sundae Core', 'Benchmarks'],
+    ['Sundae Core', 'Sundae Core', 'Sundae Core'],
+    ['Watchtower', 'Benchmarks', 'Sundae Core'],
+  ];
+  return stories.map((story, index) => ({ ...story, id: customerStoryIds[index],
+    solution: products[index].map((product, line) => `${product} · ${labels[index * 3 + line]}`),
+  }));
 }

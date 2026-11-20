@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import buyerFeatureCopy from '@/content/buyer-feature-details/insights.json';
 
 import depthCopy from '@/content/operator-depth.json'
@@ -741,13 +743,11 @@ export default function InsightsPage() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button
+            <BookDemoButton
               variant="primary"
               size="lg"
               onClick={() => cta("/demo", "book_demo_insights_hero", { page: "/insights" })}
-            >
-              {ui.bookDemo}
-            </Button>
+            />
             <Button href={PRICING_URL} variant="outline" size="lg" trackingLabel="compare_packages_insights_hero" trackingMetadata={{ destination: PRICING_URL }}>
               {commercial.comparePackages}
             </Button>
@@ -937,14 +937,14 @@ export default function InsightsPage() {
           <CoreInsightsAskMobile key="insights-ask" />,
           <CoreInsightsCollabMobile key="insights-collab" />,
         ]}
-      />
+     />
 
       {/* Product gallery - Insights surfaces in detail */}
       <SectionProductGallery
         productFilter="/insights"
         hideFilter
         headingOverride={galleryHeading("insights", locale)}
-      />
+     />
 
       {/* CTA Band - warm cream closer (matches the shared PageCTA scheme) */}
       <section className="relative overflow-hidden py-24 px-4 sm:px-6 lg:px-8" style={{ background: 'var(--cream)', color: 'var(--ink)' }}>
@@ -957,13 +957,11 @@ export default function InsightsPage() {
             {ui.ctaDescription}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
+            <BookDemoButton
               variant="cta"
               size="lg"
               onClick={() => cta("/demo", "book_demo_insights_cta", { page: "/insights" })}
-            >
-              {ui.ctaDemo}
-            </Button>
+            />
             <Button href={PRICING_URL} variant="outline-ink" size="lg" trackingLabel="compare_packages_insights_closing" trackingMetadata={{ destination: PRICING_URL }}>
               {commercial.comparePackages}
             </Button>

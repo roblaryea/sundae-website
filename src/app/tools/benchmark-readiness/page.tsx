@@ -1,5 +1,7 @@
 "use client";
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
@@ -221,7 +223,7 @@ export default function BenchmarkReadinessPage() {
                           checked={responses[q.id] === option.value}
                           onChange={(e) => setResponses({ ...responses, [q.id]: e.target.value })}
                           className="w-4 h-4 text-[#FF8473]"
-                        />
+                       />
                         <span className="text-[var(--text-secondary)]">{option.label}</span>
                       </label>
                     ))}
@@ -272,15 +274,13 @@ export default function BenchmarkReadinessPage() {
 
         <div className="mt-12 text-center">
           <p className="text-[var(--text-supporting)] mb-6">{copy.cta.intro}</p>
-          <Button
+          <BookDemoButton
             href="/demo"
             variant="primary"
             size="lg"
             trackingLabel="book_demo_benchmark_readiness_tool"
             trackingMetadata={{ location: "tool_footer" }}
-          >
-            {copy.cta.button}
-          </Button>
+          />
         </div>
       </div>
     </div>

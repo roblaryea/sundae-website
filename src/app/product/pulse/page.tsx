@@ -1,5 +1,7 @@
 'use client';
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import buyerFeatureCopy from '@/content/buyer-feature-details/pulse.json';
 
 import depthCopy from '@/content/operator-depth.json'
@@ -917,7 +919,7 @@ function AdaptiveTargetsMockup() {
             { label: days[5], value: 23100, color: "#22C55E" },
             { label: days[6], value: 18900, color: "#FF5C4D" },
           ]}
-        />
+       />
         <MockupAlert type="info">
           {alert}
         </MockupAlert>
@@ -959,7 +961,7 @@ function SalesPacingMockup() {
             { label: "6p", value: 2400 },
             { label: "7p", value: 1280 },
           ]}
-        />
+       />
       </div>
     </MockupFrame>
   );
@@ -988,7 +990,7 @@ function LaborMockup() {
         <MockupTable
           headers={headers}
           rows={rows}
-        />
+       />
       </div>
     </MockupFrame>
   );
@@ -1016,7 +1018,7 @@ function ServerPerformanceMockup() {
             ["3", "Priya K.", "$2,180", "$51.40", "26%", "82"],
             ["4", "James K.", "$1,960", "$44.50", "18%", "68"],
           ]}
-        />
+       />
         <MockupAlert type="coach">
           {alert}
         </MockupAlert>
@@ -1055,7 +1057,7 @@ function LeakageMockup() {
             ["Price override", "3", "$480", "Marcus J."],
             ["Comp no approval", "1", "$690", "James K."],
           ]}
-        />
+       />
         <MockupAlert type="critical">
           {alert}
         </MockupAlert>
@@ -1103,7 +1105,7 @@ function AlertsMockup() {
             [locale === "ar" ? "شذوذ الإلغاء" : locale === "fr" ? "Anomalie de void" : locale === "es" ? "Anomalía de void" : "Void anomaly", locale === "ar" ? ">2x الخط الاساسي" : locale === "fr" ? ">2x base" : locale === "es" ? ">2x base" : ">2x baseline", "🔴 Active", locale === "ar" ? "مراجعة المدير" : locale === "fr" ? "Revue manager" : locale === "es" ? "Revisión del gerente" : "Manager review"],
             [locale === "ar" ? "الضيوف متقدمون" : locale === "fr" ? "Couverts en avance" : locale === "es" ? "Cubiertos por delante" : "Covers ahead", locale === "ar" ? ">20% فوق الخطة" : locale === "fr" ? ">20% au-dessus du plan" : locale === "es" ? ">20% sobre el plan" : ">20% over plan", "🟢 Positive", locale === "ar" ? "جهز محطات الاحتياط" : locale === "fr" ? "Préparer les stations de secours" : locale === "es" ? "Preparar estaciones de respaldo" : "Prep backup stations"],
           ]}
-        />
+       />
         <MockupAlert type="info">
           {alert}
         </MockupAlert>
@@ -1153,7 +1155,7 @@ function LeaderboardMockup() {
             ["3", "Mall Branch", "$9,620", "−2%", "-"],
             ["4", "Airport", "$8,410", "−8%", "⚠ 2 days"],
           ]}
-        />
+       />
         <MockupAlert type="warning">
           {alert}
         </MockupAlert>
@@ -1207,7 +1209,7 @@ function ShiftCostMockup() {
             [locale === "ar" ? "الغداء" : locale === "fr" ? "Midi" : locale === "es" ? "Almuerzo" : "Lunch", "6", "36h", "$1,080", "$5,400", "20.0%"],
             [locale === "ar" ? "المساء" : locale === "fr" ? "Soir" : locale === "es" ? "Noche" : "Evening", "8", "40h", "$1,600", "$8,200", "19.5%"],
           ]}
-        />
+       />
         <MockupAlert type="coach">
           {alert}
         </MockupAlert>
@@ -1240,7 +1242,7 @@ function LocalizedPulseDashboardMockup() {
               trend={kpi.trend}
               trendUp={kpi.trendUp}
               color={"color" in kpi ? kpi.color : undefined}
-            />
+           />
           ))}
         </div>
         <MockupPaceBar label={mockup.paceLabel} current={14280} target={18200} unit="$" />
@@ -1279,13 +1281,11 @@ export default function PulsePage() {
         description={depthCopy[locale as keyof typeof depthCopy].pulse}
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button
+          <BookDemoButton
             variant="cta"
             size="lg"
             onClick={() => cta("/demo", "book_demo_pulse_hero", { page: "/product/pulse" })}
-          >
-            {ui.hero.primary}
-          </Button>
+          />
           <Button
             variant="outline-light"
             size="lg"
@@ -1458,7 +1458,7 @@ export default function PulsePage() {
           eyebrow="Operations guide"
           title="What makes real-time restaurant operations actionable"
           description="See how data freshness, contextual exceptions, prioritization, ownership, resolution, and outcome measurement turn a live dashboard into a reliable operating loop."
-        />
+       />
       ) : null}
 
       {/* Product gallery - every Pulse surface in detail */}
@@ -1466,20 +1466,18 @@ export default function PulsePage() {
         productFilter="/product/pulse"
         hideFilter
         headingOverride={galleryHeading("pulse", locale)}
-      />
+     />
 
       {/* CTA */}
       <PageCTA
         title={ui.cta.title}
         description={ui.cta.description}
       >
-        <Button
+        <BookDemoButton
           variant="cta"
           size="lg"
           onClick={() => cta("/demo", "book_demo_pulse_cta", { page: "/product/pulse" })}
-        >
-          {ui.cta.primary}
-        </Button>
+        />
         <Button
           variant="outline-ink"
           size="lg"

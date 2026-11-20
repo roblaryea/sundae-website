@@ -1,5 +1,7 @@
 'use client'
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
@@ -47,7 +49,7 @@ export default function WhySundaePage() {
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-[var(--text-supporting)] sm:text-lg">{opening.whyDescription}</p>
             <div className="mt-7 flex flex-wrap justify-center gap-4">
-              <Button variant="cta" size="lg" href={href('/demo')} trackingLabel="why_sundae_hero_walkthrough">{messages.navbar.bookDemo}</Button>
+              <BookDemoButton variant="cta" size="lg" href={href('/demo')} trackingLabel="why_sundae_hero_walkthrough" />
               <Button variant="outline-light" size="lg" href={href('/results')}>{shared.proofLink}</Button>
             </div>
           </div>
@@ -106,7 +108,7 @@ export default function WhySundaePage() {
         </div>
       </section>
       <OperatingCTA title={opening.demoTitle} description={commercial.sampleWalkthrough}>
-        <Button variant="cta" size="lg" href={href('/demo')} trackingLabel="why_sundae_closing_walkthrough">{messages.navbar.bookDemo}</Button>
+        <BookDemoButton variant="cta" size="lg" href={href('/demo')} trackingLabel="why_sundae_closing_walkthrough" />
         <Button variant="outline-ink" size="lg" href={href('/restaurant365-alternative')}>{workflow.links.comparison}</Button>
       </OperatingCTA>
     </div>

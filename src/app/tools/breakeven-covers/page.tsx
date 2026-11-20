@@ -1,5 +1,7 @@
 "use client";
 
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
+
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
@@ -316,15 +318,13 @@ export default function BreakEvenCalculator() {
 
         <div className="mt-12 text-center">
           <p className="text-[var(--text-supporting)] mb-6">{copy.cta.intro}</p>
-          <Button
+          <BookDemoButton
             href="/demo"
             variant="primary"
             size="lg"
             trackingLabel="book_demo_breakeven_covers_tool"
             trackingMetadata={{ location: "tool_footer" }}
-          >
-            {copy.cta.button}
-          </Button>
+          />
         </div>
       </div>
     </div>

@@ -54,7 +54,9 @@ function load(filename) {
     compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
   }).outputText, { module: loadedModule, exports: loadedModule.exports, require: specifier => {
     assert.ok(specifier.startsWith('@/'), specifier);
-    return load(path.join('src', specifier.slice(2)) + '.ts');
+    const target = path.join('src', specifier.slice(2));
+    if (target.endsWith('.json')) return { default: JSON.parse(fs.readFileSync(target, 'utf8')) };
+    return load(target + '.ts');
   } });
   cache.set(filename, loadedModule.exports);
   return loadedModule.exports;
@@ -83,4 +85,26 @@ test('Resources and results reuse stable localized stories without English body 
   assert.ok(resources.includes("local('/results')"));
   assert.ok(!resources.includes('type="email"'), 'no dead newsletter form');
   assert.ok(!resources.includes('study.outcomes'), 'complete stories have one destination');
+});
+
+
+test('each customer story keeps its product scope and has native capability labels', () => {
+  const expectedProducts = [
+    ['Sundae Core', 'Sundae Core', 'Benchmarks'],
+    ['Sundae Core', 'Sundae Core', 'Benchmarks'],
+    ['Sundae Core', 'Sundae Core', 'Sundae Core'],
+    ['Watchtower', 'Benchmarks', 'Sundae Core'],
+  ];
+  const englishSolutions = JSON.parse(JSON.stringify(getCustomerStories('en').map(story => story.solution)));
+  for (const locale of locales) {
+    const stories = getCustomerStories(locale);
+    assert.equal(stories.length, 4);
+    stories.forEach((story, index) => {
+      assert.equal(story.solution.length, 3);
+      story.solution.forEach((line, column) => {
+        assert.ok(line.startsWith(`${expectedProducts[index][column]} · `), `${locale}/${story.id}: capability scope`);
+        if (locale !== 'en') assert.notEqual(line, englishSolutions[index][column], `${locale}/${story.id}: English capability fallback`);
+      });
+    });
+  }
 });

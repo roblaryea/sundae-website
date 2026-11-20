@@ -1,3 +1,4 @@
+import { BookDemoButton } from '@/components/ui/BookDemoButton';
 import type { Metadata } from "next";
 import { buildResolvedPageMetadata } from "@/lib/solutionPageMetadata";
 import Image from "next/image";
@@ -515,7 +516,7 @@ export default async function AboutPage() {
       </section>
 
       <PageCTA title={prose.closeTitle} description={commercial.sampleWalkthrough}>
-        <Button variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="about_walkthrough" trackingMetadata={{ destination: getLocalizedPathname('/demo', locale) }}>{copy.ctaPrimary}</Button>
+        <BookDemoButton variant="cta" size="lg" href={getLocalizedPathname('/demo', locale)} trackingLabel="about_walkthrough" trackingMetadata={{ destination: getLocalizedPathname('/demo', locale) }} />
         <Button variant="ghost" size="md" href={getLocalizedPathname('/careers', locale)} className="text-[var(--ink)]! hover:bg-black/5">{copy.ctaSecondary}</Button>
       </PageCTA>
     </div>
