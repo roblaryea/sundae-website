@@ -200,6 +200,14 @@ export const pt: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "Diagnóstico guiado",
+    progress: "Parte {current} de {total}: {part}",
+    privacy: "Usado apenas para preparar e enviar seu relatório",
+    priorityRequired: "Escreva em poucas palavras o que você resolveria primeiro",
+    skipped: "Pergunta pulada",
+    backToGuided: "Voltar à conversa",
+  },
   generating: {
     eyebrow: "Sundae · Preparando seu relatório",
     title: "{name}, a Sundae está analisando suas respostas.",
@@ -254,6 +262,9 @@ export const pt: DiagnosticPack = {
     sent: "Solicitação enviada - em breve entraremos em contato",
     contactReuse: "Para solicitar a demonstração, usamos os dados que você já informou.",
     ready: "Seu relatório está pronto. Uma cópia está a caminho de {email}, com um link para agendar um horário.",
+    sendingReport: "Enviando seu relatório para {email}",
+    bookingOffer: "Seu relatório está a caminho de {email} - se quiser, escolha agora um horário para sua demonstração.",
+    bookingClose: "Voltar ao seu relatório",
   },
   rules: {
     profileLocations: "Unidades: {count}",

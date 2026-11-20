@@ -11,16 +11,14 @@
  * sentence may be AI-written, after the guard.
  */
 
-import { useRef, useState } from "react";
+import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
   Calendar,
   Check,
   CheckCircle2,
-  ClipboardList,
   Layers,
-  Loader2,
   Printer,
   RefreshCcw,
   Sparkles,
@@ -33,23 +31,23 @@ import type { WebsiteLocale } from "@/lib/i18n";
 import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
 import { fill } from "@/lib/diagnostic/copy";
 import { trackEvent } from "@/lib/posthog";
+import { EmailNextStep, type DiagnosticLeadData } from "@/components/diagnostic/DiagnosticNextStep";
+import type { GuidedDelivery } from "@/components/diagnostic/GuidedNextStep";
 
-export interface DiagnosticLeadData {
-  name: string;
-  email: string;
-  company: string;
-  role: string;
-  country: string;
-  countryCode: string;
-  numberOfLocations: string;
-  primaryPOS: string;
-}
+export type { DiagnosticLeadData, GuidedDelivery };
+
+// Guided visitors only: the inline booking card and the booking copy it uses.
+const GuidedNextStep = dynamic(() => import("@/components/diagnostic/GuidedNextStep"), { ssr: false });
 
 interface DiagnosticReportProps {
   report: DiagnosticReportType;
   locale: WebsiteLocale;
   responses: DiagnosticResponses;
   leadData: DiagnosticLeadData;
+  /** Experiment properties added to every event (spec 6.4). */
+  analytics?: Record<string, unknown>;
+  /** Set for guided-diagnostic leads: delivery status and booking token (memory only). */
+  guidedDelivery?: GuidedDelivery | null;
 }
 
 const card = "rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)]";
@@ -65,48 +63,14 @@ function SectionTitle({ icon: Icon, title, id }: { icon: typeof Sparkles; title:
   );
 }
 
-export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportProps) {
+export function DiagnosticReport({ report, leadData, locale, analytics, guidedDelivery }: DiagnosticReportProps) {
   const copy = getDiagnosticCopy(locale);
   const firstName = leadData.name.trim().split(/\s+/)[0] ?? "";
-  const [bookingState, setBookingState] = useState<"idle" | "loading" | "done">("idle");
-  const bookingSubmissionKeyRef = useRef<string>(globalThis.crypto.randomUUID());
   const pkg = report.startingPackage;
 
   const handlePrint = () => {
-    trackEvent("diagnostic_report_print", { locale, tierFit: report.tierFit });
+    trackEvent("diagnostic_report_print", { locale, tierFit: report.tierFit, ...analytics });
     window.print();
-  };
-
-  // The prospect already gave every contact detail; a walkthrough request
-  // reuses them (source 'diagnostic-call-request' so sales can prioritise it).
-  const handleBookCall = async () => {
-    if (bookingState !== "idle") return;
-    trackEvent("diagnostic_cta_click", { cta: "book_call", locale, tierFit: report.tierFit });
-    setBookingState("loading");
-    try {
-      const response = await fetch("/api/cta/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "Idempotency-Key": bookingSubmissionKeyRef.current },
-        body: JSON.stringify({
-          source: "diagnostic-call-request",
-          name: leadData.name,
-          email: leadData.email,
-          company: leadData.company,
-          role: leadData.role,
-          country: leadData.country,
-          countryCode: leadData.countryCode,
-          numberOfLocations: leadData.numberOfLocations,
-          primaryPOS: leadData.primaryPOS,
-          locale,
-          message: `[Walkthrough requested from diagnostic]\nProfile: ${report.profileLine}\nStarting package: ${report.tierFit}\nFirst hypothesis: ${report.topLeaks[0]?.title ?? "-"}`,
-          metadata: { report, locale },
-        }),
-      });
-      if (!response.ok) throw new Error("booking_request_failed");
-      setBookingState("done");
-    } catch {
-      setBookingState("idle");
-    }
   };
 
   const fadeIn = (delay: number) => ({
@@ -334,7 +298,7 @@ export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportP
                 href={pkg.calculatorUrl}
                 target="_blank"
                 rel="noopener"
-                onClick={() => trackEvent("diagnostic_cta_click", { cta: "pricing_calculator", locale })}
+                onClick={() => trackEvent("diagnostic_cta_click", { cta: "pricing_calculator", locale, ...analytics })}
                 className="dgx-no-print mt-4 flex items-center justify-center gap-2 rounded-xl border-2 border-[var(--warm-coral)]/50 px-4 py-2.5 text-sm font-bold text-[var(--text-primary)] hover:bg-[var(--warm-coral)]/10 transition-colors"
               >
                 {copy.report.calculator}
@@ -362,60 +326,12 @@ export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportP
           </ol>
         </motion.section>
 
-        {/* Next step */}
-        <motion.section
-          {...fadeIn(0.35)}
-          className="dgx-no-print rounded-3xl border border-[var(--warm-coral)]/30 bg-[var(--warm-coral)]/[0.07] p-6 md:p-10 text-center"
-          aria-labelledby="dgx-next"
-        >
-          <div className="inline-flex items-start gap-2 px-4 py-2 mb-5 rounded-full bg-emerald-500/12 border border-emerald-500/30 text-start max-w-xl mx-auto">
-            <ClipboardList className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5" aria-hidden />
-            <span className="text-xs text-[var(--text-primary)] leading-snug">{fill(copy.report.ready, { email: leadData.email })}</span>
-          </div>
-          <h2 id="dgx-next" className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">{copy.report.nextTitle}</h2>
-          <p className="text-sm sm:text-base text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">{copy.report.nextBody}</p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-            <button
-              type="button"
-              onClick={handleBookCall}
-              disabled={bookingState !== "idle"}
-              aria-live="polite"
-              className={`rounded-xl font-bold px-6 py-3 flex items-center justify-center gap-2 transition-colors disabled:cursor-default ${
-                bookingState === "done"
-                  ? "bg-emerald-500/15 border-2 border-emerald-500/40 text-[var(--text-primary)]"
-                  : "bg-[var(--warm-coral)] text-white hover:bg-[var(--warm-coral)]/90"
-              }`}
-            >
-              {bookingState === "loading" ? (
-                <>
-                  <Loader2 className="w-4 h-4 animate-spin" aria-hidden />
-                  {copy.report.sending}
-                </>
-              ) : bookingState === "done" ? (
-                <>
-                  <Check className="w-4 h-4" aria-hidden />
-                  {copy.report.sent}
-                </>
-              ) : (
-                <>
-                  {copy.report.bookCall}
-                  <ArrowRight className="w-4 h-4 rtl:rotate-180" aria-hidden />
-                </>
-              )}
-            </button>
-            <a
-              href={pkg.calculatorUrl}
-              target="_blank"
-              rel="noopener"
-              onClick={() => trackEvent("diagnostic_cta_click", { cta: "pricing_calculator", locale })}
-              className="rounded-xl border-2 border-[var(--warm-coral)]/45 text-[var(--text-primary)] font-bold px-6 py-3 hover:bg-[var(--warm-coral)]/10 transition-colors flex items-center justify-center gap-2"
-            >
-              {copy.report.calculator}
-              <ArrowRight className="w-4 h-4 rtl:rotate-180" aria-hidden />
-            </a>
-          </div>
-          <p className="text-[11px] text-[var(--text-muted)] mt-6 italic">{copy.report.contactReuse}</p>
-        </motion.section>
+        {/* Next step: inline booking for guided leads with a token, otherwise the email ending. */}
+        {guidedDelivery ? (
+          <GuidedNextStep report={report} leadData={leadData} locale={locale} analytics={analytics} delivery={guidedDelivery} />
+        ) : (
+          <EmailNextStep report={report} leadData={leadData} locale={locale} analytics={analytics} />
+        )}
       </div>
     </div>
   );

@@ -200,6 +200,14 @@ export const bn: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "গাইডেড ডায়াগনস্টিক",
+    progress: "{total}টির মধ্যে অংশ {current}: {part}",
+    privacy: "শুধু আপনার রিপোর্ট তৈরি ও পাঠাতে ব্যবহার হবে",
+    priorityRequired: "সবার আগে কী ঠিক করতে চান, কয়েকটি শব্দে লিখুন",
+    skipped: "এড়িয়ে যাওয়া হয়েছে",
+    backToGuided: "কথোপকথনে ফিরে যান",
+  },
   generating: {
     eyebrow: "Sundae · আপনার রিপোর্ট তৈরি হচ্ছে",
     title: "{name}, Sundae আপনার উত্তরগুলো পড়ছে।",
@@ -254,6 +262,9 @@ export const bn: DiagnosticPack = {
     sent: "অনুরোধ পাঠানো হয়েছে - আমরা যোগাযোগ করব",
     contactReuse: "ওয়াকথ্রুর অনুরোধে আপনার আগে দেওয়া তথ্যই ব্যবহার হবে।",
     ready: "আপনার রিপোর্ট তৈরি। একটি কপি {email} ঠিকানায় যাচ্ছে, সাথে সময় বুক করার লিংক।",
+    sendingReport: "আপনার রিপোর্ট {email} ঠিকানায় পাঠানো হচ্ছে",
+    bookingOffer: "আপনার রিপোর্ট {email} ঠিকানায় যাচ্ছে - চাইলে এখনই ওয়াকথ্রুর সময় বেছে নিন।",
+    bookingClose: "রিপোর্টে ফিরে যান",
   },
   rules: {
     profileLocations: "লোকেশন: {count}",

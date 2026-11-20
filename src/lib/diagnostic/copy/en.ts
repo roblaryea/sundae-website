@@ -207,6 +207,14 @@ export const en = {
       },
     },
   },
+  convo: {
+    subline: "Guided diagnostic",
+    progress: "Part {current} of {total}: {part}",
+    privacy: "Only used to prepare and send your report",
+    priorityRequired: "Add a few words about what you'd fix first",
+    skipped: "Skipped",
+    backToGuided: "Back to the conversation",
+  },
   generating: {
     eyebrow: "Sundae · Preparing your report",
     title: "{name}, Sundae is reading your answers.",
@@ -261,6 +269,9 @@ export const en = {
     sent: "Request sent - we'll be in touch",
     contactReuse: "Requesting a walkthrough uses the details you already gave us.",
     ready: "Your report is ready. A copy is on its way to {email}, with a link to book a time.",
+    sendingReport: "Sending your report to {email}",
+    bookingOffer: "Your report is on its way to {email} - pick a walkthrough time now if you like.",
+    bookingClose: "Back to your report",
   },
   rules: {
     profileLocations: "Locations: {count}",

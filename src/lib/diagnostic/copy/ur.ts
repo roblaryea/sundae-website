@@ -200,6 +200,14 @@ export const ur: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "رہنمائی کے ساتھ تشخیص",
+    progress: "{total} میں سے حصہ {current}: {part}",
+    privacy: "صرف آپ کی رپورٹ تیار کرنے اور بھیجنے کے لیے استعمال ہوگا",
+    priorityRequired: "چند الفاظ میں بتائیں کہ آپ سب سے پہلے کیا ٹھیک کرنا چاہیں گے",
+    skipped: "چھوڑ دیا",
+    backToGuided: "گفتگو پر واپس جائیں",
+  },
   generating: {
     eyebrow: "Sundae · آپ کی رپورٹ تیار ہو رہی ہے",
     title: "{name}، Sundae آپ کے جوابات پڑھ رہا ہے۔",
@@ -254,6 +262,9 @@ export const ur: DiagnosticPack = {
     sent: "درخواست بھیج دی گئی - ہم آپ سے رابطہ کریں گے",
     contactReuse: "واک تھرو کی درخواست کے لیے وہی تفصیلات استعمال ہوں گی جو آپ پہلے دے چکے ہیں۔",
     ready: "آپ کی رپورٹ تیار ہے۔ اس کی ایک کاپی، وقت بک کرنے کے لنک کے ساتھ، {email} پر بھیجی جا رہی ہے۔",
+    sendingReport: "آپ کی رپورٹ {email} پر بھیجی جا رہی ہے",
+    bookingOffer: "آپ کی رپورٹ {email} پر بھیجی جا رہی ہے - چاہیں تو ابھی واک تھرو کا وقت منتخب کر لیں۔",
+    bookingClose: "اپنی رپورٹ پر واپس جائیں",
   },
   rules: {
     profileLocations: "برانچز: {count}",

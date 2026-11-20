@@ -200,6 +200,14 @@ export const nl: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "Begeleide diagnose",
+    progress: "Deel {current} van {total}: {part}",
+    privacy: "Alleen gebruikt om je rapport te maken en te versturen",
+    priorityRequired: "Schrijf in een paar woorden wat je als eerste zou oplossen",
+    skipped: "Overgeslagen",
+    backToGuided: "Terug naar het gesprek",
+  },
   generating: {
     eyebrow: "Sundae · Je rapport wordt gemaakt",
     title: "{name}, Sundae leest je antwoorden.",
@@ -254,6 +262,9 @@ export const nl: DiagnosticPack = {
     sent: "Aanvraag verstuurd - we nemen contact met je op",
     contactReuse: "Voor de aanvraag gebruiken we de gegevens die je al hebt ingevuld.",
     ready: "Je rapport is klaar. Er is een kopie onderweg naar {email}, met een link om een tijd te kiezen.",
+    sendingReport: "Je rapport wordt verstuurd naar {email}",
+    bookingOffer: "Je rapport is onderweg naar {email} - kies nu alvast een tijd voor je walkthrough als je wilt.",
+    bookingClose: "Terug naar je rapport",
   },
   rules: {
     profileLocations: "Locaties: {count}",

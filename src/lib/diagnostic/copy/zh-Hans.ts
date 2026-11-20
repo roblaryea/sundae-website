@@ -200,6 +200,14 @@ export const zhHans: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "引导式诊断",
+    progress: "第 {current} 部分，共 {total} 部分：{part}",
+    privacy: "仅用于生成并发送您的报告",
+    priorityRequired: "请简单说说您最想先解决什么",
+    skipped: "已跳过",
+    backToGuided: "返回对话",
+  },
   generating: {
     eyebrow: "Sundae · 正在生成报告",
     title: "{name}，Sundae 正在分析您的回答。",
@@ -254,6 +262,9 @@ export const zhHans: DiagnosticPack = {
     sent: "请求已发送 - 我们会尽快与您联系",
     contactReuse: "申请演示将直接使用您已提供的信息。",
     ready: "报告已生成。副本已发往 {email}，邮件中附有预约时间的链接。",
+    sendingReport: "正在将报告发送至 {email}",
+    bookingOffer: "报告正在发往 {email} - 如有需要，您现在就可以选择演示时间。",
+    bookingClose: "返回报告",
   },
   rules: {
     profileLocations: "门店数：{count}",

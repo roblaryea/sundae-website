@@ -200,6 +200,14 @@ export const hi: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "गाइडेड डायग्नोस्टिक",
+    progress: "{total} में से भाग {current}: {part}",
+    privacy: "केवल आपकी रिपोर्ट तैयार करने और भेजने के लिए इस्तेमाल होगा",
+    priorityRequired: "कुछ शब्दों में बताएं कि आप सबसे पहले क्या ठीक करना चाहेंगे",
+    skipped: "छोड़ दिया",
+    backToGuided: "बातचीत पर वापस जाएं",
+  },
   generating: {
     eyebrow: "Sundae · आपकी रिपोर्ट तैयार हो रही है",
     title: "{name}, Sundae आपके जवाब पढ़ रहा है।",
@@ -254,6 +262,9 @@ export const hi: DiagnosticPack = {
     sent: "अनुरोध भेज दिया गया - हम आपसे संपर्क करेंगे",
     contactReuse: "वॉकथ्रू के अनुरोध के लिए वही जानकारी इस्तेमाल होगी जो आप पहले दे चुके हैं।",
     ready: "आपकी रिपोर्ट तैयार है। इसकी एक कॉपी, समय बुक करने के लिंक के साथ, {email} पर भेजी जा रही है।",
+    sendingReport: "आपकी रिपोर्ट {email} पर भेजी जा रही है",
+    bookingOffer: "आपकी रिपोर्ट {email} पर भेजी जा रही है - चाहें तो अभी वॉकथ्रू का समय चुन लें।",
+    bookingClose: "अपनी रिपोर्ट पर वापस जाएं",
   },
   rules: {
     profileLocations: "आउटलेट: {count}",

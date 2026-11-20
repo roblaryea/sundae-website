@@ -200,6 +200,14 @@ export const th: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "ตรวจวิเคราะห์แบบทีละขั้นตอน",
+    progress: "ส่วนที่ {current} จาก {total}: {part}",
+    privacy: "ใช้เพื่อจัดทำและส่งรายงานของคุณเท่านั้น",
+    priorityRequired: "กรุณาเขียนสั้นๆ ว่าอยากแก้เรื่องใดเป็นอันดับแรก",
+    skipped: "ข้ามแล้ว",
+    backToGuided: "กลับไปที่บทสนทนา",
+  },
   generating: {
     eyebrow: "Sundae · กำลังจัดทำรายงาน",
     title: "คุณ{name} ตอนนี้ Sundae กำลังอ่านคำตอบของคุณ",
@@ -254,6 +262,9 @@ export const th: DiagnosticPack = {
     sent: "ส่งคำขอแล้ว - เราจะติดต่อกลับ",
     contactReuse: "การขอนัดสาธิตจะใช้ข้อมูลที่คุณให้ไว้แล้ว",
     ready: "รายงานของคุณพร้อมแล้ว สำเนากำลังส่งไปที่ {email} พร้อมลิงก์สำหรับนัดเวลา",
+    sendingReport: "กำลังส่งรายงานไปที่ {email}",
+    bookingOffer: "รายงานของคุณกำลังส่งไปที่ {email} - หากสะดวก เลือกเวลาสำหรับการสาธิตได้เลยตอนนี้",
+    bookingClose: "กลับไปที่รายงาน",
   },
   rules: {
     profileLocations: "จำนวนสาขา: {count}",

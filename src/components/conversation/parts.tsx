@@ -297,6 +297,7 @@ export function MultiChoices({
   doneLabel,
   onDone,
   describedBy,
+  doneBarClassName,
 }: {
   label: string;
   options: ChoiceOption[];
@@ -305,8 +306,15 @@ export function MultiChoices({
   doneLabel: string;
   onDone: () => void;
   describedBy?: string;
+  /** Long lists: "Done" goes in its own bar after the chips (with this class) instead of last in the group. */
+  doneBarClassName?: string;
 }) {
-  return (
+  const done = (
+    <button type="button" className={`${styles.chip} ${styles.chipDone}`} onClick={onDone}>
+      {doneLabel}
+    </button>
+  );
+  const group = (
     <div className={styles.chips} role="group" aria-label={label} aria-describedby={describedBy}>
       {options.map((option) => {
         const on = selected.includes(option.key);
@@ -317,10 +325,15 @@ export function MultiChoices({
           </button>
         );
       })}
-      <button type="button" className={`${styles.chip} ${styles.chipDone}`} onClick={onDone}>
-        {doneLabel}
-      </button>
+      {!doneBarClassName && done}
     </div>
+  );
+  if (!doneBarClassName) return group;
+  return (
+    <>
+      {group}
+      <div className={doneBarClassName}>{done}</div>
+    </>
   );
 }
 

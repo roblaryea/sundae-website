@@ -200,6 +200,14 @@ export const ms: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "Diagnostik berpandu",
+    progress: "Bahagian {current} daripada {total}: {part}",
+    privacy: "Hanya digunakan untuk menyediakan dan menghantar laporan anda",
+    priorityRequired: "Tulis beberapa patah kata tentang perkara yang anda mahu baiki dahulu",
+    skipped: "Dilangkau",
+    backToGuided: "Kembali ke perbualan",
+  },
   generating: {
     eyebrow: "Sundae · Menyediakan laporan anda",
     title: "{name}, Sundae sedang membaca jawapan anda.",
@@ -254,6 +262,9 @@ export const ms: DiagnosticPack = {
     sent: "Permintaan dihantar - kami akan menghubungi anda",
     contactReuse: "Permintaan sesi tunjuk cara menggunakan butiran yang telah anda berikan.",
     ready: "Laporan anda sudah siap. Satu salinan sedang dihantar ke {email}, berserta pautan untuk menempah masa.",
+    sendingReport: "Menghantar laporan anda ke {email}",
+    bookingOffer: "Laporan anda sedang dihantar ke {email} - jika mahu, pilih masa untuk sesi tunjuk cara sekarang.",
+    bookingClose: "Kembali ke laporan anda",
   },
   rules: {
     profileLocations: "Bilangan outlet: {count}",

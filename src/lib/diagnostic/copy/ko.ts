@@ -200,6 +200,14 @@ export const ko: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "가이드 진단",
+    progress: "{total}개 파트 중 {current}번째: {part}",
+    privacy: "리포트 작성 및 발송에만 사용됩니다",
+    priorityRequired: "가장 먼저 해결하고 싶은 일을 짧게 적어 주세요",
+    skipped: "건너뜀",
+    backToGuided: "대화로 돌아가기",
+  },
   generating: {
     eyebrow: "Sundae · 리포트 준비 중",
     title: "{name}님, Sundae가 답변을 분석하고 있어요.",
@@ -254,6 +262,9 @@ export const ko: DiagnosticPack = {
     sent: "요청 완료 - 곧 연락드릴게요",
     contactReuse: "데모 요청에는 이미 입력하신 정보가 그대로 사용됩니다.",
     ready: "리포트가 준비되었습니다. 예약 링크가 담긴 사본을 {email} 주소로 보내 드리고 있어요.",
+    sendingReport: "{email} 주소로 리포트를 보내는 중",
+    bookingOffer: "리포트를 {email} 주소로 보내 드리고 있어요 - 원하시면 지금 바로 데모 시간을 선택하세요.",
+    bookingClose: "리포트로 돌아가기",
   },
   rules: {
     profileLocations: "매장 수: {count}",
