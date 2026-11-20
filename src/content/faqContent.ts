@@ -1,4 +1,5 @@
 import faqCopyByLocale from '@/content/support-faq.json';
+import messagingCopy from '@/content/messaging-feature.json';
 import systemCopyByLocale from '@/content/support-system.json';
 import buyerBodyCopy from '@/content/buyer-depth/faq.json';
 import { getCommercialCopy, getCoreCoverageSummary } from '@/lib/pricing/commercialCopy';
@@ -1568,6 +1569,7 @@ export function getLocalizedFaqSections(
   const sections = localizedFaqSections[locale as keyof typeof localizedFaqSections] ?? getGeneratedLocalCopy(localizedFaqSections, generatedLocalCopy.localizedFaqSections, locale) ?? localizedFaqSections.en;
 
   const commercial = getCommercialCopy(locale);
+  const messaging = messagingCopy[locale as keyof typeof messagingCopy];
   const buyer = buyerBodyCopy[locale as keyof typeof buyerBodyCopy];
   const faqCopy = faqCopyByLocale[locale as keyof typeof faqCopyByLocale];
   const system = systemCopyByLocale[locale as keyof typeof systemCopyByLocale];
@@ -1602,10 +1604,14 @@ export function getLocalizedFaqSections(
   return sections.map((section, index) => ({
     ...section,
     title: categoryTitles[index] ?? localizedFaqSections.en[index]?.id ?? section.id,
-    faqs: section.faqs.map((faq, faqIndex) => ({
+    faqs: [...section.faqs.map((faq, faqIndex) => ({
       ...faq,
       title: section.id === "modules" && faqIndex === 5 ? commercial.moduleQuestion : faq.title,
       content: section.id === "modules" && faqIndex === 0 ? commercial.packageScope + "\n\n" + DOMAIN_MODULE_LINES : corrections[section.id]?.[faqIndex] ?? applyFaqTokens(faq.content, locale),
     })).filter((_, faqIndex) => section.id !== "modules" || ![1, 2, 3].includes(faqIndex)),
+    ...(section.id === 'crew' ? [{
+      title: messaging.faqQuestion,
+      content: `${messaging.description} ${messaging.scope}`,
+    }] : [])],
   }));
 }

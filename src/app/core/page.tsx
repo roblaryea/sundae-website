@@ -10,6 +10,7 @@ import openingCopy from '@/content/operator-openings.json'
 import { OperatorOpeningTitle } from '@/components/ui/OperatorOpeningTitle';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import { OperatorWorkflowLinks } from '@/components/seo/OperatorWorkflowLinks';
+import { MessagingFeature } from '@/components/seo/MessagingFeature';
 
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -908,6 +909,7 @@ export default function CoreProductPage() {
       </section>
 
 
+      <MessagingFeature locale={locale} compact />
       <CorePackageCoverage locale={locale} />
 
       {/* FAQ */}

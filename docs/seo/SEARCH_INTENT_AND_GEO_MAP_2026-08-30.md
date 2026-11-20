@@ -2,7 +2,7 @@
 
 Created: 30 August 2026
 
-Last updated: 19 November 2026
+Last updated: 20 November 2026
 
 Owner: Website / SEO / GEO session
 
@@ -166,7 +166,7 @@ Authority/distribution handoff criteria for the existing content owner:
 3. Use the comparison guide for genuine evaluation content. Keep accounting, package, connector and country limitations visible. No unsupported superiority or regional-exclusivity claim.
 4. Pursue accurate profiles, relevant integration-partner mentions and editorial coverage where the operator audience is real. Verify free eligibility and company facts before any submission; no fabricated reviews, link purchases or outreach has been sent by this cut. Use consistent campaign tags for owned distribution.
 
-New shared Messages and other Crew capabilities supplied by the product documentation owner remain development evidence until production rollout and final capability inventory are verified. Do not publish them as generally available based on a handoff. Customer-story periods and baselines remain unavailable and are not invented.
+The newer Crew capabilities supplied by the product documentation owner retain their development/source qualifications. The explicit 20 November owner decision below separately authorizes messaging in the feature presentation without an upcoming label; it does not establish deployment or universal account enablement. Customer-story periods and baselines remain unavailable and are not invented.
 
 Continue the existing checkpoints: 23 November health/discovery, 30 November seven-day decision review, 7 December fourteen-day, and 21 December twenty-eight-day. Review the exact query families by target market, page and device, then CTA progression and genuinely qualified enquiries. Manual searches and whole-site average position alone cannot establish category visibility. No paid campaign, new analytics stack or duplicate automation is introduced.
 
@@ -179,7 +179,7 @@ The final handoff identifies healthy **development** revisions: frontend `b10496
 
 | Feature family | Existing canonical placement to assess | Publication boundary / evidence needed |
 | --- | --- | --- |
-| Shared inbox, colleague DMs, team conversations and work threads | `/crew`, `/product`, communication answers in `/faq`; update `llms.txt` only with the public answer | Hold current-availability wording until production rollout is verified. Preserve participant/source permissions, eligible colleague access and text-first scope. No E2EE, universal delivery/access, heavy media/storage, ad-hoc groups, saved messages, universal message-to-task conversion or WhatsApp-parity claim. |
+| Shared inbox, colleague DMs, team conversations and work threads | `/crew`, `/product`, communication answers in `/faq`; update `llms.txt` only with the public answer | Owner-approved feature presentation on 20 November: include messaging without upcoming/coming-soon labels. Preserve participant/source permissions, eligible colleague access, subscription/configuration limits and text-first scope; do not infer deployment or universal account enablement. No E2EE, universal delivery/access, heavy media/storage, ad-hoc groups, saved messages, universal message-to-task conversion or WhatsApp-parity claim. |
 | Versioned guides, workday queues and task windows/history | `/restaurant-task-management` and the Crew workflow explanation | New components/services are development-qualified. Verify production publication, eligibility, opening/due/expiry rules, generated-task denominators and offline proof behavior before adding detail. |
 | Request approval timing | Manager-efficiency example and FAQ within `/restaurant-task-management` | Production evidence must identify supported requests and configured deadlines. Recorded response timing is not proof of a quantified efficiency gain. |
 | Required reading, announcements and authority | Communication/handover answers within `/crew` and `/restaurant-logbook` | Confirm the particular production behavior. Audience, read status, acknowledgement and completed work must remain distinct. |
@@ -192,4 +192,11 @@ The final handoff identifies healthy **development** revisions: frontend `b10496
 | Catering, production and commissary workflows | Existing `/solutions` and Crew journeys where the operator use case fits | Require verified production and approved concept configuration. Do not create a thin page or placeholder commercial offer for every workflow. |
 | Academy, readiness, identity, privacy and conditional vault | `/getting-started`, `/docs`, `/integrations`, `/security` and relevant FAQs | Verify customer access and the specific production surface; search-entry deployment is separate from underlying source availability. Conditional add-ons remain conditional. Evidence exports do not establish certification. |
 
-Before public incorporation: verify the specific frontend/backend production deployment and customer journey; confirm effective catalogue eligibility without inferring prices or purchase requirements from the glossary; then add concise, evidenced wording to the existing canonical page, its visible FAQ and matching AI-readable source. Translate and review the final approved public wording across website locales. Any preview/upcoming framing requires a separate approved public-content decision. Until these gates are met, this is an internal incorporation backlog and existing basic Crew/task/logbook content remains unchanged.
+For the other development-qualified additions, before public incorporation: verify the specific frontend/backend production deployment and customer journey; confirm effective catalogue eligibility without inferring prices or purchase requirements from the glossary; then add concise, evidenced wording to the existing canonical page, its visible FAQ and matching AI-readable source. Translate and review the final approved public wording across website locales. Any preview/upcoming framing requires a separate approved public-content decision. Until these gates are met, this is an internal incorporation backlog and existing basic Crew/task/logbook content remains unchanged.
+
+
+## Messaging feature-presentation decision — 20 November 2026
+
+The owner explicitly answered “mark it as part of features not upcoming” to the question of whether website messaging should be marked upcoming or omitted pending rollout. The actual human reply is in product-documentation chat `01a1ee91-4aec-7c40-897c-1bd3eacfb078`, turn `01a1f6e7-a898-7ab1-8c4c-c983ac6e32ec`. This supersedes the previous messaging-positioning hold, not the deployment evidence or the other feature-family qualifications.
+
+Present messaging as lightweight work coordination: one personal inbox across Core and Crew, one-to-one colleague messages, team conversations, work threads and announcements. Crew gets the fuller editorial feature presentation; Core and Product get compact connected-workflow summaries. The existing Crew FAQ and matching JSON-LD use the same localized answer; `llms.txt` links to the existing canonical feature anchors. Preserve 22-locale consistency and the approved Core/Crew structure. No new landing page, price, entitlement, outcome, production-date, universal enablement, E2EE, storage or provider-delivery claim is introduced. Public product wording must not import internal development or review labels; the release evidence remains in the operating record.

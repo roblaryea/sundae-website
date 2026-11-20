@@ -16,6 +16,7 @@ import { Button } from "@/components/ui/Button";
 import { PlatformOfferings } from "@/components/product/PlatformOfferings";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
+import { MessagingFeature } from '@/components/seo/MessagingFeature';
 import { useCta } from "@/lib/cta";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import {
@@ -248,6 +249,7 @@ export default function ProductPage() {
       </PageHero>
 
       <PlatformOfferings showIntro={false} />
+      <MessagingFeature locale={locale} compact />
 
       {/* Cream relief - warm break before the long dark Six Intelligence Layers pillar run (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
