@@ -230,3 +230,9 @@ The existing Search Discovery workflow gains `scripts/check-search-entry-pages.m
 The owner-supplied category and Restaurant365-alternative searches are added to the existing question set. Current Google indexing and selected-canonical inspection remain an account-portal follow-through; accepted sitemap and IndexNow submissions do not close that item. Bing Webmaster property import also remains a signed-in portal action unless a fresh confirmation is recorded. Do not infer ownership verification from IndexNow acceptance.
 
 Release and public verification evidence must be recorded after review and passing checks; source implementation alone is not publication. Preserve the current PostHog dashboard, QA exclusions, release annotation and complete-period review windows.
+
+## Verified Google access and page follow-through — 20 November 2026
+
+Google ownership is now verified for the browser's business account `marketing@sundaetech.ai` on the existing `https://www.sundae.io/` property. Historical reports are accessible; earlier account-access pending statements describe their earlier check. The management page is indexed with Google's selected canonical matching the inspected URL. The Restaurant365 comparison is discovered but not yet indexed; Google accepted a priority crawl request. The management page's refresh request was also accepted. Keep queue acceptance distinct from processing completion or improved rank.
+
+The [20 November follow-through](SEARCH_CONSOLE_REVIEW_2026-11-20.md) records the actual portal confirmation, PR276/277 deployment and public verification, current evidence boundaries and remaining Ask Sundae/Bing inspections. Keep the 16 November complete-period baseline and existing 23 November, 30 November, 7 December and 21 December checkpoints. No new scheduler, dashboard, paid activity or ranking promise was introduced.
