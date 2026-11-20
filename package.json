@@ -71,7 +71,7 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "~16.3.8",
-    "@sentry/nextjs": "^10.76.2",
+    "@sentry/nextjs": "^11.14.0",
     "fast-glob": "file:tooling/next-lint-glob",
     "puppeteer-core": "^25.2.1",
     "tailwindcss": "^4",
