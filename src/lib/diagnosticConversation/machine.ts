@@ -271,6 +271,15 @@ function applyTurn(responses: DiagnosticResponses, turn: Turn, input: TurnInput)
       const picked = validChoices(question, input.values);
       if (!picked || picked.length !== 1) return 'choiceRequired';
       next[question.id] = picked[0];
+      // "Other" carries a short detail, as in the step-by-step form (role).
+      const otherKey = diagnosticOtherKey(question.id);
+      if (picked[0] === 'other') {
+        const detail = clip(input.other ?? '', MAX_OTHER);
+        if (!detail) return 'otherRequired';
+        next[otherKey] = detail;
+      } else {
+        delete next[otherKey];
+      }
       return next;
     }
     case 'multi':
@@ -525,7 +534,9 @@ export function restore(raw: string | null, context: ConversationContext = {}, n
   const storedInferred = isRecord(parsed.inferred) ? parsed.inferred : {};
   const inferred = {
     company: storedInferred.company === true && String(responses.company ?? '') === companyFromEmail(String(responses.email ?? '')),
-    countries: storedInferred.countries === true && list(responses.countries).length === 1 && list(responses.countries)[0] === context.suggestedCountry,
+    // The IP guess is fetched after mount, so a stored flag is kept unless a known guess contradicts it.
+    countries: storedInferred.countries === true && list(responses.countries).length === 1
+      && (!context.suggestedCountry || list(responses.countries)[0] === context.suggestedCountry),
   };
   const startedAt = typeof parsed.startedAt === 'number' && Number.isFinite(parsed.startedAt) && parsed.startedAt <= now ? parsed.startedAt : now;
   const answerCount = typeof parsed.answerCount === 'number' && parsed.answerCount >= 0 ? Math.floor(parsed.answerCount) : 0;
@@ -554,7 +565,9 @@ export function fromClassic(
   const base = { responses: rebuilt, skipped };
   const inferred = {
     company: !!previous?.inferred.company && String(rebuilt.company ?? '') === String(previous.responses.company ?? ''),
-    countries: !!context.suggestedCountry && list(rebuilt.countries).length === 1 && list(rebuilt.countries)[0] === context.suggestedCountry && !!previous?.inferred.countries,
+    countries: !!previous?.inferred.countries && list(rebuilt.countries).length === 1
+      && JSON.stringify(rebuilt.countries) === JSON.stringify(previous.responses.countries)
+      && (!context.suggestedCountry || list(rebuilt.countries)[0] === context.suggestedCountry),
   };
   return {
     version: DIAGNOSTIC_CONVO_VERSION,

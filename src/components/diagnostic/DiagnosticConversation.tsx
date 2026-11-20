@@ -329,7 +329,10 @@ export default function DiagnosticConversation({ locale, handback, analytics, on
       case 'countries': return list(responses[id]).map(countryName).join(', ');
       case 'pos':
         return list(responses[id]).map((value) => (value === 'other' ? String(responses[diagnosticOtherKey(id)] ?? '') : optionLabel(turn, value))).join(', ');
-      default: return list(responses[id]).map((value) => optionLabel(turn, value)).join(', ');
+      default:
+        return list(responses[id])
+          .map((value) => (value === 'other' && responses[diagnosticOtherKey(id)] ? String(responses[diagnosticOtherKey(id)]) : optionLabel(turn, value)))
+          .join(', ');
     }
   };
 
@@ -448,6 +451,8 @@ function TurnControl({ turn, state, copy, chat, intlLocale, geoCountry, inferred
   const q = getDiagnosticQuestionCopy(copy.locale, question.id);
   const [error, setError] = useState<ValidationError | null>(null);
   const [selected, setSelected] = useState<string[]>(() => list(responses[question.id]));
+  const [typedOther, setTypedOther] = useState(() => question.kind === 'single' && list(responses[question.id])[0] === 'other');
+  const [choseOther, setChoseOther] = useState(false);
   const run = (input: TurnInput) => setError(commit(input));
   const number = new Intl.NumberFormat(intlLocale);
 
@@ -460,7 +465,7 @@ function TurnControl({ turn, state, copy, chat, intlLocale, geoCountry, inferred
       case 'numberInvalid': return fill(copy.flow.numberError, { min: MIN_LOCATIONS, max: number.format(MAX_LOCATIONS) });
       case 'emailInvalid': return chat.errors.emailInvalid;
       case 'companyRequired': return chat.errors.companyRequired;
-      case 'otherRequired': return chat.errors.posRequired;
+      case 'otherRequired': return question.id === 'role' ? chat.errors.roleRequired : chat.errors.posRequired;
       case 'textRequired': return copy.convo.priorityRequired;
       case 'choiceRequired': return question.kind === 'countries' ? chat.errors.countryRequired : chat.errors.focusRequired;
     }
@@ -484,6 +489,7 @@ function TurnControl({ turn, state, copy, chat, intlLocale, geoCountry, inferred
         text={{ label: copy.flow.companyLabel, placeholder: copy.flow.companyPlaceholder, defaultValue: current !== inferredCompany ? current : '', error: errorText, sendLabel: chat.send }}
         onConfirm={() => run({ kind: 'company', value: inferredCompany, inferred: true })}
         onTyped={(value) => run({ kind: 'company', value, inferred: false })}
+        focusTyped
       />
     );
   }
@@ -505,33 +511,57 @@ function TurnControl({ turn, state, copy, chat, intlLocale, geoCountry, inferred
     }
     case 'longtext':
       return <TextAnswer key="text" multiline label={q?.prompt ?? ''} placeholder={q?.placeholder ?? ''} maxLength={question.maxLength} defaultValue={String(responses[question.id] ?? '')} error={errorText} sendLabel={chat.send} onSubmit={(value) => run({ kind: 'text', value })} />;
-    case 'single':
+    case 'single': {
+      const current = list(responses[question.id])[0];
+      const otherKey = diagnosticOtherKey(question.id);
+      if (typedOther) {
+        // "Other" (role): a short detail, like the step-by-step form's "Which one?".
+        return (
+          <TextAnswer
+            key="other-text"
+            autoFocus={choseOther ? true : undefined}
+            label={copy.flow.otherPlaceholder}
+            placeholder={copy.flow.otherPlaceholder}
+            autoComplete={question.id === 'role' ? 'organization-title' : 'off'}
+            defaultValue={current === 'other' ? String(responses[otherKey] ?? '') : ''}
+            error={errorText}
+            sendLabel={chat.send}
+            onSubmit={(value) => run({ kind: 'choices', values: ['other'], other: value })}
+          />
+        );
+      }
       return (
         <Choices
           label={q?.prompt ?? ''}
-          selected={list(responses[question.id])[0]}
+          selected={current}
           options={(question.options ?? []).map((option) => ({ key: option.value, label: optionLabel(option.value) }))}
-          onChoose={(value) => run({ kind: 'choices', values: [value] })}
+          onChoose={(value) => {
+            if (value !== 'other') run({ kind: 'choices', values: [value] });
+            else {
+              setTypedOther(true);
+              setChoseOther(true);
+            }
+          }}
         />
       );
+    }
     case 'countries': {
-      const preselected = selected.length
-        ? selected
+      // Answered before, else the operating countries (payroll), else the IP guess.
+      const suggested = list(responses[question.id]).length
+        ? list(responses[question.id])
         : question.id === 'payroll_countries'
           ? list(responses.countries)
           : geoCountry ? [geoCountry] : [];
       return (
         <CountryMulti
-          key={preselected.join(',')}
           label={q?.prompt ?? ''}
           options={countryOptions}
-          initial={preselected}
+          suggested={suggested}
           searchLabel={copy.flow.search}
           noMatches={copy.flow.noMatches}
           selectedLabel={copy.flow.selectedCount}
           doneCount={chat.focus.doneCount}
           error={errorText}
-          onChange={setSelected}
           onDone={(codes) => run({ kind: 'choices', values: codes })}
         />
       );
@@ -563,6 +593,7 @@ function TurnControl({ turn, state, copy, chat, intlLocale, geoCountry, inferred
           }}
           onListed={(value) => run({ kind: 'choices', values: [value] })}
           onNotSure={() => run({ kind: 'choices', values: ['not_sure'] })}
+          focusTyped
           onOther={(value) => {
             const brand = brands.find((option) => (POS_BRAND_NAMES[option.value] ?? '').toLocaleLowerCase() === value.trim().toLocaleLowerCase());
             run(brand ? { kind: 'choices', values: [brand.value] } : { kind: 'choices', values: ['other'], other: value });
@@ -607,36 +638,34 @@ function TurnControl({ turn, state, copy, chat, intlLocale, geoCountry, inferred
 function CountryMulti({
   label,
   options,
-  initial,
+  suggested,
   searchLabel,
   noMatches,
   selectedLabel,
   doneCount,
   error,
-  onChange,
   onDone,
 }: {
   label: string;
   options: { value: string; label: string; searchTerms: readonly string[] }[];
-  initial: string[];
+  /** Preselection until the visitor changes anything (a late IP guess still shows up). */
+  suggested: string[];
   searchLabel: string;
   noMatches: string;
   selectedLabel: string;
   doneCount: string;
   error: string | null;
-  onChange: (codes: string[]) => void;
   onDone: (codes: string[]) => void;
 }) {
   const id = useId();
-  const [codes, setCodes] = useState<string[]>(initial);
+  const [picked, setPicked] = useState<string[] | null>(null);
+  const codes = picked ?? suggested;
   const [query, setQuery] = useState('');
   const [showError, setShowError] = useState(true);
   const labelFor = (code: string) => options.find((option) => option.value === code)?.label ?? code;
   const toggle = (code: string) => {
-    const next = codes.includes(code) ? codes.filter((item) => item !== code) : [...codes, code];
-    setCodes(next);
+    setPicked(codes.includes(code) ? codes.filter((item) => item !== code) : [...codes, code]);
     setShowError(false);
-    onChange(next);
   };
   const matches = query.trim() ? filterDiagnosticOptions(options, labelFor, query).slice(0, 8) : [];
   const visibleError = showError ? error : null;

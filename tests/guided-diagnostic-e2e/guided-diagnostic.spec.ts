@@ -92,6 +92,8 @@ type Path = {
   payroll?: boolean;
   teamCosts?: string[];
   leaks: string[];
+  /** A typed role for "Other". */
+  otherRole?: string;
 };
 
 const o = <K extends keyof typeof q>(question: K) => (q[question] as { options: Record<string, string> }).options;
@@ -121,7 +123,14 @@ async function converse(page: Page, path: Path) {
   await say(page, en.flow.emailLabel, path.email);
   await expect(panel(page).getByText(`Are you with ${path.company ?? 'Harbor Group'}?`)).toBeVisible();
   await tap(page, chat.company.yes);
-  await tap(page, o('role').operations);
+  if (path.otherRole) {
+    await tap(page, o('role').other);
+    // Focus moves into the new field, so typing goes straight in.
+    await expect(panel(page).getByRole('textbox', { name: en.flow.otherPlaceholder })).toBeFocused();
+    await say(page, en.flow.otherPlaceholder, path.otherRole);
+  } else {
+    await tap(page, o('role').operations);
+  }
   await expect(page.getByRole('heading', { name: "Sara, here's your Operations Diagnostic." })).toBeVisible({ timeout: 45_000 });
 }
 
@@ -407,4 +416,41 @@ test('Arabic: right to left, Sundae kept in Latin script, the Arabic question ba
   const direction = await panel(page).evaluate((element) => getComputedStyle(element).direction);
   expect(direction).toBe('rtl');
   await expect(panel(page).locator('bdi', { hasText: 'Sundae' }).first()).toBeVisible();
+});
+
+test('role "Other" with a typed detail completes the report', async ({ page, request }, info) => {
+  test.skip(info.project.name === 'mobile', 'Covered once.');
+  const email = 'other-role@harbor-group.test';
+  await prepare(page);
+  await page.goto('/diagnostic?guided=1');
+  await converse(page, { email, locations: '4', paper: ['none'], leaks: ['food_cost'], otherRole: 'Head of growth' });
+  const lead = await deliveredLead(request, email);
+  expect(lead.body.role).toBe('Other');
+  const convo = (lead.body.metadata as { convo: { answers: Record<string, unknown> } }).convo;
+  expect(convo.answers.role).toBe('other');
+  expect(convo.answers.role_other).toBe('Head of growth');
+});
+
+test('countries by keyboard: remove the guess, search and add two, focus stays in the search', async ({ page }) => {
+  await prepare(page);
+  await page.goto('/diagnostic?guided=1');
+  await say(page, en.flow.nameLabel, 'Sara Haddad');
+  await multi(page, [o('concepts').casual]);
+  await say(page, en.flow.numberLabel, '7');
+  const guess = panel(page).getByRole('button', { name: 'United Arab Emirates', exact: true });
+  await expect(guess).toHaveAttribute('aria-pressed', 'true');
+  await guess.click();
+  // With nothing chosen, the guess does not come back and Done is hidden.
+  await expect(panel(page).getByRole('button', { name: 'United Arab Emirates', exact: true })).toHaveCount(0);
+  await expect(panel(page).getByRole('button', { name: /^Done/ })).toHaveCount(0);
+  const search = panel(page).getByRole('searchbox', { name: en.flow.search });
+  await search.fill('qatar');
+  await search.press('Enter');
+  await expect(search).toBeFocused();
+  await search.fill('bahr');
+  await search.press('Enter');
+  await expect(search).toBeFocused();
+  await tap(page, chat.focus.doneCount.replace('{count}', '2'));
+  await expect(panel(page).getByText('Qatar, Bahrain', { exact: true })).toBeVisible();
+  await expect(panel(page).getByText(q.team_size.prompt)).toBeVisible();
 });

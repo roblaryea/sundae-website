@@ -346,3 +346,27 @@ test('one free-mail list: the diagnostic uses the booking list that matches the 
   assert.equal(shared.isFreeMailEmail('ops@harbor-group.test'), false);
   assert.equal(shared.companyFromEmail('sara@harbor-e2e.test'), 'Harbor E2e', 'the classic form keeps its company prefill');
 });
+
+test('role "Other" takes a short detail, as in the classic form, and survives resume and carry-over', () => {
+  const atRole = edit(run(CORE_ONLY), 'role');
+  assert.equal(answer(atRole, 'role', pick('other'), CONTEXT).error, 'otherRequired');
+  const done = answer(atRole, 'role', { kind: 'choices', values: ['other'], other: '  Head   of growth ' }, CONTEXT).state;
+  assert.equal(done.position, 'complete');
+  assert.equal(done.responses.role, 'other');
+  assert.equal(done.responses.role_other, 'Head of growth');
+  // Another role drops the detail.
+  const changed = answer(edit(done, 'role'), 'role', pick('finance'), CONTEXT).state;
+  assert.equal(changed.responses.role_other, undefined);
+  // Resume and the classic form's answers keep the detail.
+  assert.equal(restore(serialize(done), CONTEXT).responses.role_other, 'Head of growth');
+  assert.equal(fromClassic({ ...done.responses }, 'role', null, CONTEXT).position, 'complete');
+});
+
+test('an accepted IP guess stays recorded after a refresh, before the guess is fetched again', () => {
+  const core = run(CORE_ONLY);
+  assert.equal(core.inferred.countries, true);
+  assert.equal(restore(serialize(core), {}).inferred.countries, true, 'guess not known yet at mount');
+  assert.equal(restore(serialize(core), { suggestedCountry: 'DE' }).inferred.countries, false, 'a different guess contradicts it');
+  const changed = answer(edit(core, 'countries'), 'countries', pick('AE', 'SA'), CONTEXT).state;
+  assert.equal(changed.inferred.countries, false);
+});

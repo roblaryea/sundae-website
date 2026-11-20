@@ -39,8 +39,8 @@ import {
   type DiagnosticVariant,
 } from "@/lib/diagnosticConversation/variant";
 
-// The conversation and its copy are loaded only for the guided arm, so
-// classic visitors download nothing new.
+// The conversation, its state machine and the booking copy it reuses are
+// loaded only for the guided arm.
 const DiagnosticConversation = dynamic(() => import("@/components/diagnostic/DiagnosticConversation"), {
   ssr: false,
   loading: () => <PanelPlaceholder />,

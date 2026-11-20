@@ -181,6 +181,7 @@ export function TextAnswer({
   sendLabel,
   onSubmit,
   onValueChange,
+  autoFocus,
 }: {
   label: string;
   placeholder: string;
@@ -196,6 +197,8 @@ export function TextAnswer({
   sendLabel: string;
   onSubmit: (value: string) => void;
   onValueChange?: (value: string) => void;
+  /** Focus the field when it appears (after "Other" or "Different name"). */
+  autoFocus?: boolean;
 }) {
   const id = useId();
   const [value, setValue] = useState(defaultValue ?? '');
@@ -221,6 +224,7 @@ export function TextAnswer({
     'aria-describedby': visibleError ? `${id}-error` : undefined,
     autoComplete,
     dir,
+    autoFocus,
   };
   return (
     <form onSubmit={send} noValidate>
@@ -347,6 +351,7 @@ export function CompanyConfirm({
   text,
   onConfirm,
   onTyped,
+  focusTyped = false,
 }: {
   question: string;
   inferred: string;
@@ -356,19 +361,29 @@ export function CompanyConfirm({
   text: { label: string; placeholder: string; defaultValue: string; error: string | null; sendLabel: string };
   onConfirm: () => void;
   onTyped: (value: string) => void;
+  /** Move focus into the field after "Different name". */
+  focusTyped?: boolean;
 }) {
   const [typed, setTyped] = useState(startTyped || !inferred);
+  const [chose, setChose] = useState(false);
   if (!typed) {
     return (
       <Choices
         label={question}
         options={[{ key: 'yes', label: yesLabel }, { key: 'different', label: differentLabel }]}
-        onChoose={(choice) => (choice === 'yes' ? onConfirm() : setTyped(true))}
+        onChoose={(choice) => {
+          if (choice === 'yes') onConfirm();
+          else {
+            setTyped(true);
+            setChose(true);
+          }
+        }}
       />
     );
   }
   return (
     <TextAnswer
+      autoFocus={focusTyped && chose ? true : undefined}
       key="company-text"
       label={text.label}
       placeholder={text.placeholder}
@@ -398,6 +413,7 @@ export function PosPicker({
   onListed,
   onNotSure,
   onOther,
+  focusTyped = false,
 }: {
   question: string;
   listed: ChoiceOption[];
@@ -410,8 +426,11 @@ export function PosPicker({
   onListed: (key: string) => void;
   onNotSure: () => void;
   onOther: (value: string) => void;
+  /** Move focus into the field after "Other". */
+  focusTyped?: boolean;
 }) {
   const [typed, setTyped] = useState(startTyped);
+  const [chose, setChose] = useState(false);
   const [query, setQuery] = useState(text.defaultValue);
   if (!typed) {
     return (
@@ -420,8 +439,10 @@ export function PosPicker({
         selected={selected}
         options={[...listed, { key: 'other', label: otherLabel }, { key: 'not_sure', label: notSureLabel }]}
         onChoose={(choice) => {
-          if (choice === 'other') setTyped(true);
-          else if (choice === 'not_sure') onNotSure();
+          if (choice === 'other') {
+            setTyped(true);
+            setChose(true);
+          } else if (choice === 'not_sure') onNotSure();
           else onListed(choice);
         }}
       />
@@ -429,6 +450,7 @@ export function PosPicker({
   }
   const field = (
     <TextAnswer
+      autoFocus={focusTyped && chose ? true : undefined}
       key="pos-text"
       label={text.label}
       placeholder={text.placeholder}
