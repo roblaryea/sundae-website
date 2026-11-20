@@ -202,7 +202,11 @@ test('the name step rejects email addresses and digit-only input with nameInvali
   for (const value of ['omar@harborgroup.com', 'omar\uFF20harborgroup.com', 'Omar @ Harbor', '0501234567', '+971 50 123 4567', '(050) 123-4567', '\uFF10\uFF15\uFF10']) {
     assert.deepEqual(answer(s, 'name', value), { ok: false, error: 'nameInvalid' }, value);
   }
-  for (const value of ['Sara Haddad', "Anne-Marie O'Neil", 'محمد', '李雷', 'Sara 2']) {
+  // Phone numbers typed in local numerals (ar, ur, hi, bn, th visitors).
+  for (const value of ['٠٥٠١٢٣٤٥٦٧', '+٩٧١ ٥٠ ١٢٣ ٤٥٦٧', '۰۳۰۰۱۲۳۴۵۶۷', '९८७६५ ४३२१०', '০১৭১১-২২৩৩৪৪', '๐๘๑ ๒๓๔ ๕๖๗๘']) {
+    assert.deepEqual(answer(s, 'name', value), { ok: false, error: 'nameInvalid' }, value);
+  }
+  for (const value of ['Sara Haddad', "Anne-Marie O'Neil", 'محمد', '李雷', 'Sara 2', 'राहुल 2', 'Omar ٢']) {
     assert.equal(answer(s, 'name', value).ok, true, value);
   }
   assert.deepEqual(answer(s, 'name', 'S'), { ok: false, error: 'nameShort' });

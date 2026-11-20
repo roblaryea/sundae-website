@@ -164,10 +164,12 @@ const clip = (value: string, max = MAX_TEXT) => value.trim().replace(/\s+/g, ' '
 /**
  * A name must not be an email address (ASCII or full-width at sign) or a
  * phone-style string of digits, which people paste into the first box.
+ * `\p{Nd}` covers every script's decimal digits (Arabic-Indic, Devanagari,
+ * Bengali, Thai, full-width...), so a number typed in local numerals is caught.
  */
 export function isPlausibleName(name: string): boolean {
   if (/[@\uFF20]/.test(name)) return false;
-  return !/^[\d\s+().\-\uFF10-\uFF19]+$/.test(name);
+  return !/^[\p{Nd}\s+().\-]+$/u.test(name);
 }
 
 /** Answers that appear in the brief; changing any of them asks for the brief again. */
