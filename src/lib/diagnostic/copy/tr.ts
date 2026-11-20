@@ -200,6 +200,14 @@ export const tr: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "Rehberli tanılama",
+    progress: "{total} bölümden {current}. bölüm: {part}",
+    privacy: "Yalnızca raporunuzu hazırlamak ve göndermek için kullanılır",
+    priorityRequired: "İlk olarak neyi düzeltmek istediğinizi birkaç kelimeyle yazın",
+    skipped: "Atlandı",
+    backToGuided: "Sohbete dön",
+  },
   generating: {
     eyebrow: "Sundae · Raporunuz hazırlanıyor",
     title: "{name}, Sundae yanıtlarınızı inceliyor.",
@@ -254,6 +262,9 @@ export const tr: DiagnosticPack = {
     sent: "Talebiniz alındı - sizinle iletişime geçeceğiz",
     contactReuse: "Tanıtım talebinde daha önce paylaştığınız bilgiler kullanılır.",
     ready: "Raporunuz hazır. Bir kopyası, görüşme zamanı seçebileceğiniz bir bağlantıyla birlikte {email} adresine gönderiliyor.",
+    sendingReport: "Raporunuz {email} adresine gönderiliyor",
+    bookingOffer: "Raporunuz {email} adresine gönderiliyor - dilerseniz tanıtım için şimdi bir zaman seçin.",
+    bookingClose: "Raporunuza dön",
   },
   rules: {
     profileLocations: "Lokasyon sayısı: {count}",

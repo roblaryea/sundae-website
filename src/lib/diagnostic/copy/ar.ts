@@ -200,6 +200,14 @@ export const ar: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "تشخيص موجّه",
+    progress: "الجزء {current} من {total}: {part}",
+    privacy: "لإعداد تقريرك وإرساله فقط",
+    priorityRequired: "أضف بضع كلمات عمّا تودّ حلّه أولًا",
+    skipped: "تم التخطي",
+    backToGuided: "العودة إلى المحادثة",
+  },
   generating: {
     eyebrow: "Sundae · نُعدّ تقريرك",
     title: "{name}، تقرأ Sundae إجاباتك الآن.",
@@ -254,6 +262,9 @@ export const ar: DiagnosticPack = {
     sent: "تم إرسال الطلب - سنتواصل معك",
     contactReuse: "عند طلب الجولة التوضيحية، نستخدم البيانات التي قدّمتها لنا مسبقًا.",
     ready: "تقريرك جاهز. نسخة منه في طريقها إلى {email}، ومعها رابط لحجز موعد.",
+    sendingReport: "جارٍ إرسال تقريرك إلى {email}",
+    bookingOffer: "تقريرك في طريقه إلى {email} - ويمكنك اختيار موعد جولتك التوضيحية الآن إن أردت.",
+    bookingClose: "العودة إلى تقريرك",
   },
   rules: {
     profileLocations: "عدد الفروع: {count}",

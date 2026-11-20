@@ -16,7 +16,32 @@ let activeRunners = 0;
 let retryTimer: ReturnType<typeof setTimeout> | null = null;
 let flushPromise: Promise<void> | null = null;
 let forceRetryRequested = false;
-const deliveryListeners = new Set<() => void>();
+/**
+ * What the page that queued a lead learns when it is delivered. The booking
+ * token is a short-lived credential: it is handed to listeners in memory and
+ * never written to the queue, any storage, a URL or analytics. A delivery
+ * retried after a reload simply has no listener waiting for it.
+ */
+export interface DiagnosticLeadDelivery {
+  leadKey: string;
+  bookingToken?: string;
+}
+type DeliveryListener = (delivery: DiagnosticLeadDelivery) => void;
+type FailureListener = (leadKey: string) => void;
+const deliveryListeners = new Set<DeliveryListener>();
+const failureListeners = new Set<FailureListener>();
+
+const MAX_BOOKING_TOKEN_LENGTH = 2048;
+
+async function readBookingToken(response: Response): Promise<string | undefined> {
+  try {
+    const data: unknown = await response.json();
+    const token = data && typeof data === "object" ? (data as { bookingToken?: unknown }).bookingToken : undefined;
+    return typeof token === "string" && token.length > 0 && token.length <= MAX_BOOKING_TOKEN_LENGTH ? token : undefined;
+  } catch {
+    return undefined;
+  }
+}
 
 function isPendingDiagnosticLead(value: unknown): value is PendingDiagnosticLead {
   if (!value || typeof value !== "object") return false;
@@ -185,15 +210,20 @@ export async function flushPendingDiagnosticLeads(force = false): Promise<void> 
       if (response.ok) {
         acknowledge(item.idempotencyKey);
         // Delivery is distinct from completing the intake or seeing a report.
-        // Notify without passing contact details or report content to analytics.
+        // Listeners get the lead's key and, for a guided lead the backend
+        // accepted for inline booking, the token - never contact details.
+        const bookingToken = await readBookingToken(response);
+        const delivery: DiagnosticLeadDelivery = { leadKey: item.idempotencyKey, ...(bookingToken ? { bookingToken } : {}) };
         for (const listener of deliveryListeners) {
-          try { listener(); } catch { /* Measurement must not break delivery. */ }
+          try { listener(delivery); } catch { /* A listener must not break delivery. */ }
         }
       } else {
         updateAfterFailure(item.idempotencyKey);
+        notifyFailure(item.idempotencyKey);
       }
     } catch {
       updateAfterFailure(item.idempotencyKey);
+      notifyFailure(item.idempotencyKey);
     } finally {
       clearTimeout(timeout);
     }
@@ -209,16 +239,28 @@ export async function flushPendingDiagnosticLeads(force = false): Promise<void> 
   }
 }
 
+function notifyFailure(leadKey: string): void {
+  for (const listener of failureListeners) {
+    try { listener(leadKey); } catch { /* A listener must not break retries. */ }
+  }
+}
+
 function handleOnline(): void {
   requestFlush(true);
 }
 
-/** Starts the outbox runner and returns a React-effect-friendly cleanup. */
-export function startDiagnosticLeadOutbox(onDelivered?: () => void): () => void {
+/**
+ * Starts the outbox runner and returns a React-effect-friendly cleanup.
+ * `onDelivered` hears about every acknowledged lead (with its key, so a page
+ * can pick out its own); `onAttemptFailed` hears about each failed attempt
+ * that will be retried.
+ */
+export function startDiagnosticLeadOutbox(onDelivered?: DeliveryListener, onAttemptFailed?: FailureListener): () => void {
   if (typeof window === "undefined") return () => {};
 
   activeRunners += 1;
   if (onDelivered) deliveryListeners.add(onDelivered);
+  if (onAttemptFailed) failureListeners.add(onAttemptFailed);
   if (activeRunners === 1) {
     window.addEventListener("online", handleOnline);
   }
@@ -226,6 +268,7 @@ export function startDiagnosticLeadOutbox(onDelivered?: () => void): () => void 
 
   return () => {
     if (onDelivered) deliveryListeners.delete(onDelivered);
+    if (onAttemptFailed) failureListeners.delete(onAttemptFailed);
     activeRunners = Math.max(0, activeRunners - 1);
     if (activeRunners === 0) {
       window.removeEventListener("online", handleOnline);

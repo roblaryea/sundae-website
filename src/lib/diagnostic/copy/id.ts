@@ -200,6 +200,14 @@ export const id: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "Diagnostik terpandu",
+    progress: "Bagian {current} dari {total}: {part}",
+    privacy: "Hanya digunakan untuk menyiapkan dan mengirim laporan Anda",
+    priorityRequired: "Tulis beberapa kata tentang hal yang ingin Anda benahi lebih dulu",
+    skipped: "Dilewati",
+    backToGuided: "Kembali ke percakapan",
+  },
   generating: {
     eyebrow: "Sundae · Menyiapkan laporan Anda",
     title: "{name}, Sundae sedang membaca jawaban Anda.",
@@ -254,6 +262,9 @@ export const id: DiagnosticPack = {
     sent: "Permintaan terkirim - tim kami akan menghubungi Anda",
     contactReuse: "Permintaan demo memakai data yang sudah Anda berikan.",
     ready: "Laporan Anda sudah siap. Salinannya sedang dikirim ke {email}, lengkap dengan tautan untuk memilih jadwal.",
+    sendingReport: "Mengirim laporan Anda ke {email}",
+    bookingOffer: "Laporan Anda sedang dikirim ke {email} - jika berkenan, pilih jadwal demo sekarang juga.",
+    bookingClose: "Kembali ke laporan Anda",
   },
   rules: {
     profileLocations: "Jumlah outlet: {count}",

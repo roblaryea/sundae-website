@@ -1,0 +1,29 @@
+/* Guided diagnostic additions to the shared conversation styles
+   (src/components/marketing/guidedBooking/guidedBooking.module.css, which
+   stays as the booking ships it). Some diagnostic turns offer up to twelve
+   choices; on a phone they would push Sundae's question out of view. */
+
+/* The answer area never takes more than about three fifths of the panel, so
+   the question stays visible; longer choice lists scroll inside it. */
+.answer {
+  max-height: 62%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/* Long choice lists: "Done · n selected" sits in its own bar that stays in
+   reach at the bottom of the scrolling answer area. */
+.doneBar {
+  position: sticky;
+  bottom: -12px;
+  margin-block: -8px -12px;
+  padding-block: 8px 12px;
+  background: var(--navy);
+}
+
+@media (max-width: 639px) {
+  /* On phones the panel is the page, so the bar takes the page colour. */
+  .doneBar {
+    background: var(--navy-deep);
+  }
+}

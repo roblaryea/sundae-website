@@ -200,6 +200,14 @@ export const sv: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "Guidad diagnos",
+    progress: "Del {current} av {total}: {part}",
+    privacy: "Används bara för att ta fram och skicka din rapport",
+    priorityRequired: "Skriv några ord om vad du skulle lösa först",
+    skipped: "Överhoppad",
+    backToGuided: "Tillbaka till konversationen",
+  },
   generating: {
     eyebrow: "Sundae · Din rapport tas fram",
     title: "{name}, Sundae går igenom dina svar.",
@@ -254,6 +262,9 @@ export const sv: DiagnosticPack = {
     sent: "Förfrågan skickad - vi hör av oss",
     contactReuse: "När du ber om en genomgång använder vi de uppgifter du redan har lämnat.",
     ready: "Din rapport är klar. En kopia är på väg till {email}, med en länk för att boka en tid.",
+    sendingReport: "Skickar din rapport till {email}",
+    bookingOffer: "Din rapport är på väg till {email} - välj gärna en tid för genomgången redan nu.",
+    bookingClose: "Tillbaka till rapporten",
   },
   rules: {
     profileLocations: "Enheter: {count}",

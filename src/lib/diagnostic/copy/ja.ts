@@ -200,6 +200,14 @@ export const ja: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "ガイド付き診断",
+    progress: "パート {current} / {total}：{part}",
+    privacy: "レポートの作成と送付にのみ使用します",
+    priorityRequired: "最初に解決したいことを簡単にご入力ください",
+    skipped: "スキップしました",
+    backToGuided: "会話に戻る",
+  },
   generating: {
     eyebrow: "Sundae · レポートを作成中",
     title: "{name}さん、Sundaeが回答を読み込んでいます。",
@@ -254,6 +262,9 @@ export const ja: DiagnosticPack = {
     sent: "送信しました。担当者よりご連絡します",
     contactReuse: "お申し込みには、すでにご入力いただいた情報を使用します。",
     ready: "レポートが完成しました。日程予約のリンクを添えた控えを{email}にお送りしています。",
+    sendingReport: "{email}にレポートを送信しています",
+    bookingOffer: "レポートを{email}にお送りしています。ご希望でしたら、このままウォークスルーの日時をお選びいただけます。",
+    bookingClose: "レポートに戻る",
   },
   rules: {
     profileLocations: "店舗数：{count}",

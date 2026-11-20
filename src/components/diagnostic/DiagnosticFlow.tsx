@@ -11,7 +11,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { AlertCircle, Check, ChevronLeft, ChevronRight, MapPin, Search, X } from "lucide-react";
+import { AlertCircle, Check, ChevronLeft, ChevronRight, MapPin, MessageCircle, Search, X } from "lucide-react";
 import {
   COUNTRY_CODES,
   DIAGNOSTIC_PARTS,
@@ -27,7 +27,8 @@ import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
 import { fill } from "@/lib/diagnostic/copy";
 import { getDiagnosticQuestionCopy } from "@/lib/diagnostic/questionTranslations";
 import { saveProgress, type DiagnosticProgress } from "@/lib/diagnostic/progress";
-import { companyFromEmail, isFreeMail } from "@/lib/diagnostic/enrich";
+// One free-mail list for every flow, identical to the backend (spec D13).
+import { companyFromEmail, isFreeMailEmail } from "@/lib/freeMail";
 import { MAX_LOCATIONS, MIN_LOCATIONS, parseLocationCount } from "@/lib/diagnostic/rules";
 import { trackEvent } from "@/lib/posthog";
 import {
@@ -54,6 +55,15 @@ interface DiagnosticFlowProps {
   /** When resuming, the saved draft to seed the flow from. */
   initialProgress?: DiagnosticProgress | null;
   onComplete: (data: DiagnosticCompletion) => void;
+  /** Experiment properties added to every event (spec 6.4). */
+  analytics?: Record<string, unknown>;
+  /**
+   * Set only for a guided-arm visitor who chose "Use the classic form": a
+   * link back to the conversation, carrying the answers given here.
+   */
+  onSwitchToGuided?: (responses: DiagnosticResponses, questionId: string) => void;
+  /** Called after every change, so the conversation can resume from it. */
+  onProgressChange?: (responses: DiagnosticResponses, questionId: string) => void;
 }
 
 const values = (value: string | string[] | undefined): string[] =>
@@ -97,8 +107,9 @@ function Chip({
   );
 }
 
-export function DiagnosticFlow({ onComplete, locale, initialProgress }: DiagnosticFlowProps) {
+export function DiagnosticFlow({ onComplete, locale, initialProgress, analytics, onSwitchToGuided, onProgressChange }: DiagnosticFlowProps) {
   const copy = getDiagnosticCopy(locale);
+  const track = (event: string, properties: Record<string, unknown>) => trackEvent(event, { ...properties, ...analytics });
   const flowTopRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const [responses, setResponses] = useState<DiagnosticResponses>(() => initialProgress?.responses ?? {});
@@ -140,8 +151,13 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
   const countryLabel = (code: string) => countryOptions.find((option) => option.value === code)?.label ?? code;
 
   // Save after every change so a refresh or "finish later" keeps the answers.
+  const progressListener = useRef(onProgressChange);
+  useEffect(() => {
+    progressListener.current = onProgressChange;
+  });
   useEffect(() => {
     saveProgress({ responses, questionId: question.id });
+    progressListener.current?.(responses, question.id);
   }, [responses, question.id]);
 
   // Each step opens at the top with focus on its question.
@@ -217,13 +233,13 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
     const preselected = withPreselection(next.id, responses, geoCountry);
     if (preselected !== responses) setResponses(preselected);
     setQuestionId(next.id);
-    trackEvent("diagnostic_step", { locale, step: target + 1, total: visible.length, part: next.part, questionId: next.id });
+    track("diagnostic_step", { locale, step: target + 1, total: visible.length, part: next.part, questionId: next.id });
   };
 
   const finish = () => {
     const email = String(responses.email ?? "").trim();
     const roleKey = values(responses.role)[0] ?? "other";
-    trackEvent("diagnostic_lead_captured", { locale, role: roleKey, corporateEmail: !isFreeMail(email) });
+    track("diagnostic_lead_captured", { locale, role: roleKey, corporateEmail: !isFreeMailEmail(email) });
     onComplete({
       responses,
       name: String(responses.name ?? "").trim(),
@@ -534,6 +550,18 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
   return (
     <div ref={flowTopRef} className="min-h-screen bg-[var(--navy-deep)] pt-24 pb-16 px-4 sm:px-6 lg:px-8 scroll-mt-24">
       <div className="max-w-3xl mx-auto mb-8">
+        {onSwitchToGuided && (
+          <div className="flex justify-end mb-4">
+            <button
+              type="button"
+              onClick={() => onSwitchToGuided(responses, question.id)}
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent-warm)] underline underline-offset-4 hover:text-[var(--text-primary)] transition-colors"
+            >
+              <MessageCircle className="w-4 h-4" aria-hidden />
+              {copy.convo.backToGuided}
+            </button>
+          </div>
+        )}
         <div className="flex justify-between items-center mb-3 gap-4">
           <span className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-muted)]">
             {copy.parts[question.part]}

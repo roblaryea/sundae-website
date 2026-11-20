@@ -200,6 +200,14 @@ export const ro: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "Diagnostic ghidat",
+    progress: "Partea {current} din {total}: {part}",
+    privacy: "Folosit doar pentru pregătirea și trimiterea raportului",
+    priorityRequired: "Spuneți-ne în câteva cuvinte ce ați rezolva mai întâi",
+    skipped: "Întrebare omisă",
+    backToGuided: "Înapoi la conversație",
+  },
   generating: {
     eyebrow: "Sundae · Pregătim raportul",
     title: "{name}, Sundae analizează răspunsurile dumneavoastră.",
@@ -254,6 +262,9 @@ export const ro: DiagnosticPack = {
     sent: "Solicitare trimisă - vă contactăm în curând",
     contactReuse: "Pentru demonstrație folosim datele pe care ni le-ați transmis deja.",
     ready: "Raportul este gata. Vă trimitem o copie la {email}, împreună cu un link pentru a alege o oră.",
+    sendingReport: "Trimitem raportul la {email}",
+    bookingOffer: "Raportul este în drum spre {email} - dacă doriți, alegeți chiar acum o oră pentru demonstrație.",
+    bookingClose: "Înapoi la raport",
   },
   rules: {
     profileLocations: "Locații: {count}",

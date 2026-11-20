@@ -23,8 +23,7 @@ import {
 } from '@/lib/sundaeLeadClient';
 import { normalizeWebsiteLocale } from '@/lib/i18n';
 import { isPhoneRequiredForLead, isValidOptionalPhone } from '@/lib/leadValidation';
-
-const GUIDED_BOOKING_SOURCE = 'guided-booking';
+import { bookingTokenForSource } from '@/lib/leadBookingToken';
 
 // Force Node.js runtime (required for crypto)
 export const runtime = 'nodejs';
@@ -214,10 +213,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Guided booking may receive a short-lived booking token for inline
-    // scheduling. Only that caller sees it; every other response is unchanged.
-    // The token is never logged (see the submit log above).
-    const bookingToken = source === GUIDED_BOOKING_SOURCE ? sundaeResult.bookingToken : undefined;
+    // Guided booking and the guided diagnostic may receive a short-lived
+    // booking token for inline scheduling. Only those callers see it; every
+    // other response is unchanged. The token is never logged (see above).
+    const bookingToken = bookingTokenForSource(source, sundaeResult.bookingToken);
 
     return NextResponse.json(
       {

@@ -200,6 +200,14 @@ export const vi: DiagnosticPack = {
       },
     },
   },
+  convo: {
+    subline: "Chẩn đoán từng bước",
+    progress: "Phần {current}/{total}: {part}",
+    privacy: "Chỉ dùng để chuẩn bị và gửi báo cáo cho bạn",
+    priorityRequired: "Hãy viết vài chữ về việc bạn muốn giải quyết trước tiên",
+    skipped: "Đã bỏ qua",
+    backToGuided: "Quay lại cuộc trò chuyện",
+  },
   generating: {
     eyebrow: "Sundae · Đang chuẩn bị báo cáo",
     title: "{name}, Sundae đang xem các câu trả lời của bạn.",
@@ -254,6 +262,9 @@ export const vi: DiagnosticPack = {
     sent: "Đã gửi yêu cầu - chúng tôi sẽ sớm liên hệ",
     contactReuse: "Yêu cầu buổi hướng dẫn sẽ dùng thông tin bạn đã cung cấp.",
     ready: "Báo cáo của bạn đã sẵn sàng. Một bản đang được gửi đến {email}, kèm liên kết để đặt lịch.",
+    sendingReport: "Đang gửi báo cáo đến {email}",
+    bookingOffer: "Báo cáo đang được gửi đến {email} - nếu muốn, bạn có thể chọn ngay thời gian cho buổi hướng dẫn.",
+    bookingClose: "Quay lại báo cáo",
   },
   rules: {
     profileLocations: "Số địa điểm: {count}",
