@@ -21,7 +21,6 @@ import {
   ConversationHeader,
   ErrorLine,
   MultiChoices,
-  PosPicker,
   PrivacyFoot,
   ProgressSegments,
   Subline,
@@ -177,6 +176,18 @@ export default function DiagnosticConversation({ locale, handback, analytics, on
     if (!log) return;
     log.scrollTo({ top: log.scrollHeight, behavior: reduceMotion ? 'auto' : 'smooth' });
   }, [revealed, typing, reduceMotion]);
+
+  // When the answer area grows (an "Other" field, search results), the log
+  // shrinks: keep its newest line, the current question, in view.
+  useEffect(() => {
+    const log = logRef.current;
+    if (!log || typeof ResizeObserver === 'undefined') return;
+    const observer = new ResizeObserver(() => {
+      log.scrollTop = log.scrollHeight;
+    });
+    observer.observe(log);
+    return () => observer.disconnect();
+  }, []);
 
   // Focus follows the conversation once the visitor has started answering
   // (never on page load, so arriving visitors keep their place on the page).
@@ -567,37 +578,25 @@ function TurnControl({ turn, state, copy, chat, intlLocale, geoCountry, inferred
       );
     }
     case 'pos': {
-      const current = list(responses.pos);
+      // Several POS systems are common in multi-brand groups, so this turn is
+      // multi-select like the step-by-step form ("Choose all that apply").
       const ordered = orderPosOptions(list(responses.countries)).filter((option) => option.value !== 'other' && option.value !== 'not_sure');
-      const listed = ordered.slice(0, LISTED_POS).map((option) => ({ key: option.value, label: POS_BRAND_NAMES[option.value] ?? option.value }));
-      const brands = POS_OPTIONS.filter((option) => POS_BRAND_NAMES[option.value]);
       return (
-        <PosPicker
+        <PosMulti
           question={q?.prompt ?? ''}
-          listed={listed}
+          listed={ordered.slice(0, LISTED_POS).map((option) => option.value)}
           otherLabel={q?.options?.other ?? chat.pos.other}
           notSureLabel={q?.options?.not_sure ?? chat.pos.notSure}
-          selected={current.length === 1 ? current[0] : undefined}
-          startTyped={current.includes('other')}
-          text={{
-            label: chat.pos.otherLabel,
-            placeholder: chat.pos.otherPlaceholder,
-            defaultValue: current.includes('other') ? String(responses[diagnosticOtherKey('pos')] ?? '') : '',
-            error: errorText,
-            sendLabel: chat.send,
-          }}
-          search={{
-            label: copy.flow.search,
-            match: (query) => filterDiagnosticOptions(brands, (value) => POS_BRAND_NAMES[value] ?? value, query)
-              .map((option) => ({ key: option.value, label: POS_BRAND_NAMES[option.value] ?? option.value })),
-          }}
-          onListed={(value) => run({ kind: 'choices', values: [value] })}
-          onNotSure={() => run({ kind: 'choices', values: ['not_sure'] })}
-          focusTyped
-          onOther={(value) => {
-            const brand = brands.find((option) => (POS_BRAND_NAMES[option.value] ?? '').toLocaleLowerCase() === value.trim().toLocaleLowerCase());
-            run(brand ? { kind: 'choices', values: [brand.value] } : { kind: 'choices', values: ['other'], other: value });
-          }}
+          initial={list(responses.pos)}
+          initialOther={String(responses[diagnosticOtherKey('pos')] ?? '')}
+          otherFieldLabel={chat.pos.otherLabel}
+          otherPlaceholder={chat.pos.otherPlaceholder}
+          searchLabel={copy.flow.search}
+          doneLabel={chat.focus.done}
+          doneCount={chat.focus.doneCount}
+          error={errorText}
+          onDone={(values, other) => run({ kind: 'choices', values, other })}
+          onEdit={() => setError(null)}
         />
       );
     }
@@ -631,6 +630,150 @@ function TurnControl({ turn, state, copy, chat, intlLocale, geoCountry, inferred
       );
     }
   }
+}
+
+// ── POS: region-aware brands, search, Other with a name, Not sure ─────
+
+const POS_BRANDS = POS_OPTIONS.filter((option) => POS_BRAND_NAMES[option.value]);
+const brandName = (value: string) => POS_BRAND_NAMES[value] ?? value;
+
+function PosMulti({
+  question,
+  listed,
+  otherLabel,
+  notSureLabel,
+  initial,
+  initialOther,
+  otherFieldLabel,
+  otherPlaceholder,
+  searchLabel,
+  doneLabel,
+  doneCount,
+  error,
+  onDone,
+  onEdit,
+}: {
+  question: string;
+  /** Brand values most used where the visitor operates. */
+  listed: string[];
+  otherLabel: string;
+  notSureLabel: string;
+  initial: string[];
+  initialOther: string;
+  otherFieldLabel: string;
+  otherPlaceholder: string;
+  searchLabel: string;
+  doneLabel: string;
+  doneCount: string;
+  error: string | null;
+  onDone: (values: string[], other: string) => void;
+  onEdit: () => void;
+}) {
+  const id = useId();
+  const [picked, setPicked] = useState<string[]>(initial);
+  const [other, setOther] = useState(initialOther);
+  const [query, setQuery] = useState('');
+  const [focusOther, setFocusOther] = useState(false);
+  const toggle = (value: string) => {
+    onEdit();
+    const next = toggleDiagnosticMultiValue(picked, value, POS_OPTIONS);
+    if (value === 'other' && next.includes('other')) setFocusOther(true);
+    setPicked(next);
+  };
+  // Brands found by search stay on screen as chips once picked.
+  const shown = [...listed, ...picked.filter((value) => POS_BRAND_NAMES[value] && !listed.includes(value))];
+  const options = [
+    ...shown.map((value) => ({ key: value, label: brandName(value) })),
+    { key: 'other', label: otherLabel },
+    { key: 'not_sure', label: notSureLabel },
+  ];
+  const matches = query.trim()
+    ? filterDiagnosticOptions(POS_BRANDS, brandName, query).filter((option) => !shown.includes(option.value)).slice(0, 6)
+    : [];
+  const done = () => {
+    // A typed name that is a listed brand counts as that brand.
+    const brand = POS_BRANDS.find((option) => brandName(option.value).toLocaleLowerCase() === other.trim().toLocaleLowerCase());
+    const values = brand && picked.includes('other')
+      ? [...new Set([...picked.filter((value) => value !== 'other'), brand.value])]
+      : picked;
+    onDone(values, values.includes('other') ? other : '');
+  };
+  return (
+    <div className={styles.stack}>
+      <div className={styles.chips} role="group" aria-label={question} aria-describedby={error ? `${id}-error` : undefined}>
+        {options.map((option) => {
+          const on = picked.includes(option.key);
+          return (
+            <button key={option.key} type="button" aria-pressed={on} className={`${styles.chip} ${on ? styles.chipOn : ''}`} onClick={() => toggle(option.key)}>
+              {on && <CheckMark />}
+              <bdi>{option.label}</bdi>
+            </button>
+          );
+        })}
+      </div>
+      {picked.includes('other') && (
+        <input
+          className={styles.field}
+          value={other}
+          maxLength={120}
+          aria-label={otherFieldLabel}
+          placeholder={otherPlaceholder}
+          autoComplete="off"
+          autoFocus={focusOther || undefined}
+          onChange={(event) => {
+            onEdit();
+            setOther(event.target.value);
+          }}
+          onKeyDown={(event) => {
+            if (event.key === 'Enter') {
+              event.preventDefault();
+              done();
+            }
+          }}
+        />
+      )}
+      <input
+        type="search"
+        className={styles.field}
+        value={query}
+        placeholder={searchLabel}
+        aria-label={searchLabel}
+        autoComplete="off"
+        onChange={(event) => setQuery(event.target.value)}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter' && matches.length) {
+            event.preventDefault();
+            toggle(matches[0].value);
+            setQuery('');
+          }
+        }}
+      />
+      {matches.length > 0 && (
+        <div className={styles.chips} role="group" aria-label={searchLabel}>
+          {matches.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              aria-pressed={false}
+              className={styles.chip}
+              onClick={() => {
+                toggle(option.value);
+                setQuery('');
+              }}
+            >
+              <bdi>{brandName(option.value)}</bdi>
+            </button>
+          ))}
+        </div>
+      )}
+      <div className={local.doneBar}>
+        <button type="button" className={`${styles.chip} ${styles.chipDone}`} onClick={done}>
+          {picked.length ? fill(doneCount, { count: picked.length }) : doneLabel}
+        </button>
+      </div>
+      <ErrorLine id={`${id}-error`} text={error} />
+    </div>
+  );
 }
 
 // ── Countries: preselected, searchable, multi ──────────────────────────

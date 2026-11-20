@@ -370,3 +370,17 @@ test('an accepted IP guess stays recorded after a refresh, before the guess is f
   const changed = answer(edit(core, 'countries'), 'countries', pick('AE', 'SA'), CONTEXT).state;
   assert.equal(changed.inferred.countries, false);
 });
+
+test('POS is multi-select like the classic form: several brands, Other with a name, Not sure alone', () => {
+  const atPos = edit(run(CORE_ONLY), 'pos');
+  const several = answer(atPos, 'pos', { kind: 'choices', values: ['foodics', 'toast', 'other'], other: 'Our own till' }, CONTEXT).state;
+  assert.deepEqual(several.responses.pos, ['foodics', 'toast', 'other']);
+  assert.equal(several.responses.pos_other, 'Our own till');
+  assert.equal(answer(atPos, 'pos', pick('foodics', 'other'), CONTEXT).error, 'otherRequired');
+  assert.equal(answer(atPos, 'pos', pick(), CONTEXT).error, 'choiceRequired');
+  const notSure = answer(atPos, 'pos', pick('foodics', 'not_sure'), CONTEXT).state;
+  assert.deepEqual(notSure.responses.pos, ['not_sure']);
+  assert.equal(notSure.responses.pos_other, undefined);
+  // Classic answers with several brands carry over intact.
+  assert.deepEqual(fromClassic({ ...several.responses }, 'role', null, CONTEXT).responses.pos, ['foodics', 'toast', 'other']);
+});

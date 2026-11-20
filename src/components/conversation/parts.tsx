@@ -180,7 +180,6 @@ export function TextAnswer({
   error,
   sendLabel,
   onSubmit,
-  onValueChange,
   autoFocus,
 }: {
   label: string;
@@ -196,7 +195,6 @@ export function TextAnswer({
   error: string | null;
   sendLabel: string;
   onSubmit: (value: string) => void;
-  onValueChange?: (value: string) => void;
   /** Focus the field when it appears (after "Other" or "Different name"). */
   autoFocus?: boolean;
 }) {
@@ -212,7 +210,6 @@ export function TextAnswer({
   const change = (next: string) => {
     setValue(next);
     setShowError(false);
-    onValueChange?.(next);
   };
   const shared = {
     id: `${id}-field`,
@@ -397,9 +394,8 @@ export function CompanyConfirm({
 }
 
 /**
- * The region-aware POS picker: the brands most used where the visitor
- * operates, then Other (typed) and Not sure. With `search`, typing under
- * Other also offers matching brands from the full list.
+ * The region-aware POS picker (one tap): the brands most used where the
+ * visitor operates, then Other (typed) and Not sure.
  */
 export function PosPicker({
   question,
@@ -409,11 +405,9 @@ export function PosPicker({
   selected,
   startTyped,
   text,
-  search,
   onListed,
   onNotSure,
   onOther,
-  focusTyped = false,
 }: {
   question: string;
   listed: ChoiceOption[];
@@ -422,16 +416,11 @@ export function PosPicker({
   selected?: string;
   startTyped: boolean;
   text: { label: string; placeholder: string; defaultValue: string; error: string | null; sendLabel: string };
-  search?: { match: (query: string) => ChoiceOption[]; label: string };
   onListed: (key: string) => void;
   onNotSure: () => void;
   onOther: (value: string) => void;
-  /** Move focus into the field after "Other". */
-  focusTyped?: boolean;
 }) {
   const [typed, setTyped] = useState(startTyped);
-  const [chose, setChose] = useState(false);
-  const [query, setQuery] = useState(text.defaultValue);
   if (!typed) {
     return (
       <Choices
@@ -439,18 +428,15 @@ export function PosPicker({
         selected={selected}
         options={[...listed, { key: 'other', label: otherLabel }, { key: 'not_sure', label: notSureLabel }]}
         onChoose={(choice) => {
-          if (choice === 'other') {
-            setTyped(true);
-            setChose(true);
-          } else if (choice === 'not_sure') onNotSure();
+          if (choice === 'other') setTyped(true);
+          else if (choice === 'not_sure') onNotSure();
           else onListed(choice);
         }}
       />
     );
   }
-  const field = (
+  return (
     <TextAnswer
-      autoFocus={focusTyped && chose ? true : undefined}
       key="pos-text"
       label={text.label}
       placeholder={text.placeholder}
@@ -458,16 +444,7 @@ export function PosPicker({
       error={text.error}
       sendLabel={text.sendLabel}
       onSubmit={onOther}
-      onValueChange={search ? setQuery : undefined}
     />
-  );
-  if (!search) return field;
-  const matches = query.trim() ? search.match(query).slice(0, 6) : [];
-  return (
-    <div className={styles.stack}>
-      {field}
-      {matches.length > 0 && <Choices label={search.label} options={matches} onChoose={onListed} />}
-    </div>
   );
 }
 

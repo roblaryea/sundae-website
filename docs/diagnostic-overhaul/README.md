@@ -48,8 +48,8 @@ Read results and the promote / switch-off rules in spec section 6.5.
   returns a 2-hour booking token; the route passes it to the browser for
   `guided-diagnostic` and `guided-booking` only, with `no-store` / `no-referrer`.
   The page keeps it in memory and the report offers **Choose a time**. Otherwise the
-  report shows the email ending. Production issues tokens only after the backend's
-  next `develop` → `main` release; until then every visitor gets the email ending.
+  report shows the email ending. Production has issued these tokens since the
+  backend release of 20 Nov 2026 (Sundae-io/sundae-stable#2619).
 - A guided visitor who switches to the classic form and finishes there sends a
   classic lead (no `source`, no `metadata.convo`), as guided booking does.
 
@@ -88,6 +88,7 @@ npm run build && DIAGNOSTIC_E2E_PRODUCTION=1 DIAGNOSTIC_SCREENS_DIR=/tmp/diagnos
 | `en-dark-1440-chips.png`, `en-light-1440-chips.png`, `de-dark-768-chips.png` | Mid-conversation: transcript with Edit, the twelve "money slips away" choices, Back, privacy line |
 | `en-dark-320-chips.png`, `en-light-390-chips.png`, `de-light-390-chips.png` | Phones: long choice lists scroll in a capped answer area with "Done" pinned, so the question stays visible |
 | `ar-dark-390-opening.png`, `ar-dark-390-chips.png`, `ar-light-1440-chips.png` | Arabic right to left; "Sundae" kept in Latin script |
+| `en-dark-390-pos.png`, `en-light-1440-pos.png` | POS turn: multi-select like the classic form, region-relevant brands, search for the rest, "Other" with a name, "Not sure" on its own |
 | `en-dark-1440-report-offer.png`, `en-light-390-report-offer.png` | Report final card for a new work-email lead: Choose a time |
 | `en-light-1440-booking-dialog.png` | Choose a time opens the existing booking screen |
 | `en-dark-390-report-email.png` | The email ending (no token, or "I'll use the email link later") |

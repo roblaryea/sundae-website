@@ -18,7 +18,7 @@ const LOCALES = PRODUCTION ? (['en', 'ar', 'de'] as const) : (['en'] as const);
 const OUT = process.env.DIAGNOSTIC_SCREENS_DIR || 'test-results/guided-diagnostic-screens';
 const chat = guidedBookingCopy.en;
 
-type Seed = 'leaks' | 'role';
+type Seed = 'leaks' | 'pos' | 'role';
 let ip = 100;
 let emails = 0;
 
@@ -38,6 +38,7 @@ function seededResponses(seed: Seed, email: string) {
     paper_processes: ['checklists', 'schedules'],
     team_costs: ['overtime'],
   };
+  if (seed === 'pos') Object.assign(responses, { money_leaks: ['food_cost'], measure_fix: 'spreadsheet' });
   if (seed === 'role') {
     Object.assign(responses, {
       money_leaks: ['food_cost', 'labor_vs_demand'],
@@ -176,6 +177,23 @@ test('screens: the report final card (Choose a time, booking dialog, email endin
     await expect(page.getByRole('button', { name: en.report.bookCall })).toBeVisible();
     await expect(nextStep(page)).toHaveCSS('opacity', '1');
     await nextStep(page).screenshot({ path: `${OUT}/en-${theme}-${width}-report-email.png` });
+    await page.context().close();
+  }
+});
+
+test('axe and screens: the POS turn (multi-select, search, Other with a name)', async ({ browser }) => {
+  for (const [theme, width] of [['dark', 390], ['light', 390], ['dark', 1440], ['light', 1440]] as const) {
+    const page = await open(browser, 'en', theme, width, 'pos');
+    await page.goto('/diagnostic?guided=1');
+    await unstickNav(page);
+    await expect(panel(page).locator('p', { hasText: en.questions.pos.prompt }).last()).toContainText(en.questions.pos.helper);
+    await panel(page).getByRole('button', { name: 'Foodics', exact: true }).click();
+    await panel(page).getByRole('button', { name: en.questions.pos.options.other, exact: true }).click();
+    await panel(page).getByRole('textbox', { name: chat.pos.otherLabel }).fill('Our own till');
+    await panel(page).getByRole('searchbox', { name: en.flow.search }).fill('clo');
+    await expect(panel(page).getByRole('button', { name: 'Clover', exact: true })).toBeVisible();
+    expect(await axe(page, '[data-guided-diagnostic]'), `pos ${theme} ${width}`).toEqual([]);
+    await panel(page).screenshot({ path: `${OUT}/en-${theme}-${width}-pos.png` });
     await page.context().close();
   }
 });

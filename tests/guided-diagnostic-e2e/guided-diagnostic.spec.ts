@@ -94,6 +94,8 @@ type Path = {
   leaks: string[];
   /** A typed role for "Other". */
   otherRole?: string;
+  /** POS chips to tick, a brand to add by search, and a name typed under "Other". */
+  pos?: { pick: string[]; search?: string; other?: string };
 };
 
 const o = <K extends keyof typeof q>(question: K) => (q[question] as { options: Record<string, string> }).options;
@@ -115,7 +117,23 @@ async function converse(page: Page, path: Path) {
   if (path.teamCosts) await multi(page, path.teamCosts.map((key) => o('team_costs')[key]));
   await multi(page, path.leaks.map((key) => o('money_leaks')[key]));
   await tap(page, o('measure_fix').spreadsheet);
-  await tap(page, 'Foodics');
+  // POS is multi-select, like the step-by-step form.
+  await expect(panel(page).locator('p', { hasText: q.pos.prompt }).last()).toContainText(q.pos.helper);
+  const pos = path.pos ?? { pick: ['Foodics'] };
+  for (const name of pos.pick) await tap(page, name);
+  let count = pos.pick.length;
+  if (pos.search) {
+    const search = panel(page).getByRole('searchbox', { name: en.flow.search });
+    await search.fill(pos.search);
+    await search.press('Enter');
+    count += 1;
+  }
+  if (pos.other) {
+    await tap(page, q.pos.options.other);
+    await panel(page).getByRole('textbox', { name: chat.pos.otherLabel }).fill(pos.other);
+    count += 1;
+  }
+  await tap(page, chat.focus.doneCount.replace('{count}', String(count)));
   await expect(panel(page).getByText(q.other_systems.prompt)).toBeVisible();
   await tap(page, en.flow.skip);
   await say(page, q.priority.prompt, 'Get overtime under control across our locations.');
@@ -197,7 +215,11 @@ test('Crew-heavy operator: payroll branch, Crew Operating and the shared notes',
   const email = `crew-${info.project.name}@harbor-group.test`;
   await prepare(page);
   await page.goto('/diagnostic?guided=1');
-  await converse(page, { email, locations: '3', paper: ['payroll_prep', 'tips', 'checklists'], payroll: true, teamCosts: ['overtime'], leaks: ['labor_vs_demand'] });
+  await converse(page, {
+    email, locations: '3', paper: ['payroll_prep', 'tips', 'checklists'], payroll: true, teamCosts: ['overtime'], leaks: ['labor_vs_demand'],
+    // Two POS systems, one found by search, plus one typed under "Other".
+    pos: { pick: ['Foodics', 'Oracle MICROS Simphony'], search: 'clover', other: 'Our own till' },
+  });
   await expect(page.getByRole('heading', { name: en.report.crewTitle })).toBeVisible();
   await expect(page.locator('#diagnostic-report').getByText('Crew Operating', { exact: true }).first()).toBeVisible();
   await expect(page.getByText(en.facts.notes.payroll)).toBeVisible();
@@ -206,6 +228,9 @@ test('Crew-heavy operator: payroll branch, Crew Operating and the shared notes',
   const metadata = lead.body.metadata as { report: { tierFit: string }; convo: { answers: Record<string, unknown>; turns: number } };
   expect(metadata.report.tierFit).toBe('Core Foundation + Crew Operating');
   expect(metadata.convo.answers.payroll_countries).toEqual(['AE']);
+  expect(metadata.convo.answers.pos).toEqual(['foodics', 'micros', 'clover', 'other']);
+  expect(metadata.convo.answers.pos_other).toBe('Our own till');
+  expect(lead.body.primaryPos).toBe('Foodics');
   expect(metadata.convo.turns).toBe(15);
 });
 
