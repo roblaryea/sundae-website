@@ -1,22 +1,17 @@
-import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
-// AI-powered Diagnostic API
+// Operations Diagnostic API
 //
 // POST /api/diagnostic
-//   Body: { responses: DiagnosticResponses, leadData: { name, role, country, company } }
-//   Returns: DiagnosticReport (same shape as the heuristic engine - UI-compatible)
+//   Body: { responses, leadData: { name, role, company }, locale }
+//   Returns: { report, source } - the same DiagnosticReport shape whichever path ran.
 //
-// Resolution chain (direct provider keys first; gateway is a residual fallback):
-//   1. Direct OpenAI     (OPENAI_API_KEY)      → gpt-5-mini        [fast structured report]
-//   2. Direct Anthropic  (ANTHROPIC_API_KEY)   → claude-haiku-4-5  [cross-provider resilience]
-//   3. Vercel AI Gateway (AI_GATEWAY_API_KEY / VERCEL_OIDC_TOKEN) → bare "provider/model"
-//      strings via ai-gateway.vercel.sh. Residual only - used when no direct key is set.
-//      (Gateway model access may be plan-gated; direct provider keys remain preferred.)
-//   4. Deterministic heuristic engine - guarantees a report is ALWAYS produced.
-//
-// Env vars (set per environment in the Vercel project):
-//   OPENAI_API_KEY     - direct OpenAI key (sk-...). Primary path.
-//   ANTHROPIC_API_KEY  - direct Anthropic key (sk-ant-...). Fallback path.
-//   AI_GATEWAY_API_KEY - optional Vercel AI Gateway key (residual path only).
+// The rules engine decides everything first (package, Crew, add-ons, price,
+// hypotheses). A model then writes only the summary, leak explanations,
+// 30/60/90 text and one Crew sentence, and the guard checks every one of those
+// fields. Resolution chain for the narrative:
+//   1. Direct OpenAI     (OPENAI_API_KEY)      -> gpt-5-mini
+//   2. Direct Anthropic  (ANTHROPIC_API_KEY)   -> claude-haiku-4-5
+//   3. Vercel AI Gateway (AI_GATEWAY_API_KEY / VERCEL_OIDC_TOKEN), residual only
+//   4. The rules report on its own - localized for every website locale.
 
 import { NextResponse } from 'next/server';
 import { generateObject, type LanguageModel } from 'ai';
@@ -26,8 +21,9 @@ import { openai } from '@ai-sdk/openai';
 import { checkBotId } from 'botid/server';
 import { DiagnosticNarrativeSchema } from '@/lib/diagnostic/schema';
 import { SYSTEM_PROMPT, buildUserMessage } from '@/lib/diagnostic/promptBuilder';
-import { runDiagnostic, type DiagnosticResponses } from '@/lib/diagnostic/engine';
-import { groundGeneratedDiagnostic } from '@/lib/diagnostic/reportGuard';
+import { runDiagnostic, runDiagnosticWithRules, type DiagnosticReport, type DiagnosticResponses } from '@/lib/diagnostic/engine';
+import { guardContextFor, guardNarrative } from '@/lib/diagnostic/reportGuard';
+import { sanitizeDiagnosticResponses } from '@/lib/diagnostic/sanitize';
 import { getClientIp, isSameOrigin, checkRateLimit } from '@/lib/diagnostic/abuse-guard';
 import { normalizeWebsiteLocale, type WebsiteLocale } from '@/lib/i18n';
 
@@ -46,7 +42,6 @@ const MIN_FALLBACK_ATTEMPT_MS = 6_000;
 type LeadData = {
   name: string;
   role: string;
-  country: string;
   company: string;
 };
 
@@ -98,16 +93,14 @@ async function generateWithModel(
   responses: DiagnosticResponses,
   leadData: LeadData,
   locale: WebsiteLocale,
+  reference: ReturnType<typeof runDiagnosticWithRules>,
+  envelope: DiagnosticReport,
   abortSignal: AbortSignal,
 ) {
-  const referenceReport = runDiagnostic(responses, locale);
-  const userMessage = buildUserMessage(responses, leadData, locale, referenceReport);
+  const userMessage = buildUserMessage(responses, leadData, locale, envelope, reference.recommendation);
 
-  // Vercel AI SDK with structured output. A LanguageModel instance from
-  // @ai-sdk/anthropic / @ai-sdk/openai uses the direct provider key
-  // (ANTHROPIC_API_KEY / OPENAI_API_KEY). A bare "provider/model" string is
-  // instead resolved by the SDK's default Gateway provider and routed through
-  // the Vercel AI Gateway - that is the residual path only.
+  // A LanguageModel instance uses the direct provider key; a bare
+  // "provider/model" string is resolved through the Vercel AI Gateway.
   const result = await generateObject({
     model: attempt.model,
     schema: DiagnosticNarrativeSchema,
@@ -115,12 +108,24 @@ async function generateWithModel(
     prompt: userMessage,
     temperature: attempt.temperature,
     maxRetries: 0,
-    maxOutputTokens: 2_200,
+    maxOutputTokens: 1_600,
     providerOptions: attempt.providerOptions,
     abortSignal,
   });
 
-  return groundGeneratedDiagnostic(result.object, referenceReport, locale, getCommercialCopy(locale).stackBasis);
+  const outcome = guardNarrative(result.object, reference.report, guardContextFor(reference.report, leadData.name));
+  if (outcome.replaced.length) {
+    // Field names and rule ids only - never the text, which may hold personal data.
+    console.warn('[diagnostic] guard replaced fields', outcome.replaced.map((item) => `${item.field}:${item.rules.join('+')}`).join(', '));
+  }
+  return outcome.report;
+}
+
+function readLeadData(value: unknown): LeadData | null {
+  if (!value || typeof value !== 'object') return null;
+  const lead = value as Record<string, unknown>;
+  const text = (input: unknown, max: number) => (typeof input === 'string' ? input.trim().slice(0, max) : '');
+  return { name: text(lead.name, 80), role: text(lead.role, 40), company: text(lead.company, 120) };
 }
 
 export async function POST(req: Request) {
@@ -156,27 +161,37 @@ export async function POST(req: Request) {
     console.error('[diagnostic] BotID check errored (failing open):', botErr);
   }
 
-  let body: { responses: DiagnosticResponses; leadData: LeadData; locale?: string | null };
+  let body: { responses?: unknown; leadData?: unknown; locale?: string | null };
   try {
     body = (await req.json()) as typeof body;
   } catch {
     return NextResponse.json({ error: 'Invalid JSON body' }, { status: 400 });
   }
 
-  const { responses, leadData } = body;
+  const responses = sanitizeDiagnosticResponses(body.responses);
+  const leadData = readLeadData(body.leadData);
   const locale = normalizeWebsiteLocale(body.locale);
   if (!responses || !leadData) {
     return NextResponse.json({ error: 'Missing responses or leadData' }, { status: 400 });
   }
 
-  // ─── Walk the resolution chain: direct providers → gateway → heuristic ───
+  let reference: ReturnType<typeof runDiagnosticWithRules>;
+  try {
+    reference = runDiagnosticWithRules(responses, locale);
+  } catch (rulesErr) {
+    console.error('[diagnostic] Rules engine failed:', rulesErr);
+    return NextResponse.json({ error: 'Diagnostic generation failed' }, { status: 500 });
+  }
+  // The model reads the envelope in English whatever language it writes in.
+  const envelope = locale === 'en' ? reference.report : runDiagnostic(responses, 'en');
+
+  // ─── Narrative: direct providers -> gateway -> rules report ───
   const chain = buildChain();
   const generationStartedAt = Date.now();
   for (const attempt of chain) {
     const remainingMs = TOTAL_GENERATION_BUDGET_MS - (Date.now() - generationStartedAt);
-    // A provider cannot reliably produce and validate this structured report
-    // in only a few residual seconds. Return the grounded deterministic report
-    // instead of spending that time on a fallback that is certain to time out.
+    // A provider cannot reliably produce and validate this structured narrative
+    // in only a few residual seconds. Return the rules report instead.
     if (remainingMs < MIN_FALLBACK_ATTEMPT_MS) break;
     try {
       const attemptTimeoutMs = Math.min(MODEL_ATTEMPT_TIMEOUT_MS, remainingMs);
@@ -185,6 +200,8 @@ export async function POST(req: Request) {
         responses,
         leadData,
         locale,
+        reference,
+        envelope,
         AbortSignal.timeout(attemptTimeoutMs),
       );
       return NextResponse.json({ report, source: attempt.source });
@@ -193,28 +210,6 @@ export async function POST(req: Request) {
     }
   }
 
-  if (locale !== 'en') {
-    return NextResponse.json(
-      { error: 'Localized diagnostic generation is temporarily unavailable' },
-      { status: 503 },
-    );
-  }
-
-  // ─── Final safety net: deterministic English heuristic engine ─────────
-  // The heuristic engine is intentionally English-only. Non-English locales
-  // fail cleanly above rather than receiving an English report.
-  try {
-    const report = runDiagnostic(responses, locale);
-    return NextResponse.json({
-      report,
-      source: 'heuristic-fallback',
-      warning: 'AI providers unavailable - using deterministic engine. Quality may be lower.',
-    });
-  } catch (heuristicErr) {
-    console.error('[diagnostic] Heuristic engine also failed:', heuristicErr);
-    return NextResponse.json(
-      { error: 'Diagnostic generation failed across all engines' },
-      { status: 500 },
-    );
-  }
+  // ─── Rules report: complete and localized for every locale ───
+  return NextResponse.json({ report: reference.report, source: 'rules' });
 }

@@ -1,217 +1,166 @@
+// Operations Diagnostic localisation gate.
+//
+// Every website locale must have a complete diagnostic pack
+// (src/lib/diagnostic/copy/<locale>.ts) with exactly the English keys, the
+// same array lengths, the same {placeholders}, the same numbers, the product
+// names untranslated, and none of the retired claims. Every question and
+// option in the question bank must have English copy.
+//
+//   node scripts/qa-diagnostic-i18n.mjs            # all locales
+//   node scripts/qa-diagnostic-i18n.mjs --locale de
+
 import fs from 'node:fs'
 import path from 'node:path'
+import vm from 'node:vm'
+import ts from 'typescript'
 
 const root = process.cwd()
-const i18nPath = path.join(root, 'src/lib/i18n.ts')
-const diagnosticPath = path.join(root, 'src/lib/diagnostic/i18n.ts')
-const questionPath = path.join(root, 'src/lib/diagnostic/questionTranslations.ts')
-const questionFrameworkPath = path.join(root, 'src/lib/diagnostic/questions.ts')
-const optionPackPaths = [
-  path.join(root, 'src/lib/diagnostic/optionPacksAsia.ts'),
-  path.join(root, 'src/lib/diagnostic/optionPacksEurope.ts'),
-  path.join(root, 'src/lib/diagnostic/optionPacksIndic.ts'),
-]
+const copyDir = path.join(root, 'src/lib/diagnostic/copy')
+const i18nSource = fs.readFileSync(path.join(root, 'src/lib/i18n.ts'), 'utf8')
+const diagnosticI18n = fs.readFileSync(path.join(root, 'src/lib/diagnostic/i18n.ts'), 'utf8')
+const indexSource = fs.readFileSync(path.join(copyDir, 'index.ts'), 'utf8')
 
-const i18n = fs.readFileSync(i18nPath, 'utf8')
-const diagnostic = fs.readFileSync(diagnosticPath, 'utf8')
-const questions = fs.readFileSync(questionPath, 'utf8')
-const questionFramework = fs.readFileSync(questionFrameworkPath, 'utf8')
-const optionPackSource = optionPackPaths
-  .filter((filePath) => fs.existsSync(filePath))
-  .map((filePath) => fs.readFileSync(filePath, 'utf8'))
-  .join('\n')
+const localeBlock = i18nSource.match(/export const websiteLocaleProfiles = \{([\s\S]*?)\n\} as const/)
+if (!localeBlock) throw new Error('Could not locate websiteLocaleProfiles in src/lib/i18n.ts')
+const allLocales = [...localeBlock[1].matchAll(/^\s*'?([a-z]{2}(?:-[A-Za-z]+)?)'?:\s*\{/gm)].map((match) => match[1])
 
-const localeBlock = i18n.match(/export const websiteLocaleProfiles = \{([\s\S]*?)\n\} as const/)
-if (!localeBlock) {
-  throw new Error('Could not locate websiteLocaleProfiles in src/lib/i18n.ts')
+const onlyIndex = process.argv.indexOf('--locale')
+const locales = onlyIndex > -1 ? [process.argv[onlyIndex + 1]] : allLocales
+
+function loadModule(file) {
+  const source = fs.readFileSync(file, 'utf8')
+  const compiled = ts.transpileModule(source, {
+    compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
+  }).outputText
+  const sandboxModule = { exports: {} }
+  vm.runInNewContext(compiled, {
+    module: sandboxModule,
+    exports: sandboxModule.exports,
+    require: (name) => {
+      throw new Error(`${path.relative(root, file)} must not import runtime modules (found ${name})`)
+    },
+  }, { filename: file })
+  return sandboxModule.exports
 }
 
-const locales = [...localeBlock[1].matchAll(/^\s*'?([a-z]{2}(?:-[A-Za-z]+)?)'?:\s*\{/gm)].map(
-  (match) => match[1],
-)
+function loadPack(locale) {
+  const file = path.join(copyDir, `${locale}.ts`)
+  if (!fs.existsSync(file)) return { error: `Missing pack file src/lib/diagnostic/copy/${locale}.ts` }
+  try {
+    const exported = loadModule(file)
+    const values = Object.values(exported).filter((value) => value && typeof value === 'object')
+    if (values.length !== 1) return { error: `${locale}.ts must export exactly one pack object` }
+    return { pack: values[0] }
+  } catch (error) {
+    return { error: `${locale}.ts failed to load: ${error.message}` }
+  }
+}
 
 const failures = []
+const { pack: en, error: enError } = loadPack('en')
+if (enError) throw new Error(enError)
 
-for (const locale of locales) {
-  const escaped = locale.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const quoted = locale.includes('-') ? `"${locale}"` : locale
-  const singleQuoted = `'${locale}'`
-
-  if (!new RegExp(`(?:${quoted}|${singleQuoted})\\s*:`).test(diagnostic)) {
-    failures.push(`Missing languageInstructions entry for ${locale}`)
-  }
-
-  const hasQuestionLocale =
-    locale === 'en'
-      ? /\n\s*en,/.test(questions) || /\ben\s*:\s*en\b/.test(questions)
-      : new RegExp(`(?:${quoted}|${singleQuoted})\\s*:\\s*defineLocale`).test(questions)
-  if (!hasQuestionLocale) {
-    failures.push(`Missing diagnosticQuestionTranslations entry for ${locale}`)
-  }
-
-  if (locale !== 'en' && !new RegExp(`(?:${quoted}|${singleQuoted}|${escaped})`).test(questions)) {
-    failures.push(`Locale ${locale} is not represented in questionTranslations.ts`)
-  }
-
-  if (locale !== 'en' && !new RegExp(`^\\s{2}${quoted}:\\s*\\{`, 'm').test(diagnostic)) {
-    failures.push(`Locale ${locale} is missing a full diagnostic chrome override in diagnostic/i18n.ts`)
-  }
-}
-
-for (const required of [
-  'getDiagnosticPromptInstruction',
-  'getDiagnosticCopy',
-  'getDiagnosticCatalogCopy',
-  'getDiagnosticQuestionCopy',
-]) {
-  if (!diagnostic.includes(required) && !questions.includes(required)) {
-    failures.push(`Missing diagnostic i18n export: ${required}`)
-  }
-}
-
-for (const required of [
-  'Target language:',
-  'Write every user-visible value',
-  'Preserve these glossary/product names exactly',
-]) {
-  if (!diagnostic.includes(required)) {
-    failures.push(`Missing diagnostic prompt guardrail: ${required}`)
-  }
-}
-
-const questionIds = [...questions.matchAll(/^\s*([a-z0-9_]+):\s*\{/gm)]
-  .map((match) => match[1])
-  .filter((id) => !['dimensions', 'navigation', 'capture', 'fields', 'placeholders', 'roles', 'countries', 'questionText', 'optionLabels'].includes(id))
-
-if (!questions.includes('QUESTIONS.map((question)')) {
-  failures.push('Question catalog must be derived from QUESTIONS so new question IDs cannot be missed silently')
-}
-
-if (questionIds.length < 20) {
-  failures.push(`Expected at least 20 localized diagnostic question entries; found ${questionIds.length}`)
-}
-
-function extractQuestionBlocks(source) {
-  const arrayStart = source.indexOf('export const QUESTIONS')
-  const assignment = source.indexOf('=', arrayStart)
-  const firstBracket = source.indexOf('[', assignment)
-  const blocks = []
-  let depth = 0
-  let blockStart = -1
-  let inString = false
-  let quote = ''
-  let escaped = false
-
-  for (let index = firstBracket + 1; index < source.length; index += 1) {
-    const char = source[index]
-
-    if (inString) {
-      if (escaped) {
-        escaped = false
-      } else if (char === '\\') {
-        escaped = true
-      } else if (char === quote) {
-        inString = false
-      }
-      continue
-    }
-
-    if (char === '"' || char === "'" || char === '`') {
-      inString = true
-      quote = char
-      continue
-    }
-
-    if (char === '{') {
-      if (depth === 0) blockStart = index
-      depth += 1
-    } else if (char === '}') {
-      depth -= 1
-      if (depth === 0 && blockStart !== -1) {
-        blocks.push(source.slice(blockStart, index + 1))
-        blockStart = -1
-      }
-    } else if (char === ']' && depth === 0) {
-      break
-    }
-  }
-
-  return blocks
-}
-
-const optionQuestionMatches = extractQuestionBlocks(questionFramework)
-  .map((block) => {
-    const id = block.match(/id:\s+"([^"]+)"/)?.[1]
-    const options = block.match(/options:\s*\[([\s\S]*?)\n\s*\]/)?.[1]
-    return id && options ? [block, id, options] : null
-  })
-  .filter(Boolean)
-
-const optionQuestionIds = optionQuestionMatches.map((match) => match[1])
-const expectedOptionQuestionIds = [
-  'segment',
-  'outlets',
-  'avg_unit_volume',
-  'region',
-  'scheduling_tool',
-  'labor_pain',
-  'payroll_regions',
-  'kpis_measured',
-  'kpis_wished',
-  'decision_data',
-  'forecasting',
-  'scenario_wish',
-  'pos',
-  'ops_tools',
-  'timeline',
-  'decision_lag',
-  'budget_band',
-  'tech_headcount',
+const PRODUCT_NAMES = [
+  'Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance',
+  'Crew Operating', 'Crew Complete', 'Crew Payroll', 'Crew Starter',
+  'Foresight & Action', 'Profit Recovery', 'Ask Sundae', 'Benchmarks',
+  'Watchtower', 'Pulse', 'Sundae', 'Crew', 'Core',
+]
+const BANNED = [
+  { pattern: /[\u2014\u2013]/, reason: 'em or en dash (use a spaced hyphen " - ")' },
+  { pattern: /[%\u066A\uFF05]/, reason: 'percent sign' },
+  { pattern: /EBITDA|\bROI\b|uplift|payback/i, reason: 'financial-return claim' },
+  { pattern: /\bmoat\b|NodeScope|substrate|network[ -]effect/i, reason: 'internal term' },
+  { pattern: /14\s*-\s*90|14\s*-\s*365/, reason: 'unverified forecast horizon' },
+  { pattern: /\bEgypt\b/i, reason: 'unverified payroll country claim' },
+  { pattern: /\b7\s*(?:min|minutes)\b|about 7|14 (?:focused )?questions|20 strategic questions/i, reason: 'time or question-count promise' },
 ]
 
-for (const id of expectedOptionQuestionIds) {
-  if (!optionQuestionIds.includes(id)) {
-    failures.push(`Expected option-bearing diagnostic question ${id} was not found`)
-  }
-}
+const placeholders = (text) => new Set([...text.matchAll(/\{(\w+)\}/g)].map((match) => match[1]))
+const digitRuns = (text) => new Set(text.replace(/\{\w+\}/g, '').match(/\d+/g) ?? [])
+const sameSet = (a, b) => a.size === b.size && [...a].every((item) => b.has(item))
 
-const effectiveOptionSource = `${questions}\n${optionPackSource}`
-const keyPattern = (key) => {
-  const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  return new RegExp(`(?:\\b${escaped}|["']${escaped}["'])\\s*:`)
-}
-
-for (const locale of locales.filter((locale) => locale !== 'en')) {
-  const quoted = locale.includes('-') ? `"${locale}"` : locale
-  const hasSharedOverride = new RegExp(`^\\s{2}${quoted}:\\s*\\{`, 'm').test(questions)
-  const hasPackOverride = new RegExp(`^\\s{2}${quoted}:\\s*\\{`, 'm').test(optionPackSource)
-
-  if (!hasSharedOverride && !hasPackOverride) {
-    failures.push(`Locale ${locale} has no native option-label pack`)
-  }
-
-  if (
-    hasPackOverride &&
-    !new RegExp(`locale === "${locale.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`).test(questions)
-  ) {
-    failures.push(`Locale ${locale} has an option pack file but is not wired in mapOptionPack`)
-  }
-}
-
-for (const id of expectedOptionQuestionIds) {
-  if (!keyPattern(id).test(effectiveOptionSource)) {
-    failures.push(`Missing localized option group ${id}`)
-  }
-}
-
-for (const [, questionId, block] of optionQuestionMatches) {
-  const values = [...block.matchAll(/value:\s+"([^"]+)"/g)].map((match) => match[1])
-  for (const value of values) {
-    if (questionId === 'pos' && value !== 'other') continue
-    if (!keyPattern(value).test(effectiveOptionSource)) {
-      failures.push(`Missing localized option value ${questionId}.${value}`)
+function compare(reference, candidate, locale, trail) {
+  const where = `${locale}:${trail.join('.') || '(root)'}`
+  if (typeof reference === 'string') {
+    if (typeof candidate !== 'string' || !candidate.trim()) {
+      failures.push(`${where} must be a non-empty string`)
+      return
     }
+    if (!sameSet(placeholders(reference), placeholders(candidate))) {
+      failures.push(`${where} placeholders differ from English (${[...placeholders(reference)].join(', ') || 'none'})`)
+    }
+    if (locale !== 'en' && !sameSet(digitRuns(reference), digitRuns(candidate))) {
+      failures.push(`${where} numbers differ from English ("${candidate}")`)
+    }
+    for (const name of PRODUCT_NAMES) {
+      if (reference.includes(name) && !candidate.includes(name)) {
+        failures.push(`${where} must keep the product name "${name}" untranslated`)
+        break
+      }
+    }
+    for (const { pattern, reason } of BANNED) {
+      if (pattern.test(candidate)) failures.push(`${where} contains a ${reason}: "${candidate}"`)
+    }
+    return
   }
+  if (Array.isArray(reference)) {
+    if (!Array.isArray(candidate) || candidate.length !== reference.length) {
+      failures.push(`${where} must be an array of ${reference.length} items`)
+      return
+    }
+    reference.forEach((item, index) => compare(item, candidate[index], locale, [...trail, String(index)]))
+    return
+  }
+  if (!candidate || typeof candidate !== 'object' || Array.isArray(candidate)) {
+    failures.push(`${where} must be an object`)
+    return
+  }
+  for (const key of Object.keys(reference)) {
+    if (!(key in candidate)) failures.push(`${where}.${key} is missing`)
+    else compare(reference[key], candidate[key], locale, [...trail, key])
+  }
+  for (const key of Object.keys(candidate)) {
+    if (!(key in reference)) failures.push(`${where}.${key} is not in the English pack`)
+  }
+}
+
+for (const locale of locales) {
+  if (!allLocales.includes(locale)) {
+    failures.push(`Unknown website locale ${locale}`)
+    continue
+  }
+  const { pack, error } = loadPack(locale)
+  if (error) {
+    failures.push(error)
+    continue
+  }
+  compare(en, pack, locale, [])
+  const identifier = locale === 'zh-Hans' ? 'zhHans' : locale
+  if (!new RegExp(`import \\{ ${identifier} \\} from "\\./${locale}"`).test(indexSource)) {
+    failures.push(`Locale ${locale} is not wired into src/lib/diagnostic/copy/index.ts`)
+  }
+  const quoted = locale.includes('-') ? `"${locale}"` : locale
+  if (!new RegExp(`(?:${quoted}|'${locale}')\\s*:`).test(diagnosticI18n)) {
+    failures.push(`Missing languageInstructions entry for ${locale} in src/lib/diagnostic/i18n.ts`)
+  }
+}
+
+// Question bank coverage: every question and translated option has English copy.
+const bank = loadModule(path.join(root, 'src/lib/diagnostic/questions.ts'))
+for (const question of bank.QUESTIONS) {
+  const copy = en.questions[question.id]
+  if (!copy?.prompt) {
+    failures.push(`Question ${question.id} has no English prompt in copy/en.ts`)
+    continue
+  }
+  for (const value of bank.localizedOptionValues(question)) {
+    if (!copy.options?.[value]) failures.push(`Option ${question.id}.${value} has no English label in copy/en.ts`)
+  }
+}
+
+for (const required of ['Target language:', 'Write every user-visible value', 'Preserve these glossary/product names exactly']) {
+  if (!diagnosticI18n.includes(required)) failures.push(`Missing diagnostic prompt guardrail: ${required}`)
 }
 
 if (failures.length > 0) {
@@ -220,4 +169,4 @@ if (failures.length > 0) {
   process.exit(1)
 }
 
-console.log(`Diagnostic i18n QA passed for ${locales.length} locales`)
+console.log(`Diagnostic i18n QA passed for ${locales.length} locale${locales.length === 1 ? '' : 's'}`)
