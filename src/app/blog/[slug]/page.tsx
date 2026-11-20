@@ -331,6 +331,7 @@ export async function generateMetadata({ params, searchParams }: BlogPostPagePro
   const availableLocales = getAvailableBlogPostLocales(slug);
   const canonicalLocale = post.translationAvailable ? locale : 'en';
   const canonicalPath = getLocalizedPathname(`/blog/${slug}`, canonicalLocale);
+  const shareImageUrl = new URL('/logos/og-operations.png', baseUrl).toString();
   const languages = {
     ...Object.fromEntries(
       availableLocales.map((availableLocale) => [
@@ -359,16 +360,19 @@ export async function generateMetadata({ params, searchParams }: BlogPostPagePro
     openGraph: {
       title: post.title,
       description: post.summary,
+      siteName: 'Sundae',
       type: 'article',
       publishedTime: post.date,
       authors: ['Sundae Team'],
       tags: post.tags,
       url: new URL(canonicalPath, baseUrl).toString(),
+      images: [{ url: shareImageUrl, width: 1200, height: 630, alt: 'Sundae' }],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.summary,
+      images: [shareImageUrl],
     },
   };
 }
