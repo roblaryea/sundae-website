@@ -15,12 +15,28 @@
  * Spec: docs/guided-booking/SPEC-conversational-walkthrough-booking.md
  */
 
-import { useEffect, useId, useMemo, useRef, useState, useSyncExternalStore, type FormEvent, type ReactNode } from 'react';
+import { useEffect, useId, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from 'react';
 import dynamic from 'next/dynamic';
-import Link from 'next/link';
-import { Activity, ArrowLeft, ArrowRight, CalendarDays, Check, CircleAlert, Clock, Database, Info, Lock, Mail } from 'lucide-react';
+import { Activity, ArrowRight, Clock, Database, Info, Mail } from 'lucide-react';
+import {
+  AnswerMeta,
+  BookingOfferActions,
+  BookingOfferCard,
+  Choices,
+  CompanyConfirm,
+  ConversationHeader,
+  ErrorLine,
+  MultiChoices,
+  PosPicker,
+  PrivacyFoot,
+  ProgressSegments,
+  Subline,
+  SundaeLine,
+  TextAnswer,
+  TypingDots,
+  UserBubble,
+} from '@/components/conversation/parts';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
-import { ApprovedMark } from '@/components/ui/ApprovedMark';
 import { getCampaignParams } from '@/lib/campaign';
 import { COUNTRY_CODES } from '@/lib/countryCodes';
 import { getWebsiteIntlLocale, normalizeWebsiteLocale } from '@/lib/i18n';
@@ -454,32 +470,19 @@ export default function ConversationalLeadCapture(props: ConversationalLeadCaptu
   const terminal = status === 'sent';
   const editable = status !== 'submitting' && !terminal;
 
-  const sundaeLine = (content: ReactNode, keyName: string, greeting = false) => greeting ? (
-    <div key={keyName} className={`${styles.greetingBlock} ${styles.enter}`}>
-      <div className={styles.who} aria-hidden="true">
-        <ApprovedMark className={styles.whoMark} />
-        <bdi>Sundae</bdi>
-      </div>
-      <p className={styles.greeting}>{content}</p>
-    </div>
-  ) : (
-    <p key={keyName} className={`${styles.line} ${styles.enter}`}>{content}</p>
+  const sundaeLine = (content: ReactNode, keyName: string, greeting = false) => (
+    <SundaeLine key={keyName} greeting={greeting}>{content}</SundaeLine>
   );
 
   const userBubble = (step: StepId) => (
-    <div key={`a-${step}`} className={`${styles.userWrap} ${styles.enterUser}`}>
-      <p className={styles.user}>{answerText(step)}</p>
-      {editable && step !== 'brief' && (
-        <button
-          type="button"
-          className={styles.editButton}
-          onClick={() => onEdit(step)}
-          aria-label={fillText(copy.editLabel, { answer: answerPlain(step) || copy.edit })}
-        >
-          {copy.edit}
-        </button>
-      )}
-    </div>
+    <UserBubble
+      key={`a-${step}`}
+      edit={editable && step !== 'brief'
+        ? { label: copy.edit, ariaLabel: fillText(copy.editLabel, { answer: answerPlain(step) || copy.edit }), onClick: () => onEdit(step) }
+        : null}
+    >
+      {answerText(step)}
+    </UserBubble>
   );
 
   const endingItems = (): ReactNode[] => {
@@ -496,13 +499,7 @@ export default function ConversationalLeadCapture(props: ConversationalLeadCaptu
     if (booking === 'offer' || booking === 'opening') {
       return [
         sundaeLine(fill(copy.booking.ready), 'booking-ready'),
-        <div key="handoff" className={`${styles.doneCard} ${styles.handoffCard} ${styles.enter}`}>
-          <CalendarDays aria-hidden="true" strokeWidth={1.7} />
-          <div>
-            <p className={styles.handoffTitle}>{copy.booking.timezoneTitle}</p>
-            <p className={styles.handoffBody}>{fill(copy.booking.timezoneBody)}</p>
-          </div>
-        </div>,
+        <BookingOfferCard key="handoff" title={copy.booking.timezoneTitle} body={fill(copy.booking.timezoneBody)} />,
       ];
     }
     const items: ReactNode[] = [];
@@ -573,16 +570,16 @@ export default function ConversationalLeadCapture(props: ConversationalLeadCaptu
     if (terminal) {
       if (booking === 'offer' || booking === 'opening') {
         control = (
-          <div className={styles.inlineRow}>
-            <button type="button" className={styles.solid} data-autofocus disabled={booking === 'opening'} onClick={() => {
+          <BookingOfferActions
+            chooseLabel={copy.booking.choose}
+            laterLabel={copy.booking.later}
+            opening={booking === 'opening'}
+            onChoose={() => {
               setBooking('opening');
               track('guided_booking_booking_opened');
-            }}>
-              <CalendarDays aria-hidden="true" />
-              {copy.booking.choose}
-            </button>
-            <button type="button" className={styles.textLink} onClick={() => setBooking('later')}>{copy.booking.later}</button>
-          </div>
+            }}
+            onLater={() => setBooking('later')}
+          />
         );
       } else if (!isContactSummary && booking !== 'booked') {
         control = <a className={styles.textLink} href={PRICING_URL}>{copy.done.explore}</a>;
@@ -633,73 +630,35 @@ export default function ConversationalLeadCapture(props: ConversationalLeadCaptu
         if (answerRef.current?.contains(event.target as Node)) markStarted();
       }}
     >
-      <header className={styles.head}>
-        <ApprovedMark className={styles.headMark} />
-        <div className={styles.headText}>
-          <h2 className={styles.title} id={titleId}>{mode === 'contact' ? copy.header.contactTitle : copy.header.title}</h2>
-          <p className={styles.sub} style={{ margin: 0 }}>
-            {sub ?? (
-              <>
-                <span className={styles.subFull}>{copy.header.subline}</span>
-                <span className={styles.subShort}>{copy.header.sublineShort}</span>
-              </>
-            )}
-          </p>
-        </div>
-        {!terminal && (
-          <button type="button" className={styles.classicLink} onClick={switchToClassic}>
-            <span className={styles.classicFull}>{copy.header.classic}</span>
-            <span className={styles.classicShort}>{copy.header.classicShort}</span>
-          </button>
-        )}
-      </header>
+      <ConversationHeader
+        titleId={titleId}
+        title={mode === 'contact' ? copy.header.contactTitle : copy.header.title}
+        sub={sub ?? <Subline full={copy.header.subline} short={copy.header.sublineShort} />}
+        classic={!terminal ? { full: copy.header.classic, short: copy.header.classicShort, onClick: switchToClassic } : null}
+      />
 
-      <div className={styles.progress}>
-        {Array.from({ length: PROGRESS_SEGMENTS }, (_, index) => (
-          <span
-            key={index}
-            aria-hidden="true"
-            className={styles.segment}
-            style={{ ['--fill' as string]: index < progress ? 1 : index === progress ? 0.5 : 0 }}
-          />
-        ))}
-        <span className={styles.srOnly}>{fillText(copy.progress, { current: Math.min(progress + 1, PROGRESS_SEGMENTS), total: PROGRESS_SEGMENTS })}</span>
-      </div>
+      <ProgressSegments
+        segments={PROGRESS_SEGMENTS}
+        current={progress}
+        label={fillText(copy.progress, { current: Math.min(progress + 1, PROGRESS_SEGMENTS), total: PROGRESS_SEGMENTS })}
+      />
 
       <div ref={logRef} className={styles.log} role="log" aria-live="polite" aria-label={copy.logLabel} tabIndex={0}>
         {logItems}
-        {typing && (
-          <span className={styles.typing} aria-hidden="true" data-typing>
-            <i />
-            <i />
-            <i />
-          </span>
-        )}
+        {typing && <TypingDots />}
       </div>
 
       <div ref={answerRef} className={styles.answer} hidden={!typing && !control && !canGoBack}>
         {control}
         {!typing && (canGoBack || (control && isTextStep(position) && !terminal)) && (
-          <div className={styles.meta}>
-            {canGoBack && (
-              <button type="button" className={styles.backButton} onClick={onBack}>
-                <ArrowLeft aria-hidden="true" className={styles.flip} />
-                {copy.back}
-              </button>
-            )}
-            {control && isTextStep(position) && !terminal && <span>{copy.hint}</span>}
-          </div>
+          <AnswerMeta
+            back={canGoBack ? { label: copy.back, onClick: onBack } : null}
+            hint={control && isTextStep(position) && !terminal ? copy.hint : null}
+          />
         )}
       </div>
 
-      <footer className={styles.foot}>
-        <Lock aria-hidden="true" strokeWidth={1.8} />
-        <span>
-          {mode === 'contact' ? copy.privacyContact : copy.privacy}
-          {' · '}
-          <Link href="/privacy">{copy.privacyLink}</Link>
-        </span>
-      </footer>
+      <PrivacyFoot text={mode === 'contact' ? copy.privacyContact : copy.privacy} linkLabel={copy.privacyLink} />
 
       <div className={styles.honeypot} aria-hidden="true">
         <label htmlFor={`${titleId}-website`}>Website</label>
@@ -879,16 +838,18 @@ function StepControl({ step, state, copy, context, inferredCompany, suggestedCou
         />
       );
     case 'company':
-      if (!typed) {
-        return (
-          <Choices
-            label={fillText(copy.company.confirm, { company: inferredCompany })}
-            options={[{ key: 'yes', label: copy.company.yes }, { key: 'different', label: copy.company.different }]}
-            onChoose={(choice) => (choice === 'yes' ? run('company', { value: inferredCompany, inferred: true }) : setTyped(true))}
-          />
-        );
-      }
-      return <TextAnswer key="company-text" label={copy.company.label} placeholder={copy.company.placeholder} autoComplete="organization" defaultValue={a.company && !a.company.inferred ? a.company.value : ''} error={errorText} sendLabel={copy.send} onSubmit={(value) => run('company', { value, inferred: false })} />;
+      return (
+        <CompanyConfirm
+          question={fillText(copy.company.confirm, { company: inferredCompany })}
+          inferred={inferredCompany}
+          yesLabel={copy.company.yes}
+          differentLabel={copy.company.different}
+          startTyped={typed}
+          text={{ label: copy.company.label, placeholder: copy.company.placeholder, defaultValue: a.company && !a.company.inferred ? a.company.value : '', error: errorText, sendLabel: copy.send }}
+          onConfirm={() => run('company', { value: inferredCompany, inferred: true })}
+          onTyped={(value) => run('company', { value, inferred: false })}
+        />
+      );
     case 'role':
       if (!typed) {
         return (
@@ -937,28 +898,21 @@ function StepControl({ step, state, copy, context, inferredCompany, suggestedCou
       );
     case 'message':
       return <TextAnswer key="message" multiline label={copy.topic.messageLabel} placeholder={copy.topic.messagePlaceholder} defaultValue={a.message} error={errorText} sendLabel={copy.send} onSubmit={(value) => run('message', value)} />;
-    case 'pos': {
-      if (!typed) {
-        const listed = posOptionsForCountry(a.country?.iso ?? suggestedCountryIso);
-        return (
-          <Choices
-            label={copy.pos.prompt}
-            selected={a.pos?.choice === 'not_sure' ? 'not_sure' : a.pos?.choice === 'listed' ? a.pos.value : undefined}
-            options={[
-              ...listed.map((pos) => ({ key: pos, label: pos })),
-              { key: 'other', label: copy.pos.other },
-              { key: 'not_sure', label: copy.pos.notSure },
-            ]}
-            onChoose={(choice) => {
-              if (choice === 'other') setTyped(true);
-              else if (choice === 'not_sure') run('pos', { choice: 'not_sure' });
-              else run('pos', { choice: 'listed', value: choice });
-            }}
-          />
-        );
-      }
-      return <TextAnswer key="pos-text" label={copy.pos.otherLabel} placeholder={copy.pos.otherPlaceholder} defaultValue={a.pos?.choice === 'other' ? a.pos.value : ''} error={errorText} sendLabel={copy.send} onSubmit={(value) => run('pos', { choice: 'other', value })} />;
-    }
+    case 'pos':
+      return (
+        <PosPicker
+          question={copy.pos.prompt}
+          listed={posOptionsForCountry(a.country?.iso ?? suggestedCountryIso).map((pos) => ({ key: pos, label: pos }))}
+          otherLabel={copy.pos.other}
+          notSureLabel={copy.pos.notSure}
+          selected={a.pos?.choice === 'not_sure' ? 'not_sure' : a.pos?.choice === 'listed' ? a.pos.value : undefined}
+          startTyped={typed}
+          text={{ label: copy.pos.otherLabel, placeholder: copy.pos.otherPlaceholder, defaultValue: a.pos?.choice === 'other' ? a.pos.value : '', error: errorText, sendLabel: copy.send }}
+          onListed={(value) => run('pos', { choice: 'listed', value })}
+          onNotSure={() => run('pos', { choice: 'not_sure' })}
+          onOther={(value) => run('pos', { choice: 'other', value })}
+        />
+      );
     case 'country':
       if (!typed && suggestedCountryIso) {
         return (
@@ -994,127 +948,6 @@ function StepControl({ step, state, copy, context, inferredCompany, suggestedCou
   }
 }
 
-function ErrorLine({ id, text }: { id: string; text: string | null }) {
-  if (!text) return null;
-  return (
-    <p id={id} className={styles.error} role="alert">
-      <CircleAlert aria-hidden="true" strokeWidth={2} />
-      {text}
-    </p>
-  );
-}
-
-function TextAnswer({
-  label,
-  placeholder,
-  type = 'text',
-  autoComplete,
-  inputMode,
-  dir,
-  multiline = false,
-  defaultValue,
-  error,
-  sendLabel,
-  onSubmit,
-}: {
-  label: string;
-  placeholder: string;
-  type?: 'text' | 'email' | 'tel';
-  autoComplete?: string;
-  inputMode?: 'email' | 'tel' | 'text';
-  dir?: 'ltr';
-  multiline?: boolean;
-  defaultValue?: string;
-  error: string | null;
-  sendLabel: string;
-  onSubmit: (value: string) => void;
-}) {
-  const id = useId();
-  const [value, setValue] = useState(defaultValue ?? '');
-  const [showError, setShowError] = useState(true);
-  const visibleError = showError ? error : null;
-  const send = (event?: FormEvent) => {
-    event?.preventDefault();
-    setShowError(true);
-    onSubmit(value);
-  };
-  const shared = {
-    id: `${id}-field`,
-    className: styles.field,
-    value,
-    placeholder,
-    'aria-label': label,
-    'aria-invalid': !!visibleError,
-    'aria-describedby': visibleError ? `${id}-error` : undefined,
-    autoComplete,
-    dir,
-  };
-  return (
-    <form onSubmit={send} noValidate>
-      <div className={styles.fieldRow}>
-        {multiline ? (
-          <textarea
-            {...shared}
-            rows={2}
-            maxLength={500}
-            onChange={(event) => {
-              setValue(event.target.value);
-              setShowError(false);
-            }}
-            onKeyDown={(event) => {
-              if (event.key === 'Enter' && !event.shiftKey) send(event);
-            }}
-          />
-        ) : (
-          <input
-            {...shared}
-            type={type}
-            inputMode={inputMode}
-            maxLength={type === 'email' ? 254 : 120}
-            enterKeyHint="send"
-            onChange={(event) => {
-              setValue(event.target.value);
-              setShowError(false);
-            }}
-          />
-        )}
-        <button type="submit" className={styles.send} aria-label={sendLabel}>
-          <ArrowRight aria-hidden="true" strokeWidth={2.2} className={styles.flip} />
-        </button>
-      </div>
-      <ErrorLine id={`${id}-error`} text={visibleError} />
-    </form>
-  );
-}
-
-function Choices({
-  label,
-  options,
-  selected,
-  onChoose,
-}: {
-  label: string;
-  options: { key: string; label: string }[];
-  selected?: string;
-  onChoose: (key: string) => void;
-}) {
-  return (
-    <div className={styles.chips} role="group" aria-label={label}>
-      {options.map((option) => (
-        <button
-          key={option.key}
-          type="button"
-          className={`${styles.chip} ${selected === option.key ? styles.chipOn : ''}`}
-          onClick={() => onChoose(option.key)}
-        >
-          {selected === option.key && <Check aria-hidden="true" strokeWidth={2.2} />}
-          <bdi>{option.label}</bdi>
-        </button>
-      ))}
-    </div>
-  );
-}
-
 function FocusAnswer({
   copy,
   selected,
@@ -1138,20 +971,15 @@ function FocusAnswer({
   const [note, setNote] = useState(defaultNote);
   return (
     <div className={styles.stack}>
-      <div className={styles.chips} role="group" aria-label={copy.focus.label} aria-describedby={error ? `${id}-error` : undefined}>
-        {FOCUS_KEYS.map((key) => {
-          const on = selected.includes(key);
-          return (
-            <button key={key} type="button" aria-pressed={on} className={`${styles.chip} ${on ? styles.chipOn : ''}`} onClick={() => onToggle(key)}>
-              {on && <Check aria-hidden="true" strokeWidth={2.2} />}
-              {copy.focus.options[key]}
-            </button>
-          );
-        })}
-        <button type="button" className={`${styles.chip} ${styles.chipDone}`} onClick={() => onDone(note)}>
-          {selected.length ? fillText(copy.focus.doneCount, { count: selected.length }) : copy.focus.done}
-        </button>
-      </div>
+      <MultiChoices
+        label={copy.focus.label}
+        options={FOCUS_KEYS.map((key) => ({ key, label: copy.focus.options[key] }))}
+        selected={selected}
+        onToggle={(key) => onToggle(key as FocusKey)}
+        doneLabel={selected.length ? fillText(copy.focus.doneCount, { count: selected.length }) : copy.focus.done}
+        onDone={() => onDone(note)}
+        describedBy={error ? `${id}-error` : undefined}
+      />
       {noteOpen ? (
         <textarea
           id={`${id}-note`}
