@@ -298,6 +298,7 @@ export default async function RootLayout({
           "https://www.linkedin.com/company/sundae-io",
           "https://x.com/sundae_io",
           "https://www.youtube.com/@Sundae_io",
+          "https://www.exploretech.io/en/vendor/sundae",
         ],
       },
       {
