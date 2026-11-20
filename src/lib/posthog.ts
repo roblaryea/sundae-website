@@ -1,5 +1,7 @@
 import posthog from "posthog-js";
 import { containsBookingData, isBookingUrl } from './booking/privacy';
+import { hasConsent } from './consent';
+import { isPublicWebVitalsUrl, sanitizeWebVitalsProperties } from './webVitalsPrivacy';
 
 const POSTHOG_KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY;
 const POSTHOG_HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com";
@@ -32,7 +34,7 @@ export function protectBookingPrivacy(path: string) {
 }
 
 export function initPostHog() {
-  if (initialized || !POSTHOG_KEY || typeof window === "undefined") return;
+  if (initialized || !POSTHOG_KEY || typeof window === "undefined" || !hasConsent()) return;
   protectBookingPrivacy(window.location.href);
   if (privateVisit) return;
   posthog.init(POSTHOG_KEY, {
@@ -41,11 +43,20 @@ export function initPostHog() {
     capture_pageview: false,
     capture_pageleave: true,
     autocapture: true,
+    capture_performance: process.env.NODE_ENV === 'production' && isPublicWebVitalsUrl(window.location.href, 'website')
+      ? { network_timing: false, web_vitals: true, web_vitals_attribution: false, web_vitals_allowed_metrics: ['LCP', 'CLS', 'FCP', 'INP'] }
+      : false,
     // Booking credentials and guest details never belong in analytics, including
     // autocapture/pageleave/session snapshots after navigating from the homepage.
     before_send: (event) => {
       protectBookingPrivacy(window.location.href);
-      return privateVisit || bookingOverlayOpen || containsBookingData(event) ? null : event;
+      // Consent and booking privacy first; the guided-booking overlay pause only
+      // adds another reason to drop an event (it never admits one).
+      if (privateVisit || bookingOverlayOpen || containsBookingData(event) || !hasConsent()) return null;
+      if (event?.event !== '$web_vitals') return event;
+      if (!isPublicWebVitalsUrl(window.location.href, 'website') || posthog.has_opted_out_capturing()) return null;
+      const properties = sanitizeWebVitalsProperties(event.properties, 'website');
+      return properties ? { uuid: event.uuid, event: event.event, timestamp: event.timestamp, properties } : null;
     },
     session_recording: {
       maskAllInputs: true,
