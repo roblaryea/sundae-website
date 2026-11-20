@@ -120,3 +120,18 @@ html.light .theme-hero-surface {
 [data-approved-wordmark="adaptive"] .approved-wordmark-ink { display: none; }
 html.light [data-approved-wordmark="adaptive"] .approved-wordmark-cream { display: none; }
 html.light [data-approved-wordmark="adaptive"] .approved-wordmark-ink { display: block; }
+
+/* Small operational labels keep the product hue with readable ink on light surfaces. */
+.home-context-signals {
+  --moat-pulse-ink: #FF8881;
+  --moat-watchtower-ink: #FBBF24;
+  --moat-benchmarks-ink: #86B4FF;
+}
+html.light .site-nav-surface { background-color: rgba(251, 248, 244, 0.96); }
+html.light .home-context-signals {
+  --moat-pulse-ink: #9D2630;
+  --moat-watchtower-ink: #714208;
+  --moat-benchmarks-ink: #1D4690;
+}
+
+html.light .home-ecosystem-strip { --ecosystem-live-ink: #356744; }

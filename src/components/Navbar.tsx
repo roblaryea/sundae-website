@@ -292,7 +292,7 @@ const Navbar = () => {
           headers detaching and drifting during momentum scroll on iOS Safari. */}
       <div
         aria-hidden
-        className={`absolute inset-0 backdrop-blur-md transition-colors duration-300 ${
+        className={`site-nav-surface absolute inset-0 backdrop-blur-md transition-colors duration-300 ${
           isScrolled ? 'bg-[var(--navy-deep)]/90' : 'bg-[var(--navy-deep)]/70'
         }`}
       />
