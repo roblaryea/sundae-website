@@ -44,6 +44,12 @@ export interface SundaeLeadSubmission {
   status: number;
   leadId?: string;
   leadNumber?: string;
+  /**
+   * Short-lived (2 hour) booking credential the backend returns only for a
+   * NEW guided-booking lead with a work email. Optional: older backends never
+   * send it, and callers must treat its absence as "use the emailed link".
+   */
+  bookingToken?: string;
   error?: string;
 }
 
@@ -95,7 +101,7 @@ export async function submitLeadToSundae(
       signal: controller.signal,
     });
 
-    let body: { leadId?: string; leadNumber?: string; error?: string } = {};
+    let body: { leadId?: string; leadNumber?: string; bookingToken?: unknown; error?: string } = {};
     try {
       body = await resp.json();
     } catch {
@@ -114,6 +120,9 @@ export async function submitLeadToSundae(
       status: resp.status,
       leadId: body.leadId,
       leadNumber: body.leadNumber,
+      ...(typeof body.bookingToken === 'string' && body.bookingToken.length > 0 && body.bookingToken.length <= 2048
+        ? { bookingToken: body.bookingToken }
+        : {}),
     };
   } catch (err) {
     return {

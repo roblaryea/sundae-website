@@ -5,9 +5,9 @@ import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import { decodePricingIntent } from "@/lib/pricingIntent";
 import type { Metadata } from "next";
 import React from 'react';
-import { cookies } from 'next/headers';
+import { cookies, headers } from 'next/headers';
 import { Button } from '@/components/ui/Button';
-import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
+import { LeadCaptureSurface } from '@/components/marketing/LeadCaptureSurface';
 import { DemoDiagnosticPromo } from '@/components/marketing/DemoDiagnosticPromo';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { getWebsiteMessages, resolveWebsiteLocale } from '@/lib/i18n';
@@ -26,6 +26,8 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
   const params = await searchParams;
   const pricingIntent = typeof params.cfg === "string" ? decodePricingIntent(params.cfg) : null;
   const locale = resolveWebsiteLocale(await cookies());
+  // Guided booking suggests the visitor's country; Vercel sets this per request.
+  const ipCountry = (await headers()).get('x-vercel-ip-country');
   const copy = getWebsiteMessages(locale).pages.demo;
   const workflowCopy = operatorWorkflowCopy[locale as keyof typeof operatorWorkflowCopy];
   const commercial = getCommercialCopy(locale);
@@ -60,22 +62,19 @@ export default async function DemoPage({ searchParams }: { searchParams: Promise
         </div>
       </section>
 
-      {/* Demo Form */}
+      {/* Demo Form: classic form or guided booking (NEXT_PUBLIC_GUIDED_BOOKING split) */}
       <section id="demo-form" className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              {copy.requestTitle}
-            </h2>
-          </div>
-
-          <LeadCaptureForm
-            ctaLabel={copy.ctaLabel}
-            defaultMessage={requestMessage}
-            pricingIntent={pricingIntent ?? undefined}
-            reassurance={commercial.sampleWalkthrough}
-          />
-        </div>
+        <LeadCaptureSurface
+          surface="demo"
+          mode="demo"
+          heading={copy.requestTitle}
+          ctaLabel={copy.ctaLabel}
+          defaultMessage={requestMessage}
+          pricingIntent={pricingIntent}
+          workflowKey={workflowKey}
+          suggestedCountryIso={ipCountry}
+          reassurance={commercial.sampleWalkthrough}
+        />
       </section>
 
       {/* What You'll See */}

@@ -24,6 +24,8 @@ import {
 import { normalizeWebsiteLocale } from '@/lib/i18n';
 import { isPhoneRequiredForLead, isValidOptionalPhone } from '@/lib/leadValidation';
 
+const GUIDED_BOOKING_SOURCE = 'guided-booking';
+
 // Force Node.js runtime (required for crypto)
 export const runtime = 'nodejs';
 
@@ -212,15 +214,24 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    return NextResponse.json({
-      success: true,
-      message:
-        'Your request has been received. Check your inbox to book a time that suits you - our team will be in touch within 2-3 business days.',
-      leadId: sundaeResult.leadId,
-      leadNumber: sundaeResult.leadNumber,
-      submissionId: sundaeResult.leadId,
-      requestId,
-    });
+    // Guided booking may receive a short-lived booking token for inline
+    // scheduling. Only that caller sees it; every other response is unchanged.
+    // The token is never logged (see the submit log above).
+    const bookingToken = source === GUIDED_BOOKING_SOURCE ? sundaeResult.bookingToken : undefined;
+
+    return NextResponse.json(
+      {
+        success: true,
+        message:
+          'Your request has been received. Check your inbox to book a time that suits you - our team will be in touch within 2-3 business days.',
+        leadId: sundaeResult.leadId,
+        leadNumber: sundaeResult.leadNumber,
+        submissionId: sundaeResult.leadId,
+        requestId,
+        ...(bookingToken ? { bookingToken } : {}),
+      },
+      bookingToken ? { headers: { 'Cache-Control': 'no-store', 'Referrer-Policy': 'no-referrer' } } : undefined,
+    );
   } catch (err) {
     console.error(`[${requestId}] Unexpected error:`, err instanceof Error ? err.message : err);
     return NextResponse.json(
