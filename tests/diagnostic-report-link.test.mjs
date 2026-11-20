@@ -26,7 +26,9 @@ test('anything else is not found, including 404 from a backend without expiry', 
 });
 
 test('only token-shaped values are forwarded', () => {
-  assert.equal(isPlausibleReportToken('YWJjZGVmZ2hpams.1767225600.c2lnbmF0dXJl'), true);
+  // New links: base64url(leadId).<exp seconds>.<hex sig>; legacy links: base64url(leadId).<sig>.
+  assert.equal(isPlausibleReportToken('ZjNhMjQ1YjQtOWE3Yy00ZjNjLWE0NjItM2Q0YTFmMmUxYzAw.1771243200.0f3c5a9d1e2b4c6d8e0f1a2b3c4d5e6f'), true);
+  assert.equal(isPlausibleReportToken('ZjNhMjQ1YjQtOWE3Yy00ZjNjLWE0NjItM2Q0YTFmMmUxYzAw.0f3c5a9d1e2b4c6d8e0f1a2b3c4d5e6f'), true);
   for (const invalid of ['', 'short', 'has spaces in it', 'a'.repeat(3000), null, 42, '../../etc/passwd']) {
     assert.equal(isPlausibleReportToken(invalid), false, String(invalid));
   }

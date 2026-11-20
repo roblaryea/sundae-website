@@ -43,8 +43,9 @@ export async function POST(req: Request) {
   try {
     const response = await fetch(`${reportBackendUrl()}/api/v1/public/marketing/leads/report/resend`, {
       method: 'POST',
-      // The backend applies its own per-lead and per-IP limits.
-      headers: { 'Content-Type': 'application/json', ...(ip !== 'unknown' ? { 'X-Forwarded-For': ip } : {}) },
+      // The backend limits re-sends per lead, but it sees this server's
+      // address, not the visitor's, so the per-visitor limit above is ours.
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ token }),
       cache: 'no-store',
       signal: AbortSignal.timeout(8_000),
