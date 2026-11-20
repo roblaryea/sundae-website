@@ -1,3 +1,7 @@
+import discoveryCopy from '@/content/discovery-navigation.json'
+import guidanceCopy from '@/content/support-guidance.json'
+import sharedBuyerCopy from '@/content/buyer-clarity/shared.json'
+
 import { getPricingNavigation } from './pricingNavigation'
 import platformStory from '@/content/platform-story.json'
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
@@ -2922,11 +2926,12 @@ export function getWebsiteMessages(locale: WebsiteLocale): WebsiteMessages {
   const messages = mergeDeep(withLocale, expandedLocaleOverridesByLocale[locale]) as WebsiteMessagesBase
   return {
     ...messages,
-    navbar: { ...messages.navbar, plansList: getPricingNavigation({
+    navbar: { ...messages.navbar, resourcesList: messages.navbar.resourcesList.map(item => item.href === '/resources' ? { name: sharedBuyerCopy[locale].resultsLabel, href: '/results' } : item.href === '/docs' ? { ...item, name: guidanceCopy[locale].docsLabel } : item), plansList: getPricingNavigation({
       core: platformStory[locale].coreRole,
       crew: platformStory[locale].crewRole,
       foresight: messages.navbar.pillars.find(link => link.href === '/product/foresight')?.description ?? '',
     }) },
+    home: { ...messages.home, platform: { ...messages.home.platform, layers: messages.home.platform.layers.map(layer => layer.href === '/product/benchmarking' ? { ...layer, subtitle: discoveryCopy[locale].benchmarks } : layer.href === '/product/insights' ? { ...layer, subtitle: discoveryCopy[locale].insights } : layer) } },
     metadata: { ...messages.metadata, title: operatorNavigationCopy[locale].brand.title, description: operatorNavigationCopy[locale].brand.description },
     pages: messages.home.pages,
   }

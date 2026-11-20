@@ -1,5 +1,7 @@
 'use client';
 
+import discoveryCopy from '@/content/discovery-navigation.json';
+
 import videoCopy from '@/content/product-walkthroughs.json';
 
 // Mobile nav overlay: full-viewport scrim + scroll lock, consistent on all pages
@@ -256,9 +258,14 @@ const Navbar = () => {
   const pillars: ReadonlyArray<NavbarLink> = getCoreNavigation(nav.pillars, locale);
 
   // Sundae Crew operational modules (Product → Sundae Crew group)
-  const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList.map(link =>
-    link.href === '/crew/payroll' ? { ...link, description: undefined } : link,
-  );
+  const crewFunctions: Record<string, string> = {
+    '/crew/scheduling': discoveryCopy[locale as keyof typeof discoveryCopy].scheduling,
+    '/crew/time-attendance': discoveryCopy[locale as keyof typeof discoveryCopy].attendance,
+    '/crew/payroll': discoveryCopy[locale as keyof typeof discoveryCopy].payroll,
+    '/crew/people': discoveryCopy[locale as keyof typeof discoveryCopy].people,
+    '/crew/people-intelligence': discoveryCopy[locale as keyof typeof discoveryCopy].workforce,
+  };
+  const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList.map(link => ({ ...link, description: crewFunctions[link.href] ?? link.description }));
   const workflowLinks = [
     { name: workflow.tasks, href: '/restaurant-task-management' },
     { name: workflow.logbook, href: '/restaurant-logbook' },
@@ -353,7 +360,7 @@ const Navbar = () => {
                         <div className="grid grid-cols-2 gap-1">
                           {group.links.map(link => <Link key={link.href} href={localizeHref(link.href)} className={dropdownLinkClass} onClick={() => setActiveDropdown(null)}>
                             <div className={dropdownTitleClass}>{link.name}</div>
-                            {group.id === 'core' && 'description' in link && link.description && <div className={dropdownDescriptionClass}>{link.description}</div>}
+                            {'description' in link && link.description && <div className={dropdownDescriptionClass}>{link.description}</div>}
                           </Link>)}
                         </div>
                       </div>
@@ -646,7 +653,7 @@ const Navbar = () => {
                     </button>
                   </div>
                   <div id={`accordion-content-${group.id}`} className="ms-4 border-s border-[var(--border-default)] pb-2 ps-1" hidden={!expandedSections[group.id]} inert={!expandedSections[group.id]}>
-                    {group.links.map(link => <MobileNavLink key={link.href} href={localizeHref(link.href)} onClick={handleMobileNavClick}>{link.name}</MobileNavLink>)}
+                    {group.links.map(link => <MobileNavLink key={link.href} href={localizeHref(link.href)} onClick={handleMobileNavClick}><span className="block">{link.name}</span>{group.id === 'crew' && 'description' in link && link.description && <span className="mt-0.5 block text-xs font-normal leading-snug text-[var(--text-muted)]">{link.description}</span>}</MobileNavLink>)}
                   </div>
                 </div>
               ))}

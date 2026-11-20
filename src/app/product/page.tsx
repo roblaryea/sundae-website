@@ -1,5 +1,7 @@
 'use client';
 
+import discoveryCopy from '@/content/discovery-navigation.json';
+
 import bodyCopy from '@/content/buyer-clarity/product.json';
 import depthCopy from '@/content/operator-depth.json';
 import audienceCopy from '@/content/operator-audiences.json';
@@ -235,7 +237,7 @@ export default function ProductPage() {
   const sourcePillars = localizedPillars[locale as keyof typeof localizedPillars] ?? getGeneratedLocalCopy(localizedPillars, generatedLocalCopy.localizedPillars, locale) ?? localizedPillars.en;
   const depth = depthCopy[locale as keyof typeof depthCopy];
   const descriptions = [depth.pulse, audienceCopy[locale as keyof typeof audienceCopy].benchmarking, depth.watchtower, depth.insights, depth.intelligence, depth.foresight];
-  const pillars = sourcePillars.map((pillar, index) => ({ ...pillar, description: descriptions[index] }));
+  const pillars = sourcePillars.map((pillar, index) => ({ ...pillar, description: descriptions[index], tagline: index === 1 ? discoveryCopy[locale as keyof typeof discoveryCopy].benchmarks : index === 3 ? discoveryCopy[locale as keyof typeof discoveryCopy].insights : pillar.tagline }));
   const cream = productCreamCopy[locale as keyof typeof productCreamCopy] ?? productCreamCopy.en;
   const creamMid = productCreamMidCopy[locale as keyof typeof productCreamMidCopy] ?? productCreamMidCopy.en;
 

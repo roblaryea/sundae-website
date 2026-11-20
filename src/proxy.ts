@@ -122,6 +122,15 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(redirectUrl)
   }
 
+  // Two-letter paths are neither supported marketing locales nor valid profile handles.
+  // Return the actual not-found status before the dynamic route can start streaming.
+  if (!localeFromPath && /^\/[a-z]{2}\/?$/i.test(pathname)) {
+    const response = NextResponse.rewrite(new URL('/404', request.url), { status: 404 })
+    response.headers.set('Cache-Control', 'no-store')
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow')
+    return response
+  }
+
   // Resolve unknown root handles before streaming begins, so an absent card has
   // a real 404 status. Static marketing routes are excluded by the candidate guard.
   if (isProfileCardPath(internalPathname) && internalPathname.split('/').filter(Boolean).length === 1 && !isProfileHandle(firstSegment.toLowerCase())) {
