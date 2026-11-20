@@ -4,7 +4,6 @@ import { BookDemoButton } from '@/components/ui/BookDemoButton';
 
 import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
-import resourceCopy from '@/content/buyer-clarity/resources.json';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { GuidanceClose, GuidanceHero, GuidanceReveal } from '@/components/support/GuidanceLayout';
 import { getLocalizedPathname } from '@/lib/i18n';
@@ -18,8 +17,8 @@ import proofByLocale from '@/content/workflow-proof.json';
 import tasks from '../../../public/images/product/native-2026-11-16/tasks.png';
 
 export default function GettingStartedPage() {
-  const { locale } = useWebsiteI18n();
-  const walkthrough = resourceCopy[locale as keyof typeof resourceCopy].primaryCta;
+  const { locale, messages } = useWebsiteI18n();
+  const walkthrough = messages.navbar.bookDemo;
   const copy = guidanceByLocale[locale as keyof typeof guidanceByLocale];
   const onboarding = onboardingByLocale[locale as keyof typeof onboardingByLocale];
   const proof = proofByLocale[locale as keyof typeof proofByLocale];
