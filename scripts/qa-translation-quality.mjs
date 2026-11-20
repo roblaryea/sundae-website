@@ -42,6 +42,7 @@ const localizedCopyExports = [
   { relativePath: 'src/components/home/sections/creamReliefCopy.ts', exportName: 'creamReliefCopy' },
   { relativePath: 'src/components/home/sections/productPreviewCopy.ts', exportName: 'productPreviewCopy' },
   { relativePath: 'src/components/home/closerCopy.ts', exportName: 'homeClosingCopy' },
+  { relativePath: 'src/lib/leadConversation/copy.ts', exportName: 'guidedBookingCopy' },
 ]
 
 const structuralKeys = new Set([

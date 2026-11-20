@@ -6,6 +6,24 @@ const POSTHOG_HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posth
 
 let initialized = false;
 let privateVisit = false;
+// Guided booking opens the token-gated booking screen over a marketing page.
+// While it is open nothing is captured (events, autocapture, replay), the same
+// guarantee /book pages get, and capture resumes when it closes.
+let bookingOverlayOpen = false;
+let resumeRecording = false;
+
+export function setBookingOverlayOpen(open: boolean) {
+  if (bookingOverlayOpen === open) return;
+  bookingOverlayOpen = open;
+  if (!initialized || privateVisit) return;
+  if (open) {
+    resumeRecording = posthog.sessionRecordingStarted();
+    posthog.stopSessionRecording();
+  } else if (resumeRecording) {
+    resumeRecording = false;
+    posthog.startSessionRecording();
+  }
+}
 
 export function protectBookingPrivacy(path: string) {
   if (privateVisit || !isBookingUrl(path)) return;
@@ -27,7 +45,7 @@ export function initPostHog() {
     // autocapture/pageleave/session snapshots after navigating from the homepage.
     before_send: (event) => {
       protectBookingPrivacy(window.location.href);
-      return privateVisit || containsBookingData(event) ? null : event;
+      return privateVisit || bookingOverlayOpen || containsBookingData(event) ? null : event;
     },
     session_recording: {
       maskAllInputs: true,
@@ -41,6 +59,12 @@ export function initPostHog() {
 }
 
 export function trackEvent(event: string, properties?: Record<string, unknown>) {
+  if (bookingOverlayOpen) return;
+  // Development-only test seam: Playwright specs assert event names and that
+  // properties carry no personal data. Compiled out of production builds.
+  if (process.env.NODE_ENV !== "production" && typeof window !== "undefined") {
+    window.dispatchEvent(new CustomEvent("sundae:analytics", { detail: { event, properties } }));
+  }
   if (!POSTHOG_KEY || !initialized) return;
   posthog.capture(event, properties);
 }

@@ -14,6 +14,15 @@ import accessibilityLabels from '@/content/accessibility-labels.json';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_marketing_LeadCaptureForm'
 import { trackEvent } from '@/lib/posthog';
+import {
+  composeFullPhone,
+  emptyLeadValues,
+  isValidLeadEmail,
+  isValidLeadPhone,
+  normalizePhoneForStorage,
+  type LeadFormValues,
+} from '@/lib/leadFields';
+import type { LeadSurface, LeadVariant } from '@/lib/leadConversation/variant';
 
 interface LeadCaptureFormProps {
   ctaLabel: string;
@@ -21,20 +30,13 @@ interface LeadCaptureFormProps {
   defaultMessage?: string;
   className?: string;
   pricingIntent?: PricingIntent;
+  /** Answers carried over from guided booking ("Use the classic form"). */
+  initialValues?: Partial<LeadFormValues>;
+  /** Experiment context added to every lead_form_* event. */
+  analytics?: { variant: LeadVariant; surface: LeadSurface; startRecorded?: boolean };
 }
 
-interface FormData {
-  name: string;
-  email: string;
-  company: string;
-  role: string;
-  country: string;
-  countryCode: string;
-  phone: string;
-  numberOfLocations: string;
-  primaryPOS: string;
-  message: string;
-}
+type FormData = LeadFormValues;
 
 type FormErrors = Record<string, string>;
 
@@ -239,36 +241,27 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   defaultMessage = '',
   className = '',
   pricingIntent,
+  initialValues,
+  analytics,
 }) => {
   const { locale } = useWebsiteI18n();
   const intentCopy = pricingIntentCopy[locale as keyof typeof pricingIntentCopy] ?? pricingIntentCopy.en;
   const copy = formCopy[locale as keyof typeof formCopy] ?? getGeneratedLocalCopy(formCopy, generatedLocalCopy.formCopy, locale) ?? formCopy.en;
-  const [formData, setFormData] = useState<FormData>({
-    name: '',
-    email: '',
-    company: '',
-    role: '',
-    country: '',
-    countryCode: '+971',
-    phone: '',
-    numberOfLocations: '',
-    primaryPOS: '',
-    message: defaultMessage,
-  });
+  const [formData, setFormData] = useState<FormData>(() => ({ ...emptyLeadValues(defaultMessage), ...initialValues }));
   const [honeypot, setHoneypot] = useState('');
   // Keep the prefilled message in sync with the locale's default. defaultMessage
   // is server-computed per locale; on a client-side locale switch (setLocale +
   // router.refresh) the labels/placeholder update but useState's initial value
   // would otherwise leave the message box stuck in the previous language. Resync
   // it whenever the localized default changes - unless the visitor has typed.
-  const [messageEdited, setMessageEdited] = useState(false);
+  const [messageEdited, setMessageEdited] = useState(() => !!initialValues?.message);
   const [errors, setErrors] = useState<FormErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [apiError, setApiError] = useState('');
   const fieldRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const submissionKeyRef = useRef<string>(globalThis.crypto.randomUUID());
-  const formStartedRef = useRef(false);
+  const formStartedRef = useRef(!!analytics?.startRecorded);
 
   useEffect(() => {
     if (!messageEdited) {
@@ -307,9 +300,12 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     if (apiError) setApiError('');
   };
 
+  const experiment = analytics ? { variant: analytics.variant, surface: analytics.surface } : {};
+
   const analyticsContext = () => ({
     cta_label: ctaLabel,
     source_page: window.location.pathname,
+    ...experiment,
   });
 
   const trackFormStart = () => {
@@ -318,19 +314,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     trackEvent('lead_form_started', analyticsContext());
   };
 
-  const validateEmail = (email: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-
-  const normalizePhoneForStorage = (raw: string) => {
-    if (!raw) return '';
-    let value = raw.replace(/[()[\]\-\s]/g, '');
-    if (value.startsWith('00')) value = `+${value.slice(2)}`;
-    if (!value.startsWith('+')) value = `+${value.replace(/^\+/g, '')}`;
-    value = value.replace(/\+{2,}/g, '+');
-    value = value.replace(/[^+\d]/g, '');
-    return value;
-  };
-
-  const validatePhone = (phone: string) => /^\+\d{7,15}$/.test(normalizePhoneForStorage(phone));
+  const validateEmail = isValidLeadEmail;
+  const validatePhone = isValidLeadPhone;
 
   const validateForm = () => {
     const nextErrors: FormErrors = {};
@@ -343,10 +328,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     if (!formData.countryCode) nextErrors.countryCode = copy.required.countryCode;
     if (!formData.phone.trim()) nextErrors.phone = copy.required.phone;
     else {
-      const fullPhone = formData.phone.startsWith('+')
-        ? formData.phone
-        : `${formData.countryCode || ''}${formData.phone}`;
-      if (!validatePhone(fullPhone)) nextErrors.phone = copy.validPhone;
+      if (!validatePhone(composeFullPhone(formData.countryCode, formData.phone))) nextErrors.phone = copy.validPhone;
     }
     if (!formData.numberOfLocations.trim()) nextErrors.numberOfLocations = copy.required.numberOfLocations;
     if (!formData.primaryPOS.trim()) nextErrors.primaryPOS = copy.required.primaryPOS;
@@ -377,6 +359,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
         cta_label: ctaLabel,
         source_page: window.location.pathname,
         invalid_fields: Object.keys(validationErrors),
+        ...experiment,
       });
       setTimeout(() => scrollToFirstError(validationErrors), 100);
       return;
@@ -385,10 +368,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     try {
       const sourcePage = window.location.pathname;
       const campaign = getCampaignParams();
-      const localPhone = formData.phone.trim();
-      const fullPhone = localPhone.startsWith('+')
-        ? localPhone
-        : `${formData.countryCode || ''}${localPhone}`;
+      const fullPhone = composeFullPhone(formData.countryCode, formData.phone);
       const response = await fetch('/api/cta/submit', {
         method: 'POST',
         headers: {
@@ -417,26 +397,17 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
         utm_source: campaign.utm_source || undefined,
         utm_medium: campaign.utm_medium || undefined,
         utm_campaign: campaign.utm_campaign || undefined,
+        ...experiment,
       });
       setIsSuccess(true);
       submissionKeyRef.current = globalThis.crypto.randomUUID();
       setMessageEdited(false);
-      setFormData({
-        name: '',
-        email: '',
-        company: '',
-        role: '',
-        country: '',
-        countryCode: '+971',
-        phone: '',
-        numberOfLocations: '',
-        primaryPOS: '',
-        message: defaultMessage,
-      });
+      setFormData(emptyLeadValues(defaultMessage));
     } catch (err) {
       trackEvent('lead_form_submission_failed', {
         cta_label: ctaLabel,
         source_page: window.location.pathname,
+        ...experiment,
       });
       setApiError(err instanceof Error ? err.message : copy.genericError);
     } finally {
