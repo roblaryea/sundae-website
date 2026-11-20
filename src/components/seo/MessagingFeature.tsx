@@ -5,7 +5,7 @@ import messagingCopy from '@/content/messaging-feature.json'
 export function MessagingFeature({ locale, compact = false }: { locale: WebsiteLocale; compact?: boolean }) {
   const copy = messagingCopy[locale as keyof typeof messagingCopy]
   return (
-    <section id="messaging" aria-labelledby="messaging-title" data-messaging-feature={compact ? 'summary' : 'detail'} className={`brand-editorial-wash border-y border-[var(--border-default)] px-6 sm:px-8 lg:px-12 ${compact ? 'py-12 lg:py-16' : 'py-16 lg:py-24'}`}>
+    <section id="messaging" aria-labelledby="messaging-title" data-messaging-feature={compact ? 'summary' : 'detail'} className={`brand-editorial-wash scroll-mt-28 border-y border-[var(--border-default)] px-6 sm:px-8 lg:px-12 ${compact ? 'py-12 lg:py-16' : 'py-16 lg:py-24'}`}>
       <div className="mx-auto grid max-w-6xl items-start gap-8 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16">
         <div className="min-w-0">
           <p className="eyebrow mb-4 text-[var(--text-warm)]">{copy.eyebrow}</p>
