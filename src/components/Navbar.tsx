@@ -360,7 +360,7 @@ const Navbar = () => {
                         <div className="grid grid-cols-2 gap-1">
                           {group.links.map(link => <Link key={link.href} href={localizeHref(link.href)} className={dropdownLinkClass} onClick={() => setActiveDropdown(null)}>
                             <div className={dropdownTitleClass}>{link.name}</div>
-                            {group.id === 'core' && 'description' in link && link.description && <div className={dropdownDescriptionClass}>{link.description}</div>}
+                            {'description' in link && link.description && <div className={dropdownDescriptionClass}>{link.description}</div>}
                           </Link>)}
                         </div>
                       </div>
@@ -653,7 +653,7 @@ const Navbar = () => {
                     </button>
                   </div>
                   <div id={`accordion-content-${group.id}`} className="ms-4 border-s border-[var(--border-default)] pb-2 ps-1" hidden={!expandedSections[group.id]} inert={!expandedSections[group.id]}>
-                    {group.links.map(link => <MobileNavLink key={link.href} href={localizeHref(link.href)} onClick={handleMobileNavClick}>{link.name}</MobileNavLink>)}
+                    {group.links.map(link => <MobileNavLink key={link.href} href={localizeHref(link.href)} onClick={handleMobileNavClick}><span className="block">{link.name}</span>{group.id === 'crew' && 'description' in link && link.description && <span className="mt-0.5 block text-xs font-normal leading-snug text-[var(--text-muted)]">{link.description}</span>}</MobileNavLink>)}
                   </div>
                 </div>
               ))}
