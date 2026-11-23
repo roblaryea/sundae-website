@@ -11,7 +11,9 @@
     "coachBody": "Ask what needs attention in the workforce, then check the records behind the answer. Managers choose the response and keep the decision and follow-up together.",
     "workflowTitle": "Set up approvals and follow-up.",
     "workflowBody": "Build approval steps around the people responsible. Managers can see what needs review and how the decision moves through the team.",
-    "coverageLabel": "Review the capabilities in your package"
+    "coverageLabel": "Review the capabilities in your package",
+    "financeOutcome": "Review payroll readiness across your configured countries and entities. Inspect cycle explanations, proof packs and supported statutory outputs before the local handoff.",
+    "ctaDescription": "Walk through schedules, approved hours, daily work and payroll review. See how the workforce record helps managers act and gives Core context for the next decision."
   },
   "ar": {
     "pillarsTitle": "أدر الأشخاص والعمل خلف كل شفت.",
@@ -25,7 +27,9 @@
     "coachBody": "اسأل ما الذي يحتاج انتباها في القوى العاملة، ثم افحص السجلات خلف الإجابة. يختار المديرون الاستجابة ويحتفظون بالقرار والمتابعة معا.",
     "workflowTitle": "أنشئ موافقات ومتابعات.",
     "workflowBody": "ابنِ خطوات الموافقة حول الأشخاص المسؤولين. يمكن للمديرين رؤية ما يحتاج مراجعة وكيف ينتقل القرار عبر الفريق.",
-    "coverageLabel": "راجع القدرات في حزمتك"
+    "coverageLabel": "راجع القدرات في حزمتك",
+    "financeOutcome": "راجع جاهزية الرواتب في البلدان والكيانات التي أعددتها. افحص شروح دورات الرواتب وحزم الإثبات والمخرجات النظامية المدعومة قبل التسليم للجهة المحلية.",
+    "ctaDescription": "استعرض الجداول والساعات المعتمدة والعمل اليومي ومراجعة الرواتب. شاهد كيف يساعد سجل القوى العاملة المديرين على اتخاذ الإجراء ويزوّد Core بالسياق للقرار التالي."
   },
   "fr": {
     "pillarsTitle": "Gérez les personnes et le travail derrière chaque shift.",
@@ -39,7 +43,9 @@
     "coachBody": "Demandez ce qui nécessite de l’attention dans l’effectif, puis vérifiez les enregistrements derrière la réponse. Les managers choisissent la réponse et conservent la décision et le suivi ensemble.",
     "workflowTitle": "Mettez en place des approbations et du suivi.",
     "workflowBody": "Construisez des étapes d’approbation autour des personnes responsables. Les managers peuvent voir ce qui nécessite une revue et comment la décision circule dans l’équipe.",
-    "coverageLabel": "Vérifiez les capacités dans votre package"
+    "coverageLabel": "Vérifiez les capacités dans votre package",
+    "financeOutcome": "Vérifiez la préparation de la paie pour vos pays et entités configurés. Examinez les explications du cycle, les dossiers justificatifs et les déclarations prises en charge avant le relais local.",
+    "ctaDescription": "Parcourez les plannings, les heures approuvées, le travail quotidien et la revue de paie. Découvrez comment le dossier du personnel aide les responsables à agir et apporte à Core le contexte de la prochaine décision."
   },
   "es": {
     "pillarsTitle": "Gestione a las personas y el trabajo detrás de cada turno.",
@@ -53,7 +59,9 @@
     "coachBody": "Pregunte qué necesita atención en la plantilla y luego compruebe los registros detrás de la respuesta. Los gestores eligen la respuesta y mantienen la decisión y el seguimiento juntos.",
     "workflowTitle": "Configure aprobaciones y seguimiento.",
     "workflowBody": "Construya pasos de aprobación alrededor de las personas responsables. Los gestores pueden ver lo que necesita revisión y cómo la decisión se mueve por el equipo.",
-    "coverageLabel": "Revise las capacidades en su paquete"
+    "coverageLabel": "Revise las capacidades en su paquete",
+    "financeOutcome": "Revise la preparación de la nómina en los países y entidades configurados. Examine las explicaciones del ciclo, los expedientes justificativos y los documentos legales admitidos antes del traspaso local.",
+    "ctaDescription": "Recorra los turnos, las horas aprobadas, el trabajo diario y la revisión de nóminas. Vea cómo el registro de personal ayuda a los responsables a actuar y aporta a Core contexto para la siguiente decisión."
   },
   "de": {
     "pillarsTitle": "Verwalten Sie Menschen und Arbeit hinter jeder Schicht.",
@@ -67,7 +75,9 @@
     "coachBody": "Fragen Sie, was in der Belegschaft Aufmerksamkeit benötigt, und prüfen Sie dann die Aufzeichnungen hinter der Antwort. Manager wählen die Reaktion und behalten Entscheidung und Nachverfolgung zusammen.",
     "workflowTitle": "Richten Sie Genehmigungen und Nachverfolgung ein.",
     "workflowBody": "Bauen Sie Genehmigungsschritte rund um die verantwortlichen Personen auf. Manager können sehen, was überprüft werden muss und wie die Entscheidung durchs Team wandert.",
-    "coverageLabel": "Prüfen Sie die Fähigkeiten in Ihrem Paket"
+    "coverageLabel": "Prüfen Sie die Fähigkeiten in Ihrem Paket",
+    "financeOutcome": "Prüfen Sie die Abrechnungsbereitschaft für Ihre eingerichteten Länder und Gesellschaften. Kontrollieren Sie Erläuterungen zum Abrechnungslauf, Nachweisunterlagen und unterstützte gesetzlich vorgeschriebene Unterlagen vor der lokalen Übergabe.",
+    "ctaDescription": "Gehen Sie Dienstpläne, freigegebene Stunden, tägliche Aufgaben und die Abrechnungsprüfung durch. Sehen Sie, wie die Personaldaten Führungskräfte beim Handeln unterstützen und Core Kontext für die nächste Entscheidung liefern."
   },
   "nl": {
     "pillarsTitle": "Beheer de mensen en het werk achter elke shift.",
@@ -81,7 +91,9 @@
     "coachBody": "Vraag wat aandacht nodig heeft in de personeelsplanning en controleer vervolgens de dossiers achter het antwoord. Managers kiezen de reactie en houden beslissing en nazorg samen.",
     "workflowTitle": "Stel goedkeuringen en nazorg in.",
     "workflowBody": "Bouw goedkeuringsstappen rond de verantwoordelijke personen. Managers kunnen zien wat beoordeling nodig heeft en hoe de beslissing door het team beweegt.",
-    "coverageLabel": "Bekijk de mogelijkheden in uw pakket"
+    "coverageLabel": "Bekijk de mogelijkheden in uw pakket",
+    "financeOutcome": "Beoordeel de gereedheid van de loonverwerking voor uw ingestelde landen en entiteiten. Controleer de uitleg bij de loonronde, bewijsdossiers en ondersteunde wettelijke uitvoer vóór de lokale overdracht.",
+    "ctaDescription": "Doorloop roosters, goedgekeurde uren, dagelijks werk en looncontrole. Zie hoe het personeelsdossier managers helpt handelen en Core context geeft voor de volgende beslissing."
   },
   "pt": {
     "pillarsTitle": "Gerir as pessoas e o trabalho por trás de cada turno.",
@@ -95,7 +107,9 @@
     "coachBody": "Pergunte o que precisa de atenção na equipa e depois verifique os registos por trás da resposta. Os gestores escolhem a resposta e mantêm a decisão e o acompanhamento juntos.",
     "workflowTitle": "Defina aprovações e acompanhamento.",
     "workflowBody": "Construa passos de aprovação em torno das pessoas responsáveis. Os gestores podem ver o que precisa de revisão e como a decisão se move pela equipa.",
-    "coverageLabel": "Revise as capacidades no seu pacote"
+    "coverageLabel": "Revise as capacidades no seu pacote",
+    "financeOutcome": "Revise a preparação da folha nos países e entidades configurados. Confira as explicações do ciclo, os dossiês comprobatórios e os documentos legais compatíveis antes do encaminhamento local.",
+    "ctaDescription": "Explore escalas, horas aprovadas, trabalho diário e revisão da folha. Veja como o registro de pessoal ajuda os gestores a agir e fornece contexto ao Core para a próxima decisão."
   },
   "hi": {
     "pillarsTitle": "प्रत्येक शिफ्ट के पीछे लोगों और काम का प्रबंधन करें।",
@@ -109,7 +123,9 @@
     "coachBody": "पूछें कि वर्कफोर्स में क्या ध्यान देने की जरूरत है, फिर उत्तर के पीछे के रिकॉर्ड की जाँच करें। प्रबंधक प्रतिक्रिया चुनते हैं और निर्णय तथा फॉलो-अप साथ रखते हैं।",
     "workflowTitle": "अनुमोदन और फॉलो-अप सेट करें।",
     "workflowBody": "जिम्मेदार लोगों के आसपास अनुमोदन चरण बनाएं। प्रबंधक देख सकते हैं क्या समीक्षा की जरूरत है और निर्णय टीम के माध्यम से कैसे चलता है।",
-    "coverageLabel": "अपने पैकेज में क्षमताओं की समीक्षा करें"
+    "coverageLabel": "अपने पैकेज में क्षमताओं की समीक्षा करें",
+    "financeOutcome": "अपने कॉन्फ़िगर किए गए देशों और संस्थाओं में पेरोल की तैयारी की समीक्षा करें। स्थानीय हस्तांतरण से पहले वेतन चक्र के स्पष्टीकरण, प्रमाण दस्तावेज़ों और समर्थित वैधानिक आउटपुट की जाँच करें।",
+    "ctaDescription": "शेड्यूल, स्वीकृत घंटे, दैनिक काम और पेरोल समीक्षा देखें। जानें कि कर्मचारी रिकॉर्ड प्रबंधकों को कार्रवाई करने में कैसे मदद करता है और अगले निर्णय के लिए Core को संदर्भ कैसे देता है।"
   },
   "ur": {
     "pillarsTitle": "ہر شفٹ کے پیچھے لوگوں اور کام کا انتظام کریں۔",
@@ -123,7 +139,9 @@
     "coachBody": "پوچھیں کہ ورک فورس میں کس چیز کی توجہ درکار ہے، پھر جواب کے پیچھے ریکارڈز چیک کریں۔ منیجرز ردعمل منتخب کرتے ہیں اور فیصلہ و فالو اپ کو ساتھ رکھتے ہیں۔",
     "workflowTitle": "منظوری اور فالو اپ ترتیب دیں۔",
     "workflowBody": "ذمہ دار افراد کے گرد منظوری کے مراحل بنائیں۔ منیجرز دیکھ سکتے ہیں کہ کیا جائزہ لینے کی ضرورت ہے اور فیصلہ ٹیم میں کیسے منتقل ہوتا ہے۔",
-    "coverageLabel": "اپنے پیکیج میں صلاحیتوں کا جائزہ لیں"
+    "coverageLabel": "اپنے پیکیج میں صلاحیتوں کا جائزہ لیں",
+    "financeOutcome": "اپنے ترتیب دیے گئے ممالک اور اداروں میں پے رول کی تیاری کا جائزہ لیں۔ مقامی حوالگی سے پہلے تنخواہ کے دور کی وضاحتیں، ثبوت کی دستاویزات اور معاون قانونی نتائج جانچیں۔",
+    "ctaDescription": "شیڈول، منظور شدہ اوقات، روزمرہ کام اور پے رول کے جائزے کو دیکھیں۔ جانیں کہ افرادی قوت کا ریکارڈ مینیجرز کو کارروائی میں کیسے مدد دیتا ہے اور اگلے فیصلے کے لیے Core کو سیاق فراہم کرتا ہے۔"
   },
   "it": {
     "pillarsTitle": "Gestisci le persone e il lavoro dietro ogni turno.",
@@ -137,7 +155,9 @@
     "coachBody": "Chiedi cosa necessita attenzione nel personale, poi controlla i registri dietro la risposta. I manager scelgono la risposta e tengono insieme decisione e follow-up.",
     "workflowTitle": "Imposta approvazioni e follow-up.",
     "workflowBody": "Costruisci passaggi di approvazione attorno alle persone responsabili. I manager possono vedere cosa necessita revisione e come la decisione si muove nel team.",
-    "coverageLabel": "Verifica le funzionalità nel tuo pacchetto"
+    "coverageLabel": "Verifica le funzionalità nel tuo pacchetto",
+    "financeOutcome": "Verifica la preparazione delle paghe nei paesi e nelle entità configurati. Esamina le spiegazioni del ciclo, i fascicoli probatori e gli adempimenti supportati prima del passaggio locale.",
+    "ctaDescription": "Esplora turni, ore approvate, attività quotidiane e revisione delle paghe. Scopri come il fascicolo del personale aiuta i responsabili ad agire e fornisce a Core il contesto per la decisione successiva."
   },
   "pl": {
     "pillarsTitle": "Zarządzaj ludźmi i pracą za każdą zmianą.",
@@ -151,7 +171,9 @@
     "coachBody": "Zapytaj, co wymaga uwagi w zespole, potem sprawdź zapisy stojące za odpowiedzią. Menedżerowie wybierają reakcję i zachowują decyzję oraz dopilnowanie razem.",
     "workflowTitle": "Ustaw zatwierdzenia i dopilnowania.",
     "workflowBody": "Wbuduj kroki zatwierdzania wokół osób odpowiedzialnych. Menedżerowie widzą, co trzeba przeglądnąć i jak decyzja przechodzi przez zespół.",
-    "coverageLabel": "Przejrzyj możliwości w Twoim pakiecie"
+    "coverageLabel": "Przejrzyj możliwości w Twoim pakiecie",
+    "financeOutcome": "Sprawdź gotowość do naliczenia płac w skonfigurowanych krajach i jednostkach. Przed lokalnym przekazaniem przejrzyj objaśnienia cyklu, dokumentację dowodową i obsługiwane dokumenty ustawowe.",
+    "ctaDescription": "Przejdź przez grafiki, zatwierdzone godziny, codzienne zadania i przegląd płac. Zobacz, jak dokumentacja pracownicza pomaga kierownikom działać i dostarcza Core kontekstu do kolejnej decyzji."
   },
   "tr": {
     "pillarsTitle": "Her vardiyanın arkasındaki insanları ve işi yönetin.",
@@ -165,7 +187,9 @@
     "coachBody": "İşgücünde neyin dikkat gerektirdiğini sorun, sonra cevabın arkasındaki kayıtları kontrol edin. Yöneticiler yanıtı seçer ve kararı ile takibi birlikte tutar.",
     "workflowTitle": "Onayları ve takibi kurun.",
     "workflowBody": "Sorumlu kişilerin etrafında onay adımları oluşturun. Yöneticiler neyin gözden geçirilmesi gerektiğini ve kararın ekip içinde nasıl ilerlediğini görebilir.",
-    "coverageLabel": "Paketinizdeki yetenekleri gözden geçirin"
+    "coverageLabel": "Paketinizdeki yetenekleri gözden geçirin",
+    "financeOutcome": "Yapılandırılmış ülke ve kuruluşlarınızda bordro hazırlığını gözden geçirin. Yerel devre teslimden önce dönem açıklamalarını, kanıt dosyalarını ve desteklenen yasal çıktıları inceleyin.",
+    "ctaDescription": "Vardiya planlarını, onaylı saatleri, günlük işleri ve bordro incelemesini adım adım görün. Çalışan kaydının yöneticilerin harekete geçmesine nasıl yardımcı olduğunu ve sonraki karar için Core'a nasıl bağlam sağladığını keşfedin."
   },
   "zh-Hans": {
     "pillarsTitle": "管理每个班次背后的人与工作。",
@@ -179,7 +203,9 @@
     "coachBody": "询问劳动力中需要关注的事项，然后检查答案背后的记录。管理者选择应对并将决策与跟进一并保存。",
     "workflowTitle": "设置审批与跟进流程。",
     "workflowBody": "围绕负责人员建立审批步骤。管理者可查看需要复核的事项以及决策在团队中的流转。",
-    "coverageLabel": "复核您套餐中的能力"
+    "coverageLabel": "复核您套餐中的能力",
+    "financeOutcome": "查看已配置国家和实体的薪资就绪情况。在交接给当地团队前，检查周期说明、证明资料和支持的法定输出。",
+    "ctaDescription": "逐步了解排班、已批准工时、日常工作和薪资审核。查看员工记录如何帮助经理采取行动，并为 Core 的下一步决策提供背景。"
   },
   "ja": {
     "pillarsTitle": "各シフトの人と作業を管理する。",
@@ -193,7 +219,9 @@
     "coachBody": "勤怠で注意が必要な点を問い、その回答の裏にある記録を確認します。マネージャーが対応を選び、決定とフォローアップを一緒に保ちます。",
     "workflowTitle": "承認とフォローアップを設定する。",
     "workflowBody": "責任者を軸に承認ステップを構築します。マネージャーは何をレビューすべきかと決定がチーム内でどう動くかを確認できます。",
-    "coverageLabel": "パッケージの対応範囲を確認する"
+    "coverageLabel": "パッケージの対応範囲を確認する",
+    "financeOutcome": "設定済みの国と法人について給与処理の準備状況を確認します。現地への引き継ぎ前に、給与サイクルの説明、証跡資料、対応する法定出力を確認してください。",
+    "ctaDescription": "シフト、承認済みの労働時間、日々の業務、給与レビューを順に確認します。従業員記録が管理者の行動を支え、Core の次の判断に必要な背景をどう提供するかをご覧ください。"
   },
   "ko": {
     "pillarsTitle": "각 교대의 인력과 업무를 관리하세요.",
@@ -207,7 +235,9 @@
     "coachBody": "인력에서 주목해야 할 항목을 묻고 답변 뒤의 기록을 확인하세요. 관리자는 대응을 선택하고 결정과 후속을 함께 보관합니다.",
     "workflowTitle": "승인과 후속을 설정하세요.",
     "workflowBody": "책임자 주변에 승인 단계를 구축하세요. 관리자는 무엇을 검토해야 하고 결정이 팀 내에서 어떻게 진행되는지 확인할 수 있습니다.",
-    "coverageLabel": "패키지의 기능을 검토하세요"
+    "coverageLabel": "패키지의 기능을 검토하세요",
+    "financeOutcome": "설정된 국가와 법인의 급여 준비 상태를 검토하세요. 현지 인계 전에 급여 주기 설명, 증빙 자료와 지원되는 법정 산출물을 확인하세요.",
+    "ctaDescription": "근무 일정, 승인된 시간, 일상 업무와 급여 검토 과정을 살펴보세요. 직원 기록이 관리자의 조치를 돕고 Core의 다음 의사결정에 맥락을 제공하는 방식을 확인하세요."
   },
   "id": {
     "pillarsTitle": "Kelola orang dan pekerjaan di balik setiap shift.",
@@ -221,7 +251,9 @@
     "coachBody": "Tanyakan apa yang perlu diperhatikan dalam tenaga kerja, lalu periksa catatan di balik jawaban. Manajer memilih respons dan menyimpan keputusan serta tindak lanjut bersama.",
     "workflowTitle": "Atur persetujuan dan tindak lanjut.",
     "workflowBody": "Bangun langkah persetujuan berdasarkan orang yang bertanggung jawab. Manajer dapat melihat apa yang perlu ditinjau dan bagaimana keputusan bergerak melalui tim.",
-    "coverageLabel": "Tinjau kapabilitas dalam paket Anda"
+    "coverageLabel": "Tinjau kapabilitas dalam paket Anda",
+    "financeOutcome": "Tinjau kesiapan penggajian di negara dan entitas yang telah dikonfigurasi. Periksa penjelasan siklus, berkas bukti dan keluaran wajib yang didukung sebelum serah terima ke pihak setempat.",
+    "ctaDescription": "Telusuri jadwal, jam yang disetujui, pekerjaan harian dan peninjauan gaji. Lihat bagaimana catatan tenaga kerja membantu manajer bertindak dan memberi Core konteks untuk keputusan berikutnya."
   },
   "vi": {
     "pillarsTitle": "Quản lý con người và công việc phía sau mỗi ca.",
@@ -235,7 +267,9 @@
     "coachBody": "Hỏi điều gì cần chú ý trong lực lượng lao động, sau đó kiểm tra hồ sơ đằng sau câu trả lời. Quản lý chọn phản ứng và giữ quyết định cùng theo dõi.",
     "workflowTitle": "Thiết lập phê duyệt và theo dõi.",
     "workflowBody": "Xây các bước phê duyệt quanh những người chịu trách nhiệm. Quản lý có thể thấy điều cần xem xét và cách quyết định di chuyển qua đội.",
-    "coverageLabel": "Xem lại năng lực trong gói của bạn"
+    "coverageLabel": "Xem lại năng lực trong gói của bạn",
+    "financeOutcome": "Xem mức độ sẵn sàng tính lương tại các quốc gia và đơn vị đã cấu hình. Kiểm tra giải thích kỳ lương, hồ sơ chứng minh và đầu ra theo luật định được hỗ trợ trước khi bàn giao tại địa phương.",
+    "ctaDescription": "Tìm hiểu lịch làm việc, giờ đã duyệt, công việc hằng ngày và quy trình rà soát lương. Xem hồ sơ nhân sự hỗ trợ quản lý hành động và cung cấp bối cảnh cho quyết định tiếp theo trong Core như thế nào."
   },
   "ro": {
     "pillarsTitle": "Gestionează oamenii și munca din spatele fiecărei ture.",
@@ -249,7 +283,9 @@
     "coachBody": "Întreabă ce necesită atenție în forța de muncă, apoi verifică înregistrările din spatele răspunsului. Managerii aleg răspunsul și păstrează decizia și urmărirea împreună.",
     "workflowTitle": "Configurează aprobări și urmărire.",
     "workflowBody": "Construiește pași de aprobare în jurul persoanelor responsabile. Managerii pot vedea ce trebuie revizuit și cum se mișcă decizia prin echipă.",
-    "coverageLabel": "Revizuiește capabilitățile din pachetul tău"
+    "coverageLabel": "Revizuiește capabilitățile din pachetul tău",
+    "financeOutcome": "Verificați pregătirea salarizării pentru țările și entitățile configurate. Examinați explicațiile ciclului, dosarele justificative și documentele legale acceptate înainte de predarea locală.",
+    "ctaDescription": "Parcurgeți programele, orele aprobate, activitatea zilnică și revizuirea salarizării. Vedeți cum evidența personalului ajută managerii să acționeze și oferă Core context pentru următoarea decizie."
   },
   "sv": {
     "pillarsTitle": "Hantera människor och arbete bakom varje skift.",
@@ -263,7 +299,9 @@
     "coachBody": "Fråga vad som behöver uppmärksammas i personalen, kontrollera sedan posterna bakom svaret. Chefer väljer åtgärd och behåller beslut och uppföljning tillsammans.",
     "workflowTitle": "Ställ in godkännanden och uppföljning.",
     "workflowBody": "Bygg godkännandesteg runt ansvariga personer. Chefer kan se vad som behöver granskas och hur beslutet rör sig genom teamet.",
-    "coverageLabel": "Granska funktionerna i ditt paket"
+    "coverageLabel": "Granska funktionerna i ditt paket",
+    "financeOutcome": "Granska löneberedskapen för era konfigurerade länder och enheter. Kontrollera förklaringar till lönekörningen, underlag och stödda lagstadgade utdata före den lokala överlämningen.",
+    "ctaDescription": "Gå igenom scheman, godkända timmar, dagligt arbete och lönegranskning. Se hur personaluppgifterna hjälper chefer att agera och ger Core sammanhang inför nästa beslut."
   },
   "bn": {
     "pillarsTitle": "প্রতিটি শিফটের পেছনের মানুষ ও কাজ পরিচালনা করুন।",
@@ -277,7 +315,9 @@
     "coachBody": "কর্মীদের মধ্যে কী উদ্দেশ্যে মনোযোগ দরকার তা জিজ্ঞাসা করুন, তারপর উত্তরের পেছনের রেকর্ডগুলো যাচাই করুন। ম্যানেজাররা প্রতিক্রিয়া বেছে নেন এবং সিদ্ধান্ত ও অনুসরণ একসাথে রাখেন।",
     "workflowTitle": "অনুমোদন ও অনুসরণ সেট করুন।",
     "workflowBody": "দায়িত্বপ্রাপ্ত ব্যক্তিদের চারপাশে অনুমোদন ধাপ তৈরি করুন। ম্যানেজাররা দেখতে পাবেন কী পর্যালোচনা করতে হবে এবং সিদ্ধান্ত কিভাবে দলের মধ্যে চলে।",
-    "coverageLabel": "আপনার প্যাকেজে থাকা সক্ষমতাগুলো পর্যালোচনা করুন"
+    "coverageLabel": "আপনার প্যাকেজে থাকা সক্ষমতাগুলো পর্যালোচনা করুন",
+    "financeOutcome": "কনফিগার করা দেশ ও প্রতিষ্ঠানের বেতন প্রস্তুতি পর্যালোচনা করুন। স্থানীয় হস্তান্তরের আগে বেতনচক্রের ব্যাখ্যা, প্রমাণপত্র এবং সমর্থিত বিধিবদ্ধ আউটপুট যাচাই করুন।",
+    "ctaDescription": "কর্মসূচি, অনুমোদিত কর্মঘণ্টা, দৈনন্দিন কাজ এবং বেতন পর্যালোচনা দেখুন। কর্মীদের রেকর্ড কীভাবে ব্যবস্থাপকদের পদক্ষেপ নিতে সাহায্য করে এবং Core-এর পরবর্তী সিদ্ধান্তে প্রেক্ষাপট দেয় তা জানুন।"
   },
   "th": {
     "pillarsTitle": "จัดการคนและงานเบื้องหลังแต่ละกะ",
@@ -291,7 +331,9 @@
     "coachBody": "ถามว่าจุดไหนต้องใส่ใจในแรงงาน แล้วตรวจสอบบันทึกเบื้องหลังคำตอบ ผู้จัดการเลือกการตอบสนองและเก็บการตัดสินใจพร้อมการติดตามไว้ด้วยกัน",
     "workflowTitle": "ตั้งค่าการอนุมัติและการติดตามผล",
     "workflowBody": "สร้างขั้นตอนอนุมัติรอบคนที่รับผิดชอบ ผู้จัดการสามารถเห็นสิ่งที่ต้องทบทวนและการตัดสินใจเคลื่อนไปในทีมอย่างไร",
-    "coverageLabel": "ทบทวนความสามารถในแพ็กเกจของคุณ"
+    "coverageLabel": "ทบทวนความสามารถในแพ็กเกจของคุณ",
+    "financeOutcome": "ตรวจสอบความพร้อมด้านเงินเดือนสำหรับประเทศและนิติบุคคลที่กำหนดค่าไว้ ตรวจสอบคำอธิบายรอบเงินเดือน ชุดหลักฐาน และเอกสารตามกฎหมายที่รองรับก่อนส่งต่อให้ผู้รับผิดชอบในพื้นที่",
+    "ctaDescription": "ดูตารางกะ ชั่วโมงที่อนุมัติ งานประจำวัน และการตรวจสอบเงินเดือน เรียนรู้ว่าประวัติพนักงานช่วยให้ผู้จัดการลงมือดำเนินการและให้บริบทแก่ Core สำหรับการตัดสินใจครั้งถัดไปอย่างไร"
   },
   "ms": {
     "pillarsTitle": "Urus orang dan kerja di sebalik setiap syif.",
@@ -305,6 +347,8 @@
     "coachBody": "Tanya apa yang memerlukan perhatian dalam tenaga kerja, kemudian semak rekod di sebalik jawapan. Pengurus memilih tindak balas dan mengekalkan keputusan serta susulan bersama.",
     "workflowTitle": "Tetapkan kelulusan dan susulan.",
     "workflowBody": "Bina langkah kelulusan di sekeliling orang yang bertanggungjawab. Pengurus boleh melihat apa yang perlu disemak dan bagaimana keputusan bergerak melalui pasukan.",
-    "coverageLabel": "Semak kebolehan dalam pakej anda"
+    "coverageLabel": "Semak kebolehan dalam pakej anda",
+    "financeOutcome": "Semak kesediaan penggajian bagi negara dan entiti yang telah dikonfigurasi. Periksa penerangan kitaran, dokumen bukti dan output berkanun yang disokong sebelum serahan kepada pihak setempat.",
+    "ctaDescription": "Telusuri jadual, waktu yang diluluskan, kerja harian dan semakan gaji. Lihat bagaimana rekod tenaga kerja membantu pengurus bertindak dan memberi Core konteks untuk keputusan seterusnya."
   }
 }

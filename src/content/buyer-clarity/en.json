@@ -178,7 +178,9 @@
     "coachBody": "Ask what needs attention in the workforce, then check the records behind the answer. Managers choose the response and keep the decision and follow-up together.",
     "workflowTitle": "Set up approvals and follow-up.",
     "workflowBody": "Build approval steps around the people responsible. Managers can see what needs review and how the decision moves through the team.",
-    "coverageLabel": "Review the capabilities in your package"
+    "coverageLabel": "Review the capabilities in your package",
+    "financeOutcome": "Review payroll readiness across your configured countries and entities. Inspect cycle explanations, proof packs and supported statutory outputs before the local handoff.",
+    "ctaDescription": "Walk through schedules, approved hours, daily work and payroll review. See how the workforce record helps managers act and gives Core context for the next decision."
   },
   "shared": {
     "roleContextTitle": "Start with the question your team needs to answer.",
