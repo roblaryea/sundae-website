@@ -1,5 +1,5 @@
 {
-  "sourceHash": "7a12a66268de0ac456f23181b0551d6aa12c00ad6d1c1d71592a3f8c358fa709",
+  "sourceHash": "9e0337b9d02c522065422e546c57dbe4691fa385bbba2eba3eba32b990b8ba54",
   "model": "gpt-5-mini",
   "locales": [
     "en",
@@ -24,5 +24,10 @@
     "bn",
     "th",
     "ms"
-  ]
+  ],
+  "amendment": {
+    "date": "2026-11-23",
+    "scope": "Crew finance persona and closing description only",
+    "method": "Reviewed English amendment with 22 authored locale equivalents; original model field describes the earlier generated base."
+  }
 }

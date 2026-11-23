@@ -631,7 +631,7 @@ export default function CrewPage() {
     bundleDescription: commercial.extraLocations,
     retiresItems: sourceCopy.retiresItems.map((item, index) => ({ ...item,
       body: [audience.scheduling, audience.attendance, commercial.payroll, audience.people, operatorText(item.body), audience.peopleIntelligence][index] })),
-    personas: sourceCopy.personas.map(item => ({ ...item, outcome: operatorText(item.outcome) })),
+    personas: sourceCopy.personas.map((item, index) => ({ ...item, outcome: index === 3 ? deeper.financeOutcome : operatorText(item.outcome) })),
     modules: sourceCopy.modules.map(item => ({ ...item, included: item.included.map(operatorText) })),
     heroLine1: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
     heroLine2: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewTagline,
