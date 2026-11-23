@@ -1,0 +1,61 @@
+# Digital visibility checkpoint — 23 November 2026
+
+Scope: Monday health, indexing/access and early-distribution checkpoint. Current website main reviewed: `e1d011ae3cc2bbc20bb0e895e747b37a4625000d`. Public checks ran from approximately 05:02–05:08 UTC (09:02–09:08 Dubai). This is not a completed seven- or fourteen-day assessment of the 18–20 November refinements.
+
+## Scorecard
+
+| Area | Verified today | Change / interpretation |
+| --- | --- | --- |
+| Priority search entries | 18 buyer pages and 11 intentionally excluded utilities/previews pass the existing live guard | No fresh HTTP/canonical/metadata/H1/JSON-LD/indexing-directive regression found in this scope. This is not Google index confirmation or whole-site certification. |
+| Sitemap | 1,583 unique URLs, 22 website locales; no inventory failures | Unchanged count from 20 November. Distinct from the product's 25 supported languages and Google's all-known-URL index cohort. |
+| Public discovery and ownership resources | Main robots, sitemap, llms and both Google verification files return 200; pricing robots/sitemap pass | Main and pricing robots advertise their actual sitemap. Verification-file availability does not prove current signed-in account access. |
+| Legacy / pricing handoffs | 147 localized explicit alias receivers plus 44 main-to-pricing receivers retain 308, destination and query/language policy | A broader explicit-alias guard supports continued monitoring of the historical 40-URL cohort. This does not report Google's latest recrawl/exclusion state. English pricing retains its established cookie/default policy; non-English links carry explicit language. |
+| Rotating deeper-page coverage | 17 additional main/pricing HTTP receivers pass | Demo, Contact, Diagnostic, Docs, Integrations, Architecture, tips, multi-location, benchmarking, German Getting Started, Arabic logbook, and EN/AR/DE/NL pricing plus Arabic simulator slash forms. Simulator retains intended noindex policy. |
+| Commercial accuracy | `npm run pricing:check` passes against active public database catalogue `v1.8.2-policy-20261009` | Core, Crew, concepts, bundles, inclusions and payment discounts agree. No price, package, eligibility or location-gate change. |
+| Search Console / Bing account reports | **Unavailable for this run** | No fresh query/page/impression/click/CTR/position, stored crawl/canonical, indexing/sitemap-console or AI-performance result was read. Do not turn the old processing state into today's result. |
+| PostHog dashboard 2048486 / project 332239 | **Unavailable for this run** | Integration is not connected; the reviewer independently observed the existing weekly-review browser at PostHog sign-in. No new scoped visitors, CTA/forms, diagnostic delivery, friction or genuine Web Vitals comparison is claimed. |
+| Buyer-side visual review | Requested from the existing positioning reviewer | Current live URL packet and evidence bounds supplied. This run has no fresh public screenshot/interaction acceptance; older approved captures retain their dates. |
+| Content distribution | Existing restart review packet read without editing | The packet now records all seven final assets approved/queued or scheduled, superseding its earlier approval-pending wording. The publication queue/native scheduler governs actual posting; this review did not verify publication or publish anything. |
+
+The exact-main Search Discovery run [44743146559](https://github.com/roblaryea/sundae-website/actions/runs/44743146559) passed on 20 November. Today's direct checks above are separate fresh public evidence. No new website correction is justified by the observed public checks. The original redirect-check harness falsely rejected relative `Location` headers, an empty root path and English's existing implicit language policy: 149 initial expectation failures are retained, and the same captured headers pass all 191 cases after correct URL resolution/policy interpretation. No product change or invented new network retake was used to clear them.
+
+## Measurement availability and exact periods
+
+The connected PostHog integration is absent in this run. Plugin discovery confirms PostHog is available but not installed/connected; installation/connection was suggested, not performed. The attempted browser dashboard capture failed with “Accessibility capture belongs to a previous page.” The independent positioning reviewer subsequently read the browser inventory and confirmed the weekly-review tab at `https://us.posthog.com/login?next=/project/332239/dashboard/2048486`. Neither a visible URL nor the previous sign-in establishes an authenticated metrics read. No credentials, private APIs or session files were copied. No saved report, filter, project setting, annotation or event was modified.
+
+Required complete PostHog UTC windows (start inclusive, end exclusive):
+
+| Comparison | Latest | Previous |
+| --- | --- | --- |
+| Seven days | `2026-11-16T00:00:00Z`–`2026-11-23T00:00:00Z` | `2026-11-09T00:00:00Z`–`2026-11-16T00:00:00Z` |
+| Twenty-eight days | `2026-10-26T00:00:00Z`–`2026-11-23T00:00:00Z` | `2026-09-28T00:00:00Z`–`2026-10-26T00:00:00Z` |
+
+These windows are requested, not measured today. Restore the existing connection/session, read the six existing scoped insights, verify the current pathname inventory and QA exclusions, and retrieve period-wide visitors rather than adding weekly unique-user buckets. Keep the 16 November CTA tracking correction and the untagged empty-form QA annotation explicit. Accepted forms, contact capture, diagnostic submission/report display and `diagnostic_lead_delivered` are different events; none establishes sales qualification by itself.
+
+Last verified PostHog acquisition comparison remains **13–19 November: 5 entrants / 0 CTA people / 0 accepted forms**, versus **6–12 November: 5 / 0 / 0**; **23 October–19 November: 23 / 2 / 0**, versus **25 September–22 October: 30 / 3 / 0**. Preserve the corrected 16 November baseline as well. These are historical consented marketing observations, not today's results or evidence of post-release uplift.
+
+Search Console's last verified complete 28-day baseline remains **18 October–14 November: 41 clicks / 1,632 impressions / 2.5% CTR / average position 10.4**; its latest verified seven days were **8–14 November: 12 / 381 / 3.1% / 9.3**. Query subtotals, branded/non-branded groups, positions 4–20, gaining/losing pages and Google generative-feature exposure retain the exact source boundaries in [16 November's review](SEARCH_CONSOLE_REVIEW_2026-11-16.md). Select new comparison dates only after reading Google's current finalized report date; do not borrow PostHog UTC boundaries or infer hidden/omitted query traffic.
+
+The 20 November stored Google inspections confirmed management, comparison and Ask Sundae indexed with their inspected canonicals. Their refresh requests and Bing's successful import/sitemap remain verified historical facts. Today's access gap does not reopen ownership verification, make the pages “not indexed,” or justify repeat submissions. A current stored crawl/canonical and Bing query/index/AI baseline read remain unverified.
+
+## Performance, conversion and visual bounds
+
+Website PR286 and pricing PR73/74 installed and independently verified consented Web Vitals delivery on 20 November. Preserve the transport/identity fields, public marketing route predicate, booking/utility/profile exclusions, query/hash stripping, no raw DOM entries/attribution and consent/opt-out guards. The two verified synthetic QA identities each contained one `$web_vitals` and zero other event types. Their sanitized URLs omit campaign query strings, so performance queries must separately exclude the `utm_source=internal_qa` scalar. Their values are not genuine field/p75/CrUX results. No new QA event, lead, booking or email was created today.
+
+The current main contains guided booking/diagnostic releases after this measurement batch. Source documents describe independent build-time controls and QA overrides, off by default. This review did not inspect production rollout settings or interactively verify either arm. Preserve that owner's configuration and event/privacy contract; do not infer enabled status from the code, reuse an older screenshot as the new journey, or rewrite forms because traffic is small. Current HTTP metadata for Demo/Contact/Diagnostic remains healthy.
+
+The existing buyer-review packet asks for actual Home, Why Sundae, Solutions/navigation, Core, Crew and pricing views across representative desktop/mobile, dark/light, Arabic and a long-text language. It reuses unchanged accepted evidence only with its original date; local-fixture guided-booking screenshots are not public acceptance. Preserve broad hospitality/food-service scope, connected operations/intelligence/action, Core comparison/market/planning breadth alongside recovery, payroll inside Crew and provider/market limits. No fresh visual signoff or whole-site accessibility certification is claimed here.
+
+## Three priorities and content handoff
+
+1. **Restore authenticated measurement and finish the missing account readback.** Reconnect the existing PostHog project and verified Google/Bing business sessions. Review the windows above, current stored canonicals, indexing/sitemap cohorts, relevant non-branded positions 4–20 and first available Bing/AI report. No duplicate property, dashboard, scheduler or mass crawl request is needed.
+2. **Support the already approved operator-distribution sequence.** The current marketing packet records today's 23 November 11:00 Dubai founder item without a direct CTA and the 25 November 10:30 company handover item with the canonical tagged logbook link. Queue/scheduler readback is the content owner's authority. Retain the one-destination link `https://www.sundae.io/restaurant-logbook?utm_source=linkedin&utm_medium=organic_social&utm_campaign=operator_workflows_2026q4&utm_content=shift_handover`; native demo workflow is capability evidence, not a customer result. Follow with existing multi-location/benchmarking and qualified Restaurant365 shortlist journeys rather than overlapping pages. No social post or third-party outreach was sent.
+3. **Make the first decisions on complete cohorts.** The 18 November cohort starts 19 November UTC (only four complete days by this checkpoint); the 20 November cohort starts 21 November UTC (only two). Seven-day periods end 25/27 November, fourteen-day periods 2/4 December, and twenty-eight-day periods 16/18 December respectively. Keep the existing Monday reviews on **30 November, 7 December and 21 December** using finalized source dates, and keep the earlier 16 November cohort separate. Diagnose CTA/form friction only from genuine progression; qualify operator enquiries separately. Customer-story methods remain unavailable and must not be invented or requested again.
+
+## Work completed, evidence and owner dependencies
+
+No product code change, live submission, account verification reset, paid activity or profile publication was performed. This dated record and a small append to the existing completion matrix are the only authored changes. The existing reviewer was sent the live URL/evidence packet; requested review is not completed review until its result is received.
+
+Fresh raw public receipts are in the dedicated worktree's ignored `output/seo/checkpoint-20261123/`: `search-entries.json`, `sitemap.json`, `catalogue.log`, `resources.json`, `rotated-pages.json`, `redirects-corrected.json` and `public-followthrough-corrected.json`. The original harness failures remain alongside them. The accepted older screenshots and the new owner's local-fixture images were supplied with their limitations rather than relabelled as fresh public captures.
+
+**Owner action:** restore the PostHog connection or signed-in dashboard and the verified Google/Bing business sessions. No new commercial/design approval is needed for the healthy public technical scope; account data and actual buyer-side visuals remain the outstanding verification dependencies. The existing Monday automation continues unchanged.
