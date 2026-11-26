@@ -159,7 +159,7 @@ export const generatedLocalCopy = {
         {
           "title": "Echtzeit-Entscheidungen",
           "description": "Wöchentliche Berichte kosten Sie Geld. Die Betriebsleiter, die gewinnen, sind die, die Probleme beheben, solange sie es noch können - und hinterher wissen, ob die Behebung wirklich gewirkt hat.",
-          "proof": "Pulse aktualisiert sich alle 5 Minuten an jedem Standort.",
+          "proof": "Pulse aktualisiert die POS-Umsätze alle 5 Minuten, rund um die Uhr.",
           "icon": "speed"
         },
         {
@@ -372,7 +372,7 @@ export const generatedLocalCopy = {
         {
           "title": "Décisions en Temps Réel",
           "description": "Les rapports hebdomadaires vous coûtent de l'argent. Les opérateurs qui gagnent sont ceux qui corrigent les problèmes tant qu'ils le peuvent encore - et qui savent ensuite si la correction a vraiment marché.",
-          "proof": "Pulse se rafraîchit toutes les 5 minutes dans chaque emplacement.",
+          "proof": "Pulse rafraîchit les ventes POS toutes les 5 minutes, 24 h sur 24.",
           "icon": "speed"
         },
         {
@@ -585,7 +585,7 @@ export const generatedLocalCopy = {
         {
           "title": "Decisiones en Tiempo Real",
           "description": "Los informes semanales te cuestan dinero. Los operadores que ganan son los que corrigen los problemas mientras aún pueden, y después saben si la corrección funcionó de verdad.",
-          "proof": "Pulse se actualiza cada 5 minutos en cada ubicación.",
+          "proof": "Pulse actualiza las ventas del POS cada 5 minutos, las 24 horas.",
           "icon": "speed"
         },
         {
@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
         {
           "title": "قرارات في الوقت الحقيقي",
           "description": "التقارير الأسبوعية تكلّفك مالاً. المشغّلون الذين ينجحون هم من يعالجون المشكلات وهم ما زالوا قادرين - ثم يعرفون بعدها إن كانت المعالجة قد نجحت فعلاً.",
-          "proof": "تتجدد Pulse كل 5 دقائق عبر كل موقع.",
+          "proof": "يحدّث Pulse مبيعات POS كل 5 دقائق على مدار الساعة.",
           "icon": "speed"
         },
         {
@@ -1028,7 +1028,7 @@ export const generatedLocalCopy = {
         {
           "title": "Beslissingen in Real-Time",
           "description": "Wekelijkse rapporten kosten je geld. De operators die winnen zijn degenen die problemen oplossen zolang het nog kan - en achteraf weten of de oplossing echt werkte.",
-          "proof": "Pulse ververst elke 5 minuten op elke locatie.",
+          "proof": "Pulse ververst de POS-verkopen elke 5 minuten, de klok rond.",
           "icon": "speed"
         },
         {
@@ -1258,7 +1258,7 @@ export const generatedLocalCopy = {
         {
           "title": "Decisões em Tempo Real",
           "description": "Relatórios semanais custam dinheiro. Os operadores que ganham são os que corrigem os problemas enquanto ainda dá - e depois sabem se a correção realmente funcionou.",
-          "proof": "O Pulse é atualizado a cada 5 minutos em todas as localizações.",
+          "proof": "O Pulse atualiza as vendas do POS a cada 5 minutos, 24 horas por dia.",
           "icon": "speed"
         },
         {
@@ -1488,7 +1488,7 @@ export const generatedLocalCopy = {
         {
           "title": "حقیقی وقت کے فیصلے",
           "description": "ہفتہ وار رپورٹس آپ کا پیسہ کھاتی ہیں۔ جیتنے والے آپریٹرز وہ ہیں جو مسائل اُسی وقت ٹھیک کرتے ہیں جب ممکن ہو - اور بعد میں جانتے ہیں کہ وہ اصلاح واقعی کام آئی یا نہیں۔",
-          "proof": "ہر مقام پر ہر 5 منٹ میں Pulse ریفریش ہوتا ہے۔",
+          "proof": "Pulse چوبیس گھنٹے، ہر 5 منٹ میں POS سیلز ریفریش کرتا ہے۔",
           "icon": "speed"
         },
         {
@@ -1718,7 +1718,7 @@ export const generatedLocalCopy = {
         {
           "title": "वास्तविक समय के निर्णय",
           "description": "साप्ताहिक रिपोर्ट आपका पैसा खाती हैं। जीतने वाले ऑपरेटर वे हैं जो समस्याएँ तब ठीक करते हैं जब ठीक हो सकती हैं - और बाद में जानते हैं कि वह सुधार वाकई काम आया या नहीं।",
-          "proof": "हर स्थान पर हर 5 मिनट में Pulse रिफ्रेश होता है।",
+          "proof": "Pulse चौबीसों घंटे, हर 5 मिनट में POS बिक्री रिफ्रेश करता है।",
           "icon": "speed"
         },
         {
@@ -1948,7 +1948,7 @@ export const generatedLocalCopy = {
         {
           "title": "Decisioni in Tempo Reale",
           "description": "I report settimanali ti costano denaro. Gli operatori che vincono sono quelli che risolvono i problemi finché sono ancora risolvibili - e poi sanno se la soluzione ha davvero funzionato.",
-          "proof": "Il Pulse si aggiorna ogni 5 minuti in ogni sede.",
+          "proof": "Il Pulse aggiorna le vendite POS ogni 5 minuti, 24 ore su 24.",
           "icon": "speed"
         },
         {
@@ -2178,7 +2178,7 @@ export const generatedLocalCopy = {
         {
           "title": "Decyzje w Czasie Rzeczywistym",
           "description": "Cotygodniowe raporty kosztują pieniądze. Wygrywają ci operatorzy, którzy naprawiają problemy, póki jeszcze mogą - i potem wiedzą, czy naprawa naprawdę zadziałała.",
-          "proof": "Pulse odświeża się co 5 minut w każdej lokalizacji.",
+          "proof": "Pulse odświeża sprzedaż z systemu POS co 5 minut, przez całą dobę.",
           "icon": "speed"
         },
         {
@@ -2408,7 +2408,7 @@ export const generatedLocalCopy = {
         {
           "title": "Gerçek Zamanlı Kararlar",
           "description": "Haftalık raporlar size para kaybettirir. Kazanan işletmeciler, sorunları hâlâ çözebilecekken çözen - ve sonrasında o çözümün gerçekten işe yarayıp yaramadığını bilenlerdir.",
-          "proof": "Pulse her lokasyonda her 5 dakikada bir güncellenir.",
+          "proof": "Pulse, POS satışlarını günün her saatinde 5 dakikada bir günceller.",
           "icon": "speed"
         },
         {
@@ -2638,7 +2638,7 @@ export const generatedLocalCopy = {
         {
           "title": "实时决策",
           "description": "周报在让你亏钱。赢的运营者是那些趁还来得及就把问题解决掉的人--并且事后知道这次解决到底有没有奏效。",
-          "proof": "每个地点每5分钟刷新一次Pulse。",
+          "proof": "Pulse全天候每5分钟刷新一次POS销售数据。",
           "icon": "speed"
         },
         {
@@ -2868,7 +2868,7 @@ export const generatedLocalCopy = {
         {
           "title": "リアルタイムの意思決定",
           "description": "週次レポートはコストです。勝つ運営者は、まだ手を打てるうちに問題を直し、その手当てが本当に効いたのかを後から把握している人です。",
-          "proof": "すべてのロケーションで5分ごとにPulseが更新されます。",
+          "proof": "Pulseは24時間、5分ごとにPOSの売上を更新します。",
           "icon": "speed"
         },
         {
@@ -3098,7 +3098,7 @@ export const generatedLocalCopy = {
         {
           "title": "Keputusan Waktu Nyata",
           "description": "Laporan mingguan menguras uang Anda. Operator yang menang adalah yang memperbaiki masalah selagi masih bisa - dan setelahnya tahu apakah perbaikan itu benar-benar berhasil.",
-          "proof": "Pulse diperbarui setiap 5 menit di setiap lokasi.",
+          "proof": "Pulse memperbarui penjualan POS setiap 5 menit, sepanjang waktu.",
           "icon": "speed"
         },
         {
@@ -3328,7 +3328,7 @@ export const generatedLocalCopy = {
         {
           "title": "Quyết Định Thời Gian Thực",
           "description": "Báo cáo hằng tuần khiến bạn mất tiền. Nhà điều hành thắng cuộc là người khắc phục vấn đề khi vẫn còn kịp - và sau đó biết bản sửa ấy có thực sự hiệu quả hay không.",
-          "proof": "Pulse làm mới mỗi 5 phút trên mọi địa điểm.",
+          "proof": "Pulse làm mới doanh số POS mỗi 5 phút, suốt ngày đêm.",
           "icon": "speed"
         },
         {
@@ -3558,7 +3558,7 @@ export const generatedLocalCopy = {
         {
           "title": "실시간 결정",
           "description": "주간 보고서는 돈을 잃게 합니다. 이기는 운영자는 아직 고칠 수 있을 때 문제를 고치고, 그 조치가 실제로 효과가 있었는지 나중에 확인하는 사람입니다.",
-          "proof": "Pulse는 모든 지점에서 5분마다 새로고침됩니다.",
+          "proof": "Pulse는 24시간 내내 5분마다 POS 매출을 새로고침합니다.",
           "icon": "speed"
         },
         {
@@ -3788,7 +3788,7 @@ export const generatedLocalCopy = {
         {
           "title": "Decizii în Timp Real",
           "description": "Rapoartele săptămânale te costă bani. Operatorii care câștigă sunt cei care rezolvă problemele cât încă se poate - și apoi știu dacă rezolvarea chiar a funcționat.",
-          "proof": "Pulse se reîmprospătează la fiecare 5 minute în fiecare locație.",
+          "proof": "Pulse reîmprospătează vânzările POS la fiecare 5 minute, non-stop.",
           "icon": "speed"
         },
         {
@@ -4018,7 +4018,7 @@ export const generatedLocalCopy = {
         {
           "title": "Beslut i Realtid",
           "description": "Veckorapporter kostar dig pengar. De operatörer som vinner är de som åtgärdar problem medan det fortfarande går - och efteråt vet om åtgärden faktiskt fungerade.",
-          "proof": "Pulse uppdateras var 5:e minut på varje plats.",
+          "proof": "Pulse uppdaterar POS-försäljningen var 5:e minut, dygnet runt.",
           "icon": "speed"
         },
         {
@@ -4248,7 +4248,7 @@ export const generatedLocalCopy = {
         {
           "title": "রিয়েল-টাইম সিদ্ধান্ত",
           "description": "সাপ্তাহিক রিপোর্ট আপনার টাকা খরচ করায়। যাঁরা জেতেন, তাঁরা সমস্যা তখনই সারান যখন সারানো যায় - আর পরে জানেন সেই সমাধান সত্যিই কাজ করেছে কি না।",
-          "proof": "প্রতিটি লোকেশনে Pulse প্রতি ৫ মিনিটে রিফ্রেশ হয়।",
+          "proof": "Pulse দিনরাত প্রতি ৫ মিনিটে POS বিক্রয় রিফ্রেশ করে।",
           "icon": "speed"
         },
         {
@@ -4478,7 +4478,7 @@ export const generatedLocalCopy = {
         {
           "title": "การตัดสินใจแบบเรียลไทม์",
           "description": "รายงานรายสัปดาห์ทำให้คุณเสียเงิน ผู้ดำเนินการที่ชนะคือคนที่แก้ปัญหาตอนที่ยังแก้ได้ และรู้ทีหลังว่าการแก้นั้นได้ผลจริงหรือไม่",
-          "proof": "Pulse อัปเดตทุก 5 นาทีในทุกสถานที่",
+          "proof": "Pulse รีเฟรชยอดขายจาก POS ทุก 5 นาที ตลอด 24 ชั่วโมง",
           "icon": "speed"
         },
         {
@@ -4708,7 +4708,7 @@ export const generatedLocalCopy = {
         {
           "title": "Keputusan Masa Nyata",
           "description": "Laporan mingguan merugikan anda. Pengendali yang menang ialah mereka yang membetulkan masalah semasa masih sempat - dan kemudian tahu sama ada pembetulan itu benar-benar berkesan.",
-          "proof": "Pulse menyegarkan setiap 5 minit di setiap lokasi.",
+          "proof": "Pulse menyegarkan jualan POS setiap 5 minit, sepanjang masa.",
           "icon": "speed"
         },
         {
