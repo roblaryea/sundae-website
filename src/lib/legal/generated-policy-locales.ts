@@ -124,7 +124,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Contact",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -192,7 +192,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. International transfers and data residency",
           "paragraphs": [
-            "Sundae is headquartered in the United States and may process data in countries where Sundae or providers operate. We use adequacy decisions, Standard Contractual Clauses, the UK IDTA/Addendum or another lawful mechanism where required, together with contractual, technical and organizational safeguards. Customer residency choices are resolved by the most-specific approved organization/partner setting; changing a setting does not automatically migrate existing data. Contact privacy@sundae.io for the safeguards relevant to your account."
+            "Sundae is headquartered in the United States and may process data in countries where Sundae or providers operate. We use adequacy decisions, Standard Contractual Clauses, the UK IDTA/Addendum or another lawful mechanism where required, together with contractual, technical and organizational safeguards. Customer residency choices are resolved by the most-specific approved organization/partner setting; changing a setting does not automatically migrate existing data. Contact privacy@sundaetechnologies.com for the safeguards relevant to your account."
           ]
         },
         {
@@ -205,7 +205,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Rights and choices",
           "paragraphs": [
             "Subject to local law, individuals may request access, correction, deletion, restriction, portability, objection, withdrawal of consent, and marketing/cookie opt-out. California residents may have rights to know, access, delete, correct, opt out of sale/sharing or targeted advertising, limit certain sensitive-information uses, and receive equal treatment. EEA/UK, UAE (including DIFC/ADGM) and other jurisdictions may provide additional rights, representatives or complaint routes.",
-            "Send requests to privacy@sundae.io. We may verify identity, ask for the relevant organization/account, and route Customer Data requests to the Customer where it is the controller. We respond within the time required by applicable law and explain any lawful exception, including statutory retention, legal claims, security logs, suppression records or third-party/public data. Authorized agents may act where local law permits."
+            "Send requests to privacy@sundaetechnologies.com. We may verify identity, ask for the relevant organization/account, and route Customer Data requests to the Customer where it is the controller. We respond within the time required by applicable law and explain any lawful exception, including statutory retention, legal claims, security logs, suppression records or third-party/public data. Authorized agents may act where local law permits."
           ]
         },
         {
@@ -236,7 +236,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Contact",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -364,7 +364,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Kontakt",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -432,7 +432,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Internationale Übermittlungen und Datenresidenz",
           "paragraphs": [
-            "Sundae hat seinen Hauptsitz in den Vereinigten Staaten und kann Daten in Ländern verarbeiten, in denen Sundae oder Anbieter tätig sind. Wir nutzen Angemessenheitsentscheidungen, Standardvertragsklauseln, das UK IDTA/Addendum oder einen anderen rechtmäßigen Mechanismus, wo erforderlich, zusammen mit vertraglichen, technischen und organisatorischen Schutzmaßnahmen. Die Entscheidungen zur Datenresidenz des Customers werden durch die spezifischste genehmigte Organisations-/Partner‑Einstellung gelöst; das Ändern einer Einstellung migriert bestehende Daten nicht automatisch. Kontaktieren Sie privacy@sundae.io für die auf Ihr Konto zutreffenden Schutzmaßnahmen."
+            "Sundae hat seinen Hauptsitz in den Vereinigten Staaten und kann Daten in Ländern verarbeiten, in denen Sundae oder Anbieter tätig sind. Wir nutzen Angemessenheitsentscheidungen, Standardvertragsklauseln, das UK IDTA/Addendum oder einen anderen rechtmäßigen Mechanismus, wo erforderlich, zusammen mit vertraglichen, technischen und organisatorischen Schutzmaßnahmen. Die Entscheidungen zur Datenresidenz des Customers werden durch die spezifischste genehmigte Organisations-/Partner‑Einstellung gelöst; das Ändern einer Einstellung migriert bestehende Daten nicht automatisch. Kontaktieren Sie privacy@sundaetechnologies.com für die auf Ihr Konto zutreffenden Schutzmaßnahmen."
           ]
         },
         {
@@ -445,7 +445,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Rechte und Wahlmöglichkeiten",
           "paragraphs": [
             "Vorbehaltlich lokalen Rechts können Betroffene Zugang, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerspruch, Widerruf der Einwilligung sowie Marketing/Cookie‑Opt‑Out verlangen. Bewohner Kaliforniens haben möglicherweise Rechte auf Kenntnis, Zugang, Löschung, Berichtigung, Opt‑out von Verkauf/Weitergabe oder gezielter Werbung, Einschränkung bestimmter sensibler Informationsnutzungen und gleichbehandelt zu werden. EEA/UK, UAE (einschließlich DIFC/ADGM) und andere Gerichtsbarkeiten können zusätzliche Rechte, Vertreter oder Beschwerdewege vorsehen.",
-            "Senden Sie Anfragen an privacy@sundae.io. Wir können Identität verifizieren, das betreffende Organisation/Konto anfragen und Customer‑Data‑Anfragen an den Customer weiterleiten, wenn dieser der Verantwortliche ist. Wir antworten innerhalb der gesetzlich vorgeschriebenen Frist und erläutern jede rechtliche Ausnahme, einschließlich gesetzlicher Aufbewahrung, Rechtsansprüchen, Sicherheitsprotokollen, Suppression‑Aufzeichnungen oder Drittparteien/öffentlichen Daten. Befugte Vertreter können handeln, wo lokales Recht dies zulässt."
+            "Senden Sie Anfragen an privacy@sundaetechnologies.com. Wir können Identität verifizieren, das betreffende Organisation/Konto anfragen und Customer‑Data‑Anfragen an den Customer weiterleiten, wenn dieser der Verantwortliche ist. Wir antworten innerhalb der gesetzlich vorgeschriebenen Frist und erläutern jede rechtliche Ausnahme, einschließlich gesetzlicher Aufbewahrung, Rechtsansprüchen, Sicherheitsprotokollen, Suppression‑Aufzeichnungen oder Drittparteien/öffentlichen Daten. Befugte Vertreter können handeln, wo lokales Recht dies zulässt."
           ]
         },
         {
@@ -476,7 +476,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Kontakt",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -604,7 +604,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. संपर्क",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -672,7 +672,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. अंतरराष्ट्रीय ट्रांसफर और डेटा निवास",
           "paragraphs": [
-            "Sundae का मुख्यालय संयुक्त राज्य अमेरिका में है और वह उन देशों में डेटा प्रोसेस कर सकता है जहाँ Sundae या प्रदाता संचालित करते हैं। जहाँ आवश्यक हो हम उपयुक्तता निर्णयों, Standard Contractual Clauses, UK IDTA/Addendum या अन्य वैध तंत्रों का उपयोग करते हैं, साथ में संविदात्मक, तकनीकी और संगठनात्मक सुरक्षा उपाय। Customer निवास विकल्प सबसे-विशिष्ट अनुमोदित संगठन/भागीदार सेटिंग द्वारा हल होते हैं; किसी सेटिंग को बदलने से मौजूदा डेटा स्वचालित रूप से माइग्रेट नहीं होता। आपके खाते के लिए प्रासंगिक सुरक्षा उपायों के संबंध में संपर्क के लिए privacy@sundae.io से संपर्क करें।"
+            "Sundae का मुख्यालय संयुक्त राज्य अमेरिका में है और वह उन देशों में डेटा प्रोसेस कर सकता है जहाँ Sundae या प्रदाता संचालित करते हैं। जहाँ आवश्यक हो हम उपयुक्तता निर्णयों, Standard Contractual Clauses, UK IDTA/Addendum या अन्य वैध तंत्रों का उपयोग करते हैं, साथ में संविदात्मक, तकनीकी और संगठनात्मक सुरक्षा उपाय। Customer निवास विकल्प सबसे-विशिष्ट अनुमोदित संगठन/भागीदार सेटिंग द्वारा हल होते हैं; किसी सेटिंग को बदलने से मौजूदा डेटा स्वचालित रूप से माइग्रेट नहीं होता। आपके खाते के लिए प्रासंगिक सुरक्षा उपायों के संबंध में संपर्क के लिए privacy@sundaetechnologies.com से संपर्क करें।"
           ]
         },
         {
@@ -685,7 +685,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. अधिकार और विकल्प",
           "paragraphs": [
             "स्थानीय कानून के अधीन, व्यक्तियों का अनुरोध करने का अधिकार हो सकता है: पहुँच, सुधार, हटाना, प्रतिबंध, पोर्टेबिलिटी, आपत्ति, सहमति वापस लेना, और मार्केटिंग/कुकीज़ ऑपट-आउट। कैलिफोर्निया निवासी के पास जानने, पहुँच, हटाने, सही करने, बिक्री/शेयरिंग या लक्षित विज्ञापन से ऑपट-आउट करने, कुछ संवेदनशील-जानकारी उपयोगों को सीमित करने और समान उपचार प्राप्त करने के अधिकार हो सकते हैं। EEA/UK, UAE (जिसमें DIFC/ADGM शामिल हैं) और अन्य क्षेत्राधिकार अतिरिक्त अधिकार, प्रतिनिधि या शिकायत मार्ग प्रदान कर सकते हैं।",
-            "अनुरोध भेजें: privacy@sundae.io। हम पहचान सत्यापित कर सकते हैं, संबंधित संगठन/खाता के बारे में पूछ सकते हैं, और जहाँ Customer कंट्रोलर हो वहाँ Customer Data अनुरोधों को Customer के पास मार्गित कर सकते हैं। हम लागू कानून द्वारा मांगे गए समय के भीतर उत्तर देते हैं और किसी भी वैध अपवाद की व्याख्या करते हैं, जिसमें वैधानिक रिटेंशन, कानूनी दावे, सुरक्षा लॉग, दबाव रिकॉर्ड या तृतीय-पक्ष/सार्वजनिक डेटा शामिल हैं। अधिकृत एजेंट स्थानीय कानून की अनुमति होने पर कार्य कर सकते हैं।"
+            "अनुरोध भेजें: privacy@sundaetechnologies.com। हम पहचान सत्यापित कर सकते हैं, संबंधित संगठन/खाता के बारे में पूछ सकते हैं, और जहाँ Customer कंट्रोलर हो वहाँ Customer Data अनुरोधों को Customer के पास मार्गित कर सकते हैं। हम लागू कानून द्वारा मांगे गए समय के भीतर उत्तर देते हैं और किसी भी वैध अपवाद की व्याख्या करते हैं, जिसमें वैधानिक रिटेंशन, कानूनी दावे, सुरक्षा लॉग, दबाव रिकॉर्ड या तृतीय-पक्ष/सार्वजनिक डेटा शामिल हैं। अधिकृत एजेंट स्थानीय कानून की अनुमति होने पर कार्य कर सकते हैं।"
           ]
         },
         {
@@ -716,7 +716,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. संपर्क",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -844,7 +844,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. رابطہ",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -912,7 +912,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. بین الاقوامی ٹرانسفرز اور ڈیٹا رہائش",
           "paragraphs": [
-            "Sundae کا صدر دفتر United States میں ہے اور وہ ڈیٹا اُن ممالک میں پروسیس کر سکتا ہے جہاں Sundae یا فراہم کنندگان کام کرتے ہیں۔ ہم adequacy فیصلوں، Standard Contractual Clauses، UK IDTA/Addendum یا جہاں ضروری ہو دوسرے قانونی میکانزم استعمال کرتے ہیں، ساتھ میں معاہداتی، تکنیکی اور تنظیمی حفاظتی اقدامات کے ساتھ۔ Customer کی رہائش کے انتخاب کو سب سے مخصوص منظور شدہ تنظیم/پارٹنر سیٹنگ کے ذریعے حل کیا جاتا ہے؛ کسی سیٹنگ کی تبدیلی خود بخود موجودہ ڈیٹا کو منتقل نہیں کرتی۔ اپنے اکاؤنٹ سے متعلق حفاظتی اقدامات کے بارے میں جاننے کے لیے privacy@sundae.io سے رابطہ کریں۔"
+            "Sundae کا صدر دفتر United States میں ہے اور وہ ڈیٹا اُن ممالک میں پروسیس کر سکتا ہے جہاں Sundae یا فراہم کنندگان کام کرتے ہیں۔ ہم adequacy فیصلوں، Standard Contractual Clauses، UK IDTA/Addendum یا جہاں ضروری ہو دوسرے قانونی میکانزم استعمال کرتے ہیں، ساتھ میں معاہداتی، تکنیکی اور تنظیمی حفاظتی اقدامات کے ساتھ۔ Customer کی رہائش کے انتخاب کو سب سے مخصوص منظور شدہ تنظیم/پارٹنر سیٹنگ کے ذریعے حل کیا جاتا ہے؛ کسی سیٹنگ کی تبدیلی خود بخود موجودہ ڈیٹا کو منتقل نہیں کرتی۔ اپنے اکاؤنٹ سے متعلق حفاظتی اقدامات کے بارے میں جاننے کے لیے privacy@sundaetechnologies.com سے رابطہ کریں۔"
           ]
         },
         {
@@ -925,7 +925,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. حقوق اور انتخابات",
           "paragraphs": [
             "مقامی قانون کے تابع، افراد رسائی، اصلاح، حذف، پابندی، پورٹیبیلٹی، اعتراض، رضامندی واپس لینے، اور مارکیٹنگ/کوکی opt-out کی درخواست کر سکتے ہیں۔ California کے رہائشیوں کو معلوم کرنے، رسائی، حذف، اصلاح، sale/sharing یا targeted advertising سے opt out کرنے، مخصوص حساس معلومات کے استعمال کو محدود کرنے، اور مساوی سلوک حاصل کرنے کے حقوق ہو سکتے ہیں۔ EEA/UK، UAE (بشمول DIFC/ADGM) اور دیگر حدود میں اضافی حقوق، نمائندے یا شکایت کے راستے ہو سکتے ہیں۔",
-            "درخواستیں privacy@sundae.io کو بھیجیں۔ ہم شناخت کی توثیق کر سکتے ہیں، متعلقہ تنظیم/اکاؤنٹ طلب کر سکتے ہیں، اور جہاں Customer controller ہو وہاں Customer Data درخواستوں کو Customer کو بھیج سکتے ہیں۔ ہم قابلِ اطلاق قانون کے مطابق وقت میں جواب دیتے ہیں اور کسی بھی قانونی استثنا کی وضاحت کرتے ہیں، بشمول اسٹیٹیوٹری retention، قانونی دعوے، سیکیورٹی لاگز، suppression ریکارڈز یا تیسرے-فریق/عوامی ڈیٹا۔ مجاز ایجنٹس مقامی قانون کی اجازت دینے پر عمل کر سکتے ہیں۔"
+            "درخواستیں privacy@sundaetechnologies.com کو بھیجیں۔ ہم شناخت کی توثیق کر سکتے ہیں، متعلقہ تنظیم/اکاؤنٹ طلب کر سکتے ہیں، اور جہاں Customer controller ہو وہاں Customer Data درخواستوں کو Customer کو بھیج سکتے ہیں۔ ہم قابلِ اطلاق قانون کے مطابق وقت میں جواب دیتے ہیں اور کسی بھی قانونی استثنا کی وضاحت کرتے ہیں، بشمول اسٹیٹیوٹری retention، قانونی دعوے، سیکیورٹی لاگز، suppression ریکارڈز یا تیسرے-فریق/عوامی ڈیٹا۔ مجاز ایجنٹس مقامی قانون کی اجازت دینے پر عمل کر سکتے ہیں۔"
           ]
         },
         {
@@ -956,7 +956,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. رابطہ",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -1084,7 +1084,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Contatti",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -1152,7 +1152,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Trasferimenti internazionali e residenza dei dati",
           "paragraphs": [
-            "Sundae ha sede negli Stati Uniti e può trattare dati nei paesi in cui Sundae o i fornitori operano. Usiamo decisioni di adeguatezza, Clausole Contrattuali Standard, il UK IDTA/Addendum o un altro meccanismo legale dove richiesto, insieme a garanzie contrattuali, tecniche e organizzative. Le scelte di residenza del Cliente sono risolte dall'impostazione dell'organizzazione/partner approvata più specifica; cambiare un'impostazione non migra automaticamente i dati esistenti. Contatta privacy@sundae.io per le garanzie rilevanti per il tuo account."
+            "Sundae ha sede negli Stati Uniti e può trattare dati nei paesi in cui Sundae o i fornitori operano. Usiamo decisioni di adeguatezza, Clausole Contrattuali Standard, il UK IDTA/Addendum o un altro meccanismo legale dove richiesto, insieme a garanzie contrattuali, tecniche e organizzative. Le scelte di residenza del Cliente sono risolte dall'impostazione dell'organizzazione/partner approvata più specifica; cambiare un'impostazione non migra automaticamente i dati esistenti. Contatta privacy@sundaetechnologies.com per le garanzie rilevanti per il tuo account."
           ]
         },
         {
@@ -1165,7 +1165,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Diritti e scelte",
           "paragraphs": [
             "Salvo diversa normativa locale, gli interessati possono richiedere accesso, rettifica, cancellazione, limitazione, portabilità, opposizione, revoca del consenso e opt-out per marketing/cookie. I residenti in California possono avere diritti di conoscenza, accesso, cancellazione, rettifica, opt-out dalla vendita/condivisione o pubblicità mirata, limitare alcuni usi di informazioni sensibili e ricevere trattamento paritario. L'UE/EEA, UK, UAE (inclusi DIFC/ADGM) e altre giurisdizioni possono prevedere diritti aggiuntivi, rappresentanti o vie di reclamo.",
-            "Invia le richieste a privacy@sundae.io. Possiamo verificare l'identità, chiedere l'organizzazione/account rilevante e inoltrare le richieste sui Customer Data al Cliente quando esso è il controller. Rispondiamo entro i termini richiesti dalla legge applicabile ed illustriamo qualsiasi eccezione legale, inclusi conservazione statutaria, contestazioni legali, log di sicurezza, record di soppressione o dati di terzi/pubblici. Agenti autorizzati possono agire dove la legge locale lo consente."
+            "Invia le richieste a privacy@sundaetechnologies.com. Possiamo verificare l'identità, chiedere l'organizzazione/account rilevante e inoltrare le richieste sui Customer Data al Cliente quando esso è il controller. Rispondiamo entro i termini richiesti dalla legge applicabile ed illustriamo qualsiasi eccezione legale, inclusi conservazione statutaria, contestazioni legali, log di sicurezza, record di soppressione o dati di terzi/pubblici. Agenti autorizzati possono agire dove la legge locale lo consente."
           ]
         },
         {
@@ -1196,7 +1196,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Contatti",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -1324,7 +1324,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Kontakt",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -1392,7 +1392,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Transfery międzynarodowe i lokalizacja danych",
           "paragraphs": [
-            "Sundae ma siedzibę w Stanach Zjednoczonych i może przetwarzać dane w krajach, w których działają Sundae lub jej dostawcy. Korzystamy z decyzji o adekwatności, Standard Contractual Clauses, UK IDTA/Addendum lub innego mechanizmu prawnego tam, gdzie jest to wymagane, wraz z umownymi, technicznymi i organizacyjnymi zabezpieczeniami. Wybory dotyczące lokalizacji Customer są rozstrzygane przez najbardziej szczegółowe zatwierdzone ustawienie organizacji/partnera; zmiana ustawienia nie powoduje automatycznej migracji istniejących danych. Skontaktuj się z privacy@sundae.io, aby uzyskać informacje o zabezpieczeniach mających zastosowanie do Twojego konta."
+            "Sundae ma siedzibę w Stanach Zjednoczonych i może przetwarzać dane w krajach, w których działają Sundae lub jej dostawcy. Korzystamy z decyzji o adekwatności, Standard Contractual Clauses, UK IDTA/Addendum lub innego mechanizmu prawnego tam, gdzie jest to wymagane, wraz z umownymi, technicznymi i organizacyjnymi zabezpieczeniami. Wybory dotyczące lokalizacji Customer są rozstrzygane przez najbardziej szczegółowe zatwierdzone ustawienie organizacji/partnera; zmiana ustawienia nie powoduje automatycznej migracji istniejących danych. Skontaktuj się z privacy@sundaetechnologies.com, aby uzyskać informacje o zabezpieczeniach mających zastosowanie do Twojego konta."
           ]
         },
         {
@@ -1405,7 +1405,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Prawa i wybory",
           "paragraphs": [
             "Z zastrzeżeniem prawa lokalnego, osoby mogą żądać dostępu, sprostowania, usunięcia, ograniczenia, przenoszalności, sprzeciwu, wycofania zgody oraz rezygnacji z marketingu/cookie. Mieszkańcy Kalifornii mogą mieć prawa do wiedzy, dostępu, usunięcia, sprostowania, rezygnacji ze sprzedaży/udostępniania lub reklamy ukierunkowanej, ograniczenia wykorzystania niektórych danych wrażliwych oraz otrzymania równego traktowania. EEA/UK, ZEA (w tym DIFC/ADGM) oraz inne jurysdykcje mogą zapewniać dodatkowe prawa, przedstawicieli lub drogi skargowe.",
-            "Wysyłaj żądania na privacy@sundae.io. Możemy zweryfikować tożsamość, poprosić o powiązane informacje organizacji/konta i przekazać żądania dotyczące Customer Data do Customer, gdy jest on administratorem (controller). Odpowiadamy w terminie wymaganym przez obowiązujące prawo i wyjaśniamy wszelkie prawne wyjątki, w tym ustawowe okresy przechowywania, roszczenia prawne, logi zabezpieczeń, zapisy wyłączeń lub dane stron trzecich/publiczne. Upoważnieni pełnomocnicy mogą działać, gdy prawo lokalne na to pozwala."
+            "Wysyłaj żądania na privacy@sundaetechnologies.com. Możemy zweryfikować tożsamość, poprosić o powiązane informacje organizacji/konta i przekazać żądania dotyczące Customer Data do Customer, gdy jest on administratorem (controller). Odpowiadamy w terminie wymaganym przez obowiązujące prawo i wyjaśniamy wszelkie prawne wyjątki, w tym ustawowe okresy przechowywania, roszczenia prawne, logi zabezpieczeń, zapisy wyłączeń lub dane stron trzecich/publiczne. Upoważnieni pełnomocnicy mogą działać, gdy prawo lokalne na to pozwala."
           ]
         },
         {
@@ -1436,7 +1436,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Kontakt",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Zespół ds. prywatności: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Zespół ds. prywatności: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -1564,7 +1564,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. 联系方式",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -1632,7 +1632,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. 跨境传输与数据驻留",
           "paragraphs": [
-            "Sundae 总部位于美国，并可能在 Sundae 或其提供商运营的国家处理数据。我们在需要时使用充分性决定、Standard Contractual Clauses、UK IDTA/Addendum 或其他合法机制，并辅以合同、技术与组织性保障措施。Customer 的驻留选择由最具体的经批准组织/合作方设置决定；更改设置不会自动迁移现有数据。请联系 privacy@sundae.io 以获取与您账户相关的保障措施信息。"
+            "Sundae 总部位于美国，并可能在 Sundae 或其提供商运营的国家处理数据。我们在需要时使用充分性决定、Standard Contractual Clauses、UK IDTA/Addendum 或其他合法机制，并辅以合同、技术与组织性保障措施。Customer 的驻留选择由最具体的经批准组织/合作方设置决定；更改设置不会自动迁移现有数据。请联系 privacy@sundaetechnologies.com 以获取与您账户相关的保障措施信息。"
           ]
         },
         {
@@ -1645,7 +1645,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. 权利与选择",
           "paragraphs": [
             "在本地法律允许的范围内，个人可请求访问、更正、删除、限制、可移植性、反对、撤回同意以及营销/Cookie 的选择退出。加州居民可能拥有知情、访问、删除、更正、选择退出出售/共享或定向广告、限制某些敏感信息用途及获得平等对待的权利。EEA/UK、UAE（包括 DIFC/ADGM）及其他司法辖区可能提供额外权利、代表或投诉途径。",
-            "请将请求发送至 privacy@sundae.io。我们可能会验证身份、要求相关组织/账户信息，并在该组织为控制者时将 Customer Data 请求提交给该组织。我们将在适用法律要求的时间内回应并说明任何法律例外，包括法定保留、法律主张、安全日志、抑制记录或第三方/公开数据。经授权代理人在本地法律允许的情况下可代表当事人提出请求。"
+            "请将请求发送至 privacy@sundaetechnologies.com。我们可能会验证身份、要求相关组织/账户信息，并在该组织为控制者时将 Customer Data 请求提交给该组织。我们将在适用法律要求的时间内回应并说明任何法律例外，包括法定保留、法律主张、安全日志、抑制记录或第三方/公开数据。经授权代理人在本地法律允许的情况下可代表当事人提出请求。"
           ]
         },
         {
@@ -1676,7 +1676,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. 联系方式",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -1804,7 +1804,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. 연락처",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -1872,7 +1872,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. 국제 이전 및 데이터 레지던시",
           "paragraphs": [
-            "Sundae는 본사가 미국에 있으며 Sundae 또는 제공자가 운영하는 국가에서 데이터를 처리할 수 있습니다. 우리는 필요 시 적정성 결정, Standard Contractual Clauses, UK IDTA/Addendum 또는 기타 합법적 메커니즘을 사용하며 계약적, 기술적 및 조직적 안전장치를 함께 적용합니다. 고객 레지던시 선택은 가장 구체적인 승인된 조직/파트너 설정으로 해결되며; 설정 변경은 기존 데이터를 자동으로 이전하지 않습니다. 계정과 관련된 안전장치에 대해서는 privacy@sundae.io로 문의하십시오."
+            "Sundae는 본사가 미국에 있으며 Sundae 또는 제공자가 운영하는 국가에서 데이터를 처리할 수 있습니다. 우리는 필요 시 적정성 결정, Standard Contractual Clauses, UK IDTA/Addendum 또는 기타 합법적 메커니즘을 사용하며 계약적, 기술적 및 조직적 안전장치를 함께 적용합니다. 고객 레지던시 선택은 가장 구체적인 승인된 조직/파트너 설정으로 해결되며; 설정 변경은 기존 데이터를 자동으로 이전하지 않습니다. 계정과 관련된 안전장치에 대해서는 privacy@sundaetechnologies.com로 문의하십시오."
           ]
         },
         {
@@ -1885,7 +1885,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. 권리 및 선택",
           "paragraphs": [
             "현지 법률에 따라 개인은 접근, 정정, 삭제, 제한, 이동, 반대, 동의 철회 및 마케팅/쿠키 옵트아웃을 요청할 수 있습니다. 캘리포니아 거주자는 알 권리, 접근, 삭제, 정정, 판매/공유 또는 표적 광고 옵트아웃, 특정 민감 정보 사용 제한 및 동등한 대우를 받을 권리가 있을 수 있습니다. EEA/UK, UAE(포함 DIFC/ADGM) 및 기타 관할구역은 추가적 권리, 대리인 또는 불만 제기 경로를 제공할 수 있습니다.",
-            "요청은 privacy@sundae.io로 보내십시오. 우리는 신원을 확인하고, 관련 조직/계정을 요청하며, 컨트롤러인 경우 고객에게 Customer Data 요청을 전달할 수 있습니다. 우리는 적용 법률이 요구하는 기간 내에 응답하며 법정 보유, 법적 청구, 보안 로그, 억제 기록 또는 제3자/공개 데이터 등 합법적 예외를 설명합니다. 현지 법률이 허용하는 경우 권한 있는 대리인이 대행할 수 있습니다."
+            "요청은 privacy@sundaetechnologies.com로 보내십시오. 우리는 신원을 확인하고, 관련 조직/계정을 요청하며, 컨트롤러인 경우 고객에게 Customer Data 요청을 전달할 수 있습니다. 우리는 적용 법률이 요구하는 기간 내에 응답하며 법정 보유, 법적 청구, 보안 로그, 억제 기록 또는 제3자/공개 데이터 등 합법적 예외를 설명합니다. 현지 법률이 허용하는 경우 권한 있는 대리인이 대행할 수 있습니다."
           ]
         },
         {
@@ -1916,7 +1916,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. 연락처",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -2044,7 +2044,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Kontak",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -2112,7 +2112,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Transfer internasional dan residensi data",
           "paragraphs": [
-            "Sundae berkantor pusat di Amerika Serikat dan dapat memproses data di negara tempat Sundae atau penyedia beroperasi. Kami menggunakan keputusan kecukupan, Standard Contractual Clauses, UK IDTA/Addendum atau mekanisme sah lain bila diperlukan, bersamaan dengan langkah kontraktual, teknis dan organisasi. Pilihan residensi Pelanggan diselesaikan oleh pengaturan organisasi/mitra yang paling spesifik disetujui; mengubah pengaturan tidak secara otomatis memigrasikan data yang sudah ada. Hubungi privacy@sundae.io untuk langkah pengamanan yang relevan dengan akun Anda."
+            "Sundae berkantor pusat di Amerika Serikat dan dapat memproses data di negara tempat Sundae atau penyedia beroperasi. Kami menggunakan keputusan kecukupan, Standard Contractual Clauses, UK IDTA/Addendum atau mekanisme sah lain bila diperlukan, bersamaan dengan langkah kontraktual, teknis dan organisasi. Pilihan residensi Pelanggan diselesaikan oleh pengaturan organisasi/mitra yang paling spesifik disetujui; mengubah pengaturan tidak secara otomatis memigrasikan data yang sudah ada. Hubungi privacy@sundaetechnologies.com untuk langkah pengamanan yang relevan dengan akun Anda."
           ]
         },
         {
@@ -2125,7 +2125,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Hak dan pilihan",
           "paragraphs": [
             "Tunduk pada hukum setempat, individu dapat meminta akses, koreksi, penghapusan, pembatasan, portabilitas, keberatan, pencabutan persetujuan, dan opt-out pemasaran/cookie. Penduduk California mungkin memiliki hak untuk mengetahui, mengakses, menghapus, mengoreksi, memilih keluar dari penjualan/berbagi atau periklanan bertarget, membatasi penggunaan informasi sensitif tertentu, dan menerima perlakuan yang setara. EEA/UK, UAE (termasuk DIFC/ADGM) dan yurisdiksi lain dapat memberikan hak tambahan, perwakilan atau jalur pengaduan.",
-            "Kirimkan permintaan ke privacy@sundae.io. Kami dapat memverifikasi identitas, meminta organisasi/akun yang relevan, dan mengarahkan permintaan Data Pelanggan ke Pelanggan jika ia adalah pengendali. Kami menanggapi dalam waktu yang disyaratkan oleh hukum yang berlaku dan menjelaskan setiap pengecualian yang sah, termasuk retensi statutori, klaim hukum, log keamanan, catatan penolakan atau data pihak ketiga/publik. Agen yang berwenang dapat bertindak jika hukum setempat mengizinkan."
+            "Kirimkan permintaan ke privacy@sundaetechnologies.com. Kami dapat memverifikasi identitas, meminta organisasi/akun yang relevan, dan mengarahkan permintaan Data Pelanggan ke Pelanggan jika ia adalah pengendali. Kami menanggapi dalam waktu yang disyaratkan oleh hukum yang berlaku dan menjelaskan setiap pengecualian yang sah, termasuk retensi statutori, klaim hukum, log keamanan, catatan penolakan atau data pihak ketiga/publik. Agen yang berwenang dapat bertindak jika hukum setempat mengizinkan."
           ]
         },
         {
@@ -2156,7 +2156,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Kontak",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -2284,7 +2284,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Kontakt",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -2352,7 +2352,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Internationella överföringar och dataresidens",
           "paragraphs": [
-            "Sundae har sitt huvudkontor i USA och kan behandla data i länder där Sundae eller leverantörer är verksamma. Vi använder adekvansbeslut, Standard Contractual Clauses, UK IDTA/Addendum eller annan laglig mekanism där det krävs, tillsammans med kontraktsmässiga, tekniska och organisatoriska skydd. Kundens val av residency avgörs av den mest specifika godkända organisations/partner‑inställningen; att ändra en inställning migrerar inte automatiskt befintliga data. Kontakta privacy@sundae.io för de skydd som är relevanta för ditt konto."
+            "Sundae har sitt huvudkontor i USA och kan behandla data i länder där Sundae eller leverantörer är verksamma. Vi använder adekvansbeslut, Standard Contractual Clauses, UK IDTA/Addendum eller annan laglig mekanism där det krävs, tillsammans med kontraktsmässiga, tekniska och organisatoriska skydd. Kundens val av residency avgörs av den mest specifika godkända organisations/partner‑inställningen; att ändra en inställning migrerar inte automatiskt befintliga data. Kontakta privacy@sundaetechnologies.com för de skydd som är relevanta för ditt konto."
           ]
         },
         {
@@ -2365,7 +2365,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Rättigheter och val",
           "paragraphs": [
             "Med förbehåll för lokal lag kan enskilda personer begära åtkomst, rättelse, radering, begränsning, dataportabilitet, invändning, återkallelse av samtycke samt marknadsförings-/cookie‑avslag. Kaliforniens invånare kan ha rättigheter att veta, få åtkomst, radera, rätta, avstå från försäljning/delning eller riktad annonsering, begränsa vissa användningar av känslig information och få likabehandling. EES/UK, UAE (inklusive DIFC/ADGM) och andra jurisdiktioner kan tillhandahålla ytterligare rättigheter, ombud eller klagorutter.",
-            "Skicka förfrågningar till privacy@sundae.io. Vi kan verifiera identitet, begära relevant organisation/konto och hänvisa Kunddata‑förfrågningar till Kunden där den är personuppgiftsansvarig. Vi svarar inom den tid som krävs av tillämplig lag och förklarar eventuella lagliga undantag, inklusive lagstadgad lagring, rättsliga krav, säkerhetsloggar, suppression‑register eller tredjeparts/offentliga data. Auktoriserade ombud kan agera där lokal lag tillåter."
+            "Skicka förfrågningar till privacy@sundaetechnologies.com. Vi kan verifiera identitet, begära relevant organisation/konto och hänvisa Kunddata‑förfrågningar till Kunden där den är personuppgiftsansvarig. Vi svarar inom den tid som krävs av tillämplig lag och förklarar eventuella lagliga undantag, inklusive lagstadgad lagring, rättsliga krav, säkerhetsloggar, suppression‑register eller tredjeparts/offentliga data. Auktoriserade ombud kan agera där lokal lag tillåter."
           ]
         },
         {
@@ -2396,7 +2396,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Kontakt",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -2524,7 +2524,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Hubungi",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -2592,7 +2592,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Pemindahan antarabangsa dan kediaman data",
           "paragraphs": [
-            "Sundae beribu pejabat di Amerika Syarikat dan mungkin memproses data di negara di mana Sundae atau pembekal beroperasi. Kami menggunakan keputusan kesesuaian, Standard Contractual Clauses, UK IDTA/Addendum atau mekanisme sah lain apabila diperlukan, bersama langkah kontraktual, teknikal dan organisasi. Pilihan kediaman Customer diselesaikan oleh tetapan organisasi/rakan kongsi yang paling khusus yang diluluskan; menukar tetapan tidak secara automatik memindahkan data sedia ada. Hubungi privacy@sundae.io untuk langkah keselamatan yang berkaitan dengan akaun anda."
+            "Sundae beribu pejabat di Amerika Syarikat dan mungkin memproses data di negara di mana Sundae atau pembekal beroperasi. Kami menggunakan keputusan kesesuaian, Standard Contractual Clauses, UK IDTA/Addendum atau mekanisme sah lain apabila diperlukan, bersama langkah kontraktual, teknikal dan organisasi. Pilihan kediaman Customer diselesaikan oleh tetapan organisasi/rakan kongsi yang paling khusus yang diluluskan; menukar tetapan tidak secara automatik memindahkan data sedia ada. Hubungi privacy@sundaetechnologies.com untuk langkah keselamatan yang berkaitan dengan akaun anda."
           ]
         },
         {
@@ -2605,7 +2605,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Hak dan pilihan",
           "paragraphs": [
             "Tertakluk kepada undang-undang tempatan, individu boleh meminta akses, pembetulan, pemadaman, penyekatan, kebolehpindahan, bantahan, penarikan persetujuan, dan pilihan keluar pemasaran/kuki. Penduduk California mungkin mempunyai hak untuk mengetahui, mengakses, memadam, membetulkan, memilih keluar daripada penjualan/perkongsian atau pengiklanan bertarget, mengehadkan penggunaan maklumat sensitif tertentu, dan menerima layanan setara. EEA/UK, UAE (termasuk DIFC/ADGM) dan bidang kuasa lain mungkin menyediakan hak tambahan, wakil atau laluan aduan.",
-            "Hantar permintaan ke privacy@sundae.io. Kami mungkin mengesahkan identiti, meminta organisasi/akaun yang berkaitan, dan mengarahkan permintaan Data Pelanggan kepada Customer apabila ia adalah pengawal. Kami memberi respons dalam masa yang dikehendaki oleh undang-undang yang berkenaan dan menerangkan sebarang pengecualian yang sah, termasuk pengekalan statutori, tuntutan undang-undang, log keselamatan, rekod penindasan atau data pihak ketiga/awam. Ejen yang diberi kuasa boleh bertindak apabila undang-undang tempatan membenarkannya."
+            "Hantar permintaan ke privacy@sundaetechnologies.com. Kami mungkin mengesahkan identiti, meminta organisasi/akaun yang berkaitan, dan mengarahkan permintaan Data Pelanggan kepada Customer apabila ia adalah pengawal. Kami memberi respons dalam masa yang dikehendaki oleh undang-undang yang berkenaan dan menerangkan sebarang pengecualian yang sah, termasuk pengekalan statutori, tuntutan undang-undang, log keselamatan, rekod penindasan atau data pihak ketiga/awam. Ejen yang diberi kuasa boleh bertindak apabila undang-undang tempatan membenarkannya."
           ]
         },
         {
@@ -2636,7 +2636,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Hubungi",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Pasukan Privasi: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Pasukan Privasi: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -2764,7 +2764,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Contact",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -2832,7 +2832,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Transferts internationaux et résidence des données",
           "paragraphs": [
-            "Sundae a son siège aux États‑Unis et peut traiter des données dans des pays où Sundae ou ses prestataires opèrent. Nous utilisons des décisions d’adéquation, les Standard Contractual Clauses, l’UK IDTA/Addendum ou un autre mécanisme licite lorsque requis, conjointement avec des garanties contractuelles, techniques et organisationnelles. Les choix de résidence du Client sont résolus par le paramètre d’organisation/partenaire approuvé le plus spécifique ; la modification d’un paramètre ne migre pas automatiquement les données existantes. Contactez privacy@sundae.io pour les garanties pertinentes à votre compte."
+            "Sundae a son siège aux États‑Unis et peut traiter des données dans des pays où Sundae ou ses prestataires opèrent. Nous utilisons des décisions d’adéquation, les Standard Contractual Clauses, l’UK IDTA/Addendum ou un autre mécanisme licite lorsque requis, conjointement avec des garanties contractuelles, techniques et organisationnelles. Les choix de résidence du Client sont résolus par le paramètre d’organisation/partenaire approuvé le plus spécifique ; la modification d’un paramètre ne migre pas automatiquement les données existantes. Contactez privacy@sundaetechnologies.com pour les garanties pertinentes à votre compte."
           ]
         },
         {
@@ -2845,7 +2845,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Droits et choix",
           "paragraphs": [
             "Sous réserve du droit local, les personnes peuvent demander l’accès, la rectification, la suppression, la limitation, la portabilité, l’opposition, le retrait du consentement, et le refus marketing/cookies. Les résidents californiens peuvent avoir des droits de connaître, accéder, supprimer, rectifier, refuser la vente/partage ou la publicité ciblée, limiter certains usages d’informations sensibles, et recevoir un traitement égal. L’EEE/Royaume‑Uni, UAE (y compris DIFC/ADGM) et d’autres juridictions peuvent prévoir des droits supplémentaires, des représentants ou des voies de recours.",
-            "Envoyez les demandes à privacy@sundae.io. Nous pouvons vérifier l’identité, demander l’organisation/compte concerné, et transmettre les demandes relatives aux Données Client au Client lorsque celui‑ci est le responsable du traitement. Nous répondons dans les délais requis par la loi applicable et expliquons toute exception légale, y compris conservation statutaire, réclamations légales, journaux de sécurité, enregistrements de suppression ou données tierces/publiques. Des mandataires autorisés peuvent agir lorsque la loi locale le permet."
+            "Envoyez les demandes à privacy@sundaetechnologies.com. Nous pouvons vérifier l’identité, demander l’organisation/compte concerné, et transmettre les demandes relatives aux Données Client au Client lorsque celui‑ci est le responsable du traitement. Nous répondons dans les délais requis par la loi applicable et expliquons toute exception légale, y compris conservation statutaire, réclamations légales, journaux de sécurité, enregistrements de suppression ou données tierces/publiques. Des mandataires autorisés peuvent agir lorsque la loi locale le permet."
           ]
         },
         {
@@ -2876,7 +2876,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Contact",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3004,7 +3004,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Contacto",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3072,7 +3072,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Transferências internacionais e residência de dados",
           "paragraphs": [
-            "A Sundae tem sede nos Estados Unidos e pode processar dados em países onde a Sundae ou fornecedores operam. Usamos decisões de adequação, Standard Contractual Clauses, o UK IDTA/Addendum ou outro mecanismo legal onde exigido, juntamente com salvaguardas contratuais, técnicas e organizacionais. Escolhas de residência do Cliente são resolvidas pela configuração de organização/parceiro aprovado mais específica; alterar uma definição não migra automaticamente dados existentes. Contacte privacy@sundae.io para as salvaguardas relevantes à sua conta."
+            "A Sundae tem sede nos Estados Unidos e pode processar dados em países onde a Sundae ou fornecedores operam. Usamos decisões de adequação, Standard Contractual Clauses, o UK IDTA/Addendum ou outro mecanismo legal onde exigido, juntamente com salvaguardas contratuais, técnicas e organizacionais. Escolhas de residência do Cliente são resolvidas pela configuração de organização/parceiro aprovado mais específica; alterar uma definição não migra automaticamente dados existentes. Contacte privacy@sundaetechnologies.com para as salvaguardas relevantes à sua conta."
           ]
         },
         {
@@ -3085,7 +3085,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Direitos e escolhas",
           "paragraphs": [
             "Sujeito à lei local, os indivíduos podem solicitar acesso, retificação, eliminação, restrição, portabilidade, oposição, retirada de consentimento, e exclusão de marketing/cookies. Residentes da Califórnia podem ter direitos para saber, aceder, eliminar, corrigir, optar por sair de venda/partilha ou publicidade direcionada, limitar certos usos de informação sensível, e receber tratamento igual. EEA/UK, UAE (incluindo DIFC/ADGM) e outras jurisdições podem providenciar direitos adicionais, representantes ou vias de reclamação.",
-            "Envie pedidos para privacy@sundae.io. Podemos verificar identidade, pedir a organização/conta relevante, e encaminhar pedidos de Dados do Cliente para o Cliente quando este for o responsável. Respondemos dentro do prazo exigido pela lei aplicável e explicamos qualquer exceção legal, incluindo retenção estatutária, litígios, registos de segurança, registos de supressão ou dados de terceiros/públicos. Agentes autorizados podem atuar onde a lei local o permita."
+            "Envie pedidos para privacy@sundaetechnologies.com. Podemos verificar identidade, pedir a organização/conta relevante, e encaminhar pedidos de Dados do Cliente para o Cliente quando este for o responsável. Respondemos dentro do prazo exigido pela lei aplicável e explicamos qualquer exceção legal, incluindo retenção estatutária, litígios, registos de segurança, registos de supressão ou dados de terceiros/públicos. Agentes autorizados podem atuar onde a lei local o permita."
           ]
         },
         {
@@ -3116,7 +3116,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Contacto",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3244,7 +3244,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. İletişim",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Hukuk: legal@sundae.io · Gizlilik: privacy@sundae.io · Güvenlik: security@sundae.io"
+            "Hukuk: legal@sundaetechnologies.com · Gizlilik: privacy@sundaetechnologies.com · Güvenlik: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3312,7 +3312,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Uluslararası transferler ve veri yerelinde barındırma",
           "paragraphs": [
-            "Sundae merkezi Amerika Birleşik Devletleri’nde olup verileri Sundae veya sağlayıcıların faaliyet gösterdiği ülkelerde işleyebilir. Gerektiğinde yeterlilik kararları, Standard Contractual Clauses, UK IDTA/Addendum veya başka bir hukuka uygun mekanizma kullanırız; bunlar sözleşmesel, teknik ve organizasyonel güvencelerle desteklenir. Müşteri yerleşim tercihleri en spesifik onaylı organizasyon/ortak ayarı ile çözülür; bir ayarın değiştirilmesi mevcut verilerin otomatik olarak taşınmasını sağlamaz. Hesabınıza ilişkin güvenceler için privacy@sundae.io ile iletişime geçin."
+            "Sundae merkezi Amerika Birleşik Devletleri’nde olup verileri Sundae veya sağlayıcıların faaliyet gösterdiği ülkelerde işleyebilir. Gerektiğinde yeterlilik kararları, Standard Contractual Clauses, UK IDTA/Addendum veya başka bir hukuka uygun mekanizma kullanırız; bunlar sözleşmesel, teknik ve organizasyonel güvencelerle desteklenir. Müşteri yerleşim tercihleri en spesifik onaylı organizasyon/ortak ayarı ile çözülür; bir ayarın değiştirilmesi mevcut verilerin otomatik olarak taşınmasını sağlamaz. Hesabınıza ilişkin güvenceler için privacy@sundaetechnologies.com ile iletişime geçin."
           ]
         },
         {
@@ -3325,7 +3325,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Haklar ve tercihleri",
           "paragraphs": [
             "Yerel yasaya tabi olarak bireyler erişim, düzeltme, silme, sınırlama, taşınabilirlik, itiraz, rıza geri çekme ve pazarlama/çerez reddi taleplerinde bulunabilir. Kaliforniya sakinleri bilme, erişim, silme, düzeltme, satış/paylaşım veya hedefli reklama hayır deme, belirli hassas bilgi kullanımlarını sınırlama ve eşit muamele alma haklarına sahip olabilir. EEA/UK, UAE (DIFC/ADGM dahil) ve diğer yargı bölgeleri ek haklar, temsilciler veya şikâyet yolları sağlayabilir.",
-            "Talepleri privacy@sundae.io adresine gönderin. Kimliği doğrulayabilir, ilgili kuruluş/hesap bilgilerini isteyebilir ve Müşteri verisi taleplerini Müşteri veri sorumlusu ise Müşteri’ye yönlendirebiliriz. Uygulanabilir kanunların istediği süre içinde yanıt verir ve herhangi bir yasal istisnayı (zorunlu saklama, hukuki talepler, güvenlik günlükleri, hariç tutma kayıtları veya üçüncü taraf/kamu verisi dahil) açıklarız. Yetkili temsilciler yerel kanun izin verdiğinde hareket edebilir."
+            "Talepleri privacy@sundaetechnologies.com adresine gönderin. Kimliği doğrulayabilir, ilgili kuruluş/hesap bilgilerini isteyebilir ve Müşteri verisi taleplerini Müşteri veri sorumlusu ise Müşteri’ye yönlendirebiliriz. Uygulanabilir kanunların istediği süre içinde yanıt verir ve herhangi bir yasal istisnayı (zorunlu saklama, hukuki talepler, güvenlik günlükleri, hariç tutma kayıtları veya üçüncü taraf/kamu verisi dahil) açıklarız. Yetkili temsilciler yerel kanun izin verdiğinde hareket edebilir."
           ]
         },
         {
@@ -3356,7 +3356,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. İletişim",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Gizlilik ekibi: privacy@sundae.io · Hukuk: legal@sundae.io · Güvenlik: security@sundae.io"
+            "Gizlilik ekibi: privacy@sundaetechnologies.com · Hukuk: legal@sundaetechnologies.com · Güvenlik: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3484,7 +3484,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Liên hệ",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3552,7 +3552,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Chuyển giao quốc tế và cư trú dữ liệu",
           "paragraphs": [
-            "Sundae có trụ sở chính tại Hoa Kỳ và có thể xử lý dữ liệu ở các quốc gia nơi Sundae hoặc các nhà cung cấp hoạt động. Chúng tôi sử dụng quyết định độ đáp ứng, Standard Contractual Clauses, UK IDTA/Addendum hoặc cơ chế hợp pháp khác khi cần, cùng với các biện pháp bảo vệ hợp đồng, kỹ thuật và tổ chức. Lựa chọn cư trú của Khách hàng được giải quyết theo thiết lập tổ chức/đối tác được phê duyệt cụ thể nhất; thay đổi thiết lập không tự động di chuyển dữ liệu hiện có. Liên hệ privacy@sundae.io để biết các biện pháp bảo vệ áp dụng cho tài khoản của bạn."
+            "Sundae có trụ sở chính tại Hoa Kỳ và có thể xử lý dữ liệu ở các quốc gia nơi Sundae hoặc các nhà cung cấp hoạt động. Chúng tôi sử dụng quyết định độ đáp ứng, Standard Contractual Clauses, UK IDTA/Addendum hoặc cơ chế hợp pháp khác khi cần, cùng với các biện pháp bảo vệ hợp đồng, kỹ thuật và tổ chức. Lựa chọn cư trú của Khách hàng được giải quyết theo thiết lập tổ chức/đối tác được phê duyệt cụ thể nhất; thay đổi thiết lập không tự động di chuyển dữ liệu hiện có. Liên hệ privacy@sundaetechnologies.com để biết các biện pháp bảo vệ áp dụng cho tài khoản của bạn."
           ]
         },
         {
@@ -3565,7 +3565,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Quyền và lựa chọn",
           "paragraphs": [
             "Tùy theo luật địa phương, cá nhân có thể yêu cầu truy cập, chỉnh sửa, xóa, hạn chế, chuyển giao, phản đối, thu hồi sự đồng ý và từ chối nhận marketing/cookie. Cư dân California có thể có các quyền biết, truy cập, xóa, sửa, từ chối bán/chia sẻ hoặc quảng cáo mục tiêu, giới hạn việc sử dụng một số thông tin nhạy cảm nhất định, và được đối xử bình đẳng. EEA/UK, UAE (bao gồm DIFC/ADGM) và các khu vực pháp lý khác có thể cung cấp quyền bổ sung, đại diện hoặc đường khiếu nại.",
-            "Gửi yêu cầu tới privacy@sundae.io. Chúng tôi có thể xác minh danh tính, yêu cầu tổ chức/tài khoản liên quan và chuyển các yêu cầu về Dữ liệu Khách hàng tới Khách hàng khi họ là bộ điều khiển. Chúng tôi phản hồi trong thời hạn pháp luật áp dụng yêu cầu và giải thích bất kỳ ngoại lệ hợp pháp nào, bao gồm lưu giữ theo luật, khiếu nại pháp lý, nhật ký bảo mật, bản ghi loại trừ hoặc dữ liệu bên thứ ba/công khai. Đại lý được ủy quyền có thể hành động khi luật địa phương cho phép."
+            "Gửi yêu cầu tới privacy@sundaetechnologies.com. Chúng tôi có thể xác minh danh tính, yêu cầu tổ chức/tài khoản liên quan và chuyển các yêu cầu về Dữ liệu Khách hàng tới Khách hàng khi họ là bộ điều khiển. Chúng tôi phản hồi trong thời hạn pháp luật áp dụng yêu cầu và giải thích bất kỳ ngoại lệ hợp pháp nào, bao gồm lưu giữ theo luật, khiếu nại pháp lý, nhật ký bảo mật, bản ghi loại trừ hoặc dữ liệu bên thứ ba/công khai. Đại lý được ủy quyền có thể hành động khi luật địa phương cho phép."
           ]
         },
         {
@@ -3596,7 +3596,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Liên hệ",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3724,7 +3724,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. جهة الاتصال",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "القسم القانوني: legal@sundae.io · الخصوصية: privacy@sundae.io · الأمن: security@sundae.io"
+            "القسم القانوني: legal@sundaetechnologies.com · الخصوصية: privacy@sundaetechnologies.com · الأمن: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3792,7 +3792,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. التحويلات الدولية وإقامة البيانات",
           "paragraphs": [
-            "يقع المقر الرئيسي لـ Sundae في الولايات المتحدة وقد تعالج البيانات في دول يعمل فيها Sundae أو مزودوه. نستخدم قرارات الملاءمة وبنود النقل التعاقدية القياسية (Standard Contractual Clauses) وUK IDTA/الإضافة أو آلية قانونية أخرى حيثما يلزم، جنبًا إلى جنب مع ضمانات تعاقدية وفنية وتنظيمية. تُحل خيارات إقامة العميل بواسطة إعداد المنظمة/الشريك المعتمد الأكثر تحديدًا؛ تغيير الإعداد لا ينقل البيانات القائمة تلقائيًا. اتصل بـ privacy@sundae.io للاطلاع على الضمانات ذات الصلة بحسابك."
+            "يقع المقر الرئيسي لـ Sundae في الولايات المتحدة وقد تعالج البيانات في دول يعمل فيها Sundae أو مزودوه. نستخدم قرارات الملاءمة وبنود النقل التعاقدية القياسية (Standard Contractual Clauses) وUK IDTA/الإضافة أو آلية قانونية أخرى حيثما يلزم، جنبًا إلى جنب مع ضمانات تعاقدية وفنية وتنظيمية. تُحل خيارات إقامة العميل بواسطة إعداد المنظمة/الشريك المعتمد الأكثر تحديدًا؛ تغيير الإعداد لا ينقل البيانات القائمة تلقائيًا. اتصل بـ privacy@sundaetechnologies.com للاطلاع على الضمانات ذات الصلة بحسابك."
           ]
         },
         {
@@ -3805,7 +3805,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. الحقوق والخيارات",
           "paragraphs": [
             "بالرغم من القانون المحلي، قد يطلب الأفراد الوصول أو التصحيح أو الحذف أو التقييد أو النقل أو الاعتراض أو سحب الموافقة أو إلغاء الاشتراك من التسويق/الكوكيز. قد يتمتع سكان كاليفورنيا بحقوق المعرفة والوصول والحذف والتصحيح والانسحاب من البيع/المشاركة أو الإعلانات المستهدفة، وتقييد استخدام معلومات حساسة معينة، وتلقي معاملة متساوية. قد توفر دول الاتحاد الأوروبي/المملكة المتحدة والإمارات (بما في ذلك DIFC/ADGM) ولايات قضائية أخرى حقوقًا إضافية أو ممثلين أو طرق شكاوى.",
-            "أرسل الطلبات إلى privacy@sundae.io. قد نتحقق من الهوية ونطلب المنظمة/الحساب المعني ونحوّل طلبات بيانات العميل إلى العميل حيثما يكون المتحكم. نرد ضمن المدة التي يتطلبها القانون المعمول به ونشرح أي استثناء قانوني، بما في ذلك الاحتفاظ النظامي والمطالبات القانونية وسجلات الأمان وسجلات الكبت أو بيانات الطرف الثالث/العامة. يجوز للوكلاء المفوّضين العمل حيثما يسمح القانون المحلي بذلك."
+            "أرسل الطلبات إلى privacy@sundaetechnologies.com. قد نتحقق من الهوية ونطلب المنظمة/الحساب المعني ونحوّل طلبات بيانات العميل إلى العميل حيثما يكون المتحكم. نرد ضمن المدة التي يتطلبها القانون المعمول به ونشرح أي استثناء قانوني، بما في ذلك الاحتفاظ النظامي والمطالبات القانونية وسجلات الأمان وسجلات الكبت أو بيانات الطرف الثالث/العامة. يجوز للوكلاء المفوّضين العمل حيثما يسمح القانون المحلي بذلك."
           ]
         },
         {
@@ -3836,7 +3836,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. جهة الاتصال",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "فريق الخصوصية: privacy@sundae.io · القانونية: legal@sundae.io · الأمن: security@sundae.io"
+            "فريق الخصوصية: privacy@sundaetechnologies.com · القانونية: legal@sundaetechnologies.com · الأمن: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -3964,7 +3964,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Contacto",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4032,7 +4032,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Transferencias internacionales y residencia de datos",
           "paragraphs": [
-            "Sundae tiene su sede en Estados Unidos y puede procesar datos en países donde opera Sundae o sus proveedores. Usamos decisiones de adecuación, Standard Contractual Clauses, el UK IDTA/Addendum u otro mecanismo legal cuando se requiere, junto con salvaguardas contractuales, técnicas y organizativas. Las elecciones de residencia del Customer se resuelven por la configuración de organización/socio aprobado más específico; cambiar una configuración no migra automáticamente los datos existentes. Contacte con privacy@sundae.io para las salvaguardas relevantes a su cuenta."
+            "Sundae tiene su sede en Estados Unidos y puede procesar datos en países donde opera Sundae o sus proveedores. Usamos decisiones de adecuación, Standard Contractual Clauses, el UK IDTA/Addendum u otro mecanismo legal cuando se requiere, junto con salvaguardas contractuales, técnicas y organizativas. Las elecciones de residencia del Customer se resuelven por la configuración de organización/socio aprobado más específico; cambiar una configuración no migra automáticamente los datos existentes. Contacte con privacy@sundaetechnologies.com para las salvaguardas relevantes a su cuenta."
           ]
         },
         {
@@ -4045,7 +4045,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Derechos y opciones",
           "paragraphs": [
             "Salvo que la ley local disponga otra cosa, las personas pueden solicitar acceso, rectificación, supresión, limitación, portabilidad, oposición, retirada del consentimiento y exclusión de marketing/cookies. Los residentes de California pueden tener derechos para saber, acceder, borrar, corregir, optar por no participar en venta/compartición o publicidad dirigida, limitar ciertos usos de información sensible y recibir trato igualitario. La EEA/Reino Unido, UAE (incluyendo DIFC/ADGM) y otras jurisdicciones pueden proporcionar derechos adicionales, representantes o vías de reclamación.",
-            "Envíe solicitudes a privacy@sundae.io. Podemos verificar la identidad, pedir la organización/cuenta relevante y encaminar las solicitudes sobre Customer Data al Customer cuando sea el controller. Respondemos dentro del plazo exigido por la ley aplicable y explicamos cualquier excepción legal, incluidas la retención estatutaria, reclamaciones legales, registros de seguridad, registros de supresión o datos de terceros/públicos. Agentes autorizados pueden actuar cuando la ley local lo permite."
+            "Envíe solicitudes a privacy@sundaetechnologies.com. Podemos verificar la identidad, pedir la organización/cuenta relevante y encaminar las solicitudes sobre Customer Data al Customer cuando sea el controller. Respondemos dentro del plazo exigido por la ley aplicable y explicamos cualquier excepción legal, incluidas la retención estatutaria, reclamaciones legales, registros de seguridad, registros de supresión o datos de terceros/públicos. Agentes autorizados pueden actuar cuando la ley local lo permite."
           ]
         },
         {
@@ -4076,7 +4076,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Contacto",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4204,7 +4204,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Contact",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Juridisch: legal@sundae.io · Privacy: privacy@sundae.io · Beveiliging: security@sundae.io"
+            "Juridisch: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Beveiliging: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4272,7 +4272,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Internationale overdrachten en data‑residentie",
           "paragraphs": [
-            "Sundae heeft haar hoofdkantoor in de Verenigde Staten en kan gegevens verwerken in landen waarin Sundae of haar providers actief zijn. Wij gebruiken adequaatheidsbesluiten, Standard Contractual Clauses, de UK IDTA/Addendum of een ander rechtsgeldig mechanisme waar vereist, samen met contractuele, technische en organisatorische waarborgen. Keuzes van Customer‑residentie worden bepaald door de meest‑specifieke goedgekeurde organisatie/partnerinstelling; het wijzigen van een instelling migreert bestaande gegevens niet automatisch. Neem contact op met privacy@sundae.io voor de waarborgen die voor uw account relevant zijn."
+            "Sundae heeft haar hoofdkantoor in de Verenigde Staten en kan gegevens verwerken in landen waarin Sundae of haar providers actief zijn. Wij gebruiken adequaatheidsbesluiten, Standard Contractual Clauses, de UK IDTA/Addendum of een ander rechtsgeldig mechanisme waar vereist, samen met contractuele, technische en organisatorische waarborgen. Keuzes van Customer‑residentie worden bepaald door de meest‑specifieke goedgekeurde organisatie/partnerinstelling; het wijzigen van een instelling migreert bestaande gegevens niet automatisch. Neem contact op met privacy@sundaetechnologies.com voor de waarborgen die voor uw account relevant zijn."
           ]
         },
         {
@@ -4285,7 +4285,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Rechten en keuzes",
           "paragraphs": [
             "Voor zover lokale wetgeving dat toestaat, kunnen betrokkenen verzoeken om toegang, rectificatie, verwijdering, beperking, overdraagbaarheid, bezwaar, intrekking van toestemming en marketing/cookie‑opt‑out indienen. Inwoners van Californië kunnen rechten hebben om te weten, toegang te krijgen, te verwijderen, te corrigeren, zich af te melden voor verkoop/delen of gerichte advertenties, bepaalde gevoelige informatie‑gebruikslimieten te vragen en gelijke behandeling te ontvangen. EEA/UK, UAE (inclusief DIFC/ADGM) en andere jurisdicties kunnen aanvullende rechten, vertegenwoordigers of klachtenroutes bieden.",
-            "Stuur verzoeken naar privacy@sundae.io. Wij kunnen identiteit verifiëren, om de relevante organisatie/account vragen en verzoeken met betrekking tot Customer Data doorsturen naar de Customer wanneer deze de verwerkingsverantwoordelijke is. Wij reageren binnen de termijn die de toepasselijke wet voorschrijft en leggen eventuele wettelijke uitzonderingen uit, inclusief wettelijke bewaartermijnen, juridische claims, beveiligingslogs, suppressierecords of derden/openbare gegevens. Gemachtigde gevolmachtigden kunnen handelen waar lokale wetgeving dit toestaat."
+            "Stuur verzoeken naar privacy@sundaetechnologies.com. Wij kunnen identiteit verifiëren, om de relevante organisatie/account vragen en verzoeken met betrekking tot Customer Data doorsturen naar de Customer wanneer deze de verwerkingsverantwoordelijke is. Wij reageren binnen de termijn die de toepasselijke wet voorschrijft en leggen eventuele wettelijke uitzonderingen uit, inclusief wettelijke bewaartermijnen, juridische claims, beveiligingslogs, suppressierecords of derden/openbare gegevens. Gemachtigde gevolmachtigden kunnen handelen waar lokale wetgeving dit toestaat."
           ]
         },
         {
@@ -4316,7 +4316,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Contact",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy‑team: privacy@sundae.io · Juridisch: legal@sundae.io · Beveiliging: security@sundae.io"
+            "Privacy‑team: privacy@sundaetechnologies.com · Juridisch: legal@sundaetechnologies.com · Beveiliging: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4444,7 +4444,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. 連絡先",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4512,7 +4512,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. 国際的な転送およびデータ常駐性",
           "paragraphs": [
-            "Sundaeの本社は米国にあり、Sundaeまたはプロバイダーが運用する国でデータを処理する場合があります。当社は適格性判断、Standard Contractual Clauses、UK IDTA／付属書または必要に応じた他の合法的メカニズムを使用し、契約上、技術上および組織上の保障策を講じます。Customerの居住地の選択は、最も具体的な承認された組織／パートナー設定によって解決されます。設定変更は既存データの自動移行を伴わない場合があります。アカウントに関連する保障策についてはprivacy@sundae.ioに連絡してください。"
+            "Sundaeの本社は米国にあり、Sundaeまたはプロバイダーが運用する国でデータを処理する場合があります。当社は適格性判断、Standard Contractual Clauses、UK IDTA／付属書または必要に応じた他の合法的メカニズムを使用し、契約上、技術上および組織上の保障策を講じます。Customerの居住地の選択は、最も具体的な承認された組織／パートナー設定によって解決されます。設定変更は既存データの自動移行を伴わない場合があります。アカウントに関連する保障策についてはprivacy@sundaetechnologies.comに連絡してください。"
           ]
         },
         {
@@ -4525,7 +4525,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. 権利および選択肢",
           "paragraphs": [
             "現地法の範囲内で、個人はアクセス、訂正、削除、制限、移植、異議、同意の撤回およびマーケティング／クッキーのオプトアウトを要求できます。カリフォルニア州居住者は、開示、アクセス、削除、訂正、販売／共有またはターゲティング広告のオプトアウト、特定の機微情報利用の制限および平等な取り扱いを受ける権利を有する場合があります。EEA／UK、UAE（DIFC／ADGMを含む）およびその他の管轄区域は追加の権利、代表者または苦情手続を提供する場合があります。",
-            "請求はprivacy@sundae.io宛に送ってください。本人確認を行い、関連する組織／アカウントを尋ね、Customerがコントローラーである場合はCustomerにCustomer Dataの請求をルーティングすることがあります。当社は適用法で要求される期間内に対応し、法定保存、法的請求、セキュリティログ、抑止記録または第三者／公的データを含む適法な例外について説明します。現地法が許す場合、認可代理人が行動することができます。"
+            "請求はprivacy@sundaetechnologies.com宛に送ってください。本人確認を行い、関連する組織／アカウントを尋ね、Customerがコントローラーである場合はCustomerにCustomer Dataの請求をルーティングすることがあります。当社は適用法で要求される期間内に対応し、法定保存、法的請求、セキュリティログ、抑止記録または第三者／公的データを含む適法な例外について説明します。現地法が許す場合、認可代理人が行動することができます。"
           ]
         },
         {
@@ -4556,7 +4556,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. 連絡先",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4684,7 +4684,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. Contact",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4752,7 +4752,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. Transferuri internaționale și rezidența datelor",
           "paragraphs": [
-            "Sundae are sediul în Statele Unite și poate procesa date în țările în care operează Sundae sau furnizorii săi. Folosim decizii de adecvare, Clauze Contractuale Standard, UK IDTA/Addendum sau un alt mecanism legal unde este necesar, împreună cu garanții contractuale, tehnice și organizaționale. Opțiunile de rezidență ale Clientului se rezolvă prin setarea organizației/partenerului aprobat cel mai specific; schimbarea unei setări nu migrează automat datele existente. Contactați privacy@sundae.io pentru garanțiile relevante contului dumneavoastră."
+            "Sundae are sediul în Statele Unite și poate procesa date în țările în care operează Sundae sau furnizorii săi. Folosim decizii de adecvare, Clauze Contractuale Standard, UK IDTA/Addendum sau un alt mecanism legal unde este necesar, împreună cu garanții contractuale, tehnice și organizaționale. Opțiunile de rezidență ale Clientului se rezolvă prin setarea organizației/partenerului aprobat cel mai specific; schimbarea unei setări nu migrează automat datele existente. Contactați privacy@sundaetechnologies.com pentru garanțiile relevante contului dumneavoastră."
           ]
         },
         {
@@ -4765,7 +4765,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. Drepturi și opțiuni",
           "paragraphs": [
             "Sub rezerva legii locale, persoanele pot solicita acces, rectificare, ștergere, restricționare, portabilitate, opoziție, retragerea consimțământului și renunțarea la marketing/cookie‑uri. Rezidenții din California pot avea drepturi de a cunoaște, accesa, șterge, corecta, a opta‑out din vânzare/partajare sau publicitate țintită, a limita anumite utilizări ale informațiilor sensibile și de a primi tratament egal. EEA/UK, UAE (inclusiv DIFC/ADGM) și alte jurisdicții pot oferi drepturi suplimentare, reprezentanți sau căi de plângere.",
-            "Trimiteți cererile la privacy@sundae.io. Putem verifica identitatea, solicita organizația/contul relevant și redirecționa solicitările privind Datele Clientului către Client acolo unde acesta este responsabilul. Răspundem în termenul prevăzut de legea aplicabilă și explicăm orice excepție legală, incluzând retenția statutară, revendicări legale, jurnale de securitate, înregistrări de suprimare sau date terțe/publice. Agenții autorizați pot acționa unde legea locală permite."
+            "Trimiteți cererile la privacy@sundaetechnologies.com. Putem verifica identitatea, solicita organizația/contul relevant și redirecționa solicitările privind Datele Clientului către Client acolo unde acesta este responsabilul. Răspundem în termenul prevăzut de legea aplicabilă și explicăm orice excepție legală, incluzând retenția statutară, revendicări legale, jurnale de securitate, înregistrări de suprimare sau date terțe/publice. Agenții autorizați pot acționa unde legea locală permite."
           ]
         },
         {
@@ -4796,7 +4796,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. Contact",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4924,7 +4924,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. যোগাযোগ",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "আইনি: legal@sundae.io · গোপনীয়তা: privacy@sundae.io · নিরাপত্তা: security@sundae.io"
+            "আইনি: legal@sundaetechnologies.com · গোপনীয়তা: privacy@sundaetechnologies.com · নিরাপত্তা: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -4992,7 +4992,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. আন্তর্জাতিক ট্রান্সফার এবং ডেটা রেসিডেন্সি",
           "paragraphs": [
-            "Sundae-এর প্রধান কার্যালয় যুক্তরাষ্ট্রে এবং Sundae বা তার প্রদানকারী যেখানে কার্যকর সেগুলিতে ডেটা প্রক্রিয়াজাত করতে পারে। আমরা এডিকাসি সিদ্ধান্ত, Standard Contractual Clauses, UK IDTA/Addendum অথবা প্রয়োজনীয় অন্য যে কোনো আইনগত মেকানিজম ব্যবহার করি, সাথে আরোগ্যতান্ত্রিক, টেকনিক্যাল ও সাংগঠনিক সুরক্ষা ব্যবস্থা। গ্রাহক রেসিডেন্সি পছন্দ সবচেয়ে-নির্দিষ্ট অনুমোদিত সংস্থা/অংশীদার সেটিং দ্বারা নির্ধারিত হবে; সেটিং পরিবর্তন করলে স্বয়ংক্রিয়ভাবে বিদ্যমান ডেটা মাইগ্রেট হবে না। আপনার অ্যাকাউন্টের জন্য প্রযোজ্য সুরক্ষা সম্পর্কে জানতে privacy@sundae.io-এ যোগাযোগ করুন।"
+            "Sundae-এর প্রধান কার্যালয় যুক্তরাষ্ট্রে এবং Sundae বা তার প্রদানকারী যেখানে কার্যকর সেগুলিতে ডেটা প্রক্রিয়াজাত করতে পারে। আমরা এডিকাসি সিদ্ধান্ত, Standard Contractual Clauses, UK IDTA/Addendum অথবা প্রয়োজনীয় অন্য যে কোনো আইনগত মেকানিজম ব্যবহার করি, সাথে আরোগ্যতান্ত্রিক, টেকনিক্যাল ও সাংগঠনিক সুরক্ষা ব্যবস্থা। গ্রাহক রেসিডেন্সি পছন্দ সবচেয়ে-নির্দিষ্ট অনুমোদিত সংস্থা/অংশীদার সেটিং দ্বারা নির্ধারিত হবে; সেটিং পরিবর্তন করলে স্বয়ংক্রিয়ভাবে বিদ্যমান ডেটা মাইগ্রেট হবে না। আপনার অ্যাকাউন্টের জন্য প্রযোজ্য সুরক্ষা সম্পর্কে জানতে privacy@sundaetechnologies.com-এ যোগাযোগ করুন।"
           ]
         },
         {
@@ -5005,7 +5005,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. অধিকার ও পছন্দসমূহ",
           "paragraphs": [
             "স্থানীয় আইনের প্রতি বাধ্য হয়ে, ব্যক্তিরা অ্যাক্সেস, সংশোধন, মুছে ফেলা, সীমাবদ্ধকরণ, পোর্টেবিলিটি, আপত্তি, সম্মতি প্রত্যাহার এবং মার্কেটিং/কুকি অপ্ট-আউটের অনুরোধ করতে পারেন। ক্যালিফোর্নিয়া অধিবাসীর কাছে জানতে, অ্যাক্সেস পেতে, মুছে ফেলার, সংশোধন, বিক্রি/শেয়ারিং বা টার্গেটেড বিজ্ঞাপনে অপ্ট-আউট করার, নির্দিষ্ট সংবেদনশীল-তথ্য ব্যবহারে সীমাবদ্ধতা আর সমান ব্যবহারের অধিকার থাকতে পারে। EEA/UK, UAE (DIFC/ADGM সহ) এবং অন্যান্য বিচারব্যবস্থায় অতিরিক্ত অধিকার, প্রতিনিধিত্বকারী বা অভিযোগ রুট থাকতে পারে।",
-            "অনুরোধ পাঠান privacy@sundae.io-তে। আমরা পরিচয় যাচাই করতে, প্রাসঙ্গিক সংস্থা/অ্যাকাউন্ট জানতে এবং গ্রাহক যদি কন্ট্রোলার হয় তবে Customer Data অনুরোধগুলো গ্রাহকের কাছে রুট করতে অনুরোধ করতে পারি। আমরা প্রযোজ্য আইনে নির্ধারিত সময়ের মধ্যে সাড়া দেব এবং যেকোনো আইনগত ব্যতিক্রম ব্যাখ্যা করব, যার মধ্যে বিধিগত রিটেনশন, আইনি দাবি, নিরাপত্তা লগ, সপ্রেশন রেকর্ড বা তৃতীয়-পক্ষ/সার্বজনীন ডেটা অন্তর্ভুক্ত। যেখানে স্থানীয় আইন অনুমতি দেয়, অথরাইজড এজেন্টরা কার্যকর হতে পারে।"
+            "অনুরোধ পাঠান privacy@sundaetechnologies.com-তে। আমরা পরিচয় যাচাই করতে, প্রাসঙ্গিক সংস্থা/অ্যাকাউন্ট জানতে এবং গ্রাহক যদি কন্ট্রোলার হয় তবে Customer Data অনুরোধগুলো গ্রাহকের কাছে রুট করতে অনুরোধ করতে পারি। আমরা প্রযোজ্য আইনে নির্ধারিত সময়ের মধ্যে সাড়া দেব এবং যেকোনো আইনগত ব্যতিক্রম ব্যাখ্যা করব, যার মধ্যে বিধিগত রিটেনশন, আইনি দাবি, নিরাপত্তা লগ, সপ্রেশন রেকর্ড বা তৃতীয়-পক্ষ/সার্বজনীন ডেটা অন্তর্ভুক্ত। যেখানে স্থানীয় আইন অনুমতি দেয়, অথরাইজড এজেন্টরা কার্যকর হতে পারে।"
           ]
         },
         {
@@ -5036,7 +5036,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. যোগাযোগ",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "গোপনীয়তা দল: privacy@sundae.io · আইনি: legal@sundae.io · নিরাপত্তা: security@sundae.io"
+            "গোপনীয়তা দল: privacy@sundaetechnologies.com · আইনি: legal@sundaetechnologies.com · নিরাপত্তা: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -5164,7 +5164,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "18. ติดต่อ",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Legal: legal@sundae.io · Privacy: privacy@sundae.io · Security: security@sundae.io"
+            "Legal: legal@sundaetechnologies.com · Privacy: privacy@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]
@@ -5232,7 +5232,7 @@ export const APPROVED_POLICY_LOCALES = {
         {
           "title": "8. การโอนข้อมูลระหว่างประเทศและถิ่นที่อยู่ข้อมูล",
           "paragraphs": [
-            "Sundae มีสำนักงานใหญ่ในสหรัฐอเมริกาและอาจประมวลผลข้อมูลในประเทศที่ Sundae หรือผู้ให้บริการดำเนินการอยู่ เราใช้การตัดสินใจว่าประเทศมีความเพียงพอ Standard Contractual Clauses UK IDTA/Addendum หรือกลไกทางกฎหมายอื่นเมื่อจำเป็น พร้อมด้วยมาตรการทางสัญญา เทคนิค และองค์กร Customer สามารถเลือกที่ตั้งถิ่นที่อยู่ข้อมูลด้วยการตั้งค่าที่ระบุโดยองค์กร/พันธมิตรที่ได้รับการอนุมัติและเฉพาะเจาะจงที่สุด; การเปลี่ยนการตั้งค่าไม่ย้ายข้อมูลที่มีอยู่โดยอัตโนมัติ ติดต่อ privacy@sundae.io เพื่อขอรายละเอียดมาตรการคุ้มครองที่เกี่ยวข้องกับบัญชีของคุณ."
+            "Sundae มีสำนักงานใหญ่ในสหรัฐอเมริกาและอาจประมวลผลข้อมูลในประเทศที่ Sundae หรือผู้ให้บริการดำเนินการอยู่ เราใช้การตัดสินใจว่าประเทศมีความเพียงพอ Standard Contractual Clauses UK IDTA/Addendum หรือกลไกทางกฎหมายอื่นเมื่อจำเป็น พร้อมด้วยมาตรการทางสัญญา เทคนิค และองค์กร Customer สามารถเลือกที่ตั้งถิ่นที่อยู่ข้อมูลด้วยการตั้งค่าที่ระบุโดยองค์กร/พันธมิตรที่ได้รับการอนุมัติและเฉพาะเจาะจงที่สุด; การเปลี่ยนการตั้งค่าไม่ย้ายข้อมูลที่มีอยู่โดยอัตโนมัติ ติดต่อ privacy@sundaetechnologies.com เพื่อขอรายละเอียดมาตรการคุ้มครองที่เกี่ยวข้องกับบัญชีของคุณ."
           ]
         },
         {
@@ -5245,7 +5245,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "10. สิทธิและการเลือก",
           "paragraphs": [
             "ขึ้นอยู่กับกฎหมายท้องถิ่น บุคคลอาจขอเข้าถึง แก้ไข ลบ จำกัด การพกพา คัดค้าน ถอนความยินยอม และยกเลิกการรับการตลาด/คุกกี้ ผู้อยู่อาศัยในแคลิฟอร์เนียอาจมีสิทธิ์ทราบ เข้าถึง ลบ แก้ไข เลือกไม่เข้าร่วมการขาย/การแบ่งปันหรือการโฆษณาที่กำหนดเป้าหมาย จำกัดการใช้ข้อมูลที่ไวต่อความรู้สึกบางประเภท และรับการปฏิบัติเท่าเทียม บุคคลใน EEA/UK UAE (รวม DIFC/ADGM) และเขตอำนาจอื่น ๆ อาจมีสิทธิ์เพิ่มเติม ผู้แทน หรือช่องทางการร้องเรียน.",
-            "ส่งคำขอไปยัง privacy@sundae.io เราอาจตรวจสอบตัวตน ขอข้อมูลบัญชี/องค์กรที่เกี่ยวข้อง และส่งคำขอที่เกี่ยวกับ Customer Data ไปยัง Customer เมื่อเป็น controller เราจะตอบภายในเวลาที่กฎหมายที่ใช้บังคับกำหนดและอธิบายข้อยกเว้นตามกฎหมาย รวมถึงการเก็บรักษาตามกฎหมาย คำร้องทางกฎหมาย บันทึกความปลอดภัย บันทึกการยกเว้น หรือข้อมูลบุคคลที่สาม/สาธารณะ ตัวแทนที่ได้รับอนุญาตอาจดำเนินการแทนได้เมื่อกฎหมายท้องถิ่นอนุญาต."
+            "ส่งคำขอไปยัง privacy@sundaetechnologies.com เราอาจตรวจสอบตัวตน ขอข้อมูลบัญชี/องค์กรที่เกี่ยวข้อง และส่งคำขอที่เกี่ยวกับ Customer Data ไปยัง Customer เมื่อเป็น controller เราจะตอบภายในเวลาที่กฎหมายที่ใช้บังคับกำหนดและอธิบายข้อยกเว้นตามกฎหมาย รวมถึงการเก็บรักษาตามกฎหมาย คำร้องทางกฎหมาย บันทึกความปลอดภัย บันทึกการยกเว้น หรือข้อมูลบุคคลที่สาม/สาธารณะ ตัวแทนที่ได้รับอนุญาตอาจดำเนินการแทนได้เมื่อกฎหมายท้องถิ่นอนุญาต."
           ]
         },
         {
@@ -5276,7 +5276,7 @@ export const APPROVED_POLICY_LOCALES = {
           "title": "15. ติดต่อ",
           "paragraphs": [
             "Sundae Technologies Inc. · 1007 N Orange St, 4th Floor, Suite 1382 · Wilmington, DE 19801, United States",
-            "Privacy team: privacy@sundae.io · Legal: legal@sundae.io · Security: security@sundae.io"
+            "Privacy team: privacy@sundaetechnologies.com · Legal: legal@sundaetechnologies.com · Security: security@sundaetechnologies.com"
           ]
         }
       ]

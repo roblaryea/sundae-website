@@ -355,7 +355,7 @@ test('contact mode: pricing question gets a summary and a team reply; support ge
   await choose(page, 'Operations');
   await choose(page, '1');
   await choose(page, 'Help with Sundae I already use');
-  await expect(panel(page).getByRole('link', { name: 'Email support' })).toHaveAttribute('href', 'mailto:support@sundae.io');
+  await expect(panel(page).getByRole('link', { name: 'Email support' })).toHaveAttribute('href', 'mailto:support@sundaetechnologies.com');
   expect((await leads(request)).leads).toHaveLength(0);
 });
 

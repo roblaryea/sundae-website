@@ -13,5 +13,5 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function TermsPage() {
   const locale = resolveWebsiteLocale(await cookies());
   const policy = getLocalizedPolicy(locale, "terms");
-  return <ApprovedPolicyPage {...policy} alternateHref="/privacy" contactEmail="legal@sundae.io" />;
+  return <ApprovedPolicyPage {...policy} alternateHref="/privacy" contactEmail="legal@sundaetechnologies.com" />;
 }

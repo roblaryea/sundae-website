@@ -152,7 +152,7 @@ export default async function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-[var(--text-primary)] text-sm">{copy.emailLabel}</h3>
-                    <p className="text-[var(--text-secondary)]">info@sundae.io</p>
+                    <p className="text-[var(--text-secondary)]">info@sundaetechnologies.com</p>
                     <p className="text-xs text-[var(--text-muted)] mt-1">{locale === "ar" ? "نرد عادة خلال ساعتين" : locale === "fr" ? "Réponse généralement sous 2 heures" : locale === "es" ? "Solemos responder en menos de 2 horas" : "We typically respond within 2 hours"}</p>
                   </div>
                 </div>
@@ -169,8 +169,8 @@ export default async function ContactPage() {
                         <p className="text-xs text-[var(--text-muted)]">Dubai Internet City</p>
                       </div>
                       <div>
-                        <p className="text-sm font-medium text-[var(--text-secondary)]">Toronto, Canada</p>
-                        <p className="text-xs text-[var(--text-muted)]">King Street West</p>
+                        <p className="text-sm font-medium text-[var(--text-secondary)]">Amsterdam, Netherlands</p>
+                        <p className="text-xs text-[var(--text-muted)]">Europe</p>
                       </div>
                     </div>
                   </div>

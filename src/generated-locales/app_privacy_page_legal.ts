@@ -170,7 +170,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Ihre Rechte und Wahlmöglichkeiten",
         "paragraphs": [
           "Abhängig von Ihrem Standort und dem geltenden Recht haben Sie möglicherweise einige oder alle der folgenden Rechte in Bezug auf Ihre personenbezogenen Daten:",
-          "Um diese Rechte auszuüben, kontaktieren Sie uns unter privacy@sundae.io. Wir antworten im Einklang mit den geltenden Datenschutzgesetzen und müssen möglicherweise Ihre Identität überprüfen, bevor wir Ihre Anfrage bearbeiten.",
+          "Um diese Rechte auszuüben, kontaktieren Sie uns unter privacy@sundaetechnologies.com. Wir antworten im Einklang mit den geltenden Datenschutzgesetzen und müssen möglicherweise Ihre Identität überprüfen, bevor wir Ihre Anfrage bearbeiten.",
           "Möglicherweise haben Sie auch das Recht, eine Beschwerde bei Ihrer örtlichen Datenschutzbehörde einzureichen. Wir empfehlen Ihnen, sich zunächst mit uns in Verbindung zu setzen, damit wir versuchen können, Ihr Anliegen zu klären."
         ],
         "bullets": [
@@ -220,7 +220,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Datenschutzrechte von Kalifornien (CCPA/CPRA)",
             "paragraphs": [
               "Wenn Sie in Kalifornien ansässig sind, haben Sie möglicherweise zusätzliche Rechte gemäß dem California Consumer Privacy Act in der durch das CPRA geänderten Fassung, einschließlich des Rechts, die Kategorien der gesammelten personenbezogenen Daten und deren Zwecke zu kennen, das Recht, zu erfahren, ob Informationen verkauft oder weitergegeben werden, das Recht, auf Ihre personenbezogenen Daten zuzugreifen und in bestimmten Fällen deren Löschung zu verlangen, das Recht, sich gegebenenfalls von bestimmten „Verkäufen“ oder „Teilen“ abzumelden, und das Recht, bei der Ausübung Ihrer Rechte nicht diskriminiert zu werden.",
-              "Sundae verkauft keine personenbezogenen Daten im allgemeinen Sinne des CCPA. Um Ihre Rechte in Kalifornien auszuüben, können Sie uns unter privacy@sundae.io kontaktieren."
+              "Sundae verkauft keine personenbezogenen Daten im allgemeinen Sinne des CCPA. Um Ihre Rechte in Kalifornien auszuüben, können Sie uns unter privacy@sundaetechnologies.com kontaktieren."
             ]
           },
           {
@@ -263,7 +263,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Beschwerden",
                 "paragraphs": [
-                  "Wenn Sie der Meinung sind, dass wir Ihre Datenschutzrechte nicht respektiert haben, können Sie eine Beschwerde beim UAE Data Office, beim Datenschutzbeauftragten des DIFC oder bei der zuständigen Behörde des ADGM einreichen. Wir würden uns jedoch über die Möglichkeit freuen, Ihr Anliegen vorab direkt unter privacy@sundae.io anzusprechen."
+                  "Wenn Sie der Meinung sind, dass wir Ihre Datenschutzrechte nicht respektiert haben, können Sie eine Beschwerde beim UAE Data Office, beim Datenschutzbeauftragten des DIFC oder bei der zuständigen Behörde des ADGM einreichen. Wir würden uns jedoch über die Möglichkeit freuen, Ihr Anliegen vorab direkt unter privacy@sundaetechnologies.com anzusprechen."
                 ]
               }
             ]
@@ -291,9 +291,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Schreiben Sie uns",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Rufen Sie uns an",
@@ -486,7 +486,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Uw rechten en keuzes",
         "paragraphs": [
           "Afhankelijk van uw locatie en de toepasselijke wetgeving heeft u mogelijk enkele of alle van de volgende rechten met betrekking tot uw persoonlijke gegevens:",
-          "Om deze rechten uit te oefenen, kunt u contact met ons opnemen via privacy@sundae.io. We zullen reageren in overeenstemming met de toepasselijke wetgeving inzake gegevensbescherming en moeten mogelijk uw identiteit verifiëren voordat we uw verzoek verwerken.",
+          "Om deze rechten uit te oefenen, kunt u contact met ons opnemen via privacy@sundaetechnologies.com. We zullen reageren in overeenstemming met de toepasselijke wetgeving inzake gegevensbescherming en moeten mogelijk uw identiteit verifiëren voordat we uw verzoek verwerken.",
           "Mogelijk hebt u ook het recht om een klacht in te dienen bij uw lokale gegevensbeschermingsautoriteit. Wij raden u aan eerst contact met ons op te nemen, zodat we kunnen proberen uw verzoek op te lossen."
         ],
         "bullets": [
@@ -536,7 +536,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Privacyrechten in Californië (CCPA/CPRA)",
             "paragraphs": [
               "Als u een inwoner van Californië bent, heeft u mogelijk aanvullende rechten op grond van de California Consumer Privacy Act, zoals gewijzigd door de CPRA, waaronder het recht om te weten welke categorieën persoonlijke gegevens worden verzameld en hun doeleinden, het recht om te weten of gegevens worden verkocht of gedeeld, het recht op toegang tot uw persoonlijke gegevens en om in bepaalde gevallen verwijdering te verzoeken, het recht om u af te melden voor bepaalde \"verkopen\" of \"delen\" indien van toepassing, en het recht om niet te worden gediscrimineerd vanwege de uitoefening van uw rechten.",
-              "Sundae verkoopt geen persoonlijke informatie in de algemene zin van de CCPA. Om uw rechten in Californië uit te oefenen, kunt u contact met ons opnemen via privacy@sundae.io."
+              "Sundae verkoopt geen persoonlijke informatie in de algemene zin van de CCPA. Om uw rechten in Californië uit te oefenen, kunt u contact met ons opnemen via privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -579,7 +579,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Klachten",
                 "paragraphs": [
-                  "Als u van mening bent dat wij uw gegevensbeschermingsrechten niet hebben gerespecteerd, kunt u een klacht indienen bij het Data Office van de VAE, de commissaris voor gegevensbescherming van de DIFC of de bevoegde autoriteit van de ADGM. We zouden het echter op prijs stellen als u uw zorgen vooraf rechtstreeks kunt bespreken via privacy@sundae.io."
+                  "Als u van mening bent dat wij uw gegevensbeschermingsrechten niet hebben gerespecteerd, kunt u een klacht indienen bij het Data Office van de VAE, de commissaris voor gegevensbescherming van de DIFC of de bevoegde autoriteit van de ADGM. We zouden het echter op prijs stellen als u uw zorgen vooraf rechtstreeks kunt bespreken via privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -607,9 +607,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Schrijf ons",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Bel ons",
@@ -802,7 +802,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Seus direitos e escolhas",
         "paragraphs": [
           "Dependendo da sua localização e da legislação aplicável, você poderá ter alguns ou todos os seguintes direitos em relação às suas informações pessoais:",
-          "Para exercer esses direitos, entre em contato conosco pelo e-mail privacy@sundae.io. Responderemos de acordo com as leis de proteção de dados aplicáveis e poderemos precisar verificar sua identidade antes de processar sua solicitação.",
+          "Para exercer esses direitos, entre em contato conosco pelo e-mail privacy@sundaetechnologies.com. Responderemos de acordo com as leis de proteção de dados aplicáveis e poderemos precisar verificar sua identidade antes de processar sua solicitação.",
           "Você também pode ter o direito de apresentar uma reclamação à autoridade local de proteção de dados. Recomendamos que você entre em contato conosco primeiro para que possamos tentar resolver sua solicitação."
         ],
         "bullets": [
@@ -852,7 +852,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Direitos de Privacidade da Califórnia (CCPA/CPRA)",
             "paragraphs": [
               "Se você for residente na Califórnia, poderá ter direitos adicionais sob a Lei de Privacidade do Consumidor da Califórnia, conforme alterada pela CPRA, incluindo o direito de conhecer as categorias de informações pessoais coletadas e suas finalidades, o direito de saber se as informações estão sendo vendidas ou compartilhadas, o direito de acessar suas informações pessoais e solicitar a exclusão em certos casos, o direito de cancelar certas \"vendas\" ou \"compartilhamentos\" quando aplicável, e o direito de não ser discriminado pelo exercício de seus direitos.",
-              "Sundae não vende informações pessoais no sentido geral da CCPA. Para exercer seus direitos na Califórnia, entre em contato conosco pelo e-mail privacy@sundae.io."
+              "Sundae não vende informações pessoais no sentido geral da CCPA. Para exercer seus direitos na Califórnia, entre em contato conosco pelo e-mail privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -895,7 +895,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Reclamações",
                 "paragraphs": [
-                  "Se você acredita que não respeitamos seus direitos de proteção de dados, você pode apresentar uma reclamação ao Escritório de Dados dos Emirados Árabes Unidos, ao Comissário de Proteção de Dados do DIFC ou à autoridade competente do ADGM. No entanto, gostaríamos de ter a oportunidade de abordar suas preocupações diretamente com antecedência em privacy@sundae.io."
+                  "Se você acredita que não respeitamos seus direitos de proteção de dados, você pode apresentar uma reclamação ao Escritório de Dados dos Emirados Árabes Unidos, ao Comissário de Proteção de Dados do DIFC ou à autoridade competente do ADGM. No entanto, gostaríamos de ter a oportunidade de abordar suas preocupações diretamente com antecedência em privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -923,9 +923,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Escreva para nós",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Ligue para nós",
@@ -1118,7 +1118,7 @@ export const generatedPrivacyCopy = {
         "title": "7. आपके अधिकार और विकल्प",
         "paragraphs": [
           "आपके स्थान और लागू कानून के आधार पर, आपकी व्यक्तिगत जानकारी के संबंध में आपके पास निम्नलिखित में से कुछ या सभी अधिकार हो सकते हैं:",
-          "इन अधिकारों का प्रयोग करने के लिए, privacy@sundae.io पर संपर्क करें। हम लागू डेटा सुरक्षा कानूनों के अनुसार जवाब देंगे और आपके अनुरोध पर कार्रवाई करने से पहले आपकी पहचान सत्यापित करने की आवश्यकता हो सकती है।",
+          "इन अधिकारों का प्रयोग करने के लिए, privacy@sundaetechnologies.com पर संपर्क करें। हम लागू डेटा सुरक्षा कानूनों के अनुसार जवाब देंगे और आपके अनुरोध पर कार्रवाई करने से पहले आपकी पहचान सत्यापित करने की आवश्यकता हो सकती है।",
           "आपको अपने स्थानीय डेटा सुरक्षा प्राधिकरण के पास शिकायत दर्ज करने का भी अधिकार हो सकता है। हम आपको पहले हमसे संपर्क करने के लिए प्रोत्साहित करते हैं ताकि हम आपके अनुरोध को हल करने का प्रयास कर सकें।"
         ],
         "bullets": [
@@ -1168,7 +1168,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 कैलिफोर्निया गोपनीयता अधिकार (सीसीपीए/सीपीआरए)",
             "paragraphs": [
               "यदि आप कैलिफोर्निया के निवासी हैं, तो आपके पास सीपीआरए द्वारा संशोधित कैलिफोर्निया उपभोक्ता गोपनीयता अधिनियम के तहत अतिरिक्त अधिकार हो सकते हैं, जिसमें एकत्र की गई व्यक्तिगत जानकारी की श्रेणियों और उनके उद्देश्यों को जानने का अधिकार, यह जानने का अधिकार कि क्या जानकारी बेची जा रही है या साझा की जा रही है, आपकी व्यक्तिगत जानकारी तक पहुंचने और कुछ मामलों में हटाने का अनुरोध करने का अधिकार, जहां लागू हो, कुछ \"बिक्री\" या \"साझाकरण\" से बाहर निकलने का अधिकार, और अपने अधिकारों के प्रयोग के लिए भेदभाव न करने का अधिकार।",
-              "संडे सीसीपीए के सामान्य अर्थ में व्यक्तिगत जानकारी नहीं बेचता है। कैलिफ़ोर्निया में अपने अधिकारों का प्रयोग करने के लिए, आप privacy@sundae.io पर संपर्क कर सकते हैं।"
+              "संडे सीसीपीए के सामान्य अर्थ में व्यक्तिगत जानकारी नहीं बेचता है। कैलिफ़ोर्निया में अपने अधिकारों का प्रयोग करने के लिए, आप privacy@sundaetechnologies.com पर संपर्क कर सकते हैं।"
             ]
           },
           {
@@ -1211,7 +1211,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "शिकायतें",
                 "paragraphs": [
-                  "यदि आपको लगता है कि हमने आपके डेटा सुरक्षा अधिकारों का सम्मान नहीं किया है, तो आप यूएई डेटा कार्यालय, डीआईएफसी के डेटा संरक्षण आयुक्त या एडीजीएम के सक्षम प्राधिकारी के पास शिकायत दर्ज कर सकते हैं। हालाँकि, हम पहले आपकी चिंताओं को सीधे privacy@sundae.io के माध्यम से संबोधित करने के अवसर की सराहना करेंगे।"
+                  "यदि आपको लगता है कि हमने आपके डेटा सुरक्षा अधिकारों का सम्मान नहीं किया है, तो आप यूएई डेटा कार्यालय, डीआईएफसी के डेटा संरक्षण आयुक्त या एडीजीएम के सक्षम प्राधिकारी के पास शिकायत दर्ज कर सकते हैं। हालाँकि, हम पहले आपकी चिंताओं को सीधे privacy@sundaetechnologies.com के माध्यम से संबोधित करने के अवसर की सराहना करेंगे।"
                 ]
               }
             ]
@@ -1239,9 +1239,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "हमें लिखें",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "हमें कॉल करें",
@@ -1434,7 +1434,7 @@ export const generatedPrivacyCopy = {
         "title": "7. آپ کے حقوق اور انتخاب",
         "paragraphs": [
           "آپ کے مقام اور قابل اطلاق قانون کی بنیاد پر، آپ کو اپنی ذاتی معلومات سے متعلق درج ذیل میں سے کچھ یا تمام حقوق حاصل ہو سکتے ہیں:",
-          "ان حقوق کو استعمال کرنے کے لیے، ہم سے privacy@sundae.io پر رابطہ کریں۔ ہم قابل اطلاق ڈیٹا کے تحفظ کے قوانین کے مطابق جواب دیں گے اور آپ کی درخواست پر کارروائی کرنے سے پہلے آپ کی شناخت کی تصدیق کرنے کی ضرورت پڑ سکتی ہے۔",
+          "ان حقوق کو استعمال کرنے کے لیے، ہم سے privacy@sundaetechnologies.com پر رابطہ کریں۔ ہم قابل اطلاق ڈیٹا کے تحفظ کے قوانین کے مطابق جواب دیں گے اور آپ کی درخواست پر کارروائی کرنے سے پہلے آپ کی شناخت کی تصدیق کرنے کی ضرورت پڑ سکتی ہے۔",
           "آپ کو اپنے مقامی ڈیٹا پروٹیکشن اتھارٹی کے پاس شکایت درج کرانے کا حق بھی حاصل ہو سکتا ہے۔ ہم آپ کی حوصلہ افزائی کرتے ہیں کہ پہلے ہم سے رابطہ کریں تاکہ ہم آپ کی درخواست کو حل کرنے کی کوشش کر سکیں۔"
         ],
         "bullets": [
@@ -1484,7 +1484,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 کیلیفورنیا کے رازداری کے حقوق (CCPA/CPRA)",
             "paragraphs": [
               "اگر آپ کیلیفورنیا کے رہائشی ہیں، تو آپ کو کیلیفورنیا کنزیومر پرائیویسی ایکٹ کے تحت اضافی حقوق حاصل ہو سکتے ہیں، جیسا کہ CPRA کی طرف سے ترمیم کی گئی ہے، جس میں جمع کی گئی ذاتی معلومات کے زمرے اور ان کے مقاصد کو جاننے کا حق، یہ جاننے کا حق کہ آیا معلومات فروخت کی جا رہی ہیں یا شیئر کی جا رہی ہیں، آپ کی ذاتی معلومات تک رسائی کا حق اور بعض صورتوں میں حذف کرنے کی درخواست کا حق، جہاں قابل اطلاق ہو وہاں بعض \"فروخت\" یا \"اشتراک\" سے آپٹ آؤٹ کرنے کا حق، اور اپنے حقوق کے استعمال کی وجہ سے امتیازی سلوک کا نشانہ نہ بننے کا حق شامل ہے۔",
-              "Sundae ذاتی معلومات کو CCPA کے عمومی معنوں میں فروخت نہیں کرتا ہے۔ کیلیفورنیا میں اپنے حقوق استعمال کرنے کے لیے، آپ ہم سے privacy@sundae.io پر رابطہ کر سکتے ہیں۔"
+              "Sundae ذاتی معلومات کو CCPA کے عمومی معنوں میں فروخت نہیں کرتا ہے۔ کیلیفورنیا میں اپنے حقوق استعمال کرنے کے لیے، آپ ہم سے privacy@sundaetechnologies.com پر رابطہ کر سکتے ہیں۔"
             ]
           },
           {
@@ -1527,7 +1527,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "شکایات",
                 "paragraphs": [
-                  "اگر آپ کو یقین ہے کہ ہم نے آپ کے ڈیٹا کے تحفظ کے حقوق کا احترام نہیں کیا ہے، تو آپ UAE ڈیٹا آفس، DIFC کے ڈیٹا پروٹیکشن کمشنر یا ADGM کے مجاز اتھارٹی کے پاس شکایت درج کر سکتے ہیں۔ تاہم، ہم privacy@sundae.io پر براہ راست پیشگی آپ کے خدشات کو دور کرنے کے موقع کی تعریف کریں گے۔"
+                  "اگر آپ کو یقین ہے کہ ہم نے آپ کے ڈیٹا کے تحفظ کے حقوق کا احترام نہیں کیا ہے، تو آپ UAE ڈیٹا آفس، DIFC کے ڈیٹا پروٹیکشن کمشنر یا ADGM کے مجاز اتھارٹی کے پاس شکایت درج کر سکتے ہیں۔ تاہم، ہم privacy@sundaetechnologies.com پر براہ راست پیشگی آپ کے خدشات کو دور کرنے کے موقع کی تعریف کریں گے۔"
                 ]
               }
             ]
@@ -1555,9 +1555,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "ہمیں لکھیں۔",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "ہمیں کال کریں۔",
@@ -1750,7 +1750,7 @@ export const generatedPrivacyCopy = {
         "title": "7. I tuoi diritti e le tue scelte",
         "paragraphs": [
           "A seconda della tua posizione e della legge applicabile, potresti avere alcuni o tutti i seguenti diritti relativi alle tue informazioni personali:",
-          "Per esercitare questi diritti, contattaci all'indirizzo privacy@sundae.io. Risponderemo in conformità con le leggi applicabili sulla protezione dei dati e potrebbe essere necessario verificare la tua identità prima di elaborare la tua richiesta.",
+          "Per esercitare questi diritti, contattaci all'indirizzo privacy@sundaetechnologies.com. Risponderemo in conformità con le leggi applicabili sulla protezione dei dati e potrebbe essere necessario verificare la tua identità prima di elaborare la tua richiesta.",
           "Potresti anche avere il diritto di presentare un reclamo all'autorità locale per la protezione dei dati. Ti invitiamo a contattarci prima in modo che possiamo tentare di risolvere la tua richiesta."
         ],
         "bullets": [
@@ -1800,7 +1800,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Diritti sulla privacy della California (CCPA/CPRA)",
             "paragraphs": [
               "Se risiedi in California, potresti avere diritti aggiuntivi ai sensi del California Consumer Privacy Act, come modificato dal CPRA, incluso il diritto di conoscere le categorie di informazioni personali raccolte e i loro scopi, il diritto di sapere se le informazioni vengono vendute o condivise, il diritto di accedere alle tue informazioni personali e richiederne la cancellazione in alcuni casi, il diritto di rinunciare a determinate \"vendite\" o \"condivisioni\" ove applicabile, e il diritto di non essere discriminato per l'esercizio dei tuoi diritti.",
-              "Sundae non vende informazioni personali nel senso generale del CCPA. Per esercitare i tuoi diritti in California, puoi contattarci all'indirizzo privacy@sundae.io."
+              "Sundae non vende informazioni personali nel senso generale del CCPA. Per esercitare i tuoi diritti in California, puoi contattarci all'indirizzo privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -1843,7 +1843,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Reclami",
                 "paragraphs": [
-                  "Se ritieni che non abbiamo rispettato i tuoi diritti in materia di protezione dei dati, puoi presentare un reclamo all'Ufficio dati degli Emirati Arabi Uniti, al Commissario per la protezione dei dati del DIFC o all'autorità competente dell'ADGM. Tuttavia, apprezzeremmo l'opportunità di rispondere alle tue preoccupazioni direttamente in anticipo all'indirizzo privacy@sundae.io."
+                  "Se ritieni che non abbiamo rispettato i tuoi diritti in materia di protezione dei dati, puoi presentare un reclamo all'Ufficio dati degli Emirati Arabi Uniti, al Commissario per la protezione dei dati del DIFC o all'autorità competente dell'ADGM. Tuttavia, apprezzeremmo l'opportunità di rispondere alle tue preoccupazioni direttamente in anticipo all'indirizzo privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -1871,9 +1871,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Scrivici",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Chiamaci",
@@ -2066,7 +2066,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Twoje prawa i wybory",
         "paragraphs": [
           "W zależności od Twojej lokalizacji i obowiązującego prawa możesz mieć niektóre lub wszystkie z poniższych praw dotyczących Twoich danych osobowych:",
-          "Aby skorzystać z tych praw, skontaktuj się z nami pod adresem privacy@sundae.io. Odpowiemy zgodnie z obowiązującymi przepisami o ochronie danych i może być konieczne zweryfikowanie Twojej tożsamości przed przetworzeniem Twojej prośby.",
+          "Aby skorzystać z tych praw, skontaktuj się z nami pod adresem privacy@sundaetechnologies.com. Odpowiemy zgodnie z obowiązującymi przepisami o ochronie danych i może być konieczne zweryfikowanie Twojej tożsamości przed przetworzeniem Twojej prośby.",
           "Możesz mieć również prawo do złożenia skargi do lokalnego organu ochrony danych. Zachęcamy Cię do skontaktowania się z nami, abyśmy mogli spróbować rozwiązać Twoją prośbę."
         ],
         "bullets": [
@@ -2116,7 +2116,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Kalifornijskie prawa do prywatności (CCPA/CPRA)",
             "paragraphs": [
               "Jeśli jesteś mieszkańcem Kalifornii, możesz mieć dodatkowe prawa zgodnie z kalifornijską ustawą o ochronie prywatności konsumentów, zmienioną przez ustawę CPRA, w tym prawo do poznania kategorii gromadzonych danych osobowych i ich celów, prawo do informacji, czy informacje są sprzedawane lub udostępniane, prawo dostępu do swoich danych osobowych i żądania ich usunięcia w niektórych przypadkach, prawo do rezygnacji z niektórych „sprzedaży” lub „udostępniania”, w stosownych przypadkach, oraz prawo do nie bycia dyskryminowanym w związku z korzystaniem ze swoich praw.",
-              "Sundae nie sprzedaje danych osobowych w ogólnym rozumieniu ustawy CCPA. Aby skorzystać ze swoich praw w Kalifornii, możesz skontaktować się z nami pod adresem privacy@sundae.io."
+              "Sundae nie sprzedaje danych osobowych w ogólnym rozumieniu ustawy CCPA. Aby skorzystać ze swoich praw w Kalifornii, możesz skontaktować się z nami pod adresem privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -2159,7 +2159,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Reklamacje",
                 "paragraphs": [
-                  "Jeśli uważasz, że nie przestrzegaliśmy Twoich praw do ochrony danych, możesz złożyć skargę do Urzędu Danych Zjednoczonych Emiratów Arabskich, Komisarza ds. Ochrony Danych DIFC lub właściwego organu ADGM. Będziemy jednak wdzięczni za możliwość bezpośredniego omówienia Twoich wątpliwości pod adresem e-mail: privacy@sundae.io."
+                  "Jeśli uważasz, że nie przestrzegaliśmy Twoich praw do ochrony danych, możesz złożyć skargę do Urzędu Danych Zjednoczonych Emiratów Arabskich, Komisarza ds. Ochrony Danych DIFC lub właściwego organu ADGM. Będziemy jednak wdzięczni za możliwość bezpośredniego omówienia Twoich wątpliwości pod adresem e-mail: privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -2187,9 +2187,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Napisz do nas",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Zadzwoń do nas",
@@ -2382,7 +2382,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Haklarınız ve seçimleriniz",
         "paragraphs": [
           "Bulunduğunuz yere ve geçerli yasalara bağlı olarak, kişisel bilgilerinizle ilgili aşağıdaki hakların bir kısmına veya tamamına sahip olabilirsiniz:",
-          "Bu hakları kullanmak için bizimle privacy@sundae.io adresinden iletişime geçin. Geçerli veri koruma yasalarına uygun olarak yanıt vereceğiz ve talebinizi işleme koymadan önce kimliğinizi doğrulamamız gerekebilir.",
+          "Bu hakları kullanmak için bizimle privacy@sundaetechnologies.com adresinden iletişime geçin. Geçerli veri koruma yasalarına uygun olarak yanıt vereceğiz ve talebinizi işleme koymadan önce kimliğinizi doğrulamamız gerekebilir.",
           "Ayrıca yerel veri koruma yetkilinize şikayette bulunma hakkınız da olabilir. Talebinizi çözümlemeye çalışabilmemiz için öncelikle bizimle iletişime geçmenizi öneririz."
         ],
         "bullets": [
@@ -2432,7 +2432,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Kaliforniya Gizlilik Hakları (CCPA/CPRA)",
             "paragraphs": [
               "Kaliforniya'da ikamet ediyorsanız, CPRA tarafından değiştirilen Kaliforniya Tüketici Gizliliği Yasası kapsamında, toplanan kişisel bilgilerin kategorilerini ve amaçlarını bilme hakkı, bilgilerin satılıp satılmadığını veya paylaşıldığını bilme hakkı, kişisel bilgilerinize erişme ve belirli durumlarda silinmesini talep etme hakkı, uygun olduğu durumlarda belirli \"satış\" veya \"paylaşım\"dan vazgeçme hakkı ve haklarınızı kullanırken ayrımcılığa uğramama hakkı da dahil olmak üzere ek haklara sahip olabilirsiniz.",
-              "Sundae, CCPA'nın genel anlamında kişisel bilgileri satmaz. Kaliforniya'daki haklarınızı kullanmak için bizimle privacy@sundae.io adresinden iletişime geçebilirsiniz."
+              "Sundae, CCPA'nın genel anlamında kişisel bilgileri satmaz. Kaliforniya'daki haklarınızı kullanmak için bizimle privacy@sundaetechnologies.com adresinden iletişime geçebilirsiniz."
             ]
           },
           {
@@ -2475,7 +2475,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Şikayetler",
                 "paragraphs": [
-                  "Veri koruma haklarınıza saygı göstermediğimizi düşünüyorsanız BAE Veri Ofisine, DIFC Veri Koruma Komiseri'ne veya ADGM'nin yetkili makamına şikayette bulunabilirsiniz. Ancak endişelerinizi önceden doğrudan privacy@sundae.io adresinden giderme fırsatından memnuniyet duyarız."
+                  "Veri koruma haklarınıza saygı göstermediğimizi düşünüyorsanız BAE Veri Ofisine, DIFC Veri Koruma Komiseri'ne veya ADGM'nin yetkili makamına şikayette bulunabilirsiniz. Ancak endişelerinizi önceden doğrudan privacy@sundaetechnologies.com adresinden giderme fırsatından memnuniyet duyarız."
                 ]
               }
             ]
@@ -2503,9 +2503,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Bize yazın",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Bizi arayın",
@@ -2698,7 +2698,7 @@ export const generatedPrivacyCopy = {
         "title": "7. 您的权利和选择",
         "paragraphs": [
           "根据您所在的位置和适用的法律，您可能对您的个人信息拥有以下部分或全部权利：",
-          "要行使这些权利，请通过 privacy@sundae.io 与我们联系。我们将根据适用的数据保护法做出回应，并且在处理您的请求之前可能需要验证您的身份。",
+          "要行使这些权利，请通过 privacy@sundaetechnologies.com 与我们联系。我们将根据适用的数据保护法做出回应，并且在处理您的请求之前可能需要验证您的身份。",
           "您可能还有权向当地数据保护机构提出投诉。我们鼓励您先联系我们，以便我们尝试解决您的请求。"
         ],
         "bullets": [
@@ -2748,7 +2748,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 加州隐私权 (CCPA/CPRA)",
             "paragraphs": [
               "如果您是加利福尼亚州居民，根据经 CPRA 修订的《加利福尼亚州消费者隐私法》，您可能享有其他权利，包括了解所收集的个人信息的类别及其目的的权利、了解信息是否被出售或共享的权利、在某些情况下访问您的个人信息并要求删除的权利、选择退出某些“销售”或“共享”（如果适用）的权利，以及不因行使您的权利而受到歧视的权利。",
-              "Sundae 不会按照 CCPA 的一般定义出售个人信息。要行使您在加州的权利，您可以通过 privacy@sundae.io 与我们联系。"
+              "Sundae 不会按照 CCPA 的一般定义出售个人信息。要行使您在加州的权利，您可以通过 privacy@sundaetechnologies.com 与我们联系。"
             ]
           },
           {
@@ -2791,7 +2791,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "投诉",
                 "paragraphs": [
-                  "如果您认为我们未能尊重您的数据保护权利，您可以向阿联酋数据局、DIFC 数据保护专员或 ADGM 的主管机关提出投诉。不过，我们希望有机会提前通过 privacy@sundae.io 直接解决您的疑虑。"
+                  "如果您认为我们未能尊重您的数据保护权利，您可以向阿联酋数据局、DIFC 数据保护专员或 ADGM 的主管机关提出投诉。不过，我们希望有机会提前通过 privacy@sundaetechnologies.com 直接解决您的疑虑。"
                 ]
               }
             ]
@@ -2819,9 +2819,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "写信给我们",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "致电我们",
@@ -3014,7 +3014,7 @@ export const generatedPrivacyCopy = {
         "title": "7. お客様の権利と選択",
         "paragraphs": [
           "お住まいの地域および適用される法律に応じて、お客様はご自身の個人情報に関して次の権利の一部またはすべてを有する場合があります。",
-          "privacy@sundae.io までご連絡ください。当社は適用されるデータ保護法に従って対応しますが、リクエストを処理する前に身元確認が必要になる場合があります。",
+          "privacy@sundaetechnologies.com までご連絡ください。当社は適用されるデータ保護法に従って対応しますが、リクエストを処理する前に身元確認が必要になる場合があります。",
           "また、地域のデータ保護当局に苦情を申し立てる権利もあります。お客様のご要望を解決できるよう、まずはお問い合わせいただくことをお勧めします。"
         ],
         "bullets": [
@@ -3064,7 +3064,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 カリフォルニア州のプライバシー権 (CCPA/CPRA)",
             "paragraphs": [
               "お客様がカリフォルニア州居住者である場合、お客様は、CPRA によって改正されたカリフォルニア州消費者プライバシー法に基づく追加の権利を有する場合があります。これには、収集された個人情報のカテゴリーとその目的を知る権利、情報が販売または共有されているかどうかを知る権利、特定の場合に自分の個人情報にアクセスして削除を要求する権利、該当する場合には特定の「販売」または「共有」をオプトアウトする権利、および権利の行使によって差別されない権利が含まれます。",
-              "Sundae は、CCPA で一般に定義される意味での個人情報の販売は行いません。カリフォルニア州での権利を行使するには、privacy@sundae.io までご連絡ください。"
+              "Sundae は、CCPA で一般に定義される意味での個人情報の販売は行いません。カリフォルニア州での権利を行使するには、privacy@sundaetechnologies.com までご連絡ください。"
             ]
           },
           {
@@ -3107,7 +3107,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "苦情",
                 "paragraphs": [
-                  "当社がお客様のデータ保護権利を尊重していないと思われる場合は、UAE データ局、DIFC のデータ保護委員、または ADGM の管轄当局に苦情を申し立てることができます。ただし、まずは privacy@sundae.io まで直接ご連絡いただき、お客様の懸念に対処する機会をいただければ幸いです。"
+                  "当社がお客様のデータ保護権利を尊重していないと思われる場合は、UAE データ局、DIFC のデータ保護委員、または ADGM の管轄当局に苦情を申し立てることができます。ただし、まずは privacy@sundaetechnologies.com まで直接ご連絡いただき、お客様の懸念に対処する機会をいただければ幸いです。"
                 ]
               }
             ]
@@ -3135,9 +3135,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "私たちに手紙を書いてください",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "お電話ください",
@@ -3330,7 +3330,7 @@ export const generatedPrivacyCopy = {
         "title": "7. 귀하의 권리와 선택",
         "paragraphs": [
           "귀하의 위치와 해당 법률에 따라 귀하는 귀하의 개인정보와 관련하여 다음 권리 중 일부 또는 전부를 가질 수 있습니다.",
-          "이러한 권리를 행사하려면 privacy@sundae.io로 문의하세요. 당사는 해당 데이터 보호법에 따라 응답할 것이며 귀하의 요청을 처리하기 전에 귀하의 신원을 확인해야 할 수도 있습니다.",
+          "이러한 권리를 행사하려면 privacy@sundaetechnologies.com로 문의하세요. 당사는 해당 데이터 보호법에 따라 응답할 것이며 귀하의 요청을 처리하기 전에 귀하의 신원을 확인해야 할 수도 있습니다.",
           "귀하는 또한 현지 데이터 보호 당국에 불만을 제기할 권리가 있습니다. 귀하의 요청을 해결할 수 있도록 먼저 당사에 연락해 주시기 바랍니다."
         ],
         "bullets": [
@@ -3380,7 +3380,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 캘리포니아 개인정보 보호 권리(CCPA/CPRA)",
             "paragraphs": [
               "귀하가 캘리포니아 거주자인 경우, 귀하는 수집된 개인 정보의 범주와 그 목적을 알 권리, 정보가 판매 또는 공유되는지 알 권리, 특정 경우에 귀하의 개인 정보에 접근하고 삭제를 요청할 권리, 해당되는 경우 특정 \"판매\" 또는 \"공유\"를 거부할 권리, 귀하의 권리 행사에 대해 차별을 받지 않을 권리를 포함하여 CPRA가 개정한 캘리포니아 소비자 개인 정보 보호법에 따라 추가 권리를 가질 수 있습니다.",
-              "Sundae는 CCPA의 일반적인 의미에서 개인정보를 판매하지 않습니다. 캘리포니아에서 귀하의 권리를 행사하려면 privacy@sundae.io로 문의하세요."
+              "Sundae는 CCPA의 일반적인 의미에서 개인정보를 판매하지 않습니다. 캘리포니아에서 귀하의 권리를 행사하려면 privacy@sundaetechnologies.com로 문의하세요."
             ]
           },
           {
@@ -3423,7 +3423,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "불만사항",
                 "paragraphs": [
-                  "당사가 귀하의 데이터 보호 권리를 존중하지 않았다고 생각하는 경우 UAE 데이터 사무소, DIFC 데이터 보호 위원 또는 ADGM의 관할 당국에 불만을 제기할 수 있습니다. 하지만 사전에 privacy@sundae.io로 귀하의 우려 사항을 직접 해결할 수 있는 기회를 주시면 감사하겠습니다."
+                  "당사가 귀하의 데이터 보호 권리를 존중하지 않았다고 생각하는 경우 UAE 데이터 사무소, DIFC 데이터 보호 위원 또는 ADGM의 관할 당국에 불만을 제기할 수 있습니다. 하지만 사전에 privacy@sundaetechnologies.com로 귀하의 우려 사항을 직접 해결할 수 있는 기회를 주시면 감사하겠습니다."
                 ]
               }
             ]
@@ -3451,9 +3451,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "우리에게 편지 쓰기",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "전화주세요",
@@ -3646,7 +3646,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Hak dan pilihan Anda",
         "paragraphs": [
           "Tergantung pada lokasi Anda dan hukum yang berlaku, Anda mungkin memiliki beberapa atau seluruh hak berikut mengenai informasi pribadi Anda:",
-          "Untuk menggunakan hak ini, hubungi kami di privacy@sundae.io. Kami akan merespons sesuai dengan undang-undang perlindungan data yang berlaku dan mungkin perlu memverifikasi identitas Anda sebelum memproses permintaan Anda.",
+          "Untuk menggunakan hak ini, hubungi kami di privacy@sundaetechnologies.com. Kami akan merespons sesuai dengan undang-undang perlindungan data yang berlaku dan mungkin perlu memverifikasi identitas Anda sebelum memproses permintaan Anda.",
           "Anda mungkin juga berhak mengajukan keluhan kepada otoritas perlindungan data setempat. Kami mendorong Anda untuk menghubungi kami terlebih dahulu sehingga kami dapat mencoba menyelesaikan permintaan Anda."
         ],
         "bullets": [
@@ -3696,7 +3696,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Hak Privasi California (CCPA/CPRA)",
             "paragraphs": [
               "Jika Anda adalah penduduk California, Anda mungkin memiliki hak tambahan berdasarkan Undang-Undang Privasi Konsumen California, sebagaimana diubah oleh CPRA, termasuk hak untuk mengetahui kategori informasi pribadi yang dikumpulkan dan tujuannya, hak untuk mengetahui apakah informasi tersebut dijual atau dibagikan, hak untuk mengakses informasi pribadi Anda dan meminta penghapusan dalam kasus tertentu, hak untuk memilih tidak ikut \"penjualan\" atau \"pembagian\" tertentu jika berlaku, dan hak untuk tidak didiskriminasi dalam pelaksanaan hak Anda.",
-              "Sundae tidak menjual informasi pribadi seperti yang dimaksud CCPA secara umum. Untuk menggunakan hak Anda di California, Anda dapat menghubungi kami di privacy@sundae.io."
+              "Sundae tidak menjual informasi pribadi seperti yang dimaksud CCPA secara umum. Untuk menggunakan hak Anda di California, Anda dapat menghubungi kami di privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -3739,7 +3739,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Keluhan",
                 "paragraphs": [
-                  "Jika Anda yakin bahwa kami tidak menghormati hak perlindungan data Anda, Anda dapat mengajukan keluhan ke Kantor Data UEA, Komisaris Perlindungan Data DIFC, atau otoritas yang berwenang di ADGM. Namun, kami sangat menghargai kesempatan untuk menyampaikan kekhawatiran Anda secara langsung terlebih dahulu di privacy@sundae.io."
+                  "Jika Anda yakin bahwa kami tidak menghormati hak perlindungan data Anda, Anda dapat mengajukan keluhan ke Kantor Data UEA, Komisaris Perlindungan Data DIFC, atau otoritas yang berwenang di ADGM. Namun, kami sangat menghargai kesempatan untuk menyampaikan kekhawatiran Anda secara langsung terlebih dahulu di privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -3767,9 +3767,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Menulis kepada kami",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Hubungi kami",
@@ -3962,7 +3962,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Quyền và lựa chọn của bạn",
         "paragraphs": [
           "Tùy thuộc vào vị trí của bạn và luật hiện hành, bạn có thể có một số hoặc tất cả các quyền sau đây liên quan đến thông tin cá nhân của mình:",
-          "Để thực hiện các quyền này, hãy liên hệ với chúng tôi theo địa chỉ privacy@sundae.io. Chúng tôi sẽ phản hồi theo luật bảo vệ dữ liệu hiện hành và có thể cần xác minh danh tính của bạn trước khi xử lý yêu cầu của bạn.",
+          "Để thực hiện các quyền này, hãy liên hệ với chúng tôi theo địa chỉ privacy@sundaetechnologies.com. Chúng tôi sẽ phản hồi theo luật bảo vệ dữ liệu hiện hành và có thể cần xác minh danh tính của bạn trước khi xử lý yêu cầu của bạn.",
           "Bạn cũng có thể có quyền khiếu nại với cơ quan bảo vệ dữ liệu địa phương. Chúng tôi khuyến khích bạn liên hệ với chúng tôi trước để chúng tôi có thể cố gắng giải quyết yêu cầu của bạn."
         ],
         "bullets": [
@@ -4012,7 +4012,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Quyền riêng tư của California (CCPA/CPRA)",
             "paragraphs": [
               "Nếu bạn là cư dân California, bạn có thể có các quyền bổ sung theo Đạo luật về quyền riêng tư của người tiêu dùng California, được sửa đổi bởi CPRA, bao gồm quyền biết các loại thông tin cá nhân được thu thập và mục đích của chúng, quyền biết liệu thông tin có được bán hay chia sẻ hay không, quyền truy cập thông tin cá nhân của bạn và yêu cầu xóa trong một số trường hợp nhất định, quyền chọn không tham gia \"bán hàng\" hoặc \"chia sẻ\" nhất định nếu có và quyền không bị phân biệt đối xử khi thực hiện các quyền của bạn.",
-              "Sundae không bán thông tin cá nhân theo nghĩa chung của CCPA. Để thực hiện các quyền của mình ở California, bạn có thể liên hệ với chúng tôi theo địa chỉ privacy@sundae.io."
+              "Sundae không bán thông tin cá nhân theo nghĩa chung của CCPA. Để thực hiện các quyền của mình ở California, bạn có thể liên hệ với chúng tôi theo địa chỉ privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -4055,7 +4055,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Khiếu nại",
                 "paragraphs": [
-                  "Nếu bạn tin rằng chúng tôi không tôn trọng quyền bảo vệ dữ liệu của bạn, bạn có thể khiếu nại với Văn phòng Dữ liệu UAE, Ủy viên Bảo vệ Dữ liệu của DIFC hoặc cơ quan có thẩm quyền của ADGM. Tuy nhiên, chúng tôi đánh giá cao cơ hội giải quyết trực tiếp trước mối quan ngại của bạn tại privacy@sundae.io."
+                  "Nếu bạn tin rằng chúng tôi không tôn trọng quyền bảo vệ dữ liệu của bạn, bạn có thể khiếu nại với Văn phòng Dữ liệu UAE, Ủy viên Bảo vệ Dữ liệu của DIFC hoặc cơ quan có thẩm quyền của ADGM. Tuy nhiên, chúng tôi đánh giá cao cơ hội giải quyết trực tiếp trước mối quan ngại của bạn tại privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -4083,9 +4083,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Viết thư cho chúng tôi",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Gọi cho chúng tôi",
@@ -4278,7 +4278,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Drepturile și alegerile tale",
         "paragraphs": [
           "În funcție de locația dvs. și de legea aplicabilă, este posibil să aveți unele sau toate următoarele drepturi cu privire la informațiile dvs. personale:",
-          "Pentru exercitarea acestor drepturi, contactați-ne la privacy@sundae.io. Vom răspunde în conformitate cu legile aplicabile privind protecția datelor și poate fi necesar să vă verificăm identitatea înainte de a vă procesa solicitarea.",
+          "Pentru exercitarea acestor drepturi, contactați-ne la privacy@sundaetechnologies.com. Vom răspunde în conformitate cu legile aplicabile privind protecția datelor și poate fi necesar să vă verificăm identitatea înainte de a vă procesa solicitarea.",
           "De asemenea, este posibil să aveți dreptul de a depune o plângere la autoritatea locală de protecție a datelor. Vă încurajăm să ne contactați mai întâi pentru a putea încerca să vă rezolvăm solicitarea."
         ],
         "bullets": [
@@ -4328,7 +4328,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Drepturile de confidențialitate din California (CCPA/CPRA)",
             "paragraphs": [
               "Dacă sunteți rezident din California, este posibil să aveți drepturi suplimentare în temeiul Legii privind confidențialitatea consumatorilor din California, astfel cum a fost modificat de CPRA, inclusiv dreptul de a cunoaște categoriile de informații personale colectate și scopurile acestora, dreptul de a ști dacă informațiile sunt vândute sau partajate, dreptul de a accesa informațiile dvs. personale și de a solicita ștergerea în anumite cazuri, dreptul de a renunța, după caz, la anumite „vânzări” sau „partajări” și dreptul de a nu fi discriminat pentru exercitarea drepturilor dumneavoastră.",
-              "Sundae nu vinde informații personale în sensul general al CCPA. Pentru a vă exercita drepturile în California, ne puteți contacta la privacy@sundae.io."
+              "Sundae nu vinde informații personale în sensul general al CCPA. Pentru a vă exercita drepturile în California, ne puteți contacta la privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -4371,7 +4371,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Plângeri",
                 "paragraphs": [
-                  "Dacă considerați că nu v-am respectat drepturile de protecție a datelor, puteți depune o plângere la Biroul de Date din Emiratele Arabe Unite, la Comisarul pentru Protecția Datelor al DIFC sau la autoritatea competentă a ADGM. Cu toate acestea, am aprecia oportunitatea de a vă adresa preocupărilor direct în avans la privacy@sundae.io."
+                  "Dacă considerați că nu v-am respectat drepturile de protecție a datelor, puteți depune o plângere la Biroul de Date din Emiratele Arabe Unite, la Comisarul pentru Protecția Datelor al DIFC sau la autoritatea competentă a ADGM. Cu toate acestea, am aprecia oportunitatea de a vă adresa preocupărilor direct în avans la privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -4399,9 +4399,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Scrie-ne",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Sună-ne",
@@ -4594,7 +4594,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Dina rättigheter och val",
         "paragraphs": [
           "Beroende på var du befinner dig och tillämplig lag kan du ha några eller alla av följande rättigheter avseende din personliga information:",
-          "För att utöva dessa rättigheter, kontakta oss på privacy@sundae.io. Vi kommer att svara i enlighet med tillämpliga dataskyddslagar och kan behöva verifiera din identitet innan vi behandlar din begäran.",
+          "För att utöva dessa rättigheter, kontakta oss på privacy@sundaetechnologies.com. Vi kommer att svara i enlighet med tillämpliga dataskyddslagar och kan behöva verifiera din identitet innan vi behandlar din begäran.",
           "Du kan också ha rätt att lämna in ett klagomål till din lokala dataskyddsmyndighet. Vi uppmuntrar dig att kontakta oss först så att vi kan försöka lösa din begäran."
         ],
         "bullets": [
@@ -4644,7 +4644,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Kaliforniens integritetsrättigheter (CCPA/CPRA)",
             "paragraphs": [
               "Om du är bosatt i Kalifornien kan du ha ytterligare rättigheter enligt California Consumer Privacy Act, som ändrats av CPRA, inklusive rätten att känna till kategorierna av personlig information som samlas in och deras syften, rätten att veta om information säljs eller delas, rätten att få tillgång till din personliga information och begära radering i vissa fall, rätten att, i tillämpliga fall, välja bort vissa \"försäljningar\" eller \"delningar\", och rätten att inte bli diskriminerad för att du utövar dina rättigheter.",
-              "Sundae säljer inte personlig information i CCPA:s allmänna mening. För att utöva dina rättigheter i Kalifornien kan du kontakta oss på privacy@sundae.io."
+              "Sundae säljer inte personlig information i CCPA:s allmänna mening. För att utöva dina rättigheter i Kalifornien kan du kontakta oss på privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -4687,7 +4687,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Klagomål",
                 "paragraphs": [
-                  "Om du anser att vi inte har respekterat dina dataskyddsrättigheter kan du lämna in ett klagomål till UAE Data Office, Commissioner of Data Protection of DIFC eller den behöriga myndigheten för ADGM. Vi skulle dock uppskatta möjligheten att ta itu med dina problem direkt i förväg på privacy@sundae.io."
+                  "Om du anser att vi inte har respekterat dina dataskyddsrättigheter kan du lämna in ett klagomål till UAE Data Office, Commissioner of Data Protection of DIFC eller den behöriga myndigheten för ADGM. Vi skulle dock uppskatta möjligheten att ta itu med dina problem direkt i förväg på privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -4715,9 +4715,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Skriv till oss",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Ring oss",
@@ -4910,7 +4910,7 @@ export const generatedPrivacyCopy = {
         "title": "7. আপনার অধিকার এবং পছন্দ",
         "paragraphs": [
           "আপনার অবস্থান এবং প্রযোজ্য আইনের উপর নির্ভর করে, আপনার ব্যক্তিগত তথ্য সম্পর্কিত নিম্নলিখিত কিছু বা সমস্ত অধিকার থাকতে পারে:",
-          "এই অধিকারগুলি ব্যবহার করতে, privacy@sundae.io এ আমাদের সাথে যোগাযোগ করুন। আমরা প্রযোজ্য ডেটা সুরক্ষা আইন অনুযায়ী সাড়া দেব এবং আপনার অনুরোধ প্রক্রিয়া করার আগে আপনার পরিচয় যাচাই করতে হতে পারে।",
+          "এই অধিকারগুলি ব্যবহার করতে, privacy@sundaetechnologies.com এ আমাদের সাথে যোগাযোগ করুন। আমরা প্রযোজ্য ডেটা সুরক্ষা আইন অনুযায়ী সাড়া দেব এবং আপনার অনুরোধ প্রক্রিয়া করার আগে আপনার পরিচয় যাচাই করতে হতে পারে।",
           "আপনার স্থানীয় ডেটা সুরক্ষা কর্তৃপক্ষের কাছে অভিযোগ দায়ের করার অধিকারও থাকতে পারে। আমরা আপনাকে প্রথমে আমাদের সাথে যোগাযোগ করতে উত্সাহিত করি যাতে আমরা আপনার অনুরোধের সমাধান করার চেষ্টা করতে পারি।"
         ],
         "bullets": [
@@ -4960,7 +4960,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 ক্যালিফোর্নিয়া গোপনীয়তা অধিকার (CCPA/CPRA)",
             "paragraphs": [
               "আপনি যদি ক্যালিফোর্নিয়ার বাসিন্দা হন, আপনার ক্যালিফোর্নিয়া কনজিউমার প্রাইভেসি অ্যাক্টের অধীনে অতিরিক্ত অধিকার থাকতে পারে, যেমন CPRA দ্বারা সংশোধিত ব্যক্তিগত তথ্যের বিভাগগুলি এবং তাদের উদ্দেশ্যগুলি জানার অধিকার, তথ্য বিক্রি বা ভাগ করা হচ্ছে কিনা তা জানার অধিকার, আপনার ব্যক্তিগত তথ্য অ্যাক্সেস করার অধিকার এবং নির্দিষ্ট কিছু ক্ষেত্রে মুছে ফেলার অনুরোধ করার অধিকার, প্রযোজ্য ক্ষেত্রে নির্দিষ্ট \"বিক্রয়\" বা \"ভাগ করা\" থেকে অপ্ট-আউট করার অধিকার, এবং আপনার অধিকার প্রয়োগের জন্য বৈষম্যের শিকার না হওয়ার অধিকার রয়েছে।",
-              "Sundae CCPA এর সাধারণ অর্থে ব্যক্তিগত তথ্য বিক্রি করে না। ক্যালিফোর্নিয়ায় আপনার অধিকার প্রয়োগ করতে, আপনি আমাদের সাথে privacy@sundae.io এ যোগাযোগ করতে পারেন।"
+              "Sundae CCPA এর সাধারণ অর্থে ব্যক্তিগত তথ্য বিক্রি করে না। ক্যালিফোর্নিয়ায় আপনার অধিকার প্রয়োগ করতে, আপনি আমাদের সাথে privacy@sundaetechnologies.com এ যোগাযোগ করতে পারেন।"
             ]
           },
           {
@@ -5003,7 +5003,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "অভিযোগ",
                 "paragraphs": [
-                  "আপনি যদি বিশ্বাস করেন যে আমরা আপনার ডেটা সুরক্ষা অধিকারকে সম্মান করিনি, তাহলে আপনি UAE ডেটা অফিস, DIFC-এর ডেটা সুরক্ষা কমিশনার বা ADGM-এর উপযুক্ত কর্তৃপক্ষের কাছে অভিযোগ জানাতে পারেন৷ যাইহোক, আমরা privacy@sundae.io-এ সরাসরি আপনার উদ্বেগের সমাধান করার সুযোগের প্রশংসা করব।"
+                  "আপনি যদি বিশ্বাস করেন যে আমরা আপনার ডেটা সুরক্ষা অধিকারকে সম্মান করিনি, তাহলে আপনি UAE ডেটা অফিস, DIFC-এর ডেটা সুরক্ষা কমিশনার বা ADGM-এর উপযুক্ত কর্তৃপক্ষের কাছে অভিযোগ জানাতে পারেন৷ যাইহোক, আমরা privacy@sundaetechnologies.com-এ সরাসরি আপনার উদ্বেগের সমাধান করার সুযোগের প্রশংসা করব।"
                 ]
               }
             ]
@@ -5031,9 +5031,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "আমাদের লিখুন",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "আমাদের কল",
@@ -5226,7 +5226,7 @@ export const generatedPrivacyCopy = {
         "title": "7. สิทธิและทางเลือกของคุณ",
         "paragraphs": [
           "คุณอาจมีสิทธิ์บางส่วนหรือทั้งหมดต่อไปนี้เกี่ยวกับข้อมูลส่วนบุคคลของคุณ ทั้งนี้ขึ้นอยู่กับสถานที่ตั้งของคุณและกฎหมายที่บังคับใช้:",
-          "หากต้องการใช้สิทธิ์เหล่านี้ โปรดติดต่อเราที่ privacy@sundae.io เราจะตอบกลับตามกฎหมายคุ้มครองข้อมูลที่บังคับใช้และอาจจำเป็นต้องยืนยันตัวตนของคุณก่อนดำเนินการตามคำขอของคุณ",
+          "หากต้องการใช้สิทธิ์เหล่านี้ โปรดติดต่อเราที่ privacy@sundaetechnologies.com เราจะตอบกลับตามกฎหมายคุ้มครองข้อมูลที่บังคับใช้และอาจจำเป็นต้องยืนยันตัวตนของคุณก่อนดำเนินการตามคำขอของคุณ",
           "คุณอาจมีสิทธิ์ยื่นเรื่องร้องเรียนกับหน่วยงานคุ้มครองข้อมูลในพื้นที่ของคุณ เราขอแนะนำให้คุณติดต่อเราก่อน เพื่อให้เราสามารถพยายามแก้ไขคำขอของคุณได้"
         ],
         "bullets": [
@@ -5276,7 +5276,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 สิทธิความเป็นส่วนตัวของรัฐแคลิฟอร์เนีย (CCPA/CPRA)",
             "paragraphs": [
               "หากคุณเป็นผู้อาศัยอยู่ในแคลิฟอร์เนีย คุณอาจมีสิทธิ์เพิ่มเติมภายใต้กฎหมายความเป็นส่วนตัวของผู้บริโภคแห่งแคลิฟอร์เนีย ซึ่งแก้ไขเพิ่มเติมโดย CPRA รวมถึงสิทธิ์ในการทราบประเภทของข้อมูลส่วนบุคคลที่รวบรวมและวัตถุประสงค์ สิทธิ์ในการรับทราบว่ามีการขายหรือแบ่งปันข้อมูลหรือไม่ สิทธิ์ในการเข้าถึงข้อมูลส่วนบุคคลของคุณและขอให้ลบในบางกรณี สิทธิ์ในการเลือกไม่รับ \"การขาย\" หรือ \"การแบ่งปัน\" บางอย่างตามความเหมาะสม และสิทธิ์ที่จะไม่เลือกปฏิบัติในการใช้สิทธิ์ของคุณ",
-              "Sundae จะไม่ขายข้อมูลส่วนบุคคลตามความหมายทั่วไปของ CCPA หากต้องการใช้สิทธิ์ของคุณในแคลิฟอร์เนีย คุณสามารถติดต่อเราได้ที่ privacy@sundae.io"
+              "Sundae จะไม่ขายข้อมูลส่วนบุคคลตามความหมายทั่วไปของ CCPA หากต้องการใช้สิทธิ์ของคุณในแคลิฟอร์เนีย คุณสามารถติดต่อเราได้ที่ privacy@sundaetechnologies.com"
             ]
           },
           {
@@ -5319,7 +5319,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "การร้องเรียน",
                 "paragraphs": [
-                  "หากคุณเชื่อว่าเราไม่ได้เคารพสิทธิ์ในการปกป้องข้อมูลของคุณ คุณสามารถยื่นเรื่องร้องเรียนกับสำนักงานข้อมูลของสหรัฐอาหรับเอมิเรตส์ กรรมาธิการการคุ้มครองข้อมูลของ DIFC หรือหน่วยงานผู้มีอำนาจของ ADGM อย่างไรก็ตาม เราขอขอบคุณสำหรับโอกาสที่จะแก้ไขข้อกังวลของคุณโดยตรงล่วงหน้าที่ privacy@sundae.io"
+                  "หากคุณเชื่อว่าเราไม่ได้เคารพสิทธิ์ในการปกป้องข้อมูลของคุณ คุณสามารถยื่นเรื่องร้องเรียนกับสำนักงานข้อมูลของสหรัฐอาหรับเอมิเรตส์ กรรมาธิการการคุ้มครองข้อมูลของ DIFC หรือหน่วยงานผู้มีอำนาจของ ADGM อย่างไรก็ตาม เราขอขอบคุณสำหรับโอกาสที่จะแก้ไขข้อกังวลของคุณโดยตรงล่วงหน้าที่ privacy@sundaetechnologies.com"
                 ]
               }
             ]
@@ -5347,9 +5347,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "เขียนถึงเรา",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "โทรหาเรา",
@@ -5542,7 +5542,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Hak dan pilihan anda",
         "paragraphs": [
           "Bergantung pada lokasi anda dan undang-undang yang berkenaan, anda mungkin mempunyai beberapa atau semua hak berikut mengenai maklumat peribadi anda:",
-          "Untuk melaksanakan hak ini, hubungi kami di privacy@sundae.io. Kami akan bertindak balas mengikut undang-undang perlindungan data yang berkenaan dan mungkin perlu mengesahkan identiti anda sebelum memproses permintaan anda.",
+          "Untuk melaksanakan hak ini, hubungi kami di privacy@sundaetechnologies.com. Kami akan bertindak balas mengikut undang-undang perlindungan data yang berkenaan dan mungkin perlu mengesahkan identiti anda sebelum memproses permintaan anda.",
           "Anda juga mungkin mempunyai hak untuk membuat aduan kepada pihak berkuasa perlindungan data tempatan anda. Kami menggalakkan anda untuk menghubungi kami terlebih dahulu supaya kami boleh cuba menyelesaikan permintaan anda."
         ],
         "bullets": [
@@ -5592,7 +5592,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Hak Privasi California (CCPA/CPRA)",
             "paragraphs": [
               "Jika anda seorang pemastautin California, anda mungkin mempunyai hak tambahan di bawah Akta Privasi Pengguna California, seperti yang dipinda oleh CPRA, termasuk hak untuk mengetahui kategori maklumat peribadi yang dikumpul dan tujuannya, hak untuk mengetahui sama ada maklumat sedang dijual atau dikongsi, hak untuk mengakses maklumat peribadi anda dan meminta pemadaman dalam kes tertentu, hak untuk menarik diri, jika berkenaan, daripada \"jualan\" atau \"perkongsian\" tertentu, dan hak untuk tidak didiskriminasi kerana melaksanakan hak anda.",
-              "Sundae tidak menjual maklumat peribadi dalam pengertian umum CCPA. Untuk melaksanakan hak anda di California, anda boleh menghubungi kami di privacy@sundae.io."
+              "Sundae tidak menjual maklumat peribadi dalam pengertian umum CCPA. Untuk melaksanakan hak anda di California, anda boleh menghubungi kami di privacy@sundaetechnologies.com."
             ]
           },
           {
@@ -5635,7 +5635,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Aduan",
                 "paragraphs": [
-                  "Jika anda percaya bahawa kami tidak menghormati hak perlindungan data anda, anda boleh membuat aduan kepada Pejabat Data UAE, Pesuruhjaya Perlindungan Data DIFC atau pihak berkuasa berwibawa ADGM. Walau bagaimanapun, kami menghargai peluang untuk menangani kebimbangan anda secara langsung di privacy@sundae.io."
+                  "Jika anda percaya bahawa kami tidak menghormati hak perlindungan data anda, anda boleh membuat aduan kepada Pejabat Data UAE, Pesuruhjaya Perlindungan Data DIFC atau pihak berkuasa berwibawa ADGM. Walau bagaimanapun, kami menghargai peluang untuk menangani kebimbangan anda secara langsung di privacy@sundaetechnologies.com."
                 ]
               }
             ]
@@ -5663,9 +5663,9 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Tulis kepada kami",
-        "value": "privacy@sundae.io",
+        "value": "privacy@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:privacy@sundae.io"
+        "href": "mailto:privacy@sundaetechnologies.com"
       },
       {
         "title": "Hubungi kami",
