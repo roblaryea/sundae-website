@@ -306,7 +306,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Kündigung durch Sie",
             "paragraphs": [
               "Sie können Ihr Konto jederzeit über Ihre Kontoeinstellungen oder durch Kontaktaufnahme mit uns kündigen und die Nutzung der Dienste einstellen. Im Voraus gezahlte Gebühren sind nicht erstattungsfähig, sofern nicht schriftlich etwas anderes vereinbart wurde.",
-              "Sie können die Löschung identifizierbarer Kundendaten beantragen, indem Sie innerhalb von sechzig (60) Tagen nach der Kündigung an legal@sundae.io schreiben. Sie verstehen, dass Kundendaten aus Ihren eigenen Betriebssystemen stammen und dass Sie jederzeit unabhängigen Zugriff darauf haben. Sundae wird angemessene Anstrengungen unternehmen, um identifizierbare Kundendaten innerhalb von neunzig (90) Tagen nach einer gültigen Anfrage zu löschen, es sei denn, die Aufbewahrung ist gesetzlich erforderlich, zur Beilegung von Streitigkeiten oder für routinemäßige Sicherungen. Nicht identifizierbare aggregierte Daten und Benchmark-Daten unterliegen keinen Löschungsanträgen und können gemäß Abschnitt 13.4 auf unbestimmte Zeit aufbewahrt werden."
+              "Sie können die Löschung identifizierbarer Kundendaten beantragen, indem Sie innerhalb von sechzig (60) Tagen nach der Kündigung an legal@sundaetechnologies.com schreiben. Sie verstehen, dass Kundendaten aus Ihren eigenen Betriebssystemen stammen und dass Sie jederzeit unabhängigen Zugriff darauf haben. Sundae wird angemessene Anstrengungen unternehmen, um identifizierbare Kundendaten innerhalb von neunzig (90) Tagen nach einer gültigen Anfrage zu löschen, es sei denn, die Aufbewahrung ist gesetzlich erforderlich, zur Beilegung von Streitigkeiten oder für routinemäßige Sicherungen. Nicht identifizierbare aggregierte Daten und Benchmark-Daten unterliegen keinen Löschungsanträgen und können gemäß Abschnitt 13.4 auf unbestimmte Zeit aufbewahrt werden."
             ]
           },
           {
@@ -366,9 +366,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Schreiben Sie uns",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Rufen Sie uns an",
@@ -697,7 +697,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Beëindiging door u",
             "paragraphs": [
               "U kunt uw account op elk gewenst moment beëindigen en stoppen met het gebruik van de Diensten via uw accountinstellingen of door contact met ons op te nemen. Vooraf betaalde vergoedingen worden niet gerestitueerd, tenzij schriftelijk anders aangegeven.",
-              "U kunt verzoeken om verwijdering van identificeerbare Klantgegevens door binnen zestig (60) dagen na beëindiging te schrijven naar legal@sundae.io. U begrijpt dat Klantgegevens afkomstig zijn uit uw eigen operationele systemen en dat u hier te allen tijde onafhankelijke toegang toe behoudt. Sundae zal redelijke inspanningen leveren om identificeerbare Klantgegevens binnen negentig (90) dagen na een geldig verzoek te verwijderen, behalve wanneer bewaring wettelijk noodzakelijk is, om geschillen op te lossen of voor routinematige back-ups. Niet-identificeerbare geaggregeerde gegevens en benchmarkgegevens zijn niet onderworpen aan verwijderingsverzoeken en kunnen voor onbepaalde tijd worden bewaard in overeenstemming met artikel 13.4."
+              "U kunt verzoeken om verwijdering van identificeerbare Klantgegevens door binnen zestig (60) dagen na beëindiging te schrijven naar legal@sundaetechnologies.com. U begrijpt dat Klantgegevens afkomstig zijn uit uw eigen operationele systemen en dat u hier te allen tijde onafhankelijke toegang toe behoudt. Sundae zal redelijke inspanningen leveren om identificeerbare Klantgegevens binnen negentig (90) dagen na een geldig verzoek te verwijderen, behalve wanneer bewaring wettelijk noodzakelijk is, om geschillen op te lossen of voor routinematige back-ups. Niet-identificeerbare geaggregeerde gegevens en benchmarkgegevens zijn niet onderworpen aan verwijderingsverzoeken en kunnen voor onbepaalde tijd worden bewaard in overeenstemming met artikel 13.4."
             ]
           },
           {
@@ -757,9 +757,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Schrijf ons",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Bel ons",
@@ -1088,7 +1088,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Rescisão por você",
             "paragraphs": [
               "Você pode encerrar sua conta e parar de usar os Serviços a qualquer momento através das configurações de sua conta ou entrando em contato conosco. As taxas pagas antecipadamente não são reembolsáveis, salvo indicação em contrário por escrito.",
-              "Você pode solicitar a exclusão de Dados identificáveis do Cliente escrevendo para legal@sundae.io dentro de sessenta (60) dias após a rescisão. Você entende que os Dados do Cliente provêm de seus próprios sistemas operacionais e que você mantém acesso independente a eles em todos os momentos. A Sundae envidará esforços razoáveis para excluir Dados identificáveis do Cliente no prazo de noventa (90) dias a partir de uma solicitação válida, exceto quando a retenção for necessária por lei, para resolver disputas ou para backups de rotina. Os Dados Agregados Não identificáveis e os Dados de Referência não estão sujeitos a solicitações de exclusão e podem ser retidos indefinidamente de acordo com a Seção 13.4."
+              "Você pode solicitar a exclusão de Dados identificáveis do Cliente escrevendo para legal@sundaetechnologies.com dentro de sessenta (60) dias após a rescisão. Você entende que os Dados do Cliente provêm de seus próprios sistemas operacionais e que você mantém acesso independente a eles em todos os momentos. A Sundae envidará esforços razoáveis para excluir Dados identificáveis do Cliente no prazo de noventa (90) dias a partir de uma solicitação válida, exceto quando a retenção for necessária por lei, para resolver disputas ou para backups de rotina. Os Dados Agregados Não identificáveis e os Dados de Referência não estão sujeitos a solicitações de exclusão e podem ser retidos indefinidamente de acordo com a Seção 13.4."
             ]
           },
           {
@@ -1148,9 +1148,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Escreva para nós",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Ligue para nós",
@@ -1479,7 +1479,7 @@ export const generatedTermsCopy = {
             "title": "18.2 आपके द्वारा समाप्ति",
             "paragraphs": [
               "आप किसी भी समय अपनी खाता सेटिंग के माध्यम से या हमसे संपर्क करके अपना खाता समाप्त कर सकते हैं और सेवाओं का उपयोग बंद कर सकते हैं। अग्रिम भुगतान की गई फीस तब तक वापस नहीं की जाएगी जब तक अन्यथा लिखित रूप में निर्दिष्ट न किया गया हो।",
-              "आप समाप्ति के साठ (60) दिनों के भीतर कानूनी@sundae.io पर लिखकर पहचान योग्य ग्राहक डेटा को हटाने का अनुरोध कर सकते हैं। आप समझते हैं कि ग्राहक डेटा आपके अपने परिचालन सिस्टम से आता है और आप हर समय उस तक स्वतंत्र पहुंच बनाए रखते हैं। संडे वैध अनुरोध के नब्बे (90) दिनों के भीतर पहचाने जाने योग्य ग्राहक डेटा को हटाने के लिए उचित प्रयासों का उपयोग करेगा, सिवाय इसके कि जहां कानून द्वारा, विवादों को सुलझाने के लिए, या नियमित बैकअप के लिए प्रतिधारण आवश्यक हो। गैर-पहचान योग्य एकत्रित डेटा और बेंचमार्क डेटा विलोपन अनुरोधों के अधीन नहीं हैं और धारा 13.4 के अनुसार अनिश्चित काल तक बनाए रखा जा सकता है।"
+              "आप समाप्ति के साठ (60) दिनों के भीतर legal@sundaetechnologies.com पर लिखकर पहचान योग्य ग्राहक डेटा को हटाने का अनुरोध कर सकते हैं। आप समझते हैं कि ग्राहक डेटा आपके अपने परिचालन सिस्टम से आता है और आप हर समय उस तक स्वतंत्र पहुंच बनाए रखते हैं। संडे वैध अनुरोध के नब्बे (90) दिनों के भीतर पहचाने जाने योग्य ग्राहक डेटा को हटाने के लिए उचित प्रयासों का उपयोग करेगा, सिवाय इसके कि जहां कानून द्वारा, विवादों को सुलझाने के लिए, या नियमित बैकअप के लिए प्रतिधारण आवश्यक हो। गैर-पहचान योग्य एकत्रित डेटा और बेंचमार्क डेटा विलोपन अनुरोधों के अधीन नहीं हैं और धारा 13.4 के अनुसार अनिश्चित काल तक बनाए रखा जा सकता है।"
             ]
           },
           {
@@ -1539,9 +1539,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "हमें लिखें",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "हमें कॉल करें",
@@ -1870,7 +1870,7 @@ export const generatedTermsCopy = {
             "title": "18.2 آپ کی طرف سے برطرفی",
             "paragraphs": [
               "آپ اپنے اکاؤنٹ کی ترتیبات کے ذریعے یا ہم سے رابطہ کر کے کسی بھی وقت اپنا اکاؤنٹ ختم کر سکتے ہیں اور سروسز کا استعمال بند کر سکتے ہیں۔ پیشگی ادائیگی کی فیس ناقابل واپسی ہے جب تک کہ دوسری صورت میں تحریری طور پر بیان نہ کیا جائے۔",
-              "آپ برطرفی کے ساٹھ (60) دنوں کے اندر قانونی@sundae.io پر لکھ کر قابل شناخت کسٹمر ڈیٹا کو حذف کرنے کی درخواست کر سکتے ہیں۔ آپ سمجھتے ہیں کہ کسٹمر ڈیٹا آپ کے اپنے آپریشنل سسٹم سے آتا ہے اور یہ کہ آپ اس تک ہر وقت آزاد رسائی برقرار رکھتے ہیں۔ Sundae قابل شناخت کسٹمر ڈیٹا کو درست درخواست کے نوے (90) دنوں کے اندر حذف کرنے کے لیے معقول کوششیں استعمال کرے گا، سوائے اس کے جہاں قانون کے مطابق برقرار رکھنا ضروری ہو، تنازعات کو حل کرنے، یا معمول کے بیک اپ کے لیے۔ ناقابل شناخت مجموعی ڈیٹا اور بینچ مارک ڈیٹا حذف کرنے کی درخواستوں سے مشروط نہیں ہیں اور سیکشن 13.4 کے مطابق غیر معینہ مدت تک برقرار رکھا جا سکتا ہے۔"
+              "آپ برطرفی کے ساٹھ (60) دنوں کے اندر legal@sundaetechnologies.com پر لکھ کر قابل شناخت کسٹمر ڈیٹا کو حذف کرنے کی درخواست کر سکتے ہیں۔ آپ سمجھتے ہیں کہ کسٹمر ڈیٹا آپ کے اپنے آپریشنل سسٹم سے آتا ہے اور یہ کہ آپ اس تک ہر وقت آزاد رسائی برقرار رکھتے ہیں۔ Sundae قابل شناخت کسٹمر ڈیٹا کو درست درخواست کے نوے (90) دنوں کے اندر حذف کرنے کے لیے معقول کوششیں استعمال کرے گا، سوائے اس کے جہاں قانون کے مطابق برقرار رکھنا ضروری ہو، تنازعات کو حل کرنے، یا معمول کے بیک اپ کے لیے۔ ناقابل شناخت مجموعی ڈیٹا اور بینچ مارک ڈیٹا حذف کرنے کی درخواستوں سے مشروط نہیں ہیں اور سیکشن 13.4 کے مطابق غیر معینہ مدت تک برقرار رکھا جا سکتا ہے۔"
             ]
           },
           {
@@ -1930,9 +1930,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "ہمیں لکھیں۔",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "ہمیں کال کریں۔",
@@ -2261,7 +2261,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Risoluzione da parte tua",
             "paragraphs": [
               "Puoi chiudere il tuo account e interrompere l'utilizzo dei Servizi in qualsiasi momento tramite le impostazioni del tuo account o contattandoci. Le quote pagate in anticipo non sono rimborsabili se non diversamente specificato per iscritto.",
-              "È possibile richiedere la cancellazione dei dati identificabili del cliente scrivendo a legal@sundae.io entro sessanta (60) giorni dalla risoluzione. Comprendi che i dati dei clienti provengono dai tuoi sistemi operativi e che mantieni un accesso indipendente ad essi in ogni momento. Sundae compirà sforzi ragionevoli per eliminare i dati identificabili del cliente entro novanta (90) giorni da una richiesta valida, tranne nei casi in cui la conservazione sia necessaria per legge, per risolvere controversie o per backup di routine. I dati aggregati non identificabili e i dati di benchmark non sono soggetti a richieste di cancellazione e possono essere conservati a tempo indeterminato in conformità con la Sezione 13.4."
+              "È possibile richiedere la cancellazione dei dati identificabili del cliente scrivendo a legal@sundaetechnologies.com entro sessanta (60) giorni dalla risoluzione. Comprendi che i dati dei clienti provengono dai tuoi sistemi operativi e che mantieni un accesso indipendente ad essi in ogni momento. Sundae compirà sforzi ragionevoli per eliminare i dati identificabili del cliente entro novanta (90) giorni da una richiesta valida, tranne nei casi in cui la conservazione sia necessaria per legge, per risolvere controversie o per backup di routine. I dati aggregati non identificabili e i dati di benchmark non sono soggetti a richieste di cancellazione e possono essere conservati a tempo indeterminato in conformità con la Sezione 13.4."
             ]
           },
           {
@@ -2321,9 +2321,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Scrivici",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Chiamaci",
@@ -2652,7 +2652,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Wypowiedzenie przez Ciebie",
             "paragraphs": [
               "Możesz zamknąć swoje konto i zaprzestać korzystania z Usług w dowolnym momencie, korzystając z ustawień konta lub kontaktując się z nami. Opłaty uiszczone z góry nie podlegają zwrotowi, chyba że pisemnie określono inaczej.",
-              "Możesz poprosić o usunięcie możliwych do zidentyfikowania Danych Klienta, pisząc na adres legal@sundae.io w ciągu sześćdziesięciu (60) dni od rozwiązania umowy. Rozumiesz, że Dane Klienta pochodzą z Twoich własnych systemów operacyjnych i że przez cały czas masz do nich niezależny dostęp. Firma Sundae dołoży uzasadnionych starań, aby usunąć możliwe do zidentyfikowania Dane Klienta w ciągu dziewięćdziesięciu (90) dni od uzasadnionego żądania, z wyjątkiem przypadków, gdy przechowywanie jest wymagane przez prawo, w celu rozstrzygnięcia sporu lub w celu rutynowych kopii zapasowych. Niemożliwe do zidentyfikowania dane zagregowane i dane porównawcze nie podlegają prośbom o usunięcie i mogą być przechowywane przez czas nieokreślony zgodnie z sekcją 13.4."
+              "Możesz poprosić o usunięcie możliwych do zidentyfikowania Danych Klienta, pisząc na adres legal@sundaetechnologies.com w ciągu sześćdziesięciu (60) dni od rozwiązania umowy. Rozumiesz, że Dane Klienta pochodzą z Twoich własnych systemów operacyjnych i że przez cały czas masz do nich niezależny dostęp. Firma Sundae dołoży uzasadnionych starań, aby usunąć możliwe do zidentyfikowania Dane Klienta w ciągu dziewięćdziesięciu (90) dni od uzasadnionego żądania, z wyjątkiem przypadków, gdy przechowywanie jest wymagane przez prawo, w celu rozstrzygnięcia sporu lub w celu rutynowych kopii zapasowych. Niemożliwe do zidentyfikowania dane zagregowane i dane porównawcze nie podlegają prośbom o usunięcie i mogą być przechowywane przez czas nieokreślony zgodnie z sekcją 13.4."
             ]
           },
           {
@@ -2712,9 +2712,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Napisz do nas",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Zadzwoń do nas",
@@ -3043,7 +3043,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Sizin tarafınızdan fesih",
             "paragraphs": [
               "İstediğiniz zaman hesap ayarlarınız aracılığıyla veya bizimle iletişime geçerek hesabınızı sonlandırabilir ve Hizmetleri kullanmayı bırakabilirsiniz. Peşin ödenen ücretler aksi yazılı olarak belirtilmedikçe iade edilmez.",
-              "Fesihten sonraki altmış (60) gün içinde legal@sundae.io adresine yazarak tanımlanabilir Müşteri Verilerinin silinmesini talep edebilirsiniz. Müşteri Verilerinin kendi operasyonel sistemlerinizden geldiğini ve bunlara her zaman bağımsız erişim sağladığınızı anlıyorsunuz. Sundae, ihtilafları çözmek veya rutin yedeklemeler için kanunen saklamanın gerekli olduğu durumlar haricinde, geçerli bir talepten itibaren doksan (90) gün içinde tanımlanabilir Müşteri Verilerini silmek için makul çabayı gösterecektir. Tanımlanamayan Toplu Veriler ve Karşılaştırma Verileri, silme taleplerine tabi değildir ve Bölüm 13.4 uyarınca süresiz olarak saklanabilir."
+              "Fesihten sonraki altmış (60) gün içinde legal@sundaetechnologies.com adresine yazarak tanımlanabilir Müşteri Verilerinin silinmesini talep edebilirsiniz. Müşteri Verilerinin kendi operasyonel sistemlerinizden geldiğini ve bunlara her zaman bağımsız erişim sağladığınızı anlıyorsunuz. Sundae, ihtilafları çözmek veya rutin yedeklemeler için kanunen saklamanın gerekli olduğu durumlar haricinde, geçerli bir talepten itibaren doksan (90) gün içinde tanımlanabilir Müşteri Verilerini silmek için makul çabayı gösterecektir. Tanımlanamayan Toplu Veriler ve Karşılaştırma Verileri, silme taleplerine tabi değildir ve Bölüm 13.4 uyarınca süresiz olarak saklanabilir."
             ]
           },
           {
@@ -3103,9 +3103,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Bize yazın",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Bizi arayın",
@@ -3434,7 +3434,7 @@ export const generatedTermsCopy = {
             "title": "18.2 您的终止",
             "paragraphs": [
               "您可以随时通过您的帐户设置或联系我们来终止您的帐户并停止使用服务。除非另有书面规定，否则预缴费用不可退还。",
-              "您可以在终止后六十 (60) 天内写信至 legal@sundae.io，请求删除可识别的客户数据。您了解客户数据来自您自己的操作系统，并且您始终保持对其的独立访问。圣代将尽合理努力在提出有效请求后九十 (90) 天内删除可识别的客户数据，除非法律规定必须保留、以解决争议或进行例行备份。不可识别的聚合数据和基准数据不受删除请求的约束，并且可以根据第 13.4 条无限期保留。"
+              "您可以在终止后六十 (60) 天内写信至 legal@sundaetechnologies.com，请求删除可识别的客户数据。您了解客户数据来自您自己的操作系统，并且您始终保持对其的独立访问。圣代将尽合理努力在提出有效请求后九十 (90) 天内删除可识别的客户数据，除非法律规定必须保留、以解决争议或进行例行备份。不可识别的聚合数据和基准数据不受删除请求的约束，并且可以根据第 13.4 条无限期保留。"
             ]
           },
           {
@@ -3494,9 +3494,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "写信给我们",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "致电我们",
@@ -3825,7 +3825,7 @@ export const generatedTermsCopy = {
             "title": "18.2 お客様による終了",
             "paragraphs": [
               "お客様は、アカウント設定を通じて、または当社に連絡することにより、いつでもアカウントを終了し、サービスの使用を停止することができます。事前に支払われた料金は、書面で別途指定がない限り返金できません。",
-              "終了後 60 日以内に、legal@sundae.io に書面で書面を送信することで、特定可能な顧客データの削除をリクエストできます。あなたは、顧客データが独自の運用システムから取得され、常にそのデータへの独立したアクセスを維持していることを理解しています。 Sundae は、法律により保持が必要な場合、紛争解決のため、または定期的なバックアップの場合を除き、有効な要求から 90 日以内に識別可能な顧客データを削除するために合理的な努力を払います。識別不可能な集約データおよびベンチマーク データは削除リクエストの対象ではなく、セクション 13.4 に従って無期限に保持される場合があります。"
+              "終了後 60 日以内に、legal@sundaetechnologies.com に書面で書面を送信することで、特定可能な顧客データの削除をリクエストできます。あなたは、顧客データが独自の運用システムから取得され、常にそのデータへの独立したアクセスを維持していることを理解しています。 Sundae は、法律により保持が必要な場合、紛争解決のため、または定期的なバックアップの場合を除き、有効な要求から 90 日以内に識別可能な顧客データを削除するために合理的な努力を払います。識別不可能な集約データおよびベンチマーク データは削除リクエストの対象ではなく、セクション 13.4 に従って無期限に保持される場合があります。"
             ]
           },
           {
@@ -3885,9 +3885,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "私たちに手紙を書いてください",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "お電話ください",
@@ -4216,7 +4216,7 @@ export const generatedTermsCopy = {
             "title": "18.2 귀하에 의한 종료",
             "paragraphs": [
               "귀하는 계정 설정을 통해 또는 당사에 연락하여 언제든지 계정을 종료하고 서비스 사용을 중단할 수 있습니다. 사전에 지불한 수수료는 서면으로 달리 명시하지 않는 한 환불되지 않습니다.",
-              "귀하는 종료 후 60일 이내에 legal@sundae.io에 서면을 보내 식별 가능한 고객 데이터의 삭제를 요청할 수 있습니다. 귀하는 고객 데이터가 귀하의 운영 체제에서 비롯되며 항상 이에 대한 독립적인 액세스를 유지한다는 점을 이해합니다. Sundae는 법적으로 보관이 필요한 경우, 분쟁 해결 또는 정기적인 백업을 위해 필요한 경우를 제외하고 유효한 요청이 발생한 후 90일 이내에 식별 가능한 고객 데이터를 삭제하기 위해 합리적인 노력을 기울일 것입니다. 식별 불가능한 집계 데이터 및 벤치마크 데이터는 삭제 요청 대상이 아니며 섹션 13.4에 따라 무기한 보관될 수 있습니다."
+              "귀하는 종료 후 60일 이내에 legal@sundaetechnologies.com에 서면을 보내 식별 가능한 고객 데이터의 삭제를 요청할 수 있습니다. 귀하는 고객 데이터가 귀하의 운영 체제에서 비롯되며 항상 이에 대한 독립적인 액세스를 유지한다는 점을 이해합니다. Sundae는 법적으로 보관이 필요한 경우, 분쟁 해결 또는 정기적인 백업을 위해 필요한 경우를 제외하고 유효한 요청이 발생한 후 90일 이내에 식별 가능한 고객 데이터를 삭제하기 위해 합리적인 노력을 기울일 것입니다. 식별 불가능한 집계 데이터 및 벤치마크 데이터는 삭제 요청 대상이 아니며 섹션 13.4에 따라 무기한 보관될 수 있습니다."
             ]
           },
           {
@@ -4276,9 +4276,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "우리에게 편지 쓰기",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "전화주세요",
@@ -4607,7 +4607,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Pengakhiran oleh Anda",
             "paragraphs": [
               "Anda dapat mengakhiri akun Anda dan berhenti menggunakan Layanan kapan saja melalui pengaturan akun Anda atau dengan menghubungi kami. Biaya yang telah dibayarkan di muka tidak dapat dikembalikan kecuali ditentukan lain secara tertulis.",
-              "Anda dapat meminta penghapusan Data Pelanggan yang dapat diidentifikasi dengan menulis ke legal@sundae.io dalam waktu enam puluh (60) hari sejak pengakhiran. Anda memahami bahwa Data Pelanggan berasal dari sistem operasional Anda sendiri dan bahwa Anda menjaga akses independen terhadap data tersebut setiap saat. Sundae akan melakukan upaya yang wajar untuk menghapus Data Pelanggan yang dapat diidentifikasi dalam waktu sembilan puluh (90) hari sejak permintaan yang sah, kecuali jika penyimpanan diperlukan oleh hukum, untuk menyelesaikan perselisihan, atau untuk pencadangan rutin. Data Gabungan dan Data Tolok Ukur yang Tidak Dapat Diidentifikasi tidak tunduk pada permintaan penghapusan dan dapat disimpan tanpa batas waktu sesuai dengan Bagian 13.4."
+              "Anda dapat meminta penghapusan Data Pelanggan yang dapat diidentifikasi dengan menulis ke legal@sundaetechnologies.com dalam waktu enam puluh (60) hari sejak pengakhiran. Anda memahami bahwa Data Pelanggan berasal dari sistem operasional Anda sendiri dan bahwa Anda menjaga akses independen terhadap data tersebut setiap saat. Sundae akan melakukan upaya yang wajar untuk menghapus Data Pelanggan yang dapat diidentifikasi dalam waktu sembilan puluh (90) hari sejak permintaan yang sah, kecuali jika penyimpanan diperlukan oleh hukum, untuk menyelesaikan perselisihan, atau untuk pencadangan rutin. Data Gabungan dan Data Tolok Ukur yang Tidak Dapat Diidentifikasi tidak tunduk pada permintaan penghapusan dan dapat disimpan tanpa batas waktu sesuai dengan Bagian 13.4."
             ]
           },
           {
@@ -4667,9 +4667,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Menulis kepada kami",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Hubungi kami",
@@ -4998,7 +4998,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Việc bạn chấm dứt",
             "paragraphs": [
               "Bạn có thể chấm dứt tài khoản của mình và ngừng sử dụng Dịch vụ bất cứ lúc nào thông qua cài đặt tài khoản của bạn hoặc bằng cách liên hệ với chúng tôi. Lệ phí đã trả trước sẽ không được hoàn lại trừ khi có quy định khác bằng văn bản.",
-              "Bạn có thể yêu cầu xóa Dữ liệu khách hàng có thể nhận dạng được bằng cách gửi thư tới legal@sundae.io trong vòng sáu mươi (60) ngày kể từ ngày chấm dứt. Bạn hiểu rằng Dữ liệu khách hàng đến từ hệ điều hành của riêng bạn và bạn luôn duy trì quyền truy cập độc lập vào dữ liệu đó. Sundae sẽ nỗ lực hợp lý để xóa Dữ liệu khách hàng có thể nhận dạng được trong vòng chín mươi (90) ngày kể từ ngày có yêu cầu hợp lệ, trừ khi việc lưu giữ là cần thiết theo luật, để giải quyết tranh chấp hoặc để sao lưu định kỳ. Dữ liệu tổng hợp và dữ liệu điểm chuẩn không thể nhận dạng không phải chịu yêu cầu xóa và có thể được lưu giữ vô thời hạn theo Mục 13.4."
+              "Bạn có thể yêu cầu xóa Dữ liệu khách hàng có thể nhận dạng được bằng cách gửi thư tới legal@sundaetechnologies.com trong vòng sáu mươi (60) ngày kể từ ngày chấm dứt. Bạn hiểu rằng Dữ liệu khách hàng đến từ hệ điều hành của riêng bạn và bạn luôn duy trì quyền truy cập độc lập vào dữ liệu đó. Sundae sẽ nỗ lực hợp lý để xóa Dữ liệu khách hàng có thể nhận dạng được trong vòng chín mươi (90) ngày kể từ ngày có yêu cầu hợp lệ, trừ khi việc lưu giữ là cần thiết theo luật, để giải quyết tranh chấp hoặc để sao lưu định kỳ. Dữ liệu tổng hợp và dữ liệu điểm chuẩn không thể nhận dạng không phải chịu yêu cầu xóa và có thể được lưu giữ vô thời hạn theo Mục 13.4."
             ]
           },
           {
@@ -5058,9 +5058,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Viết thư cho chúng tôi",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Gọi cho chúng tôi",
@@ -5389,7 +5389,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Încetarea de către dumneavoastră",
             "paragraphs": [
               "Vă puteți închide contul și puteți înceta utilizarea Serviciilor în orice moment prin setările contului sau contactându-ne. Taxele plătite în avans sunt nerambursabile, cu excepția cazului în care se specifică altfel în scris.",
-              "Puteți solicita ștergerea datelor identificabile ale clienților, scriind la legal@sundae.io în termen de șaizeci (60) de zile de la reziliere. Înțelegeți că Datele clienților provin din propriile sisteme operaționale și că mențineți acces independent la acestea în orice moment. Sundae va depune eforturi rezonabile pentru a șterge Datele identificabile ale Clientului în termen de nouăzeci (90) de zile de la o solicitare validă, cu excepția cazului în care păstrarea este necesară prin lege, pentru a rezolva disputele sau pentru copii de rezervă de rutină. Datele agregate neidentificabile și datele de referință nu fac obiectul solicitărilor de ștergere și pot fi păstrate pe termen nelimitat, în conformitate cu Secțiunea 13.4."
+              "Puteți solicita ștergerea datelor identificabile ale clienților, scriind la legal@sundaetechnologies.com în termen de șaizeci (60) de zile de la reziliere. Înțelegeți că Datele clienților provin din propriile sisteme operaționale și că mențineți acces independent la acestea în orice moment. Sundae va depune eforturi rezonabile pentru a șterge Datele identificabile ale Clientului în termen de nouăzeci (90) de zile de la o solicitare validă, cu excepția cazului în care păstrarea este necesară prin lege, pentru a rezolva disputele sau pentru copii de rezervă de rutină. Datele agregate neidentificabile și datele de referință nu fac obiectul solicitărilor de ștergere și pot fi păstrate pe termen nelimitat, în conformitate cu Secțiunea 13.4."
             ]
           },
           {
@@ -5449,9 +5449,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Scrie-ne",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Sună-ne",
@@ -5780,7 +5780,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Uppsägning av dig",
             "paragraphs": [
               "Du kan avsluta ditt konto och sluta använda tjänsterna när som helst genom dina kontoinställningar eller genom att kontakta oss. Avgifter som betalas i förskott återbetalas inte om inte annat anges skriftligen.",
-              "Du kan begära radering av identifierbar kunddata genom att skriva till legal@sundae.io inom sextio (60) dagar efter uppsägningen. Du förstår att kunddata kommer från dina egna operativa system och att du alltid har oberoende tillgång till dem. Sundae kommer att vidta rimliga ansträngningar för att radera identifierbar kunddata inom nittio (90) dagar efter en giltig begäran, utom där lagring är nödvändig enligt lag, för att lösa tvister eller för rutinmässiga säkerhetskopieringar. Icke identifierbara aggregerade data och benchmarkdata är inte föremål för raderingsförfrågningar och kan behållas på obestämd tid i enlighet med avsnitt 13.4."
+              "Du kan begära radering av identifierbar kunddata genom att skriva till legal@sundaetechnologies.com inom sextio (60) dagar efter uppsägningen. Du förstår att kunddata kommer från dina egna operativa system och att du alltid har oberoende tillgång till dem. Sundae kommer att vidta rimliga ansträngningar för att radera identifierbar kunddata inom nittio (90) dagar efter en giltig begäran, utom där lagring är nödvändig enligt lag, för att lösa tvister eller för rutinmässiga säkerhetskopieringar. Icke identifierbara aggregerade data och benchmarkdata är inte föremål för raderingsförfrågningar och kan behållas på obestämd tid i enlighet med avsnitt 13.4."
             ]
           },
           {
@@ -5840,9 +5840,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Skriv till oss",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Ring oss",
@@ -6171,7 +6171,7 @@ export const generatedTermsCopy = {
             "title": "18.2 আপনার দ্বারা সমাপ্তি",
             "paragraphs": [
               "আপনি আপনার অ্যাকাউন্ট সেটিংসের মাধ্যমে বা আমাদের সাথে যোগাযোগ করে যেকোনো সময় আপনার অ্যাকাউন্ট বন্ধ করতে পারেন এবং পরিষেবাগুলি ব্যবহার করা বন্ধ করতে পারেন৷ অন্যথায় লিখিতভাবে নির্দিষ্ট করা না থাকলে অগ্রিম প্রদত্ত ফি অ-ফেরতযোগ্য।",
-              "আপনি সমাপ্তির ষাট (60) দিনের মধ্যে legal@sundae.io-তে লিখে শনাক্তযোগ্য গ্রাহক ডেটা মুছে ফেলার অনুরোধ করতে পারেন। আপনি বোঝেন যে গ্রাহক ডেটা আপনার নিজস্ব অপারেশনাল সিস্টেম থেকে আসে এবং আপনি সর্বদা এটিতে স্বাধীন অ্যাক্সেস বজায় রাখেন। Sundae একটি বৈধ অনুরোধের নব্বই (90) দিনের মধ্যে শনাক্তযোগ্য গ্রাহক ডেটা মুছে ফেলার যুক্তিসঙ্গত প্রচেষ্টা ব্যবহার করবে, যেখানে আইন দ্বারা ধারণ করা প্রয়োজন, বিরোধগুলি সমাধান করার জন্য বা রুটিন ব্যাকআপের জন্য। অ-শনাক্তযোগ্য সমষ্টিগত ডেটা এবং বেঞ্চমার্ক ডেটা মুছে ফেলার অনুরোধের বিষয় নয় এবং বিভাগ 13.4 অনুযায়ী অনির্দিষ্টকালের জন্য রাখা যেতে পারে।"
+              "আপনি সমাপ্তির ষাট (60) দিনের মধ্যে legal@sundaetechnologies.com-তে লিখে শনাক্তযোগ্য গ্রাহক ডেটা মুছে ফেলার অনুরোধ করতে পারেন। আপনি বোঝেন যে গ্রাহক ডেটা আপনার নিজস্ব অপারেশনাল সিস্টেম থেকে আসে এবং আপনি সর্বদা এটিতে স্বাধীন অ্যাক্সেস বজায় রাখেন। Sundae একটি বৈধ অনুরোধের নব্বই (90) দিনের মধ্যে শনাক্তযোগ্য গ্রাহক ডেটা মুছে ফেলার যুক্তিসঙ্গত প্রচেষ্টা ব্যবহার করবে, যেখানে আইন দ্বারা ধারণ করা প্রয়োজন, বিরোধগুলি সমাধান করার জন্য বা রুটিন ব্যাকআপের জন্য। অ-শনাক্তযোগ্য সমষ্টিগত ডেটা এবং বেঞ্চমার্ক ডেটা মুছে ফেলার অনুরোধের বিষয় নয় এবং বিভাগ 13.4 অনুযায়ী অনির্দিষ্টকালের জন্য রাখা যেতে পারে।"
             ]
           },
           {
@@ -6231,9 +6231,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "আমাদের লিখুন",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "আমাদের কল",
@@ -6562,7 +6562,7 @@ export const generatedTermsCopy = {
             "title": "18.2 การยกเลิกโดยคุณ",
             "paragraphs": [
               "คุณสามารถยกเลิกบัญชีของคุณและหยุดใช้บริการได้ตลอดเวลาผ่านการตั้งค่าบัญชีของคุณหรือติดต่อเรา ค่าธรรมเนียมที่ชำระล่วงหน้าไม่สามารถขอคืนได้ เว้นแต่จะระบุไว้เป็นอย่างอื่นเป็นลายลักษณ์อักษร",
-              "คุณสามารถขอให้ลบข้อมูลลูกค้าที่สามารถระบุตัวตนได้โดยเขียนถึง legal@sundae.io ภายในหกสิบ (60) วันนับจากวันสิ้นสุด คุณเข้าใจว่าข้อมูลลูกค้ามาจากระบบปฏิบัติการของคุณเอง และคุณรักษาการเข้าถึงข้อมูลดังกล่าวได้อย่างอิสระตลอดเวลา Sundae จะใช้ความพยายามตามสมควรในการลบข้อมูลลูกค้าที่สามารถระบุตัวตนได้ภายในเก้าสิบ (90) วันนับจากการร้องขอที่ถูกต้อง ยกเว้นในกรณีที่กฎหมายจำเป็นต้องเก็บรักษา เพื่อแก้ไขข้อพิพาท หรือสำหรับการสำรองข้อมูลตามปกติ ข้อมูลรวมและข้อมูลเกณฑ์มาตรฐานที่ไม่สามารถระบุตัวตนได้จะไม่อยู่ภายใต้คำขอลบและอาจจะถูกเก็บไว้อย่างไม่มีกำหนดตามส่วนที่ 13.4"
+              "คุณสามารถขอให้ลบข้อมูลลูกค้าที่สามารถระบุตัวตนได้โดยเขียนถึง legal@sundaetechnologies.com ภายในหกสิบ (60) วันนับจากวันสิ้นสุด คุณเข้าใจว่าข้อมูลลูกค้ามาจากระบบปฏิบัติการของคุณเอง และคุณรักษาการเข้าถึงข้อมูลดังกล่าวได้อย่างอิสระตลอดเวลา Sundae จะใช้ความพยายามตามสมควรในการลบข้อมูลลูกค้าที่สามารถระบุตัวตนได้ภายในเก้าสิบ (90) วันนับจากการร้องขอที่ถูกต้อง ยกเว้นในกรณีที่กฎหมายจำเป็นต้องเก็บรักษา เพื่อแก้ไขข้อพิพาท หรือสำหรับการสำรองข้อมูลตามปกติ ข้อมูลรวมและข้อมูลเกณฑ์มาตรฐานที่ไม่สามารถระบุตัวตนได้จะไม่อยู่ภายใต้คำขอลบและอาจจะถูกเก็บไว้อย่างไม่มีกำหนดตามส่วนที่ 13.4"
             ]
           },
           {
@@ -6622,9 +6622,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "เขียนถึงเรา",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "โทรหาเรา",
@@ -6953,7 +6953,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Penamatan oleh anda",
             "paragraphs": [
               "Anda boleh menamatkan akaun anda dan berhenti menggunakan Perkhidmatan pada bila-bila masa melalui tetapan akaun anda atau dengan menghubungi kami. Yuran yang dibayar terlebih dahulu tidak boleh dikembalikan melainkan dinyatakan sebaliknya secara bertulis.",
-              "Anda boleh meminta pemadaman Data Pelanggan yang boleh dikenal pasti dengan menulis kepada legal@sundae.io dalam tempoh enam puluh (60) hari selepas penamatan. Anda memahami bahawa Data Pelanggan datang daripada sistem operasi anda sendiri dan anda mengekalkan akses bebas kepadanya pada setiap masa. Sundae akan menggunakan usaha yang munasabah untuk memadamkan Data Pelanggan yang boleh dikenal pasti dalam masa sembilan puluh (90) hari dari permintaan yang sah, kecuali jika pengekalan diperlukan oleh undang-undang, untuk menyelesaikan pertikaian, atau untuk sandaran rutin. Data Agregat dan Data Penanda Aras yang tidak boleh dikenal pasti tidak tertakluk kepada permintaan pemadaman dan boleh disimpan selama-lamanya mengikut Seksyen 13.4."
+              "Anda boleh meminta pemadaman Data Pelanggan yang boleh dikenal pasti dengan menulis kepada legal@sundaetechnologies.com dalam tempoh enam puluh (60) hari selepas penamatan. Anda memahami bahawa Data Pelanggan datang daripada sistem operasi anda sendiri dan anda mengekalkan akses bebas kepadanya pada setiap masa. Sundae akan menggunakan usaha yang munasabah untuk memadamkan Data Pelanggan yang boleh dikenal pasti dalam masa sembilan puluh (90) hari dari permintaan yang sah, kecuali jika pengekalan diperlukan oleh undang-undang, untuk menyelesaikan pertikaian, atau untuk sandaran rutin. Data Agregat dan Data Penanda Aras yang tidak boleh dikenal pasti tidak tertakluk kepada permintaan pemadaman dan boleh disimpan selama-lamanya mengikut Seksyen 13.4."
             ]
           },
           {
@@ -7013,9 +7013,9 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "Tulis kepada kami",
-        "value": "legal@sundae.io",
+        "value": "legal@sundaetechnologies.com",
         "icon": "support",
-        "href": "mailto:legal@sundae.io"
+        "href": "mailto:legal@sundaetechnologies.com"
       },
       {
         "title": "Hubungi kami",

@@ -107,7 +107,7 @@ export default function FAQPage() {
           <Button variant="ghost" onClick={() => cta('/contact', 'contact_from_faq', { page: '/faq' })} className="max-w-full whitespace-normal! text-start">{copy.contactUs}</Button>
         </div>
         <p className="mt-6 text-sm leading-relaxed text-[var(--text-supporting)]">
-          {copy.emailSupportPrefix}{' '}<a href="mailto:support@sundae.io" className="inline-flex min-h-11 items-center underline underline-offset-4 hover:text-[var(--text-warm)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-warm)]">support@sundae.io</a>
+          {copy.emailSupportPrefix}{' '}<a href="mailto:support@sundaetechnologies.com" className="inline-flex min-h-11 items-center underline underline-offset-4 hover:text-[var(--text-warm)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-warm)]">support@sundaetechnologies.com</a>
         </p>
       </GuidanceClose>
     </div>

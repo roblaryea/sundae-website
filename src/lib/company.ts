@@ -21,9 +21,9 @@ export const COMPANY = {
     country: 'United States',
   },
   registeredAgent: 'Firstbase Agent LLC',
-  supportEmail: 'support@sundae.io',
-  privacyEmail: 'privacy@sundae.io',
-  legalEmail: 'legal@sundae.io',
+  supportEmail: 'support@sundaetechnologies.com',
+  privacyEmail: 'privacy@sundaetechnologies.com',
+  legalEmail: 'legal@sundaetechnologies.com',
   website: SITE_URL,
   /** All domains operated by Sundae Technologies Inc. */
   operatingDomains: [

@@ -83,7 +83,7 @@ const GuidedBookingHandoff = dynamic(() => import('./guidedBooking/GuidedBooking
 
 /** Typing indicator before each new Sundae line: within the 250-400 ms rule. */
 const TYPING_MS = 320;
-const SUPPORT_EMAIL = 'support@sundae.io';
+const SUPPORT_EMAIL = 'support@sundaetechnologies.com';
 
 export interface ConversationalLeadCaptureProps {
   mode: ConversationMode;
