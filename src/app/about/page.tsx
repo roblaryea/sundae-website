@@ -75,7 +75,7 @@ const aboutCopy = {
     values: [
       { title: "Operators First", description: "Every feature exists because an operator needed it. We don't build for demos - we build for shifts.", proof: "Built by a team that scaled restaurants to $10M+ before writing a line of code.", icon: "owners" },
       { title: "Intelligence First", description: "Scattered data is expensive. We turn 12 systems into one intelligent layer that actually drives decisions.", proof: "Revenue, labour, inventory, purchasing, marketing, reservations, delivery and guests - covered in one place.", icon: "insights" },
-      { title: "Real-Time Decisions", description: "Weekly reports cost you money. The operators who win are the ones who fix problems while they still can - and know afterwards whether the fix actually worked.", proof: "Pulse refreshes every 5 minutes across every location.", icon: "speed" },
+      { title: "Real-Time Decisions", description: "Weekly reports cost you money. The operators who win are the ones who fix problems while they still can - and know afterwards whether the fix actually worked.", proof: "Pulse refreshes POS sales every 5 minutes, around the clock.", icon: "speed" },
       { title: "Raise the Standard", description: "We want operators to expect more from a data stack than another dashboard: a number worth acting on, and evidence the action returned something.", proof: "Localized in 22 languages, with enterprise groups adopting platform-wide.", icon: "growth" },
     ],
     presenceSubheadings: {
@@ -151,7 +151,7 @@ const aboutCopy = {
     values: [
       { title: "المشغل أولاً", description: "كل ميزة موجودة لأن مشغلًا احتاجها. نحن لا نبني للعروض - نحن نبني للورديات.", proof: "فريق وسّع المطاعم إلى أكثر من 10 ملايين دولار قبل أن يكتب سطرًا واحدًا من الكود.", icon: "owners" },
       { title: "الذكاء أولاً", description: "البيانات المبعثرة مكلفة. نحول 12 نظامًا إلى طبقة ذكية واحدة تدفع القرار فعلًا.", proof: "أكثر من 30 وحدة عبر 12 مجالًا تشغيليًا - من الإيرادات إلى الحجوزات.", icon: "insights" },
-      { title: "قرارات لحظية", description: "التقارير الأسبوعية تكلفك مالًا. الفائزون هم من يرون المشاكل قبل أن يصبح إصلاحها مكلفًا.", proof: "Pulse يتحدث كل 5 دقائق عبر كل موقع.", icon: "speed" },
+      { title: "قرارات لحظية", description: "التقارير الأسبوعية تكلفك مالًا. الفائزون هم من يرون المشاكل قبل أن يصبح إصلاحها مكلفًا.", proof: "يحدّث Pulse مبيعات POS كل 5 دقائق على مدار الساعة.", icon: "speed" },
       { title: "رفع المستوى", description: "نضع معيارًا جديدًا لكيف تتخذ مجموعات المطاعم قراراتها التشغيلية حول العالم.", proof: "متوفّرون بـ 22 لغة مع اعتماد مؤسسي على مستوى المنصة.", icon: "growth" },
     ],
     presenceSubheadings: {
@@ -227,7 +227,7 @@ const aboutCopy = {
     values: [
       { title: "Opérateurs d'abord", description: "Chaque fonctionnalité existe parce qu'un opérateur en avait besoin. Nous ne construisons pas pour les démos - nous construisons pour les services.", proof: "Construit par une équipe qui a porté des restaurants à plus de 10 M$ avant d'écrire une ligne de code.", icon: "owners" },
       { title: "Intelligence d'abord", description: "Les données dispersées coûtent cher. Nous transformons 12 systèmes en une couche intelligente qui aide vraiment à décider.", proof: "12 modules sur 12 domaines opérationnels - du revenu aux réservations.", icon: "insights" },
-      { title: "Décisions temps réel", description: "Les rapports hebdomadaires vous coûtent de l'argent. Les opérateurs qui gagnent voient les problèmes à temps pour les corriger.", proof: "Pulse se rafraîchit toutes les 5 minutes sur chaque site.", icon: "speed" },
+      { title: "Décisions temps réel", description: "Les rapports hebdomadaires vous coûtent de l'argent. Les opérateurs qui gagnent voient les problèmes à temps pour les corriger.", proof: "Pulse rafraîchit les ventes POS toutes les 5 minutes, 24 h sur 24.", icon: "speed" },
       { title: "Relever le standard", description: "Nous définissons la référence de la décision opérationnelle pour les groupes restaurant du monde entier.", proof: "Localisé en 22 langues, avec des groupes enterprise qui adoptent la plateforme.", icon: "growth" },
     ],
     presenceSubheadings: {
@@ -303,7 +303,7 @@ const aboutCopy = {
     values: [
       { title: "Operadores primero", description: "Cada función existe porque un operador la necesitó. No construimos para demos - construimos para los turnos.", proof: "Construido por un equipo que escaló restaurantes a más de 10 M$ antes de escribir una sola línea de código.", icon: "owners" },
       { title: "Inteligencia primero", description: "Los datos dispersos cuestan dinero. Convertimos 12 sistemas en una sola capa inteligente que realmente impulsa decisiones.", proof: "12 módulos en 12 dominios operativos - de ingresos a reservas.", icon: "insights" },
-      { title: "Decisiones en tiempo real", description: "Los informes semanales te cuestan dinero. Los operadores que ganan ven los problemas a tiempo para arreglarlos.", proof: "Pulse se refresca cada 5 minutos en todas las ubicaciones.", icon: "speed" },
+      { title: "Decisiones en tiempo real", description: "Los informes semanales te cuestan dinero. Los operadores que ganan ven los problemas a tiempo para arreglarlos.", proof: "Pulse refresca las ventas del POS cada 5 minutos, las 24 horas.", icon: "speed" },
       { title: "Subir el estándar", description: "Estamos definiendo cómo los grupos de restaurantes toman decisiones operativas en todo el mundo.", proof: "Localizado en 22 idiomas, con grupos enterprise adoptando la plataforma completa.", icon: "growth" },
     ],
     presenceSubheadings: {
